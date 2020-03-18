@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
 
@@ -34,7 +34,7 @@ De workflow voor het proces is als volgt:
 
 ## Handlers bijwerken {#update-handlers}
 
-De ***ContentSync*** gebruikt updatehandlers om alle noodzakelijke pagina&#39;s en activa voor een specifiek project te ontleden en te verzamelen. In AEM-rasters worden de volgende updatehandlers gebruikt:
+De ***ContentSync*** gebruikt updatemanagers om alle noodzakelijke pagina&#39;s en activa voor een specifiek project te ontleden en te verzamelen. In AEM-rasters worden de volgende updatehandlers gebruikt:
 
 ### Algemene opties {#common-options}
 
@@ -113,3 +113,5 @@ Volg de onderstaande stappen om offline config voor een kanaal toe te laten:
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
+>[!NOTE]
+> Meer over het malplaatje voor douane off-line middelmanagers en de minimumvereisten in `pom.xml` voor dat specifieke project leren, verwijs naar [Malplaatje voor de Managers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) van de Douane in het **Ontwikkelen van een Component van de Douane voor Schermen** AEM.
