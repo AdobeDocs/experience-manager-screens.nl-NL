@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
 
 ---
 
@@ -127,7 +127,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. Herhaal stap b) en selecteer nu **Volgkanaal** in de wizard. Voer de **titel** in als **Gebied A** en **Naam** als **regio **voor dit kanaal.
    >[!CAUTION]
    >
-   >Zorg ervoor dat u bij het maken van **kanaalgebied A** de **titel** opgeeft als **Gebied A **en de **naam** als **gebied**.
+   >Zorg ervoor dat bij het maken van **kanaalgebied A** de **titel** wordt ingevoerd als **gebied A** en de **naam** als **gebied**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -153,7 +153,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
-   Maak op dezelfde manier een display als **Store2Display** en een kanaal **Store2Channel** onder** Store 2** (met naam als **winkel**).
+   Maak op dezelfde manier een display als **Store2Display** en een kanaal **Store2Channel** onder **Store 2** (met naam als **winkel**).
 
    >[!NOTE]
    >
@@ -205,7 +205,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. Navigeer naar **Demo** —> **Planningen** —> **AdSchedule** en klik op **Dashboard** op de actiebalk.
    1. Klik op **+ Kanaal** toewijzen vanuit het deelvenster **TOEGEWEZEN KANALEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
    1. Referentiekanaal **** selecteren.. per pad.
-   1. Selecteer het **Kanaalpad** als **demo*** —> ***Kanalen*** —> ***Globaal***.
+   1. Selecteer het **Kanaalpad** als **demo** —> ***Kanalen*** —> ***Globaal***.
    1. Voer de rol **** Kanaal in als **GlobalAdSegment**.
    1. Selecteer de **Ondersteunde gebeurtenissen** als **Eerste Laden**, **Niet-actief scherm** en **Gebruikersinteractie**.
    1. Click **Save**.
@@ -213,10 +213,10 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    1. Klik op **+ Kanaal** toewijzen vanuit het deelvenster **TOEGEWEZEN KANALEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
    1. Referentiekanaal **** selecteren.. op naam.
-   1. Voer de **kanaalnaam** in als **gebied***.*
+   1. Voer de **kanaalnaam** in als **gebied***.
    1. Voer de rol **** Kanaal in als **RegionAdSegment**.
    1. Click **Save**.
-   **Kanaal op rol toewijzen voor winkel:**
+   **Kanaal op rol toewijzen voor winkel:
 
    1. Klik op **+ Kanaal** toewijzen vanuit het deelvenster **TOEGEWEZEN KANALEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
    1. Referentiekanaal **** selecteren.. op naam.
@@ -274,7 +274,7 @@ Als u het weergavepad toewijst als **Demo** —> **Locaties** —> **Regio A** �
 
 **Scenario 1**:
 
-Als u het weergavepad toewijst als **Demo** —> **Locaties** —> **Gebied B** —>* Winkel 3** —> **Store3Display**, wordt de volgende inhoud weergegeven op uw AEM-schermspeler.
+Als u het weergavepad toewijst als **Demo** —> **Locaties** —> **Gebied B** —> **Winkel 3** —> **Store3Display**, wordt de volgende inhoud weergegeven op uw AEM-schermspeler.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -365,7 +365,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen en ACLs vo
    **Voor Regionaal-Auteur:**
 
    1. Navigate to the **Permissions** tab.
-   1. Navigeer naar ***/content/screens/demo*** en controleer alleen de** Read* machtigingen.
+   1. Navigeer naar ***/content/screens/demo*** en controleer alleen de **leesmachtigingen** .
    1. Navigeer naar ***/content/screens/demo/locations*** en controleer alleen de **Leesmachtigingen** .
    1. Navigeer naar ***/content/screens/demo/channel ***en schakel de machtigingen voor het **Global**-kanaal uit.***
    1. Navigeer naar ***/content/screens/demo/locations***/***region-a*** en controleer alle machtigingen. Controleer op dezelfde manier de machtigingen voor **region-b**.
@@ -389,7 +389,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen en ACLs vo
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   De volgende afbeelding laat zien dat de **winkel-gebruiker** nu alleen toegang heeft tot de vier winkels, namelijk **Store 1**, **Store 2**, **Store 3** en **Store 4** **** ****, maar niet over toegangsrechten tot de kanalenGlobal of het gebied (**Region A **Region A en*Region B).
+   De volgende afbeelding laat zien dat de **winkel-gebruiker** nu alleen toegang heeft tot de vier winkels, namelijk **Store 1**, **Store 2**, **Store 3** en **Store 4** ******** ****, maar geen toegangsrechten heeft tot de kanalenGlobal of region (Region A enRegion B).
 
    ![winkel](assets/store.gif)
 
