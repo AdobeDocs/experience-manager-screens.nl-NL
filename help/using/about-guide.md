@@ -4,7 +4,7 @@ seo-title: Beschrijving op de Guide
 description: Deze pagina beschrijft de intent van de Gids van Beste praktijken
 seo-description: Deze pagina beschrijft de intent van de Gids van Beste praktijken
 translation-type: tm+mt
-source-git-commit: 61cf90bd834d2afa1e09a2f8371984c9635fac23
+source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
 
 ---
 
