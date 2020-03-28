@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f30bfdba-8db6-482b-8d0c-2818fc58e2b1
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 23a6019e27f10ff0e207ddc9c279dc7d42942098
 
 ---
 
@@ -68,8 +68,12 @@ Raadpleeg de volgende zelfstudies en bronnen om Adobe Experience Manager 6.5 te 
 * **AEM 6.5-zelfstudies en -video**: Een verzameling zelfstudies en video&#39;s waarin de nieuwe en bijgewerkte mogelijkheden voor AEM-sites, -middelen, -formulieren, -schermen en -stichting worden benadrukt met de release van AEM 6.5.
 * **AEM Core Concepts**: Een overzicht van de kernconcepten van hoe AEM wordt gestructureerd en hoe te om bovenop het te ontwikkelen met inbegrip van het begrijpen van JCR, Sling, OSGi, de verzender, de werkschema&#39;s, en MSM.
 
-### Essentiële elementen voor implementatie met instructies {#guided-implementation-essentials}
+## Additional Resources {#additional-resources}
+
+* **Essentiële elementen voor implementatie met instructies**
 
 Volg de **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**van het geleide leerpad, dat zowel fundamentele als geavanceerde functies omvat die in de Schermen van AEM worden gesteund.
 
-Bij het maken van een nieuw project kunnen verschillende functies elkaar overlappen, afhankelijk van uw organisatorische en zakelijke vereisten.
+* **Best Practices Guide for AEM Screens projects**
+
+Volg de gids van [Beste praktijken voor AEM Schermprojecten](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) die wordt ontworpen om gemeenschappelijke valkuilen te identificeren terwijl het uitvoeren van een project van de Schermen AEM en het materiaal concentreert zich hoofdzakelijk op de Rollen en Verantwoordelijkheden van het Project, RACI Grafiek voor de Verschillende Configuraties van het Platform van Roles AEM, en Steun en Controle.
