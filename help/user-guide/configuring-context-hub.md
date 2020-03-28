@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -48,17 +48,34 @@ Voordat u de Configuratie van de Hub van de Context voor een project van het Sch
 >
 >Raadpleeg de API-sleutel [](https://developers.google.com/maps/documentation/javascript/get-api-key) ophalen in de documentatie van Google voor meer informatie.
 
+
 ## Stap 1: Een gegevensopslag instellen {#step-setting-up-a-data-store}
 
 U kunt de gegevensopslag instellen als een lokale I/O-gebeurtenis of als een lokale databasegebeurtenis.
 
-### Lokale I/O-gebeurtenis {#local-io-event}
+De volgende gegevens van het activaniveau brengen voorbeeld teweeg toont een lokale gegevensbestandgebeurtenis die opstelling een gegevensopslag zoals een Excel blad dat u toestaat om configuraties ContextHub en segmentweg aan het kanaal van de Schermen van AEM te gebruiken.
 
-Volg de stappen hieronder aan opstelling een gegevensopslag zoals een gebeurtenis ASCII die u toestaat om configuraties ContextHub en segmentweg aan het kanaal van de Schermen van AEM te gebruiken.
+Nadat u het Google-blad correct hebt ingesteld, bijvoorbeeld zoals hieronder wordt getoond:
 
-### Lokale databasegebeurtenis {#local-db-event}
+![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Volg de stappen hieronder aan opstelling een gegevensopslag zoals een Excel blad dat u toestaat om configuraties ContextHub en segmentweg aan het kanaal van de Schermen van AEM te gebruiken.
+De volgende validatie wordt weergegeven wanneer u de verbinding controleert door de Google sheet-id en de API-sleutel in te voeren in de onderstaande notatie:
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![image](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**De Google-bladwaarden in AEM gebruiken **>De Google Sheets zullen zijn waarden in de Winkel blootstellen ContextHub, en zal beschikbaar zijn onder`<store-name>/values/<i>/<j>`, waar`<i>`en`<j>`zijn de rij en kolomindexen in spreadsheet (die van 0).
+>
+> * /values/0/0 punten naar A1
+> * /values/5/0 punten naar A5
+> * /values/0/5 punten naar E1
+
+
+In het onderstaande specifieke voorbeeld wordt het Excel-werkblad weergegeven als een gegevensopslagruimte die de wijziging van het element activeert wanneer de waarde hoger is dan 100 of lager dan 50.
+
 
 1. **Navigeren naar ContextHub**
 
@@ -85,14 +102,14 @@ Volg de stappen hieronder aan opstelling een gegevensopslag zoals een Excel blad
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -104,8 +121,8 @@ Volg de stappen hieronder aan opstelling een gegevensopslag zoals een Excel blad
    >Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald tijdens het instellen van de Google Sheets.
 
    >[!CAUTION]
-   Als u uw Google Sheets-opslagconfiguraties maakt buiten de oude map (bijvoorbeeld in uw eigen projectmap), werkt het aanwijzen van doelen niet uit de doos.
-   Als u de Google Sheets-opslagconfiguraties buiten de algemene oudere map wilt configureren, moet u de **winkelnaam** instellen als **segmentatie** en **winkeltype** als **aem.segmentation**. Daarnaast moet u het proces voor het definiëren van de JSON, zoals hierboven gedefinieerd, overslaan.
+   Als u uw Google Sheets-opslagconfiguraties buiten de algemene map maakt (bijvoorbeeld in uw eigen projectmap), werkt het aanwijzen van doelen niet uit de doos.
+   Als u de Google Sheets-opslagconfiguraties buiten de algemene map wilt configureren, moet u de **winkelnaam** instellen als **segmentatie** en **winkeltype** als **aem.segmentation**. Daarnaast moet u het proces voor het definiëren van de JSON, zoals hierboven gedefinieerd, overslaan.
 
 1. **Een merk in activiteiten maken**
 
@@ -141,7 +158,7 @@ Nadat u een gegevensopslagruimte hebt ingesteld en uw merk hebt gedefinieerd, vo
 
 1. **Segmenten maken voor het publiek**
 
-   1. Navigeer van uw instantie AEM aan **Personalisatie** > **Soorten** > **Wij.Detailhandel**.
+   1. Navigeer van uw instantie AEM aan **Personalisatie** > **Publiek** > de **schermen**.
 
    1. Klik op **Maken** > Context Hub Segment **maken.** Het **Nieuwe de dialoogvakje van het Segment** ContextHub opent.
 
@@ -149,7 +166,7 @@ Nadat u een gegevensopslagruimte hebt ingesteld en uw merk hebt gedefinieerd, vo
 
 1. **Segmenten bewerken**
 
-   1. Selecteer de segmentbladen **A1 1** (gemaakt in stap (5)) en klik op **Bewerken** op de actiebalk.
+   1. Selecteer de segmentbladen **A1 1** en klik op **Bewerken** op de actiebalk.
 
    1. Sleep en zet de **vergelijking neer: Eigenschap - de component van de Waarde** aan de redacteur.
    1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap vergelijken met een waarde** te openen.
@@ -172,8 +189,9 @@ Nadat u een gegevensopslagruimte hebt ingesteld en uw merk hebt gedefinieerd, vo
    1. Selecteer **Operator** als **Gelijk** van het drop-down menu.
 
    1. Voer de **waarde** in als **2**.
-   >[!NOTE]
-   De regels die in de voorafgaande stappen worden toegepast zijn enkel een voorbeeld van hoe u opstellingssegmenten voor het uitvoeren van de volgende gebruiksgevallen.
+
+
+
 
 ## Stap 3: Het richten in Kanalen toelaten {#step-enabling-targeting-in-channels}
 
