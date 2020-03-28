@@ -72,8 +72,8 @@ Raadpleeg de volgende zelfstudies en bronnen om Adobe Experience Manager 6.5 te 
 
 * **Essentiële elementen voor implementatie met instructies**
 
-Volg de **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**van het geleide leerpad, dat zowel fundamentele als geavanceerde functies omvat die in de Schermen van AEM worden gesteund.
+   Volg de **[AEM Screens Implementation Essentials](https://guided.adobe.com/?launch=AEM-7a#recommended/solutions/experience-manager)**van het geleide leerpad, dat zowel fundamentele als geavanceerde functies omvat die in de Schermen van AEM worden gesteund.
 
 * **Best Practices Guide for AEM Screens projects**
 
-Volg de gids van [Beste praktijken voor AEM Schermprojecten](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) die wordt ontworpen om gemeenschappelijke valkuilen te identificeren terwijl het uitvoeren van een project van de Schermen AEM en het materiaal concentreert zich hoofdzakelijk op de Rollen en Verantwoordelijkheden van het Project, RACI Grafiek voor de Verschillende Configuraties van het Platform van Roles AEM, en Steun en Controle.
+   Volg de gids van **[Beste praktijken voor Projecten](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**van het Scherm AEM die wordt ontworpen om gemeenschappelijke valkuilen te identificeren terwijl het uitvoeren van een project van het Scherm AEM. Het materiaal concentreert zich hoofdzakelijk op de Rollen en de Verantwoordelijkheden van het Project, RACI Grafiek voor de Verschillende Configuraties van het Platform van Rollen AEM, en Steun en Controle.
