@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 ---
 
@@ -59,70 +59,71 @@ Nadat u het Google-blad correct hebt ingesteld, bijvoorbeeld zoals hieronder wor
 
 ![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-De volgende validatie wordt weergegeven wanneer u de verbinding controleert door de Google sheet-id en de API-sleutel in te voeren in de onderstaande notatie:
+De volgende validatie wordt weergegeven wanneer u de verbinding controleert door de twee waarden, de *Google-werkblad-id* en de *API-sleutel* , in de onderstaande notatie in te voeren:
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
-
 >[!NOTE]
->**De Google-bladwaarden in AEM gebruiken **>De Google Sheets zullen zijn waarden in de Winkel blootstellen ContextHub, en zal beschikbaar zijn onder`<store-name>/values/<i>/<j>`, waar`<i>`en`<j>`zijn de rij en kolomindexen in spreadsheet (die van 0).
->
-> * /values/0/0 punten naar A1
-> * /values/5/0 punten naar A5
-> * /values/0/5 punten naar E1
+> In het onderstaande specifieke voorbeeld worden de Google-werkbladen weergegeven als een gegevensopslagruimte die een wijziging van het element veroorzaakt wanneer de waarde hoger is dan 100 of lager dan 50.
 
-
-In het onderstaande specifieke voorbeeld wordt het Excel-werkblad weergegeven als een gegevensopslagruimte die de wijziging van het element activeert wanneer de waarde hoger is dan 100 of lager dan 50.
-
+## Stap 2: De Google Sheets verbinden met AEM-instantie {#step-connecting-aem-instance}
 
 1. **Navigeren naar ContextHub**
 
    Navigeer naar de AEM-instantie en klik vanuit de linkerzijbalk op het gereedschapspictogram. Klik **Plaatsen** -> **ContextHub**, zoals aangetoond in het hieronder cijfer.
 
-   ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **Het creëren van een nieuwe Configuratie van de Opslag ContextHub**
 
-   1. Navigeer aan **globaal** > **gebrek** > Configuratie **** ContextHub.
+   1. Navigeer naar de configuratiecontainer met de naam **screens**.
 
-   1. Klik **creëren** > de Container **van de** Configuratie en ga de titel als **ContextHubDemo** in.
+   1. Klik **creëren** > **creeer de Container** van de Configuratie en ga de titel als **ContextHubDemo** in.
 
-   1. **Navigeer** aan **ContextHubDemo** > de Configuratie van de Opslag **ContentHub...** om de **Configure tovenaar** te openen.
+      ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. Voer de **titel** in als **Google Sheets**, **Winkelnaam** als **gumesheets** en **Winkeltype** **als ContextOffset.generic-jsonp**
+   1. **Navigeer** aan **ContextHubDemo** > **creeer** **Configuratie** ContentHub en klik **sparen**.
 
-   1. Click **Next**
-   1. Voer uw specifieke json-configuratie in. U kunt bijvoorbeeld de volgende json gebruiken voor demodoeleinden.
-   1. Click **Save**.
+      >[!NOTE]
+      > Nadat u **sparen** klikt zult u in het scherm van de Configuratie **van** ContextHub zijn.
 
-   ```
-   {
-     "service": {
-       "host": "sheets.googleapis.com",
-       "port": 80,
-       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
-       "jsonp": false,
-       "secure": true,
-       "params": {
-         "key": "<your Google API key>"
+   1. Van het **scherm van de Configuratie** ContextHub, leidt de klik **tot** > de Configuratie van de Opslag **ContentHub.**
+
+      ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+
+   1. Voer de **titel** in als **Google Sheets**, de **winkelnaam** als **gumesheets** en het **winkeltype** **** ****als contexthub.generic-jsonp en klik op Next.
+      ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+
+   1. Voer uw specifieke json-configuratie in. Bijvoorbeeld, kunt u de volgende json voor demodoeleinden gebruiken en **sparen** klikken en u zult de opslagconfiguratie zien die als **Bladen** van Google in configuratie ContextHub wordt genoemd.
+
+      >[!IMPORTANT]
+      >Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald tijdens het instellen van de Google Sheets.
+
+      ```
+       {
+        "service": {
+        "host": "sheets.googleapis.com",
+        "port": 80,
+        "path": "/v4/spreadsheets/<your google sheets id>/values/Sheet1",
+        "jsonp": false,
+        "secure": true,
+        "params": {
+        "key": "<your Google API key>"
        }
-     },
-     "pollInterval": 10000
-   }
-   ```
+      },
+      "pollInterval": 10000
+      }
+      ```
 
-   >[!NOTE]
-   >
-   >In de bovenstaande voorbeeldcode definieert **pollInterval** de frequentie waarmee de waarden worden vernieuwd (in ms).
-   >
-   >
-   >Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald tijdens het instellen van de Google Sheets.
+      >[!NOTE]
+      In de bovenstaande voorbeeldcode definieert **pollInterval** de frequentie waarmee de waarden worden vernieuwd (in ms).
+Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald tijdens het instellen van de Google Sheets.
 
-   >[!CAUTION]
-   Als u uw Google Sheets-opslagconfiguraties buiten de algemene map maakt (bijvoorbeeld in uw eigen projectmap), werkt het aanwijzen van doelen niet uit de doos.
-   Als u de Google Sheets-opslagconfiguraties buiten de algemene map wilt configureren, moet u de **winkelnaam** instellen als **segmentatie** en **winkeltype** als **aem.segmentation**. Daarnaast moet u het proces voor het definiëren van de JSON, zoals hierboven gedefinieerd, overslaan.
+      >[!CAUTION]
+      Als u uw Google Sheets-opslagconfiguraties buiten de algemene map maakt (bijvoorbeeld in uw eigen projectmap), werkt het aanwijzen van doelen niet uit de doos.
+   >Als u de Google Sheets-opslagconfiguraties buiten de algemene map wilt configureren, moet u de **winkelnaam** instellen als **segmentatie** en **winkeltype** als **aem.segmentation**. Daarnaast moet u het proces voor het definiëren van de JSON, zoals hierboven gedefinieerd, overslaan.
 
 1. **Een merk in activiteiten maken**
 
