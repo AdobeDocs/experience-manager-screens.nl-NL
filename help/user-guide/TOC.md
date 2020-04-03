@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -91,11 +91,12 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
    + [Een REACT-toepassing insluiten met AEM SPA Editor en integreren met AEM Screens Analytics](embedding-react-app.md)
    + [ContextHub configureren in AEM-schermen](configuring-context-hub.md)
    + [Aangepaste sjablonen maken voor MultiZone-layouts](creating-custom-templates-multizone-layouts.md)
+   + [Aangepaste branding en opmaak toepassen voor tekstbedekkingen](custom-branding-text-overlays.md)
 + Problemen oplossen en veelgestelde vragen {#troubleshooting}
    + [Veelgestelde vragen over AEM-schermen](aem-screens-faqs.md)
    + [Problemen oplossen in Device Control Center](monitoring-screens.md)
    + [Configuratie videoweergave](troubleshoot-videos.md)
-+ Releaseopmerkingen {#release-notes}
++ Release-opmerkingen {#release-notes}
    + [Opmerkingen bij de release voor Feature Pack 202001](release-notes-fp-202001.md)
    + [Opmerkingen bij de release voor Feature Pack 201909](release-notes-fp-201909.md)
    + [Opmerkingen bij de release voor Feature Pack 201907](release-notes-fp-201907.md)
