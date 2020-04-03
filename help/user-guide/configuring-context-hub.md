@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
+source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
 
 ---
 
@@ -42,12 +42,11 @@ Het volgende diagram verstrekt een visuele vertegenwoordiging van hoe de Configu
 
 Voordat u de Configuratie van de Hub van de Context voor een project van het Schermen AEM begint te vormen, moet u opstelling Google Bladen (voor demonstratiedoeleinden).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Google Sheets wordt in het volgende voorbeeld gebruikt als een voorbeelddatabasesysteem van waaruit de waarden worden opgehaald en is uitsluitend voor educatieve doeleinden. Adobe biedt geen ondersteuning voor het gebruik van Google Sheets voor productieomgevingen.
 >
 >Raadpleeg de API-sleutel [](https://developers.google.com/maps/documentation/javascript/get-api-key) ophalen in de documentatie van Google voor meer informatie.
-
 
 ## Stap 1: Een gegevensopslag instellen {#step-setting-up-a-data-store}
 
@@ -68,7 +67,7 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
 >[!NOTE]
 > In het onderstaande specifieke voorbeeld worden de Google-werkbladen weergegeven als een gegevensopslagruimte die een wijziging van het element veroorzaakt wanneer de waarde hoger is dan 100 of lager dan 50.
 
-## Stap 2: De Google Sheets verbinden met AEM-instantie {#step-connecting-aem-instance}
+## Stap 2: Opslagconfiguraties instellen {#step-setting-store-configurations}
 
 1. **Navigeren naar ContextHub**
 
@@ -123,7 +122,19 @@ Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald 
 
       >[!CAUTION]
       Als u uw Google Sheets-opslagconfiguraties buiten de algemene map maakt (bijvoorbeeld in uw eigen projectmap), werkt het aanwijzen van doelen niet uit de doos.
-   >Als u de Google Sheets-opslagconfiguraties buiten de algemene map wilt configureren, moet u de **winkelnaam** instellen als **segmentatie** en **winkeltype** als **aem.segmentation**. Daarnaast moet u het proces voor het definiëren van de JSON, zoals hierboven gedefinieerd, overslaan.
+
+1. **Opslagsegmentatie instellen**
+
+   1. Navigeer aan de Configuratie van de Opslag **ContentHub..** en maak een andere opslagconfiguratie in de container van de het schermconfiguratie en plaats de **Titel** als **segmentatie-contexthub**, **Naam** van de Opslag als **segmentatie** en Type **van** **** Opslag als aem.segmentation.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub7.png)
+
+   1. Klik op **Volgende** en **Opslaan**.
+
+      >[!NOTE]
+U moet het proces van het bepalen van de json overslaan en het als leeg verlaten.
+
+## Stap 3: Merk en gebied instellen {#setting-brand-area}
 
 1. **Een merk in activiteiten maken**
 
@@ -133,14 +144,15 @@ Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald 
 
    1. Selecteer **Merk** in de wizard **Pagina** maken en klik op **Volgende**
 
-   1. Ga de **Titel** als **ContextHubDemo** in en klik **creëren**. Je merk wordt nu gemaakt zoals hieronder wordt weergegeven.
-   ![screen_shot_2019-05-05at44305pm](assets/screen_shot_2019-05-05at44305pm.png)
+   1. Voer de **titel** in als **ScreensBrand** en klik op **Maken**. Je merk wordt nu gemaakt zoals hieronder wordt weergegeven.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
 
 
-   >[!CAUTION]
-   Bekend probleem:
-   Als u een gebied wilt toevoegen, verwijdert u het stramien uit de URL, bijvoorbeeld
-   `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
+      >[!CAUTION]
+      Bekend probleem:
+Als u een gebied wilt toevoegen, verwijdert u het stramien uit de URL, bijvoorbeeld
+      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
 
 1. **Een gebied in uw merk maken**
 
@@ -153,7 +165,7 @@ Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald 
    1. Voer de **titel** in als **GoogleSheets** en klik op **Maken**.
 Uw gebied wordt gemaakt in uw activiteiten.
 
-## Stap 2: Segmentering publiek instellen {#step-setting-up-audience-segmentation}
+## Stap 4: Segmentering publiek instellen {#step-setting-up-audience-segmentation}
 
 Nadat u een gegevensopslagruimte hebt ingesteld en uw merk hebt gedefinieerd, volgt u de onderstaande stappen om publiekssegmenten in te stellen.
 
@@ -194,7 +206,7 @@ Nadat u een gegevensopslagruimte hebt ingesteld en uw merk hebt gedefinieerd, vo
 
 
 
-## Stap 3: Het richten in Kanalen toelaten {#step-enabling-targeting-in-channels}
+## Het richten in Kanalen toelaten {#step-enabling-targeting-in-channels}
 
 Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te schakelen.
 
