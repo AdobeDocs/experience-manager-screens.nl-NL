@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -134,40 +134,10 @@ Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald 
       >[!NOTE]
 U moet het proces van het bepalen van de json overslaan en het als leeg verlaten.
 
-## Stap 3: Merk en gebied instellen {#setting-brand-area}
 
-1. **Een merk in activiteiten maken**
+## Stap 3: Publiek instellen {#setting-up-audience}
 
-   1. Navigeer van uw instantie AEM aan **Personalisatie** > **Activiteiten**
-
-   1. Klik op **Maken** > Merk **maken**
-
-   1. Selecteer **Merk** in de wizard **Pagina** maken en klik op **Volgende**
-
-   1. Voer de **titel** in als **ScreensBrand** en klik op **Maken**. Je merk wordt nu gemaakt zoals hieronder wordt weergegeven.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
-
-
-      >[!CAUTION]
-      Bekend probleem:
-Als u een gebied wilt toevoegen, verwijdert u het stramien uit de URL, bijvoorbeeld
-      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
-
-1. **Een gebied in uw merk maken**
-
-   Ga als volgt te werk om een gebied in het merk te maken:
-
-   1. Klik op **Maken** en vervolgens **Gebied maken**
-
-   1. Selecteer **Gebied** in de wizard **Pagina** maken en klik op Volgende
-
-   1. Voer de **titel** in als **GoogleSheets** en klik op **Maken**.
-Uw gebied wordt gemaakt in uw activiteiten.
-
-## Stap 4: Segmentering publiek instellen {#step-setting-up-audience-segmentation}
-
-Nadat u een gegevensopslagruimte hebt ingesteld en uw merk hebt gedefinieerd, volgt u de onderstaande stappen om publiekssegmenten in te stellen.
+In behandeling: om eigenschappen toe te voegen
 
 1. **Segmenten maken voor het publiek**
 
@@ -175,17 +145,38 @@ Nadat u een gegevensopslagruimte hebt ingesteld en uw merk hebt gedefinieerd, vo
 
    1. Klik op **Maken** > Context Hub Segment **maken.** Het **Nieuwe de dialoogvakje van het Segment** ContextHub opent.
 
-   1. Voer de **titel** in als **werkblad A1 1** en klik op **Maken**. Maak op dezelfde manier een ander segment met de naam **SheetA2 2**.
+   1. Voer de **titel** in als **TargetValue1** en klik op **Maken**. Maak op dezelfde manier een ander segment met de naam **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
+
+
+## Stap 4: Segmentering publiek instellen {#step-setting-up-audience-segmentation}
+
+In behandeling om bewerking toe te voegen
+
+Nadat u een gegevensopslagruimte hebt ingesteld en uw activiteit (merk en gebied) hebt gedefinieerd, volgt u de onderstaande stappen om publiekssegmenten in te stellen:
+
+1. **Segmenten maken voor het publiek**
+
+   1. Navigeer van uw instantie AEM aan **Personalisatie** > **Publiek** > de **schermen**.
+
+   1. Klik op **Maken** > Context Hub Segment **maken.** Het **Nieuwe de dialoogvakje van het Segment** ContextHub opent.
+
+   1. Voer de **titel** in als **TargetValue1** en klik op **Maken**. Maak op dezelfde manier een ander segment met de naam **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
 
 1. **Segmenten bewerken**
 
-   1. Selecteer de segmentbladen **A1 1** en klik op **Bewerken** op de actiebalk.
+   1. Selecteer het segment **TargetValue1**, en klik **uitgeven** van de actiebar.
 
    1. Sleep en zet de **vergelijking neer: Eigenschap - de component van de Waarde** aan de redacteur.
    1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap vergelijken met een waarde** te openen.
    1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**.
 
-   1. Selecteer **Operator** als **Gelijk** van het drop-down menu.
+   1. Selecteer de **operator** als **gelijk** in het keuzemenu.
 
    1. Voer de **waarde** in als **1**.
    >[!NOTE]
@@ -193,7 +184,7 @@ Nadat u een gegevensopslagruimte hebt ingesteld en uw merk hebt gedefinieerd, vo
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Bewerk op dezelfde manier de eigenschapswaarden in **Bladen A1 2**.
+   Op dezelfde manier geef de bezitswaarden aan **TargetValue2** uit.
 
    1. Sleep en zet de **vergelijking neer: Eigenschap - de component van de Waarde** aan de redacteur.
    1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap vergelijken met een waarde** te openen.
@@ -205,6 +196,56 @@ Nadat u een gegevensopslagruimte hebt ingesteld en uw merk hebt gedefinieerd, vo
 
 
 
+## Stap 5: Merk en gebied instellen {#setting-brand-area}
+
+Volg de onderstaande stappen om een merk te maken in uw activiteiten en gebied onder het merk:
+
+1. **Een merk in activiteiten maken**
+
+   1. Navigeer van uw instantie AEM aan **Personalisatie** > **Activiteiten**.
+
+   1. Klik op **Maken** > Merk **maken**.
+
+   1. Selecteer **Merk** in de wizard **Pagina** maken en klik op **Volgende**.
+
+   1. Voer de **titel** in als **ScreensBrand** en klik op **Maken**. Je merk wordt nu gemaakt zoals hieronder wordt weergegeven.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
+
+
+      >[!CAUTION]
+      Bekend probleem:
+Als u een gebied wilt toevoegen, verwijdert u het stramien uit de URL, bijvoorbeeld
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+
+1. **Een gebied in uw merk maken**
+
+   Ga als volgt te werk om een gebied in het merk te maken:
+
+   1. Klik op **Maken** en vervolgens **Gebied** maken.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub9.png)
+
+   1. Selecteer **Gebied** in de wizard **Pagina** maken en klik op **Volgende**.
+
+   1. Voer de **titel** in als **ScreensValue** en klik op **Maken**.
+Er wordt een gebied in uw merk gemaakt.
+
+## Stap 6: De activiteit instellen {#step-setting-up-activity}
+
+Ga als volgt te werk om een gebied in het merk te maken:
+
+1. Navigeer naar **ScreensValue** (gemaakt in de vorige stap) en klik op **Maken** > **Activiteit** maken.
+
+1. De wizard **Activiteit** configureren wordt geopend. Voer de **titel** in als **controle** van de doelwaarde en **Naam** als controle van de **doelwaarde**. Selecteer de **Doelmotor** als **ContextHub (AEM)** van drop-down en klik **daarna**.
+
+1. Klik **Add Ervaring** van de Tovenaar **van de Activiteit** vormen.
+
+1. Van het **publiek**, selecteer **TargetValue1** en klik **voeg Ervaring** toe en ga de **titel** als **waardecontrole** **** **** Name asvaluecheck in.
+
+1. Op dezelfde manier, van het **publiek**, selecteer **TargetValue2** en klik **voeg Ervaring** toe en ga de **titel** als **valuecheck** **** **** Name asvaluecheck2 in.
+
+1. Klik op **Volgende** en **Opslaan**.
 
 ## Het richten in Kanalen toelaten {#step-enabling-targeting-in-channels}
 
