@@ -5,14 +5,14 @@ description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak vo
 seo-description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak voor tekstbedekkingen kunt toepassen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
+source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 ---
 
 
 # Aangepaste branding en opmaak voor tekstbedekkingen {#creating-custom-branding-styling}
 
-Volg deze pagina om te leren hoe u aangepaste branding en opmaak voor tekstbedekkingen kunt toepassen.
+Volg deze pagina om te leren hoe u aangepaste branding en opmaak kunt toepassen op tekstbedekkingen die op uw elementen in een rasterkanaal zijn toegepast.
 
 ## Aangepaste branding en opmaak maken voor tekstbedekkingen {#steps-custom-branding}
 
@@ -31,11 +31,11 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 1. Navigeer naar CRXDE Lite van uw AEM instantie —> Hulpmiddelen —> **CRXDE Lite**.
 
-1. In dit geval moet u een aangepast ontwerp maken `/apps/settings/wcm/designs/<your-project>/`in
+1. U moet een aangepast ontwerp maken in `/apps/settings/wcm/designs/<your-project>/`, bijvoorbeeld, navigeer naar `/apps/settings/wcm/designs/customstyle/`
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Navigeer naar het bestand static.css en stel de volgende CSS-regels in. Ook weergegeven in onderstaande afbeelding.
+1. Navigeer naar het bestand *static.css* en stel de volgende CSS-regels in. Wordt ook weergegeven als voorbeeld in de afbeelding onder de CSS-regels.
 
    ```shell
     //global styles
@@ -70,31 +70,31 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 ## Het resultaat weergeven {#viewing-the-result}
 
-Nadat u de voorgaande stappen hebt uitgevoerd, kunt u het bestand *stats.css* bijwerken vanuit **CRXDE Lite** en als gevolg daarvan de update bekijken van de tekstlay-out die aan het element is toegevoegd.
+Nadat u de voorgaande stappen hebt uitgevoerd, kunt u het bestand *stats.css* bijwerken vanuit **CRXDE Lite** en als gevolg daarvan de update bekijken van de tekstbedekking die al aan het element is toegevoegd.
 
-Voer de onderstaande stappen uit om het bijgewerkte ontwerp te bekijken als tekstlay-out:
+Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking weer te geven:
 
-1. Navigeer naar het AEM-schermproject met de naam **customstyle** en een kanaal met de naam **DemoBrand** en klik op **Bewerken** op de actiebalk om de editor te openen.
+1. Navigeer naar het AEM-schermproject met de naam **customstyle** —> **Channels** —> **DemoBrand**. Selecteer het kanaal en klik op **Bewerken** op de actiebalk om de editor te openen.
 
 1. Aangezien u het ontwerp nu hebt toegevoegd aan het veld **Ontwerpen** , zoals hierboven vermeld, klikt u op **Voorvertoning** om de huidige opmaak van de afbeelding met tekstbedekking weer te geven.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navigeer naar het bestand static.css in CRXDE Lite en voeg bijvoorbeeld het lettertype toe.
+1. Navigeer naar het bestand *static.css* in CRXDE Lite en voeg het lettertype, zoals, toe `font-family: "Lucida Console", Courier, monospace;` aan dit bestand, zoals hieronder wordt weergegeven.
    ![image](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. Nadat u de wijzigingen hebt opgeslagen en de voorvertoning opnieuw hebt geladen, wordt het lettertype voor de tekstbedekking bijgewerkt, zoals in de onderstaande afbeelding wordt getoond.
+1. Nadat u de wijzigingen hebt opgeslagen en de voorvertoning opnieuw hebt geladen, wordt het lettertype voor tekstbedekking bijgewerkt, zoals in de onderstaande afbeelding wordt getoond.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Bovendien kunt u de laatste twee codeblokken uit het bestand static.css verwijderen om de in vakken geplaatste opmaak rond de tekstbedekking te verwijderen.
+1. Bovendien kunt u de laatste twee codeblokken verwijderen uit het bestand *static.css* om de in het vak geplaatste stijl rond de tekstbedekking te verwijderen.
    ![image](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. U ziet de bijgewerkte wijziging in de voorvertoning waar de tekstbedekking aan de afbeelding wordt toegevoegd, zoals hieronder wordt weergegeven.
+1. U ziet de bijgewerkte wijziging in de voorvertoning waar de tekstbedekking aan de afbeelding is toegevoegd.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-Op deze manier kunt u na de stappen in de voorgaande secties uw merk en aangepaste opmaak bijwerken voor tekstbedekkingen die aan uw elementen zijn toegevoegd.
+In de zelfstudie kunt u nu uw merk en aangepaste opmaak bijwerken voor tekstbedekkingen die aan uw elementen zijn toegevoegd.
 
 
 
