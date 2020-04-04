@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
 ---
 
@@ -135,9 +135,7 @@ Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald 
 U moet het proces van het bepalen van de json overslaan en het als leeg verlaten.
 
 
-## Stap 3: Publiek instellen {#setting-up-audience}
-
-In behandeling: om eigenschappen toe te voegen
+## Stap 3: Segmenten instellen voor het publiek {#setting-up-audience}
 
 1. **Segmenten maken voor het publiek**
 
@@ -145,58 +143,20 @@ In behandeling: om eigenschappen toe te voegen
 
    1. Klik op **Maken** > Context Hub Segment **maken.** Het **Nieuwe de dialoogvakje van het Segment** ContextHub opent.
 
-   1. Voer de **titel** in als **TargetValue1** en klik op **Maken**. Maak op dezelfde manier een ander segment met de naam **TargetValue2**.
+   1. Voer de **titel** in als **Hoger dan50** en klik op **Maken**. Maak op dezelfde manier een ander segment met de naam **Lowerthan50**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+      ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
+   1. Selecteer het segment **Higherthan50** en klik op **Eigenschappen** op de actiebalk.
+      ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
+   1. Selecteer het tabblad **Persoonlijke instellingen** in de **Segmenteigenschappen**. Plaats de Weg **** ContextHub aan `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` en de Weg **van** Segmenten aan `/conf/screens/settings/wcm/segments` en klik **sparen**, zoals aangetoond in het hieronder cijfer.
 
-## Stap 4: Segmentering publiek instellen {#step-setting-up-audience-segmentation}
+      ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-In behandeling om bewerking toe te voegen
+   1. Op dezelfde manier plaats de Weg **** ContextHub en de Weg **van** Segmenten **voor** segment Lowerthan50.
 
-Nadat u een gegevensopslagruimte hebt ingesteld en uw activiteit (merk en gebied) hebt gedefinieerd, volgt u de onderstaande stappen om publiekssegmenten in te stellen:
-
-1. **Segmenten maken voor het publiek**
-
-   1. Navigeer van uw instantie AEM aan **Personalisatie** > **Publiek** > de **schermen**.
-
-   1. Klik op **Maken** > Context Hub Segment **maken.** Het **Nieuwe de dialoogvakje van het Segment** ContextHub opent.
-
-   1. Voer de **titel** in als **TargetValue1** en klik op **Maken**. Maak op dezelfde manier een ander segment met de naam **TargetValue2**.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
-
-
-1. **Segmenten bewerken**
-
-   1. Selecteer het segment **TargetValue1**, en klik **uitgeven** van de actiebar.
-
-   1. Sleep en zet de **vergelijking neer: Eigenschap - de component van de Waarde** aan de redacteur.
-   1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap vergelijken met een waarde** te openen.
-   1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**.
-
-   1. Selecteer de **operator** als **gelijk** in het keuzemenu.
-
-   1. Voer de **waarde** in als **1**.
-   >[!NOTE]
-   De AEM valideert uw gegevens van Google Sheet door uw segment als groen te tonen.
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   Op dezelfde manier geef de bezitswaarden aan **TargetValue2** uit.
-
-   1. Sleep en zet de **vergelijking neer: Eigenschap - de component van de Waarde** aan de redacteur.
-   1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap vergelijken met een waarde** te openen.
-   1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**.
-
-   1. Selecteer **Operator** als **Gelijk** van het drop-down menu.
-
-   1. Voer de **waarde** in als **2**.
-
-
-
-## Stap 5: Merk en gebied instellen {#setting-brand-area}
+## Stap 4: Merk en gebied instellen {#setting-brand-area}
 
 Volg de onderstaande stappen om een merk te maken in uw activiteiten en gebied onder het merk:
 
@@ -231,21 +191,64 @@ Als u een gebied wilt toevoegen, verwijdert u het stramien uit de URL, bijvoorbe
    1. Voer de **titel** in als **ScreensValue** en klik op **Maken**.
 Er wordt een gebied in uw merk gemaakt.
 
-## Stap 6: De activiteit instellen {#step-setting-up-activity}
+## Stap 5: Segmenten maken in een activiteit {#step-setting-up-audience-segmentation}
 
-Ga als volgt te werk om een gebied in het merk te maken:
+Nadat u een gegevensopslag hebt ingesteld en uw activiteiten (merk en gebied) hebt gedefinieerd, volgt u onderstaande stappen om segmenten in uw activiteit te maken.
 
-1. Navigeer naar **ScreensValue** (gemaakt in de vorige stap) en klik op **Maken** > **Activiteit** maken.
+1. **Segmenten maken in activiteiten**
 
-1. De wizard **Activiteit** configureren wordt geopend. Voer de **titel** in als **controle** van de doelwaarde en **Naam** als controle van de **doelwaarde**. Selecteer de **Doelmotor** als **ContextHub (AEM)** van drop-down en klik **daarna**.
+   1. Navigeer van uw AEM-instantie naar **Persoonlijk maken** > **Activiteiten** > **SchermMerk** >**ScreensValue**.
 
-1. Klik **Add Ervaring** van de Tovenaar **van de Activiteit** vormen.
+   1. Klik op **Maken** > Activiteit **maken.** De wizard **Activiteit** configureren wordt geopend.
 
-1. Van het **publiek**, selecteer **TargetValue1** en klik **voeg Ervaring** toe en ga de **titel** als **waardecontrole** **** **** Name asvaluecheck in.
+   1. Voer de **Titel** in als **ValueCheck50** en **Naam** als **valuecheck50**. Selecteer de **Doelmotor** als **ContextHub (AEM)** van drop-down en klik **daarna**.
 
-1. Op dezelfde manier, van het **publiek**, selecteer **TargetValue2** en klik **voeg Ervaring** toe en ga de **titel** als **valuecheck** **** **** Name asvaluecheck2 in.
+      ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
-1. Klik op **Volgende** en **Opslaan**.
+   1. Klik **Add Ervaring** van de Tovenaar **van de Activiteit** vormen.
+
+   1. Van het **publiek**, selecteer **Higherthan50** en klik **voeg Ervaring** toe en ga de **titel** als **hoger in dan50** **** **** Name ashigherthan50. Click **Ok**.
+
+   1. Van het **publiek**, selecteer **Lager dan50** en de klik **voegt Ervaring** toe en gaat de **Titel** in zoals **lager dan50** **** **** Name as lowerthan50. Click **Ok**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub15.png)
+
+   1. Klik op **Volgende** en **Opslaan**. **ValueCheck50** -activiteit wordt nu gemaakt en geconfigureerd.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub16.png)
+
+## Stap 5: Segmenten bewerken {#editing-audience-segmentation}
+
+1. **Segmenten bewerken**
+
+   1. 
+      1. Navigeer van uw AEM-instantie naar **Persoonlijk maken** > **Activiteiten** > **SchermMerk** >**ScreensValue** >**ValueCheck50**.
+   1. Selecteer het segment **ValueCheck50** en klik op **Bewerken** op de actiebalk.
+
+   1. Sleep en zet de **vergelijking neer: Eigenschap - de component van de Waarde** aan de redacteur.
+   1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap vergelijken met een waarde** te openen.
+   1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**.
+
+   1. Selecteer de **operator** als **gelijk** in het keuzemenu.
+
+   1. Voer de **waarde** in als **1**.
+   >[!NOTE]
+   De AEM valideert uw gegevens van Google Sheet door uw segment als groen te tonen.
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   Op dezelfde manier geef de bezitswaarden aan **TargetValue2** uit.
+
+   1. Sleep en zet de **vergelijking neer: Eigenschap - de component van de Waarde** aan de redacteur.
+   1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap vergelijken met een waarde** te openen.
+   1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**.
+
+   1. Selecteer **Operator** als **Gelijk** van het drop-down menu.
+
+   1. Voer de **waarde** in als **2**.
+
+
+
 
 ## Het richten in Kanalen toelaten {#step-enabling-targeting-in-channels}
 
