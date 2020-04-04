@@ -5,7 +5,7 @@ description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak vo
 seo-description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak voor tekstbedekkingen kunt toepassen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ Volg deze pagina om te leren hoe u aangepaste branding en opmaak kunt toepassen 
 
 Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkingen te maken:
 
-1. Maak een AEM-schermproject met de naam **customstyle** en een kanaal met de naam **DemoBrand**, zoals in de onderstaande afbeelding wordt getoond.
+1. Maak een AEM-schermproject. In dit voorbeeld wordt de functionaliteit weergegeven door een project met de naam **customstyle** en een kanaal met de naam **DemoBrand** te maken, zoals in de onderstaande afbeelding wordt getoond.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 1. Navigeer naar het bestand *static.css* en stel de volgende CSS-regels in. Wordt ook weergegeven als voorbeeld in de afbeelding onder de CSS-regels.
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 1. Klik op **Opslaan en sluiten** om het ontwerppad bij te werken.
 
+### ACLs bijwerken {#updating-acls}
+
+U moet ACLs voor deze ontwerpen bijwerken zodat zij door de speler kunnen worden gedownload.
+
+1. Navigeer naar gebruikersbeheer en kies de map `screens-<project>-devices group` en geef deze leesmachtigingen aan het aangepaste ontwerppad.
+
+1. Geef machtigingen voor het lezen en wijzigen van `screens-<project>-administrators` groepen op voor dit pad.
 
 ## Het resultaat weergeven {#viewing-the-result}
 
