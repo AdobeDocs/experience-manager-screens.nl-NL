@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
+source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
 ---
 
@@ -217,36 +217,39 @@ Nadat u een gegevensopslag hebt ingesteld en uw activiteiten (merk en gebied) he
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Stap 5: Segmenten bewerken {#editing-audience-segmentation}
+## Stap 5: Segmenten in soorten publiek bewerken{#editing-audience-segmentation}
 
 1. **Segmenten bewerken**
 
-   1. 
-      1. Navigeer van uw AEM-instantie naar **Persoonlijk maken** > **Activiteiten** > **SchermMerk** >**ScreensValue** >**ValueCheck50**.
-   1. Selecteer het segment **ValueCheck50** en klik op **Bewerken** op de actiebalk.
+   1. Navigeer van uw instantie AEM aan **Personalisatie** > **Publiek** > de **schermen**.
+
+   1. Selecteer het segment **Higherthan50** en klik op **Bewerken** op de actiebalk.
 
    1. Sleep en zet de **vergelijking neer: Eigenschap - de component van de Waarde** aan de redacteur.
+
    1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap vergelijken met een waarde** te openen.
+
    1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**.
 
-   1. Selecteer de **operator** als **gelijk** in het keuzemenu.
+   1. Selecteer de **Operator** als **groter dan** in het keuzemenu.
 
-   1. Voer de **waarde** in als **1**.
+   1. Voer de **waarde** in als **50**.
    >[!NOTE]
    De AEM valideert uw gegevens van Google Sheet door uw segment als groen te tonen.
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Op dezelfde manier geef de bezitswaarden aan **TargetValue2** uit.
+   Bewerk de eigenschapswaarden ook in **Lager dan50**.
 
    1. Sleep en zet de **vergelijking neer: Eigenschap - de component van de Waarde** aan de redacteur.
+
    1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap vergelijken met een waarde** te openen.
+
    1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**.
 
-   1. Selecteer **Operator** als **Gelijk** van het drop-down menu.
+   1. Selecteer de **operator** als **kleiner dan** in het keuzemenu.
 
-   1. Voer de **waarde** in als **2**.
-
+   1. Voer de **waarde** in als **50**.
 
 
 
