@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
+source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 
 ---
 
@@ -125,7 +125,7 @@ Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald 
 
 1. **Opslagsegmentatie instellen**
 
-   1. Navigeer aan de Configuratie van de Opslag **ContentHub..** en maak een andere opslagconfiguratie in de container van de het schermconfiguratie en plaats de **Titel** als **segmentatie-contexthub**, **Naam** van de Opslag als **segmentatie** en Type **van** **** Opslag als aem.segmentation.
+   1. Navigeer aan de Configuratie van de Opslag **ContentHub..** en maak een andere archiefconfiguratie in de container van de het schermconfiguratie en plaats de **Titel** als **segmentatie-contexthub**, **Naam** van **de Opslag als** segmentatie **en Type** van de **** Opslag als aem.segmentation.
 
       ![image](/help/user-guide/assets/context-hub/context-hub7.png)
 
@@ -231,13 +231,18 @@ Nadat u een gegevensopslag hebt ingesteld en uw activiteiten (merk en gebied) he
 
    1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**.
 
+      >[!NOTE]
+De **ganzen/waarde/1/0** verwijst naar rij 2 en kolom zoals ingevuld in de google-vellen in de onderstaande afbeelding:
+
+      ![image](/help/user-guide/assets/context-hub/context-hub17.png)
+
    1. Selecteer de **Operator** als **groter dan** in het keuzemenu.
 
-   1. Voer de **waarde** in als **50**.
+   1. Voer de **waarde** in als **70**.
    >[!NOTE]
    De AEM valideert uw gegevens van Google Sheet door uw segment als groen te tonen.
 
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
    Bewerk de eigenschapswaarden ook in **Lager dan50**.
 
