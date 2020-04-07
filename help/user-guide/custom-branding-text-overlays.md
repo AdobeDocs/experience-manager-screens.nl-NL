@@ -5,7 +5,7 @@ description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak vo
 seo-description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak voor tekstbedekkingen kunt toepassen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -35,7 +35,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Navigeer naar het bestand *static.css* en stel de volgende CSS-regels in. Wordt ook weergegeven als voorbeeld in de afbeelding onder de CSS-regels.
+1. Maak het bestand *static.css* en stel de volgende css-regels in. Wordt ook weergegeven als voorbeeld in de afbeelding onder de CSS-regels.
 
    ```shell
      //global styles
@@ -76,6 +76,19 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
    ![image](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. Klik op **Opslaan en sluiten** om het ontwerppad bij te werken.
+
+>[!IMPORTANT]
+> U kunt de bestaande sjablonen voor schermen bedekken door standaard uw eigen ontwerpen te injecteren of uw eigen sjabloon te maken. Raadpleeg de onderstaande stappen voor meer informatie.
+
+1. Als u de bestaande sjablonen voor schermen wilt bedekken om uw eigen ontwerpen standaard te injecteren:
+
+   1. Bedekking `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
+   1. Wijzig de eigenschap *cq:designPath* in `/apps/screens/core/templates/sequencechannel/jcr:content` om naar het nieuwe ontwerp te wijzen.
+
+1. Een eigen sjabloon maken:
+   1. Kopiëren `/libs/screens/core/templates/sequencechannel` naar `/apps/customstyle/templates/styled-sequencechannel`.
+   1. Wijzig de eigenschap *cq:designPath* in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` om naar het nieuwe ontwerp te wijzen.
+
 
 ### ACLs bijwerken {#updating-acls}
 
