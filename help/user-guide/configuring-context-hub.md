@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -125,7 +125,7 @@ Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald 
 
 1. **Opslagsegmentatie instellen**
 
-   1. Navigeer aan de Configuratie van de Opslag **ContentHub..** en maak een andere archiefconfiguratie in de container van de het schermconfiguratie en plaats de **Titel** als **segmentatie-contexthub**, **Naam** van **de Opslag als** segmentatie **en Type** van de **** Opslag als aem.segmentation.
+   1. Navigeer aan de Configuratie van de Opslag **ContentHub..** en maak een andere opslagconfiguratie in de container van de het schermconfiguratie en plaats de **Titel** als **segmentatie-contexthub**, **Naam** van de Opslag als **segmentatie** en Type **van** **** Opslag als aem.segmentation.
 
       ![image](/help/user-guide/assets/context-hub/context-hub7.png)
 
@@ -150,7 +150,7 @@ U moet het proces van het bepalen van de json overslaan en het als leeg verlaten
    1. Selecteer het segment **Higherthan50** en klik op **Eigenschappen** op de actiebalk.
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Selecteer het tabblad **Persoonlijke instellingen** in de **Segmenteigenschappen**. Plaats de Weg **** ContextHub aan `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` en de Weg **van** Segmenten aan `/conf/screens/settings/wcm/segments` en klik **sparen**, zoals aangetoond in het hieronder cijfer.
+   1. Selecteer het tabblad **Persoonlijke instellingen** in de **Segmenteigenschappen**. Plaats de Weg **** ContextHub aan `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` en de Weg **van** Segmenten aan `/conf/screens/settings/wcm/segments` en klik **sparen**, zoals aangetoond in het hieronder cijfer.
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -239,11 +239,11 @@ De **ganzen/waarde/1/0** verwijst naar rij 2 en kolom zoals ingevuld in de googl
    1. Selecteer de **Operator** als **groter dan** in het keuzemenu.
 
    1. Voer de **waarde** in als **70**.
-   >[!NOTE]
-   De AEM valideert uw gegevens van Google Sheet door uw segment als groen te tonen.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
+      >[!NOTE]
+      De AEM valideert uw gegevens van Google Sheet door uw segment als groen te tonen.
 
+      ![image](/help/user-guide/assets/context-hub/context-hub18.png)
    Bewerk de eigenschapswaarden ook in **Lager dan50**.
 
    1. Sleep en zet de **vergelijking neer: Eigenschap - de component van de Waarde** aan de redacteur.
@@ -262,11 +262,11 @@ De **ganzen/waarde/1/0** verwijst naar rij 2 en kolom zoals ingevuld in de googl
 
 Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te schakelen.
 
-1. Navigeer naar een van de kanalen voor AEM-schermen. De volgende stappen tonen aan hoe te om het richten toe te laten door **DataDrivenRetail** te gebruiken die in een Kanaal van de Schermen AEM wordt gecreeerd.
+1. Navigeer naar een van de kanalen voor AEM-schermen. De volgende stappen tonen aan hoe te om het richten toe te laten door **DataDrivenChannel** te gebruiken die in een Kanaal van de Schermen AEM wordt gecreeerd.
 
-1. Selecteer het kanaal **DataDrivenRetail** en klik op **Eigenschappen** op de actiebalk.
+1. Selecteer het kanaal **TargetChannel** en klik op **Eigenschappen** in de actiebalk.
 
-   ![screen_shot_2019-05-01at4332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. Selecteer het lusje van de **Personalisatie** aan opstelling de configuraties ContextHub.
 
@@ -275,20 +275,18 @@ Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te sch
    1. Selecteer het **Segmentpad** als **conf** > **Wij.Detailhandel** > **instellingen** > **wcm** **** ****> segments en klik op Select.
 
    1. Klik op **Opslaan en sluiten**.
-   >[!NOTE]
-   Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+      >[!NOTE]
+      Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
 
-1. Navigeer en selecteer **DataDrivenRetail** van **DataDrivenAssets** > **Kanalen** en klik **uitgeven** van de actiebar.
+      ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   >[!NOTE]
-   Als u opstelling alles correct hebt, zult u het **richten** optie in drop-down van de redacteur zien, zoals aangetoond in het hieronder cijfer.
+   1. Navigeer en selecteer het **kanaal TargetChannel** en klik op **Bewerken** in de actiebalk.
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+      >[!NOTE]
+      Als u opstelling alles correct hebt, zult u het **richten** optie in drop-down van de redacteur zien, zoals aangetoond in het hieronder cijfer.
 
-   >[!NOTE]
-   Zodra u de configuraties ContextHub voor uw kanaal hebt gevormd, zorg ervoor u voorafgaande stappen van 1 door 4 volgt, voor de andere drie opeenvolgingskanalen te als u alle hieronder gebruiksgevallen wilt volgen.
+      ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## Meer informatie: Voorbeelden {#learn-more-example-use-cases}
 
