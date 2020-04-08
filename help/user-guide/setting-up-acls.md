@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
 
@@ -131,7 +131,7 @@ De volgende tabel geeft een overzicht van de groepen met een beschrijving en mac
     </ul> </td>
   </tr>
   <tr>
-   <td>Schermen Players<br /> <em>schermen-wij-kleinhandelsapparaten</em></td>
+   <td>Schermen met<br /> afspeelschermen <em>-&lt;project&gt;-apparaten</em></td>
    <td>Hiermee worden alle spelers en alle spelers/apparaten automatisch gegroepeerd als leden van de contribuanten.</td>
    <td><p> Lid van contribuanten</p> </td>
   </tr>
