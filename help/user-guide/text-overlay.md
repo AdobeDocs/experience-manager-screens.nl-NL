@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f15009ab8432756c2be3c6c7fc6699eab9b3a6a8
 
 ---
 
@@ -41,19 +41,21 @@ In deze sectie wordt alleen uitgelegd hoe u de postercomponent in een AEM-raster
 
 In de volgende sectie wordt het gebruik van tekstbedekking in een AEM-schermproject beschreven.
 
-### Vereisten {#prerequisites}
+**Vereisten**
 
 Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor zorgen dat u een project hebt ingesteld als voorwaarde voor het implementeren van tekstbedekking. Bijvoorbeeld:
 
 * Een AEM-schermproject maken (in dit voorbeeld **TextOverlayDemo**)
 
-* Een kanaal maken als **TextSample** in de map **Kanalen**
+* Een volgnummer maken met de naam **TextSample** onder de map **Kanalen**
 
 * Inhoud toevoegen aan uw **TextSample** -kanaal
 
 De volgende afbeelding toont het **TextOverlayDemo** -project met **TextSample** -kanaal in de map **Kanalen** .
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
+
+Voer de onderstaande stappen uit om tekstbedekking in een AEM-rasterkanaal te gebruiken:
 
 1. Navigeer naar **TextOverlayDemo** —> **Kanalen** —> **TextSample** en klik op **Bewerken** op de actiebalk om de editor te openen.
 
@@ -82,4 +84,78 @@ U kunt tekst toevoegen aan het tekstvak en typografische accenten toevoegen, zoa
 >[!NOTE]
 >
 >Als u verfijnde gereedschappen correct wilt gebruiken, moet u de juiste positie in pixels identificeren met (px) als achtervoegsel, bijvoorbeeld 200 px. Het resultaat van deze expressie is 200 pixels vanaf het beginpunt.
+
+## ContextHub-waarden gebruiken in tekstbedekking {#using-text-overlay-context-hub}
+
+In de volgende sectie wordt het gebruik beschreven van waarden uit een gegevensopslagruimte, bijvoorbeeld Google-werkbladen in tekstbedekkingscomponenten.
+
+**Vereisten**
+
+U moet opstelling configuraties ContextHub voor uw project van de Schermen AEM.
+
+Leren hoe te om gegevens gedreven activaveranderingen te plaatsen en te beheren gebruikend een gegevensopslag, verwijs naar het [Vormen ContextHub in de Schermen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/developing/configuring-context-hub.html)van AEM.
+
+Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de onderstaande stappen om waarden uit de Google-werkbladen te gebruiken:
+
+1. Navigeer naar **TextOverlayDemo** —> **Kanalen** —> **TextSample** en klik op **Eigenschappen** op de actiebalk.
+
+1. Selecteer het lusje van de **Personalisatie** aan opstelling de configuraties ContextHub.
+
+   1. Selecteer het **ContextHub-pad** als **bibliotheken** > **instellingen** > **cloudinstellingen** > **standaard** **** ****> ContextHub Configurations en klik opSelect.
+
+   1. Selecteer het pad **** Segmenten als **conf** > **schermen** > **instellingen** > **wcm** **** ****> segments en klik op Select.
+
+   1. Klik op **Opslaan en sluiten**.
+
+      >[!NOTE]
+      >
+      >Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
+
+      ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
+
+1. Navigeer naar **TextOverlayDemo** —> **Kanalen** —> **TextSample** en klik op **Bewerken** op de actiebalk om de editor te openen.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
+
+1. Voeg een component voor afbeelding en tekstbedekking toe aan de afbeelding zoals wordt beschreven in de sectie **Tekstbedekking** gebruiken van deze pagina.
+
+1. Klik op **Configureren** (moersleutelpictogram) om het dialoogvenster **Afbeelding** te openen.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
+
+1. Navigeer aan het **lusje ContextHub** van het de dialoogvakje van het **Beeld** . Click **Add**.
+
+   >[!NOTE]
+   >Als u geen opstelling uw configuraties ContextHub hebt, zal deze optie voor uw project worden onbruikbaar gemaakt.
+
+1. Ga **Waarde** op het **Plaatsaanduiding** gebied in, selecteer de rij die u de waarde van uw google blad in de Variabele **ContextHub wilt krijgen (in dit geval, wordt de waarde teruggewonnen van rij 2 en kolom 1 van de google bladen), en ga de** Standaardwaarde **als** 20 **** in, zoals aangetoond in het hieronder cijfer. Als u klaar bent, klikt u op het vinkje.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
+
+   >[!NOTE]
+   >Ter referentie geeft de volgende afbeelding de waarde weer die wordt opgehaald uit de hoekbladen:
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
+
+1. Navigeer terug naar het tabblad **Tekstbedekking** in het dialoogvenster Afbeelding en voeg de tekst *Huidige temperatuur {waarde}* toe, zoals in de onderstaande afbeelding wordt getoond.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
+
+1. Klik op **Voorvertoning** om de gewenste uitvoer weer te geven.
+
+   ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
