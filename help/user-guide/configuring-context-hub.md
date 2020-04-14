@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -270,9 +270,7 @@ Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te sch
 
 1. Selecteer het lusje van de **Personalisatie** aan opstelling de configuraties ContextHub.
 
-   1. Selecteer het **ContextHub-pad** als **bibliotheken** > **instellingen** > **cloudinstellingen** > **standaard** **** ****> ContextHub Configurations en klik opSelect.
-
-   1. Selecteer het **Segmentpad** als **conf** > **Wij.Detailhandel** > **instellingen** > **wcm** **** ****> segments en klik op Select.
+   1. Plaats de Weg **** ContextHub aan `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` en de Weg **van** Segmenten aan `/conf/screens/settings/wcm/segments` en klik **sparen**.
 
    1. Klik op **Opslaan en sluiten**.
 
