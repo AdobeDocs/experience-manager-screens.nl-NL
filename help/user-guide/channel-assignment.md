@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
 
 ---
 
@@ -50,43 +50,57 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    Tik/klik op **Dashboard** en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
 
-   ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
+   ![image](/help/user-guide/assets/channel-assign1.png)
 
-   U kunt de volgende eigenschappen van het de dialoogvakje van de Toewijzing van het **Kanaal** vormen:
+   In de onderstaande sectie kunt u de volgende eigenschappen configureren vanuit het dialoogvenster **Kanaaltoewijzing** .
 
-   **Kanaalrol**:
+### Kanaaleigenschappen {#channel-properties}
 
-   De rol van het kanaal bepaalt de context van de vertoning. De rol wordt op verschillende acties gericht en staat los van het daadwerkelijke kanaal dat de rol vervult.
+#### Referentiekanaal {#ref-channel}
 
-   **Referentiekanaal**:
+Met het referentiekanaal kunt u een verwijzing naar het gewenste kanaal opgeven, op kanaalnaam of op kanaalpad.
 
-   Met het referentiekanaal kunt u een verwijzing naar het gewenste kanaal opgeven, op kanaalnaam of op kanaalpad.
+* **per pad**: u verstrekt een expliciete verwijzing gebruikend de absolute weg van het kanaal.
 
-   * **per pad**: u verstrekt een expliciete verwijzing gebruikend de absolute weg van het kanaal.
-   * **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met een naam *gaat bijvoorbeeld over de dag*, waar de inhoud in feite anders zou zijn in twee steden, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
-   **Prioriteit:**
+* **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met een naam *gaat bijvoorbeeld over de dag*, waar de inhoud in feite anders zou zijn in twee steden, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
 
-   Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. Degene met de hoogste waarde heeft altijd voorrang op lagere waarden. Bijvoorbeeld, als er twee kanalen A en B zijn. A heeft een prioriteit van 1 en B heeft een prioriteit van 2, dan wordt kanaal B getoond, aangezien het een hogere prioriteit dan A heeft.
+#### Kanaalrol {#role-channel}
 
-   De prioriteit voor een kanaal wordt ingesteld als een getal (1 voor minimaal) in het dialoogvenster **Kanaaltoewijzing** , zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
+De rol van het kanaal bepaalt de context van de vertoning. De rol wordt op verschillende acties gericht en staat los van het daadwerkelijke kanaal dat de rol vervult.
 
-   **Ondersteunde gebeurtenissen**:
+#### Priority {#priority-channel}
 
-   * **Oorspronkelijke belasting**: laadt het kanaal wanneer de speler wordt gestart. Het kan aan veelvoudige kanalen in combinatie met programma worden toegewezen
-   * **Niet-actief scherm**: wordt geladen wanneer het scherm niet actief is. Het kan aan veelvoudige kanalen in combinatie met programma worden toegewezen
-   * **Timer**: moet worden vastgesteld wanneer een schema wordt verstrekt
-   * **Gebruikersinteractie**: de speler schakelt over naar het opgegeven kanaal als er een gebruikersinteractie op het scherm is (aanraking) in een niet-actief kanaal en wordt geladen wanneer het scherm wordt aangeraakt
-   **Schema**:
+Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. Degene met de hoogste waarde heeft altijd voorrang op lagere waarden. Bijvoorbeeld, als er twee kanalen A en B zijn. A heeft een prioriteit van 1 en B heeft een prioriteit van 2, dan wordt kanaal B getoond, aangezien het een hogere prioriteit dan A heeft.
 
-   In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Ook kunt u een begindatum (**actief vanaf**) en een einddatum (**actief tot**) definiëren voor het kanaal dat moet worden weergegeven. De syntaxis voor de planningsexpressie is gebaseerd op de syntaxis voor text en cron van later.js:
+>[!NOTE]
+>De prioriteit voor een kanaal wordt ingesteld als een getal (1 voor minimaal) in het dialoogvenster **Kanaaltoewijzing** , zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
-   * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text)
-   * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron)
-   **Knopinfo** voor bijtrekken weergeven:
+#### Ondersteunde gebeurtenissen {#supported-events-channel}
 
-   De knopinfo voor het weergeven van de aantrekkingskracht definieert of de knopinfo voor het aantrekken (&quot;*overal aanraken om te beginnen*&quot;) al dan niet moet worden weergegeven terwijl het kanaal wordt uitgevoerd.
+* **Oorspronkelijke belasting**: laadt het kanaal wanneer de speler wordt gestart. Het kan aan veelvoudige kanalen in combinatie met programma worden toegewezen
+* **Niet-actief scherm**: wordt geladen wanneer het scherm niet actief is. Het kan aan veelvoudige kanalen in combinatie met programma worden toegewezen
+* **Timer**: moet worden vastgesteld wanneer een schema wordt verstrekt
+* **Gebruikersinteractie**: de speler schakelt over naar het opgegeven kanaal als er een gebruikersinteractie op het scherm is (aanraking) in een niet-actief kanaal en wordt geladen wanneer het scherm wordt aangeraakt
 
-1. Klik op **Opslaan** om het gemaakte kanaal aan een weergave toe te wijzen.
+#### Onderbrekingsmethode {#interruption-method-channel}
+
+Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
+De volgende opties zijn beschikbaar om de methode van de onderbreking van de de dialoogdoos van de Toewijzing van het **Kanaal** te plaatsen:
+
+* **Onmiddellijk**: wanneer de planning wordt geactiveerd of een update wordt ontvangen, wordt het afspelen onderbroken en wordt de nieuwe inhoud direct vernieuwd of afgespeeld
+* **Aan het einde van het huidige item**: wanneer een nieuw programma activeert of een update wordt ontvangen, wachten wij op het huidige punt in de opeenvolging om te beëindigen speel, en slechts daarna verfrissen wij of spelen de nieuwe inhoud
+   >[!NOTE]
+   >Dit is de standaardoptie die wordt geselecteerd.
+* **Aan het einde van de reeks**: wanneer een nieuw programma activeert of een update wordt ontvangen, wachten wij op de volledige opeenvolging om zijn eind te bereiken, en net alvorens wij terug naar het eerste element herhalen wij verfrissen of spelen de nieuwe inhoud
+
+#### Schema {#schedule-channel}
+
+In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Ook kunt u een begindatum (**actief vanaf**) en een einddatum (**actief tot**) definiëren voor het kanaal dat moet worden weergegeven.
+
+**Knopinfo** voor bijtrekken weergeven:
+
+De knopinfo voor het weergeven van de aantrekkingskracht definieert of de knopinfo voor het aantrekken (&quot;*overal aanraken om te beginnen*&quot;) al dan niet moet worden weergegeven terwijl het kanaal wordt uitgevoerd.
+
 
 ### Dagscheiding {#dayparting}
 
@@ -158,4 +172,10 @@ Dit voorbeeld toont de dag-parting voor een opslag die hun winterinzameling met 
 |---|---|---|---|
 | A | Winter | 1 | 01 dec. 2017 - 31 dec. 2017 |
 | B | Kerstmis | 2 | 24 dec. 2017 - 31 dec. 2017 |
+
+>[!IMPORTANT]
+> Raadpleeg de volgende secties voor meer informatie over overdag:
+>* [Herhaling van activa afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [Herhaling van middelen in een kanaal afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 
