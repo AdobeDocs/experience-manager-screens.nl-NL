@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
+source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
 
 ---
 
@@ -96,6 +96,9 @@ Selecteer een van de volgende opties die beschikbaar zijn om de methode voor ond
    >[!NOTE]
    >Deze optie is standaard geselecteerd.
 * **Aan het einde van de reeks**: wanneer een nieuw programma activeert of een update wordt ontvangen, hebt u de optie om op de volledige opeenvolging te wachten om zijn eind te bereiken, en net vóór de gewenste opeenvolging, kunt u terugloop naar het eerste element, u vernieuwt of de nieuwe inhoud speelt
+
+   >[!NOTE]
+   >Als u de tweede of derde optie gebruikt, kunnen de op de toewijzing gedefinieerde planningstijden enigszins worden uitgesteld omdat de speler op het einde van het item of de reeks (na de opgegeven tijd) wacht voordat het item of de reeks wordt vernieuwd. De vertraging is afhankelijk van de afspeelduur van het item.
 
 #### Schema {#schedule-channel}
 
