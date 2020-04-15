@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
+source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
 
@@ -131,6 +131,28 @@ In het deelvenster Kanaalgegevens worden de kanaaleigenschappen beschreven, same
 Klik op de (**...**) van de de actiebar van de INFORMATIE **van het** KANAAL aan meningseigenschappen, geef de inhoud uit, of om geheime voorgeheugen (off-line inhoud) voor het kanaal bij te werken.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+
+#### De manifest weergeven {#view-manifest}
+
+U kunt manifest van het kanaaldashboard bekijken.
+
+>[BELANGRIJK]
+> Deze optie is alleen beschikbaar bij AEM 6.4 Feature Pack 8 of AEM 6.5 Feature Pack 4.
+
+Ga als volgt te werk om deze optie in te schakelen vanaf het kanaaldashboard:
+1. **Kanaal op offline instellen**
+   1. Selecteer het kanaal en selecteer **Eigenschappen** op de actiebalk
+   1. Navigeer naar het tabblad **Kanaal** en controleer of de optie **Developer Mode (het kanaal online zetten)** is uitgeschakeld
+   1. Klik op **Opslaan en sluiten**
+1. **Offline inhoud bijwerken**
+   1. Selecteer het kanaal en selecteer **dashboard** op de actiebalk
+   1. Navigeer naar het deelvenster **KANAALINFORMATIE** en klik op *..*
+   1. Klik op Offlineinhoud **bijwerken**
+
+Nu moet u de optie **Weergavemanifest** weergeven in het deelvenster **KANAALINFORMATIE** in het dashboard Kanaal.
+
+![image1](assets/channel-one.png)
+
 
 ### Online en offline kanalen {#online-and-offline-channels}
 
