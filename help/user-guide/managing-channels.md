@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 
 ---
 
@@ -68,9 +68,8 @@ In het volgende voorbeeld ziet u hoe u een sequentiekanaal (*ChannelOne*) voor e
 >
 >U kunt verschillende zones maken met behulp van de sjabloonopties, zoals 1x2, 2x2 of 2 tot 3 gesplitste schermkanalen die hierboven zijn vermeld.
 
-***Belangrijk***:
-
-Als u eenmaal inhoud aan uw kanaal hebt gemaakt en toegevoegd, bestaat de volgende stap uit het maken van een locatie, gevolgd door het maken van een weergave. Bovendien moet u dat kanaal aan een vertoning toewijzen. Zie de bronnen hieronder aan het einde van de sectie voor meer informatie.
+>[!IMPORTANT]
+> Als u eenmaal inhoud aan uw kanaal hebt gemaakt en toegevoegd, bestaat de volgende stap uit het maken van een locatie, gevolgd door het maken van een weergave. Bovendien moet u dat kanaal aan een vertoning toewijzen. Zie de bronnen hieronder aan het einde van de sectie voor meer informatie.
 
 ## Werken met kanalen {#working-with-channels}
 
@@ -78,7 +77,7 @@ U kunt een kanaal bewerken, weergeven, eigenschappen en dashboard, kopiëren, vo
 
 >[!NOTE]
 >
->Klik op het pictogram aan de linkerkant om een item te selecteren. Klik bijvoorbeeld op het pictogram voor het kanaal en voer de volgende handelingen uit, zoals in de onderstaande afbeelding wordt getoond.
+>Selecteer het kanaal, zoals weergegeven in de onderstaande afbeelding.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -86,7 +85,7 @@ U kunt een kanaal bewerken, weergeven, eigenschappen en dashboard, kopiëren, vo
 
 Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 
-1. Klik op het Kanaal u (zoals aangetoond in het hierboven cijfer) wilt uitgeven.
+1. Selecteer het kanaal dat u wilt bewerken (zoals in de bovenstaande afbeelding wordt getoond).
 1. Klik in de linkerbovenhoek van de actiebalk op **Bewerken** om de kanaaleigenschappen te bewerken. De redacteur opent die u toestaat om activa/componenten aan uw kanaal toe te voegen die u wilt publiceren.
 
 >[!NOTE]
@@ -95,7 +94,9 @@ Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Video&#39;s uploaden naar het kanaal** Volg de onderstaande stappen om video&#39;s te uploaden naar uw kanaal:
+**Video&#39;s uploaden naar het kanaal**
+
+Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 
 1. Selecteer het kanaal waar u de video wilt uploaden.
 1. Klik op **Bewerken** op de actiebalk om de editor te openen.
@@ -118,8 +119,8 @@ Volg onderstaande stappen om de eigenschappen van een kanaal weer te geven of te
 
 Voer de volgende stappen uit om het dashboard van een kanaal weer te geven:
 
-1. Klik op het kanaal u wilt uitgeven.
-1. Klik op **Dashboard** op de actiebalk om de dashobard weer te geven. Het deelvenster **KANAALINFORMATIE**,**TOEGEWEZEN WEERGAVEN** en **AFGELOPEN START** wordt geopend, zoals in de onderstaande afbeelding wordt getoond:
+1. Selecteer het kanaal dat u wilt bewerken.
+1. Klik op **Dashboard** op de actiebalk om het dashboard weer te geven. Het deelvenster **KANAALINFORMATIE**,**TOEGEWEZEN WEERGAVEN** en **AFGELOPEN START** wordt geopend, zoals in de onderstaande afbeelding wordt getoond:
 
 ![dashboard](assets/dashboard.gif)
 
@@ -127,7 +128,7 @@ Voer de volgende stappen uit om het dashboard van een kanaal weer te geven:
 
 In het deelvenster Kanaalgegevens worden de kanaaleigenschappen beschreven, samen met de voorvertoning naar het kanaal. Ook, verstrekt het u de informatie over of het kanaal off-line of online is.
 
-Klik op de (**...**) in de **actiebalk Kanaalgegevens** om eigenschappen weer te geven, de inhoud te bewerken of de cache (offlineinhoud) voor het kanaal bij te werken.
+Klik op de (**...**) van de de actiebar van de INFORMATIE **van het** KANAAL aan meningseigenschappen, geef de inhoud uit, of om geheime voorgeheugen (off-line inhoud) voor het kanaal bij te werken.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -149,7 +150,7 @@ Volg de onderstaande stappen om het kanaal online te maken:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klik op **Dashboard** op de actiebalk om de status van de speler weer te geven. Het venster **CHANNEL-INFORMATIE **bevat informatie over de vraag of het kanaal online of offline is.
+   Klik op **Dashboard** op de actiebalk om de status van de speler weer te geven. Het deelvenster **KANAALINFORMATIE** bevat informatie over de vraag of het kanaal online of offline is.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
