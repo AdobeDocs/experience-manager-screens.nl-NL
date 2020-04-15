@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
+source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
 
 ---
 
@@ -88,12 +88,13 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 > Deze optie is alleen beschikbaar bij AEM 6.4 Feature Pack 8 of AEM 6.5 Feature Pack 4.
 
 Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
-De volgende opties zijn beschikbaar om de methode van de onderbreking van de de dialoogdoos van de Toewijzing van het **Kanaal** te plaatsen:
+
+Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het dialoogvenster **Kanaaltoewijzing** :
 
 * **Onmiddellijk**: wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
 * **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of afspeelt u de nieuwe inhoud
    >[!NOTE]
-   >Dit is de standaardoptie die wordt geselecteerd.
+   >Deze optie is standaard geselecteerd.
 * **Aan het einde van de reeks**: wanneer een nieuw programma activeert of een update wordt ontvangen, hebt u de optie om op de volledige opeenvolging te wachten om zijn eind te bereiken, en net vóór de gewenste opeenvolging, kunt u terugloop naar het eerste element, u vernieuwt of de nieuwe inhoud speelt
 
 #### Schema {#schedule-channel}
