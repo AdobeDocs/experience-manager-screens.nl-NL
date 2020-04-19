@@ -1,6 +1,6 @@
 ---
-title: Lanceringen
-seo-title: Lanceringen
+title: Inhoud bijwerken met Schermen starten
+seo-title: Inhoud bijwerken met Schermen starten
 description: Inhoudsauteurs kunnen een toekomstige versie van de kanalen maken, ook wel Launch genoemd, en als u de actieve datum voor deze lancering verder instelt, kan inhoud live worden weergegeven op apparaten of spelers.
 seo-description: Inhoudsauteurs kunnen een toekomstige versie van de kanalen maken, ook wel Launch genoemd, en als u de actieve datum voor deze lancering verder instelt, kan inhoud live worden weergegeven op apparaten of spelers.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
@@ -11,28 +11,28 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
 
-# Lanceringen {#launches}
+# Inhoud bijwerken met Schermen starten {#launches}
 
-Inhoudsauteurs kunnen een toekomstige versie van de kanalen maken. Deze versie wordt **Launch** genoemd en bij het instellen van de live datum voor deze lancering kan inhoud live worden weergegeven op apparaten of spelers.
+Inhoudsauteurs kunnen een toekomstige versie van de kanalen maken. Deze versie wordt **Screens Launch** genoemd. Als u de live-datum voor deze lancering instelt, kan de inhoud actief zijn in apparaten of spelers.
 
-Met behulp van lanceringen, kunnen de auteurs elk kanaal in de lancering voorproef en een verzoek tot overzicht in werking stellen. De groep van fiatteurs zal bericht krijgen en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
+Met behulp van toekomstige publicaties kunnen auteurs elk kanaal voorvertonen tijdens het starten en een verzoek om revisie starten. De groep van fiatteurs zal bericht krijgen en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
 
 Als de auteur bijvoorbeeld toekomstige versies van c1, c2 (kanalen) wil maken, wordt een introductie gemaakt en wordt een live datum ingesteld (bijvoorbeeld 10e 8:00 AM nov). Eventuele verdere updates in de inhoud worden ter controle verzonden. Na goedkeuring en op live datum (10 november, 8:00 uur) speelt deze lancering de inhoud op de apparaten of spelers af.
 
 ## Vereisten {#requirements}
 
-Voordat u de implementatie van Launches start in een AEM Screens-project, moet u het concept Respijtperiode en de relevantie ervan begrijpen.
+Voordat u de implementatie van toekomstige publicaties start in een AEM Screens-project, moet u controleren of u het concept Respijtperiode en de relevantie ervan begrijpt.
 
 De volgende sectie verklaart de Periode van de Aflossing en verder hoe te om het uit-van-de-doos te vormen. U kunt een configuratie van de steekproeftest ook downloaden om zijn gebruik te begrijpen.
 
 ### Respijtperiode begrijpen {#understanding-grace-period}
 
-De volgende opstelling staat admin toe om de Periode ***van de*** Restitutie te vormen, die in Lanceringen wordt vereist.
+De volgende opstelling staat admin toe om de Periode ***van de*** Restitutie te vormen, die in de toekomst wordt vereist publiceren.
 
 **Respijtperiode**, inclusief:
 
@@ -68,14 +68,14 @@ Als u de bovenstaande configuratie wilt wijzigen, volgt u de onderstaande instru
 
 Dit betekent dat wanneer u een live-datum instelt voor het starten van bronnen onder */inhoud/schermen*, de promotie begint met deze verschuiving. Als de live datum bijvoorbeeld is ingesteld op 24 november, 9:00 uur en de respijtperiode op 600 seconden, begint de promotietaak op 24 november, 8:50 uur.
 
-## Lanceringen gebruiken {#using-launches}
+## Starten van schermen gebruiken {#using-launches}
 
-Volg de onderstaande sectie om Launches te implementeren in uw AEM Screens-project. In deze sectie worden de volgende onderwerpen behandeld:
+Volg de onderstaande sectie om lanceringen in uw project van de Schermen uit te voeren AEM. In deze sectie worden de volgende onderwerpen behandeld:
 
-1. **Starten maken**
-1. **Een Starten bewerken om de actieve datum en het actieve bereik in te stellen**
+1. **Schermen starten**
+1. **Een schermlancering bewerken om de actieve datum en het actieve bereik in te stellen**
 
-### Starten maken {#creating-a-launch}
+### Een toekomstige publicatie maken {#creating-a-launch}
 
 Voer de onderstaande stappen uit om toekomstige publicatiefunctionaliteit te implementeren voor uw AEM Screens-project:
 
