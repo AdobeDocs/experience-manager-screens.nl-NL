@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
+source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
 
 ---
 
@@ -177,43 +177,43 @@ Nadat u de opstart hebt gemaakt, moet u de opstarteigenschappen bewerken om de a
 
 Voer de onderstaande stappen uit om de eigenschappen van de startpagina te bewerken:
 
-1. Navigeer naar het kanaal (**FutureLaunch**) en selecteer het kanaal, zoals in de onderstaande afbeelding wordt getoond. Open de **References** rail vanaf de linkerkant.
+1. Navigeer naar het kanaal **FutureLaunch**, *(dat is de volgende start)* en selecteer het kanaal, zoals in de onderstaande afbeelding wordt getoond.
 
-   >[!NOTE]
-   >
-   >Selecteer de optie **Inhoudsstructuur** in de linkertrack om de startpagina te openen die u hebt gemaakt.
+   ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-   ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
+1. Klik op het **dashboard** op de actiebalk en u ziet het deelvenster **OPENBARE STARTEN** van het kanaaldashboard.
 
-1. Navigeer naar **Starten** en selecteer de lancering (**SummerPromotions**) u creeerde. Klik op Eigenschappen **bewerken**.
+   ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-   ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
+1. Selecteer de lancering en klik op om het even welke gewenste acties van het **PENDING paneel van LETTERS** .
 
-1. Het dialoogvenster **SummerPromotions** starten wordt geopend. Vul de volgende velden in:
+   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+
+1. U klikt bijvoorbeeld op **Starteigenschappen** om de eigenschappen voor de start van **SummerPromotions** te bewerken.
+
+   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+
+1. U kunt de titel **van de** Lijn bewerken en de volgende velden vullen:
 
    * Selecteer de **startdatum**
    * Gereed voor **productiecontrole**
    * Selecteer goedgekeurde pagina **&#39;s** promoten vanuit **bereik**
-   >[!NOTE]
-   >
-   >Inzicht krijgen in de items van Launches bij **Automatisch bevorderen**:
+   **Inzicht krijgen in de items van Launches bij Automatische promotie:**
 
-   >    * **Begindatum** verwijst naar de live datum, dat wil zeggen de datum/tijd waarop de inhoud in de schermspeler wordt afgespeeld volgens de tijdzone van de speler.
-   >    * **Productieklaar**, maakt het mogelijk de kanalen te bevorderen en betekent dat de lancering klaar is om te worden gebruikt.
-   >    * **Bereik** verwijst naar de kanalen die kunnen worden bevorderd tijdens het lanceren.
-
-
+   * **Begindatum** verwijst naar de live datum, dat wil zeggen de datum/tijd waarop de inhoud in de schermspeler wordt afgespeeld volgens de tijdzone van de speler.
+   * **Productieklaar**, maakt het mogelijk de kanalen te bevorderen en betekent dat de lancering klaar is om te worden gebruikt.
+   * **Bereik** verwijst naar de kanalen die kunnen worden bevorderd tijdens het lanceren.
    De volgende drie opties zijn beschikbaar om het werkingsgebied te plaatsen:
-   1. **Volledige introductie** bevorderen: Alle kanalen van de lancering worden bevorderd op de vastgestelde levende datum.
-   1. **Gewijzigde pagina**&#39;s promoten: Alleen bewerkte opstartbronnen worden bevorderd. U wordt aangeraden deze optie te gebruiken als de startrevisie niet vereist is. Hierdoor kunnen wijzigingen in de lanceerkanalen worden bevorderd.
-   1. **Goedgekeurde pagina**&#39;s promoten: Alleen goedgekeurde pagina&#39;s worden gepromoveerd op de ingestelde live datum.
-   ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
-   >[!CAUTION]
-   >
-   >Bij het starten wordt de tijdzone van de speler/apparaat in plaats van die van de server gerespecteerd.
+   * **Volledige introductie** bevorderen: Alle kanalen van de lancering worden bevorderd op de vastgestelde levende datum.
+   * **Gewijzigde pagina**&#39;s promoten: Alleen bewerkte opstartbronnen worden bevorderd. U wordt aangeraden deze optie te gebruiken als de startrevisie niet vereist is. Hierdoor kunnen wijzigingen in de lanceerkanalen worden bevorderd.
+   * **Goedgekeurde pagina**&#39;s promoten: Alleen goedgekeurde pagina&#39;s worden gepromoveerd op de ingestelde live datum.
+
+      >[!CAUTION]
+      >
+      >Bij het starten wordt de tijdzone van de speler/apparaat in plaats van die van de server gerespecteerd.
+
+
 
 1. Klik op **Opslaan en sluiten** om terug te navigeren naar het kanaal **FutureLaunch** .
-
-   ![screen_shot_2019-06-26at114332am](assets/screen_shot_2019-06-26at114332am.png)
 
