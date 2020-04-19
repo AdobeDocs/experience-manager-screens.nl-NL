@@ -4,7 +4,7 @@ seo-title: Opmerkingen bij de release voor Feature Pack 202004
 description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 15 april 2020 wordt vrijgegeven.
 seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 15 april 2020 wordt vrijgegeven.
 translation-type: tm+mt
-source-git-commit: d6635c0d6bb4e3126fda6b39e933272f0693b576
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -21,16 +21,19 @@ AEM-schermen hebben AEM 6.4 Feature Pack 8 en AEM 6.5 Feature Pack 4 uitgebracht
 
 De releasedatum voor AEM Screens Feature Pack 20204 is 15 april 2020.
 
-### Nieuwe functies {#what-s-new}
+### What&#39;s New {#what-s-new}
 
 * **Opties voor afspeelonderbreking**
 
-   Als auteur kunt u nu opgeven wanneer een kanaal wordt onderbroken of niet, zodat de auteur van de inhoud niet-kritieke inhoud kan uitschakelen. U kunt belangrijke inhoud echter wel volledig afspelen voordat de afspeelbewerking wordt onderbroken tijdens het plannen.
+   Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
 
+   Verwijs naar de Methode **[van de](/help/user-guide/channel-assignment.md#interruption-method-channel)**Onderbreking van de sectie om meer over opties te leren beschikbaar bij de de dialoogdoos van de Toewijzing **van het**Kanaal om deze eigenschap in uw project van de Schermen uit te voeren AEM.
 
-* **Lanceringen**
+* **Startpagina&#39;s voor schermen**
 
    De ervaringsstroom van de auteur van de inhoud is verbeterd en het aantal klikken dat u in de toekomst wilt gebruiken, is verminderd.
+
+   Raadpleeg **[Inhoud bijwerken met Schermen starten](launches.md)**voor meer informatie.
 
 * **Kanaaldashboard**
 
@@ -39,11 +42,15 @@ De releasedatum voor AEM Screens Feature Pack 20204 is 15 april 2020.
 
 * **Manifest weergeven**
 
-   U kunt manifest van het kanaaldashboard bekijken.
+   U kunt het manifestbestand nu weergeven via het kanaaldashboard.
+
+   Raadpleeg **[De manifest](/help/user-guide/managing-channels.md#view-manifest)**bekijken.
 
 * **Tekstbedekking**
 
-   Tijdens het toevoegen van test aan de functie voor tekstbedekking is de tekengrootte nu veel preciezer en bijgewerkt.
+   Tijdens het toevoegen van test aan de functie voor tekstbedekking is de tekengrootte nauwkeurig en verbeterd.
+
+   Verwijs naar de Bedekking **[van de](text-overlay.md)**Tekst om een dwingende ervaring in een Kanaal van de Opeenvolging tot stand te brengen door een titel of een beschrijving te verstrekken over bovenop een beeld.
 
 * **Verbeteringen in opdrachtsynchronisatie**
 
