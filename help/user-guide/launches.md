@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
+source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
 
 ---
 
@@ -77,9 +77,9 @@ Volg de onderstaande sectie om lanceringen in uw project van de Schermen uit te 
 
 ### Een toekomstige publicatie maken {#creating-a-launch}
 
-Voer de onderstaande stappen uit om toekomstige publicatiefunctionaliteit te implementeren voor uw AEM Screens-project:
+Voer de onderstaande stappen uit om de startfunctionaliteit van uw AEM-rasterproject te implementeren:
 
-1. Navigeer naar het kanaal in uw project van de Schermen AEM, bijvoorbeeld **LaunchesDemo** —> **Kanalen** —> **FutureLaunch**, zoals hieronder getoond.
+1. Navigeer naar een volgnummer in uw AEM-rasterproject, bijvoorbeeld **LaunchesDemo** —> **Kanalen** —> **FutureLaunch**, zoals hieronder wordt weergegeven.
 
    >[!CAUTION]
    >
@@ -87,21 +87,22 @@ Voer de onderstaande stappen uit om toekomstige publicatiefunctionaliteit te imp
 
    ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
 
-1. Selecteer het kanaal **FutureLaunch** en klik op **Create**. Selecteer **Starten** in het keuzemenu.
+1. Selecteer het kanaal **FutureLaunch** en klik op **Create Launch** in de actiebalk.
 
-   ![screen_shot_2019-06-25at15459pm](assets/screen_shot_2019-06-25at15459pm.png)
+1. De wizard **Start** maken wordt geopend. U kunt het kanaal selecteren dat al zichtbaar is in de wizard of op **+ Pagina&#39;s** toevoegen klikken om het kanaal voor schermen te selecteren waarvoor u de opstart wilt maken.
 
-1. De wizard **Start** maken wordt geopend. Klik op **+ Pagina&#39;s** toevoegen om de AEM-rasterkanalen te selecteren waarvoor u de opstart wilt maken.
+   >[!NOTE]
+   >In het volgende voorbeeld ziet u hoe u een opstart maakt voor het bestaande kanaal in de wizard.
 
-   ![screen_shot_2019-06-11at93710am](assets/screen_shot_2019-06-11at93710am.png)
 
-1. Navigeer naar het kanaal en klik op **Selecteren**.
+   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
 
-   ![screen_shot_2019-06-25at20030pm](assets/screen_shot_2019-06-25at20030pm.png)
+1. Selecteer het kanaal en klik op **Volgende** op de actiebalk.
 
-1. Als u de pagina hebt geselecteerd, klikt u op **Volgende** om een stap verder te gaan in de wizard **Starten** maken.
+   >[!NOTE]
+   >**De optie Subpagina** opnemen is standaard geselecteerd.
 
-   ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
+   ![Afbeelding](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Ga de Titel **van de** Lancering als **SummerPromotions** in en u te hoeven niet om de Datum **van de** Lancering te plaatsen, zoals aangetoond in het hieronder cijfer. Klik op **Maken**.
 
@@ -112,7 +113,7 @@ Voer de onderstaande stappen uit om toekomstige publicatiefunctionaliteit te imp
    >
    >*Als u Live-gegevens* van bronpagina&#39;s **overnemen in- of uitschakelt** , kunnen de kanalen zonder live-relatie worden gekopieerd tijdens het starten. Als er dus wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen niet toegepast op de startkanalen.
 
-   ![screen_shot_2019-06-25at20215pm](assets/screen_shot_2019-06-25at20215pm.png)
+   ![Afbeelding](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -122,9 +123,7 @@ Voer de onderstaande stappen uit om toekomstige publicatiefunctionaliteit te imp
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Klik op **Gereed** om terug te navigeren naar uw **LaunchesDemo** -project.
-
-   ![screen_shot_2019-06-25at20434pm](assets/screen_shot_2019-06-25at20434pm.png)
+   Als u op **Gereed** klikt, kunt u terugnavigeren naar het kanaal **FutureLaunch** .
 
 ### De eigenschappen voor het starten bewerken om de actieve datum en het actieve bereik in te stellen {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
