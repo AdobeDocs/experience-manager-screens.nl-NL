@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens Help
+user-guide-title: Help bij Adobe Experience Manager
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + Updates van inhoud beheren {#content-updates}
       + [Update voor on-demand inhoud](on-demand-content.md)
       + [Inhoud als service-update](content-update-as-a-service.md)
-      + [Inhoud bijwerken met behulp van Starten](launches.md)
+      + [Inhoud bijwerken met Schermen starten](launches.md)
    + Voorbeelden van hoofdletters/kleine letters gebruiken {#use-case-examples}
       + [Noodkanalen](emergency-channel.md)
       + [Temperatuuractivering in het midden van de reis](local-temperature-activation.md)
