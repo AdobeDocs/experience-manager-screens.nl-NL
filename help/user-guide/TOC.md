@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Help bij Adobe Experience Manager
 translation-type: tm+mt
-source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
+source-git-commit: 4126b06f33216d2b2e10cbcd9b16333a347f791b
 
 ---
 
@@ -97,6 +97,7 @@ source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
    + [Problemen oplossen in Device Control Center](monitoring-screens.md)
    + [Configuratie videoweergave](troubleshoot-videos.md)
 + Release-opmerkingen {#release-notes}
+   + [Opmerkingen bij de release voor Feature Pack 202004](release-notes-fp-202004.md)
    + [Opmerkingen bij de release voor Feature Pack 202001](release-notes-fp-202001.md)
    + [Opmerkingen bij de release voor Feature Pack 201909](release-notes-fp-201909.md)
    + [Opmerkingen bij de release voor Feature Pack 201907](release-notes-fp-201907.md)
