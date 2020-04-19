@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
+source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
 
 ---
 
@@ -75,27 +75,30 @@ Volg de onderstaande sectie om lanceringen in uw project van de Schermen uit te 
 1. **Schermen starten**
 1. **Een schermlancering bewerken om de actieve datum en het actieve bereik in te stellen**
 
-### Een toekomstige publicatie maken {#creating-a-launch}
+### Schermen starten {#creating-a-launch}
 
 Voer de onderstaande stappen uit om de startfunctionaliteit van uw AEM-rasterproject te implementeren:
 
-1. Navigeer naar een volgnummer in uw AEM-rasterproject, bijvoorbeeld **LaunchesDemo** —> **Kanalen** —> **FutureLaunch**, zoals hieronder wordt weergegeven.
+1. Maak een volgnummer in uw AEM-rasterproject, bijvoorbeeld **LaunchesDemo** —> **Kanalen** —> **FutureLaunch**, zoals hieronder wordt weergegeven.
 
    >[!CAUTION]
    >
    >U moet een lancering van een reeds bestaand kanaal in uw project van het Schermen van AEM tot stand brengen.
 
-   ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
+   ![Afbeelding](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. Selecteer het kanaal **FutureLaunch** en klik op **Create Launch** in de actiebalk.
 
-1. De wizard **Start** maken wordt geopend. U kunt het kanaal selecteren dat al zichtbaar is in de wizard of op **+ Pagina&#39;s** toevoegen klikken om het kanaal voor schermen te selecteren waarvoor u de opstart wilt maken.
+   ![Afbeelding](/help/user-guide/assets/launches-images/launches-12.png)
 
-   >[!NOTE]
-   >In het volgende voorbeeld ziet u hoe u een opstart maakt voor het bestaande kanaal in de wizard.
+1. De wizard **Start** maken wordt geopend. U kunt het kanaal selecteren dat al zichtbaar is in de wizard of op **+ Kanalen** toevoegen klikken om het kanaal toe te voegen waarvoor u de opstart wilt maken.
 
 
-   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
+#### Het bestaande kanaal gebruiken {#existing-channel-launch}
+
+1. Selecteer het kanaal dat al bestaat in de wizard **Starten** maken en klik op **Volgende**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Selecteer het kanaal en klik op **Volgende** op de actiebalk.
 
@@ -124,6 +127,49 @@ Voer de onderstaande stappen uit om de startfunctionaliteit van uw AEM-rasterpro
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
    Als u op **Gereed** klikt, kunt u terugnavigeren naar het kanaal **FutureLaunch** .
+
+   ![Afbeelding](/help/user-guide/assets/launches-images/launches-16.png)
+
+
+#### De optie Kanalen toevoegen gebruiken {#add-channel-launch}
+
+1. Klik op **+ Kanalen** toevoegen om het kanaal toe te voegen waarvoor u de opstart wilt maken.
+
+   ![image](/help/user-guide/assets/launches-images/launches-13.png)
+
+   >[!NOTE]
+   >De optie **Selecteren** wordt uitgeschakeld als u meerdere kanalen of een map probeert te selecteren om de opstart toe te voegen.
+
+1. Navigeer naar het kanaal waarvoor u de lancering wilt tot stand brengen en klik **Uitgezocht**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+
+1. Nu kunt u het kanaal selecteren dat u hebt toegevoegd om een lancering voor te creëren en **daarna** te klikken.
+
+   ![image](/help/user-guide/assets/launches-images/launches-15.png)
+
+1. Ga de Titel **van de** Lancering als **SummerPromotions** in en u te hoeven niet om de Datum **van de** Lancering te plaatsen, zoals aangetoond in het hieronder cijfer. Klik op **Maken**.
+
+   >[!NOTE]
+   >
+   >*Als u de optie Live-gegevens* van bronpagina **overnemen inschakelt of controleert** , kunnen de kanalen tijdens het starten als live kopieën worden gemaakt. Als er wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen automatisch toegepast op de startkanalen.
+   >
+   >
+   >*Als u Live-gegevens* van bronpagina&#39;s **overnemen in- of uitschakelt** , kunnen de kanalen zonder live-relatie worden gekopieerd tijdens het starten. Als er dus wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen niet toegepast op de startkanalen.
+
+   ![Afbeelding](/help/user-guide/assets/launches-images/launches-c.png)
+
+   >[!NOTE]
+   >
+   >U kunt de live startdatum in deze stap instellen of u kunt deze later instellen tijdens het bewerken van de eigenschappen van de start nadat deze al is gemaakt.
+
+1. U ziet dat de opstart is gemaakt. U kunt op **Openen** klikken om de pagina&#39;s in de editor weer te geven of op **Gereed** klikken om terug te gaan naar uw project.
+
+   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+
+   Als u op **Gereed** klikt, kunt u terugnavigeren naar het kanaal **FutureLaunch** .
+
+   ![Afbeelding](/help/user-guide/assets/launches-images/launches-16.png)
 
 ### De eigenschappen voor het starten bewerken om de actieve datum en het actieve bereik in te stellen {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
