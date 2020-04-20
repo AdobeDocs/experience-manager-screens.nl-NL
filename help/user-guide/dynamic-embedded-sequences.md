@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
+source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
 ---
 
@@ -216,7 +216,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. Voer de **kanaalnaam** in als **gebied***.
    1. Voer de rol **** Kanaal in als **RegionAdSegment**.
    1. Click **Save**.
-   **Kanaal op rol toewijzen voor winkel:
+   **Kanaal op rol toewijzen voor winkel:**
 
    1. Klik op **+ Kanaal** toewijzen vanuit het deelvenster **TOEGEWEZEN KANALEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
    1. Referentiekanaal **** selecteren.. op naam.
@@ -268,7 +268,7 @@ De volgende uitvoer bevestigt de kanaalinhoud in de AEM-schermspeler, afhankelij
 
 **Scenario 1**:
 
-Als u het weergavepad toewijst als **Demo** —> **Locaties** —> **Regio A** —>* Store 1** —> **Store1Display**, wordt de volgende inhoud weergegeven op uw AEM-schermspeler.
+Als u het weergavepad toewijst als **Demo** —> **Locaties** —> **Gebied A** —> **Winkel 1** —> **Store1Display**, wordt de volgende inhoud weergegeven op uw AEM-schermspeler.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
@@ -354,7 +354,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen en ACLs vo
    1. Navigate to the **Permissions** tab
    1. Navigeer naar ***/content/screens/demo*** en controleer alle machtigingen
    1. Navigeer naar ***/content/screens/demo/locations*** en controleer alle machtigingen
-   1. Navigeer naar ***/content/screens/demo/locations***/***region-a*** en controleer alle machtigingen. Controleer op dezelfde manier de machtigingen voor **region-b**.
+   1. Navigeer naar ***/content/screens/demo/locations/region-a*** en controleer alle machtigingen. Controleer op dezelfde manier de machtigingen voor **region-b**.
    Raadpleeg de onderstaande afbeelding voor meer informatie over de stappen:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -367,7 +367,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen en ACLs vo
    1. Navigate to the **Permissions** tab.
    1. Navigeer naar ***/content/screens/demo*** en controleer alleen de **leesmachtigingen** .
    1. Navigeer naar ***/content/screens/demo/locations*** en controleer alleen de **Leesmachtigingen** .
-   1. Navigeer naar ***/content/screens/demo/channel ***en schakel de machtigingen voor het **Global**-kanaal uit.***
+   1. Navigeer naar ***/content/screens/demo/channel*** en schakel de machtigingen voor **Global** channel uit.
    1. Navigeer naar ***/content/screens/demo/locations***/***region-a*** en controleer alle machtigingen. Controleer op dezelfde manier de machtigingen voor **region-b**.
    Raadpleeg de onderstaande afbeelding voor meer informatie over de stappen:
 
