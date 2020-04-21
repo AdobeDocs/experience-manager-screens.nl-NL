@@ -3,7 +3,7 @@ title: Authoring met gegevenstriggers
 seo-title: Authoring met gegevenstriggers
 description: Volg deze pagina om te leren hoe u ontwerpt met gegevenstriggers.
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -43,7 +43,7 @@ Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te sch
 
    ![screen_shot_2019-05-01at4332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Selecteer het lusje van de **Personalisatie** aan opstelling de configuraties ContextHub.
+1. Selecteer het lusje van de **Personalisatie** aan opstelling de configuraties ContextHub en selecteer de weg ContextHub en van Segmenten.
 
    1. Selecteer het **ContextHub-pad** als **bibliotheken** > **instellingen** > **cloudinstellingen** > **standaard** **** ****> ContextHub Configurations en klik opSelect.
 
