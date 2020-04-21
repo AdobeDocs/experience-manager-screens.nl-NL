@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -94,11 +94,12 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
 
    1. Voer de **titel** in als **Google Sheets**, de **winkelnaam** als **gumesheets** en het **winkeltype** **** **** als contexthub.generic-jsonp en klik op Next.
 
+      >[!CAUTION]
+      >Als u Adobe Experience Manager (AEM) 6.4 gebruikt, voert u de **configuratitel** in als **googesheets** en het **winkeltype** als **contexthub.generic-jsonp**.
+
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-      >[!NOTE]
-      >
-      >In AEM 6.4, ga de Titel **van de** Configuratie als **googesheets** en het Type **van** Opslag als **contexthub.generic-jsonp** in.
+
 
    1. Voer uw specifieke json-configuratie in. Bijvoorbeeld, kunt u de volgende json voor demodoeleinden gebruiken en **sparen** klikken en u zult de opslagconfiguratie zien die als **Bladen** van Google in configuratie ContextHub wordt genoemd.
 
@@ -130,7 +131,7 @@ Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald 
 
 1. **Opslagsegmentatie instellen**
 
-   1. Navigeer aan de Configuratie van de Opslag **ContentHub..** en maak een andere archiefconfiguratie in de container van de het schermconfiguratie en plaats de **Titel** als **segmentatie-contexthub**, **Naam** van **de Opslag als** segmentatie **en Type** van de **** Opslag als aem.segmentation.
+   1. Navigeer aan de Configuratie van de Opslag **ContentHub..** en maak een andere opslagconfiguratie in de container van de het schermconfiguratie en plaats de **Titel** als **segmentatie-contexthub**, **Naam** van de Opslag als **segmentatie** en Type **van** **** Opslag als aem.segmentation.
 
       ![image](/help/user-guide/assets/context-hub/context-hub7.png)
 
@@ -159,7 +160,7 @@ U moet het proces van het bepalen van de json overslaan en het als leeg verlaten
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-   1. Op dezelfde manier plaats de Weg **** ContextHub en de Weg **van** Segmenten **voor segment** Lowerthan50.
+   1. Op dezelfde manier plaats de Weg **** ContextHub en de Weg **van** Segmenten **voor** segment Lowerthan50.
 
 ## Stap 4: Merk en gebied instellen {#setting-brand-area}
 
