@@ -11,62 +11,66 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
+source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
 
 ---
 
 
 # Inhoud bijwerken met Schermen starten {#launches}
 
-Inhoudsauteurs kunnen een toekomstige versie van de kanalen maken. Deze versie wordt **Screens Launch** genoemd. Als u de live-datum voor deze lancering instelt, kan de inhoud actief zijn in apparaten of spelers.
+Inhoudsauteurs kunnen een toekomstige versie van de kanalen maken, ook wel **Screens Launch** genoemd, en de live-datum voor deze lancering verder instellen. Hierdoor kan de inhoud live worden weergegeven in apparaten of spelers op de opgegeven live datum.
 
-Met behulp van toekomstige publicaties kunnen auteurs elk kanaal voorvertonen tijdens het starten en een verzoek om revisie starten. De groep van fiatteurs zal bericht krijgen en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
+Met behulp van **Screens Launches** kunnen auteurs elk kanaal in de lancering bekijken en een verzoek om overzicht in werking stellen. De groep van fiatteurs zal bericht krijgen en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
 
 Als de auteur bijvoorbeeld toekomstige versies van c1, c2 (kanalen) wil maken, wordt een introductie gemaakt en wordt een live datum ingesteld (bijvoorbeeld 10e 8:00 AM nov). Eventuele verdere updates in de inhoud worden ter controle verzonden. Na goedkeuring en op live datum (10 november, 8:00 uur) speelt deze lancering de inhoud op de apparaten of spelers af.
 
 ## Vereisten {#requirements}
 
-Voordat u de implementatie van toekomstige publicaties start in een AEM Screens-project, moet u controleren of u het concept Respijtperiode en de relevantie ervan begrijpt.
+Voordat u de functie Schermafbeeldingen starten in een AEM Screens-project, moet u controleren of u het concept Respijtperiode en de relevantie ervan begrijpt.
 
-De volgende sectie verklaart de Periode van de Aflossing en verder hoe te om het uit-van-de-doos te vormen. U kunt een configuratie van de steekproeftest ook downloaden om zijn gebruik te begrijpen.
+Als u een ervaring uitvoert op de live-datum instellen op de speler, gaat u als volgt te werk:
+
+* het promoten van de opstart (duurt meestal een paar seconden)
+
+* het publiceren van de bronnen voor het publiceren van instanties (neemt doorgaans een paar minuten in beslag, afhankelijk van de grootte van de kanalen of middelen die moeten worden gepubliceerd)
+
+* de tijd die de update offline nodig heeft om te voltooien (neemt doorgaans een paar minuten in beslag)
+
+* de tijd die de spelers nodig hebben om de inhoud van de publicatieinstantie te downloaden (neemt meestal minuten in beslag, afhankelijk van de bandbreedte en grootte van de elementen die moeten worden gedownload)
+
+* eventuele tijdverschillen tussen de server en de speler
 
 ### Respijtperiode begrijpen {#understanding-grace-period}
 
-De volgende opstelling staat admin toe om de Periode ***van de*** Restitutie te vormen, die in de toekomst wordt vereist publiceren.
+Om ervoor te zorgen dat de speler de inhoud op de vastgestelde live datum kan afspelen, moeten de eerder vermelde activiteiten voor de live datum worden gestart.
 
-**Respijtperiode**, inclusief:
-
-* bevordering van de lancering
-* publiceren van de bronnen die moeten worden gepubliceerd
-* tijd die de apparaten nodig hebben om de inhoud van de publicatieinstantie te downloaden en eventuele tijdverschillen tussen de server en de speler
+Als de live datum 24 *nov., 9:00 AM* is en de respijtperiode *24 uur* is, dan zal de bovengenoemde opeenvolging van acties beginnen bij (levende datum - respijtperiode), namelijk 23 nov, 9:00 AM servertijd. Dit geeft 24 uur de tijd om alle bovengenoemde acties te voltooien en de inhoud zal de spelers bereiken. De spelers zullen begrijpen dat dit een lanceringsinhoud is, zodat zal de inhoud niet onmiddellijk spelen, maar de spelers zullen deze inhoud als toekomstige versie opslaan en zullen beginnen precies op de vastgestelde levende datum op de tijdzone van de speler te spelen.
 
 Bijvoorbeeld, is de server in PST en de apparaten in EST zijn, is het maximumtijdverschil 3 uren in dit geval en veronderstelt dat de bevordering 1 min zal vergen en het publiceren van auteur 10 min neemt en de speler kan de middelen typisch in 10-15 min downloaden. De respijtperiode = tijdsverschil (3 uur) + tijd om de start te bevorderen (1 min) + tijd om de start te publiceren (10 min) + tijd om te downloaden bij speler (10-15 min) + buffer (om veilig te zijn, bijvoorbeeld 30 min) = 3 uur 56 min = 14160 seconden. Dus als we elke introductie live plannen, zal de promotie vroeg beginnen bij deze offset. In de bovenstaande vergelijking, nemen de meeste punten niet veel tijd, kunnen wij een behoorlijk gok voor deze compensatie gebruiken zodra wij het maximum tijdverschil b/w de server en om het even welke speler kennen.
 
-### Respijtperiode buiten de box configureren {#configuring-out-of-the-box-grace-period}
-
-De respijtperiode voor een introductie is ingesteld op 24 uur. Dit betekent dat wanneer we een live-datum vaststellen voor elke introductie van middelen onder */content/screens*, de promotie zal beginnen met deze verschuiving. Als de liveDate bijvoorbeeld is ingesteld op 24 november, 9:00 uur en de respijtperiode op 24 uur, begint de promotietaak op 23 november, 9:00 uur.
-
-### Configuraties downloaden {#downloading-configurations}
-
-Download de volgende testconfiguraties:
-
-[Bestand ophalen](assets/launches_event_handlerconfig-10.zip)
-
 >[!NOTE]
->
->De bovengenoemde configuratie heeft 600 seconden als Periode van de Restitutie in deze testconfiguratie.
+>De respijtperiode voor het lanceren van schermen is ingesteld op 24 uur. Dit betekent dat wanneer we een live datum vaststellen voor het opstarten van de bronnen onder */content/screens*, de promotie zal beginnen met deze verschuiving.
 
-#### De configuraties bijwerken {#updating-the-configurations}
+### Respijtperiode buiten de box bijwerken {#updating-out-of-the-box-grace-period}
 
-Als u de bovenstaande configuratie wilt wijzigen, volgt u de onderstaande instructies:
+In deze sectie wordt uitgelegd hoe u een uitstelperiode kunt bijwerken naar 10 minuten:
 
-* Maak de ***sling:OsgiConfig/ nt:bestand in /apps/system/config*** met naam **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** en inhoud
+1. Navigeer naar CRXDE Lite en dan naar `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+2. Klik met de rechtermuisknop en kopieer het bestand.
+3. Navigeer naar `/apps/system/config` en klik met de rechtermuisknop en plak.
+4. Dubbelklik op `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` om het bestand in de editor in CRXDE Lite te openen. De respijtperiode voor pad/inhoud/schermen/ ** moet als 86400 worden weergegeven. Wijzig die waarde in **600**.
 
-   *launches.eventhandler.updateListModification=B&quot;false&quot;launches.eventhandler.launch.promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
+De inhoud in het tekstbestand moet er nu ongeveer als volgt uitzien:
 
-* `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`kunt u een respijtperiode van 600 seconden instellen in het pad */de inhoud/schermen*.
+```java
+launches.eventhandler.launch.promotion.graceperiod=[ \
+   "/content/screens(/.*):600", \
+   ]
+```
 
-Dit betekent dat wanneer u een live-datum instelt voor het starten van bronnen onder */inhoud/schermen*, de promotie begint met deze verschuiving. Als de live datum bijvoorbeeld is ingesteld op 24 november, 9:00 uur en de respijtperiode op 600 seconden, begint de promotietaak op 24 november, 8:50 uur.
+Aangezien u de respijtperiode in het vorige voorbeeld hebt ingesteld op 10 minuten, begint de promotie met deze verschuiving wanneer u een live-datum instelt voor het opstarten van de bronnen onder */content/screens*.
+
+Als de live datum bijvoorbeeld is ingesteld op 24 november, 9:00 uur en de respijtperiode op 600 seconden, begint de promotietaak op 24 november om 8:50 uur.
 
 ## Starten van schermen gebruiken {#using-launches}
 
