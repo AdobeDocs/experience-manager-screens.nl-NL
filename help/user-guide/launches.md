@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ Als de live datum bijvoorbeeld is ingesteld op 24 november, 9:00 uur en de respi
 
 ## Starten van schermen gebruiken {#using-launches}
 
-Volg de onderstaande sectie om de Starten van de Schermen in uw project van de Schermen uit te voeren AEM.
+Deze sectie toont aan hoe te om de Lancering van de Schermen in uw project van de Schermen uit te voeren AEM.
 
 ### Schermen starten {#creating-a-launch}
 
@@ -104,8 +104,6 @@ Voer de onderstaande stappen uit om de functionaliteit voor het starten van sche
 
    >[!NOTE]
    >Met de optie **+ Kanalen** toevoegen kunt u een ander kanaal toevoegen waarvoor u de opstart wilt maken.
-
-   ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
    Als u de optie Kanalen **** toevoegen wilt gebruiken, navigeert u naar het kanaal waarvoor u de opstart wilt maken en klikt u op **Selecteren**.
 
@@ -173,13 +171,13 @@ Voer de onderstaande stappen uit om de eigenschappen van de startpagina te bewer
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### Het uitgeven van de Lancering van de Schermen om Kanalen toe te voegen of te verwijderen {#editing-the-screens-launch-to-add-or-remove-channels}
+### Het uitgeven van de Lancering van de Schermen om Kanalen toe te voegen of te verwijderen {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Nadat u de opstart hebt gemaakt, kunt u kanalen toevoegen aan of verwijderen uit de bestaande opstart met de **actie Starten** bewerken.
+Nadat u de opstart hebt gemaakt, kunt u kanalen toevoegen aan of verwijderen uit de bestaande opstart met de optie **Starten** bewerken.
 
 Als u klaar bent, klikt u op **Opslaan** om terug te gaan naar het kanaal **FutureLaunch** .
 
-#### Schermen handmatig starten bevorderen{#promote-the-screens-launch-manually}
+### Schermen handmatig starten bevorderen{#promote-the-screens-launch-manually}
 
 U kunt de lancering manueel bevorderen gebruikend de optie **bevordert Lancering** van het **PENDING paneel** .
 
@@ -196,11 +194,10 @@ U kunt de middelen kiezen u als deel van deze handbevordering in de Tovenaar **v
 1. Klik op **Volgende** in de wizard **Starten** bevorderen.
 1. Klik op **Promote** om de introductie te promoten.
 
+### De functie Schermen starten verwijderen {#deleting-the-screens-launch}
 
-#### De functie Schermen starten verwijderen {#deleting-the-screens-launch}
-
-U kunt het starten verwijderen met de **handeling Starten** verwijderen.
+U kunt de start verwijderen met de optie Starten **** verwijderen uit het **deelvenster OPENEN** .
 
 >[VOORZIENING]
->Met deze actie verwijdert u ook alle afstammende geneste lanceringen.
+>Met deze actie verwijdert u ook alle onderliggende elementen (geneste lanceringen).
 
