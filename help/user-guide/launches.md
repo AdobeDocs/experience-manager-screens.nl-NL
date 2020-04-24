@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
+source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 ---
 
@@ -74,10 +74,7 @@ Als de live datum bijvoorbeeld is ingesteld op 24 november, 9:00 uur en de respi
 
 ## Starten van schermen gebruiken {#using-launches}
 
-Volg de onderstaande sectie om lanceringen in uw project van de Schermen uit te voeren AEM. In deze sectie worden de volgende onderwerpen behandeld:
-
-1. **Schermen starten**
-1. **Een schermlancering bewerken om de actieve datum en het actieve bereik in te stellen**
+Volg de onderstaande sectie om lanceringen in uw project van de Schermen uit te voeren AEM.
 
 ### Schermen starten {#creating-a-launch}
 
@@ -97,60 +94,19 @@ Voer de onderstaande stappen uit om de startfunctionaliteit van uw AEM-rasterpro
 
 1. De wizard **Start** maken wordt geopend. U kunt het kanaal selecteren dat al zichtbaar is in de wizard of op **+ Kanalen** toevoegen klikken om het kanaal toe te voegen waarvoor u de opstart wilt maken.
 
-
-#### Het bestaande kanaal gebruiken {#existing-channel-launch}
-
-1. Selecteer het kanaal dat al bestaat in de wizard **Starten** maken en klik op **Volgende**.
+1. Klik op **Volgende** in de wizard **Starten** maken. De optie **Inclusief subpagina** is standaard geselecteerd.
 
    ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
-1. Selecteer het kanaal en klik op **Volgende** op de actiebalk.
-
    >[!NOTE]
-   >**De optie Subpagina** opnemen is standaard geselecteerd.
-
-   ![Afbeelding](/help/user-guide/assets/launches-images/launches-b.png)
-
-1. Ga de Titel **van de** Lancering als **SummerPromotions** in en u te hoeven niet om de Datum **van de** Lancering te plaatsen, zoals aangetoond in het hieronder cijfer. Klik op **Maken**.
-
-   >[!NOTE]
-   >
-   >*Als u de optie Live-gegevens* van bronpagina **overnemen inschakelt of controleert** , kunnen de kanalen tijdens het starten als live kopieën worden gemaakt. Als er wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen automatisch toegepast op de startkanalen.
-   >
-   >
-   >*Als u Live-gegevens* van bronpagina&#39;s **overnemen in- of uitschakelt** , kunnen de kanalen zonder live-relatie worden gekopieerd tijdens het starten. Als er dus wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen niet toegepast op de startkanalen.
-
-   ![Afbeelding](/help/user-guide/assets/launches-images/launches-c.png)
-
-   >[!NOTE]
-   >
-   >U kunt de live startdatum in deze stap instellen of u kunt deze later instellen tijdens het bewerken van de eigenschappen van de start nadat deze al is gemaakt.
-
-1. U ziet dat de opstart is gemaakt. U kunt op **Openen** klikken om de pagina&#39;s in de editor weer te geven of op **Gereed** klikken om terug te gaan naar uw project.
-
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
-
-   Als u op **Gereed** klikt, kunt u terugnavigeren naar het kanaal **FutureLaunch** .
-
-   ![Afbeelding](/help/user-guide/assets/launches-images/launches-16.png)
-
-
-#### De optie Kanalen toevoegen gebruiken {#add-channel-launch}
-
-1. Klik op **+ Kanalen** toevoegen om het kanaal toe te voegen waarvoor u de opstart wilt maken.
+   >Met de optie **+ Kanalen** toevoegen kunt u het kanaal toevoegen waarvoor u de opstart wilt maken.
 
    ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >[!NOTE]
-   >De optie **Selecteren** wordt uitgeschakeld als u meerdere kanalen of een map probeert te selecteren om de opstart toe te voegen.
+   >1. Navigeer naar het kanaal waarvoor u de lancering wilt tot stand brengen en klik **Uitgezocht**. De optie **Selecteren** wordt uitgeschakeld als u meerdere kanalen of een map probeert te selecteren om de opstart toe te voegen.
+   >
+   >![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-1. Navigeer naar het kanaal waarvoor u de lancering wilt tot stand brengen en klik **Uitgezocht**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-14.png)
-
-1. Nu kunt u het kanaal selecteren dat u hebt toegevoegd om een lancering voor te creëren en **daarna** te klikken.
-
-   ![image](/help/user-guide/assets/launches-images/launches-15.png)
 
 1. Ga de Titel **van de** Lancering als **SummerPromotions** in en u te hoeven niet om de Datum **van de** Lancering te plaatsen, zoals aangetoond in het hieronder cijfer. Klik op **Maken**.
 
@@ -175,7 +131,8 @@ Voer de onderstaande stappen uit om de startfunctionaliteit van uw AEM-rasterpro
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-16.png)
 
-### De eigenschappen voor het starten bewerken om de actieve datum en het actieve bereik in te stellen {#editing-the-launch-properties-to-set-the-live-date-and-scope}
+
+### De eigenschappen voor starten bewerken om de actieve datum en het actieve bereik in te stellen {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 Nadat u de opstart hebt gemaakt, moet u de opstarteigenschappen bewerken om de actieve datum en het bereik van de opstart in te stellen.
 
@@ -189,35 +146,23 @@ Voer de onderstaande stappen uit om de eigenschappen van de startpagina te bewer
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Selecteer de lancering en klik op om het even welke gewenste acties van het **PENDING paneel van LETTERS** .
+1. Selecteer de start en klik op Eigenschappen **** starten in het **deelvenster OPENEN** .
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-1. U klikt bijvoorbeeld op **Starteigenschappen** om de eigenschappen voor de start van **SummerPromotions** te bewerken.
+#### Het uitgeven van de Lancering van de Schermen om Kanalen toe te voegen of te verwijderen {#editing-the-screens-launch-to-add-or-remove-channels}
 
-   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+Nadat u de opstart hebt gemaakt, kunt u kanalen toevoegen aan of verwijderen uit de bestaande opstart met de **actie Starten** bewerken.
 
-1. U kunt de titel **van de** Lijn bewerken en de volgende velden vullen:
+Als u klaar bent, klikt u op **Opslaan en sluiten** om terug te gaan naar het kanaal **FutureLaunch** .
 
-   * Selecteer de **startdatum**
-   * Gereed voor **productiecontrole**
-   * Selecteer goedgekeurde pagina **&#39;s** promoten vanuit **bereik**
-   **Inzicht krijgen in de items van Launches bij Automatische promotie:**
+#### Schermen handmatig starten bevorderen{#promote-the-screens-launch-manually}
 
-   * **Begindatum** verwijst naar de live datum, dat wil zeggen de datum/tijd waarop de inhoud in de schermspeler wordt afgespeeld volgens de tijdzone van de speler.
-   * **Productieklaar**, maakt het mogelijk de kanalen te bevorderen en betekent dat de lancering klaar is om te worden gebruikt.
-   * **Bereik** verwijst naar de kanalen die kunnen worden bevorderd tijdens het lanceren.
-   De volgende drie opties zijn beschikbaar om het werkingsgebied te plaatsen:
+U kunt de lancering manueel bevorderen gebruikend de **Promote Lancering** actie.
 
-   * **Volledige introductie** bevorderen: Alle kanalen van de lancering worden bevorderd op de vastgestelde levende datum.
-   * **Gewijzigde pagina**&#39;s promoten: Alleen bewerkte opstartbronnen worden bevorderd. U wordt aangeraden deze optie te gebruiken als de startrevisie niet vereist is. Hierdoor kunnen wijzigingen in de lanceerkanalen worden bevorderd.
-   * **Goedgekeurde pagina**&#39;s promoten: Alleen goedgekeurde pagina&#39;s worden gepromoveerd op de ingestelde live datum.
+U kunt de middelen kiezen u als deel van deze handbevordering in de Tovenaar **van de Bevordering van de** Lancering wilt bevorderen.
 
-      >[!CAUTION]
-      >
-      >Bij het starten wordt de tijdzone van de speler/apparaat in plaats van die van de server gerespecteerd.
+#### De functie Schermen starten verwijderen {#deleting-the-screens-launch}
 
-
-
-1. Klik op **Opslaan en sluiten** om terug te navigeren naar het kanaal **FutureLaunch** .
+U kunt het starten verwijderen met de **handeling Starten** verwijderen.
 
