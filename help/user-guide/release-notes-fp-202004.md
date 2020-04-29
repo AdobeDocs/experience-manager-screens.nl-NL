@@ -1,10 +1,10 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202004
 seo-title: Opmerkingen bij de release voor Feature Pack 202004
-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 28 april 2020 wordt vrijgegeven.
-seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 28 april 2020 wordt vrijgegeven.
+description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 20 april 2020 wordt vrijgegeven.
+seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 20 april 2020 wordt vrijgegeven.
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
 
 ---
 
@@ -15,11 +15,19 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
 >
 >U wordt aangeraden een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3-schermplatform.
 
-AEM-schermen hebben AEM 6.4 Feature Pack 8 en AEM 6.5 Feature Pack 4 uitgebracht, met de volgende details.
+## Beschikbaarheid {#availability}
+
+AEM-schermen hebben AEM 6.4 Feature Pack 8 en AEM 6.5 Feature Pack 4 uitgebracht.
+
+U kunt het nieuwste functiepakket voor AEM-schermen 6.4.8 of AEM-schermen 6.5.4 Release downloaden van de *hangende koppeling*.
+
+>[!NOTE]
+>Verwijs naar [hoe te met Pakketten](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) te werken om te leren hoe de pakketten het invoeren en het uitvoeren van bewaarplaats inhoud toelaten en hoe u tot de pakketten van de Manager van het Pakket of het Aandeel van het Pakket kunt toegang hebben en/of handhaven.
+
 
 ## Releasedatum {#release-date}
 
-De releasedatum voor AEM Screens Feature Pack 20204 is 28 april 2020.
+De releasedatum voor AEM Screens Feature Pack 20204 is 20 april 2020.
 
 ### What&#39;s New {#what-s-new}
 
