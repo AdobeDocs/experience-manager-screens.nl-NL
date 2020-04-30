@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Help bij Adobe Experience Manager
 translation-type: tm+mt
-source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: c539da7fd63d2a797393cd271fdfd4404399198c
       + [Ingesloten reeksen](embedded-sequences.md)
       + [Layout meerdere zones](multi-zone-layout-aem-screens.md)
       + [Video-uitvoeringen](generating-renditions.md)
-      + [Dynamische ingesloten reeks gebruiken](dynamic-embedded-sequences.md)
+      + [Dynamische ingesloten reeks](dynamic-embedded-sequences.md)
       + [Duur van afspelen van bulkafbeelding op kanaalniveau](channel-level-image-playback.md)
       + [Opdrachtsynchronisatie](using-command-sync.md)
       + [Authoring met gegevenstriggers](authoring-data-triggers.md)
