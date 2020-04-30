@@ -4,7 +4,7 @@ seo-title: Opmerkingen bij de release voor Feature Pack 202004
 description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 20 april 2020 wordt vrijgegeven.
 seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 20 april 2020 wordt vrijgegeven.
 translation-type: tm+mt
-source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -45,7 +45,7 @@ De releasedatum voor AEM Screens Feature Pack 20204 is 20 april 2020.
 
 * **Kanaaldashboard**
 
-   Instructies in het dashboard van het kanaal en offline dialoogvenster bijwerken om te lezen... &quot;Offline inhoud bijwerken&quot; vervangt het woord &quot;cache bijwerken&quot;
+   Hiermee worden updates van instructies in het kanaaldashboard in het deelvenster **KANAALINFORMATIE** weerspiegeld.
 
 
 * **Manifest weergeven**
@@ -64,6 +64,8 @@ De releasedatum voor AEM Screens Feature Pack 20204 is 20 april 2020.
 
    Met deze release van dit functiepakket worden verbeteringen in de opdrachtsynchronisatievertraging tussen de wijzigingen in de elementen weerspiegeld.
 
+   Raadpleeg **[Command Sync](using-command-sync.md)**voor meer informatie.
+
 ### Uitgebrachte AEM-schermspelers {#released-aem-screens-players}
 
 De volgende AEM Screens Players worden vrijgegeven voor de Schermen van AEM die AEM 6.4 Pak 8 van de Eigenschappen en AEM 6.5 Pak 4 van de Eigenschap uitgeven:
@@ -72,6 +74,6 @@ De volgende AEM Screens Players worden vrijgegeven voor de Schermen van AEM die 
 * Windows
 * Android
 
-#### Downloads AEM-schermspeler {#aem-screens-player-downloads}
+#### Downloads AEM-schermspeler  {#aem-screens-player-downloads}
 
-Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [**AEM Screens Player Downloads **](https://download.macromedia.com/screens/).
+Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
