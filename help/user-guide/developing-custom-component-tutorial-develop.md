@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
+source-git-commit: a60de02a19004dd4d971612496f65285ded55716
 
 ---
 
@@ -367,7 +367,7 @@ AEM-rastercomponenten worden anders weergegeven in de bewerkingsmodus dan in de 
 
    Bij de bovenstaande stijlen wordt het bericht gecentreerd weergegeven in het midden van het scherm, maar alleen in de productiemodus.
 
-Een derde categorie clientbibliotheek: U `cq.screens.components.edit` kunt bijvoorbeeld alleen-bewerkingsstijlen aan de component toevoegen.
+Een derde categorie clientbibliotheek: `cq.screens.components.edit` kan worden gebruikt om alleen-bewerken specifieke stijlen toe te voegen aan de component.
 
 | Clientlib-categorie | Gebruik |
 |---|---|
