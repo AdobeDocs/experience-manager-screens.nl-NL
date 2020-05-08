@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+source-git-commit: 4a70228068a6effb68d46b7e31726e2be84c08cc
+workflow-type: tm+mt
+source-wordcount: '1531'
+ht-degree: 1%
 
 ---
 
@@ -91,6 +94,20 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
    1. Van het **scherm van de Configuratie** ContextHub, leidt de klik **tot** > de Configuratie van de Opslag **ContentHub.**
 
       ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+
+      >[!CAUTION]
+      >Als onderdeel van AEM 6.5 Feature Pack 4 of AEM 6.4 Feature Pack 8, dienen klanten een update uit te voeren `/conf/screens/settings/cloudsettings` naar `sling:Folder`.
+      >Voer de onderstaande stappen uit:
+      >
+      >1. Navigeer naar CRXDE Lite en dan naar `/conf/screens/settings/cloudsettings`.
+      >1. Controleer of `cloudsettings jcr:primaryType` deze zich in `sling:Folder`bevindt. Ga door met de volgende stappen als de map `jcr:primaryType` zich niet in `sling:folder`bevindt.
+      > 1. Klik met de rechtermuisknop op `/conf/screens/settings` en maak een nieuw knooppunt met de *naam* **cloudsettings1** en *Type* als **sling:Map** en sla de wijzigingen op.
+      >1. Verplaats alle knooppunten onder `/conf/screens/settings/cloudsettings` naar `cloudsettings1`.
+      >1. Verwijderen `cloudsettings` en opslaan.
+      >1. Naam wijzigen `cloudsettings1` in `cloudsettings` en opslaan.
+      >1. U zou nu moeten merken dat /conf/screens/settings/cloudsettings heeft `jcr:primaryType` zoals `sling:Folder`.
+Volg deze stappen in auteur en publiceer voor of na de verbetering.
+
 
    1. Voer de **titel** in als **Google Sheets**, de **winkelnaam** als **gumesheets** en het **winkeltype** **** **** als contexthub.generic-jsonp en klik op Next.
 
