@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 4a70228068a6effb68d46b7e31726e2be84c08cc
+source-git-commit: 15afec3ed9ffdcfc918c13376af2b20f9a61ab8e
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -97,6 +97,7 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
 
       >[!CAUTION]
       >Als onderdeel van AEM 6.5 Feature Pack 4 of AEM 6.4 Feature Pack 8, dienen klanten een update uit te voeren `/conf/screens/settings/cloudsettings` naar `sling:Folder`.
+      > 
       >Voer de onderstaande stappen uit:
       >
       >1. Navigeer naar CRXDE Lite en dan naar `/conf/screens/settings/cloudsettings`.
