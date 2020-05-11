@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ Tijdens het maken van een kanaal kunt u verschillende sjablonen gebruiken om zon
 
 ### Vereisten {#prerequisites}
 
-Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor zorgen dat u een project gereed hebt als voorwaarde voor het implementeren van een lay-out met meerdere zones. Bijvoorbeeld:
+Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor zorgen dat u een project gereed hebt als voorwaarde voor het implementeren van een lay-out met meerdere zones. Bijvoorbeeld,
 
 * Een AEM-schermproject maken met de naam **Zones**
 * Een weergave maken onder **Locaties** met de naam **MultiZoneDisplay**
@@ -88,19 +91,26 @@ Als u wilt dat de zones een reeks afbeeldingen of inhoud en een statische afbeel
 1. **Twee kanalen toevoegen aan de kanaalmap**
 
    1. Navigeer naar **zones** —> **Kanalen** —> **Ingesloten kanalen** en klik op **Maken** op de actiebalk.
-   1. Selecteer **Volgkanaal** in de wizard **Maken** om een kanaal met de naam** Zone1** te maken.
+   1. Selecteer **Volgkanaal** in de wizard **Maken** om een kanaal met de naam **Zone1** te maken.
    1. Selecteer **Zone1** en klik op **Bewerken** op de actiebalk om de editor te openen.
    1. Sleep enkele afbeeldingen naar dit kanaal.
    Maak op dezelfde manier een ander volgnummer met de naam **Zone2** in de map **EmbeddedChannel** .
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
+   De afbeeldingen die zijn toegevoegd aan de editor van het kanaal van de **Zone1** -reeks worden hieronder weergegeven:
+
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-1.png)
+
+   De afbeeldingen die zijn toegevoegd aan de editor van het kanaal van de **Zone2** -reeks worden hieronder weergegeven:
+
+   ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-2.png)
+
 1. **Ingesloten reeksen/componenten toevoegen aan hoofdkanaal (MultiZone)**
 
    1. Navigeer naar **zones** —> **Kanalen** —> **MultiZone**.
    1. Klik op **Bewerken** op de actiebalk om de editor te openen.
-   1. Sleep de component **Ingesloten reeks** naar twee van de zones, zoals in de onderstaande afbeelding wordt getoond.
-   ![new](assets/new.gif)
+   1. Sleep de component **Ingesloten reeks** naar twee van de zones.
 
 1. **Inhoud toevoegen aan alle drie zones**
 
@@ -108,9 +118,9 @@ Als u wilt dat de zones een reeks afbeeldingen of inhoud en een statische afbeel
    1. Selecteer de ingesloten reeks in een van de zones.
    1. Klik het **Configure** (moersleutel) pictogram aan één van de ingebedde opeenvolgingen in de redacteur.
    1. Selecteer het kanaalpad als **zones** —> **Kanalen** —> **Ingesloten kanalen** —> **Zone1**, zoals in de onderstaande afbeelding wordt getoond.
-   Op dezelfde manier voeg **Zone2** aan een andere ingebedde opeenvolgingscomponent in de redacteur toe. Voeg ook een afbeelding toe aan de derde zone onderaan, zoals hieronder wordt weergegeven.
+   Op dezelfde manier voeg **Zone2** aan een andere ingebedde opeenvolgingscomponent in de redacteur toe.
 
-   ![new2-1](assets/new2-1.gif)
+   ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 #### Het resultaat weergeven {#viewing-the-result}
 
@@ -118,5 +128,6 @@ Nadat u lay-outs met meerdere zones hebt geïmplementeerd met behulp van de voor
 
 De volgende uitvoer in de Speler van het Scherm toont de inhoud in drie verschillende streken. In de linker- en rechterzone (beide gebruiken ingesloten reeks als een component) wordt een reeks afbeeldingen weergegeven en in de zone eronder wordt een statische afbeelding weergegeven.
 
-![new2-2](assets/new2-2.gif)
+![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
+
 
