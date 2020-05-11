@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
+source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,10 @@ U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle drie 
 
    1. Navigeer naar **zones** —> **Kanalen**—>**MultiZone**.
    1. Selecteer het kanaal **MultiZone** en klik op **Bewerken** op de actiebalk om de editor te openen.
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **Afbeeldingen toevoegen aan het kanaal**
 
-   Als u één afbeelding of video in alle drie zones wilt afspelen, sleept u de afbeelding en zet u deze neer in de kanaaleditor, zoals hieronder wordt weergegeven.
-
-   ![new1-1](assets/new1-1.gif)
+   Als u één afbeelding of video in alle drie zones wilt afspelen, sleept u de afbeelding en zet u deze neer in de kanaaleditor.
 
 ### Gesegrafeerde inhoud gebruiken in een of meer zones {#using-sequenced-content-in-one-or-more-zones}
 
