@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,10 @@ Als u wilt dat de zones een reeks afbeeldingen of inhoud en een statische afbeel
 
 Nadat u lay-outs met meerdere zones hebt geïmplementeerd met behulp van de voorgaande stappen, wordt de volgende uitvoer weergegeven, zoals in de onderstaande afbeelding wordt getoond.
 
-De volgende uitvoer in de Speler van het Scherm toont de inhoud in drie verschillende streken. In de linker- en rechterzone (beide gebruiken ingesloten reeks als een component) wordt een reeks afbeeldingen weergegeven en in de zone eronder wordt een statische afbeelding weergegeven.
+Klik op **Voorvertoning** in de Kanaaleditor om de volgende uitvoer weer te geven waarin de inhoud in twee verschillende zones wordt weergegeven. De linker- en rechterzones (beide gebruiken een ingesloten reeks als een component).
+
+>[!NOTE]
+>Als u de inhoud in de Schermspeler wilt weergeven, klikt u op Offlineinhoud **** bijwerken in het kanaaldashboard.
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
