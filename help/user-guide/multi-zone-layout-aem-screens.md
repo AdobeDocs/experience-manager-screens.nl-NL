@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 1%
@@ -151,7 +151,7 @@ U moet de kanalen aan de vertoning toewijzen om de inhoud te bekijken. Voer de o
    1. Stel de **ondersteunde gebeurtenissen** in op **Eerste Laden**, **Niet-actief scherm** en **Timer**.
    1. Click **Save**.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img7.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Op dezelfde manier moet u de andere twee ingesloten kanalen (**Zone1** en **Zone2**) aan deze weergave toewijzen met de stap 2.
    1. Nadat u alle drie kanalen aan de **Lobby** -weergave hebt toegewezen, kunt u de toegewezen kanalen vanaf het weergavedashboard bekijken.
 
