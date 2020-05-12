@@ -6,7 +6,10 @@ seo-description: Volg deze pagina om antwoorden te krijgen op veelgestelde vrage
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+workflow-type: tm+mt
+source-wordcount: '1271'
+ht-degree: 0%
 
 ---
 
@@ -102,7 +105,7 @@ De ChromeOS-speler kan als Chrome Browser-insteekmodule worden geïnstalleerd in
 
 1. Klik [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
 1. Pak het uit en sla het op de schijf op.
-1. Open Chrome-browser en klik op het menu met drie puntjes en selecteer **Meer gereedschappen** > **Extensies** in de rechterbovenhoek of navigeer rechtstreeks naar ***chrome://extensions***.
+1. Open Chrome-browser en selecteer **Extensies** in het menu of navigeer rechtstreeks naar ***chrome://extensions***.
 1. Schakel de modus **Ontwikkelaar** in de rechterbovenhoek in.
 1. Klik op **Niet-verpakt** laden in de linkerbovenhoek en laad niet-gecomprimeerde Chrome Player.
 1. Schakel de insteekmodule **AEM Screens Chrome Player** in als deze beschikbaar is in de lijst met extensies.
