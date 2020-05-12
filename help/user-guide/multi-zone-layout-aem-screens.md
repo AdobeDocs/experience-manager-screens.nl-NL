@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,9 @@ Als u wilt dat de zones een reeks afbeeldingen en een video in twee verschillend
    1. Selecteer **Volgkanaal** in de wizard **Maken** om een kanaal met de naam **Zone1** te maken.
    1. Selecteer **Zone1** en klik op **Bewerken** op de actiebalk om de editor te openen.
    1. Sleep enkele afbeeldingen naar dit kanaal.
-   Maak op dezelfde manier een ander volgnummer met de naam **Zone2** in de map **EmbeddedChannel** .
+   1. Maak op dezelfde manier een ander volgnummer met de naam **Zone2** in de map **EmbeddedChannel** .
+   1. Sleep een video naar dit kanaal.
+   In de volgende afbeelding ziet u de kanalen **Zone1** en **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ Als u wilt dat de zones een reeks afbeeldingen en een video in twee verschillend
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Voeg een video aan redacteur van **Zone2** opeenvolgingskanaal zoals aangetoond in het hieronder cijfer toe:
+   De video die aan redacteur van het **Zone2** opeenvolgingskanaal wordt toegevoegd wordt hieronder getoond:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,7 +109,7 @@ Als u wilt dat de zones een reeks afbeeldingen en een video in twee verschillend
 
    1. Navigeer naar **zones** —> **Kanalen** —> **MultiZone**.
    1. Klik op **Bewerken** op de actiebalk om de editor te openen.
-   1. Sleep de component **Ingesloten reeks** naar twee van de zones.
+   1. Sleep de component **Ingesloten reeks** naar beide zones.
    1. Selecteer de ingesloten reeks in een van de zones.
    1. Klik het **Configure** (moersleutel) pictogram aan één van de ingebedde opeenvolgingen in de redacteur.
    1. Selecteer het kanaalpad als **zones** —> **Kanalen** —> **Ingesloten kanalen** —> **Zone1**, zoals in de onderstaande afbeelding wordt getoond.
