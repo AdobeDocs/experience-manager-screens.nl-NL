@@ -4,7 +4,10 @@ product: experience manager
 audience: end-user
 user-guide-title: Help bij Adobe Experience Manager
 translation-type: tm+mt
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 1%
 
 ---
 
@@ -29,6 +32,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
    + [Schermspeler verbinden](working-with-screens-player.md)
    + [Apparaatregistratie](device-registration.md)
    + [ACLs van de vestiging](setting-up-acls.md)
+   + [Beveiligingscontrolelijst voor AEM-schermen](security-checklist.md)
    + [Overstappen van ContentSync naar SmartSync](smartsync.md)
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
    + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
