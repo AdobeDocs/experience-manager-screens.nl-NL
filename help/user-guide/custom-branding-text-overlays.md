@@ -5,7 +5,10 @@ description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak vo
 seo-description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak voor tekstbedekkingen kunt toepassen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
+source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -59,6 +62,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
        background-color: rgba(255, 255, 255, .6);
      }
    ```
+
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
 1. Kopieer het pad naar uw project. In dit geval wordt het pad `/apps/settings/wcm/designs/customstyle`gewijzigd.
