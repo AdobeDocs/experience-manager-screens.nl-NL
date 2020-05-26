@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Tijdens het maken van een kanaal kunt u verschillende sjablonen gebruiken om zon
 
 ### Single Assets in een of meer zones gebruiken {#using-single-assets-in-one-or-more-zones}
 
-U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle drie verschillende zones gebruiken. Volg de onderstaande stappen voor implementatie:
+U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle afzonderlijke zones gebruiken. Volg de onderstaande stappen voor implementatie:
 
 1. **Inhoud toevoegen aan het kanaal**
 
@@ -76,7 +76,7 @@ U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle drie 
 
 ### Gesegrafeerde inhoud gebruiken in een of meer zones {#using-sequenced-content-in-one-or-more-zones}
 
-Als u wilt dat de zones een reeks afbeeldingen en een video in twee verschillende zones weergeven, volgt u de onderstaande stappen voor meer informatie.
+Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillende zones wordt weergegeven, volgt u onderstaande stappen voor meer informatie.
 
 1. **Een kanaalmap maken**
 
@@ -135,7 +135,7 @@ U moet een locatie en een weergave maken om de inhoud in de Schermspeler weer te
    1. Selecteer **Weergave** in de wizard **Maken** en klik op **Volgende**.
    1. Voer de **titel** in als **lobby** en klik op **Maken**.
 
-### Kanaal toewijzen aan de weergave {#channel-channel}
+### Kanalen toewijzen aan de weergave {#channel-channel}
 
 U moet de kanalen aan de vertoning toewijzen om de inhoud te bekijken. Voer de onderstaande stappen uit om het kanaal aan de weergave toe te wijzen.
 
@@ -174,7 +174,7 @@ Nadat u een locatie en een weergave hebt ingesteld, voert u de onderstaande stap
    1. Voer de **titel** in als **Chrome-Device1** en klik op **Registreren**.
    1. Selecteer Weergave **** toewijzen en selecteer het pad naar de apparaatconfiguratie.
    >[!NOTE]
-   >Als u de inhoud in de Schermspeler wilt weergeven, klikt u op Offlineinhoud **** bijwerken in het kanaaldashboard.
+   >Als u de inhoud in de Schermspeler probeert te bekijken, zorg ervoor u **Update Offline Inhoud** van het kanaaldashboard voor elk van de kanalen klikt die aan de vertoning worden toegewezen.
 
 ### Het resultaat weergeven {#viewing-the-result}
 
