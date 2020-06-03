@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -71,11 +71,9 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** naar uw **TestChanne
 
 1. **Navigeer aan een pagina van Plaatsen in Wij.Retail**
 
-   1. Navigeer naar Sites en selecteer **We.Retail In-Store** -> **Verenigde Staten** ->**Engels** en selecteer de pagina **Apparatuur** om dit als ervaringsfragment voor uw kanaal van het Scherm te gebruiken.
+   1. Navigeer naar Sites en selecteer **We.Retail In-Store** -> **Kanalen** ->**Niet-actief kanaal - Nachtelijk** en selecteer deze pagina om deze te gebruiken als ervaringsfragment voor uw kanaal van het Scherm.
 
    1. Klik op **Bewerken** op de actiebalk om de pagina te openen die u wilt gebruiken als ervaringsfragment voor het kanaal Schermen.
-
-      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **De inhoud opnieuw gebruiken**
 
