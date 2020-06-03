@@ -10,14 +10,17 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
 
 ---
 
 
 # Overstappen van ContentSync naar SmartSync {#transitioning-from-contentsync-to-smartsync}
 
-Deze sectie verstrekt een overzicht aan eigenschap SmartSync en hoe het serverlading/opslag en netwerkverkeer minimaliseert om kosten te drukken.
+Deze sectie biedt een overzicht van de functie SmartSync en hoe deze de belasting van de server/opslag en het netwerkverkeer minimaliseert om de kosten te verlagen.
 
 ## Overzicht {#overview}
 
@@ -78,7 +81,7 @@ Voer de onderstaande stappen uit om van ContentSync over te schakelen op SmartSy
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Adobe Experience Manager Webconsole Configuration **wordt geopend. Zoeken naar *services* voor offline inhoud.
+1. **Adobe Experience Manager Webconsole Configuration **wordt geopend. Zoeken naar *offline contentservice*.
 
    Voor het zoeken van het bezit van de Dienst **van de Inhoud van de** Schermen Off-line, druk **Command+F** voor **MAC** en **Control+F** voor **Vensters**.
 
