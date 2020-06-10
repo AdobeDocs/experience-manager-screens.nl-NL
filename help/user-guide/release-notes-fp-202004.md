@@ -4,9 +4,9 @@ seo-title: Opmerkingen bij de release voor Feature Pack 202004
 description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 20 april 2020 wordt vrijgegeven.
 seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 20 april 2020 wordt vrijgegeven.
 translation-type: tm+mt
-source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
+source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,7 @@ ht-degree: 0%
 
 AEM-schermen hebben AEM 6.4 Feature Pack 8 en AEM 6.5 Feature Pack 4 uitgebracht.
 
-Met uw Adobe-id kunt u het nieuwste functiepakket voor AEM Screens 6.4.8 of AEM Screens 6.5.4 Release van [Adobe Experience Manager Cloud Management](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) downloaden.
-
->[!NOTE]
->Verwijs naar [hoe te met Pakketten](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) te werken om te leren hoe de pakketten het invoeren en het uitvoeren van bewaarplaats inhoud toelaten en hoe u tot de pakketten van de Manager van het Pakket of het Aandeel van het Pakket kunt toegang hebben en/of handhaven.
-
+U kunt het nieuwste functiepakket voor AEM Screens 6.4.8 of AEM Screens 6.5.4 Versie van het Portaal [van de Distributie van de](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) Software downloaden gebruikend uw identiteitskaart van Adobe. Navigeer naar het tabblad **Adobe Experience Manager** en zoek naar **schermen** voor het nieuwste functiepakket.
 
 ## Releasedatum {#release-date}
 
