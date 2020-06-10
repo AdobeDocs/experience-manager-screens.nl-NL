@@ -11,7 +11,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1907'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +104,7 @@ Voer de onderstaande stappen uit om een standaardreplicatieagent te maken:
    >U kunt een bestaande standaardreplicatieagent ook kopiëren en anders noemen.
 
 
-#### Standaardreplicatieagents maken {#creating-standard-replication-agents}
+#### Standaardreplicatieagents maken  {#creating-standard-replication-agents}
 
 1. Creeer standaard replicatieagent voor pub1 (uit-van-de-doos standaardagent zou reeds moeten worden gevormd) (bijvoorbeeld, *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
 1. Creeer standaard replicatieagent voor pub2. U kunt rep agent voor pub1 kopiëren en het vervoer bijwerken dat voor pub2 moet worden gebruikt door de haven in de vervoerconfiguratie te veranderen. (bijvoorbeeld *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
@@ -129,7 +132,7 @@ Voor elke publicatie-instantie:
 1. Update Topology schakelaar-URL&#39;s: Voeg URL&#39;s toe van alle publicatieinstanties die voor parseren worden gebruikt:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Whitelist van de schakelaar van de topologie: aanpassen aan IPs of subnets die het ontleden publicatieinstanties behandelen
+1. Lijst met toegestane topologieverbindingen: aanpassen aan IPs of subnets die het ontleden publicatieinstanties behandelen
 1. Lokale **lussen automatisch stoppen inschakelen**
 
 De configuratie moet identiek zijn voor elke publicatie-instantie en de Local-loop met de auto-stop voorkomt een oneindige lus.
