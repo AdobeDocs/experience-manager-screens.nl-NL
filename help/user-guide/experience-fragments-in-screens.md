@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Deze pagina behandelt de volgende onderwerpen:
 
 * **Overzicht**
 * **Experience Fragments gebruiken in AEM-schermen**
-* **Wijzigingen doorgeven vanaf de stramienpagina**
+* **Wijzigingen op de pagina doorgeven**
 
 ## Overzicht {#overview}
 
@@ -163,7 +163,7 @@ Nadat u de vorige stappen hebt uitgevoerd, kunt u het ervaringsfragment in **Cha
 U geeft de inhoud van de pagina **Sites** (live kopie van het ervaringsfragment) in uw kanaal weer, zoals in de onderstaande afbeelding wordt getoond:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## Wijzigingen doorgeven vanaf de stramienpagina {#propagating-changes-from-the-master-page}
+## Wijzigingen op de pagina doorgeven {#propagating-changes-from-the-master-page}
 
 ***Live Copy*** verwijst naar de kopie (van de bron), onderhouden door synchronisatiehandelingen zoals gedefinieerd door de rollout-configuraties.
 
@@ -175,7 +175,7 @@ Omdat het ervaringsfragment een live kopie van de **sitepagina&#39;s** is, kunt 
 
 Voer de onderstaande stappen uit om wijzigingen van het hoofdkanaal naar het doelkanaal door te geven:
 
-1. Selecteer het fragment van de Ervaring van de pagina van **Plaatsen** (Hoofd) en klik het potloodpictogram om de punten in het Fragment van de Ervaring uit te geven.
+1. Selecteer het fragment van de Ervaring van de pagina van **Plaatsen** (hoofd) en klik het potloodpictogram om de punten in het Fragment van de Ervaring uit te geven.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
