@@ -4,12 +4,18 @@ seo-title: Beveiligingscontrolelijst voor AEM-schermen
 description: De pagina beschrijft de lijst met beveiligingscontroles voor AEM-schermen
 seo-description: De pagina beschrijft de lijst met beveiligingscontroles voor AEM-schermen
 translation-type: tm+mt
-source-git-commit: 72551a4b56d1db851cad71abd2ce8c0b02bbbc30
+source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 0%
 
 ---
 
 
 # Overwegingen met betrekking tot systeembeveiliging voor AEM-schermen {#security-checklist}
+
+>[!IMPORTANT]
+>Dit is een interne Git Resource.
 
 Deze pagina benadrukt de Overwegingen van de Veiligheid van het Systeem voor schermen AEM.
 
