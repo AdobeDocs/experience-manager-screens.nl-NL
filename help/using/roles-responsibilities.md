@@ -4,7 +4,10 @@ seo-title: AEM schermt de rollen en verantwoordelijkheden van projecten
 description: De pagina beschrijft AEM schermt de rollen en verantwoordelijkheden van projecten
 seo-description: De pagina beschrijft AEM schermt de rollen en verantwoordelijkheden van projecten
 translation-type: tm+mt
-source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 9%
 
 ---
 
@@ -167,7 +170,7 @@ De volgende tabel geeft een overzicht van **dag één: Dag één: Projectimpleme
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Het kleine Ontwerp omvat bedradingsverrichtingen | - | - | - | - |
 | Hardwareselectie van speler | RAC | - | - | - |
-| Hoofdapparaatbeheer | RA | I | - | - |
+| Apparaatbeheer van master | RA | I | - | - |
 | Apparaatbestelling en -opslag en -configuratie | RA | CI | I | - |
 | Ondersteuningsproces | RA | I | RA | C |
 
@@ -183,7 +186,7 @@ De volgende tabel geeft een overzicht van **dag één: Dag één: Projectimpleme
 
 De volgende tabel geeft een overzicht van **dag twee: RACI-diagram** voor ondersteuning na starten:
 
-| **Fase** | **Auteur** | **Ontwikkelaar** | **Technicus** |
+| **Fase** | **Auteur** | **Developer** | **Technicus** |
 |---|---|---|---|
 | *Dag twee: Ondersteuning na starten* |
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA |
