@@ -4,7 +4,10 @@ seo-title: Opdrachtsynchronisatie gebruiken
 description: Volg deze pagina voor meer informatie over het gebruik van Command Sync.
 seo-description: Volg deze pagina voor meer informatie over het gebruik van Command Sync.
 translation-type: tm+mt
-source-git-commit: 7b842534e00e50aa1f066e73539edfa3915aa5e6
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '777'
+ht-degree: 2%
 
 ---
 
