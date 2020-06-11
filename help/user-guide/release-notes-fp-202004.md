@@ -4,7 +4,7 @@ seo-title: Opmerkingen bij de release voor Feature Pack 202004
 description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 20 april 2020 wordt vrijgegeven.
 seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004 die op 20 april 2020 wordt vrijgegeven.
 translation-type: tm+mt
-source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
+source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 AEM-schermen hebben AEM 6.4 Feature Pack 8 en AEM 6.5 Feature Pack 4 uitgebracht.
 
-U kunt het nieuwste functiepakket voor AEM Screens 6.4.8 of AEM Screens 6.5.4 Versie van het Portaal [van de Distributie van de](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) Software downloaden gebruikend uw identiteitskaart van Adobe. Navigeer naar het tabblad **Adobe Experience Manager** en zoek naar **schermen** voor het nieuwste functiepakket.
+U kunt het nieuwste functiepakket voor AEM Screens 6.4.8 of AEM Screens 6.5.4 Versie van het Portaal [van de Distributie van de](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) Software downloaden gebruikend uw identiteitskaart van Adobe. Navigeer naar het tabblad **Adobe Experience Manager** en zoek naar **schermen** voor het nieuwste functiepakket.
 
 ## Releasedatum {#release-date}
 
