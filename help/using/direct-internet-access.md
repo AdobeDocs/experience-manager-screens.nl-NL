@@ -2,7 +2,7 @@
 title: Directe internettoegang
 description: Directe internettoegang
 translation-type: tm+mt
-source-git-commit: 3527dd38898399e692e114edb492825b18b28f86
+source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Voor die gebruiksgevallen waarin er meer interactie is met sensoren of andere tr
 
 De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van de netwerkconnectiviteit:
 
-![](/help/assets/direct-access-1.png)
+![](/help/assets/download-times-direct.png)
 
 >[!NOTE]
 >Met deze informatie kunt u het verbruik bekijken van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Dus elk van deze aanvragen voegt de downloadtijd toe en verlengt deze.
