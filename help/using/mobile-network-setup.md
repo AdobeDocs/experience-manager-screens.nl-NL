@@ -2,9 +2,9 @@
 title: Mobiel netwerk instellen
 description: De pagina beschrijft de Mobiele Opstelling van het Netwerk
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,18 @@ Verbinding van AEM Screens Players met een Cellular 3/4/5G verbindt met uw Lever
 Met deze configuratie kunnen gebruikers van AEM-schermen heel flexibel werken, omdat er geen vaste lijn nodig is om AEM Screens te verbinden.
 
 
-## Vereisten voor het opzetten van een netwerk voor directe toegang {#requirements-direct}
+![](/help/using/assets/mobile-network-1.png)
+
+>[!NOTE]
+>**Tip voor probleemoplossing **>Als AEM Screens niet correct verbinden en de verwachte inhoud niet tonen:
+>
+>1. Controleer in uw Firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443`.
+>1. Controleer of alle benodigde poorten zijn toegestaan en probeer het opnieuw.
+
+
+
+
+## Vereisten voor het instellen van een mobiele netwerkconfiguratie {#requirements-direct}
 
 De netwerkopstelling zoals die in 5.5 wordt beschreven kan logisch gezien in drie blok worden gescheiden. Het WAN/Buitenwereld/het Blok van de Verbinding van Internet (hier mobiele Verbinding van Gegevens), het interne LAN/Netwerk van het Lokale Gebied en facultatieve subsecties van LAN die door Actieve Componenten van het Netwerk worden gescheiden.
 Om de best mogelijke prestaties te kunnen leveren, moet ervoor worden gezorgd dat beide onderdelen voldoen aan de aanbevolen minimumnormen.
