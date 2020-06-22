@@ -2,9 +2,9 @@
 title: Mobiel netwerk instellen
 description: De pagina beschrijft de Mobiele Opstelling van het Netwerk
 translation-type: tm+mt
-source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
+source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,13 @@ ht-degree: 0%
 
 # Mobiele netwerkinstellingen {#mobile-network-setup}
 
-Adobe AEM Screens Players kan ook worden aangesloten gebruikend Mobiele/Cellulaire Netwerken die minstens een 3G netwerk in werking stellen.
-Binnen de AEM Screens wordt de benodigde inhoud fysiek gedownload naar de Player-controller/computer en correct opgeslagen in het onderliggende besturingssysteem. Hierdoor heeft de opgegeven bandbreedte alleen invloed op de eerste downloadtijd en de prestaties van de weergavesystemen worden helemaal niet beïnvloed.
-Verbinding van AEM Screens Players met een Cellular 3/4/5G verbindt met uw Leverancier van de Gegevens van de Mobiele Dienst. Het voordeel van deze Opstelling is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst om beste beschikbare dekking van het Netwerk te verzekeren. Dit bevindt zich gewoonlijk in een verhoogde en open positie met zo min mogelijk omringende beton- of metaalconstructie.
-Met deze configuratie kunnen gebruikers van AEM-schermen heel flexibel werken, omdat er geen vaste lijn nodig is om AEM Screens te verbinden.
+AEM Screens Players kunnen ook worden aangesloten gebruikend mobiele of cellulaire netwerken die minstens een 3G netwerk in werking stellen.
 
+Binnen de AEM Screens wordt de vereiste inhoud fysiek gedownload naar de Player-controller of -computer en correct opgeslagen in het onderliggende besturingssysteem. De opgegeven bandbreedte heeft dus alleen invloed op de eerste downloadtijd en heeft geen invloed op de prestaties van beeldschermen.
+
+Verbinding van AEM Screens Players met een Cellular 3/4/5G verbindt met uw Leverancier van de Gegevens van de Mobiele Dienst. Het voordeel van deze Opstelling is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst om beste beschikbare dekking van het Netwerk te verzekeren. Dit bevindt zich gewoonlijk in een verhoogde en open positie met zo min mogelijk omringende beton- of metaalconstructie.
+
+Met deze configuratie kunnen AEM-schermgebruikers heel flexibel werken omdat er geen vaste verbinding is vereist om AEM Screens te verbinden.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +27,6 @@ Met deze configuratie kunnen gebruikers van AEM-schermen heel flexibel werken, o
 >
 >1. Controleer in uw Firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443`.
 >1. Controleer of alle benodigde poorten zijn toegestaan en probeer het opnieuw.
-
 
 
 
