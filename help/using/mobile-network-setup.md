@@ -1,48 +1,64 @@
 ---
-title: Mobiel netwerk instellen
-description: De pagina beschrijft de Mobiele Opstelling van het Netwerk
+title: Direct mobiel netwerk
+description: De pagina beschrijft Direct Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
 
 
-# Mobiele netwerkinstellingen {#mobile-network-setup}
+# Direct mobiel netwerk {#mobile-network-setup}
 
 AEM Screens Players kunnen ook worden aangesloten gebruikend mobiele of cellulaire netwerken die minstens een 3G netwerk in werking stellen.
 
-Binnen de AEM Screens wordt de vereiste inhoud fysiek gedownload naar de Player-controller of -computer en correct opgeslagen in het onderliggende besturingssysteem. De opgegeven bandbreedte heeft dus alleen invloed op de eerste downloadtijd en heeft geen invloed op de prestaties van beeldschermen.
+Binnen de AEM Screens wordt de vereiste inhoud fysiek gedownload naar de spelercontroller of -computer en correct opgeslagen in het onderliggende besturingssysteem. Hierdoor heeft de opgegeven bandbreedte alleen invloed op de eerste downloadtijd en niet op de prestaties van beeldschermen.
 
 Verbinding van AEM Screens Players met een Cellular 3/4/5G verbindt met uw Leverancier van de Gegevens van de Mobiele Dienst. Het voordeel van deze Opstelling is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst om beste beschikbare dekking van het Netwerk te verzekeren. Dit bevindt zich gewoonlijk in een verhoogde en open positie met zo min mogelijk omringende beton- of metaalconstructie.
 
 Met deze configuratie kunnen AEM-schermgebruikers heel flexibel werken omdat er geen vaste verbinding is vereist om AEM Screens te verbinden.
 
-![](/help/using/assets/mobile-network-1.png)
+![](/help/using/assets/direct-mobile-1.png)
 
->[!NOTE]
->**Tip voor probleemoplossing **>Als AEM Screens niet correct verbinden en de verwachte inhoud niet tonen:
->
->1. Controleer in uw Firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443`.
->1. Controleer of alle benodigde poorten zijn toegestaan en probeer het opnieuw.
+## Verbinding maken tussen AEM Screens Player en Direct mobiel netwerk {#connecting-aem-screens-players}
+
+Voer de onderstaande stappen uit om verbinding te maken met AEM Screen-spelers in deze configuratie:
+
+1. Zorg ervoor dat elk van de spelers van het Scherm AEM met het Netwerk van Routers wordt verbonden.
+
+1. Test de internetverbinding door een URL aan te roepen in uw systeembrowser.
+
+   >[!NOTE]
+   >Als u een foutbericht krijgt, controleert u de netwerkinstellingen. Er zijn eigenlijk twee opties voor een juiste netwerkverbinding:
+   >* DHCP
+   >* Handmatige IP-configuratie
+
+
+1. Zorg ervoor dat het Plaatsen van de Adapter van het Netwerk aan uw Plaatsing van de Router aanpast.
+1. Controle als de Router behoorlijk met het ISP Netwerk van het Gebied (de Verbinding van Internet) wordt verbonden dit kan gewoonlijk ook worden geïdentificeerd gebruikend een Signal leiden op StandaardRouters.
+1. Als alles hierboven correct wordt gevormd en een foutenmelding nog verschijnt, controleer uw actieve netwerkcomponenten zoals Schakelaars of extra Routers als er om het even welke beperking van de Haven is.
+1. Als de URL-aanroep is gelukt, kunt u de AEM Screens blijven installeren en overeenkomstig registreren. Start AEM Screens.
+
+   >[!NOTE]
+   >**Tip voor probleemoplossing**
+   >Als AEM Screens niet correct verbinden en de verwachte inhoud niet tonen:
+   >
+   >1. Controleer in uw Firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443`.
+   >1. Zorg ervoor dat alle benodigde Havens zijn toegestaan.
 
 
 
 ## Vereisten voor het instellen van een mobiele netwerkconfiguratie {#requirements-direct}
 
-De netwerkopstelling zoals die in 5.5 wordt beschreven kan logisch gezien in drie blok worden gescheiden. Het WAN/Buitenwereld/het Blok van de Verbinding van Internet (hier mobiele Verbinding van Gegevens), het interne LAN/Netwerk van het Lokale Gebied en facultatieve subsecties van LAN die door Actieve Componenten van het Netwerk worden gescheiden.
-Om de best mogelijke prestaties te kunnen leveren, moet ervoor worden gezorgd dat beide onderdelen voldoen aan de aanbevolen minimumnormen.
-Wat betekent &quot;goede prestaties&quot;in het Milieu van AEM Screens?
-AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke Dossiers van Media, zoals Beelden en Video. Wegens dit concept komt het belangrijkste netwerkverkeer voor in het geval dat er nieuwe inhoud is die op een specifiek scherm moet worden getoond.
-Voor de normale werking, bijvoorbeeld wanneer u een afspeellijst hebt gedefinieerd die niet vaak tijdens de dag wordt gewijzigd, biedt dit een vrijwel netwerkonafhankelijke bewerking, zodra alle bestanden op de speler zijn opgeslagen.
-Voor die gebruiksgevallen waarin er meer interacties met sensoren of andere triggers zijn en de inhoud zeer dynamisch is, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe schermreactie om een optimale gebruikerservaring te garanderen.
-De volgende lijsten bieden een goed overzicht welke zeer belangrijke gegevens van de netwerkconnectiviteit voor de prestaties betekenen die en potentiële weglatingstijden kunnen worden verwacht.
-Alle informatie moet worden gezien als het verbruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Dus elk van deze aanvragen voegt de downloadtijd toe en verlengt deze.
+De netwerkOpstelling kan logisch gezien in twee blokken worden gescheiden:
 
+* Mobiele internetverbinding
 
-### WAN-/internetverbinding {#wan-connection}
+* Netwerk voor lokale gebieden
+
+### Mobiele internetverbinding {#mobile-internet-connection}
 
 De prestaties van de Verbinding van Internet hebben, naast reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen. In detail, &quot;voldoende&quot;hangt van de hoeveelheid aangesloten AEM schermen en van het gebruik van andere consumenten binnen het netwerk, zoals Smartphones, Tablets, Cashiers, Computers of de netwerken van Gast Wifi af.
 Houd in mening dat alle apparaten een gezamenlijke toegang tot de verbinding van Internet hebben en de bandbreedte gewoonlijk lineair vermindert terwijl het toevoegen van meer consumenten/computers aan het netwerk.
@@ -57,8 +73,19 @@ Let op: Voor het eerste uploaden van mediabestanden, bijvoorbeeld door het integ
 Als duimregel, zou een netwerk 4G met &quot;goede&quot;dekking en onbeperkte Gegevens de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen
 
 
-### LAN-verbinding {#lan-connection}
+### Netwerk voor lokale gebieden {#lan-connection}
 
-De prestaties van LAN hebben, behalve aan reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100MBit/sec aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem aan te sluiten. Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld de Componenten van het Netwerk zouden minstens 100Mbit/s norm moeten aanpassen en de bandbreedte aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
-Als een WiFI-oplossing wordt overwogen om een scherm te verbinden met de Internet Link, is het raadzaam ten minste gebruik te maken van moderne WIFI-standaarden zoals IEEE 802.11g. Deze standaard ondersteunt verbindingen tot 54 Mbit. Alle &quot;nieuwere&quot; standaarden zoals 802.11h-n zijn van betere kwaliteit. Als een Wifi Repeater wordt vereist adviseren wij sterk de technologieën van het Punt van de Toegang van het Netwerk Wifi zoals het Net van Google Net Wifi of gelijkaardig.
-Andere WiFi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het totale netwerk.
+De prestaties van LAN hebben, behalve aan reeds beschreven netwerkbereikbaarheid, om voldoende Bandwith te verstrekken om AEM Screens behoorlijk en regelmatig te werken. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100MBit/sec aan, zodat er voldoende Bandmet zou moeten zijn om vele apparaten met goede prestaties aan het systeem aan te sluiten. Terwijl het gebruiken van andere actieve Component van het Netwerk is het verplicht dat alle die met de netwerkbandwith vereisten aanpassen. Bijvoorbeeld de Componenten van het Netwerk zouden minstens 100Mbit/s norm moeten aanpassen en de Bandwith aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
+
+## Media en middelen downloaden {#download}
+
+AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke Dossiers van Media, zoals Beelden en Video. Wegens dit concept komt het belangrijkste netwerkverkeer voor in het geval dat er nieuwe inhoud is die op een specifiek scherm moet worden getoond.
+Voor de normale werking, bijvoorbeeld wanneer u een afspeellijst hebt gedefinieerd die niet vaak tijdens de dag wordt gewijzigd, biedt dit een vrijwel netwerkonafhankelijke bewerking, zodra alle bestanden op de speler zijn opgeslagen.
+Voor die gebruiksgevallen waarin er meer interacties met sensoren of andere triggers zijn en de inhoud zeer dynamisch is, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe schermreactie om een optimale gebruikerservaring te garanderen.
+De volgende lijsten bieden een goed overzicht welke zeer belangrijke gegevens van de netwerkconnectiviteit voor de prestaties betekenen die en potentiële wachttijden kunnen worden verwacht.
+Alle informatie moet worden gezien als het verbruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Dus elk van deze aanvragen voegt de downloadtijd toe en verlengt deze.
+
+![](/help/using/assets/download-times-mobile.png)
+
+
+
