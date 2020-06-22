@@ -2,7 +2,7 @@
 title: Directe internettoegang
 description: Directe internettoegang
 translation-type: tm+mt
-source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
+source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -23,7 +23,7 @@ De havens kunnen door configuratie van uw specifieke configuratie variëren AEM.
 
 ![](/help/assets/direct-access-2.png)
 
-De configuratie omvat ook een Toegang van Internet door om het even welke dienstverlener van Internet en het is de Lijn van Internet. De meeste ISP&#39;s bieden wel een internetrouter die de internetmodem, netwerkswitch, WIFI-toegangspunt, firewall en andere netwerkfuncties (afhankelijk van fabrikant en model) bestrijkt.
+De configuratie omvat ook een Toegang van Internet door om het even welke Internet Service Provider (ISP) en het is de Lijn van Internet. De meeste ISP&#39;s voorzien een Router van Internet die de Modem van Internet, de Schakelaar van het Netwerk, het toegangspunt van WIFI, Firewall en andere functionaliteit van het Netwerk (afhankelijk van fabrikant en model) behandelt.
 
 >[!NOTE]
 >**Tip voor probleemoplossing **>Als AEM Screens niet correct verbinden en de verwachte inhoud tonen:
