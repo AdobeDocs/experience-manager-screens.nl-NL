@@ -2,7 +2,7 @@
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -45,3 +45,5 @@ Voor de normale werking, bijvoorbeeld wanneer u een afspeellijst hebt gedefiniee
 De volgende lijsten bieden een goed overzicht welke zeer belangrijke gegevens van de netwerkconnectiviteit voor de prestaties betekenen die en potentiële wachttijden kunnen worden verwacht.
 
 Alle informatie moet worden gezien als het verbruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Dus elk van deze aanvragen voegt de downloadtijd toe en verlengt deze.
+
+![](/help/using/assets/enclosed-network-download.png)
