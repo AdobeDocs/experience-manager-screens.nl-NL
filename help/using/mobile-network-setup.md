@@ -2,9 +2,9 @@
 title: Direct mobiel netwerk
 description: De pagina beschrijft Direct Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,9 @@ Voer de onderstaande stappen uit om verbinding te maken met AEM Screen-spelers i
    >* Handmatige IP-configuratie
 
 
-1. Zorg ervoor dat het Plaatsen van de Adapter van het Netwerk aan uw Plaatsing van de Router aanpast.
+1. Zorg ervoor dat het Plaatsen van de Adapter van het Netwerk aan uw Plaatsende Router aanpast.
 1. Controle als de Router behoorlijk met het ISP Netwerk van het Gebied (de Verbinding van Internet) wordt verbonden dit kan gewoonlijk ook worden geïdentificeerd gebruikend een Signal leiden op StandaardRouters.
-1. Als alles hierboven correct wordt gevormd en een foutenmelding nog verschijnt, controleer uw actieve netwerkcomponenten zoals Schakelaars of extra Routers als er om het even welke beperking van de Haven is.
+
 1. Als de URL-aanroep is gelukt, kunt u de AEM Screens blijven installeren en overeenkomstig registreren. Start AEM Screens.
 
    >[!NOTE]
@@ -60,30 +60,51 @@ De netwerkOpstelling kan logisch gezien in twee blokken worden gescheiden:
 
 ### Mobiele internetverbinding {#mobile-internet-connection}
 
-De prestaties van de Verbinding van Internet hebben, naast reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen. In detail, &quot;voldoende&quot;hangt van de hoeveelheid aangesloten AEM schermen en van het gebruik van andere consumenten binnen het netwerk, zoals Smartphones, Tablets, Cashiers, Computers of de netwerken van Gast Wifi af.
+De prestaties van de Verbinding van Internet naast netwerkbereikbaarheid verstrekken voldoende bandbreedte om AEM Screens aardig en regelmatig in werking te stellen.
+
+*Voldoende* is afhankelijk van de hoeveelheid aangesloten AEM-schermen en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of WIFI-netwerken van gasten.
 Houd in mening dat alle apparaten een gezamenlijke toegang tot de verbinding van Internet hebben en de bandbreedte gewoonlijk lineair vermindert terwijl het toevoegen van meer consumenten/computers aan het netwerk.
 Naast de specifieke theoretische verbinding van het Netwerk moet het worden gewaarborgd, dat de dekking van de mobiele Router minstens &quot;goed&quot;is (gelieve te verwijzen naar uw Mobiele Handboek van de Router). Ook het onderliggende Maandelijkse Plan moet genoeg Capaciteit van Gegevens en voldoende bandbreedte behandelen om alle verbonden cliënten binnen verbonden LAN te dienen.
-De netwerken van Gegevens verstrekken standaardbandbreedte heeft ongeveer.. maximaal:
-・ 3Go 42 Mbit/sec・ 4Go 150Mbit/sec・ 5Go 1000Mbit/sec-10000Mbit/secWanneer wordt overwogen welk gegevensnetwerk moet worden gebruikt, wordt het aanbevolen de volgende vragen te beantwoorden:
-・ Hoeveel cliënten worden verbonden met de Router?
-・ Hoeveel inhoudwijzigingen verwacht ik en wat zijn die gemiddelde bestandsgrootten?
-Als follow-up moet het vereiste gegevenspakket ten minste zijn:
-Capaciteit gegevenspakket = aantal clients * (# inhoudsbestanden * Gemiddelde bestandsgrootte)Controleer of er voldoende buffer is.
-Let op: Voor het eerste uploaden van mediabestanden, bijvoorbeeld door het integreren van nieuwe spelers, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht en in bovenstaande veronderstellingen worden weerspiegeld.
-Als duimregel, zou een netwerk 4G met &quot;goede&quot;dekking en onbeperkte Gegevens de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen
+
+De netwerken van Gegevens verstrekken standaardbandbreedte van:
+
+**3G**
+* 42 Mbps
+
+**4G**
+* 150 Mbps
+
+**5G**
+* 1000 Mbps - 10000 Mbps
+
+Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt wordt het geadviseerd om de volgende vragen te beantwoorden:
+
+* Hoeveel cliënten worden verbonden met de Router?
+
+* Hoeveel inhoudswijzigingen worden verwacht en wat zijn die gemiddelde bestandsgrootten?
+
+>[!NOTE]
+>Het benodigde gegevenspakket moet ten minste:
+`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+
+>[!IMPORTANT]
+>Controleer of er voldoende buffer is.
+>Voor de eerste upload van de Dossiers van Media, bijvoorbeeld terwijl het integreren van nieuwe spelers, moet een hogere hoeveelheid Gegevens en een verhoogde Tijd van de Download worden verwacht en die in de bovengenoemde veronderstellingen worden weerspiegeld.Een netwerk 4G met *goede* dekking en *onbeperkte* gegevens zou de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
 
 
 ### Netwerk voor lokale gebieden {#lan-connection}
 
-De prestaties van LAN hebben, behalve aan reeds beschreven netwerkbereikbaarheid, om voldoende Bandwith te verstrekken om AEM Screens behoorlijk en regelmatig te werken. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100MBit/sec aan, zodat er voldoende Bandmet zou moeten zijn om vele apparaten met goede prestaties aan het systeem aan te sluiten. Terwijl het gebruiken van andere actieve Component van het Netwerk is het verplicht dat alle die met de netwerkbandwith vereisten aanpassen. Bijvoorbeeld de Componenten van het Netwerk zouden minstens 100Mbit/s norm moeten aanpassen en de Bandwith aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
+De prestaties van LAN hebben, behalve aan reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld, zouden de Componenten van het Netwerk minstens norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
 
 ## Media en middelen downloaden {#download}
 
-AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke Dossiers van Media, zoals Beelden en Video. Wegens dit concept komt het belangrijkste netwerkverkeer voor in het geval dat er nieuwe inhoud is die op een specifiek scherm moet worden getoond.
-Voor de normale werking, bijvoorbeeld wanneer u een afspeellijst hebt gedefinieerd die niet vaak tijdens de dag wordt gewijzigd, biedt dit een vrijwel netwerkonafhankelijke bewerking, zodra alle bestanden op de speler zijn opgeslagen.
+AEM Screens bieden een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke Dossiers van Media, zoals Beelden en Video. Wegens dit concept komt het belangrijkste netwerkverkeer voor voor het geval dat er nieuwe inhoud is die op een specifiek scherm moet worden getoond.
+Voor de normale werking, bijvoorbeeld, een bepaalde playlist die niet zeer vaak tijdens de dag wordt veranderd, biedt dit een dicht aan netwerk onafhankelijke verrichting, zodra alle dossiers op de speler zijn bewaard.
 Voor die gebruiksgevallen waarin er meer interacties met sensoren of andere triggers zijn en de inhoud zeer dynamisch is, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe schermreactie om een optimale gebruikerservaring te garanderen.
-De volgende lijsten bieden een goed overzicht welke zeer belangrijke gegevens van de netwerkconnectiviteit voor de prestaties betekenen die en potentiële wachttijden kunnen worden verwacht.
-Alle informatie moet worden gezien als het verbruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Dus elk van deze aanvragen voegt de downloadtijd toe en verlengt deze.
+
+De volgende lijst verstrekt een overzicht welke zeer belangrijke gegevens van de netwerkconnectiviteit voor de prestaties die en potentiële wachttijden kunnen worden verwacht.
+>[!NOTE]
+>Alle informatie heeft betrekking op het gebruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/using/assets/download-times-mobile.png)
 
