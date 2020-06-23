@@ -2,15 +2,15 @@
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
 translation-type: tm+mt
-source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 
-# Omsloten bedrijfsnetwerken {#enclosed-corporate-networks}
+# Omsloten bedrijfsnetwerken (bekabeld/draadloos) {#enclosed-corporate-networks}
 
 De Ingesloten Collectieve Opstelling van het Netwerk is toepasselijk op kleinere, grotere en ondernemingsondernemingen. Het kan theoretisch complexer zijn, maar de logische Opstelling wordt getoond in het hieronder cijfer.
 
