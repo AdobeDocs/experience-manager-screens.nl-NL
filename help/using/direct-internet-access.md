@@ -2,9 +2,9 @@
 title: Directe internettoegang
 description: Directe internettoegang
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,7 @@ Voer de onderstaande stappen uit om verbinding te maken met AEM Screen-spelers i
 1. Zorg ervoor dat het Plaatsen van de Adapter van het Netwerk aan uw Plaatsing van de Router aanpast en controleert als de Maximale hoeveelheid beschikbare IP adressen in uw netwerk niet wordt bereikt.
 
 1. Controle als de Router behoorlijk met het ISP Netwerk van het Gebied (de Verbinding van Internet) wordt verbonden dit kan gewoonlijk ook worden geïdentificeerd gebruikend een Signal leiden op StandaardRouters.
-1. Als de URL-aanroep is gelukt, kunt u de AEM Screens blijven installeren en overeenkomstig registreren
-1. Start AEM Screens.
+1. Als de URL-aanroep is gelukt, kunt u de AEM Screens blijven installeren en overeenkomstig registreren. Start AEM Screens.
 
    >[!NOTE]
    >**Tip voor probleemoplossing**
@@ -62,7 +61,9 @@ De Directe Opstelling van het Netwerk van de Toegang kan logisch gezien in twee 
 
 ### Breed gebiedsnetwerk {#wan-connection}
 
-De prestaties van de internetverbinding naast de netwerkbereikbaarheid moeten voldoende bandbreedte bieden om AEM Screens mooi en vloeiend te kunnen gebruiken. In detail, &quot;voldoende&quot;hangt van de hoeveelheid aangesloten AEM schermen en van het gebruik van andere consumenten binnen het netwerk, zoals Smartphones, Tablets, Cashiers, Computers of de netwerken van de WIFI van de Gast af.
+De prestaties van de internetverbinding naast de netwerkbereikbaarheid moeten voldoende bandbreedte bieden om AEM Screens mooi en vloeiend te kunnen gebruiken.
+
+*Voldoende* is afhankelijk van de hoeveelheid aangesloten AEM-schermen en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of WIFI-netwerken van gasten.
 
 >[!NOTE]
 >Alle apparaten hebben een gelijktijdige toegang tot de internetverbinding en de bandbreedte neemt gewoonlijk lineair af wanneer u meer consumenten/computers aan het netwerk toevoegt.
@@ -83,9 +84,10 @@ AEM Screens bieden een groot voordeel voor Digital Signage-gebruikers. Het downl
 Als u bijvoorbeeld een afspeellijst hebt gedefinieerd die niet vaak overdag wordt gewijzigd, is dit vrijwel gelijk aan een netwerkonafhankelijke bewerking, zodra alle bestanden op de speler zijn opgeslagen.
 Voor die gebruiksgevallen waarin er meer interactie is met sensoren of andere triggers en de inhoud zeer dynamisch is, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe schermreactie om een optimale gebruikerservaring te garanderen.
 
-De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van de netwerkconnectiviteit:
+De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van de netwerkconnectiviteit.
+
+>[!NOTE]
+>Met deze informatie kunt u het verbruik bekijken van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/assets/download-times-direct.png)
 
->[!NOTE]
->Met deze informatie kunt u het verbruik bekijken van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Dus elk van deze aanvragen voegt de downloadtijd toe en verlengt deze.
