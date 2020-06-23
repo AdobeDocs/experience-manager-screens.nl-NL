@@ -4,15 +4,15 @@ seo-title: Inleiding tot standaardnetwerkinstellingen
 description: De pagina beschrijft Standaardnetwerkinstellingen
 seo-description: De pagina beschrijft Standaardnetwerkinstellingen
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 
-# Inleiding tot standaardnetwerkinstellingen {#intro-standard-networks}
+# Netwerkverkeer beheren {#managing-network-traffic}
 
 Een Opstelling van het Netwerk kan diverse structuren hebben. Deze sectie verstrekt een overzicht van de netwerkstructuren die in een milieu worden opgesteld. Er zijn verschillende instellingen die soms helemaal opnieuw worden geïmplementeerd.
 
@@ -27,7 +27,7 @@ Een volmachtsserver is een specifieke computer of een softwaresysteem die op een
 
 Een voordeel van een volmachtsserver is dat het geheime voorgeheugen alle gebruikers kan dienen. Als er vaak om een of meer internetsites wordt gevraagd, bevinden deze zich waarschijnlijk in het cache van de proxy, waardoor de responstijd van de gebruiker wordt verbeterd. Een volmacht kan zijn interactie ook registreren, die voor het oplossen van problemen nuttig kan zijn.
 
-## De netwerkinstellingen begrijpen {#network-setups}
+## Werken met de standaardnetwerkinstellingen {#network-setups}
 
 Om een netwerkOpstelling uit te voeren, moet u naar de volgende scenario&#39;s met sterke punten en plaatsingsdetails verwijzen.
 
