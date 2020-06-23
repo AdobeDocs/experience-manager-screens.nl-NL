@@ -2,7 +2,7 @@
 title: Directe internettoegang
 description: Directe internettoegang
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -72,7 +72,7 @@ De prestaties van de internetverbinding naast de netwerkbereikbaarheid moeten vo
 De prestaties van het Netwerk van het Lokale Gebied (LAN), behalve de netwerkbereikbaarheid, verstrekt voldoende bandbreedte om AEM Screens behoorlijk en regelmatig in werking te stellen.
 
 Het LAN netwerk past gewoonlijk minstens een netwerk 100 MBit/sec aan, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem aan te sluiten.
-Als een WIFI-oplossing wordt overwogen om AEM Screens met de Internet Link te verbinden, wordt het aanbevolen om minimaal gebruik te maken van moderne WIFI-standaarden zoals IEEE 802.11g. Deze standaard ondersteunt verbindingen tot 54 Mbit. Alle *nieuwere* standaarden zoals 802.11h-n zijn van betere kwaliteit.
+Als een WIFI-oplossing wordt overwogen om AEM Screens met de Internet Link te verbinden, wordt het aanbevolen om minimaal gebruik te maken van moderne WIFI-standaarden zoals IEEE 802.11g. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals 802.11h-n zijn van betere kwaliteit.
 
 >[!NOTE]
 >Als er een WIFI Repeater vereist is, raden we Mesh WIFI Access-point-technologieën zoals Google Nest Mesh WIFI of een vergelijkbare technologie aan. Andere WiFi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het totale netwerk.
