@@ -2,9 +2,9 @@
 title: Direct mobiel netwerk
 description: De pagina beschrijft Direct Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ Voer de onderstaande stappen uit om verbinding te maken met AEM Screen-spelers i
 
 
 1. Zorg ervoor dat het Plaatsen van de Adapter van het Netwerk aan uw Plaatsende Router aanpast.
-1. Controle als de Router behoorlijk met het ISP Netwerk van het Gebied (de Verbinding van Internet) wordt verbonden dit kan gewoonlijk ook worden geïdentificeerd gebruikend een Signal leiden op StandaardRouters.
+
+1. Controle als de Router behoorlijk met het ISP Netwerk van het Gebied (de Verbinding van Internet) wordt verbonden dit kan ook worden geïdentificeerd gebruikend Signal leiden op Standaard Routers.
 
 1. Als de URL-aanroep is gelukt, kunt u de AEM Screens blijven installeren en overeenkomstig registreren. Start AEM Screens.
 
@@ -94,7 +95,7 @@ Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt w
 
 ### Netwerk voor lokale gebieden {#lan-connection}
 
-De prestaties van LAN hebben, behalve aan reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld, zouden de Componenten van het Netwerk minstens norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
+De prestaties van LAN hebben, behalve aan reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld, zouden de Componenten van het Netwerk minstens norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de Toegang van Internet/de specificatie van de Router wordt verstrekt.
 
 ## Media en middelen downloaden {#download}
 
