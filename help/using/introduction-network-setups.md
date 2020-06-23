@@ -4,9 +4,9 @@ seo-title: Inleiding tot standaardnetwerkinstellingen
 description: De pagina beschrijft Standaardnetwerkinstellingen
 seo-description: De pagina beschrijft Standaardnetwerkinstellingen
 translation-type: tm+mt
-source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
+source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ Om een netwerkOpstelling uit te voeren, moet u naar de volgende scenario&#39;s m
 
 Er zijn drie belangrijke types van de montages van het Netwerk:
 
-1. [Directe internettoegang](/help/using/direct-internet-access.md)
-1. [Direct mobiel netwerk](/help/using/mobile-network-setup.md)
-1. [Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk](/help/using/mobile-network-setup-router.md)
-1. [Engesloten bedrijfsnetwerk](/help/using/enclosed-corporate-network.md)
+1. [Direct Internet Network (bekabeld/draadloos)](/help/using/direct-internet-network.md)
+1. [Direct mobiel netwerk](/help/using/mobile-network.md)
+1. [Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk](/help/using/mobile-network-router.md)
+1. [Enclosed Corporate Network (bekabeld/draadloos)](/help/using/enclosed-corporate-network.md)
 
 De volgende lijst schetst de verschillende types van netwerkmontages met voor en nadelen:
 
