@@ -2,9 +2,9 @@
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,10 @@ Bijvoorbeeld, zouden de netwerkcomponenten minstens 1000 norm moeten aanpassen M
 
 ### Andere BedrijfsNetwerken Specificaties {#other-networks}
 
-Gewoonlijk hebben de Collectieve Netwerken lading van aangesloten apparaten, in diverse sub-netwerken zouden kunnen worden gescheiden en de overtollige of multiplexen verbindingen van Internet zouden kunnen hebben om voldoende prestaties voor vele duizenden gezamenlijke toegang te verstrekken.
-Het bovenstaande schema is vereenvoudigd en past in de meeste gevallen bij de omgeving die beschikbaar is voor de client.
-Als een WiFI-oplossing wordt overwogen om een scherm te verbinden met de Internet Link, is het raadzaam ten minste gebruik te maken van moderne WIFI-standaarden zoals IEEE 802.11g. Deze standaard steunt verbindingen tot 54 Mbps. Alle &quot;nieuwere&quot; standaarden zoals 802.11h-n zijn van betere kwaliteit. Als er een WIFI Repeater vereist is, raden we Mesh WIFI Access-point-technologieën zoals Google Nest Mesh WIFI of een vergelijkbare technologie aan.
+Gewoonlijk hebben de Collectieve Netwerken een lading van aangesloten apparaten, in diverse subnetwerken zouden kunnen worden gescheiden en de overtollige of multiplexen verbindingen van Internet zouden kunnen hebben om voldoende prestaties voor vele duizenden gezamenlijke toegang te verstrekken.
+Dit schema is vereenvoudigd en past in de meeste gevallen bij de omgeving die beschikbaar is voor de client.
+
+Als een WIFI-oplossing wordt overwogen om het scherm aan te sluiten op internet Link, wordt aanbevolen om ten minste gebruik te maken van moderne WIFI-standaarden. `IEEE 802.11g` Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals die `802.11h-n` zijn van betere kwaliteit. Als er een WIFI Repeater vereist is, raden we Mesh WIFI Access-point-technologieën zoals Google Nest Mesh WIFI of een vergelijkbare technologie aan.
 Andere WiFi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het totale netwerk.
 
 ## Media en middelen downloaden {#download}
