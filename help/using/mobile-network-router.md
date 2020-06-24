@@ -2,9 +2,9 @@
 title: Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk
 description: De pagina beschrijft Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,13 @@ ht-degree: 0%
 # Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk {#mobile-network-setup}
 
 Adobe AEM Screens Players kan ook worden aangesloten gebruikend Mobiele of cellulaire netwerken die minstens een 3G netwerk in werking stellen.
+
 Binnen de AEM Screens wordt de vereiste inhoud fysiek gedownload naar de spelercontroller of -computer en correct opgeslagen in het onderliggende besturingssysteem. Daarom heeft de opgegeven bandbreedte alleen invloed op de eerste downloadtijden en heeft deze geen invloed op de prestaties van de weergavesystemen.
 
-Het voordeel van deze Opstelling is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst om beste beschikbare dekking van het Netwerk te verzekeren. Dit bevindt zich gewoonlijk in een verhoogde en open positie met zo min mogelijk omringende beton- of metaalconstructie.
-Met deze configuratie kunnen gebruikers van AEM-schermen heel flexibel werken, omdat er geen vaste lijn nodig is om AEM Screens te verbinden.
+Het voordeel van deze Opstelling is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst om beste beschikbare netwerkdekking te verzekeren. Dit bevindt zich gewoonlijk in een verhoogde en open positie met zo min mogelijk omringende beton- of metaalconstructie.
+Met deze configuratie kunnen gebruikers van AEM Screen flexibel werken omdat er geen vaste lijn nodig is om verbinding te maken met AEM Screens.
+
+Het volgende diagram toont het Mobiele Netwerk met de Mobiele Configuratie van de Router van Gegevens en de Actieve Componenten van het Netwerk en bevat een Toegang van Internet van om het even welke controlemechanismen van AEM Screens door de directe Toegang van Internet gebruikend een eigen Gegevens 3/4/5G.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +28,6 @@ Met deze configuratie kunnen gebruikers van AEM-schermen heel flexibel werken, o
 Voer de onderstaande stappen uit om verbinding te maken met AEM Screen-spelers in deze configuratie:
 
 De configuratie bevat van een Toegang van Internet van om het even welke Controllers van AEM Screens door de directe Toegang van Internet gebruikend een eigen Gegevens 3/4/5G Verbinding.
-De correcte verbinding van de spelers van het Scherm AEM in deze configuratie is eenvoudig:
 
 1. Zorg ervoor dat de Mobiele Router van Gegevens behoorlijk wordt verbonden met het cellulaire Netwerk van Gegevens zoals die binnen het Werkende Systeem wordt vermeld en elk van de spelers van het Scherm AEM wordt aangesloten aan het Netwerk van Routers.
 1. Test de internetverbinding door een URL aan te roepen in uw systeembrowser.
@@ -91,15 +93,16 @@ Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt w
 
 ### Netwerk voor lokale gebieden {#lan-connection}
 
-De prestaties van LAN hebben, behalve aan reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte.
+De prestaties van LAN hebben, behalve aan reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Bij het gebruik van andere actieve netwerkcomponenten is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte.
 
 Bijvoorbeeld, zouden de Componenten van het Netwerk minstens norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
+
 Als een oplossing WIFI wordt overwogen om het scherm met de Verbinding van Internet te verbinden wordt het geadviseerd om moderne normen van WIFI zoals IEEE 802.11g als minimum te gebruiken. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals 802.11h-n zijn van betere kwaliteit. Als er een WIFI Repeater vereist is, raden we Mesh WIFI Access-point-technologieën zoals Google Nest Mesh WIFI of een vergelijkbare technologie aan.
 
 ## Media en middelen downloaden {#download}
 
 AEM Screens bieden een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke Dossiers van Media, zoals Beelden en Video. Wegens dit concept komt het belangrijkste netwerkverkeer voor in het geval dat er nieuwe inhoud is die op een specifiek scherm moet worden getoond.
-Voor de normale werking, bijvoorbeeld wanneer u een afspeellijst hebt gedefinieerd die niet vaak tijdens de dag wordt gewijzigd, biedt dit een vrijwel netwerkonafhankelijke bewerking, zodra alle bestanden op de speler zijn opgeslagen.
+Voor de normale werking, bijvoorbeeld wanneer u een afspeellijst hebt gedefinieerd die niet regelmatig tijdens de dag wordt bijgewerkt, is dit vrijwel netwerkonafhankelijk, nadat alle bestanden op de speler zijn opgeslagen.
 Voor die gebruiksgevallen waarin er meer interacties met sensoren of andere triggers zijn en de inhoud zeer dynamisch is, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe schermreactie om een optimale gebruikerservaring te garanderen.
 De volgende lijsten bieden een goed overzicht welke zeer belangrijke gegevens van de netwerkconnectiviteit voor de prestaties betekenen die en potentiële wachttijden kunnen worden verwacht.
 
