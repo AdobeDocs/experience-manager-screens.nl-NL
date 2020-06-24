@@ -5,9 +5,9 @@ getting-started-title: Handleiding voor aanbevolen procedures voor AEM Screens
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 14334261ae572f31754b5dba230b53717cd46626
+source-git-commit: 0a7aa7ea477cd1acbe8adfe31760be1bc4236c17
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 1%
    + [AEM Platform Configurations](aem-platform-configurations.md)
    + [Projecttaxonomie en -uitvoering](project-taxonomy-implementation.md)
    + Netwerkverkeersbeheer {#manage-network-traffic}
+      + [Netwerkverkeer beheren](/help/using/managing-network-traffic.md)
       + [Direct Internet Network (bekabeld/draadloos)](/help/using/direct-internet-network.md)
       + [Direct mobiel netwerk](/help/using/mobile-network.md)
       + [Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk](/help/using/mobile-network-router.md)
