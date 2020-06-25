@@ -2,7 +2,7 @@
 title: Directe internettoegang
 description: Directe internettoegang
 translation-type: tm+mt
-source-git-commit: 6afb71bd969ccfde91c2172ceb2d2f76645c7df1
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
@@ -24,7 +24,7 @@ De havens kunnen als gevolg van configuratie van uw specifieke opstelling van de
 
 ![](/help/assets/direct-access-2.png)
 
-De configuratie omvat ook een toegang van Internet door om het even welke Internet Service Provider (ISP) en het is de lijn van Internet. De meeste ISP&#39;s voorzien een Router van Internet die de Modem van Internet, de Schakelaar van het Netwerk, het toegangspunt van WIFI, firewall en andere functionaliteit van het Netwerk (afhankelijk van fabrikant en model) behandelt.
+De configuratie omvat ook een toegang van Internet door om het even welke Internet Service Provider (ISP) en het is de lijn van Internet. De meeste ISP&#39;s bieden een internetrouter voor de internetmodem, netwerkswitch, Wi-Fi-toegangspunt, firewall en andere netwerkfuncties (afhankelijk van fabrikant en model).
 
 ## Verbinding maken tussen AEM Screens Player en Direct Internet Access {#connecting-aem-screens-players}
 
@@ -64,7 +64,7 @@ Het directe netwerk van Internet wordt logisch gezien gescheiden in twee blokken
 
 De prestaties van de verbinding van Internet naast bereikbaarheid van het netwerk moeten voldoende bandbreedte verstrekken om AEM Screens in werking te stellen.
 
-*Voldoende* is afhankelijk van het aantal aangesloten AEM-schermen en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastnetwerken van het WIFI.
+*Voldoende* is afhankelijk van het aantal aangesloten AEM-schermen en het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
 
 >[!NOTE]
 >Alle hierboven genoemde apparaten, hebben een gezamenlijke toegang tot de verbinding van Internet en de bandbreedte vermindert lineair wanneer u meer consumenten of computers aan het netwerk toevoegt.
@@ -74,10 +74,10 @@ De prestaties van de verbinding van Internet naast bereikbaarheid van het netwer
 De prestaties van het Netwerk van het Lokale Gebied (LAN), behalve de bereikbaarheid van het netwerk verstrekt voldoende bandbreedte om AEM Screens in werking te stellen.
 
 Het LAN netwerk past gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem te verbinden.
-Als een WIFI-oplossing wordt overwogen om AEM Screens aan de Verbinding van Internet te verbinden, wordt het geadviseerd om moderne normen van de WIFI als `IEEE 802.11g` minimum te gebruiken. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals die `802.11h-n` zijn van betere kwaliteit.
+Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Internet Link, is het raadzaam om ten minste gebruik te maken van moderne Wi-Fi-standaarden. `IEEE 802.11g` Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals die `802.11h-n` zijn van betere kwaliteit.
 
 >[!NOTE]
->Als er een WIFI Repeater vereist is, wordt het ten zeerste aanbevolen een WIFI-toegangspunt voor het net te gebruiken, zoals Google Nest Mesh WIFI of een vergelijkbare functie. Andere WiFi herhalende technologieën resulteren in een enorm verlies van bandbreedte in het totale netwerk.
+>Als een Wi-Fi Repeater vereist is, wordt dit sterk aanbevolen voor een Wi-Fi-toegangspunt voor Net, zoals Google Nest Mesh Wi-Fi of een vergelijkbaar toegangspunt. Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
 
 ## Media en middelen downloaden {#download}
 
