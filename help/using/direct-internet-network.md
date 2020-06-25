@@ -2,9 +2,9 @@
 title: Directe internettoegang
 description: Directe internettoegang
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen 
    >1. Zorg ervoor dat alle vereiste Havens worden toegestaan.
 
 
-## Vereisten voor het opzetten van een netwerk voor directe toegang {#requirements-direct}
+## Netwerk voor directe toegang instellen {#requirements-direct}
 
 Het directe netwerk van Internet wordt logisch gezien gescheiden in twee blokken:
 
