@@ -2,9 +2,9 @@
 title: Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk
 description: De pagina beschrijft Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ De configuratie bevat van een Toegang van Internet van om het even welke Control
 
 
 
-## Vereisten om Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk op te richten {#requirements-direct}
+## Vestiging Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk {#requirements-direct}
 
 De netwerkOpstelling kan logisch gezien in twee blokken worden gescheiden:
 
@@ -92,7 +92,7 @@ Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt w
 
 De prestaties van LAN hebben, behalve aan reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Bij het gebruik van andere actieve netwerkcomponenten is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte.
 
-Bijvoorbeeld, zouden de Componenten van het Netwerk minstens norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
+Bijvoorbeeld, zouden de Componenten van het Netwerk minstens norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de Toegang van Internet/de specificatie van de Router wordt verstrekt.
 
 Als een Wi-Fi-oplossing wordt overwogen om een scherm te verbinden met de Internet Link, is het raadzaam ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals IEEE 802.11g. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals 802.11h-n zijn van betere kwaliteit. Als u een Wi-Fi Repeater nodig hebt, raden we u sterk aan Wi-Fi Access-punttechnologieën zoals Google Nest Mesh Wi-Fi of vergelijkbare technologieën aan te bevelen.
 
