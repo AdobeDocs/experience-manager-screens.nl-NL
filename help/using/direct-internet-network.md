@@ -2,9 +2,9 @@
 title: Directe internettoegang
 description: Directe internettoegang
 translation-type: tm+mt
-source-git-commit: 77cf87cbce39a00528b2690d9689861b91e61fc5
+source-git-commit: 6afb71bd969ccfde91c2172ceb2d2f76645c7df1
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,12 @@ ht-degree: 0%
 
 # Direct Internet Network (bekabeld/draadloos) {#direct-internet-access}
 
-Het directe netwerk van Internet bevat een toegangspunt van de ingang voor de toegang van Internet om aan AEM cloud services te bereiken die de AEM Screens moeten verbinden met.
+Het directe netwerk van Internet bevat een toegangspunt van de ingang voor de toegang van Internet om de AEM cloud services te bereiken die de AEM Screens moeten verbinden met.
 
 De standaardhavens voor de mededeling van AEM Screens zijn:
 * `http (TCP Port 80)`
-Of
+   <br>Of</br>
+
 * `ssl-secured https (TCP Port 443)`
 
 De havens kunnen als gevolg van configuratie van uw specifieke opstelling van de configuratie variëren AEM. Binnen deze SetUp, worden alle apparaten direct verbonden met uw router van Internet zoals aangetoond in het hieronder cijfer.
@@ -27,33 +28,33 @@ De configuratie omvat ook een toegang van Internet door om het even welke Intern
 
 ## Verbinding maken tussen AEM Screens Player en Direct Internet Access {#connecting-aem-screens-players}
 
-Voer de onderstaande stappen uit om verbinding te maken met AEM Screen-spelers in deze configuratie:
+Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM-spelers op het scherm in deze configuratie:
 
 1. Zorg ervoor dat elk van de spelers van het Scherm AEM met het Netwerk van Routers wordt verbonden.
 1. Test de internetverbinding door een URL aan te roepen in uw systeembrowser.
 
    >[!NOTE]
-   >Als u een foutbericht ontvangt, controleert u de netwerkinstellingen. Er zijn eigenlijk twee opties voor een juiste netwerkverbinding:
+   >Als er een fout optreedt, controleert u de netwerkinstellingen. Er zijn eigenlijk twee opties voor een juiste netwerkverbinding:
    >* DHCP
    >* Handmatige IP-configuratie
 
 
-1. Zorg ervoor dat het Plaatsen van de Adapter van het Netwerk aan uw Plaatsing van de Router aanpast en controleert als de maximumhoeveelheid beschikbare IP adressen in uw netwerk niet wordt bereikt.
+1. Zorg ervoor dat het Plaatsen van de Adapter van het Netwerk uw Montages van de Router aanpast en controleer als de maximumhoeveelheid beschikbare IP adressen in uw netwerk niet wordt bereikt.
 
 1. Controle als de Router behoorlijk met het ISP Netwerk van het Gebied (de Verbinding van Internet) wordt verbonden. Dit kan ook worden geïdentificeerd gebruikend Signal leiden op StandaardRouters.
 1. Als de URL-aanroep is gelukt, kunt u de AEM Screens blijven installeren en registreren. Start AEM Screens.
 
    >[!NOTE]
    >**Tip voor probleemoplossing**
-   >Als AEM Screens niet correct verbinden en de verwachte inhoud niet tonen:
+   >Als AEM Screens niet correct verbinden en de verwachte inhoud niet wordt getoond:
    >
-   >1. Controleer in uw Firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443`.
-   >1. Zorg ervoor dat alle benodigde Havens zijn toegestaan.
+   >1. Controleer in uw firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443`. zijn
+   >1. Zorg ervoor dat alle vereiste Havens worden toegestaan.
 
 
 ## Vereisten voor het opzetten van een netwerk voor directe toegang {#requirements-direct}
 
-Het directe netwerk van Internet kan logisch gezien in twee blokken worden gescheiden:
+Het directe netwerk van Internet wordt logisch gezien gescheiden in twee blokken:
 
 * Breed gebiedsnetwerk
 
@@ -63,10 +64,10 @@ Het directe netwerk van Internet kan logisch gezien in twee blokken worden gesch
 
 De prestaties van de verbinding van Internet naast bereikbaarheid van het netwerk moeten voldoende bandbreedte verstrekken om AEM Screens in werking te stellen.
 
-*Voldoende* is afhankelijk van de hoeveelheid aangesloten AEM-schermen en van het gebruik van andere consumenten binnen het netwerk, zoals smartphones, tablets, cashiers, computers of gastnetwerken van het WIFI.
+*Voldoende* is afhankelijk van het aantal aangesloten AEM-schermen en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastnetwerken van het WIFI.
 
 >[!NOTE]
->Alle apparaten hebben een gezamenlijke toegang tot de verbinding van Internet en de bandbreedte vermindert lineair wanneer u meer consumenten of computers aan het netwerk toevoegt.
+>Alle hierboven genoemde apparaten, hebben een gezamenlijke toegang tot de verbinding van Internet en de bandbreedte vermindert lineair wanneer u meer consumenten of computers aan het netwerk toevoegt.
 
 ### Netwerk voor lokale gebieden {#lan-connection}
 
@@ -76,20 +77,20 @@ Het LAN netwerk past gewoonlijk minstens een netwerk 100 Mbps aan, zodat er vold
 Als een WIFI-oplossing wordt overwogen om AEM Screens aan de Verbinding van Internet te verbinden, wordt het geadviseerd om moderne normen van de WIFI als `IEEE 802.11g` minimum te gebruiken. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals die `802.11h-n` zijn van betere kwaliteit.
 
 >[!NOTE]
->Als er een WIFI Repeater vereist is, raden we Mesh WIFI Access-point-technologieën zoals Google Nest Mesh WIFI of een vergelijkbare technologie aan. Andere WiFi herhalende technologieën resulteren in een enorm verlies van bandbreedte in het totale netwerk.
+>Als er een WIFI Repeater vereist is, wordt het ten zeerste aanbevolen een WIFI-toegangspunt voor het net te gebruiken, zoals Google Nest Mesh WIFI of een vergelijkbare functie. Andere WiFi herhalende technologieën resulteren in een enorm verlies van bandbreedte in het totale netwerk.
 
 ## Media en middelen downloaden {#download}
 
 AEM Screens bieden een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 
-Voor normale bewerkingen, bijvoorbeeld wanneer u een afspeellijst hebt gedefinieerd die regelmatig tijdens de dag wordt bijgewerkt, biedt dit een vrijwel netwerkonafhankelijke bewerking, zodra alle bestanden op de speler zijn opgeslagen.
+Voor normale bewerkingen, bijvoorbeeld een gedefinieerde afspeellijst die regelmatig wordt bijgewerkt - biedt een vrijwel netwerkonafhankelijke bewerking aan zodra alle bestanden op de speler zijn opgeslagen.
 
-Voor die gebruiksgevallen waar er meer interactie is met sensoren of andere triggers en de inhoud zeer dynamisch is, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe schermreactie om een optimale gebruikerservaring te garanderen.
+Voor scenario&#39;s, waar er meer interactie met sensoren of trekkers en dynamische inhoud zijn, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe het schermreactie om optimale klantenervaring te verzekeren.
 
 De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van de netwerkconnectiviteit.
 
 >[!NOTE]
->Met deze informatie kunt u het verbruik bekijken van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
+>De informatie staat u toe om de consumptie van elk apparaat in het netwerk te bekijken die en een bron van Internet verzoeken te downloaden. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/assets/download-times-direct.png)
 
