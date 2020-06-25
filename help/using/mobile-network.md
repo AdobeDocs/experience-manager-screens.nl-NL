@@ -2,9 +2,9 @@
 title: Direct mobiel netwerk
 description: De pagina beschrijft Direct Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen 
 
 1. Als de URL-aanroep is gelukt, kunt u de AEM Screens blijven installeren en registreren. Start AEM Screens.
 
-## Vereisten voor het instellen van een mobiele netwerkconfiguratie {#requirements-direct}
+## Direct mobiel netwerk instellen {#requirements-direct}
 
 De netwerkOpstelling kan logisch gezien in twee blokken worden gescheiden:
 
@@ -49,7 +49,7 @@ De netwerkOpstelling kan logisch gezien in twee blokken worden gescheiden:
 
 De prestaties van de verbinding van Internet behalve netwerkbereikbaarheid verstrekken voldoende bandbreedte om AEM Screens regelmatig in werking te stellen.
 
-In het Directe Mobiele Netwerk, wordt elke Speler verbonden met één enkele Mobiele Kaart van Gegevens aan het de gegevensnetwerk van leveranciers.
+In het Directe Mobiele Netwerk, wordt elke Speler verbonden met één enkele Mobiele Kaart van Gegevens aan het netwerk van leveranciersgegevens.
 
 De volgende lijst benadrukt de gegevensnetwerken met hun standaardbandbreedte:
 
