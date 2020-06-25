@@ -2,9 +2,9 @@
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Omsloten bedrijfsnetwerken (bekabeld/draadloos) {#enclosed-corporate-networks}
 
-De Ingesloten Collectieve Opstelling van het Netwerk is toepasselijk op kleinere, grotere en ondernemingsondernemingen. Het kan theoretisch complexer zijn, maar de logische Opstelling wordt getoond in het hieronder cijfer.
+De Ingesloten Collectieve Opstelling van het Netwerk is toepasselijk op kleinere, grotere en ondernemingsondernemingen. Het kan theoretisch complexer zijn, en logische Opstelling wordt getoond in het hieronder cijfer.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -52,36 +52,39 @@ De Ingesloten Collectieve Opstelling van het Netwerk kan logisch gezien in twee 
 
 ### Breed gebiedsnetwerk {#wan-connection}
 
-De prestaties van de internetverbinding naast de netwerkbereikbaarheid moeten voldoende bandbreedte bieden om AEM Screens mooi en vloeiend te kunnen gebruiken.
-*Voldoende bandbreedte* is afhankelijk van de hoeveelheid aangesloten AEM-schermen en het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, Cashiers, Computers of gastWi-Fi-netwerken.
+De prestaties van de verbinding van Internet naast netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen.
+*Voldoende bandbreedte* is afhankelijk van de hoeveelheid aangesloten AEM-schermen en het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
 
 >[!NOTE]
->Alle apparaten hebben een gelijktijdige toegang tot de internetverbinding en de bandbreedte neemt doorgaans lineair af wanneer u meer consumenten of computers aan het netwerk toevoegt.
+>Alle apparaten hebben een gelijktijdige toegang tot de internetverbinding en de bandbreedte neemt lineair af wanneer u meer consumenten of computers aan het netwerk toevoegt.
 
 ### Netwerk voor lokale gebieden {#lan-connection}
 
-De prestaties van het Netwerk van het Lokale Gebied (LAN) hebben, behalve de netwerkbereikbaarheid, voldoende bandbreedte moeten verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen.
+De prestaties van het Netwerk van het Lokale Gebied (LAN) hebben, behalve de netwerkbereikbaarheid, voldoende bandbreedte moeten verstrekken om AEM Screens regelmatig in werking te stellen.
 
-In deze dagen past het LAN netwerk binnen collectieve organisaties gewoonlijk minstens een netwerk 1000 MBit/sec aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem aan te sluiten. Als u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte.
+Het LAN netwerk binnen collectieve organisaties is gewoonlijk minstens 1000 MBit/sec netwerk, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem aan te sluiten. Terwijl het gebruiken van andere actieve componenten van het Netwerk is het verplicht dat al die aan de bandbreedtevereisten van het Netwerk aanpassen.
 
-Bijvoorbeeld, zouden de netwerkcomponenten minstens 1000 norm moeten aanpassen Mbps en de bandbreedte aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
+Bijvoorbeeld, zouden de componenten van het Netwerk minstens norm 1000 Mbps moeten aanpassen en de bandbreedte aanpassen die door de toegang van Internet/routerspecificatie wordt verstrekt.
 
 ### Andere BedrijfsNetwerken Specificaties {#other-networks}
 
-Gewoonlijk hebben de Collectieve Netwerken een lading van aangesloten apparaten, in diverse subnetwerken zouden kunnen worden gescheiden en de overtollige of multiplexen verbindingen van Internet zouden kunnen hebben om voldoende prestaties voor vele duizenden gezamenlijke toegang te verstrekken.
-Dit schema is vereenvoudigd en past in de meeste gevallen bij de omgeving die beschikbaar is voor de client.
+De collectieve Netwerken hebben een aantal aangesloten apparaten, zijn gescheiden in diverse subnetwerken en hebben overtollige of multiplexen verbindingen van Internet om voldoende prestaties voor vele duizenden gezamenlijke toegang te verstrekken.
+Dit schema is vereenvoudigd en past in de meeste gevallen bij de omgevingen die beschikbaar zijn voor de client.
 
-Als een Wi-Fi-oplossing wordt overwogen om een scherm te verbinden met de internetverbinding, wordt het aanbevolen om ten minste de moderne Wi-Fi-standaarden te gebruiken. Dit geldt bijvoorbeeld `IEEE 802.11g` voor de verbinding met internet. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals die `802.11h-n` zijn van betere kwaliteit. Als u een Wi-Fi Repeater nodig hebt, raden we u sterk aan Wi-Fi Access-punttechnologieën zoals Google Nest Mesh Wi-Fi of vergelijkbare technologieën aan te bevelen.
+Als een Wi-Fi-oplossing bedoeld is om schermen te verbinden met de Internet Link, wordt aanbevolen om ten minste de moderne Wi-Fi-standaarden te gebruiken. Dit geldt bijvoorbeeld `IEEE 802.11g` voor alle andere apparaten. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals die `802.11h-n` zijn van betere kwaliteit. Als u een Wi-Fi Repeater nodig hebt, raden we u sterk aan om technologieën als Google Nest Mesh Wi-Fi of een vergelijkbare technologie voor toegangspunten van Mesh aan te bevelen.
 Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
 
 ## Media en middelen downloaden {#download}
 
-AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke Dossiers van Media, zoals Beelden en Video. Wegens dit concept komt het belangrijkste netwerkverkeer voor in het geval dat er nieuwe inhoud is die op een specifiek scherm moet worden getoond.
-Voor de normale werking, bijvoorbeeld wanneer u een afspeellijst hebt gedefinieerd die niet vaak tijdens de dag wordt gewijzigd, biedt dit een vrijwel netwerkonafhankelijke bewerking, zodra alle bestanden op de speler zijn opgeslagen. Voor die gebruiksgevallen waarin er meer interacties met sensoren of andere triggers zijn en de inhoud zeer dynamisch is, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe schermreactie om een optimale gebruikerservaring te garanderen.
+AEM Screens bieden een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 
-De volgende lijsten bieden een goed overzicht welke zeer belangrijke gegevens van de netwerkconnectiviteit voor de prestaties betekenen die en potentiële wachttijden kunnen worden verwacht.
+Voor normale bewerkingen, bijvoorbeeld een gedefinieerde afspeellijst die regelmatig wordt bijgewerkt - biedt een vrijwel netwerkonafhankelijke bewerking aan zodra alle bestanden op de speler zijn opgeslagen.
+
+Voor scenario&#39;s, waar er meer interactie met sensoren of trekkers en dynamische inhoud zijn, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe het schermreactie om optimale klantenervaring te verzekeren.
+
+De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van de netwerkconnectiviteit.
 
 >[!NOTE]
->Alle informatie moet worden gezien als het verbruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
+>De informatie staat u toe om de consumptie van elk apparaat in het netwerk te bekijken die en een bron van Internet verzoeken te downloaden. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/using/assets/enclosed-network-download.png)
