@@ -2,15 +2,15 @@
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 
-# Omsloten bedrijfsnetwerken (bekabeld/draadloos) {#enclosed-corporate-networks}
+# Enclosed Corporate Network (bekabeld/draadloos) {#enclosed-corporate-networks}
 
 De Ingesloten Collectieve Opstelling van het Netwerk is toepasselijk op kleinere, grotere en ondernemingsondernemingen. Het kan theoretisch complexer zijn, en logische Opstelling wordt getoond in het hieronder cijfer.
 
@@ -43,7 +43,7 @@ Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen 
    >1. Zorg ervoor dat alle vereiste Havens worden toegestaan.
 
 
-## Vereisten voor het opzetten van besloten bedrijfsnetwerken {#requirements-enclosed-networks}
+## Ingesloten bedrijfsnetwerken instellen {#requirements-enclosed-networks}
 
 De Ingesloten Collectieve Opstelling van het Netwerk kan logisch gezien in twee blokken worden gescheiden:
 
