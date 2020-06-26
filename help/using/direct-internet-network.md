@@ -2,9 +2,9 @@
 title: Directe internettoegang
 description: Directe internettoegang
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 0%
 Het directe netwerk van Internet bevat een toegangspunt van de ingang voor de toegang van Internet om de AEM cloud services te bereiken die de AEM Screens moeten verbinden met.
 
 De standaardhavens voor de mededeling van AEM Screens zijn:
-* `http (TCP Port 80)`
+* `ssl-secured https (TCP Port 443)`
    <br>Of</br>
 
-* `ssl-secured https (TCP Port 443)`
+* `http (TCP Port 80)`, als uw specifieke gebruikscase dat niveau van veiligheid niet vereist.
 
 De havens kunnen als gevolg van configuratie van uw specifieke opstelling van de configuratie variëren AEM. Binnen deze SetUp, worden alle apparaten direct verbonden met uw router van Internet zoals aangetoond in het hieronder cijfer.
 
@@ -30,8 +30,8 @@ De configuratie omvat ook een toegang van Internet door om het even welke Intern
 
 Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM-spelers op het scherm in deze configuratie:
 
-1. Zorg ervoor dat elk van de spelers van het Scherm AEM met het Netwerk van Routers wordt verbonden.
-1. Test de internetverbinding door een URL aan te roepen in uw systeembrowser.
+1. Zorg ervoor dat elk van de spelers van het Scherm AEM met het Netwerk van de Router wordt verbonden.
+1. Test de internetverbinding door een URL op te roepen in uw systeembrowser.
 
    >[!NOTE]
    >Als er een fout optreedt, controleert u de netwerkinstellingen. Er zijn eigenlijk twee opties voor een juiste netwerkverbinding:
