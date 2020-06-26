@@ -2,9 +2,9 @@
 title: Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk
 description: De pagina beschrijft Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 Adobe AEM Screens Players kan ook worden aangesloten gebruikend mobiele of cellulaire netwerken die minstens een 3G netwerk in werking stellen.
 
-Binnen AEM Screens wordt de vereiste inhoud fysiek gedownload naar de spelercontroller of -computer en correct opgeslagen in het onderliggende besturingssysteem. Daarom heeft de opgegeven bandbreedte alleen invloed op de eerste downloadtijden en heeft deze geen invloed op de prestaties van de weergavesystemen.
+Binnen AEM Screens wordt de vereiste inhoud fysiek gedownload naar de spelercontroller of -computer en correct opgeslagen in het onderliggende besturingssysteem. Daarom heeft de opgegeven bandbreedte alleen invloed op de eerste downloadtijden en op de updates van de inhoud. De bandbreedte heeft geen invloed op de prestaties van het regelmatig afspelen van beeldschermen.
 
-Het voordeel van deze Opstelling is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst om beste beschikbare netwerkdekking te verzekeren. Dit bevindt zich gewoonlijk in een verhoogde en open positie met zo min mogelijk omringende beton- of metaalconstructie.
-Met deze configuratie kunnen gebruikers van AEM Screen flexibel werken omdat er geen vaste lijn nodig is om verbinding te maken met AEM Screens.
+Het voordeel van deze opstelling is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst om beste beschikbare netwerkdekking te verzekeren. Dit bevindt zich gewoonlijk in een verhoogde en open positie met zo weinig mogelijk omringende beton- of metaalconstructie.
+Dankzij deze installatie kunnen gebruikers van AEM Screen flexibel werken omdat er geen vaste lijn vereist is om verbinding te maken met AEM Screens. Dit is vooral interessant voor letterlijke of mobiele instellingen.
 
 Het volgende diagram toont het Mobiele Netwerk met de Mobiele Configuratie van de Router van Gegevens en de Actieve Componenten van het Netwerk en bevat een toegang van Internet van om het even welke controlemechanismen van AEM Screens door directe toegang van Internet gebruikend een eigen Gegevens 3/4/5G.
 
@@ -27,7 +27,7 @@ Het volgende diagram toont het Mobiele Netwerk met de Mobiele Configuratie van d
 
 Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM-spelers op het scherm in deze configuratie:
 
-De configuratie bevat van een Toegang van Internet van om het even welke Controllers van AEM Screens door de directe Toegang van Internet gebruikend een eigen Gegevens 3/4/5G Verbinding.
+De configuratie wijst een Toegang van Internet voor elk Controlemechanisme van AEM Screens door de directe Toegang van Internet toe gebruikend een specifieke Gegevens 3/4/5G.
 
 1. Zorg ervoor dat de Mobiele Router van Gegevens behoorlijk wordt verbonden met het cellulaire Netwerk van Gegevens zoals die binnen het Werkende Systeem wordt vermeld en elk van de spelers van het Scherm AEM wordt aangesloten aan het Netwerk van Routers.
 1. Test de internetverbinding door een URL aan te roepen in uw systeembrowser.
@@ -60,11 +60,11 @@ De netwerkOpstelling kan logisch gezien in twee blokken worden gescheiden:
 
 ### Mobiele internetverbinding {#mobile-internet-connection}
 
-De prestaties van de verbinding van Internet hebben, naast reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen.
+De prestaties van de verbinding van Internet, naast reeds beschreven netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens inhoudsdownloads regelmatig uit te voeren.
 
-*Voldoende* is afhankelijk van de hoeveelheid aangesloten AEM-schermen en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
+*Voldoende* is afhankelijk van de hoeveelheid aangesloten AEM-schermenapparaten en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
 Houd in mening dat alle apparaten een gezamenlijke toegang tot de verbinding van Internet hebben en de bandbreedte gewoonlijk lineair vermindert terwijl het toevoegen van meer consumenten/computers aan het netwerk.
-Naast de specifieke theoretische verbinding van het Netwerk moet het worden gewaarborgd, dat de dekking van de mobiele Router minstens &quot;goed&quot;is. Ook het onderliggende Maandelijkse Plan moet genoeg Capaciteit van Gegevens en voldoende bandbreedte behandelen om alle verbonden cliënten binnen verbonden LAN te dienen.
+Naast de specifieke theoretische verbinding van het Netwerk, moet worden gewaarborgd dat de dekking van de mobiele Router minstens &quot;goed&quot;is. Ook het onderliggende Maandelijkse Plan moet genoeg Capaciteit van Gegevens en voldoende bandbreedte behandelen om alle verbonden cliënten binnen verbonden LAN te dienen.
 
 De volgende lijst benadrukt de gegevensnetwerken met hun standaardbandbreedte:
 
@@ -90,7 +90,7 @@ Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt w
 
 ### Netwerk voor lokale gebieden {#lan-connection}
 
-De prestaties van LAN hebben, behalve aan reeds beschreven netwerkbereikbaarheid, om voldoende bandbreedte te verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Bij het gebruik van andere actieve netwerkcomponenten is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte.
+De prestaties van LAN, naast reeds beschreven netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsdownloads van AEM Screens regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Bij het gebruik van andere actieve netwerkcomponenten is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte.
 
 Bijvoorbeeld, zouden de Componenten van het Netwerk minstens norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de Toegang van Internet/de specificatie van de Router wordt verstrekt.
 
