@@ -2,9 +2,9 @@
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
 translation-type: tm+mt
-source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
+source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Enclosed Corporate Network (bekabeld/draadloos) {#enclosed-corporate-networks}
 
-De Ingesloten Collectieve Opstelling van het Netwerk is toepasselijk op kleinere, grotere en ondernemingsondernemingen. Het kan theoretisch complexer zijn, en logische Opstelling wordt getoond in het hieronder cijfer.
+De Ingesloten Collectieve Opstelling van het Netwerk is toepasselijk op kleinere, grotere en ondernemingsondernemingen. Het kan theoretisch complexer zijn, en de logische opstelling wordt getoond in het hieronder cijfer.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -22,7 +22,7 @@ De Ingesloten Collectieve Opstelling van het Netwerk is toepasselijk op kleinere
 Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM-spelers op het scherm in deze configuratie:
 
 1. Zorg ervoor dat elk van de spelers van het Scherm AEM met het Netwerk van Routers wordt verbonden.
-1. Test de internetverbinding door een URL aan te roepen in uw systeembrowser.
+1. Test de internetverbinding door een URL op te roepen in uw systeembrowser.
 
    >[!NOTE]
    >Als er een fout optreedt, controleert u de netwerkinstellingen. Er zijn eigenlijk twee opties voor een juiste netwerkverbinding:
@@ -52,7 +52,7 @@ De Ingesloten Collectieve Opstelling van het Netwerk kan logisch gezien in twee 
 
 ### Breed gebiedsnetwerk {#wan-connection}
 
-De prestaties van de verbinding van Internet naast netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens behoorlijk en regelmatig in werking te stellen.
+De prestaties van de verbinding van Internet, behalve de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens inhoudsupdates regelmatig in werking te stellen.
 *Voldoende bandbreedte* is afhankelijk van de hoeveelheid aangesloten AEM-schermen en het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
 
 >[!NOTE]
@@ -60,11 +60,11 @@ De prestaties van de verbinding van Internet naast netwerkbereikbaarheid, moeten
 
 ### Netwerk voor lokale gebieden {#lan-connection}
 
-De prestaties van het Netwerk van het Lokale Gebied (LAN) hebben, behalve de netwerkbereikbaarheid, voldoende bandbreedte moeten verstrekken om AEM Screens regelmatig in werking te stellen.
+De prestaties van het Netwerk van het Lokale Gebied (LAN), behalve de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens inhoudsupdates regelmatig in werking te stellen.
 
 Het LAN netwerk binnen collectieve organisaties is gewoonlijk minstens 1000 MBit/sec netwerk, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem aan te sluiten. Terwijl het gebruiken van andere actieve componenten van het Netwerk is het verplicht dat al die aan de bandbreedtevereisten van het Netwerk aanpassen.
 
-Bijvoorbeeld, zouden de componenten van het Netwerk minstens norm 1000 Mbps moeten aanpassen en de bandbreedte aanpassen die door de toegang van Internet/routerspecificatie wordt verstrekt.
+Bijvoorbeeld, zouden de componenten van het Netwerk minstens 100 norm moeten aanpassen Mbps en de bandbreedte aanpassen die door de toegang van Internet/routerspecificatie wordt verstrekt.
 
 ### Andere BedrijfsNetwerken Specificaties {#other-networks}
 
