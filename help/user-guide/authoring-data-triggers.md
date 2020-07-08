@@ -3,7 +3,10 @@ title: Authoring met gegevenstriggers
 seo-title: Authoring met gegevenstriggers
 description: Volg deze pagina om te leren hoe u ontwerpt met gegevenstriggers.
 translation-type: tm+mt
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 0%
 
 ---
 
@@ -13,14 +16,16 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 Deze sectie benadrukt hoe te om het richten in uw kanalen toe te laten.
 
 >[!IMPORTANT]
-> De minimale versie die gegevenstriggers in een AEM-rasterkanaal ondersteunt, is AEM 6.5.3 Feature Pack 3.
+>
+>De minimale versie die gegevenstriggers in een AEM Screens-kanaal ondersteunt, is AEM 6.5.3 Feature Pack 3.
 
 ## Vereisten {#prereqs}
 
-Alvorens u de stappen hieronder volgt om het richten in kanalen toe te laten, moet u de [Zeer belangrijke Termijnen in het Vormen in de Schermen](configuring-context-hub.md) leren AEM die voor het begrip ContextHub en het richten in de Schermen van AEM worden vereist.
+Alvorens u de stappen hieronder volgt om het richten in kanalen toe te laten, moet u de [Zeer belangrijke Termijnen in het Vormen in AEM Screens](configuring-context-hub.md) leren die voor het begrip ContextHub en het richten in AEM Screens worden vereist.
 
 >[!IMPORTANT]
-> Men adviseert dat u configuraties ContextHub begrijpt en opstelling, alvorens het richten in een kanaal van de Schermen AEM toe te laten.
+>
+>Men adviseert dat u configuraties ContextHub begrijpt en opstelling, alvorens het richten in een kanaal van AEM Screens toe te laten.
 
 Volg onderstaande koppelingen voor meer informatie:
 
@@ -33,11 +38,11 @@ Nadat u de voorgaande stappen hebt uitgevoerd, kunt u het activeren van de doelg
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## Doel inschakelen in een AEM-rasterkanaal {#enabling-targeting}
+## Het toelaten van het Targeting in een Kanaal van AEM Screens {#enabling-targeting}
 
 Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te schakelen.
 
-1. Navigeer naar een van de kanalen voor AEM-schermen. De volgende stappen tonen aan hoe te om het richten toe te laten door **DataDrivenRetail** *(opeenvolgingskanaal)* te gebruiken die in een Kanaal van de Schermen AEM wordt gecreeerd.
+1. Navigeer naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door **DataDrivenRetail** te gebruiken *(opeenvolgingskanaal)* die in een Kanaal van AEM Screens wordt gecreeerd.
 
 1. Selecteer het kanaal **DataDrivenRetail** en klik op **Eigenschappen** op de actiebalk.
 
@@ -70,7 +75,7 @@ Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te sch
 
 ### Meer informatie: Voorbeelden {#learn-more-example-use-cases}
 
-Nadat u ContextHub voor uw project van het Scherm AEM hebt gevormd, kunt u de verschillende Gevallen van het Gebruik volgen om te begrijpen hoe de gegevens teweeggebrachte activa een vitale rol in verschillende industrieën spelen:
+Nadat u ContextHub voor uw project van AEM Screens hebt gevormd, kunt u de verschillende Gevallen van het Gebruik volgen om te begrijpen hoe de gegevens teweeggebrachte activa een vitale rol in verschillende industrieën spelen:
 
 1. **[Gerichte activering in de detailhandel](retail-inventory-activation.md)**
 1. **[Temperatuuractivering in het midden van de reis](local-temperature-activation.md)**
