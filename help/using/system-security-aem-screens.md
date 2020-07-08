@@ -1,10 +1,10 @@
 ---
-title: Beveiligingscontrolelijst voor AEM-schermen
-seo-title: Beveiligingscontrolelijst voor AEM-schermen
-description: De pagina beschrijft de lijst met beveiligingscontroles voor AEM-schermen
-seo-description: De pagina beschrijft de lijst met beveiligingscontroles voor AEM-schermen
+title: Beveiligingscontrolelijst voor AEM Screens
+seo-title: Beveiligingscontrolelijst voor AEM Screens
+description: De pagina beschrijft de lijst met beveiligingscontroles voor AEM Screens
+seo-description: De pagina beschrijft de lijst met beveiligingscontroles voor AEM Screens
 translation-type: tm+mt
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -12,20 +12,21 @@ ht-degree: 0%
 ---
 
 
-# Overwegingen met betrekking tot systeembeveiliging voor AEM-schermen {#security-checklist}
+# Overwegingen voor systeembeveiliging voor AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
+>
 >Dit is een interne Git Resource.
 
-Deze pagina benadrukt de Overwegingen van de Veiligheid van het Systeem voor schermen AEM.
+Deze pagina benadrukt de Overwegingen van de Veiligheid van het Systeem voor AEM Screens.
 
 
-## Witboek voor AEM-schermbeveiliging {#white-paper}
+## Witboek voor de veiligheid van AEM Screens {#white-paper}
 
 In deze sectie wordt het witboek beschreven. (Bijlage witboek in behandeling)
 
 
-## Veelgestelde vragen over beveiliging van AEM-schermen {#faqs-screens}
+## Veelgestelde vragen over beveiliging van AEM Screens {#faqs-screens}
 
 De volgende FAQs veronderstelt een voor authentiek verklaarde, geregistreerde spelerarchitectuur gebruikend HTTPS als communicatie protocol tussen speler en Server AEM.
 
@@ -77,7 +78,9 @@ Een fysiek gecompromitteerde speler kan theoretisch worden gemanipuleerd om het 
 Daarom wordt het geadviseerd om de apparaten, bij voorkeur in een beveiligde container, met de aanleg van kabelnetten te zetten die ook wordt beveiligd. Schakel ook alle IR-externe poorten uit.
 
 Als het apparaat OS niet regelmatig wordt bijgewerkt, kan het OS aan veiligheidsgaten worden blootgesteld en verre aanvallen over het netwerk toestaan.
+
 >[!NOTE]
+>
 >Het wordt aanbevolen de apparaten te voorzien van behoorlijke mogelijkheden voor updates en besturing op afstand (externe desktop, MDM-oplossing, enz.). Het wordt ook aanbevolen een particulier netwerk te gebruiken dat bijvoorbeeld niet aan het openbare WIFI is blootgesteld.
 
 
