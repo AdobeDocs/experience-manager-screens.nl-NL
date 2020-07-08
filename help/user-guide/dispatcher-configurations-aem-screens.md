@@ -1,8 +1,8 @@
 ---
-title: Dispatcher Configurations voor AEM-schermen
-seo-title: Dispatcher Configurations voor AEM-schermen
-description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van de Schermen AEM.
-seo-description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van de Schermen AEM.
+title: Dispatcher Configurations voor AEM Screens
+seo-title: Dispatcher Configurations voor AEM Screens
+description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
+seo-description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 uuid: ec5219b7-73f9-4026-99e5-e4a02201b128
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,30 +11,35 @@ topic-tags: administering
 discoiquuid: 1b1a36a4-4f95-41e3-b0a8-74249efb0119
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9bee12b69ae85e84572b6f9e8c70f792895d9a32
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 6%
 
 ---
 
 
-# Dispatcher Configurations voor AEM-schermen{#dispatcher-configurations-for-aem-screens}
+# Dispatcher Configurations voor AEM Screens{#dispatcher-configurations-for-aem-screens}
 
-Dispatcher is het programma voor het in cache plaatsen en/of taakverdeling van Adobe Experience Manager.
+Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen.
 
-De volgende pagina bevat de richtlijnen voor het configureren van dispatcher voor een AEM Screens-project.
+De volgende pagina verstrekt de richtlijnen voor het vormen verzender voor een project van AEM Screens.
 
 >[!NOTE]
+>
 >Als een verzender beschikbaar is, kunnen verbindingen met de registratieserver worden verhinderd door in de verzeneringsregels te filtreren.
+>
 >Als er geen verzender is, maak de registratieserver in de OSGi componentenlijst onbruikbaar.
 
 ## Voorwaarden {#pre-requisites}
 
-Voordat u een dispatcher configureert voor een AEM Screens-project, moet u over voorafgaande kennis van Dispatcher beschikken.
+Alvorens u verzender voor een project van AEM Screens vormt, moet u vroegere kennis van Dispatcher hebben.
 
-Raadpleeg [Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) configureren voor meer informatie.
+Zie Dispatcher [](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) configureren voor meer informatie.
 
 ## Dispatcher configureren {#configuring-dispatcher}
 
-Voer de onderstaande stappen uit om de verzender voor een AEM-schermproject te configureren.
+Voer de onderstaande stappen uit om de dispatcher voor een AEM Screens-project te configureren.
 
 ### Stap 1: Clientkoppen configureren {#step-configuring-client-headers}
 
