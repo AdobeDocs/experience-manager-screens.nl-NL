@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -156,8 +156,9 @@ Op elke publicatie-instantie:
 Aangezien elke publicatieinstantie door gebrek unieke crypto sleutels heeft moet u deze stap op elke pub instantie uitvoeren en de unieke sleutel voor de volgende configuratie opslaan.
 
 >[!NOTE]
->Het wachtwoord moet beginnen en eindigen met accolades.
->Bijvoorbeeld:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a6 10e}
+>
+>Het wachtwoord moet beginnen en eindigen met accolades. Bijvoorbeeld:
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Stap 4: ActiveMQ-artemiscluster activeren {#step-activate-activemq-artemis-cluster}
 
@@ -247,7 +248,7 @@ Voer voordat u de onderstaande stappen uitvoert, de apparaat-id controleren. Zoe
 Voer de onderstaande stappen uit om de gebruiker van het apparaat te repliceren:
 
 1. Navigeer naar de pagina voor gebruikersbeheer (bijvoorbeeld: `https://localhost:4502/useradmin`
-1. Zoeken naar de **screens-devices-master** groep
+1. Zoeken naar de **groep met schermapparaten en master** apparaten
 1. Klik met de rechtermuisknop op de groep en klik op **Activeren**
 
 >[!CAUTION]
