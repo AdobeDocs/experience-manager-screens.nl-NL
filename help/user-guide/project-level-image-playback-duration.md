@@ -5,7 +5,10 @@ description: 'Met deze functionaliteit kunt u de afspeelduur van afbeeldingen op
 seo-description: 'Met deze functionaliteit kunt u de afspeelduur van afbeeldingen op projectniveau definiëren. '
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +21,9 @@ Met deze functies kunt u de afspeelduur van afbeeldingen op projectniveau defini
 
 ### Vereisten {#prerequisites}
 
-Voordat u deze functie gebruikt, moet u eerst een project instellen als voorwaarde voor het implementeren van deze functie. Bijvoorbeeld:
+Voordat u deze functie gebruikt, moet u eerst een project instellen als voorwaarde voor het implementeren van deze functie. Bijvoorbeeld,
 
-1. Een AEM-schermproject maken (in dit voorbeeld **ProjectLevelPlayback**)
+1. Een AEM Screens-project maken (in dit voorbeeld **ProjectLevelPlayback**)
 
 1. Een volgnummer maken als **PlayBackChannel** onder de map **Kanalen**
 
@@ -34,12 +37,13 @@ Voordat u deze functie gebruikt, moet u eerst een project instellen als voorwaar
 
 ## Tijdsduur afbeelding afspelen op projectniveau bewerken {#editing-project-level-image-playback-duration-assignment}
 
-In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een AEM-rasterproject kunt bewerken.
+In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een AEM Screens-project kunt bewerken.
 
 ### De afspeelduur voor afbeeldingen bijwerken op projectniveau {#updating-the-playback-duration-for-images-in-a-project}
 
 
 >[!NOTE]
+>
 >Als u de afspeelduur op afbeeldings- of kanaalniveau wilt bijwerken, raadpleegt u de afspeelduur [op](channel-level-image-playback.md)kanaalniveau.
 
 Volg de onderstaande stappen om te leren hoe u de duur van het afspelen van afbeeldingen op projectniveau kunt bijwerken:
