@@ -2,7 +2,7 @@
 title: Directe internettoegang
 description: Directe internettoegang
 translation-type: tm+mt
-source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -67,6 +67,7 @@ De prestaties van de verbinding van Internet naast bereikbaarheid van het netwer
 *Voldoende* is afhankelijk van het aantal aangesloten AEM-schermen en het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
 
 >[!NOTE]
+>
 >Alle hierboven genoemde apparaten, hebben een gezamenlijke toegang tot de verbinding van Internet en de bandbreedte vermindert lineair wanneer u meer consumenten of computers aan het netwerk toevoegt.
 
 ### Netwerk voor lokale gebieden {#lan-connection}
@@ -77,6 +78,7 @@ Het LAN netwerk past gewoonlijk minstens een netwerk 100 Mbps aan, zodat er vold
 Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Internet Link, is het raadzaam om ten minste gebruik te maken van moderne Wi-Fi-standaarden. `IEEE 802.11g` Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals die `802.11h-n` zijn van betere kwaliteit.
 
 >[!NOTE]
+>
 >Als een Wi-Fi Repeater vereist is, wordt dit sterk aanbevolen voor een Wi-Fi-toegangspunt voor Net, zoals Google Nest Mesh Wi-Fi of een vergelijkbaar toegangspunt. Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
 
 ## Media en middelen downloaden {#download}
@@ -90,6 +92,7 @@ Voor scenario&#39;s, waar er meer interactie met sensoren of trekkers en dynamis
 De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van de netwerkconnectiviteit.
 
 >[!NOTE]
+>
 >De informatie staat u toe om de consumptie van elk apparaat in het netwerk te bekijken die en een bron van Internet verzoeken te downloaden. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/assets/download-times-direct.png)
