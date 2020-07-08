@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1400'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Op deze pagina ziet u hoe u kanalen voor schermen maakt en beheert.
 
 Nadat u een project voor schermen hebt gemaakt, volgt u de onderstaande stappen om een nieuw kanaal voor een project Screens te maken:
 
-1. Selecteer de koppeling Adobe Experience Manager (linksboven) en klik op Schermen. U kunt ook rechtstreeks naar: `https://localhost:4502/screens.html/content/screens`.
+1. Selecteer de koppeling Adobe Experience Manager (linksboven) en vervolgens Schermen. U kunt ook rechtstreeks naar: `https://localhost:4502/screens.html/content/screens`.
 1. Navigeer naar het project Schermen en klik op **Kanalen**.
 1. Klik op **Maken** naast het plusteken op de actiebalk. Een tovenaar zal openen (*zie de Types van Kanaal voor meer informatie*).
 
@@ -69,6 +72,7 @@ In het volgende voorbeeld ziet u hoe u een sequentiekanaal (*ChannelOne*) voor e
 >U kunt verschillende zones maken met behulp van de sjabloonopties, zoals 1x2, 2x2 of 2 tot 3 gesplitste schermkanalen die hierboven zijn vermeld.
 
 >[!IMPORTANT]
+>
 > Als u eenmaal inhoud aan uw kanaal hebt gemaakt en toegevoegd, bestaat de volgende stap uit het maken van een locatie, gevolgd door het maken van een weergave. Bovendien moet u dat kanaal aan een vertoning toewijzen. Zie de bronnen hieronder aan het einde van de sectie voor meer informatie.
 
 ## Werken met kanalen {#working-with-channels}
