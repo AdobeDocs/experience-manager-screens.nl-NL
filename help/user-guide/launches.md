@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1617'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ Na goedkeuring en op live datum (10 november, 8:00 uur) speelt deze lancering de
 
 ## Vereisten {#requirements}
 
-Voordat u *Screens start* in een AEM Screens-project, moet u het concept Grace Period en de relevantie ervan begrijpen.
+Voordat u *Screens start* in een AEM Screens-project, moet u het concept van Respijtperiode en de relevantie ervan begrijpen.
 
 Als u een ervaring uitvoert op de live-datum instellen op de speler, gaat u als volgt te werk:
 
@@ -53,6 +56,7 @@ Bijvoorbeeld, is de server in PST en de apparaten in EST zijn, is het maximumtij
 Dus als we live gaan, zal de promotie vroeg beginnen bij deze offset. In de bovenstaande vergelijking, nemen de meeste punten niet veel tijd, kunnen wij een behoorlijk gok voor deze compensatie gebruiken zodra wij het maximumtijdverschil tussen de server en om het even welke speler kennen.
 
 >[!NOTE]
+>
 >De respijtperiode voor het starten van schermen is ingesteld op 24 uur. Dit betekent dat wanneer we een live-datum vaststellen voor het opstarten van middelen onder */content/screens*, de promotie zal beginnen met deze verschuiving.
 
 ### Respijtperiode buiten de box bijwerken {#updating-out-of-the-box-grace-period}
@@ -78,17 +82,17 @@ Als de live datum bijvoorbeeld is ingesteld op 24 november, 9:00 uur en de respi
 
 ## Starten van schermen gebruiken {#using-launches}
 
-Deze sectie toont aan hoe te om de Lancering van de Schermen in uw project van de Schermen uit te voeren AEM.
+Deze sectie toont aan hoe te om de Lancering van de Schermen in uw project van AEM Screens uit te voeren.
 
 ### Schermen starten {#creating-a-launch}
 
-Voer de onderstaande stappen uit om de functionaliteit voor het starten van schermen te implementeren voor uw AEM-schermproject:
+Voer de onderstaande stappen uit om de functionaliteit voor het starten van schermen te implementeren in uw AEM Screens-project:
 
-1. Maak een volgnummer in uw AEM-rasterproject, bijvoorbeeld **LaunchesDemo** —> **Kanalen** —> **FutureLaunch**, zoals hieronder wordt weergegeven.
+1. Maak een volgnummer in uw AEM Screens-project, bijvoorbeeld **LaunchesDemo** —> **Kanalen** —> **FutureLaunch**, zoals hieronder wordt weergegeven.
 
    >[!CAUTION]
    >
-   >U moet een lancering van een reeds bestaand kanaal in uw project van het Schermen van AEM tot stand brengen.
+   >U moet een lancering van een reeds bestaand kanaal in uw AEM Screens project tot stand brengen.
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-11.png)
 
@@ -100,7 +104,7 @@ Voer de onderstaande stappen uit om de functionaliteit voor het starten van sche
 
 1. Klik op **Volgende** in de wizard **Starten** maken. De optie **Inclusief subpagina** is standaard geselecteerd.
 
-   ![image](/help/user-guide/assets/launches-images/launches-d.png)
+   ![afbeelding](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Met de optie **+ Kanalen** toevoegen kunt u een ander kanaal toevoegen waarvoor u de opstart wilt maken.
@@ -109,7 +113,7 @@ Voer de onderstaande stappen uit om de functionaliteit voor het starten van sche
 
    De optie **Selecteren** wordt uitgeschakeld als u meerdere kanalen of een map probeert te selecteren om de opstart toe te voegen.
 
-   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+   ![afbeelding](/help/user-guide/assets/launches-images/launches-14.png)
 
    Als u het kanaal of de kanalen hebt geselecteerd, klikt u op **Volgende**.
 
@@ -161,17 +165,17 @@ Voer de onderstaande stappen uit om de eigenschappen van de startpagina te bewer
 
 1. Navigeer naar het kanaal **FutureLaunch**, *(dat is de volgende start)* en selecteer het kanaal, zoals in de onderstaande afbeelding wordt getoond.
 
-   ![image](/help/user-guide/assets/launches-images/launches-17.png)
+   ![afbeelding](/help/user-guide/assets/launches-images/launches-17.png)
 
 1. Klik op het **dashboard** op de actiebalk en u ziet het deelvenster **OPENBARE STARTEN** van het kanaaldashboard.
 
-   ![image](/help/user-guide/assets/launches-images/launches-18.png)
+   ![afbeelding](/help/user-guide/assets/launches-images/launches-18.png)
 
 1. Selecteer de start en klik op Eigenschappen **** starten in het **deelvenster OPENEN** .
 
-   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+   ![afbeelding](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Het uitgeven van de Lancering van de Schermen om Kanalen toe te voegen of te verwijderen {#editing-the-screens-launch-to-add-or-remove-channels}
+### Het uitgeven van de Lancering van de Schermen om Kanalen toe te voegen of te verwijderen  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Nadat u de opstart hebt gemaakt, kunt u kanalen toevoegen aan of verwijderen uit de bestaande opstart met de optie **Starten** bewerken.
 
@@ -183,7 +187,7 @@ U kunt de lancering manueel bevorderen gebruikend de optie **bevordert Lancering
 
 U kunt de middelen kiezen u als deel van deze handbevordering in de Tovenaar **van de Bevordering van de** Lancering wilt bevorderen.
 
-![image](/help/user-guide/assets/launches-images/launches-e.png)
+![afbeelding](/help/user-guide/assets/launches-images/launches-e.png)
 
 1. U kunt de optie voor het verwijderen van de opstart na de productie in- of uitschakelen.
 1. U kunt het **bereik** van het starten instellen met de volgende opties:
