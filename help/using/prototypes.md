@@ -1,10 +1,13 @@
 ---
 title: Prototypen
 seo-title: Prototypen
-description: Op deze pagina worden de prototypen voor een AEM-schermproject beschreven
-seo-description: De pagina beschrijft prototypen voor een AEM-schermproject
+description: Deze pagina beschrijft Prototypen voor een Project van AEM Screens
+seo-description: De pagina beschrijft Prototypen voor een Project van AEM Screens
 translation-type: tm+mt
-source-git-commit: 750ee1552065932e65c6709037a6a3feaa4e342c
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
@@ -30,4 +33,5 @@ Er zijn verschillende voorbeelden van Gebruiksscenario&#39;s gemaakt die als ref
 >[!NOTE]
 >
 > Bevestig tijdens de UX-ontwerpfase dat het UI-ontwerp voldoende kan worden ondersteund door de geëxtraheerde gegevens.
+>
 > Bijvoorbeeld, is het waarschijnlijk dat niet alle besluitvormers met de gegevensstructuur van hun productgegevensbestand vertrouwd zijn. Zij kunnen beschrijvers op hun oplossing kiezen UX die geen primaire gebieden in de gegevenslaag zijn. Wanneer vroegtijdig wordt vastgesteld waar manipulatie van de gegevens nodig kan zijn en deze aan de klant wordt meegedeeld, worden misverstanden later voorkomen. Als de klant besluit de UI-labels uit te breiden of te wijzigen nadat de ontwikkeling is gestart, is meer moeite nodig om de wijzigingen aan te brengen.
