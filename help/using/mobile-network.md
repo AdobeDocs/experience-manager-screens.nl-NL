@@ -2,7 +2,7 @@
 title: Direct mobiel netwerk
 description: De pagina beschrijft Direct Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -69,9 +69,11 @@ Als follow-up moet het vereiste gegevenspakket ten minste zijn:
 
 
 >[!IMPORTANT]
+>
 >Voor de eerste upload van de Dossiers van Media, bijvoorbeeld terwijl het integreren van nieuwe spelers, moet een hogere hoeveelheid Gegevens en een verhoogde Tijd van de Download worden verwacht en die in de bovengenoemde veronderstellingen worden weerspiegeld.Een netwerk 4G met *goede* dekking en *onbeperkte* gegevens zou de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
 
 >[!NOTE]
+>
 >Een minimum 3G plan met goede netwerkdekking zou tot aanvaardbare downloadprestaties voor een speler van AEM Screens moeten leiden. Als er slechts eerlijke dekking beschikbaar bij een specifieke plaats is moet het in overweging nemen om de algemene Opstelling van het Netwerk aan [Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten](/help/using/mobile-network-router.md)van het Netwerk te schakelen.
 
 
@@ -92,6 +94,7 @@ Voor scenario&#39;s, waar er meer interactie met sensoren of trekkers en dynamis
 De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van de netwerkconnectiviteit.
 
 >[!NOTE]
+>
 >Alle informatie heeft betrekking op het gebruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/using/assets/download-times-mobile.png)
