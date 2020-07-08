@@ -4,7 +4,10 @@ seo-title: Repliceer gegevenstriggers om de server te publiceren
 description: Repliceer gegevenstriggers naar publicatieserver.
 seo-description: Repliceer gegevenstriggers naar publicatieserver.
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '526'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +62,7 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 1. Klik op **Volgende** en **Publiceren**.
 
-### Herhaling van de activiteiten {#replicating-activities}
+### Herhaling van de activiteiten  {#replicating-activities}
 
 1. Navigeer naar uw AEM-instantie > **Persoonlijk maken** > **Activiteiten** of gebruik `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` om rechtstreeks te navigeren.
 
@@ -96,7 +99,7 @@ Als de testverbinding terwijl het herhalen van de configuraties ContextHub ontbr
 
    Voer de onderstaande stappen uit:
 
-   1. Ga naar Gereedschappen > **Bewerkingen** > **Webconsole** `http://localhost:4502/system/console/configMgr`om het scherm **van de webconsole van** Adobe Experience Manager te openen.
+   1. Navigeer naar Gereedschappen > **Bewerkingen** > **Webconsole** `http://localhost:4502/system/console/configMgr`om het scherm **van de webconsole van de** Adobe Experience Manager te openen.
    1. Zoeken naar **Apache Sling Distribution Transport Credentials - Gebruikersreferenties gebaseerd DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
