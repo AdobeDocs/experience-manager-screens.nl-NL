@@ -2,7 +2,7 @@
 title: Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk
 description: De pagina beschrijft Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk
 translation-type: tm+mt
-source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -81,10 +81,12 @@ Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt w
 * Hoeveel inhoudswijzigingen worden verwacht en wat zijn die gemiddelde bestandsgrootten?
 
 >[!NOTE]
+>
 >Het benodigde gegevenspakket moet ten minste:
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
+>
 >Voor het aanvankelijk uploaden van mediabestanden, bijvoorbeeld, terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een verhoogde downloadtijd worden verwacht en in de bovenstaande veronderstellingen worden weerspiegeld. Een netwerk 4G met *goede* dekking en onbeperkte Gegevens zou de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
 
 
@@ -92,7 +94,7 @@ Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt w
 
 De prestaties van LAN, naast reeds beschreven netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsdownloads van AEM Screens regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Bij het gebruik van andere actieve netwerkcomponenten is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte.
 
-Bijvoorbeeld, zouden de Componenten van het Netwerk minstens norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de Toegang van Internet/de specificatie van de Router wordt verstrekt.
+Bijvoorbeeld, zouden de Componenten van het Netwerk minstens norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
 
 Als een Wi-Fi-oplossing wordt overwogen om een scherm te verbinden met de Internet Link, is het raadzaam ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals IEEE 802.11g. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals 802.11h-n zijn van betere kwaliteit. Als u een Wi-Fi Repeater nodig hebt, raden we u sterk aan Wi-Fi Access-punttechnologieën zoals Google Nest Mesh Wi-Fi of vergelijkbare technologieën aan te bevelen.
 
@@ -104,6 +106,7 @@ Voor die gebruiksgevallen waarin er meer interacties met sensoren of andere trig
 De volgende lijsten bieden een goed overzicht welke zeer belangrijke gegevens van de netwerkconnectiviteit voor de prestaties betekenen die en potentiële wachttijden kunnen worden verwacht.
 
 >[!NOTE]
+>
 >Alle informatie heeft betrekking op het gebruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/using/assets/mobile-router-download.png)
