@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1809'
+ht-degree: 0%
 
 ---
 
@@ -44,13 +47,13 @@ In het volgende voorbeeld wordt een oplossing geboden waarbij de nadruk ligt op 
 
 ## Activeringsvenster {#using-channel-level-activation}
 
-In de volgende sectie wordt uitgelegd hoe u één gebeurtenis afspeelt in een kanaal voor een AEM-rasterproject.
+In de volgende sectie wordt uitgelegd hoe u één gebeurtenis afspeelt binnen een kanaal voor een AEM Screens-project.
 
 ### Vereisten {#prerequisites}
 
 Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor zorgen dat u aan de volgende voorwaarden kunt voldoen om activering op kanaalniveau te kunnen starten:
 
-* Een AEM-schermproject maken, in dit voorbeeld activering **kanaalniveau**
+* Een AEM Screens-project maken, in dit voorbeeld activering **kanaalniveau**
 
 * Een kanaal maken als **MainAdChannel** onder de map **Kanalen**
 
@@ -76,7 +79,7 @@ In de volgende afbeelding ziet u het **Kanaalniveauactiveringsproject** met **Ma
 
 ### Implementatie {#implementation}
 
-Het uitvoeren van de Activering van het Niveau van het Kanaal in een project van het Scherm AEM omvat drie belangrijke taken:
+Het uitvoeren van de Activering van het Niveau van het Kanaal in een project van AEM Screens omvat drie belangrijke taken:
 
 1. **Projecttaxonomie instellen, waaronder Kanalen, Locaties en Weergaven**
 1. **Kanalen toewijzen aan weergave**
@@ -142,13 +145,13 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
 ## De resultaten bekijken {#viewing-the-results}
 
-Nadat u de instellingen voor kanalen hebt ingesteld en de weergave is voltooid, start u de AEM Screens-speler om de inhoud weer te geven.
+Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave is voltooid, start u de AEM Screens-speler om de inhoud weer te geven.
 
 De speler geeft de inhoud van **MainAdChannel** weer en precies om 23:59 uur (zoals ingesteld in het schema), geeft het **GerichtSinglePlay** -kanaal de inhoud weer tot 12:05 uur &#39;s avonds en dan wordt het afspelen van de inhoud van het **MainAdChannel** hervat.
 
 >[!NOTE]
 Raadpleeg de volgende bronnen voor meer informatie over AEM Screen Player:
-* [AEM-schermPlayer downloadt](https://download.macromedia.com/screens/)
+* [Downloads van AEM Screens Player](https://download.macromedia.com/screens/)
 * [Werken met AEM Screens Player](working-with-screens-player.md)
 
 
