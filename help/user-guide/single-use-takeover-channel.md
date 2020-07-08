@@ -5,7 +5,10 @@ description: Volg dit Geval van Gebruik voor het creëren van Één enkel Gebrui
 seo-description: Volg dit Geval van Gebruik voor het creëren van Één enkel Gebruik neemOver Kanaal.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 **Kanalen en weergave instellen**
 
-1. Maak een AEM-schermproject met de naam **SingleUseTakeOver**, zoals hieronder wordt weergegeven.
+1. Maak een AEM Screens-project met de naam **SingleUseTakeOver**, zoals hieronder wordt weergegeven.
 
    ![element](assets/single-takeover1.png)
 
@@ -102,4 +105,5 @@ De tekst in het in dit voorbeeld vermelde **schema** staat *op 31 december na 23
       ![element](assets/single-takeover9.png)
 
 >[!NOTE]
+>
 >Het is aan te raden om het kanaal voor het meenemen van overnames voor eenmalig gebruik te verwijderen als dit eenmaal is afgespeeld.
