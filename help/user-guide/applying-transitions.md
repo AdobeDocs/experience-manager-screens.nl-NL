@@ -6,7 +6,10 @@ seo-description: Volg deze pagina om te leren hoe u overgangen kunt toepassen op
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 1%
 
 ---
 
@@ -22,12 +25,13 @@ In deze sectie wordt beschreven hoe u de component **Overgang** kunt toepassen t
 
 ## Overgangscomponent toevoegen aan elementen in een kanaal {#adding-transition}
 
-Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw AEM-rasterproject:
+Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw AEM Screens-project:
 
 >[!NOTE]
 >
 >**Vereisten**
-> Creeer een project **TestProject** van het Schermen AEM met een kanaal **TestTransition**. Stel bovendien een locatie en een weergave in om de uitvoer weer te geven.
+>
+> Creeer een AEM Screens project **TestProject** met een kanaal **TestTransition**. Stel bovendien een locatie en een weergave in om de uitvoer weer te geven.
 
 1. Navigeer naar Kanaal **TestTransition** en klik **uitgeven** van de actiebar.
 
