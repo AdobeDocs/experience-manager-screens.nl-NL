@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics configureren met AEM-schermen
-seo-title: Adobe Analytics configureren met AEM-schermen
+title: Adobe Analytics configureren met AEM Screens
+seo-title: Adobe Analytics configureren met AEM Screens
 description: 'Volg deze sectie voor meer informatie over het ordenen en verzenden van aangepaste gebeurtenissen met Offline Adobe Analytics '
 seo-description: 'Volg deze sectie voor meer informatie over het ordenen en verzenden van aangepaste gebeurtenissen met Offline Adobe Analytics '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
@@ -11,34 +11,38 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 8%
 
 ---
 
 
-# Adobe Analytics configureren met AEM-schermen {#configuring-adobe-analytics-with-aem-screens}
+# Adobe Analytics configureren met AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
->Deze AEM-schermfunctionaliteit is alleen beschikbaar als u AEM 6.4.2 Feature Pack 2 en AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd.\
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.4.2 Feature Pack 2 en AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd.
+>
 >Als u toegang wilt krijgen tot een van deze functiepakketten, neemt u contact op met de ondersteuning van Adobe en vraagt u om toegang. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
-* **Reeksvolgorde in Adobe Analytics met AEM-schermen**
-* **Aangepaste gebeurtenissen verzenden met Offline Adobe-analysemogelijkheden**
+* **Sequentievolgorde in Adobe Analytics met AEM Screens**
+* **Aangepaste gebeurtenissen verzenden met offline Adobe Analytics**
 
-## Reeksvolgorde in Adobe Analytics met AEM-schermen {#sequencing-in-adobe-analytics-with-aem-screens}
+## Sequentievolgorde in Adobe Analytics met AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Het ***volgordeproces*** begint met de service voor gegevensopslag waarmee de Adobe Analytics-service wordt geactiveerd. De inhoud van het kanaal verzendt de gebeurtenissen van de Analytics van Adobe met loonlijst, namelijk de gegevens testvangst aan Vensters I/O en de verblijfgebeurtenissen worden teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma, de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
+Het ***volgordeproces*** begint met de gegevensopslagservice waarmee de Adobe Analytics-service wordt geactiveerd. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de gegevens testvangst aan Vensters I/O en de bewaargebeurtenissen worden teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma, de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
 
 ### Scheidingsdiagram {#sequencing-diagram}
 
-In het volgende volgordediagram wordt de integratie van Adobe Analytics met AEM-schermen uitgelegd:
+In het volgende volgordediagram wordt de integratie van Adobe Analytics met AEM Screens uitgelegd:
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## Aangepaste gebeurtenissen verzenden met Offline Adobe-analysemogelijkheden {#sending-custom-events-using-offline-adobe-analytics}
+## Aangepaste gebeurtenissen verzenden met offline Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
 
 De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeurtenissen. Hier worden alle velden weergegeven die naar Adobe Analytics zijn verzonden:
 
@@ -195,7 +199,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>vereist voor AA</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Ondersteuning voor Adobe Analytics voor aangepaste paginanaam</td> 
+   <td>Adobe Analytics-ondersteuning voor aangepaste paginanaam</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -240,7 +244,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Toepassingsnaam (AEM-schermen)</td> 
+   <td>Toepassingsnaam (AEM Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
