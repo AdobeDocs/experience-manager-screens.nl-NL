@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +53,7 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    Tik/klik op **Dashboard** en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
 
-   ![image](/help/user-guide/assets/channel-assign1.png)
+   ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
    U kunt de eigenschappen in het dialoogvenster **Kanaaltoewijzing** begrijpen en configureren vanuit de onderstaande sectie.
 
@@ -92,7 +95,7 @@ Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken
 Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het dialoogvenster **Kanaaltoewijzing** :
 
 * **Onmiddellijk**: wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
-* **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of afspeelt u de nieuwe inhoud
+* **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of speelt u de nieuwe inhoud af
    >[!NOTE]
    >Deze optie is standaard geselecteerd.
 * **Aan het einde van de reeks**: wanneer een nieuw programma activeert of een update wordt ontvangen, hebt u de optie om op de volledige opeenvolging te wachten om zijn eind te bereiken, en net vóór de gewenste opeenvolging, kunt u terugloop naar het eerste element, u vernieuwt of de nieuwe inhoud speelt
@@ -113,7 +116,7 @@ De knopinfo voor het weergeven van de aantrekkingskracht definieert of de knopin
 
 De programma&#39;s wanneer gecombineerd met **Dagscheiding**, staan u toe om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen in één keer.
 
-DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. Met AEM-rasters kunt u kanalen plannen voor overdag binnen een dag, week of maand volgens de vereisten.
+DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. Met AEM Screens kunt u kanalen plannen voor overdag binnen een dag, week of maand, afhankelijk van de vereiste waarde.
 
 In de volgende voorbeelden wordt het overschakelen tussen kanalen in drie verschillende scenario&#39;s uitgelegd:
 
@@ -181,7 +184,9 @@ Dit voorbeeld toont de dag-parting voor een opslag die hun winterinzameling met 
 | B | Kerstmis | 2 | 24 dec. 2017 - 31 dec. 2017 |
 
 >[!IMPORTANT]
+>
 > Raadpleeg de volgende secties voor meer informatie over overdag:
+>
 >* [Herhaling van activa afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Herhaling van middelen in een kanaal afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
