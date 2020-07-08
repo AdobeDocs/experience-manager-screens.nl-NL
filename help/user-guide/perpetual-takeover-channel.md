@@ -5,7 +5,10 @@ description: Volg dit Geval van Gebruik voor het creëren van een Perpetual Take
 seo-description: Volg dit Geval van Gebruik bij vestiging een project dat tot een PerpetualTakeOver kanaal leidt dat onophoudelijk voor een specifieke tijddag en een tijd speelt.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 **Kanalen en weergave instellen**
 
-1. Maak een AEM-schermproject met de naam **PerpetualTakeOver**, zoals hieronder wordt weergegeven.
+1. Maak een AEM Screens-project met de naam **PerpetualTakeOver**, zoals hieronder wordt weergegeven.
 
    ![element](assets/p_usecase1.png)
 
@@ -117,4 +120,5 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 | op de 1-2 dag van januari na 2:00 uur, ook op de 2-3 dag van januari vóór 15.00 uur | Het kanaal start speler na 1 januari om 2:00 uur, gaat verder met spelen tot 2 januari om 3:00 uur, dan start het opnieuw op 2 januari om 2:00 uur en gaat verder met spelen tot 3:00 uur op 3 januari |
 
 >[!NOTE]
+>
 >U kunt ook _militaire tijd_ notatie (dat wil zeggen 14:00) gebruiken in plaats van *am/pm* notatie (dat wil zeggen, 2:00 pm).
