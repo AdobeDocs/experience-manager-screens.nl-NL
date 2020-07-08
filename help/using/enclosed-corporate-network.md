@@ -2,7 +2,7 @@
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
 translation-type: tm+mt
-source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -56,6 +56,7 @@ De prestaties van de verbinding van Internet, behalve de netwerkbereikbaarheid, 
 *Voldoende bandbreedte* is afhankelijk van de hoeveelheid aangesloten AEM-schermen en het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
 
 >[!NOTE]
+>
 >Alle apparaten hebben een gelijktijdige toegang tot de internetverbinding en de bandbreedte neemt lineair af wanneer u meer consumenten of computers aan het netwerk toevoegt.
 
 ### Netwerk voor lokale gebieden {#lan-connection}
@@ -85,6 +86,7 @@ Voor scenario&#39;s, waar er meer interactie met sensoren of trekkers en dynamis
 De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van de netwerkconnectiviteit.
 
 >[!NOTE]
+>
 >De informatie staat u toe om de consumptie van elk apparaat in het netwerk te bekijken die en een bron van Internet verzoeken te downloaden. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/using/assets/enclosed-network-download.png)
