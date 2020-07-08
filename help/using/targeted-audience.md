@@ -1,26 +1,30 @@
 ---
-title: Doelpubliek
-seo-title: Doelpubliek voor AEM-schermen
-description: De pagina beschrijft wie het doelpubliek voor de gids van de Beste praktijken van de Schermen AEM is
-seo-description: De pagina beschrijft wie het doelpubliek voor de gids van de Beste praktijken van de Schermen AEM is
+title: Target-publiek
+seo-title: Target-publiek voor AEM Screens
+description: De pagina beschrijft wie het doelpubliek voor de Gids van Beste praktijken van AEM Screens zijn
+seo-description: De pagina beschrijft wie het doelpubliek voor de Gids van Beste praktijken van AEM Screens zijn
 translation-type: tm+mt
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 4%
 
 ---
 
 
-# Doelpubliek {#target-audience}
+# Target-publiek {#target-audience}
 
 Als ervaren AEM-implementator zult u waarschijnlijk de rollen gezien hebben waarnaar wordt verwezen als *Auteurs*, *Ontwikkelaars* en *IT/technici*.
 
-In een typisch project van het Scherm AEM, worden de rollen verder verfijnd aangezien zij elk belangrijk doel in het project dienen.
+In een typisch project van AEM Screens, worden de rollen verder verfijnd aangezien zij elk belangrijk doel in het project dienen.
 
 In het onderstaande diagram ziet u de rollen waarnaar we in de hele handleiding zullen verwijzen.
 
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
-> Veel van deze rollen kunnen intern of uitbesteed zijn, afhankelijk van hoe elk project wordt opgezet.
+>
+>Veel van deze rollen kunnen intern of uitbesteed zijn, afhankelijk van hoe elk project wordt opgezet.
 
 ## Rollen definiëren {#roles}
 
@@ -28,7 +32,7 @@ In de volgende sectie vindt u een overzicht van het doelpubliek:
 
 ### Adobe {#adobe-audience}
 
-Adobe biedt bronnen van Adobe Managed Services, zoals de CSE (Customer Success Engineer) en Adobe Support.
+Adobe biedt Adobe Managed Services-bronnen zoals de CSE (Customer Success Engineer) en de ondersteuning van Adobe.
 
 ### AEM-implementatoren {#aem-implementors}
 
@@ -62,8 +66,8 @@ Creative Suite en Content Management kunnen er als volgt uitzien:
 
 ### Projectmanagers {#project-managers}
 
-Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM-schermimplementatie. Een projectmanager is de puntpersoon voor de volledige implementatie van het aangewezen project en voert belangrijke verantwoordelijkheden uit zoals het plaatsen van chronologie, het behandelen van teambehoeften en mededelingen, het richten van uitdagingen, en het verzekeren dat de doelstellingen worden verwezenlijkt.
+Projectmanagers beheren doorgaans de volledige implementatie voor de implementatie van uw AEM Screens. Een projectmanager is de puntpersoon voor de volledige implementatie van het aangewezen project en voert belangrijke verantwoordelijkheden uit zoals het plaatsen van chronologie, het behandelen van teambehoeften en mededelingen, het richten van uitdagingen, en het verzekeren dat de doelstellingen worden verwezenlijkt.
 
 >[!NOTE]
 >
-> Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek de Rollen en de Verantwoordelijkheden **[van het](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**Project.
+>Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek de Rollen en de Verantwoordelijkheden **[van het](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**Project.
