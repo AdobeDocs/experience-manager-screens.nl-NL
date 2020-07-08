@@ -1,10 +1,13 @@
 ---
 title: Testen en kwaliteitsborging
-seo-title: Testen en kwaliteitsborging voor AEM-schermen
+seo-title: Testen en kwaliteitsborging voor AEM Screens
 description: De pagina beschrijft Testing and Quality Assurance for AEM Screens Best Practices Guide
 seo-description: De pagina beschrijft Testing and Quality Assurance for AEM Screens Best Practices Guide
 translation-type: tm+mt
-source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,8 @@ In de fase moeten volledige testsystemen worden gebouwd en volledig getest.
 Er moet een controlelijst worden gemaakt die alle eerder gedefinieerde KPI&#39;s identificeert en de te leveren items op basis daarvan meet.
 
 >[!NOTE]
-> Deze fase moet ook worden gebruikt als een hulpmiddel voor het maken van een installatie- en gebruikershandleiding die later met de apparatuur kan worden geleverd en ter referentie ter plaatse kan worden bewaard.
+>
+>Deze fase moet ook worden gebruikt als een hulpmiddel voor het maken van een installatie- en gebruikershandleiding die later met de apparatuur kan worden geleverd en ter referentie ter plaatse kan worden bewaard.
 
 De volgende elementen moeten in overweging worden genomen:
 
@@ -49,7 +53,7 @@ De volgende softwareoverwegingen worden geadviseerd:
 ## 3. Overwegingen voor apparaatbeheer {#device-management-considerations}
 
 
-AEM Screens omvat een module van het Centrum van de Controle van het Apparaat die voor het beheer van de eindpunten van de spelertoepassing van Screens toestaat.
+AEM Screens bevat een Device Control Center-module waarmee u eindpunten van de toepassing Screens Player kunt beheren.
 
 Dit heeft betrekking op elk hardwareapparaat van de *speler* waarop de toepassing Screens player is geïnstalleerd en dat is geregistreerd bij een instantie van AEM.
 Met deze module kunt u:
@@ -59,9 +63,10 @@ Met deze module kunt u:
 1. Downloads van inhoud beheren
 1. Problemen met het opnieuw opstarten van toepassingen beheren
 
-Meer informatie over ***Device Control Center*** vindt u in [het Configuratiecentrum](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) voor apparaten voor probleemoplossing in de gebruikershandleiding **voor** AEM-schermen.
+Meer informatie over ***Apparaatcontrolecentrum*** vindt u in het [Configuratiecentrum](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) voor probleemoplossing in de gebruikershandleiding **van** AEM Screens.
 
 >[!CAUTION]
+>
 > Gebruik Device Control Center niet om:
 >
 > 1. Nieuwe versies van de spelertoepassing installeren
@@ -72,6 +77,7 @@ Meer informatie over ***Device Control Center*** vindt u in [het Configuratiecen
 
 
 >[!NOTE]
+>
 > Adobe raadt u aan speciale, externe apparaatbeheerplatforms te gebruiken voor alle implementaties.
 
 Het gekozen specifieke platform is afhankelijk van een aantal factoren, waaronder het ***doelbesturingssysteem***, de ***projectvereisten*** en het ***aantal eindpunten***.
