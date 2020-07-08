@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '833'
+ht-degree: 0%
 
 ---
 
@@ -56,6 +59,7 @@ Voer de onderstaande stappen uit om een ingesloten reeks aan uw kanaal toe te vo
 Standaard is deze ingesteld op **normaal**. Als u de waarde instelt op **normaal** (Alle items afspelen), wordt de volgende waarde volledig uitgevoerd op elke cyclus van de bovenliggende reeks. De andere mogelijke waarde is één enkel punt **** Spelen (Spel één enkel punt) en die slechts één punt van de opeenvolging op elke looppas zouden tonen (bijvoorbeeld, het eerste punt op de eerste lijn, het tweede punt op de tweede lijn, etc.)
 
 >[!IMPORTANT]
+>
 >U moet het kanaal (gebruikt in ingesloten volgorde) aan dezelfde weergave toewijzen.
 >
 >Voer de onderstaande stappen uit nadat u een ingesloten reeks uit de voorgaande stappen hebt toegevoegd aan uw kanaal:
