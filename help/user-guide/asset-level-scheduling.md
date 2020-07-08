@@ -4,7 +4,10 @@ seo-title: Activering van middelenniveau
 description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
 seo-description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
 translation-type: tm+mt
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1452'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ De volgende onderwerpen worden behandeld in deze sectie:
 
 >[!CAUTION]
 >
->Deze AEM-schermfunctionaliteit is alleen beschikbaar als u AEM 6.3 Feature Pack 3 of AEM 6.4 Screens Feature Pack 1 hebt geïnstalleerd.
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.3 Feature Pack 3 of AEM 6.4 Screens Feature Pack 1 hebt geïnstalleerd.
 >
 >Neem contact op met de ondersteuning van Adobe om toegang te krijgen tot dit onderdeel. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
 
@@ -59,19 +62,19 @@ Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
 
 1. Klik op **Bewerken** om de kanaaleditor te openen en selecteer een element waarop u de planning wilt toepassen.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![afbeelding](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Selecteer het element en klik linksboven op **Configureren** (moersleutelpictogram) om de eigenschappen van de afbeelding te openen.
 
    Klik op het tabblad **Activering** .
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![afbeelding](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. U kunt de datum vanaf de datumkiezer opgeven met **Actief van** en **Actief tot** velden.
 
    Als u **Actief van** en **Actief tot** datum en tijd selecteert, zal de activa en lijn slechts tussen die begindatum/tijd en einddatum/tijd respectievelijk tonen.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![afbeelding](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 ## Herhaling van activa afhandelen {#handling-recurrence-in-assets}
 
@@ -103,6 +106,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 
 >[!NOTE]
+>
 >U kunt ook _militaire tijd_ notatie (dat wil zeggen 14:00) gebruiken in plaats van *am/pm* notatie (dat wil zeggen, 2:00 pm).
 
 ### Wekelijkse scheiding {#week-parting}
@@ -126,6 +130,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 | Mon-Thu | de activa spelen in het kanaal van op Maandagen aan Donderdag |
 
 >[!NOTE]
+>
 >U kunt ook _volledige_ notatie gebruiken (maandag, woensdag, vrijdag) in plaats van _korte notatie_ (dat wil zeggen: Mon,Wed,Fri).
 
 
@@ -187,14 +192,14 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 ### Vereisten {#prerequisites}
 
-Als u activering op meerdere niveaus voor uw elementen wilt gebruiken, maakt u een AEM-schermproject met een volgnummer. In het volgende voorbeeld wordt de implementatie van de functie getoond:
+Als u activering op meerdere niveaus voor uw elementen wilt gebruiken, maakt u een AEM Screens-project met een volgnummer. In het volgende voorbeeld wordt de implementatie van de functie getoond:
 
-* Een AEM-schermproject maken met de naam **MultiAssetDemo**
+* Een AEM Screens-project maken met de naam **MultiAssetDemo**
 * Maak een kanaal met de naam **MultiAssetChannel** en voeg inhoud toe aan het kanaal, zoals in de onderstaande afbeelding wordt getoond
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Voer de onderstaande stappen uit om meerdere elementen te selecteren en de weergave ervan in een AEM-rasterproject te plannen:
+Voer de onderstaande stappen uit om meerdere elementen te selecteren en de weergave ervan in een AEM Screens-project te plannen:
 
 1. Selecteer **MultiAssetChannel** en klik op **Bewerken** op de actiebalk om de editor te openen.
 
