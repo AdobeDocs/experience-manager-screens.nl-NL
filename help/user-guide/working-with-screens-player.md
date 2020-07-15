@@ -10,20 +10,23 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 0%
 
 ---
 
 
 # Werken met AEM Screens Player {#working-with-aem-screens-player}
 
-U kunt de inhoud van het kanaal en andere instellingen beheren in AEM Screens Player.
+U kunt de inhoud van het kanaal en andere instellingen op de Speler van AEM Screens beheren.
 
 >[!NOTE]
 >
->Druk op ***Ctrl+Cmd+F*** om de modus Volledig scherm af te sluiten voor OS X AEM Screens Player.
+>Druk op ***Ctrl+Cmd+F*** om de modus Volledig scherm voor OS X AEM Screens Player af te sluiten.
 
-Nadat u een kanaal aan een weergave hebt toegewezen, wordt de inhoud weergegeven in de AEM Screens Player. U kunt instellingen voor de speler configureren met de voorkeuren voor de interface voor beheerders (van het dashboard) of met de speler zelf.
+Nadat u een kanaal aan een weergave hebt toegewezen, geeft de AEM Screens Player de inhoud weer. U kunt instellingen voor de speler configureren met de voorkeuren voor de interface voor beheerders (van het dashboard) of met de speler zelf.
 
 ## Het dashboard van het Apparaat gebruiken {#using-the-device-dashboard}
 
@@ -47,29 +50,43 @@ U kunt voorkeuren voor uw apparaat configureren vanaf het apparaatdashboard, dat
 
 Als u de **beheerdersinterface** inschakelt vanuit het voorkeurenvenster, kan de gebruiker de beheerinstellingen openen vanuit de schermspeler. Bovendien, als u deze optie van het apparatendashboard onbruikbaar maakt, kan de gebruiker niet admin UI van de speler openen.
 
-Als u de interface voor het beheer van de schermspeler wilt weergeven, drukt u op de linkerbovenhoek om het menu Admin te openen, op de AEM Screens player met aanraakbediening of met een muis. Er wordt informatie weergegeven nadat de registratie is voltooid en de kanalen zijn geladen.
+Als u de interface voor het beheer van de schermspeler wilt weergeven, drukt u op de linkerbovenhoek om het menu Admin te openen, op de AEM Screens-speler met aanraakbediening of met een muis. Er wordt informatie weergegeven nadat de registratie is voltooid en de kanalen zijn geladen.
 
 >[!NOTE]
 >
->Bovendien kunt u de uptime van de AEM Screens Player-app weergeven om de status van de app te controleren.
+>Bovendien kunt u de AEM Screens Player-app uptime weergeven om de status van de app te controleren.
 
 ![chlimage_1-3](assets/chlimage_1-3.gif)
 
-Als u de optie **Configuratie** in het zijmenu selecteert, kunt u **Ingebouwde programmatuur**, **Voorkeur**, of **aan Factory** van dit dialoogvakje ook terugstellen.
+#### Toegang tot de Opties van het Menu van de Configuratie {#configuration-options}
 
-Bovendien kunt u het maximale aantal logbestanden opgeven dat voor een AEM-schermspeler moet worden behouden in **Max. aantal. van logbestanden die moeten worden bewaard**. Zie de onderstaande schermafbeelding voor meer informatie.
+U kunt uw configuraties bijwerken, als u de optie van de **Configuratie** van het zijmenu selecteert, zoals aangetoond in het hieronder cijfer:
+
+![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+In het menu Configuratie kunt u de volgende instellingen wijzigen:
+
+* Stel **Ingebouwde programmatuur**, **Voorkeur**, of **aan Factory** van dit dialoogvakje terug.
+
+* Geef in **Max. aantal op hoeveel logbestanden er maximaal voor een AEM Screens-speler behouden mogen blijven. van logbestanden die moeten worden bewaard**.
+
+* Schakel **het menu** Admin, de **Kanaalschakelaar** en de gebruikersinterface **** voor de schermspeler in of uit.
+
+   Als de UI **van de** Activiteit van het menu van de **Configuratie** wordt toegelaten, toont de speler van AEM Screens de *gesynchroniseerde* berichten in de hoogste juiste hoek van de speler, zoals aangetoond in het hieronder cijfer.
+
+   ![afbeelding](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
 >De optie Firmware **** bijwerken werkt alleen op de cordova, zoals Android-spelers.
 
-![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
-
 >[!NOTE]
 >
 >Aanbevolen wordt om de **Admin UI** in de Plaatsingen van de Productie onbruikbaar te maken.
 
-U kunt de cache voor kanalen en toepassingen wissen via de interface van Admin in AEM Screens Player.
+#### Opties voor het menu-cachegeheugen voor inhoud openen {#content-cache-options}
+
+U kunt cache voor kanalen en toepassingen wissen via de interface van Admin in AEM Screens Player.
 
 Selecteer de **inhoudscache** in de zijbalk om de cache bij te werken.
 
@@ -93,7 +110,7 @@ Om de kanaalschakelaar van de speler te bekijken, duw op de lagere linkerhoek om
 >
 >(Zie Voorkeuren *wijzigen van schermspeler* , zoals vermeld in de onderstaande sectie).
 
-### Voorkeuren beheren vanuit AEM Screens Player {#managing-preferences-from-the-aem-screens-player}
+### Voorkeuren beheren vanuit de AEM Screens Player {#managing-preferences-from-the-aem-screens-player}
 
 U kunt ook de instellingen voor de interface van de beheerder en de kanaalschakelaar wijzigen vanuit de speler zelf.
 
@@ -107,20 +124,20 @@ Ga als volgt te werk om de voorkeuren van uw speler te wijzigen:
 
 ## Problemen met AEM Screens Player oplossen {#troubleshooting-aem-screens-player}
 
-U kunt verschillende problemen met AEM Screens Player (hardware en software) oplossen:
+U kunt verschillende problemen met de AEM Screens Player (hardware en software) oplossen:
 
 | **Problemen** | **Aanbevelingen** |
 |---|---|
 | Player-opslag is vol | Overbodige bestanden verwijderen |
 | Speler verloren netwerk | Kat-5/kat-6 van het gebruik kabel. Voor wifi, verminder de afstand van de router aan het spelerapparaat |
 | AEM Screens Player vastgelopen | Het wordt aanbevolen een waakhond-app te hebben die ervoor zorgt dat de AEM Screens Player altijd wordt uitgevoerd |
-| Instellingen voor AEM-schermspeler zijn verloren | Verbinding met AEM-server controleren |
-| AEM Screens Player start niet automatisch nadat Player opnieuw is opgestart/opnieuw is opgestart | Start van OS-map of initialisatieprocedure controleren |
-| AEM Screenspeler toont onjuiste/oude inhoud | Netwerkverbinding controleren |
+| AEM Screens Player heeft instellingen verloren | Verbinding met AEM-server controleren |
+| AEM Screens Player start niet automatisch nadat Player opnieuw is opgestart/opgestart | Start van OS-map of initialisatieprocedure controleren |
+| AEM Screens Player geeft onjuiste/oude inhoud weer | Netwerkverbinding controleren |
 
 ### Updates voor AEM Screens Player {#updates-for-aem-screens-player}
 
-Er zijn twee typen updates voor de AEM Screens Player:
+Er zijn twee soorten updates voor de Speler van AEM Screens:
 
 | **Methode** | **Details** | **via extern** | **Geautomatiseerd** | **0 Downtime** |
 |---|---|---|---|---|
@@ -138,7 +155,7 @@ In de volgende sectie vindt u de richtlijnen voor hardwareselectie voor een rast
 * Controleer altijd de stroomvereisten en de conditionering van het energieverbruik.
 * Controleer zorgvuldig de prestatiebehoeften en I/O-poorten die vereist zijn voor de toepassing.
 
-De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaardgebruiksscenario&#39;s voor een AEM-schermproject:
+De volgende lijst vat de hardwareconfiguraties met typisch gebruiksgevallen voor een project van AEM Screens samen:
 
 <table>
  <tbody>
