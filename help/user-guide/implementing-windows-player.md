@@ -1,8 +1,8 @@
 ---
 title: Windows 10 Player implementeren
 seo-title: Windows 10 Player implementeren
-description: Volg deze pagina voor meer informatie over het configureren van AEM Screens Windows 10 player.
-seo-description: Volg deze pagina voor meer informatie over het configureren van AEM Screens Windows 10 player.
+description: Volg deze pagina om meer te leren over het configureren van AEM Screens Windows 10 Player.
+seo-description: Volg deze pagina om meer te leren over het configureren van AEM Screens Windows 10 Player.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,24 +11,27 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 0%
 
 ---
 
 
 # Windows 10 Player implementeren {#implementing-windows-player}
 
-In deze sectie wordt beschreven hoe u AEM-schermen configureert voor de Windows 10-speler. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
+In deze sectie wordt beschreven hoe u AEM Screens Windows 10 Player configureert. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
 
 ## Windows Player installeren {#installing-windows-player}
 
-Installeer Windows Player voor AEM-schermen om Windows Player voor AEM-schermen te implementeren.
+Installeer Windows Player voor AEM Screens om Windows Player voor AEM Screens te implementeren.
 
-Ga naar de pagina [**AEM 6.4 Player Downloads **](https://download.macromedia.com/screens/).
+Ga naar de pagina [**AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
 
 ### Ad hoc-methode {#ad-hoc-method}
 
-Met de ad-hocmethode kunt u de nieuwste Windows Player (*.exe*) installeren. Bezoek de pagina [**AEM 6.4 Player Downloads **](https://download.macromedia.com/screens/).
+Met de ad-hocmethode kunt u de nieuwste Windows Player (*.exe*) installeren. Bezoek de pagina [**AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
