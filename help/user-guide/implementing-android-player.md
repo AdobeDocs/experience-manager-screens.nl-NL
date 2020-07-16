@@ -11,7 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 0%
 
 ---
 
@@ -24,20 +27,20 @@ Bovendien is **Watchdog** een oplossing om de speler te herstellen van crashes. 
 
 ## Android Player installeren {#installing-android-player}
 
-Installeer Android Player voor AEM-schermen om Android Player te implementeren voor AEM-schermen.
+Installeer Android Player voor AEM Screens om Android Player voor AEM Screens te implementeren.
 
-Ga naar de pagina [**AEM 6.4 Player Downloads **](https://download.macromedia.com/screens/).
+Ga naar de pagina [**AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
 
 ### Ad hoc-methode {#ad-hoc-method}
 
-Met de ad-hocmethode kunt u de nieuwste Android Player (*.exe*) installeren. Bezoek de pagina [**AEM 6.4 Player Downloads **](https://download.macromedia.com/screens/).
+Met de ad-hocmethode kunt u de nieuwste Android Player (*.exe*) installeren. Bezoek de pagina [**AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
 1. Navigeer naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de instantie AEM in u wenst om te verbinden met en klik **sparen**.
 
-1. Navigeer in het menu Actie aan de linkerzijde naar de koppeling **Apparaatregistratie** **** om de status van het apparaatregistratieproces te controleren.
+1. Navigeer vanuit het menu Actie links naar de koppeling **Apparaatregistratie** **registreren** om de status van het registratieproces van het apparaat te controleren.
 
 >[!NOTE]
 >
@@ -61,7 +64,7 @@ Als u toegang wilt tot enkele geprivilegieerde API&#39;s van Android, zoals *Pow
 
 Volg de onderstaande stappen om de android-apk te ondertekenen met de toetsen van de fabrikant:
 
-1. Download de app van Google Play of van de downloadpagina voor [AEM Screens Player](https://download.macromedia.com/screens/)
+1. Download de app van Google Play of van de pagina [AEM Screens Player Downloads](https://download.macromedia.com/screens/)
 1. Vraag de platformtoetsen aan bij de fabrikant voor een *pk8* - en een *pem* -bestand
 
 1. Zoek het hulpprogramma voor ondertekenaars in android-SDK met Zoeken ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
