@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ In het menu Configuratie kunt u de volgende instellingen wijzigen:
 
 * Schakel **het menu** Admin, de **Kanaalschakelaar** en de gebruikersinterface **** voor de schermspeler in of uit.
 
-   Als de UI **van de** Activiteit van het menu van de **Configuratie** wordt toegelaten, toont de speler van AEM Screens de *gesynchroniseerde* berichten in de hoogste juiste hoek van de speler, zoals aangetoond in het hieronder cijfer.
+   Als de UI **van de** Activiteit van het menu van de **Configuratie** wordt toegelaten, toont de speler van AEM Screens de berichten *van de* speleractiviteit in de hoogste juiste hoek van de speler, zoals aangetoond in het hieronder cijfer.
 
    ![afbeelding](/help/user-guide/assets/activity_ui.png)
 
