@@ -6,7 +6,7 @@ seo-description: Volg deze pagina om te leren hoe u overgangen kunt toepassen op
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw 
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >Standaard zijn de eigenschappen van de overgangscomponent, zoals **Type** , ingesteld op **Vervagen** en is de **Duur** ingesteld op *1600 ms*.  Bovendien is het niet aan te raden een overgangstijd in te stellen die langer is dan het actief waarop de overgang wordt toegepast.
 
