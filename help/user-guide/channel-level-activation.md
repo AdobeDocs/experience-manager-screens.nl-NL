@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 0%
@@ -73,6 +73,7 @@ In de volgende afbeelding ziet u het **Kanaalniveauactiveringsproject** met **Ma
    >
    >
 * [Een kanaal beheren](managing-channels.md)
+
 >
 
 
@@ -102,6 +103,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. Navigeer naar Activering **op** Kanaalniveau > **Locaties** > **Regio**.
    1. Selecteer **Gebied** en klik op **+ Maken** in de actiebalk.
    1. Selecteer **Weergeven** in de wizard en maak een weergave met de naam **RegioDisplay.**
+
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
 1. **Kanalen toewijzen aan weergave**
@@ -116,6 +118,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. Selecteer **Prioriteit** als **1**.
    1. Selecteer de **Ondersteunde gebeurtenissen** als **Eerste Laden** en **Niet actief scherm**.
    1. Click **Save**.
+
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
@@ -133,6 +136,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. Selecteer de **Ondersteunde gebeurtenissen** als **Eerste belasting**, **Niet-actief scherm** en **Timer**, *zoals in de onderstaande afbeelding wordt getoond.
    1. Kies de datum in **actief van** 27 november 2018 11:59 en in **actief tot** 28 november 2018 12:05.
    1. Click **Save**.
+
    >[!CAUTION]
    U moet de prioriteit voor **gerichtSinglePlay** kanaal hoger dan het **MainAdSegment** kanaal plaatsen.
 
