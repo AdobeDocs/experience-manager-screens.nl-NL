@@ -5,7 +5,7 @@ description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak vo
 seo-description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak voor tekstbedekkingen kunt toepassen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
    >[!NOTE]
    >Zie [Tekstbedekking](/help/user-guide/text-overlay.md)voor meer informatie over het toevoegen van een tekstbedekking aan uw element in een kanaaleditor.
 
-1. Navigeer naar CRXDE Lite van uw AEM instantie —> Hulpmiddelen —> **CRXDE Lite**.
+1. Navigeer naar CRXDE Lite via uw AEM:> Gereedschappen —> **CRXDE Lite**.
 
 1. U moet een aangepast ontwerp maken in `/apps/settings/wcm/designs/<your-project>/`, bijvoorbeeld, navigeer naar `/apps/settings/wcm/designs/customstyle/`
 
@@ -41,26 +41,26 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 1. Maak het bestand *static.css* en stel de volgende css-regels in. Wordt ook weergegeven als voorbeeld in de afbeelding onder de CSS-regels.
 
    ```shell
-     //global styles
-     cq-Screens-textOverlay {
-     padding: 1em;
-     font-size: 3rem;
-     line-height: 1em;
-      }
-     //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
-     display: none;
-     padding: 0;
-     font-size: 1rem;
+    //global styles
+    cq-Screens-textOverlay {
+    padding: 1em;
+    font-size: 3rem;
+    line-height: 1em;
      }
-      // light text variant
-     .cq-Screens-textOverlay-color--light {
-      background-color: rgba(0, 0, 0, .6);
-      }
-      // dark text variant
-      .cq-Screens-textOverlay-color--dark {
-       background-color: rgba(255, 255, 255, .6);
+    //authoring overrides
+   .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+    display: none;
+    padding: 0;
+    font-size: 1rem;
+    }
+     // light text variant
+    .cq-Screens-textOverlay-color--light {
+     background-color: rgba(0, 0, 0, .6);
      }
+     // dark text variant
+     .cq-Screens-textOverlay-color--dark {
+      background-color: rgba(255, 255, 255, .6);
+    }
    ```
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand4.png)
@@ -83,7 +83,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 >[!IMPORTANT]
 >
-> U kunt de bestaande sjablonen voor schermen bedekken door standaard uw eigen ontwerpen te injecteren of uw eigen sjabloon te maken. Raadpleeg de onderstaande stappen voor meer informatie.
+>U kunt de bestaande sjablonen voor schermen bedekken door standaard uw eigen ontwerpen te injecteren of uw eigen sjabloon te maken. Raadpleeg de onderstaande stappen voor meer informatie.
 
 1. Als u de bestaande sjablonen voor schermen wilt bedekken om uw eigen ontwerpen standaard te injecteren:
 
@@ -115,7 +115,7 @@ Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking 
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navigeer naar het bestand *static.css* in CRXDE Lite en voeg het lettertype, zoals, toe `font-family: "Lucida Console", Courier, monospace;` aan dit bestand, zoals hieronder wordt weergegeven.
+1. Navigeer naar het bestand *static.css* in CRXDE Lite en voeg het lettertype, bijvoorbeeld , toe `font-family: "Lucida Console", Courier, monospace;` aan dit bestand, zoals hieronder wordt weergegeven.
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
 1. Nadat u de wijzigingen hebt opgeslagen en de voorvertoning opnieuw hebt geladen, wordt het lettertype voor tekstbedekking bijgewerkt, zoals in de onderstaande afbeelding wordt getoond.
