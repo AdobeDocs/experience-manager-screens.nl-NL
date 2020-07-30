@@ -4,7 +4,7 @@ seo-title: Activering van middelenniveau
 description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
 seo-description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 0%
@@ -32,7 +32,7 @@ De volgende onderwerpen worden behandeld in deze sectie:
 >
 >Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.3 Feature Pack 3 of AEM 6.4 Screens Feature Pack 1 hebt geïnstalleerd.
 >
->Neem contact op met de ondersteuning van Adobe om toegang te krijgen tot dit onderdeel. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
+>Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
 
 ## Overzicht {#overview}
 
@@ -80,7 +80,7 @@ Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
 
 U kunt ook bepalen dat de middelen elke dag, week of maand opnieuw worden uitgevoerd, afhankelijk van uw vereisten.
 
-Stel dat u een afbeelding alleen op vrijdag van 13.00 tot 19.00 uur wilt weergeven. U kunt het tabblad **Activering** gebruiken om het gewenste herhalingsinterval voor uw element in te stellen.
+Stel dat u een afbeelding alleen wilt weergeven op vrijdag van 13.00 tot 22.00 uur. U kunt het tabblad **Activering** gebruiken om het gewenste herhalingsinterval voor uw element in te stellen.
 
 ### Dagverdeling {#day-parting}
 
@@ -88,8 +88,8 @@ Stel dat u een afbeelding alleen op vrijdag van 13.00 tot 19.00 uur wilt weergev
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
-   > [!NOTE]
-   > U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
+   >[!NOTE]
+   >U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
@@ -115,8 +115,8 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
-   > [!NOTE]
-   > U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
+   >[!NOTE]
+   >U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
@@ -140,8 +140,8 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
-   > [!NOTE]
-   > U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
+   >[!NOTE]
+   >U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
@@ -154,8 +154,8 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 | van februari,mei,augustus,november | de activa spelen in februari, mei, augustus en november op het kanaal |
 | van februari-juli | het actief vanaf februari tot eind juli op het kanaal wordt afgespeeld |
 
-> [!NOTE]
-> Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.
+>[!NOTE]
+>Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.
 
 ### Combinatie van partners {#combined-parting}
 
@@ -163,8 +163,8 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
-   > [!NOTE]
-   > U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
+   >[!NOTE]
+   >U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
@@ -178,8 +178,8 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 | op de eerste dag van januari na 23.00 uur ook op de tweede dag van januari, ook op de derde dag van januari vóór 15.00 uur | het middel in het kanaal begint na 1 januari om 2:00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3:00 uur op 3 januari |
 | op de 1-2 dag van januari na 2:00 uur, ook op de 2-3 dag van januari vóór 15.00 uur | Het middel in het kanaal begint speler na 1 januari om 2:00 uur, blijft spelen tot 2 januari om 3:00 uur, dan begint het opnieuw op 2 januari om 2:00 uur en blijft spelen tot 3:00 uur op 3 januari |
 
-> [!NOTE]
-> Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.  Bovendien kunt u ook _militaire tijdnotatie_ gebruiken (dat wil zeggen 14:00) in plaats van *am/pm* -notatie (dat wil zeggen 2:00 pm).
+>[!NOTE]
+>Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.  Bovendien kunt u ook _militaire tijdnotatie_ gebruiken (dat wil zeggen 14:00) in plaats van *am/pm* -notatie (dat wil zeggen 2:00 pm).
 
 
 ## Activering van meerdere middelen {#multi-asset-scheduling}
