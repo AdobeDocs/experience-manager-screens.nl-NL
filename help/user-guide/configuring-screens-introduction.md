@@ -1,8 +1,8 @@
 ---
-title: AEM-schermen configureren en implementeren
+title: AEM Screens configureren en implementeren
 seo-title: Schermen configureren en implementeren
-description: De AEM-schermspeler is beschikbaar voor Android, Chrome OS, iOS en Windows. Deze pagina beschrijft de configuratie en implementatie van AEM-schermen en geeft ook een overzicht van de w/w-selectierichtlijnen voor spelerapparaten.
-seo-description: De AEM-schermspeler is beschikbaar voor Android, Chrome OS, iOS en Windows. Deze pagina beschrijft de configuratie en implementatie van AEM-schermen en geeft ook een overzicht van de w/w-selectierichtlijnen voor spelerapparaten.
+description: De AEM Screens-speler is beschikbaar voor Android, Chrome OS, iOS en Windows. Deze pagina beschrijft de configuratie en implementatie van AEM Screens en geeft ook een overzicht van de richtlijnen voor h/w-selectie voor spelerapparaten.
+seo-description: De AEM Screens-speler is beschikbaar voor Android, Chrome OS, iOS en Windows. Deze pagina beschrijft de configuratie en implementatie van AEM Screens en geeft ook een overzicht van de richtlijnen voor h/w-selectie voor spelerapparaten.
 uuid: bf730d0f-e590-4c0d-a554-e1ff914eb420
 contentOwner: Jyotika syal
 content-type: reference
@@ -11,35 +11,38 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 0%
 
 ---
 
 
-# AEM-schermen configureren en implementeren {#configuring-and-deploying-aem-screens}
+# AEM Screens configureren en implementeren {#configuring-and-deploying-aem-screens}
 
 Deze pagina laat zien hoe u de schermspelers op uw apparaten kunt installeren en configureren.
 
-## Serverconfiguratie {#server-configuration}
+## Server Configuration {#server-configuration}
 
 >[!NOTE]
 >
 >**Belangrijk**:
 >
->De AEM Screens-speler maakt geen gebruik van de token Cross-Site Request-smeedmachine (CSRF). Om de AEM-server te configureren en klaar te maken voor gebruik voor AEM-schermen, slaat u het verwijzingsfilter over door lege referenties toe te staan.
+>De AEM Screens-speler maakt geen gebruik van de token Cross-Site Request Smeery (CSRF). Als u de server wilt configureren en AEM klaar voor gebruik voor AEM Screens, slaat u het verwijzingsfilter over door lege referenties toe te staan.
 
 ## Health Check Framework {#health-check-framework}
 
-Met het Health Check-framework kan de gebruiker controleren of twee noodzakelijke configuraties zijn ingesteld voordat een AEM Screens-project wordt uitgevoerd.
+Met het Health Check-framework kan de gebruiker controleren of twee benodigde configuraties zijn ingesteld voordat een AEM Screens-project wordt uitgevoerd.
 
-Het staat de gebruiker toe om de volgende twee configuratiecontroles te verifiëren om een project in werking te stellen AEM van de Schermen, namelijk om de staat van de volgende twee filters te controleren:
+Het staat de gebruiker toe om de volgende twee configuratiecontroles te verifiëren om een project van AEM Screens in werking te stellen, namelijk om de staat van de volgende twee filters te controleren:
 
 1. **Lege referentie toestaan**
 2. **https**
 
-Voer de onderstaande stappen uit om te controleren of deze twee essentiële configuraties zijn ingeschakeld voor AEM-schermen:
+Volg de onderstaande stappen om te controleren of deze twee vitale configuraties zijn ingeschakeld voor AEM Screens:
 
-1. Ga naar [Adobe Experience Manager Web ConsoleSling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
+1. Navigeer naar de [Adobe Experience Manager Web Console Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
 
    ![elementen](assets/health-check1.png)
 
@@ -63,15 +66,15 @@ Voer de onderstaande stappen uit om te controleren of deze twee essentiële conf
 
 ### Vereisten {#prerequisites}
 
-De volgende belangrijke punten hieronder helpen om server te vormen en AEM klaar voor gebruik voor schermen te zijn AEM.
+Met de volgende belangrijke punten hieronder kunt u de server configureren en AEM om klaar te zijn voor gebruik voor AEM Screens.
 
 #### Lege verwijzingsverzoeken toestaan {#allow-empty-referrer-requests}
 
-1. Navigeer naar de webconsoleconfiguratie **van** Adobe Experience Manager via AEM-instantie —> hamerpictogram —> **Bewerkingen** —> **Webconsole**.
+1. Ga naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
-1. **Configuratie** van de webconsole van Adobe Experience Manager wordt geopend. Zoeken naar de referentie van de sling.
+1. **Configuratie** van Adobe Experience Manager-webconsole wordt geopend. Zoeken naar de referentie van de sling.
 
    Voor het zoeken van het het rangschikken verwijzend bezit, druk **Command+F** voor **MAC** en **Control+F** voor **Vensters**.
 
@@ -85,11 +88,11 @@ De volgende belangrijke punten hieronder helpen om server te vormen en AEM klaar
 
 #### HTTP-service op basis van Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Navigeer naar de webconsoleconfiguratie **van** Adobe Experience Manager via AEM-instantie —> hamerpictogram —> **Bewerkingen** —> **Webconsole**.
+1. Ga naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
-1. **Configuratie** van de webconsole van Adobe Experience Manager wordt geopend. Zoek naar Apache Felix op Jetty Gebaseerde Dienst van HTTP.
+1. **Configuratie** van Adobe Experience Manager-webconsole wordt geopend. Zoek naar Apache Felix op Jetty Gebaseerde Dienst van HTTP.
 
    Voor het zoeken van dit bezit, druk **Command+F** voor **MAC** en **Control+F** voor **Vensters**.
 
@@ -99,9 +102,9 @@ De volgende belangrijke punten hieronder helpen om server te vormen en AEM klaar
 
 1. Klik op **Opslaan** om de service *http* in te schakelen.
 
-#### Aanraakinterface inschakelen voor AEM-schermen {#enable-touch-ui-for-aem-screens}
+#### Aanraakinterface inschakelen voor AEM Screens {#enable-touch-ui-for-aem-screens}
 
-Voor AEM-schermen is een TOUCH-gebruikersinterface vereist en deze werken niet met de CLASSIC-gebruikersinterface van Adobe Experience Manager (AEM).
+AEM Screens vereist TOUCH UI en werkt niet met CLASSIC UI of Adobe Experience Manager (AEM).
 
 1. Navigeer naar *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Zorg ervoor dat de **standaardontwerpmodus** is ingesteld op **TOUCH**, zoals in de onderstaande afbeelding wordt getoond
@@ -120,7 +123,7 @@ Bij het uitvoeren van AEM in productie wordt de **runmode NOSAMPLECONTENT** gebr
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Dit is vereist voor AEM Screens Player om online kanalen te spelen.
+Dit is vereist voor de AEM Screens Player om onlinekanalen af te spelen.
 
 #### Wachtwoordbeperkingen {#password-restrictions}
 
@@ -132,15 +135,15 @@ U kunt ***DeviceServiceImpl*** vanuit de onderstaande koppeling configureren om 
 
 Voer de onderstaande stappen uit om ***DeviceServiceImpl*** te configureren:
 
-1. Navigeer naar de webconsoleconfiguratie **van** Adobe Experience Manager via AEM-instantie —> hamerpictogram —> **Bewerkingen** —> **Webconsole**.
+1. Ga naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
-1. **Adobe Experience Manager Webconsole Configuration **wordt geopend. Zoeken naar apparaatservice. Voor het zoeken van het bezit, druk **Command+F** voor **MAC** en **Control+F** voor **Vensters**.
+1. **Adobe Experience Manager Web Console Configuration **wordt geopend. Zoeken naar apparaatservice. Voor het zoeken van het bezit, druk **Command+F** voor **MAC** en **Control+F** voor **Vensters**.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Dispatcher Configuration {#dispatcher-configuration}
 
-Leren hoe te om verzender voor een project van het Schermen te vormen AEM, verwijs naar het [Vormen van Verzender voor een project](dispatcher-configurations-aem-screens.md)van het Scherm AEM.
+Leren hoe te om verzender voor een project van AEM Screens te vormen, verwijs naar het [Vormen van Verzender voor een project](dispatcher-configurations-aem-screens.md)van AEM Screens.
 
 #### Java-codering {#java-encoding}
 
