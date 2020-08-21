@@ -1,19 +1,11 @@
 ---
 title: Kanaaltoewijzing
 seo-title: Kanaaltoewijzing
-description: Volg deze pagina om over de Toewijzing van het Kanaal en Dagscheiding te leren.
-seo-description: Volg deze pagina om over de Toewijzing van het Kanaal en Dagscheiding te leren.
-uuid: fe429485-dcc9-4507-864c-b04393cedeee
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
-docset: aem65
+description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1335'
 ht-degree: 1%
 
 ---
@@ -21,27 +13,19 @@ ht-degree: 1%
 
 # Kanaaltoewijzing {#channel-assignment}
 
-In deze sectie worden de volgende onderwerpen behandeld:
-
-* **Een kanaal toewijzen**
-* **Eigenschappen van het dialoogvenster Kanaaltoewijzing**
-* **Dagscheiding**
-
 Nadat u een weergave hebt gedefinieerd, moet u een kanaal aan een weergave toewijzen.
 
-Op deze pagina ziet u hoe u kanaal toewijst aan uw weergaven.
+Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 
-**Voorwaarden**:
-
-* [Schermen configureren en implementeren](configuring-screens-introduction.md)
-* [Schermproject maken en beheren](creating-a-screens-project.md)
-* [Kanalen maken en beheren](managing-channels.md)
-* [Locaties maken en beheren](managing-locations.md)
-* [Weergaven maken en beheren](managing-displays.md)
+>[!NOTE]
+>U kunt meerdere kanalen aan een weergave toewijzen.
 
 ## Een kanaal toewijzen {#assign-a-channel}
 
 Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
+
+>[!Ibelangrijk]
+>Het volgende dialoogvenster voor kanaaltoewijzing is anders voor Adobe Experience 6.5.5 Screens Feature Pack Release en hoger. Raadpleeg [Kanaaltoewijzing](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) voor meer informatie.
 
 1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
 
@@ -55,7 +39,29 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
-   U kunt de eigenschappen in het dialoogvenster **Kanaaltoewijzing** begrijpen en configureren vanuit de onderstaande sectie.
+   U kunt de eigenschappen configureren vanuit het dialoogvenster **Kanaaltoewijzing** in de onderstaande sectie. Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
+
+## Een kanaal toewijzen voor AEM 6.5.5-pakket met schermfuncties {#assign-a-channel-new-release}
+
+Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
+
+1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
+
+
+1. Tik/klik op Kanaal **** toewijzen op de actiebalk
+
+   Of
+
+   Tik/klik op **dashboard** en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
+
+1. Met de optie Instellen kunt u het kanaal kiezen op pad of op naam, de kanaalrol, prioriteit of Ondersteunde gebeurtenissen invoeren.
+
+   >[!NOTE]
+   >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
+
+1. Selecteer bij **Planningen** de optie Tijdzone **** referentie, Venster **** activering en **Herhalingsschema**.
+
+1. Klik op **Opslaan** als u de voorkeuren hebt geconfigureerd.
 
 ### Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
 
@@ -111,18 +117,17 @@ In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet w
 
 De knopinfo voor het weergeven van de aantrekkingskracht definieert of de knopinfo voor het aantrekken (&quot;*overal aanraken om te beginnen*&quot;) al dan niet moet worden weergegeven terwijl het kanaal wordt uitgevoerd.
 
+### Dagverdeling {#dayparting}
 
-### Dagscheiding {#dayparting}
+Planningen wanneer gecombineerd met **dag-parting**, staat u toe om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen in één keer.
 
-De programma&#39;s wanneer gecombineerd met **Dagscheiding**, staan u toe om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen in één keer.
+DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. AEM Screens staat u toe om kanalen in termen van dag-parting binnen een dag, een week, of een maand volgens het vereiste te plannen.
 
-DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. Met AEM Screens kunt u kanalen plannen voor overdag binnen een dag, week of maand, afhankelijk van de vereiste waarde.
-
-In de volgende voorbeelden wordt het overschakelen tussen kanalen in drie verschillende scenario&#39;s uitgelegd:
+De volgende voorbeelden verklaren dag-parting in kanalen in drie verschillende scenario&#39;s:
 
 #### Inhoud afspelen op één dag, verdeeld in meerdere tijdsleuven {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-In dit voorbeeld wordt getoond hoe een restaurant zomertijd gebruikt om het ontbijt-, lunch- en dinermenu te tonen.
+In dit voorbeeld wordt getoond hoe een restaurant gebruikmaakt van dagparting om het ontbijt-, lunch- en dinermenu te laten zien.
 
 Hier, zullen wij elke dag in drie verschillende tijdgroeven verdelen, zodat de kanaalinhoud zoals per de gespecificeerde tijd van de dag speelt:
 
@@ -161,9 +166,9 @@ In dit voorbeeld wordt getoond hoe de dag wordt bereikt in een casino, waar de l
 
 #### Inhoud afspelen voor een bepaalde maand/maanden {#playing-content-for-a-particular-month-months}
 
-In dit voorbeeld ziet u de zomertijd voor een winkel waarin de zomerverzameling wordt weergegeven van de maanden juni tot augustus en de herfstcollectie van september tot eind oktober.
+In dit voorbeeld ziet u de dagparting voor een winkel waarin de zomerverzameling wordt weergegeven van de maanden juni tot augustus en de herfstcollectie van september tot eind oktober.
 
-Hier, zult u dagparing zoals per maanden creëren, zodat de kanaalinhoud zoals per de gespecificeerde maanden van het jaar speelt.
+Hier, zult u dag-parting zoals per maanden tot stand brengen, zodat de kanaalinhoud zoals per de gespecificeerde maanden van het jaar speelt.
 
 | **Kanaal** | **Rol** | **Prioriteit** | **Schema** |
 |---|---|---|---|
@@ -176,16 +181,17 @@ Hier, zult u dagparing zoals per maanden creëren, zodat de kanaalinhoud zoals p
 
 #### Inhoud afspelen voor kanalen met dezelfde prioriteit {#playing-content-for-channels-with-same-priority}
 
-Dit voorbeeld toont de dag-parting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien Kanaal B prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan kanaal A.
+Dit voorbeeld toont het dag-parting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien Kanaal B prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan kanaal A.
 
 | **Kanaal** | **Rol** | **Prioriteit** | **Schema** |
 |---|---|---|---|
 | A | Winter | 1 | 01 dec. 2017 - 31 dec. 2017 |
 | B | Kerstmis | 2 | 24 dec. 2017 - 31 dec. 2017 |
 
+
 >[!IMPORTANT]
 >
-> Raadpleeg de volgende secties voor meer informatie over overdag:
+> Raadpleeg de volgende secties voor meer informatie over het parseren van dagen:
 >
 >* [Herhaling van activa afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Herhaling van middelen in een kanaal afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
