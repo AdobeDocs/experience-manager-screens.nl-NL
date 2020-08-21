@@ -1,8 +1,8 @@
 ---
 title: Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics
 seo-title: Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics
-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Hoekig) gebruikend de redacteur van AEM SPA die door bedrijfsberoeps in AEM kan worden gevormd en ook hoe te om uw interactieve toepassing met off-line Analytics van Adobe te integreren.
-seo-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Hoekig) gebruikend de redacteur van AEM SPA die door bedrijfsberoeps in AEM kan worden gevormd en ook hoe te om uw interactieve toepassing met off-line Analytics van Adobe te integreren.
+description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden die REACT (of Hoekig) gebruiken de redacteur van AEMSPA die door bedrijfsberoeps in AEM en ook kan worden gevormd hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
+seo-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden die REACT (of Hoekig) gebruiken de redacteur van AEMSPA die door bedrijfsberoeps in AEM en ook kan worden gevormd hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
@@ -10,26 +10,29 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 0%
 
 ---
 
 
 # Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-In deze sectie wordt beschreven hoe u een interactieve toepassing met één pagina insluit met REACT (of Angular) met behulp van de AEM SPA-editor die door zakelijke professionals in AEM kan worden geconfigureerd, en hoe u uw interactieve toepassing integreert met offline Adobe Analytics.
+Deze sectie beschrijft hoe te om een interactieve enige paginatoepassing in te bedden die REACT (of Hoekig) gebruiken de redacteur van AEMSPA die door bedrijfsberoeps in AEM en ook kan worden gevormd hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
 
-## De AEM SPA Editor gebruiken {#using-the-aem-spa-editor}
+## Het gebruiken van de AEMRedacteur van het KUUROORD {#using-the-aem-spa-editor}
 
 Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
 
-1. Clone the AEM SPA Editor repo at [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
+1. Kloon de AEM Redacteur van het KUUROORD op [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
 
    >[!NOTE]
    >
-   >Dit archetype leidt tot een minimaal project van de Manager van de Ervaring van Adobe als uitgangspunt voor uw eigen projecten van het KUUROORD. De eigenschappen die moeten worden verstrekt wanneer het gebruiken van dit archetype staat toe om als gewenst alle delen van dit project te noemen.
+   >Dit archetype leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten van het KUUROORD. De eigenschappen die moeten worden verstrekt wanneer het gebruiken van dit archetype staat toe om als gewenst alle delen van dit project te noemen.
 
-1. Volg de readme instructies om een project tot stand te brengen van de redacteursarchetype van AEM SPA:
+1. Volg de readme instructies om een AEM redacteursarchetype project van SPA tot stand te brengen:
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -47,7 +50,7 @@ Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
    >Wij gebruiken **GroupId** als ***com.adobe.aem.screens*** en **ArtifactId** als ***Mijn SteekproefSPA*** (die de gebreken is). U kunt zo nodig uw eigen keuze maken.
 
 1. Zodra het project wordt gecreeerd, of gebruik winde of redacteur van uw keus en voer het geproduceerde Geweven project in.
-1. Implementeer naar uw lokale AEM-instantie met de opdracht ***mvn clean install -PautoInstallPackage***.
+1. Implementeer naar uw lokale AEM met de opdracht ***mvn clean install -PautoInstallPackage***.
 
 ### Inhoud bewerken in de REACT-app {#editing-content-in-the-react-app}
 
@@ -56,9 +59,9 @@ De inhoud in de REACT-app bewerken:
 1. Navigeer naar `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (vervang de hostnaam, poort en projectnaam, indien van toepassing).
 1. U zou de tekst moeten kunnen uitgeven die in de Hello wereldtoepassing wordt getoond.
 
-### De interactieve REACT-app toevoegen aan AEM-schermen {#adding-the-interactive-react-app-to-aem-screens}
+### De interactieve REACT-app toevoegen aan AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
-Voer de onderstaande stappen uit om de interactieve REACT-app toe te voegen aan AEM-schermen:
+Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens toe te voegen:
 
 1. Maak een nieuw AEM Screens-project. Raadpleeg [Projecten](creating-a-screens-project.md) maken en beheren voor meer informatie.
 
@@ -87,26 +90,26 @@ Voer de onderstaande stappen uit om de interactieve REACT-app toe te voegen aan 
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Registreer een speler tegen dit project en u moet nu de interactieve toepassing kunnen zien die op AEM-schermen wordt uitgevoerd.
+1. Registreer een speler tegen dit project en u moet nu uw interactieve toepassing kunnen zien die op AEM Screens wordt uitgevoerd.
 
    Raadpleeg [Apparaatregistratie](device-registration.md) voor meer informatie over het registreren van een apparaat.
 
-## De SPA integreren met Adobe Analytics met offlinemogelijkheden via AEM-schermen {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
+## De SPA integreren met Adobe Analytics met offlinemogelijkheden via AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
 Voer de onderstaande stappen uit om de SPA met Adobe Analytics te integreren met offline mogelijkheden via AEM Screens:
 
-1. Adobe-analysemogelijkheden configureren in AEM-schermen.
+1. Configureer Adobe Analytics in AEM Screens.
 
-   Raadpleeg [Adobe Analytics configureren met AEM Screens (configureren-adobe-analytics-aem-screens.md) voor meer informatie over het uitvoeren van sequencing in Adobe Analytics met AEM Screens en het verzenden van aangepaste gebeurtenissen met behulp van offline Adobe Analytics.
+   Raadpleeg Adobe Analytics [configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie over het uitvoeren van sequencing in Adobe Analytics met AEM Screens en het verzenden van aangepaste gebeurtenissen met behulp van offline Adobe Analytics.
 
 1. Bewerk uw reactie-app in de IDE/editor van uw keuze (met name de tekstcomponent of andere component die u wilt gebruiken om gebeurtenissen uit te zenden).
 1. Voeg bij de klikgebeurtenis of andere gebeurtenis die u voor uw component wilt vastleggen de analysegegevens toe met behulp van het standaardgegevensmodel.
 
-   Zie Adobe Analytics [configureren met AEM](configuring-adobe-analytics-aem-screens.md)Screenss voor meer informatie.
+   Zie Adobe Analytics [configureren met AEM](configuring-adobe-analytics-aem-screens.md)rasters voor meer informatie.
 
-1. Roep de API voor analyse van AEM-schermen aan om de gebeurtenis offline op te slaan en in bursts naar Adobe Analytics te verzenden.
+1. Roep de AEM Screens Analytics API aan om de gebeurtenis offline op te slaan en in bursts naar Adobe Analytics te verzenden.
 
-   Bijvoorbeeld:
+   Bijvoorbeeld,
 
    ```
    handleClick() {
