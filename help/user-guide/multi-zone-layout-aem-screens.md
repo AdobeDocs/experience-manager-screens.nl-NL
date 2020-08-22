@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Zoals bij de projectvereisten, soms hebt u veelvoudige streken in een kanaal nod
 
 Voordat u begint met het implementeren van deze functionaliteit, moet u de conceptuele kennis over:
 
-* [Een AEM-schermproject maken](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [Een AEM Screens-project maken](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [Weergave maken](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
 * [Een kanaal toewijzen aan een weergave](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
@@ -50,7 +50,7 @@ Tijdens het maken van een kanaal kunt u verschillende sjablonen gebruiken om zon
 
 **Het kanaal maken**
 
-1. Selecteer de koppeling Adobe Experience Manager (linksboven) en vervolgens **Schermen**. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`.
+1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en **klik vervolgens op Schermen**. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`.
 1. Navigeer naar de map **Kanalen** en klik op **Maken** op de actiebalk.
 
 1. Selecteer **1x2 Gesplitst het Kanaal** van het Scherm van de **Create** tovenaar.
@@ -72,7 +72,7 @@ U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle afzon
 
    Als u één afbeelding of video in twee zones wilt afspelen, sleept u een afbeelding naar elke zone in de Kanaaleditor, zoals in de onderstaande afbeelding wordt getoond:
 
-   ![image](/help/user-guide/assets/multi-zone/multizone-img3.png)
+   ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### Gesegrafeerde inhoud gebruiken in een of meer zones {#using-sequenced-content-in-one-or-more-zones}
 
@@ -83,6 +83,7 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
    1. Navigeer naar **zones** —> **MultiZone** —> **Kanalen** en klik op **Maken** op de actiebalk.
    1. Selecteer **de Omslag** van Kanalen van de **Create** tovenaar en klik **daarna**.
    1. Voer de titel in als **EmbeddedChannels** en klik op **Maken**.
+
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Twee kanalen toevoegen aan de kanaalmap**
@@ -93,6 +94,7 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
    1. Sleep enkele afbeeldingen naar dit kanaal.
    1. Maak op dezelfde manier een ander volgnummer met de naam **Zone2** in de map **EmbeddedChannel** .
    1. Sleep een video naar dit kanaal.
+
    In de volgende afbeelding ziet u de kanalen **Zone1** en **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
@@ -115,7 +117,7 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
    1. Selecteer het kanaalpad als **zones** —> **Kanalen** —> **Ingesloten kanalen** —> **Zone1**, zoals in de onderstaande afbeelding wordt getoond.
    1. Op dezelfde manier voeg **Zone2** aan een andere ingebedde opeenvolgingscomponent in de redacteur toe.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
+      ![afbeelding](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 ### Een locatie en een weergave maken {#creating-location}
 
@@ -147,14 +149,15 @@ U moet de kanalen aan de vertoning toewijzen om de inhoud te bekijken. Voer de o
    1. Stel de **ondersteunde gebeurtenissen** in op **Eerste Laden**, **Niet-actief scherm** en **Timer**.
    1. Click **Save**.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
+      ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Op dezelfde manier moet u de andere twee ingebedde kanalen (**Zone1** en **Zone2**) aan deze vertoning toewijzen.
    1. Nadat u alle drie kanalen aan de **Lobby** -weergave hebt toegewezen, kunt u de toegewezen kanalen vanaf het weergavedashboard bekijken.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
+      ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
-      >[!Ibelangrijk]
+      >[!IMPORTANT]
+      >
       > Wanneer u het hoofdkanaal (in dit geval **MultiZone**) aan het scherm hebt toegewezen, is het verplicht om de andere twee ingesloten kanalen **Zone1** en **Zone2** ook aan hetzelfde scherm toe te wijzen.
 
 ### Het apparaat registreren {#registering-device}
@@ -166,13 +169,15 @@ Nadat u een locatie en een weergave hebt ingesteld, voert u de onderstaande stap
    1. Navigeer naar de map **Zones** —> **Devices** .
    1. Selecteer de map **Apparaten** en klik op **Apparaatbeheer** op de actiebalk.
    1. Klik op **Apparaatregistratie** en selecteer het apparaat in behandeling in de lijst.
+
       >[!NOTE]
       > De titel van het apparaat moet overeenkomen met het apparaattoken (**token** ) dat wordt weergegeven op het tabblad **Apparaatregistratie** .
    1. Als de titel overeenkomt met het apparaattoken, selecteert u het apparaat en klikt u op Apparaat **** registreren op de actiebalk.
    1. Als de registratiecode overeenkomt met de code op het tabblad Apparaatregistratie **van de schermspeler, klikt u op** Valideren **** op de actiebalk.
-      ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
+      ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Voer de **titel** in als **Chrome-Device1** en klik op **Registreren**.
    1. Selecteer Weergave **** toewijzen en selecteer het pad naar de apparaatconfiguratie.
+
    >[!NOTE]
    >Als u de inhoud in de Schermspeler probeert te bekijken, zorg ervoor u **Update Offline Inhoud** van het kanaaldashboard voor elk van de kanalen klikt die aan de vertoning worden toegewezen.
 
