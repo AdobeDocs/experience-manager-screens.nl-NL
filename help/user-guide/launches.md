@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Dus als we live gaan, zal de promotie vroeg beginnen bij deze offset. In de bove
 
 In deze sectie wordt uitgelegd hoe u een uitstelperiode kunt bijwerken naar 10 minuten.
 
-1. Navigeer naar CRXDE Lite en dan naar `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+1. Navigeer naar CRXDE Lite en vervolgens naar `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Klik met de rechtermuisknop en kopieer het bestand.
 3. Navigeer naar `/apps/system/config` en klik met de rechtermuisknop en plak.
 4. Dubbelklik op `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` om het bestand in de editor in CRXDE Lite te openen. De respijtperiode voor het pad */inhoud/schermen/* moet als **86400** worden weergegeven. Wijzig die waarde in **600**.
@@ -82,11 +82,11 @@ Als de live datum bijvoorbeeld is ingesteld op 24 november, 9:00 uur en de respi
 
 ## Starten van schermen gebruiken {#using-launches}
 
-Deze sectie toont aan hoe te om de Lancering van de Schermen in uw project van AEM Screens uit te voeren.
+In deze sectie ziet u hoe u de functie Schermen starten in uw AEM Screens-project implementeert.
 
 ### Schermen starten {#creating-a-launch}
 
-Voer de onderstaande stappen uit om de functionaliteit voor het starten van schermen te implementeren in uw AEM Screens-project:
+Voer de onderstaande stappen uit om de functie Schermen starten te implementeren voor uw AEM Screens-project:
 
 1. Maak een volgnummer in uw AEM Screens-project, bijvoorbeeld **LaunchesDemo** —> **Kanalen** —> **FutureLaunch**, zoals hieronder wordt weergegeven.
 
@@ -131,7 +131,7 @@ Voer de onderstaande stappen uit om de functionaliteit voor het starten van sche
 
    >[!NOTE]
    >
-   >U kunt de live startdatum in deze stap instellen of u kunt deze later instellen tijdens het bewerken van de eigenschappen van de start nadat deze al is gemaakt.
+   >U kunt de live startdatum in deze stap instellen of deze later instellen tijdens het bewerken van de eigenschappen van de start nadat deze al is gemaakt.
 
    **Promotiebereik starten**
 
@@ -202,6 +202,7 @@ U kunt de middelen kiezen u als deel van deze handbevordering in de Tovenaar **v
 
 U kunt de start verwijderen met de optie Starten **** verwijderen uit het **deelvenster OPENEN** .
 
->[VOORZIENING]
+>[!CAUTION]
+>
 >Met deze actie verwijdert u ook alle onderliggende elementen (geneste lanceringen).
 
