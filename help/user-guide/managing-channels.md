@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Op deze pagina ziet u hoe u kanalen voor schermen maakt en beheert.
 
 Nadat u een project voor schermen hebt gemaakt, volgt u de onderstaande stappen om een nieuw kanaal voor een project Screens te maken:
 
-1. Selecteer de koppeling Adobe Experience Manager (linksboven) en vervolgens Schermen. U kunt ook rechtstreeks naar: `https://localhost:4502/screens.html/content/screens`.
+1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik vervolgens op Rasteren. U kunt ook rechtstreeks naar: `https://localhost:4502/screens.html/content/screens`.
 1. Navigeer naar het project Schermen en klik op **Kanalen**.
 1. Klik op **Maken** naast het plusteken op de actiebalk. Een tovenaar zal openen (*zie de Types van Kanaal voor meer informatie*).
 
@@ -94,7 +94,7 @@ Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 
 >[!NOTE]
 >
->U kunt componenten aan uw kanaal toevoegen. Raadpleeg **[Componenten toevoegen aan een kanaal](adding-components-to-a-channel.md)**voor meer informatie.
+>U kunt componenten aan uw kanaal toevoegen. Raadpleeg **[Componenten toevoegen aan een kanaal](adding-components-to-a-channel.md)** voor meer informatie.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -140,8 +140,9 @@ Klik op de (**...**) van de de actiebar van de INFORMATIE **van het** KANAAL aan
 
 U kunt manifest van het kanaaldashboard bekijken.
 
->[BELANGRIJK]
-> Deze optie is alleen beschikbaar bij AEM 6.4 Feature Pack 8 of AEM 6.5 Feature Pack 4.
+>[!IMPORTANT]
+>
+>Deze optie is alleen beschikbaar bij AEM 6.4 Feature Pack 8 of AEM 6.5 Feature Pack 4.
 
 Ga als volgt te werk om deze optie in te schakelen vanaf het kanaaldashboard:
 1. **Kanaal op offline instellen**
@@ -254,6 +255,7 @@ De bijbehorende weergaven worden weergegeven in het deelvenster **Toegewezen bee
 >
 >* [Locaties maken en beheren](managing-locations.md)
 >* [Weergaven maken en beheren](managing-displays.md)
+
 >
 
 
