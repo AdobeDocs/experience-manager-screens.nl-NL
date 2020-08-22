@@ -3,9 +3,9 @@ title: Kanaaltoewijzing
 seo-title: Kanaaltoewijzing
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1333'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,8 @@ Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 
 Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
->[!Ibelangrijk]
+>[!IMPORTANT]
+>
 >Het volgende dialoogvenster voor kanaaltoewijzing is anders voor Adobe Experience 6.5.5 Screens Feature Pack Release en hoger. Raadpleeg [Kanaaltoewijzing](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) voor meer informatie.
 
 1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
@@ -93,7 +94,8 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 #### Onderbrekingsmethode {#interruption-method-channel}
 
->[BELANGRIJK]
+>[!IMPORTANT]
+>
 > Deze optie is alleen beschikbaar bij AEM 6.4 Feature Pack 8 of AEM 6.5 Feature Pack 4.
 
 Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
@@ -101,7 +103,7 @@ Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken
 Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het dialoogvenster **Kanaaltoewijzing** :
 
 * **Onmiddellijk**: wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
-* **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of speelt u de nieuwe inhoud af
+* **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of afspeelt u de nieuwe inhoud
    >[!NOTE]
    >Deze optie is standaard geselecteerd.
 * **Aan het einde van de reeks**: wanneer een nieuw programma activeert of een update wordt ontvangen, hebt u de optie om op de volledige opeenvolging te wachten om zijn eind te bereiken, en net vóór de gewenste opeenvolging, kunt u terugloop naar het eerste element, u vernieuwt of de nieuwe inhoud speelt
