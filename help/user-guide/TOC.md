@@ -2,18 +2,18 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Help bij Adobe Experience Managers schermen
+user-guide-title: Adobe Experience Manager Screens Help
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
+source-git-commit: 3fa254a48e780a5c20ba925644420cc36f409122
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
 
 
-# Gebruikershandleiding voor AEM Screens {#user-guide}
+# AEM Screens-gebruikershandleiding {#user-guide}
 
 + [Inleiding tot schermen](aem-screens-introduction.md)
 + Overzicht en Kickstart Guide {#overview}
@@ -33,7 +33,7 @@ ht-degree: 1%
    + [Schermspeler verbinden](working-with-screens-player.md)
    + [Apparaatregistratie](device-registration.md)
    + [ACLs van de vestiging](setting-up-acls.md)
-   + [Beveiligingschecklist AEM Screens](security-checklist.md)
+   + [AEM Screens Security Checklist](security-checklist.md)
    + [Overstappen van ContentSync naar SmartSync](smartsync.md)
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
    + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
@@ -45,7 +45,7 @@ ht-degree: 1%
    + Auteur publiceren {#author-publish}
       + [Author-Publish Architecture-overzicht](author-publish-architecture-overview.md)
       + [Auteur en publicatie configureren](author-and-publish.md)
-   + Analytics-integratie met AEM Screens {#analytics-integration}
+   + Analyseintegratie met AEM Screens {#analytics-integration}
       + [Adobe Analytics-integratie](adobe-analytics-integration-aem-screens.md)
       + [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Authoring en voorbeelden van hoofdletters en kleine letters gebruiken {#authoring}
@@ -56,11 +56,13 @@ ht-degree: 1%
       + [Locaties maken en beheren](managing-locations.md)
       + [Planningen maken en beheren](managing-schedules.md)
       + [Apparaten beheren](managing-devices.md)
-      + [Kanaaltoewijzing](channel-assignment.md)
+      + Kanalen toewijzen {#assigning-channels}
+         + [Kanaaltoewijzing: AEM 6.5.5 Schermen FP en hoger](channel-assignment.md)
+         + [Kanaaltoewijzing: Oudere FP](channel-assignment.md)
    + Basisproductfuncties gebruiken {#product-features}
       + [Tekstbedekking](text-overlay.md)
       + [Bulk offline bijwerken](bulk-offline-update.md)
-      + [AEM Screens-meldingsservice](screens-notifications-service.md)
+      + [AEM Screens-berichtenservice](screens-notifications-service.md)
       + [Ervaringsfragmenten gebruiken](experience-fragments-in-screens.md)
       + [Activering van middelenniveau](asset-level-scheduling.md)
       + [Activering op kanaalniveau](channel-level-activation.md)
@@ -91,7 +93,7 @@ ht-degree: 1%
    + [REST API&#39;s](rest-api.md)
    + [Een aangepaste component voor AEM Screens ontwikkelen](developing-custom-component-tutorial-develop.md)
    + [Offlinekanalen](offline-channels.md)
-   + [Een component AEM Screens uitbreiden](extending-component-tutorial-develop.md)
+   + [AEM Screens-componenten uitbreiden](extending-component-tutorial-develop.md)
    + [Componenten maken](creating-components.md)
    + [Een REACT-toepassing insluiten met AEM SPA Editor en integreren met AEM Screens Analytics](embedding-react-app.md)
    + [ContextHub configureren in AEM Screens](configuring-context-hub.md)
