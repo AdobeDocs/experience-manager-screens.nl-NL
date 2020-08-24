@@ -3,9 +3,9 @@ title: Kanaaltoewijzing
 seo-title: Kanaaltoewijzing
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1218'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,10 @@ ht-degree: 1%
 
 # Kanaaltoewijzing {#channel-assignment}
 
-Nadat u een weergave hebt gedefinieerd, moet u een kanaal aan een weergave toewijzen.
+>[!IMPORTANT]
+>Deze sectie benadrukt de toewijzing van het Kanaal en het plannen van kanalen voor de pakken van de Eigenschap ouder dan AEM 6.5.5 de versie van het Scherm.
+
+Nadat u een weergave hebt ingesteld, moet u een kanaal aan een weergave toewijzen om de inhoud weer te geven.
 
 Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 
@@ -23,10 +26,6 @@ Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 ## Een kanaal toewijzen {#assign-a-channel}
 
 Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
-
->[!IMPORTANT]
->
->Het volgende dialoogvenster voor kanaaltoewijzing is anders voor Adobe Experience 6.5.5 Screens Feature Pack Release en hoger. Raadpleeg [Kanaaltoewijzing](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) voor meer informatie.
 
 1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
 
@@ -42,31 +41,10 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    U kunt de eigenschappen configureren vanuit het dialoogvenster **Kanaaltoewijzing** in de onderstaande sectie. Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
 
-## Een kanaal toewijzen voor AEM 6.5.5-pakket met schermfuncties {#assign-a-channel-new-release}
 
-Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
+## Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
 
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
-
-
-1. Tik/klik op Kanaal **** toewijzen op de actiebalk
-
-   Of
-
-   Tik/klik op **dashboard** en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
-
-1. Met de optie Instellen kunt u het kanaal kiezen op pad of op naam, de kanaalrol, prioriteit of Ondersteunde gebeurtenissen invoeren.
-
-   >[!NOTE]
-   >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
-
-1. Selecteer bij **Planningen** de optie Tijdzone **** referentie, Venster **** activering en **Herhalingsschema**.
-
-1. Klik op **Opslaan** als u de voorkeuren hebt geconfigureerd.
-
-### Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
-
-#### Referentiekanaal {#ref-channel}
+### Referentiekanaal {#ref-channel}
 
 Met het referentiekanaal kunt u een verwijzing naar het gewenste kanaal opgeven, op kanaalnaam of op kanaalpad.
 
@@ -74,25 +52,25 @@ Met het referentiekanaal kunt u een verwijzing naar het gewenste kanaal opgeven,
 
 * **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met een naam *gaat bijvoorbeeld over de dag*, waar de inhoud in feite anders zou zijn in twee steden, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
 
-#### Kanaalrol {#role-channel}
+### Kanaalrol {#role-channel}
 
 De rol van het kanaal bepaalt de context van de vertoning. De rol wordt op verschillende acties gericht en staat los van het daadwerkelijke kanaal dat de rol vervult.
 
-#### Priority {#priority-channel}
+### Priority {#priority-channel}
 
 Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. Degene met de hoogste waarde heeft altijd voorrang op lagere waarden. Bijvoorbeeld, als er twee kanalen A en B zijn. A heeft een prioriteit van 1 en B heeft een prioriteit van 2, dan wordt kanaal B getoond, aangezien het een hogere prioriteit dan A heeft.
 
 >[!NOTE]
 >De prioriteit voor een kanaal wordt ingesteld als een getal (1 voor minimaal) in het dialoogvenster **Kanaaltoewijzing** , zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
-#### Ondersteunde gebeurtenissen {#supported-events-channel}
+### Ondersteunde gebeurtenissen {#supported-events-channel}
 
 * **Oorspronkelijke belasting**: laadt het kanaal wanneer de speler wordt gestart. Het kan aan veelvoudige kanalen in combinatie met programma worden toegewezen
 * **Niet-actief scherm**: wordt geladen wanneer het scherm niet actief is. Het kan aan veelvoudige kanalen in combinatie met programma worden toegewezen
 * **Timer**: moet worden vastgesteld wanneer een schema wordt verstrekt
 * **Gebruikersinteractie**: de speler schakelt over naar het opgegeven kanaal als er een gebruikersinteractie op het scherm is (aanraking) in een niet-actief kanaal en wordt geladen wanneer het scherm wordt aangeraakt
 
-#### Onderbrekingsmethode {#interruption-method-channel}
+### Onderbrekingsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -111,7 +89,7 @@ Selecteer een van de volgende opties die beschikbaar zijn om de methode voor ond
    >[!NOTE]
    >Als u de tweede of derde optie gebruikt, kunnen de op de toewijzing gedefinieerde planningstijden enigszins worden uitgesteld omdat de speler op het einde van het item of de reeks (na de opgegeven tijd) wacht voordat het item of de reeks wordt vernieuwd. De vertraging is afhankelijk van de afspeelduur van het item.
 
-#### Schema {#schedule-channel}
+### Schema {#schedule-channel}
 
 In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Ook kunt u een begindatum (**actief vanaf**) en een einddatum (**actief tot**) definiëren voor het kanaal dat moet worden weergegeven.
 
@@ -191,7 +169,7 @@ Dit voorbeeld toont het dag-parting voor een opslag die hun winterinzameling met
 | B | Kerstmis | 2 | 24 dec. 2017 - 31 dec. 2017 |
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
 > Raadpleeg de volgende secties voor meer informatie over het parseren van dagen:
 >
