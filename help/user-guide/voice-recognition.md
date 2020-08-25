@@ -2,10 +2,10 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: '633'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,8 @@ ht-degree: 0%
 
 De eigenschap van de Erkenning van de Stem staat inhoudsverandering in een kanaal van AEM Screens toe dat door steminteractie wordt gedreven.
 
-Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Hierdoor kunnen alle spelers die tegen het scherm zijn geregistreerd, spraak begrijpen. U moet de stemerkenning voor de Vertoning toelaten en elk kanaal associëren met een unieke markering om een kanaalovergang teweeg te brengen.
+Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Het doel van deze eigenschap is klanten toe te staan om toespraak als methode te gebruiken om met hun vertoningen in wisselwerking te staan. Tot andere gebruiksgevallen behoren het vinden van productaanbevelingen in winkels, het bestellen van menu-items in restaurants en diners. Deze functie vergroot de toegankelijkheid voor gebruikers en kan de gebruikerservaring aanzienlijk verbeteren.
+
 
 >[!NOTE]
 >De spelerhardware moet audio-invoer, zoals een microfoon, ondersteunen.
@@ -26,6 +27,9 @@ Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Hierdoor k
 
 ## Spraakherkenning implementeren {#implementing}
 
+
+Als u spraakherkenning wilt implementeren in uw AEM Screens-project, moet u de spraakherkenning inschakelen voor de weergave en elk kanaal koppelen aan een unieke tag om een kanaalovergang te activeren.
+
 De volgende sectie beschrijft hoe u de eigenschap van de Erkenning van de Stem in een project van AEM Screens kunt toelaten en gebruiken.
 
 ### Het project instellen {#setting-up}
@@ -34,23 +38,31 @@ Alvorens u de eigenschap van de Erkenning van de Stem gebruikt, zorg ervoor u ee
 
 1. Het volgende voorbeeld toont een demoproject genoemd **VoiceDemo** en drie opeenvolgingskanalen **Hoofd**, **ColdDrinks**, en **HotDrinks**, zoals aangetoond in het hieronder cijfer.
 
+   ![afbeelding](assets/voice-recognition/vr-1.png)
+
    >[!NOTE]
    >
    >Raadpleeg Kanalen [maken en beheren voor meer informatie over het maken van een kanaal of het toevoegen van inhoud aan een kanaal](/help/user-guide/managing-channels.md)
 
 1. Navigeer naar elk kanaal en voeg inhoud toe. Navigeer bijvoorbeeld naar **VoiceDemo** —> **Kanalen** —> **Hoofd** en selecteer het kanaal. Klik op **Bewerken** op de actiebalk om de editor te openen en naar wens inhoud (afbeeldingen/video&#39;s) toe te voegen. Voeg op dezelfde manier inhoud toe aan zowel **ColdDrinks** als het **HotDrinks** -kanaal.
 
-   De kanalen bevatten nu de volgende inhoud, zoals in de onderstaande afbeeldingen wordt getoond.
+   De kanalen bevatten nu elementen (afbeeldingen), zoals in de onderstaande afbeeldingen wordt getoond.
 
    **Hoofd**:
 
+   ![afbeelding](assets/voice-recognition/vr-4.png)
+
    **ColdDrinks**:
+
+   ![afbeelding](assets/voice-recognition/vr-3.png)
 
    **HotDrinks**:
 
+   ![afbeelding](assets/voice-recognition/vr-2.png)
+
 ### Labels instellen voor kanalen {#setting-tags}
 
-Nadat u inhoud aan uw kanalen hebt toegevoegd, moet u naar elk kanaal navigeren en de juiste tags toevoegen die de spraakherkenning zouden activeren.
+Zodra u inhoud aan uw kanalen hebt toegevoegd, moet u aan elk van de kanalen navigeren en aangewezen markeringen toevoegen die de stemerkenning zouden teweegbrengen.
 
 Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
@@ -58,10 +70,27 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
 1. Klik op **Eigenschappen** op de actiebalk.
 
+   ![afbeelding](assets/voice-recognition/vr-5.png)
+
 1. Navigeer naar het tabblad **Basisbeginselen** en selecteer een bestaand label in het veld **Codes** of maak een nieuw label.
+
+   U kunt een nieuwe tag maken door een nieuwe naam voor de tag in te voeren, zoals in de onderstaande afbeelding wordt getoond:
+
+   ![afbeelding](assets/voice-recognition/vr-6.png)
+
+   Of
+
+   U kunt van uw AEM instantie vooraf markeringen voor uw project tot stand brengen en die ook selecteren.
+
+   Ga als volgt te werk om labels te maken:
+
+   1. Navigeer naar de AEM.
+   1. Klik op Gereedschappen —> **Tags toevoegen**.
+      ![afbeelding](assets/voice-recognition/vr-7.png)
 
 1. Klik op **Opslaan en sluiten** als u klaar bent.
 
+U kunt ook een tag met de naam **hot** toevoegen aan het kanaal **HotDrinks** en **koud** aan het kanaal **ColdDrinks** .
 
 ### Kanaal toewijzen aan een weergave {#channel-assignment}
 
