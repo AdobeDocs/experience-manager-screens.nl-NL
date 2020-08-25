@@ -3,10 +3,10 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 0%
+source-wordcount: '895'
+ht-degree: 1%
 
 ---
 
@@ -23,20 +23,59 @@ Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 >[!NOTE]
 >U kunt meerdere kanalen aan een weergave toewijzen.
 
+
 ## Een kanaal toewijzen {#assign-a-channel-new-release}
 
-Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
+Volg de onderstaande secties om een AEM Screens-project te maken en een kanaal toe te wijzen aan een weergave.
 
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
+### AEM Screens-project en -kanalen maken {#creating-project}
 
+Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
-1. Tik/klik op Kanaal **** toewijzen op de actiebalk
+1. Maak een AEM Screens-project met de naam **DemoScreens**.
+
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >Raadpleeg [Projecten](creating-a-screens-project.md) maken en beheren voor meer informatie over het maken van een AEM Screens-project.
+
+1. Maak een volgnummer met de naam **Cafeteria** in de map **Kanalen** .
+
+1. Selecteer het kanaal en klik op **Bewerken** op de actiebalk om inhoud aan het kanaal toe te voegen.
+
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   Het kanaal **Cafeteria** geeft bijvoorbeeld nu de volgende afbeeldingen weer:
+
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. Maak een locatie met de naam **SanJose** en een weergave als **Lobby**.
+
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### Kanaal toewijzen aan een weergave {#assigning-channel-to-display}
+
+Nadat u de projectinstelling hebt voltooid, moet u het kanaal toewijzen aan een weergave om de inhoud weer te geven.
+
+1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
+
+1. Tik/klik op Kanaal **** toewijzen op de actiebalk.
+
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Of
 
-   Tik/klik op **dashboard** en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
+   Tik/klik op **dashboard** en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
 
-1. Met de optie Instellen kunt u het kanaal kiezen op pad of op naam, de kanaalrol, prioriteit of Ondersteunde gebeurtenissen invoeren.
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. Het dialoogvenster **Kanaaltoewijzing** wordt geopend.
+
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. Met de optie **Instellingen** kunt u het kanaal kiezen op pad of op naam, de kanaalrol, prioriteit, ondersteunde gebeurtenissen en onderbreekmethoden invoeren. Bovendien kunt u de optie voor het aantrekken van knopinfo vanuit dit dialoogvenster inschakelen.
+
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
@@ -45,7 +84,9 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
 1. Klik op **Opslaan** als u de voorkeuren hebt geconfigureerd.
 
-## Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
+### De inhoud weergeven in Chrome Player {#viewing-content-output}
+
+### Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
 
 ### Referentiekanaal {#ref-channel}
 
