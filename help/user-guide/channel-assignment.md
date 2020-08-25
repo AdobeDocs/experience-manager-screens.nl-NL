@@ -3,7 +3,7 @@ title: Kanaaltoewijzing
 seo-title: Kanaaltoewijzing
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
+source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 1%
@@ -97,9 +97,9 @@ In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet w
 
 De knopinfo voor het weergeven van de aantrekkingskracht definieert of de knopinfo voor het aantrekken (&quot;*overal aanraken om te beginnen*&quot;) al dan niet moet worden weergegeven terwijl het kanaal wordt uitgevoerd.
 
-### Dagverdeling {#dayparting}
+### DayParting {#dayparting}
 
-Planningen wanneer gecombineerd met **dag-parting**, staat u toe om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen in één keer.
+Planningen wanneer gecombineerd met **DayParting**, staat u toe om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen in één keer.
 
 DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. AEM Screens staat u toe om kanalen in termen van dag-parting binnen een dag, een week, of een maand volgens het vereiste te plannen.
 
@@ -119,7 +119,7 @@ Hier, zullen wij elke dag in drie verschillende tijdgroeven verdelen, zodat de k
 
 #### Inhoud afspelen op een bepaalde dag van de week {#playing-content-on-a-particular-day-of-the-week}
 
-In dit voorbeeld wordt getoond hoe de dag wordt bereikt in een casino, waar de livegebeurtenis elk weekend plaatsvindt van 8:00 tot 10:00 uur en er speciale menu&#39;s beschikbaar zijn voor het diner na 10:00 tot 13:00 uur.
+In dit voorbeeld wordt getoond welke dayParting is bereikt in een casino, waar de livegebeurtenis plaatsvindt elk weekend van 8:00 tot 10:00 uur en er speciale menu&#39;s beschikbaar zijn voor het diner na 10:00 tot 13:00 uur.
 
 <table>
  <tbody>
@@ -146,7 +146,7 @@ In dit voorbeeld wordt getoond hoe de dag wordt bereikt in een casino, waar de l
 
 #### Inhoud afspelen voor een bepaalde maand/maanden {#playing-content-for-a-particular-month-months}
 
-In dit voorbeeld ziet u de dagparting voor een winkel waarin de zomerverzameling wordt weergegeven van de maanden juni tot augustus en de herfstcollectie van september tot eind oktober.
+Dit voorbeeld toont DayParting voor een opslag die hun zomerinzameling van de maanden van Juni tot Augustus en herinzameling van September tot eind Oktober toont.
 
 Hier, zult u dag-parting zoals per maanden tot stand brengen, zodat de kanaalinhoud zoals per de gespecificeerde maanden van het jaar speelt.
 
@@ -161,7 +161,7 @@ Hier, zult u dag-parting zoals per maanden tot stand brengen, zodat de kanaalinh
 
 #### Inhoud afspelen voor kanalen met dezelfde prioriteit {#playing-content-for-channels-with-same-priority}
 
-Dit voorbeeld toont het dag-parting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien Kanaal B prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan kanaal A.
+Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien Kanaal B prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan kanaal A.
 
 | **Kanaal** | **Rol** | **Prioriteit** | **Schema** |
 |---|---|---|---|
@@ -171,7 +171,7 @@ Dit voorbeeld toont het dag-parting voor een opslag die hun winterinzameling met
 
 >[!NOTE]
 >
-> Raadpleeg de volgende secties voor meer informatie over het parseren van dagen:
+> Raadpleeg de volgende secties voor meer informatie over DayParting:
 >
 >* [Herhaling van activa afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Herhaling van middelen in een kanaal afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
