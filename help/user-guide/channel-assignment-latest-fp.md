@@ -3,9 +3,9 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1548'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 # Kanaaltoewijzing {#channel-assignment}
 
 >[!IMPORTANT]
->In deze sectie worden de kanaaltoewijzing en de planning van kanalen voor AEM 6.5.5-beeldschermfuncties (Functiepakket) en hoger gemarkeerd.
+>In deze sectie worden de kanaaltoewijzing en de planning van kanalen voor AEM 6.5.5-pakket met schermfuncties en hoger gemarkeerd.
 
 Nadat u een weergave hebt ingesteld, moet u een kanaal aan een weergave toewijzen om de inhoud weer te geven.
 
@@ -73,18 +73,18 @@ Nadat u de projectinstelling hebt voltooid, moet u het kanaal toewijzen aan een 
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Met de optie **Instellingen** kunt u het kanaal kiezen op pad of op naam, de kanaalrol, prioriteit, ondersteunde gebeurtenissen en onderbreekmethoden invoeren. Bovendien kunt u de optie voor het aantrekken van knopinfo vanuit dit dialoogvenster inschakelen.
+1. Van de optie van **Montages** , kunt u het kanaal door weg of door naam kiezen, de Rol **van het** Kanaal, **Prioriteit**, **Ondersteunde Gebeurtenissen**, en de Methoden **van de** Onderbreking ingaan. Bovendien kunt u de knopinfo voor **aantrekking** inschakelen vanuit dit dialoogvenster.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
+   >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
 
 1. Selecteer bij **Planningen** de optie Tijdzone **** referentie, Venster **** activering en **Herhalingsschema**.
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
+   >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
 
 1. Klik op **Opslaan** als u de voorkeuren hebt geconfigureerd.
 
@@ -96,7 +96,9 @@ Raadpleeg [Apparaatregistratie](device-registration.md) voor informatie over het
 
 U geeft de volgende uitvoer weer naar keuze van de speler:
 
-### Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
+![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### Kanaaleigenschappen van dialoogvenster Kanaaltoewijzing {#channel-properties}
 
 De volgende eigenschappen worden ingesteld met de optie **Instellingen** in het dialoogvenster **Kanaaltoewijzing** .
 
@@ -185,18 +187,27 @@ De volgende voorbeelden verklaren DayParting in kanalen in drie verschillende sc
 
 In dit voorbeeld wordt getoond hoe een restaurant Dagparting gebruikt om dagelijks het ontbijt-, lunch- en dinermenu te laten zien.
 
-Hier, zullen wij elke dag in drie verschillende tijdgroeven verdelen, zodat de kanaalinhoud zoals per de gespecificeerde tijd van de dag speelt. De URL stelt de volgende eigenschappen van het programma Herhaling in om de inhoud af te spelen op basis van dit gebruiksgeval.
+Hier, zullen wij elke dag in verschillende tijdgroeven verdelen, zodat de kanaalinhoud op de gespecificeerde tijd van de dag speelt. Stel de volgende eigenschappen van het programma Herhaling in om de inhoud af te spelen volgens deze gebruiksaanwijzing.
 
 | **Naam** | **Herhalen** | **Begin** | **End** |
 |---|---|---|---|
 | Ontbijt | Dagelijks | 06:00 | 11:00 |
-| Ontbijt | Dagelijks | 11:02 | 15:00 |
-| Ontbijt | Dagelijks | 15:01 | 20:00 |
+| Lunch | Dagelijks | 11:02 | 15:00 |
+| Diner | Dagelijks | 15:01 | 20:00 |
 
 #### Inhoud afspelen op een bepaalde dag van de week {#playing-content-on-a-particular-day-of-the-week}
 
-In dit voorbeeld ziet u hoe DayParting is bereikt in een casino, waar de livegebeurtenis elk weekend plaatsvindt van 8:00 tot 10:00 uur en er speciale menu&#39;s beschikbaar zijn voor het diner na 10:00 tot 13:00 uur.
+In dit voorbeeld ziet u hoe DayParting wordt geïmplementeerd in een casino waar de livegebeurtenis plaatsvindt elk weekend van 8:00 tot 10:00 uur en er speciale menu&#39;s beschikbaar zijn voor het diner na 10:00 tot 13:00 uur.
 
+| **Naam** | **Herhalen** | **Begin** | **End** |
+|---|---|---|---|
+| Weekend | Wekelijks | 20:00 | 22:00 |
+| Speciaal | Dagelijks | 22:00 | 01:00 |
+
+**Weekend**
+
+
+**Speciaal**
 
 #### Inhoud afspelen voor een bepaalde maand/maanden {#playing-content-for-a-particular-month-months}
 
@@ -213,6 +224,11 @@ Hier, zult u DayParting zoals per maanden creëren, zodat de kanaalinhoud zoals 
 
 Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien Kanaal B prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan kanaal A.
 
+## Tijdlijnweergave {#timeline-view}
+
+Nadat u een kanaal hebt toegewezen aan een weergave en een herhalingsschema hebt ingesteld, kunt u de tijdlijn weergeven vanuit het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
+
+Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
 
 
 
