@@ -2,9 +2,9 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
+source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '847'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
 1. Navigeer naar het tabblad **Basisbeginselen** en selecteer een bestaand label in het veld **Codes** of maak een nieuw label.
 
-   U kunt een nieuwe tag maken door een nieuwe naam voor de tag in te voeren, zoals in de onderstaande afbeelding wordt getoond:
+   U kunt een nieuwe tag maken door een nieuwe naam voor de tag op te geven en op de `return` toets te drukken, zoals in de onderstaande afbeelding wordt getoond:
 
    ![afbeelding](assets/voice-recognition/vr-6.png)
 
@@ -122,9 +122,11 @@ Ga als volgt te werk om labels te maken:
 
 1. Stel de volgende eigenschappen in voor elk kanaal terwijl u het kanaal toewijst.
 
-   * Hoofd
-   * HotDrinks
-   * ColdDrinks
+   | **Kanaalnaam** | **Prioriteit** | **Ondersteunde gebeurtenissen** |
+   |---|---|---|
+   | Hoofd | 2 | Eerste belasting, inactief scherm, timer |
+   | HotDrinks | 1 | Gebruikersinteractie |
+   | ColdDrinks | 1 | Gebruikersinteractie |
 
    >[!NOTE]
    >
