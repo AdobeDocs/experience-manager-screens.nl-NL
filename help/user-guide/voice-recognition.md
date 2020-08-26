@@ -2,9 +2,9 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
+source-git-commit: a1322709f4c9b682233364f72553b40585b46031
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -12,8 +12,10 @@ ht-degree: 1%
 
 # Spraakherkenning in AEM Screens {#voice-recognition}
 
->[BELANGRIJK]
+>[!IMPORTANT]
+>
 >**Belangrijke privacygegevens**
+>
 >Wanneer het gebruiken van de eigenschap van de Erkenning van de Stem volg alle toepasselijke wettelijke en ethische richtlijnen voor uw gebied (met inbegrip van maar niet beperkt tot het verstrekken van een zichtbare kennisgeving aan eind - gebruikers dat de speler de Erkenning van de Stem gebruikt). Adobe Inc., ontvangt, slaat of verwerkt geen van de stemgerelateerde informatie op. De AEM Screens-spelers gebruiken de standaard webspraak-API die in de bladerengine is ingebouwd. Achter de schermen wordt een golfvorm van uw toespraak naar de servers van Google verzonden voor conversie van spraak naar tekst en deze tekst wordt door de speler vergeleken met geconfigureerde trefwoorden.
 >
 >Raadpleeg het white paper over [Google Privacy op de webspraak-API](https://www.google.com/chrome/privacy/whitepaper.html#speech) voor meer informatie.
