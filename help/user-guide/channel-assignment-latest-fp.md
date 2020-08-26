@@ -3,9 +3,9 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
@@ -187,7 +187,7 @@ De volgende voorbeelden verklaren DayParting in kanalen in drie verschillende sc
 
 In dit voorbeeld wordt getoond hoe een restaurant Dagparting gebruikt om dagelijks het ontbijt-, lunch- en dinermenu te laten zien.
 
-Hier, zullen wij elke dag in verschillende tijdgroeven verdelen, zodat de kanaalinhoud op de gespecificeerde tijd van de dag speelt. Stel de volgende eigenschappen van het programma Herhaling in om de inhoud af te spelen volgens deze gebruiksaanwijzing.
+Hier, zullen wij elke dag in verschillende tijdgroeven verdelen, zodat de kanaalinhoud op de gespecificeerde tijd van de dag speelt. Stel de volgende eigenschappen van het programma Herhaling voor uw kanaal in om de inhoud af te spelen volgens deze gebruiksaanwijzing.
 
 | **Naam** | **Herhalen** | **Begin** | **End** |
 |---|---|---|---|
