@@ -2,15 +2,22 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
 
 
 # Spraakherkenning in AEM Screens {#voice-recognition}
+
+>[BELANGRIJK]
+>**Belangrijke privacygegevens**
+>Wanneer het gebruiken van de eigenschap van de Erkenning van de Stem volg alle toepasselijke wettelijke en ethische richtlijnen voor uw gebied (met inbegrip van maar niet beperkt tot het verstrekken van een zichtbare kennisgeving aan eind - gebruikers dat de speler de Erkenning van de Stem gebruikt). Adobe Inc., ontvangt, slaat of verwerkt geen van de stemgerelateerde informatie op. De AEM Screens-spelers gebruiken de standaard webspraak-API die in de bladerengine is ingebouwd. Achter de schermen wordt een golfvorm van uw toespraak naar de servers van Google verzonden voor conversie van spraak naar tekst en deze tekst wordt door de speler vergeleken met geconfigureerde trefwoorden.
+>
+>Raadpleeg het white paper over [Google Privacy op de webspraak-API](https://www.google.com/chrome/privacy/whitepaper.html#speech) voor meer informatie.
+
 
 ## Overzicht {#overview}
 
@@ -80,30 +87,44 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
    Of
 
-   U kunt van uw AEM instantie vooraf markeringen voor uw project tot stand brengen en die ook selecteren.
+   U kunt van uw AEM instantie vooraf markeringen voor uw project tot stand brengen en die ook selecteren. Nadat u de stappen hebt uitgevoerd die zijn beschreven in [Codes](#creating-tags)maken, kunt u de code op de locatie selecteren en aan het kanaal toevoegen, zoals in de onderstaande afbeelding wordt getoond:
 
-   Ga als volgt te werk om labels te maken:
-
-   1. Navigeer naar de AEM.
-   1. Klik op Gereedschappen —> **Tags toevoegen**.
-      ![afbeelding](assets/voice-recognition/vr-7.png)
+   ![afbeelding](assets/voice-recognition/vr-tag1.png)
 
 1. Klik op **Opslaan en sluiten** als u klaar bent.
 
-U kunt ook een tag met de naam **hot** toevoegen aan het kanaal **HotDrinks** en **koud** aan het kanaal **ColdDrinks** .
+U kunt ook een tag met de naam **hot** toevoegen aan het kanaal **HotDrinks** .
 
-### Kanaal toewijzen aan een weergave {#channel-assignment}
+#### Tags maken {#creating-tags}
+
+Ga als volgt te werk om labels te maken:
+
+1. Navigeer naar de AEM.
+1. Klik op Gereedschappen —> **Tags toevoegen**.
+   ![afbeelding](assets/voice-recognition/vr-7.png)
+1. Klik op **Maken** —> **Naamruimte**maken.
+   ![afbeelding](assets/voice-recognition/vr-7.png)
+1. Voer bijvoorbeeld de naam van het project in: **VoiceDemo** en klik op Maken.
+1. Selecteer het **project VoiceDemo** en klik op Tag **** maken op de actiebalk.
+1. Klik op **Verzenden**.
+
+
+### Het toewijzen van Kanaal aan een Vertoning en het toelaten van de Erkenning van de Stem {#channel-assignment}
 
 1. Maak een weergave in de map **Locations** , zoals in de onderstaande afbeelding wordt getoond.
 
+   ![afbeelding](assets/voice-recognition/vr-loc.png)
+
    >[!NOTE]
-   >
    >Leer hoe te om een kanaal aan een vertoning toe te wijzen, verwijs naar het [Creëren van en het Leiden Vertoningen](/help/user-guide/managing-displays.md).
 
 1. Wijs de kanalen **Main**, **ColdDrinks**, en **HotDrinks** aan uw **LobbyDisplay** toe.
 
+1. Stel de volgende eigenschappen in voor elk kanaal terwijl u het kanaal toewijst.
 
-1. Stel de volgende eigenschappen in voor elk kanaal.
+   * Hoofd
+   * HotDrinks
+   * ColdDrinks
 
    >[!NOTE]
    >
@@ -113,16 +134,26 @@ U kunt ook een tag met de naam **hot** toevoegen aan het kanaal **HotDrinks** en
 
 1. Navigeer naar het tabblad **Weergave** en schakel de optie **Voice ingeschakeld** in onder **Inhoud**.
 
-   >[!NOTE]
+   ![afbeelding](assets/voice-recognition/vr-disp.png)
+
+   >[!IMPORTANT]
    >Het is verplicht om de functie voor spraakherkenning vanuit de weergave in te schakelen.
 
-## De inhoud weergeven in de Chrome Player {#viewing-content}
+#### De inhoud weergeven in de Chrome Player {#viewing-content}
 
 Wanneer de voorgaande stappen zijn voltooid, kunt u het chroomapparaat registreren en de uitvoer bekijken.
 
-Voer de onderstaande stappen uit:
+>[!NOTE]
+>Raadpleeg [Apparaatregistratie](device-registration.md) voor informatie over het registreren van een apparaat bij een AEM Screens-speler.
 
-1. Navigeer naar de map **Apparaten** en klik op **Apparaatbeheer** op de actiebalk om de apparaten te registreren.
+In dit voorbeeld wordt de uitvoer op een Chrome-speler getoond.
+
+![newimage](assets/voice-recognition/voice-video.gif)
+
+
+
+
+
 
 
 
