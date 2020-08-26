@@ -2,9 +2,9 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: a1322709f4c9b682233364f72553b40585b46031
+source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -27,15 +27,13 @@ De eigenschap van de Erkenning van de Stem staat inhoudsverandering in een kanaa
 
 Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Het doel van deze eigenschap is klanten toe te staan om toespraak als methode te gebruiken om met hun vertoningen in wisselwerking te staan. Tot andere gebruiksgevallen behoren het vinden van productaanbevelingen in winkels, het bestellen van menu-items in restaurants en diners. Deze functie vergroot de toegankelijkheid voor gebruikers en kan de gebruikerservaring aanzienlijk verbeteren.
 
-
 >[!NOTE]
 >De spelerhardware moet audio-invoer, zoals een microfoon, ondersteunen.
 
->[!IMPORTANT]
-> De functie voor spraakherkenning is alleen beschikbaar voor Chrome- en Electron-spelers.
-
 ## Spraakherkenning implementeren {#implementing}
 
+>[!IMPORTANT]
+> De functie voor spraakherkenning is alleen beschikbaar voor Chrome- en Electron-spelers.
 
 Als u spraakherkenning wilt implementeren in uw AEM Screens-project, moet u de spraakherkenning inschakelen voor de weergave en elk kanaal koppelen aan een unieke tag om een kanaalovergang te activeren.
 
@@ -105,11 +103,15 @@ Ga als volgt te werk om labels te maken:
 1. Klik op Gereedschappen —> **Tags toevoegen**.
    ![afbeelding](assets/voice-recognition/vr-7.png)
 1. Klik op **Maken** —> **Naamruimte**maken.
-   ![afbeelding](assets/voice-recognition/vr-7.png)
-1. Voer bijvoorbeeld de naam van het project in: **VoiceDemo** en klik op Maken.
+   ![afbeelding](assets/voice-recognition/vr-tag3.png)
+1. Voer bijvoorbeeld de naam van het project in: **VoiceDemo** en klik op **Maken**.
+   ![afbeelding](assets/voice-recognition/vr-tag2.png)
 1. Selecteer het **project VoiceDemo** en klik op Tag **** maken op de actiebalk.
-1. Klik op **Verzenden**.
+   ![afbeelding](assets/voice-recognition/vr-tag4.png)
+1. Voer de naam van de tag in en klik op **Verzenden**.
+   ![afbeelding](assets/voice-recognition/vr-tag5.png)
 
+U kunt deze labels nu gebruiken in uw AEM Screens-project.
 
 ### Het toewijzen van Kanaal aan een Vertoning en het toelaten van de Erkenning van de Stem {#channel-assignment}
 
@@ -151,6 +153,10 @@ Wanneer de voorgaande stappen zijn voltooid, kunt u het chroomapparaat registrer
 >Raadpleeg [Apparaatregistratie](device-registration.md) voor informatie over het registreren van een apparaat bij een AEM Screens-speler.
 
 In dit voorbeeld wordt de uitvoer op een Chrome-speler getoond.
+
+Het **hoofdkanaal** speelt zijn inhoud af, maar wanneer u woorden met sleutelwoord **heet** zoals *ik een hete drank* zou willen gebruiken, begint het kanaal de inhoud van het **HotDrinks** kanaal te spelen.
+
+Als u woorden gebruikt met een trefwoord dat **koud** is, zoals *ik iets koud* wil hebben, begint het kanaal met het afspelen van de inhoud van het **ColdDrinks** -kanaal.
 
 ![newimage](assets/voice-recognition/voice-video.gif)
 
