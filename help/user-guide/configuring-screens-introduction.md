@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -72,25 +72,24 @@ Met de volgende belangrijke punten hieronder kunt u de server configureren en AE
 
 1. Ga naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![afbeelding](assets/config/empty-ref1.png)
 
 1. **Configuratie** van Adobe Experience Manager-webconsole wordt geopend. Zoeken naar de referentie van de sling.
 
    Voor het zoeken van het het rangschikken verwijzend bezit, druk **Command+F** voor **MAC** en **Control+F** voor **Vensters**.
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. Schakel de optie Lege **** waarden toestaan in, zoals in de onderstaande afbeelding.
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
+   ![afbeelding](assets/config/empty-ref2.png)
 
 1. Klik op **Opslaan** om het filter Leeg toestaan voor Apache-schuifverwijzing in te schakelen.
+
 
 #### HTTP-service op basis van Apache Felix Jetty {#allow-apache-felix-service}
 
 1. Ga naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![afbeelding](assets/config/empty-ref1.png)
 
 1. **Configuratie** van Adobe Experience Manager-webconsole wordt geopend. Zoek naar Apache Felix op Jetty Gebaseerde Dienst van HTTP.
 
@@ -98,7 +97,7 @@ Met de volgende belangrijke punten hieronder kunt u de server configureren en AE
 
 1. Schakel de optie **HTTP** INSCHAKELEN in, zoals in de onderstaande afbeelding wordt getoond.
 
-   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+   ![afbeelding](assets/config/config-1.png)
 
 1. Klik op **Opslaan** om de service *http* in te schakelen.
 
