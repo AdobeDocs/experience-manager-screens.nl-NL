@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202008
 description: De pagina beschrijft de Nota's van de Versie voor de Pak 202008 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,23 @@ De Releasedatum voor AEM Screens Feature Pack 202008 is 31 augustus 2020.
 
 * **Tijdlijnweergave op planningdashboard**
 
+   Met de tijdlijnweergave kan de gebruiker de toegewezen programma&#39;s vanaf het weergavedashboard naar het kanaal bekijken.
+
+   Zie [Tijdlijnweergave](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) voor meer informatie.
+
 * **Herhalingsschema**
 
+   Het Programma van de Herhaling staat u toe om een terugkerend programma voor uw kanaal te plaatsen. U stelt meerdere herhalingsschema&#39;s voor een kanaal in.
+
+   Zie [Herhalingsschema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) voor meer informatie.
+
 * **Mogelijkheden voor spraakherkenning voor AEM Screens**
+
+   De eigenschap van de Erkenning van de Stem staat inhoudsverandering in een kanaal van AEM Screens toe dat door steminteractie wordt gedreven.
+
+   Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Het doel van deze eigenschap is klanten toe te staan om toespraak als methode te gebruiken om met hun vertoningen in wisselwerking te staan.
+
+   Zie [Spraakherkenning](voice-recognition.md) voor meer informatie.
 
 * **Apparaatvoorkeuren worden bijgewerkt in auteur-/publicatiemodus**
 
@@ -40,7 +54,7 @@ De Releasedatum voor AEM Screens Feature Pack 202008 is 31 augustus 2020.
 
 De volgende AEM Screens Players worden vrijgegeven voor AEM Screens AEM 6.5 Pak van de Eigenschap 5:
 
-* ChromeOS
+* Chrome-besturingssysteem
 * Windows
 * Android
 
