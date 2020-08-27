@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202008
 description: De pagina beschrijft de Nota's van de Versie voor de Pak 202008 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,9 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM Screens AEM 6.5 Pak 
 * Chrome-besturingssysteem
 * Windows
 * Android
+
+>[!IMPORTANT]
+>Als u AEM Service Pack 6.5.5 hebt geïnstalleerd, zou u replicatieproblemen in uw spelers van de Schermen kunnen ontmoeten. Installeer [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) om het probleem op te lossen.
 
 #### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
 
