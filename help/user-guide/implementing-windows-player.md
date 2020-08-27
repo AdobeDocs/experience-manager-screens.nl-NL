@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,21 @@ In deze sectie wordt beschreven hoe u AEM Screens Windows 10 Player configureert
 Installeer Windows Player voor AEM Screens om Windows Player voor AEM Screens te implementeren.
 
 Ga naar de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+
+### De omgeving instellen voor AEM Screens 6.5.5-functiepakket en hoger {#fp-environment-setup}
+
+U moet een omgeving instellen voor Windows Player als u AEM Screens 6.5.5 Feature Pack gebruikt.
+
+Voer de onderstaande stappen uit:
+
+1. Navigeer naar **Adobe Experience Manager Web ConsoleConfiguration** met `http://localhost:4502/system/console/configMgr`.
+
+1. Zoek naar *Adobe Granite Token Authentication Handler*.
+
+1. Stel het kenmerk **SameSite voor de cookies** met inlognaam van **Lax** in op **Geen**.
+   ![afbeelding](/help/user-guide/assets/granite-updates.png)
+
+1. Click **Save**.
 
 ### Ad hoc-methode {#ad-hoc-method}
 
@@ -115,21 +130,6 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 1. Stel het manuscript PowerShell in werking als beheerder.
 1. Start opnieuw op en meld u opnieuw aan als de Kiosk-gebruiker en de spelertoepassing meteen moeten starten.
-
-### De omgeving instellen voor AEM Screens 6.5.5-functiepakket en hoger {#fp-environment-setup}
-
-U moet een omgeving instellen voor Windows Player als u AEM Screens 6.5.5 Feature Pack gebruikt.
-
-Voer de onderstaande stappen uit:
-
-1. Navigeer naar **Adobe Experience Manager Web ConsoleConfiguration** met `http://localhost:4502/system/console/configMgr`.
-
-1. Zoek naar *Adobe Granite Token Authentication Handler*.
-
-1. Stel het kenmerk **SameSite voor de cookies** met inlognaam van **Lax** in op **Geen**.
-   ![afbeelding](/help/user-guide/assets/granite-updates.png)
-
-1. Click **Save**.
 
 ### Problemen oplossen {#troubleshooting}
 
