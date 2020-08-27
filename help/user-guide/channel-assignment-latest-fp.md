@@ -3,9 +3,9 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1488'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Nadat u een weergave hebt ingesteld, moet u een kanaal aan een weergave toewijzen om de inhoud weer te geven.
 
-Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
+Op deze pagina ziet u hoe u een kanaal toewijst aan uw weergave, welke kanaaleigenschappen u kunt begrijpen en hoe u DayParting kunt uitvoeren.
 
 >[!NOTE]
 >U kunt meerdere kanalen aan een weergave toewijzen.
@@ -55,7 +55,7 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
 ### Kanaal toewijzen aan een weergave {#assigning-channel-to-display}
 
-Nadat u de projectinstelling hebt voltooid, moet u het kanaal toewijzen aan een weergave om de inhoud weer te geven.
+Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toewijzen om de inhoud te bekijken.
 
 1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
 
@@ -65,7 +65,7 @@ Nadat u de projectinstelling hebt voltooid, moet u het kanaal toewijzen aan een 
 
    Of
 
-   Tik/klik op **dashboard** en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
+   Tik/klik op **Dashboard** op de actiebalk en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ Nadat u de projectinstelling hebt voltooid, moet u het kanaal toewijzen aan een 
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Van de optie van **Montages** , kunt u het kanaal door weg of door naam kiezen, de Rol **van het** Kanaal, **Prioriteit**, **Ondersteunde Gebeurtenissen**, en de Methoden **van de** Onderbreking ingaan. Bovendien kunt u de knopinfo voor **aantrekking** inschakelen vanuit dit dialoogvenster.
+1. Van de optie van **Montages** , kunt u het kanaal **door weg** of **door naam** kiezen, de Rol **van het** Kanaal, de **Prioriteit**********, de Methoden van ElementenSupportedEvents, en de Methoden van de Onderbreking ingaan. Bovendien kunt u de knopinfo voor aantrekken inschakelen vanuit dit dialoogvenster.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ U geeft de volgende uitvoer weer naar keuze van de speler:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### Kanaaleigenschappen van dialoogvenster Kanaaltoewijzing {#channel-properties}
+## Tijdlijnweergave {#timeline-view}
+
+Nadat u een kanaal hebt toegewezen aan een weergave en een herhalingsschema hebt ingesteld, kunt u de tijdlijn weergeven vanuit het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
+
+Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
+
+1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
+
+1. Tik/klik op Kanaal **** toewijzen op de actiebalk.
+
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Of
+
+   Tik/klik op **dashboard** en klik op **Tijdlijn** in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
+
+1. Afbeeldingen in behandeling (vast te stellen)
+
+## Kanaaleigenschappen van dialoogvenster Kanaaltoewijzing {#channel-properties}
 
 De volgende eigenschappen worden ingesteld met de optie **Instellingen** in het dialoogvenster **Kanaaltoewijzing** .
 
 ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### Een kanaal selecteren {#select-channel}
+### Een kanaal selecteren {#select-channel}
 
 Als u een kanaal selecteert, kunt u een verwijzing naar het gewenste kanaal opgeven, hetzij op de kanaalnaam, hetzij op het kanaalpad.
 
@@ -112,25 +130,25 @@ Als u een kanaal selecteert, kunt u een verwijzing naar het gewenste kanaal opge
 
 * **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met een naam *gaat bijvoorbeeld over de dag*, waar de inhoud in feite anders zou zijn in twee steden, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
 
-#### Kanaalrol {#role-channel}
+### Kanaalrol {#role-channel}
 
 De rol van het kanaal bepaalt de context van de vertoning. De rol wordt op verschillende acties gericht en staat los van het daadwerkelijke kanaal dat de rol vervult.
 
-#### Priority {#priority-channel}
+### Priority {#priority-channel}
 
 Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. Degene met de hoogste waarde heeft altijd voorrang op lagere waarden. Bijvoorbeeld, als er twee kanalen A en B zijn. A heeft een prioriteit van 1 en B heeft een prioriteit van 2, dan wordt kanaal B getoond, aangezien het een hogere prioriteit dan A heeft.
 
 >[!NOTE]
 >De prioriteit voor een kanaal wordt ingesteld als een getal (1 voor minimaal) in het dialoogvenster **Kanaaltoewijzing** , zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
-#### Ondersteunde gebeurtenissen {#supported-events-channel}
+### Ondersteunde gebeurtenissen {#supported-events-channel}
 
 * **Oorspronkelijke belasting**: laadt het kanaal wanneer de speler wordt gestart. Het kan aan veelvoudige kanalen in combinatie met programma worden toegewezen
 * **Niet-actief scherm**: wordt geladen wanneer het scherm niet actief is. Het kan aan veelvoudige kanalen in combinatie met programma worden toegewezen
 * **Timer**: moet worden vastgesteld wanneer een schema wordt verstrekt
 * **Gebruikersinteractie**: de speler schakelt over naar het opgegeven kanaal als er een gebruikersinteractie op het scherm is (aanraking) in een niet-actief kanaal en wordt geladen wanneer het scherm wordt aangeraakt
 
-#### Onderbrekingsmethode {#interruption-method-channel}
+### Onderbrekingsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ Selecteer een van de volgende opties die beschikbaar zijn om de methode voor ond
 
 De volgende eigenschappen worden ingesteld met de optie **Schema** in het dialoogvenster **Kanaaltoewijzing** .
 
-
-#### Referentie tijdzone {#reference-timezone}
+### Referentie tijdzone {#reference-timezone}
 
 Met de tijdzone Referentie kunt u de tijdzone voor de weergave van inhoud selecteren.
 
-#### Activeringsvenster {#activation-window}
+### Activeringsvenster {#activation-window}
 
 In het venster Activering kunt u een **begindatum** en een **einddatum** selecteren om uw inhoud weer te geven.
 
-#### Herhalingsschema {#recurrence-schedule}
+### Herhalingsschema {#recurrence-schedule}
 
 Met het schema Herhaling kunt u een terugkerend schema voor uw inhoud instellen. Klik op **+ Plan** toevoegen om een terugkerend programma aan uw kanaal toe te voegen.
 
@@ -211,23 +228,4 @@ In dit voorbeeld ziet u hoe DayParting wordt geïmplementeerd in een casino waar
 >[!NOTE]
 >
 >Bovendien kunt u ***Prioriteit*** voor elk van de kanalen bepalen. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.
-
-## Tijdlijnweergave {#timeline-view}
-
-Nadat u een kanaal hebt toegewezen aan een weergave en een herhalingsschema hebt ingesteld, kunt u de tijdlijn weergeven vanuit het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
-
-Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
-
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
-
-1. Tik/klik op Kanaal **** toewijzen op de actiebalk.
-
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   Of
-
-   Tik/klik op **dashboard** en klik op **Tijdlijn** in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
-
-1. Afbeeldingen in behandeling (vast te stellen)
-
 
