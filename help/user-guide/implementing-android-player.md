@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '740'
+ht-degree: 1%
 
 ---
 
@@ -29,18 +29,34 @@ Bovendien is **Watchdog** een oplossing om de speler te herstellen van crashes. 
 
 Installeer Android Player voor AEM Screens om Android Player voor AEM Screens te implementeren.
 
-Ga naar de pagina [**AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
+Ga naar de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+
+### De omgeving instellen voor AEM Screens 6.5.5-functiepakket en hoger {#fp-environment-setup}
+
+U moet een omgeving instellen voor Android Player als u AEM Screens 6.5.5 Feature Pack gebruikt.
+
+Voer de onderstaande stappen uit:
+
+1. Navigeer naar **Adobe Experience Manager Web ConsoleConfiguration** met `http://localhost:4502/system/console/configMgr`.
+
+1. Zoek naar *Adobe Granite Token Authentication Handler*.
+
+1. Stel het kenmerk **SameSite voor de cookies** met inlognaam van **Lax** in op **Geen**.
+   ![afbeelding](/help/user-guide/assets/granite-updates.png)
+
+1. Click **Save**.
+
 
 ### Ad hoc-methode {#ad-hoc-method}
 
-Met de ad-hocmethode kunt u de nieuwste Android Player (*.exe*) installeren. Bezoek de pagina [**AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
+Met de ad-hocmethode kunt u de nieuwste Android Player (*.exe*) installeren. Bezoek de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeer naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de instantie AEM in u wenst om te verbinden met en klik **sparen**.
+1. Navigeer naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u wenst om te verbinden met en klik **sparen**.
 
-1. Navigeer vanuit het menu Actie links naar de koppeling **Apparaatregistratie** **registreren** om de status van het registratieproces van het apparaat te controleren.
+1. Navigeer in het menu Actie aan de linkerzijde naar de koppeling **Apparaatregistratie** **** om de status van het apparaatregistratieproces te controleren.
 
 >[!NOTE]
 >
@@ -64,7 +80,7 @@ Als u toegang wilt tot enkele geprivilegieerde API&#39;s van Android, zoals *Pow
 
 Volg de onderstaande stappen om de android-apk te ondertekenen met de toetsen van de fabrikant:
 
-1. Download de app van Google Play of van de pagina [AEM Screens Player Downloads](https://download.macromedia.com/screens/)
+1. Download de app van Google Play of van de pagina Downloads [voor](https://download.macromedia.com/screens/) AEM Screens Player
 1. Vraag de platformtoetsen aan bij de fabrikant voor een *pk8* - en een *pem* -bestand
 
 1. Zoek het hulpprogramma voor ondertekenaars in android-SDK met Zoeken ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
@@ -81,7 +97,7 @@ In het volgende diagram wordt de implementatie van waakhond-service getoond:
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
-**1. Initialisatie** Op het moment van initialisatie van de cordova-plug-in worden de machtigingen gecontroleerd om te controleren of we over systeemrechten beschikken en dus of we de machtiging Opnieuw opstarten gebruiken. Als aan deze twee criteria wordt voldaan, wordt een hangende Intent voor Reboot gecreeerd, anders wordt een hangende Intent om de toepassing (die op zijn Activiteit van de Lancering wordt gebaseerd) opnieuw te beginnen gecreeerd.
+**1. Initialisatie** Op het moment van initialisatie van de cordova-insteekmodule worden de machtigingen gecontroleerd om te controleren of we over systeemrechten beschikken en dus of we de machtiging Opnieuw opstarten gebruiken. Als aan deze twee criteria wordt voldaan, wordt een hangende Intent voor Reboot gecreeerd, anders wordt een hangende Intent om de toepassing (die op zijn Activiteit van de Lancering wordt gebaseerd) opnieuw te beginnen gecreeerd.
 
 **2. Alive Timer** A keep live timer wordt gebruikt om een gebeurtenis om de 15 seconden te activeren. In dat geval moet u de bestaande in behandeling zijnde intent annuleren (om de app opnieuw op te starten of te starten) en een nieuwe in behandeling zijnde intent in de toekomst voor dezelfde 60 seconden registreren (in feite om het opnieuw opstarten uit te stellen).
 
