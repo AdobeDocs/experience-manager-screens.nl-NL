@@ -2,9 +2,9 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Het doel v
 ## Spraakherkenning implementeren {#implementing}
 
 >[!IMPORTANT]
-> De functie voor spraakherkenning is alleen beschikbaar voor Chrome- en Electron-spelers.
+> De functie voor spraakherkenning is alleen beschikbaar voor Chrome OS- en Electron-spelers.
 
 Als u spraakherkenning wilt implementeren in uw AEM Screens-project, moet u de spraakherkenning inschakelen voor de weergave en elk kanaal koppelen aan een unieke tag om een kanaalovergang te activeren.
 
@@ -106,14 +106,19 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 Ga als volgt te werk om labels te maken:
 
 1. Navigeer naar de AEM.
+
 1. Klik op Gereedschappen —> **Tags toevoegen**.
    ![afbeelding](assets/voice-recognition/vr-7.png)
+
 1. Klik op **Maken** —> **Naamruimte**maken.
    ![afbeelding](assets/voice-recognition/vr-tag3.png)
-1. Voer bijvoorbeeld de naam van het project in: **VoiceDemo** en klik op **Maken**.
+
+1. Ga de naam van uw project, bijvoorbeeld, **VoiceDemo** in en klik **creëren**.
    ![afbeelding](assets/voice-recognition/vr-tag2.png)
+
 1. Selecteer het **project VoiceDemo** en klik op Tag **** maken op de actiebalk.
    ![afbeelding](assets/voice-recognition/vr-tag4.png)
+
 1. Voer de naam van de tag in en klik op **Verzenden**.
    ![afbeelding](assets/voice-recognition/vr-tag5.png)
 
