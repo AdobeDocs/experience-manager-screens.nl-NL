@@ -3,9 +3,9 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 1%
 
 ---
@@ -170,6 +170,8 @@ Selecteer een van de volgende opties die beschikbaar zijn om de methode voor ond
 
 De volgende eigenschappen worden ingesteld met de optie **Schema** in het dialoogvenster **Kanaaltoewijzing** .
 
+![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### Referentie tijdzone {#reference-timezone}
 
 Met de tijdzone Referentie kunt u de tijdzone voor de weergave van inhoud selecteren.
@@ -182,9 +184,6 @@ In het venster Activering kunt u een **begindatum** en een **einddatum** selecte
 
 Met het schema Herhaling kunt u een terugkerend schema voor uw inhoud instellen. Klik op **+ Plan** toevoegen om een terugkerend programma aan uw kanaal toe te voegen.
 
-![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >U kunt veelvoudige terugkomende programma&#39;s aan uw kanaal toevoegen.
 >De Planningen van de herhaling introduceren *DayParting*, die u toestaat om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen in één keer.
@@ -194,9 +193,9 @@ U kunt de volgende opties instellen:
 * **Naam**: Titel van uw terugkerend schema.
 * **Herhalen**: Kies of de planning **Dagelijks**, **Wekelijks**, **Maandelijks**, of **Jaarlijks** loopt.
 * **Begin**: De begintijd voor uw schema.
-* **Einde**: De eindtijd voor uw schema. U kunt het plaatsen door:
-* **Tijd**: Het programma eindigt op een bepaald tijdstip.
-* **Duur**: Het schema loopt gedurende een bepaalde tijdsduur in uren of minuten.
+* **Einde**: De eindtijd voor uw schema. U kunt de achtergrondkleur instellen op tijd of duur.
+   * **Tijd**: Het programma eindigt op een bepaald tijdstip.
+   * **Duur**: Het schema loopt gedurende een bepaalde tijdsduur in uren of minuten.
 
 ### DayParting {#dayparting}
 
