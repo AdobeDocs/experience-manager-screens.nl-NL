@@ -2,9 +2,9 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
+source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1554'
 ht-degree: 2%
 
 ---
@@ -96,11 +96,10 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
    ![afbeelding](assets/voice-recognition/vr-tag1.png)
 
+1. U kunt ook een tag met de naam **hot** toevoegen aan het kanaal **HotDrinks** .
+
 1. Klik op **Opslaan en sluiten** als u klaar bent.
 
-U kunt ook een tag met de naam **hot** toevoegen aan het kanaal **HotDrinks** .
-
-Als u een toepassing gebruikt die een gesplitste rasterkanaal als sjabloon gebruikt, moet u beide tags (**warm** en **koud**) toevoegen aan de kanaaleigenschappen.
 
 ### Tags maken {#creating-tags}
 
@@ -276,7 +275,7 @@ Wanneer de voorgaande stappen zijn voltooid, kunt u het chroomapparaat registrer
 
 In dit voorbeeld wordt de uitvoer op een Chrome-speler getoond.
 
-Het **hoofdkanaal** speelt zijn inhoud, maar wanneer u woorden met sleutelwoord **heet** en **koud** samen zoals *ik het menu voor hete en koude dranken* zou willen zien, begint het kanaal de inhoud van het kanaal te spelen **SplitScreens** .
+Het **Hoofdkanaal** speelt zijn inhoud, maar wanneer u woorden met sleutelwoord **heet** en **koud** samen zoals *ik het menu voor hete en koude dranken* zou willen zien, begint het kanaal de inhoud van het **SplitScreen** kanaal te spelen.
 
 
 
