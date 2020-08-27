@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202008
 description: De pagina beschrijft de Nota's van de Versie voor de Pak 202008 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ U kunt het nieuwste functiepakket voor AEM Screens 6.5.5 Release downloaden van 
 
 De Releasedatum voor AEM Screens Feature Pack 202008 is 31 augustus 2020.
 
-### What&#39;s New {#what-s-new}
+### What&#39;s New {#what-is-new}
 
 * **Tijdlijnweergave op planningdashboard**
 
@@ -48,18 +48,16 @@ De Releasedatum voor AEM Screens Feature Pack 202008 is 31 augustus 2020.
 
    Zie [Spraakherkenning](voice-recognition.md) voor meer informatie.
 
-* **Apparaatvoorkeuren worden bijgewerkt in auteur-/publicatiemodus**
-
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
-De volgende AEM Screens Players worden vrijgegeven voor AEM Screens AEM 6.5 Pak van de Eigenschap 5:
+De volgende AEM Screens Players worden vrijgegeven voor AEM Screens AEM 6.5 Pak van de Eigenschap 5.
+
+>[!IMPORTANT]
+>Als u AEM Service Pack 6.5.5 hebt geïnstalleerd, zou u replicatieproblemen in uw spelers van de Schermen kunnen ontmoeten. Installeer [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) om het probleem op te lossen.
 
 * Chrome-besturingssysteem
 * Windows
 * Android
-
->[!IMPORTANT]
->Als u AEM Service Pack 6.5.5 hebt geïnstalleerd, zou u replicatieproblemen in uw spelers van de Schermen kunnen ontmoeten. Installeer [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) om het probleem op te lossen.
 
 #### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
 
