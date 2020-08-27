@@ -3,9 +3,9 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1480'
 ht-degree: 1%
 
 ---
@@ -80,8 +80,8 @@ Nadat u de projectinstelling hebt voltooid, moet u het kanaal toewijzen aan een 
    >[!NOTE]
    >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
 
-1. Selecteer bij **Planningen** de optie Tijdzone **** referentie, Venster **** activering en **Herhalingsschema**.
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+1. Selecteer bij de optie **Planning** de tijdzone **** Referentie, het venster **** Activering en het schema ****Herhaling.
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
@@ -152,6 +152,7 @@ Selecteer een van de volgende opties die beschikbaar zijn om de methode voor ond
 
 De volgende eigenschappen worden ingesteld met de optie **Schema** in het dialoogvenster **Kanaaltoewijzing** .
 
+
 #### Referentie tijdzone {#reference-timezone}
 
 Met de tijdzone Referentie kunt u de tijdzone voor de weergave van inhoud selecteren.
@@ -163,6 +164,9 @@ In het venster Activering kunt u een **begindatum** en een **einddatum** selecte
 #### Herhalingsschema {#recurrence-schedule}
 
 Met het schema Herhaling kunt u een terugkerend schema voor uw inhoud instellen. Klik op **+ Plan** toevoegen om een terugkerend programma aan uw kanaal toe te voegen.
+
+![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >U kunt veelvoudige terugkomende programma&#39;s aan uw kanaal toevoegen.
@@ -204,25 +208,9 @@ In dit voorbeeld ziet u hoe DayParting wordt geïmplementeerd in een casino waar
 | Weekend | Wekelijks | 20:00 | 22:00 |
 | Speciaal | Dagelijks | 22:00 | 01:00 |
 
-**Weekend**
-
-
-**Speciaal**
-
-#### Inhoud afspelen voor een bepaalde maand/maanden {#playing-content-for-a-particular-month-months}
-
-Dit voorbeeld toont DayParting voor een opslag die hun zomerinzameling van de maanden van Juni tot Augustus en herinzameling van September tot eind Oktober toont.
-
-Hier, zult u DayParting zoals per maanden creëren, zodat de kanaalinhoud zoals per de gespecificeerde maanden van het jaar speelt.
-
-
 >[!NOTE]
 >
 >Bovendien kunt u ***Prioriteit*** voor elk van de kanalen bepalen. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.
-
-#### Inhoud afspelen voor kanalen met dezelfde prioriteit {#playing-content-for-channels-with-same-priority}
-
-Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien Kanaal B prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan kanaal A.
 
 ## Tijdlijnweergave {#timeline-view}
 
@@ -230,5 +218,16 @@ Nadat u een kanaal hebt toegewezen aan een weergave en een herhalingsschema hebt
 
 Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
 
+1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
+
+1. Tik/klik op Kanaal **** toewijzen op de actiebalk.
+
+   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Of
+
+   Tik/klik op **dashboard** en klik op **Tijdlijn** in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
+
+1. Afbeeldingen in behandeling (vast te stellen)
 
 
