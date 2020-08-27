@@ -1,69 +1,74 @@
 ---
 title: Kickstart Guide
 seo-title: Kickstart Guide
-description: Volg deze pagina om een demo-AEM-schermproject te maken. Hiermee kunt u een digitale handtekening maken, vanaf de installatie en het instellen van een nieuw project tot het weergeven van uw inhoud in de AEM Screens player.
-seo-description: Volg deze pagina om een demo-AEM-schermproject te maken. Hiermee kunt u een digitale handtekening maken, vanaf de installatie en het instellen van een nieuw project tot het weergeven van uw inhoud in de AEM Screens player.
-uuid: 587b6611-07a3-44b4-b888-9edf2ef4e12c
-contentOwner: Jyotika syal
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
-docset: aem65
+description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 8ffa53c6ffb24ff80adfdce33a69a9d80e03bb75
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 0%
 
 ---
 
 
 # Kickstart Guide {#kickstart-guide}
 
-Deze sectie is een snelbegin voor AEM-schermen en laat zien hoe u basishandelingen kunt uitvoeren. Het begeleidt u door het instellen van een eenvoudige digitale handtekening met inhoud/middelen en het publiceren naar een schermspeler. Zie de bronnen aan het einde van de pagina voor een diepgaand inzicht in alle componenten voor schermontwikkeling.
+Deze sectie is een snelbegin voor AEM Screens en laat zien hoe u basisacties kunt realiseren. Het begeleidt u door het instellen van een eenvoudige digitale handtekening met inhoud/middelen en het publiceren naar een schermspeler.
 
 ## Een Digital Signage-ervaring maken in 5 minuten {#creating-a-digital-signage-experience-in-minutes}
 
 In de volgende stappen kunt u een voorbeeldproject voor schermen maken en inhoud publiceren naar de Schermspeler.
 
-1. Klik **hier** om AEM Screens Player [](https://download.macromedia.com/screens/)te downloaden.
+Klik **hier** om [AEM Screens Player](https://download.macromedia.com/screens/)te downloaden.
 
-   AEM-schermen zijn ook beschikbaar in **Google Play**.
 
-   Zie [Chrome Management Console](implementing-chrome-os-player.md) voor meer informatie voor de implementatie van Chrome OS Player.
+Zie [Chrome Management Console](implementing-chrome-os-player.md) voor meer informatie voor de implementatie van Chrome OS Player.
 
-   Zie Schermen [installeren en configureren](configuring-screens-introduction.md) voor meer informatie.
+Zie Schermen [installeren en configureren voor meer informatie over het installeren en configureren van de schermspelers op uw apparaten](configuring-screens-introduction.md) .
 
-   >[!NOTE]
-   >
-   >**OSGI-instellingen**
-   >
-   >
-   >U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen. Sommige van deze functies zijn momenteel alleen beschikbaar als het filter Lege items toestaan in Apache Sling Referrer is ingeschakeld in de Configuratie OSGI. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
-   >
-   >
-   >Voer de onderstaande stappen uit om het filter ***Apache-schuifverwijzing leeg*** toestaan in te schakelen:
-   >
-   >
-   >
-   >    1. Navigeer naar de Configuratie **van de Console van het Web van de Manager van de Ervaring van** Adobe, namelijk `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-   >    1. Schakel de optie **allow.empty** in.
-   >    1. Click **Save**.
+>[!NOTE]
+>**OSGI-instellingen**
+>U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen. Sommige van deze functies zijn momenteel alleen beschikbaar als het filter Lege items toestaan in Apache Sling Referrer is ingeschakeld in de Configuratie OSGI. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
+>
+>
+>Voer de onderstaande stappen uit om het filter ***Apache-schuifverwijzing leeg*** toestaan in te schakelen:
 
+
+## Lege verwijzingsverzoeken toestaan {#allow-empty-referrer-requests}
+
+1. Ga naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
+
+   ![afbeelding](assets/config/empty-ref1.png)
+
+1. **Configuratie** van Adobe Experience Manager-webconsole wordt geopend. Zoeken naar de referentie van de sling.
+
+   Voor het zoeken van het het rangschikken verwijzend bezit, druk **Command+F** voor **MAC** en **Control+F** voor **Vensters**.
+
+1. Schakel de optie Lege **** waarden toestaan in, zoals in de onderstaande afbeelding.
+
+   ![afbeelding](assets/config/empty-ref2.png)
+
+1. Klik op **Opslaan** om het filter Leeg toestaan voor Apache-schuifverwijzing in te schakelen.
+
+
+## Zelfstudie {#tutorial}
 
 1. **Een nieuw project maken**
 
-   1. Selecteer de koppeling Adobe Experience Manager (linksboven) en vervolgens **Schermen**. U kunt ook rechtstreeks navigeren naar `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+   1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en **klik vervolgens op Schermen**. U kunt ook rechtstreeks navigeren naar `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
    1. Klik op **Maken** om een nieuw project voor schermen te maken (zie de onderstaande afbeelding).
    1. Selecteer **Schermen** van de **Create tovenaar van het Project** van Schermen en klik **daarna**.
 
    1. Voer de titel in als *Test_Project* en klik op **Maken**.
+
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    Zodra het project wordt gecreeerd, brengt het u terug naar de console van het Project van de Schermen. U kunt nu uw project selecteren. In een project, zijn er vijf soorten omslagen: **Toepassingen**, **Kanalen**, **Apparaten**, **Plaatsen**, en **Programma**, zoals aangetoond in het hieronder cijfer.
 
    >[!NOTE]
    >
-   >Planningen zijn alleen beschikbaar als u AEM 6.3 Sites Feature Pack 1 hebt geïnstalleerd. Neem contact op met de ondersteuning van Adobe om toegang te krijgen tot dit onderdeel. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
+   >Planningen zijn alleen beschikbaar als u AEM 6.3 Sites Feature Pack 1 hebt geïnstalleerd. Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
 
    ![chlimage_1-5](assets/chlimage_1-5.png)
 
@@ -81,6 +86,7 @@ In de volgende stappen kunt u een voorbeeldproject voor schermen maken en inhoud
    1. Kies het kanaal **van de** Reeks en klik **daarna**.
 
    1. Voer de **naam** en de **titel** in als *TestChannel* en klik op **Maken**.
+
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
    Het *bestand TestChannel* wordt gemaakt en aan de map met kanalen toegevoegd, zoals in de onderstaande afbeelding wordt getoond.
@@ -101,6 +107,7 @@ In de volgende stappen kunt u een voorbeeldproject voor schermen maken en inhoud
 
    1. Klik op het pictogram dat het zijpaneel links van de actiebalk in- en uitschakelt om de elementen en componenten te openen.
    1. Sleep de componenten die u aan het kanaal wilt toevoegen en zet deze neer.
+
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    In dit voorbeeld wordt in de editor een afbeelding weergegeven die aan het kanaal is toegevoegd.
@@ -121,13 +128,14 @@ In de volgende stappen kunt u een voorbeeldproject voor schermen maken en inhoud
    1. Selecteer **Locatie** in de wizard en klik op **Volgende**.
 
    1. Voer de **naam** en de **titel** voor uw locatie in (voer de titel in als *TestLocation*) en klik op **Maken**.
+
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    De *testlocatie* wordt gemaakt en toegevoegd aan de map **Locations** .
 
    ![chlimage_1-11](assets/chlimage_1-11.png)
 
-1. **Een nieuwe weergave maken voor *TestLocation ***
+1. **Een nieuwe weergave maken voor *TestLocation***
 
    Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie maken.
 
@@ -147,17 +155,18 @@ In de volgende stappen kunt u een voorbeeldproject voor schermen maken en inhoud
       1. Kies het **aantal apparaten horizontaal** als 1.
       1. Kies het **aantal apparaten verticaal** als 1.
    1. Klik op **Maken**.
+
    Een nieuwe vertoning (*TestDisplay*) wordt toegevoegd aan uw plaats *TestLocation)*, zoals aangetoond in hieronder figuur.
 
    ![chlimage_1-12](assets/chlimage_1-12.png)
 
 1. **Een schema toevoegen**
 
-   *Met schema&#39;s* kunt u in AEM-rasters kanalen indelen in herbruikbare groepen, zodat u de toewijzing niet afzonderlijk hoeft te herhalen voor elke weergave waarop u de inhoud wilt weergeven.
+   *Met schema&#39;s* kunt u in AEM Screens kanalen indelen in herbruikbare groepen, zodat u de toewijzing niet afzonderlijk hoeft te herhalen voor elke weergave waarop u de inhoud wilt weergeven.
 
    >[!NOTE]
    >
-   >Deze schermfunctionaliteit is alleen beschikbaar als u AEM 6.3 Sites Feature Pack 1 hebt geïnstalleerd. Neem contact op met de ondersteuning van Adobe om toegang te krijgen tot dit onderdeel. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
+   >Deze schermfunctionaliteit is alleen beschikbaar als u AEM 6.3 Sites Feature Pack 1 hebt geïnstalleerd. Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
 
    1. Navigeer naar de map **Planningen** vanuit Test_Project —> **Planningen**.
 
@@ -167,6 +176,7 @@ In de volgende stappen kunt u een voorbeeldproject voor schermen maken en inhoud
    1. Ga de **Naam** en de **Titel** als *MorningSchedule* in de eigenschappen pagina in.
 
    1. Klik op **Maken** en het schema wordt toegevoegd aan de map **Planningen** , zoals in de onderstaande afbeelding wordt getoond.
+
    ![chlimage_1-13](assets/chlimage_1-13.png)
 
    Selecteer bovendien het schema (*MorningSchedule*) en klik op **Dashboard** in de actiebalk om het dashboard met planningen weer te geven. U kunt de eigenschappen van het programma weergeven/wijzigen, kanalen toewijzen en toegewezen weergaven weergeven via het dashboard.
@@ -196,6 +206,7 @@ In de volgende stappen kunt u een voorbeeldproject voor schermen maken en inhoud
    1. Voer **Planning** in en selecteer de datums in **actieve modus van** en **actief tot**.
 
    1. Click **Save**.
+
    Het kanaal wordt gemaakt en aan het deelvenster toegevoegd.
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
@@ -211,31 +222,33 @@ In de volgende stappen kunt u een voorbeeldproject voor schermen maken en inhoud
    1. Kies het pad waar u uw schema hebt gemaakt (hier, *Test_Project* —> **Planningen** —> *MorningSchedule*).
 
    1. Klik op **Opslaan** om uw schema aan uw kanaal toe te voegen.
+
    ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. **Een apparaat registreren**
 
-   U moet uw apparaat registreren met het AEM-dashboard.
+   U moet het apparaat registreren via het AEM dashboard.
 
    >[!NOTE]
    >
-   >U kunt de Schermspeler openen met de AEM Screens-app die u hebt gedownload of met de webbrowser.
+   >U kunt de schermspeler openen met de AEM Screens-app die u hebt gedownload of met de webbrowser.
 
    U kunt als volgt het apparaat in behandeling weergeven:
 
    1. Open een apart browservenster.
-   1. Ga naar de schermspeler met de *webbrowser* `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` of start de AEM Screens-app. Wanneer u het apparaat opent, zult u merken dat de status van het apparaat niet is geregistreerd.
-   1. Navigeer vanaf het AEM-dashboard naar *Test_Project* —> **Apparaten**
+   1. Ga naar de schermspeler met de *webbrowser* of start de AEM Screens-app `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` . Wanneer u het apparaat opent, zult u merken dat de status van het apparaat niet is geregistreerd.
+   1. Navigeer van het AEM naar *Test_Project* —> **Apparaten**
 
    1. Klik op **Apparaatbeheer** op de actiebalk.
    1. Klik op **Apparaatregistratie** en u ziet de apparaten in behandeling, zoals in de onderstaande afbeelding wordt getoond.
+
    ![chlimage_1-17](assets/chlimage_1-17.png)
 
    Selecteer het apparaat dat u wilt registreren en klik op **Apparaat** registreren.
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-   U moet de code valideren door de code te controleren vanuit de webbrowser of AEM Screens player.
+   U moet de code valideren door de code te controleren vanuit de webbrowser of AEM Screens Player.
 
    Klik op **Valideren** om naar het scherm **Apparaatregistratie** te navigeren.
 
@@ -249,7 +262,7 @@ In de volgende stappen kunt u een voorbeeldproject voor schermen maken en inhoud
 
    Als u op **Voltooien** klikt, keert u terug naar de apparaatpagina waarop niet-toegewezen en toegewezen apparaten worden weergegeven.
 
-   ![chlimage_1-21](assets/chlimage_1-21.png)
+   ![chlimage_1-29](assets/chlimage_1-21.png)
 
    >[!NOTE]
    >
@@ -267,6 +280,7 @@ In de volgende stappen kunt u een voorbeeldproject voor schermen maken en inhoud
 
    1. Klik op **Toewijzen**.
    1. Klik op **Voltooien** om het proces te voltooien en nu wordt het apparaat toegewezen.
+
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
    Het vertoningsdashboard opent en u zult alle informatie met betrekking tot toegewezen kanalen en programma&#39;s samen met apparaat zien configuratiedetails.
