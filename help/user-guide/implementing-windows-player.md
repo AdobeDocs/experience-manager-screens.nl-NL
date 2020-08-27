@@ -1,8 +1,8 @@
 ---
 title: Windows 10 Player implementeren
 seo-title: Windows 10 Player implementeren
-description: Volg deze pagina om meer te leren over het configureren van AEM Screens Windows 10 Player.
-seo-description: Volg deze pagina om meer te leren over het configureren van AEM Screens Windows 10 Player.
+description: Volg deze pagina voor meer informatie over het configureren van AEM Screens Windows 10 Player.
+seo-description: Volg deze pagina voor meer informatie over het configureren van AEM Screens Windows 10 Player.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,17 @@ In deze sectie wordt beschreven hoe u AEM Screens Windows 10 Player configureert
 
 Installeer Windows Player voor AEM Screens om Windows Player voor AEM Screens te implementeren.
 
-Ga naar de pagina [**AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
+Ga naar de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
 
 ### Ad hoc-methode {#ad-hoc-method}
 
-Met de ad-hocmethode kunt u de nieuwste Windows Player (*.exe*) installeren. Bezoek de pagina [**AEM 6.5 Player Downloads **](https://download.macromedia.com/screens/).
+Met de ad-hocmethode kunt u de nieuwste Windows Player (*.exe*) installeren. Bezoek de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeer naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de instantie AEM in u wenst om te verbinden met en klik **sparen**.
-1. Navigeer vanuit het menu Actie links naar de koppeling **Apparaatregistratie** **registreren** om de status van het registratieproces van het apparaat te controleren.
+1. Navigeer naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u wenst om te verbinden met en klik **sparen**.
+1. Navigeer vanuit het menu Actie links naar de koppeling **Apparaatregistratie** **** om de status van het apparaatregistratieproces te controleren.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 
 | **Beleidsnaam** | **Doel** |
 |---|---|
-| server | De URL naar de AEM-server (Adobe Experience Manager). |
+| server | De URL naar de Adobe Experience Manager-server (AEM). |
 | resolutie | De resolutie van het apparaat. |
 | rebootSchedule | Het programma om de speler opnieuw op te starten. |
 | enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
@@ -105,7 +105,7 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 1. Enable Shell Launcher.
 
-   Verwijs naar sectie ***vormt de Lanceerinrichting*** van Shell in de pagina van de Lanceerinrichting **[van](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**Shell door de steun van Microsoft Windows voor extra informatie.
+   Verwijs naar sectie ***vormt de Lanceerinrichting*** van Shell in de pagina van de Lanceerinrichting **[van](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** Shell door de steun van Microsoft Windows voor extra informatie.
 
 1. Maak een niet-administratieve gebruiker (als u er al een hebt) die u voor Kiosk wilt gebruiken. Dit kan een lokale of domeingebruiker zijn.
 1. Installeer de Windows-speler voor die Kiosk-gebruiker vanaf de pagina Downloads [van](https://download.macromedia.com/screens/) AEM Screens Player.
@@ -115,6 +115,21 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 1. Stel het manuscript PowerShell in werking als beheerder.
 1. Start opnieuw op en meld u opnieuw aan als de Kiosk-gebruiker en de spelertoepassing meteen moeten starten.
+
+### De omgeving instellen voor AEM Screens 6.5.5-functiepakket en hoger {#fp-environment-setup}
+
+U moet een omgeving instellen voor Windows Player als u AEM Screens 6.5.5 Feature Pack gebruikt.
+
+Voer de onderstaande stappen uit:
+
+1. Navigeer naar **Adobe Experience Manager Web ConsoleConfiguration** met `http://localhost:4502/system/console/configMgr`.
+
+1. Zoek naar *Adobe Granite Token Authentication Handler*.
+
+1. Stel het kenmerk **SameSite voor de cookies** met inlognaam van **Lax** in op **Geen**.
+   ![afbeelding](/help/user-guide/assets/granite-updates.png)
+
+1. Click **Save**.
 
 ### Problemen oplossen {#troubleshooting}
 
