@@ -2,9 +2,9 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: b0f35750fffa6a61d2bc9950457974cca52651da
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ U kunt opstelling uw project of gebruikend van de twee malplaatjes:
 * [Volgekanaal](#sequence-channel)
 * [Schermkanaal splitsen](#split-channel)
 
-## Volgkanaal gebruiken als sjabloon {#sequence-channel}
+## Volgekanaal gebruiken als sjabloon {#sequence-channel}
 
 Alvorens u de eigenschap van de Erkenning van de Stem gebruikt, zorg ervoor u een project en een kanaal met inhoud hebt opstelling voor uw project.
 
