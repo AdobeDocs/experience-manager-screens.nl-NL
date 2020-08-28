@@ -2,9 +2,9 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
+source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1559'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,12 @@ ht-degree: 1%
 >
 >**Belangrijke privacygegevens**
 >
->Wanneer het gebruiken van de eigenschap van de Erkenning van de Stem volg alle toepasselijke wettelijke en ethische richtlijnen voor uw gebied (met inbegrip van maar niet beperkt tot het verstrekken van een zichtbare kennisgeving aan eind - gebruikers dat de speler de Erkenning van de Stem gebruikt). Adobe Inc., ontvangt, slaat of verwerkt geen van de stemgerelateerde informatie op. De AEM Screens-spelers gebruiken de standaard webspraak-API die in de bladerengine is ingebouwd. Achter de schermen wordt een golfvorm van uw toespraak naar de servers van Google verzonden voor conversie van spraak naar tekst en deze tekst wordt door de speler vergeleken met geconfigureerde trefwoorden.
+>Wanneer het gebruiken van de eigenschap van de stemerkenning volgt alle toepasselijke wettelijke en ethische richtlijnen voor uw regio (met inbegrip van maar niet beperkt tot het verstrekken van een zichtbare kennisgeving aan eindgebruikers dat de speler de Erkenning van de Stem gebruikt). Adobe Inc., ontvangt, slaat of verwerkt geen van de stemgerelateerde informatie op. De AEM Screens-spelers gebruiken de standaard webspraak-API die in de bladerengine is ingebouwd. Achter de schermen verzendt deze API een golfvorm van uw toespraak naar de servers van Google voor omzetting van spraak in tekst en deze tekst wordt aangepast door de speler aan gevormde sleutelwoorden.
 >
 >Raadpleeg het white paper over [Google Privacy op de webspraak-API](https://www.google.com/chrome/privacy/whitepaper.html#speech) voor meer informatie.
 
 
-
-De eigenschap van de Erkenning van de Stem staat inhoudsverandering in een kanaal van AEM Screens toe dat door steminteractie wordt gedreven.
+De eigenschap van de stemerkenning staat inhoudsverandering in een kanaal van AEM Screens toe dat door steminteractie wordt gedreven.
 
 Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Het doel van deze eigenschap is klanten toe te staan om toespraak als methode te gebruiken om met hun vertoningen in wisselwerking te staan. Tot andere gebruiksgevallen behoren het vinden van productaanbevelingen in winkels, het bestellen van menu-items in restaurants en diners. Deze functie vergroot de toegankelijkheid voor gebruikers en kan de gebruikerservaring aanzienlijk verbeteren.
 
@@ -32,18 +31,13 @@ Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Het doel v
 ## Spraakherkenning implementeren {#implementing}
 
 >[!IMPORTANT]
-> De functie voor spraakherkenning is alleen beschikbaar voor Chrome OS- en Electron-spelers.
+> De functie voor spraakherkenning is alleen beschikbaar voor Chrome OS- en Windows-spelers.
 
 Als u spraakherkenning wilt implementeren in uw AEM Screens-project, moet u de spraakherkenning inschakelen voor de weergave en elk kanaal koppelen aan een unieke tag om een kanaalovergang te activeren.
 
 De volgende sectie beschrijft hoe u de eigenschap van de Erkenning van de Stem in een project van AEM Screens kunt toelaten en gebruiken.
 
-U kunt opstelling uw project of gebruikend van de twee malplaatjes:
-
-* [Volgekanaal](#sequence-channel)
-* [Schermkanaal splitsen](#split-channel)
-
-## Volgekanaal gebruiken als sjabloon {#sequence-channel}
+## Hoofdlettergebruik 1: Inhoud weergeven in Kanaalschakelaar voor volledig scherm {#sequence-channel}
 
 Alvorens u de eigenschap van de Erkenning van de Stem gebruikt, zorg ervoor u een project en een kanaal met inhoud hebt opstelling voor uw project.
 
@@ -171,7 +165,7 @@ Als u woorden gebruikt met een trefwoord dat **koud** is, zoals *ik iets koud* w
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
-## Schermkanaal splitsen gebruiken als sjabloon {#split-channel}
+## Hoofdlettergebruik 2: Inhoud weergeven in de Kanaalschakelaar voor gesplitst scherm {#split-channel}
 
 Alvorens u de eigenschap van de Erkenning van de Stem gebruikt, zorg ervoor u een project en een kanaal met inhoud hebt opstelling voor uw project.
 
