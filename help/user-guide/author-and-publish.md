@@ -1,17 +1,10 @@
 ---
 title: Auteur en publicatie configureren in AEM Screens
 seo-title: Auteur en publicatie configureren in AEM Screens
-description: De architectuur van AEM Screens lijkt op een traditionele architectuur van AEM Sites. Inhoud wordt gemaakt op een instantie van een AEM-auteur en wordt vervolgens doorgestuurd naar meerdere publicatie-instanties. Volg deze pagina om te leren hoe te om auteur te vormen en voor AEM Screens te publiceren.
-seo-description: De architectuur van AEM Screens lijkt op een traditionele architectuur van AEM Sites. Inhoud wordt gemaakt op een instantie van een AEM-auteur en wordt vervolgens doorgestuurd naar meerdere publicatie-instanties. Volg deze pagina om te leren hoe te om auteur te vormen en voor AEM Screens te publiceren.
-uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
-contentOwner: jsyal
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
-docset: aem65
+description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
+seo-description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
 workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 0%
@@ -31,19 +24,19 @@ Deze pagina benadrukt de volgende onderwerpen:
 
 Voordat u aan de slag gaat met auteur- en publicatieservers, hebt u eerst kennis van:
 
-* **AEM-topologie**
-* **AEM Screens maken en beheren**
+* **AEM**
+* **AEM Screens-project maken en beheren**
 * **Registratieproces van apparaat**
 
 >[!NOTE]
 >
->Deze functionaliteit voor AEM Screens is alleen beschikbaar als u AEM 6.4 Screens Feature Pack 2 hebt geïnstalleerd. Neem contact op met de ondersteuning van Adobe om toegang te krijgen tot dit onderdeel. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.4 Screens Feature Pack 2 hebt geïnstalleerd. Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
 
 ## Instanties voor auteur en publiceren configureren {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
->Als u meer wilt weten over de auteur en het architecturale overzicht wilt publiceren en wilt weten hoe de inhoud is geschreven op een AEM-auteurinstantie en vervolgens naar meerdere publicatieinstanties moet worden gerepliceerd, raadpleegt u het Overzicht [van de](author-publish-architecture-overview.md)auteur- en publicatiearchitectuur.
+>Als u meer wilt weten over de auteur en het architecturale overzicht wilt publiceren en wilt weten hoe de inhoud is geschreven op een AEM auteur-instantie en vervolgens wordt gerepliceerd naar meerdere publicatie-instanties, raadpleegt u [Auteur en Publish Architecture Overview](author-publish-architecture-overview.md).
 
 De volgende sectie verklaart hoe te om replicatieagenten op auteur te plaatsen en topologie te publiceren.
 
@@ -111,8 +104,8 @@ Voer de onderstaande stappen uit om een standaardreplicatieagent te maken:
 
 #### Schermreplicatieagents maken {#creating-screens-replication-agents}
 
-1. Creeer AEM Screens replicatieagent voor pub1. Buiten-de-doos, is er één genoemde Agent van de Replicatie van het Scherm die aan haven 4503 richt. Dit moet worden ingeschakeld.
-1. Creeer AEM Screens replicatieagent voor pub2. Kopieer de de replicatieagent van Schermen voor pub1 en verander de haven aan punt 4504 voor pub2.
+1. Maak AEM Screens-replicatieagent voor pub1. Buiten-de-doos, is er één genoemde Agent van de Replicatie van het Scherm die aan haven 4503 richt. Dit moet worden ingeschakeld.
+1. Maak AEM Screens-replicatieagent voor pub2. Kopieer de de replicatieagent van Schermen voor pub1 en verander de haven aan punt 4504 voor pub2.
 
 #### Screens Reverse Replication Agents maken {#creating-screens-reverse-replication-agents}
 
@@ -150,7 +143,7 @@ Op elke publicatie-instantie:
 
 1. Navigeer in de OSGi-console naar **MAIN** —> **Crypto Support** (*https://&lt;host>:&lt;port>/system/console/crypto*).
 1. Typ het gewenste wachtwoord voor normale tekst (voor alle instanties hetzelfde) in **Onbewerkte tekst**
-1. Klik op **Beveiligen**.
+1. Klik op **Protect**.
 1. Kopieer de waarde **Beveiligde tekst** naar het aantekenblok of de teksteditor. Deze waarde zal in OSGi config voor ActiveMQ worden gebruikt.
 
 Aangezien elke publicatieinstantie door gebrek unieke crypto sleutels heeft moet u deze stap op elke pub instantie uitvoeren en de unieke sleutel voor de volgende configuratie opslaan.
@@ -210,16 +203,16 @@ Nadat u de publicatietoepassing hebt ingesteld, moet u de auteur configureren en
 >
 >**Vereisten**
 >
->Om met dit voorbeeld te beginnen, creeer een nieuw project van AEM Screens door een plaats, een vertoning, en een kanaal in uw project te creëren. Voeg inhoud aan uw kanaal toe en wijs het kanaal aan een vertoning toe.
+>U begint met dit voorbeeld door een nieuw AEM Screens-project te maken, gevolgd door een locatie, weergave en kanaal in uw project te maken. Voeg inhoud aan uw kanaal toe en wijs het kanaal aan een vertoning toe.
 
-#### Stap 1: Een AEM Screens Player (apparaat) starten {#step-starting-an-aem-screens-player-device}
+#### Stap 1: AEM Screens Player (apparaat) starten {#step-starting-an-aem-screens-player-device}
 
 1. Open een apart browservenster.
 1. Ga naar de schermspeler met de *webbrowser*,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` dat wil zeggen of start de AEM Screens-app. Wanneer u het apparaat opent, zult u merken dat de status van het apparaat niet is geregistreerd.
 
 >[!NOTE]
 >
->U kunt een AEM Screens-speler openen met de app AEM Screens die u hebt gedownload of met de webbrowser.
+>U kunt een AEM Screens-speler openen met de AEM Screens-app die u hebt gedownload of met de webbrowser.
 
 #### Stap 2: Een apparaat registreren bij auteur {#step-registering-a-device-on-author}
 
@@ -265,7 +258,7 @@ U kunt het apparaat ook activeren via de apparaatbeheerconsole. Voer de ondersta
 
 >[!NOTE]
 >
->Als u het apparaat hebt geactiveerd, kunt u ook de URL van de server bewerken of bijwerken door op de actiebalk op de server-URL **** bewerken te klikken. Dit wordt in de onderstaande afbeelding getoond en uw wijzigingen worden doorgegeven aan de AEM Screens-speler.
+>Als u het apparaat hebt geactiveerd, kunt u ook de URL van de server bewerken of bijwerken door te klikken op Server-URL **** bewerken in de actiebalk, zoals in de onderstaande afbeelding wordt getoond. De wijzigingen worden doorgegeven aan de AEM Screens-speler.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -273,9 +266,9 @@ U kunt het apparaat ook activeren via de apparaatbeheerconsole. Voer de ondersta
 
 De volgende punten geven een overzicht van de lijst Publishing Check:
 
-* *Scherm Apparaatgebruiker* - Dit wordt opgeslagen als een AEM-gebruiker en wordt geactiveerd via **Gereedschappen** > **Beveiliging** > **Gebruikers**. De gebruiker zal met &quot;schermen&quot;met een lange geserialiseerde koord worden vooraf bepaald.
+* *Schermen Apparaatgebruiker* - Dit wordt opgeslagen als AEM gebruiker en wordt geactiveerd van **Hulpmiddelen** > **Veiligheid** > **Gebruikers**. De gebruiker zal met &quot;schermen&quot;met een lange geserialiseerde koord worden vooraf bepaald.
 
-* *Project* - Het project AEM Screens.
+* *Project* - Het AEM Screens-project.
 * *Locatie* - locatie waarmee het apparaat is verbonden.
 * *Kanaal* - een of meer kanalen die op de locatie worden weergegeven
 * *Plan* - als het gebruiken van een programma ervoor zorgt dit wordt gepubliceerd
@@ -297,16 +290,16 @@ Voer de onderstaande stappen uit om het gedrag van de auteur/publicatie te verif
 1. Klik op de optie **Configuratie** in het zijpaneel.
 1. Schrijverinstantie wijzigen om instantie in **Server** te publiceren.
 
-Bekijk de wijzigingen in de AEM Screens-speler.
+Bekijk de wijzigingen in je AEM Screens-speler.
 
 U kunt de URL van de server ook bijwerken/bewerken vanuit de apparaatbeheerconsole met de volgende stappen:
 
-1. Navigeer naar het project AEM Screens en selecteer de map **Devices** .
+1. Navigeer naar uw AEM Screens-project en selecteer de map **Devices** .
 1. Klik op **Apparaatbeheer** op de actiebalk.
 1. Selecteer het apparaat en klik op Server-URL **** bewerken op de actiebalk, zoals in de onderstaande afbeelding wordt getoond. De wijzigingen worden doorgegeven aan de AEM Screens-speler.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-Met de functie **Publicatie** beheren kunt u inhoud-updates van de auteur leveren en op het apparaat publiceren. U kunt inhoud publiceren/unpublish voor uw volledige project van AEM Screens of slechts voor één van uw kanaal, plaats, apparaat, toepassing, of een programma. Voor meer informatie over deze eigenschap, verwijs naar de Update [van de Inhoud van de](on-demand-content.md)Vraag.
+Met de functie **Publicatie** beheren kunt u inhoud-updates van de auteur leveren en op het apparaat publiceren. U kunt inhoud publiceren/unpublish voor uw volledige AEM Screens-project of slechts voor één van uw kanaal, plaats, apparaat, toepassing, of een programma. Voor meer informatie over deze eigenschap, verwijs naar de Update [van de Inhoud van de](on-demand-content.md)Vraag.
 
 
