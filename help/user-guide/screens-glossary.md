@@ -1,17 +1,13 @@
 ---
 title: Verklarende woordenlijst
 seo-title: Verklarende woordenlijst
-description: Volg deze pagina om de belangrijkste termijnen te begrijpen verbonden aan de Schermen van AEM.
-seo-description: Volg deze pagina om de belangrijkste termijnen te begrijpen verbonden aan de Schermen van AEM.
-uuid: 0db1c907-dc82-4f06-84eb-084e7bcfbe4c
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 09d6104e-903b-4cff-a4e2-1469653352c3
-docset: aem65
+description: Volg deze pagina om de belangrijkste termijnen te begrijpen verbonden aan AEM Screens.
+seo-description: Volg deze pagina om de belangrijkste termijnen te begrijpen verbonden aan AEM Screens.
 translation-type: tm+mt
-source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
+source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +15,8 @@ source-git-commit: a61375feb5ba0da16f6f81d4b577fce578ac120e
 # Verklarende woordenlijst {#glossary}
 
 **Het Kanaal** van de toepassing Een Kanaal van de Toepassing toont een toepassing die door een ontwikkelaar wordt gecreeerd die interactieve inhoud toont.
+
+**Lus** van de trekLijn wordt gedefinieerd als *huis* of *nutteloze* staat wanneer de vertoning twee of meer staten heeft die het kan bestaan. Het is de taak om klanten aan te *trekken* naar het scherm en hen aan te moedigen zich aan te sluiten, meestal door het scherm aan te raken, maar ook door met een product te communiceren.
 
 **Apparaat** A apparaat heeft de capaciteit om de spelersoftware in werking te stellen om een visuele output te produceren. Het kan het weergeven van bijgesneden, geschaalde, vertaalde delen van algemene inhoud of ervaring besturen. De schermconfiguratie is gebonden aan een beeldscherm, maar kan worden vervangen in het geval een technisch defect optreedt.
 
