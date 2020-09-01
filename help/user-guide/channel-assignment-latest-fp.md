@@ -3,9 +3,9 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
+source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Nadat u een weergave hebt ingesteld, moet u een kanaal aan een weergave toewijzen om de inhoud weer te geven.
 
-Op deze pagina ziet u hoe u een kanaal toewijst aan uw weergave, welke kanaaleigenschappen u kunt begrijpen en hoe u DayParting kunt uitvoeren.
+Op deze pagina ziet u hoe u een kanaal toewijst aan de weergave, hoe u de kanaaleigenschappen begrijpt en hoe u de pagina kunt parseren.
 
 >[!NOTE]
 >U kunt meerdere kanalen aan een weergave toewijzen.
@@ -80,7 +80,7 @@ Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toew
    >[!NOTE]
    >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
 
-1. Selecteer bij de optie **Planning** de tijdzone **** Referentie, het venster **** Activering en het schema ****Herhaling.
+1. Selecteer bij de optie **Schema** de optie **Activeringsvenster** en **Herhalingsschema**.
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
@@ -172,10 +172,6 @@ De volgende eigenschappen worden ingesteld met de optie **Schema** in het dialoo
 
 ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
-### Referentie tijdzone {#reference-timezone}
-
-Met de tijdzone Referentie kunt u de tijdzone voor de weergave van inhoud selecteren.
-
 ### Activeringsvenster {#activation-window}
 
 In het venster Activering kunt u een **begindatum** en een **einddatum** selecteren om uw inhoud weer te geven.
@@ -186,7 +182,7 @@ Met het schema Herhaling kunt u een terugkerend schema voor uw inhoud instellen.
 
 >[!NOTE]
 >U kunt veelvoudige terugkomende programma&#39;s aan uw kanaal toevoegen.
->De Planningen van de herhaling introduceren *DayParting*, die u toestaat om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen in één keer.
+>De Planningen van de herhaling introduceren *dag-parting*, die u toestaat om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen in één keer.
 
 U kunt de volgende opties instellen:
 
@@ -197,32 +193,32 @@ U kunt de volgende opties instellen:
    * **Tijd**: Het programma eindigt op een bepaald tijdstip.
    * **Duur**: Het schema loopt gedurende een bepaalde tijdsduur in uren of minuten.
 
-### DayParting {#dayparting}
+### Dagverdeling {#dayparting}
 
-DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. AEM Screens staat u toe om kanalen in termen van DayParting binnen een dag, een week, of een maand volgens het vereiste te plannen.
+Dagpartering wordt het splitsen van een dag in tijdsleuven genoemd en het opgeven van welke inhoud op het gewenste tijdstip wordt afgespeeld. AEM Screens staat u toe om kanalen in termen van dag-parting binnen een dag, een week, of een maand volgens het vereiste te plannen.
 
-De volgende voorbeelden verklaren DayParting in kanalen in drie verschillende scenario&#39;s:
+De volgende voorbeelden verklaren dag-parting in kanalen in drie verschillende scenario&#39;s:
 
 #### Inhoud afspelen op één dag, verdeeld in meerdere tijdsleuven {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-In dit voorbeeld wordt getoond hoe een restaurant Dagparting gebruikt om dagelijks het ontbijt-, lunch- en dinermenu te laten zien.
+In dit voorbeeld wordt getoond hoe een restaurant dagelijks parten gebruikt om dagelijks zijn ontbijt-, lunch- en dinermenu te laten zien.
 
 Hier, zullen wij elke dag in verschillende tijdgroeven verdelen, zodat de kanaalinhoud op de gespecificeerde tijd van de dag speelt. Stel de volgende eigenschappen van het programma Herhaling voor uw kanaal in om de inhoud af te spelen volgens deze gebruiksaanwijzing.
 
 | **Naam** | **Herhalen** | **Begin** | **End** |
 |---|---|---|---|
 | Ontbijt | Dagelijks | 06:00 | 11:00 |
-| Lunch | Dagelijks | 11:02 | 15:00 |
-| Diner | Dagelijks | 15:01 | 20:00 |
+| Lunch | Dagelijks | 11:00 | 15:00 |
+| Diner | Dagelijks | 15:00 | 20:00 |
 
 #### Inhoud afspelen op een bepaalde dag van de week {#playing-content-on-a-particular-day-of-the-week}
 
-In dit voorbeeld ziet u hoe DayParting wordt geïmplementeerd in een casino waar de livegebeurtenis plaatsvindt elk weekend van 8:00 tot 10:00 uur en er speciale menu&#39;s beschikbaar zijn voor het diner na 10:00 tot 13:00 uur.
+In dit voorbeeld wordt getoond hoe de dag wordt geparseerd in een casino, waar elke weekendgebeurtenis plaatsvindt van 8:00 uur tot 10:00 uur en specials beschikbaar zijn voor het dinermenu na 22:00 uur tot 13:00 uur.
 
 | **Naam** | **Herhalen** | **Begin** | **End** |
 |---|---|---|---|
-| Weekend | Wekelijks | 20:00 | 22:00 |
-| Speciaal | Dagelijks | 22:00 | 01:00 |
+| Weekend | Wekelijks: zaterdag, zondag | 20:00 | 22:00 |
+| Specials | Dagelijks: Maandag - vrijdag | 22:00 | 01:00 |
 
 >[!NOTE]
 >
