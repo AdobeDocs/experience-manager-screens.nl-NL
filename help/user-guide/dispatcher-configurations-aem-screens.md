@@ -4,9 +4,9 @@ seo-title: Dispatcher Configurations voor AEM Screens
 description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 seo-description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '251'
 ht-degree: 4%
 
 ---
@@ -33,6 +33,21 @@ Raadpleeg [Dispatcher](https://docs.adobe.com/content/help/en/experience-manager
 ## Dispatcher configureren {#configuring-dispatcher}
 
 Voer de onderstaande stappen uit om de dispatcher voor een AEM Screens-project te configureren.
+
+### Vaste sessies inschakelen {#enable-sticky-session}
+
+Als iemand meer dan één publicatie-instantie wil gebruiken met een dispatcher, moet hij of zij het bestand dispatcher.any bijwerken in de dispatcher.
+
+```xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
 
 ### Stap 1: Clientkoppen configureren {#step-configuring-client-headers}
 
@@ -76,7 +91,7 @@ Schermspelers gebruiken geverifieerde sessies, zodat de verzender geen van de sc
 Als u de cache voor de elementen wilt inschakelen zodat de elementen worden verzonden in de cache van de verzender, moet u:
 
 * Toevoegen `/allowAuthorization 1` in `/cache` sectie
-* Voeg de onderstaande regels toe aan de sectie `/rule`s van `/cache`
+* Voeg de onderstaande regels toe aan de `/rules` sectie van `/cache`
 
 ```xml
 /0000
