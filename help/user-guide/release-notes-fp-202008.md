@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202008
 description: De pagina beschrijft de Nota's van de Versie voor de Pak 202008 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
+source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt het nieuwste functiepakket voor AEM Screens 6.5.5 Release downloaden van 
 
 ## Releasedatum {#release-date}
 
-De Releasedatum voor AEM Screens Feature Pack 202008 is 31 augustus 2020.
+De releasedatum voor AEM Screens Feature Pack 202008 is 3 september 2020.
 
 ### What&#39;s New {#what-is-new}
 
@@ -47,6 +47,14 @@ De Releasedatum voor AEM Screens Feature Pack 202008 is 31 augustus 2020.
    Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Het doel van deze eigenschap is klanten toe te staan om toespraak als methode te gebruiken om met hun vertoningen in wisselwerking te staan.
 
    Zie [Spraakherkenning](voice-recognition.md) voor meer informatie.
+
+### Bekende problemen en oplossingen {#known-issues}
+
+Als u AEM Screens 6.5.5 Feature Pack gebruikt, moet u een omgeving instellen voor Windows of Android Player.
+
+* Zie [Windows 10 Player](implementing-windows-player.md#fp-environment-setup) implementeren voor meer informatie.
+
+* Zie [Android Player](implementing-android-player.md#fp-environment-setup) implementeren voor meer informatie.
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
