@@ -2,9 +2,9 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Alvorens u de eigenschap van de Erkenning van de Stem gebruikt, zorg ervoor u ee
 
    Of
 
-   U kunt drie opeenvolgingskanalen **Hoofd**, **ColdDrinks**, en **HeteKranken**, en één extra 1x2 Gesplitst het kanaal **SplitScreen** van het Scherm zoals aangetoond in het hieronder cijfer tot stand brengen.
+   U kunt drie volgordekanalen **Hoofd**, **ColdDrinks**, en **HeteKranken**, en één extra 1x2 Gesplitste **het kanaal SplitScreen** van de Schermen zoals aangetoond in het hieronder cijfer tot stand brengen.
 
    ![afbeelding](assets/voice-recognition/vr-emb-1.png)
 
@@ -95,13 +95,13 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
    Of
 
-   U kunt van uw AEM instantie vooraf markeringen voor uw project tot stand brengen en die ook selecteren. Nadat u de stappen hebt uitgevoerd die zijn beschreven in [Codes](#creating-tags)maken, kunt u de code op de locatie selecteren en aan het kanaal toevoegen, zoals in de onderstaande afbeelding wordt getoond:
+   U kunt ook van tevoren tags maken voor uw AEM en deze selecteren. Nadat u de stappen hebt uitgevoerd die zijn beschreven in [Codes](#creating-tags)maken, kunt u de code op de locatie selecteren en aan het kanaal toevoegen, zoals in de onderstaande afbeelding wordt getoond:
 
    ![afbeelding](assets/voice-recognition/vr-tag1.png)
 
 1. U kunt ook een tag met de naam **hot** toevoegen aan het kanaal **HotDrinks** .
 
-1. Als u een gesplitst kanaal van het Scherm gebruikt, voeg zowel de markeringen (**heet** als **koud**) aan de het kanaaleigenschappen van **SplitScreen** toe.
+1. Als u een kanaal van de Schermen van het Splitsen gebruikt, voeg zowel de markeringen (**heet** als **koud**) aan de het kanaaleigenschappen van **SplitScreen** toe, zoals aangetoond in hieronder figuur.
 
    ![afbeelding](assets/voice-recognition/vr-emb-7.png)
 
@@ -114,7 +114,7 @@ Ga als volgt te werk om labels te maken:
 
 1. Navigeer naar de AEM.
 
-1. Klik op Gereedschappen —> **Tags toevoegen**.
+1. Klik op het gereedschapspictogram —> **Tags toevoegen**.
    ![afbeelding](assets/voice-recognition/vr-7.png)
 
 1. Klik op **Maken** —> **Naamruimte**maken.
@@ -139,7 +139,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
    >[!NOTE]
    >Leer hoe te om een kanaal aan een vertoning toe te wijzen, verwijs naar het [Creëren van en het Leiden Vertoningen](/help/user-guide/managing-displays.md).
 
-1. Wijs de kanalen **Main**, **ColdDrinks**, en **HotDrinks** aan uw **LobbyDisplay** toe.
+1. Wijs de kanalen **Main**, **ColdDrinks**, en **HotDrinks** aan uw **LobbyDisplay** toe. Bovendien, als u het kanaal **SplitScreen** voor uw project gebruikt, zorg ervoor u dat aan de vertoning toewijst.
 
    >[!NOTE]
    >Als u een gesplitst-rasterkanaal hebt gemaakt, wijst u het kanaal **SplitScreen** toe aan de weergave.
@@ -151,6 +151,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
    | Hoofd | 2 | Eerste belasting, inactief scherm, timer |
    | HotDrinks | 1 | Gebruikersinteractie |
    | ColdDrinks | 1 | Gebruikersinteractie |
+   | SplitScreen | 1 | Gebruikersinteractie |
 
    >[!NOTE]
    >
@@ -172,25 +173,15 @@ Wanneer de voorgaande stappen zijn voltooid, kunt u het chroomapparaat registrer
 >[!NOTE]
 >Raadpleeg [Apparaatregistratie](device-registration.md) voor informatie over het registreren van een apparaat bij een AEM Screens-speler.
 
-In dit voorbeeld wordt de uitvoer op een Chrome-speler getoond.
+**Gewenste uitvoer voor sequentiekanaal**
 
 Het **hoofdkanaal** speelt zijn inhoud af, maar wanneer u woorden met sleutelwoord **heet** zoals *ik een hete drank* zou willen gebruiken, begint het kanaal de inhoud van het **HotDrinks** kanaal te spelen.
 
 Als u woorden gebruikt met een trefwoord dat **koud** is, zoals *ik iets koud* wil hebben, begint het kanaal met het afspelen van de inhoud van het **ColdDrinks** -kanaal.
 
-![newimage](assets/voice-recognition/voice-video.gif)
-
-In dit voorbeeld wordt de uitvoer op een Chrome-speler getoond.
+**Gewenste uitvoer voor gesplitste schermkanalen**
 
 Het **Hoofdkanaal** speelt zijn inhoud, maar wanneer u woorden met sleutelwoord **heet** en **koud** samen zoals *ik het menu voor hete en koude dranken* zou willen zien, begint het kanaal de inhoud van het **SplitScreen** kanaal te spelen. Als u *terug naar hoofdmenu* zegt, schakelt het terug naar het belangrijkste kanaal.
-
-![newimage](assets/voice-recognition/vr-video-2.gif)
-
-
-
-
-
-
 
 
 
