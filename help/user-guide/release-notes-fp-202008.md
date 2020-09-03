@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release voor Feature Pack 202008
 description: De pagina beschrijft de Nota's van de Versie voor de Pak 202008 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 5 uitgebracht.
 
-U kunt het nieuwste functiepakket voor AEM Screens 6.5.5 Release downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeer naar het tabblad **Adobe Experience Manager** en zoek naar **rasters** om het nieuwste functiepakket te krijgen.
+U kunt het nieuwste functiepakket voor AEM Screens 6.5.5 Release downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) met uw Adobe ID. Navigeer naar het tabblad **Adobe Experience Manager** en zoek naar **rasters** om het nieuwste functiepakket te krijgen.
 
 ## Releasedatum {#release-date}
 
