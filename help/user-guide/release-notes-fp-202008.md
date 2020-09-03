@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202008
 description: De pagina beschrijft de Nota's van de Versie voor de Pak 202008 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,9 @@ De releasedatum voor AEM Screens Feature Pack 202008 is 3 september 2020.
 
 ### Bekende problemen en oplossingen {#known-issues}
 
-Als u AEM Screens 6.5.5 Feature Pack gebruikt, moet u een omgeving instellen voor Windows of Android Player.
+Als u AEM Screens 6.5.5 Service Pack gebruikt, moet u een omgeving instellen voor Windows of Android Player.
+
+Stel het kenmerk **SameSite voor de cookies** met aanmelding van **Lax** in op **Geen** van **Adobe Experience Manager Web ConsoleConfiguration** op alle AEM auteur- en publicatieinstanties.
 
 * Zie [Windows 10 Player](implementing-windows-player.md#fp-environment-setup) implementeren voor meer informatie.
 
