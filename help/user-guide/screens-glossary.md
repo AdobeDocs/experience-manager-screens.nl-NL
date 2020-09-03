@@ -4,9 +4,9 @@ seo-title: Verklarende woordenlijst
 description: Volg deze pagina om de belangrijkste termijnen te begrijpen verbonden aan AEM Screens.
 seo-description: Volg deze pagina om de belangrijkste termijnen te begrijpen verbonden aan AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **Het Kanaal** van de toepassing Een Kanaal van de Toepassing toont een toepassing die door een ontwikkelaar wordt gecreeerd die interactieve inhoud toont.
 
 **Lus** van de trekLijn wordt gedefinieerd als *huis* of *nutteloze* staat wanneer de vertoning twee of meer staten heeft die het kan bestaan. Het is de taak om klanten aan te *trekken* naar het scherm en hen aan te moedigen zich aan te sluiten, meestal door het scherm aan te raken, maar ook door met een product te communiceren.
+
+**DayParting** DayParting verwijst naar het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. AEM Screens staat u toe om kanalen in termen van DayParting binnen een dag, een week, of een maand volgens het vereiste te plannen.
 
 **Apparaat** A apparaat heeft de capaciteit om de spelersoftware in werking te stellen om een visuele output te produceren. Het kan het weergeven van bijgesneden, geschaalde, vertaalde delen van algemene inhoud of ervaring besturen. De schermconfiguratie is gebonden aan een beeldscherm, maar kan worden vervangen in het geval een technisch defect optreedt.
 
