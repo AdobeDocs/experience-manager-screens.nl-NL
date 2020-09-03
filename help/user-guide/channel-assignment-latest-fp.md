@@ -3,9 +3,9 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina om meer te weten te komen over Kanaaltoewijzing en DayParting.
 translation-type: tm+mt
-source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1471'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ U kunt de volgende opties instellen:
 
 ### DayParting {#dayparting}
 
-DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. AEM Screens staat u toe om kanalen in termen van DayParting binnen een dag, een week, of een maand volgens het vereiste te plannen.
+DayParting verwijst naar het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. AEM Screens staat u toe om kanalen in termen van DayParting binnen een dag, een week, of een maand volgens het vereiste te plannen.
 
 De volgende voorbeelden verklaren DayParting in kanalen in drie verschillende scenario&#39;s:
 
