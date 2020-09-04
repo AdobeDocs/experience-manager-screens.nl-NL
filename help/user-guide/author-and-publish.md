@@ -4,9 +4,9 @@ seo-title: Auteur en publicatie configureren in AEM Screens
 description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
 seo-description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,8 @@ Voordat u aan de slag gaat met auteur- en publicatieservers, hebt u eerst kennis
 >
 >Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.4 Screens Feature Pack 2 hebt geïnstalleerd. Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
 
->[!Ibelangrijk]
+>[!IMPORTANT]
+>
 >Als u meer dan één publicatieexemplaar met dispatcher wilt gebruiken, moet u de dispatcher.om het even welk dossier in uw verzender bijwerken. Zie [Vaste sessies](dispatcher-configurations-aem-screens.md#enable-sticky-session) inschakelen voor meer informatie.
 
 ## Instanties voor auteur en publiceren configureren {#configuring-author-and-publish-instances}
