@@ -2,9 +2,9 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 translation-type: tm+mt
-source-git-commit: a9e13dca2ed8ac667356780db25cbe7e0c81c1c5
+source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,11 @@ Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Het doel v
 
 Als u spraakherkenning wilt implementeren in uw AEM Screens-project, moet u de spraakherkenning inschakelen voor de weergave en elk kanaal koppelen aan een unieke tag om een kanaalovergang te activeren.
 
-De volgende sectie beschrijft hoe u de eigenschap van de Erkenning van de Stem in een project van AEM Screens kunt toelaten en gebruiken.
+In de volgende sectie wordt beschreven hoe u de functie voor spraakherkenning in een AEM Screens-project kunt inschakelen en gebruiken.
 
 ## Inhoud weergeven in Volledig scherm of Kanaalschakelaar splitsen {#sequence-channel}
 
-Alvorens u de eigenschap van de Erkenning van de Stem gebruikt, zorg ervoor u een project en een kanaal met inhoud hebt opstelling voor uw project.
+Alvorens u de eigenschap van de stemerkenning gebruikt, zorg ervoor u een project en een kanaal met inhoud hebt opstelling voor uw project.
 
 1. Het volgende voorbeeld toont een demoproject genoemd **VoiceDemo** en drie opeenvolgingskanalen **Hoofd**, **ColdDrinks**, en **HotDrinks**, zoals aangetoond in het hieronder cijfer.
 
