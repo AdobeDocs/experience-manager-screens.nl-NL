@@ -4,9 +4,9 @@ seo-title: Dispatcher Configurations voor AEM Screens
 description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 seo-description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Voer de onderstaande stappen uit om de dispatcher voor een AEM Screens-project t
 
 ### Vaste sessies inschakelen {#enable-sticky-session}
 
-Als iemand meer dan één publicatie-instantie wil gebruiken met een dispatcher, moet hij of zij het bestand dispatcher.any bijwerken in de dispatcher.
+Als u meer dan één publicatieexemplaar met dispatcher wilt gebruiken, moet u het `dispatcher.any` dossier bijwerken.
 
 ```xml
 /stickyConnections {
