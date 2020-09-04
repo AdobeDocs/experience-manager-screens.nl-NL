@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -33,7 +33,8 @@ Ga naar de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com
 
 ### De Milieu van de vestiging voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
-U moet een omgeving instellen voor Android Player als u AEM Screens 6.5.5 Service Pack gebruikt.
+>[!NOTE]
+>U moet een omgeving instellen voor Android Player als u AEM Screens 6.5.5 Service Pack gebruikt.
 
 Stel het kenmerk **SameSite voor de cookies** met aanmelding van **Lax** in op **Geen** van **Adobe Experience Manager Web ConsoleConfiguration** op alle AEM auteur- en publicatieinstanties.
 
