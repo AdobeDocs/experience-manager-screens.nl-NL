@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
+source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -152,29 +152,70 @@ Een nieuwe vertoning genoemd als **TestDisplay** wordt nu toegevoegd aan uw plaa
 
 Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toewijzen om de inhoud te bekijken.
 
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay**.
+1. Navigeer naar de vereiste weergave vanuit **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay**.
 
 1. Tik/klik op Kanaal **** toewijzen op de actiebalk.
+
+   ![afbeelding](assets/kickstart/demo-assign1.png)
 
    Of
 
    Tik/klik op **Dashboard** op de actiebalk en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
 
+   ![afbeelding](assets/kickstart/demo-assign2.png)
+
 1. Het dialoogvenster **Kanaaltoewijzing** wordt geopend.
 
-1. Van de optie van **Montages** , kunt u het kanaal **door weg** of **door naam** kiezen, de Rol **van het** Kanaal, de **Prioriteit**********, de Methoden van ElementenSupportedEvents, en de Methoden van de Onderbreking ingaan. Bovendien kunt u de knopinfo voor aantrekken inschakelen vanuit dit dialoogvenster.
+1. Kies in de optie **Instellingen** het kanaal **per pad** en de **ondersteunde gebeurtenissen** als **Eerste Laden** en **Niet actief scherm**.
 
+   >[OPMERKING]
+   >De **Methoden** van de Rol **van het Kanaal,** Prioriteit **, en van de** Onderbreking zijn allen bevolkt door gebrek. Zie de sectie [Kanaaleigenschappen](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
+
+   ![afbeelding](assets/kickstart/demo-assign3.png)
+
+   Daarnaast kunt u ook het **activeringsvenster** en het **herhalingsschema** selecteren.
 
    >[!NOTE]
-   >Raadpleeg de sectie [Kanaaleigenschappen](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
-
-1. Selecteer bij de optie **Schema** de optie **Activeringsvenster** en **Herhalingsschema**.
+   >Het *Programma* van de Herhaling staat u toe om een terugkerend programma voor uw kanaal te plaatsen. U stelt meerdere herhalingsschema&#39;s voor een kanaal in.
+   >Zie [Herhalingsschema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) voor meer informatie.
 
 1. Klik op **Opslaan** als u de voorkeuren hebt geconfigureerd.
 
-### Een apparaat registreren {#registering-device}
+### Een apparaat registreren en Apparaat aan een Vertoning toewijzen{#registering-device}
 
 U moet het apparaat registreren via het AEM dashboard.
+
+>[!IMPORTANT]
+>De ChromeOS-speler kan als Chrome Browser-insteekmodule worden geïnstalleerd in de modus voor ontwikkelaars zonder dat hiervoor een daadwerkelijk chrome speler-apparaat nodig is. Volg onderstaande stappen voor installatie:
+>
+>1. Klik [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
+>1. Pak het uit en sla het op de schijf op.
+>1. Open Chrome-browser en selecteer **Extensies** in het menu of navigeer rechtstreeks naar ***chrome://extensions***.
+>1. Schakel de modus **Ontwikkelaar** in de rechterbovenhoek in.
+>1. Klik op **Niet-verpakt** laden in de linkerbovenhoek en laad niet-gecomprimeerde Chrome Player.
+>1. Controleer de **AEM Screens Chrome Player** -insteekmodule als deze beschikbaar is in de lijst met extensies.
+>1. Open een nieuw tabblad en klik op het pictogram **Apps** linksboven of navigeer rechtstreeks naar ***chrome://apps***.
+>1. Klik op **AEM Screens** -insteekmodule om Chrome Player te starten. Standaard wordt de speler gestart in de modus Volledig scherm. Druk op **esc** om de modus Volledig scherm af te sluiten.
+
+
+Wanneer uw ChromeOS-speler is ingeschakeld, voert u de onderstaande stappen uit om een Chrome-apparaat te registreren.
+
+1. Navigeer vanuit uw AEM naar de map **Devices** (Apparaten) van uw project.
+
+1. Tik/klik op **Apparaatbeheer** op de actiebalk.
+
+1. Tik/klik op de **apparaatregistratie** rechtsboven.
+
+1. Selecteer het gewenste apparaat en tik op het apparaat of klik op **Apparaat** registreren.
+
+1. Wacht tot het apparaat de registratiecode verzendt en tegelijkertijd de **Registratiecode** van uw apparaat van Chrome controleert.
+
+1. Als de **registratiecode** op beide computers hetzelfde is, tikt u op **Valideren** of klikt u op AEM.
+
+1. Stel de gewenste naam voor het apparaat in en klik op **Registreren**.
+
+1. Tik/klik op **Voltooien** om het registratieproces te voltooien.
+
 
 ### De inhoud weergeven in Chrome Player {#viewing-content-output}
 
