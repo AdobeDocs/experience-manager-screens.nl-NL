@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 1%
 
 ---
@@ -168,7 +168,8 @@ Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toew
 
 1. Kies in de optie **Instellingen** het kanaal **per pad** en de **ondersteunde gebeurtenissen** als **Eerste Laden** en **Niet actief scherm**.
 
-   >[OPMERKING]
+   >[!NOTE]
+   >
    >De **Methoden** van de Rol **van het Kanaal,** Prioriteit **, en van de** Onderbreking zijn allen bevolkt door gebrek. Zie de sectie [Kanaaleigenschappen](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
 
    ![afbeelding](assets/kickstart/demo-assign3.png)
