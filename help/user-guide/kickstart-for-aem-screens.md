@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
+source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1316'
 ht-degree: 1%
 
 ---
@@ -205,22 +205,51 @@ Wanneer uw ChromeOS-speler is ingeschakeld, voert u de onderstaande stappen uit 
 
 1. Tik/klik op **Apparaatbeheer** op de actiebalk.
 
+   ![afbeelding](assets/kickstart/demo-register1.png)
+
 1. Tik/klik op de **apparaatregistratie** rechtsboven.
 
 1. Selecteer het gewenste apparaat en tik op het apparaat of klik op **Apparaat** registreren.
 
+   ![afbeelding](assets/kickstart/demo-register2.png)
+
 1. Wacht tot het apparaat de registratiecode verzendt en tegelijkertijd de **Registratiecode** van uw apparaat van Chrome controleert.
+   ![afbeelding](assets/kickstart/demo-register3.png)
 
 1. Als de **registratiecode** op beide computers hetzelfde is, tikt u op **Valideren** of klikt u op AEM.
 
-1. Stel de gewenste naam voor het apparaat in en klik op **Registreren**.
+1. Stel de gewenste naam in als **ChromeDeviceforDemo** voor het apparaat en klik op **Registreren**.
+
+   ![afbeelding](assets/kickstart/demo-register4.png)
+
+1. Klik op Weergave **** toewijzen in het dialoogvenster **Apparaatregistratie gelukt** .
+
+   ![afbeelding](assets/kickstart/demo-register5.png)
+
+1. Selecteer het pad naar uw weergave als **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay** en klik op **Toewijzen**.
+
+   ![afbeelding](assets/kickstart/demo-device6.png)
+
+1. Nadat het apparaat is toegewezen, wordt de volgende bevestiging weergegeven.
+
+   ![afbeelding](assets/kickstart/demo-register8.png)
 
 1. Tik/klik op **Voltooien** om het registratieproces te voltooien.
 
+1. U moet het geregistreerde apparaat kunnen bekijken vanaf het weergavedashboard.
+
+   ![afbeelding](assets/kickstart/demo-register9.png)
 
 ### De inhoud weergeven in Chrome Player {#viewing-content-output}
 
-In dit voorbeeld wordt de uitvoer op een Chrome-speler getoond. Nadat u het kanaal aan de weergave hebt toegewezen, moet u het apparaat registreren bij een speler.
+Alle elementen in uw kanaal worden nu afgespeeld op uw Chrome-apparaat.
+
+Gefeliciteerd, je speelt nu content af via een AEM Screens-kanaal.
+
+![afbeelding](assets/kickstart/demo-video-screens.gif)
+
+
+
 
 
 
