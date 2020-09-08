@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
+source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -91,9 +91,9 @@ Wanneer u uw kanaal hebt ingesteld, moet u inhoud aan uw kanaal toevoegen die de
 
 Voer de onderstaande stappen uit om inhoud aan het kanaal (*TestChannel*) in uw project toe te voegen:
 
-1. Navigeer naar het *DemoProject* dat u hebt gemaakt en selecteer de map **Kanalen** .
+1. Navigeer naar het **DemoProject** dat u hebt gemaakt en selecteer de map **Kanalen** .
 
-1. Klik op **Bewerken** op de actiebalk (zie de onderstaande afbeelding). De redacteur voor *TestChannel* opent.
+1. Klik op **Bewerken** op de actiebalk (zie de onderstaande afbeelding). De redacteur voor **TestChannel** opent.
 
    ![afbeelding](assets/kickstart/demo-6.png)
 
@@ -112,7 +112,7 @@ Als u het kanaal eenmaal hebt ingesteld, moet u een locatie maken.
 
 Ga als volgt te werk om een nieuwe locatie voor uw project te maken:
 
-1. Navigeer naar het *demoProject* dat u hebt gemaakt en selecteer de map **Locations** .
+1. Navigeer naar het **demoProject** dat u hebt gemaakt en selecteer de map **Locations** .
 
 1. Klik op **+ Maken** op de actiebalk.
 
@@ -120,7 +120,7 @@ Ga als volgt te werk om een nieuwe locatie voor uw project te maken:
 
 1. Voer de **naam** voor uw locatie in (voer de titel in als *TestLocation*) en klik op **Maken**.
 
-De *testlocatie* wordt gemaakt en toegevoegd aan de map **Locations** .
+De **testlocatie** wordt gemaakt en toegevoegd aan de map **Locations** .
 
 
 ### Weergave voor locatie maken {#creating-display}
@@ -136,51 +136,41 @@ Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie mak
 
 1. Selecteer **Weergave** in de wizard **Maken** en klik op **Volgende**.
 
-1. Voer de **titel** in (*LobbyDisplay*).
+1. Voer de **titel** in als **LobbyDisplay** en klik op **Maken**.
 
-1. Klik op **Maken**.
-
-Een nieuwe vertoning (*TestDisplay*) wordt toegevoegd aan uw plaats *TestLocation)*, zoals aangetoond in hieronder figuur.
+Een nieuwe vertoning genoemd als **TestDisplay** wordt nu toegevoegd aan uw plaats **TestLocation**, zoals aangetoond in hieronder figuur.
 
 ### Een kanaal toewijzen {#assigning-channel}
 
-1. Navigeer naar de weergave vanuit *Test_Project* —> **Locaties** —> *TestLocation* —> *TestDisplay*.
+Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toewijzen om de inhoud te bekijken.
 
-1. Selecteer *Weergave* testen en tik/klik op Kanaal **** toewijzen op de actiebalk *Of*.
+1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay**.
 
-1. Klik op **dashboard** en selecteer **+Kanaal** toewijzen rechtsboven in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** , zoals in de onderstaande afbeelding wordt getoond. **Het dialoogvenster Kanaaltoewijzing** wordt geopend.
+1. Tik/klik op Kanaal **** toewijzen op de actiebalk.
 
-1. Referentiekanaal **op** **pad selecteren**
+   Of
 
-1. Voer de **kanaalrol** in als *LiveStream*.
+   Tik/klik op **Dashboard** op de actiebalk en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** .
 
-1. Selecteer het **Kanaalpad** (*Test_Project* —> *Kanalen* —> *TestChannel* ) in het **Kanaal**.
+1. Het dialoogvenster **Kanaaltoewijzing** wordt geopend.
 
-1. Selecteer **Prioriteit** voor dit kanaal als *1*.
-
-1. Kies de **Ondersteunde gebeurtenissen** als **Eerste Laden** en **Niet actief scherm**.
-
-1. Voer **Planning** in en selecteer de datums in **actieve modus van** en **actief tot**.
-
-1. Click **Save**.
-
-Het kanaal wordt gemaakt en aan het deelvenster toegevoegd.
+1. Van de optie van **Montages** , kunt u het kanaal **door weg** of **door naam** kiezen, de Rol **van het** Kanaal, de **Prioriteit**********, de Methoden van ElementenSupportedEvents, en de Methoden van de Onderbreking ingaan. Bovendien kunt u de knopinfo voor aantrekken inschakelen vanuit dit dialoogvenster.
 
 
+   >[!NOTE]
+   >Raadpleeg de sectie [Kanaaleigenschappen](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
+
+1. Selecteer bij de optie **Schema** de optie **Activeringsvenster** en **Herhalingsschema**.
+
+1. Klik op **Opslaan** als u de voorkeuren hebt geconfigureerd.
 
 ### Een apparaat registreren {#registering-device}
 
 U moet het apparaat registreren via het AEM dashboard.
 
->[!NOTE]
->U kunt de schermspeler openen met de AEM Screens-app die u hebt gedownload of met de webbrowser.
+### De inhoud weergeven in Chrome Player {#viewing-content-output}
+
+In dit voorbeeld wordt de uitvoer op een Chrome-speler getoond. Nadat u het kanaal aan de weergave hebt toegewezen, moet u het apparaat registreren bij een speler.
 
 
 
-### De inhoud weergeven in AEM Screens Player {#viewing-the-content-in-screens-player}
-
-Nadat u de bovenstaande configuraties hebt toegevoegd, geeft de speler automatisch het standaardkanaal voor de weergave op het apparaat weer.
-
-
-
-Zie [AEM Screens Player](working-with-screens-player.md) voor meer informatie over AEM Screens Player.
