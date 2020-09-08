@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
@@ -102,7 +105,7 @@ Het weergavedashboard biedt u verschillende deelvensters voor het beheer van wee
 >
 >U kunt de dashboardlijsten selecteren en bulkacties voor items activeren in plaats van elk item afzonderlijk te doorlopen.
 >
->In de volgende afbeelding ziet u bijvoorbeeld hoe u meerdere kanalen van het weergavedashboard kunt selecteren.
+>De volgende afbeelding laat bijvoorbeeld zien hoe u meerdere kanalen van het weergavedashboard kunt selecteren.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -110,33 +113,28 @@ Het weergavedashboard biedt u verschillende deelvensters voor het beheer van wee
 
 Het deelvenster **WEERGAVEINFORMATIE** bevat de weergave-eigenschappen.
 
-Klik op de (**...**) in de rechterbovenhoek in het deelvenster **WEERGAVEINFORMATIE **om de eigenschappen weer te geven en een voorvertoning van de weergave te bekijken.
+Klik op de (**...**) in de rechterbovenhoek in het deelvenster **WEERGAVEINFORMATIE** om de eigenschappen weer te geven en een voorvertoning van de weergave te bekijken.
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### Eigenschappen weergeven {#viewing-properties}
 
 Klik op **Eigenschappen** om de eigenschappen van de weergave weer te geven of te wijzigen.
 
-Bovendien kunt u de waarde van de gebeurtenistijdopnemer voor uw interactief kanaal in **Niet-actieve onderbreking **bezit onder het lusje van de **Vertoning** aanpassen. De standaardwaarde wordt ingesteld op *300 seconden*.
+Daarnaast kunt u de waarde van de gebeurtenistimer voor uw interactief kanaal aanpassen in de **eigenschap Niet-actieve time-out** onder het tabblad **Weergave** . De standaardwaarde wordt ingesteld op *300 seconden*.
 
 Gebruik **CRXDE Lite** om toegang te krijgen tot de eigenschap **idleTimeout** , dat wil zeggen, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### Deelvenster Toegewezen kanalen {#assigned-channels-panel}
 
 In het deelvenster **TOEGEWEZEN KANALEN** worden de aan dit apparaat toegewezen kanalen weergegeven.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### Deelvenster Apparaten {#devices-panel}
 
 Het deelvenster **APPARATEN** biedt informatie over de apparaatconfiguraties.
 
-Klik op de (**...**) in de hoogste juiste hoek in het **DEVICES **paneel om apparatenconfiguraties toe te voegen en apparaten bij te werken.
-
-![chlimage_1-12](assets/chlimage_1-12.png)
+Klik op de (**...**) in de rechterbovenhoek in het deelvenster **APPARATEN** om apparaatconfiguraties toe te voegen en apparaten bij te werken.
 
 Bovendien, klik op het apparaat config om eigenschappen te bekijken, een apparaat toe te wijzen, of het volledig te schrappen.
 
