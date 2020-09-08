@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: f2fef18cc73825b3f062a79c560097e8fd00ac9f
+source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 
 ## Zelfstudie {#tutorial}
 
-### Een nieuw AEM Screens-project maken {#creating-project}
+### Creating an AEM Screens Project {#creating-project}
 
 De eerste stap is het maken van een nieuw AEM Screens-project.
 
@@ -64,7 +64,7 @@ De eerste stap is het maken van een nieuw AEM Screens-project.
    >Zodra u het project creeert, brengt het u terug naar de homepage van het Project van de Schermen. U kunt nu uw project selecteren. In een project zijn er vijf verschillende mappen met de naam **Toepassingen**, **Kanalen**, **Apparaten**, **Locaties** en **Planningen**.
 
 
-### Een nieuw kanaal maken {#creating-channel}
+### Een kanaal maken {#creating-channel}
 
 Zodra u uw project op zijn plaats hebt, moet u een nieuw kanaal tot stand brengen waar u de inhoud beheert.
 
@@ -91,73 +91,62 @@ Wanneer u uw kanaal hebt ingesteld, moet u inhoud aan uw kanaal toevoegen die de
 
 Voer de onderstaande stappen uit om inhoud aan het kanaal (*TestChannel*) in uw project toe te voegen:
 
-1. Navigeer aan *Test_Project* u creeerde en selecteer de omslag van **Kanalen** .
+1. Navigeer naar het *DemoProject* dat u hebt gemaakt en selecteer de map **Kanalen** .
 
 1. Klik op **Bewerken** op de actiebalk (zie de onderstaande afbeelding). De redacteur voor *TestChannel* opent.
+
+   ![afbeelding](assets/kickstart/demo-6.png)
 
 1. Klik op het pictogram dat het zijpaneel links van de actiebalk in- en uitschakelt om de elementen en componenten te openen.
 
 1. Sleep de componenten die u aan het kanaal wilt toevoegen en zet deze neer.
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![afbeelding](assets/kickstart/demo-7.png)
 
-In dit voorbeeld wordt in de editor een afbeelding weergegeven die aan het kanaal is toegevoegd.
+### Een locatie maken {#creating-location}
 
-![chlimage_1-9](assets/chlimage_1-9.png)
+Als u het kanaal eenmaal hebt ingesteld, moet u een locatie maken.
 
-### Een nieuwe locatie maken {#creating-location}
-
-Wanneer u uw kanaal hebt ingesteld, moet u uw locatie maken.
-
-***De plaatsen*** compartimenteren uw diverse digitale signaalervaringen en bevatten de configuraties van de vertoningen volgens waar de diverse schermen zijn.
+>[!NOTE]
+>***De plaatsen*** compartimenteren uw diverse digitale signaalervaringen en bevatten de configuraties van de vertoningen volgens waar de diverse schermen zijn.
 
 Ga als volgt te werk om een nieuwe locatie voor uw project te maken:
 
-1. Navigeer aan *Test_Project* u creeerde en selecteer de omslag van **Plaatsen** .
+1. Navigeer naar het *demoProject* dat u hebt gemaakt en selecteer de map **Locations** .
 
-1. Klik op **Maken** naast het plusteken in de actiebalk (zie de onderstaande afbeelding). Er wordt een wizard geopend.
+1. Klik op **+ Maken** op de actiebalk.
+
 1. Selecteer **Locatie** in de wizard en klik op **Volgende**.
 
-1. Voer de **naam** en de **titel** voor uw locatie in (voer de titel in als *TestLocation*) en klik op **Maken**.
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. Voer de **naam** voor uw locatie in (voer de titel in als *TestLocation*) en klik op **Maken**.
 
 De *testlocatie* wordt gemaakt en toegevoegd aan de map **Locations** .
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### Een nieuwe weergave maken voor TestLocation {#creating-display}
+### Weergave voor locatie maken {#creating-display}
 
 Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie maken.
 
-***De vertoningen*** vertegenwoordigen de digitale ervaring die op één of veelvoudige schermen loopt.
+>[!NOTE]
+>***De vertoningen*** vertegenwoordigen de digitale ervaring die op één of veelvoudige schermen loopt.
 
-1. Navigeer naar de locatie waar u de weergave wilt maken (*Test_* Project —> **Locaties** —> *TestLocation)* , zoals aangegeven in de bovenstaande afbeelding, en selecteer *TestLocation*.
+1. Navigeer naar **TestLocation** en selecteer het.
 
 1. Klik op **Maken** op de actiebalk.
+
 1. Selecteer **Weergave** in de wizard **Maken** en klik op **Volgende**.
 
-1. Ga **Naam** en **Titel** voor uw vertoningsplaats in (ga de titel als *TestDisplay* in).
+1. Voer de **titel** in (*LobbyDisplay*).
 
-1. Kies onder het tabblad **Weergave** de details van de layout.
-
-   1. Kies de **resolutie** als **Full HD**.
-
-   1. Kies het **aantal apparaten horizontaal** als 1.
-
-   1. Kies het **aantal apparaten verticaal** als 1.
-
-   1. Klik op **Maken**.
+1. Klik op **Maken**.
 
 Een nieuwe vertoning (*TestDisplay*) wordt toegevoegd aan uw plaats *TestLocation)*, zoals aangetoond in hieronder figuur.
-
-![chlimage_1-12](assets/chlimage_1-12.png)
 
 ### Een kanaal toewijzen {#assigning-channel}
 
 1. Navigeer naar de weergave vanuit *Test_Project* —> **Locaties** —> *TestLocation* —> *TestDisplay*.
 
-1. Selecteer *Weergave* testen en tik/klik op **Kanaal toewijzen **vanuit de actiebalk *Of*,
+1. Selecteer *Weergave* testen en tik/klik op Kanaal **** toewijzen op de actiebalk *Of*.
 
 1. Klik op **dashboard** en selecteer **+Kanaal** toewijzen rechtsboven in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN** , zoals in de onderstaande afbeelding wordt getoond. **Het dialoogvenster Kanaaltoewijzing** wordt geopend.
 
@@ -177,7 +166,7 @@ Een nieuwe vertoning (*TestDisplay*) wordt toegevoegd aan uw plaats *TestLocatio
 
 Het kanaal wordt gemaakt en aan het deelvenster toegevoegd.
 
-![chlimage_1-15](assets/chlimage_1-15.png)
+
 
 ### Een apparaat registreren {#registering-device}
 
@@ -192,6 +181,6 @@ U moet het apparaat registreren via het AEM dashboard.
 
 Nadat u de bovenstaande configuraties hebt toegevoegd, geeft de speler automatisch het standaardkanaal voor de weergave op het apparaat weer.
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 Zie [AEM Screens Player](working-with-screens-player.md) voor meer informatie over AEM Screens Player.
