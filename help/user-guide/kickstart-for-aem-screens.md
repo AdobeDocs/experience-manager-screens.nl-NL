@@ -3,10 +3,10 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
+source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 0%
+source-wordcount: '985'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Deze sectie is een kickstart naar AEM Screens en laat zien hoe u een AEM Screens
 >[!NOTE]
 >Voordat u aan de projectdetails gaat werken, moet u eerst het nieuwste Feature Pack hebben geïnstalleerd. U kunt het nieuwste functiepakket voor AEM Screens 6.5.5 Release downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
 
-## Een Digital Signage-ervaring maken in 5 minuten {#creating-a-digital-signage-experience-in-minutes}
+## Vereisten {#prerequisites}
 
 Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te maken en inhoud verder te publiceren naar de Schermspeler.
 
@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 1. Klik op **Opslaan** om het filter Leeg toestaan voor Apache-schuifverwijzing in te schakelen.
 
 
-## Zelfstudie {#tutorial}
+## Een Digital Signage-ervaring maken in 5 minuten {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
@@ -134,11 +134,19 @@ Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie mak
 
 1. Klik op **Maken** op de actiebalk.
 
+   ![afbeelding](assets/kickstart/demo-disp1.png)
+
 1. Selecteer **Weergave** in de wizard **Maken** en klik op **Volgende**.
+
+   ![afbeelding](assets/kickstart/demo-disp2.png)
 
 1. Voer de **titel** in als **LobbyDisplay** en klik op **Maken**.
 
+   ![afbeelding](assets/kickstart/demo-disp3.png)
+
 Een nieuwe vertoning genoemd als **TestDisplay** wordt nu toegevoegd aan uw plaats **TestLocation**, zoals aangetoond in hieronder figuur.
+
+![afbeelding](assets/kickstart/demo-disp4.png)
 
 ### Een kanaal toewijzen {#assigning-channel}
 
