@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ In de volgende secties wordt beschreven hoe u fouten kunt opsporen in het afspel
 
 ## DAM-uitvoeringen {#dam-renditions}
 
-Nadat u de video naar het kanaal hebt geüpload, moet AEM een aantal uitvoeringen voor de video gaan maken. U kunt uw video&#39;s weergeven onder Middelen.
+Nadat u de video naar het kanaal hebt geüpload, moet AEM beginnen met het maken van enkele uitvoeringen voor de video. U kunt uw video&#39;s weergeven onder Middelen.
 
 De video weergeven:
 
@@ -32,17 +35,17 @@ De video weergeven:
 
 Er moeten verschillende uitvoeringen zijn (een MP4 of M4V).
 
-Als er geen uitvoering is, controleert u of MPEG is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
+Als er geen uitvoering is, controleert u of mpeg is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
 
 >[!CAUTION]
 >
->Als er geen uitvoering is, controleert u of MPEG is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
+>Als er geen uitvoering is, controleert u of mpeg is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
 >
 >Klik [hier](https://www.ffmpeg.org/download.html) om fmpeg te installeren.
 
 ## Video-elementen {#video-assets}
 
-Als u geen bronkenmerk onder video ziet, kan het zijn dat de video niet is getranscodeerd. Als de video op de juiste wijze is getranscodeerd, wordt deze weergegeven in het dashboard, zoals in de onderstaande afbeelding wordt getoond.
+Als u geen bronkenmerk onder video ziet, kan het zijn dat de video niet is gecodeerd. Als de video op de juiste wijze is getranscodeerd, wordt deze weergegeven in het dashboard, zoals in de onderstaande afbeelding wordt getoond.
 
 Controleer of mpeg is geïnstalleerd en of de videoprofielen zijn geïnstalleerd.
 
@@ -78,9 +81,9 @@ Controleer de lijst met profielen in het paginaontwerp als de videocomponent nie
 
 1. Selecteer de video en open het dialoogvenster **Bewerken** . Open het tabblad **Profielen** .
 
-   Selecteer verschillende profielen (er moet ten minste het profiel &quot;Hoge kwaliteit H.264&quot; zijn).
+   >[!OPMERKING
+   >Selecteer verschillende profielen (er moet ten minste het profiel &quot;Hoge kwaliteit H.264&quot; zijn).
 
-   ![chlimage_1-7](assets/chlimage_1-7.png)
 
 ### De video controleren in de webspeler {#checking-the-video-in-the-web-player}
 
@@ -103,7 +106,7 @@ Ga als volgt te werk om een DAM-workflow te gebruiken om FullHD-uitvoeringen te 
 
 #### Problemen met AutoPlay-beleidsmarkering oplossen {#troubleshooting-autoplay-policy-flag}
 
-Als de video wordt opgehaald door de AEM Screens-speler, maar niet wordt weergegeven, moet u de markering Beleid automatisch afspelen oplossen.
+Als de AEM Screens-speler de video oppikt maar niet wordt weergegeven, moet u de markering Beleid automatisch afspelen oplossen.
 
 Voer de onderstaande stappen uit om het probleem met de automatisch afspeelbeleidsmarkering van google op te lossen:
 
@@ -140,11 +143,10 @@ Volg de onderstaande stappen om een absolute strategie op te zetten:
 1. Open het configuratievenster.
 1. Bewerk de **strategie** en voeg absolute waarden toe.
 
-![chlimage_1-8](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
->[!NOTE]
->
->Het besturingssysteem van de spelers moet dezelfde klok hebben.
+   >[!NOTE]
+   >Het besturingssysteem van de spelers moet dezelfde klok hebben.
 
 **Uitlijnen op klokken in OS X** Volg de onderstaande stappen om de klokken uit te lijnen op OSX:
 
