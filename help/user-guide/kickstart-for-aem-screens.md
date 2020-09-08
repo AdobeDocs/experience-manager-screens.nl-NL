@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,9 @@ Ga als volgt te werk om een nieuw kanaal voor uw project te maken:
 
    ![afbeelding](assets/kickstart/demo-4.png)
 
-Het *bestand TestChannel* wordt gemaakt en aan de map met kanalen toegevoegd, zoals in de onderstaande afbeelding wordt getoond.
+   Het *bestand TestChannel* wordt gemaakt en aan de map met kanalen toegevoegd, zoals in de onderstaande afbeelding wordt getoond.
 
-![afbeelding](assets/kickstart/demo-5.png)
+   ![afbeelding](assets/kickstart/demo-5.png)
 
 ### Inhoud toevoegen aan een kanaal {#adding-content}
 
@@ -144,9 +144,9 @@ Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie mak
 
    ![afbeelding](assets/kickstart/demo-disp3.png)
 
-Een nieuwe vertoning genoemd als **TestDisplay** wordt nu toegevoegd aan uw plaats **TestLocation**, zoals aangetoond in hieronder figuur.
+   Een nieuwe vertoning genoemd als **TestDisplay** wordt nu toegevoegd aan uw plaats **TestLocation**, zoals aangetoond in hieronder figuur.
 
-![afbeelding](assets/kickstart/demo-disp4.png)
+   ![afbeelding](assets/kickstart/demo-disp4.png)
 
 ### Een kanaal toewijzen {#assigning-channel}
 
@@ -182,7 +182,7 @@ Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toew
 
 1. Klik op **Opslaan** als u de voorkeuren hebt geconfigureerd.
 
-### Een apparaat registreren en Apparaat aan een Vertoning toewijzen{#registering-device}
+### Een apparaat registreren en Apparaat aan een Vertoning toewijzen {#registering-device}
 
 U moet het apparaat registreren via het AEM dashboard.
 
@@ -244,7 +244,7 @@ Wanneer uw ChromeOS-speler is ingeschakeld, voert u de onderstaande stappen uit 
 
 Alle elementen in uw kanaal worden nu afgespeeld op uw Chrome-apparaat.
 
-Gefeliciteerd, je speelt nu content af via een AEM Screens-kanaal.
+Gefeliciteerd, u speelt nu inhoud in een AEM Screens-kanaal af.
 
 ![afbeelding](assets/kickstart/demo-video-screens.gif)
 
