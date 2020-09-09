@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Volg de onderstaande stappen om te controleren of deze twee vitale configuraties
    ![elementen](assets/health-check1.png)
 
 
-2. Klik op Geselecteerde **gezondheidscontroles** uitvoeren om de validatie voor twee hierboven vermelde eigenschappen uit te voeren.
+2. Klik op Geselecteerde health checks **uitvoeren** om de validatie voor twee hierboven vermelde eigenschappen uit te voeren.
 
    Als beide filters worden toegelaten, dan toont de Dienst **van de Gezondheid van de Configuratie van de** Schermen het **Resultaat** zoals **OK** met beide configuraties zoals toegelaten.
 
@@ -108,7 +108,7 @@ AEM Screens vereist TOUCH UI en werkt niet met CLASSIC UI of Adobe Experience Ma
 1. Navigeer naar *&lt;yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Zorg ervoor dat de **standaardontwerpmodus** is ingesteld op **TOUCH**, zoals in de onderstaande afbeelding wordt getoond
 
-U kunt ook dezelfde instelling uitvoeren met *&lt;yourAuthorInstance>*->*tools (hamerpictogram)* -> **Bewerkingen** -> **Webconsole** en zoeken naar **WCM Authoring UI Mode Service**.
+U kunt ook dezelfde instelling uitvoeren met de gereedschappen AuteurInstance *->* (hamerpictogram) -> **Bewerkingen** -> **Webconsole** en zoeken naar de **WCM Authoring UI Mode Service**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ U kunt ook dezelfde instelling uitvoeren met *&lt;yourAuthorInstance>*->*tools (
 
 #### AEM in de runmode NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
-Bij het uitvoeren van AEM in productie wordt de **runmode NOSAMPLECONTENT** gebruikt. De header *X-Frame-Options=SAMEORIGIN* verwijderen (in de sectie voor de extra responsheader)
+Bij het uitvoeren van AEM in productie wordt de **runmode NOSAMPLECONTENT** gebruikt. Verwijder de *X-Frame-Options=SAMEORIGIN* -header (in de extra sectie voor de responsheader)
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -136,7 +136,7 @@ Voer de onderstaande stappen uit om ***DeviceServiceImpl*** te configureren:
 
 1. Ga naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
-1. **Adobe Experience Manager Web Console Configuration **wordt geopend. Zoeken naar apparaatservice. Voor het zoeken van het bezit, druk **Command+F** voor **MAC** en **Control+F** voor **Vensters**.
+1. **Adobe Experience Manager Web Console Configuration **wordt geopend. Zoeken naar *apparaatservice*. Voor het zoeken van het bezit, druk **Command+F** voor **MAC** en **Control+F** voor **Vensters**.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
