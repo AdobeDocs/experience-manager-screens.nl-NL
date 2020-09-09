@@ -11,7 +11,10 @@ topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +29,9 @@ Als uw Google-bladen voor dit geval een waarde van minder dan 50 hebben, wordt e
 
 ## Voorwaarden {#preconditions}
 
-Voordat u begint met het implementeren van de lokale temperatuuractivering van het reiscentrum, moet u leren hoe u ***Gegevensopslag***, ***Audience Segmentation*** instelt en gericht maken voor kanalen ***in een AEM-schermproject*** inschakelen.
+Voordat u begint met het implementeren van de lokale temperatuuractivering van het reiscentrum, moet u leren hoe u ***Gegevensopslag***, Segmentatie ***van het*** publiek en ***Doelstelling voor kanalen*** inschakelen in een AEM Screens-project instelt.
 
-Verwijs naar het [Vormen ContextHub in Schermen](configuring-context-hub.md) AEM voor gedetailleerde informatie.
+Verwijs naar het [Vormen ContextHub in AEM Screens](configuring-context-hub.md) voor gedetailleerde informatie.
 
 ## Basisstroom {#basic-flow}
 
@@ -38,27 +41,28 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    1. Navigeer naar het Google-werkblad ContextHubDemo.
    1. Voeg een kolom met **Kop1** met overeenkomstige waarde voor temperatuur toe.
+
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
 1. **De segmenten in soorten publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie*** van het publiek van de vestiging in het **[Vormen ContextHub in AEM de pagina van Schermen](configuring-context-hub.md)**voor meer details).
+   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie*** van het Publiek van de vestiging in het **[Vormen ContextHub in de pagina van AEM Screens](configuring-context-hub.md)** voor meer details).
 
    1. Selecteer de **bladen A1 1** en klik op **Bewerken**.
 
    1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
    1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**
 
-   1. Selecteer de **exploitant** als **groter-dan-of-gelijk **van het drop-down menu
+   1. Selecteer de **operator** als **groter dan of gelijk aan** in het keuzemenu
 
    1. Voer de **waarde** in als **50**
 
-   1. Selecteer op dezelfde manier de ** Bladen A1 2 **en klik **uitgeven**.
+   1. Selecteer op dezelfde manier de bladen A1 2 **en klik op** Bewerken ****.
 
    1. Selecteer het bezit van de **Vergelijking - Waarde** en klik vormen pictogram om de eigenschappen uit te geven.
    1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**
 
-   1. Selecteer de **exploitant** als **minder-dan **van het drop-down menu
+   1. Selecteer de **operator** als **kleiner dan** in het keuzemenu
 
    1. Voer de **waarde** in als **50**
 
@@ -66,7 +70,7 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    >[!NOTE]
    >
-   >Uw kanaal zou reeds een standaardbeeld moeten hebben en het publiek zou pre-gevormd moeten zijn zoals die in het [Vormen ContextHub in de Schermen](configuring-context-hub.md)van AEM wordt beschreven.
+   >Uw kanaal zou reeds een standaardbeeld moeten hebben en het publiek zou pre-gevormd moeten zijn zoals die in het [Vormen ContextHub in AEM Screens](configuring-context-hub.md)wordt beschreven.
 
    ![screen_shot_2019-05-08at113022am](assets/screen_shot_2019-05-08at113022am.png)
 
@@ -84,5 +88,6 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    1. Klik op **Voorvertoning.** Open ook uw Google-werkblad en werk de waarde ervan bij.
    1. Als u de waarde wijzigt in minder dan 50, kunt u de afbeelding van zomerdranken bekijken. Als de waarde in het Google-blad 50 of hoger is dan zou moeten kunnen worden bekeken of er een afbeelding van warme drank is.
+
    ![result3](assets/result3.gif)
 
