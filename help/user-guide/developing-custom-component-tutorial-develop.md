@@ -1,8 +1,8 @@
 ---
-title: Een aangepaste component voor AEM-schermen ontwikkelen
-seo-title: Een aangepaste component voor AEM-schermen ontwikkelen
-description: De volgende zelfstudie doorloopt de stappen om een aangepaste component voor AEM-schermen te maken. AEM-schermen gebruiken veel bestaande ontwerppatronen en technologieën van andere AEM-producten opnieuw. De zelfstudie benadrukt verschillen en speciale overwegingen bij het ontwikkelen voor AEM-schermen.
-seo-description: Een inleidende zelfstudie om een eenvoudige component "Hello World" voor AEM-schermen te maken. AEM-schermen gebruiken veel bestaande ontwerppatronen en technologieën van andere AEM-producten opnieuw. De volgende zelfstudie is bedoeld om de specifieke verschillen en overwegingen te benadrukken bij het ontwikkelen voor AEM-schermen.
+title: Een aangepaste component voor AEM Screens ontwikkelen
+seo-title: Een aangepaste component voor AEM Screens ontwikkelen
+description: De volgende zelfstudie doorloopt de stappen om een aangepaste component voor AEM Screens te maken. AEM Screens gebruikt veel bestaande ontwerppatronen en technologieën van andere AEM. In de zelfstudie worden verschillen en speciale overwegingen benadrukt bij het ontwikkelen voor AEM Screens.
+seo-description: Een inleidende zelfstudie om een eenvoudige component "Hello World" voor AEM Screens samen te stellen. AEM Screens gebruikt veel bestaande ontwerppatronen en technologieën van andere AEM. In de volgende zelfstudie wordt gewezen op de specifieke verschillen en overwegingen bij het ontwikkelen voor AEM Screens.
 uuid: 8ec8be5a-6348-48f2-9cb7-75b2bad555a6
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,18 +10,21 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: a60de02a19004dd4d971612496f65285ded55716
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 0%
 
 ---
 
 
-# Een aangepaste component voor AEM-schermen ontwikkelen {#developing-a-custom-component-for-aem-screens}
+# Een aangepaste component voor AEM Screens ontwikkelen {#developing-a-custom-component-for-aem-screens}
 
-De volgende zelfstudie doorloopt de stappen om een aangepaste component voor AEM-schermen te maken. AEM-schermen gebruiken veel bestaande ontwerppatronen en technologieën van andere AEM-producten opnieuw. De zelfstudie benadrukt verschillen en speciale overwegingen bij het ontwikkelen voor AEM-schermen.
+De volgende zelfstudie doorloopt de stappen om een aangepaste component voor AEM Screens te maken. AEM Screens gebruikt veel bestaande ontwerppatronen en technologieën van andere AEM. In de zelfstudie worden verschillen en speciale overwegingen benadrukt bij het ontwikkelen voor AEM Screens.
 
 ## Overzicht {#overview}
 
-Deze zelfstudie is bedoeld voor ontwikkelaars die geen ervaring hebben met AEM-schermen. In deze zelfstudie wordt een eenvoudige component &quot;Hello World&quot; gemaakt voor een volgnummer in AEM-schermen. In een dialoogvenster kunnen auteurs de weergegeven tekst bijwerken.
+Deze zelfstudie is bedoeld voor nieuwe ontwikkelaars van AEM Screens. In deze zelfstudie wordt een eenvoudige component &quot;Hello World&quot; gemaakt voor een volgnummer in AEM Screens. In een dialoogvenster kunnen auteurs de weergegeven tekst bijwerken.
 
 ![overzien](assets/overviewhellow.png)
 
@@ -31,22 +34,22 @@ Voor het voltooien van deze zelfstudie is het volgende nodig:
 
 1. [AEM 6.5](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) of [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + Latest Screen Feature Pack
 
-1. [AEM-schermspeler](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
+1. [AEM Screens Player](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Lokale ontwikkelomgeving
 
-De lesstappen en schermafbeeldingen worden uitgevoerd met **CRXDE-Lite**. IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Hier vindt u meer informatie over het gebruik van een IDE voor de ontwikkeling [met AEM.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
+De lesstappen en schermafbeeldingen worden uitgevoerd met **CRXDE-Lite**. IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Meer informatie over het gebruiken van winde om [met AEM te ontwikkelen kan hier worden gevonden.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#eclipse-ide)
 
 
 ## Projectinstelling {#project-setup}
 
-De broncode van een project van het Scherm wordt typisch geleid als multi-module Maven project. Om de zelfstudie te versnellen, werd een project pre-geproduceerd gebruikend het Archetype 13 van het Project van [AEM](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype). Meer informatie over het [maken van een project met Maven AEM Project Archetype vindt u hier](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).
+De broncode van een project van het Scherm wordt typisch geleid als multi-module Maven project. Om de zelfstudie te versnellen, werd een project pre-geproduceerd gebruikend [AEM Archetype 13](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype)van het Project. Meer informatie over het [maken van een project met Maven AEM Project Archetype vindt u hier](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html#maven-multimodule).
 
 1. Download en installeer de volgende pakketten met behulp van [CRX package manager](http://localhost:4502/crx/packmgr/index.jsp):
 
    [Bestand ophalen](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Bestand ophalen](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   **Optioneel** als u werkt met Eclipse of een andere IDE, wordt het onderstaande bronpakket gedownload. Implementeer het project in een lokale AEM-instantie met de opdracht Maven:
+   **Optioneel** als u werkt met Eclipse of een andere IDE, wordt het onderstaande bronpakket gedownload. Stel het project aan een lokale AEM instantie op door het Maven bevel te gebruiken:
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -58,6 +61,7 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
+
    ![Schermen die wij.Retail Run UI.Apps en Ui.Content pakketten installeren via CRX Package Manager](assets/crx-packages.png)
 
    Schermen die wij.Retail Run UI.Apps en Ui.Content pakketten installeren via CRX Package Manager
@@ -81,19 +85,20 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
    * `/conf/we-retail-run`
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
+
    Dit pakket bevat de eerste inhoud en configuratiestructuur die nodig zijn voor het project. **`/conf/we-retail-run`** Bevat alle configuraties voor het project van de Looppas Wij.Retail. **`/content/dam/we-retail-run`** omvat het starten van digitale elementen voor het project. **`/content/screens/we-retail-run`** bevat de structuur van de inhoud van het Scherm. De inhoud onder al deze paden wordt voornamelijk in AEM bijgewerkt. Om de consistentie tussen omgevingen (lokaal, Ontwikkelen, Stage, Prod) te bevorderen, wordt vaak een basisinhoudsstructuur opgeslagen in bronbeheer.
 
-1. **Navigeer naar de schermen AEM > Wij.Retail Run-project:**
+1. **Navigeer naar het AEM Screens > We.Retail Run-project:**
 
-   Klik in het menu Start van AEM op het pictogram Schermen. Verifieer het Web.Retail Project van de Looppas kan worden gezien.
+   Klik in het menu AEM Start > op het pictogram Schermen. Verifieer het Web.Retail Project van de Looppas kan worden gezien.
 
    ![wij-kleinhandelaarster](assets/we-retaiul-run-starter.png)
 
 ## De Hello World-component maken {#hello-world-cmp}
 
-De component Hello World is een eenvoudige component waarmee een gebruiker een bericht kan invoeren dat op het scherm moet worden weergegeven. De component is gebaseerd op de sjabloon van de component [AEM-schermen: https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
+De component Hello World is een eenvoudige component waarmee een gebruiker een bericht kan invoeren dat op het scherm moet worden weergegeven. De component is gebaseerd op de [AEM Screens-componentsjabloon: https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template).
 
-De Schermen van AEM heeft sommige interessante beperkingen die niet noodzakelijk voor traditionele componenten van Plaatsen WCM waar zijn.
+AEM Screens heeft sommige interessante beperkingen die niet noodzakelijk waar voor traditionele componenten van Plaatsen WCM zijn.
 
 * De meeste componenten van het Scherm moeten in volledig scherm op de doeldigitale signaalapparaten lopen
 * De meeste componenten van het Scherm moeten in de opeenvolgingskanalen kunnen worden ingebed om diapresentaties te produceren
@@ -137,7 +142,8 @@ De Schermen van AEM heeft sommige interessante beperkingen die niet noodzakelijk
 
    1. **Productie**: Modus Voorvertoning of Publiceren (wcmmode=disabled)
    1. **Bewerken**: worden gebruikt voor alle andere ontwerpmodi, zoals bewerken, ontwerpen, basiskleur, ontwikkelaar...
-   `helloworld.html`doet dienst als schakelaar, die welke auteurswijze momenteel actief controleert en aan een ander manuscript van HTML opnieuw richt. Een algemene conventie die door schermcomponenten wordt gebruikt, is een `edit.html` script voor de modus Bewerken en een `production.html` script voor de modus Productie.
+
+   `helloworld.html`doet dienst als schakelaar, die welke auteurswijze momenteel actief controleert en aan een ander manuscript van HTML opnieuw richt. Een algemene conventie die door schermcomponenten wordt gebruikt, is een `edit.html` script voor de bewerkingsmodus en een `production.html` script voor de productiemodus.
 
 1. Een bestand maken onder de `/apps/weretail-run/components/content/helloworld` naam `production.html.`
 
@@ -158,7 +164,7 @@ De Schermen van AEM heeft sommige interessante beperkingen die niet noodzakelijk
 
    De component rendert een `div` en een `h1` tag met tekst. `${properties.message}` is een deel van het manuscript van HTML dat de inhoud van een bezit zal uitvoeren JCR genoemd `message`. Later wordt een dialoogvenster gemaakt waarin een gebruiker een waarde voor de `message` eigenschapstekst kan invoeren.
 
-   Merk ook op dat BEM-notatie (Block Element Modifier) wordt gebruikt met de component. BEM is een CSS-coderingsconventie die het gemakkelijker maakt om herbruikbare componenten te maken. BEM is de notatie die wordt gebruikt door [AEM&#39;s Core Components](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). Meer informatie is te vinden op: [https://getbem.com/](https://getbem.com/)
+   Merk ook op dat BEM-notatie (Block Element Modifier) wordt gebruikt met de component. BEM is een CSS-coderingsconventie die het gemakkelijker maakt om herbruikbare componenten te maken. BEM is de notatie die wordt gebruikt door [AEM Core Components](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). Meer informatie is te vinden op: [https://getbem.com/](https://getbem.com/)
 
 1. Een bestand maken onder de `/apps/weretail-run/components/content/helloworld` naam `edit.html.`
 
@@ -195,6 +201,7 @@ De Schermen van AEM heeft sommige interessante beperkingen die niet noodzakelijk
 
    1. Het dialoogvenster kopiëren van: `/libs/screens/core/components/content/image/cq:dialog`
    1. Het dialoogvenster onder plakken `/apps/weretail-run/components/content/helloworld`
+
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
 1. **Werk het dialoogvenster Hello World bij en voeg een tabblad voor het bericht toe.**
@@ -267,7 +274,7 @@ De Schermen van AEM heeft sommige interessante beperkingen die niet noodzakelijk
 
 Client-Side Libraries bieden een mechanisme voor het organiseren en beheren van CSS- en JavaScript-bestanden die nodig zijn voor een AEM-implementatie.
 
-AEM-rastercomponenten worden anders weergegeven in de bewerkingsmodus dan in de modus Voorbeeld/productie. Er worden twee clientbibliotheken gemaakt: een voor de bewerkingsmodus en een tweede voor Voorvertoning/Productie.
+AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in de modus Voorbeeld/productie. Er worden twee clientbibliotheken gemaakt: een voor de bewerkingsmodus en een tweede voor Voorvertoning/Productie.
 
 1. Maak een map voor client-side bibliotheken voor de component Hello World.
 
@@ -284,6 +291,7 @@ AEM-rastercomponenten worden anders weergegeven in de bewerkingsmodus dan in de 
    * `allowProxy` | Boolean | `true`
 
    * `categories`| String[] | `cq.screens.components`
+
    ![Eigenschappen voor /apps/weretail-run/components/content/helloworld/clientlibs/shared](assets/2018-05-03_at_1026pm.png)
 
    Eigenschappen voor /apps/weretail-run/components/content/helloworld/clientlibs/shared
@@ -306,7 +314,7 @@ AEM-rastercomponenten worden anders weergegeven in de bewerkingsmodus dan in de 
 
    ![2018-04-30_11:00](assets/2018-04-30_at_3_11pm.png)
 
-   In plaats van CSS rechtstreeks te schrijven, gebruikt deze zelfstudie LESS. [LESS](https://lesscss.org/) is een populaire voorcompiler van CSS die CSS variabelen, mixins, en functies steunt. AEM-clientbibliotheken bieden native ondersteuning voor LESS-compilatie. De klasse of andere pre-compilers kunnen worden gebruikt maar moeten buiten AEM worden samengesteld.
+   In plaats van CSS rechtstreeks te schrijven, gebruikt deze zelfstudie LESS. [LESS](https://lesscss.org/) is een populaire voorcompiler van CSS die CSS variabelen, mixins, en functies steunt. AEM clientbibliotheken ondersteunen native LESS-compilatie. De klasse of andere pre-compilers kunnen worden gebruikt maar moeten buiten AEM worden gecompileerd.
 
 1. Vul `/apps/weretail-run/components/content/helloworld/clientlibs/shared/css/styles.less` met het volgende:
 
@@ -377,7 +385,7 @@ Een derde categorie clientbibliotheek: `cq.screens.components.edit` kan worden g
 
 ## Een ontwerppagina maken {#design-page}
 
-In AEM-schermen worden [statische paginasjablonen](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html) en [ontwerpconfiguraties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) gebruikt voor algemene wijzigingen. De configuraties van het ontwerp worden vaak gebruikt om toegestane componenten voor Parsys op een kanaal te vormen. U kunt deze configuraties het beste op een toepassingsspecifieke manier opslaan.
+AEM Screens gebruikt [statische paginasjablonen](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html) en [ontwerpconfiguraties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) voor algemene wijzigingen. De configuraties van het ontwerp worden vaak gebruikt om toegestane componenten voor Parsys op een kanaal te vormen. U kunt deze configuraties het beste op een toepassingsspecifieke manier opslaan.
 
 Onder een Web.Retail pagina van het Ontwerp van de Looppas wordt gecreeerd die alle configuraties specifiek voor het Web.Retail project van de Looppas zal opslaan.
 
@@ -399,11 +407,12 @@ Onder een Web.Retail pagina van het Ontwerp van de Looppas wordt gecreeerd die a
 
 De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de component te testen, wordt een nieuw Kanaal van de Opeenvolging gecreeerd.
 
-1. Navigeer in het menu Start van AEM naar **Schermen** > **We.Retail** Run > en selecteer **Kanalen**.
+1. Navigeer in het menu AEM Start naar **Schermen** > **We.Retail** Run > en selecteer **Kanalen**.
 
 1. Klik op de knop **Maken**
 
    1. Entiteit **maken kiezen**
+
    ![2018-04-30_17_05](assets/2018-04-30_at_5_18pm.png)
 
 1. In de wizard Maken:
@@ -413,6 +422,7 @@ De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de compo
    1. Eigenschappenstap
    * Basic Tab > Title = **Indle Channel**
    * Tabblad Kanaal > Kanaal online **maken controleren**
+
    ![niet-kanaals](assets/idle-channel.gif)
 
 1. Open de pagina-eigenschappen voor het onactieve kanaal. Werk het veld Ontwerp bij om naar `/apps/settings/wcm/designs/we-retail-run,`de ontwerppagina te verwijzen die in de vorige sectie is gemaakt.
@@ -428,6 +438,7 @@ De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de compo
    1. Klik het **moersleutelpictogram** in Parsys om de toegestane componenten te vormen
 
    1. Selecteer de **groep Schermen** en de groep **We.Retail Run - Content** .
+
    ![2018-04-30_om_5_43:00](assets/2018-04-30_at_5_43pm.png)
 
 1. Schakel de paginamodus in op **Bewerken**. De component Hello World kan nu aan de pagina worden toegevoegd en met andere componenten van het opeenvolgingskanaal worden gecombineerd.
@@ -543,7 +554,7 @@ In de onderstaande video ziet u de voltooide component en de manier waarop deze 
 
 ## Voltooide code {#finished-code}
 
-Hieronder ziet u de voltooide code uit de zelfstudie. De gecompileerde AEM-pakketten zijn **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** en **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** . **SRC-screens-weretail-looppas-0.0.1.zip **is de niet-gecompileerde broncode die kan worden opgesteld gebruikend Maven.
+Hieronder ziet u de voltooide code uit de zelfstudie. De **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** en **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** zijn de gecompileerde AEM pakketten. **SRC-screens-weretail-looppas-0.0.1.zip **is de niet-gecompileerde broncode die kan worden opgesteld gebruikend Maven.
 
 [Bestand ophalen](assets/screens-weretail-runuiapps-001-snapshot.zip)
 
