@@ -11,12 +11,15 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 1%
 
 ---
 
 
-# Duur van afspelen van bulkafbeelding op kanaalniveau{#channel-level-bulk-image-playback-duration}
+# Duur van afspelen van bulkafbeelding op kanaalniveau {#channel-level-bulk-image-playback-duration}
 
 ## Overzicht {#overview}
 
@@ -24,17 +27,17 @@ Nadat u een volgnummer hebt gemaakt en er afbeeldingen aan hebt toegevoegd, neme
 
 ### Vereisten {#prerequisites}
 
-Voordat u deze functionaliteit gaat implementeren, moet u ervoor zorgen dat u een project hebt ingesteld als voorwaarde voor het implementeren van deze functionaliteit. Bijvoorbeeld:
+Voordat u deze functionaliteit gaat implementeren, moet u ervoor zorgen dat u een project hebt ingesteld als voorwaarde voor het implementeren van deze functionaliteit. Bijvoorbeeld,
 
-1. Een AEM-schermproject maken (in dit voorbeeld **ChannelLevelPlayback**)
+1. Maak een AEM Screens-projectvoorbeeld, **ChannelLevelPlayback**.
 
-1. Een sequentiekanaal maken als **PlaybackChannel** onder de map **Kanalen**
+1. Maak een volgnummer als **PlaybackChannel** onder de map **Kanalen** .
 
-1. Inhoud toevoegen aan **PlaybackChannel**
+1. Voeg inhoud toe aan **PlaybackChannel**.
 
 ## Tijdsduur afspeelafbeelding op kanaalniveau bewerken {#editing-channel-level-image-playback-duration-assignment}
 
-In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een AEM-rasterkanaal kunt bewerken.
+In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een AEM Screens-kanaal kunt bewerken.
 
 ### De afspeelduur bijwerken voor afbeeldingen in een kanaal {#updating-the-playback-duration-for-images-in-a-channel}
 
@@ -59,7 +62,6 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 1. **Het dialoogvenster Pagina** wordt geopend.
 
    >[!NOTE]
-   >
    >Standaard worden de afbeeldingen in een kanaal ingesteld op een afspeelduur van 8 seconden.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
