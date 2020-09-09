@@ -4,9 +4,9 @@ seo-title: Activering van middelenniveau
 description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
 seo-description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1445'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ De volgende onderwerpen worden behandeld in deze sectie:
 * Activeringsvenster
 * Afspelen van één gebeurtenis
 * Herhaling van activa afhandelen
-   * Dagverdeling
-   * Wekelijkse scheiding
-   * Maandverdeling
+   * DayParting
+   * WeekParting
+   * MonthParting
    * Combinatie van partners
 * Activering van meerdere middelen
 
@@ -80,7 +80,7 @@ Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
 
 U kunt ook bepalen dat de middelen elke dag, week of maand opnieuw worden uitgevoerd, afhankelijk van uw vereisten.
 
-Stel dat u een afbeelding alleen wilt weergeven op vrijdag van 13.00 tot 22.00 uur. U kunt het tabblad **Activering** gebruiken om het gewenste herhalingsinterval voor uw element in te stellen.
+Stel dat u een afbeelding alleen op vrijdag van 13.00 tot 19.00 uur wilt weergeven. U kunt het tabblad **Activering** gebruiken om het gewenste herhalingsinterval voor uw element in te stellen.
 
 ### Dagverdeling {#day-parting}
 
@@ -109,7 +109,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 >
 >U kunt ook _militaire tijd_ notatie (dat wil zeggen 14:00) gebruiken in plaats van *am/pm* notatie (dat wil zeggen, 2:00 pm).
 
-### Wekelijkse scheiding {#week-parting}
+### WeekParting {#week-parting}
 
 1. Selecteer het element en klik op **Configureren** (moersleutelpictogram) om het dialoogvenster Eigenschappen te openen.
 
@@ -120,7 +120,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
-#### Voorbeeldexpressies voor het parseren van weken {#example-two}
+#### Voorbeelden van expressies voor WeekParting {#example-two}
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
@@ -134,7 +134,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 >U kunt ook _volledige_ notatie gebruiken (maandag, woensdag, vrijdag) in plaats van _korte notatie_ (dat wil zeggen: Mon,Wed,Fri).
 
 
-### Maandverdeling {#month-parting}
+### MonthParting {#month-parting}
 
 1. Selecteer het element en klik op **Configureren** (moersleutelpictogram) om het dialoogvenster Eigenschappen te openen.
 
@@ -145,7 +145,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
-#### Voorbeelden van expressies voor maandspatiëring {#example-three}
+#### Voorbeelden van expressies voor MonthParting {#example-three}
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
@@ -192,7 +192,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 ### Vereisten {#prerequisites}
 
-Als u activering op meerdere niveaus voor uw elementen wilt gebruiken, maakt u een AEM Screens-project met een volgnummer. In het volgende voorbeeld wordt de implementatie van de functie getoond:
+Als u activering op meerdere niveaus voor uw middelen wilt gebruiken, maakt u een AEM Screens-project met een volgnummer. In het volgende voorbeeld wordt de implementatie van de functie getoond:
 
 * Een AEM Screens-project maken met de naam **MultiAssetDemo**
 * Maak een kanaal met de naam **MultiAssetChannel** en voeg inhoud toe aan het kanaal, zoals in de onderstaande afbeelding wordt getoond
