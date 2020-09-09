@@ -3,7 +3,7 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina om meer te weten te komen over Kanaaltoewijzing en DayParting.
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 1%
@@ -149,7 +149,6 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 ### Onderbrekingsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
->
 > Deze optie is alleen beschikbaar bij AEM 6.4 Feature Pack 8 of AEM 6.5 Feature Pack 4.
 
 Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
