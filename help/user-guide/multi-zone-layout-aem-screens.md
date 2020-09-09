@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Voordat u begint met het implementeren van deze functionaliteit, moet u de conce
 
 Tijdens het maken van een kanaal kunt u verschillende sjablonen gebruiken om zones in uw kanaal te maken. U kunt één afbeelding, video of ingesloten kanaal toevoegen waarmee meerdere elementen in een reeks kunnen worden weergegeven.
 
-**Het kanaal maken**
+**Een kanaal maken**
 
 1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en **klik vervolgens op Schermen**. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`.
 1. Navigeer naar de map **Kanalen** en klik op **Maken** op de actiebalk.
