@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,7 @@ U kunt de volgende componenten toevoegen aan uw volgnummer:
 U kunt een ingesloten reeks toevoegen aan uw kanaal. Een ingesloten reeks is een ander kanaal dat elementen zoals afbeeldingen of video&#39;s bevat. Door een ingesloten reeks toe te voegen, kan de gebruiker de reeks via ***Kanaalpad*** aan een kanaal toevoegen.
 
 >[!NOTE]
->
 >***Kanaalpad*** definieert een expliciete verwijzing naar het kanaal.
->
 >Voor meer informatie over de Weg *van het* Kanaal, zie de Toewijzing [van het](channel-assignment.md) Kanaal in de Authoring Schermen.
 
 Voer de onderstaande stappen uit om een ingesloten reeks aan uw kanaal toe te voegen:
@@ -67,14 +65,17 @@ Standaard is deze ingesteld op **normaal**. Als u de waarde instelt op **normaal
 >1. Navigeer naar de weergave en selecteer de weergave in de map **Locations** .
 >1. Klik op het **dashboard** op de actiebalk om naar het weergavedashboard te navigeren.
 >1. Selecteer **+ Kanalen** toewijzen in de **TOEGEWEZEN KANALEN EN GEPLANDE DEELVENSTERS** om het dialoogvenster **** Kanaaltoewijzing te openen.
+
    >
    >
 1. Selecteer het pad van het kanaal dat u (in ingesloten volgorde) in **Kanaalpad** gebruikt.
 >1. Controleer of de **prioriteit** lager is dan het hoofdkanaal.
+
    >
    >
 1. U mag geen **ondersteunde gebeurtenissen** selecteren.
 >1. Klik eenmaal op **Opslaan** .
+
 >
 
 
@@ -85,7 +86,7 @@ In het volgende voorbeeld ziet u hoe u een ingesloten reeks (**Niet-actief kanaa
 
 ### Een dynamische ingesloten reeks toevoegen {#adding-a-dynamic-embedded-sequence}
 
-U kunt een dynamische ingesloten reeks toevoegen aan uw kanaal. Een dynamische ingesloten reeks lijkt op een ingesloten reeks, maar de gebruiker kan een hiërarchie volgen waarin wijzigingen/updates die in één kanaal zijn aangebracht, worden doorgegeven aan een ander kanaal in relatie tot dat kanaal. De klasse volgt de bovenliggende-onderliggende hiërarchie en bevat ook elementen zoals afbeeldingen of video&#39;s. Door een dynamische reeks toe te voegen, kan de gebruiker een kanaal-voor-kanaalrol toevoegen.
+U kunt een dynamische ingesloten reeks toevoegen aan uw kanaal. Een dynamische ingesloten reeks lijkt op een ingesloten reeks, maar de gebruiker kan een hiërarchie volgen waarin wijzigingen/updates die in één kanaal zijn aangebracht, worden doorgegeven aan een ander kanaal in relatie tot dat kanaal. De klasse volgt de bovenliggende-onderliggende hiërarchie en bevat ook elementen zoals afbeeldingen of video&#39;s. Door een dynamische reeks toe te voegen, kan de gebruiker een kanaal-op-kanaalrol toevoegen.
 
 >[!NOTE]
 >
@@ -98,7 +99,7 @@ Voer de onderstaande stappen uit om een ingesloten reeks aan uw kanaal toe te vo
 1. Selecteer het kanaal waar u een dynamische reeks wilt insluiten. Bijvoorbeeld **We.Retail In-Store** —> **Kanalen** —> **Niet-actief kanaal**.
 
 1. Klik op **Bewerken** op de actiebalk om het kanaal te openen in de bewerkingsmodus.
-1. Klik op het pictogram Componenten op de linkerzijbalk om de dynamische ingesloten reeks toe te voegen. Sleep en **zet deDynamische** **Ingesloten Reeks **naar de redacteur neer.
+1. Klik op het pictogram Componenten op de linkerzijbalk om de dynamische ingesloten reeks toe te voegen. Sleep de **dynamische** **ingesloten reeks** naar de editor.
 
 1. Dubbelklik op de component **Dynamische** **ingesloten reeks** om de pagina aan het kanaal van de reeks toe te voegen.
 
