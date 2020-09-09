@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 0%
+source-wordcount: '341'
+ht-degree: 1%
 
 ---
 
@@ -22,35 +22,22 @@ ht-degree: 0%
 
 De AEM Screens is beschikbaar door de Adobe Experience Manager-koppeling (linksboven) te selecteren en vervolgens de koppelingen te screenen.
 
-U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`
-![chlimage_1-14](assets/chlimage_1-14.png)
+U kunt ook rechtstreeks navigeren naar: `http://localhost:4502/screens.html/content/screens`
 
-Verschillende projecten kunnen verschillende merken, implementaties, klanten enzovoort zijn.
-
-![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
 >[!NOTE]
->
 >**Navigatietips:**
->
 >U kunt de cursorsleutels ook gebruiken om door verschillende omslagen in AEM te navigeren. Als u bovendien een bepaalde entiteit hebt geselecteerd, klikt u op de spatiebalk om eigenschappen voor die specifieke map te bewerken of weer te geven.
 
 ## Een nieuw schermproject maken {#creating-a-new-screens-project}
 
 Voer de onderstaande stappen uit om een nieuw project voor schermen te maken:
 
-1. Selecteer **Schermen** in het AEM dashboard.
-1. Klik op **Maken** —> **Project** maken en **Schermproject** maken wordt geopend.
+1. Selecteer **Schermen** van uw AEM instantie.
 
-1. Selecteer de sjabloon **Schermen** en klik op **Volgende**.
+1. Klik op Schermproject **** maken.
 
-1. Voer de vereiste eigenschappen (**Titel** en **Naam**) in en klik op **Maken**.
-
-![player1](assets/player1.gif)
-
->[!NOTE]
->
->Standaard bevat de initiële structuur de master pagina&#39;s **Planningen**, **Locaties**, **Toepassingen**, **Kanalen** en **Apparaten** , maar deze kan indien nodig handmatig worden aangepast. U kunt de opties verwijderen als de beschikbare opties niet relevant zijn voor uw project.
+1. Voer de titel in als **TestProject** en klik op **Maken**.
 
 Het project wordt gecreeerd en het brengt u terug naar de console van het Project van de Schermen. U kunt nu uw project selecteren.
 
@@ -59,22 +46,26 @@ In een project, zijn er vier soorten omslagen, zoals aangetoond in het hieronder
 * **Planningen**
 * **Locaties**
 * **Toepassingen**
-* **Kanalen**
 * **Apparaten**
+* **Kanalen**
 
-![screen_shot_2018-08-23at110114am](assets/screen_shot_2018-08-23at110114am.png)
+![player1](assets/create-project.gif)
 
-### Eigenschappen weergeven {#viewing-properties}
+>[!NOTE]
+>
+>Standaard bevat de initiële structuur de master pagina&#39;s **Planningen**, **Locaties**, **Toepassingen**, **Kanalen** en **Apparaten** , maar deze kan indien nodig handmatig worden aangepast. U kunt de opties verwijderen als de beschikbare opties niet relevant zijn voor uw project.
 
-Als u het project Schermen hebt gemaakt, klikt u op **Eigenschappen** op de actiebalk om de eigenschappen van een bestaand AEM Screens-project te bewerken.
 
-![screen_shot_2018-08-23at110211am](assets/screen_shot_2018-08-23at110211am.png)
+## Eigenschappen weergeven {#viewing-properties}
 
-Met de volgende opties kunt u eigenschappen van uw *DemoProject* bewerken/wijzigen.
+Nadat u het project Schermen hebt gemaakt, selecteert u het project en klikt u op **Eigenschappen** in de actiebalk om de eigenschappen van het project te bewerken.
 
-![screen_shot_2018-08-23at110409am](assets/screen_shot_2018-08-23at110409am.png)
+Met de volgende opties kunt u eigenschappen van uw **TestScreens** bewerken/wijzigen.
 
-### Een aangepaste map maken {#creating-a-custom-folder}
+![afbeelding](assets/create-project2.png)
+
+
+## Een aangepaste map maken {#creating-a-custom-folder}
 
 U kunt ook uw eigen aangepaste map maken onder de pagina&#39;s **Programma&#39;s**, **Locaties**, **Toepassingen**, **Kanalen** en **Apparaten** die beschikbaar zijn in uw project.
 
@@ -85,12 +76,11 @@ Een aangepaste map maken:
 1. Klik op **Next**.
 1. Voer de eigenschappen in en klik op **Maken**.
 
-In de volgende stappen ziet u hoe u een toepassingsmap maakt op de master pagina **Toepassingen** in *DemoProject*.
+De volgende stappen tonen de verwezenlijking van een toepassingsomslag aan uw **Toepassingen** master pagina in **TestScreens**.
 
-![player2-1](assets/player2-1.gif)
+![player2-1](assets/create-project3.gif)
 
 ### De volgende stappen {#the-next-steps}
 
 Zodra u uw eigen project hebt gecreeerd, zie het Beheer [van het](managing-channels.md) Kanaal om inhoud in uw kanaal tot stand te brengen en te beheren.
 
-Bovendien kunt u uw eigen programma, toepassing, plaats, of apparaat tot stand brengen.
