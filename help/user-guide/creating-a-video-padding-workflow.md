@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 * **Vereisten**
 * **Workflow voor het opvullen van video&#39;s maken**
    * **Een workflow maken**
-   * **De workflow gebruiken in AEM Screens Project**
+   * **De workflow in AEM Screens Project gebruiken**
 
 * **De uitvoer voor de workflow valideren**
 
@@ -38,25 +41,25 @@ De video wordt weergegeven als een object van pixel 1 tot pixel 1280, van pixel 
 
 Vul de volgende voorwaarden in voordat u een workflow voor video maakt:
 
-1. Een video uploaden naar de map **Middelen** in uw AEM-instantie
-1. Maak een AEM-schermproject (bijvoorbeeld **TestVideoRendition**) en een kanaal met de naam (**VideoRendering**), zoals in de onderstaande afbeelding wordt getoond:
+1. Een video uploaden in de map **Middelen** in uw AEM-instantie
+1. Maak een AEM Screens-project (bijvoorbeeld **TestVideoRendition**) en een kanaal met de naam (**VideoRendering**), zoals in de onderstaande afbeelding wordt getoond:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
 ## Workflow voor het opvullen van video&#39;s maken {#creating-a-video-padding-workflow-1}
 
-Als u een werkstroom voor het opvullen van video wilt maken, moet u een werkstroom voor uw video maken en vervolgens hetzelfde gebruiken in het projectkanaal voor AEM-schermen.
+Als u een workflow voor het opvullen van video&#39;s wilt maken, moet u een workflow voor uw video maken en vervolgens hetzelfde gebruiken in het AEM Screens-projectkanaal.
 
 Voer de onderstaande stappen uit om de workflow te maken en te gebruiken:
 
 1. Een workflow maken
-1. De workflow gebruiken in een AEM-schermproject
+1. De workflow gebruiken in een AEM Screens-project
 
 ### Een workflow maken {#creating-a-workflow}
 
 Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
-1. Navigeer naar uw AEM-exemplaar en klik op gereedschappen vanaf de zijspoor. Selecteer **Workflow** —> **Modellen** om een nieuw model te maken.
+1. Navigeer naar uw AEM en klik op gereedschappen vanaf de zijbalk. Selecteer **Workflow** —> **Modellen** om een nieuw model te maken.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -68,7 +71,7 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Sleep de component **Command Line **naar uw werkstroom.
+1. Sleep de component **Opdrachtregel** naar uw werkstroom.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
@@ -88,11 +91,11 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Selecteer het pad van uw element in de **Payload** (als ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) en voer de **Title **(as ***RunVideo***) in en klik op **Uitvoeren**.
+1. Selecteer het pad van uw element in de **Payload** (als ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) en voer de **titel** in als ***RunVideo*** en klik op **Uitvoeren**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
-### De workflow gebruiken in een AEM-schermproject {#using-the-workflow-in-an-aem-screens-project}
+### De workflow gebruiken in een AEM Screens-project {#using-the-workflow-in-an-aem-screens-project}
 
 Voer de onderstaande stappen uit om de workflow in uw AEM Screens-project te gebruiken:
 
@@ -113,7 +116,7 @@ Voer de onderstaande stappen uit om de workflow in uw AEM Screens-project te geb
 U kunt de uitvoer valideren door:
 
 * De voorvertoning van de video in het kanaal controleren
-* Ga naar ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, zoals getoond in de hieronder figuur:
+* Ga naar ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, zoals in de onderstaande afbeelding wordt getoond:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
 
