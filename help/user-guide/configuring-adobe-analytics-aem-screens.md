@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics configureren met AEM Screens
 seo-title: Adobe Analytics configureren met AEM Screens
-description: 'Volg deze sectie voor meer informatie over het ordenen en verzenden van aangepaste gebeurtenissen met Offline Adobe Analytics '
-seo-description: 'Volg deze sectie voor meer informatie over het ordenen en verzenden van aangepaste gebeurtenissen met Offline Adobe Analytics '
+description: 'Volg deze sectie voor meer informatie over het volgen en verzenden van aangepaste gebeurtenissen met gebruik van Offline Adobe Analytics '
+seo-description: 'Volg deze sectie voor meer informatie over het volgen en verzenden van aangepaste gebeurtenissen met gebruik van Offline Adobe Analytics '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 8%
@@ -25,20 +25,20 @@ ht-degree: 8%
 >
 >Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.4.2 Feature Pack 2 en AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd.
 >
->Als u toegang wilt krijgen tot een van deze functiepakketten, neemt u contact op met de ondersteuning van Adobe en vraagt u om toegang. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
+>Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, moet u de Steun van Adobe contacteren en toegang verzoeken. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
-* **Sequentievolgorde in Adobe Analytics met AEM Screens**
+* **Sequentie in Adobe Analytics met AEM Screens**
 * **Aangepaste gebeurtenissen verzenden met offline Adobe Analytics**
 
-## Sequentievolgorde in Adobe Analytics met AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
+## Sequentie in Adobe Analytics met AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Het ***volgordeproces*** begint met de gegevensopslagservice waarmee de Adobe Analytics-service wordt geactiveerd. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de gegevens testvangst aan Vensters I/O en de bewaargebeurtenissen worden teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma, de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
+Het ***volgordeproces*** begint met de gegevensopslagservice die de Adobe Analytics-service activeert. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de vangst van de gegevenstest aan Vensters I/O en de gebeurtenissen van het verblijf wordt teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma, de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
 
 ### Scheidingsdiagram {#sequencing-diagram}
 
-In het volgende volgordediagram wordt de integratie van Adobe Analytics met AEM Screens uitgelegd:
+In het volgende volgordediagram wordt de Adobe Analytics-integratie met AEM Screens uitgelegd:
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
@@ -268,7 +268,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td> </td> 
    <td>Apparaat</td> 
    <td>source.device</td> 
-   <td>vereiste w/uitvoeringen</td> 
+   <td>vereiste w/uitzonderingen</td> 
    <td>string</td> 
    <td> </td> 
    <td>Naam speler</td> 
@@ -277,7 +277,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td> </td> 
    <td>Versie besturingssysteem</td> 
    <td>source.os_version</td> 
-   <td>vereiste w/uitvoeringen</td> 
+   <td>vereiste w/uitzonderingen</td> 
    <td>string</td> 
    <td> </td> 
    <td>Versie besturingssysteem</td> 
