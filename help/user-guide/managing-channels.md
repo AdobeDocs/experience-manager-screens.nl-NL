@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
@@ -107,7 +107,6 @@ Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 1. Selecteer **Video&#39;s** onder Elementen en sleep de vereiste video&#39;s.
 
 >[!NOTE]
->
 >Zie [Problemen met het uploaden van video&#39;s in uw kanaal oplossen](troubleshoot-videos.md).
 
 ### Eigenschappen weergeven {#viewing-properties}
@@ -145,6 +144,7 @@ U kunt manifest van het kanaaldashboard bekijken.
 >Deze optie is alleen beschikbaar bij AEM 6.4 Feature Pack 8 of AEM 6.5 Feature Pack 4.
 
 Ga als volgt te werk om deze optie in te schakelen vanaf het kanaaldashboard:
+
 1. **Kanaal op offline instellen**
    1. Selecteer het kanaal en selecteer **Eigenschappen** op de actiebalk
    1. Navigeer naar het tabblad **Kanaal** en controleer of de optie **Developer Mode (het kanaal online zetten)** is uitgeschakeld
