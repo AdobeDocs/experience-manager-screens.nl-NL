@@ -1,8 +1,8 @@
 ---
 title: Componenten toevoegen aan een kanaal
 seo-title: Componenten toevoegen aan een kanaal
-description: Volg deze pagina voor meer informatie over het toevoegen van componenten aan kanalen in een AEM-rasterproject.
-seo-description: Volg deze pagina voor meer informatie over het toevoegen van componenten aan kanalen in een AEM-rasterproject.
+description: Volg deze pagina voor meer informatie over het toevoegen van componenten aan kanalen in een AEM Screens-project.
+seo-description: Volg deze pagina voor meer informatie over het toevoegen van componenten aan kanalen in een AEM Screens-project.
 uuid: 205d0edd-a696-47d0-a859-5f44d48c5e4a
 contentOwner: jsyal
 content-type: reference
@@ -11,22 +11,25 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 1%
 
 ---
 
 
 # Componenten toevoegen aan een kanaal{#adding-components-to-a-channel}
 
-Componenten zijn de basiselementen van de AEM-ervaring (Adobe Experience Manager). U kunt een aantal componenten gebruiken en het toevoegen aan uw kanaal in een project van het Schermen AEM.
+Componenten zijn de basiselementen van de AEM (Adobe Experience Manager)-ervaring. U kunt een aantal componenten gebruiken en het toevoegen aan uw kanaal in een project van AEM Screens.
 
-## Componenten in AEM-schermen {#components-in-aem-screens}
+## Componenten in AEM Screens {#components-in-aem-screens}
 
-AEM-schermen bieden verschillende AEM-componenten die in een schermproject kunnen worden gebruikt.
+AEM Screens biedt verschillende AEM componenten die in een Screens-project kunnen worden gebruikt.
 
-### AEM-rastercomponenten weergeven {#viewing-aem-screens-components}
+### AEM Screens-componenten weergeven {#viewing-aem-screens-components}
 
-Wanneer u een project van de Schermen AEM creeert, zult u een lijst van standaardcomponenten zien die aan het project kunnen worden toegevoegd.
+Wanneer u een project van AEM Screens creeert, zult u een lijst van standaardcomponenten zien die aan het project kunnen worden toegevoegd.
 
 Volg onderstaande stappen om de standaardcomponenten voor uw project Schermen weer te geven:
 
@@ -34,32 +37,32 @@ Volg onderstaande stappen om de standaardcomponenten voor uw project Schermen we
 
 1. Klik op **Bewerken** op de actiebalk om de AEM-editor te openen.
 1. Klik op het pictogram **+** van de zijbalk om de componenten te openen.
-1. Alle componenten die door gebrek in AEM de projectiesvertoningen van Schermen inbegrepen zijn, zoals aangetoond in het hieronder cijfer.
+1. Alle componenten die door gebrek in een het projectvertoningen van AEM Screens inbegrepen zijn, zoals aangetoond in het hieronder cijfer.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Een nieuwe component toevoegen {#adding-a-new-component}
 
-AEM biedt een aantal andere componenten. U kunt altijd andere componenten (die niet standaard zijn opgenomen) aan uw project toevoegen, omdat deze compatibel zijn met AEM-schermen.
+AEM verstrekt een aantal andere componenten. U kunt altijd andere componenten (die niet standaard zijn opgenomen) aan uw project toevoegen, omdat deze compatibel zijn met AEM Screens.
 
-In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een AEM-rasterproject getoond:
+In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een AEM Screens-project getoond:
 
 1. Selecteer het kanaal waaraan u een nieuwe component wilt toevoegen. Bijvoorbeeld: **We.Retail in Store** —> **Channels** —> **Indle Channel**.
 
 1. Klik op **Bewerken** op de actiebalk om de editor te openen.
 1. Selecteer de **ontwerpmodus** .
 1. Selecteer de volledige ontwerpredacteur op het recht en klik op het montagessymbool om de de dialoogdoos van het Ontwerp van **Speelgoed** te openen.
-1. U kunt de componenten selecteren die u in uw project van de Schermen wilt invoeren AEM. In het volgende voorbeeld wordt de toevoeging van **Livefyre** -component aan een AEM Screens-project getoond.
+1. U kunt de componenten selecteren die u in uw AEM Screens-project wilt importeren. In het volgende voorbeeld wordt de toevoeging van de **component Livefyre** aan een AEM Screens-project getoond.
 
 ![adding_components](assets/adding_components.gif)
 
 >[!NOTE]
 >
->Op dezelfde manier kunt u om het even welk aantal andere nieuwe componenten toevoegen die met Schermen AEM aan uw project compatibel zijn.
+>Op dezelfde manier kunt u om het even welk aantal andere nieuwe componenten toevoegen die met AEM Screens aan uw project compatibel zijn.
 
-## AEM-schermcomponenten begrijpen {#understanding-aem-screen-components}
+## Schermcomponenten AEM {#understanding-aem-screen-components}
 
-In de volgende sectie worden de componenten van AEM-schermen uitgelegd die u in uw project kunt gebruiken.
+In de volgende sectie worden de AEM Screens-componenten uitgelegd die u in uw project kunt gebruiken.
 
 >[!NOTE]
 >
@@ -192,9 +195,9 @@ De dynamische ingesloten reeks heeft de volgende eigenschappen:
 
 ### Ervaar fragment {#experience-fragment}
 
-Met een ervaringsfragment kunt u een ervaringsfragment (groep van een of meer componenten, waaronder inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM-rasterkanaal. Sleep de component naar de AEM-editor en selecteer het ervaringsfragment.
+Met een ervaringsfragment kunt u een ervaringsfragment (groep van een of meer componenten, waaronder inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM Screens-kanaal. Sleep de component naar AEM editor en selecteer het ervaringsfragment.
 
-Meer over hoe te om een ervaringsfragment tot stand te brengen en het in een project van het Scherm te gebruiken AEM, verwijs naar het [Gebruiken van de Fragmenten](experience-fragments-in-screens.md)van de Ervaring.
+Meer informatie over hoe te om een ervaringsfragment tot stand te brengen en het in een project van AEM Screens te gebruiken, verwijs naar het [Gebruiken van de Fragmenten](experience-fragments-in-screens.md)van de Ervaring.
 
 ![exp](assets/exp.gif)
 
