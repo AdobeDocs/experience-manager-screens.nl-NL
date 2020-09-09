@@ -1,8 +1,8 @@
 ---
 title: Apparaatregistratie
 seo-title: Apparaatregistratie
-description: Op deze pagina wordt het registratieproces voor apparaten in een AEM-schermproject beschreven.
-seo-description: Op deze pagina wordt het registratieproces voor apparaten in een AEM-schermproject beschreven.
+description: Deze pagina beschrijft het proces van de apparatenregistratie in een project van AEM Screens.
+seo-description: Deze pagina beschrijft het proces van de apparatenregistratie in een project van AEM Screens.
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,29 +11,33 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 0%
 
 ---
 
 
 # Apparaatregistratie {#device-registration}
 
-De volgende pagina beschrijft het proces van de apparatenregistratie in een project van de Schermen AEM.
+De volgende pagina beschrijft het proces van de apparatenregistratie in een project van AEM Screens.
 
 ## Een apparaat registreren {#registering-a-device}
 
 Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers:
 
 * Het daadwerkelijke apparaat dat moet worden geregistreerd, bijvoorbeeld uw signaalweergave
-* De AEM-server waarmee het apparaat wordt geregistreerd
+* De AEM server waarmee het apparaat wordt geregistreerd
 
 >[!NOTE]
 >
->Nadat u de nieuwste versie van Windows Player (*.exe*) hebt gedownload, voert u op de pagina met downloads [voor](https://download.macromedia.com/screens/) AEM 6.4 Player de stappen op de speler uit om de ad-hocinstallatie te voltooien:
+>Nadat u de nieuwste versie van Windows Player (*.exe*) hebt gedownload, gaat u van [AEM pagina met 6.4 Player-downloads](https://download.macromedia.com/screens/) naar de speler en voert u de ad-hocinstallatie uit:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
->1. Navigeer naar **Configuratie** van het linkeractiemenu en ga het plaatsadres van de instantie AEM in **Server** in en klik **sparen**.
->1. Klik op de koppeling **Registratie** in het actiemenu aan de linkerkant en voer de onderstaande stappen uit om het registratieproces van het apparaat te voltooien.
+>1. Navigeer naar **Configuratie** van het linkeractiemenu en ga het plaatsadres van de AEM instantie in **Server** in en klik **sparen**.
+>1. Klik op de koppeling **Registratie** in het actiemenu aan de linkerkant en de onderstaande stappen om het registratieproces van het apparaat te voltooien.
+
 >
 
 
@@ -44,7 +48,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. Navigeer in AEM naar de map **Devices** (Apparaten) van uw project.
+1. Navigeer in AEM naar de map **Devices** van uw project.
 
    >[!NOTE]
    >
@@ -62,7 +66,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
-1. Wacht in AEM tot het apparaat de registratiecode heeft verzonden.
+1. Wacht AEM tot het apparaat de registratiecode heeft verzonden.
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
@@ -70,7 +74,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Als de **registratiecode** op beide computers hetzelfde is, tikt u op of klikt u op de knop **Valideren** in AEM, zoals in de stap (6).
+1. Als de **registratiecode** op beide computers hetzelfde is, tikt u op de knop **Valideren** of klikt u in AEM op de knop Valideren, zoals in stap 6 wordt getoond.
 1. Stel de gewenste naam voor het apparaat in en klik op **Registreren**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -95,7 +99,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
 ### Apparaat toewijzen aan een weergave {#assigning-device-to-a-display}
 
-Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande stappen uit om uw apparaat aan een weergave in uw AEM-rasterproject toe te wijzen:
+Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande stappen uit om uw apparaat aan een weergave in uw AEM Screens-project toe te wijzen:
 
 1. Selecteer het apparaat en klik op Apparaat **** toewijzen op de actiebalk.
 
@@ -135,6 +139,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Additional Resources {#additional-resources}
+### Aanvullende bronnen {#additional-resources}
 
 Zie [AEM Screens Player](working-with-screens-player.md)voor meer informatie over AEM Screens Player.
