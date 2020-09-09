@@ -11,7 +11,10 @@ topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +79,7 @@ Klik bovendien in de rechterbovenhoek van het deelvenster Apparaatinformatie op 
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Klik op **Eigenschappen** om het dialoogvenster **Apparaateigenschappen** weer te geven. U kunt de titel van het apparaat bewerken of de optie voor configuratie-updates kiezen als **Handmatig** of **Automatisch**.
+Klik op **Eigenschappen** om het dialoogvenster **Apparaateigenschappen** weer te geven. U kunt de apparaattitel bewerken of de optie voor configuratie-updates kiezen als **Handmatig** of **Automatisch**.
 
 >[!NOTE]
 >
@@ -86,7 +89,7 @@ Klik op **Eigenschappen** om het dialoogvenster **Apparaateigenschappen** weer t
 
 ### Schermafbeelding van speler weergeven {#view-player-screenshot}
 
-U kunt de schermafbeelding van de speler weergeven vanaf het apparaat vanuit het **deelvenster PLAYER SCREENSHOT** .
+U kunt de schermafbeelding van de speler weergeven vanaf het apparaat vanuit het deelvenster **PLAYER SCREENSHOT** .
 
 Klik (**...**) op de hoogste juiste hoek van het paneel van het Schermafbeelding van de Speler en selecteer **vernieuwen Screenshot** om de momentopname van de lopende speler te bekijken.
 
@@ -97,7 +100,6 @@ Klik (**...**) op de hoogste juiste hoek van het paneel van het Schermafbeelding
 In het deelvenster **VOORKEUREN** kan de gebruiker voorkeuren wijzigen voor **Admin UI**, **Channel Switcher** en **Foutopsporing** op afstand voor het apparaat.
 
 >[!NOTE]
->
 >Zie [AEM Screens Player](working-with-screens-player.md)voor meer informatie over deze optie.
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
@@ -113,35 +115,31 @@ Klik bovendien in de rechterbovenhoek op **Instellingen** om de voorkeuren van h
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->
 >U kunt elk van de volgende logbestandniveaus selecteren:
->
 >* **Uitschakelen**
 >* **Foutopsporing**
 >* **Info**
 >* **Waarschuwing**
 >* **Fout**
->
-
 
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## OSGI-instellingen oplossen {#troubleshoot-osgi-settings}
+## OSGi-instellingen problemen oplossen {#troubleshoot-osgi-settings}
 
 U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen.
 
-Sommige van deze functies zijn momenteel alleen beschikbaar als het filter *Apache Sling Reference Allow Empty* is ingeschakeld in de OSGI-configuratie. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
+Sommige van deze functies zijn momenteel alleen beschikbaar als het filter *Apache Sling Reference Allow Empty* is ingeschakeld in de OSGi-configuratie. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
 
 Voer de onderstaande stappen uit om het filter Leeg toestaan van Apache-verwijzing in te schakelen
 
-1. Navigeer naar de Configuratie **van de Console van het Web van de Manager van de Ervaring van** Adobe, namelijk `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Navigeer naar **Adobe Experience Manager Web Console Configuration**, dat wil zeggen, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Schakel de optie **allow.empty** in.
 1. Click **Save**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
-### Aanbevelingen {#recommendations}
+### Recommendations {#recommendations}
 
 In de volgende sectie wordt aangeraden de netwerkkoppelingen, de server en de spelers te controleren om de status te begrijpen en op problemen te reageren.
 
@@ -149,18 +147,18 @@ AEM biedt ingebouwde bewaking voor:
 
 * *De hartslag* om de 5 seconden geeft aan dat de AEM Screens Player wordt uitgevoerd.
 * *Screenshot* van de Player die toont wat momenteel wordt weergegeven op de Player.
-* De *AEM schermt Player Firmware* -versie die op de speler is geïnstalleerd.
+* De versie *AEM Screens Player Firmware* die op de speler is geïnstalleerd.
 * *Vrije opslagruimte* op de speler.
 
-Aanbevelingen voor externe controle met software van derden:
+Recommendations voor externe controle met software van derden:
 
 * CPU-gebruik op afspeelapparatuur.
-* Controleer of het AEM-schermPlayer-proces wordt uitgevoerd.
+* Controleer of het AEM Screens Player-proces wordt uitgevoerd.
 * Extern opnieuw opstarten/opnieuw opstarten van de Player.
 * Real-time meldingen.
 
 Het wordt aanbevolen de Player-hardware en het besturingssysteem zodanig te implementeren dat externe aanmelding problemen kan opsporen en de Player opnieuw kan starten.
 
-#### Additional Resources {#additional-resources}
+#### Aanvullende bronnen {#additional-resources}
 
 Zie Configuratie en het Oplossen van problemen bij het afspelen van [video](troubleshoot-videos.md) om fouten op te sporen in video&#39;s die in uw kanaal worden afgespeeld en problemen op te lossen.
