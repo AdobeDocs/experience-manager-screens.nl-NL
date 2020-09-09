@@ -5,9 +5,9 @@ description: Volg deze pagina voor meer informatie over het maken van aangepaste
 seo-description: Volg deze pagina voor meer informatie over het maken van aangepaste sjablonen in MultiZone-lay-outs.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,11 @@ Er zijn twee belangrijke overwegingen dat u zich moet bewust zijn alvorens tot d
 
 1. **Naamgevingsconventie**:
 
-   Alvorens u begrijpt hoe te om douane multi-zone malplaatjes tot stand te brengen om in een project van AEM Screens te gebruiken, wordt het geadviseerd om het overzicht van de malplaatjes te begrijpen u zou willen tot stand brengen.
+   Voordat u begrijpt hoe u aangepaste sjablonen voor meerdere zones maakt die u in een AEM Screens-project wilt gebruiken, is het raadzaam een goed inzicht te krijgen in het gemiddelde van de sjablonen die u wilt maken.
 
    | **Lay-outnaam** | **Beschrijving** |
    |---|---|
-   | Left20-LandscapeHD3Zone | Verwijst naar een 3-zone liggende lay-out, waarmee u 3 zones kunt maken met zone 1 als 20% van het horizontale en verticale scherm van links, zone 2 als 80 % van het horizontale scherm en 20 % van het verticale scherm rechts uitgevuld, zone 3 als 100 % van het horizontale en 80 % van het verticale scherm met een hoogte-breedteverhouding van 16:9 |
+   | Left20-LandscapeHD3Zone | Verwijst naar een 3-zone liggende lay-out, waarmee u 3 zones kunt maken met zone 1 als 20% van het horizontale en verticale scherm van links, zone 2 als 80% van het horizontale scherm en 20% van het verticale scherm rechts uitgevuld, zone 3 als 100% van het horizontale en 80% van het verticale scherm met een hoogte-breedteverhouding van 16:9 |
    | Upper20-PortraitHD2Zone | Verwijst naar een 2-zone Staand malplaatje dat 20% van het scherm van de bovenkant bedekt, met aspectverhouding van 16:9 |
    | Right20-LandscapeSD3Zone | Verwijst naar een 3-zone sjabloon die 20% van het scherm van rechts bedekt, met een hoogte-breedteverhouding van 4:3 |
 
@@ -108,7 +108,7 @@ Voer de onderstaande stappen uit om een Left20-LandscapeHD3Zone-lay-out te maken
 
 1. Navigeer naar een bestand static.css `/apps/settings/wcm/designs/custom-template-designs` en maak dit.
 
-1. Kopieer de inhoud naar het bestand static.css:
+1. Inhoud naar `static.css` bestand kopiëren:
 
    ```shell
        /*my-custom-layout styles*/
