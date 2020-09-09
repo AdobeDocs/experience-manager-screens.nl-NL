@@ -1,8 +1,8 @@
 ---
 title: Ervaringsfragmenten gebruiken
 seo-title: Ervaringsfragmenten gebruiken
-description: 'Volg deze pagina voor meer informatie over het gebruik van Experience Fragments in AEM-schermen. '
-seo-description: 'Volg deze pagina voor meer informatie over het gebruik van Experience Fragments in AEM-schermen. '
+description: 'Volg deze pagina voor meer informatie over het gebruik van Experience Fragments in AEM Screens. '
+seo-description: 'Volg deze pagina voor meer informatie over het gebruik van Experience Fragments in AEM Screens. '
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 Deze pagina behandelt de volgende onderwerpen:
 
 * **Overzicht**
-* **Experience Fragments gebruiken in AEM-schermen**
+* **Experience Fragments gebruiken in AEM Screens**
 * **Wijzigingen op de pagina doorgeven**
 
 ## Overzicht {#overview}
@@ -32,13 +32,12 @@ Deze pagina behandelt de volgende onderwerpen:
 Een fragment ***van de*** Ervaring is een groep van één of meerdere componenten met inbegrip van inhoud en lay-out die binnen pagina&#39;s van verwijzingen kunnen worden voorzien. De fragmenten van de ervaring kunnen om het even welke component, zoals, één of veelvoudige componenten bevatten die om het even wat binnen een paragraafsysteem kunnen bevatten, die in de volledige ervaring zullen worden van verwijzingen voorzien of door een derde eindpunt gevraagd.
 
 
-## Experience Fragments gebruiken in AEM-schermen {#using-experience-fragments-in-aem-screens}
+## Experience Fragments gebruiken in AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->
->Het volgende voorbeeld gebruikt **We.Retail** als demoproject van waar het Fragment van de Ervaring van een pagina van **Plaatsen** aan een project van het Scherm AEM wordt gebruikt.
+>Het volgende voorbeeld gebruikt **We.Retail** als demoproject van waar het Fragment van de Ervaring van een pagina van **Plaatsen** aan een project van AEM Screens leveraged.
 
-Als voorbeeld, toont het volgende werkschema het gebruik van ervaringsfragmenten van We.Retail in Plaatsen. U kunt een webpagina kiezen en die inhoud gebruiken in uw AEM-rasterkanaal in een van uw projecten.
+Als voorbeeld, toont het volgende werkschema het gebruik van ervaringsfragmenten van We.Retail in Plaatsen. U kunt een webpagina kiezen en die inhoud in uw AEM Screens-kanaal gebruiken in een van uw projecten.
 
 ### Voorwaarden {#pre-requisites}
 
@@ -50,7 +49,7 @@ Als voorbeeld, toont het volgende werkschema het gebruik van ervaringsfragmenten
 1. Voer de titel in als **DemoProject**.
 1. Click **Save**.
 
-Er wordt een **DemoProject** toegevoegd aan uw AEM-schermen.
+Er wordt een **DemoProject** toegevoegd aan uw AEM Screens.
 
 ***Een kanaal maken***
 
@@ -79,6 +78,7 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** naar uw **TestChanne
 
    1. Selecteer het fragment dat u in het kanaal wilt opnemen.
    1. Klik op het laatste pictogram aan de rechterkant om het dialoogvenster **Omzetten in ervaring met fragmenten** te openen.
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Experience-fragment maken**
@@ -91,15 +91,17 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** naar uw **TestChanne
    1. Voer de titel **van het** fragment in als **rasterfragment**.
 
    1. Klik op het vinkje om het maken van een nieuw ervaringsfragment te voltooien.
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **Actieve kopie van ervaringsfragment maken**
 
-   1. Navigeer naar de AEM-startpagina.
+   1. Navigeer naar de AEM startpagina.
    1. Selecteer Fragmenten **van de** Ervaring en benadruk het **Schermfragment** en klik **Variatie als levende exemplaar**, zoals aangetoond in het hieronder cijfer:
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Selecteer de wizard* ScreensFragment** van de wizard **Create Live Copy** en klik op **Volgende**.
+   c. Selecteer de **wizard** ScreensFragment **vanuit de wizard Live kopie** maken en klik op **Volgende**.
 
    d. Voer de **titel** en de **naam** in als **schermen**.
 
@@ -118,6 +120,7 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** naar uw **TestChanne
    1. Navigeer naar het **ScreenFragment** (u hebt in de voorgaande stappen gemaakt) en klik op **Eigenschappen** op de actiebalk.
 
    1. Selecteer het tabblad **Offlineconfig** , zoals in de onderstaande afbeelding wordt getoond.
+
    U kunt de bibliotheken **aan de** clientzijde (Java en css) en de **statische bestanden** toevoegen aan het ervaringsfragment.
 
    In het volgende voorbeeld ziet u de toevoeging van bibliotheken aan de clientzijde en de lettertypen als onderdeel van statische bestanden aan uw ervaringsfragment.  ![fragment](assets/fragment.gif)
@@ -129,6 +132,7 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** naar uw **TestChanne
 
    1. Klik op het componentpictogram op het zijtabblad.
    1. Sleep het fragment **van de** Ervaring naar uw kanaal.
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
    e. Selecteer de component Fragment **van de** Ervaring en selecteer het hoogste linker (sleutel) pictogram om de de dialoogdoos van het Fragment **van de** Ervaring te openen.
@@ -167,15 +171,15 @@ U geeft de inhoud van de pagina **Sites** (live kopie van het ervaringsfragment)
 
 ***Live Copy*** verwijst naar de kopie (van de bron), onderhouden door synchronisatiehandelingen zoals gedefinieerd door de rollout-configuraties.
 
-Omdat het ervaringsfragment een live kopie van de **sitepagina&#39;s** is, kunt u de wijzigingen in het desbetreffende fragment bekijken op de stramienpagina of op de bestemming waar u het ervaringsfragment hebt gebruikt.
+Omdat het ervaringsfragment een live kopie van de **sitepagina&#39;s** is, kunt u de wijzigingen in het desbetreffende fragment op de master pagina bekijken. U kunt de wijzigingen dus bekijken in uw kanaal of in de bestemming waar u het ervaringsfragment hebt gebruikt.
 
 >[!NOTE]
 >
 >Zie Inhoud opnieuw gebruiken voor meer informatie over Live Copy: Beheer van meerdere sites en Live kopie.
 
-Voer de onderstaande stappen uit om wijzigingen van het hoofdkanaal naar het doelkanaal door te geven:
+Voer de onderstaande stappen uit om wijzigingen van het master kanaal naar het doelkanaal door te geven:
 
-1. Selecteer het fragment van de Ervaring van de pagina van **Plaatsen** (hoofd) en klik het potloodpictogram om de punten in het Fragment van de Ervaring uit te geven.
+1. Selecteer het fragment van de Ervaring van de (master) pagina van **Plaatsen** en klik het potloodpictogram om de punten in het Fragment van de Ervaring uit te geven.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
