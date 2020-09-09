@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Kanalen maken en beheren {#creating-and-managing-channels}
 
-Een kanaal geeft een reeks van inhoud weer en geeft afbeeldingen en video&#39;s weer, maar ze kunnen ook een website of een toepassing van één pagina weergeven.
+Een kanaal geeft een reeks van inhoud weer en geeft afbeeldingen en video&#39;s weer, maar kan ook een website of een toepassing van één pagina weergeven.
 
 Op deze pagina ziet u hoe u kanalen voor schermen maakt en beheert.
 
@@ -32,16 +32,25 @@ Op deze pagina ziet u hoe u kanalen voor schermen maakt en beheert.
 
 ## Een nieuw kanaal maken {#creating-a-new-channel}
 
-Nadat u een project voor schermen hebt gemaakt, volgt u de onderstaande stappen om een nieuw kanaal voor een project Screens te maken:
+Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappen om een nieuw kanaal voor uw project te maken:
 
-1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik vervolgens op Rasteren. U kunt ook rechtstreeks naar: `https://localhost:4502/screens.html/content/screens`.
-1. Navigeer naar het project Schermen en klik op **Kanalen**.
-1. Klik op **Maken** naast het plusteken op de actiebalk. Een tovenaar zal openen (*zie de Types van Kanaal voor meer informatie*).
+1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik vervolgens op Rasteren. U kunt ook rechtstreeks navigeren naar: `https://localhost:4502/screens.html/content/screens`.
 
-1. Selecteer de sjabloon in de wizard en klik op **Volgende**.
-1. Voer de eigenschappen in voor **Titel en tags**, **Meer titels en beschrijving**, **Aan/Uit-tijd** en **Vanity-URL**.
+1. Navigeer naar het project Schermen en selecteer de map **Kanalen** .
 
-1. Klik op **Maken** en het kanaal wordt gemaakt en toegevoegd aan de map met kanalen.
+1. Klik op **Maken** op de actiebalk.
+
+   ![demochannel](assets/create-channel1.png)
+
+1. Selecteer de sjabloon **Volgkanaal** in de wizard **Maken** en klik op **Volgende**.
+
+   ![demochannel](assets/create-channel2.png)
+
+1. Voer de titel in als **ScreensChannel** en klik op **Maken**.
+
+   ![demochannel](assets/create-project4.png)
+
+1. Er wordt nu een volgnummer toegevoegd aan de map **Kanalen** .
 
 ### Kanaaltypen {#channel-types}
 
@@ -62,14 +71,6 @@ De volgende sjabloonopties zijn beschikbaar wanneer u de wizard gebruikt, zoals:
 >[!NOTE]
 >
 >De gesplitste kanalen van het Scherm verdelen de vertoning in veelvoudige streken zodat kunt u verscheidene ervaringen tezelfdertijd, zij aan zij spelen. De ervaringen kunnen statische elementen/tekst of ingesloten reeksen zijn.
-
-In het volgende voorbeeld ziet u hoe u een sequentiekanaal (*ChannelOne*) voor een screeningproject (*DemoProject*) maakt.
-
-![demochannel](assets/demochannel.gif)
-
->[!NOTE]
->
->U kunt verschillende zones maken met behulp van de sjabloonopties, zoals 1x2, 2x2 of 2 tot 3 gesplitste schermkanalen die hierboven zijn vermeld.
 
 >[!IMPORTANT]
 >
