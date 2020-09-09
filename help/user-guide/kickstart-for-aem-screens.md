@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 1%
 
 ---
@@ -187,7 +187,7 @@ Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toew
 U moet het apparaat registreren via het AEM dashboard.
 
 >[!IMPORTANT]
->De ChromeOS-speler kan als Chrome Browser-insteekmodule worden geïnstalleerd in de modus voor ontwikkelaars zonder dat hiervoor een daadwerkelijk chrome speler-apparaat nodig is. Volg onderstaande stappen voor installatie:
+>De Chrome OS-speler kan worden geïnstalleerd als Chrome Browser-insteekmodule in de ontwikkelaarsmodus zonder dat hiervoor een echt chrome speler-apparaat nodig is. Volg onderstaande stappen voor installatie:
 >
 >1. Klik [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
 >1. Pak het uit en sla het op de schijf op.
@@ -199,7 +199,7 @@ U moet het apparaat registreren via het AEM dashboard.
 >1. Klik op **AEM Screens** -insteekmodule om Chrome Player te starten. Standaard wordt de speler gestart in de modus Volledig scherm. Druk op **esc** om de modus Volledig scherm af te sluiten.
 
 
-Wanneer uw ChromeOS-speler is ingeschakeld, voert u de onderstaande stappen uit om een Chrome-apparaat te registreren.
+Wanneer uw Chrome OS-speler is ingeschakeld, voert u de onderstaande stappen uit om een Chrome-apparaat te registreren.
 
 1. Navigeer vanuit uw AEM naar de map **Devices** (Apparaten) van uw project.
 
@@ -242,7 +242,7 @@ Wanneer uw ChromeOS-speler is ingeschakeld, voert u de onderstaande stappen uit 
 
 ### De inhoud weergeven in Chrome Player {#viewing-content-output}
 
-Alle elementen in uw kanaal worden nu afgespeeld op uw Chrome-apparaat.
+Alle elementen in uw kanaal worden nu afgespeeld op uw Chrome OS-speler.
 
 Gefeliciteerd, u speelt nu inhoud in een AEM Screens-kanaal af.
 
