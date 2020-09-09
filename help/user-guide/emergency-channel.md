@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 0%
 
 ---
 
@@ -38,11 +41,10 @@ Inhoudsauteurs
 
 Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
-1. Maak een AEM-schermproject met de naam **EmergencyChannel**, zoals hieronder wordt weergegeven.
+1. Maak een AEM Screens-project met de naam **EmergencyChannel**, zoals hieronder wordt weergegeven.
 
    >[!NOTE]
-   >
-   >Raadpleeg Een project maken voor meer informatie over het maken en beheren van projecten in AEM-schermen.
+   >Raadpleeg Een project maken voor meer informatie over het maken en beheren van projecten in AEM Screens.
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
 
@@ -51,12 +53,14 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    1. Selecteer de map **Kanalen** en klik op **Maken** om de wizard te openen en een kanaal te maken.
 
    1. Selecteer Kanaal **van de** Opeenvolging van de tovenaar en creeer het kanaal genoemd als **MainAdChannel**.
+
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Inhoud toevoegen aan Volgkanaal**
 
    1. Selecteer het kanaal (**MainAdChannel**).
    1. Klik op **Bewerken** op de actiebalk om de editor te openen. Sleep enkele elementen naar uw kanaal.
+
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Noodkanaal maken**
@@ -64,6 +68,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    1. Selecteer de map **Kanalen** .
    1. Klik op **Maken** om de wizard te openen en een kanaal te maken.
    1. Selecteer Kanaal **van de** Opeenvolging van de tovenaar en creeer het kanaal genoemd als **EmergencyChannel**.
+
    >[!NOTE]
    >
    >Normaal, wordt uw noodkanaal toegevoegd aan uw reeds bestaand productieproject.
@@ -74,12 +79,14 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
    1. Selecteer het kanaal (**Noodkanaal)**.
    1. Klik op **Bewerken** op de actiebalk om de editor te openen. Sleep het element dat u tijdens een noodsituatie wilt gebruiken naar het kanaal.
+
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
 1. **Een locatie maken**
 
    1. Navigeer naar de map **Locations** .
    1. Klik op **Maken** op de actiebalk en maak een locatie met de naam **Winkel** van de wizard.
+
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Weergaven maken op uw locatie**
@@ -92,6 +99,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
    1. Navigeer naar de map **Planningen** .
    1. Klik op **Maken** op de actiebalk. Volg de wizard om een schema met de naam **StoreSchedule** te maken.
+
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Wijs zowel de Vertoningen aan uw Programma toe en vastgestelde Prioriteiten
@@ -106,6 +114,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
       1. De **prioriteit** instellen op 2
       1. Stel de ondersteunde gebeurtenissen in als **Eerste Laden** en **Niet actief scherm**.
       1. Click **Save**
+
       Op dezelfde manier zult u dezelfde stappen opnieuw moeten volgen om **EmergencyChannel** toe te wijzen en zijn **Prioriteit** te plaatsen.
    >[!NOTE]
    >
@@ -123,6 +132,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    1. Stel de ondersteunde gebeurtenissen in als **Eerste Laden**, **Niet actief scherm** en **Gebruikersinteractie**
 
    1. Click **Save**
+
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
    U kunt de toegewezen kanalen van het **StoreSchedule** dashboard bekijken.
@@ -139,12 +149,13 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    1. Selecteer het pad naar de planning (bijvoorbeeld **EmergencyChannel** —> **Planningen** —>**StoreSchedule**).
 
    1. Click **Save**.
+
    U kunt het toegewezen schema aan de vertoning van het **StoreSchedule** dashboard bekijken.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **Apparaatregistratie**
 
-   Voltooi het registratieproces van het apparaat en zodra u zich hebt geregistreerd, bekijkt u de volgende uitvoer op uw AEM-schermspeler.
+   Voltooi het registratieproces voor het apparaat en zodra u zich hebt geregistreerd, bekijkt u de volgende uitvoer op uw AEM Screens-speler.
 
    ![new30](assets/new30.gif)
 
@@ -164,7 +175,7 @@ Voer in noodgevallen de volgende stappen uit:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Zodra de prioriteit van het kanaal is bijgewerkt, geeft alle AEM Screens speler de **inhoud van EmergencyChannel** weer, zoals hieronder wordt weergegeven.
+1. Zodra de prioriteit van het kanaal wordt bijgewerkt, zal alle speler van AEM Screens de inhoud **EmergencyChannel** tonen, zoals hieronder getoond.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
