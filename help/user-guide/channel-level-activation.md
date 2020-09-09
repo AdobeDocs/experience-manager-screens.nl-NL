@@ -1,8 +1,8 @@
 ---
 title: Activering op kanaalniveau - Afspelen van één gebeurtenis
 seo-title: Activering op kanaalniveau - Afspelen van één gebeurtenis
-description: Volg deze handleiding om de activering op kanaalniveau te begrijpen met behulp van het afspelen van één gebeurtenis.
-seo-description: Volg deze handleiding om de activering op kanaalniveau te begrijpen met behulp van het afspelen van één gebeurtenis.
+description: Volg deze handleiding om de activering van het kanaalniveau te begrijpen met het afspelen van één gebeurtenis.
+seo-description: Volg deze handleiding om de activering van het kanaalniveau te begrijpen met het afspelen van één gebeurtenis.
 uuid: 87230344-5f9a-42a4-a7a8-ae4203303612
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ De volgende onderwerpen worden behandeld in deze sectie:
 * Activeringsvenster
 * Activering op kanaalniveau gebruiken als één gebeurtenis afspelen
 * Herhaling van middelen in een kanaal afhandelen
-   * Dagverdeling
-   * Wekelijkse scheiding
-   * Maandverdeling
+   * DayParting
+   * WeekParting
+   * MonthParting
    * Combinatie van partners
 * Activering op kanaalniveau gebruiken als één gebeurtenis afspelen
 
@@ -47,13 +47,13 @@ In het volgende voorbeeld wordt een oplossing geboden waarbij de nadruk ligt op 
 
 ## Activeringsvenster {#using-channel-level-activation}
 
-In de volgende sectie wordt uitgelegd hoe u één gebeurtenis afspeelt binnen een kanaal voor een AEM Screens-project.
+In de volgende sectie wordt uitgelegd hoe u één gebeurtenis kunt afspelen in een kanaal voor een AEM Screens-project.
 
 ### Vereisten {#prerequisites}
 
 Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor zorgen dat u aan de volgende voorwaarden kunt voldoen om activering op kanaalniveau te kunnen starten:
 
-* Een AEM Screens-project maken, in dit voorbeeld activering **kanaalniveau**
+* Een AEM Screens-project maken, in dit voorbeeld activering op **kanaalniveau**
 
 * Een kanaal maken als **MainAdChannel** onder de map **Kanalen**
 
@@ -114,7 +114,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. **Het dialoogvenster Kanaaltoewijzing** wordt geopend.
    1. Referentiekanaal **** selecteren.. per pad.
    1. Selecteer het **Kanaalpad** als **Kanaalniveauactivering** —> ***Kanalen*** —> ***MainAdChannel***.
-   1. De **Kanaalrol** wordt gevuld als **hoofdkanaal**.
+   1. De rol **van het** Kanaal wordt bevolkt als **mainadchannel**.
    1. Selecteer **Prioriteit** als **1**.
    1. Selecteer de **Ondersteunde gebeurtenissen** als **Eerste Laden** en **Niet actief scherm**.
    1. Click **Save**.
@@ -149,18 +149,16 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
 ## De resultaten bekijken {#viewing-the-results}
 
-Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave is voltooid, start u de AEM Screens-speler om de inhoud weer te geven.
+Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave voltooid is, start u de AEM Screens-speler om de inhoud weer te geven.
 
 De speler geeft de inhoud van **MainAdChannel** weer en precies om 23:59 uur (zoals ingesteld in het schema), geeft het **GerichtSinglePlay** -kanaal de inhoud weer tot 12:05 uur &#39;s avonds en dan wordt het afspelen van de inhoud van het **MainAdChannel** hervat.
 
 >[!NOTE]
 Raadpleeg de volgende bronnen voor meer informatie over AEM Screen Player:
-* [Downloads van AEM Screens Player](https://download.macromedia.com/screens/)
-* [Werken met AEM Screens Player](working-with-screens-player.md)
+[AEM Screens Player downloadt](https://download.macromedia.com/screens/)[Werken met AEM Screens Player](working-with-screens-player.md)
 
 
-
-## Herhaling van middelen in een kanaal afhandelen{#handling-recurrence-in-assets}
+## Herhaling van middelen in een kanaal afhandelen {#handling-recurrence-in-assets}
 
 U kunt middelen in een kanaal plannen om ook met bepaalde tussenpozen op dag, week of maandbasis opnieuw te komen naar wens.
 
@@ -194,7 +192,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 >[!NOTE]
 U kunt ook _militaire tijd_ notatie (dat wil zeggen 14:00) gebruiken in plaats van *am/pm* notatie (dat wil zeggen, 2:00 pm).
 
-### Wekelijkse scheiding {#week-parting}
+### WeekParting {#week-parting}
 
 1. Selecteer het kanaal en klik op het **dashboard** op de actiebalk om het kanaaldashboard te openen.
 
@@ -205,7 +203,7 @@ U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uit
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
-#### Voorbeeldexpressies voor het parseren van weken {#example-two}
+#### Voorbeelden van expressies voor WeekParting {#example-two}
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
@@ -221,7 +219,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 U kunt ook _militaire tijd_ notatie (dat wil zeggen 14:00) gebruiken in plaats van *am/pm* notatie (dat wil zeggen, 2:00 pm).
 
 
-### Maandverdeling {#month-parting}
+### MonthParting {#month-parting}
 
 1. Selecteer het kanaal en klik op het **dashboard** op de actiebalk om het kanaaldashboard te openen.
 
@@ -232,7 +230,7 @@ U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uit
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
-#### Voorbeelden van expressies voor maandspatiëring {#example-three}
+#### Voorbeelden van expressies voor MonthParting {#example-three}
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
