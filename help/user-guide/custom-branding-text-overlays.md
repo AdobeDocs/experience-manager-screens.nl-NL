@@ -5,9 +5,9 @@ description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak vo
 seo-description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak voor tekstbedekkingen kunt toepassen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
    >[!NOTE]
    >Zie [Tekstbedekking](/help/user-guide/text-overlay.md)voor meer informatie over het toevoegen van een tekstbedekking aan uw element in een kanaaleditor.
 
-1. Navigeer naar CRXDE Lite via uw AEM:> Gereedschappen —> **CRXDE Lite**.
+1. Navigeer naar CRXDE Lite vanaf uw AEM-exemplaar —> tools —> **CRXDE Lite**.
 
 1. U moet een aangepast ontwerp maken in `/apps/settings/wcm/designs/<your-project>/`, bijvoorbeeld, navigeer naar `/apps/settings/wcm/designs/customstyle/`
 
@@ -99,7 +99,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 U moet ACLs voor deze ontwerpen bijwerken zodat zij door de speler kunnen worden gedownload.
 
-1. Navigeer naar gebruikersbeheer en kies de map `screens-<project>-devices group` en geef deze leesmachtigingen aan het aangepaste ontwerppad.
+1. Navigeer naar gebruikersbeheerder en kies de map `screens-<project>-devices group` en geef deze leesmachtigingen aan het aangepaste ontwerppad.
 
 1. Geef machtigingen voor het lezen en wijzigen van `screens-<project>-administrators` groepen op voor dit pad.
 
@@ -109,7 +109,7 @@ Nadat u de voorgaande stappen hebt uitgevoerd, kunt u het bestand *stats.css* bi
 
 Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking weer te geven:
 
-1. Navigeer naar het AEM Screens-project met de naam **customstyle** —> **Channels** —> **DemoBrand**. Selecteer het kanaal en klik op **Bewerken** op de actiebalk om de editor te openen.
+1. Navigeer naar uw AEM Screens-project met de naam **customstyle** —> **Channels** —> **DemoBrand**. Selecteer het kanaal en klik op **Bewerken** op de actiebalk om de editor te openen.
 
 1. Aangezien u het ontwerp nu hebt toegevoegd aan het veld **Ontwerpen** , zoals hierboven vermeld, klikt u op **Voorvertoning** om de huidige opmaak van de afbeelding met tekstbedekking weer te geven.
 
