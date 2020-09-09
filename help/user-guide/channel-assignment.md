@@ -3,7 +3,7 @@ title: Kanaaltoewijzing
 seo-title: Kanaaltoewijzing
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 translation-type: tm+mt
-source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 1%
@@ -35,7 +35,7 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    Of
 
-   Tik/klik op **Dashboard** en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
+   Tik/klik op **dashboard** en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
 
    ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
