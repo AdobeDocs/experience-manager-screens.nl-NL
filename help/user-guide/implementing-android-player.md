@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '768'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
 1. Navigeer naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u wenst om te verbinden met en klik **sparen**.
 
-1. Navigeer in het menu Actie aan de linkerzijde naar de koppeling **Apparaatregistratie** **** om de status van het apparaatregistratieproces te controleren.
+1. Navigeer vanuit het menu Actie links naar de koppeling **Apparaatregistratie** **** om de status van het apparaatregistratieproces te controleren.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Vanwege de architectuur van Android vereist het opnieuw opstarten van het appara
 
 ### Handtekening van Android-apks met behulp van fabriekssleutels {#signage-of-android-apks-using-manufacturer-keys}
 
-Als u toegang wilt tot enkele geprivilegieerde API&#39;s van Android, zoals *PowerManager* of *HDMIControlServices*, moet u de android-API ondertekenen met de toetsen van de fabrikant.
+Als u toegang wilt tot enkele geprivilegieerde API&#39;s van Android, zoals *PowerManager* of *HDMIControlServices*, moet u de android-apk ondertekenen met de toetsen van de fabrikant.
 
 >[!CAUTION]
 >
