@@ -4,9 +4,9 @@ seo-title: Auteur en publicatie configureren in AEM Screens
 description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
 seo-description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
 translation-type: tm+mt
-source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1910'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,7 @@ De clustergebruiker en het wachtwoord van alle publiceer instanties in de topolo
 
 Op elke publicatie-instantie:
 
-1. Navigeer in de OSGi-console naar **MAIN** —> **Crypto Support** (*https://&lt;host>:&lt;port>/system/console/crypto*).
+1. Navigeer in de OSGi-console naar **MAIN** —> **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
 1. Typ het gewenste wachtwoord voor normale tekst (voor alle instanties hetzelfde) in **Onbewerkte tekst**
 1. Klik op **Protect**.
 1. Kopieer de waarde **Beveiligde tekst** naar het aantekenblok of de teksteditor. Deze waarde zal in OSGi config voor ActiveMQ worden gebruikt.
@@ -161,7 +161,7 @@ Aangezien elke publicatieinstantie door gebrek unieke crypto sleutels heeft moet
 
 Op elke publicatie-instantie:
 
-1. Navigeer naar de OSGi Config manager *https://&lt;host>:&lt;port>/system/console/configMgr*
+1. Navigeer naar de manager van OSGi Config `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. Configuratie **Apache ActiveMQ Artemis JMS Provider** selecteren
 1. Werk het volgende bij:
 
@@ -172,7 +172,7 @@ Op elke publicatie-instantie:
 
 Voer de onderstaande stappen uit voor elke instantie Publiceren:
 
-1. Navigeer naar de OSGi-console -> Hoofd > ActiveMQ-artemis `[https://localhost:4505/system/console/mq`.
+1. Navigeer naar de OSGi-console -> Hoofd > ActiveMQ-artemis `https://localhost:4505/system/console/mq`.
 1. Verifieer en controleer om de havens van andere instanties onder de Informatie van de Cluster te bekijken > Topology > knopen=2, members=2.
 1. Een testbericht verzenden (boven aan het scherm onder Informatie over kiezer)
 1. Voer de volgende wijzigingen in velden in:
@@ -183,7 +183,7 @@ Voer de onderstaande stappen uit voor elke instantie Publiceren:
 
 >[!NOTE]
 >
->Het navigeren aan console OSGI, kan een paar seconden na het bewaren van de configuratie in de voorafgaande stap vergen. U kunt error.log voor meer details ook controleren.
+>Navigeer aan console OSGi, kan een paar seconden na het bewaren van de configuratie in de voorafgaande stap nemen. U kunt error.log voor meer details ook controleren.
 
 Als voorbeeld, toont het volgende beeld op succesvolle configuratie van de Server van Artemis ActiveMQ.
 
@@ -201,7 +201,7 @@ Voer de stappen uit op elke instantie Publiceren:
 
 ### Instantie voor auteur en publicatie configureren {#configuring-author-and-publish-instance}
 
-Nadat u de publicatietoepassing hebt ingesteld, moet u de auteur configureren en instanties publiceren om de praktische resultaten van de implementatie weer te geven:
+Zodra u opstelling publiceert topologie, moet u de auteur vormen en instanties publiceren, om de praktische resultaten van implementatie te bekijken:
 
 >[!NOTE]
 >
@@ -229,7 +229,7 @@ Nadat u de publicatietoepassing hebt ingesteld, moet u de auteur configureren en
 
 #### Stap 3: Apparaat toewijzen aan weergave {#step-assigning-the-device-to-display}
 
-1. Klik in de voorgaande stap in het dialoogvenster op Weergave **** toewijzen.
+1. Klik op Weergave **** toewijzen in het dialoogvenster van de vorige stap.
 1. Selecteer het weergavepad voor uw kanaal in de map **Locations** .
 1. Klik op **Toewijzen**.
 1. Klik op **Voltooien** om het proces te voltooien en nu wordt het apparaat toegewezen.
@@ -240,7 +240,7 @@ Controleer de speler en u ziet de inhoud die u in het kanaal hebt toegevoegd.
 
 **Het apparaat controleren**
 
-Voer voordat u de onderstaande stappen uitvoert, de apparaat-id controleren. Zoek naar de apparaat-id in CRXDELite met het pad als */home/users/screens/we-retail/devices* om dit te verifiëren.
+Voer voordat u de onderstaande stappen uitvoert, de apparaat-id controleren. Zoek naar de apparaat-id in CRXDE Lite, met het pad als */home/users/screens/we-retail/devices*.
 
 Voer de onderstaande stappen uit om de gebruiker van het apparaat te repliceren:
 
@@ -304,6 +304,6 @@ U kunt de URL van de server ook bijwerken/bewerken vanuit de apparaatbeheerconso
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-Met de functie **Publicatie** beheren kunt u inhoud-updates van de auteur leveren en op het apparaat publiceren. U kunt inhoud publiceren/unpublish voor uw volledige AEM Screens-project of slechts voor één van uw kanaal, plaats, apparaat, toepassing, of een programma. Voor meer informatie over deze eigenschap, verwijs naar de Update [van de Inhoud van de](on-demand-content.md)Vraag.
+Met de functie **Publicatie** beheren kunt u inhoud-updates van de auteur leveren en op het apparaat publiceren. U kunt inhoud voor uw gehele AEM Screens-project publiceren of de publicatie ervan ongedaan maken, of alleen voor een van uw kanalen, locatie, apparaat, toepassing of schema. Voor meer informatie over deze eigenschap, verwijs naar de Update [van de Inhoud van de](on-demand-content.md)Vraag.
 
 
