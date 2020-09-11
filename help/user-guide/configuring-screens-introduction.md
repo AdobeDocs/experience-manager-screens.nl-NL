@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ Voer de onderstaande stappen uit om ***DeviceServiceImpl*** te configureren:
 
 1. Ga naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
-1. **Adobe Experience Manager Web Console Configuration **wordt geopend. Zoeken naar *apparaatservice*. Voor het zoeken van het bezit, druk **Command+F** voor **MAC** en **Control+F** voor **Vensters**.
+1. **Configuratie** van Adobe Experience Manager-webconsole wordt geopend. Zoeken naar *apparaatservice*. Als u de eigenschap wilt zoeken, drukt u op **Command+F** voor MacOS en **Control+F** voor Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -149,9 +149,7 @@ Leren hoe te om verzender voor een project van AEM Screens te vormen, verwijs na
 Stel de ***Java-codering*** in op Unicode. Dfile. *encoding=Cp1252* werkt bijvoorbeeld niet.
 
 >[!NOTE]
->
 >**Aanbeveling:**
->
 >Het wordt aanbevolen HTTPS te gebruiken voor AEM Screens Server in productiegebruik.
 
 
