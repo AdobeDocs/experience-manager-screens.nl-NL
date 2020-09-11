@@ -1,10 +1,13 @@
 ---
 title: Ondersteuningscontrole
-seo-title: Ondersteuningscontrole voor AEM-schermen
+seo-title: Ondersteuningscontrole voor AEM Screens
 description: De pagina beschrijft Support Monitoring for AEM Screens Best Practices Guide
 seo-description: De pagina beschrijft Support Monitoring for AEM Screens Best Practices Guide
 translation-type: tm+mt
-source-git-commit: 3c91e0ec80b29bebcc066f45a1eef1fd74e00a13
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +30,7 @@ Met contentcontrole kunt u problemen oplossen met betrekking tot inhoud die niet
    * Controleer de *voorvertoning* om te zien of het kanaal een zwart scherm weergeeft
    * Registreer een *lokale chroomspeler* (als extensie) op uw laptop voor dat beeldscherm en controleer of dat een zwart scherm weergeeft.
    * Klik met de rechtermuisknop en controleer de *toepasselijke logboeken*.
+
    Als dit niet gebeurt op de lokale speler, maar alleen op het apparaat:
 
    * Controleer het *mediatype* (dat wordt gebruikt) dat mogelijk problemen heeft op dat apparaat en bevestig ook of de inhoud lokaal is gedownload (de cache van het kanaal voor de beheerdersinterface is leeg).
