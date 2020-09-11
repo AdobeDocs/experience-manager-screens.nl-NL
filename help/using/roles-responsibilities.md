@@ -1,10 +1,10 @@
 ---
-title: AEM Screens - Taken en verantwoordelijkheden
-seo-title: AEM Screens - Taken en verantwoordelijkheden
-description: De pagina beschrijft de Rollen en Verantwoordelijkheden van het Project van AEM Screens
-seo-description: De pagina beschrijft de Rollen en Verantwoordelijkheden van het Project van AEM Screens
+title: AEM Screens-projectrollen en -verantwoordelijkheden
+seo-title: AEM Screens-projectrollen en -verantwoordelijkheden
+description: De pagina beschrijft AEM Screens-projectrollen en -verantwoordelijkheden
+seo-description: De pagina beschrijft AEM Screens-projectrollen en -verantwoordelijkheden
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Als ervaren AEM-implementator zult u waarschijnlijk de rollen gezien hebben waarnaar wordt verwezen als *Auteurs*, *Ontwikkelaars* en *IT/technici*.
 
-In een typisch project van AEM Screens, worden de rollen verder verfijnd aangezien zij elk belangrijk doel in het project dienen.
+In een typisch AEM Screens-project worden de rollen verder verfijnd, aangezien zij elk een belangrijk doel in het project dienen.
 
 In het onderstaande diagram ziet u de rollen waarnaar we in de hele handleiding zullen verwijzen.
 
@@ -32,9 +32,9 @@ In de volgende sectie vindt u een overzicht van het doelpubliek:
 
 ### Adobe {#adobe-audience}
 
-Adobe biedt Adobe Managed Services-bronnen zoals de CSE (Customer Success Engineer) en de ondersteuning van Adobe.
+Adobe bevat bronnen van Adobe Managed Services, zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-### AEM-implementatoren {#aem-implementors}
+### AEM {#aem-implementors}
 
 AEM Implementors zijn verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
@@ -80,11 +80,11 @@ Creative &amp; Content Management kan het volgende zijn:
 
 ### Projectmanagers {#project-managers}
 
-Projectmanagers beheren doorgaans de volledige implementatie voor de implementatie van uw AEM Screens. Een projectmanager is de puntpersoon voor de volledige implementatie van het aangewezen project en voert belangrijke verantwoordelijkheden uit zoals het plaatsen van chronologie, het behandelen van teambehoeften en mededelingen, het richten van uitdagingen, en het verzekeren dat de doelstellingen worden verwezenlijkt.
+Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens-implementatie. Een projectmanager is de puntpersoon voor de volledige implementatie van het aangewezen project en voert belangrijke verantwoordelijkheden uit zoals het plaatsen van chronologie, het behandelen van teambehoeften en mededelingen, het richten van uitdagingen, en het verzekeren dat de doelstellingen worden verwezenlijkt.
 
 >[!NOTE]
 >
->Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek de Rollen en de Verantwoordelijkheden **[van het](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**Project.
+>Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek de Rollen en de Verantwoordelijkheden **[van het](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)** Project.
 
 
 ## Projectfasen {#project-stages}
@@ -100,7 +100,7 @@ Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het 
 >[!NOTE]
 >
 >Hoewel in deze handleiding de nadruk vooral wordt gelegd op *Dag één* en *Dag twee*, is aandacht voor alle drie de fasen noodzakelijk om een succesvol digitaal signalisatieproject uit te voeren.
-Volg een aanvullende video over **[Projectbeheer en Plaatsing](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren.
+Volg een aanvullende video over **[Projectbeheer en Plaatsing](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren.
 
 ## RACI {#raci-chart}
 
@@ -108,7 +108,7 @@ Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt.
 
 >[!NOTE]
 >
->Deze grafiek is niet bedoeld om precies te worden gevolgd maar om een voorbeeld van gemeenschappelijke taken en overwegingen in een projecten van AEM Screens te verstrekken.
+>Deze grafiek is niet bedoeld om precies te worden gevolgd maar om een voorbeeld van gemeenschappelijke taken en overwegingen in een project van AEM Screens te verstrekken.
 
 ### RACI-definities {#raci-definitions}
 
@@ -120,7 +120,7 @@ Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt.
 
 * **Informatie**: Op de hoogte gehouden van de voortgang van de taak, maar niet betrokken bij de details van het te leveren item.
 
-Het volgende is een steekproef RACI grafiek gebruikend de roldefinities en verstrekt een voorbeeld van gemeenschappelijke taken en overwegingen in een project van AEM Screens.
+Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt en verstrekt een voorbeeld van gemeenschappelijke taken en overwegingen in een project van AEM Screens.
 
 De volgende tabel geeft een overzicht van **Dag Nul: Overwegingen** vóór verkoop:
 
@@ -146,12 +146,12 @@ De volgende tabel geeft een overzicht van **dag één: Projectimplementatie (toe
 | Architectuurontwerp | I | RA | I | I |
 | Gegevensstructuur valideren met interface-ontwerp | I | RA | C | C |
 | Ontwikkeling van toepassingen | RA | RA | RA | RA |
-| Project AEM Screens instellen | I | RA | C | I |
-| Analytics-implementatie | I | RA | C | - |
+| AEM Screens Project instellen | I | RA | C | I |
+| Analyseimplementatie | I | RA | C | - |
 | Testen en implementeren | RA | C | RA | I |
 | Serverconfiguratie | I | RA | I | I |
 | Plan voor bijwerken van inhoud | I | RA | C | C |
-| Overgang van proefversie naar productie | RA | RA | I | I |
+| Plan voor de overgang van het proefproject naar de productie | RA | RA | I | I |
 | Kennisoverdracht | RA | RA | I | I |
 
 De volgende tabel geeft een overzicht van **dag één: Projectimplementatie (gereedheid voor detailhandel)**:
