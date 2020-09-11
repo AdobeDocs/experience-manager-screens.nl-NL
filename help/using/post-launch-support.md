@@ -1,10 +1,13 @@
 ---
 title: Ondersteuning na starten
-seo-title: Post Launch Support for AEM Screens
-description: Op de pagina vindt u een beschrijving van de gids Post Launch Support for AEM Screens Best Practices
-seo-description: Op de pagina vindt u een beschrijving van de gids Post Launch Support for AEM Screens Best Practices
+seo-title: Ondersteuning voor PostLaunch voor AEM Screens
+description: Op de pagina vindt u de gids Post Launch Support for AEM Screens Best Practices
+seo-description: Op de pagina vindt u de gids Post Launch Support for AEM Screens Best Practices
 translation-type: tm+mt
-source-git-commit: a0469c775c7fb8ce64fa0642c25feb50a1e1b84f
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +30,7 @@ Daarnaast is het, ter voorbereiding op succes op lange termijn, van het grootste
 >[!NOTE]
 >
 > U moet operationele parameters die in de operationele begrotingen vroeg worden opgenomen, definiëren en de verantwoordelijkheden afstemmen op de AEM-implementator en de AV-integrator.
-Is de plaatsing een Advertising Netwerk met vele belanghebbenden verbonden aan een gelegaliseerd netwerk? Dit kan veel kortere oplossingstijden in vergelijking met een Collectief Communicatienetwerk dicteren. 
+Is de plaatsing een Advertising Netwerk met vele belanghebbenden verbonden aan een gelegaliseerd netwerk? Dit kan veel kortere termijnen van de resolutietijd in vergelijking met een Collectief Communicatie netwerk dicteren. 
 Is de toepassing hoogst zichtbaar aan het uitvoerende leiderschap van de eindcliënt? Sites met een hoge zichtbaarheid hebben mogelijk verschillende behandelingen nodig.
 Is de toepassing kritiek op bedrijfsverrichtingen zoals menu-boards in snel-voedselketens? In deze gevallen kan de eindklant on-site resoluties met zeer korte responstijden en redundantie in afspeelhardware nodig hebben.
 
@@ -35,17 +38,17 @@ Is de toepassing kritiek op bedrijfsverrichtingen zoals menu-boards in snel-voed
 
 Enkele overwegingen en vragen waarmee u ondersteuning na het starten kunt definiëren, zijn:
 
-1. Is de plaatsing een Advertising Netwerk met vele belanghebbenden verbonden aan een gelegaliseerd netwerk? Dit kan veel kortere oplossingstijden in vergelijking met een Collectief Communicatienetwerk dicteren.
+1. Is de plaatsing een Advertising Netwerk met vele belanghebbenden verbonden aan een gelegaliseerd netwerk? Dit kan veel kortere termijnen van de resolutietijd in vergelijking met een Collectief Communicatie netwerk dicteren.
  
    >[!NOTE]
    >
-   > Dit vereist veel kortere resolutietermijnen in vergelijking met een Collectief Communicatie netwerk.
+   > Dit dicteert veel kortere termijnen van de resolutietijd in vergelijking met een Collectief Communicatie netwerk.
 
 1. Is de toepassing hoogst zichtbaar aan het uitvoerende leiderschap van de eindcliënt?
 
    >[!NOTE]
    >
-   > Dit vereist veel kortere resolutietermijnen in vergelijking met een Collectief Communicatie netwerk.De plaatsen met hoog zicht kunnen verschillende behandelingen vergen.
+   > Dit dicteert veel kortere resolutietijdkaders in vergelijking met een Collectief Communicatie netwerk.De plaatsen met hoog zicht kunnen verschillende behandelingen vergen.
 
 1. Is de toepassing kritiek op bedrijfsverrichtingen zoals menu-boards in snel-voedselketens?
 
@@ -59,4 +62,4 @@ Enkele overwegingen en vragen waarmee u ondersteuning na het starten kunt defini
 
 1. Welke van uw detailhandelsplaatsen vereisen 24/7 controle?
 
-1. Zijn de vertoningen een integraal deel van uw zaken? (dus autoconfigurator, verkoopwaarschuwingen)
+1. Zijn de vertoningen een integraal deel van uw zaken? (dus autoconfiguratie, verkoopwaarschuwingen)
