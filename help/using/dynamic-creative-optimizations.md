@@ -4,7 +4,10 @@ seo-title: Gegevenstriggers
 description: De pagina beschrijft gegevenstrriggers
 seo-description: De pagina beschrijft gegevenstrriggers
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
@@ -13,9 +16,9 @@ source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
 
 >[!NOTE]
 >
->De meest gangbare belanghebbende bij deze activiteit is een AEM Implementor.
+>De meest gangbare belanghebbenden voor deze activiteit zijn een AEM Implementor.
 
-**Dynamische Creative Optimization** (DCO) wordt gebruikt om digitale signage-ervaringen te creëren die de unieke omstandigheden van om het even welke bepaalde plaats op om het even welk bepaald ogenblik en voor om het even welke bepaalde gebruiker weerspiegelen.
+**Dynamic Creative Optimization** of DCO, wordt gebruikt om digitale signaalervaringen tot stand te brengen die de unieke omstandigheden van om het even welke bepaalde plaats op om het even welk bepaald ogenblik en voor om het even welke bepaalde gebruiker weerspiegelen.
 
 Dit wordt ook wel &#39;Afvlakken aan clientzijde&#39; van inhoud genoemd.
 
