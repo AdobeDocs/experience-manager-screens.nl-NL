@@ -1,19 +1,22 @@
 ---
-title: Basisbeginselen van digitale signalen voor [!UICONTROL AEM-schermen]
-seo-title: Basisbeginselen van digitale signalen voor [!UICONTROL AEM-schermen]
+title: Basisbeginselen van digitale signalen voor [!UICONTROL AEM Screens]
+seo-title: Basisbeginselen van digitale signalen voor [!UICONTROL AEM Screens]
 description: In de handleiding worden de basisbeginselen van een digitaal ondertekeningsproject beschreven
 seo-description: In de handleiding worden de basisbeginselen van een digitaal ondertekeningsproject beschreven
 translation-type: tm+mt
-source-git-commit: 30c724ea897fd2da5300bb5cad285d460af5de40
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
 
 # Basisbeginselen van een digitaal ondertekeningsproject {#basics-digital-signage}
 
-Voordat u naar de best practices voor de implementatie van AEM Screens gaat, moet u het project beschouwen als een digitaal ondertekeningsproject in plaats van als een traditionele softwareontwikkeling.
+Voordat u naar de best practices voor AEM Screens-implementatie gaat, is het belangrijk dat u het project beschouwt als een digitaal ondertekeningsproject in plaats van als een traditionele softwareontwikkeling.
 
-Deze sectie verstrekt aanbevelingen over belangrijke zeer belangrijke elementen die vóór een AEM Scherm projectimplementatie kritiek zijn.
+Deze sectie bevat aanbevelingen voor belangrijke sleutelelementen die essentieel zijn voor een AEM Screens-projectimplementatie.
 
 ## Belangrijkste elementen in digitale signalen {#key-elements}
 
@@ -75,7 +78,7 @@ Het definiëren van de belangrijkste elementen is van essentieel belang voordat 
       * Het verzenden/Ontvangend periodieke bevelen (contactsluiting, PLC, enz.)
       * Binnenkomende gegevens worden op het scherm weergegeven (RSS) of activeren de inhoud
       * RFID/NFC/Bluetooth/iBeacon
-      * Externe diensten (weer, verkeer, enz.)
+      * Externe diensten (weer, verkeer)
 
 1. **Omgeving**
 
