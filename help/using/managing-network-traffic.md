@@ -2,7 +2,7 @@
 title: Netwerkverkeer beheren
 description: De pagina beschrijft Standaardnetwerkinstellingen en hoe u het netwerkverkeer kunt beheren.
 translation-type: tm+mt
-source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -17,10 +17,8 @@ Een Opstelling van het Netwerk kan diverse structuren hebben. In deze sectie wor
 Deze gids benadrukt een inleiding aan volmachtsservers die door de gevarieerde netwerkstructuren worden gevolgd die opstelling binnen verschillende organisaties zijn.
 
 >[!NOTE]
->
->**AEM Screens netwerkvereisten**
->
->De AEM Screens communiceert direct met AEM als Cloud Service, daarom is het vereist om een stabiele verbinding tussen de twee knopen te vestigen. De firewalls zijn absoluut verplicht voor commerciële toegang van Internet en als klant moet u begrijpen welke communicatie havens in deze firewalls en andere op IT-Veiligheid betrekking hebbende netwerkcomponenten moeten worden geopend.
+>**AEM Screens-netwerkvereisten**
+>De AEM Screens communiceert rechtstreeks met de AEM als Cloud Service, daarom is het vereist om een stabiele verbinding tussen de twee knooppunten tot stand te brengen. De firewalls zijn absoluut verplicht voor commerciële toegang van Internet en als klant moet u begrijpen welke communicatie havens in deze firewalls en andere op IT-Veiligheid betrekking hebbende netwerkcomponenten moeten worden geopend.
 
 ## Overzicht van proxyservers {#proxy-servers}
 
@@ -28,7 +26,7 @@ Een verbinding van Internet baseert zich op het gebruik van een Server van de Vo
 
 Een voordeel van een proxyserver is dat de cache van deze server alle gebruikers kan bedienen. Als één of meerdere plaatsen van Internet vaak worden gevraagd, zullen deze waarschijnlijk in het geheime voorgeheugen van de volmacht zijn, en dit verbetert verder de tijd van de gebruikersreactie. Een volmacht kan zijn interactie ook registreren, die voor het oplossen van problemen kan worden gebruikt.
 
-Wanneer een volmachtsserver een verzoek om een middel van Internet (zoals een Web-pagina ontvangt of terwijl het verbinden met een Uitgever AEM), scant het zijn lokaal geheime voorgeheugen van eerder geroepen urls. Als het de pagina vindt, keert het het aan de gebruiker terug zonder het verzoek aan Internet door:sturen. Als de pagina niet in het geheime voorgeheugen is, handelt de volmachtsserver (als cliënt) namens de gebruiker en verzoekt de pagina van de server in Internet. Wanneer de inhoud wordt geretourneerd, koppelt de proxyserver het aan de oorspronkelijke aanvraag en stuurt het door naar de gebruiker.
+Wanneer een volmachtsserver een verzoek om een middel van Internet (zoals een Web-pagina ontvangt of terwijl het verbinden met een Uitgever van de AEM), scant het zijn lokaal geheime voorgeheugen van eerder geroepen urls. Als het de pagina vindt, keert het het aan de gebruiker terug zonder het verzoek aan Internet door:sturen. Als de pagina niet in het geheime voorgeheugen is, handelt de volmachtsserver (als cliënt) namens de gebruiker en verzoekt de pagina van de server in Internet. Wanneer de inhoud wordt geretourneerd, koppelt de proxyserver het aan de oorspronkelijke aanvraag en stuurt het door naar de gebruiker.
 
 ## Werken met de standaardnetwerkinstellingen {#network-setups}
 
@@ -47,5 +45,5 @@ De volgende lijst schetst de verschillende types van netwerkmontages met voor en
 |--- |--- |--- |
 | **Direct Internet Network (bekabeld/draadloos)** | Gemakkelijk en recht door:sturen aan<br>SetUpGood keus voor middelgrote of grotere<br>InstallationsDedicated Netwerk kan<br>EncapsulatedWeinig Punten van<br>mislukkingRelatief<br>IndureGoede Scalability zijn | Verplicht internetgegevensplan |
 | **Direct mobiel netwerk** | Eenvoudig in<br>SetUpGood keuze voor middelgrote of grotere<br>installatiesGoede<br>schaalbaarheidEncapsulated schermen | Verplichte internetverbinding |
-| **Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk** | Gemakkelijk aan<br>Keuze SetUpGood voor Midden-grootte of Grotere<br>InstallationsDedicated Netwerk kan<br>EncapsulatedEnkele Punten van<br>MisluktRelatief<br>IndureGoede scalability zijn | Verplicht internetgegevensplan |
+| **Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk** | Gemakkelijk aan<br>Keuze SetUpGood voor Middsize of Grotere<br>InstallationsDedicated Netwerk kan<br>EncapsulatedEnkele Punten van<br>MisluktRelatief<br>IndureGoede scalability zijn | Verplicht internetgegevensplan |
 | **Enclosed Corporate Network (bekabeld/draadloos)** | Hoge flexibiliteit en<br>scalabilityZeer veilig toe te schrijven aan verschillende lijnen van<br>DefenseEncapsulated<br>NetworksEasy to Monitor and<br>MaintenanceReliable | Gecompliceerde en<br>ExpensiveRecommended voor de Specialisten van het Netwerk of Integrators van het Systeem |
