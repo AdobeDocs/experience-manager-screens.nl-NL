@@ -1,10 +1,13 @@
 ---
 title: Reiskaart
-seo-title: Reiskaart voor AEM-schermen
-description: De pagina beschrijft Reismap voor AEM-schermen
-seo-description: De pagina beschrijft Reismap voor AEM-schermen
+seo-title: Reiskaart voor AEM Screens
+description: De pagina beschrijft Journey Map voor AEM Screens
+seo-description: De pagina beschrijft Journey Map voor AEM Screens
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 >
 >De typische belanghebbende voor deze activiteit is een Marketing/Bedrijfs Strategisten.
 
-Een Jouney-kaart voor gebruikerservaring is ontworpen om gebruikers de mogelijkheid te bieden om te zien hoe en waarom zij de digitale inhoud die door het netwerk wordt geleverd, zullen ervaren.
+Een kaart van de Ervaring van de Gebruiker wordt ontworpen om zicht in te verstrekken hoe en waarom de gebruikers de digitale inhoud die door het netwerk wordt geleverd zullen ervaren.
 
 ## De UX-reiskaart samenstellen {#building-map}
 
@@ -28,5 +31,4 @@ In deze fase van het project kunnen we opties en afhankelijkheden definiëren vo
 Het wordt aangemoedigd dat projectleiders en belangrijke belanghebbenden toestemming krijgen om te experimenteren met de fysieke plaatsing van digitale elementen langs verschillende gedeelten van de winkelreis en met de daadwerkelijke digitale ervaringen die kunnen worden opgedaan.
 
 >[!NOTE]
->
 > Begin analyses tijdens de proef te verzamelen om bedrijfsteams te helpen het succes van de oplossing tegen de specifieke metriek bevestigen zij proberen te bereiken. Het weten hoe de piloot uitvoert helpt het bedrijfsteam bepalen welke verbeteringen moeten worden aangebracht.
