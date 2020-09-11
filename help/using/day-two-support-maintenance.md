@@ -1,17 +1,20 @@
 ---
 title: Dag twee Support en onderhoud
-seo-title: Dag twee Ondersteuning en onderhoud voor AEM-schermen
+seo-title: Dag twee Ondersteuning en onderhoud voor AEM Screens
 description: De pagina beschrijft Dag Twee Steun en Onderhoud
 seo-description: De pagina beschrijft Dag Twee Steun en Onderhoud
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
 
-# Dag twee Platform Support en Onderhoud {#day-two-support-maintenance}
+# Dag twee Platform, ondersteuning en onderhoud {#day-two-support-maintenance}
 
-AEM Schermen vereist verscheidene pakketten om projecten te functioneren. Voor alle omgevingen moet dezelfde versie van Adobe Experience Manager worden uitgevoerd.
+AEM Screens heeft meerdere pakketten nodig om projecten te laten functioneren. In alle omgevingen moet dezelfde versie van Adobe Experience Manager worden uitgevoerd.
 
 Volg de richtlijnen als steun en onderhoud voor Dag Twee van de fase van de projectontwikkeling:
 
@@ -19,9 +22,9 @@ Volg de richtlijnen als steun en onderhoud voor Dag Twee van de fase van de proj
 
    * **AEM Service Pack**
    * **Schermfunctiepakket**
-   * **AEM Cumulative Fix Pack**
+   * **AEM Cumulatief reparatiepakket**
 
-1. Identificeer om het even welke ontwikkelingspakketten (bijvoorbeeld, componenten van de Kern WCM) of derdetoolkits (bijvoorbeeld, de Hybris van SAP) die worden vereist.
+1. Identificeer om het even welke ontwikkelingspakketten (bijvoorbeeld, componenten van de Kern WCM) of derdehulpmiddelkits (bijvoorbeeld, de Hybris van SAP) die worden vereist.
 
 1. Installeer dezelfde softwarepakketten op uw lokale ontwikkelomgevingen.
 
