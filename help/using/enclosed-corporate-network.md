@@ -2,7 +2,7 @@
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -17,11 +17,11 @@ De Ingesloten Collectieve Opstelling van het Netwerk is toepasselijk op kleinere
 ![](/help/using/assets/enclosed-network-1.png)
 
 
-## Verbinding maken tussen AEM Screens Player en Direct Internet Access {#connecting-aem-screens-players}
+## AEM Screens Player verbinden met Direct Internet Access {#connecting-aem-screens-players}
 
-Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM-spelers op het scherm in deze configuratie:
+Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM schermspelers in deze configuratie:
 
-1. Zorg ervoor dat elk van de spelers van het Scherm AEM met het Netwerk van Routers wordt verbonden.
+1. Zorg ervoor dat elk van de AEM spelers van het Scherm met het Netwerk van Routers wordt verbonden.
 1. Test de internetverbinding door een URL op te roepen in uw systeembrowser.
 
    >[!NOTE]
@@ -37,7 +37,7 @@ Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen 
 
    >[!NOTE]
    >**Tip voor probleemoplossing**
-   >Als AEM Screens niet correct verbinden en de verwachte inhoud niet wordt getoond:
+   >Als AEM Screens niet correct verbinding maakt en de verwachte inhoud niet wordt weergegeven:
    >
    >1. Controleer in uw firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443`. zijn
    >1. Zorg ervoor dat alle vereiste Havens worden toegestaan.
@@ -52,8 +52,8 @@ De Ingesloten Collectieve Opstelling van het Netwerk kan logisch gezien in twee 
 
 ### Breed gebiedsnetwerk {#wan-connection}
 
-De prestaties van de verbinding van Internet, behalve de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens inhoudsupdates regelmatig in werking te stellen.
-*Voldoende bandbreedte* is afhankelijk van de hoeveelheid aangesloten AEM-schermen en het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
+De prestaties van de verbinding van Internet, naast netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsupdates van AEM Screens regelmatig in werking te stellen.
+*Voldoende bandbreedte* is afhankelijk van de hoeveelheid aangesloten AEM en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ De prestaties van de verbinding van Internet, behalve de netwerkbereikbaarheid, 
 
 ### Netwerk voor lokale gebieden {#lan-connection}
 
-De prestaties van het Netwerk van het Lokale Gebied (LAN), behalve de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens inhoudsupdates regelmatig in werking te stellen.
+De prestaties van het Netwerk van het Lokale Gebied (LAN), naast de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsupdates van AEM Screens regelmatig in werking te stellen.
 
 Het LAN netwerk binnen collectieve organisaties is gewoonlijk minstens 1000 MBit/sec netwerk, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem aan te sluiten. Terwijl het gebruiken van andere actieve componenten van het Netwerk is het verplicht dat al die aan de bandbreedtevereisten van het Netwerk aanpassen.
 
@@ -77,7 +77,7 @@ Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbree
 
 ## Media en middelen downloaden {#download}
 
-AEM Screens bieden een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
+AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 
 Voor normale bewerkingen, bijvoorbeeld een gedefinieerde afspeellijst die regelmatig wordt bijgewerkt - biedt een vrijwel netwerkonafhankelijke bewerking aan zodra alle bestanden op de speler zijn opgeslagen.
 
@@ -86,7 +86,6 @@ Voor scenario&#39;s, waar er meer interactie met sensoren of trekkers en dynamis
 De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van de netwerkconnectiviteit.
 
 >[!NOTE]
->
 >De informatie staat u toe om de consumptie van elk apparaat in het netwerk te bekijken die en een bron van Internet verzoeken te downloaden. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/using/assets/enclosed-network-download.png)
