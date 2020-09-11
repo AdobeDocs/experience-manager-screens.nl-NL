@@ -1,10 +1,10 @@
 ---
-title: Target-publiek
-seo-title: Target-publiek voor AEM Screens
-description: De pagina beschrijft wie het doelpubliek voor de Gids van Beste praktijken van AEM Screens zijn
-seo-description: De pagina beschrijft wie het doelpubliek voor de Gids van Beste praktijken van AEM Screens zijn
+title: Doelpubliek
+seo-title: Doelgroep voor AEM Screens
+description: De pagina beschrijft wie het doelpubliek voor de gids van de Beste praktijken van AEM Screens is
+seo-description: De pagina beschrijft wie het doelpubliek voor de gids van de Beste praktijken van AEM Screens is
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 4%
@@ -12,18 +12,17 @@ ht-degree: 4%
 ---
 
 
-# Target-publiek {#target-audience}
+# Doelpubliek {#target-audience}
 
 Als ervaren AEM-implementator zult u waarschijnlijk de rollen gezien hebben waarnaar wordt verwezen als *Auteurs*, *Ontwikkelaars* en *IT/technici*.
 
-In een typisch project van AEM Screens, worden de rollen verder verfijnd aangezien zij elk belangrijk doel in het project dienen.
+In een typisch AEM Screens-project worden de rollen verder verfijnd, aangezien zij elk een belangrijk doel in het project dienen.
 
 In het onderstaande diagram ziet u de rollen waarnaar we in de hele handleiding zullen verwijzen.
 
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
->
 >Veel van deze rollen kunnen intern of uitbesteed zijn, afhankelijk van hoe elk project wordt opgezet.
 
 ## Rollen definiëren {#roles}
@@ -32,9 +31,9 @@ In de volgende sectie vindt u een overzicht van het doelpubliek:
 
 ### Adobe {#adobe-audience}
 
-Adobe biedt Adobe Managed Services-bronnen zoals de CSE (Customer Success Engineer) en de ondersteuning van Adobe.
+Adobe bevat bronnen van Adobe Managed Services, zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-### AEM-implementatoren {#aem-implementors}
+### AEM {#aem-implementors}
 
 AEM Implementors zijn verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
@@ -59,15 +58,14 @@ Zij zijn degenen die vereisten en opstellingsKPI metriek bepalen. Een Business S
 
 Het team Creative and Content Management werkt nauw samen met het strategieteam en zet vereisten om in clientervaringen. Zij drijven het algemene ontwerp van UX en krullen inhoud die het merk aanvult.
 
-Creative Suite en Content Management kunnen er als volgt uitzien:
+Creative &amp; Content Management kan een van de volgende opties zijn:
 
 * Creative Agency of
 * Brand Manager
 
 ### Projectmanagers {#project-managers}
 
-Projectmanagers beheren doorgaans de volledige implementatie voor de implementatie van uw AEM Screens. Een projectmanager is de puntpersoon voor de volledige implementatie van het aangewezen project en voert belangrijke verantwoordelijkheden uit zoals het plaatsen van chronologie, het behandelen van teambehoeften en mededelingen, het richten van uitdagingen, en het verzekeren dat de doelstellingen worden verwezenlijkt.
+Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens-implementatie. Een projectmanager is de puntpersoon voor de volledige implementatie van het aangewezen project en voert belangrijke verantwoordelijkheden uit zoals het plaatsen van chronologie, het behandelen van teambehoeften en mededelingen, het richten van uitdagingen, en het verzekeren dat de doelstellingen worden verwezenlijkt.
 
 >[!NOTE]
->
->Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek de Rollen en de Verantwoordelijkheden **[van het](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**Project.
+>Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek de Rollen en de Verantwoordelijkheden **[van het](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)** Project.
