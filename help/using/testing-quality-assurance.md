@@ -4,7 +4,7 @@ seo-title: Testen en kwaliteitsborging voor AEM Screens
 description: De pagina beschrijft Testing and Quality Assurance for AEM Screens Best Practices Guide
 seo-description: De pagina beschrijft Testing and Quality Assurance for AEM Screens Best Practices Guide
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -15,7 +15,6 @@ ht-degree: 0%
 # Testen en kwaliteitsborging {#testing-quality}
 
 >[!NOTE]
->
 >De meest voorkomende belanghebbende bij deze activiteit is A/V-integrator.
 
 Aangezien wij dichter aan daadwerkelijke plaatsing van het digitale signaalnetwerk worden, zouden wij een Plan van de Test en van QA moeten creëren dat elk element van het netwerk met inbegrip van alle hardwarecomponenten, alle softwarecomponenten en alle voorzien van een netwerkcomponenten richt.
@@ -52,7 +51,6 @@ De volgende softwareoverwegingen worden geadviseerd:
 
 ## 3. Overwegingen voor apparaatbeheer {#device-management-considerations}
 
-
 AEM Screens bevat een Device Control Center-module waarmee u eindpunten van de toepassing Screens Player kunt beheren.
 
 Dit heeft betrekking op elk hardwareapparaat van de *speler* waarop de toepassing Screens player is geïnstalleerd en dat is geregistreerd bij een instantie van AEM.
@@ -63,12 +61,11 @@ Met deze module kunt u:
 1. Downloads van inhoud beheren
 1. Problemen met het opnieuw opstarten van toepassingen beheren
 
-Meer informatie over ***Apparaatcontrolecentrum*** vindt u in het [Configuratiecentrum](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) voor probleemoplossing in de gebruikershandleiding **van** AEM Screens.
+Meer informatie over ***Device Control Center*** vindt u in [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens User Guide**.
 
 >[!CAUTION]
 >
 > Gebruik Device Control Center niet om:
->
 > 1. Nieuwe versies van de spelertoepassing installeren
 > 1. Bronnen op systeemniveau controleren
 > 1. Systeemfouten oplossen
@@ -78,7 +75,7 @@ Meer informatie over ***Apparaatcontrolecentrum*** vindt u in het [Configuratiec
 
 >[!NOTE]
 >
-> Adobe raadt u aan speciale, externe apparaatbeheerplatforms te gebruiken voor alle implementaties.
+> Adobe raadt aan dat speciale, externe apparaatbeheerplatforms worden gebruikt voor alle implementaties.
 
 Het gekozen specifieke platform is afhankelijk van een aantal factoren, waaronder het ***doelbesturingssysteem***, de ***projectvereisten*** en het ***aantal eindpunten***.
 
