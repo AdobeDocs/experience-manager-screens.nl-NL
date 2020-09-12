@@ -1,12 +1,13 @@
 ---
 user-guide-title: Best Practices Guide voor AEM Screens-projecten
+breadcrumb-title: AEM Screens Guide
 solution-title: AEM Screens
-getting-started-title: Handleiding voor aanbevolen procedures voor AEM Screens
+getting-started-title: AEM Screens Best Practices Guide
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
+source-git-commit: caa87381999cb2a2b4976435c9aa8a1a882511ac
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 1%
@@ -33,9 +34,9 @@ ht-degree: 1%
    + [UX-prototypen](prototypes.md)
    + [UX-draadframes](wireframes.md)
    + [Overgang naar Platform](transition-platform.md)
-   + [Dynamische creatieve optimalisatie](dynamic-creative-optimizations.md)
+   + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Overzicht van implementatie {#deployment-brief}
-   + [AEM Platform Configurations](aem-platform-configurations.md)
+   + [Configuraties AEM Platform](aem-platform-configurations.md)
    + [Projecttaxonomie en -uitvoering](project-taxonomy-implementation.md)
    + Netwerkverkeersbeheer {#manage-network-traffic}
       + [Netwerkverkeer beheren](/help/using/managing-network-traffic.md)
