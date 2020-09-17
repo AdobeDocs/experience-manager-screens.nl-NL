@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: dec7f93381bf37564353b76dd3c5f84ba169dd42
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Stel dat u de inhoud van een kanaal alleen op vrijdag van 13.00 uur tot 10.00 uu
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van de de dialoogdoos van de Toewijzing van het **Kanaal** , kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
    >[!NOTE]
-U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
+   U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
@@ -199,7 +199,7 @@ U kunt ook _militaire tijd_ notatie (dat wil zeggen 14:00) gebruiken in plaats v
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van de de dialoogdoos van de Toewijzing van het **Kanaal** , kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
    >[!NOTE]
-U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
+   U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
@@ -226,7 +226,7 @@ U kunt ook _militaire tijd_ notatie (dat wil zeggen 14:00) gebruiken in plaats v
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van de de dialoogdoos van de Toewijzing van het **Kanaal** , kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
    >[!NOTE]
-U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
+   U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
@@ -251,7 +251,7 @@ U kunt ook _militaire tijd_ notatie (dat wil zeggen 14:00) gebruiken in plaats v
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van de de dialoogdoos van de Toewijzing van het **Kanaal** , kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
    >[!NOTE]
-U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
+   U kunt **Actief van** en **Actief tot** gebieden overslaan of omvatten en de uitdrukking toevoegen aan het gebied van Programma&#39;s, volgens uw vereiste.
 
 1. Ga de uitdrukking in het **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
