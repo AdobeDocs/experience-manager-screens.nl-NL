@@ -6,9 +6,9 @@ seo-description: Volg deze pagina om antwoorden te krijgen op veelgestelde vrage
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,23 @@ Voer de onderstaande stappen uit om Op een Android-speler actief blijven in te s
 1. Navigeren naar opties voor **ontwikkelaars**
 1. Schakel **Wachten inschakelen in**
 
-### 4. Hoe te om vensterwijze voor de speler van Vensters toe te laten?
+### 4. Hoe te om vensterwijze voor de speler van Vensters toe te laten?{#enable-player}
 
 Er is geen venstermodus in Windows Player. Dit is altijd de modus Volledig scherm.
+
+### 5. Hoe te om problemen op te lossen als een speler van het Scherm ononderbroken verzoeken login verzoeken verzendt?{#requests-login}
+
+Voer de onderstaande stappen uit om problemen op te lossen bij een AEM Screens-speler die aanvragen doorlopend verzendt naar `/content/screens/svc.json` en `/libs/granite/core/content/login.validate/j_security_check`:
+
+1. Wanneer de AEM Screens-speler wordt gestart, vraagt de speler om `/content/screens/svc.json`wanneer de speler een 404-statuscode in het antwoord krijgt, een verificatieaanvraag te starten om het gebruik `/libs/granite/core/content/login.validate/j_security_check` met behulp van de publicatie-instantie te verifiëren. Als er een manager van de douanefout in publiceer instantie is, zorg ervoor dat u de 404 statuscode voor anonieme gebruiker op `/content/screens/svc.json` of `/content/screens/svc.ping.json`terugkeert.
+
+1. Controleer of deze aanvragen in de `/filters` sectie zijn toegestaan in de configuratie van de verzender. Zie [Schermfilters](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) configureren voor meer informatie.
+
+1. Controleer of de regels voor het herschrijven van de verzender een van de rasterpaden naar een ander pad herschrijven.
+
+1. Controleer of u `/etc/map` regels voor de *auteur* of *publiceer* instantie hebt en of de rasterpaden overeenkomen met `sling:match` en intern worden omgeleid naar een ander pad. Het oplossen van nauwkeurige url in /`system/console/jcrresolver` helpt in het identificeren als de *publiceer* instantie deze urls aan een ander weg herschrijft.
+
+1. Controleer of u Apache Sling Resource Resolver Factory-configuraties hebt die interne herschrijvingen veroorzaken.
 
 ## Algemene tips voor probleemoplossing {#general-troubleshooting-tips}
 
