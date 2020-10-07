@@ -6,7 +6,7 @@ seo-description: Volg deze pagina om antwoorden te krijgen op veelgestelde vrage
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 0%
@@ -129,7 +129,7 @@ Voer de onderstaande stappen uit om Op een Android-speler actief blijven in te s
 
 Er is geen venstermodus in Windows Player. Dit is altijd de modus Volledig scherm.
 
-### 5. Hoe te om problemen op te lossen als een speler van het Scherm ononderbroken verzoeken login verzoeken verzendt?{#requests-login}
+### 5. Hoe kan ik problemen oplossen als een AEM Screens-speler voortdurend aanmeldingsaanvragen verzendt?{#requests-login}
 
 Voer de onderstaande stappen uit om problemen op te lossen bij een AEM Screens-speler die aanvragen doorlopend verzendt naar `/content/screens/svc.json` en `/libs/granite/core/content/login.validate/j_security_check`:
 
