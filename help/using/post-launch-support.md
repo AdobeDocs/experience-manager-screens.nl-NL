@@ -4,7 +4,7 @@ seo-title: Ondersteuning voor PostLaunch voor AEM Screens
 description: Op de pagina vindt u de gids Post Launch Support for AEM Screens Best Practices
 seo-description: Op de pagina vindt u de gids Post Launch Support for AEM Screens Best Practices
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 7%
@@ -29,10 +29,12 @@ Daarnaast is het, ter voorbereiding op succes op lange termijn, van het grootste
 
 >[!NOTE]
 >
-> U moet operationele parameters die in de operationele begrotingen vroeg worden opgenomen, definiëren en de verantwoordelijkheden afstemmen op de AEM-implementator en de AV-integrator.
-Is de plaatsing een Advertising Netwerk met vele belanghebbenden verbonden aan een gelegaliseerd netwerk? Dit kan veel kortere termijnen van de resolutietijd in vergelijking met een Collectief Communicatie netwerk dicteren. 
-Is de toepassing hoogst zichtbaar aan het uitvoerende leiderschap van de eindcliënt? Sites met een hoge zichtbaarheid hebben mogelijk verschillende behandelingen nodig.
-Is de toepassing kritiek op bedrijfsverrichtingen zoals menu-boards in snel-voedselketens? In deze gevallen kan de eindklant on-site resoluties met zeer korte responstijden en redundantie in afspeelhardware nodig hebben.
+>U moet operationele parameters die in de operationele begrotingen vroeg worden opgenomen, definiëren en de verantwoordelijkheden afstemmen op de AEM-implementator en de AV-integrator.
+>
+>* Is de plaatsing een Advertising Netwerk met vele belanghebbenden verbonden aan een gelegaliseerd netwerk? Dit kan veel kortere termijnen van de resolutietijd in vergelijking met een Collectief Communicatie netwerk dicteren.
+>* Is de toepassing hoogst zichtbaar aan het uitvoerende leiderschap van de eindcliënt? Sites met een hoge zichtbaarheid hebben mogelijk verschillende behandelingen nodig.
+>* Is de toepassing kritiek op bedrijfsverrichtingen zoals menu-boards in snel-voedselketens? In deze gevallen kan de eindklant on-site resoluties met zeer korte responstijden en redundantie in afspeelhardware nodig hebben.
+
 
 ## Overwegingen en query&#39;s na starten {#considerations-queries}
 
