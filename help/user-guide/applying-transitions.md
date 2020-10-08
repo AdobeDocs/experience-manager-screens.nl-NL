@@ -6,7 +6,7 @@ seo-description: Volg deze pagina om te leren hoe u overgangen kunt toepassen op
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw 
 >
 >**Vereisten**
 >
-> Creeer een AEM Screens project **TestProject** met een kanaal **TestTransition**. Stel bovendien een locatie en een weergave in om de uitvoer weer te geven.
+>Creeer een AEM Screens project **TestProject** met een kanaal **TestTransition**. Stel bovendien een locatie en een weergave in om de uitvoer weer te geven.
 
 1. Navigeer naar Kanaal **TestTransition** en klik **uitgeven** van de actiebar.
 
