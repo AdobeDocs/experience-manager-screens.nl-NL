@@ -3,7 +3,7 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina om meer te weten te komen over Kanaaltoewijzing en DayParting.
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 1%
@@ -14,6 +14,7 @@ ht-degree: 1%
 # Kanaaltoewijzing {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >In deze sectie worden de kanaaltoewijzing en de planning van kanalen voor AEM 6.5.5-pakket met schermfuncties en hoger gemarkeerd.
 
 Nadat u een weergave hebt ingesteld, moet u een kanaal aan een weergave toewijzen om de inhoud weer te geven.
@@ -21,6 +22,7 @@ Nadat u een weergave hebt ingesteld, moet u een kanaal aan een weergave toewijze
 Op deze pagina ziet u hoe u een kanaal toewijst aan uw weergave, welke kanaaleigenschappen u kunt begrijpen en hoe u DayParting kunt uitvoeren.
 
 >[!NOTE]
+>
 >U kunt meerdere kanalen aan een weergave toewijzen.
 
 
@@ -78,12 +80,14 @@ Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toew
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
+   >
    >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
 
 1. Selecteer bij de optie **Schema** de optie **Activeringsvenster** en **Herhalingsschema**.
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
+   >
    >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
 
 1. Klik op **Opslaan** als u de voorkeuren hebt geconfigureerd.
@@ -137,6 +141,7 @@ De rol van het kanaal bepaalt de context van de vertoning. De rol wordt op versc
 Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. Degene met de hoogste waarde heeft altijd voorrang op lagere waarden. Bijvoorbeeld, als er twee kanalen A en B zijn. A heeft een prioriteit van 1 en B heeft een prioriteit van 2, dan wordt kanaal B getoond, aangezien het een hogere prioriteit dan A heeft.
 
 >[!NOTE]
+>
 >De prioriteit voor een kanaal wordt ingesteld als een getal (1 voor minimaal) in het dialoogvenster **Kanaaltoewijzing** , zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
 ### Ondersteunde gebeurtenissen {#supported-events-channel}
@@ -157,13 +162,14 @@ Selecteer een van de volgende opties die beschikbaar zijn om de methode voor ond
 
 * **Onmiddellijk**: wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
 * **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of afspeelt u de nieuwe inhoud
+
    >[!NOTE]
    >Deze optie is standaard geselecteerd.
+
 * **Aan het einde van de reeks**: wanneer een nieuw programma activeert of een update wordt ontvangen, hebt u de optie om op de volledige opeenvolging te wachten om zijn eind te bereiken, en net vóór de gewenste opeenvolging, kunt u terugloop naar het eerste element, u vernieuwt of de nieuwe inhoud speelt
 
    >[!NOTE]
    >Als u de tweede of derde optie gebruikt, kunnen de op de toewijzing gedefinieerde planningstijden enigszins worden uitgesteld omdat de speler op het einde van het item of de reeks (na de opgegeven tijd) wacht voordat het item of de reeks wordt vernieuwd. De vertraging is afhankelijk van de afspeelduur van het item.
-
 
 De volgende eigenschappen worden ingesteld met de optie **Schema** in het dialoogvenster **Kanaaltoewijzing** .
 
@@ -220,4 +226,3 @@ In dit voorbeeld ziet u hoe DayParting wordt geïmplementeerd in een casino waar
 >[!NOTE]
 >
 >Bovendien kunt u ***Prioriteit*** voor elk van de kanalen bepalen. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.
-
