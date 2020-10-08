@@ -4,7 +4,7 @@ seo-title: AEM Screens-projectrollen en -verantwoordelijkheden
 description: De pagina beschrijft AEM Screens-projectrollen en -verantwoordelijkheden
 seo-description: De pagina beschrijft AEM Screens-projectrollen en -verantwoordelijkheden
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 9%
@@ -92,15 +92,14 @@ Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens
 Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren.  Deze stadia worden gewoonlijk bedoeld als **Dagen**. Dit zijn geen letterlijke dagen, maar aanwijzingen voor elke grote fase van het project.
 
 1. De eerste fase wordt aangeduid als *Dag Nul*. Deze fase omvat alle pre-sales en ontdekkingsinspanningen die worden vereist om het projectwerkingsgebied volledig te bepalen.
-
 1. De tweede fase, *dag één*, heeft betrekking op alle activiteiten die deel uitmaken van de inzet.
-
 1. De derde en laatste *dag twee* van de fase verwijst naar alle lopende operaties en ondersteunende elementen als onderdeel van de totale oplossing.
 
 >[!NOTE]
 >
 >Hoewel in deze handleiding de nadruk vooral wordt gelegd op *Dag één* en *Dag twee*, is aandacht voor alle drie de fasen noodzakelijk om een succesvol digitaal signalisatieproject uit te voeren.
-Volg een aanvullende video over **[Projectbeheer en Plaatsing](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren.
+>
+>Volg een aanvullende video over **[Projectbeheer en Plaatsing](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren.
 
 ## RACI {#raci-chart}
 
