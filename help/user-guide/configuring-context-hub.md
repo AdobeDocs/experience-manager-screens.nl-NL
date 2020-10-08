@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -68,6 +68,7 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
 ![afbeelding](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
+>
 >In het onderstaande specifieke voorbeeld worden de Google-werkbladen weergegeven als een gegevensopslagruimte die een wijziging van het element veroorzaakt wanneer de waarde hoger is dan 100 of lager dan 50.
 
 ## Stap 2: Opslagconfiguraties instellen {#step-setting-store-configurations}
@@ -96,19 +97,21 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
+      >
       >Als onderdeel van AEM 6.5 Feature Pack 4 of AEM 6.4 Feature Pack 8, dienen klanten een update uit te voeren `/conf/screens/settings/cloudsettings` naar `sling:Folder`.
-      > 
+      >
       >Voer de onderstaande stappen uit:
       >
       >1. Navigeer naar CRXDE Lite en vervolgens naar `/conf/screens/settings/cloudsettings`.
       >1. Controleer of `cloudsettings jcr:primaryType` deze zich in `sling:Folder`. Ga door met de volgende stappen als de map `jcr:primaryType` zich niet in `sling:folder`bevindt.
-      > 1. Klik met de rechtermuisknop op `/conf/screens/settings` en maak een nieuw knooppunt met de *naam* **cloudsettings1** en *Type* als **sling:Map** en sla de wijzigingen op.
+      >1. Klik met de rechtermuisknop op `/conf/screens/settings` en maak een nieuw knooppunt met de *naam* **cloudsettings1** en *Type* als **sling:Map** en sla de wijzigingen op.
       >1. Verplaats alle knooppunten onder `/conf/screens/settings/cloudsettings` naar `cloudsettings1`.
       >1. Verwijderen `cloudsettings` en opslaan.
       >1. Naam wijzigen `cloudsettings1` in `cloudsettings` en opslaan.
       >1. U zou nu moeten merken dat /conf/screens/settings/cloudsettings heeft `jcr:primaryType` zoals `sling:Folder`.
-Volg deze stappen in auteur en publiceer voor of na de verbetering.
 
+      >
+      >Volg deze stappen in auteur en publiceer voor of na de verbetering.
 
    1. Voer de **titel** in als **Google Sheets**, de **winkelnaam** als **gumesheets** en het **winkeltype** **** **** als contexthub.generic-jsonp en klik op Next.
 
@@ -116,8 +119,6 @@ Volg deze stappen in auteur en publiceer voor of na de verbetering.
       >Als u Adobe Experience Manager (AEM) 6.4 gebruikt, ga de Titel **van de** Configuratie als **googesheets** en het Type **van** Opslag als **contexthub.generic-jsonp** in.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub6.png)
-
-
 
    1. Voer uw specifieke json-configuratie in. Bijvoorbeeld, kunt u de volgende json voor demodoeleinden gebruiken en **sparen** klikken en u zult de opslagconfiguratie zien die als **Bladen** van Google in configuratie ContextHub wordt genoemd.
 
@@ -142,10 +143,11 @@ Volg deze stappen in auteur en publiceer voor of na de verbetering.
 
       >[!NOTE]
       In de bovenstaande voorbeeldcode definieert **pollInterval** de frequentie waarmee de waarden worden vernieuwd (in ms).
-Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald tijdens het instellen van de Google Sheets.
+      Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald tijdens het instellen van de Google Sheets.
 
       >[!CAUTION]
       Als u uw Google Sheets-opslagconfiguraties buiten de algemene map maakt (bijvoorbeeld in uw eigen projectmap), werkt het aanwijzen van doelen niet uit de doos.
+
 
 1. **Opslagsegmentatie instellen**
 
