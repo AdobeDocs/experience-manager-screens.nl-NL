@@ -6,7 +6,7 @@ seo-description: Volg deze pagina om antwoorden te krijgen op veelgestelde vrage
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 273b537728077a309ca3bfa928ae5fc729957305
+source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -136,7 +136,8 @@ Voer de onderstaande stappen uit om problemen op te lossen bij een AEM Screens-s
 1. Wanneer de AEM Screens-speler wordt gestart, wordt dit gevraagd `/content/screens/svc.json`. Wanneer de speler een 404 statuscode in de reactie krijgt, initieert het een authentificatieverzoek gebruikend `/libs/granite/core/content/login.validate/j_security_check` tegen *publiceer* instantie. Als er een manager van de douanefout in *publiceer* instantie is, zorg ervoor om de 404 statuscode voor anonieme gebruiker op `/content/screens/svc.json` of `/content/screens/svc.ping.json`terug te keren.
 
 1. Controleer of deze aanvragen zijn toegestaan in de `/filters`configuratie van de verzender.
-Zie [Schermfilters](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) configureren voor meer informatie.
+
+   Zie [Schermfilters](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) configureren voor meer informatie.
 
 1. Controleer of de regels voor het herschrijven van de verzender een van de rasterpaden naar een ander pad herschrijven.
 
