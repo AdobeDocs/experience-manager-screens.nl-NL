@@ -90,6 +90,7 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
    1. **Navigeer** aan **ContextHubDemo** > **creeer** **Configuratie** ContentHub en klik **sparen**.
 
       >[!NOTE]
+      >
       > Nadat u **sparen** klikt zult u in het scherm van de Configuratie **van** ContextHub zijn.
 
    1. Van het **scherm van de Configuratie** ContextHub, leidt de klik **tot** > de Configuratie van de Opslag **ContentHub.**
@@ -109,13 +110,13 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
       >1. Verwijderen `cloudsettings` en opslaan.
       >1. Naam wijzigen `cloudsettings1` in `cloudsettings` en opslaan.
       >1. U zou nu moeten merken dat /conf/screens/settings/cloudsettings heeft `jcr:primaryType` zoals `sling:Folder`.
-
       >
       >Volg deze stappen in auteur en publiceer voor of na de verbetering.
 
    1. Voer de **titel** in als **Google Sheets**, de **winkelnaam** als **gumesheets** en het **winkeltype** **** **** als contexthub.generic-jsonp en klik op Next.
 
       >[!CAUTION]
+      >
       >Als u Adobe Experience Manager (AEM) 6.4 gebruikt, ga de Titel **van de** Configuratie als **googesheets** en het Type **van** Opslag als **contexthub.generic-jsonp** in.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub6.png)
@@ -123,6 +124,7 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
    1. Voer uw specifieke json-configuratie in. Bijvoorbeeld, kunt u de volgende json voor demodoeleinden gebruiken en **sparen** klikken en u zult de opslagconfiguratie zien die als **Bladen** van Google in configuratie ContextHub wordt genoemd.
 
       >[!IMPORTANT]
+      >
       >Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald tijdens het instellen van de Google Sheets.
 
       ```
@@ -142,11 +144,13 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
       ```
 
       >[!NOTE]
-      In de bovenstaande voorbeeldcode definieert **pollInterval** de frequentie waarmee de waarden worden vernieuwd (in ms).
-      Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald tijdens het instellen van de Google Sheets.
+      >
+      >In de bovenstaande voorbeeldcode definieert **pollInterval** de frequentie waarmee de waarden worden vernieuwd (in ms).
+      >Vervang de code door uw *&lt;Sheet ID>* en *&lt;API Key>*, die u hebt opgehaald tijdens het instellen van de Google Sheets.
 
       >[!CAUTION]
-      Als u uw Google Sheets-opslagconfiguraties buiten de algemene map maakt (bijvoorbeeld in uw eigen projectmap), werkt het aanwijzen van doelen niet uit de doos.
+      >
+      >Als u uw Google Sheets-opslagconfiguraties buiten de algemene map maakt (bijvoorbeeld in uw eigen projectmap), werkt het aanwijzen van doelen niet uit de doos.
 
 
 1. **Opslagsegmentatie instellen**
@@ -158,7 +162,8 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
    1. Klik op **Volgende** en **Opslaan**.
 
       >[!NOTE]
-U moet het proces van het bepalen van de json overslaan en het als leeg verlaten.
+      >
+      >U moet het proces van het bepalen van de json overslaan en het als leeg verlaten.
 
 
 ## Stap 3: Segmenten instellen voor het publiek {#setting-up-audience}
@@ -200,7 +205,9 @@ Volg de onderstaande stappen om een merk te maken in uw activiteiten en gebied o
 
 
       >[!CAUTION]
-      Bekend probleem:
+      >
+      >Bekend probleem:
+
 Als u een gebied wilt toevoegen, verwijdert u het master item uit de URL, zoals
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -258,7 +265,8 @@ Nadat u een gegevensopslag hebt ingesteld en uw activiteiten (merk en gebied) he
    1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**.
 
       >[!NOTE]
-De **ganzen/waarde/1/0** verwijst naar rij 2 en kolom zoals ingevuld in de google-vellen in de onderstaande afbeelding:
+      >
+      >De **ganzen/waarde/1/0** verwijst naar rij 2 en kolom zoals ingevuld in de google-vellen in de onderstaande afbeelding:
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -267,7 +275,8 @@ De **ganzen/waarde/1/0** verwijst naar rij 2 en kolom zoals ingevuld in de googl
    1. Voer de **waarde** in als **70**.
 
       >[!NOTE]
-      De AEM valideert uw gegevens vanaf Google Sheet door uw segment als groen weer te geven.
+      >
+      >De AEM valideert uw gegevens vanaf Google Sheet door uw segment als groen weer te geven.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub18.png)
    Bewerk de eigenschapswaarden ook in **Lager dan50**.
@@ -301,14 +310,16 @@ Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te sch
    1. Klik op **Opslaan en sluiten**.
 
       >[!NOTE]
-      Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
+      >
+      >Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub20.png)
 
    1. Navigeer en selecteer het **kanaal TargetChannel** en klik op **Bewerken** in de actiebalk.
 
       >[!NOTE]
-      Als u opstelling alles correct hebt, zult u het **richten** optie in drop-down van de redacteur zien, zoals aangetoond in het hieronder cijfer.
+      >
+      >Als u opstelling alles correct hebt, zult u het **richten** optie in drop-down van de redacteur zien, zoals aangetoond in het hieronder cijfer.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub21.png)
 
