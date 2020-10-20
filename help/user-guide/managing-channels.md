@@ -3,17 +3,10 @@ title: Kanalen maken en beheren
 seo-title: Kanalen beheren
 description: Volg deze pagina voor meer informatie over het maken en beheren van kanalen. Ook wordt het kanaaldashboard en het bewerken van inhoud voor een kanaal uitgelegd.
 seo-description: Volg deze pagina voor meer informatie over het maken en beheren van kanalen. Ook wordt het kanaaldashboard en het bewerken van inhoud voor een kanaal uitgelegd.
-uuid: cdf09ced-9089-4249-ba51-471d6fa0e507
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
-docset: aem65
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
@@ -21,9 +14,9 @@ ht-degree: 0%
 
 # Kanalen maken en beheren {#creating-and-managing-channels}
 
-Een kanaal geeft een reeks van inhoud weer en geeft afbeeldingen en video&#39;s weer, maar kan ook een website of een toepassing van één pagina weergeven.
+Een kanaal geeft een reeks inhoud (afbeeldingen en video&#39;s) weer en geeft ook een website of een toepassing van één pagina weer.
 
-Op deze pagina ziet u hoe u kanalen voor schermen maakt en beheert.
+Op deze pagina worden kanalen voor AEM Screens gemaakt en beheerd.
 
 **Voorwaarden**:
 
@@ -34,7 +27,7 @@ Op deze pagina ziet u hoe u kanalen voor schermen maakt en beheert.
 
 Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappen om een nieuw kanaal voor uw project te maken:
 
-1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik vervolgens op Rasteren. U kunt ook rechtstreeks navigeren naar: `https://localhost:4502/screens.html/content/screens`.
+1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik vervolgens op Rasteren. U kunt ook rechtstreeks navigeren naar `https://localhost:4502/screens.html/content/screens`.
 
 1. Navigeer naar het project Schermen en selecteer de map **Kanalen** .
 
@@ -80,9 +73,6 @@ De volgende sjabloonopties zijn beschikbaar wanneer u de wizard gebruikt, zoals:
 
 U kunt een kanaal bewerken, weergeven, eigenschappen en dashboard, kopiëren, voorvertonen en verwijderen.
 
->[!NOTE]
->
->Selecteer het kanaal, zoals weergegeven in de onderstaande afbeelding.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -94,7 +84,6 @@ Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 1. Klik in de linkerbovenhoek van de actiebalk op **Bewerken** om de kanaaleigenschappen te bewerken. De redacteur opent die u toestaat om activa/componenten aan uw kanaal toe te voegen die u wilt publiceren.
 
 >[!NOTE]
->
 >U kunt componenten aan uw kanaal toevoegen. Raadpleeg **[Componenten toevoegen aan een kanaal](adding-components-to-a-channel.md)** voor meer informatie.
 
 ![demochannel1](assets/demochannel1.gif)
@@ -141,7 +130,6 @@ Klik op de (**...**) van de de actiebar van de INFORMATIE **van het** KANAAL aan
 U kunt manifest van het kanaaldashboard bekijken.
 
 >[!IMPORTANT]
->
 >Deze optie is alleen beschikbaar bij AEM 6.4 Feature Pack 8 of AEM 6.5 Feature Pack 4.
 
 Ga als volgt te werk om deze optie in te schakelen vanaf het kanaaldashboard:
@@ -155,7 +143,7 @@ Ga als volgt te werk om deze optie in te schakelen vanaf het kanaaldashboard:
    1. Navigeer naar het deelvenster **KANAALINFORMATIE** en klik op *..*
    1. Klik op Offlineinhoud **bijwerken**
 
-Nu moet u de optie **Weergavemanifest** weergeven in het deelvenster **KANAALINFORMATIE** in het dashboard Kanaal.
+De optie **Weergavemanifest** wordt weergegeven in het deelvenster **KANAALINFORMATIE** in het dashboard Kanaal.
 
 ![image1](assets/channel-one.png)
 
@@ -163,8 +151,7 @@ Nu moet u de optie **Weergavemanifest** weergeven in het deelvenster **KANAALINF
 ### Online en offline kanalen {#online-and-offline-channels}
 
 >[!NOTE]
->
->Wanneer u een kanaal maakt, is het kanaal standaard offline.
+>Wanneer u een kanaal maakt, is dit standaard offline.
 
 Wanneer u een kanaal maakt, kan dit worden gedefinieerd als een online- of een offlinekanaal.
 
@@ -197,7 +184,6 @@ Volg de onderstaande stappen om het kanaal online te maken:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->
 >Als u uw kanaal opnieuw offline wilt configureren, schakelt u de optie Developer mode uit op het tabblad **Eigenschappen** (zoals weergegeven in stap (3)) en klikt u vervolgens in het deelvenster **KANAAL-INFORMATIE** op Offline inhoud **** bijwerken, zoals in de onderstaande afbeelding wordt getoond.
 
 ![dashboard2](assets/dashboard2.gif)
@@ -251,7 +237,6 @@ De bijbehorende weergaven worden weergegeven in het deelvenster **Toegewezen bee
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->
 >Raadpleeg de volgende bronnen voor meer informatie over het maken van een weergave op een locatie:
 >
 >* [Locaties maken en beheren](managing-locations.md)
