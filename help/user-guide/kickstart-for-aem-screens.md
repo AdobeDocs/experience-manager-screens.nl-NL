@@ -3,9 +3,9 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 translation-type: tm+mt
-source-git-commit: d49ceecab42762425d779d50a31291091088ee19
+source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 1%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 1%
 
 # Kickstart Guide {#kickstart-guide}
 
-Deze sectie is een kickstart naar AEM Screens en laat zien hoe u een AEM Screens-project kunt instellen en uitvoeren. Het begeleidt u door het instellen van een eenvoudige digitale handtekening en het toevoegen van inhoud, zoals elementen en/of video&#39;s, aan elk kanaal en het verder publiceren van de inhoud naar een AEM Screens-speler.
+De kickstart naar AEM Screens laat zien hoe u een AEM Screens-project kunt opzetten en uitvoeren. Het begeleidt u door het instellen van een eenvoudige digitale handtekening en het toevoegen van inhoud, zoals elementen en/of video&#39;s, aan elk kanaal en het verder publiceren van de inhoud naar een AEM Screens-speler.
 
 >[!NOTE]
->Voordat u aan de projectdetails gaat werken, moet u eerst het nieuwste Feature Pack hebben geïnstalleerd. U kunt het nieuwste functiepakket voor AEM Screens 6.5.5 Release downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
+>Voordat u aan de projectdetails gaat werken, moet u eerst het nieuwste Feature Pack voor AEM Screens hebben geïnstalleerd. U kunt het nieuwste functiepakket downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
 
 ## Vereisten {#prerequisites}
 
@@ -47,12 +47,11 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 
 1. Klik op **Opslaan** om het filter Leeg toestaan voor Apache-schuifverwijzing in te schakelen.
 
-
 ## Een Digital Signage-ervaring maken in 5 minuten {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
-De eerste stap is het maken van een nieuw AEM Screens-project.
+De eerste stap is het maken van een AEM Screens-project.
 
 1. Navigeer naar uw Adobe Experience Manager-exemplaar (AEM) en klik op **Schermen**. U kunt ook rechtstreeks navigeren vanuit `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
@@ -63,35 +62,34 @@ De eerste stap is het maken van een nieuw AEM Screens-project.
    >[!NOTE]
    >Zodra u het project creeert, brengt het u terug naar de homepage van het Project van de Schermen. U kunt nu uw project selecteren. In een project zijn er vijf verschillende mappen met de naam **Toepassingen**, **Kanalen**, **Apparaten**, **Locaties** en **Planningen**.
 
-
 ### Een kanaal maken {#creating-channel}
 
-Zodra u uw project op zijn plaats hebt, moet u een nieuw kanaal tot stand brengen waar u de inhoud beheert.
+Nadat u een AEM Screens-project hebt gemaakt, moet u een nieuw kanaal maken waarin u de inhoud beheert.
 
 Ga als volgt te werk om een nieuw kanaal voor uw project te maken:
 
-1. Zodra u een project creeert, selecteer het **project DemoScreens** en selecteer de omslag **van** Kanalen, zoals aangetoond in het hieronder cijfer. Klik op **+ Maken** op de actiebalk.
+1. Zodra u een project creeert, selecteer het **project DemoScreens** en selecteer de omslag van **Kanalen** , zoals aangetoond in het hieronder cijfer. Klik op **+ Maken** op de actiebalk.
 
    ![afbeelding](assets/kickstart/demo-2.png)
 
 1. Kies het kanaal **van de** Reeks van de tovenaar en klik **daarna**.
    ![afbeelding](assets/kickstart/demo-3.png)
 
-1. Voer de **titel** in als *TestChannel* en klik op **Maken**.
+1. Voer de **titel** in als **TestChannel** en klik op **Maken**.
 
    ![afbeelding](assets/kickstart/demo-4.png)
 
-   Het *bestand TestChannel* wordt gemaakt en aan de map met kanalen toegevoegd, zoals in de onderstaande afbeelding wordt getoond.
+   Het **testkanaal** wordt nu toegevoegd aan uw kanaalomslag, zoals aangetoond in hieronder figuur.
 
    ![afbeelding](assets/kickstart/demo-5.png)
 
 ### Inhoud toevoegen aan een kanaal {#adding-content}
 
-Wanneer u uw kanaal hebt ingesteld, moet u inhoud aan uw kanaal toevoegen die de Schermspeler zal tonen.
+Wanneer u uw kanaal hebt ingesteld, moet u inhoud aan uw kanaal toevoegen die in AEM Screens Player wordt weergegeven.
 
-Voer de onderstaande stappen uit om inhoud aan het kanaal (*TestChannel*) in uw project toe te voegen:
+Voer de onderstaande stappen uit om inhoud aan het kanaal (**TestChannel**) in uw project toe te voegen:
 
-1. Navigeer naar het **DemoProject** dat u hebt gemaakt en selecteer de map **Kanalen** .
+1. Navigeer naar het **DemoProject** u creeerde en selecteer **TestChannel** van de omslag van **Kanalen** .
 
 1. Klik op **Bewerken** op de actiebalk (zie de onderstaande afbeelding). De redacteur voor **TestChannel** opent.
 
@@ -118,7 +116,7 @@ Ga als volgt te werk om een nieuwe locatie voor uw project te maken:
 
 1. Selecteer **Locatie** in de wizard en klik op **Volgende**.
 
-1. Voer de **naam** voor uw locatie in (voer de titel in als *TestLocation*) en klik op **Maken**.
+1. Voer de **naam** voor uw locatie in (voer de titel in als **TestLocation**) en klik op **Maken**.
 
 De **testlocatie** wordt gemaakt en toegevoegd aan de map **Locations** .
 
@@ -128,7 +126,7 @@ De **testlocatie** wordt gemaakt en toegevoegd aan de map **Locations** .
 Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie maken.
 
 >[!NOTE]
->***De vertoningen*** vertegenwoordigen de digitale ervaring die op één of veelvoudige schermen loopt.
+>***De weergave*** vertegenwoordigt de digitale ervaring die op een of meerdere schermen wordt uitgevoerd.
 
 1. Navigeer naar **TestLocation** en selecteer het.
 
@@ -234,9 +232,7 @@ Wanneer uw Chrome OS-speler is ingeschakeld, voert u de onderstaande stappen uit
 
    ![afbeelding](assets/kickstart/demo-register8.png)
 
-1. Tik/klik op **Voltooien** om het registratieproces te voltooien.
-
-1. U moet het geregistreerde apparaat kunnen bekijken vanaf het weergavedashboard.
+1. Tik/klik op **Voltooien** om het registratieproces te voltooien. U moet het geregistreerde apparaat kunnen bekijken vanaf het weergavedashboard.
 
    ![afbeelding](assets/kickstart/demo-register9.png)
 
@@ -247,9 +243,3 @@ Alle elementen in uw kanaal worden nu afgespeeld op uw Chrome OS-speler.
 Gefeliciteerd, u speelt nu inhoud in een AEM Screens-kanaal af.
 
 ![afbeelding](assets/kickstart/demo-video-screens.gif)
-
-
-
-
-
-
