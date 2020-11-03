@@ -5,9 +5,9 @@ description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak vo
 seo-description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak voor tekstbedekkingen kunt toepassen.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Aangepaste branding en opmaak voor tekstbedekkingen {#creating-custom-branding-styling}
 
-Volg deze pagina om te leren hoe u aangepaste branding en opmaak kunt toepassen op tekstbedekkingen die op uw elementen in een rasterkanaal zijn toegepast.
+Volg deze pagina om te leren hoe u aangepaste branding en opmaak kunt toepassen op tekstbedekkingen die op uw elementen in een AEM Screens-kanaal zijn toegepast.
 
 ## Aangepaste branding en opmaak maken voor tekstbedekkingen {#steps-custom-branding}
 
@@ -81,9 +81,8 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 1. Klik op **Opslaan en sluiten** om het ontwerppad bij te werken.
 
->[!IMPORTANT]
->
->U kunt de bestaande sjablonen voor schermen bedekken door standaard uw eigen ontwerpen te injecteren of uw eigen sjabloon te maken. Raadpleeg de onderstaande stappen voor meer informatie.
+   >[!IMPORTANT]
+   >U kunt de bestaande sjablonen voor schermen bedekken door standaard uw eigen ontwerpen te injecteren of uw eigen sjabloon te maken. Raadpleeg de onderstaande stappen voor meer informatie.
 
 1. Als u de bestaande sjablonen voor schermen wilt bedekken om uw eigen ontwerpen standaard te injecteren:
 
@@ -129,7 +128,7 @@ Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking 
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-In de zelfstudie kunt u nu uw merk en aangepaste opmaak bijwerken voor tekstbedekkingen die aan uw elementen zijn toegevoegd.
+   Nu kunt u uw merk en aangepaste opmaak bijwerken voor tekstbedekkingen die aan uw elementen zijn toegevoegd.
 
 
 
