@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 translation-type: tm+mt
-source-git-commit: 8f8973c4fda8d40f919e199be3df15ba42f0a6c6
+source-git-commit: 835da341fcee8e4abb3375c43a0a130d3f79d859
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Voer de onderstaande stappen uit om de lokale server in te stellen en de geëxtr
 1. IP-adres van uw lokale computer ophalen.
 
    >[!NOTE]
-   >U kunt het IP adres van de Terminal van uw machine krijgen door de volgende bevelen te typen:
+   >U kunt het IP adres van de Terminal van uw machine krijgen gebruikend de volgende bevelen:
    >* **Mac**: `ifconfig`
    >* **Windows**: `ipconfig`
 
