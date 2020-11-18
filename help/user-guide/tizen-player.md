@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: baefade9fa013bc77ed1f112d0ad2098c992dde5
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Voer de volgende stappen uit om Tizen Player voor AEM Screens te implementeren:
 1. IP-adres van uw lokale computer ophalen.
 
    >[!NOTE]
-   >Voor **MAC** en **Vensters** typebevel `ifconfig` in de Terminal.
+   >In de Terminal van uw machine typ de volgende bevelen voor:
+   >**Mac** -opdracht `ifconfig`
+   >**Windows**, opdracht gebruiken `ipconfig`
 
 1. Navigeer in de Terminal naar dezelfde map in de map met uitgevouwen installatieprogramma en controleer of de localhost werkt.
 
