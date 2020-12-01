@@ -27,24 +27,24 @@ Met contentcontrole kunt u problemen oplossen met betrekking tot inhoud die niet
 
 1. Als een probleem met een leeg scherm wordt aangetroffen:
 
-   * Controleer de *voorvertoning* om te zien of het kanaal een zwart scherm weergeeft
-   * Registreer een *lokale chroomspeler* (als extensie) op uw laptop voor dat beeldscherm en controleer of dat een zwart scherm weergeeft.
-   * Klik met de rechtermuisknop en controleer de *toepasselijke logboeken*.
+   * Controleer *voorvertoning* om te zien of het kanaal een zwart scherm toont
+   * Registreer een *lokale chroomspeler* (als uitbreiding) op uw laptop aan dat scherm en controleer of dat een zwart scherm toont.
+   * Klik met de rechtermuisknop en controleer *toepasbare logbestanden*.
 
    Als dit niet gebeurt op de lokale speler, maar alleen op het apparaat:
 
-   * Controleer het *mediatype* (dat wordt gebruikt) dat mogelijk problemen heeft op dat apparaat en bevestig ook of de inhoud lokaal is gedownload (de cache van het kanaal voor de beheerdersinterface is leeg).
-   * Neem alle *apparaatlogboeken* op in het ticket voor snelle probleemoplossing.
-   * *Verzamel logboeken* van het apparaat van AEM.
+   * Controleer *mediatype* (wordt gebruikt) dat mogelijk problemen heeft op dat apparaat en bevestig ook of de inhoud lokaal is gedownload (de cache van de beheerdersinterface is leeg).
+   * Neem *apparaatlogboeken* op in het ticket voor snelle probleemoplossing.
+   * *Verzamel* logsgegevens van het apparaat van AEM.
 
 
-## Apparaatcontrole {#device-monitoring}
+## Apparaatbewaking {#device-monitoring}
 
 Apparaatbewaking met betrekking tot de bewaking van het fysieke apparaat als er een probleem optreedt met een leeg scherm:
 
 1. Als een probleem met een leeg scherm wordt aangetroffen:
 
-   * Controleer of de *weergave* is ingeschakeld.
-   * Controleer of de *computer* is ingeschakeld en het signaal verzendt.
-   * Klik met de rechtermuisknop, inspecteer en controleer de *toepasselijke logboeken*.
+   * Controleer of *display* is ingeschakeld.
+   * Controleer of de *computer* is ingeschakeld en een signaal verzendt.
+   * Klik met de rechtermuisknop, controleer en controleer *toepasbare logbestanden*.
 
