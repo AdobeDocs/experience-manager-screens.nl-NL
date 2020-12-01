@@ -1,8 +1,8 @@
 ---
 title: REST API's
 seo-title: REST API
-description: AEM Screens verstrekt een eenvoudige RESTful API die de Siren specificatie volgt. Volg deze pagina om te leren hoe u door de inhoudsstructuur kunt navigeren en opdrachten naar apparaten in de omgeving kunt verzenden.
-seo-description: AEM Screens verstrekt een eenvoudige RESTful API die de Siren specificatie volgt. Volg deze pagina om te leren hoe u door de inhoudsstructuur kunt navigeren en opdrachten naar apparaten in de omgeving kunt verzenden.
+description: AEM Screens biedt een eenvoudige RESTful-API die voldoet aan de Sirenespecificatie. Volg deze pagina om te leren hoe u door de inhoudsstructuur kunt navigeren en opdrachten naar apparaten in de omgeving kunt verzenden.
+seo-description: AEM Screens biedt een eenvoudige RESTful-API die voldoet aan de Sirenespecificatie. Volg deze pagina om te leren hoe u door de inhoudsstructuur kunt navigeren en opdrachten naar apparaten in de omgeving kunt verzenden.
 uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
 contentOwner: Jyotika Syal
 content-type: reference
@@ -11,17 +11,20 @@ topic-tags: developing
 discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
 
 # REST API&#39;s{#rest-apis}
 
-AEM Screens verstrekt een eenvoudige RESTful API die de [Siren](https://github.com/kevinswiber/siren) specificatie volgt. Het staat toe om de inhoudsstructuur te navigeren en bevelen naar apparaten in het milieu te verzenden.
+AEM Screens biedt een eenvoudige RESTful-API die voldoet aan de [Siren](https://github.com/kevinswiber/siren)-specificatie. Het staat toe om de inhoudsstructuur te navigeren en bevelen naar apparaten in het milieu te verzenden.
 
-De API is toegankelijk via [*http://localhost:4502/api/screens.json *](http://localhost:4502/api/screens.json).
+De API is toegankelijk op [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
-## Navigeren door de inhoudsstructuur {#navigating-content-structure}
+## Navigeren door inhoudsstructuur {#navigating-content-structure}
 
 De JSON die door de API-aanroepen wordt geretourneerd, vermeldt de entiteiten met betrekking tot de huidige bron. Na de vermelde zelfverbinding, is elk van deze entiteiten opnieuw toegankelijk als middel REST.
 
