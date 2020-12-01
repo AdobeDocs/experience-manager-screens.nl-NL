@@ -28,7 +28,7 @@ Overweeg het volgende voordat u de AEM Screens Digital Sigage-oplossing implemen
 * **Planning**
 * **De inhoud voorvertonen**
 
-Raadpleeg de [Verklarende woordenlijst](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html)voor meer informatie over deze termen.
+Om over deze termijnen te leren, verwijs naar [Verklarende woordenlijst](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Raadpleeg de [Verklarende woordenlijst](https://helpx.adobe.com/experience-manag
 >* text config-bestand om elke speler automatisch te laten verwijzen naar een specifieke instantie van een AEM
 
 
-## Een AEM Screens-project implementeren {#creating-a-project}
+## Een AEM Screens-project {#creating-a-project} implementeren
 
 Een AEM Screens-auteur is verantwoordelijk voor het maken en beheren van een gebruikerservaring met behulp van de beschikbare componenten in AEM Screens. De auteur maakt en bekijkt de inhoud en biedt een gebruiksvriendelijke grafische gebruikersinterface door de beschikbare segmenten van AEM Screens te configureren, te implementeren en te integreren.
 
@@ -58,4 +58,4 @@ Een auteur begint gewoonlijk een AEM Screens-project door:
 * [weergeven, inhoud in een AEM Screens-speler](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->Bovendien kunt u een reeks plaatsen van een spreadsheet CSV/XLS aan uw project van AEM Screens in bulk invoeren. Volg de [nieuwe importmodule voor projecten van Bestand](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) voor meer informatie.
+>Bovendien kunt u een reeks plaatsen van een spreadsheet CSV/XLS aan uw project van AEM Screens in bulk invoeren. Volg [Nieuwe projectimportmodule van Bestand](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) voor meer informatie.
