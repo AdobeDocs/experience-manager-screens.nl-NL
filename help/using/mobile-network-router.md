@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk {#mobile-network-setup}
+# Mobiel netwerk met mobiele gegevensrouter en actieve netwerkcomponenten {#mobile-network-setup}
 
 Adobe AEM Screens Players kunnen ook worden aangesloten gebruikend mobiele of cellulaire netwerken die minstens een 3G netwerk in werking stellen.
 
@@ -44,10 +44,10 @@ De configuratie wijst een Toegang van Internet voor elk Controlemechanisme van A
 
    >[!NOTE]
    >**Tip voor probleemoplossing**
-   >Als AEM Screens niet behoorlijk verbindt en de verwachte inhoud wordt niet getoond dan controleer uw firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443`. zijn.
+   >Als AEM Screens niet behoorlijk verbindt en de verwachte inhoud niet wordt getoond dan controleer uw firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443` zijn.
 
 
-## Vestiging Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk {#requirements-direct}
+## Het Vestiging Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk {#requirements-direct}
 
 De netwerkOpstelling kan logisch gezien in twee blokken worden gescheiden:
 
@@ -59,7 +59,7 @@ De netwerkOpstelling kan logisch gezien in twee blokken worden gescheiden:
 
 De prestaties van de verbinding van Internet, naast reeds beschreven netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens inhoud uit te voeren downloadt regelmatig.
 
-*Voldoende* is afhankelijk van de hoeveelheid aangesloten AEM en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
+*Voldoende* hangt af van de hoeveelheid aangesloten AEM en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
 Houd in mening dat alle apparaten een gezamenlijke toegang tot de verbinding van Internet hebben en de bandbreedte gewoonlijk lineair vermindert terwijl het toevoegen van meer consumenten/computers aan het netwerk.
 Naast de specifieke theoretische verbinding van het Netwerk, moet worden gewaarborgd dat de dekking van de mobiele Router minstens &quot;goed&quot;is. Ook het onderliggende Maandelijkse Plan moet genoeg Capaciteit van Gegevens en voldoende bandbreedte behandelen om alle verbonden cliënten binnen verbonden LAN te dienen.
 
@@ -69,7 +69,7 @@ De volgende lijst benadrukt de gegevensnetwerken met hun standaardbandbreedte:
 |--- |--- |
 | 3G | 42 Mbps |
 | 4G | 150 Mbps |
-| 5G | 1000 - 10000 Mbps |
+| 5 G | 1000 - 10000 Mbps |
 
 Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt wordt het geadviseerd om de volgende vragen te beantwoorden:
 
@@ -85,18 +85,18 @@ Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt w
 
 >[!IMPORTANT]
 >
->Voor het aanvankelijk uploaden van mediabestanden, bijvoorbeeld, terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een verhoogde downloadtijd worden verwacht en in de bovenstaande veronderstellingen worden weerspiegeld. Een netwerk 4G met *goede* dekking en onbeperkte Gegevens zou de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
+>Voor het aanvankelijk uploaden van mediabestanden, bijvoorbeeld, terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een verhoogde downloadtijd worden verwacht en in de bovenstaande veronderstellingen worden weerspiegeld. Een 4G-netwerk met *goede*-dekking en een onbeperkt aantal gegevens moet overeenkomen met de meest gebruikte installaties in deze netwerkinstelling.
 
 
-### Netwerk voor lokale gebieden {#lan-connection}
+### Netwerk {#lan-connection} voor lokale gebieden
 
 De prestaties van LAN, naast reeds beschreven netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsdownloads van AEM Screens regelmatig in werking te stellen. In deze dagen past het LAN netwerk gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Bij het gebruik van andere actieve netwerkcomponenten is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte.
 
 Bijvoorbeeld, zouden de Componenten van het Netwerk minstens norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de Toegang van Internet/de specificatie van de Router wordt verstrekt.
 
-Als een Wi-Fi-oplossing wordt overwogen om een scherm te verbinden met de Internet Link, is het raadzaam ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals IEEE 802.11g. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals 802.11h-n zijn van betere kwaliteit. Als u een Wi-Fi Repeater nodig hebt, raden we u sterk aan Wi-Fi Access-punttechnologieën zoals Google Nest Mesh Wi-Fi of vergelijkbare technologieën aan te bevelen.
+Als een Wi-Fi-oplossing wordt overwogen om een scherm te verbinden met de Internet Link, is het raadzaam ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals IEEE 802.11g. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere*-standaarden zoals 802.11h-n zijn van betere kwaliteit. Als u een Wi-Fi Repeater nodig hebt, raden we u sterk aan Wi-Fi Access-punttechnologieën zoals Google Nest Mesh Wi-Fi of vergelijkbare technologieën aan te bevelen.
 
-## Media en middelen downloaden {#download}
+## Media en elementen downloaden {#download}
 
 AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke Dossiers van Media, zoals Beelden en Video. Wegens dit concept komt het belangrijkste netwerkverkeer voor in het geval dat er nieuwe inhoud is die op een specifiek scherm moet worden getoond.
 Als u bijvoorbeeld een afspeellijst hebt gedefinieerd die niet vaak tijdens de dag wordt bijgewerkt, is dit vrijwel gelijk aan een netwerkonafhankelijke bewerking, zodra alle bestanden op de speler zijn opgeslagen.
