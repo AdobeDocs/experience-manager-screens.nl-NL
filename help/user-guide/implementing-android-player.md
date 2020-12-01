@@ -19,61 +19,61 @@ ht-degree: 1%
 ---
 
 
-# Android-speler implementeren {#implementing-android-player}
+# Android-speler {#implementing-android-player} implementeren
 
 In deze sectie wordt beschreven hoe u de Android-speler configureert. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
 
-Bovendien is **Watchdog** een oplossing om de speler te herstellen van crashes. Een toepassing moet zich bij de waakhond dienst registreren en dan periodiek berichten naar de dienst verzenden die het levend is. Als de waakhonddienst niet binnen een bepaalde tijd een bewaarde bericht ontvangt, probeert de dienst om het apparaat voor een schoon terugwinning (als het de voldoende voorrechten heeft) opnieuw op te starten of de toepassing opnieuw te beginnen.
+Daarnaast is **Watchdog** een oplossing om de speler te herstellen van vastlopen. Een toepassing moet zich bij de waakhond dienst registreren en dan periodiek berichten naar de dienst verzenden die het levend is. Als de waakhonddienst niet binnen een bepaalde tijd een bewaarde bericht ontvangt, probeert de dienst om het apparaat voor een schoon terugwinning (als het de voldoende voorrechten heeft) opnieuw op te starten of de toepassing opnieuw te beginnen.
 
-## Android Player installeren {#installing-android-player}
+## Android-speler {#installing-android-player} installeren
 
 Installeer Android Player voor AEM Screens om Android Player voor AEM Screens te implementeren.
 
-Ga naar de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+Bezoek de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
-### De Milieu van de vestiging voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Environment instellen voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
 >U moet een omgeving instellen voor Android Player als u AEM Screens 6.5.5 Service Pack gebruikt.
 
-Stel het kenmerk **SameSite voor de cookies** met inlognaam van **Lax** in op **Geen** van de Configuratie **van de** Adobe Experience Manager-webconsole op alle AEM auteur- en publicatieinstanties.
+Stel het **SameSite-kenmerk voor de aanmeldings-token cookies** in van **Lax** naar **None** van **Adobe Experience Manager Web Console Configuration** op alle AEM auteur- en publicatieinstanties.
 
 Voer de onderstaande stappen uit:
 
-1. Navigeer naar **Adobe Experience Manager Web Console Configuration** via `http://localhost:4502/system/console/configMgr`.
+1. Navigeer naar **Adobe Experience Manager Web Console Configuration** met `http://localhost:4502/system/console/configMgr`.
 
 1. Zoek naar *Adobe Granite Token Authentication Handler*.
 
-1. Stel het kenmerk **SameSite voor de cookies** met inlognaam van **Lax** in op **Geen**.
+1. Stel het **SameSite-kenmerk voor de cookies met inlognaam** in van **Lax** naar **None**.
    ![afbeelding](/help/user-guide/assets/granite-updates.png)
 
-1. Click **Save**.
+1. Klik **Opslaan**.
 
 
-### Ad hoc-methode {#ad-hoc-method}
+### Ad hoc methode {#ad-hoc-method}
 
-Met de ad-hocmethode kunt u de nieuwste Android Player (*.exe*) installeren. Bezoek de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+Met de ad-hocmethode kunt u de nieuwste Android-speler (*.exe*) installeren. Bezoek [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) pagina.
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeer naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u wenst om te verbinden met en klik **sparen**.
+1. Navigeer naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u wenst om met te verbinden en **sparen** te klikken.
 
-1. Navigeer vanuit het menu Actie links naar de koppeling **Apparaatregistratie** **** om de status van het apparaatregistratieproces te controleren.
+1. Navigeer naar de **Device** **Registratie**-koppeling in het linkeractiemenu om de status van het registratieproces van het apparaat te controleren.
 
 >[!NOTE]
 >
->Als de **status** is **GEREGISTREERD**, wordt het veld **Apparaat-id** ingevuld.
+>Als **State** **REGISTERED** is, zult u merken dat het **Device id** veld wordt gevuld.
 >
->Als de **staat** **NIET-GEREGISTREERD** is, kunt u het apparaat registreren met het **token** .
+>Als **State** **UNREGISTERED** is, kunt u **Token** gebruiken om het apparaat te registreren.
 
-## Android Watchdog implementeren {#implementing-android-watchdog}
+## Android Watchdog {#implementing-android-watchdog} implementeren
 
 Vanwege de architectuur van Android vereist het opnieuw opstarten van het apparaat dat de toepassing systeemrechten heeft. Hiervoor moet u de apk ondertekenen met de ondertekeningssleutels van de fabrikant. Als dit niet het geval is, wordt de speler opnieuw gestart door de controlehond en wordt het apparaat niet opnieuw opgestart.
 
-### Handtekening van Android-apks met behulp van fabriekssleutels {#signage-of-android-apks-using-manufacturer-keys}
+### Signering van Android-apparaten met behulp van fabriekssleutels {#signage-of-android-apks-using-manufacturer-keys}
 
-Als u toegang wilt tot enkele geprivilegieerde API&#39;s van Android, zoals *PowerManager* of *HDMIControlServices*, moet u de android-apk ondertekenen met de toetsen van de fabrikant.
+Als u toegang wilt tot enkele geprivilegieerde API&#39;s van Android, zoals *PowerManager* of *HDMIControlServices*, moet u de android-app ondertekenen met de toetsen van de fabrikant.
 
 >[!CAUTION]
 >
@@ -83,29 +83,29 @@ Als u toegang wilt tot enkele geprivilegieerde API&#39;s van Android, zoals *Pow
 
 Volg de onderstaande stappen om de android-apk te ondertekenen met de toetsen van de fabrikant:
 
-1. Download de app van Google Play of van de pagina Downloads [voor](https://download.macromedia.com/screens/) AEM Screens Player
-1. Vraag de platformtoetsen aan bij de fabrikant voor een *pk8* - en een *pem* -bestand
+1. Download de app van Google Play of van de pagina [AEM Screens Player Downloads](https://download.macromedia.com/screens/)
+1. Vraag de platformtoetsen van de fabrikant aan om een *pk8*- en een *pem*-bestand te verkrijgen
 
 1. Zoek het hulpprogramma voor ondertekenaars in android-SDK met Zoeken ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
 1. &lt;pathto> /apksigner sign —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
 1. Het pad naar het gereedschap ZIP-uitlijning zoeken in android sdk
-1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligensalig.apk
-1. Installeer ***aemscreensalign.apk*** met adb-installatie op het apparaat
+1. &lt;pathto> /zipalign-fv 4 aemscreensplayer.apk aemscreensalign.apk
+1. ***aemscreensalign.apk*** installeren met adb-installatie op het apparaat
 
-## Implementatie van Android Watchdog {#android-watchdog-implementation}
+## Implementatie Android Watchdog{#android-watchdog-implementation}
 
-De cross-Android-waakhond-service wordt geïmplementeerd als een cordova-plug-in met *AlarmManager*.
+De cross-Android waakhond service wordt geïmplementeerd als een cordova-plug-in met *AlarmManager*.
 
 In het volgende diagram wordt de implementatie van waakhond-service getoond:
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
-**1. Initialisatie** Op het moment van initialisatie van de cordova-insteekmodule worden de machtigingen gecontroleerd om te controleren of we over systeemrechten beschikken en dus of we de machtiging Opnieuw opstarten gebruiken. Als aan deze twee criteria wordt voldaan, wordt een hangende Intent voor Reboot gecreeerd, anders wordt een hangende Intent om de toepassing (die op zijn Activiteit van de Lancering wordt gebaseerd) opnieuw te beginnen gecreeerd.
+**1. Initialisatie** Op het moment van initialisatie van de cordova-insteekmodule worden de machtigingen gecontroleerd om te zien of we over systeemrechten beschikken en dus over de machtiging Opnieuw opstarten. Als aan deze twee criteria wordt voldaan, wordt een hangende Intent voor Reboot gecreeerd, anders wordt een hangende Intent om de toepassing (die op zijn Activiteit van de Lancering wordt gebaseerd) opnieuw te beginnen gecreeerd.
 
-**2. Alive Timer** A keep live timer wordt gebruikt om een gebeurtenis om de 15 seconden te activeren. In dat geval moet u de bestaande in behandeling zijnde intent annuleren (om de app opnieuw op te starten of te starten) en een nieuwe in behandeling zijnde intent in de toekomst voor dezelfde 60 seconden registreren (in feite om het opnieuw opstarten uit te stellen).
+**2. Levende Tijdopnemer** A houdt levend tijdopnemer wordt gebruikt om een gebeurtenis om de 15 seconden teweeg te brengen. In dat geval moet u de bestaande in behandeling zijnde intent annuleren (om de app opnieuw op te starten of te starten) en een nieuwe in behandeling zijnde intent in de toekomst voor dezelfde 60 seconden registreren (in feite om het opnieuw opstarten uit te stellen).
 
 >[!NOTE]
 >
->In Android wordt de *AlarmManager* gebruikt om de *pendingIntents* te registreren die kunnen worden uitgevoerd zelfs als de app is vastgelopen en de alarmlevering niet exact is vastgelegd in API 19 (Kitkat). Behoud wat ruimte tussen het interval van de tijdopnemer en het alarm van *AlarmManager* *pendingIntent* .
+>In Android wordt de *AlarmManager* gebruikt om de *pendingIntents* te registreren die ook kunnen worden uitgevoerd als de app is vastgelopen en de alarmlevering niet exact is via API 19 (Kitkat). Behoud wat ruimte tussen het interval van de tijdopnemer en *alarm* *pendingIntent* alarm.
 
-**3. Toepassing vastloopt** Als de toepassing vastloopt, wordt de in AlarmManager geregistreerde in behandeling zijndeIntent voor Reboot niet meer opnieuw ingesteld en wordt de app opnieuw opgestart of opnieuw opgestart (afhankelijk van de machtigingen die beschikbaar zijn op het moment van initialisatie van de cordova-plug-in).
+**3. Toepassing crash** In het geval van een crash, wordt de pendingIntent voor Reboot geregistreerd met AlarmManager niet meer opnieuw ingesteld en wordt daarom een reboot of nieuw begin van app uitgevoerd (afhankelijk van toestemmingen beschikbaar op het tijdstip van initialisering van de cordova plugin).
