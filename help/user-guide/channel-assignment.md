@@ -23,7 +23,7 @@ Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 >[!NOTE]
 >U kunt meerdere kanalen aan een weergave toewijzen.
 
-## Een kanaal toewijzen {#assign-a-channel}
+## Een kanaal {#assign-a-channel} toewijzen
 
 Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
@@ -31,15 +31,15 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    ![afbeelding](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tik/klik op Kanaal **** toewijzen op de actiebalk
+1. Tik/klik **Kanaal toewijzen** in de actiebalk
 
    Of
 
-   Tik/klik op **dashboard** en klik op **+Kanaal** toewijzen in het deelvenster **TOEGEWEZEN KANALEN** om het dialoogvenster **Kanaaltoewijzing** te openen.
+   Tik/klik **Dashboard** en klik **+Wijs Kanaal** van **TOEGEWEZEN KANALEN** paneel toe om **Kanaaltoewijzing** dialoogdoos te openen.
 
    ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
-   U kunt de eigenschappen configureren vanuit het dialoogvenster **Kanaaltoewijzing** in de onderstaande sectie. Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
+   U kunt de eigenschappen van de **de dialoogdoos van de Toewijzing van het Kanaal** van de sectie hieronder vormen. Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
 
 
 ## Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
@@ -50,18 +50,18 @@ Met het referentiekanaal kunt u een verwijzing naar het gewenste kanaal opgeven,
 
 * **per pad**: u verstrekt een expliciete verwijzing gebruikend de absolute weg van het kanaal.
 
-* **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met een naam *gaat bijvoorbeeld over de dag*, waar de inhoud in feite anders zou zijn in twee steden, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
+* **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met bijvoorbeeld de naam *gaat over de dag*, waarbij de werkelijke inhoud in twee steden anders zou zijn, maar u hebt nog steeds de rol van het normaal kanaal op alle weergaven.
 
 ### Kanaalrol {#role-channel}
 
 De rol van het kanaal bepaalt de context van de vertoning. De rol wordt op verschillende acties gericht en staat los van het daadwerkelijke kanaal dat de rol vervult.
 
-### Priority {#priority-channel}
+### Prioriteit {#priority-channel}
 
 Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. Degene met de hoogste waarde heeft altijd voorrang op lagere waarden. Bijvoorbeeld, als er twee kanalen A en B zijn. A heeft een prioriteit van 1 en B heeft een prioriteit van 2, dan wordt kanaal B getoond, aangezien het een hogere prioriteit dan A heeft.
 
 >[!NOTE]
->De prioriteit voor een kanaal wordt ingesteld als een getal (1 voor minimaal) in het dialoogvenster **Kanaaltoewijzing** , zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
+>De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in **de dialoogdoos van de Toewijzing van het Kanaal**, zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
 ### Ondersteunde gebeurtenissen {#supported-events-channel}
 
@@ -78,7 +78,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
 
-Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het dialoogvenster **Kanaaltoewijzing** :
+Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het dialoogvenster **Kanaaltoewijzing**:
 
 * **Onmiddellijk**: wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
 * **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of afspeelt u de nieuwe inhoud
@@ -91,21 +91,21 @@ Selecteer een van de volgende opties die beschikbaar zijn om de methode voor ond
 
 ### Schema {#schedule-channel}
 
-In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Ook kunt u een begindatum (**actief vanaf**) en een einddatum (**actief tot**) definiëren voor het kanaal dat moet worden weergegeven.
+In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Het laat u ook een begindatum (**actief van**) en een einddatum (**actief tot**) voor het te tonen kanaal bepalen.
 
 **Knopinfo** voor bijtrekken weergeven:
 
-De knopinfo voor het weergeven van de aantrekkingskracht definieert of de knopinfo voor het aantrekken (&quot;*overal aanraken om te beginnen*&quot;) al dan niet moet worden weergegeven terwijl het kanaal wordt uitgevoerd.
+De knopinfo voor het weergeven van de aantrekkingskracht definieert of de knopinfo voor het aantrekken (&quot;*Aanraken op een willekeurige plaats om te beginnen*&quot;) moet worden weergegeven of niet terwijl het kanaal wordt uitgevoerd.
 
 ### DayParting {#dayparting}
 
-Planningen wanneer gecombineerd met **DayParting**, staat u toe om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen in één keer.
+Planningen wanneer gecombineerd met **DayParting**, staat u toe om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen tegelijkertijd.
 
 DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. AEM Screens staat u toe om kanalen in termen van dag-parting binnen een dag, een week, of een maand volgens het vereiste te plannen.
 
 De volgende voorbeelden verklaren dag-parting in kanalen in drie verschillende scenario&#39;s:
 
-#### Inhoud afspelen op één dag, verdeeld in meerdere tijdsleuven {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Inhoud afspelen op één dag verdeeld in meerdere tijdsleuven {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 In dit voorbeeld wordt getoond hoe een restaurant gebruikmaakt van dagparting om het ontbijt-, lunch- en dinermenu te laten zien.
 
@@ -139,7 +139,7 @@ In dit voorbeeld wordt getoond welke dayParting is bereikt in een casino, waar d
    <td>SpecialsDiner</td>
    <td>Weekend</td>
    <td> </td>
-   <td>21 okt 2017 - 22 okt 2017 <br /> na 22:00 vóór 1:00</td>
+   <td>21 okt 2017 - 22 okt 2017 <br /> na 22:00 voor 1:00</td>
   </tr>
  </tbody>
 </table>
@@ -157,7 +157,7 @@ Hier, zult u dag-parting zoals per maanden tot stand brengen, zodat de kanaalinh
 
 >[!NOTE]
 >
->Bovendien kunt u ***Prioriteit*** voor elk van de kanalen bepalen. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.
+>Daarnaast kunt u ***Prioriteit*** voor elk van de kanalen definiëren. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.
 
 #### Inhoud afspelen voor kanalen met dezelfde prioriteit {#playing-content-for-channels-with-same-priority}
 
