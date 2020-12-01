@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Omgevingen {#environments}
 
-Bepaal vooraf welke AEM de cliënt heeft en zal verwachten u te gebruiken, zowel voor *ontwikkeling* als *plaatsing*.
+Bepaal vooraf welke AEM omgevingen de client heeft en verwacht dat u gebruikt, zowel voor *ontwikkeling* als *implementatie*.
 
 >[!NOTE]
 >
