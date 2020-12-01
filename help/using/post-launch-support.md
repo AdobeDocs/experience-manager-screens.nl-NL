@@ -12,7 +12,7 @@ ht-degree: 7%
 ---
 
 
-# Ondersteuning na starten {#post-launch-support}
+# Ondersteuning {#post-launch-support} na starten
 
 
 De ondersteuning na de lancering mag in het begin niet over het hoofd worden gezien.
@@ -31,16 +31,16 @@ Daarnaast is het, ter voorbereiding op succes op lange termijn, van het grootste
 >
 >U moet operationele parameters die in de operationele begrotingen vroeg worden opgenomen, definiëren en de verantwoordelijkheden afstemmen op de AEM-implementator en de AV-integrator.
 >
->* Is de plaatsing een Advertising Netwerk met vele belanghebbenden verbonden aan een gelegaliseerd netwerk? Dit kan veel kortere termijnen van de resolutietijd in vergelijking met een Collectief Communicatie netwerk dicteren.
+>* Is de implementatie van een advertentienetwerk met veel belanghebbenden verbonden aan een gelegaliseerd netwerk?  Dit kan veel kortere termijnen van de resolutietijd in vergelijking met een Collectief Communicatie netwerk dicteren.
 >* Is de toepassing hoogst zichtbaar aan het uitvoerende leiderschap van de eindcliënt? Sites met een hoge zichtbaarheid hebben mogelijk verschillende behandelingen nodig.
 >* Is de toepassing kritiek op bedrijfsverrichtingen zoals menu-boards in snel-voedselketens? In deze gevallen kan de eindklant on-site resoluties met zeer korte responstijden en redundantie in afspeelhardware nodig hebben.
 
 
-## Overwegingen en query&#39;s na starten {#considerations-queries}
+## Overwegingen en navraag {#considerations-queries}
 
 Enkele overwegingen en vragen waarmee u ondersteuning na het starten kunt definiëren, zijn:
 
-1. Is de plaatsing een Advertising Netwerk met vele belanghebbenden verbonden aan een gelegaliseerd netwerk? Dit kan veel kortere termijnen van de resolutietijd in vergelijking met een Collectief Communicatie netwerk dicteren.
+1. Is de implementatie van een advertentienetwerk met veel belanghebbenden verbonden aan een gelegaliseerd netwerk?  Dit kan veel kortere termijnen van de resolutietijd in vergelijking met een Collectief Communicatie netwerk dicteren.
  
    >[!NOTE]
    >
