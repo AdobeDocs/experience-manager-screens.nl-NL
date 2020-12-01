@@ -1,8 +1,8 @@
 ---
 title: Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics
 seo-title: Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics
-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden die REACT (of Hoekig) gebruiken de redacteur van AEMSPA die door bedrijfsberoeps in AEM en ook kan worden gevormd hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
-seo-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden die REACT (of Hoekig) gebruiken de redacteur van AEMSPA die door bedrijfsberoeps in AEM en ook kan worden gevormd hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
+description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Hoekig) gebruikend de redacteur van AEM SPA die door bedrijfsberoeps in AEM en ook kan worden gevormd hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
+seo-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Hoekig) gebruikend de redacteur van AEM SPA die door bedrijfsberoeps in AEM en ook kan worden gevormd hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
@@ -20,19 +20,19 @@ ht-degree: 0%
 
 # Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-Deze sectie beschrijft hoe te om een interactieve enige paginatoepassing in te bedden die REACT (of Hoekig) gebruiken de redacteur van AEMSPA die door bedrijfsberoeps in AEM en ook kan worden gevormd hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
+In deze sectie wordt beschreven hoe u een interactieve toepassing met één pagina insluit met REACT (of Hoekig) met behulp van de AEM SPA-editor die door professionals in AEM kan worden geconfigureerd, en hoe u uw interactieve toepassing integreert met offline Adobe Analytics.
 
-## Het gebruiken van de AEMRedacteur van het KUUROORD {#using-the-aem-spa-editor}
+## De AEM SPA-editor {#using-the-aem-spa-editor} gebruiken
 
 Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
 
-1. Kloon de AEM Redacteur van het KUUROORD op [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
+1. Kloont het AEM SPA Editor-antwoord op [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
 
    >[!NOTE]
    >
-   >Dit archetype leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen projecten van het KUUROORD. De eigenschappen die moeten worden verstrekt wanneer het gebruiken van dit archetype staat toe om als gewenst alle delen van dit project te noemen.
+   >Dit archetype leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen SPA projecten. De eigenschappen die moeten worden verstrekt wanneer het gebruiken van dit archetype staat toe om als gewenst alle delen van dit project te noemen.
 
-1. Volg de readme instructies om een AEM redacteursarchetype project van SPA tot stand te brengen:
+1. Volg de readme instructies om een AEM redacteursarchetype project tot stand te brengen SPA:
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -47,10 +47,10 @@ Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
 
    >[!NOTE]
    >
-   >Wij gebruiken **GroupId** als ***com.adobe.aem.screens*** en **ArtifactId** als ***Mijn SteekproefSPA*** (die de gebreken is). U kunt zo nodig uw eigen keuze maken.
+   >Wij gebruiken **GroupId** als ***com.adobe.aem.screens*** en **ArtifactId** als ***Mijn Monster SPA*** (die de gebreken is). U kunt zo nodig uw eigen keuze maken.
 
 1. Zodra het project wordt gecreeerd, of gebruik winde of redacteur van uw keus en voer het geproduceerde Geweven project in.
-1. Implementeer naar uw lokale AEM met de opdracht ***mvn clean install -PautoInstallPackage***.
+1. Implementeer op uw lokale AEM met de opdracht ***mvn clean install -PautoInstallPackage***.
 
 ### Inhoud bewerken in de REACT-app {#editing-content-in-the-react-app}
 
@@ -63,14 +63,14 @@ De inhoud in de REACT-app bewerken:
 
 Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens toe te voegen:
 
-1. Maak een nieuw AEM Screens-project. Raadpleeg [Projecten](creating-a-screens-project.md) maken en beheren voor meer informatie.
+1. Maak een nieuw AEM Screens-project. Raadpleeg [Projecten maken en beheren](creating-a-screens-project.md) voor meer informatie.
 
    >[!NOTE]
    >
-   >Maak een **sequentiekanaal** terwijl u een kanaal maakt in de map **Kanalen** van uw project Screens.
+   >Creeer een **Kanaal van de Opeenvolging** terwijl het creëren van een kanaal in **de omslag van Kanalen** van uw project van het Scherm.
    >
    >
-   >Raadpleeg Kanalen [](managing-channels.md) maken en beheren voor meer informatie.
+   >Raadpleeg [Kanalen maken en beheren](managing-channels.md) voor meer informatie.
 
    ![screen_shot_2019-02-15at100330am](assets/screen_shot_2019-02-15at100330am.png)
 
@@ -82,11 +82,11 @@ Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens to
    >
    >Voeg de gebruikersinteractiegebeurtenis toe wanneer u het kanaal toewijst aan de weergave.
 
-1. Klik op **Bewerken** op de actiebalk om de eigenschappen van het reekskanaal te bewerken.
+1. Klik **Bewerken** van de actiebar om de eigenschappen van het opeenvolgingskanaal uit te geven.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Sleep de component **Ingesloten pagina** en zet deze neer en selecteer de startpagina onder de mijnvoorbeeldtoepassing, bijvoorbeeld ***/content/mysamplespa/nl/home***.
+1. Sleep de component **Ingesloten pagina** en selecteer de startpagina onder de mijnvoorbeeldtoepassing, bijvoorbeeld ***/content/mysamplespa/nl/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -96,16 +96,16 @@ Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens to
 
 ## De SPA integreren met Adobe Analytics met offlinemogelijkheden via AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
-Voer de onderstaande stappen uit om de SPA met Adobe Analytics te integreren met offline mogelijkheden via AEM Screens:
+Volg de onderstaande stappen om de SPA met Adobe Analytics te integreren met offline mogelijkheden via AEM Screens:
 
 1. Configureer Adobe Analytics in AEM Screens.
 
-   Raadpleeg Adobe Analytics [configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie over het uitvoeren van sequencing in Adobe Analytics met AEM Screens en het verzenden van aangepaste gebeurtenissen met behulp van offline Adobe Analytics.
+   Raadpleeg [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie over het uitvoeren van sequencing in Adobe Analytics met AEM Screens en het verzenden van aangepaste gebeurtenissen met behulp van offline Adobe Analytics.
 
 1. Bewerk uw reactie-app in de IDE/editor van uw keuze (met name de tekstcomponent of andere component die u wilt gebruiken om gebeurtenissen uit te zenden).
 1. Voeg bij de klikgebeurtenis of andere gebeurtenis die u voor uw component wilt vastleggen de analysegegevens toe met behulp van het standaardgegevensmodel.
 
-   Zie Adobe Analytics [configureren met AEM](configuring-adobe-analytics-aem-screens.md)rasters voor meer informatie.
+   Raadpleeg [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md)s voor meer informatie.
 
 1. Roep de AEM Screens Analytics API aan om de gebeurtenis offline op te slaan en in bursts naar Adobe Analytics te verzenden.
 
