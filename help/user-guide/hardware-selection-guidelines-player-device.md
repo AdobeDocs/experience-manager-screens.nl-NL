@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Richtlijnen voor hardwareselectie voor afspeelapparaat {#hardware-selection}
 
-In de volgende sectie vindt u de richtlijnen voor hardwareselectie voor een AEM-schermspeler.
+In de volgende sectie vindt u de richtlijnen voor het selecteren van hardware voor een AEM Screens-speler.
 
 ## Belangrijke overwegingen {#important-considerations}
 
-* Bron altijd ***commerciële*** of ***industriële*** componenten voor zowel de speler van PC als van het Comité van de Vertoning of Projector.
+* Bron altijd ***Commerciële*** of ***Industriële*** Gradecomponenten voor zowel de speler van PC als het Comité van de Vertoning of Projector.
 
 * Neem altijd contact op met leveranciers die de markt voor digitale handtekeningen bedienen.
 * Houd altijd rekening met omgevingsfactoren zoals omgevingstemperatuur en relatieve vochtigheid.
@@ -25,7 +25,7 @@ In de volgende sectie vindt u de richtlijnen voor hardwareselectie voor een AEM-
 
 ## Hardwareconfiguraties {#hardware-configurations}
 
-De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaardgebruiksscenario&#39;s voor een AEM-schermproject:
+De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaardgebruiksscenario&#39;s voor een AEM Screens-project:
 
 <table>
  <tbody>
@@ -47,10 +47,10 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td><p>・ChromeOS 32 GB</p> <p>・Windows 128 GB</p> </td>
    <td>onBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet/Wireless,<br /> 2 x USB</td>
+   <td>DVI,<br /> Ethernet / Wireless,<br /> 2x USB</td>
    <td>
     <ul>
-     <li>Standaardherhaling op volledig scherm<br /> </li>
+     <li>Standaardherhalen op volledig scherm<br /> </li>
      <li>Dagverdeling</li>
     </ul> </td>
   </tr>
@@ -61,7 +61,7 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td>128 GBB</td>
    <td>onBoard</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 2 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2x USB</td>
    <td>
     <ul>
      <li>Dynamische inhoud van één bron</li>
@@ -76,7 +76,7 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td>256 GB</td>
    <td>GPU voor speciale grafische kaarten</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 4x USB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 4x USB</td>
    <td>
     <ul>
      <li>4 of meer inhoudszones, gelijktijdig afspelen van video</li>
