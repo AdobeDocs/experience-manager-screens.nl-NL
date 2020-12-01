@@ -57,7 +57,7 @@ De volgende lijst benadrukt de gegevensnetwerken met hun standaardbandbreedte:
 |--- |--- |
 | 3G | 42 Mbps |
 | 4G | 150 Mbps |
-| 5G | 1000 - 10000 Mbps |
+| 5 G | 1000 - 10000 Mbps |
 
 Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt wordt het geadviseerd om de volgende vragen te beantwoorden:
 
@@ -69,19 +69,19 @@ Als follow-up moet het vereiste gegevenspakket ten minste zijn:
 
 
 >[!IMPORTANT]
->Voor het eerste uploaden van mediabestanden, bijvoorbeeld door het integreren van nieuwe spelers, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht en in bovenstaande veronderstellingen worden weerspiegeld. Een netwerk 4G met *goede* dekking en *onbeperkte* gegevens zou de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
+>Voor het eerste uploaden van mediabestanden, bijvoorbeeld door het integreren van nieuwe spelers, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht en in bovenstaande veronderstellingen worden weerspiegeld. Een 4G-netwerk met *goede*-dekking en *onbeperkt*-gegevens moeten overeenkomen met de meest gangbare installaties in deze netwerkinstelling.
 
 >[!NOTE]
->Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens-speler. Als er slechts eerlijke dekking beschikbaar bij een specifieke plaats is moet het in overweging nemen om de algemene Opstelling van het Netwerk aan [Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten](/help/using/mobile-network-router.md)van het Netwerk te schakelen.
+>Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens-speler. Als er slechts eerlijke dekking beschikbaar op een specifieke plaats is moet het in overweging nemen om de algemene Opstelling van het Netwerk aan [Mobiel Netwerk met de Mobiele Router van Gegevens en Actieve Componenten van het Netwerk ](/help/using/mobile-network-router.md) te schakelen.
 
 
-### Netwerk voor lokale gebieden {#lan-connection}
+### Netwerk {#lan-connection} voor lokale gebieden
 
 De prestatieszorgen van het Netwerk van het Lokale Gebied (LAN), naast de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens regelmatig te werken. De aanbeveling voor de LAN netwerksnelheden moet bij netwerken 100 Mbps minstens beginnen, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem te verbinden.
 
 Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld, zouden de netwerkcomponenten minstens 100 norm moeten aanpassen Mbps en de bandbreedte aanpassen die door de toegang van Internet of de specificatie van de Router wordt verstrekt. Anders zal de totale bandbreedte door de zwakste verbinding in de netwerkketen worden beperkt.
 
-## Media en middelen downloaden {#download}
+## Media en elementen downloaden {#download}
 
 AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 
