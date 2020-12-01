@@ -1,10 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 201909
 seo-title: Opmerkingen bij de release voor Feature Pack 201909
-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 201909 die op 31 juli 2019 wordt vrijgegeven.
-seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 201909 die op 07 oktober 2019 wordt vrijgegeven.
+description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 201909, uitgebracht op 31 juli 2019.
+seo-description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 201909 dat op 7 oktober 2019 is uitgebracht.
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 0%
 
 ---
 
@@ -13,27 +16,27 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!CAUTION]
 >
->U wordt aangeraden een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3-schermplatform.
+>We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
 
-AEM-schermen hebben AEM 6.4.6 Feature Pack 6 en AEM 6.5.2 Feature Pack 2 uitgebracht, met de volgende details.
+AEM Screens heeft AEM 6.4.6 Feature Pack 6 en AEM 6.5.2 Feature Pack 2 uitgebracht, met de volgende details.
 
 ## Releasedatum {#release-date}
 
-De releasedatum voor AEM Screens Feature Pack 201909 is 7 oktober 2019.
+De releasedatum voor AEM Screens Feature Pack 2019 is 7 oktober 2019.
 
-### Nieuwe functies {#what-s-new}
+### Wat is er nieuw?{#what-s-new}
 
 * **Verbeterde UI-updates voor het maken van schermproject**
 
    De bijgewerkte gebruikersinterface voor het creëren van een nieuw het schermproject is nu beschikbaar. U kunt een nieuw project van het Scherm met weinig eenvoudige kliks tot stand brengen. Bovendien heeft het eigenschappentabblad voor elk project nu een meer intuïtieve gebruikersinterface.
 
-   Raadpleeg [Een nieuw rasterproject](creating-a-screens-project.md) maken voor meer informatie.
+   Raadpleeg [Een nieuw rasterproject maken](creating-a-screens-project.md) voor meer informatie.
 
 * **Verbeterd apparaatdashboard:**
 
    Het apparaatdashboard toont de apparaatinformatie, status, screenshot, logboeken, voorkeuren en de apparaatdetails waarmee u de apparaatactiviteiten en -functies kunt controleren. De deelvensters worden nu bijgewerkt.
 
-   Raadpleeg [Troubleshooting Device Control Center](monitoring-screens.md) voor meer informatie.
+   Raadpleeg [Apparaatcontrolecentrum voor probleemoplossing](monitoring-screens.md) voor meer informatie.
 
 * **Ingeschakelde time-out om toetsenbordinteractie toe te staan**
 
@@ -42,16 +45,16 @@ De releasedatum voor AEM Screens Feature Pack 201909 is 7 oktober 2019.
 * **Offlineconfiguraties in Experience Fragments**
 
    U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen terwijl u het fragment voor schermbeleving configureert.
-Zie Ervaring fragmenten [](experience-fragments-in-screens.md) gebruiken voor meer informatie.
+Raadpleeg [Ervingsfragmenten gebruiken](experience-fragments-in-screens.md) voor meer informatie.
 
-### Uitgebrachte AEM-schermspelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
-De volgende AEM-schermspelers worden vrijgegeven voor AEM 6.4.6 Feature Pack 6 en AEM 6.5.2 Feature Pack 2:
+De volgende AEM Screens Players worden vrijgegeven voor AEM 6.4.6 Pak van de Eigenschap 6 en AEM 6.5.2 Pak 2 van de Eigenschap:
 
 * ChromeOS
 * Windows
 * Android
 
-#### Downloads AEM-schermspeler {#aem-screens-player-downloads}
+#### AEM Screens Player-downloads {#aem-screens-player-downloads}
 
-Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [**AEM Screens Player Downloads **](https://download.macromedia.com/screens/).
+Raadpleeg [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/) voor meer informatie over de opgeloste problemen.
