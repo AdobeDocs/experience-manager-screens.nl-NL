@@ -32,9 +32,9 @@ In deze sectie worden de volgende onderwerpen behandeld:
 * **Sequentie in Adobe Analytics met AEM Screens**
 * **Aangepaste gebeurtenissen verzenden met offline Adobe Analytics**
 
-## Sequentie in Adobe Analytics met AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
+## Opeenvolging in Adobe Analytics met AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Het ***volgordeproces*** begint met de gegevensopslagservice die de Adobe Analytics-service activeert. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de vangst van de gegevenstest aan Vensters I/O en de gebeurtenissen van het verblijf wordt teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma, de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
+Het ***sequentieproces*** begint met de service voor gegevensopslag die de Adobe Analytics-service activeert. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de vangst van de gegevenstest aan Vensters I/O en de gebeurtenissen van het verblijf wordt teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma, de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
 
 ### Scheidingsdiagram {#sequencing-diagram}
 
@@ -42,7 +42,7 @@ In het volgende volgordediagram wordt de Adobe Analytics-integratie met AEM Scre
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## Aangepaste gebeurtenissen verzenden met offline Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
+## Aangepaste gebeurtenissen verzenden met gebruik van offline Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
 
 De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeurtenissen. Hier worden alle velden weergegeven die naar Adobe Analytics zijn verzonden:
 
@@ -109,7 +109,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Hoofdcategorie (BUREAUBLAD, MOBIEL, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Groepering van gebeurtenistypen - <strong>We sturen Player</strong></td> 
+   <td>Hoofdcategorie (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Groepering van gebeurtenistypen - <strong>We verzenden Player</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -124,7 +124,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td> </td> 
    <td>Type gebeurtenis/actie</td> 
    <td>event.type</td> 
-   <td>required</td> 
+   <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
    <td>Type gebeurtenis (renderen, klikken, knijpen, zoomen) - Primaire gebruikershandeling</td> 
@@ -235,13 +235,13 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td> </td> 
    <td>string</td> 
    <td> </td> 
-   <td>Beschrijving fout<br /> </td> 
+   <td>Beschrijving van fout<br /> </td> 
   </tr>
   <tr>
    <td><strong><em>Bron/product van oorsprong</em></strong></td> 
    <td>Naam</td> 
    <td>source.name</td> 
-   <td>required</td> 
+   <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
    <td>Toepassingsnaam (AEM Screens)</td> 
@@ -250,7 +250,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td> </td> 
    <td>Versie</td> 
    <td>source.version</td> 
-   <td>required</td> 
+   <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
    <td>Firmwareversie</td> 
@@ -259,7 +259,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td> </td> 
    <td>Platform</td> 
    <td>source.platform</td> 
-   <td>required</td> 
+   <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
    <td>navigator.platform</td> 
@@ -286,7 +286,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td><strong><em>Inhoud</em></strong></td> 
    <td>Actie</td> 
    <td>content.action</td> 
-   <td>required</td> 
+   <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
    <td>De URL naar het element inclusief de vertoning die daadwerkelijk is afgespeeld</td> 
@@ -304,7 +304,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td><strong><em>Transactie</em></strong></td> 
    <td>Transactienummer</td> 
    <td>trn.number</td> 
-   <td>required</td> 
+   <td>vereist</td> 
    <td>string</td> 
    <td>UUID</td> 
    <td>Unieke id die bij voorkeur voldoet aan UUID v4</td> 
@@ -313,7 +313,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td> </td> 
    <td>Productbeschrijving</td> 
    <td>trn.product</td> 
-   <td>required</td> 
+   <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
    <td>De URL naar het element (behalve uitvoering)</td> 
@@ -322,7 +322,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td> </td> 
    <td>Aantal</td> 
    <td>trn.quantity</td> 
-   <td>required</td> 
+   <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
    <td>De afspeelduur</td> 
