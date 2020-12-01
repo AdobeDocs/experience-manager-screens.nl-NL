@@ -22,7 +22,7 @@ AEM Screens biedt de mogelijkheid om elke traceerbare gebeurtenis die door elk s
 
 Er zijn twee fundamentele redenen waarom we deze gegevens willen vastleggen.
 
-Het eerste betreft **feedback-loops en machinaal leren** , het tweede betreft het **maken van grafieken, dashboards en rapporten** die bestemd zijn voor menselijke consumptie.
+Het eerste betreft **feedback-lussen en machinaal leren**, terwijl het tweede betrekking heeft op het **maken van grafieken, dashboards en rapporten** die bestemd zijn voor menselijke consumptie.
 
 In het geval van het terugkoppelengebruik, zijn wij niet betrokken met visuele rapporten of dashboards maar in plaats daarvan, willen regels bepalen die AEM voor inhoudwijziging kunnen uitvoeren. Door alle gebeurtenisgegevens van de Schermspeler van een bepaalde tijdspanne te verbruiken en te verwerken, kunnen wij een regel bepalen die de doeltreffendheid van image1 tegenover image2 evalueert. Door verkoopgegevens met playbackgegevens te combineren, kan AEM bepalen dat image1 een veel grotere invloed op verkoop heeft en automatisch alle spelers opdraagt om image1 te gebruiken.
 
