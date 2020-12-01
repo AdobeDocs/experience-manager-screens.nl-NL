@@ -12,6 +12,9 @@ discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 0%
 
 ---
 
@@ -28,17 +31,17 @@ Het is belangrijk dat alle belanghebbenden begrijpen waarvoor de AV-integrator v
 
 >[!NOTE]
 >
->Een AV-integrator met expertise op het gebied van projectbeheer van digitale-signaalimplementaties op schaal is van groot belang voor het succes op lange termijn en er wordt sterk gesuggereerd dat projectplannen tussen de AV-integrator en de AEM-implementor worden vergeleken om te zorgen voor aanpassing wanneer plannen worden ontwikkeld en afgerond.
+>Een AV-integrator met expertise op het gebied van projectbeheer van digitale-signaalimplementaties op schaal is van groot belang voor het succes op lange termijn en er wordt sterk gesuggereerd dat projectplannen tussen de AV-integrator en AEM Implementor worden vergeleken om te zorgen voor aanpassing wanneer plannen worden ontwikkeld en afgerond.
 >
 >De partners die een holistische benadering in het beheren van project &quot;pre-productie,&quot;initiatie, en progressiefasen nemen zullen helpen om uw eind-cliënten te verzekeren worden geplaatst om de meeste waarde van hun investering te realiseren
 
 ## Overzicht van alle drie fasen in Projectbeheer {#summary-of-all-three-phases-in-project-management}
 
-Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren. Deze stadia worden gewoonlijk bedoeld als ***dagen***.
+Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren. Deze stadia worden algemeen bedoeld als ***dagen***.
 
-### Dagnulactiviteiten {#day-zero-activities}
+### Dagnulactiviteit {#day-zero-activities}
 
-De eerste fase wordt aangeduid als ***Dag Nul***. In deze fase zijn alle pre-sales- en ontdekkingsinspanningen inbegrepen die nodig zijn om het toepassingsgebied van de projecten volledig te definiëren. De tweede fase, dag één, verwijst naar alle activiteiten die deel uitmaken van de inzet. Tot slot verwijst Dag Twee naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
+De eerste fase wordt aangeduid als ***Day Zero***. In deze fase zijn alle pre-sales- en ontdekkingsinspanningen inbegrepen die nodig zijn om het toepassingsgebied van de projecten volledig te definiëren. De tweede fase, dag één, verwijst naar alle activiteiten die deel uitmaken van de inzet. Tot slot verwijst Dag Twee naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
 
 De activiteiten van Zero van de dag omvatten pre-Verkoop, de Ontdekking van de Cliënt, de Analyse van de Vereisten van de Toepassing, en de definitie van het Toepassingsgebied van het Project. Deze fase kan ook initiële betrokkenheid en definitie van projectvereisten voor projectbeheer omvatten, ter voorbereiding op implementatie.
 
@@ -53,9 +56,9 @@ Dag Zero bestaat uit acht belangrijke stappen voor alle aspecten van de oprijpla
 * Overweeg kracht en connectiviteit
 * Herziening van technische plannen of tekeningen
 
-### Dag 1 Activiteiten {#day-one-activities}
+### Dag één activiteiten {#day-one-activities}
 
-De tweede fase, ***dag één***, heeft betrekking op alle activiteiten die deel uitmaken van de inzet. Een ander belangrijk technisch document voor een succesvol project is de Grafiek van plaatsingsGantt.
+De tweede fase, ***Dag één***, verwijst naar alle activiteiten die deel uitmaken van de implementatie-inspanning. Een ander belangrijk technisch document voor een succesvol project is de Grafiek van plaatsingsGantt.
 
 Als overgangen van de verkoopkans aan een project, is een kickoff vergadering gepland om te bevestigen:
 
@@ -71,7 +74,7 @@ Als overgangen van de verkoopkans aan een project, is een kickoff vergadering ge
 
 Het laatste deel van een initiatief van Dag 1 is het voltooien van een NOC-afhandeling. Als een voltooid project om het even welke Dag 2 dienst en steun zal omvatten, zal de Projectleider een NOC Handoff Vergadering met de supervisors van die teams organiseren.
 
-Deze vergadering bestaat hoofdzakelijk uit de vertegenwoordigers van AV Integrator van Accountbeheer, de Verrichtingen van het Netwerk, Logistiek van het Gebied, de Diensten van de Inhoud, en Boekhouding. Vertegenwoordigers voor projectbeheer van Adobe, de AEM Implementor en de eindklant zijn gewoonlijk betrokken bij de combinatie, waarbij de AV Integrator planning, kadence en tollgates definieert. Projectmanagers zijn gewoonlijk het best om discussies te coördineren om ervoor te zorgen dat de juiste partijen op elkaar worden afgestemd en dat de vereiste documentatie voor de NOC handoff-vergadering wordt ontwikkeld. De kritieke steundocumentatie zal waarschijnlijk van de Techniek van IT en/of AV naast Verkoop en de middelen van het Beheer van de Rekening over alle betrokken partijen komen. Voor om het even welke cliënten die helpdesksteun van NOC vereisen, zal de documentatie aan NOC supervisors voor upload aan een platform van de Kennisbank moeten worden verstrekt.
+Deze vergadering bestaat hoofdzakelijk uit de vertegenwoordigers van AV Integrator van Accountbeheer, de Verrichtingen van het Netwerk, Logistiek van het Gebied, de Diensten van de Inhoud, en Boekhouding. Vertegenwoordigers van projectbeheer van Adobe, de AEM Implementor en de eindklant zijn gewoonlijk betrokken bij de combinatie, waarbij de AV Integrator een planning, kadentie en tollgates definieert. Projectmanagers zijn gewoonlijk het best om discussies te coördineren om ervoor te zorgen dat de juiste partijen op elkaar worden afgestemd en dat de vereiste documentatie voor de NOC handoff-vergadering wordt ontwikkeld. De kritieke steundocumentatie zal waarschijnlijk van de Techniek van IT en/of AV naast Verkoop en de middelen van het Beheer van de Rekening over alle betrokken partijen komen. Voor om het even welke cliënten die helpdesksteun van NOC vereisen, zal de documentatie aan NOC supervisors voor upload aan een platform van de Kennisbank moeten worden verstrekt.
 
 ## Deel 4: Videozelfstudie over projectbeheer en -implementatie {#part-video-tutorial-on-project-management-and-deployment}
 
@@ -85,7 +88,7 @@ Volg deze zelfstudie om meer te weten te komen over projectbeheer en de voorbere
 
 ## De volgende stap {#the-next-step}
 
-Zodra u met zeer belangrijke overwegingen het Beheer van het Project voor de Plaatsingen van het Scherm AEM grondig bent;
+Zodra u met zeer belangrijke overwegingen het Beheer van het Project voor de Plaatsingen van AEM Screens grondig bent;
 
-Ga naar **[Deel 5: Steun overwegingen](support-considerations.md)**om de Steun van Dag 2 en de betrokken processen te begrijpen.
+Navigeer naar **[Deel 5: Overdenkingen van de steun](support-considerations.md)** om de Steun van Dag 2 en de processen te begrijpen betrokken.
 
