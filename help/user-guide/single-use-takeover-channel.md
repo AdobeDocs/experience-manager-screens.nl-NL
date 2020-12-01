@@ -13,14 +13,14 @@ ht-degree: 0%
 ---
 
 
-# Overnamekanaal voor één gebruik {#single-use-takeover-channel}
+# Single Use TakeOver Channel {#single-use-takeover-channel}
 
 De volgende pagina toont een gebruiksgeval dat op vestiging een project op benadrukt hoe te om een Enig kanaal tot stand te brengen TakeOver dat slechts één keer voor een specifieke tijd speelt.
 
 
-## Omschrijving hoofdletter gebruiken {#use-case-description}
+## Hoofdletterbeschrijving gebruiken {#use-case-description}
 
-Met deze optie wordt uitgelegd hoe u een kanaal kunt maken dat het normale afspeelkanaal *overneemt* voor een weergave of groep weergaven. De overname vindt slechts eenmaal en voor een bepaald tijdstip plaats.
+Met deze optie wordt uitgelegd hoe u een kanaal kunt maken dat *de normale weergavekanaal voor een weergave of groep weergaven overneemt van*. De overname vindt slechts eenmaal en voor een bepaald tijdstip plaats.
 Er is bijvoorbeeld een Single TakeOver-kanaal dat op vrijdag van 9.00 tot 10.00 uur wordt afgespeeld. Tijdens deze tijd, zou geen ander kanaal moeten spelen. Voor en na deze keer wordt het overnamekanaal voor eenmalig gebruik niet afgespeeld. In het volgende voorbeeld ziet u hoe u een enkel overnamekanaal maakt waarmee de inhoud gedurende 2 minuten vóór 12:00 uur op 31 december tot 12:01 uur kan worden afgespeeld.
 
 ### Voorwaarden {#preconditions}
@@ -32,11 +32,11 @@ Voordat u met dit gebruik begint, moet u controleren hoe u dit kunt doen:
 * **[Planningen maken en beheren](managing-schedules.md)**
 * **[Apparaatregistratie](device-registration.md)**
 
-### Primaire acteurs {#primary-actors}
+### Primaire ACTOR {#primary-actors}
 
 Inhoudsauteurs
 
-## Het project instellen {#setting-up-the-project}
+## Het project {#setting-up-the-project} instellen
 
 Voer de onderstaande stappen uit om een project in te stellen:
 
@@ -46,23 +46,23 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/single-takeover1.png)
 
-1. Maak een **MainAdChannel** in de map **Kanalen** .
+1. Maak een **MainAdChannel** in de map **Kanalen**.
 
    ![element](assets/single-takeover2.png)
 
-1. Selecteer **MainAdChannel** en klik op **Bewerken** op de actiebalk. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
+1. Selecteer **MainAdChannel** en klik **Edit** van de actiebar. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
 
    ![element](assets/single-takeover2.png)
 
 
    >[!NOTE]
-   >Het **MainAdChannel** in dit voorbeeld toont een opeenvolgingskanaal aan dat inhoud onophoudelijk speelt.
+   >**MainAdChannel** in dit voorbeeld toont een opeenvolgingskanaal aan dat inhoud onophoudelijk speelt.
 
    ![element](assets/single-takeover3.png)
 
-1. Creeer een **TakeOver** kanaal dat de inhoud in **MainAdChannel** overneemt en slechts voor een specifieke dag en een tijd zal spelen.
+1. Maak een **TakeOver**-kanaal dat de inhoud in **MainAdChannel** overneemt en alleen voor een bepaalde dag en tijd afspeelt.
 
-1. Selecteer **TakeOver** en klik **uitgeven** van de actiebar. Sleep enkele elementen naar uw kanaal. In het volgende voorbeeld ziet u hoe een afbeelding met één zone wordt toegevoegd aan dit kanaal.
+1. Selecteer **TakeOver** en klik **Edit** van de actiebar. Sleep enkele elementen naar uw kanaal. In het volgende voorbeeld ziet u hoe een afbeelding met één zone wordt toegevoegd aan dit kanaal.
 
    ![element](assets/single-takeover4.png)
 
@@ -72,32 +72,33 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 **Kanalen toewijzen aan een weergave**
 
-1. Selecteer de display **MainLobbyDisplay** in de map **Locations** . Klik op Kanaal **** toewijzen in de actiebalk.
+1. Selecteer de weergave **MainLobbyDisplay** in de map **Locations**. Klik **Kanaal toewijzen** van de actiebar.
 
    ![element](assets/single-takeover6.png)
 
    >[!NOTE]
-   >Zie **[Kanaaltoewijzing](channel-assignment.md)**voor meer informatie over het toewijzen van een kanaal aan een weergave.
+   >Meer informatie over het toewijzen van een kanaal aan een weergave vindt u in **[Kanaaltoewijzing](channel-assignment.md)**.
 
 1. Vul de velden (**Kanaalpad**, **Prioriteit** en **Ondersteunde gebeurtenissen**) in het dialoogvenster **Kanaaltoewijzing** en klik op **Opslaan**. U hebt nu **MainAdChannel** aan uw vertoning toegewezen.
 
    ![element](assets/single-takeover7.png)
 
-1. Selecteer de weergave **TakeOver** in de map **Locations** . Klik op Kanaal **** toewijzen op de actiebalk om het eenmalige kanaal voor het overnemen van taken toe te wijzen.
+1. Selecteer de weergave **TakeOver** in de map **Locations**. Klik **Kanaal toewijzen** van de actiebar om het enige kanaal van de gebruiksovername toe te wijzen.
 
-1. Als u het kanaal **TakeOver** op een gepland tijdstip aan uw weergave wilt toewijzen, vult u de volgende velden in vanuit het dialoogvenster **Kanaaltoewijzing** en klikt u op **Opslaan**:
+1. Als u het kanaal **TakeOver** op een gepland tijdstip wilt toewijzen aan uw weergave, vult u de volgende velden in het dialoogvenster **Kanaaltoewijzing** en klikt u op **Opslaan**:
 
    * **Kanaalpad**: Het pad naar het kanaal TakeOver selecteren
-   * **Prioriteit**: Plaats de prioriteit van dit kanaal groter dan **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.
+   * **Prioriteit**: Plaats de prioriteit van dit kanaal groter dan  **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.
+
       >[!NOTE]
       >Prioriteit kan elke waarde zijn die hoger is dan de prioritaire waarde van het normaal afspeelkanaal.
-   * **Ondersteunde gebeurtenissen**: Selecteer het **Stationele Scherm** en de **Tijdopnemer**.
+   * **Ondersteunde gebeurtenissen**: Selecteer het  **inactieve** scherm en de  **Timer**.
    * **Schema**: Voer de tekst in voor het schema waarop u wilt dat dit kanaal de weergave uitvoert. De tekst hier staat bijvoorbeeld toe dat de inhoud 2 minuten vóór 12.00 uur op 31 december wordt afgespeeld tot 12.01 uur.
-De tekst in het in dit voorbeeld vermelde **schema** staat *op 31 december na 23:58 en ook op 1 januari vóór 00.01*.
+De tekst in **Schedule** in dit voorbeeld is *op de 31 dag van december na 23:58 en ook op de 1 dag van januari vóór 00.01*.
 
       ![element](assets/single-takeover8.png)
 
-      Navigeer naar de weergave vanuit **SingleUseTakeOver** —> **Locaties** —> **Lobby** —> **MainLobbyDisplay** en klik op **Dashboard** op de actiebalk om de toegewezen kanalen met hun prioriteiten weer te geven, zoals hieronder wordt weergegeven.
+      Navigeer naar de weergave vanuit **SingleUseTakeOver** —> **Locaties** —> **Lobby** —> **MainLobbyDisplay** en klik **Dashboard** op de actiebalk om de toegewezen kanalen met hun prioriteiten weer te geven, als hieronder weergegeven.
 
       >[!NOTE]
       >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.
