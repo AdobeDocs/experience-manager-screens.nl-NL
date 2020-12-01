@@ -39,7 +39,7 @@ De volgende mechanische overwegingen worden aanbevolen:
 * kabelbeheer
 * apparaatnetwerken
 
-## 2. Overwegingen bij software {#software-considerations}
+## 2. Overwegingen voor software {#software-considerations}
 
 De volgende softwareoverwegingen worden geadviseerd:
 
@@ -53,7 +53,7 @@ De volgende softwareoverwegingen worden geadviseerd:
 
 AEM Screens bevat een Device Control Center-module waarmee u eindpunten van de toepassing Screens Player kunt beheren.
 
-Dit heeft betrekking op elk hardwareapparaat van de *speler* waarop de toepassing Screens player is geïnstalleerd en dat is geregistreerd bij een instantie van AEM.
+Dit verwijst naar elk *player*-hardwareapparaat waarop de toepassing Schermspeler is geïnstalleerd en dat is geregistreerd bij een instantie van AEM.
 Met deze module kunt u:
 
 1. Toepassingsfoutlogboeken van de speler controleren
@@ -61,7 +61,7 @@ Met deze module kunt u:
 1. Downloads van inhoud beheren
 1. Problemen met het opnieuw opstarten van toepassingen beheren
 
-Meer informatie over ***Device Control Center*** vindt u in [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens User Guide**.
+Als u meer informatie wilt over ***Device Control Center***, raadpleegt u [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens User Guide**.
 
 >[!CAUTION]
 >
@@ -77,12 +77,12 @@ Meer informatie over ***Device Control Center*** vindt u in [Troubleshooting Dev
 >
 > Adobe raadt aan dat speciale, externe apparaatbeheerplatforms worden gebruikt voor alle implementaties.
 
-Het gekozen specifieke platform is afhankelijk van een aantal factoren, waaronder het ***doelbesturingssysteem***, de ***projectvereisten*** en het ***aantal eindpunten***.
+Het gekozen specifieke platform is afhankelijk van een aantal factoren, zoals het ***doelbesturingssysteem***, ***projectvereisten*** en ***aantal eindpunten***.
 
 Enkele voorbeelden zijn:
 
 * Google Chrome-apparaatbeheer
 * TeamViewer
 * AirWatch
-* 42Gears
+* 42Tandwiel
 * AV Integrator Middleware
