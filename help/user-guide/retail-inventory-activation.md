@@ -12,11 +12,14 @@ discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 translation-type: tm+mt
 source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 0%
 
 ---
 
 
-# Gerichte activering in de detailhandel {#retail-inventory-targeted-activation}
+# Activering {#retail-inventory-targeted-activation} gericht op handelsvoorraad
 
 In het volgende gebruiksgeval worden drie verschillende afbeeldingen gedemonstreerd op basis van de waarden in uw Google-werkblad.
 
@@ -28,9 +31,9 @@ Voor dit geval van Gebruik, zal de Rood, Groen, of Blauwe trui op uw scherm tone
 
 ## Voorwaarden {#preconditions}
 
-Voordat u begint met het implementeren van de in de detailhandel verkrijgbare activering, moet u leren hoe u ***Gegevensopslag***, Segmentatie ***van het*** publiek en Doelstelling voor kanalen ****** inschakelen in een AEM-schermproject instelt.
+Voordat u begint met het implementeren van de in de handel verkrijgbare activering, moet u leren hoe u ***Gegevensopslag***, ***Audience Segmentation*** en ***Enable Targeting for Channels*** in een AEM Screens-project instelt.
 
-Verwijs naar het [Vormen ContextHub in Schermen](configuring-context-hub.md) AEM voor gedetailleerde informatie.
+Verwijs naar [het Vormen ContextHub in AEM Screens](configuring-context-hub.md) voor gedetailleerde informatie.
 
 ## Basisstroom {#basic-flow}
 
@@ -40,36 +43,38 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
    1. Navigeer naar het Google-werkblad ContextHubDemo.
    1. Voeg drie kolommen (Rood, Groen en Blauw) toe met de bijbehorende waarden voor drie verschillende sweatshirts.
+
    ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
 1. **Het publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie*** van het publiek van de vestiging in het **[Vormen ContextHub in AEM de pagina van Schermen](configuring-context-hub.md)**voor meer details).
+   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek van de vestiging*** in **[Het vormen ContextHub in AEM Screens](configuring-context-hub.md)** pagina voor meer details).
 
-   1. Voeg drie nieuwe segmenten **voor_rood**, **voor_groen**, en **voor_blauw** toe.
+   1. Voeg drie nieuwe segmenten **For_Red**, **For_Green** en **For_Blue** toe.
 
-   1. Selecteer **For_Red** en klik op **Bewerken** op de actiebalk.
+   1. Selecteer **For_Red** en klik **Edit** in de actiebalk.
 
-   1. Sleep en zet de **vergelijking neer: Bezit - Bezit** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteer **gumesheets/value/1/2** in de vervolgkeuzelijst in de naam van de **vooreigenschap**
+   1. Sleep de **Vergelijking: Bezit - bezit** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
+   1. Selecteer **googlesheets/value/1/2** in de vervolgkeuzelijst in **Voornaam eigenschap**
 
-   1. Selecteer de **Operator** als **groter dan** in het keuzemenu
+   1. Selecteer **Operator** als **groter-dan** van het drop-down menu
 
-   1. Selecteer **Gegevenstype** als **nummer**
+   1. Selecteer **Gegevenstype** als **getal**
 
-   1. Selecteer **gumesheets/value/1/1** in de vervolgkeuzelijst in de naam **van de** tweede eigenschap.
+   1. Selecteer **googlesheets/value/1/1** in de vervolgkeuzelijst in **Tweede eigenschapsnaam**.
 
-   1. Sleep en zet **een andere vergelijking neer: Bezit - Bezit** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteer **gumesheets/value/1/2** in de vervolgkeuzelijst in de naam **van de** eerste eigenschap.
+   1. **een andere vergelijking slepen en neerzetten: Bezit - bezit** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
+   1. Selecteer **googlesheets/value/1/2** in de vervolgkeuzelijst in **Voornaam eigenschap**.
 
-   1. Selecteer de **Operator** als **groter dan** in het keuzemenu
+   1. Selecteer **Operator** als **groter-dan** van het drop-down menu
 
-   1. Selecteer **Gegevenstype** als **nummer**
+   1. Selecteer **Gegevenstype** als **getal**
 
-   1. Selecteer **gumesheets/value/1/0** in het keuzemenu met de naam van de **tweede eigenschap**
+   1. Selecteer **googlesheets/value/1/0** in de vervolgkeuzelijst in **Tweede eigenschapsnaam**
+
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Op dezelfde manier geef en voeg vergelijkingsbezitsregels aan segment **For_Blue** toe zoals aangetoond in het hieronder cijfer:
+   Op dezelfde manier geef en voeg vergelijkingsbezitsregels aan **For_Blue** segment zoals aangetoond in het hieronder cijfer uit:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
@@ -79,31 +84,32 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
    >[!NOTE]
    >
-   >U zult merken dat voor segmenten **For_Green** en **For_Green**, gegevens niet kunnen worden opgelost in de editor omdat alleen de eerste vergelijking nu geldig is volgens de waarden in het Google-blad.
+   >Voor segmenten **For_Green** en **For_Green** kunnen gegevens niet worden opgelost in de editor omdat alleen de eerste vergelijking nu geldig is volgens de waarden in het Google-blad.
 
-1. Navigeer en selecteer uw **DataDrivenRetail** -kanaal (een opeenvolgend kanaal) en klik op **Bewerken** op de actiebalk.
+1. Navigeer en selecteer uw **DataDrivenRetail** kanaal (een opeenvolgend kanaal) en klik **Edit** van de actiebar.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
    >[!CAUTION]
    >
-   >U zou opstelling uw **Configuratie** ContextHub **gebruikend de** Eigenschappen **van het kanaal ->** Personalisatie **** tabel moeten hebben.
+   >U zou opstelling uw **ContextHub** **Configuraties** moeten hebben gebruikend het kanaal **Eigenschappen** —> **Personalization** tabel.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   U moet zowel het **Merk** als het **Gebied** selecteren om de activiteiten behoorlijk te worden vermeld wanneer u het Targeting proces begint.
+   U moet zowel **Merk** als **Gebied** voor de activiteiten selecteren om behoorlijk te worden vermeld wanneer u het Targeting proces begint.
 
 1. **Een standaardafbeelding toevoegen**
 
-   1. Voeg een standaardafbeelding toe aan uw kanaal en klik op **Doel**.
-   1. Selecteer **Merk** en de **Activiteit** van het drop-down menu en klik **Begin richtend**.
+   1. Voeg een standaardafbeelding toe aan uw kanaal en klik op **Doelafbeelding**.
+   1. Selecteer **Merk** en **Activiteit** van het drop-down menu en klik **Begin richten**.
 
-   1. Klik op **Doelstelling** starten.
+   1. Klik **Beginnen met richten**.
+
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   Voordat u de focus begint te plaatsen, moet u de segmenten (**For_Green**, **For_Red** en **For_Blue**) toevoegen door op **+ te klikken. Voeg ervaringen toe die gericht** zijn vanaf de zijspoor, zoals in de onderstaande afbeelding wordt getoond.
+   Voordat u de doelframes maakt, moet u de segmenten (**For_Green**, **For_Red** en **For_Blue**) toevoegen door te klikken op **+ Add Experience Targeting** vanuit de zijspoor, zoals in de onderstaande afbeelding wordt getoond.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -114,6 +120,7 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 1. **De voorvertoning controleren**
 
    1. Klik op **Voorvertoning.** Open ook uw Google-werkblad en werk de waarde ervan bij.
-   1. Wijzig de waarde voor alle drie de kolommen en u ziet hoe de afbeelding van de weergave wordt bijgewerkt volgens de hoogste inventariswaarde.
+   1. Wijzig de waarde voor alle drie de kolommen en u ziet hoe de afbeelding van de weergave wordt bijgewerkt volgens de hoogste waarde in de voorraad.
+
    ![retail_result](assets/retail_result.gif)
 
