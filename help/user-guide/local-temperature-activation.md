@@ -29,9 +29,9 @@ Als uw Google-bladen voor dit geval een waarde van minder dan 50 hebben, wordt e
 
 ## Voorwaarden {#preconditions}
 
-Voordat u begint met het implementeren van de lokale temperatuuractivering van het reiscentrum, moet u leren hoe u ***Gegevensopslag***, Segmentatie ***van het*** publiek en ***Doelstelling voor kanalen*** inschakelen in een AEM Screens-project instelt.
+Voordat u begint met het implementeren van de lokale temperatuuractivering in het reiscentrum, moet u leren hoe u ***Gegevensopslag***, ***Audience Segmentation*** en ***Enable Targeting for Channels*** in een AEM Screens-project instelt.
 
-Verwijs naar het [Vormen ContextHub in AEM Screens](configuring-context-hub.md) voor gedetailleerde informatie.
+Verwijs naar [het Vormen ContextHub in AEM Screens](configuring-context-hub.md) voor gedetailleerde informatie.
 
 ## Basisstroom {#basic-flow}
 
@@ -46,41 +46,41 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
 1. **De segmenten in soorten publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie*** van het Publiek van de vestiging in het **[Vormen ContextHub in de pagina van AEM Screens](configuring-context-hub.md)** voor meer details).
+   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek van de vestiging*** in **[Het vormen ContextHub in AEM Screens](configuring-context-hub.md)** pagina voor meer details).
 
-   1. Selecteer de **bladen A1 1** en klik op **Bewerken**.
+   1. Selecteer **Bladen A1 1** en klik **Bewerken**.
 
    1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**
+   1. Selecteer **googlesheets/value/1/0** in de vervolgkeuzelijst in **Eigenschapnaam**
 
-   1. Selecteer de **operator** als **groter dan of gelijk aan** in het keuzemenu
+   1. Selecteer **Operator** als **groter-dan-of-gelijk** van het drop-down menu
 
-   1. Voer de **waarde** in als **50**
+   1. Voer de **Waarde** in als **50**
 
-   1. Selecteer op dezelfde manier de bladen A1 2 **en klik op** Bewerken ****.
+   1. Selecteer op dezelfde manier **Bladen A1 2** en klik **Bewerken**.
 
-   1. Selecteer het bezit van de **Vergelijking - Waarde** en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteer **gumesheets/value/1/0** in de vervolgkeuzelijst met **eigenschapsnaam**
+   1. Selecteer **Vergelijkingseigenschap - waarde** en klik op het configuratiepictogram om de eigenschappen te bewerken.
+   1. Selecteer **googlesheets/value/1/0** in de vervolgkeuzelijst in **Eigenschapnaam**
 
-   1. Selecteer de **operator** als **kleiner dan** in het keuzemenu
+   1. Selecteer **Operator** als **kleiner-dan** van het drop-down menu
 
-   1. Voer de **waarde** in als **50**
+   1. Voer de **Waarde** in als **50**
 
-1. Navigeer en selecteer het kanaal () en klik op **Bewerken** op de actiebalk. In het volgende voorbeeld, **DataDrivenWeather**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
+1. Navigeer en selecteer uw kanaal () en klik **uitgeven** van de actiebar. In het volgende voorbeeld, **DataDrivenWeather**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
 
    >[!NOTE]
    >
-   >Uw kanaal zou reeds een standaardbeeld moeten hebben en het publiek zou pre-gevormd moeten zijn zoals die in het [Vormen ContextHub in AEM Screens](configuring-context-hub.md)wordt beschreven.
+   >Uw kanaal zou reeds een standaardbeeld moeten hebben en het publiek zou pre-gevormd moeten zijn zoals die in [het Vormen ContextHub in AEM Screens](configuring-context-hub.md) wordt beschreven.
 
    ![screen_shot_2019-05-08at113022am](assets/screen_shot_2019-05-08at113022am.png)
 
    >[!CAUTION]
    >
-   >U zou opstelling uw **Configuratie** ContextHub **gebruikend de** Eigenschappen **van het kanaal ->** Personalisatie **** tabel moeten hebben.
+   >U zou opstelling uw **ContextHub** **Configuraties** moeten hebben gebruikend het kanaal **Eigenschappen** —> **Personalization** tabel.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Selecteer **Doel** in de editor en selecteer **Merk** en **Activiteit** in het keuzemenu en klik op **Doelstelling** starten.
+1. Selecteer **Doelstelling** in de editor en selecteer **Merk** en **Activiteit** in het keuzemenu en klik **Doelstelling starten**.
 
    ![new_activity3](assets/new_activity3.gif)
 
