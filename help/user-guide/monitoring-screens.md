@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Problemen oplossen in Device Control Center {#troubleshooting-device-control-center}
 
-U kunt de prestaties voor de activiteit en het apparaat van de Schermspeler controleren en problemen oplossen gebruikend het dashboard van het Apparaat. Deze pagina verstrekt informatie over hoe te om waargenomen prestatiesproblemen voor de speler van het Scherm en de toegewezen apparaten te controleren en problemen op te lossen.
+U kunt de prestaties voor de activiteit en het apparaat van de Schermspeler controleren en problemen oplossen gebruikend het dashboard van het Apparaat. Deze pagina biedt informatie over hoe u waargenomen prestatieproblemen voor de schermspeler en de toegewezen apparaten kunt controleren en oplossen.
 
 ## Monitor en problemen oplossen vanuit Device Control Center {#monitor-and-troubleshoot-from-device-control-center}
 
@@ -31,7 +31,7 @@ U kunt de activiteit controleren en zo uw speler van het Scherm problemen oploss
 
 Ga als volgt te werk om naar het dashboard van het apparaat te navigeren:
 
-1. Navigeer naar het apparaatdashboard van uw project, bijvoorbeeld ***Test Project*** —> ***Apparaten***.
+1. Navigeer naar het apparaatdashboard van uw project, bijvoorbeeld ***Project testen*** —> ***Apparaten***.
 
    Selecteer **Apparaten** en **Apparaatbeheer** in de actiebalk.
 
@@ -41,7 +41,7 @@ Ga als volgt te werk om naar het dashboard van het apparaat te navigeren:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Selecteer het apparaat (**NewTestDevice**) en klik op **Dashboard** op de actiebalk.
+1. Selecteer het apparaat (**NewTestDevice**) en klik **Dashboard** van de actiebar.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -51,31 +51,31 @@ Ga als volgt te werk om naar het dashboard van het apparaat te navigeren:
 
 ### Apparaatactiviteit controleren {#monitor-device-activity}
 
-In het deelvenster **Activiteiten** wordt voor het laatst een tijdstempel van de schermspeler weergegeven. Laatste pingel beantwoordt aan de laatste tijd het apparaat met de server contacteerde.
+In het deelvenster **Activiteit** wordt het laatste pingelen van de schermspeler met het tijdstempel weergegeven. Laatste pingel beantwoordt aan de laatste tijd het apparaat met de server contacteerde.
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Klik bovendien in de rechterbovenhoek van het deelvenster **Activiteit** op Logboeken **** verzamelen om de logbestanden voor uw speler weer te geven.
+Klik bovendien op **Logbestanden verzamelen** in de rechterbovenhoek van het deelvenster **Activiteit** om de logbestanden voor uw speler weer te geven.
 
-### Apparaatdetails bijwerken {#update-device-details}
+### Apparaatdetails {#update-device-details} bijwerken
 
-Controleer het deelvenster **Apparaatdetails** om de IP van het apparaat, het opslaggebruik, de firmware-versie en de uptime van de speler voor het apparaat weer te geven.
+Controleer het **deelvenster Apparaatdetails** om de apparaat-IP, het opslaggebruik, de firmware-versie en de Player-uptime voor uw apparaat weer te geven.
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Daarnaast klikt u op **Cache** wissen en **Bijwerken** om de cache van uw apparaat te wissen en de [firmware](screens-glossary.md) -versie in dit deelvenster bij te werken.
+Daarnaast klikt u op **Cache wissen** en **Bijwerken** om de cache van uw apparaat te wissen en de [firmware](screens-glossary.md)-versie in dit deelvenster bij te werken.
 
-Klik ook op de knop **...** in de rechterbovenhoek van het deelvenster **Apparaatdetails** om de status van uw speler opnieuw te starten of te vernieuwen.
+Klik ook op **..** in de rechterbovenhoek van het deelvenster **Apparaatdetails** om de status van uw speler opnieuw te starten of te vernieuwen.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
-### Apparaatgegevens bijwerken {#update-device-information}
+### Apparaatinformatie {#update-device-information} bijwerken
 
-Controleer het deelvenster **APPARAATINFORMATIE** om de configuratieupdate, het apparaatmodel, het apparaatbesturingssysteem en de shell-informatie weer te geven.
+Controleer het **deelvenster APPARAATINFORMATIE** om de configuratieupdate, het apparaatmodel, het apparaatbesturingssysteem en de shell-informatie weer te geven.
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Klik bovendien in de rechterbovenhoek van het deelvenster Apparaatinformatie op de knop (**...**) om eigenschappen weer te geven of het apparaat bij te werken.
+Klik bovendien op de knop (**..**) in de rechterbovenhoek van het deelvenster Apparaatinformatie om eigenschappen weer te geven of het apparaat bij te werken.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
@@ -83,33 +83,33 @@ Klik op **Eigenschappen** om het dialoogvenster **Apparaateigenschappen** weer t
 
 >[!NOTE]
 >
->Voor meer informatie over de gebeurtenissen verbonden aan de automatische of handupdates van het apparaat, zie de sectie ***Automatische versus Handmatige Updates van het Dashboard*** van het Apparaat in het [Leiden Kanalen](managing-channels.md).
+>Voor meer informatie over de gebeurtenissen verbonden aan de automatische of handupdates van het apparaat, zie de sectie ***Automatische versus Handmatige Updates van het Dashboard van het Apparaat*** in [Managing Kanalen](managing-channels.md).
 
 ![screen_shot_2019-09-05at14112pm](assets/screen_shot_2019-09-05at14112pm.png)
 
 ### Schermafbeelding van speler weergeven {#view-player-screenshot}
 
-U kunt de schermafbeelding van de speler weergeven vanaf het apparaat vanuit het deelvenster **PLAYER SCREENSHOT** .
+U kunt de schermafbeelding van de speler weergeven vanaf het apparaat in het deelvenster **PLAYER SCREENSHOT**.
 
-Klik (**...**) op de hoogste juiste hoek van het paneel van het Schermafbeelding van de Speler en selecteer **vernieuwen Screenshot** om de momentopname van de lopende speler te bekijken.
+Klik (**..**) in de rechterbovenhoek van het deelvenster Schermafbeelding van speler en selecteer **Schermafbeelding vernieuwen** om de opname van de actieve speler weer te geven.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
 ### Voorkeuren beheren {#manage-preferences}
 
-In het deelvenster **VOORKEUREN** kan de gebruiker voorkeuren wijzigen voor **Admin UI**, **Channel Switcher** en **Foutopsporing** op afstand voor het apparaat.
+In het venster **PREFERENCES** kan de gebruiker voorkeuren wijzigen voor **Admin UI**, **Kanaalswitch** en **Foutopsporing op afstand** voor het apparaat.
 
 >[!NOTE]
->Zie [AEM Screens Player](working-with-screens-player.md)voor meer informatie over deze optie.
+>Zie [AEM Screens Player](working-with-screens-player.md) voor meer informatie over deze optie.
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Klik bovendien in de rechterbovenhoek op **Instellingen** om de voorkeuren van het apparaat bij te werken. U kunt de volgende voorkeuren bijwerken:
+Klik bovendien op **Instellingen** in de rechterbovenhoek om de voorkeuren van het apparaat bij te werken. U kunt de volgende voorkeuren bijwerken:
 
 * **Server-URL**
 * **Resolutie**
 * **Plan opnieuw opstarten**
-* **Max. nr. van te bewaren logbestanden**
+* **Max. nr. van logbestanden om te behouden**
 * **Logboekniveau**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
@@ -125,17 +125,17 @@ Klik bovendien in de rechterbovenhoek op **Instellingen** om de voorkeuren van h
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## OSGi-instellingen problemen oplossen {#troubleshoot-osgi-settings}
+## OSGi-instellingen {#troubleshoot-osgi-settings} oplossen
 
 U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen.
 
-Sommige van deze functies zijn momenteel alleen beschikbaar als het filter *Apache Sling Reference Allow Empty* is ingeschakeld in de OSGi-configuratie. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
+Momenteel zijn enkele van deze functies alleen beschikbaar als het filter *Apache Sling Reference Allow Empty* is ingeschakeld in de OSGi-configuratie. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
 
 Voer de onderstaande stappen uit om het filter Leeg toestaan van Apache-verwijzing in te schakelen
 
-1. Navigeer naar **Adobe Experience Manager Web Console Configuration**, dat wil zeggen, `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Navigeer naar **Adobe Experience Manager Web Console Configuration**, dat wil zeggen `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Schakel de optie **allow.empty** in.
-1. Click **Save**.
+1. Klik **Opslaan**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
@@ -145,9 +145,9 @@ In de volgende sectie wordt aangeraden de netwerkkoppelingen, de server en de sp
 
 AEM biedt ingebouwde bewaking voor:
 
-* *De hartslag* om de 5 seconden geeft aan dat de AEM Screens Player wordt uitgevoerd.
-* *Screenshot* van de Player die toont wat momenteel wordt weergegeven op de Player.
-* De versie *AEM Screens Player Firmware* die op de speler is geïnstalleerd.
+* *Heartbeatelke 5 seconden om aan te geven dat de AEM Screens Player wordt uitgevoerd.* 
+* *Screenshot* van de Player die toont wat momenteel op de Speler wordt getoond.
+* De *AEM Screens Player Firmware*-versie geïnstalleerd op de Player.
 * *Vrije opslagruimte* op de speler.
 
 Recommendations voor externe controle met software van derden:
@@ -161,4 +161,4 @@ Het wordt aanbevolen de Player-hardware en het besturingssysteem zodanig te impl
 
 #### Aanvullende bronnen {#additional-resources}
 
-Zie Configuratie en het Oplossen van problemen bij het afspelen van [video](troubleshoot-videos.md) om fouten op te sporen in video&#39;s die in uw kanaal worden afgespeeld en problemen op te lossen.
+Zie [Configuratie en probleemoplossing voor videoafspelen](troubleshoot-videos.md) om fouten op te sporen in video&#39;s die in uw kanaal worden afgespeeld en problemen op te lossen.
