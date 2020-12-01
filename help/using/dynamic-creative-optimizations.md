@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >De meest gangbare belanghebbenden voor deze activiteit zijn een AEM Implementor.
 
-**Dynamic Creative Optimization** of DCO, wordt gebruikt om digitale signaalervaringen tot stand te brengen die de unieke omstandigheden van om het even welke bepaalde plaats op om het even welk bepaald ogenblik en voor om het even welke bepaalde gebruiker weerspiegelen.
+**Dynamische Creative** Optimizationor DCO, wordt gebruikt om digitale signaalervaringen tot stand te brengen die de unieke omstandigheden van om het even welke bepaalde plaats op om het even welk bepaald ogenblik en voor om het even welke bepaalde gebruiker weerspiegelen.
 
 Dit wordt ook wel &#39;Afvlakken aan clientzijde&#39; van inhoud genoemd.
 
