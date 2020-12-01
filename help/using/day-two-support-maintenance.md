@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Dag twee Platform, ondersteuning en onderhoud {#day-two-support-maintenance}
+# Dag twee Platform support en onderhoud {#day-two-support-maintenance}
 
 AEM Screens heeft meerdere pakketten nodig om projecten te laten functioneren. In alle omgevingen moet dezelfde versie van Adobe Experience Manager worden uitgevoerd.
 
