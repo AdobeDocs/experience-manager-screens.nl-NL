@@ -24,14 +24,14 @@ Dit omvat het in kaart brengen van platformspecifieke configuraties aan los bepa
 
 Voorbeelden hiervan zijn hoe en wanneer u wilt gebruiken:
 
-* **Ervaar fragmenten** voor het maken van inhoudsgroepen
+* **Ervaar** fragmentaties voor het maken van inhoudsgroepen
 * **Inhoudsfragmenten** voor het maken van tekstvariaties
-* **De Hub** van de context voor het creëren van externe gegevensopslag, SPA&#39;s voor interactieve ervaringen
-* **OSGi-services** voor netwerkwaarschuwingen
-* **Asset Link** for Creative Cloud sourcing
+* **Context** Hubfor voor het creëren van externe gegevensopslag, SPA voor interactieve ervaringen
+* **OSGi-** services voor netwerkwaarschuwingen
+* **Asset** Linkfor Creative Cloud sourcing
 * **Netwerkmappen** voor middelentoewijzing
 * **Tekstbedekking** voor realtime gegevens
-* **Planningen** voor weergave/kanaalgroepen
+* **** Plannen voor weergave-/kanaalgroepen
 * **Workflows** voor automatische inhoudsbewerkingen.
 
 In deze fase, is het belangrijk om alle vereiste taken en activiteiten te herzien die aandacht zullen vereisen en hen behoorlijk zullen documenteren zodat de toegewezen taken behoorlijk spoor-in de plaatsingsfase kunnen zijn.
