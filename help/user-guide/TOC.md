@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens Help
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarmee u dynamische en interactieve digitale ervaringen en interacties kunt publiceren.
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 1%
       + [Chrome Player gebruiken als extensie voor het oplossen van problemen](using-chrome-player-as-an-extension.md)
       + [Android-speler](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
+      + [Tizen Player](tizen-player.md)
    + Auteur publiceren {#author-publish}
       + [Author-Publish Architecture-overzicht](author-publish-architecture-overview.md)
       + [Auteur en publicatie configureren](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 1%
       + [Opdrachtsynchronisatie](using-command-sync.md)
       + [Authoring met gegevenstriggers](authoring-data-triggers.md)
       + [Spraakherkenning](voice-recognition.md)
+      + [Rapport Inhoudstoewijzing](content-assignment-report.md)
    + Updates van inhoud beheren {#content-updates}
       + [Update voor on-demand inhoud](on-demand-content.md)
       + [Inhoud als service-update](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 1%
    + [Problemen oplossen in Device Control Center](monitoring-screens.md)
    + [Configuratie videoweergave](troubleshoot-videos.md)
 + Releaseopmerkingen {#release-notes}
+   + [Opmerkingen bij de release voor Feature Pack 202011](release-notes-fp-202011.md)
    + [Opmerkingen bij de release voor Feature Pack 202008](release-notes-fp-202008.md)
    + [Opmerkingen bij de release voor Feature Pack 202004](release-notes-fp-202004.md)
    + [Opmerkingen bij de release voor Feature Pack 202001](release-notes-fp-202001.md)
