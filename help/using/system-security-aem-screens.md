@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Overwegingen met betrekking tot systeembeveiliging voor AEM Screens {#security-checklist}
+# Overwegingen bij systeembeveiliging voor AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
 >Dit is een interne Git Resource.
@@ -20,12 +20,12 @@ ht-degree: 0%
 Deze pagina benadrukt de Overwegingen van de Veiligheid van het Systeem voor AEM Screens.
 
 
-## Witboek voor AEM Screens-beveiliging {#white-paper}
+## Whitepaper voor AEM Screens Security {#white-paper}
 
 In deze sectie wordt het witboek beschreven. (Bijlage witboek in behandeling)
 
 
-## Veelgestelde vragen over beveiliging van AEM Screens {#faqs-screens}
+## Veelgestelde vragen voor AEM Screens Security {#faqs-screens}
 
 De volgende veelgestelde vragen gaan uit van een geverifieerde, geregistreerde spelerarchitectuur die HTTPS gebruikt als communicatieprotocol tussen speler en AEM Server.
 
