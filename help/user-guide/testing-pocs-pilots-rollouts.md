@@ -12,6 +12,9 @@ discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 0%
 
 ---
 
@@ -36,11 +39,11 @@ Deze zelfstudie behandelt de volgende punten die relevant zijn voor een geslaagd
 
 Belanghebbenden voor een digitaal ondertekeningsprogramma in een detailhandelomgeving kunnen bijvoorbeeld het volgende doen: In-Store Marketing, de Milieu of Visuele Handelsverkeer van de Opslag, de Verrichtingen van de Opslag, de Veiligheid van IT, de Steun van IT, de productcategorie Merchant evenals hun Leverancier, die de oplossing kan medefinancieren.
 
-## Samenvatting van de belangrijkste voorwaarden die bij een algemeen projectplan zijn betrokken {#summary-of-key-terms-involved-in-an-overall-project-plan}
+## Samenvatting van de belangrijkste voorwaarden die betrokken zijn bij een algemeen projectplan {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
 In het volgende gedeelte wordt een overzicht gegeven van de belangrijkste voorwaarden die aan een algemeen projectplan verbonden zijn, zoals de projectcyclus, acties rond hardwaretests, concepttest, piloten en uitrol.
 
-### Conceptbewijs (POC) {#proof-of-concept-poc}
+### Conceptproef (POC) {#proof-of-concept-poc}
 
 Het doel van een concepttest is om initiële feedback te krijgen over de belangrijkste functies van een oplossing en zowel de end-client als AV Integrator de mogelijkheid te bieden om gebieden voor verbetering te identificeren en aannames met betrekking tot de arbeidseisen en de vraag naar middelen voor te bereiden. Een concepttest biedt beide partijen ook de mogelijkheid om de prestaties van de oplossing te beoordelen, die doorgaans wordt gemeten via:
 
@@ -50,7 +53,7 @@ Het testen van systemen en de Integratie van de Software begint met het team van
 
 Zodra het testen van QC volledig is het Team van de Techniek van IT creeert documentatie, werkschema&#39;s, en opleiding voor verwijzing tijdens dag-2 steun. De te testen systeemaspecten omvatten:
 
-* Integratie van AEM-implementatie
+* Integratie AEM
 * Integratie van systemen van derden
 * Software
 * Hardware
@@ -61,7 +64,7 @@ Zodra het testen van QC volledig is het Team van de Techniek van IT creeert docu
 
 Volg de onderstaande zelfstudie om meer inzicht te krijgen in Testen, Conceptproeven, Proefprogramma&#39;s en rollouts.
 
-Als al deze fasen worden beschouwd als onderdeel van een algemeen projectplan, zal dit bijdragen tot het beheer van de verwachtingen en het identificeren van natuurlijke punten waarin de investering in een AEM-schermimplementatie zal worden geëvalueerd.
+Al deze fasen als onderdeel van het algemene projectplan zullen helpen bij het beheren van de verwachtingen en het identificeren van natuurlijke punten waarop de investering in een AEM Screens-implementatie zal worden geëvalueerd.
 
 ### Testen, concepttest, piloten en rollouts
 
@@ -73,4 +76,4 @@ Als al deze fasen worden beschouwd als onderdeel van een algemeen projectplan, z
 
 Wanneer u grondig met het testen, het Bewijs van Concept, proefprogramma&#39;s en rollen bent, volg het volgende leerprogramma dat diep in het Beheer van het Project en de betrokken processen duikt.
 
-Ga naar **[Deel 4: Projectbeheer en -implementatie](project-management-and-deployment.md)**voor meer informatie.
+Navigeer naar **[Deel 4: Projectbeheer en -implementatie](project-management-and-deployment.md)** voor meer informatie.
