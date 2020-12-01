@@ -26,7 +26,7 @@ In het onderstaande diagram ziet u de rollen waarnaar we in de hele handleiding 
 >
 > Veel van deze rollen kunnen intern of uitbesteed zijn, afhankelijk van hoe elk project wordt opgezet.
 
-## Rollen definiëren {#roles}
+## Rollen {#roles} definiëren
 
 In de volgende sectie vindt u een overzicht van het doelpubliek:
 
@@ -34,7 +34,7 @@ In de volgende sectie vindt u een overzicht van het doelpubliek:
 
 Adobe bevat bronnen van Adobe Managed Services, zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-### AEM {#aem-implementors}
+### Implementators AEM {#aem-implementors}
 
 AEM Implementors zijn verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
@@ -42,13 +42,13 @@ Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Ex
 
 AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase kan het mogelijk maken het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met extra fasen die ondersteuning voor interactieve elementen bevatten via aanraakschermen, sensoren, dynamische triggers enzovoort.
 
-### AV-integrators {#av-integrators}
+### AV-integratoren {#av-integrators}
 
 De A/V Integrator is de Leverancier/Partner van de Hardware. Dit is de partij die zich bezighoudt met het ontwerp en de voorbereiding van de detailhandel, met inbegrip van hardwareverwerving, configuratie, en plaatsing. Het is doorgaans een gecontracteerde derde partij die toegang heeft tot een Network Operations Center (NOC). In veel gevallen is de A/V-integrator de eigenaar van het project vanwege zijn voortdurende betrokkenheid na de lancering.
 
 Een AV-integrator is verantwoordelijk voor het uitvoeren van detectie met eindgebruikers om vereisten te definiëren die het projectbereik bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties met behulp van digitale signaalhardware.
 
-#### Overdenking van hardwarepartner {#selecting-hardware-partner}
+#### Het overwegen van de Partner van de Hardware {#selecting-hardware-partner}
 
 Het is cruciaal om de juiste hardwarepartner te selecteren. De volgende vragen moeten in overweging worden genomen:
 
@@ -62,7 +62,7 @@ Het is cruciaal om de juiste hardwarepartner te selecteren. De volgende vragen m
 
 1. Wat zijn de actieve bewakings- en waarschuwingssystemen?
 
-### Bedrijfsstrategieën {#business-strategist}
+### Zakelijke strategen {#business-strategist}
 
 De Business Strategists vertegenwoordigen de besluitvormers van het bedrijf. Deze rol is in hoge mate betrokken bij de fase van detectie en vereisten en is de belangrijkste drijvende kracht achter het project.
 
@@ -84,24 +84,24 @@ Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens
 
 >[!NOTE]
 >
->Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek de Rollen en de Verantwoordelijkheden **[van het](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)** Project.
+>Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek **[de Rollen en de Verantwoordelijkheden van het Project](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Projectfasen {#project-stages}
 
-Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren.  Deze stadia worden gewoonlijk bedoeld als **Dagen**. Dit zijn geen letterlijke dagen, maar aanwijzingen voor elke grote fase van het project.
+Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren.  Deze stadia worden algemeen bedoeld als **Dagen**. Dit zijn geen letterlijke dagen, maar aanwijzingen voor elke grote fase van het project.
 
-1. De eerste fase wordt aangeduid als *Dag Nul*. Deze fase omvat alle pre-sales en ontdekkingsinspanningen die worden vereist om het projectwerkingsgebied volledig te bepalen.
-1. De tweede fase, *dag één*, heeft betrekking op alle activiteiten die deel uitmaken van de inzet.
-1. De derde en laatste *dag twee* van de fase verwijst naar alle lopende operaties en ondersteunende elementen als onderdeel van de totale oplossing.
+1. De eerste fase wordt aangeduid als *Day Zero*. Deze fase omvat alle pre-sales en ontdekkingsinspanningen die worden vereist om het projectwerkingsgebied volledig te bepalen.
+1. De tweede fase, *Dag één*, verwijst naar alle activiteiten die deel uitmaken van de implementatie-inspanning.
+1. Het derde en laatste stadium *Dag Twee* verwijst naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
 
 >[!NOTE]
 >
 >Hoewel in deze handleiding de nadruk vooral wordt gelegd op *Dag één* en *Dag twee*, is aandacht voor alle drie de fasen noodzakelijk om een succesvol digitaal signalisatieproject uit te voeren.
 >
->Volg een aanvullende video over **[Projectbeheer en Plaatsing](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren.
+>Volg een extra video op **[Projectbeheer en Plaatsing](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren.
 
-## RACI {#raci-chart}
+## RACI-grafiek {#raci-chart}
 
 Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt.
 
@@ -121,7 +121,7 @@ Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt.
 
 Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt en verstrekt een voorbeeld van gemeenschappelijke taken en overwegingen in een project van AEM Screens.
 
-De volgende tabel geeft een overzicht van **Dag Nul: Overwegingen** vóór verkoop:
+In de volgende tabel wordt de **Dagnul samengevat: Overwegingen vóór verkoop**:
 
 | **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
@@ -133,7 +133,7 @@ De volgende tabel geeft een overzicht van **Dag Nul: Overwegingen** vóór verko
 | Ondersteuningsproces | C | I | RA | I |
 | Bereik van werk en projectplan bepalen | RA | RA | C | C |
 
-De volgende tabel geeft een overzicht van **dag één: Projectimplementatie (toepassingsontwerp)**:
+De volgende tabel geeft een overzicht van **Dag één: Projectimplementatie (toepassingsontwerp)**:
 
 | **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
@@ -153,7 +153,7 @@ De volgende tabel geeft een overzicht van **dag één: Projectimplementatie (toe
 | Plan voor de overgang van het proefproject naar de productie | RA | RA | I | I |
 | Kennisoverdracht | RA | RA | I | I |
 
-De volgende tabel geeft een overzicht van **dag één: Projectimplementatie (gereedheid voor detailhandel)**:
+De volgende tabel geeft een overzicht van **Dag één: Projectimplementatie (gereedheid voor detailhandel)**:
 
 | **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
@@ -163,7 +163,7 @@ De volgende tabel geeft een overzicht van **dag één: Projectimplementatie (ger
 | Hardwarebulkconfiguratie | RA | I | C | I |
 | Overeenkomst over ondersteuning na de lancering | RA | C | RA | C |
 
-De volgende tabel geeft een overzicht van **dag één: Dag één: Projectimplementatie (hardware)**:
+De volgende tabel geeft een overzicht van **Dag één: Dag één: Projectimplementatie (hardware)**:
 
 | **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
@@ -184,7 +184,7 @@ De volgende tabel geeft een overzicht van **dag één: Dag één: Projectimpleme
 
 * **Technicus**: ofwel door de AV-integrator is aangeworven of deel uitmaakt van dezelfde onderneming.
 
-De volgende tabel geeft een overzicht van **dag twee: RACI-diagram** voor ondersteuning na starten:
+De volgende tabel geeft een overzicht van **Dag twee: Support RACI Chart** na starten:
 
 | **Fase** | **Auteur** | **Developer** | **Technicus** |
 |---|---|---|---|
