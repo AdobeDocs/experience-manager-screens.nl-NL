@@ -5,6 +5,9 @@ description: De pagina beschrijft apparaatspecificaties
 seo-description: De pagina beschrijft apparaatspecificaties
 translation-type: tm+mt
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 >
 >De meest voorkomende belanghebbende bij deze activiteit is A/V-integrator.
 
-Bevestig op basis van de informatie die tijdens *dag nul* is verzameld de volgende informatie voordat u begint met ontwikkelen:
+Bevestig op basis van de informatie die tijdens *Day Zero* is verzameld de volgende informatie voordat u begint met de ontwikkeling:
 
 * Wat is de richting, afmetingen en resolutie van de schermen die worden gebruikt?
 
@@ -23,7 +26,7 @@ Bevestig op basis van de informatie die tijdens *dag nul* is verzameld de volgen
 
 * Welke software en besturingssysteem moet op de apparaten worden geïnstalleerd?
 
-* Worden spelers via een internetverbinding verplicht de schermen te synchroniseren met AEM-servers?
+* Worden spelers via een internetverbinding verplicht de schermen te synchroniseren met AEM servers?
 
 * Wanneer wordt de inhoud van spelers bijgewerkt?
 
