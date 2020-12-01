@@ -15,7 +15,7 @@ ht-degree: 1%
 ---
 
 
-# Best Practices Guide voor AEM Screens-projecten {#using}
+# Handleiding voor aanbevolen procedures voor AEM Screens-projecten {#using}
 
 + [Informatie over deze handleiding](about-guide.md)
 + Overzicht {#overview}
@@ -29,13 +29,13 @@ ht-degree: 1%
    + [Zakelijke inhoud in UX-strategieën](business-content-strategy.md)
    + [UX-afhankelijkheden](ux-dependencies.md)
    + [Integratie met Analytics](analytics.md)
-+ Briefing ontwerp {#design-brief}
++ Ontwerpoverzichten {#design-brief}
    + [UX-reiskaart](journey-map.md)
    + [UX-prototypen](prototypes.md)
    + [UX-draadframes](wireframes.md)
    + [Overgang naar Platform](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
-+ Overzicht van implementatie {#deployment-brief}
++ Implementatieoverzicht {#deployment-brief}
    + [Configuraties AEM Platform](aem-platform-configurations.md)
    + [Projecttaxonomie en -uitvoering](project-taxonomy-implementation.md)
    + Netwerkverkeersbeheer {#manage-network-traffic}
