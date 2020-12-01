@@ -6,6 +6,9 @@ seo-description: Volg deze pagina voor meer informatie over de afspeelduur van a
 contentOwner: jsyal
 translation-type: tm+mt
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 1%
 
 ---
 
@@ -18,27 +21,27 @@ Nadat u een volgnummer hebt gemaakt en er afbeeldingen aan hebt toegevoegd, neme
 
 ### Vereisten {#prerequisites}
 
-Voordat u deze functionaliteit gaat implementeren, moet u ervoor zorgen dat u een project hebt ingesteld als voorwaarde voor het implementeren van deze functionaliteit. Bijvoorbeeld:
+Voordat u deze functionaliteit gaat implementeren, moet u ervoor zorgen dat u een project hebt ingesteld als voorwaarde voor het implementeren van deze functionaliteit. Bijvoorbeeld,
 
-1. Een AEM-schermproject maken (in dit voorbeeld **ChannelLevelPlayback**)
+1. Een AEM Screens-project maken (in dit voorbeeld **ChannelLevelPlayback**)
 
-1. Een sequentiekanaal maken als **PlaybackChannel** onder de map **Kanalen**
+1. Creeer een opeenvolgingskanaal als **PlaybackChannel** onder **Kanalen** omslag
 
 1. Inhoud toevoegen aan **PlaybackChannel**
 
 ## Tijdsduur afspeelafbeelding op kanaalniveau bewerken {#editing-channel-level-image-playback-duration-assignment}
 
-In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een AEM-rasterkanaal kunt bewerken.
+In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een AEM Screens-kanaal kunt bewerken.
 
 ### De afspeelduur bijwerken voor afbeeldingen in een kanaal {#updating-the-playback-duration-for-images-in-a-channel}
 
 Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau op kanaalniveau tijdens het afspelen van de afbeelding kunt bijwerken:
 
-1. Navigeer naar het **PlaybackChannel**-sequentiekanaal.
+1. Navigeer naar het volgordekanaal **PlaybackChannel**.
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Klik op **Bewerken** op de actiebalk om de editor te openen.
+1. Klik **Bewerken** van de actiebar om de redacteur te openen.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -50,7 +53,7 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Het dialoogvenster Pagina** wordt geopend.
+1. **Het** dialoogvenster Pagina wordt geopend.
 
    >[!NOTE]
    >
@@ -62,7 +65,7 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### Het resultaat weergeven {#viewing-the-result}
+### Resultaat {#viewing-the-result} weergeven
 
 Nadat u de afspeelduur van het kanaal hebt bijgewerkt (in dit voorbeeld worden alle drie de afbeeldingen weergegeven), worden de afbeeldingen nu 3 seconden afgespeeld in plaats van 8 seconden (standaardwaarde).
 
