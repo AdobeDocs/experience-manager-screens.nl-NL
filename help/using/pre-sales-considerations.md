@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Overwegingen als projecten worden behandeld {#pre-sales-considerations}
+# Overwegingen als Projecten {#pre-sales-considerations} worden gesegregeerd
 
 >[!NOTE]
 >De typische belanghebbende voor deze activiteit is een Marketing/Bedrijfs Strategist.
@@ -20,7 +20,7 @@ ht-degree: 0%
 Deze fase omvat alle inspanningen vóór verkoop en detectie die nodig zijn om het projectbereik volledig te definiëren. Het werk dat tijdens Dag Zero wordt uitgevoerd, zet de toon voor de rest van het project en beïnvloedt het algemene succes van de toepassing die wordt gebouwd.
 In dit stadium, worden de belangrijkste verkopers geïdentificeerd en samengebracht helpen het projectplan opstellen. Het is in deze fase van belang dat ook de inkoop wordt opgezet met belangrijke projectbelanghebbenden binnen het clientbedrijf, zoals Sales Executives, Marketing Managers en IT-teams, aangezien zij allemaal een belangrijke rol zullen spelen bij de ontwikkeling van de toepassing en het verdere onderhoud ervan.
 
-## Belangrijkste te leveren items {#key-deliverables}
+## Belangrijke te leveren items {#key-deliverables}
 
 De belangrijkste resultaten in dit stadium zijn:
 
@@ -32,6 +32,6 @@ De belangrijkste resultaten in dit stadium zijn:
 
 >[!NOTE]
 >
->Identificeer zo snel mogelijk de gegevens die nodig zijn voor de toepassing en waar deze vandaan komt. Terwijl de diepgaande exploratie tijdens implementatie zal gebeuren, neem de tijd tijdens *Dag Nul* om te weten te komen welke gegevens de cliënt van plan is te gebruiken, waar die gegevens momenteel worden opgeslagen, en hoe het door de toepassing kan worden betreden die wordt gebouwd. Door het ontwikkelingsteam vooraf op de hoogte te stellen van de uitdagingen die zich in de toekomst kunnen voordoen, wordt de implementatie soepeler verlopen.
+>Identificeer zo snel mogelijk de gegevens die nodig zijn voor de toepassing en waar deze vandaan komt. Tijdens de implementatie wordt dieper ingegaan op de vraag welke gegevens de client wil gebruiken, waar die gegevens momenteel zijn opgeslagen en hoe deze kunnen worden benaderd door de toepassing die wordt gebouwd. Dit neemt echter niet weg dat er tijdens *Day Zero* meer tijd nodig is om te achterhalen welke gegevens de client wil gebruiken. Door het ontwikkelingsteam vooraf op de hoogte te stellen van de uitdagingen die zich in de toekomst kunnen voordoen, wordt de implementatie soepeler verlopen.
 
-Raadpleeg de videozelfstudie over [Overwegingen bij het maken van projecten met Scoped](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) voor meer informatie.
+Raadpleeg de videozelfstudie over [Overwegingen als projecten worden gereproduceerd](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) voor meer informatie.
