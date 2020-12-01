@@ -12,13 +12,16 @@ discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 0%
 
 ---
 
 
-# Deel 2: Overwegingen als projecten worden behandeld {#part-considerations-as-projects-are-scoped}
+# Deel 2: Overwegingen als Projecten {#part-considerations-as-projects-are-scoped} worden gesegregeerd
 
-Deze pagina benadrukt deel 2 van een reeks van 5 delen die wordt ontworpen om teamleden te helpen pre-verkoopaspecten voor het ontwikkelen van succesvolle plaatsingen van de Schermen van AEM beter begrijpen.
+Deze pagina benadrukt deel 2 van een reeks van 5 delen die wordt ontworpen om teamleden te helpen pre-verkoopaspecten voor het ontwikkelen van succesvolle plaatsingen van AEM Screens beter begrijpen.
 
 ## Overzicht {#overview}
 
@@ -45,7 +48,7 @@ Bij het ontwikkelen van een inhoudsstrategie zijn er verschillende overwegingen,
 
 I/O-drive voorwaardelijk afspelen van inhoud op basis van het waarnemen van de nabijheid van het publiek. Wanneer een sensor bijvoorbeeld nabijheid detecteert, kan het afspelen van inhoud veranderen van ‘aantrekken’ of passieve inhoud in ‘aantrekken’ of interactief afspelen. Dit is vooral nuttig in toepassingen waar het dienen van inhoud op demografie gewenst is.
 
-### Elementen van inhoud {#content-asset-types}
+### Inhoudselementtypen {#content-asset-types}
 
 De volgende punten worden geacht de intentie van de eindklant met betrekking tot Content Assets te begrijpen:
 
@@ -58,7 +61,7 @@ De volgende punten worden geacht de intentie van de eindklant met betrekking tot
 * Worden videomuren met meerdere schermen vereist en zo ja, wat zijn de configuraties?
 * Is de inhoud gekoppeld aan operationele of reclame-inkomsten die een &quot;failover&quot;-strategie nodig hebben om uitvaltijd te voorkomen?
 
-### Auditiesegmentatie, Dagonderdelen {#audience-segmentation-day-parts}
+### Audience Segmentation, Day Parts {#audience-segmentation-day-parts}
 
 Het ingaan van dag-Deel strategieën kan eindcliënten toestaan om hun inhoud en doeloverseinen aan het juiste publiek in de juiste tijd te segmenteren. Dit is met name effectief voor advertentie- of Retail-netwerken, waar veel content contributors de hele afspeellijst vormen.
 
@@ -74,7 +77,7 @@ De montagescenario&#39;s vereisen ook definitie, evenals overwegingen die appara
 
 De laatste stap in het Pre-Sales-proces is het bepalen van de gereedheid van de site. Dit kan worden vergemakkelijkt door middel van siteenquêtes die de locatie, het project en de voortgangsgegevens vastleggen. Readiness van de plaats vangt hoofdzakelijk huidige staat van een plaats voorafgaand aan installatie, roepend om het even welke punten de klant moet voorbereiden of van plan zijn om te richten alvorens een technicus aankomt. Dit omvat doorgaans elementen zoals stroom, gegevens, het verwijderen van meubilair en het verwijderen van stof.
 
-## Deel 2: Videozelfstudie over overwegingen bij projecten {#part-video-tutorial-on-considerations-as-projects-are-scoped}
+## Deel 2: Videozelfstudie over Overwegingen bij projecten {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
 Volg de onderstaande zelfstudie om meer te leren over de inhoudsstrategie, I/O-lagen, elementtypen, publiekssegmentatie, onderdelen voor de dag, vereisten voor bedrijfsactiviteiten en overwegingen met betrekking tot gereedheid van de site.
 
@@ -82,10 +85,10 @@ Volg de onderstaande zelfstudie om meer te leren over de inhoudsstrategie, I/O-l
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Leer over de inhoudsstrategie, I/O lagen, activa types, publiekssegmentatie, dagdelen, bedrijfsverrichtingsvereisten, en overwegingen van de plaatsbereidheid.*
+*Leer over de inhoudsstrategie, I/O lagen, activa types, publiekssegmentatie, dagdelen, bedrijfsverrichtingsvereisten, en de overwegingen van de plaatsbereidheid.*
 
 ## De volgende stap {#the-next-step}
 
 Zodra u de elementen begrijpt die tijdens projectontdekking samen met de input van belanghebbenden worden geïdentificeerd om het project te beoordelen en een aangewezen ontwerp voor te bereiden, moet u de belangrijkste termijnen leren betrokken bij een algemeen projectplan zoals projectcyclus, acties die het hardware testen, Bewijs van Concept, piloten en rollouts omringen.
 
-Navigeer naar **[Testen, concepttest, piloten en rollouts](testing-pocs-pilots-rollouts.md)**voor meer informatie.
+Navigeer naar **[Testen, concepttest, piloten en rollouts](testing-pocs-pilots-rollouts.md)** voor meer informatie.
