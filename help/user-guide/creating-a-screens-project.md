@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# Projecten maken en beheren {#creating-and-managing-projects}
+# Projecten {#creating-and-managing-projects} maken en beheren
 
 De AEM Screens is beschikbaar door de Adobe Experience Manager-koppeling (linksboven) te selecteren en vervolgens de koppelingen te screenen.
 
@@ -35,9 +35,9 @@ Voer de onderstaande stappen uit om een nieuw project voor schermen te maken:
 
 1. Selecteer **Schermen** van uw AEM instantie.
 
-1. Klik op Schermproject **** maken.
+1. Klik **Schermproject maken**.
 
-1. Voer de titel in als **TestScreens** en klik op **Opslaan**.
+1. Voer de titel in als **TestScreens** en klik op **Save**.
 
 Het project wordt gecreeerd en het brengt u terug naar de console van het Project van de Schermen. U kunt nu uw project selecteren.
 
@@ -53,10 +53,10 @@ In een project, zijn er vijf soorten omslagen, zoals aangetoond in het hieronder
 
 >[!NOTE]
 >
->Standaard bevat de initiële structuur de master pagina&#39;s **Planningen**, **Locaties**, **Toepassingen**, **Kanalen** en **Apparaten** , maar deze kan indien nodig handmatig worden aangepast. U kunt de opties verwijderen als de beschikbare opties niet relevant zijn voor uw project.
+>Standaard bevat de initiële structuur de master pagina&#39;s **Planningen**, **Locaties**, **Toepassingen**, **Kanalen** en **Apparaten**, maar deze kunnen indien nodig handmatig worden aangepast. U kunt de opties verwijderen als de beschikbare opties niet relevant zijn voor uw project.
 
 
-## Eigenschappen weergeven {#viewing-properties}
+## Weergaveeigenschappen {#viewing-properties}
 
 Nadat u het project Schermen hebt gemaakt, selecteert u het project en klikt u op **Eigenschappen** in de actiebalk om de eigenschappen van het project te bewerken.
 
@@ -65,22 +65,22 @@ Met de volgende opties kunt u eigenschappen van uw **TestScreens** bewerken/wijz
 ![afbeelding](assets/create-project2.png)
 
 
-## Een aangepaste map maken {#creating-a-custom-folder}
+## Aangepaste mappen maken {#creating-a-custom-folder}
 
-U kunt ook uw eigen aangepaste map maken onder de pagina&#39;s **Programma&#39;s**, **Locaties**, **Toepassingen**, **Kanalen** en **Apparaten** die beschikbaar zijn in uw project.
+U kunt ook uw eigen aangepaste map maken onder **Planningen**, **Locaties**, **Toepassingen**, **Kanalen** en **Apparaten** master pagina&#39;s beschikbaar in uw project.
 
 Een aangepaste map maken:
 
-1. Selecteer uw project en klik op **Maken** naast plusteken in de actiebalk.
-1. De wizard **Maken** wordt geopend en selecteert de gewenste optie.
+1. Selecteer uw project en klik op **Maken** naast het plusteken in de actiebalk.
+1. De **Create** tovenaar opent en selecteert de aangewezen optie.
 1. Klik op **Next**.
 1. Voer de eigenschappen in en klik op **Maken**.
 
-De volgende stappen tonen de verwezenlijking van een toepassingsomslag aan uw **Toepassingen** master pagina in **TestScreens**.
+De volgende stappen tonen de verwezenlijking van een toepassingsomslag aan uw **master pagina van Toepassingen** in **TestScreens**.
 
 ![player2-1](assets/create-project3.gif)
 
 ### De volgende stappen {#the-next-steps}
 
-Zodra u uw eigen project hebt gecreeerd, zie het Beheer [van het](managing-channels.md) Kanaal om inhoud in uw kanaal tot stand te brengen en te beheren.
+Zodra u uw eigen project hebt gecreeerd, zie [Kanaalbeheer](managing-channels.md) om inhoud in uw kanaal tot stand te brengen en te beheren.
 
