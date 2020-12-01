@@ -29,9 +29,9 @@ Nadat u een volgnummer hebt gemaakt en er afbeeldingen aan hebt toegevoegd, neme
 
 Voordat u deze functionaliteit gaat implementeren, moet u ervoor zorgen dat u een project hebt ingesteld als voorwaarde voor het implementeren van deze functionaliteit. Bijvoorbeeld,
 
-1. Maak een AEM Screens-projectvoorbeeld, **ChannelLevelPlayback**.
+1. Maak een AEM Screens-projectvoorbeeld **ChannelLevelPlayback**.
 
-1. Maak een volgnummer als **PlaybackChannel** onder de map **Kanalen** .
+1. Creeer een opeenvolgingskanaal als **PlaybackChannel** onder **Kanalen** omslag.
 
 1. Voeg inhoud toe aan **PlaybackChannel**.
 
@@ -43,11 +43,11 @@ In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een
 
 Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau op kanaalniveau tijdens het afspelen van de afbeelding kunt bijwerken:
 
-1. Navigeer naar het **PlaybackChannel**-sequentiekanaal.
+1. Navigeer naar het volgordekanaal **PlaybackChannel**.
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Klik op **Bewerken** op de actiebalk om de editor te openen.
+1. Klik **Bewerken** van de actiebar om de redacteur te openen.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -59,7 +59,7 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Het dialoogvenster Pagina** wordt geopend.
+1. **Het** dialoogvenster Pagina wordt geopend.
 
    >[!NOTE]
    >Standaard worden de afbeeldingen in een kanaal ingesteld op een afspeelduur van 8 seconden.
@@ -70,7 +70,7 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### Het resultaat weergeven {#viewing-the-result}
+### Resultaat {#viewing-the-result} weergeven
 
 Nadat u de afspeelduur van het kanaal hebt bijgewerkt (in dit voorbeeld worden alle drie de afbeeldingen weergegeven), worden de afbeeldingen nu 3 seconden afgespeeld in plaats van 8 seconden (standaardwaarde).
 
