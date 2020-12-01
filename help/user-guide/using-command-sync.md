@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# Opdrachtsynchronisatie {#command-sync}
+# Command Sync {#command-sync}
 
 Op de volgende pagina wordt beschreven hoe u Command Sync kunt gebruiken. Met Command Sync kunt u het afspelen tussen verschillende spelers synchroniseren. De spelers kunnen verschillende inhoud afspelen, maar elk element moet dezelfde duur hebben.
 
@@ -24,43 +24,43 @@ Op de volgende pagina wordt beschreven hoe u Command Sync kunt gebruiken. Met Co
 
 De digitale signaaloplossingen moeten videomuren en gesynchroniseerde playback steunen om scenario&#39;s zoals tellingen van Nieuwjaar of grote video te steunen die over veelvoudige schermen worden gesegmenteerd en dit is waar de Synchronisatie van het Bevel in spel komt.
 
-Om de Synchronisatie van het Bevel te gebruiken, handelt één speler als *master* en verzendt bevel en alle andere spelers handelen als *cliënten* en spelen wanneer zij het bevel ontvangen.
+Om de Synchronisatie van het Bevel te gebruiken, doet één speler dienst als *master* en verzendt bevel en alle andere spelers handelen als *cliënten* en spelen wanneer zij het bevel ontvangen.
 
 De *master* verzendt een bevel naar alle geregistreerde cliënten wanneer het op het punt staat om playback van een punt te beginnen. De nuttige lading van dit kan de index van het te spelen punt en/of buitenste html van het te spelen element zijn.
 
-## Opdrachtsynchronisatie implementeren {#using-command-sync}
+## Opdrachtsync {#using-command-sync} implementeren
 
-De volgende sectie beschrijft hoe u de Synchronisatie van het Bevel in een project van AEM Screens kunt gebruiken.
+In de volgende sectie wordt beschreven hoe u Command Sync in een AEM Screens-project kunt gebruiken.
 
 >[!NOTE]
 >
 >Voor gesynchroniseerd afspelen is het vereist dat alle hardwareapparaten dezelfde hardwarespecificaties hebben en bij voorkeur hetzelfde besturingssysteem. Synchroniseren tussen verschillende hardware en besturingssystemen wordt afgeraden.
 
-### Het project instellen {#setting-up}
+### Het project {#setting-up} instellen
 
 Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een kanaal met inhoud instellen voor uw project.
 
-1. In het volgende voorbeeld ziet u een demoproject met de naam **CommandSyncDemo** en een **ChannelLobby** met volgordekanalen.
+1. In het volgende voorbeeld ziet u een demoproject met de naam **CommandSyncDemo** en een sequentiekanaal **ChannelLobby**.
 
    ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
-   >Raadpleeg Kanalen [maken en beheren voor meer informatie over het maken van een kanaal of het toevoegen van inhoud aan een kanaal](/help/user-guide/managing-channels.md)
+   >Meer informatie over het maken van een kanaal of het toevoegen van inhoud aan een kanaal vindt u in [Kanalen maken en beheren](/help/user-guide/managing-channels.md)
 
    Het kanaal bevat de volgende inhoud, zoals in de onderstaande afbeelding wordt getoond.
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Maak een weergave in de map **Locations** , zoals in de onderstaande afbeelding wordt getoond.
+1. Maak een weergave in de map **Locations**, zoals in de onderstaande afbeelding wordt getoond.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Wijs het kanaal, **ChannelLobby** , toe aan uw **LobbyDisplay**.
+1. Wijs het kanaal, **ChannelLobby** aan uw **LobbyDisplay** toe.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
-   >Leer hoe te om een kanaal aan een vertoning toe te wijzen, verwijs naar het [Creëren van en het Leiden Vertoningen](/help/user-guide/managing-displays.md).
+   >Leer hoe te om een kanaal aan een vertoning toe te wijzen, verwijs naar [Creërend en het Leiden Vertoningen](/help/user-guide/managing-displays.md).
 
 1. Navigeer naar de map **Apparaten** en klik op **Apparaatbeheer** op de actiebalk om de apparaten te registreren.
 
@@ -68,14 +68,14 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
    >[!NOTE]
    >
-   >Leer hoe te om een kanaal aan een vertoning toe te wijzen, verwijs naar het [Creëren en het Leiden Vertoningen](/help/user-guide/managing-displays.md)
+   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, verwijs naar [Creërend en het Leiden Vertoningen](/help/user-guide/managing-displays.md)
 
 1. In dit voorbeeld worden voor demo-doeleinden een chroom- en een Windows-speler weergegeven als twee aparte apparaten. Beide apparaten wijzen aan de zelfde vertoning.
    ![image1](assets/command-sync6.png)
 
 ### Kanaalinstellingen bijwerken
 
-1. Navigeer naar **ChannelLobby** en klik op **Bewerken** op de actiebalk om de kanaalinstellingen bij te werken.
+1. Navigeer naar **ChannelLobby** en klik **Bewerken** op de actiebalk om de kanaalinstellingen bij te werken.
 
 1. Selecteer het volledige kanaal zoals weergegeven in de onderstaande afbeelding.
    ![image1](assets/command-sync/command-sync7-1.png)
@@ -83,22 +83,22 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 1. Klik op het moersleutelpictogram om het dialoogvenster **Pagina** te openen.
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. Voer het *gesynchroniseerde* trefwoord in het veld **Strategie** in.
+1. Typ het trefwoord *gesynchroniseerd* in het veld **Strategie**.
 
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Een master instelling instellen {#setting-up-master}
+### Een master {#setting-up-master} instellen
 
-1. Navigeer naar het weergavedashboard vanaf **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** en klik op het **dashboard** op de actiebalk.
-De twee apparaten (de chroom- en vensterspeler) worden weergegeven in het deelvenster **APPARATEN** , zoals in de onderstaande afbeelding wordt getoond.
+1. Navigeer van **CommandSyncDemo** —> **Locaties** —> **Lobby** —> **LobbyDisplay** naar het weergavedashboard en klik op **Dashboard** op de actiebalk.
+De twee apparaten (chroom- en vensterspeler) worden weergegeven in het deelvenster **DEVICES**, zoals in de onderstaande afbeelding wordt getoond.
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Selecteer in het deelvenster **APPARATEN** het apparaat dat u als master wilt instellen. In het volgende voorbeeld ziet u hoe u het Chrome-apparaat instelt als het master apparaat. Klik op **Instellen als master apparaat**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Voer het IP-adres in **Set in als master apparaat** en klik op **Opslaan**.
+1. Voer het IP-adres in **Instellen als master apparaat** in en klik op **Opslaan**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
@@ -109,7 +109,7 @@ De twee apparaten (de chroom- en vensterspeler) worden weergegeven in het deelve
 ### Synchroniseren met Master {#sync-up-master}
 
 1. Nadat u het Chrome-apparaat hebt ingesteld op master, kunt u het andere apparaat (in dit geval de Windows-speler) synchroniseren met het master apparaat.
-Selecteer het andere apparaat (in dit geval de vensterspeler) in het deelvenster **APPARATEN** en klik op **Synchroniseren met master apparaat**, zoals in de onderstaande afbeelding wordt getoond.
+Selecteer het andere apparaat (in dit geval de vensterspeler) in het **deelvenster DEVICES** en klik op **Synchroniseren met master apparaat**, zoals in de onderstaande afbeelding wordt getoond.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -118,11 +118,11 @@ Selecteer het andere apparaat (in dit geval de vensterspeler) in het deelvenster
    >[OPMERKING:]
    > In het dialoogvenster **Synchroniseren met master apparaat** wordt de lijst met master apparaten weergegeven. U kunt de gewenste optie selecteren.
 
-1. Nadat het apparaat (Windows-speler) is gesynchroniseerd met de master speler (Chrome-speler), wordt het apparaat gesynchroniseerd in het deelvenster **APPARATEN** .
+1. Nadat het apparaat (Windows-speler) is gesynchroniseerd met de master speler (Chrome-speler), wordt het apparaat gesynchroniseerd in het deelvenster **DEVICES**.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### De-synchroniseren met de Master {#desync-up-master}
+### De-synchroniseren met Master {#desync-up-master}
 
 Nadat u een apparaat of apparaten hebt gesynchroniseerd met een master apparaat, kunt u de synchronisatie van dat apparaat ongedaan maken.
 
@@ -132,13 +132,13 @@ Nadat u een apparaat of apparaten hebt gesynchroniseerd met een master apparaat,
 
 Volg onderstaande stappen om de synchronisatie van het master apparaat te verwijderen:
 
-1. Navigeer naar het deelvenster **APPARATEN** en selecteer het apparaat.
+1. Navigeer naar het **deelvenster DEVICES** en selecteer het apparaat.
 
-1. Klik op **Desync-apparaat(en)** om de synchronisatie van de client met het master apparaat ongedaan te maken.
+1. Klik op **Apparaat(en)** desync om de synchronisatie van de client met het master apparaat ongedaan te maken.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Klik op **Bevestigen** om de synchronisatie van het geselecteerde apparaat met het master apparaat ongedaan te maken.
+1. Klik **Bevestig** om de synchronisatie van het geselecteerde apparaat met het master apparaat ongedaan te maken.
 
    >[OPMERKING:]
    > Als u het master apparaat selecteert en de optie Niet-synchroniseren gebruikt, worden alle apparaten die zijn aangesloten op het master apparaat in één stap gedessynchroniseerd.
