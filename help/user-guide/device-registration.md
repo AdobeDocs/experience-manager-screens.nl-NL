@@ -23,7 +23,7 @@ ht-degree: 0%
 
 De volgende pagina beschrijft het proces van de apparatenregistratie in een project van AEM Screens.
 
-## Een apparaat registreren {#registering-a-device}
+## Een apparaat {#registering-a-device} registreren
 
 Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers:
 
@@ -32,11 +32,11 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
 >[!NOTE]
 >
->Nadat u de nieuwste versie van Windows Player (*.exe*) hebt gedownload, gaat u van [AEM pagina met 6.4 Player-downloads](https://download.macromedia.com/screens/) naar de speler en voert u de ad-hocinstallatie uit:
+>Nadat u de nieuwste Windows Player (*.exe*) hebt gedownload, voert u vanuit de pagina [AEM 6.4 Player Downloads](https://download.macromedia.com/screens/) de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
->1. Navigeer naar **Configuratie** van het linkeractiemenu en ga het plaatsadres van de AEM instantie in **Server** in en klik **sparen**.
->1. Klik op de koppeling **Registratie** in het actiemenu aan de linkerkant en de onderstaande stappen om het registratieproces van het apparaat te voltooien.
+>1. Navigeer naar **Configuration** vanuit het linkeractiemenu en voer het locatieadres van de AEM in **Server** in en klik **Save**.
+>1. Klik op de koppeling **Registratie** in het linkeractiemenu en de onderstaande stappen om het registratieproces van het apparaat te voltooien.
 
 >
 
@@ -52,7 +52,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    >[!NOTE]
    >
-   >Zie Schermproject [maken en beheren voor meer informatie over het maken van een nieuw project voor schermen in het AEM-dashboard](creating-a-screens-project.md).
+   >Zie [Project voor schermen maken en beheren ](creating-a-screens-project.md) voor meer informatie over het maken van een nieuw project voor schermen in het AEM dashboard.
 
 1. Tik/klik op de knop **Apparaatbeheer** op de actiebalk.
 
@@ -62,7 +62,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Selecteer het gewenste apparaat (zelfde als stap 1) en tik/klik **het Apparaat** van het Register.
+1. Selecteer het gewenste apparaat (zelfde als stap 1) en tik/klik **Apparaat registreren**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -70,54 +70,54 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. Controleer de **registratiecode** op uw apparaat.
+1. Controleer **Registratiecode** in uw apparaat.
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Als de **registratiecode** op beide computers hetzelfde is, tikt u op de knop **Valideren** of klikt u in AEM op de knop Valideren, zoals in stap 6 wordt getoond.
-1. Stel de gewenste naam voor het apparaat in en klik op **Registreren**.
+1. Als de **Registratiecode** op beide computers hetzelfde is, tikt u op **Valideren** in AEM, zoals in stap (6).
+1. Stel de gewenste naam voor het apparaat in en klik op **Register**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Tik/klik op **Voltooien** om het registratieproces te voltooien.
+1. Tik/klik **Voltooi** om het registratieproces te voltooien.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >Met **Register New** kunt u een nieuw apparaat registreren.
+   >Met **Nieuwe registratie** kunt u een nieuw apparaat registreren.
    >
-   >Met Weergave **** toewijzen kunt u het apparaat rechtstreeks aan een weergave toevoegen.
+   >Met **Weergave toewijzen** kunt u het apparaat rechtstreeks aan een weergave toevoegen.
 
-   Als u op **Voltooien** klikt, moet u het apparaat aan een weergave toewijzen.
+   Als u **Voltooien** klikt, zult u het apparaat aan een vertoning moeten toewijzen.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >Voor meer informatie over het creëren van en het beheren van een vertoning voor uw project van het Scherm, gelieve te verwijzen naar het [Creëren van en het Leiden Vertoningen](managing-displays.md).
+   >Voor meer informatie over het creëren van en het beheren van een vertoning voor uw project van het Scherm, gelieve te verwijzen naar [het Creëren van en het Leiden Vertoningen](managing-displays.md).
 
-### Apparaat toewijzen aan een weergave {#assigning-device-to-a-display}
+### Apparaat toewijzen aan een beeldscherm {#assigning-device-to-a-display}
 
 Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande stappen uit om uw apparaat aan een weergave in uw AEM Screens-project toe te wijzen:
 
-1. Selecteer het apparaat en klik op Apparaat **** toewijzen op de actiebalk.
+1. Selecteer het apparaat en klik **Apparaat toewijzen** in de actiebalk.
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Selecteer het pad van de weergave in **Configuratiepad** weergeven/apparaat.
+1. Selecteer het pad van de weergave in **Pad weergeven/apparaatconfiguratie**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Klik op **Toewijzen** wanneer u het pad selecteert.
+1. Klik **Wijs** toe wanneer u de weg selecteert.
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Klik op **Voltooien** als het apparaat is toegewezen, zoals in de onderstaande afbeelding wordt getoond.
+1. Klik **Voltooien** zodra het apparaat met succes is toegewezen, zoals getoond in de hieronder figuur.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Bovendien kunt u het weergavedashboard weergeven wanneer u op **Voltooien** klikt.
+   Daarnaast kunt u het weergavedashboard weergeven door te klikken op **Voltooien**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -125,7 +125,7 @@ Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande
 
 Beperkingen van wachtwoorden voor gebruikers in het hele systeem kunnen leiden tot een fout in de apparaatregistratie. De apparaatregistratie gebruikt een willekeurig gegenereerd wachtwoord om de apparaatgebruiker te maken.
 
-Als het wachtwoord door de configuratie *AuthorizableActionProvider* wordt beperkt, zou het creëren van de apparatengebruiker kunnen ontbreken.
+Als het wachtwoord wordt beperkt door de configuratie *AuthorizableActionProvider*, zou het creëren van de apparatengebruiker kunnen ontbreken.
 
 >[!NOTE]
 >
@@ -141,4 +141,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### Aanvullende bronnen {#additional-resources}
 
-Zie [AEM Screens Player](working-with-screens-player.md)voor meer informatie over AEM Screens Player.
+Zie [AEM Screens Player](working-with-screens-player.md) voor meer informatie over AEM Screens Player.
