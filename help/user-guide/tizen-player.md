@@ -10,9 +10,9 @@ ht-degree: 0%
 ---
 
 
-# Tizen Player implementeren {#tizen-player}
+# Tizen Player {#tizen-player} implementeren
 
-## Tizen Player installeren {#installing-tizen-player}
+## Tizen Player {#installing-tizen-player} installeren
 
 Voer de volgende stappen uit om Tizen Player voor AEM Screens te implementeren:
 
@@ -32,7 +32,7 @@ Voer de onderstaande stappen uit om de lokale server in te stellen en de geëxtr
 
 1. De Tizen-speler downloadt het installatieprogramma van de lokale server.
 
-1. Kopieer de twee geëxtraheerde bestanden, zoals `AEMScreensPlayer.wgt` en `sssp_config.xml` , naar de hoofdmap van uw lokale server.
+1. Kopieer de twee geëxtraheerde bestanden, zoals `AEMScreensPlayer.wgt` en `sssp_config.xml`, naar de hoofdmap van uw lokale server.
 
 ### Updates configureren op het Samsung-apparaat {#config-updates}
 
@@ -40,11 +40,11 @@ Volg de onderstaande stappen op het Samsung-apparaat om de installatie van de AE
 
 1. Ga naar uw Samsung-apparaat.
 
-1. Klik op de knop **Home** met de afstandsbediening van het apparaat en selecteer **URL Launcher Settings**.
+1. Klik op de knop **Home** met de afstandsbediening van het apparaat en selecteer **URL-startinstellingen**.
 
 1. Voer het IP-adres van uw localhost-server in.
 
-1. Selecteer **Extern** in de **ontwikkelaarsmodus**.
+1. Selecteer **Extern** in de **Modus Ontwikkelaar**.
 
 1. Klik op de knop **Home** op de afstandsbediening van het apparaat en selecteer **URL Launcher**.
 
