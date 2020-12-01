@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Een kaart van de Ervaring van de Gebruiker wordt ontworpen om zicht in te verstrekken hoe en waarom de gebruikers de digitale inhoud die door het netwerk wordt geleverd zullen ervaren.
 
-## De UX-reiskaart samenstellen {#building-map}
+## De UX-reiskaart opbouwen {#building-map}
 
 Een sterk inzicht in hoe de consumenten met een digitaal signaalnetwerk in een fysieke ruimte zullen communiceren is essentieel voor het succes en de waarde die door dat netwerk worden geleverd. Het helpt ook om te begrijpen hoe de digitale ervaringen binnen de context van alle andere kanalen zullen worden verbruikt een klant kan ontmoeten.
 
