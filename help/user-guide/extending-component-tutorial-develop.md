@@ -1,8 +1,8 @@
 ---
-title: Een AEM-rastercomponent uitbreiden
-seo-title: Een AEM-rastercomponent uitbreiden
-description: In de volgende zelfstudie worden de stappen en aanbevolen procedures doorlopen voor het uitbreiden uit de box AEM Screens-componenten. De component Image wordt uitgebreid om een aanwendbare tekstbedekking toe te voegen.
-seo-description: In de volgende zelfstudie worden de stappen en aanbevolen procedures doorlopen voor het uitbreiden uit de box AEM Screens-componenten. De component Image wordt uitgebreid om een aanwendbare tekstbedekking toe te voegen.
+title: AEM Screens-componenten uitbreiden
+seo-title: AEM Screens-componenten uitbreiden
+description: De volgende zelfstudie doorloopt de stappen en aanbevolen procedures voor het uitbreiden uit de doos AEM Screens-componenten. De component Image wordt uitgebreid om een aanwendbare tekstbedekking toe te voegen.
+seo-description: De volgende zelfstudie doorloopt de stappen en aanbevolen procedures voor het uitbreiden uit de doos AEM Screens-componenten. De component Image wordt uitgebreid om een aanwendbare tekstbedekking toe te voegen.
 uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -11,21 +11,24 @@ discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
 translation-type: tm+mt
 source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
+workflow-type: tm+mt
+source-wordcount: '1852'
+ht-degree: 0%
 
 ---
 
 
-# Een AEM-rastercomponent uitbreiden {#extending-an-aem-screens-component}
+# Een AEM Screens-component uitbreiden {#extending-an-aem-screens-component}
 
-In de volgende zelfstudie worden de stappen en aanbevolen procedures doorlopen voor het uitbreiden uit de box AEM Screens-componenten. De component Image wordt uitgebreid om een aanwendbare tekstbedekking toe te voegen.
+De volgende zelfstudie doorloopt de stappen en aanbevolen procedures voor het uitbreiden uit de doos AEM Screens-componenten. De component Image wordt uitgebreid om een aanwendbare tekstbedekking toe te voegen.
 
 ## Overzicht {#overview}
 
-Deze zelfstudie is bedoeld voor ontwikkelaars die geen ervaring hebben met AEM-schermen. In deze zelfstudie wordt de component Schermafbeelding uitgebreid om een postercomponent te maken. Boven op een afbeelding worden een titel, beschrijving en logo geplaatst om een aantrekkelijke ervaring te creëren in een sequentiekanaal.
+Deze zelfstudie is bedoeld voor nieuwe ontwikkelaars van AEM Screens. In deze zelfstudie wordt de component Schermafbeelding uitgebreid om een postercomponent te maken. Boven op een afbeelding worden een titel, beschrijving en logo geplaatst om een aantrekkelijke ervaring te creëren in een sequentiekanaal.
 
 >[!NOTE]
 >
->Voordat u met deze zelfstudie begint, wordt u aangeraden de zelfstudie te voltooien: Een aangepaste component [ontwikkelen voor AEM-schermen](developing-custom-component-tutorial-develop.md).
+>Voordat u met deze zelfstudie begint, wordt u aangeraden de zelfstudie te voltooien: [Een aangepaste component voor AEM Screens ontwikkelen](developing-custom-component-tutorial-develop.md).
 
 ![Aangepaste postercomponent](assets/2018-05-07_at_4_09pm.png)
 
@@ -35,22 +38,22 @@ De component van de Poster van de douane wordt gecreeerd door de component van h
 
 Voor het voltooien van deze zelfstudie is het volgende nodig:
 
-1. [AEM 6.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) of [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + Latest Screen Feature Pack
-1. [AEM-schermspeler](/help/user-guide/aem-screens-introduction.md)
+1. [AEM 6.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) of  [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + Functiepakket voor nieuwste schermen
+1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokale ontwikkelomgeving
 
-De lesstappen en schermafbeeldingen worden uitgevoerd met behulp van CRXDE-Lite. [Eclipse](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) of [IntelliJ](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Hier [vindt u meer informatie over het gebruik van een IDE voor](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide)ontwikkeling met AEM.
+De lesstappen en schermafbeeldingen worden uitgevoerd met behulp van CRXDE-Lite. [](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/aem-eclipse.html) Eclipseor  [](https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-intellij.html) IntelliJIDEs kan ook worden gebruikt om het leerprogramma te voltooien. Meer informatie over het gebruiken van winde aan [ontwikkelen met AEM kan hier worden gevonden](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#eclipse-ide).
 
 ## Projectinstelling {#project-setup}
 
-De broncode van een project van het Scherm wordt typisch geleid als multi-module Maven project. Om de zelfstudie te versnellen, werd een project pre-geproduceerd gebruikend het Archetype 13 van het Project van [AEM](https://github.com/adobe/aem-project-archetype). Meer informatie over het [maken van een project met Maven AEM Project Archetype vindt u hier](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule).
+De broncode van een project van het Scherm wordt typisch geleid als multi-module Maven project. Om de zelfstudie te versnellen, werd een project pre-geproduceerd gebruikend [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). Meer informatie over [het creëren van een project met Maven AEM Project Archetype kan hier worden gevonden](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/project-setup.html#maven-multimodule).
 
-1. De volgende pakketten downloaden en installeren met behulp van **CRX-pakketbeheer**`http://localhost:4502/crx/packmgr/index.jsp)r:`
+1. Download en installeer de volgende pakketten met behulp van **CRX package manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
    [Bestand ophalen](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Bestand ophalen](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
-   **Als u met Eclipse of een andere IDE werkt,** kunt u het onderstaande bronpakket downloaden. Implementeer het project in een lokale AEM-instantie met de opdracht Maven:
+   **Download optioneel** als u werkt met Eclipse of een andere IDE, het onderstaande bronpakket. Stel het project aan een lokale AEM instantie op door het Maven bevel te gebruiken:
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -58,21 +61,22 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
 
    [Bestand ophalen](assets/start-poster-screens-weretail-run.zip)
 
-1. In **CRX Package Manager** worden `http://localhost:4502/crx/packmgr/index.jsp` de volgende twee pakketten geïnstalleerd:
+1. In **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp` worden de volgende twee pakketten geïnstalleerd:
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
+
    ![Schermen die wij.Retail Run UI.Apps en Ui.Content pakketten installeren via CRX Package Manager](assets/crx-packages.png)
 
    Schermen die wij.Retail Run UI.Apps en Ui.Content pakketten installeren via CRX Package Manager
 
-## De postercomponent maken {#poster-cmp}
+## Postercomponent maken {#poster-cmp}
 
-De component Poster breidt de afbeelding uit van het vak met rasters. Een mechanisme van het Sling, `sling:resourceSuperType`, wordt gebruikt om de kernfunctionaliteit van de component van het Beeld te erven zonder het moeten kopiëren en kleven. Meer informatie over de basisbeginselen van de verwerking van [verkoopaanvragen vindt u hier.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing)
+De component Poster breidt de afbeelding uit van het vak met rasters. Een mechanisme van het Verdelen, `sling:resourceSuperType`, wordt gebruikt om de kernfunctionaliteit van de component van het Beeld te erven zonder het moeten kopiëren en kleven. Meer informatie over de grondbeginselen van [Verwerking van het Verschuivingsverzoek kunt u hier vinden.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/the-basics.html#SlingRequestProcessing)
 
 De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertoning/Productie. In de bewerkingsmodus is het belangrijk dat de component anders wordt gerenderd om het ontwerpen van het sequentiekanaal te vergemakkelijken.
 
-1. In **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (of winde van keus) onderaan om een nieuwe `/apps/weretail-run/components/content`genoemde `cq:Component` tot stand te brengen `poster`.
+1. In **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (of IDE van keus) onder aan `/apps/weretail-run/components/content`creeer een nieuwe `cq:Component` genoemd `poster`.
 
    Voeg de volgende eigenschappen toe aan de `poster` component:
 
@@ -89,11 +93,11 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
    Eigenschappen voor /apps/weretail-run/components/content/poster
 
-   Wanneer u de `sling:resourceSuperType`eigenschap gelijk aan `screens/core/components/content/image` de postercomponent instelt, wordt alle functionaliteit van de afbeeldingscomponent overgeërfd. Onder de `screens/core/components/content/image` component gevonden gelijkwaardige knooppunten en bestanden `poster` kunnen worden toegevoegd om de functionaliteit te overschrijven en uit te breiden.
+   Door de eigenschap `sling:resourceSuperType`gelijk aan `screens/core/components/content/image` in te stellen, overerft de postercomponent in feite alle functionaliteit van de afbeeldingscomponent. Equivalente knooppunten en bestanden onder `screens/core/components/content/image` kunnen onder de component `poster` worden toegevoegd om de functionaliteit te overschrijven en uit te breiden.
 
-1. Kopieer het `cq:editConfig` knooppunt onder `/libs/screens/core/components/content/image.`Plakken `cq:editConfig` onder de `/apps/weretail-run/components/content/poster` component.
+1. Kopieer de `cq:editConfig`-node onder `/libs/screens/core/components/content/image.`Plak de `cq:editConfig` onder de `/apps/weretail-run/components/content/poster`-component.
 
-   Op het `cq:editConfig/cq:dropTargets/image/parameters` knooppunt werkt u de `sling:resourceType` eigenschap op hetzelfde bij `weretail-run/components/content/poster`.
+   Werk op het `cq:editConfig/cq:dropTargets/image/parameters`-knooppunt de eigenschap `sling:resourceType` bij tot hetzelfde niveau `weretail-run/components/content/poster`.
 
    ![bewerken-config](assets/edit-config.png)
 
@@ -120,19 +124,20 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
    </jcr:root>
    ```
 
-1. Het `image` dialoogvenster WCM Foundation kopiëren dat voor de `poster` component moet worden gebruikt.
+1. Kopieer de WCM Stichting `image` dialoog die voor `poster` component moet worden gebruikt.
 
    Het is het gemakkelijkst om van een bestaande dialoog te beginnen en dan wijzigingen te maken.
 
    1. Het dialoogvenster kopiëren van: `/libs/wcm/foundation/components/image/cq:dialog`
-   1. Het dialoogvenster onder plakken `/apps/weretail-run/components/content/poster`
+   1. Het dialoogvenster onder `/apps/weretail-run/components/content/poster` plakken
+
    ![Gekopieerd dialoogvenster van /libs/wcm/foundation/components/image/cq:dialoogvenster naar /apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
 
    Gekopieerd dialoogvenster van /libs/wcm/foundation/components/image/cq:dialoogvenster naar /apps/weretail-run/components/content/poster
 
-   De `image` component van het Scherm wordt gesupertypeerd aan de `image` component van de Stichting WCM. Daarom erft de `poster` component functionaliteit van beide. De dialoog voor de postercomponent bestaat uit een combinatie van de dialoogvensters Schermen en Stichting. Functies van de **Sling Resource Merger** worden gebruikt om irrelevante dialoogvelden en tabbladen te verbergen die zijn overgeërfd van de componenten met supertype.
+   De component van de Schermen `image` wordt supertyped aan de `image` component van de Stichting WCM. Daarom erft de `poster` component functionaliteit van beide. De dialoog voor de postercomponent bestaat uit een combinatie van de dialoogvensters Schermen en Stichting. Kenmerken van **Sling Resource Merger** worden gebruikt om irrelevante dialooggebieden en lusjes te verbergen die van de supergetypte componenten worden geërft.
 
-1. Werk de cq:dialog hieronder bij `/apps/weretail-run/components/content/poster` met de volgende wijzigingen in XML:
+1. Werk cq:dialog bij onder `/apps/weretail-run/components/content/poster` met de volgende wijzigingen in XML:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -235,7 +240,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
    </jcr:root>
    ```
 
-   De eigenschap `sling:hideChildren`= `"[linkURL,size]`&quot; wordt gebruikt op het `items` knooppunt om ervoor te zorgen dat de velden **linkURL** en **size** worden verborgen in het dialoogvenster. Het is niet voldoende deze knooppunten uit het posterdialoogvenster te verwijderen. De eigenschap `sling:hideResource="{Boolean}true"` op het tabblad Toegankelijkheid wordt gebruikt om het hele tabblad te verbergen.
+   De eigenschap `sling:hideChildren`= `"[linkURL,size]` wordt gebruikt op het `items`-knooppunt om ervoor te zorgen dat de velden **linkURL** en **size** verborgen zijn in het dialoogvenster. Het is niet voldoende deze knooppunten uit het posterdialoogvenster te verwijderen. De eigenschap `sling:hideResource="{Boolean}true"` op het tabblad Toegankelijkheid wordt gebruikt om het gehele tabblad te verbergen.
 
    Er worden twee geselecteerde velden toegevoegd aan het dialoogvenster, zodat auteurs de tekstpositie en -kleur van de titel en beschrijving kunnen bepalen.
 
@@ -243,13 +248,13 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
    Poster - Definitieve dialoogstructuur
 
-   Op dit punt kan een geval van de `poster` component aan de **Onactieve pagina van het Kanaal** in het Web.Retail project van de Looppas worden toegevoegd: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
+   Op dit punt kan een geval van de `poster` component aan **Niet-actieve Kanaal** pagina in het Wij.Retail project van de Looppas worden toegevoegd: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
 
    ![Dialoogvensters Poster](assets/poster-dialog-full.png)
 
    Dialoogvensters Poster
 
-1. Een bestand maken onder de `/apps/weretail-run/components/content/poster` naam `production.html.`
+1. Een bestand maken onder `/apps/weretail-run/components/content/poster` met de naam `production.html.`
 
    Vul het bestand met het volgende:
 
@@ -273,17 +278,17 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
    </div>
    ```
 
-   Hierboven ziet u de productiemarkering voor de postercomponent. Het HTML-script overschrijft `screens/core/components/content/image/production.html`. Het `image.js` is een serverscript dat een POJO-achtig afbeeldingsobject maakt. Het voorwerp van het Beeld kan dan worden geroepen om het `src` als gealigneerde stijl achtergrond-beeld terug te geven.
+   Hierboven ziet u de productiemarkering voor de postercomponent. Het HTML-script overschrijft `screens/core/components/content/image/production.html`. Het `image.js` is een serverscript dat een POJO-achtig afbeeldingsobject maakt. Het voorwerp van het Beeld kan dan worden geroepen om `src` als gealigneerde stijl achtergrond-beeld terug te geven.
 
-   `The h1` en h2-tags worden toegevoegd, geven de titel en beschrijving weer op basis van de componenteigenschappen: `${properties.jcr:title}` en `${properties.jcr:description}`.
+   `The h1` en h2-tags worden toegevoegd, geven de titel en beschrijving weer op basis van de componenteigenschappen:  `${properties.jcr:title}` en  `${properties.jcr:description}`.
 
-   Omringend de `h1` en `h2` tags is een div-wrapper met drie CSS-klassen met variaties van &quot; `cmp-poster__text`&quot;. De waarde voor de eigenschappen `textPosition` en `textColor` worden gebruikt om de CSS-klasse te wijzigen die wordt gerenderd op basis van de dialoogselectie van de auteur. In de volgende sectie worden CSS uit clientbibliotheken geschreven om deze wijzigingen in de weergave in te schakelen.
+   Omringend de `h1` en `h2` markeringen is een div omslag met drie CSS klassen met variaties van &quot; `cmp-poster__text`&quot;. De waarde voor de eigenschappen `textPosition` en `textColor` worden gebruikt om de CSS-klasse te wijzigen die wordt gerenderd op basis van de dialoogselectie van de auteur. In de volgende sectie worden CSS uit clientbibliotheken geschreven om deze wijzigingen in de weergave in te schakelen.
 
-   Een logo wordt ook als een bedekking opgenomen in de component. In dit voorbeeld is het pad naar het logo We.Retail hard-coded in de DAM. Afhankelijk van het gebruiksgeval kan het meer zin hebben om een nieuw dialoogveld te maken om van het logopad een dynamisch gevulde waarde te maken.
+   Een logo wordt ook als een bedekking in de component opgenomen. In dit voorbeeld is het pad naar het logo We.Retail hard-coded in de DAM. Afhankelijk van het gebruiksgeval kan het meer zin hebben om een nieuw dialoogveld te maken om van het logopad een dynamisch gevulde waarde te maken.
 
-   Merk ook op dat BEM-notatie (Block Element Modifier) wordt gebruikt met de component. BEM is een CSS-coderingsconventie die het gemakkelijker maakt om herbruikbare componenten te maken. BEM is de notatie die wordt gebruikt door [AEM&#39;s Core Components](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). Meer informatie is te vinden op: [https://getbem.com/](https://getbem.com/)
+   Merk ook op dat BEM-notatie (Block Element Modifier) wordt gebruikt met de component. BEM is een CSS-coderingsconventie die het gemakkelijker maakt om herbruikbare componenten te maken. BEM is de notatie die wordt gebruikt door [AEM Core Components](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). Meer informatie is te vinden op: [https://getbem.com/](https://getbem.com/)
 
-1. Een bestand maken onder de `/apps/weretail-run/components/content/poster` naam `edit.html.`
+1. Een bestand maken onder `/apps/weretail-run/components/content/poster` met de naam `edit.html.`
 
    Vul het bestand met het volgende:
 
@@ -305,37 +310,38 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
    </div>
    ```
 
-   Hierboven ziet u de **bewerkingsmarkeringen** voor de Postercomponent. Het HTML-script overschrijft `/libs/screens/core/components/content/image/edit.html`. De markering is vergelijkbaar met de `production.html` markering en geeft de titel en beschrijving boven op de afbeelding weer.
+   Hierboven ziet u de **edit**-markering voor de postercomponent. Het HTML-script overschrijft `/libs/screens/core/components/content/image/edit.html`. De markering is vergelijkbaar met de markering `production.html` en geeft de titel en beschrijving boven op de afbeelding weer.
 
-   Het `aem-Screens-editWrapper`wordt toegevoegd zodat de component het volledige scherm in de redacteur niet zal teruggeven. Het `data-emptytext` kenmerk zorgt ervoor dat de plaatsaanduiding wordt weergegeven wanneer er geen afbeelding of inhoud is ingevuld.
+   De `aem-Screens-editWrapper`wordt toegevoegd zodat de component geen volledig scherm in de redacteur zal teruggeven. Het `data-emptytext` attribuut zorgt ervoor dat placeholder wordt getoond wanneer geen beeld of inhoud is bevolkt.
 
 ## Client-Side bibliotheken maken {#clientlibs}
 
-Client-Side Libraries bieden een mechanisme voor het organiseren en beheren van CSS- en JavaScript-bestanden die nodig zijn voor een AEM-implementatie. Hier vindt u meer informatie over het gebruik van bibliotheken aan de [clientzijde.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
+Client-Side Libraries bieden een mechanisme voor het organiseren en beheren van CSS- en JavaScript-bestanden die nodig zijn voor een AEM-implementatie. Meer informatie over het gebruik van [Client-Side Libraries vindt u hier.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
-AEM-rastercomponenten worden anders weergegeven in de bewerkingsmodus dan in de modus Voorbeeld/productie. Er worden twee sets met clientbibliotheken gemaakt: een voor de bewerkingsmodus en een tweede voor Voorvertoning/Productie.
+AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in de modus Voorbeeld/productie. Er worden twee sets met clientbibliotheken gemaakt: een voor de bewerkingsmodus en een tweede voor Voorvertoning/Productie.
 
 1. Maak een map voor client-side bibliotheken voor de postercomponent.
 
-   Hieronder `/apps/weretail-run/components/content/poster,`maakt u een nieuwe map met de naam `clientlibs`.
+   Onder `/apps/weretail-run/components/content/poster,`maak een nieuwe map met de naam `clientlibs`.
 
    ![2018-05-03_1008pm](assets/2018-05-03_at_1008pm.png)
 
-1. Onder de `clientlibs` map maakt u een nieuw knooppunt met de naam `shared` van het type `cq:ClientLibraryFolder.`
+1. Onder de map `clientlibs` maakt u een nieuw knooppunt met de naam `shared` van het type `cq:ClientLibraryFolder.`
 
    ![2018-05-03_10:00](assets/2018-05-03_at_1011pm.png)
 
 1. Voeg de volgende eigenschappen toe aan de gedeelde clientbibliotheek:
 
    * `allowProxy` | Boolean | `true`
-   * `categories` | String[] | `cq.screens.components`
+   * `categories` | String[] |  `cq.screens.components`
+
    ![Eigenschappen voor /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)
 
    Eigenschappen voor /apps/weretail-run/components/content/poster/clientlibs/shared
 
-   De `categories` eigenschap is een tekenreeks die de clientbibliotheek identificeert. De `cq.screens.components` categorie wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom wordt elke CSS/JS die in de `shared` clientlib is gedefinieerd, in alle modi geladen.
+   De eigenschap `categories` is een tekenreeks die de clientbibliotheek identificeert. De categorie `cq.screens.components` wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom wordt elke CSS/JS die in de `shared` clientlib wordt gedefinieerd, in alle modi geladen.
 
-   Het is aan te raden geen paden in een productieomgeving rechtstreeks toegankelijk te maken voor /apps. De `allowProxy` eigenschap zorgt ervoor dat naar de CSS- en JS-clientbibliotheek wordt verwezen via een voorvoegsel van `/etc.clientlibs`. Meer informatie over de eigenschap [allowProxy vindt u hier.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced)
+   Het is aan te raden geen paden in een productieomgeving rechtstreeks toegankelijk te maken voor /apps. De eigenschap `allowProxy` zorgt ervoor dat naar de CSS- en JS-clientbibliotheek wordt verwezen via een voorvoegsel van `/etc.clientlibs`. Hier vindt u meer informatie over de eigenschap [allowProxy.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html#main-pars_title_8ced)
 
 1. Maak een bestand met de naam `css.txt` onder de gedeelde map.
 
@@ -347,11 +353,11 @@ AEM-rastercomponenten worden anders weergegeven in de bewerkingsmodus dan in de 
    styles.less
    ```
 
-1. Maak een map met de naam `css` onder de `shared` map. Voeg een bestand toe met de naam `style.less` onder de `css` map. De structuur van de clientbibliotheken moet er nu als volgt uitzien:
+1. Maak een map met de naam `css` onder de map `shared`. Voeg een bestand met de naam `style.less` toe onder de map `css`. De structuur van de clientbibliotheken moet er nu als volgt uitzien:
 
    ![2018-05-03_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   In plaats van CSS rechtstreeks te schrijven, gebruikt deze zelfstudie LESS. [LESS](https://lesscss.org/) is een populaire voorcompiler van CSS die CSS variabelen, mixins, en functies steunt. AEM-clientbibliotheken bieden native ondersteuning voor LESS-compilatie. De klasse of andere pre-compilers kunnen worden gebruikt maar moeten buiten AEM worden samengesteld.
+   In plaats van CSS rechtstreeks te schrijven, gebruikt deze zelfstudie LESS. [](https://lesscss.org/) LESS is een populaire CSS-voorcompiler die CSS-variabelen, -mixins en -functies ondersteunt. AEM clientbibliotheken ondersteunen native LESS-compilatie. De klasse of andere pre-compilers kunnen worden gebruikt maar moeten buiten AEM worden gecompileerd.
 
 1. Vul `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` met het volgende:
 
@@ -410,13 +416,13 @@ AEM-rastercomponenten worden anders weergegeven in de bewerkingsmodus dan in de 
    >
    >Google-weblettertypen worden gebruikt voor de lettertypefamilies. Weblettertypen vereisen internetverbinding en niet alle schermimplementaties bieden een betrouwbare verbinding. Planning voor off-line wijze is een belangrijke overweging voor de plaatsingen van het Scherm.
 
-1. Kopieer de `shared` clientbibliotheekmap. Plak de naam op hetzelfde niveau en wijzig de naam in `production`.
+1. Kopieer de clientbibliotheekmap `shared`. Plak het als een sibling en wijzig de naam in `production`.
 
    ![2018-05-03_114pm](assets/2018-05-03_at_1114pm.png)
 
-1. Werk het `categories` bezit van de productieklantenbibliotheek bij die moet worden `cq.screens.components.production.`
+1. De `categories`-eigenschap van de productieklantenbibliotheek bijwerken naar `cq.screens.components.production.`
 
-   De `cq.screens.components.production` categorie zorgt ervoor dat de stijlen alleen worden geladen in de modus Voorbeeld/productie.
+   De categorie `cq.screens.components.production` zorgt ervoor dat de stijlen alleen worden geladen in de modus Voorbeeld/productie.
 
    ![Eigenschappen voor /apps/weretail-run/components/content/poster/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
 
@@ -477,7 +483,7 @@ AEM-rastercomponenten worden anders weergegeven in de bewerkingsmodus dan in de 
 
    De bovenstaande stijlen geven de titel en beschrijving weer op een absolute positie op het scherm. De titel wordt aanzienlijk groter weergegeven dan de beschrijving. Met de BEM-notatie van de component kunt u de stijlen in de klasse cmp-poster heel eenvoudig nauwkeurig indelen.
 
-Een derde categorie clientbibliotheek: U `cq.screens.components.edit` kunt bijvoorbeeld alleen specifieke stijlen voor Bewerken aan de component toevoegen.
+Een derde categorie clientbibliotheek: `cq.screens.components.edit` kan worden gebruikt om alleen specifieke stijlen aan de component toe te voegen.
 
 | Clientlib-categorie | Gebruik |
 |---|---|
@@ -490,13 +496,13 @@ Een derde categorie clientbibliotheek: U `cq.screens.components.edit` kunt bijvo
 De postercomponent is bedoeld voor gebruik op een Kanaal van de Opeenvolging. Het startpakket voor deze zelfstudie bevat een inactief kanaal. Het onactieve kanaal is vooraf geconfigureerd om componenten van de groep **We.Retail Run - Content** toe te staan. De groep van de component Poster wordt ingesteld op `We.Retail Run - Content` en is beschikbaar om aan het kanaal te worden toegevoegd.
 
 1. Open het Onactieve Kanaal van het Web.Retail project van de Looppas: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
-1. Sleep en zet een nieuwe instantie van de component **Poster** neer van de zijbalk op de pagina.
+1. Sleep en zet een nieuwe instantie van de component **Poster** van de zijbalk op de pagina neer.
 
    ![2018-05-07_23:00](assets/2018-05-07_at_3_23pm.png)
 
 1. Bewerk het dialoogvenster van de postercomponent om een afbeelding, titel en beschrijving toe te voegen. Gebruik de opties Tekstpositie en Tekstkleur om ervoor te zorgen dat de titel/beschrijving op de afbeelding kan worden gelezen.
 
-   ![2018-05-07_11_25](assets/2018-05-07_at_3_25pm.png)
+   ![2018-05-07_25:00](assets/2018-05-07_at_3_25pm.png)
 
 1. Herhaal bovenstaande stappen om enkele postercomponenten toe te voegen. Voeg overgangen toe tussen de componenten.
 
@@ -510,7 +516,7 @@ In de onderstaande video ziet u de voltooide component en de manier waarop deze 
 
 ## Voltooide code {#finished-code}
 
-Hieronder ziet u de voltooide code uit de zelfstudie. De gecompileerde AEM-pakketten zijn **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** en **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** . **SRC-screens-weretail-looppas-0.0.1.zip **is de uncompiled broncode die kan worden opgesteld gebruikend Maven.
+Hieronder ziet u de voltooide code uit de zelfstudie. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** en **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** zijn de gecompileerde AEM pakketten. **SRC-screens-weretail-looppas-0.0.1.zip **is de uncompiled broncode die kan worden opgesteld gebruikend Maven.
 
 [Bestand ophalen](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
