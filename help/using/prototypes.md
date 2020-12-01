@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Prototypen van gebruikerservaring {#prototypes}
+# Prototype van gebruikerservaring {#prototypes}
 
 >[!NOTE]
 >
