@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202011
 description: De pagina beschrijft de Nota's van de Versie voor de Pak 202011 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
+source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 1%
 
 ---
@@ -30,13 +30,13 @@ De Releasedatum voor AEM Screens Feature Pack 202011 is 30 november 2020.
 * **Rapport Inhoudstoewijzing**
 
    Met de functie Rapport voor inhoudstoewijzing kan een AEM Screens-beheerder of auteur een *Rapport voor inhoudstoewijzing* exporteren die in spreadsheetindeling kan worden gebruikt.
-Raadpleeg **Rapport Inhoudstoewijzing** voor meer informatie.
+Raadpleeg [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie.
 
 
 * **Tizen Player**
 
    Er is een nieuwe speler met de naam Tizen-speler geïntroduceerd met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
-Raadpleeg **Tizen Player implementeren** voor meer informatie.
+Raadpleeg [Tizen Player implementeren](/help/user-guide/tizen-player.md) voor meer informatie.
 
 * **Functies zoeken vanuit Apparaatbeheer**
 
@@ -46,17 +46,15 @@ Raadpleeg **Tizen Player implementeren** voor meer informatie.
 
    Het gebrek pingelt interval is nu geplaatst aan 30 seconden voor deze versie.
 
-### Bekende problemen en correcties {#known-issues}
-
-
-
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
-De volgende AEM Screens-spelers worden vrijgegeven voor AEM Screens
+De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigenschap 6:
 
 * Chrome-besturingssysteem
 * Windows
 * Android
+* Tizen
+* Linux
 
 #### AEM Screens Player-downloads {#aem-screens-player-downloads}
 
