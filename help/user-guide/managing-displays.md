@@ -33,23 +33,23 @@ Op deze pagina ziet u hoe u beeldschermen maakt en beheert.
 * [Kanalen maken en beheren](managing-channels.md)
 * [Locaties maken en beheren](managing-locations.md)
 
-## Een nieuwe weergave maken {#creating-a-new-display}
+## Nieuwe weergave maken {#creating-a-new-display}
 
 >[!NOTE]
 >
->U moet een locatie maken voordat u een weergave maakt. Zie Locaties [maken en beheren voor meer informatie. Zie Locaties](managing-locations.md) maken en beheren.
+>U moet een locatie maken voordat u een weergave maakt. Zie [Locaties maken en beheren](managing-locations.md) voor meer informatie.
 
 Voer de onderstaande stappen uit om een nieuwe weergave op uw locatie te maken:
 
-1. Navigeer bijvoorbeeld naar de juiste locatie `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Selecteer de locatiemap en tik op **Maken** /klik op het plusteken op de actiebalk. Er wordt een wizard geopend.
-1. Selecteer **Weergave** in de wizard **Maken** en klik op **Volgende**.
+1. Navigeer naar de juiste locatie, bijvoorbeeld `http://localhost:4502/screens.html/content/screens/TestProject`.
+1. Selecteer de locatiemap en tik op **Maken** naast het plusteken op de actiebalk. Er wordt een wizard geopend.
+1. Selecteer **Display** in de wizard **Maken** en klik op **Volgende**.
 
-1. Voer **Naam** en **Titel** in voor de weergavelocatie.
+1. Voer **Naam** en **Titel** in voor uw weergavelocatie.
 
-1. Kies onder het tabblad **Weergave** de details van de layout. Kies de gewenste **resolutie** (bijvoorbeeld als **Full HD**). Bovendien kunt u het aantal apparaten horizontaal en verticaal kiezen.
+1. Kies onder het tabblad **Weergave** de details van de layout. Kies de gewenste **Resolutie** (bijvoorbeeld als **Full HD**). Bovendien kunt u het aantal apparaten horizontaal en verticaal kiezen.
 
-1. Klik op **Maken**.
+1. Klik **Maken**.
 
 De weergave (*StoreDisplay*) wordt gemaakt en toegevoegd aan de locatie (*SanJose*).
 
@@ -63,7 +63,7 @@ Zodra u in positie hebt tonen, zal de volgende stap een apparaat config voor die
 >
 >Wanneer u een weergave voor uw locatie hebt gemaakt, moet u een kanaal aan uw scherm toewijzen om de inhoud te benutten.
 >
->Zie De sectie Kanalen [](channel-assignment.md) toewijzen voor meer informatie over het toewijzen van een kanaal aan de weergave.
+>Zie [Kanalen toewijzen](channel-assignment.md) sectie om te leren hoe te om een kanaal aan de vertoning toe te wijzen.
 
 ## Een nieuwe apparaatconfiguratie maken {#creating-a-new-device-config}
 
@@ -71,13 +71,13 @@ Een apparaat config dienst als placeholder voor een werkelijk digitaal signaalap
 
 Voer de onderstaande stappen uit om een nieuwe apparaatconfiguratie te maken:
 
-1. Navigeer bijvoorbeeld naar de juiste weergave `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Selecteer de weergavemap en tik op het dashboard **** weergeven of klik op de actiebalk.
-1. Tik/klik op **+ Apparaatconfiguratie** toevoegen rechtsboven in het deelvenster **Apparaten** .
+1. Navigeer naar de juiste weergave, bijvoorbeeld `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
+1. Selecteer de weergavemap en tik op **Dashboard weergeven** in de actiebalk.
+1. Tik/klik op **+ Apparaatconfiguratie toevoegen** rechtsboven in het deelvenster **Apparaten**.
 
-1. Selecteer **Apparaatconfiguratie** als de vereiste sjabloon en tik op **Volgende**.
+1. Selecteer **Device Config** als de vereiste sjabloon en tik/klik **Next**.
 
-1. Voer de gewenste eigenschappen in en tik op **Maken**/klik op Maken.
+1. Voer de vereiste eigenschappen in en tik/klik op **Maken**.
 
 Het apparaat config wordt gecreeerd en aan de huidige vertoning toegevoegd (in de volgende demonstratie, is het nieuwe apparaat config *DeviceConfig*).
 
@@ -89,13 +89,13 @@ Zodra een apparaat config aan uw vertoning in de plaats wordt geplaatst, zal de 
 >
 >Zodra een apparaat config aan uw vertoning in de plaats wordt geplaatst, zal de volgende stap een kanaal aan uw vertoning moeten toewijzen.
 >
->Zoals aangetoond in het hieronder cijfer, als apparaat config als niet toegewezen in het paneel van **APPARATEN** wordt getoond, als geen kanaal aan dat bepaalde apparaat config wordt toegewezen.
+>Zoals aangetoond in het hieronder cijfer, als het apparaat config als niet toegewezen in **DEVICES** paneel wordt getoond, als geen kanaal aan dat bepaalde apparaat config wordt toegewezen.
 >
->U zou voorafgaand inzicht in het creëren en het beheren van kanalen moeten hebben. Zie Kanalen [maken en beheren](managing-channels.md) voor meer informatie.
+>U zou voorafgaand inzicht in het creëren en het beheren van kanalen moeten hebben. Zie [Kanalen maken en beheren](managing-channels.md) voor meer informatie.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
-## Het dashboard weergeven {#display-dashboard}
+## Het dashboard {#display-dashboard} weergeven
 
 Het weergavedashboard biedt u verschillende deelvensters voor het beheer van weergaveapparaten en apparaatconfiguraties voor uw apparaat.
 
@@ -111,30 +111,30 @@ Het weergavedashboard biedt u verschillende deelvensters voor het beheer van wee
 
 ### Deelvenster Informatie weergeven {#display-information-panel}
 
-Het deelvenster **WEERGAVEINFORMATIE** bevat de weergave-eigenschappen.
+Het **DISPLAY INFORMATIE** paneel verstrekt de vertoningseigenschappen.
 
-Klik op de (**...**) in de rechterbovenhoek in het deelvenster **WEERGAVEINFORMATIE** om de eigenschappen weer te geven en een voorvertoning van de weergave te bekijken.
+Klik op (**..**) in de rechterbovenhoek in het deelvenster **INFORMATIE WEERGEVEN** om de eigenschappen weer te geven en een voorvertoning van de weergave te bekijken.
 
 
-#### Eigenschappen weergeven {#viewing-properties}
+#### Weergaveeigenschappen {#viewing-properties}
 
-Klik op **Eigenschappen** om de eigenschappen van de weergave weer te geven of te wijzigen.
+Klik **Eigenschappen** om de eigenschappen van uw vertoning te bekijken of te veranderen.
 
-Daarnaast kunt u de waarde van de gebeurtenistimer voor uw interactief kanaal aanpassen in de **eigenschap Niet-actieve time-out** onder het tabblad **Weergave** . De standaardwaarde wordt ingesteld op *300 seconden*.
+Bovendien kunt u de waarde van de gebeurtenistijdopnemer voor uw interactief kanaal in **Nutteloze onderbreking** bezit onder **Vertoning** tabel aanpassen. De standaardwaarde wordt geplaatst aan *300 seconden*.
 
-Gebruik **CRXDE Lite** om toegang te krijgen tot de eigenschap **idleTimeout** , dat wil zeggen, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Gebruik **CRXDE Lite** om toegang te krijgen tot de eigenschap **idleTimeout**, dat wil zeggen `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Deelvenster Toegewezen kanalen {#assigned-channels-panel}
 
-In het deelvenster **TOEGEWEZEN KANALEN** worden de aan dit apparaat toegewezen kanalen weergegeven.
+Het **TOEGEWEZEN deelvenster KANALEN** toont de toegewezen kanalen aan dit apparaat.
 
 
 ### Deelvenster Apparaten {#devices-panel}
 
-Het deelvenster **APPARATEN** biedt informatie over de apparaatconfiguraties.
+Het **deelvenster DEVICES** biedt informatie over de apparaatconfiguraties.
 
-Klik op de (**...**) in de rechterbovenhoek in het deelvenster **APPARATEN** om apparaatconfiguraties toe te voegen en apparaten bij te werken.
+Klik op (**..**) in de rechterbovenhoek in het **deelvenster DEVICES** om apparaatconfiguraties toe te voegen en apparaten bij te werken.
 
 Bovendien, klik op het apparaat config om eigenschappen te bekijken, een apparaat toe te wijzen, of het volledig te schrappen.
 
@@ -144,4 +144,4 @@ Bovendien, klik op het apparaat config om eigenschappen te bekijken, een apparaa
 
 Wanneer u klaar bent met het maken van een weergave voor uw locatie, moet u een kanaal toewijzen voor uw weergave.
 
-Zie Kanalen [](channel-assignment.md) toewijzen voor meer informatie.
+Zie [Kanalen toewijzen](channel-assignment.md) voor meer informatie.
