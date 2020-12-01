@@ -20,13 +20,13 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 5 uitgebracht.
 
-U kunt het nieuwste functiepakket voor AEM Screens 6.5.5 Release downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeer naar het tabblad **Adobe Experience Manager** en zoek naar **rasters** om het nieuwste functiepakket te krijgen.
+U kunt het recentste eigenschappak voor AEM Screens 6.5.5 Versie van [het Portaal van de Distributie van de Software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer naar **Adobe Experience Manager** tab en zoek **Screens** om het nieuwste functiepakket te krijgen.
 
 ## Releasedatum {#release-date}
 
 De releasedatum voor AEM Screens Feature Pack 202008 is 3 september 2020.
 
-### What&#39;s New {#what-is-new}
+### Wat is er nieuw?{#what-is-new}
 
 * **Tijdlijnweergave op planningdashboard**
 
@@ -48,15 +48,16 @@ De releasedatum voor AEM Screens Feature Pack 202008 is 3 september 2020.
 
    Zie [Spraakherkenning](voice-recognition.md) voor meer informatie.
 
-### Bekende problemen en oplossingen {#known-issues}
+### Bekende problemen en correcties {#known-issues}
 
 Als u AEM Screens 6.5.5 Service Pack gebruikt, moet u een omgeving instellen voor Windows of Android Player.
 
-Stel het kenmerk **SameSite voor de cookies** met aanmelding van **Lax** in op **Geen** van **Adobe Experience Manager Web ConsoleConfiguration** op alle AEM auteur- en publicatieinstanties.
+Stel het **SameSite-kenmerk voor de aanmeld-token cookies** in van **Lax** naar **None** van **Adobe Experience Manager-webconsole
+Configuratie** op alle AEM auteur en publicatieinstanties.
 
-* Zie [Windows 10 Player](implementing-windows-player.md#fp-environment-setup) implementeren voor meer informatie.
+* Zie [Windows 10 Player implementeren](implementing-windows-player.md#fp-environment-setup) voor meer informatie.
 
-* Zie [Android Player](implementing-android-player.md#fp-environment-setup) implementeren voor meer informatie.
+* Zie [Android Player implementeren](implementing-android-player.md#fp-environment-setup) voor meer informatie.
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
@@ -66,6 +67,6 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM Screens AEM 6.5 Pak 
 * Windows
 * Android
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### AEM Screens Player-downloads {#aem-screens-player-downloads}
 
-Raadpleeg **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)** voor meer informatie over het downloaden van de nieuwste AEM Screens-speler en het oplossen van problemen.
+Raadpleeg **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)** voor meer informatie over de opgeloste problemen.
