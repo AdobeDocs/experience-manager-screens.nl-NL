@@ -12,7 +12,7 @@ ht-degree: 4%
 ---
 
 
-# Dispatcher Configurations voor AEM Screens{#dispatcher-configurations-for-aem-screens}
+# Dispatcher Configurations for AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen.
 
@@ -28,15 +28,15 @@ De volgende pagina verstrekt de richtlijnen voor het vormen verzender voor een p
 
 Voordat u een dispatcher configureert voor een AEM Screens-project, moet u vooraf op de hoogte zijn van Dispatcher.
 
-Raadpleeg [Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) configureren voor meer informatie.
+Raadpleeg [Dispatcher configureren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) voor meer informatie.
 
-## Dispatcher configureren {#configuring-dispatcher}
+## Dispatcher {#configuring-dispatcher} configureren
 
 Voer de onderstaande stappen uit om de dispatcher voor een AEM Screens-project te configureren.
 
-### Vaste sessies inschakelen {#enable-sticky-session}
+### Vaste sessies {#enable-sticky-session} inschakelen
 
-Als u meer dan één publicatieexemplaar met dispatcher wilt gebruiken, moet u het `dispatcher.any` dossier bijwerken.
+Als u meer dan één publicatie-instantie met dispatcher wilt gebruiken, moet u het `dispatcher.any`-bestand bijwerken.
 
 ```xml
 /stickyConnections {
@@ -49,7 +49,7 @@ Als u meer dan één publicatieexemplaar met dispatcher wilt gebruiken, moet u h
 }
 ```
 
-### Stap 1: Clientkoppen configureren {#step-configuring-client-headers}
+### Stap 1: Klantkoppen {#step-configuring-client-headers} configureren
 
 Voeg het volgende toe aan `/clientheaders`sectie:
 
@@ -59,9 +59,9 @@ Voeg het volgende toe aan `/clientheaders`sectie:
 
 **X-REQUEST-COMMAND**
 
-### Stap 2: Schermfilters configureren {#step-configuring-screens-filters}
+### Stap 2: Schermfilters {#step-configuring-screens-filters} configureren
 
-Voeg het volgende toe aan ***/filter*** om schermfilters te configureren.
+Als u schermfilters wilt configureren, voegt u het volgende toe aan ***/filter***.
 
 ```
 ## AEM Screens Filters
@@ -82,16 +82,16 @@ Voeg het volgende toe aan ***/filter*** om schermfilters te configureren.
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Stap 3: Dispatcher Cache uitschakelen {#step-disabling-dispatcher-cache}
+### Stap 3: Dispatcher Cache {#step-disabling-dispatcher-cache} uitschakelen
 
-Schakel caching van dispatcher voor ***/content/screens pad*** uit.
+Schakel caching van dispatcher uit voor ***/content/screens path***.
 
-Schermspelers gebruiken geverifieerde sessies, zodat de verzender geen van de schermspelers-aanvragen `channels/assets`in de cache plaatst.
+Schermspelers gebruiken geverifieerde sessie, zodat de verzender geen van de schermspelers-aanvragen voor `channels/assets` in de cache plaatst.
 
 Als u de cache voor de elementen wilt inschakelen zodat de elementen worden verzonden in de cache van de verzender, moet u:
 
-* Toevoegen `/allowAuthorization 1` in `/cache` sectie
-* Voeg de onderstaande regels toe aan de `/rules` sectie van `/cache`
+* `/allowAuthorization 1` toevoegen in `/cache`-sectie
+* Voeg de onderstaande regels toe aan `/rules`-sectie van `/cache`
 
 ```xml
 /0000
