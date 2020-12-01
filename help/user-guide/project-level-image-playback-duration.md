@@ -25,17 +25,17 @@ Voordat u deze functie gebruikt, moet u eerst een project instellen als voorwaar
 
 1. Een AEM Screens-project maken (in dit voorbeeld **ProjectLevelPlayback**)
 
-1. Een volgnummer maken als **PlayBackChannel** onder de map **Kanalen**
+1. Creeer een opeenvolgingskanaal als **PlayBackChannel** onder **Kanalen** omslag
 
 1. Inhoud toevoegen aan **PlayBackChannel**
 
    ![elementen](assets/image_playback1.png)
 
-   In de volgende afbeelding ziet u bijvoorbeeld de afbeeldingen die zijn toegevoegd aan de **PlayBackChannel** -editor:
+   In de volgende afbeelding ziet u bijvoorbeeld de afbeeldingen die zijn toegevoegd aan de **PlayBackChannel**-editor:
 
    ![elementen](assets/image_playback2.png)
 
-## Tijdsduur afbeelding afspelen op projectniveau bewerken {#editing-project-level-image-playback-duration-assignment}
+## Tijdsduur afbeelding op projectniveau bewerken {#editing-project-level-image-playback-duration-assignment}
 
 In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een AEM Screens-project kunt bewerken.
 
@@ -44,7 +44,7 @@ In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een
 
 >[!NOTE]
 >
->Als u de afspeelduur op afbeeldings- of kanaalniveau wilt bijwerken, raadpleegt u de afspeelduur [op](channel-level-image-playback.md)kanaalniveau.
+>Als u de afspeelduur op afbeeldings- of kanaalniveau wilt bijwerken, raadpleegt u [Duur afspeelniveau kanaalniveau](channel-level-image-playback.md).
 
 Volg de onderstaande stappen om te leren hoe u de duur van het afspelen van afbeeldingen op projectniveau kunt bijwerken:
 
@@ -55,7 +55,7 @@ Volg de onderstaande stappen om te leren hoe u de duur van het afspelen van afbe
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Het dialoogvenster Pagina** wordt geopend.
+1. **Het** dialoogvenster Pagina wordt geopend.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Volg de onderstaande stappen om te leren hoe u de duur van het afspelen van afbe
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### Het resultaat weergeven {#viewing-the-result}
+### Resultaat {#viewing-the-result} weergeven
 
 Nadat u de afspeelduur van het kanaal hebt bijgewerkt (in dit voorbeeld worden alle drie de afbeeldingen weergegeven), worden de afbeeldingen nu 3 seconden afgespeeld in plaats van 8 seconden (standaardwaarde).
 
