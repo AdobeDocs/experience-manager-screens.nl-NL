@@ -18,9 +18,9 @@ Voordat u naar de best practices voor AEM Screens-implementatie gaat, is het bel
 
 Deze sectie bevat aanbevelingen voor belangrijke sleutelelementen die essentieel zijn voor een AEM Screens-projectimplementatie.
 
-## Belangrijkste elementen in digitale signalen {#key-elements}
+## Belangrijke elementen in digitale handtekening {#key-elements}
 
-De *belangrijkste elementen* in een digitaal ondertekeningsproject zijn:
+De *Belangrijke elementen* in een digitaal ondertekeningsproject zijn:
 
 ![](/help/assets/Elements-Revised.png)
 
