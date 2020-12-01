@@ -1,21 +1,24 @@
 ---
-title: Business Content Strategy voor [!UICONTROL AEM-schermen]
-seo-title: Business Content Strategy voor [!UICONTROL AEM-schermen]
+title: Business Content Strategy voor [!UICONTROL AEM Screens]
+seo-title: Business Content Strategy voor [!UICONTROL AEM Screens]
 description: In de handleiding wordt de strategie voor zakelijke content beschreven
 seo-description: In deze handleiding wordt de strategie voor zakelijke content beschreven
 translation-type: tm+mt
 source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 0%
 
 ---
 
 
-# Zakelijke inhoudsstrategie {#business-content}
+# Business Content Strategy {#business-content}
 
 >[!NOTE]
 >
 >De typische belanghebbende voor deze activiteit is een Marketing/Bedrijfs Strategist.
 
-Inhoud is een belangrijke factor in het stimuleren van betrokkenheid, en in de pre-verkoopfase is het belangrijk om een strategie voor zakelijke inhoud te bepalen die in overweging neemt hoe de toepassing hardware, software en connectiviteitsbronnen zal gebruiken om de beoogde waarde met succes aan de klanten van uw klant te leveren.
+Inhoud is een belangrijke factor in het stimuleren van betrokkenheid, en in de pre-verkoopfase is het belangrijk om een bedrijfsinhoudstrategie te bepalen die in overweging neemt hoe de toepassing hardware, software, en connectiviteitsmiddelen zal gebruiken om de voorgenomen waarde aan de klanten van uw cliënt met succes te leveren.
 
 Een goed gedefinieerde strategie voor zakelijke inhoud stelt een pad in voor het maken, distribueren en volgen van het gebruik van inhoud in verhouding tot de reis van de koper en de marketingaanraakpunten in de verkooptrechter. Het is van cruciaal belang dat de juiste boodschap op het juiste moment naar de juiste klant wordt gestuurd.
 
@@ -25,7 +28,7 @@ Overweeg hoe de toepassing Schermen kan helpen om dit te bereiken en KPIs te bep
 >
 >U moet bedenken dat de ervaring offline met beperkte bandbreedte moet werken.
 
-U moet naar deze paar vragen verwijzen die zouden moeten worden beantwoord wanneer het bouwen van een inhoudsstrategie voor uw project van de Schermen AEM:
+U moet naar deze paar vragen verwijzen die zouden moeten worden beantwoord wanneer het bouwen van een inhoudsstrategie voor uw project van AEM Screens:
 
 * Wie is het doelpubliek en wat is de verwachte vakantie?
 * Welke inhoud moet aan hen worden getoond?
