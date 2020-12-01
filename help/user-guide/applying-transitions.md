@@ -14,14 +14,14 @@ ht-degree: 1%
 ---
 
 
-# Overgangen toepassen {#applying-transitions}
+# Overgangen {#applying-transitions} toepassen
 
 In deze sectie wordt beschreven hoe u de component **Overgang** kunt toepassen tussen verschillende elementen (afbeeldingen en video&#39;s) en ingesloten reeksen in een kanaal.
 
 
 >[!CAUTION]
 >
->Raadpleeg **Overgangen** voor meer informatie over de eigenschappen van de component [Overgang](adding-components-to-a-channel.md#transition).
+>Raadpleeg [Overgangen](adding-components-to-a-channel.md#transition) voor meer informatie over de eigenschappen van de component **Overgang**.
 
 ## Overgangscomponent toevoegen aan elementen in een kanaal {#adding-transition}
 
@@ -31,9 +31,9 @@ Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw 
 >
 >**Vereisten**
 >
->Creeer een AEM Screens project **TestProject** met een kanaal **TestTransition**. Stel bovendien een locatie en een weergave in om de uitvoer weer te geven.
+>Maak een AEM Screens-project **TestProject** met een kanaal **TestTransition**. Stel bovendien een locatie en een weergave in om de uitvoer weer te geven.
 
-1. Navigeer naar Kanaal **TestTransition** en klik **uitgeven** van de actiebar.
+1. Navigeer naar het kanaal **TestTransition** en klik **Edit** van de actiebar.
 
    ![image1](assets/transitions1.png)
 
@@ -44,7 +44,7 @@ Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw 
    ![image2](assets/transitions2.png)
 
 
-1. Sleep de component **Overgang** naar de editor.
+1. Sleep de component **Transition** naar de editor.
    >[!CAUTION]
    >
    >Voordat u de overgang naar uw elementen in uw kanaal toevoegt, moet u ervoor zorgen dat u geen overgang toevoegt vóór het eerste element in het opeenvolgende kanaal. Het eerste item in uw kanaal moet een element zijn en geen overgang.
@@ -53,9 +53,9 @@ Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw 
 
    >[!NOTE]
    >
-   >Standaard zijn de eigenschappen van de overgangscomponent, zoals **Type** , ingesteld op **Vervagen** en is de **Duur** ingesteld op *1600 ms*.  Bovendien is het niet aan te raden een overgangstijd in te stellen die langer is dan het actief waarop de overgang wordt toegepast.
+   >Standaard worden de eigenschappen van de overgangscomponent, zoals **Type**, ingesteld op **Vervagen** en **Duur** op *1600 ms*.  Bovendien is het niet aan te raden een overgangstijd in te stellen die langer is dan het actief waarop de overgang wordt toegepast.
 
-1. Bovendien, als u een **Ingesloten component van de Opeenvolging** (die een opeenvolgingskanaal omvat) aan deze kanaalredacteur toevoegt, kunt u een overgangscomponent aan het eind toevoegen, zodat de inhoud in orde speelt, zoals aangetoond in het hieronder cijfer:
+1. Als u bovendien een **Ingesloten reeks** component (die een opeenvolgingskanaal omvat) aan deze kanaalredacteur toevoegt, kunt u een overgangscomponent aan het eind toevoegen, zodat de inhoud in orde speelt, zoals aangetoond in het hieronder cijfer:
 
    ![image3](assets/transitions5.png)
 
