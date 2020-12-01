@@ -13,31 +13,31 @@ ht-degree: 1%
 ---
 
 
-# AEM Screens Player installeren {#installing-player}
+# AEM Screens Player {#installing-player} installeren
 
-In deze pagina wordt beschreven hoe u AEM Screens Player installeert.
+In deze pagina wordt beschreven hoe u AEM Screens Player kunt installeren.
 
 ## Beschikbare schermspeler {#available-players}
 
-De AEM-schermspeler is beschikbaar voor Android, Chrome OS en Windows.
+De AEM Screens-speler is beschikbaar voor Android, Chrome OS en Windows.
 
-Ga naar de pagina **AEM 6.5 Player Downloads** om AEM Screens Player [](https://download.macromedia.com/screens/) te downloaden.
+Als u **AEM Screens Player** wilt downloaden, gaat u naar de pagina [AEM 6.5 Player Downloads](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >
->Nadat u de nieuwste Player (*.exe*) hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
+>Nadat u de nieuwste speler (*.exe*) hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
->1. Navigeer naar **Configuratie** van het linkeractiemenu en ga het plaatsadres van de instantie AEM in **Server** in en klik **sparen**.
->1. Klik op de koppeling **Registratie** in het actiemenu aan de linkerkant en de onderstaande stappen om het registratieproces van het apparaat te voltooien.
+>1. Navigeer naar **Configuration** vanuit het linkeractiemenu en voer het locatieadres van de AEM in **Server** in en klik **Save**.
+>1. Klik op de koppeling **Registratie** in het linkeractiemenu en de onderstaande stappen om het registratieproces van het apparaat te voltooien.
 
 
 ### Aanvullende bronnen {#additional-resources}
 
 Raadpleeg de volgende onderwerpen voor diepgaande informatie:
 
-* Ga naar **Google Play** om Android Player te downloaden. Raadpleeg Android-speler [](implementing-android-player.md)implementeren voor meer informatie over het implementeren van Android Watchdog.
+* Ga naar **Google Play** om Android Player te downloaden. Raadpleeg [Android-speler implementeren](implementing-android-player.md) voor meer informatie over het implementeren van Android Watchdog.
 
-* Raadpleeg de [Chrome Management Console](implementing-chrome-os-player.md) voor meer informatie als u Chrome OS Player wilt implementeren.
+* Als u Chrome OS Player wilt implementeren, raadpleegt u [Chrome Management Console](implementing-chrome-os-player.md) voor meer informatie.
 
-* Raadpleeg [Windows Player](implementing-windows-player.md)implementeren om AEM Screens Windows Player te configureren.
+* Raadpleeg [Windows Player implementeren](implementing-windows-player.md) om de AEM Screens Windows-speler te configureren.
