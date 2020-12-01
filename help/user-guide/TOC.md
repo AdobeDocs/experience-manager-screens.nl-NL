@@ -21,7 +21,7 @@ ht-degree: 1%
    + [Kickstart Guide](kickstart-for-aem-screens.md)
    + [Schermen Best Practices Guide](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [Belangrijkste voorwaarden](screens-glossary.md)
-+ Basisprincipes van digitale-signaalnetwerken {#digital-signage-network}
++ Basisprincipes van digitale signaalnetwerken {#digital-signage-network}
    + [Deel 1: Projectrollen en -verantwoordelijkheden](project-roles-responsibilities.md)
    + [Deel 2: Overwegingen als projecten worden behandeld](project-considerations.md)
    + [Deel 3: Testen, concepttest, piloten en rollouts](testing-pocs-pilots-rollouts.md)
@@ -38,7 +38,7 @@ ht-degree: 1%
    + [Overstappen van ContentSync naar SmartSync](smartsync.md)
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
    + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
-   + Klantenspecifieke overwegingen {#installing-client}
+   + Specifieke overwegingen voor klanten {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Chrome Player gebruiken als extensie voor het oplossen van problemen](using-chrome-player-as-an-extension.md)
       + [Android-speler](implementing-android-player.md)
@@ -49,18 +49,18 @@ ht-degree: 1%
    + Analyseintegratie met AEM Screens {#analytics-integration}
       + [Adobe Analytics-integratie](adobe-analytics-integration-aem-screens.md)
       + [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Authoring en voorbeelden van hoofdletters en kleine letters gebruiken {#authoring}
-   + Een schermproject instellen {#setting-up-projects}
++ Authoring en voorbeelden van hoofdletters/kleine letters gebruiken {#authoring}
+   + Een schermproject {#setting-up-projects} instellen
       + [Projecten maken en beheren](creating-a-screens-project.md)
       + [Kanalen maken en beheren](managing-channels.md)
       + [Weergaven maken en beheren](managing-displays.md)
       + [Locaties maken en beheren](managing-locations.md)
       + [Planningen maken en beheren](managing-schedules.md)
       + [Apparaten beheren](managing-devices.md)
-      + Kanalen toewijzen {#assigning-channels}
+      + Kanalen {#assigning-channels} toewijzen
          + [Kanaaltoewijzing](channel-assignment-latest-fp.md)
          + [Kanaaltoewijzing: Oudere AEM Screens-functiepakketten](channel-assignment.md)
-   + Basisproductfuncties gebruiken {#product-features}
+   + Kenmerken van kernproduct {#product-features} gebruiken
       + [Tekstbedekking](text-overlay.md)
       + [Bulk offline bijwerken](bulk-offline-update.md)
       + [AEM Screens-berichtenservice](screens-notifications-service.md)
