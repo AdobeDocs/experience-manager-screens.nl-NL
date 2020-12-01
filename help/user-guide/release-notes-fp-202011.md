@@ -19,7 +19,7 @@ ht-degree: 1%
 
 AEM Screens heeft AEM 6.5 Feature Pack uitgebracht 6.
 
-U kunt het nieuwste functiepakket voor AEM Screens 6.5.6 Release downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeer naar het tabblad **Adobe Experience Manager** en zoek naar **rasters** om het nieuwste functiepakket te krijgen.
+U kunt het recentste eigenschappak voor AEM Screens 6.5.6 Versie van [het Portaal van de Distributie van de Software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer naar **Adobe Experience Manager** tab en zoek **Screens** om het nieuwste functiepakket te krijgen.
 
 ## Releasedatum {#release-date}
 
@@ -29,14 +29,14 @@ De Releasedatum voor AEM Screens Feature Pack 202011 is 30 november 2020.
 
 * **Rapport Inhoudstoewijzing**
 
-   Met de functie Rapport Inhoudstoewijzing kan een AEM Screens-beheerder of auteur een rapport ** Inhoudstoewijzing exporteren dat de spreadsheetindeling kan hebben.
-Refer to **Content Assignment Report** for more details.
+   Met de functie Rapport voor inhoudstoewijzing kan een AEM Screens-beheerder of auteur een *Rapport voor inhoudstoewijzing* exporteren die in spreadsheetindeling kan worden gebruikt.
+Raadpleeg **Rapport Inhoudstoewijzing** voor meer informatie.
 
 
 * **Tizen Player**
 
    Er is een nieuwe speler met de naam Tizen-speler geïntroduceerd met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
-Raadpleeg **Tizen Player** implementeren voor meer informatie.
+Raadpleeg **Tizen Player implementeren** voor meer informatie.
 
 * **Functies zoeken vanuit Apparaatbeheer**
 
@@ -46,7 +46,7 @@ Raadpleeg **Tizen Player** implementeren voor meer informatie.
 
    Het gebrek pingelt interval is nu geplaatst aan 30 seconden voor deze versie.
 
-### Bekende problemen en oplossingen {#known-issues}
+### Bekende problemen en correcties {#known-issues}
 
 
 
@@ -58,6 +58,6 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM Screens
 * Windows
 * Android
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### AEM Screens Player-downloads {#aem-screens-player-downloads}
 
-Raadpleeg **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)** voor meer informatie over het downloaden van de nieuwste AEM Screens-speler en het oplossen van problemen.
+Raadpleeg **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)** voor meer informatie over de opgeloste problemen.
