@@ -1,6 +1,6 @@
 ---
-title: Introduction to [!UICONTROL AEM Screens]
-seo-title: Best Practices Guide voor [!UICONTROL AEM Screens] projecten
+title: Inleiding tot [!UICONTROL AEM Screens]
+seo-title: Best Practices Guide for [!UICONTROL AEM Screens] projects
 description: Deze pagina is een inleidende sectie voor AEM Screens
 seo-description: Deze pagina biedt een inleiding op AEM Screens
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # Inleiding tot AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** is een Digital Signage-oplossing waarmee u dynamische en interactieve digitale ervaringen kunt ontwerpen, publiceren en afspelen met verschillende typen in-locatieschermen in overleg met een uitgebreide universeel-kanaals digitale marketingstrategie.
+**AEM (Adobe Experience Manager)** Screensis a Digital Signage Solution waarmee u dynamische en interactieve digitale ervaringen kunt ontwerpen, publiceren en afspelen met verschillende typen in-venue weergaveschermen, in overleg met een alomvattende strategie voor digitale marketing in het universeel kanaal.
 
 Met AEM Screens kunt u:
 
@@ -35,7 +35,7 @@ Het maken en beheren van een digitaal signalisatienetwerk met behulp van AEM Scr
 
 >[!NOTE]
 >
->Raadpleeg de gebruikershandleiding **[van](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)** AEM Screens voor meer informatie over de verschillende functies in een AEM Screens-projectontwikkeling en -beheer.
+>Raadpleeg **[AEM Screens User Guide](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)** voor meer informatie over de verschillende functies in een AEM Screens-projectontwikkeling en -beheer.
 
 ## AEM Sites versus AEM Screens {#aem-sites-screens}
 
@@ -53,7 +53,7 @@ AEM Screens biedt een geïntegreerd platform voor ontwerpen/afspelen voor het im
 
 * **Segmentatie** medialijn: Wanneer u elk spelerapparaat configureert voor een eigen lussegment, weet u zeker dat gelokaliseerde inhoud eenvoudig kan worden gemaakt, gepubliceerd en afgespeeld binnen de algemene digitale ervaring. Media-elementen die zich in ingesloten reekskanalen bevinden, worden toegevoegd aan het vorige lussegment en bieden de mogelijkheid een medialusegment voor elke locatiegroep als doel in te stellen.
 
-* **Interactieve ervaringen**: Een aanraking toegelaten, kiosk toepassing kan in een kanaal van het Scherm worden ontworpen en worden geleverd gebruikend AEM en de redacteur van het KUUROORD. Het is aan te raden om consistente eigenschappen van het universeel ontwerp toe te passen, een inactiviteitstimer om de ervaring opnieuw in te stellen en een duidelijke aanroep van actie te maken voor welke taken de toepassing kan uitvoeren. De landingspagina moet bestaan uit belangrijke digitale elementen die zijn ontworpen om waarde over te brengen, de gebruiker op het scherm aan te trekken en de gebruiker ertoe aan te zetten zich aan te sluiten.
+* **Interactieve ervaringen**: Een toepassing met aanraakbediening kan worden ontworpen en geleverd in een rasterkanaal met AEM en de SPA-editor. Het is aan te raden om consistente eigenschappen van het universeel ontwerp toe te passen, een inactiviteitstimer om de ervaring opnieuw in te stellen en een duidelijke aanroep van actie te maken voor welke taken de toepassing kan uitvoeren. De landingspagina moet bestaan uit belangrijke digitale elementen die zijn ontworpen om waarde over te brengen, de gebruiker op het scherm aan te trekken en de gebruiker ertoe aan te zetten zich aan te sluiten.
 
 AEM Screens biedt een framework om inhoud te implementeren op fysieke apparaten. Inhoud wordt toegewezen aan kanalen in schermen, die media-inhoud of toepassingen op aanraakschermen kunnen bevatten. Binnen dit framework kan een AEM Sites-toepassing als inhoud worden geleverd via een kanaal.
 
