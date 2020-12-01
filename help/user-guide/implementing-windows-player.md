@@ -19,52 +19,54 @@ ht-degree: 0%
 ---
 
 
-# Windows 10 Player implementeren {#implementing-windows-player}
+# Windows 10 Player {#implementing-windows-player} implementeren
 
 In deze sectie wordt beschreven hoe u AEM Screens Windows 10 Player configureert. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
 
-## Windows Player installeren {#installing-windows-player}
+## Windows Player {#installing-windows-player} installeren
 
 Installeer Windows Player voor AEM Screens om Windows Player voor AEM Screens te implementeren.
 
-Ga naar de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+Bezoek de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >Er is geen venstermodus in Windows Player. Dit is altijd de modus Volledig scherm.
 
-### De Milieu van de vestiging voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Environment instellen voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
 >U moet een omgeving instellen voor Windows Player als u AEM Screens 6.5.5 Service Pack gebruikt.
 
-Stel het kenmerk **SameSite voor de cookies** met aanmelding van **Lax** in op **Geen** van **Adobe Experience Manager Web ConsoleConfiguration** op alle AEM auteur- en publicatieinstanties.
+Stel het **SameSite-kenmerk voor de aanmeld-token cookies** in van **Lax** naar **None** van **Adobe Experience Manager-webconsole
+Configuratie** op alle AEM auteur en publicatieinstanties.
 
 Voer de onderstaande stappen uit:
 
-1. Navigeer naar **Adobe Experience Manager Web ConsoleConfiguration** met `http://localhost:4502/system/console/configMgr`.
+1. Naar **Adobe Experience Manager-webconsole navigeren
+Configuratie** met `http://localhost:4502/system/console/configMgr`.
 
 1. Zoek naar *Adobe Granite Token Authentication Handler*.
 
-1. Stel het kenmerk **SameSite voor de cookies** met inlognaam van **Lax** in op **Geen**.
+1. Stel het **SameSite-kenmerk voor de cookies met inlognaam** in van **Lax** naar **None**.
    ![afbeelding](/help/user-guide/assets/granite-updates.png)
 
-1. Click **Save**.
+1. Klik **Opslaan**.
 
-### Ad hoc-methode {#ad-hoc-method}
+### Ad hoc methode {#ad-hoc-method}
 
-Met de ad-hocmethode kunt u de nieuwste Windows Player (*.exe*) installeren. Bezoek de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+Met de ad-hocmethode kunt u de nieuwste Windows Player (*.exe*) installeren. Bezoek [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) pagina.
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeer naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u wenst om te verbinden met en klik **sparen**.
-1. Navigeer vanuit het menu Actie links naar de koppeling **Apparaatregistratie** **** om de status van het apparaatregistratieproces te controleren.
+1. Navigeer naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u wenst om met te verbinden en **sparen** te klikken.
+1. Navigeer naar de **Device** **Registratie**-koppeling in het linkeractiemenu om de status van het registratieproces van het apparaat te controleren.
 
 >[!NOTE]
 >
->Als de **status** is **GEREGISTREERD**, wordt het veld **Apparaat-id** ingevuld.
+>Als **State** **REGISTERED** is, zult u merken dat het **Device id** veld wordt gevuld.
 >
->Als de **staat** **NIET-GEREGISTREERD** is, kunt u het apparaat registreren met het **token** .
+>Als **State** **UNREGISTERED** is, kunt u **Token** gebruiken om het apparaat te registreren.
 
 ### Configuratie van bulkserver: Meerdere Windows 10-spelers registreren met één configuratie {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
@@ -126,11 +128,11 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 1. Enable Shell Launcher.
 
-   Verwijs naar sectie ***vormt de Lanceerinrichting*** van Shell in de pagina van de Lanceerinrichting **[van](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** Shell door de steun van Microsoft Windows voor extra informatie.
+   Raadpleeg sectie ***Shell Launcher*** in **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** pagina door Microsoft Windows-ondersteuning voor aanvullende informatie.
 
 1. Maak een niet-administratieve gebruiker (als u er al een hebt) die u voor Kiosk wilt gebruiken. Dit kan een lokale of domeingebruiker zijn.
-1. Installeer de Windows-speler voor die Kiosk-gebruiker vanaf de pagina Downloads [van](https://download.macromedia.com/screens/) AEM Screens Player.
-1. Verwijs naar de Lanceerinrichting van Shell van het [Gebruik om Vensters 10 kiosk](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) tot stand te brengen om uw manuscript PowerShell voor meer informatie te wijzigen.
+1. Installeer de Windows-speler voor die Kiosk-gebruiker vanaf de pagina [AEM Screens Player Downloads](https://download.macromedia.com/screens/).
+1. Verwijs naar [De Lanceerinrichting van Shell van het Gebruik om Vensters te creëren 10 kiosk](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) om uw manuscript van PowerShell voor meer informatie te wijzigen.
 
    Wijzig het manuscript PowerShell om de gebruikersbenaming met te vervangen u creeerde. Controleer of het pad naar het uitvoerbare bestand van de toepassing juist is. Hierdoor wordt de aangepaste shell ingesteld als de toepassing voor de venstersspeler voor de gebruiker kiosk en wordt de standaardwaarde als explorer.exe voor andere gebruikers ingesteld.
 
@@ -151,7 +153,7 @@ Met het voorbeeldscript in de koppelingen wordt de aangepaste shell in- en uitge
 >
 >In sommige venstermilieu&#39;s kunnen de manuscripten PowerShell door beleid (vooral niet ondertekende manuscripten) worden beperkt. Als u uw script wilt uitvoeren, moet u deze beperking mogelijk tijdelijk uitschakelen en opnieuw inschakelen om het script uit te voeren. Open een venster PowerShell en gebruik deze bevelen.
 >
->*onbeperkt* beleid instellen - beperkingen tijdelijk verwijderen
+>*onbeperkt*  beleid instellen - beperkingen tijdelijk verwijderen
 >
 >*set-execute-policy beperkt* - om beperking opnieuw in te schakelen nadat het script is uitgevoerd
 
