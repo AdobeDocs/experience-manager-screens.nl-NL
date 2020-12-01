@@ -37,17 +37,17 @@ Het bepalen van toepassings gebruiks-caseparameters in partnerschap met Adobe, A
 
 Adobe bevat bronnen van Adobe Managed Services, zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-#### AEM {#aem-implementors}
+#### Implementators AEM {#aem-implementors}
 
-Een **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, douanesjablonen en back-endintegratie voor AEM te ontwikkelen.
+Een **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
 Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Experience) van eindgebruikers worden ook vastgelegd en via dit proces geleverd.
 
 AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase kan het mogelijk maken het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met extra fasen die ondersteuning voor interactieve elementen bevatten via aanraakschermen, sensoren, dynamische triggers enzovoort.
 
-#### AV-integrators {#av-integrators}
+#### AV-integratoren {#av-integrators}
 
-Een **AV-integrator** is verantwoordelijk voor het uitvoeren van detectie met eindgebruikers om vereisten te definiëren die het projectbereik bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
+Een **AV-integrator** is verantwoordelijk voor het uitvoeren van ontdekkingen met eindgebruikers om vereisten te definiëren die het projectbereik bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
 
 ## Deel 1: Videozelfstudie over projectrollen en -verantwoordelijkheden {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -63,4 +63,4 @@ Volg de onderstaande zelfstudie om precies te begrijpen hoe elke partij in de im
 
 Zodra u de projectrollen en de verantwoordelijkheden in het uitvoeren van een digitaal ondertekeningsproject begrijpt, volg het volgende leerprogramma dat diep in onderwerpen zoals het testen en pre-verkoopoverwegingen duikt aangezien het project wanneer het ontwikkelen van de kansen van AEM Screens wordt scoped.
 
-Ga naar **[Deel 2: Overwegingen als Projecten worden gescoord](project-considerations.md)** voor meer details.
+Navigeer naar **[Deel 2: Overwegingen als Projecten worden Gescoped](project-considerations.md)** voor meer details.
