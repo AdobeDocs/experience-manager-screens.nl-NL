@@ -27,10 +27,10 @@ Dit proces kan worden toegepast op:
 
 Dit zal helpen het project van de het prototypen fase dichter aan de daadwerkelijke plaatsingsfase bewegen.
 
-Vanuit een **middelenniveauweergave**moeten we draadframes maken die verschillende opties voor de inhoudslay-out en groepen van inhoud definiëren. Zo kunt u definiëren hoe meerdere inhoudsonderdelen eruit kunnen zien wanneer ze samen als een groep worden samengesteld.
+In een **weergave Elementniveau** moeten we draadframes maken die verschillende opties voor de inhoudslay-out en groepen inhoud definiëren. Zo kunt u definiëren hoe meerdere inhoudsonderdelen eruit kunnen zien wanneer ze samen als een groep worden samengesteld.
 In deze activiteit gebruiken we doorgaans afbeeldingen, afbeeldingen en video&#39;s die klaar zijn voor productie.
 
-Vanuit een **Kanaalniveauweergave** moeten we draadframes maken die laten zien hoe kanalen met inhoud aan elkaar zijn gekoppeld in de algemene ervaring, inclusief afspeelstrategieën voor ingesloten kanalen. We kunnen ook kanaalovergangen controleren die kunnen optreden wanneer gegevenstriggers worden geactiveerd.
+Vanuit een **Kanaalniveauweergave** moeten we draadframes maken die aangeven hoe kanalen met inhoud aan elkaar zijn gekoppeld in de algemene ervaring, inclusief afspeelstrategieën voor ingesloten kanalen. We kunnen ook kanaalovergangen controleren die kunnen optreden wanneer gegevenstriggers worden geactiveerd.
 
 Op **Projectniveau**, kunnen wij beginnen te modelleren hoe de veelvoudige schermen of de ervaringen in een fysieke ruimte kunnen samenwerken om een volledige multi-touchpoint gebruikersreis te verstrekken.
 
