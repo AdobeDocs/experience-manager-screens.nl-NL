@@ -19,11 +19,11 @@ ht-degree: 0%
 ---
 
 
-# Inhoud bijwerken met Schermen starten {#launches}
+# Inhoud bijwerken met gebruik van Startpagina {#launches} voor schermen
 
-Inhoudsauteurs kunnen een toekomstige versie van de kanalen maken, ook wel **Screens Launch** genoemd, en de live-datum voor deze lancering verder instellen. Hierdoor kan de inhoud live worden weergegeven in apparaten of spelers op de opgegeven live datum.
+Inhoudsauteurs kunnen een toekomstige versie van het kanaal of de kanalen maken, ook wel **Starten van schermen** genoemd, en de live datum voor deze lancering verder instellen. Hierdoor kan de inhoud live worden weergegeven in apparaten of spelers op de opgegeven live datum.
 
-Met behulp van ***Screens Launch***, kunnen auteurs elk kanaal in de lancering voorproef en een verzoek tot overzicht in werking stellen. De groep van fiatteurs zal bericht krijgen en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
+Met behulp van ***Screens Launch***, kunnen de auteurs elk kanaal in de lancering voorproef en een verzoek tot overzicht in werking stellen. De groep van fiatteurs zal bericht krijgen en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
 
 Als de auteur bijvoorbeeld toekomstige versies van c1, c2 (kanalen) wil maken, wordt een introductie gemaakt en wordt een live datum ingesteld (bijvoorbeeld 10e 8:00 AM nov). Eventuele verdere updates in de inhoud worden ter controle verzonden.
 
@@ -31,7 +31,7 @@ Na goedkeuring en op live datum (10 november, 8:00 uur) speelt deze lancering de
 
 ## Vereisten {#requirements}
 
-Voordat u *Screens start* in een AEM Screens-project, moet u het concept van Respijtperiode en de relevantie ervan begrijpen.
+Voordat u de functie *Screens Launch* in een AEM Screens-project gaat gebruiken, moet u controleren of u het concept Respijtperiode en de relevantie ervan begrijpt.
 
 Als u een ervaring uitvoert op de live-datum instellen op de speler, gaat u als volgt te werk:
 
@@ -45,11 +45,11 @@ Als u een ervaring uitvoert op de live-datum instellen op de speler, gaat u als 
 
 * eventuele tijdverschillen tussen de server en de speler
 
-### Respijtperiode begrijpen {#understanding-grace-period}
+### Respijtperiode {#understanding-grace-period}
 
 Als u wilt dat de speler de inhoud kan afspelen op de actieve datum van de set, moeten de voorgaande activiteiten worden gestart vóór de live datum.
 
-Als de live datum 24 *nov., 9:00 AM* is en de respijtperiode *24 uur* is, dan zal de bovenstaande opeenvolging van acties beginnen bij (levende datum - respijtperiode), namelijk 23 nov, 9:00 AM servertijd. Dit geeft 24 uur de tijd om alle bovengenoemde acties te voltooien en de inhoud zal de spelers bereiken. De spelers zullen begrijpen dat dit een lanceringsinhoud is, zodat zal de inhoud niet onmiddellijk spelen, maar de spelers zullen deze inhoud als toekomstige versie opslaan en zullen beginnen precies op de vastgestelde levende datum op de tijdzone van de speler te spelen.
+Als de live datum *24 nov., 9:00 AM* is en de respijtperiode *24 uur* is, dan zal de bovenstaande reeks acties beginnen bij (levende datum - respijtperiode), namelijk 23 nov, 9:00 AM servertijd. Dit geeft 24 uur de tijd om alle bovengenoemde acties te voltooien en de inhoud zal de spelers bereiken. De spelers zullen begrijpen dat dit een lanceringsinhoud is, zodat zal de inhoud niet onmiddellijk spelen, maar de spelers zullen deze inhoud als toekomstige versie opslaan en zullen beginnen precies op de vastgestelde levende datum op de tijdzone van de speler te spelen.
 
 Bijvoorbeeld, is de server in PST en de apparaten in EST zijn, is het maximumtijdverschil 3 uren in dit geval en veronderstelt dat de bevordering 1 min zal vergen en het publiceren van auteur 10 min neemt en de speler kan de middelen typisch in 10-15 min downloaden. De respijtperiode = tijdsverschil (3 uur) + tijd om de start te bevorderen (1 min) + tijd om de start te publiceren (10 min) + tijd om te downloaden bij speler (10-15 min) + buffer (om veilig te zijn, bijvoorbeeld 30 min) = 3 uur 56 min = 14160 seconden.
 
@@ -57,16 +57,16 @@ Dus als we live gaan, zal de promotie vroeg beginnen bij deze offset. In de bove
 
 >[!NOTE]
 >
->De respijtperiode voor het starten van schermen is ingesteld op 24 uur. Dit betekent dat wanneer we een live-datum vaststellen voor het opstarten van middelen onder */content/screens*, de promotie zal beginnen met deze verschuiving.
+>De evaluatieperiode voor het starten van schermen is ingesteld op 24 uur. Dit betekent dat wanneer we de live-datum instellen voor het opstarten van bronnen onder */content/screens*, de promotie begint met deze verschuiving.
 
-### Respijtperiode buiten de box bijwerken {#updating-out-of-the-box-grace-period}
+### Respijtperiode {#updating-out-of-the-box-grace-period} bijwerken
 
 In deze sectie wordt uitgelegd hoe u een uitstelperiode kunt bijwerken naar 10 minuten.
 
 1. Navigeer naar CRXDE Lite en vervolgens naar `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Klik met de rechtermuisknop en kopieer het bestand.
 3. Navigeer naar `/apps/system/config` en klik met de rechtermuisknop en plak.
-4. Dubbelklik op `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` om het bestand in de editor in CRXDE Lite te openen. De respijtperiode voor het pad */inhoud/schermen/* moet als **86400** worden weergegeven. Wijzig die waarde in **600**.
+4. Dubbelklik op `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` om het bestand in de editor in CRXDE Lite te openen. De respijtperiode voor het pad */content/screens/* moet worden weergegeven als **86400**. Wijzig die waarde in **600**.
 
 De inhoud in het tekstbestand moet er nu ongeveer als volgt uitzien:
 
@@ -76,19 +76,19 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ]
 ```
 
-Aangezien u de Periode van de Aflossing aan 10 minuten in het voorafgaande voorbeeld hebt geplaatst, wanneer u levende datum voor om het even welke lancering voor de middelen onder */inhoud/schermen* plaatst, zal de bevordering met deze compensatie beginnen.
+Aangezien u de Periode van de Aflossing aan 10 minuten in het voorafgaande voorbeeld hebt geplaatst, wanneer u levende datum voor om het even welke lancering voor de middelen onder */content/screens* plaatst, zal de bevordering met deze compensatie beginnen.
 
 Als de live datum bijvoorbeeld is ingesteld op 24 november, 9:00 uur en de respijtperiode op 600 seconden, begint de promotietaak op 24 november om 8:50 uur.
 
-## Starten van schermen gebruiken {#using-launches}
+## Starten van schermen {#using-launches} gebruiken
 
 In deze sectie ziet u hoe u de functie Schermen starten in uw AEM Screens-project implementeert.
 
-### Schermen starten {#creating-a-launch}
+### Starten van schermen {#creating-a-launch} maken
 
 Voer de onderstaande stappen uit om de functie Schermen starten te implementeren voor uw AEM Screens-project:
 
-1. Maak een volgnummer in uw AEM Screens-project, bijvoorbeeld **LaunchesDemo** —> **Kanalen** —> **FutureLaunch**, zoals hieronder wordt weergegeven.
+1. Creeer een opeenvolgingskanaal in uw AEM Screens project, bijvoorbeeld **LaunchesDemo** —> **Kanalen** —> **FutureLaunch**, zoals hieronder getoond.
 
    >[!CAUTION]
    >
@@ -96,36 +96,36 @@ Voer de onderstaande stappen uit om de functie Schermen starten te implementeren
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Selecteer het kanaal **FutureLaunch** en klik op **Create Launch** in de actiebalk.
+1. Selecteer het kanaal **FutureLaunch** en klik **Create Launch** van de actiebar.
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. De wizard **Start** maken wordt geopend. U kunt het kanaal selecteren dat al zichtbaar is in de wizard of op **+ Kanalen** toevoegen klikken om het kanaal toe te voegen waarvoor u de opstart wilt maken.
+1. De wizard **Starten maken** wordt geopend. Of u kunt het kanaal selecteren dat reeds zichtbaar in de tovenaar is of **+ klikt toevoegt Kanalen** om het kanaal toe te voegen waarvoor u de lancering wilt tot stand brengen.
 
-1. Klik op **Volgende** in de wizard **Starten** maken. De optie **Inclusief subpagina** is standaard geselecteerd.
+1. Klik **Volgende** van **Create Launch** tovenaar. De optie **Inclusief subpagina&#39;s** is standaard geselecteerd.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >Met de optie **+ Kanalen** toevoegen kunt u een ander kanaal toevoegen waarvoor u de opstart wilt maken.
+   >Met de optie **+ Kanalen toevoegen** kunt u een ander kanaal toevoegen waarvoor u de opstart wilt maken.
 
-   Als u de optie Kanalen **** toevoegen wilt gebruiken, navigeert u naar het kanaal waarvoor u de opstart wilt maken en klikt u op **Selecteren**.
+   Als u de optie **Kanalen toevoegen** wilt gebruiken, navigeert u naar het kanaal waarvoor u de opstart wilt maken en klikt u op **Selecteren**.
 
-   De optie **Selecteren** wordt uitgeschakeld als u meerdere kanalen of een map probeert te selecteren om de opstart toe te voegen.
+   De optie **Select** wordt uitgeschakeld als u meerdere kanalen of een map probeert te selecteren om de opstart toe te voegen.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Als u het kanaal of de kanalen hebt geselecteerd, klikt u op **Volgende**.
+   Nadat u het kanaal of de kanalen hebt geselecteerd, klikt u op **Volgende**.
 
 
-1. Ga de Titel **van de** Lancering als **SummerPromotions** in en u te hoeven niet om de Datum **van de** Lancering te plaatsen, zoals aangetoond in het hieronder cijfer. Klik op **Maken**.
+1. Voer **Titel starten** in als **SummerPromotions** en u hoeft de **Launch Date** niet in te stellen, zoals in de onderstaande afbeelding wordt getoond. Klik **Maken**.
 
    >[!NOTE]
    >
-   >*Als u de optie Live-gegevens* van bronpagina **overnemen inschakelt of controleert** , kunnen de kanalen tijdens het starten als live kopieën worden gemaakt. Als er wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen automatisch toegepast op de startkanalen.
+   >*Als u de optie* Live  **gegevens van bronpagina overnemen inschakelt of** inschakelt, kunnen de kanalen tijdens de lancering als live kopieën worden gemaakt. Als er wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen automatisch toegepast op de startkanalen.
    >
    >
-   >*Als u Live-gegevens* van bronpagina&#39;s **overnemen in- of uitschakelt** , kunnen de kanalen zonder live-relatie worden gekopieerd tijdens het starten. Als er dus wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen niet toegepast op de startkanalen.
+   >*Als u de actieve* **gegevens van de bronpagina voor** overnemen uitschakelt of ongedaan maakt, kunnen de kanalen worden gekopieerd zonder live relatie tijdens het opstarten. Als er dus wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen niet toegepast op de startkanalen.
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-c.png)
 
@@ -143,18 +143,18 @@ Voer de onderstaande stappen uit om de functie Schermen starten te implementeren
       >
       >Bij het starten van de live datum wordt de tijdzone van de speler/het apparaat gevolgd en niet die van de server.
 
-1. U ziet dat de opstart is gemaakt. U kunt op **Openen** klikken om de pagina&#39;s in de editor weer te geven of op **Gereed** klikken om terug te gaan naar uw project.
+1. U ziet dat de opstart is gemaakt. U kunt of **Open** klikken om de pagina&#39;s in de redacteur te bekijken of **Done** klikken om terug naar uw project te navigeren.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Als u op **Gereed** klikt, kunt u terugnavigeren naar het kanaal **FutureLaunch** .
+   Als u op **Done** klikt, kunt u terugnavigeren naar uw **FutureLaunch**-kanaal.
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-16.png)
 
 
 ### De eigenschappen voor starten bewerken om de actieve datum en het actieve bereik in te stellen {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
-Nadat de lancering wordt gecreeerd, kunt u de eigenschappen zoals levende datum, lanceringstitel en promotiewerkingsgebied bijwerken door de Eigenschappen **van de** Lancering te gebruiken.
+Nadat de lancering wordt gecreeerd, kunt u de eigenschappen zoals levende datum, lanceringstitel en promotiewerkingsgebied bijwerken door **Eigenschappen van de Lancering** te gebruiken.
 
 * **Begindatum** verwijst naar de live datum, dat wil zeggen de datum of tijd waarop de inhoud in de schermspeler wordt afgespeeld volgens de tijdzone van de speler.
 * **Productie Klaar**, staat de kanalen toe om na het bevorderen van deze, uit-van-de-doos worden gepubliceerd dit wordt toegelaten, zodat te hoeven om dit niet te veranderen.
@@ -163,44 +163,44 @@ Nadat de lancering wordt gecreeerd, kunt u de eigenschappen zoals levende datum,
 
 Voer de onderstaande stappen uit om de eigenschappen van de startpagina te bewerken:
 
-1. Navigeer naar het kanaal **FutureLaunch**, *(dat is de volgende start)* en selecteer het kanaal, zoals in de onderstaande afbeelding wordt getoond.
+1. Navigeer naar het kanaal **FutureLaunch**, *(dat is de volgende lancering)* en selecteer het kanaal, zoals aangetoond in het hieronder cijfer.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Klik op het **dashboard** op de actiebalk en u ziet het deelvenster **OPENBARE STARTEN** van het kanaaldashboard.
+1. Klik op **Dashboard** van de actiebar en u ziet **PENDING LAUNCHES** paneel van het kanaaldashboard.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Selecteer de start en klik op Eigenschappen **** starten in het **deelvenster OPENEN** .
+1. Selecteer de lancering en klik **Eigenschappen van de Lancering** van **PENDING LAUNCHES** paneel.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Het uitgeven van de Lancering van de Schermen om Kanalen toe te voegen of te verwijderen  {#editing-the-screens-launch-to-add-or-remove-channels}
+### Het uitgeven van de Lancering van de Schermen om Kanalen {#editing-the-screens-launch-to-add-or-remove-channels} toe te voegen of te verwijderen
 
-Nadat u de opstart hebt gemaakt, kunt u kanalen toevoegen aan of verwijderen uit de bestaande opstart met de optie **Starten** bewerken.
+Nadat u de lancering hebt gecreeerd, kunt u kanalen aan de bestaande lancering toevoegen of verwijderen gebruikend **de optie van de Lanceer van de Edit**.
 
-Als u klaar bent, klikt u op **Opslaan** om terug te gaan naar het kanaal **FutureLaunch** .
+Als u klaar bent, klikt u op **Opslaan** om terug te navigeren naar **FutureLaunch** kanaal.
 
 ### Schermen handmatig starten bevorderen{#promote-the-screens-launch-manually}
 
-U kunt de lancering manueel bevorderen gebruikend de optie **bevordert Lancering** van het **PENDING paneel** .
+U kunt de lancering manueel bevorderen gebruikend **Bevorderen Starten** optie van **PENDING LAUNCHES** paneel.
 
-U kunt de middelen kiezen u als deel van deze handbevordering in de Tovenaar **van de Bevordering van de** Lancering wilt bevorderen.
+U kunt de middelen kiezen u als deel van deze handbevordering in **de Tovenaar van de Bevordering van de Lancering** wilt bevorderen.
 
 ![afbeelding](/help/user-guide/assets/launches-images/launches-e.png)
 
 1. U kunt de optie voor het verwijderen van de opstart na de productie in- of uitschakelen.
-1. U kunt het **bereik** van het starten instellen met de volgende opties:
+1. U kunt **Scope** van de lancering, met de volgende opties plaatsen:
    1. **Volledige introductie** bevorderen: Alle kanalen van de lancering worden bevorderd op de vastgestelde levende datum.
    1. **Gewijzigde pagina**&#39;s promoten: Alleen aangepaste startbronnen worden bevorderd. U wordt aangeraden deze optie te gebruiken als de startrevisie niet vereist is.
    1. **Goedgekeurde pagina**&#39;s promoten: Voor deze optie moet de goedkeuringsworkflow voor het starten worden uitgevoerd op de startkanalen. Alleen goedgekeurde pagina&#39;s worden gepromoveerd op de ingestelde live datum.
    1. **Huidige pagina** promoten: Voor deze optie moet de goedkeuringsworkflow alleen voor de huidige pagina worden uitgevoerd.
-1. Klik op **Volgende** in de wizard **Starten** bevorderen.
-1. Klik op **Promote** om de introductie te promoten.
+1. Klik **Next** in **Promote Launch** tovenaar.
+1. Klik **Promote** om de lancering te bevorderen.
 
-### De functie Schermen starten verwijderen {#deleting-the-screens-launch}
+### Starten van schermen {#deleting-the-screens-launch} verwijderen
 
-U kunt de start verwijderen met de optie Starten **** verwijderen uit het **deelvenster OPENEN** .
+U kunt de lancering schrappen gebruikend **Schrap Lancering** optie van **PENDING LAUNCHES** paneel.
 
 >[!CAUTION]
 >
