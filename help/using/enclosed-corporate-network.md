@@ -39,7 +39,7 @@ Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen 
    >**Tip voor probleemoplossing**
    >Als AEM Screens niet correct verbinding maakt en de verwachte inhoud niet wordt weergegeven:
    >
-   >1. Controleer in uw firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443`. zijn
+   >1. Controleer uw firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443` zijn.
    >1. Zorg ervoor dat alle vereiste Havens worden toegestaan.
 
 
@@ -50,16 +50,16 @@ De Ingesloten Collectieve Opstelling van het Netwerk kan logisch gezien in twee 
 * Het Netwerk van het Brede Gebied (WAN)
 * LAN (Internal Local Area Network).
 
-### Breed gebiedsnetwerk {#wan-connection}
+### Breedgebiednetwerk {#wan-connection}
 
 De prestaties van de verbinding van Internet, naast netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsupdates van AEM Screens regelmatig in werking te stellen.
-*Voldoende bandbreedte* is afhankelijk van de hoeveelheid aangesloten AEM en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
+*Voldoende* bandbreedte is afhankelijk van de hoeveelheid aangesloten AEM en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
 
 >[!NOTE]
 >
 >Alle apparaten hebben een gelijktijdige toegang tot de internetverbinding en de bandbreedte neemt lineair af wanneer u meer consumenten of computers aan het netwerk toevoegt.
 
-### Netwerk voor lokale gebieden {#lan-connection}
+### Netwerk {#lan-connection} voor lokale gebieden
 
 De prestaties van het Netwerk van het Lokale Gebied (LAN), naast de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsupdates van AEM Screens regelmatig in werking te stellen.
 
@@ -67,15 +67,15 @@ Het LAN netwerk binnen collectieve organisaties is gewoonlijk minstens 1000 MBit
 
 Bijvoorbeeld, zouden de componenten van het Netwerk minstens 100 norm moeten aanpassen Mbps en de bandbreedte aanpassen die door de toegang van Internet/routerspecificatie wordt verstrekt.
 
-### Andere BedrijfsNetwerken Specificaties {#other-networks}
+### Andere specificaties voor bedrijfsnetwerken {#other-networks}
 
 De collectieve Netwerken hebben een aantal aangesloten apparaten, zijn gescheiden in diverse subnetwerken en hebben overtollige of multiplexen verbindingen van Internet om voldoende prestaties voor vele duizenden gezamenlijke toegang te verstrekken.
 Dit schema is vereenvoudigd en past in de meeste gevallen bij de omgevingen die beschikbaar zijn voor de client.
 
-Als een Wi-Fi-oplossing bedoeld is om schermen te verbinden met de Internet Link, wordt aanbevolen om ten minste de moderne Wi-Fi-standaarden te gebruiken. Dit geldt bijvoorbeeld `IEEE 802.11g` voor alle andere apparaten. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals die `802.11h-n` zijn van betere kwaliteit. Als u een Wi-Fi Repeater nodig hebt, raden we u sterk aan om technologieën als Google Nest Mesh Wi-Fi of een vergelijkbare technologie voor toegangspunten van Mesh aan te bevelen.
+Als een Wi-Fi-oplossing wordt overwogen om schermen te verbinden met de Internet Link, wordt aanbevolen om minimaal gebruik te maken van moderne Wi-Fi-standaarden, zoals `IEEE 802.11g`. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals `802.11h-n` zijn van betere kwaliteit. Als u een Wi-Fi Repeater nodig hebt, raden we u sterk aan om technologieën als Google Nest Mesh Wi-Fi of een vergelijkbare technologie voor toegangspunten van Mesh aan te bevelen.
 Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
 
-## Media en middelen downloaden {#download}
+## Media en elementen downloaden {#download}
 
 AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 
