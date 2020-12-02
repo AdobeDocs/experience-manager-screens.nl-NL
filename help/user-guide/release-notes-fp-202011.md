@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202011
 description: De pagina beschrijft de Nota's van de Versie voor de Pak 202011 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ De Releasedatum voor AEM Screens Feature Pack 202011 is 30 november 2020.
 
 * **Rapport Inhoudstoewijzing**
 
-   Met de functie Rapport voor inhoudstoewijzing kan een AEM Screens-beheerder of auteur een *Rapport voor inhoudstoewijzing* exporteren die in spreadsheetindeling kan worden gebruikt.
+   Met de functie Rapport voor inhoudstoewijzing kan een AEM Screens-beheerder of auteur een *Rapport voor inhoudstoewijzing* exporteren in een spreadsheetindeling.
 Raadpleeg [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie.
 
 
