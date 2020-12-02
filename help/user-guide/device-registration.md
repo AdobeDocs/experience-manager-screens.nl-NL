@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,29 @@ Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande
    Daarnaast kunt u het weergavedashboard weergeven door te klikken op **Voltooien**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+
+### Een apparaat zoeken vanuit Apparaatbeheer {#search-device}
+
+Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weergeven via de interface van Apparaatbeheer.
+
+1. Navigeer naar de interface van Apparaatbeheer van uw AEM Screens-project, bijvoorbeeld **DemoScreens** —> **Devices**.
+
+1. Selecteer de map **Apparaten** en klik op **Apparaatbeheer** op de actiebalk.
+
+1. De lijst met geregistreerde apparaten wordt weergegeven.
+
+1. Als u een lange lijst met geregistreerde apparaten hebt, kunt u nu zoeken met het zoekpictogram op de actiebalk of gewoon op `/` (schuine streep) klikken om de zoekfunctionaliteit aan te roepen.
+
+#### Beperkingen op zoekfunctionaliteit {#limitations}
+
+* De gebruiker zal om het even welk woord in apparatenidentiteitskaart of apparatennaam kunnen zoeken. Sla de apparaatnamen op in meerdere woorden, zoals &quot;Boston Store Lobby&quot;, in plaats van &quot;BostonStoreLobby&quot;.
+
+* In het eerste geval is het toegestaan te zoeken naar elk woord &quot;boston&quot;, &quot;store&quot;, &quot;lobby&quot;, maar in het tweede geval zal het zoeken naar &quot;boston&quot; de resultaten niet weergeven.
+
+* Jokerteken, `*` wordt ondersteund voor zoeken. Als u alle apparaten met een naam wilt zoeken die begint met **boston**, kunt u **boston*** gebruiken.
+
+1. Als de apparaatnaam **BostonStoreLobby** is en het zoeken naar **boston** zal niet het resultaat terugkeren maar **boston*** zal het resultaat terugkeren.
+
 
 ## Beperkingen betreffende apparaatregistratie {#limitations-on-device-registration}
 
