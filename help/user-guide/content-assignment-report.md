@@ -2,9 +2,9 @@
 title: Rapport Inhoudstoewijzing
 description: Op deze pagina vindt u een beschrijving van het downloaden en gebruiken van het rapport Inhoudstoewijzing.
 translation-type: tm+mt
-source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,14 @@ Volg de onderstaande instructies om het Rapport Inhoudstoewijzing te downloaden:
 
 1. Navigeer naar uw AEM Screens-project en selecteer het project **DemoScreens**.
 
-1. Klik op **Rapport Inhoudstoewijzing** in de actiebalk. Een Excel-werkblad moet naar uw lokale computer worden gedownload.
+1. Klik op **Rapport Inhoudstoewijzing** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >Het gedownloade spreadsheet bestaat uit vier kolommen zoals **Kanalen**, **Middelen**, **Vertoningen**, en **Apparaten** die kunnen worden gebruikt om deze vier entiteiten met betrekking tot uw AEM Screens-project verder te onderzoeken.
+
+1. Er wordt een Excel-werkblad gedownload naar uw lokale computer met de vooraf ingestelde identieke naam als uw AEM Screens-projectnaam. Als uw projectnaam bijvoorbeeld **DemoScreens** is, is de gedownloade bestandsnaam **demoscreens-content-assign-report.xlxs**.
+
+   ![afbeelding](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
