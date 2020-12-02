@@ -6,9 +6,9 @@ seo-description: Volg deze pagina om antwoorden te krijgen op veelgestelde vrage
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
+source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ In de volgende sectie worden antwoorden gegeven op een aantal veelgestelde vrage
 ## Probleem met leeg scherm {#blank-screen}
 
 >[!NOTE]
->De vermelde verplichte controles die door primaire ondersteuning of klantenondersteuning moeten worden geprobeerd voordat een probleem wordt aangekaart:
+>De vermelde verplichte controles die door primaire ondersteuning of klantenondersteuning moeten worden geprobeerd voordat een probleem aan de orde wordt gesteld.
 
 ### 1. Wat zouden de het oplossen van problemenstappen van de Eerste hulp voor om het even welke klant die een zwart scherm of niet spelende inhoud onder ogen ziet? {#troubleshooting-blank-screen}
 
 * Controleer of de voorvertoning van het kanaal werkt.
 * Controleren of de voorvertoning werkt
-* Registreer de speler als browserextensie op uw laptop op hetzelfde scherm en controleer of dit werkt.
+* Registreer de speler als browserextensie op uw systeem naar hetzelfde scherm en controleer of dit werkt.
 * Navigeer naar `http://localhost:24502` terwijl de speler op uw systeem wordt uitgevoerd. Controleer of alle inhoud correct is gedownload.
 * Controleer de elementen of de juiste uitvoeringen zijn gemaakt en of de juiste uitvoering wordt afgespeeld.
-* Controleer of de geplande inhoud aanwezig is en of de tijden correct zijn. Controleer of de ingestelde tijd in de speler correct is.
-* Controleer de logboeken van de spelerconsole en controleer om het even welke fouten? Klik en inspecteer met de rechtermuisknop om de consolelogboeken te zien. Als u de Windows-speler gebruikt, drukt u op `CTRL + ALT +I` om de Dev-console op te roepen om de logbestanden weer te geven.
+* Controleer of de geplande inhoud aanwezig is en of de tijden correct zijn. Controleer of de in de speler ingestelde tijd juist is.
+* Inspect de spelerconsole registreert en controleert om het even welke fouten. Klik en inspecteer met de rechtermuisknop om de consolelogboeken te zien. Als u de Windows-speler gebruikt, drukt u op `CTRL + ALT +I` om de Dev-console op te roepen om de logbestanden weer te geven.
 
 ## Kanaalbeheer {#channel-management}
 
