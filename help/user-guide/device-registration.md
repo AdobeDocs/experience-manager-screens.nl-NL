@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -129,20 +129,33 @@ Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weerg
 
 1. Selecteer de map **Apparaten** en klik op **Apparaatbeheer** op de actiebalk.
 
+   ![afbeelding](/help/user-guide/assets/device-manager/device-manager-1.png)
+
 1. De lijst met geregistreerde apparaten wordt weergegeven.
 
-1. Als u een lange lijst met geregistreerde apparaten hebt, kunt u nu zoeken met het zoekpictogram op de actiebalk of gewoon op `/` (schuine streep) klikken om de zoekfunctionaliteit aan te roepen.
+1. Als u een lange lijst met geregistreerde apparaten hebt, kunt u nu zoeken met het zoekpictogram op de actiebalk
+
+   ![afbeelding](/help/user-guide/assets/device-manager/device-manager-2.png)
+
+   Of
+
+   Klik `/` (schuine streep naar voren) om de zoekfunctionaliteit aan te roepen.
+
+   ![afbeelding](/help/user-guide/assets/device-manager/device-manager-3.png)
+
 
 #### Beperkingen op zoekfunctionaliteit {#limitations}
 
-* De gebruiker zal om het even welk woord in apparatenidentiteitskaart of apparatennaam kunnen zoeken. Sla de apparaatnamen op in meerdere woorden, zoals &quot;Boston Store Lobby&quot;, in plaats van &quot;BostonStoreLobby&quot;.
+* De gebruiker zal om het even welk woord kunnen zoeken bestaand in *Apparaat ID* of *Apparaatnaam*.
 
-* In het eerste geval is het toegestaan te zoeken naar elk woord &quot;boston&quot;, &quot;store&quot;, &quot;lobby&quot;, maar in het tweede geval zal het zoeken naar &quot;boston&quot; de resultaten niet weergeven.
+   >[!NOTE]
+   >Het wordt aanbevolen de apparaatnamen te maken in meerdere woorden, zoals *Boston Store Lobby* in plaats van één *BostonStoreLobby*.
 
-* Jokerteken, `*` wordt ondersteund voor zoeken. Als u alle apparaten met een naam wilt zoeken die begint met **boston**, kunt u **boston*** gebruiken.
+* Als u apparaatnamen maakt, zoals *Boston Store Lobby*, kunt u zoeken naar elk woord *boston*, *store* of *lobby*, maar als de apparaatnaam wordt aangeduid als *BostonStoreLobby* zoekend *boston* zal de resultaten niet tonen.
 
-1. Als de apparaatnaam **BostonStoreLobby** is en het zoeken naar **boston** zal niet het resultaat terugkeren maar **boston*** zal het resultaat terugkeren.
+* Jokerteken, `*` wordt ondersteund voor zoeken. Als u alle apparaten wilt zoeken met namen die beginnen met *boston*, kunt u *boston** gebruiken.
 
+1. Als de apparaatnaam *BostonStoreLobby* is en het zoeken naar *boston* zal het resultaat niet retourneren in plaats daarvan wanneer u *boston** in uw zoekcriteria gebruikt, wordt het resultaat geretourneerd.
 
 ## Beperkingen betreffende apparaatregistratie {#limitations-on-device-registration}
 
