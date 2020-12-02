@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202011
 description: De pagina beschrijft de Nota's van de Versie voor de Pak 202011 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 AEM Screens heeft AEM 6.5 Feature Pack uitgebracht 6.
 
-U kunt het recentste eigenschappak voor AEM Screens 6.5.6 Versie van [het Portaal van de Distributie van de Software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer naar **Adobe Experience Manager** tab en zoek **Screens** om het nieuwste functiepakket te krijgen.
+U kunt het recentste eigenschappak voor AEM Screens 6.5.6 Versie van [het Portaal van de Distributie van de Software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer naar **Adobe Experience Manager** tab en zoek **Screens** om het nieuwste functiepakket met de naam **AEM 6.5 Screens FP6** te krijgen.
 
 ## Releasedatum {#release-date}
 
@@ -41,10 +41,11 @@ Raadpleeg [Tizen Player implementeren](/help/user-guide/tizen-player.md) voor me
 * **Functies zoeken vanuit Apparaatbeheer**
 
    Er is nu een nieuwe zoekfunctionaliteit beschikbaar via de interface van Apparaatbeheer met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
+Raadpleeg [Een apparaat zoeken vanuit Apparaatbeheer](/help/user-guide/device-registration.md#search-device) voor meer informatie.
 
 * **Standaardpinginterval**
 
-   Het gebrek pingelt interval is nu geplaatst aan 30 seconden voor deze versie.
+   Het gebrek pingelt interval is nu geplaatst aan 30 seconden in deze versie.
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
