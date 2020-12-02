@@ -2,10 +2,10 @@
 title: Rapport Inhoudstoewijzing
 description: Op deze pagina vindt u een beschrijving van het downloaden en gebruiken van het rapport Inhoudstoewijzing.
 translation-type: tm+mt
-source-git-commit: b93baeeb26e48b906ee1ddfc034112f8b73615af
+source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 1%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
@@ -20,34 +20,21 @@ Met het Rapport Inhoudstoewijzing kan een AEM Screens-auteur of een beheerder he
 
 Met het Rapport Inhoudstoewijzing kunt u niet alleen een voorvertoning weergeven van alle kanalen, middelen, beeldschermen en apparaten in het geselecteerde AEM Screens-project, maar beschikt u ook over een structuur op hoog niveau voor uw project.
 
-### Rapport voor inhoudstoewijzing {#downloading-content-assignment-report-fp} gebruiken
 
-#### Het project {#setting-up-project} instellen
+### Voorwaarden {#pre-reqs}
 
-Voer de onderstaande stappen uit om het Rapport Inhoud toewijzen te downloaden van een AEM Screens-project:
+Voordat u het rapport Inhoud toewijzen downloadt, moet u een AEM Screens-project met kanalen, locaties en apparaten instellen.
+Raadpleeg de volgende bronnen voor meer informatie:
 
-1. Maak een AEM Screens met de naam **DemoScreens**.
+1. [Projecten maken en beheren](/help/user-guide/creating-a-screens-project.md)
+1. [Kanalen maken en beheren](/help/user-guide/managing-channels.md)
+1. [Locaties maken en beheren](/help/user-guide/managing-locations.md)
+1. [Weergaven maken en beheren](/help/user-guide/managing-displays.md)
+1. [Apparaten maken](/help/user-guide/managing-devices.md)
+1. [Kanalen toewijzen](/help/user-guide/channel-assignment-latest-fp.md)
 
-   ![afbeelding](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. Creeer twee opeenvolgingskanalen in **DemoScreens** zoals **ChannelOne** en **ChannelTwo**.
-
-   ![afbeelding](/help/user-guide/assets/content-assignment-report/car-2.png)
-
-1. Selecteer **ChannelOne** en klik **Edit** van de actiebar. Voeg weinig elementen (afbeeldingen/video&#39;s) toe aan dit kanaal. Op dezelfde manier voeg activa aan **ChannelTwo** toe.
-
-1. Navigeer naar de map Locations vanuit **DemoScreens** —> **Locations** en maak drie verschillende locaties met de naam **SanJose**, **Dublin** en **SanFrancisco**.
-
-   ![afbeelding](/help/user-guide/assets/content-assignment-report/car-3.png)
-
-1. Navigeer naar elk van de locaties en maak een weergave voor elke locatie, zoals **SanJoseMain** onder **SanJose**-locatie, **DublinMain** onder **Dublin**-locatie en **SanFranciscoMain** onder **>SanFrancisco** locatie.
-
-1. Wijs een apparaat aan elk van de vertoning toe.
-
-   >[!NOTE]
-   >Meer informatie over het toewijzen van een kanaal aan een vertoning, verwijs naar [Kanaaltoewijzing](/help/user-guide/channel-assignment.md).
-
-#### Rapport voor inhoudstoewijzing {#downloading-content-assignment-report} downloaden
+## Rapport voor inhoudstoewijzing {#downloading-content-assignment-report-fp} downloaden
 
 Als u uw AEM Screens-project hebt ingesteld en vertoningen hebt toegewezen aan elk van de locaties zoals in de voorgaande stappen wordt weergegeven, kunt u het Rapport Inhoudstoewijzing downloaden.
 
@@ -64,8 +51,4 @@ Volg de onderstaande instructies om het Rapport Inhoudstoewijzing te downloaden:
 
    >[!NOTE]
    >Het gedownloade spreadsheet bestaat uit vier kolommen zoals **Kanalen**, **Middelen**, **Vertoningen**, en **Apparaten** die kunnen worden gebruikt om deze vier entiteiten met betrekking tot uw AEM Screens-project verder te onderzoeken.
-
-
-
-
 
