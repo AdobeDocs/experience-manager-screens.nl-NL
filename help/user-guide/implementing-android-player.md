@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 1%
+source-wordcount: '1132'
+ht-degree: 0%
 
 ---
 
@@ -109,3 +109,65 @@ In het volgende diagram wordt de implementatie van waakhond-service getoond:
 >In Android wordt de *AlarmManager* gebruikt om de *pendingIntents* te registreren die ook kunnen worden uitgevoerd als de app is vastgelopen en de alarmlevering niet exact is via API 19 (Kitkat). Behoud wat ruimte tussen het interval van de tijdopnemer en *alarm* *pendingIntent* alarm.
 
 **3. Toepassing crash** In het geval van een crash, wordt de pendingIntent voor Reboot geregistreerd met AlarmManager niet meer opnieuw ingesteld en wordt daarom een reboot of nieuw begin van app uitgevoerd (afhankelijk van toestemmingen beschikbaar op het tijdstip van initialisering van de cordova plugin).
+
+## Bulkprovisioning van Android Player {#bulk-provision-android-player}
+
+Wanneer u de Android-speler bulksgewijs implementeert, moet u de speler de mogelijkheid bieden naar een AEM instantie te verwijzen en andere eigenschappen te configureren zonder deze handmatig in te voeren in de interface van Admin.
+
+>[!NOTE]
+>Deze functie is beschikbaar in Android Player 42.0.372.
+
+Voer de onderstaande stappen uit om bulkprovisioning in de Android-speler toe te staan:
+
+1. Maak een configuratie-JSON-bestand met de naam `player-config.default.json`.
+Verwijs naar [Voorbeeld JSON Beleid](#example-json) evenals een lijst die het gebruik van diverse [Beleidsattributen](#policy-attributes) beschrijft.
+
+1. Gebruik een MDM of ADB of Android Studio dossierontdekkingsreiziger om dit beleidJSON dossier aan *sdcard* omslag op het Android apparaat te laten vallen.
+
+1. Zodra het dossier wordt opgesteld, gebruik MDM om de spelertoepassing te installeren.
+
+1. Wanneer de spelertoepassing begint, zal het dit configuratiedossier lezen en aan de toepasselijke AEM server richten waar het kan worden geregistreerd en later worden gecontroleerd.
+
+   >[!NOTE]
+   >Dit bestand is *alleen-lezen* de eerste keer dat de toepassing wordt gestart en kan niet worden gebruikt voor volgende configuraties. Als de speler wordt gestart voordat het configuratiebestand wordt neergezet, verwijdert u de toepassing gewoon en installeert u deze opnieuw op het apparaat.
+
+### Beleidskenmerken {#policy-attributes}
+
+De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verwijzing samen:
+
+| **Beleidsnaam** | **Doel** |
+|---|---|
+| *server* | De URL naar de Adobe Experience Manager-server. |
+| *resolutie* | De resolutie van het apparaat. |
+| *rebootSchedule* | Het programma voor opnieuw opstarten is van toepassing op alle platforms. |
+| *enableAdminUI* | Schakel de interface van Admin in om het apparaat op de site te configureren. Stel in op *false* als deze volledig is geconfigureerd en in productie is. |
+| *enableOSD* | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Overweeg het plaatsen aan *false* zodra het volledig en in productie wordt gevormd. |
+| *enableActivityUI* | Schakel deze optie in om de voortgang van activiteiten zoals downloaden en synchroniseren weer te geven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
+| *enableNativeVideo* | Inschakelen om native hardwareversnelling te gebruiken voor het afspelen van video (alleen Android). |
+
+### Voorbeeld JSON-beleid {#example-json}
+
+```java
+{
+  "server": "https://author-screensdemo.adobecqms.net",
+"device": "",
+"user": "",
+"password": "",
+"resolution": "auto",
+"rebootSchedule": "at 4:00 am",
+"maxNumberOfLogFilesToKeep": 10,
+"logLevel": 3,
+"enableAdminUI": true,
+"enableOSD": true,
+"enableActivityUI": false,
+"enableNativeVideo": false,
+"enableAutoScreenshot": false,
+"cloudMode": false,
+"cloudUrl": "https://screens.adobeioruntime.net",
+"cloudToken": "",
+"enableDeveloperMode": true
+}
+```
+
+>[!NOTE]
+>Alle Android-apparaten hebben een *sdcard*-map, ongeacht of een werkelijke *sdcard* is ingevoegd of niet. Wanneer dit bestand wordt geïmplementeerd, bevindt het zich op hetzelfde niveau als de map Downloads. Sommige MDM&#39;s zoals Samsung Knox verwijzen mogelijk naar deze *sdcard* maplocatie als *Interne opslag*.
