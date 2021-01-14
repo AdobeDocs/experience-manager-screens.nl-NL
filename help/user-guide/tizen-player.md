@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 translation-type: tm+mt
-source-git-commit: 1ec3e3541755550f719dbe53e83326d9796de14f
+source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -77,29 +77,40 @@ Voer de onderstaande stappen uit om een bulkbepaling in de toepassing op te neme
 
 ### Het Tizen-apparaat aanmelden bij de Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
-Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Samsung Remote Management Service (RMS) en op afstand URL Launcher te configureren:
+Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Samsung Remote Management Service (RMS) en de URL Launcher op afstand te configureren:
 
 >[!NOTE]
 >Controleer de netwerkinstellingen en de monitor.
 
-1. Druk Menu op uw ver en ga Systeem en druk dan binnen op Spel Via.
+1. Navigeer naar **Menu** -> **Netwerk** -> **Servernetwerkinstellingen** en druk op **Enter**.
 
    >[!NOTE]
-   >Controleren of het scherm is ingesteld op Afspelen via URL Launcher
-1. Navigeer naar **Menu** -> **Netwerk** -> **Servernetwerkinstellingen** en druk op **Enter**.
+   >Controleer of het scherm is ingesteld op Afspelen via URL Launcher.
 
 1. Navigeer aan het Adres van de Server en typ in de toegang MagicInfo URL en druk Gedaan.
 
-1. Navigeer naar het tabblad Apparaat wanneer u bent aangemeld bij MIS
-1. Zoek het apparaat u enkel gevormd door het IP adres en/of zijn Adres van MAC te bekijken.
-1. Nadat een apparaat is gevonden, klikt u op het selectievakje en selecteert u Goedkeuren
-1. Controleer of het scherm is ingesteld op Afspelen via URL Launcher
-1. Druk op Menu op de afstandsbediening en ga naar Systeem en druk vervolgens op Enter op Play Via
-1. Ga naar Menu -> Netwerk -> De Montages van het Netwerk van de Server en druk binnengaan
-1. Ga naar het Adres van de Server en typ in de toegang van MagicInfo URL en druk Gedaan
 1. Afhankelijk van het geval TLS instellen op Gebruik of Niet gebruiken
-1. Ga naar poort en selecteer het poortnummer van de server.
-1. Druk op Opslaan als de opties gereed zijn.
+   1. Ga naar poort en selecteer het poortnummer van de server.
+   1. Druk op Opslaan als de opties gereed zijn.
+
+1. Navigeer naar het tabblad Apparaat wanneer u bent aangemeld bij MIS
+   1. Zoek het apparaat u enkel gevormd door het IP adres en/of zijn Adres van MAC te bekijken.
+   1. Nadat een apparaat is gevonden, klikt u op het selectievakje en selecteert u Goedkeuren.
+
+1. Nadat u op de knop Goedgekeurd hebt geklikt, verschijnt de volgende pop-up
+   1. Vul de vereiste gegevens in
+   1. een apparaatgroep selecteren
+   1. Klik op OK om het goedkeuringsproces te voltooien.
+
+1. Zodra Apparaat wordt goedgekeurd, zou het als volgt op de Lijst van het Apparaat moeten verschijnen.
+   1. Klik op de knop Informatie op het apparaatvak &quot;i&quot;
+
+1. Pop-up Apparaatgegevens wordt weergegeven als volgt en klik op de knop Bewerken.
+
+1. De opties voor Apparaat bewerken worden als volgt weergegeven en selecteren het tabblad Setup.
+
+1. Zoek de sectie URL Launcher en voer de URL in die als host fungeert voor het werkwoord en `SSSP config file` om een SSSP-toepassing te installeren.
+
 
 
 
