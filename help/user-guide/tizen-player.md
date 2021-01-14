@@ -2,10 +2,10 @@
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 translation-type: tm+mt
-source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
+source-git-commit: 0c8ca6c509208d19d2ea23e5bff712aaf780d2fe
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 0%
+source-wordcount: '930'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,9 @@ Voer de onderstaande stappen uit om deze niet-compatibele clients vrij te stelle
 
 1. Upgrade naar Adobe Experience Manager (AEM) Service Pack 6.5.8.
 
+   >[!NOTE]
+   >Als u AEM 6.5.8 installeert, kunt u de volgende stappen 2 &amp; 3 overslaan.
+
 1. Navigeer naar `/system/console/bundles` in AEM en klik op de knop `install/update`.
 
 1. Installeer het jar-bestand `crx-auth-token`. U moet mogelijk AEM afsluiten en opnieuw starten nadat u deze pot hebt geïnstalleerd, omdat deze gerelateerd is aan verificatie.
@@ -38,27 +41,23 @@ Voer de onderstaande stappen uit om deze niet-compatibele clients vrij te stelle
 
 1. U zou een nieuwe optie *Gebruikersagenten moeten zien om van zelfde attributen worden vrijgesteld*. Vul deze met een regex die overeenkomt met de gebruikersagent(s) die niet compatibel is (zijn) met het *SameSite=None*-kenmerk.
    >[!NOTE]
-   >Zie [SameSite=None: Bekende Niet-compatibele Clients](https://www.chromium.org/updates/same-site/incompatible-clients) voor meer informatie. Gebruik voor de Tizen-speler de regex: `(.*)Tizen (4|5)(.*)`.
+   >Zie [SameSite=None: Bekende Niet-compatibele Clients](https://www.chromium.org/updates/same-site/incompatible-clients) voor meer informatie. Gebruik voor de Tizen-speler de regex: `(.*)Tizen(.*)`.
 
 1. Registreer de Tizen-speler tegen AEM 6.5.5 en hoger en registreer de inhoud normaal.
 
 
 ## De lokale server instellen en ZIP-bestanden uitpakken {#setting-local-server}
 
-Voer de onderstaande stappen uit om de lokale server in te stellen en de geëxtraheerde bestanden te kopiëren:
-
-1. IP-adres van uw lokale computer ophalen.
-   >[!NOTE]
-   >Raadpleeg de officiële documentatie voor informatie over het inschakelen van de lokale server op uw platform.
-
-1. Navigeer in de Terminal naar dezelfde map in de map met uitgevouwen installatieprogramma en controleer of de localhost werkt.
-
-1. De Tizen-speler downloadt het installatieprogramma van de lokale server.
+Voer de onderstaande stappen uit:
 
 1. Kopieer de twee geëxtraheerde bestanden, zoals `AEMScreensPlayer.wgt` en `sssp_config.xml`, naar de hoofdmap van uw lokale Apache-webserver.
 
    >[!NOTE]
    >De `AEMScreensPlayer.wgt`is de werkelijke Tizen Player-toepassing en `sssp_config.xml` bevat informatie over deze kaart die u helpt deze te installeren op een Tizen-apparaat.
+
+1. Hiermee wordt de IP of URL van uw lokale HTTP-server opgehaald (en wordt het pad naar de map met de geëxtraheerde bestanden in stap 2 aangegeven als deze worden uitgepakt naar een submap en niet naar de hoofdmap)
+
+1. De Tizen-speler downloadt het installatieprogramma van de lokale server.
 
 ### Updates configureren op het Samsung-apparaat {#config-updates}
 
@@ -73,7 +72,9 @@ Volg de onderstaande stappen op het Samsung-apparaat om de installatie van de AE
 
 1. Zodra de Lanceerinrichting URL wordt geplaatst, druk **Huis** knoop van uw ver.
 
-1. Navigeer naar **URL Launcher Settings** en voer het IP-adres van uw localhost-server in.
+1. Navigeer naar **URL Launcher Settings** en voer het IP-adres van uw localhost-server in en klik op **Done**.
+   >[!NOTE]
+   >De Tizen-speler moet verbinding kunnen maken met de http-server.
 
 1. De AEM Screens Player moet nu automatisch worden geïnstalleerd en gestart op uw Samsung-apparaat.
 
@@ -115,6 +116,8 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
 1. Indien nodig TLS instellen. Navigeer naar de poort en selecteer het poortnummer van de server en klik op **Opslaan**.
 
 1. Navigeer naar het **Apparaat** lusje en controleer het apparaat u enkel vormde. Nadat een apparaat is gevonden, klikt u op het selectievakje en selecteert u **Goedkeuren**.
+
+   >![afbeelding](/help/user-guide/assets/tizen/rms-3.png)
 
 1. Vul de vereiste informatie in en selecteer een apparaatgroep. Klik op **OK** om het goedkeuringsproces te voltooien.
 
