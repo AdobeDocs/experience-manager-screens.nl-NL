@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 translation-type: tm+mt
-source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
+source-git-commit: 4c005ace7b1da94ed527164d6cfa09666d746273
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,27 @@ Voer de volgende stappen uit om Tizen Player voor AEM Screens te implementeren:
 1. Navigeer naar de pagina [AEM 6.5 Player Downloads](https://download.macromedia.com/screens/) om de Tizen Player te downloaden.
 
 1. Installeer het bestand *(.zip)* van de lokale computer.
+
+## Gebruikersagenten vrijstellen met het Samesite Cookie-probleem {#exempting-user-agents}
+
+>[!IMPORTANT]
+>**Dit punt is van toepassing op AEM 6.5.5 tot en met AEM 6.5.7**
+>Sommige browserengines zijn niet compatibel met het kenmerk *SameSite=None* dat wordt gebruikt in het aanmeldingstoken dat wordt uitgegeven door AEM 6.5 tot AEM 6.7. In de meeste gevallen kan het probleem worden opgelost door de browser naar de nieuwste beschikbare versie te upgraden. In sommige gevallen zijn dergelijke upgrades mogelijk niet mogelijk, zoals bij slimme beeldschermen, instellen van bovenste vakken of andere apparaten met ingesloten bladerprogramma&#39;s. Voer de volgende stappen uit om deze niet-compatibele clients vrij te stellen wanneer u SameSite=None gebruikt.
+
+1. Download de patch *jar file* van `https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local/com/adobe/granite/crx-auth-token/2.6.10/`.
+
+1. Navigeer naar `/system/console/bundles` in AEM en klik op de knop `install/update`.
+
+1. Installeer het jar-bestand `crx-auth-token`. U moet mogelijk AEM afsluiten en opnieuw starten nadat u deze pot hebt geïnstalleerd, omdat deze gerelateerd is aan verificatie.
+
+1. Nadat AEM opnieuw begint, ga naar `/system/console/configMgr` en onderzoek naar **de Handler van de Authentificatie van het Symbolische Symbolie van de Adobe.** Stel de waarde voor de instelling SameSite in op Geen.
+
+1. U zou een nieuwe optie *Gebruikersagenten moeten zien om van zelfde attributen worden vrijgesteld*. Vul deze met een regex die overeenkomt met de gebruikersagent(s) die niet compatibel is (zijn) met het *SameSite=None*-kenmerk.
+   >[!NOTE]
+   >Zie [SameSite=None: Bekende Niet-compatibele Clients](https://www.chromium.org/updates/same-site/incompatible-clients) voor meer informatie.
+
+1. Gebruik voor de Tizen-speler de regex: `(.*)Tizen (4|5)(.*)` Registreer de Tizen-speler op uw AEM 6.5.5 en hoger en registreer de inhoud normaal.
+
 
 ## De lokale server instellen en ZIP-bestanden uitpakken {#setting-local-server}
 
@@ -46,7 +67,7 @@ Volg de onderstaande stappen op het Samsung-apparaat om de installatie van de AE
 1. Klik op de knop **MENU** van de afstandsbediening van het apparaat en schuif omlaag naar **Systeem** vanaf de linkernavigatiebalk.
 
 1. Schuif omlaag en selecteer de optie **Afspelen via URL Launcher**.
-   ![afbeelding](/help/user-guide/assets/tizen/url-launcher.png)
+   ![afbeelding](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Druk **Home** knoop van uw ver.
 
@@ -86,34 +107,31 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
 
    >[!NOTE]
    >Controleer of het scherm is ingesteld op Afspelen via URL Launcher.
+   >![afbeelding](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Navigeer aan het Adres van de Server en typ in de toegang MagicInfo URL en druk Gedaan.
 
-1. Afhankelijk van het geval TLS instellen op Gebruik of Niet gebruiken
-   1. Ga naar poort en selecteer het poortnummer van de server.
-   1. Druk op Opslaan als de opties gereed zijn.
+1. Indien nodig TLS instellen. Navigeer naar de poort en selecteer het poortnummer van de server. Klik op **Opslaan**.
 
-1. Navigeer naar het tabblad Apparaat wanneer u bent aangemeld bij MIS
-   1. Zoek het apparaat u enkel gevormd door het IP adres en/of zijn Adres van MAC te bekijken.
-   1. Nadat een apparaat is gevonden, klikt u op het selectievakje en selecteert u Goedkeuren.
+1. Navigeer naar het tabblad Apparaat en zoek naar het apparaat dat u net hebt geconfigureerd.
 
-1. Nadat u op de knop Goedgekeurd hebt geklikt, verschijnt de volgende pop-up
-   1. Vul de vereiste gegevens in
-   1. een apparaatgroep selecteren
-   1. Klik op OK om het goedkeuringsproces te voltooien.
+1. Nadat een apparaat is gevonden, klikt u op het selectievakje en selecteert u **Goedkeuren**.
 
-1. Zodra Apparaat wordt goedgekeurd, zou het als volgt op de Lijst van het Apparaat moeten verschijnen.
-   1. Klik op de knop Informatie op het apparaatvak &quot;i&quot;
+1. Vul de vereiste informatie in en selecteer een apparaatgroep. Klik op **Ok** om het goedkeuringsproces te voltooien.
 
-1. Pop-up Apparaatgegevens wordt weergegeven als volgt en klik op de knop Bewerken.
+   >![afbeelding](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Bewerk apparaatopties en selecteer het tabblad **Setup**.
+1. Zodra het Apparaat wordt goedgekeurd, zou het op de Lijst van het Apparaat moeten verschijnen. Klik op de *Informatieknop* in het apparaatvak **i**.
 
-1. Navigeer naar de sectie **URL Launcher** en voer de URL in die als host fungeert voor de widget en `SSSP config file` om een `SSSP`-toepassing te installeren, zoals in de onderstaande afbeelding wordt getoond.
+   >![afbeelding](/help/user-guide/assets/tizen/rms-6.png)
+
+1. Het dialoogvenster Apparaatinformatie wordt weergegeven. Selecteer het tabblad **Apparaatgegevens** en klik op **Bewerken**.
+
+1. Bewerk apparaatopties en selecteer het tabblad **Setup**. Navigeer naar de sectie **URL Launcher** en voer de URL in die als host fungeert voor de widget en `SSSP config file` om een `SSSP`-toepassing te installeren, zoals in de onderstaande afbeelding wordt getoond.
 
    ![afbeelding](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Klik op **Opslaan** om de wijzigingen van kracht te laten worden op het scherm.
+1. Klik op **Opslaan** om de wijzigingen weer te geven op het scherm.
 
 
 
