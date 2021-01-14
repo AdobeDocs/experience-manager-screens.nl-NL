@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 translation-type: tm+mt
-source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
+source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -107,9 +107,13 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
 
 1. Pop-up Apparaatgegevens wordt weergegeven als volgt en klik op de knop Bewerken.
 
-1. De opties voor Apparaat bewerken worden als volgt weergegeven en selecteren het tabblad Setup.
+1. Bewerk apparaatopties en selecteer het tabblad **Setup**.
 
-1. Zoek de sectie URL Launcher en voer de URL in die als host fungeert voor het werkwoord en `SSSP config file` om een SSSP-toepassing te installeren.
+1. Navigeer naar de sectie **URL Launcher** en voer de URL in die als host fungeert voor de widget en `SSSP config file` om een `SSSP`-toepassing te installeren, zoals in de onderstaande afbeelding wordt getoond.
+
+   ![afbeelding](/help/user-guide/assets/tizen/rms-9.png)
+
+1. Klik op **Opslaan** om de wijzigingen van kracht te laten worden op het scherm.
 
 
 
