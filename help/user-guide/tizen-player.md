@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 translation-type: tm+mt
-source-git-commit: 092be09ec9477c9ff7561347d8f05641a90a9b40
+source-git-commit: 6f93922bf94b9f0f752c0953c7bed35b5d056e4b
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -68,23 +68,22 @@ Volg de onderstaande stappen op het Samsung-apparaat om de installatie van de AE
 
 1. Klik op de knop **MENU** van de afstandsbediening van het apparaat en schuif omlaag naar **Systeem** vanaf de linkernavigatiebalk.
 
-1. Schuif omlaag en selecteer de optie **Afspelen via URL Launcher**.
+1. Schuif omlaag en selecteer de optie **Afspelen via** en wijzig deze in **URL-opstarter**.
    ![afbeelding](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Druk **Home** knoop van uw ver.
+1. Zodra de Lanceerinrichting URL wordt geplaatst, druk **Huis** knoop van uw ver.
 
-1. Voer het IP-adres van uw localhost-server in.
-
-1. Selecteer **Extern** in de **Modus Ontwikkelaar**.
-
-1. Klik op de knop **Home** op de afstandsbediening van het apparaat en selecteer **URL Launcher**.
+1. Navigeer naar **URL Launcher Settings** en voer het IP-adres van uw localhost-server in.
 
 1. De AEM Screens Player moet nu automatisch worden geïnstalleerd en gestart op uw Samsung-apparaat.
+
+   >[!NOTE]
+   >Zowel het apparaat Tizen als de `http`-server moeten verbinding met elkaar kunnen maken. De server moet dus bereikbaar zijn voor de Tizen-speler.
 
 ## Bulkprovisioning van tizen Player {#bulk-provisioning-tizen-player}
 
 >[!NOTE]
->Het kan een vervelende inspanning zijn om het adres van uw AEM server in admin UI van elk en elk apparaat voor een groot aantal apparaten manueel in te gaan. Het wordt aanbevolen de Samsung Remote Management (RMS)-oplossing te gebruiken voor de implementatie en het beheer van de oplossing. Raadpleeg [Het Tizen-apparaat inschrijven bij de Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm) voor meer informatie.
+>Het kan een vervelende inspanning zijn om het adres van uw AEM server in admin UI van elk en elk apparaat voor een groot aantal apparaten manueel in te gaan. Het wordt aanbevolen de Samsung Remote Management (RMS)-oplossing te gebruiken voor het implementeren en beheren van grotere oplossingen. Raadpleeg [Het Tizen-apparaat inschrijven bij de Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm) voor meer informatie.
 
 Voer de onderstaande stappen uit om een bulkbepaling in de toepassing op te nemen die naar de AEM-auteur verwijst wanneer deze wordt gestart:
 
@@ -111,9 +110,9 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
    >Controleer of het scherm is ingesteld op Afspelen via URL Launcher.
    >![afbeelding](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Navigeer aan het Adres van de Server en typ in de toegang MagicInfo URL en druk Gedaan.
+1. Navigeer naar het serveradres en typ in de MagicInfo URL-toegang en druk op **Done**.
 
-1. Indien nodig TLS instellen. Navigeer naar de poort en selecteer het poortnummer van de server. Klik op **Opslaan**.
+1. Indien nodig TLS instellen. Navigeer naar de poort en selecteer het poortnummer van de server en klik op **Opslaan**.
 
 1. Navigeer naar het **Apparaat** lusje en controleer het apparaat u enkel vormde. Nadat een apparaat is gevonden, klikt u op het selectievakje en selecteert u **Goedkeuren**.
 
