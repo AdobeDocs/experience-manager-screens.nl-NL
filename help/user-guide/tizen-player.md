@@ -2,7 +2,7 @@
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 translation-type: tm+mt
-source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
+source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Volg de onderstaande stappen op het Samsung-apparaat om de installatie van de AE
 
 Voer de onderstaande stappen uit om deze niet-compatibele clients vrij te stellen wanneer u *SameSite=None* gebruikt:
 
-1. Upgrade naar Adobe Experience Manager (AEM) Service Pack 6.5.8.
+1. Upgrade naar Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
 1. Nadat AEM opnieuw begint, ga naar `/system/console/configMgr` en onderzoek naar **de Handler van de Authentificatie van het Symbolische Symbolie van de Adobe.** Stel de waarde voor de waarde **SameSite** in op **None**.
 
