@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 translation-type: tm+mt
-source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
+source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -102,10 +102,6 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
 >Controleer de netwerkinstellingen en de monitor.
 
 1. Navigeer naar **Menu** -> **Netwerk** -> **Servernetwerkinstellingen** en druk op **Enter**.
-
-   >[!NOTE]
-   >Controleer of het scherm is ingesteld op Afspelen via URL Launcher.
-   >![afbeelding](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Navigeer naar het serveradres en typ in de MagicInfo URL-toegang en druk op **Done**.
 
