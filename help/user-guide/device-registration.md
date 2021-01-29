@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
+source-git-commit: 85d50951caa27b62b1e05fc808de96ffb4e526b5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Een apparaat zoeken vanuit Apparaatbeheer {#search-device}
+## Een apparaat zoeken vanuit Apparaatbeheer {#search-device}
 
 Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weergeven via de interface van Apparaatbeheer.
 
@@ -144,7 +144,7 @@ Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weerg
    ![afbeelding](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
-#### Beperkingen op zoekfunctionaliteit {#limitations}
+### Beperkingen op zoekfunctionaliteit {#limitations}
 
 * De gebruiker zal om het even welk woord kunnen zoeken bestaand in *Apparaat ID* of *Apparaatnaam*.
 
