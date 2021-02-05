@@ -4,7 +4,7 @@ seo-title: Auteur en publicatie configureren in AEM Screens
 description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
 seo-description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 235aa979543455882c72fa262cf7320c4298de5e
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 0%
@@ -165,8 +165,8 @@ Op elke publicatie-instantie:
 1. Selecteer **Apache ActiveMQ Artemis JMS Provider** Configuration
 1. Werk het volgende bij:
 
-* ***Clusterwachtwoord***: (gebruik gecodeerde waarde uit vorige stap per instantie)
-* ***Onderwerpen***: {name: &#39;commands&#39;, adres: &#39;com.adobe.cq.screens.commands&#39;, maxConsumers: 50}
+   * ***Clusterwachtwoord***: (gebruik gecodeerde waarde uit vorige stap per instantie)
+   * ***Onderwerpen***: {name: &#39;commands&#39;, adres: &#39;com.adobe.cq.screens.commands&#39;, maxConsumers: 50}
 
 #### Verifieer ActiveMQ Artemis Cluster {#verify-activemq-artemis-cluster}
 
