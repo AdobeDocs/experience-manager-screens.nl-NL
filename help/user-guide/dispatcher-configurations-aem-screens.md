@@ -4,10 +4,10 @@ seo-title: Dispatcher Configurations voor AEM Screens
 description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 seo-description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 4%
+source-wordcount: '380'
+ht-degree: 2%
 
 ---
 
@@ -32,22 +32,26 @@ Raadpleeg [Dispatcher configureren](https://docs.adobe.com/content/help/en/exper
 
 ## Dispatcher {#configuring-dispatcher} configureren
 
+AEM Screens-spelers/apparaten gebruiken geverifieerde sessies om ook toegang te krijgen tot de bronnen in de publicatieinstanties. Als u dus meerdere publicatieinstanties hebt, moeten de aanvragen altijd naar dezelfde publicatieinstantie gaan, zodat de geverifieerde sessie geldig is voor alle aanvragen die afkomstig zijn van de AEM Screens-spelers/apparaten.
+
 Voer de onderstaande stappen uit om de dispatcher voor een AEM Screens-project te configureren.
 
 ### Vaste sessies {#enable-sticky-session} inschakelen
 
-Als u meer dan één publicatie-instantie met dispatcher wilt gebruiken, moet u het `dispatcher.any`-bestand bijwerken.
+Als u meerdere publicatie-instanties wilt gebruiken die worden voorafgegaan door één verzender, moet u het `dispatcher.any`-bestand bijwerken om kleverigheid mogelijk te maken
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+Als u één publicatie-instantie hebt voorafgegaan door één verzender, helpt het inschakelen van de kleverigheid bij de verzender niet omdat het taakverdelingsmechanisme elke aanvraag naar de verzender kan verzenden. In dit geval moet u de kleverigheid op het niveau van het taakverdelingsmechanisme inschakelen.
+
+Bijvoorbeeld, als u AWS ALB gebruikt, verwijs naar [Doelgroepen voor uw Balancers van de Lading van de Toepassing ](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) voor het toelaten van kleverigheid op het niveau van ALB. Laat de kleverigheid 1 dag toe.
 
 ### Stap 1: Klantkoppen {#step-configuring-client-headers} configureren
 
