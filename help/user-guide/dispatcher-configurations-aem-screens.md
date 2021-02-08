@@ -4,10 +4,10 @@ seo-title: Dispatcher Configurations voor AEM Screens
 description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 seo-description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 translation-type: tm+mt
-source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,9 @@ Als u meerdere publicatie-instanties wilt gebruiken die worden voorafgegaan door
  }
 ```
 
-Als u één publicatie-instantie hebt voorafgegaan door één verzender, helpt het inschakelen van de kleverigheid bij de verzender niet omdat het taakverdelingsmechanisme elke aanvraag naar de verzender kan verzenden. In dit geval moet u de kleverigheid op het niveau van het taakverdelingsmechanisme inschakelen.
+Als u één publicatie-instantie hebt voorafgegaan door één verzender, helpt het inschakelen van de kleverigheid bij de verzender niet omdat het taakverdelingsmechanisme elke aanvraag naar de verzender kan verzenden. In dit geval klikt u op **Enable** in het veld **Stickiness** om deze in te schakelen op het niveau van het taakverdelingsmechanisme, zoals in de onderstaande afbeelding wordt getoond:
+
+![afbeelding](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 Bijvoorbeeld, als u AWS ALB gebruikt, verwijs naar [Doelgroepen voor uw Balancers van de Lading van de Toepassing ](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) voor het toelaten van kleverigheid op het niveau van ALB. Laat de kleverigheid 1 dag toe.
 
