@@ -4,9 +4,9 @@ seo-title: Opdrachtsynchronisatie gebruiken
 description: Volg deze pagina voor meer informatie over het gebruik van Command Sync.
 seo-description: Volg deze pagina voor meer informatie over het gebruik van Command Sync.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -52,10 +52,10 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Maak een weergave in de map **Locations**, zoals in de onderstaande afbeelding wordt getoond.
+1. Maak een locatie **Lobby** en zorg vervolgens voor een weergave met de naam **LobbyDisplay** in de map **Locations**, zoals in de onderstaande afbeelding wordt getoond.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Wijs het kanaal, **ChannelLobby** aan uw **LobbyDisplay** toe.
+1. Wijs het kanaal, **ChannelLobby** aan uw **LobbyDisplay** toe. U kunt het toegewezen kanaal nu vanaf het weergavedashboard bekijken op de weergave.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
    >[!NOTE]
    >
-   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, verwijs naar [Creërend en het Leiden Vertoningen](/help/user-guide/managing-displays.md)
+   >Raadpleeg [Apparaatregistratie](/help/user-guide/device-registration.md) voor meer informatie over het registreren van een apparaat
 
 1. In dit voorbeeld worden voor demo-doeleinden een chroom- en een Windows-speler weergegeven als twee aparte apparaten. Beide apparaten wijzen aan de zelfde vertoning.
    ![image1](assets/command-sync6.png)
