@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 0%
+source-wordcount: '995'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,25 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 ### Configuratie van bulkserver: Meerdere Windows 10-spelers registreren met één configuratie {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
 Nadat u de Windows-speler hebt geïnstalleerd, kunt u meerdere spelers registreren met één configuratie.
+
+## Installatie met CLI (PowerShell) {#install-powershell}
+
+1. Maak bijvoorbeeld een aangepaste locatie **toegewezen** voor schermspeler:
+   `C:\Users\User\screens-player`)
+1. Installeren
+   `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
+1. Open
+   `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
+
+**Voorbeeld**
+
+```shell
+C:\Users\User\Downloads> mkdir screens-player
+
+C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\Downloads\screens-player
+
+C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
+```
 
 >[!NOTE]
 >
