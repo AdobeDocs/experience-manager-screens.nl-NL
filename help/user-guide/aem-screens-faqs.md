@@ -6,7 +6,7 @@ seo-description: Volg deze pagina om antwoorden te krijgen op veelgestelde vrage
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
+source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 0%
@@ -33,7 +33,7 @@ In de volgende sectie worden antwoorden gegeven op een aantal veelgestelde vrage
 * Controleer of de geplande inhoud aanwezig is en of de tijden correct zijn. Controleer of de in de speler ingestelde tijd juist is.
 * Inspect de spelerconsole registreert en controleert om het even welke fouten. Klik en inspecteer met de rechtermuisknop om de consolelogboeken te zien. Als u de Windows-speler gebruikt, drukt u op `CTRL + ALT +I` om de Dev-console op te roepen om de logbestanden weer te geven.
 
-### 2. Hoe kunt u het probleem met een leeg scherm in AEM Screens oplossen door een standaardkanaal of -schema te maken?
+### 2. Hoe kan het probleem met grijswaardenschermen in AEM Screens worden opgelost door een standaardkanaal of -schema te maken?
 
 Als u wilt voorkomen dat het veld leeg of grijs wordt weergegeven, maakt u een standaard globaal kanaal of schema, toegewezen aan elk scherm met de minste prioriteit 1. In het geval dat er iets mis gaat met inhoudsupdates (vanwege netwerk, speler, server of replicatie), omdat de spelers deze inhoud al in het cachegeheugen op de schijf hebben, die goed moet worden afgespeeld en de grijze schermen moeten worden vermeden.
 
