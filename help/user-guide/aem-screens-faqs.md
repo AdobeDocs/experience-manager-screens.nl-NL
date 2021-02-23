@@ -6,9 +6,9 @@ seo-description: Volg deze pagina om antwoorden te krijgen op veelgestelde vrage
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
+source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -165,6 +165,24 @@ Voer de onderstaande stappen uit om een AEM Screens-speler problemen op te losse
 1. Controleer of u `/etc/map` regels op de *auteur* of *publish* instantie hebt en de de schermwegen aan `sling:match` worden aangepast en intern aan een verschillend weg opnieuw gericht. Het oplossen van de nauwkeurige url in `/system/console/jcrresolver` helpt bij het identificeren als *publish* instantie deze URLs aan een ander weg herschrijft.
 
 1. Controleer of de configuratie van Apache Sling Resource Resolver Factory interne herschrijvingen veroorzaakt.
+
+### Hoe kan ik de details van de weergave en het apparaat ophalen van de speler-API?
+
+Er zijn twee manieren om de details te krijgen via:
+
+* **een interne JS API**
+* **een ContextHub-archief**: Drie opslag ContextHub wordt bepaald in  `/libs/screens/clientlibs/contexthub` om kanalen, apparaat en, vertoningsinfo bloot te stellen.
+
+   Volg de stappen hieronder om deze ContentHub opslagwaarden te gebruiken:
+
+   * Bewerk de kanaaleigenschappen en stel het pad ContextHub op het tabblad voor personalisatie in op de waarde (zoals hierboven vermeld)
+   * In het kanaal JS, kunt u gebruiken:
+
+      ```shell
+         ContextHub.getStore('screens-device');
+         ContextHub.getStore('screens-display');
+         ContextHub.getStore('screens-channels');
+      ```
 
 ## Algemene tips voor het oplossen van problemen {#general-troubleshooting-tips}
 
