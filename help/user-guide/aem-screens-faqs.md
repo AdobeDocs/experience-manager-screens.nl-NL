@@ -6,9 +6,9 @@ seo-description: Volg deze pagina om antwoorden te krijgen op veelgestelde vrage
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
+source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1900'
 ht-degree: 0%
 
 ---
@@ -166,9 +166,9 @@ Voer de onderstaande stappen uit om een AEM Screens-speler problemen op te losse
 
 1. Controleer of de configuratie van Apache Sling Resource Resolver Factory interne herschrijvingen veroorzaakt.
 
-### Hoe kan ik de details van de weergave en het apparaat ophalen van de speler-API?
+### 6. Hoe kan ik de details van de weergave en het apparaat ophalen van de speler-API?
 
-Er zijn twee manieren om de details te krijgen via:
+U kunt de details van de weergave en het apparaat ophalen via:
 
 * **een interne JS API**
 * **een ContextHub-archief**: Drie opslag ContextHub wordt bepaald in  `/libs/screens/clientlibs/contexthub` om kanalen, apparaat en, vertoningsinfo bloot te stellen.
