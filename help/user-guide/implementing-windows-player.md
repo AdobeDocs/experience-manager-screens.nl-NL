@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
+source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Configuratie** met `http://localhost:4502/system/console/configMgr`.
 
 1. Zoek naar *Adobe Granite Token Authentication Handler*.
 
-1. Stel het **SameSite-kenmerk voor de cookies met inlognaam** in van **Lax** naar **None**.
+1. Stel het **SameSite-kenmerk voor de cookies met inlognaam** van **Lax** in op **Geen**.
    ![afbeelding](/help/user-guide/assets/granite-updates.png)
 
 1. Klik **Opslaan**.
@@ -67,10 +67,6 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 >Als **State** **REGISTERED** is, zult u merken dat het **Device id** veld wordt gevuld.
 >
 >Als **State** **UNREGISTERED** is, kunt u **Token** gebruiken om het apparaat te registreren.
-
-### Configuratie van bulkserver: Meerdere Windows 10-spelers registreren met één configuratie {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
-
-Nadat u de Windows-speler hebt geïnstalleerd, kunt u meerdere spelers registreren met één configuratie.
 
 ## Installatie met CLI (PowerShell) {#install-powershell}
 
