@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '997'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 >Als **State** **REGISTERED** is, zult u merken dat het **Device id** veld wordt gevuld.
 >
 >Als **State** **UNREGISTERED** is, kunt u **Token** gebruiken om het apparaat te registreren.
+
+## De standaardopties wijzigen in Windows Installer {#changing-default-options}
+
+Volg deze sectie om te leren hoe te om de standaardopties in de Installateur van Vensters en de lijst van beschikbare aanpassingen te veranderen.
 
 ## Installatie met CLI (PowerShell) {#install-powershell}
 
