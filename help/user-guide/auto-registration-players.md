@@ -3,9 +3,9 @@ title: Automatische registratie van spelers
 seo-title: Automatische registratie van spelers
 description: Volg deze pagina voor meer informatie over automatische registratie van afspeelapparatuur met AMS-/On-Prem-schermen.
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Bulk die duizenden spelers handmatig registreert, kan zeer omslachtig worden en 
 Voer de volgende stappen uit om automatische registratie van spelers te implementeren:
 
 1. Meld u aan bij de AEM en selecteer het project AEM schermen en klik op **Eigenschappen** op de actiebalk.
-1. Selecteer het tabblad **Geavanceerd** om de sectie **Apparaatregistratie** weer te geven, zoals hieronder wordt weergegeven.
-
-   ![afbeelding](/help/user-guide/assets/auto-registration/auto-register1.png)
+1. Selecteer het tabblad **Geavanceerd** om de sectie **Apparaatregistratie** weer te geven.
 
 1. Geef een automatische registratiecode op in het veld **Bulkregistratiecode** en een optionele standaardweergave in **Standaardweergave toewijzen** om toe te wijzen aan de automatisch geregistreerde speler.
    >[!NOTE]
    >Voer desgewenst een code van uw keuze in en selecteer een standaardweergave.
+
+   ![afbeelding](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Verstrek uw spelers van de aangewezen server URL en registratiecode gebruikend een MDM of configuratie JSON dossier.
 
    >[!NOTE]
@@ -42,7 +42,7 @@ Volg de onderstaande sectie om een aantal van de beste praktijken voor Veilighei
 
 * Om ervoor te zorgen dat de registratiecode niet gecompromitteerd is, vorm de code in AEM enkel alvorens de bulkregistratie te beginnen en wanneer gedaan, gelieve dat gebied te ontruimen en in AEM op te slaan.
 
-* U kunt vormen dat de weg `/bin/screens/`registratie slechts van bekende IP waaiers kan worden betreden indien mogelijk.
+* U kunt de weg `/bin/screens/registration` vormen om slechts van bekende IP waaiers indien mogelijk toegankelijk te zijn.
 
 * Overweeg het gebruiken van een MDM aan voorziening de speler met de configuratie.
 
