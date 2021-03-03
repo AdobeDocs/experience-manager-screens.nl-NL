@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202103
 description: De pagina markeert de Nota's van de Versie voor de Pak 202103 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,15 @@ De releasedatum voor AEM Screens Feature Pack 202103 is 8 maart 2021.
 * De migratie van SmartSync zou de speler breken, als het geheime voorgeheugen niet ongeldig werd gemaakt.
 
 * Offline caches zijn niet gemaakt als de toewijzing *OfflineConfig* had.
+
+* Problemen met Tizen Player worden bijgewerkt omdat het verwijzingsbeleid &#39;strict-origin-wanneer-cross-origin&#39; niet wordt ondersteund.
+
+* Het wijzigen van het schema &quot;Repeats&quot;-veld van het toegewezen kanaal heeft de interface verbroken.
+
+* Offline-inhoud bijwerken is mislukt vanwege query-uitzonderingen.
+
+* SmartSync-migratie heeft de speler verbroken als de cache niet ongeldig is gemaakt
+
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
