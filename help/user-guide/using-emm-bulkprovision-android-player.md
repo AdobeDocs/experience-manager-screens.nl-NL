@@ -3,9 +3,9 @@ title: Het gebruiken van MDM of EMM aan bulklevering Android Player
 seo-title: Bulkprovisioning van Android Player met EMM of MDM
 description: Volg deze pagina om meer te weten te komen over bulkprovisioning van Android Player met EMM of MDM
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Bulkprovisioning van Android Player met gebruik van Enterprise Mobility Management {#bulk-provisioning}
 
-Wanneer u de Android-speler bulksgewijs implementeert, wordt het vervelend om elke speler handmatig te registreren bij AEM. Het wordt ten zeerste aanbevolen om een EMM-oplossing (Enterprise Mobility Management), zoals VMWare Airwatch, MobileIron of Samsung Knox, te gebruiken om uw implementatie op afstand te voorzien en te beheren. AEM Screens Android-speler ondersteunt de industriestandaard EMM Appconfig voor externe provisioning. Volg de onderstaande stappen om uw spelers in bulk te leveren.
+Wanneer u de Android-speler bulksgewijs implementeert, wordt het vervelend om elke speler handmatig te registreren bij AEM. Het wordt ten zeerste aanbevolen om een EMM-oplossing (Enterprise Mobility Management), zoals VMWare Airwatch, MobileIron of Samsung Knox, te gebruiken om uw implementatie op afstand te voorzien en te beheren. AEM Screens Android-speler ondersteunt de industriestandaard EMM Appconfig voor externe provisioning.
 
 ## Bulkprovisioning van Android Player implementeren met gebruik van Enterprise Mobility Management {#implementation}
 
