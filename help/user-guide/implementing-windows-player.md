@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
+source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 1%
@@ -91,13 +91,11 @@ C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\U
 C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
 ```
 
->[!NOTE]
->
->**Bulkregistratie van Windows Player**
->
->Wanneer u de venstersspeler implementeert, hoeft u niet elke speler handmatig te configureren. In plaats daarvan kunt u het JSON-configuratiebestand bijwerken nadat het is getest en klaar is voor implementatie.
->
->De configuratie zal ervoor zorgen dat alle spelers de zelfde server pingelen die in het configuratiedossier wordt verstrekt. U moet elke speler nog steeds handmatig registreren.
+## Bulkregistratie van Windows Player {#bulk-registration}
+
+Wanneer u de venstersspeler implementeert, hoeft u niet elke speler handmatig te configureren. In plaats daarvan kunt u het JSON-configuratiebestand bijwerken nadat het is getest en klaar is voor implementatie.
+
+De configuratie zal ervoor zorgen dat alle spelers de zelfde server pingelen die in het configuratiedossier wordt verstrekt. U moet elke speler nog steeds handmatig registreren.
 
 Voer de onderstaande stappen uit om Windows 10 Player te configureren:
 
