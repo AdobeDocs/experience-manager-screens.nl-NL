@@ -3,9 +3,9 @@ title: Het gebruiken van MDM of EMM aan bulklevering Android Player
 seo-title: Bulkprovisioning van Android Player met EMM of MDM
 description: Volg deze pagina om meer te weten te komen over bulkprovisioning van Android Player met EMM of MDM
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ Voer de onderstaande stappen uit om bulkprovisioning in Android Player toe te st
    >[!NOTE]
    >De apparaten zouden de toepassing samen met de configuratie en punt aan de correcte AEM server met de geselecteerde configuratie moeten ontvangen. Als u ervoor hebt gekozen de bulkregistratiecode te configureren en deze op dezelfde wijze te handhaven als in AEM is geconfigureerd, moet de speler zichzelf automatisch kunnen registreren. Als u een standaardweergave had geconfigureerd, kan deze ook standaardinhoud downloaden en weergeven (die later naar wens kan worden gewijzigd).
 
-Bovendien dient u contact op te nemen met uw EMM-leverancier op AppConfig-ondersteuning. Meest populaire voorbeelden zoals [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) en [Samsung Knox a11/> biedt ondersteuning voor deze industriestandaard.](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)
+Bovendien dient u contact op te nemen met uw EMM-leverancier op AppConfig-ondersteuning. Meest populaire voorbeelden zoals [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) en [Samsung Knox a11/> biedt onder andere ondersteuning voor deze industriestandaard.](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)
 
 
