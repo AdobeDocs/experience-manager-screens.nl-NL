@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202103
 description: De pagina markeert de Nota's van de Versie voor de Pak 202103 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: 8b4e82d4467c2e16d81a7d2e94a219b601ef726c
+source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,22 @@ U kunt het recentste eigenschappak voor AEM Screens 6.5.7 Versie van [het Portaa
 
 ## Releasedatum {#release-date}
 
-De releasedatum voor AEM Screens Feature Pack 202103 is 8 maart 2021.
+De releasedatum voor AEM Screens Feature Pack 202103 is 5 maart 2021.
 
 ### Wat is er nieuw?{#what-is-new}
 
-* **AEM Screens Bulkregistratie en -toewijzing**
+* **AEM Screens Auto Registration of Players**
 
    Bulk die duizenden spelers handmatig registreert, is erg omslachtig en verhoogt tijd en kosten. Om dit proces te vereenvoudigen, staat de Bulk eigenschap van de Registratie u toe om een pre-gedeelde sleutel in AEM te specificeren die in een speler of door een configuratiedossier of een Mobiel Apparaatbeheer (MDM) oplossing kan worden voorzien.
+
+   Raadpleeg [Automatische registratie van spelers](/help/user-guide/auto-registration-players.md) voor meer informatie.
+
 
 * **Bulkprovisioning van Android Player via Enterprise Mobility Management**
 
    Wanneer u de Android-speler bulksgewijs implementeert, wordt het vervelend om elke speler handmatig te registreren bij AEM. Het wordt ten zeerste aanbevolen om een EMM-oplossing (Enterprise Mobility Management), zoals VMWare Airwatch, MobileIron of Samsung Knox, te gebruiken om uw implementatie op afstand te voorzien en te beheren. AEM Screens Android-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
+
+   Raadpleeg [Bulk Provisioning van Android Player met Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md) voor meer informatie.
 
 
 ### Opgeloste problemen {#bug-fixes}
@@ -45,8 +50,6 @@ De releasedatum voor AEM Screens Feature Pack 202103 is 8 maart 2021.
 * Offline caches zijn niet gemaakt als de toewijzing *OfflineConfig* had.
 
 * Updates voor Tizen-speler die zijn verbroken omdat het verwijzingsbeleid &#39;strict-origin-wanneer-cross-origin&#39; niet wordt ondersteund.
-
-* De onderliggende fout van het logboek wanneer het downloaden SmartSync ontbreekt.
 
 * Het veranderen van toegewezen kanaalprogramma *Herhaalt* gebied verbond UI.
 
@@ -62,7 +65,6 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 7 van de Eig
 
 * Chrome-besturingssysteem
 * Windows
-* Android
 * Tizen
 * Linux
 
