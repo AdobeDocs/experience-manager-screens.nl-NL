@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202103
 description: De pagina markeert de Nota's van de Versie voor de Pak 202103 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
+source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ De releasedatum voor AEM Screens Feature Pack 202103 is 5 maart 2021.
 
 * **AEM Screens Auto Registration of Players**
 
-   Bulk die duizenden spelers handmatig registreert, is erg omslachtig en verhoogt tijd en kosten. Om dit proces te vereenvoudigen, staat de Bulk eigenschap van de Registratie u toe om een pre-gedeelde sleutel in AEM te specificeren die in een speler of door een configuratiedossier of een Mobiel Apparaatbeheer (MDM) oplossing kan worden voorzien.
+   Bulk die duizenden spelers handmatig registreert, is erg omslachtig en verhoogt tijd en kosten. Om dit proces te vereenvoudigen, staat de Auto Registratie van spelerseigenschap u toe om een pre-gedeelde sleutel in AEM te specificeren die in een speler of door een configuratiedossier of een Mobiel Apparaatbeheer (MDM) oplossing kan worden voorzien.
 
    Raadpleeg [Automatische registratie van spelers](/help/user-guide/auto-registration-players.md) voor meer informatie.
 
