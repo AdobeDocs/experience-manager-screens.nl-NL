@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens Help
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarmee u dynamische en interactieve digitale ervaringen en interacties kunt publiceren.
 translation-type: tm+mt
-source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
+source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,8 @@ ht-degree: 1%
       + [Android-speler](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
+      + [Automatische registratie van spelers](auto-registration-players.md)
+      + [Bulkprovisioning van Android Player via Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
    + Auteur publiceren {#author-publish}
       + [Author-Publish Architecture-overzicht](author-publish-architecture-overview.md)
       + [Auteur en publicatie configureren](author-and-publish.md)
@@ -108,6 +110,7 @@ ht-degree: 1%
    + [Problemen oplossen in Device Control Center](monitoring-screens.md)
    + [Configuratie videoweergave](troubleshoot-videos.md)
 + Releaseopmerkingen {#release-notes}
+   + [Opmerkingen bij de release voor Feature Pack 202103](release-notes-fp-202103.md)
    + [Opmerkingen bij de release voor Feature Pack 202011](release-notes-fp-202011.md)
    + [Opmerkingen bij de release voor Feature Pack 202008](release-notes-fp-202008.md)
    + [Opmerkingen bij de release voor Feature Pack 202004](release-notes-fp-202004.md)
