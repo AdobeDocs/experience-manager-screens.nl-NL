@@ -6,7 +6,7 @@ user-guide-title: Adobe Experience Manager Screens Help
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarmee u dynamische en interactieve digitale ervaringen en interacties kunt publiceren.
 translation-type: tm+mt
-source-git-commit: b84946900a22cd063990836f1c65709f8d1368bd
+source-git-commit: dae7744bd8efb99a16807f0651cbcaff5514b73b
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
@@ -42,10 +42,10 @@ ht-degree: 1%
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Chrome Player gebruiken als extensie voor het oplossen van problemen](using-chrome-player-as-an-extension.md)
       + [Android-speler](implementing-android-player.md)
+      + [Bulkprovisioning van Android Player via Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Automatische registratie van spelers](auto-registration-players.md)
-      + [Bulkprovisioning van Android Player via Enterprise Mobility Management](using-emm-bulkprovision-android-player.md)
    + Auteur publiceren {#author-publish}
       + [Author-Publish Architecture-overzicht](author-publish-architecture-overview.md)
       + [Auteur en publicatie configureren](author-and-publish.md)
