@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release voor Feature Pack 202103
 description: De pagina markeert de Nota's van de Versie voor de Pak 202103 van de Eigenschap.
 translation-type: tm+mt
-source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
+source-git-commit: dfbf904c1f23f7e41a9d65a270c5ca667ddcdb31
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,6 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 7 van de Eig
 
 * Chrome-besturingssysteem
 * Windows
-* Tizen
 * Linux
 
 #### AEM Screens Player-downloads {#aem-screens-player-downloads}
