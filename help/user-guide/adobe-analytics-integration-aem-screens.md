@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 052ceaf3f3fa321ea0df3e40ecf6296222db71e7
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.4.2 Feature Pack 2 en AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd.
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u een minimale versie van AEM 6.4.2 Feature Pack 2 of AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ In deze sectie wordt de volgende functionaliteit beschreven die betrokken is bij
 
 * Staat voor bewijs van spel rapportering door apparaat toe
 * Staat toe dat de verslaggeving van de play-out per actief wordt aangetoond
-* Hiermee zorgt u ervoor dat alle spelergebeurtenissen worden vastgelegd en voorzien van een tijdstempel
+* Hiermee zorgt u ervoor dat alle spelergebeurtenissen worden vastgelegd en een tijdstempel krijgen
 * Hiermee zorgt u ervoor dat alle spelergebeurtenissen lokaal worden opgeslagen als het afspelen niet is verbonden met een netwerk
 * Hiermee kunnen feedbacklussen worden gemaakt die gebeurtenissen bijhouden
 * Hiermee kan het systeem inhoud en lay-outs wijzigen op basis van succescriteria die door de auteur van de inhoud zijn gedefinieerd
