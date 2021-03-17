@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 052ceaf3f3fa321ea0df3e40ecf6296222db71e7
+source-git-commit: 8191f227a3f0fd861e1bcbcf919b93f1f40b7c7b
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, moet u de Steun van Adobe contacteren en toegang verzoeken. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
+>Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, moet u de Steun van Adobe contacteren en toegang verzoeken. U kunt het nieuwste functiepakket voor AEM Screens downloaden van [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
