@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: ca5c43534bca0e7832a5c9f73388b8e535ce057e
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 1%
+source-wordcount: '1127'
+ht-degree: 0%
 
 ---
 
@@ -70,7 +70,7 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** aan uw **TestChannel
 
 1. **Navigeer aan een pagina van Plaatsen in Wij.Retail**
 
-   1. Navigeer naar Sites en selecteer **We.Retail In-Store** -> **Kanalen** ->**Niet-actief kanaal - Night** en selecteer deze pagina om dit als ervaringsfragment voor uw kanaal van het Scherm te gebruiken.
+   1. Navigeer naar Sites en selecteer **We.Retail** -> **United States** -> **English** -> **Equipment** en selecteer deze pagina om dit als ervaringsfragment voor uw kanaal van het Scherm te gebruiken.
 
    1. Klik op **Bewerken** op de actiebalk om de pagina te openen die u wilt gebruiken als ervaringsfragment voor het kanaal Schermen.
 
@@ -86,13 +86,15 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** aan uw **TestChannel
    1. Kies **Actie** als **Een nieuw Erviteitsfragment** maken.
 
    1. Selecteer **Bovenliggend pad**.
-   1. Selecteer **Sjabloon**. Kies hier de sjabloon **Fragment ervaren - Variatie van schermen**.
+   1. Selecteer **Sjabloon**. Kies hier de sjabloon **Fragment ervaren - Variatie van schermen** (waarde in het veld `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
 
    1. Voer **Fragmenttitel** in als **ScreensFragment**.
 
    1. Klik op het vinkje om het maken van een nieuw ervaringsfragment te voltooien.
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
+
+   Opmerking: Als u een optie gemakkelijker wilt selecteren, klikt u op het vinkje rechts van de velden om het dialoogvenster Selecteren te openen.
 
 1. **Actieve kopie van ervaringsfragment maken**
 
@@ -151,7 +153,7 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** aan uw **TestChannel
 
    >[!NOTE]
    >
-   >Als u clientbibliotheken of statische bestanden wilt toevoegen naast de bestanden die u in stap 4 hebt geconfigureerd, kunt u een bestand toevoegen via het tabblad **Offline configuratie** in het dialoogvenster **Fragment ervaren**.
+   >Als u clientbibliotheken of statische bestanden wilt toevoegen naast de bestanden die u in stap 4 hebt geconfigureerd, kunt u een bestand toevoegen via het tabblad **Offlineconfig** in het dialoogvenster **Fragment ervaren**.
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
