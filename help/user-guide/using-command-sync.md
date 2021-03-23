@@ -3,10 +3,13 @@ title: Opdrachtsynchronisatie gebruiken
 seo-title: Opdrachtsynchronisatie gebruiken
 description: Volg deze pagina voor meer informatie over het gebruik van Command Sync.
 seo-description: Volg deze pagina voor meer informatie over het gebruik van Command Sync.
+feature: Ontwerpschermen
+role: Beheerder, ontwikkelaar
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -90,7 +93,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
 ### Een master {#setting-up-master} instellen
 
-1. Navigeer van **CommandSyncDemo** —> **Locaties** —> **Lobby** —> **LobbyDisplay** naar het weergavedashboard en klik op **Dashboard** op de actiebalk.
+1. Navigeer van **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** naar het weergavedashboard en klik op **Dashboard** op de actiebalk.
 De twee apparaten (chroom- en vensterspeler) worden weergegeven in het deelvenster **DEVICES**, zoals in de onderstaande afbeelding wordt getoond.
    ![image1](assets/command-sync/command-sync10-1.png)
 
