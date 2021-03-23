@@ -2,10 +2,13 @@
 title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
+feature: Overzicht, digitale signalen
+role: Zakelijke praktiserer
+level: Begin
 translation-type: tm+mt
-source-git-commit: 77c81b84631b090333db0095986f634fa99c8223
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1323'
 ht-degree: 1%
 
 ---
