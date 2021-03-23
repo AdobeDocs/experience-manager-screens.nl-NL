@@ -9,10 +9,13 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
+feature: Schermen ontwikkelen
+role: Developer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: ec8324ead3789a6cd5dde35a932c89e916709f70
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '1852'
+source-wordcount: '1856'
 ht-degree: 0%
 
 ---
@@ -242,7 +245,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
    De eigenschap `sling:hideChildren`= `"[linkURL,size]` wordt gebruikt op het `items`-knooppunt om ervoor te zorgen dat de velden **linkURL** en **size** verborgen zijn in het dialoogvenster. Het is niet voldoende deze knooppunten uit het posterdialoogvenster te verwijderen. De eigenschap `sling:hideResource="{Boolean}true"` op het tabblad Toegankelijkheid wordt gebruikt om het gehele tabblad te verbergen.
 
-   Er worden twee geselecteerde velden toegevoegd aan het dialoogvenster, zodat auteurs de tekstpositie en -kleur van de titel en beschrijving kunnen bepalen.
+   Er worden twee geselecteerde velden toegevoegd aan het dialoogvenster, zodat auteurs de tekstpositie en kleur van de titel en beschrijving kunnen bepalen.
 
    ![Poster - Definitieve dialoogstructuur](assets/2018-05-03_at_4_49pm.png)
 
@@ -284,7 +287,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
    Omringend de `h1` en `h2` markeringen is een div omslag met drie CSS klassen met variaties van &quot; `cmp-poster__text`&quot;. De waarde voor de eigenschappen `textPosition` en `textColor` worden gebruikt om de CSS-klasse te wijzigen die wordt gerenderd op basis van de dialoogselectie van de auteur. In de volgende sectie worden CSS uit clientbibliotheken geschreven om deze wijzigingen in de weergave in te schakelen.
 
-   Een logo wordt ook als een bedekking in de component opgenomen. In dit voorbeeld is het pad naar het logo We.Retail hard-coded in de DAM. Afhankelijk van het gebruiksgeval kan het meer zin hebben om een nieuw dialoogveld te maken om van het logopad een dynamisch gevulde waarde te maken.
+   Een logo wordt ook als een bedekking opgenomen in de component. In dit voorbeeld is het pad naar het logo We.Retail hard-coded in de DAM. Afhankelijk van het gebruiksgeval kan het meer zin hebben om een nieuw dialoogveld te maken om van het logopad een dynamisch gevulde waarde te maken.
 
    Merk ook op dat BEM-notatie (Block Element Modifier) wordt gebruikt met de component. BEM is een CSS-coderingsconventie die het gemakkelijker maakt om herbruikbare componenten te maken. BEM is de notatie die wordt gebruikt door [AEM Core Components](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). Meer informatie is te vinden op: [https://getbem.com/](https://getbem.com/)
 
