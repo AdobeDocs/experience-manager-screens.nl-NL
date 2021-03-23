@@ -3,11 +3,14 @@ title: Dispatcher Configurations voor AEM Screens
 seo-title: Dispatcher Configurations voor AEM Screens
 description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 seo-description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
+feature: Schermen beheren
+role: Ontwikkelaar, Business Practitioner
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 3%
 
 ---
 
