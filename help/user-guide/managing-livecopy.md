@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
+feature: Ontwerpschermen
+role: Beheerder, ontwikkelaar
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -76,7 +79,7 @@ Bovendien kunt u de eigenschappen van het kanaal van uw levende exemplaar bekijk
 
 1. Selecteer het tabblad **Live kopie** om de details van uw kanaal weer te geven.
 
-   ![chlimage_1-29](assets/chlimage_1-21.png)
+   ![chlimage_1-21](assets/chlimage_1-21.png)
 
 ### Live Copy-status {#live-copy-status}
 
@@ -126,7 +129,7 @@ Voer de onderstaande stappen uit om ervoor te zorgen dat uw wijzigingen van het 
 
 1. Selecteer het tabblad **Live kopie** en klik op **Synchroniseren** op de actiebalk.
 
-   ![chlimage_1-29](assets/chlimage_1-29.png)
+   ![chlimage_1-21](assets/chlimage_1-29.png)
 
 1. Klik **Sync** om de wijzigingen te bevestigen. Klik **Opslaan en sluiten** om terug te navigeren naar het AEM dashboard.
 
