@@ -1,7 +1,7 @@
 ---
 title: Configuratie en probleemoplossing voor het afspelen van video
 seo-title: Problemen met video's oplossen
-description: null
+description: Volg deze pagina om te leren hoe u fouten kunt opsporen in video die wordt afgespeeld in uw kanaal en hoe u problemen kunt oplossen.
 seo-description: Volg deze pagina om te leren hoe u video's kunt oplossen. Wanneer u een video uploadt naar de DAM en deze aan uw kanaal toevoegt, kunnen er problemen optreden die video mogelijk niet afspeelt in de schermspeler. In deze sectie wordt beschreven hoe u fouten kunt opsporen bij het afspelen van video in uw kanaal en hoe u deze kunt oplossen.
 uuid: 825b2440-5626-40d5-8c93-7689c24474d4
 contentOwner: Jyotika Syal
@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
+feature: Kanalen, interactief
+role: Developer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
