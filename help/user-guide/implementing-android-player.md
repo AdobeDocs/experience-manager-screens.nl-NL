@@ -14,7 +14,7 @@ feature: Schermen beheren, Android Player
 role: Beheerder
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
+source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -186,8 +186,8 @@ Voer de onderstaande stappen uit om bulkprovisioning in Android Player toe te st
 1. Zorg ervoor dat uw Android-apparaat ondersteuning biedt voor Google Play-services.
 1. U kunt uw Android-spelerapparaten inschrijven met uw favoriete EMM-oplossing die AppConfig ondersteunt.
 1. Meld u aan bij uw EMM-console en haalt de AEM Screens Player-toepassing uit Google Play.
-1. Selecteer beheerde configuratie (of verwante optie).
-1. Er wordt nu een lijst weergegeven met speleropties die kunnen worden geconfigureerd (zoals server- en bulkregistratiecode).
+1. Selecteer beheerde configuratie of verwante optie.
+1. Er wordt nu een lijst weergegeven met speleropties die kunnen worden geconfigureerd, zoals server- en bulkregistratiecode.
 1. Vorm deze parameters, sparen, en stel het beleid aan de apparaten op.
 
    >[!NOTE]
