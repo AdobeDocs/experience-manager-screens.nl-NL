@@ -9,10 +9,13 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
+feature: Schermen ontwikkelen
+role: Developer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '2186'
+source-wordcount: '2190'
 ht-degree: 0%
 
 ---
@@ -399,9 +402,9 @@ Onder een Web.Retail pagina van het Ontwerp van de Looppas wordt gecreeerd die a
    | sling:resourceType | Tekenreeks | wcm/core/components/ontwerper |
    | cq:doctype | Tekenreeks | html_5 |
 
-   ![Ontwerppagina op /apps/settings/wcm/designs/we-Retail-run](assets/2018-05-07_at_1219pm.png)
+   ![Ontwerppagina bij /apps/settings/wcm/designs/we-Retail-run](assets/2018-05-07_at_1219pm.png)
 
-   Ontwerppagina op /apps/settings/wcm/designs/we-Retail-run
+   Ontwerppagina bij /apps/settings/wcm/designs/we-Retail-run
 
 ## Een volgend kanaal maken {#create-sequence-channel}
 
