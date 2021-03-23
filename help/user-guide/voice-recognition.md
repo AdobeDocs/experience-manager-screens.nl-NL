@@ -1,10 +1,13 @@
 ---
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
+feature: Ontwerpschermen
+role: Beheerder, ontwikkelaar
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: e355d648846034c4762ef8fdcb3e218d868044b6
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -177,7 +180,7 @@ Wanneer de voorgaande stappen zijn voltooid, kunt u het chroomapparaat registrer
 
 Het **Main** kanaal speelt zijn inhoud af, maar wanneer u woorden met sleutelwoord **heet** zoals *ik zou een hete drankje* willen hebben, begint het kanaal het spelen van de inhoud van **HotDrinks** kanaal.
 
-Op dezelfde manier als u woord met een sleutelwoord **kou** zoals *ik zou willen iets kouds* hebben, begint het kanaal de inhoud van **ColdDrinks** kanaal te spelen.
+Op dezelfde manier als u woord met een sleutelwoord **kou** zoals *ik zou willen hebben iets kou*, begint het kanaal de inhoud van **ColdDrinks** kanaal te spelen.
 
 **Gewenste uitvoer voor gesplitste schermkanalen**
 
