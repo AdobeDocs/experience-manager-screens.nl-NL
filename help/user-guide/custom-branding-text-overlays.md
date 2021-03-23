@@ -4,10 +4,13 @@ seo-title: Aangepaste branding en opmaak toepassen voor tekstbedekkingen
 description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak voor tekstbedekkingen kunt toepassen.
 seo-description: Volg deze pagina om te leren hoe u aangepaste branding en opmaak voor tekstbedekkingen kunt toepassen.
 contentOwner: Jyotika Syal
+feature: Schermen ontwikkelen
+role: Developer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
