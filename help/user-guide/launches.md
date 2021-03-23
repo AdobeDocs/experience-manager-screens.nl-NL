@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
+feature: Ontwerpschermen, starten
+role: Beheerder, ontwikkelaar
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -131,7 +134,7 @@ Voer de onderstaande stappen uit om de functie Schermen starten te implementeren
 
    >[!NOTE]
    >
-   >U kunt de live startdatum in deze stap instellen of deze later instellen tijdens het bewerken van de eigenschappen van de start nadat deze al is gemaakt.
+   >U kunt de live startdatum in deze stap instellen of u kunt deze later instellen tijdens het bewerken van de eigenschappen van de start nadat deze al is gemaakt.
 
    **Promotiebereik starten**
 
