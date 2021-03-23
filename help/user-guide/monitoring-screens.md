@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
+feature: Digitale handtekening, inhoud, spelers
+role: Developer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -145,7 +148,7 @@ In de volgende sectie wordt aangeraden de netwerkkoppelingen, de server en de sp
 
 AEM biedt ingebouwde bewaking voor:
 
-* *Heartbeatelke 5 seconden om aan te geven dat de AEM Screens Player wordt uitgevoerd.* 
+* ** Heartbeatter 5 seconden om aan te geven dat de AEM Screens Player wordt uitgevoerd.
 * *Screenshot* van de Player die toont wat momenteel op de Speler wordt getoond.
 * De *AEM Screens Player Firmware*-versie geïnstalleerd op de Player.
 * *Vrije opslagruimte* op de speler.
