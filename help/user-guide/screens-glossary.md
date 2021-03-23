@@ -3,10 +3,13 @@ title: Verklarende woordenlijst
 seo-title: Verklarende woordenlijst
 description: Volg deze pagina om de belangrijkste termijnen te begrijpen verbonden aan AEM Screens.
 seo-description: Volg deze pagina om de belangrijkste termijnen te begrijpen verbonden aan AEM Screens.
+feature: Overzicht
+role: Zakelijke praktiserer
+level: Begin
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
