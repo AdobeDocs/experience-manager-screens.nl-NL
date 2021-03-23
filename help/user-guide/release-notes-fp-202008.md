@@ -1,11 +1,14 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202008
-description: De pagina beschrijft de Nota's van de Versie voor de Pak 202008 van de Eigenschap.
+description: '"Volg deze pagina voor meer informatie over het AEM Screens Feature Pack 202008, uitgebracht op 3 september 2020."'
+feature: Functiepakket
+role: Developer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 0%
+source-wordcount: '343'
+ht-degree: 1%
 
 ---
 
