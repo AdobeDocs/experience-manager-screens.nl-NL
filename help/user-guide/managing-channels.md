@@ -3,10 +3,13 @@ title: Kanalen maken en beheren
 seo-title: Kanalen beheren
 description: Volg deze pagina voor meer informatie over het maken en beheren van kanalen. Ook wordt het kanaaldashboard en het bewerken van inhoud voor een kanaal uitgelegd.
 seo-description: Volg deze pagina voor meer informatie over het maken en beheren van kanalen. Ook wordt het kanaaldashboard en het bewerken van inhoud voor een kanaal uitgelegd.
+feature: Ontwerpschermen
+role: Beheerder, ontwikkelaar
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -252,7 +255,7 @@ Klik bovendien op de weergave in het deelvenster **TOEGEWEZEN WEERGAVEN** om de 
 
 ### De volgende stappen {#the-next-steps}
 
-De volgende stap na het maken van een kanaal en het toevoegen/bewerken van inhoud in uw kanaal is te leren hoe u een locatie en weergave kunt maken. Vervolgens wijst u een kanaal toe aan dat beeldscherm.
+De volgende stap na het maken van een kanaal en het toevoegen/bewerken van inhoud in uw kanaal is te leren hoe u een locatie en weergave kunt maken. Vervolgens wijst u een kanaal aan dat beeldscherm toe.
 
 Zie de volgende bronnen voor de volgende stappen:
 
