@@ -1,10 +1,13 @@
 ---
 title: Rapport Inhoudstoewijzing
 description: Op deze pagina vindt u een beschrijving van het downloaden en gebruiken van het rapport Inhoudstoewijzing.
+feature: Ontwerpschermen
+role: Developer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
