@@ -5,7 +5,7 @@ feature: Functiepakket
 role: Developer
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 1%
@@ -41,7 +41,7 @@ De releasedatum voor AEM Screens Feature Pack 202103 is 5 maart 2021.
 
    Wanneer u de Android-speler bulksgewijs implementeert, wordt het vervelend om elke speler handmatig te registreren bij AEM. Het wordt ten zeerste aanbevolen om een EMM-oplossing (Enterprise Mobility Management), zoals VMWare Airwatch, MobileIron of Samsung Knox, te gebruiken om uw implementatie op afstand te voorzien en te beheren. AEM Screens Android-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
 
-   Raadpleeg [Bulk Provisioning van Android Player met Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md) voor meer informatie.
+   Raadpleeg [Bulk Provisioning van Android Player met Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) voor meer informatie.
 
 
 ### Opgeloste problemen {#bug-fixes}
