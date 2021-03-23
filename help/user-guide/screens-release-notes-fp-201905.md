@@ -10,10 +10,13 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
+feature: Functiepakket
+role: Developer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -53,7 +56,7 @@ Raadpleeg **[Noodkanaal](emergency-channel.md)** Gebruiksscenario voor meer info
 
 * **Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics**
 
-In deze sectie wordt beschreven hoe u een interactieve toepassing met één pagina insluit met REACT (of Hoekig) met behulp van de AEM SPA-editor die door professionals in AEM kan worden geconfigureerd, en hoe u uw interactieve toepassing integreert met offline Adobe Analytics.
+In deze sectie wordt beschreven hoe u een interactieve toepassing van één pagina insluit met REACT (of Angular) met behulp van de AEM SPA-editor die door professionals in AEM kan worden geconfigureerd en hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
 
 Raadpleeg **[Een REACT-toepassing insluiten met de AEM SPA Editor en Integrating with AEM Screens Analytics](embedding-react-app.md)** voor meer informatie.
 
