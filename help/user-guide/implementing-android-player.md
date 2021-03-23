@@ -14,9 +14,9 @@ feature: Schermen beheren, Android Player
 role: Beheerder
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
@@ -174,3 +174,23 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 
 >[!NOTE]
 >Alle Android-apparaten hebben een *sdcard*-map, ongeacht of een werkelijke *sdcard* is ingevoegd of niet. Wanneer dit bestand wordt geïmplementeerd, bevindt het zich op hetzelfde niveau als de map Downloads. Sommige MDM&#39;s zoals Samsung Knox verwijzen mogelijk naar deze *sdcard* maplocatie als *Interne opslag*.
+
+## Bulkprovisioning van Android Player met gebruik van Enterprise Mobility Management {#bulk-provisioning}
+
+Wanneer u de Android-speler bulksgewijs implementeert, wordt het vervelend om elke speler handmatig te registreren bij AEM. Het wordt ten zeerste aanbevolen om een EMM-oplossing (Enterprise Mobility Management), zoals VMWare Airwatch, MobileIron of Samsung Knox, te gebruiken om uw implementatie op afstand te voorzien en te beheren. AEM Screens Android-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
+
+### Bulkprovisioning van Android Player implementeren met gebruik van Enterprise Mobility Management {#implementation}
+
+Voer de onderstaande stappen uit om bulkprovisioning in Android Player toe te staan:
+
+1. Zorg ervoor dat uw Android-apparaat ondersteuning biedt voor Google Play-services.
+1. U kunt uw Android-spelerapparaten inschrijven met uw favoriete EMM-oplossing die AppConfig ondersteunt.
+1. Meld u aan bij uw EMM-console en haalt de AEM Screens Player-toepassing uit Google Play.
+1. Selecteer beheerde configuratie (of verwante optie).
+1. Er wordt nu een lijst weergegeven met speleropties die kunnen worden geconfigureerd (zoals server- en bulkregistratiecode).
+1. Vorm deze parameters, sparen, en stel het beleid aan de apparaten op.
+
+   >[!NOTE]
+   >De apparaten zouden de toepassing samen met de configuratie en punt aan de correcte AEM server met de geselecteerde configuratie moeten ontvangen. Als u ervoor hebt gekozen de bulkregistratiecode te configureren en deze op dezelfde wijze te handhaven als in AEM is geconfigureerd, moet de speler zichzelf automatisch kunnen registreren. Als u een standaardweergave had geconfigureerd, kan deze ook standaardinhoud downloaden en weergeven (die later naar wens kan worden gewijzigd).
+
+Bovendien dient u contact op te nemen met uw EMM-leverancier op AppConfig-ondersteuning. Meest populaire voorbeelden zoals [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Mobile Iron](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) en [Samsung Knox a11/> biedt onder andere ondersteuning voor deze industriestandaard.](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm)
