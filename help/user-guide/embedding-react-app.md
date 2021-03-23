@@ -1,18 +1,21 @@
 ---
 title: Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics
 seo-title: Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics
-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Hoekig) gebruikend de redacteur van AEM SPA die door bedrijfsberoeps in AEM en ook kan worden gevormd hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
-seo-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Hoekig) gebruikend de redacteur van AEM SPA die door bedrijfsberoeps in AEM en ook kan worden gevormd hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
+description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Angular) gebruikend de redacteur van de SPA van de AEM die door bedrijfsberoeps in AEM kunnen worden gevormd en ook hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
+seo-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Angular) gebruikend de redacteur van de SPA van de AEM die door bedrijfsberoeps in AEM kunnen worden gevormd en ook hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
+feature: Schermen ontwikkelen
+role: Developer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 # Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-In deze sectie wordt beschreven hoe u een interactieve toepassing met één pagina insluit met REACT (of Hoekig) met behulp van de AEM SPA-editor die door professionals in AEM kan worden geconfigureerd, en hoe u uw interactieve toepassing integreert met offline Adobe Analytics.
+In deze sectie wordt beschreven hoe u een interactieve toepassing van één pagina insluit met REACT (of Angular) met behulp van de AEM SPA-editor die door professionals in AEM kan worden geconfigureerd en hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
 
 ## De AEM SPA-editor {#using-the-aem-spa-editor} gebruiken
 
@@ -50,7 +53,7 @@ Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
    >Wij gebruiken **GroupId** als ***com.adobe.aem.screens*** en **ArtifactId** als ***Mijn Monster SPA*** (die de gebreken is). U kunt zo nodig uw eigen keuze maken.
 
 1. Zodra het project wordt gecreeerd, of gebruik winde of redacteur van uw keus en voer het geproduceerde Geweven project in.
-1. Implementeer op uw lokale AEM met de opdracht ***mvn clean install -PautoInstallPackage***.
+1. Implementeer naar uw lokale AEM met de opdracht ***mvn clean install -PautoInstallPackage***.
 
 ### Inhoud bewerken in de REACT-app {#editing-content-in-the-react-app}
 
