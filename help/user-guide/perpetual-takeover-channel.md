@@ -1,13 +1,16 @@
 ---
 title: Perpetual TakeOver Channel
 seo-title: Perpetual TakeOver Channel
-description: Volg dit Geval van Gebruik voor het creëren van een Perpetual TakeOver Kanaal.
+description: Volg dit Geval van Gebruik voor het creëren van een PerpetualTakeOver Kanaal.
 seo-description: Volg dit Geval van Gebruik bij vestiging een project dat tot een PerpetualTakeOver kanaal leidt dat onophoudelijk voor een specifieke tijddag en een tijd speelt.
 contentOwner: jsyal
+feature: Ontwerpschermen
+role: Beheerder, ontwikkelaar
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -74,7 +77,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
    >[!NOTE]
    >Meer informatie over het toewijzen van een kanaal aan een weergave vindt u in **[Kanaaltoewijzing](channel-assignment.md)**.
 
-1. Vul de velden (**Kanaalpad**, **Prioriteit** en **Ondersteunde gebeurtenissen**) in het dialoogvenster **Kanaaltoewijzing** en klik op **Opslaan** om het **MainAdChannel&lt;a111> toe te wijzen> op uw scherm.**
+1. Vul de velden (**Kanaalpad**, **Prioriteit** en **Ondersteunde gebeurtenissen**) in het dialoogvenster **Kanaaltoewijzing** en klik op **Opslaan** om het **MainAdChannel** toe te wijzen> op uw scherm.
 
    * **Kanaalpad**: Selecteer het pad naar het  **** MainAdChannel-kanaal
    * **Prioriteit**: Stel de prioriteit van dit kanaal in op 1.
