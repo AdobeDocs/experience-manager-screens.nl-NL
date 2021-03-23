@@ -3,11 +3,14 @@ title: Opmerkingen bij de release voor Feature Pack 202004
 seo-title: Opmerkingen bij de release voor Feature Pack 202004
 description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004, uitgebracht op 20 april 2020.
 seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004, uitgebracht op 20 april 2020.
+feature: Functiepakket
+role: Developer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 0%
+source-wordcount: '396'
+ht-degree: 1%
 
 ---
 
