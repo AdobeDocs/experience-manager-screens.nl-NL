@@ -1,13 +1,16 @@
 ---
 title: Schermspeler installeren
 seo-title: Schermspeler installeren
-description: Schermspeler installeren
+description: Volg deze pagina voor meer informatie over de installatie van beschikbare AEM Screens Player.
 seo-description: Schermspeler installeren
 contentOwner: jsyal
+feature: Schermen beheren
+role: Beheerder
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: be491e88b7938f24ae1f375b2fded4052404aaa1
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
