@@ -2,9 +2,9 @@
 title: Automatische registratie van spelers
 seo-title: Automatische registratie van spelers
 description: Volg deze pagina voor meer informatie over automatische registratie van afspeelapparatuur met AMS-/On-Prem-schermen.
-feature: Schermen, afspeelapparatuur beheren
-role: Beheerder
-level: Intermediair
+feature: Administering Screens, Players
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

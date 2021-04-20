@@ -5,9 +5,9 @@ description: Volg deze pagina om te leren hoe u overgangen kunt toepassen op uw 
 seo-description: Volg deze pagina om te leren hoe u overgangen kunt toepassen op uw projecten van het Scherm.
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
-feature: Ontwerpschermen
-role: Beheerder, ontwikkelaar
-level: Intermediair
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

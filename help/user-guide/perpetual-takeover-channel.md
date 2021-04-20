@@ -4,9 +4,9 @@ seo-title: Perpetual TakeOver Channel
 description: Volg dit Geval van Gebruik voor het creëren van een PerpetualTakeOver Kanaal.
 seo-description: Volg dit Geval van Gebruik bij vestiging een project dat tot een PerpetualTakeOver kanaal leidt dat onophoudelijk voor een specifieke tijddag en een tijd speelt.
 contentOwner: jsyal
-feature: Ontwerpschermen
-role: Beheerder, ontwikkelaar
-level: Intermediair
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

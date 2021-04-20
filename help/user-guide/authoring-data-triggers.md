@@ -2,9 +2,9 @@
 title: Authoring met gegevenstriggers
 seo-title: Authoring met gegevenstriggers
 description: Volg deze pagina om te leren hoe u ontwerpt met gegevenstriggers.
-feature: Ontwerpschermen
-role: Beheerder, ontwikkelaar
-level: Intermediair
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

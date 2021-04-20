@@ -4,9 +4,9 @@ seo-title: Overnamekanaal voor één gebruik
 description: Volg dit Geval van Gebruik voor het creëren van Één enkel Gebruik neemOver Kanaal.
 seo-description: Volg dit Geval van Gebruik voor het creëren van Één enkel Gebruik neemOver Kanaal.
 contentOwner: jsyal
-feature: Ontwerpschermen
-role: Beheerder, ontwikkelaar
-level: Intermediair
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

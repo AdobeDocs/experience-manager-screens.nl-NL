@@ -5,9 +5,9 @@ description: Volg deze pagina om over de Update van de Inhoud als Dienst te lere
 seo-description: Volg deze pagina om over de Update van de Inhoud als Dienst te leren.
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
-feature: Ontwerpschermen
-role: Beheerder, ontwikkelaar
-level: Intermediair
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

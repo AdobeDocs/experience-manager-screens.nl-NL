@@ -1,9 +1,9 @@
 ---
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
-feature: Schermen, afspeelapparatuur beheren
-role: Beheerder
-level: Intermediair
+feature: Administering Screens, Players
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

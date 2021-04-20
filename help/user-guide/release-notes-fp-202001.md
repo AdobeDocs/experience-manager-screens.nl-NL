@@ -3,9 +3,9 @@ title: Opmerkingen bij de release voor Feature Pack 202001
 seo-title: Opmerkingen bij de release voor Feature Pack 202001
 description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202001 uitgebracht op 31 januari 2020.
 seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202001 uitgebracht op 31 januari 2020.
-feature: Functiepakket
+feature: Feature Pack
 role: Developer
-level: Intermediair
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

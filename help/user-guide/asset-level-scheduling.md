@@ -3,9 +3,9 @@ title: Activering van middelenniveau
 seo-title: Activering van middelenniveau
 description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
 seo-description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
-feature: Ontwerpschermen, activering van middelenniveau
-role: Beheerder, ontwikkelaar
-level: Intermediair
+feature: Authoring Screens, Asset Level Activation
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

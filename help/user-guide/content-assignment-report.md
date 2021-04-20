@@ -1,9 +1,9 @@
 ---
 title: Rapport Inhoudstoewijzing
 description: Op deze pagina vindt u een beschrijving van het downloaden en gebruiken van het rapport Inhoudstoewijzing.
-feature: Ontwerpschermen
+feature: Authoring Screens
 role: Developer
-level: Intermediair
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

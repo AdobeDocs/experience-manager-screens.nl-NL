@@ -2,9 +2,9 @@
 title: Kanaaltoewijzing
 seo-title: Kanaaltoewijzing
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
-feature: Auteursschermen, Kanaaltoewijzing
-role: Beheerder, ontwikkelaar
-level: Intermediair
+feature: Authoring Screens, Channel Assignment
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202011
 description: '"Volg deze pagina om informatie te krijgen voor AEM Screens Feature Pack 202011 uitgebracht op 30 november 2020."'
-feature: Functiepakket
+feature: Feature Pack
 role: Developer
-level: Intermediair
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

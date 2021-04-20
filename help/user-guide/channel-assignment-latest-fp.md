@@ -2,9 +2,9 @@
 title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina om meer te weten te komen over Kanaaltoewijzing en DayParting.
-feature: Auteursschermen, Kanaaltoewijzing
-role: Beheerder, ontwikkelaar
-level: Intermediair
+feature: Authoring Screens, Channel Assignment
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

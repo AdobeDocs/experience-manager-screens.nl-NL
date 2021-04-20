@@ -3,9 +3,9 @@ title: Beveiligingscontrolelijst
 seo-title: Beveiligingscontrolelijst
 description: De pagina beschrijft de belangrijkste veiligheidsgebieden met een controlelijst van vragen en overwegingen.
 seo-description: De pagina beschrijft de lijst met beveiligingscontroles
-feature: Schermen beheren
-role: Beheerder
-level: Intermediair
+feature: Administering Screens
+role: Administrator
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
