@@ -9,10 +9,9 @@ topic-tags: developing
 feature: Schermen ontwikkelen
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 1667fd10f415214a5301e9740d205eb33cc34f89
+source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 0%
 
 # Workflow gebruiken om middelenupdates te automatiseren voor een AEM Screens-kanaal {#automate-channel-updates-workflow}
 
-Leer hoe u een workflow maakt voor het automatisch verwerken van naar Adobe Experience Manager geüploade elementen en het dynamisch toewijzen van deze middelen aan een rasterkanaal. In dit voorbeeld wordt een workflow geactiveerd die een dynamisch watermerk toepast en de afbeelding toewijst aan een rasterkanaal wanneer een afbeelding aan een specifieke map wordt toegevoegd. De lessen die u in dit voorbeeld hebt geleerd, kunnen op een groot aantal verschillende automatiseringsscenario&#39;s worden toegepast.
+Leer hoe u een workflow maakt voor het automatisch verwerken van naar Adobe Experience Manager geüploade elementen en het dynamisch toewijzen van deze middelen aan een rasterkanaal. Wanneer in dit voorbeeld een afbeelding aan een specifieke map wordt toegevoegd, wordt een workflow geactiveerd die een dynamische tekstbedekking (watermerkproces) toepast en de afbeelding toewijst aan een rasterkanaal. De lessen die u in dit voorbeeld hebt geleerd, kunnen op een groot aantal verschillende automatiseringsscenario&#39;s worden toegepast.
 
 ## Vereisten {#prerequisites}
 
