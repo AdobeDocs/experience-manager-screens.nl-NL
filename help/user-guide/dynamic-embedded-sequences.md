@@ -9,13 +9,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-feature: Authoring Screens
+feature: Ontwerpschermen
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '2540'
+source-wordcount: '2537'
 ht-degree: 0%
 
 ---
@@ -309,8 +308,7 @@ De bevoegdheden worden aan elke groep toegewezen als volgt:
 #### Stappen voor het creëren van Gebruikersgroepen, Gebruikers en vestiging ACLs {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
->
->Om in detail te leren hoe te om projecten te segregeren die ACLs gebruiken zodat elk individu of team hun eigen project behandelt, gelieve te verwijzen naar **Setting up ACLs**.
+Om in detail te leren hoe te om projecten te segregeren die ACLs gebruiken zodat elk individu of team hun eigen project behandelt, gelieve te verwijzen naar **Setting up ACLs**.
 
 Volg de stappen hieronder om groepen, gebruikers tot stand te brengen en ACLs volgens de toestemmingen te wijzigen:
 
@@ -337,7 +335,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen en ACLs vo
    Maak op dezelfde manier twee andere gebruikers, zoals **Region-User** en **Store-User**, en voeg deze toe aan **Region-Author** en **Store-Author**.
 
    >[!NOTE]
-   >Het is aan te raden gebruikers toe te voegen aan een groep en vervolgens machtigingen toe te wijzen aan elke specifieke groep gebruikers.
+Het is aan te raden gebruikers toe te voegen aan een groep en vervolgens machtigingen toe te wijzen aan elke specifieke groep gebruikers.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
 
@@ -407,6 +405,5 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen en ACLs vo
    ![winkel](assets/store.gif)
 
 >[!NOTE]
->
->Om in detail over opstellingstoestemmingen te leren, te verwijzen gelieve [Setting up ACLs](setting-up-acls.md).
+Om in detail over opstellingstoestemmingen te leren, te verwijzen gelieve [Setting up ACLs](setting-up-acls.md).
 
