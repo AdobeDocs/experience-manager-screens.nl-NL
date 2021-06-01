@@ -3,13 +3,12 @@ title: Hoofdlettergebruik voor overgangen van MultiZone naar SingleZone
 description: Volg deze pagina voor meer informatie over het gebruik van hoofdletters en kleine letters voor multiZone-overgangen.
 seo-description: MultiZone naar SingleZone Overgangen gebruiken hoofdletters en kleine letters.
 contentOwner: Jyotika Syal
-feature: Authoring Screens
+feature: Ontwerpschermen
 role: Developer, Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
