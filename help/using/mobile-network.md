@@ -1,8 +1,7 @@
 ---
 title: Direct mobiel netwerk
 description: De pagina beschrijft Direct Mobile Network Setup
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -18,7 +17,7 @@ In AEM Screens wordt de vereiste inhoud fysiek gedownload naar de spelercontroll
 
 Het voordeel om AEM Screens Players over Cellular 3/4/5G met uw Mobiele Leverancier van de Gegevens van de Dienst te verbinden is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst om beste beschikbare netwerkdekking te verzekeren. Dit bevindt zich gewoonlijk in een verhoogde en open positie met zo weinig mogelijk omringende beton- of metaalconstructie.
 
-Deze instelling biedt AEM schermgebruikers een grote flexibiliteit omdat er geen vaste verbinding vereist is om verbinding te maken met AEM Screens. Dit is vooral interessant voor letterlijke of mobiele instellingen.
+Met deze instelling kunnen AEM schermgebruikers heel flexibel werken omdat er geen vaste verbinding is vereist om verbinding te maken met AEM Screens. Dit is vooral interessant voor letterlijke of mobiele instellingen.
 
 Het volgende diagram toont de Directe Mobiele Opstelling van het Netwerk en bestaat uit één enkel segment van de netwerkverbinding en de verbinding van elke speler aan het mobiele of cellulaire gegevensnetwerk.
 
@@ -81,7 +80,7 @@ De prestatieszorgen van het Netwerk van het Lokale Gebied (LAN), naast de netwer
 
 Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld, zouden de netwerkcomponenten minstens 100 norm moeten aanpassen Mbps en de bandbreedte aanpassen die door de toegang van Internet of de specificatie van de Router wordt verstrekt. Anders zal de totale bandbreedte door de zwakste verbinding in de netwerkketen worden beperkt.
 
-## Media en elementen downloaden {#download}
+## Media en middelen downloaden {#download}
 
 AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 
