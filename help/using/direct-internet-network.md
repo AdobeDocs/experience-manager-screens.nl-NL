@@ -1,8 +1,7 @@
 ---
 title: Directe internettoegang
 description: Directe internettoegang
-translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -82,7 +81,7 @@ Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Inter
 >
 >Als een Wi-Fi Repeater vereist is, wordt dit sterk aanbevolen voor een Wi-Fi-toegangspunt voor Net, zoals Google Nest Mesh Wi-Fi of een vergelijkbaar toegangspunt. Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
 
-## Media en elementen downloaden {#download}
+## Media en middelen downloaden {#download}
 
 AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 
