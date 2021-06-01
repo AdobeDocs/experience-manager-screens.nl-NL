@@ -3,8 +3,7 @@ title: Testen en kwaliteitsborging
 seo-title: Testen en kwaliteitsborging voor AEM Screens
 description: De pagina beschrijft Testing and Quality Assurance for AEM Screens Best Practices Guide
 seo-description: De pagina beschrijft Testing and Quality Assurance for AEM Screens Best Practices Guide
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
