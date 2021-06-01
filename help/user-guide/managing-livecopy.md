@@ -9,13 +9,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
-feature: Authoring Screens
+feature: Ontwerpschermen
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -129,7 +128,7 @@ Voer de onderstaande stappen uit om ervoor te zorgen dat uw wijzigingen van het 
 
 1. Selecteer het tabblad **Live kopie** en klik op **Synchroniseren** op de actiebalk.
 
-   ![chlimage_1-21](assets/chlimage_1-29.png)
+   ![chlimage_1-29](assets/chlimage_1-29.png)
 
 1. Klik **Sync** om de wijzigingen te bevestigen. Klik **Opslaan en sluiten** om terug te navigeren naar het AEM dashboard.
 
