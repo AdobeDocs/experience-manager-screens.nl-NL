@@ -10,13 +10,12 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: Authoring Screens, Channel Level Activation
+feature: Ontwerpschermen, activering op kanaalniveau
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -73,11 +72,8 @@ In de volgende afbeelding ziet u het **Kanaalniveau activeren**-project met **Ma
 >Raadpleeg de volgende bronnen voor meer informatie over het maken van een project en het maken van een volgnummer:
 >
 >* [Projecten maken en beheren](creating-a-screens-project.md)
-   >
-   >
-* [Een kanaal beheren](managing-channels.md)
 
->
+* [Een kanaal beheren](managing-channels.md)
 
 
 
@@ -98,8 +94,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
-   >
-   >Als u wilt leren hoe u een locatie maakt, raadpleegt u **[Locaties maken en beheren](managing-locations.md)**.
+   Als u wilt leren hoe u een locatie maakt, raadpleegt u **[Locaties maken en beheren](managing-locations.md)**.
 
 1. **Weergave onder locatie maken**
 
@@ -125,8 +120,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
-   >
-   >U kunt ook kanaal toewijzen vanaf het weergavedashboard door naar **Kanaalniveauactivering** —> **Locaties** —> **Regio** —> **RegionaalWeergave** te navigeren en op **Dashboard** te klikken op de actiebalk. Klik **+ Wijs Kanaal** van **TOEGEWEZEN KANALEN &amp; SCHEDULES** paneel toe.
+   U kunt ook kanaal toewijzen vanaf het weergavedashboard door naar **Kanaalniveauactivering** —> **Locaties** —> **Regio** —> **RegionaalWeergave** te navigeren en op **Dashboard** te klikken op de actiebalk. Klik **+ Wijs Kanaal** van **TOEGEWEZEN KANALEN &amp; SCHEDULES** paneel toe.
 
    Wijs ook kanaal **TargetedSinglePlay** voor display** toe:
 
