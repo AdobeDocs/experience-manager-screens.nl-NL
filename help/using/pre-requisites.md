@@ -3,8 +3,7 @@ title: Vereisten [!UICONTROL AEM Screens]
 seo-title: Vereisten voor projecten [!UICONTROL AEM Screens]
 description: In de handleiding wordt beschreven wat de voorwaarden zijn voordat u een AEM Screens-project start.
 seo-description: In de handleiding wordt beschreven wat de voorwaarden zijn voordat u een AEM Screens-project start.
-translation-type: tm+mt
-source-git-commit: 599eb98dff8040fd169499fca2894530fd8a42e8
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
