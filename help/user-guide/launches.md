@@ -10,19 +10,18 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-feature: Authoring Screens, Launches
+feature: Ontwerpschermen, starten
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1619'
 ht-degree: 0%
 
 ---
 
 
-# Inhoud bijwerken met gebruik van Startpagina {#launches} voor schermen
+# Inhoud bijwerken met Schermen starten {#launches}
 
 Inhoudsauteurs kunnen een toekomstige versie van het kanaal of de kanalen maken, ook wel **Starten van schermen** genoemd, en de live datum voor deze lancering verder instellen. Hierdoor kan de inhoud live worden weergegeven in apparaten of spelers op de opgegeven live datum.
 
