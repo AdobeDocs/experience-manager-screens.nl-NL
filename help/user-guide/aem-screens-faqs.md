@@ -5,13 +5,12 @@ description: Volg deze pagina om antwoorden te krijgen op veelgestelde vragen ov
 seo-description: Volg deze pagina om antwoorden te krijgen op veelgestelde vragen over een AEM Screens-project.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: Digital Signage, Content
+feature: Digitale handtekening, inhoud
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1903'
 ht-degree: 0%
 
 ---
