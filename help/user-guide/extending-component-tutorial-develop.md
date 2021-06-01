@@ -9,13 +9,12 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Schermen ontwikkelen
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1854'
 ht-degree: 0%
 
 ---
@@ -53,7 +52,7 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
 
 1. Download en installeer de volgende pakketten met behulp van **CRX package manage** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
-   [Bestand ophalen](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
+[Bestand ophalen](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Bestand ophalen](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **Download optioneel** als u werkt met Eclipse of een andere IDE, het onderstaande bronpakket. Stel het project aan een lokale AEM instantie op door het Maven bevel te gebruiken:
@@ -62,7 +61,7 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
 
    Start SRC schermen Web.Retail Run Project
 
-   [Bestand ophalen](assets/start-poster-screens-weretail-run.zip)
+[Bestand ophalen](assets/start-poster-screens-weretail-run.zip)
 
 1. In **CRX Package Manager** `http://localhost:4502/crx/packmgr/index.jsp` worden de volgende twee pakketten geïnstalleerd:
 
