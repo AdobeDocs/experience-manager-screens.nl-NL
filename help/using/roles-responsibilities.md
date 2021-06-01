@@ -3,8 +3,7 @@ title: AEM Screens-projectrollen en -verantwoordelijkheden
 seo-title: AEM Screens-projectrollen en -verantwoordelijkheden
 description: De pagina beschrijft AEM Screens-projectrollen en -verantwoordelijkheden
 seo-description: De pagina beschrijft AEM Screens-projectrollen en -verantwoordelijkheden
-translation-type: tm+mt
-source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 9%
@@ -26,7 +25,7 @@ In het onderstaande diagram ziet u de rollen waarnaar we in de hele handleiding 
 >
 > Veel van deze rollen kunnen intern of uitbesteed zijn, afhankelijk van hoe elk project wordt opgezet.
 
-## Rollen {#roles} definiëren
+## Rollen definiëren {#roles}
 
 In de volgende sectie vindt u een overzicht van het doelpubliek:
 
