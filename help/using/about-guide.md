@@ -3,8 +3,7 @@ title: Informatie over deze handleiding
 seo-title: Beschrijving op de Guide
 description: Deze pagina beschrijft de intent van de Gids van Beste praktijken
 seo-description: Deze pagina beschrijft de intent van de Gids van Beste praktijken
-translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
