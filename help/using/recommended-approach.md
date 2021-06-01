@@ -3,8 +3,7 @@ title: Aanbevolen aanpak
 seo-title: Aanbevolen aanpak in een AEM Screens-project
 description: De pagina beschrijft geadviseerde benadering in een project van AEM Screens
 seo-description: De pagina beschrijft geadviseerde benadering in een project van AEM Screens
-translation-type: tm+mt
-source-git-commit: c8be1ed0c3949091b3a10825167da4df16d68fc0
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
