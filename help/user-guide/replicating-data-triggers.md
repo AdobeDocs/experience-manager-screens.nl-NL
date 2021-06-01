@@ -3,13 +3,12 @@ title: Repliceer gegevenstriggers om servers te publiceren
 seo-title: Repliceer gegevenstriggers om de server te publiceren
 description: Volg deze pagina om te leren hoe u gegevenstriggers kunt repliceren om de server te publiceren.
 seo-description: Repliceer gegevenstriggers naar publicatieserver.
-feature: Administering Screens, Data Trigger
+feature: Schermen beheren, Data Trigger
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 2%
 
 ---
