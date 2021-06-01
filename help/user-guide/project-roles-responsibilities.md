@@ -2,13 +2,12 @@
 title: '"Deel 1: Projectrollen en -verantwoordelijkheden"'
 seo-title: '"Deel 1: Projectrollen en -verantwoordelijkheden"'
 description: Volg deze zelfstudie om meer inzicht te krijgen in rollen, verantwoordelijkheden en tijdlijnen die tijdens de verkoop- en projectlevenscycli voor een digitaal ondertekeningsproject zijn vereist.
-feature: Overview
+feature: Overzicht
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
