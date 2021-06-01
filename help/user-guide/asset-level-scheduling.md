@@ -3,13 +3,12 @@ title: Activering van middelenniveau
 seo-title: Activering van middelenniveau
 description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
 seo-description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
-feature: Authoring Screens, Asset Level Activation
+feature: Ontwerpschermen, activering van middelenniveau
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -83,7 +82,7 @@ Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
 
 U kunt ook bepalen dat de middelen elke dag, week of maand opnieuw worden uitgevoerd, afhankelijk van uw vereisten.
 
-Stel dat u een afbeelding alleen op vrijdag van 13.00 tot 19.00 uur wilt weergeven. Met het tabblad **Activering** kunt u het gewenste herhalingsinterval voor het element instellen.
+Stel dat u een afbeelding alleen wilt weergeven op vrijdag van 13.00 tot 22.00 uur. Met het tabblad **Activering** kunt u het gewenste herhalingsinterval voor het element instellen.
 
 ### Dagscheiding {#day-parting}
 
