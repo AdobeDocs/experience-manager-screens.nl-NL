@@ -1,13 +1,12 @@
 ---
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
-feature: Authoring Screens
+feature: Ontwerpschermen
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1126'
 ht-degree: 1%
 
 ---
@@ -31,7 +30,7 @@ Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Het doel v
 >[!NOTE]
 >De spelerhardware moet audio-invoer, zoals een microfoon, ondersteunen.
 
-## Het uitvoeren van Stem Erkenning {#implementing}
+## Spraakherkenning implementeren {#implementing}
 
 >[!IMPORTANT]
 > De functie voor spraakherkenning is alleen beschikbaar voor Chrome OS- en Windows-spelers.
