@@ -9,13 +9,12 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
-feature: Developing Screens
+feature: Schermen ontwikkelen
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
@@ -49,7 +48,7 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
 
 1. Download en installeer de volgende pakketten met behulp van [CRX package manager](http://localhost:4502/crx/packmgr/index.jsp):
 
-   [Bestand ophalen](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+[Bestand ophalen](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Bestand ophalen](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **** Optioneel als u werkt met Eclipse of een andere IDE, het onderstaande bronpakket downloadt. Stel het project aan een lokale AEM instantie op door het Maven bevel te gebruiken:
@@ -58,7 +57,7 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
 
    HelloWorld SRC-schermen starten We.Retail Run-project
 
-   [Bestand ophalen](assets/src-screens-weretail-run.zip)
+[Bestand ophalen](assets/src-screens-weretail-run.zip)
 
 1. Controleer in [CRX Package Manager](http://localhost:4502/crx/packmgr/index.jsp) of de volgende twee pakketten zijn geïnstalleerd:
 
