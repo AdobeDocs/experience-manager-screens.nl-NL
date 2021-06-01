@@ -1,8 +1,7 @@
 ---
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -75,7 +74,7 @@ Dit schema is vereenvoudigd en past in de meeste gevallen bij de omgevingen die 
 Als een Wi-Fi-oplossing wordt overwogen om schermen te verbinden met de Internet Link, wordt aanbevolen om minimaal gebruik te maken van moderne Wi-Fi-standaarden, zoals `IEEE 802.11g`. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals `802.11h-n` zijn van betere kwaliteit. Als u een Wi-Fi Repeater nodig hebt, raden we u sterk aan om technologieën als Google Nest Mesh Wi-Fi of een vergelijkbare technologie voor toegangspunten van Mesh aan te bevelen.
 Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
 
-## Media en elementen downloaden {#download}
+## Media en middelen downloaden {#download}
 
 AEM Screens biedt een groot voordeel voor Digital Signage-gebruikers. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 
