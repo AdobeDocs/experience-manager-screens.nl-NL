@@ -4,9 +4,9 @@ description: '"Volg deze pagina voor meer informatie over het AEM Screens Featur
 feature: Functiepakket
 role: Developer
 level: Intermediate
-source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
+source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
@@ -36,10 +36,8 @@ De releasedatum voor AEM Screens Feature Pack 202105 is 3 juni 2021.
 
    Snellere kanaalmanifestgeneratie met betere prestaties zoals het toewijzen van minder middelen op de server.
 
-
 ### Opgeloste problemen {#bug-fixes}
 
-* Verbeterde prestaties voor genereren van kanaalmanifest.
 * De speler toonde een zwart scherm wanneer het schakelen naar kanaal dynamische ingebedde opeenvolging bevat.
 * De schermspelers blokkeren nu de overstap naar een verbroken kanaal waarmee nog meer 404 fouten of een pagina met een foutbericht worden voorkomen.
 
