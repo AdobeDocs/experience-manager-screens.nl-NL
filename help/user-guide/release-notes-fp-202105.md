@@ -4,9 +4,9 @@ description: '"Volg deze pagina voor meer informatie over het AEM Screens Featur
 feature: Functiepakket
 role: Developer
 level: Intermediate
-source-git-commit: ffd8a340af2e826d5c3a4fec4fd0ec471da671e8
+source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,13 @@ De releasedatum voor AEM Screens Feature Pack 202105 is 1 juni 2021.
 
 ### Wat is er nieuw?{#what-is-new}
 
-* **AEM Screens Auto Registration of Players**
-
-   De speler toont als zwart scherm wanneer het schakelen naar kanaal dynamische ingebedde opeenvolging bevat
+* Pagina vergrendelen
 
 ### Opgeloste problemen {#bug-fixes}
 
-* De speler toont als zwart scherm wanneer het schakelen naar kanaal dynamische ingebedde opeenvolging bevat.
-
-
+* De speler toonde een zwart scherm wanneer het schakelen naar kanaal dynamische ingebedde opeenvolging bevat.
+* Verbeterde prestaties voor genereren van kanaalmanifest.
+* De schermspelers blokkeren nu de overstap naar een verbroken kanaal waarmee nog meer 404 fouten of een pagina met een foutbericht worden voorkomen.
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
