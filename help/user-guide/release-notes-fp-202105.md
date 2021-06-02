@@ -4,9 +4,9 @@ description: '"Volg deze pagina voor meer informatie over het AEM Screens Featur
 feature: Functiepakket
 role: Developer
 level: Intermediate
-source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
+source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '210'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ U kunt het recentste eigenschappak voor AEM Screens 6.5.8 Versie van [Software D
 
 ## Releasedatum {#release-date}
 
-De releasedatum voor AEM Screens Feature Pack 202105 is 1 juni 2021.
+De releasedatum voor AEM Screens Feature Pack 202105 is 3 juni 2021.
 
 ### Wat is er nieuw?{#what-is-new}
 
@@ -32,8 +32,8 @@ De releasedatum voor AEM Screens Feature Pack 202105 is 1 juni 2021.
 
 ### Opgeloste problemen {#bug-fixes}
 
-* De speler toonde een zwart scherm wanneer het schakelen naar kanaal dynamische ingebedde opeenvolging bevat.
 * Verbeterde prestaties voor genereren van kanaalmanifest.
+* De speler toonde een zwart scherm wanneer het schakelen naar kanaal dynamische ingebedde opeenvolging bevat.
 * De schermspelers blokkeren nu de overstap naar een verbroken kanaal waarmee nog meer 404 fouten of een pagina met een foutbericht worden voorkomen.
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
@@ -45,7 +45,6 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigen
 * Tizen
 * Android
 * Linux
-* iOS
 
 #### AEM Screens Player-downloads {#aem-screens-player-downloads}
 
