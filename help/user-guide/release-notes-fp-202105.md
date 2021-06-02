@@ -4,9 +4,9 @@ description: '"Volg deze pagina voor meer informatie over het AEM Screens Featur
 feature: Functiepakket
 role: Developer
 level: Intermediate
-source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
+source-git-commit: 02177449f203c3cc98a9b1b3db9cca4467130b62
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,10 @@ De releasedatum voor AEM Screens Feature Pack 202105 is 3 juni 2021.
 
 ### Wat is er nieuw?{#what-is-new}
 
-* Pagina vergrendelen
+* **Pagina vergrendelen in een AEM Screens-kanaal**
+
+   AEM Screens biedt nu ondersteuning voor *Een pagina vergrendelen*, zoals al is geïmplementeerd in AEM Sites. Met Adobe Experience Manager (AEM) kunt u een pagina vergrendelen, zodat niemand anders de inhoud kan wijzigen. Dit is handig wanneer u veel bewerkingen uitvoert op een bepaalde pagina of wanneer u een pagina even wilt stilzetten.
+
 
 ### Opgeloste problemen {#bug-fixes}
 
