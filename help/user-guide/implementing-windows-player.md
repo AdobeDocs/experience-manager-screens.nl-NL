@@ -13,9 +13,9 @@ docset: aem65
 feature: Schermen beheren, Windows Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 >Als **State** **REGISTERED** is, zult u merken dat het **Device id** veld wordt gevuld.
 >
 >Als **State** **UNREGISTERED** is, kunt u **Token** gebruiken om het apparaat te registreren.
+
+## Windows Player {#name-windows} een naam geven
+
+U kunt een gebruikersvriendelijke apparaatnaam aan uw Windows-speler toewijzen en daarbij de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen de naam van uw Windows-speler opgeven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
+
+Voer de onderstaande stappen uit om de naam in Windows Player te configureren:
+
+1. Klik op **start** —> **run**
+1. `system.cpl` invoeren
+1. Gebruik het tabblad Naam van de computer om de hostnaam van de computer in te stellen
 
 ## De standaardopties wijzigen in Windows Installer {#changing-default-options}
 
