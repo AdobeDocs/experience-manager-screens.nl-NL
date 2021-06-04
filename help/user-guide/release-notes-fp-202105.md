@@ -1,13 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202105
-description: '"Volg deze pagina voor meer informatie over het AEM Screens Feature Pack 202105, uitgebracht op 1 juni 2021."'
+description: '"Volg deze pagina voor meer informatie over het AEM Screens Feature Pack 202105, uitgebracht op 4 juni 2021."'
 feature: Functiepakket
 role: Developer
 level: Intermediate
-source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 1%
+source-wordcount: '394'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ U kunt het recentste eigenschappak voor AEM Screens 6.5.8 Versie van [Software D
 
 ## Releasedatum {#release-date}
 
-De releasedatum voor AEM Screens Feature Pack 202105 is 3 juni 2021.
+De releasedatum voor AEM Screens Feature Pack 202105 is 4 juni 2021.
 
 ### Wat is er nieuw?{#what-is-new}
 
@@ -32,13 +32,25 @@ De releasedatum voor AEM Screens Feature Pack 202105 is 3 juni 2021.
 
    AEM Screens biedt nu ondersteuning voor *Een pagina vergrendelen*, zoals al is geïmplementeerd in AEM Sites. Met Adobe Experience Manager (AEM) kunt u een pagina vergrendelen, zodat niemand anders de inhoud kan wijzigen. Dit is handig wanneer u veel bewerkingen uitvoert op een bepaalde pagina of wanneer u een pagina even wilt stilzetten.
 
+* **Naam van AEM Screens Player-apparaat**
+
+   De AEM Screens-spelers beschikken nu over de mogelijkheid om een apparaatnaam naar Adobe Experience Manager (AEM) te verzenden.
+Wanneer bulkregistratie wordt gebruikt om een apparaat te registreren, wordt standaard een door het systeem gegenereerde gebruikersnaam ingevoerd in het titelveld. Als alternatief kan een klant een asset-tag of een andere vriendelijke naam gebruiken, zodat deze in AEM zichtbaar is en gemakkelijker geschikte inhoud kan toewijzen.
+
+   Raadpleeg de volgende documentatie voor informatie over het configureren van de naam in elk ondersteund besturingssysteem:
+
+       * [Android](/help/user-guide/implementing-android-player.md#name-android)
+       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   
 * **Manifest Generation**
 
    Snellere kanaalmanifestgeneratie met betere prestaties zoals het toewijzen van minder middelen op de server.
 
 ### Opgeloste problemen {#bug-fixes}
 
-* De speler toonde een zwart scherm wanneer het schakelen naar kanaal dynamische ingebedde opeenvolging bevat.
+* De speler toonde een zwart scherm wanneer het schakelen aan kanaal dat dynamische ingebedde opeenvolging bevat.
 * De schermspelers blokkeren nu de overstap naar een verbroken kanaal waarmee nog meer 404 fouten of een pagina met een foutbericht worden voorkomen.
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
