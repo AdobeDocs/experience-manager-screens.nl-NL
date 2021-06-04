@@ -4,9 +4,9 @@ description: '"Volg deze pagina voor meer informatie over het AEM Screens Featur
 feature: Functiepakket
 role: Developer
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Wanneer bulkregistratie wordt gebruikt om een apparaat te registreren, wordt sta
 
    Raadpleeg de volgende documentatie voor informatie over het configureren van de naam in elk ondersteund besturingssysteem:
 
-       * [Android](/help/user-guide/implementing-android-player.md#name-android)
-       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
-   
+   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+   * [Chrome-besturingssysteem](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+
 * **Manifest Generation**
 
    Snellere kanaalmanifestgeneratie met betere prestaties zoals het toewijzen van minder middelen op de server.
