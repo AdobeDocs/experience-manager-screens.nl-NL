@@ -12,9 +12,9 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Schermen beheren
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,27 @@ Voer de onderstaande stappen uit om de chrome beheerconsole in te stellen:
 >[!NOTE]
 >
 >Een oplossing voor apparaatbeheer, zoals de Chrome Management Console, wordt aanbevolen voor de implementatie en het beheer van Chrome OS-apparaten. Hoewel dit document implementatie voor de Chrome Management Console biedt, zijn er andere leveranciers die beweren soortgelijke functionaliteit te bieden. Neem contact op met de leverancier van de software voor apparaatbeheer.
+
+## Naam van Chrome OS Player {#name-chrome}
+
+U kunt een gebruikersvriendelijke apparaatnaam aan uw Chrome-speler toewijzen en daarbij de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen de Chrome-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
+
+Voer de onderstaande stappen uit om de naam te configureren in Chrome Player:
+
+1. U kunt desgewenst AV-integrators of IT-beheerders toestaan de id en locatie van de bedrijfsmiddelen in te stellen als onderdeel van de inschrijving voor de onderneming.
+
+   ![afbeelding](/help/user-guide/assets/chrome-device/chrome1.png)
+
+1. U krijgt de opties te zien wanneer u het apparaat kunt inschrijven.
+
+   ![afbeelding](/help/user-guide/assets/chrome-device/chrome2.jpg)
+
+1. U kunt de id van het element instellen als onderdeel van de inschrijving op de onderneming en in de Chrome-beheerconsole.
+
+   ![afbeelding](/help/user-guide/assets/chrome-device/chrome3.png)
+
+   >[!NOTE]
+   >Chrome Players moeten in ondernemingsinschrijving worden ingeschreven en de speler van Chrome moet door de Console van het Beheer van Chrome worden opgesteld, anders zal identiteitskaart van activa leeg terugkeren (bijvoorbeeld, chroom als uitbreiding). De apparaatnaam wordt alleen opgenomen op het moment van registratie. Toekomstige wijzigingen worden niet opgepikt door Adobe Experience Manager (AEM).
 
 ### Modus Kiosk inschakelen {#enabling-kiosk-mode}
 
