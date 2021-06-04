@@ -13,9 +13,9 @@ docset: aem65
 feature: Schermen beheren, Android Player
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,15 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 ## Bulkprovisioning van Android Player met gebruik van Enterprise Mobility Management {#bulk-provisioning}
 
 Wanneer u de Android-speler bulksgewijs implementeert, wordt het vervelend om elke speler handmatig te registreren bij AEM. Het wordt ten zeerste aanbevolen om een EMM-oplossing (Enterprise Mobility Management), zoals VMWare Airwatch, MobileIron of Samsung Knox, te gebruiken om uw implementatie op afstand te voorzien en te beheren. AEM Screens Android-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
+
+## Android-speler {#name-android} een naam geven
+
+U kunt een gebruikersvriendelijke apparaatnaam aan uw Android-speler toewijzen en daarbij de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen uw Android-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
+
+Voer de onderstaande stappen uit om de naam te configureren in Android-speler:
+
+1. Navigeer naar **instellingen** —> **Informatie over apparaat**
+1. De naam van uw apparaat bewerken en instellen als naam voor uw Android-speler
 
 ### Bulkprovisioning van Android Player implementeren met gebruik van Enterprise Mobility Management {#implementation}
 
