@@ -4,9 +4,9 @@ description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 feature: Schermen, afspeelapparatuur beheren
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,15 @@ Voer de onderstaande stappen uit:
 1. Hiermee wordt de IP of URL van uw lokale HTTP-server opgehaald (en wordt het pad naar de map met de geëxtraheerde bestanden in stap 2 aangegeven als deze worden uitgepakt naar een submap en niet naar de hoofdmap)
 
 1. De Tizen-speler downloadt het installatieprogramma van de lokale server.
+
+### Naamgeving van Tizen Player {#name-tizen}
+
+U kunt een gebruikersvriendelijke apparaatnaam aan uw Tizen-speler toewijzen en daarbij de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen de Tizen-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
+
+Voer de onderstaande stappen uit om de naam in de Tizen-speler te configureren:
+
+1. Klik op de menuknop op de afstandsbediening.
+1. Navigeer naar **netwerk** —> **Apparaatnaam** om een naam aan de speler toe te wijzen.
 
 ### Updates configureren op het Samsung-apparaat {#config-updates}
 
