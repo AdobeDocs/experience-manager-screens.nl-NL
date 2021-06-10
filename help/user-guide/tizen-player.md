@@ -4,10 +4,10 @@ description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 feature: Schermen, afspeelapparatuur beheren
 role: Administrator
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 1%
+source-wordcount: '1209'
+ht-degree: 0%
 
 ---
 
@@ -88,24 +88,49 @@ Voer de onderstaande stappen uit om deze niet-compatibele clients vrij te stelle
 
 1. Registreer de Tizen-speler tegen AEM 6.5.5 en hoger en registreer de inhoud normaal.
 
-## Bulkprovisioning van tizen Player {#bulk-provisioning-tizen-player}
+## Op afstand de Tizen Player {#remote-provisioning} voorzien
+
+Op afstand kunt u met de Tizen Player honderden of duizenden Samsung Tizen-beeldschermen zonder veel moeite implementeren. Het vermijdt de vervelende handmatige inspanning om elke speler met server URL en bulkregistratiecode, of andere parameters te vormen, en in het geval van Schermen als Cloud Service om de wolkenwijze en wolkentoken te vormen.
+
+Met deze functie kunt u Tizen Player op afstand configureren en deze configuraties indien nodig centraal bijwerken. U hebt alleen de `HTTP`-server nodig die wordt gebruikt om de toepassing `(wgt and xml file)` voor lagen te hosten en een teksteditor om de `config.json` met de juiste parameters op te slaan.
+
+Controleer of u het URL-startadres op het Tizen-apparaat hebt geconfigureerd, dat wil zeggen: Home Button —> URL Launcher-instellingen.
+Plaats het bestand `config.json` op dezelfde locatie als het `HTTP`-bestand op de `wgt`-server die als host fungeert voor de toepassing Tizen. De bestandsnaam moet `config.json` zijn.
+De Tizen-speler wordt geïnstalleerd en bij het opstarten (en elke keer dat de computer opnieuw wordt opgestart) worden de instellingen in het `config.json`-bestand gecontroleerd en toegepast.
+
+### Voorbeeld JSON-beleid {#example-json}
+
+```java
+{
+  "server":  "http://your-aem-instance.com:4502",
+  "registrationKey": "AdobeRocks!!",
+  "enableAdminUI": true,
+  "enableOSD": true,
+  "enableActivityUI": true
+}
+```
+
+### Beleidskenmerken en doel {#policy-attributes}
+
+In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 
 >[!NOTE]
->Het kan een vervelende inspanning zijn om het adres van uw AEM server in admin UI van elk en elk apparaat voor een groot aantal apparaten manueel in te gaan. Het wordt aanbevolen de Samsung Remote Management (RMS)-oplossing te gebruiken voor het implementeren en beheren van grotere oplossingen. Raadpleeg [Het Tizen-apparaat inschrijven bij de Samsung Remote Management Service (RMS)](#enroll-tizen-device-rm) voor meer informatie.
+>De configuraties van het beleid worden strikt afgedwongen en worden niet manueel met voeten getreden bij Admin UI van de speler. Om handspelerconfiguratie voor een bepaald beleid toe te staan, specificeer niet het beleid in de beleidsconfiguratie, bijvoorbeeld, als u handconfiguratie voor reboot programma wilt toestaan, specificeer niet de sleutel `rebootSchedule` in de beleidsconfiguratie. Beleidsconfiguraties worden telkens gelezen wanneer de speler opnieuw wordt geladen.
 
-Voer de onderstaande stappen uit om een bulkbepaling in de toepassing op te nemen die naar de AEM-auteur verwijst wanneer deze wordt gestart:
+| **Beleidsnaam** | **Doel** |
+|---|---|
+| server | De URL naar de Adobe Experience Manager-server (AEM). |
+| registrationKey | Wordt gebruikt voor de bulkregistratie van apparaten met behulp van een vooraf gedeelde sleutel. |
+| resolutie | De resolutie van het apparaat. |
+| rebootSchedule | Het programma om de speler opnieuw op te starten. |
+| enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
+| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals zodra het volledig en in productie wordt gevormd. |
+| enableActivityUI | Schakel deze optie in om de voortgang van activiteiten zoals downloaden en synchroniseren weer te geven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
+| cloudMode | Stel dit in op true als u wilt dat de Tizen-speler als cloudservice verbinding maakt met schermen. false om verbinding te maken met AMS of onPrem AEM. |
+| cloudToken | Registratietoken voor registratie tegen schermen als Cloud Service. |
 
-1. Download en installeer de [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download).
-1. Open het `wgt`-bestand met gebruik van de Tizen-studio.
-1. Open het bestand `firmware-platform.js` en zoek naar `DEFAULT_PREFERENCES` en wijzig de URL van de server in de URL van de AEM auteur en sla deze op.
-1. Bouw het nieuwe `wgt` dossier.
 
-   >[!NOTE]
-   >Mogelijk moet u een ondertekeningscertificaat maken of instellen.
-
-1. Implementeer dit nieuwe `wgt`-bestand met behulp van RMS of URL Launcher. Wanneer de speler start, moet dit automatisch naar de server verwijzen, zodat u het bestand niet handmatig voor elk apparaat hoeft in te voeren.
-
-### Het Tizen-apparaat aanmelden bij de Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
+## Het Tizen-apparaat aanmelden bij de Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
 Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Samsung Remote Management Service (RMS) en de URL Launcher op afstand te configureren:
 
