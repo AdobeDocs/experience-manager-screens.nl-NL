@@ -4,9 +4,9 @@ description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 feature: Schermen, afspeelapparatuur beheren
 role: Administrator
 level: Intermediate
-source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
+source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Volg de onderstaande stappen op het Samsung-apparaat om de installatie van de AE
 
 >[!IMPORTANT]
 >**Dit punt is van toepassing op Adobe Experience Manager (AEM) 6.5.5 tot en met AEM 6.5.7**
->Sommige browserengines zijn niet compatibel met het kenmerk *SameSite=None* dat wordt gebruikt in het aanmeldingstoken dat wordt uitgegeven door AEM 6.5 tot AEM 6.7. In de meeste gevallen kan het probleem worden opgelost door de browser naar de nieuwste beschikbare versie te upgraden. In sommige gevallen zijn dergelijke upgrades mogelijk niet mogelijk, zoals bij slimme beeldschermen, instellen van bovenste vakken of andere apparaten met ingesloten bladerprogramma&#39;s.
+>Sommige browserengines zijn niet compatibel met het kenmerk *SameSite=None* dat wordt gebruikt in het aanmeldingstoken dat wordt uitgegeven door AEM 6.5 tot AEM 6.7. Meestal kan het probleem worden opgelost door de browser naar de recentste beschikbare versie te upgraden. In sommige gevallen zijn dergelijke upgrades mogelijk niet mogelijk, zoals bij slimme beeldschermen, instellen van bovenste vakken of andere apparaten met ingesloten bladerprogramma&#39;s.
 
 Voer de onderstaande stappen uit om deze niet-compatibele clients vrij te stellen wanneer u *SameSite=None* gebruikt:
 
@@ -82,7 +82,7 @@ Voer de onderstaande stappen uit om deze niet-compatibele clients vrij te stelle
 
 1. Nadat AEM opnieuw begint, ga naar `/system/console/configMgr` en onderzoek naar **de Handler van de Authentificatie van het Symbolische Symbolie van de Adobe.** Stel de waarde voor de waarde **SameSite** in op **None**.
 
-1. U zou een nieuwe optie *Gebruikersagenten moeten zien om van zelfde attributen worden vrijgesteld*. Vul deze met een regex die overeenkomt met de gebruikersagent(s) die niet compatibel is (zijn) met het *SameSite=None*-kenmerk.
+1. U zou een nieuwe optie *Gebruikersagenten moeten zien om van zelfde attributen worden vrijgesteld*. Vul deze met een regex die overeenkomt met de gebruikersagent die niet compatibel is (zijn) met het kenmerk *SameSite=None*.
    >[!NOTE]
    >Zie [SameSite=None: Bekende Niet-compatibele Clients](https://www.chromium.org/updates/same-site/incompatible-clients) voor meer informatie. Gebruik voor de Tizen-speler de regex: `(.*)Tizen(.*)`.
 
