@@ -4,9 +4,9 @@ description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 feature: Schermen, afspeelapparatuur beheren
 role: Administrator
 level: Intermediate
-source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
+source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -124,9 +124,9 @@ In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 | resolutie | De resolutie van het apparaat. |
 | rebootSchedule | Het programma om de speler opnieuw op te starten. |
 | enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
-| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals zodra het volledig en in productie wordt gevormd. |
+| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
 | enableActivityUI | Schakel deze optie in om de voortgang van activiteiten zoals downloaden en synchroniseren weer te geven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
-| cloudMode | Stel dit in op true als u wilt dat de Tizen-speler als cloudservice verbinding maakt met schermen. false om verbinding te maken met AMS of onPrem AEM. |
+| cloudMode | Stel dit in op true als u wilt dat de Tizen-speler als Cloud Service verbinding maakt met schermen. Ingesteld op false om verbinding te maken met AMS of on-Prem AEM. |
 | cloudToken | Registratietoken voor registratie tegen schermen als Cloud Service. |
 
 
