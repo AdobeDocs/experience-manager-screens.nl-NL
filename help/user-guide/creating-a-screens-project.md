@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 1%
 
 ---
 
-
-# Projecten {#creating-and-managing-projects} maken en beheren
+# Projecten maken en beheren {#creating-and-managing-projects}
 
 De AEM Screens is beschikbaar door de Adobe Experience Manager-koppeling (linksboven) te selecteren en vervolgens de koppelingen te screenen.
 
@@ -58,7 +58,7 @@ In een project, zijn er vijf soorten omslagen, zoals aangetoond in het hieronder
 >Standaard bevat de initiële structuur de master pagina&#39;s **Planningen**, **Locaties**, **Toepassingen**, **Kanalen** en **Apparaten**, maar deze kunnen indien nodig handmatig worden aangepast. U kunt de opties verwijderen als de beschikbare opties niet relevant zijn voor uw project.
 
 
-## Weergaveeigenschappen {#viewing-properties}
+## Eigenschappen weergeven {#viewing-properties}
 
 Nadat u het project Schermen hebt gemaakt, selecteert u het project en klikt u op **Eigenschappen** in de actiebalk om de eigenschappen van het project te bewerken.
 
@@ -67,7 +67,7 @@ Met de volgende opties kunt u eigenschappen van uw **TestScreens** bewerken/wijz
 ![afbeelding](assets/create-project2.png)
 
 
-## Aangepaste mappen maken {#creating-a-custom-folder}
+## Een aangepaste map maken {#creating-a-custom-folder}
 
 U kunt ook uw eigen aangepaste map maken onder **Planningen**, **Locaties**, **Toepassingen**, **Kanalen** en **Apparaten** master pagina&#39;s beschikbaar in uw project.
 
@@ -85,4 +85,3 @@ De volgende stappen tonen de verwezenlijking van een toepassingsomslag aan uw **
 ### De volgende stappen {#the-next-steps}
 
 Zodra u uw eigen project hebt gecreeerd, zie [Kanaalbeheer](managing-channels.md) om inhoud in uw kanaal tot stand te brengen en te beheren.
-
