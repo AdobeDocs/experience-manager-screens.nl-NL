@@ -11,17 +11,17 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: Schermen beheren
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
 
 ---
 
-
-# Nieuwe projectimportmodule van bestand {#new-project-importer-from-file}
+# Nieuwe importmodule voor project uit bestand {#new-project-importer-from-file}
 
 In deze sectie wordt een functionaliteit beschreven voor het bulksgewijs importeren van een set locaties vanuit een CSV/XLS-spreadsheet naar uw AEM Screens-project.
 
@@ -70,7 +70,7 @@ Voor het spreadsheetbestand (CSV/XLS) zijn dus de volgende kolommen vereist:
 >
 >Elke kolom die niet aan de bovenstaande voorwaarden voldoet, wordt gewoon genegeerd. Als er bijvoorbeeld een andere kolom in het CSV/XLS-bestand (sheet) is gedefinieerd, anders dan **path**,**template**,**title** en **description** in het bestand, worden deze velden genegeerd en **Project Importer** zal deze extra niet valideren velden voor het importeren van uw project naar uw AEM Screens-project.
 
-## Projectimportmodule {#using-project-importer} gebruiken
+## Project importeren gebruiken {#using-project-importer}
 
 In de volgende sectie wordt beschreven hoe de projectimportmodule wordt gebruikt in een AEM Screens-project.
 
@@ -95,7 +95,7 @@ Voor demo-doeleinden kunt u een Excel-bestand downloaden uit de onderstaande sec
 
 [Bestand ophalen](assets/minimal-file.xls)
 
-### Het bestand met minimaal vereiste velden {#importing-the-file-with-minimum-required-fields} importeren
+### Het bestand met minimaal vereiste velden importeren {#importing-the-file-with-minimum-required-fields}
 
 Voer de onderstaande stappen uit om een bestand te importeren naar de map locations met minimaal vereiste velden:
 
@@ -126,4 +126,3 @@ Voer de onderstaande stappen uit om een bestand te importeren naar de map locati
 1. Hierdoor kunt u nu alle locaties weergeven die in uw project zijn geïmporteerd.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-
