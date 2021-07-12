@@ -11,21 +11,21 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
 
 ---
 
-
 # Ingesloten reeksen {#embedded-sequences}
 
 Met ***Ingesloten reeksen*** kan de gebruiker voor kanalen componenten toevoegen aan het bovenliggende kanaal en ook de inhoud van een ander kanaal hergebruiken en deze insluiten in het bovenliggende kanaal.
 
-## Ingesloten reeksen {#adding-embedded-sequences} toevoegen
+## Ingesloten reeksen toevoegen {#adding-embedded-sequences}
 
 U kunt de volgende componenten toevoegen aan uw volgnummer:
 
@@ -111,4 +111,3 @@ Voer de onderstaande stappen uit om een ingesloten reeks aan uw kanaal toe te vo
 1. Selecteer **Duur (ms)** in **Reeks** lusje voor uw ingebed kanaal in de opeenvolging.
 
 ![nieuwste](assets/latest.gif)
-
