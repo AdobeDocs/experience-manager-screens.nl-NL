@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-
 # Video-uitvoeringen {#video-renditions}
 
 U kunt handmatige en automatische Full HD-uitvoeringen genereren. In de volgende sectie wordt de workflow beschreven voor het toevoegen van uitvoeringen aan uw elementen.
 
-## Automatisch Full HD-uitvoeringen genereren {#automatically-generating-full-hd-renditions}
+## Automatisch Full HD-uitvoeringen genereren  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -93,4 +93,3 @@ Voer de onderstaande stappen uit om handmatig volledige HD-uitvoeringen te gener
 1. Open de **Renditions** side rail en u zult de nieuwe full HD vertoningen opmerken.
 
    ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
-
