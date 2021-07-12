@@ -2,15 +2,15 @@
 title: Spraakherkenning in AEM Screens
 description: De pagina bevat een beschrijving van de functie voor spraakherkenning in AEM Screens.
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 1%
 
 ---
-
 
 # Spraakherkenning in AEM Screens {#voice-recognition}
 
@@ -39,7 +39,7 @@ Als u spraakherkenning wilt implementeren in uw AEM Screens-project, moet u de s
 
 In de volgende sectie wordt beschreven hoe u de functie voor spraakherkenning in een AEM Screens-project kunt inschakelen en gebruiken.
 
-## Inhoud weergeven in Volledig scherm of Kanaalschakelaar gesplitst scherm {#sequence-channel}
+## Inhoud weergeven in Volledig scherm of Kanaalschakelaar splitsen {#sequence-channel}
 
 Alvorens u de eigenschap van de stemerkenning gebruikt, zorg ervoor u een project en een kanaal met inhoud hebt opstelling voor uw project.
 
@@ -110,7 +110,7 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 1. Klik **Opslaan en sluiten** als u klaar bent.
 
 
-### Codes {#creating-tags} maken
+### Tags maken {#creating-tags}
 
 Ga als volgt te werk om labels te maken:
 
@@ -168,7 +168,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
    >[!IMPORTANT]
    >Het is verplicht om de functie voor spraakherkenning vanuit de weergave in te schakelen.
 
-### De inhoud weergeven in de Chrome-speler {#viewing-content}
+### De inhoud weergeven in de Chrome Player {#viewing-content}
 
 Wanneer de voorgaande stappen zijn voltooid, kunt u het chroomapparaat registreren om de uitvoer weer te geven.
 
@@ -184,8 +184,3 @@ Op dezelfde manier als u woord met een sleutelwoord **kou** zoals *ik zou willen
 **Gewenste uitvoer voor gesplitste schermkanalen**
 
 Het **Main** kanaal speelt zijn inhoud, maar wanneer u woorden met sleutelwoord **heet** en **koud** samen zoals *ik zou het menu voor hete en koude dranken* willen zien, begint het kanaal de inhoud van **SplitScreen** te spelen. Als u *terug naar hoofdmenu* zegt, schakelt het terug naar het belangrijkste kanaal.
-
-
-
-
-
