@@ -4,17 +4,17 @@ seo-title: Dispatcher Configurations voor AEM Screens
 description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 seo-description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
 feature: Schermen beheren
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 3%
 
 ---
 
-
-# Dispatcher Configurations for AEM Screens{#dispatcher-configurations-for-aem-screens}
+# Dispatcher Configurations voor AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen.
 
@@ -32,13 +32,13 @@ Voordat u een dispatcher configureert voor een AEM Screens-project, moet u voora
 
 Raadpleeg [Dispatcher configureren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) voor meer informatie.
 
-## Dispatcher {#configuring-dispatcher} configureren
+## Dispatcher configureren {#configuring-dispatcher}
 
 AEM Screens-spelers/apparaten gebruiken geverifieerde sessies om ook toegang te krijgen tot de bronnen in de publicatieinstanties. Als u dus meerdere publicatieinstanties hebt, moeten de aanvragen altijd naar dezelfde publicatieinstantie gaan, zodat de geverifieerde sessie geldig is voor alle aanvragen die afkomstig zijn van de AEM Screens-spelers/apparaten.
 
 Voer de onderstaande stappen uit om de dispatcher voor een AEM Screens-project te configureren.
 
-### Vaste sessies {#enable-sticky-session} inschakelen
+### Vaste sessies inschakelen {#enable-sticky-session}
 
 Als u meerdere publicatie-instanties wilt gebruiken die worden voorafgegaan door één verzender, moet u het `dispatcher.any`-bestand bijwerken om kleverigheid mogelijk te maken
 
@@ -57,7 +57,7 @@ Als u één publicatie-instantie hebt voorafgegaan door één verzender, helpt h
 
 Bijvoorbeeld, als u AWS ALB gebruikt, verwijs naar [Doelgroepen voor uw Balancers van de Lading van de Toepassing ](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) voor het toelaten van kleverigheid op het niveau van ALB. Laat de kleverigheid 1 dag toe.
 
-### Stap 1: Klantkoppen {#step-configuring-client-headers} configureren
+### Stap 1: Clientkoppen configureren {#step-configuring-client-headers}
 
 Voeg het volgende toe aan `/clientheaders`sectie:
 
@@ -67,7 +67,7 @@ Voeg het volgende toe aan `/clientheaders`sectie:
 
 **X-REQUEST-COMMAND**
 
-### Stap 2: Schermfilters {#step-configuring-screens-filters} configureren
+### Stap 2: Schermfilters configureren {#step-configuring-screens-filters}
 
 Als u schermfilters wilt configureren, voegt u het volgende toe aan ***/filter***.
 
@@ -90,7 +90,7 @@ Als u schermfilters wilt configureren, voegt u het volgende toe aan ***/filter**
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Stap 3: Dispatcher Cache {#step-disabling-dispatcher-cache} uitschakelen
+### Stap 3: Dispatcher Cache uitschakelen {#step-disabling-dispatcher-cache}
 
 Schakel caching van dispatcher uit voor ***/content/screens path***.
 
