@@ -10,23 +10,23 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Schermen beheren
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
-
-# ACL&#39;s {#setting-up-acls} instellen
+# ACLs van de vestiging {#setting-up-acls}
 
 De volgende sectie verklaart hoe te om projecten te segregeren gebruikend ACLs zodat elk individu of team hun eigen project behandelt.
 
 Als AEM beheerder, wilt u ervoor zorgen dat de teamleden van een project zich niet in andere projecten mengen en elk van de gebruikers specifieke rollen zoals per projectvereisten worden toegewezen.
 
-## Machtigingen {#setting-up-permissions} instellen
+## Machtigingen instellen {#setting-up-permissions}
 
 De volgende stappen vatten de procedure voor vestiging ACLs voor een project samen:
 
@@ -142,4 +142,3 @@ De volgende tabel geeft een overzicht van de groepen met een beschrijving en mac
   </tr>
  </tbody>
 </table>
-
