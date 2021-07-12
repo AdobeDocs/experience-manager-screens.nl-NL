@@ -3,15 +3,15 @@ title: Kanaaltoewijzing
 seo-title: Kanaaltoewijzing
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
 feature: Auteursschermen, Kanaaltoewijzing
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 1%
 
 ---
-
 
 # Kanaaltoewijzing {#channel-assignment}
 
@@ -25,7 +25,7 @@ Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 >[!NOTE]
 >U kunt meerdere kanalen aan een weergave toewijzen.
 
-## Een kanaal {#assign-a-channel} toewijzen
+## Een kanaal toewijzen {#assign-a-channel}
 
 Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
@@ -107,7 +107,7 @@ DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het sp
 
 De volgende voorbeelden verklaren dag-parting in kanalen in drie verschillende scenario&#39;s:
 
-#### Inhoud afspelen op één dag verdeeld in meerdere tijdsleuven {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Inhoud afspelen op één dag, verdeeld in meerdere tijdsleuven {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 In dit voorbeeld wordt getoond hoe een restaurant gebruikmaakt van dagparting om het ontbijt-, lunch- en dinermenu te laten zien.
 
@@ -177,5 +177,4 @@ Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het 
 >
 >* [Herhaling van activa afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Herhaling van middelen in een kanaal afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
 
