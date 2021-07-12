@@ -11,17 +11,17 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 feature: Ontwerpschermen, activering op kanaalniveau
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
 
 ---
 
-
-# Activering van kanaalniveau {#channel-level-activation-single-event-playback}
+# Activering op kanaalniveau {#channel-level-activation-single-event-playback}
 
 Op deze pagina vindt u een beschrijving van de activering op kanaalniveau voor de middelen die in Kanalen worden gebruikt.
 
@@ -144,7 +144,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    ![new1](assets/new1.gif)
 
-## Resultaten weergeven {#viewing-the-results}
+## De resultaten bekijken {#viewing-the-results}
 
 Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave voltooid is, start u de AEM Screens-speler om de inhoud weer te geven.
 
@@ -156,13 +156,13 @@ Raadpleeg de volgende bronnen voor meer informatie over AEM Screen Player:
 [Werken met AEM Screens Player](working-with-screens-player.md)
 
 
-## Herhaling verwerken voor elementen in een kanaal {#handling-recurrence-in-assets}
+## Herhaling van middelen in een kanaal afhandelen {#handling-recurrence-in-assets}
 
 U kunt middelen in een kanaal plannen om ook met bepaalde tussenpozen op dag, week of maandbasis opnieuw te komen naar wens.
 
 Stel dat u de inhoud van een kanaal alleen op vrijdag van 13.00 uur tot 10.00 uur wilt weergeven. Met het tabblad **Activering** kunt u het gewenste herhalingsinterval voor het element instellen.
 
-### Dagscheiding {#day-parting}
+### Dagverdeling {#day-parting}
 
 1. Selecteer het kanaal en klik op **Dashboard** van de actiebar om het kanaaldashboard te openen.
 
@@ -201,7 +201,7 @@ U kunt _militaire tijd_ notatie (namelijk 14:00) in plaats van *am/pm* notatie (
 
 1. Ga de uitdrukking in **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
-#### Voorbeeldexpressies voor WeekParting {#example-two}
+#### Voorbeelden van expressies voor WeekParting {#example-two}
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
@@ -228,7 +228,7 @@ U kunt _militaire tijd_ notatie (namelijk 14:00) in plaats van *am/pm* notatie (
 
 1. Ga de uitdrukking in **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
-#### Voorbeeldexpressies voor MonthParting {#example-three}
+#### Voorbeelden van expressies voor MonthParting {#example-three}
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
@@ -265,4 +265,3 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 >[!NOTE]
 Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.  Daarnaast kunt u _militaire tijd_ notatie (dat wil zeggen 14:00) gebruiken in plaats van *am/pm* notatie (dat wil zeggen, 2:00 pm).
-
