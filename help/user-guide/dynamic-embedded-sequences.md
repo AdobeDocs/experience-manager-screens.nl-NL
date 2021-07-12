@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3208d058-0812-44e1-83e3-b727b384876a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 0%
 
 ---
-
 
 # Dynamische ingesloten reeks gebruiken {#using-dynamic-embedded-sequence}
 
@@ -258,7 +258,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. Selecteer het pad naar het schema (bijvoorbeeld **Demo** —> **Planningen** —>**AdSchedule**).
    1. Klik **Opslaan**.
 
-## Resultaten weergeven {#viewing-the-results}
+## De resultaten bekijken {#viewing-the-results}
 
 Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave voltooid is, start u de AEM Screens-speler om de inhoud weer te geven.
 
@@ -291,7 +291,7 @@ U kunt globale, regionale of lokale auteurs maken om inhoud die voor hen van bel
 
 U moet ACLs wijzigen om de gebruikers toegang tot de inhoud te beperken die op hun plaats wordt gebaseerd.
 
-### Voorbeeld met hoofdletter {#example-use-case}
+### Voorbeeld: hoofdletter gebruiken {#example-use-case}
 
 In het volgende voorbeeld kunt u drie gebruikers voor het bovenstaande demoproject maken.
 
@@ -406,4 +406,3 @@ Het is aan te raden gebruikers toe te voegen aan een groep en vervolgens machtig
 
 >[!NOTE]
 Om in detail over opstellingstoestemmingen te leren, te verwijzen gelieve [Setting up ACLs](setting-up-acls.md).
-
