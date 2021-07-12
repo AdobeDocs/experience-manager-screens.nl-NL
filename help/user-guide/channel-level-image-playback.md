@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
 
 ---
-
 
 # Duur van afspelen van bulkafbeelding op kanaalniveau {#channel-level-bulk-image-playback-duration}
 
@@ -72,9 +72,8 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
-### Resultaat {#viewing-the-result} weergeven
+### Het resultaat weergeven {#viewing-the-result}
 
 Nadat u de afspeelduur van het kanaal hebt bijgewerkt (in dit voorbeeld worden alle drie de afbeeldingen weergegeven), worden de afbeeldingen nu 3 seconden afgespeeld in plaats van 8 seconden (standaardwaarde).
 
 ![channel_preview](assets/channel_preview.gif)
-
