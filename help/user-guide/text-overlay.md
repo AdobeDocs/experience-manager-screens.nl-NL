@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 1%
 
 ---
-
 
 # Tekstbedekking {#text-overlay}
 
@@ -42,7 +42,7 @@ Meer informatie over het maken van uw eigen aangepaste component vindt u in **AE
 
 In deze sectie wordt alleen uitgelegd hoe u de postercomponent in een AEM Screens-project kunt gebruiken en gebruiken als tekstbedekking in een van uw reekskanalen.
 
-## Tekstbedekking {#using-text-overlay} gebruiken
+## Tekstbedekking gebruiken {#using-text-overlay}
 
 In de volgende sectie wordt het gebruik van tekstbedekking in een AEM Screens-project beschreven.
 
@@ -149,18 +149,3 @@ Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de ond
 1. Klik op **Voorvertoning** om de gewenste uitvoer weer te geven.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
