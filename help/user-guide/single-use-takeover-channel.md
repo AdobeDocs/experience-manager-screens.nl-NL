@@ -5,22 +5,22 @@ description: Volg dit Geval van Gebruik voor het creëren van Één enkel Gebrui
 seo-description: Volg dit Geval van Gebruik voor het creëren van Één enkel Gebruik neemOver Kanaal.
 contentOwner: jsyal
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
 
 ---
 
-
-# Single Use TakeOver Channel {#single-use-takeover-channel}
+# Overnamekanaal voor één gebruik {#single-use-takeover-channel}
 
 De volgende pagina toont een gebruiksgeval dat op vestiging een project op benadrukt hoe te om een Enig kanaal tot stand te brengen TakeOver dat slechts één keer voor een specifieke tijd speelt.
 
 
-## Hoofdletterbeschrijving gebruiken {#use-case-description}
+## Omschrijving hoofdletter gebruiken {#use-case-description}
 
 Met deze optie wordt uitgelegd hoe u een kanaal kunt maken dat *de normale weergavekanaal voor een weergave of groep weergaven overneemt van*. De overname vindt slechts eenmaal en voor een bepaald tijdstip plaats.
 Er is bijvoorbeeld een Single TakeOver-kanaal dat op vrijdag van 9.00 tot 10.00 uur wordt afgespeeld. Tijdens deze tijd, zou geen ander kanaal moeten spelen. Voor en na deze keer wordt het overnamekanaal voor eenmalig gebruik niet afgespeeld. In het volgende voorbeeld ziet u hoe u een enkel overnamekanaal maakt waarmee de inhoud gedurende 2 minuten vóór 12:00 uur op 31 december tot 12:01 uur kan worden afgespeeld.
@@ -34,11 +34,11 @@ Voordat u met dit gebruik begint, moet u controleren hoe u dit kunt doen:
 * **[Planningen maken en beheren](managing-schedules.md)**
 * **[Apparaatregistratie](device-registration.md)**
 
-### Primaire ACTOR {#primary-actors}
+### Primaire acteurs {#primary-actors}
 
 Inhoudsauteurs
 
-## Het project {#setting-up-the-project} instellen
+## Het project instellen {#setting-up-the-project}
 
 Voer de onderstaande stappen uit om een project in te stellen:
 
