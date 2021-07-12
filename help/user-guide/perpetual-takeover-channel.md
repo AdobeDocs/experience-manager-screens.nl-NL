@@ -5,21 +5,21 @@ description: Volg dit Geval van Gebruik voor het creëren van een PerpetualTakeO
 seo-description: Volg dit Geval van Gebruik bij vestiging een project dat tot een PerpetualTakeOver kanaal leidt dat onophoudelijk voor een specifieke tijddag en een tijd speelt.
 contentOwner: jsyal
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
 
 ---
 
-
-# Perpetual Take Over Channel {#perpetual-takeover-channel}
+# Perpetual TakeOver Channel {#perpetual-takeover-channel}
 
 De volgende pagina toont een gebruiksgeval dat op vestiging een project op benadrukt hoe te om een Perpetual te creëren TakeOver kanaal dat voor een specifieke tijddag en een tijd onophoudelijk speelt.
 
-## Hoofdletterbeschrijving gebruiken {#use-case-description}
+## Omschrijving hoofdletter gebruiken {#use-case-description}
 
 Met deze optie wordt uitgelegd hoe u een kanaal kunt maken dat *de normale weergavekanaal voor een weergave of groep weergaven overneemt van*. De overname zal een bepaalde dag en tijd onafgebroken plaatsvinden.
 Bijvoorbeeld, is er een Perpetual TakeOver kanaal dat elke Vrijdag van 9AM aan 10AM speelt. Tijdens deze tijd, zou geen ander kanaal moeten spelen. In het volgende voorbeeld ziet u hoe u een perpetual takeover channel maakt waarmee de inhoud elke woensdag 2 uur vanaf 14.00 tot 16.00 uur kan worden afgespeeld.
@@ -33,11 +33,11 @@ Voordat u met dit gebruik begint, moet u controleren hoe u dit kunt doen:
 * **[Planningen maken en beheren](managing-schedules.md)**
 * **[Apparaatregistratie](device-registration.md)**
 
-### Primaire ACTOR {#primary-actors}
+### Primaire acteurs {#primary-actors}
 
 Inhoudsauteurs
 
-## Het project {#setting-up-the-project} instellen
+## Het project instellen {#setting-up-the-project}
 
 Voer de onderstaande stappen uit om een project in te stellen:
 
