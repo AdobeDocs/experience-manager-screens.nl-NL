@@ -4,20 +4,20 @@ description: Volg deze pagina voor meer informatie over het gebruik van hoofdlet
 seo-description: MultiZone naar SingleZone Overgangen gebruiken hoofdletters en kleine letters.
 contentOwner: Jyotika Syal
 feature: Ontwerpschermen
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
+# Overgang van meerdere zones naar één zone {#multizone-to-singlezone-use-case}
 
-# Meerdere zones naar één zone - overgang {#multizone-to-singlezone-use-case}
 
-
-## Hoofdletterbeschrijving gebruiken {#use-case-description}
+## Omschrijving hoofdletter gebruiken {#use-case-description}
 
 In deze sectie wordt een gebruikscasevoorbeeld beschreven waarin wordt benadrukt hoe u een lay-outkanaal met meerdere zones instelt dat met een lay-outkanaal met één zone afwisselt. Het kanaal met meerdere zones heeft het rangschikken van beeld/video activa en het toont hoe u opstellingsproject kunt dat van multi-zone aan single-zone en vice versa afwisselt.
 
@@ -30,11 +30,11 @@ Voordat u met dit gebruik begint, moet u controleren hoe u dit kunt doen:
 * **[Planningen maken en beheren](managing-schedules.md)**
 * **[Apparaatregistratie](device-registration.md)**
 
-### Primaire ACTOR {#primary-actors}
+### Primaire acteurs {#primary-actors}
 
 Inhoudsauteurs
 
-## Het project {#setting-up-the-project} instellen
+## Het project instellen {#setting-up-the-project}
 
 Voer de onderstaande stappen uit om een project in te stellen:
 
@@ -76,7 +76,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/mz-to-sz7.png)
 
-## Voorvertoning {#checking-the-preview} controleren
+## De voorvertoning controleren {#checking-the-preview}
 
 U kunt de gewenste output van de speler bekijken of enkel door op **Voorproef** van de redacteur te klikken.
 
