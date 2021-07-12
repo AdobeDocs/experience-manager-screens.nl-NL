@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: Schermen beheren
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van auteur- en publicatiearchitectuur {#author-and-publish-architectural-overview}
 
@@ -61,7 +61,7 @@ Er zijn vijf architecturale componenten, die deze oplossing vergemakkelijken:
 * ***Berichten*** tussen publicatie-instanties om updates en opdrachten voor apparaatinformatie te synchroniseren
 * ****** Pollingby the auteur of publish instances to obtain device information via specific REST APIs
 
-### Replicatie (vooruit) van inhoud en configuraties {#replication-forward-of-content-and-configurations}
+### Replicatie (vooruit) van inhoud en configuraties  {#replication-forward-of-content-and-configurations}
 
 De standaard replicatieagenten worden gebruikt om de inhoud van het het schermkanaal, locatieconfiguraties en apparatenconfiguraties te herhalen. Op deze manier kunnen auteurs de inhoud van een kanaal bijwerken en desgewenst een goedkeuringswerkstroom doorlopen voordat ze kanaalupdates publiceren. Een replicatieagent moet voor elke publicatieinstantie in publicatielandbouwbedrijf worden gecreeerd.
 
@@ -73,13 +73,13 @@ Het volgende diagram illustreert het replicatieproces:
 >
 >Een replicatieagent moet voor elke publicatieinstantie in publicatielandbouwbedrijf worden gecreeerd.
 
-### Screens Replication Agents and Commands {#screens-replication-agents-and-commands}
+### Screens Replication Agents and Commands  {#screens-replication-agents-and-commands}
 
 Er worden aangepaste schermspecifieke replicatiemiddelen gemaakt om opdrachten van de instantie Auteur naar het AEM Screens-apparaat te verzenden. De publicatie-instanties van AEM fungeren als tussenpersoon om deze opdrachten naar het apparaat door te sturen.
 
 Hierdoor kunnen auteurs het apparaat blijven beheren, zoals apparaatupdates verzenden en screenshots nemen van de auteursomgeving. De de replicatieagenten van AEM Screens hebben een configuratie van het douanevervoer, als standaardreplicatieagenten.
 
-### Overseinen tussen publicatie-instanties {#messaging-between-publish-instances}
+### Berichten tussen publicatie-instanties  {#messaging-between-publish-instances}
 
 In veel gevallen is een opdracht slechts bedoeld om één keer naar een apparaat te worden verzonden. In een publicatiearchitectuur met taakverdeling is het echter onbekend met welke instantie het apparaat verbinding maakt.
 
@@ -94,7 +94,7 @@ In veel gevallen, na een bevel, wordt één of andere soort reactie verwacht van
 * Een omgekeerde replicatie in deze context wordt slechts gebruikt voor binaire gegevens (zoals, logboekdossiers en screenshots) die door de apparaten worden verstrekt. Niet-binaire gegevens worden opgehaald door polling.
 * De omgekeerde replicatie die van de AEM auteursinstantie wordt gepolled wint de reactie terug en bewaart het aan de auteursinstantie.
 
-### Opiniepeiling van publicatie-instanties {#polling-of-publish-instances}
+### Opiniepeiling van publicatie-instanties  {#polling-of-publish-instances}
 
 De auteurinstantie moet de apparaten kunnen opiniepeilen om een hartslag te krijgen en de gezondheidsstatus van een aangesloten apparaat te kennen.
 
