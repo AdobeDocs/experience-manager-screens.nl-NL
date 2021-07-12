@@ -5,17 +5,17 @@ description: Volg deze pagina voor meer informatie over de installatie van besch
 seo-description: Schermspeler installeren
 contentOwner: jsyal
 feature: Schermen beheren
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
 
-
-# AEM Screens Player {#installing-player} installeren
+# AEM Screens Player installeren {#installing-player}
 
 In deze pagina wordt beschreven hoe u AEM Screens Player kunt installeren.
 
