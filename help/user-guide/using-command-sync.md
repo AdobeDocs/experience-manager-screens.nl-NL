@@ -4,17 +4,17 @@ seo-title: Opdrachtsynchronisatie gebruiken
 description: Volg deze pagina voor meer informatie over het gebruik van Command Sync.
 seo-description: Volg deze pagina voor meer informatie over het gebruik van Command Sync.
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 2%
 
 ---
 
-
-# Command Sync {#command-sync}
+# Opdrachtsynchronisatie {#command-sync}
 
 Op de volgende pagina wordt beschreven hoe u Command Sync kunt gebruiken. Met Command Sync kunt u het afspelen tussen verschillende spelers synchroniseren. De spelers kunnen verschillende inhoud afspelen, maar elk element moet dezelfde duur hebben.
 
@@ -30,7 +30,7 @@ Om de Synchronisatie van het Bevel te gebruiken, doet één speler dienst als *m
 
 De *master* verzendt een bevel naar alle geregistreerde cliënten wanneer het op het punt staat om playback van een punt te beginnen. De nuttige lading van dit kan de index van het te spelen punt en/of buitenste html van het te spelen element zijn.
 
-## Opdrachtsync {#using-command-sync} implementeren
+## Opdrachtsynchronisatie implementeren {#using-command-sync}
 
 In de volgende sectie wordt beschreven hoe u Command Sync in een AEM Screens-project kunt gebruiken.
 
@@ -38,7 +38,7 @@ In de volgende sectie wordt beschreven hoe u Command Sync in een AEM Screens-pro
 >
 >Voor gesynchroniseerd afspelen is het vereist dat alle hardwareapparaten dezelfde hardwarespecificaties hebben en bij voorkeur hetzelfde besturingssysteem. Synchroniseren tussen verschillende hardware en besturingssystemen wordt afgeraden.
 
-### Het project {#setting-up} instellen
+### Het project instellen {#setting-up}
 
 Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een kanaal met inhoud instellen voor uw project.
 
@@ -90,7 +90,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
-### Een master {#setting-up-master} instellen
+### Een master instelling instellen {#setting-up-master}
 
 1. Navigeer van **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** naar het weergavedashboard en klik op **Dashboard** op de actiebalk.
 De twee apparaten (chroom- en vensterspeler) worden weergegeven in het deelvenster **DEVICES**, zoals in de onderstaande afbeelding wordt getoond.
@@ -124,7 +124,7 @@ Selecteer het andere apparaat (in dit geval de vensterspeler) in het **deelvenst
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### De-synchroniseren met Master {#desync-up-master}
+### De-synchroniseren met de Master {#desync-up-master}
 
 Nadat u een apparaat of apparaten hebt gesynchroniseerd met een master apparaat, kunt u de synchronisatie van dat apparaat ongedaan maken.
 
