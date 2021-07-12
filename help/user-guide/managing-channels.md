@@ -4,17 +4,17 @@ seo-title: Kanalen beheren
 description: Volg deze pagina voor meer informatie over het maken en beheren van kanalen. Ook wordt het kanaaldashboard en het bewerken van inhoud voor een kanaal uitgelegd.
 seo-description: Volg deze pagina voor meer informatie over het maken en beheren van kanalen. Ook wordt het kanaaldashboard en het bewerken van inhoud voor een kanaal uitgelegd.
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 0%
 
 ---
 
-
-# Kanalen {#creating-and-managing-channels} maken en beheren
+# Kanalen maken en beheren {#creating-and-managing-channels}
 
 Een kanaal geeft een reeks inhoud (afbeeldingen en video&#39;s) weer en geeft ook een website of een toepassing van één pagina weer.
 
@@ -25,7 +25,7 @@ Op deze pagina worden kanalen voor AEM Screens gemaakt en beheerd.
 * [Schermen configureren en implementeren](configuring-screens-introduction.md)
 * [Schermproject maken en beheren](creating-a-screens-project.md)
 
-## Nieuw kanaal {#creating-a-new-channel} maken
+## Een nieuw kanaal maken {#creating-a-new-channel}
 
 Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappen om een nieuw kanaal voor uw project te maken:
 
@@ -78,7 +78,7 @@ U kunt een kanaal bewerken, weergeven, eigenschappen en dashboard, kopiëren, vo
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
-### Inhoud toevoegen aan/bewerken in een kanaal {#adding-editing-content-to-a-channel}
+### Inhoud toevoegen aan of bewerken in een kanaal {#adding-editing-content-to-a-channel}
 
 Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 
@@ -101,7 +101,7 @@ Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 >[!NOTE]
 >Zie [Problemen met het uploaden van video&#39;s in uw kanaal oplossen](troubleshoot-videos.md) als er problemen optreden bij het uploaden van video&#39;s naar uw kanaal.
 
-### Weergaveeigenschappen {#viewing-properties}
+### Eigenschappen weergeven {#viewing-properties}
 
 Volg onderstaande stappen om de eigenschappen van een kanaal weer te geven of te bewerken:
 
@@ -110,7 +110,7 @@ Volg onderstaande stappen om de eigenschappen van een kanaal weer te geven of te
 
 ![eigenschappen](assets/properties.gif)
 
-### Het dashboard {#viewing-dashboard} weergeven
+### Het dashboard weergeven {#viewing-dashboard}
 
 Voer de volgende stappen uit om het dashboard van een kanaal weer te geven:
 
@@ -127,7 +127,7 @@ Klik op (**..**) op de actiebalk **KANAALINFORMATIE** om eigenschappen weer te g
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
-#### Het manifest {#view-manifest} weergeven
+#### De manifest weergeven {#view-manifest}
 
 U kunt manifest van het kanaaldashboard bekijken.
 
@@ -150,7 +150,7 @@ U zou **Manifest van de Mening** optie van **INFORMATIE VAN HET KANAAL** in het 
 ![image1](assets/channel-one.png)
 
 
-### Online- en offlinekanalen {#online-and-offline-channels}
+### Online en offline kanalen {#online-and-offline-channels}
 
 >[!NOTE]
 >Wanneer u een kanaal maakt, is dit standaard offline.
@@ -190,7 +190,7 @@ Volg de onderstaande stappen om het kanaal online te maken:
 
 ![dashboard2](assets/dashboard2.gif)
 
-#### Automatische versus handmatige updates van het dashboard van het Apparaat {#automatic-versus-manual-updates-from-the-device-dashboard}
+#### Automatische versus handmatige updates van het apparaatdashboard {#automatic-versus-manual-updates-from-the-device-dashboard}
 
 De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld aan de automatische en handmatige updates van het apparaatdashboard.
 
@@ -259,4 +259,3 @@ Zie de volgende bronnen voor de volgende stappen:
 * [Kanalen maken en beheren](managing-channels.md)
 * [Locaties maken en beheren](managing-locations.md)
 * [Weergaven maken en beheren](managing-displays.md)
-
