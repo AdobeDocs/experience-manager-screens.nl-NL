@@ -1,8 +1,8 @@
 ---
 title: Ervaringsfragmenten gebruiken
 seo-title: Ervaringsfragmenten gebruiken
-description: 'Volg deze pagina voor meer informatie over het gebruik van Experience Fragments in AEM Screens. '
-seo-description: 'Volg deze pagina voor meer informatie over het gebruik van Experience Fragments in AEM Screens. '
+description: Volg deze pagina voor meer informatie over het gebruik van Experience Fragments in AEM Screens.
+seo-description: Volg deze pagina voor meer informatie over het gebruik van Experience Fragments in AEM Screens.
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: Ontwerpschermen, ervaringsfragmenten
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
 
 ---
-
 
 # Ervaringsfragmenten gebruiken {#using-experience-fragments}
 
@@ -34,7 +34,7 @@ Deze pagina behandelt de volgende onderwerpen:
 Een ***Experience Fragment*** is een groep van een of meer componenten, inclusief inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen. De fragmenten van de ervaring kunnen om het even welke component, zoals, één of veelvoudige componenten bevatten die om het even wat binnen een paragraafsysteem kunnen bevatten, die in de volledige ervaring zullen worden van verwijzingen voorzien of door een derde eindpunt gevraagd.
 
 
-## Het gebruiken van de Fragmenten van de Ervaring in AEM Screens {#using-experience-fragments-in-aem-screens}
+## Experience Fragments gebruiken in AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
 >In het volgende voorbeeld wordt **We.Retail** gebruikt als een demoproject van waaruit het Experience Fragment wordt gebruikt vanuit een pagina **Sites** naar een AEM Screens-project.
@@ -161,7 +161,7 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** aan uw **TestChannel
 
    j. Klik op het vinkje om het proces te voltooien.
 
-### Resultaat {#validating-the-result} valideren
+### Het resultaat valideren {#validating-the-result}
 
 Na voltooiing van vorige stappen, kunt u uw ervaringsfragment in **ChannelOne** bevestigen door:
 
@@ -171,7 +171,7 @@ Na voltooiing van vorige stappen, kunt u uw ervaringsfragment in **ChannelOne** 
 U zult de inhoud van de **pagina van Plaatsen** (levend-exemplaar van het ervaringsfragment) in uw kanaal bekijken, zoals aangetoond in het hieronder cijfer:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## Wijzigingen op de pagina {#propagating-changes-from-the-master-page} doorgeven
+## Wijzigingen op de pagina doorgeven {#propagating-changes-from-the-master-page}
 
 ***Live*** kopie verwijst naar de kopie (van de bron), onderhouden door synchronisatiehandelingen zoals gedefinieerd door de rollout-configuraties.
 
@@ -209,7 +209,7 @@ Voer de onderstaande stappen uit om wijzigingen van het master kanaal naar het d
 
    ![screen_shot_2018-06-08at32148pm](assets/screen_shot_2018-06-08at32148pm.png)
 
-### Wijzigingen {#validating-the-changes} valideren
+### De wijzigingen valideren {#validating-the-changes}
 
 Voer de onderstaande stappen uit om de wijzigingen in uw kanaal te bevestigen:
 
@@ -219,4 +219,3 @@ Voer de onderstaande stappen uit om de wijzigingen in uw kanaal te bevestigen:
 
 In de volgende afbeelding ziet u de wijzigingen in uw **TestChannel**:\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)
-
