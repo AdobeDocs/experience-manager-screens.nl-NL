@@ -10,19 +10,19 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d409ba46-b48a-44db-b305-27c392cd55de
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 0%
 
 ---
 
-
 # Noodkanaal {#emergency-channel}
 
-## Hoofdletterbeschrijving gebruiken {#use-case-description}
+## Omschrijving hoofdletter gebruiken {#use-case-description}
 
 In deze sectie wordt een gebruiksvoorbeeld beschreven waarin wordt benadrukt dat de auteur van de inhoud bij het maken en beheren van een noodkanaal kan schakelen van een volgnummer naar een ander kanaal.
 
@@ -35,11 +35,11 @@ Voordat u met dit gebruik begint, moet u controleren hoe u dit kunt doen:
 * **[Planningen maken en beheren](managing-schedules.md)**
 * **[Apparaatregistratie](device-registration.md)**
 
-### Primaire ACTOR {#primary-actors}
+### Primaire acteurs {#primary-actors}
 
 Inhoudsauteurs
 
-## Basisstroom: Het project {#basic-flow-setting-up-the-project} instellen
+## Basisstroom: Het project instellen {#basic-flow-setting-up-the-project}
 
 Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
