@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 feature: Overzicht
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
 
 ---
-
 
 # Deel 3: Testen, concepttest, piloten en rollouts {#part-testing-pocs-pilots-rollouts}
 
@@ -41,11 +41,11 @@ Deze zelfstudie behandelt de volgende punten die relevant zijn voor een geslaagd
 
 Belanghebbenden voor een digitaal ondertekeningsprogramma in een detailhandelomgeving kunnen bijvoorbeeld het volgende doen: In-Store Marketing, de Milieu of Visuele Handelsverkeer van de Opslag, de Verrichtingen van de Opslag, de Veiligheid van IT, de Steun van IT, de productcategorie Merchant evenals hun Leverancier, die de oplossing kan medefinancieren.
 
-## Samenvatting van de belangrijkste voorwaarden die betrokken zijn bij een algemeen projectplan {#summary-of-key-terms-involved-in-an-overall-project-plan}
+## Samenvatting van de belangrijkste voorwaarden die bij een algemeen projectplan zijn betrokken {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
 In het volgende gedeelte wordt een overzicht gegeven van de belangrijkste voorwaarden die aan een algemeen projectplan verbonden zijn, zoals de projectcyclus, acties rond hardwaretests, concepttest, piloten en uitrol.
 
-### Conceptproef (POC) {#proof-of-concept-poc}
+### Conceptbewijs (POC) {#proof-of-concept-poc}
 
 Het doel van een concepttest is om initiële feedback te krijgen over de belangrijkste functies van een oplossing en zowel de end-client als AV Integrator de mogelijkheid te bieden om gebieden voor verbetering te identificeren en aannames met betrekking tot de arbeidseisen en de vraag naar middelen voor te bereiden. Een concepttest biedt beide partijen ook de mogelijkheid om de prestaties van de oplossing te beoordelen, die doorgaans wordt gemeten via:
 
