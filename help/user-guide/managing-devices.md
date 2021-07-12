@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-
-# Apparaten {#managing-devices} beheren
+# Apparaten beheren {#managing-devices}
 
 In deze pagina wordt de toewijzing van apparaten beschreven.
 
@@ -76,4 +76,3 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 Wanneer u bekend bent met het toewijzen van kanaal aan een weergave, raadpleegt u de volgende bronnen:
 
 * [Monitor en problemen oplossen](monitoring-screens.md)
-
