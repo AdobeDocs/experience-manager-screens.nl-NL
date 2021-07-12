@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
 
 ---
 
-
-# Planningen {#creating-and-managing-schedules} maken en beheren
+# Planningen maken en beheren {#creating-and-managing-schedules}
 
 **Met schema&#39;s** kunt u in AEM Screens kanalen indelen in herbruikbare groepen, zodat u de toewijzing niet afzonderlijk hoeft te herhalen voor elke weergave waarop u de inhoud wilt weergeven.
 
@@ -30,7 +30,7 @@ Planningen wanneer gecombineerd met ***DayParting***, staat u toe om een globaal
 >
 >Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.3 Sites Feature Pack 1 hebt geïnstalleerd. Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
 
-## Een schema {#creating-a-schedule} maken
+## Een schema maken {#creating-a-schedule}
 
 U kunt een programma voor uw project van het Scherm tot stand brengen dat alle activiteiten voor uw gebruiksgeval zal leiden.
 
@@ -46,7 +46,7 @@ Voer de onderstaande stappen uit om een schema voor uw kanaal te maken:
 U zult een planningsomslag met aangewezen naam en titel in uw project zien.
 
 
-## Het dashboard {#viewing-dashboard} weergeven
+## Het dashboard weergeven {#viewing-dashboard}
 
 Zodra u plannenomslag in uw project hebt gecreeerd, kunt u de details van het dashboard van programma&#39;s bekijken.
 
@@ -67,4 +67,3 @@ Voer de onderstaande stappen uit om het dashboard met planningen weer te geven. 
    **Toegewezen** deelvenster KanalenKlik op +Kanaal toewijzen in de rechterbovenhoek van het deelvenster Toegewezen KANALEN om het dialoogvenster Kanaaltoewijzing te openen.
 
    **Toegewezen** deelvenster WeergavenSelecteer een van de weergaven in het toegewezen deelvenster Weergaven om het weergavedashboard te openen.
-
