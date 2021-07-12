@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: Overzicht
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # Deel 5: Overwegingen voor ondersteuning {#part-support-considerations}
 
@@ -72,4 +72,3 @@ Volg deze slotzelfstudie naar een 5-delige serie zelfstudie hieronder waarin wor
 ## Conclusie {#conclusion}
 
 Deze 5 deelreeksen zijn geconcentreerd op zeer belangrijke overwegingen kritiek om het succes van uw project te verzekeren. Raadpleeg andere secties in de AEM Screens User Guide voor meer informatie over de implementatie.
-
