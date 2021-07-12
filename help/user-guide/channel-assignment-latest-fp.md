@@ -3,15 +3,15 @@ title: Kanaaltoewijzing - Laatste FP
 seo-title: Kanaaltoewijzing - Laatste FP
 description: Volg deze pagina om meer te weten te komen over Kanaaltoewijzing en DayParting.
 feature: Auteursschermen, Kanaaltoewijzing
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 1%
 
 ---
-
 
 # Kanaaltoewijzing {#channel-assignment}
 
@@ -28,7 +28,7 @@ Op deze pagina ziet u hoe u een kanaal toewijst aan uw weergave, welke kanaaleig
 >U kunt meerdere kanalen aan een weergave toewijzen.
 
 
-## Een kanaal {#assign-a-channel-new-release} toewijzen
+## Een kanaal toewijzen {#assign-a-channel-new-release}
 
 Volg de onderstaande secties om een AEM Screens-project te maken en een kanaal toe te wijzen aan een weergave.
 
@@ -57,7 +57,7 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### Kanaal toewijzen aan een beeldscherm {#assigning-channel-to-display}
+### Kanaal toewijzen aan een weergave {#assigning-channel-to-display}
 
 Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toewijzen om de inhoud te bekijken.
 
@@ -126,7 +126,7 @@ De volgende eigenschappen worden ingesteld met de optie **Instellingen** in het 
 
 ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-### Selecteer een kanaal {#select-channel}
+### Een kanaal selecteren {#select-channel}
 
 Als u een kanaal selecteert, kunt u een verwijzing naar het gewenste kanaal opgeven, hetzij op de kanaalnaam, hetzij op het kanaalpad.
 
@@ -204,7 +204,7 @@ DayParting verwijst naar het opsplitsen van een dag in tijdgroeven en het specif
 
 De volgende voorbeelden verklaren DayParting in kanalen in drie verschillende scenario&#39;s:
 
-#### Inhoud afspelen op één dag verdeeld in meerdere tijdsleuven {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+#### Inhoud afspelen op één dag, verdeeld in meerdere tijdsleuven {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 In dit voorbeeld wordt getoond hoe een restaurant Dagparting gebruikt om dagelijks zijn ontbijt-, lunch- en dinermenu te laten zien.
 
