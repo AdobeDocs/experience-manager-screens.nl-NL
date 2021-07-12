@@ -11,21 +11,21 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Schermen beheren, apparaatregistratie
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
-
 # Apparaatregistratie {#device-registration}
 
 De volgende pagina beschrijft het proces van de apparatenregistratie in een project van AEM Screens.
 
-## Een apparaat {#registering-a-device} registreren
+## Een apparaat registreren {#registering-a-device}
 
 Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers:
 
@@ -99,7 +99,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
    >
    >Voor meer informatie over het creëren van en het beheren van een vertoning voor uw project van het Scherm, gelieve te verwijzen naar [het Creëren van en het Leiden Vertoningen](managing-displays.md).
 
-### Apparaat toewijzen aan een beeldscherm {#assigning-device-to-a-display}
+### Apparaat toewijzen aan een weergave {#assigning-device-to-a-display}
 
 Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande stappen uit om uw apparaat aan een weergave in uw AEM Screens-project toe te wijzen:
 
