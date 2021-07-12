@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
-
-# AEM Screens {#configuring-and-deploying-aem-screens} configureren en implementeren
+# AEM Screens configureren en implementeren {#configuring-and-deploying-aem-screens}
 
 Deze pagina laat zien hoe u de schermspelers op uw apparaten kunt installeren en configureren.
 
@@ -69,7 +69,7 @@ Volg de onderstaande stappen om te controleren of deze twee vitale configuraties
 
 Met de volgende belangrijke punten hieronder kunt u de server configureren en AEM om klaar te zijn voor gebruik voor AEM Screens.
 
-#### Lege verwijzingsverzoeken {#allow-empty-referrer-requests} toestaan
+#### Lege verwijzingsverzoeken toestaan {#allow-empty-referrer-requests}
 
 1. Navigeer naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
@@ -86,7 +86,7 @@ Met de volgende belangrijke punten hieronder kunt u de server configureren en AE
 1. Klik op **Opslaan** om het filter Leeg toestaan van paginaverwijzing in te schakelen.
 
 
-#### Op Jetty gebaseerde HTTP-service van Apache Felix {#allow-apache-felix-service}
+#### HTTP-service op basis van Apache Felix Jetty {#allow-apache-felix-service}
 
 1. Navigeer naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
@@ -117,7 +117,7 @@ U kunt ook dezelfde instelling uitvoeren met de gereedschappen *->* (hamerpictog
 >
 >Met de gebruikersvoorkeuren kunt u altijd de klassieke gebruikersinterface voor specifieke gebruikers inschakelen.
 
-#### AEM in NOSAMPLECONTENT-runmode {#aem-in-nosamplecontent-runmode}
+#### AEM in de runmode NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
 Bij het uitvoeren van AEM in productie wordt de runmode **NOSAMPLECONTENT** gebruikt. Verwijder *X-Frame-Options=SAMEORIGIN* kopbal (in de extra sectie van de reactiekop)
 
@@ -141,7 +141,7 @@ Voer de onderstaande stappen uit om ***DeviceServiceImpl*** te configureren:
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
-#### Configuratie {#dispatcher-configuration}
+#### Dispatcher Configuration {#dispatcher-configuration}
 
 Leren hoe te om verzender voor een project van AEM Screens te vormen, verwijs naar [Vormende Verzender voor een project van AEM Screens](dispatcher-configurations-aem-screens.md).
 
@@ -152,11 +152,3 @@ Stel de ***Java-codering*** in op Unicode. *Dfile.encoding=Cp1252* werkt bijvoor
 >[!NOTE]
 >**Aanbeveling:**
 >Het wordt aanbevolen HTTPS te gebruiken voor AEM Screens Server in productiegebruik.
-
-
-
-
-
-
-
-
