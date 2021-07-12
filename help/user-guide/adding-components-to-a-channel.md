@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 1%
 
 ---
-
 
 # Componenten toevoegen aan een kanaal{#adding-components-to-a-channel}
 
@@ -29,7 +29,7 @@ Componenten zijn de basiselementen van de AEM (Adobe Experience Manager)-ervarin
 
 AEM Screens biedt verschillende AEM componenten die in een Screens-project kunnen worden gebruikt.
 
-### AEM Screens-componenten bekijken {#viewing-aem-screens-components}
+### AEM Screens-componenten weergeven {#viewing-aem-screens-components}
 
 Wanneer u een project van AEM Screens creeert, zult u een lijst van standaardcomponenten zien die aan het project kunnen worden toegevoegd.
 
@@ -336,4 +336,3 @@ De videocomponent heeft de volgende eigenschappen:
   </tr>
  </tbody>
 </table>
-
