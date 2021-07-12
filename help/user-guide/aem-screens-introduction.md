@@ -3,15 +3,15 @@ title: Wat is AEM Screens?
 seo-title: Wat is AEM Screens?
 description: '"AEM Screens - een Digital Signage-oplossing waarmee u dynamische en interactieve digitale ervaringen en interacties met verschillende soorten schermen kunt publiceren in combinatie met een uitgebreid digitaal marketingplatform."'
 feature: Overzicht, digitale signalen
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 6%
 
 ---
-
 
 # Wat is AEM Screens?{#what-is-aem-screens}
 
@@ -35,7 +35,7 @@ In het volgende diagram wordt de algemene architectuur van een AEM Screens-spele
 
 ![chlimage_1-21](assets/chlimage_1-29.png)
 
-### Maak een digitale signaalervaring in 5 minuten {#create-a-digital-signage-experience-in-minutes}
+### Maak over 5 minuten een digitale signaalervaring {#create-a-digital-signage-experience-in-minutes}
 
 Zie [Kickstart voor AEM Screens](kickstart-for-aem-screens.md) om een demo Screens-project te maken en uw inhoud te publiceren in Screens player.
 
