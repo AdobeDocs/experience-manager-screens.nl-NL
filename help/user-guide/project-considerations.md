@@ -11,17 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
 feature: Overzicht
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
 
 ---
 
-
-# Deel 2: Overwegingen als Projecten {#part-considerations-as-projects-are-scoped} worden gesegregeerd
+# Deel 2: Overwegingen als projecten worden behandeld {#part-considerations-as-projects-are-scoped}
 
 Deze pagina benadrukt deel 2 van een reeks van 5 delen die wordt ontworpen om teamleden te helpen pre-verkoopaspecten voor het ontwikkelen van succesvolle plaatsingen van AEM Screens beter begrijpen.
 
@@ -42,7 +42,7 @@ De belangrijkste onderdelen van een digitaal ondertekeningsprogramma die vereist
 >
 >Het is belangrijk om een inhoudsstrategie te bepalen die overweegt hoe de toepassing software, hardware en connectiviteitsmiddelen zal gebruiken om de beoogde waarde te leveren.
 
-## Overzicht van projectoverwegingen in een digitale handtekening {#summary-of-project-considerations-in-a-digital-signage}
+## Overzicht van projectoverwegingen in een digitale handtekening  {#summary-of-project-considerations-in-a-digital-signage}
 
 Bij het ontwikkelen van een inhoudsstrategie zijn er verschillende overwegingen, zoals I/O-lagen, typen bedrijfsmiddelen, publiekssegmentaties en vereisten voor dagplanning.
 
@@ -50,7 +50,7 @@ Bij het ontwikkelen van een inhoudsstrategie zijn er verschillende overwegingen,
 
 I/O-drive voorwaardelijk afspelen van inhoud op basis van het waarnemen van de nabijheid van het publiek. Wanneer een sensor bijvoorbeeld nabijheid detecteert, kan het afspelen van inhoud veranderen van ‘aantrekken’ of passieve inhoud in ‘aantrekken’ of interactief afspelen. Dit is vooral nuttig in toepassingen waar het dienen van inhoud op demografie gewenst is.
 
-### Inhoudselementtypen {#content-asset-types}
+### Elementen van inhoud {#content-asset-types}
 
 De volgende punten worden geacht de intentie van de eindklant met betrekking tot Content Assets te begrijpen:
 
@@ -63,7 +63,7 @@ De volgende punten worden geacht de intentie van de eindklant met betrekking tot
 * Worden videomuren met meerdere schermen vereist en zo ja, wat zijn de configuraties?
 * Is de inhoud gekoppeld aan operationele of reclame-inkomsten die een &quot;failover&quot;-strategie nodig hebben om uitvaltijd te voorkomen?
 
-### Audience Segmentation, Day Parts {#audience-segmentation-day-parts}
+### Auditiesegmentatie, Dagonderdelen {#audience-segmentation-day-parts}
 
 Het ingaan van dag-Deel strategieën kan eindcliënten toestaan om hun inhoud en doeloverseinen aan het juiste publiek in de juiste tijd te segmenteren. Dit is met name effectief voor advertentie- of Retail-netwerken, waar veel content contributors de hele afspeellijst vormen.
 
@@ -79,7 +79,7 @@ De montagescenario&#39;s vereisen ook definitie, evenals overwegingen die appara
 
 De laatste stap in het Pre-Sales-proces is het bepalen van de gereedheid van de site. Dit kan worden vergemakkelijkt door middel van siteenquêtes die de locatie, het project en de voortgangsgegevens vastleggen. Readiness van de plaats vangt hoofdzakelijk huidige staat van een plaats voorafgaand aan installatie, roepend om het even welke punten de klant moet voorbereiden of van plan zijn om te richten alvorens een technicus aankomt. Dit omvat doorgaans elementen zoals stroom, gegevens, het verwijderen van meubilair en het verwijderen van stof.
 
-## Deel 2: Videozelfstudie over Overwegingen bij projecten {#part-video-tutorial-on-considerations-as-projects-are-scoped}
+## Deel 2: Videozelfstudie over overwegingen bij projecten {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
 Volg de onderstaande zelfstudie om meer te leren over de inhoudsstrategie, I/O-lagen, elementtypen, publiekssegmentatie, onderdelen voor de dag, vereisten voor bedrijfsactiviteiten en overwegingen met betrekking tot gereedheid van de site.
 
