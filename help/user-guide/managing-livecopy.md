@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
-
-# Een actieve kopie maken en beheren {#creating-and-managing-a-live-copy}
+# Een live kopie maken en beheren {#creating-and-managing-a-live-copy}
 
 Op deze pagina vindt u een beschrijving van het maken en beheren van Actieve exemplaren van kanalen.
 
@@ -68,7 +68,7 @@ Zie de volgende stappen om de inhoud van uw live kopie weer te geven:
    >
    >Wanneer u inhoud voor een actief kopieerkanaal weergeeft, wordt een extra item in het menu weergegeven als **Live Copy-status**. Zie de onderstaande sectie voor meer informatie.
 
-### Eigenschappen van een actieve kopie bekijken {#viewing-properties-of-a-live-copy}
+### Eigenschappen van een actieve kopie weergeven {#viewing-properties-of-a-live-copy}
 
 Bovendien kunt u de eigenschappen van het kanaal van uw levende exemplaar bekijken.
 
@@ -80,7 +80,7 @@ Bovendien kunt u de eigenschappen van het kanaal van uw levende exemplaar bekijk
 
    ![chlimage_1-21](assets/chlimage_1-21.png)
 
-### Live Copy-status {#live-copy-status}
+### Status van live kopiëren {#live-copy-status}
 
 In de modus **Live Copy-status**, zoals in de onderstaande afbeelding wordt getoond, kunt u de relatiestatus van alle elementen in het kanaal weergeven.
 
@@ -94,7 +94,7 @@ In de modus **Live Copy-status**, zoals in de onderstaande afbeelding wordt geto
 
    ![chlimage_1-23](assets/chlimage_1-23.png)
 
-### Overerving {#breaking-the-inheritance} verbreken
+### De overerving doorbreken {#breaking-the-inheritance}
 
 U kunt ook de overerving van de livecopy annuleren, zodat de inhoud onafhankelijk wordt van de oorspronkelijke vertakking.
 
@@ -102,7 +102,7 @@ In het volgende voorbeeld ziet u dat u de afbeelding in de bewerkingsmodus selec
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
-### Wijzigingen doorgeven aan het kanaal Live kopie {#propagating-changes-to-the-live-copy-channel}
+### Wijzigingen doorgeven aan het kanaal van Live kopie {#propagating-changes-to-the-live-copy-channel}
 
 Als u wijzigingen/updates aanbrengt in het oorspronkelijke kanaal, moet u deze wijzigingen ook doorgeven aan uw Live Copy-kanaal.
 
@@ -135,4 +135,3 @@ Voer de onderstaande stappen uit om ervoor te zorgen dat uw wijzigingen van het 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    U zult merken dat de afbeelding nu ook uit het live-kopieerkanaal wordt verwijderd.
-
