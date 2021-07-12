@@ -4,17 +4,17 @@ seo-title: Beveiligingscontrolelijst
 description: De pagina beschrijft de belangrijkste veiligheidsgebieden met een controlelijst van vragen en overwegingen.
 seo-description: De pagina beschrijft de lijst met beveiligingscontroles
 feature: Schermen beheren
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-
-# AEM Screens Security Checklist {#security-checklist}
+# AEM Screens Security Checklist  {#security-checklist}
 
 Op de pagina AEM Screens Security Checklist worden de belangrijkste beveiligingsgebieden beschreven met een checklist met vragen en overwegingen.
 
@@ -29,6 +29,6 @@ Op de pagina AEM Screens Security Checklist worden de belangrijkste beveiligings
 | **Toepassingsbeveiliging** | ***a.*** *Hebt u de interface voor beheer, kanaalswitches en gebruikersinterface voor activiteiten uitgeschakeld voor productie?* <br>***b.*** *Hebt u het logniveau voor productie geminimaliseerd?* <br>***c.*** *Gebruikt u https om verbinding te maken met AEM?* <br>***d.*** *Gebruikt u een CA-ondertekend certificaat of een Enterprise-PKI? (geen zelfondertekende certificaten)*<br>***e.*** *Gebruikt u TLS en niet SSL v3?*<br>***f.*** *Valideert u de registratietoken op het apparaat en AEM tijdens de registratie?*<br> ***g.*** *Hebt u de gegevens geclassificeerd die worden gebruikt en dat er geen PII of PHI op het apparaat bestaat?*<br> ***h.*** *Hebt u de gebruikte gegevens geclassificeerd en hebt u vastgesteld dat er geen persoonlijk identificeerbare informatie (PII) of beschermde gezondheidsinformatie (PHI) op het apparaat aanwezig is?*<br> ***i.*** *Hebt u controle-e-mails geconfigureerd en beschikt u over een SOP om te reageren op het controleren van e-mails en het afhandelen van niet-pingapparaten?* |
 | **Toegangsbeheer** | ***a.*** *Hebt u een rol Gebaseerd Toegangsbeheer (RBAC) geïdentificeerd en binnen beheerd?* <br>***b.*** *Hebt u het beginsel van het minst bevoorrecht in het verlenen van toegang tot auteurs, beheerders en spelers gebruikend beste praktijken van Adobe gevolgd?* |
 
-### Beveiligingschecklist {#download-checklist} downloaden
+### Beveiligingschecklist downloaden {#download-checklist}
 
 Als u de AEM Screens Security Checklist wilt downloaden, klikt u [hier](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).
