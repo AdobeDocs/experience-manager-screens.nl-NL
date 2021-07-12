@@ -11,17 +11,17 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
-
-# Activering {#retail-inventory-targeted-activation} gericht op handelsvoorraad
+# Gerichte activering in de detailhandel {#retail-inventory-targeted-activation}
 
 In het volgende gebruiksgeval worden drie verschillende afbeeldingen gedemonstreerd op basis van de waarden in uw Google-werkblad.
 
@@ -123,6 +123,4 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
    1. Klik op **Voorvertoning.** Open ook uw Google-werkblad en werk de waarde ervan bij.
    1. Wijzig de waarde voor alle drie de kolommen en u ziet hoe de afbeelding van de weergave wordt bijgewerkt volgens de hoogste waarde in de voorraad.
-
    ![retail_result](assets/retail_result.gif)
-
