@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: Overzicht
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
 
 ---
-
 
 # Deel 4: Projectbeheer en -implementatie {#part-project-management-and-deployment}
 
@@ -41,7 +41,7 @@ Het is belangrijk dat alle belanghebbenden begrijpen waarvoor de AV-integrator v
 
 Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren. Deze stadia worden algemeen bedoeld als ***dagen***.
 
-### Dagnulactiviteit {#day-zero-activities}
+### Dagnulactiviteiten {#day-zero-activities}
 
 De eerste fase wordt aangeduid als ***Day Zero***. In deze fase zijn alle pre-sales- en ontdekkingsinspanningen inbegrepen die nodig zijn om het toepassingsgebied van de projecten volledig te definiëren. De tweede fase, dag één, verwijst naar alle activiteiten die deel uitmaken van de inzet. Tot slot verwijst Dag Twee naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
 
@@ -58,7 +58,7 @@ Dag Zero bestaat uit acht belangrijke stappen voor alle aspecten van de oprijpla
 * Overweeg kracht en connectiviteit
 * Herziening van technische plannen of tekeningen
 
-### Dag één activiteiten {#day-one-activities}
+### Dag 1 Activiteiten {#day-one-activities}
 
 De tweede fase, ***Dag één***, verwijst naar alle activiteiten die deel uitmaken van de implementatie-inspanning. Een ander belangrijk technisch document voor een succesvol project is de Grafiek van plaatsingsGantt.
 
@@ -93,4 +93,3 @@ Volg deze zelfstudie om meer te weten te komen over projectbeheer en de voorbere
 Zodra u met zeer belangrijke overwegingen het Beheer van het Project voor de Plaatsingen van AEM Screens grondig bent;
 
 Navigeer naar **[Deel 5: Overdenkingen van de steun](support-considerations.md)** om de Steun van Dag 2 en de processen te begrijpen betrokken.
-
