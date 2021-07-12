@@ -6,17 +6,17 @@ seo-description: Volg deze pagina om te leren hoe u overgangen kunt toepassen op
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 757e6751-8008-487f-be89-9f53ac898928
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
 
 ---
 
-
-# Overgangen {#applying-transitions} toepassen
+# Overgangen toepassen {#applying-transitions}
 
 In deze sectie wordt beschreven hoe u de component **Overgang** kunt toepassen tussen verschillende elementen (afbeeldingen en video&#39;s) en ingesloten reeksen in een kanaal.
 
@@ -60,4 +60,3 @@ Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw 
 1. Als u bovendien een **Ingesloten reeks** component (die een opeenvolgingskanaal omvat) aan deze kanaalredacteur toevoegt, kunt u een overgangscomponent aan het eind toevoegen, zodat de inhoud in orde speelt, zoals aangetoond in het hieronder cijfer:
 
    ![image3](assets/transitions5.png)
-
