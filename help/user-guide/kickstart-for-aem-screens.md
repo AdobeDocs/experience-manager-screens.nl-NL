@@ -3,15 +3,15 @@ title: Kickstart Guide
 seo-title: Kickstart Guide
 description: Volg deze pagina om een demo AEM Screens-project te maken. Hiermee kunt u een digitale handtekening maken die begint bij de installatie en het instellen van een nieuw project voor het weergeven van uw inhoud in AEM Screens Player.
 feature: Overzicht, digitale signalen
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 1%
 
 ---
-
 
 # Kickstart Guide {#kickstart-guide}
 
@@ -33,7 +33,7 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 >Voer de onderstaande stappen uit om het filter ***Leeg toestaan van paginaverwijzing van Apache in te schakelen***:
 
 
-## Lege verwijzingsverzoeken {#allow-empty-referrer-requests} toestaan
+## Lege verwijzingsverzoeken toestaan {#allow-empty-referrer-requests}
 
 1. Navigeer naar **Adobe Experience Manager Web Console Configuration** via AEM instance —> hammer icon —> **Operations** —> **Web Console**.
 
@@ -49,9 +49,9 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 
 1. Klik op **Opslaan** om het filter Leeg toestaan van paginaverwijzing in te schakelen.
 
-## Een digitale signaalervaring maken in 5 minuten {#creating-a-digital-signage-experience-in-minutes}
+## Een Digital Signage-ervaring maken in 5 minuten {#creating-a-digital-signage-experience-in-minutes}
 
-### AEM Screens-project {#creating-project} maken
+### Een AEM Screens-project maken {#creating-project}
 
 De eerste stap is het maken van een AEM Screens-project.
 
@@ -64,7 +64,7 @@ De eerste stap is het maken van een AEM Screens-project.
    >[!NOTE]
    >Zodra u het project creeert, brengt het u terug naar de homepage van het Project van de Schermen. U kunt nu uw project selecteren. In een project, zijn er vijf verschillende omslagen genoemd **Toepassingen**, **Kanalen**, **Apparaten**, **Plaatsen**, en **Planningen**.
 
-### Een kanaal {#creating-channel} maken
+### Een kanaal maken {#creating-channel}
 
 Nadat u een AEM Screens-project hebt gemaakt, moet u een nieuw kanaal maken waarin u de inhoud beheert.
 
@@ -123,7 +123,7 @@ Ga als volgt te werk om een nieuwe locatie voor uw project te maken:
 De **TestLocation** wordt gecreeerd en aan uw **omslag van Plaatsen** toegevoegd.
 
 
-### Weergave maken voor locatie {#creating-display}
+### Weergave voor locatie maken {#creating-display}
 
 Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie maken.
 
@@ -148,7 +148,7 @@ Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie mak
 
    ![afbeelding](assets/kickstart/demo-disp4.png)
 
-### Een kanaal {#assigning-channel} toewijzen
+### Een kanaal toewijzen {#assigning-channel}
 
 Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toewijzen om de inhoud te bekijken.
 
@@ -182,7 +182,7 @@ Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toew
 
 1. Klik **Save** zodra u uw voorkeur hebt gevormd.
 
-### Een apparaat registreren en apparaat toewijzen aan een beeldscherm {#registering-device}
+### Een apparaat registreren en Apparaat aan een Vertoning toewijzen {#registering-device}
 
 U moet het apparaat registreren via het AEM dashboard.
 
