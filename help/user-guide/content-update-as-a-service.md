@@ -6,15 +6,15 @@ seo-description: Volg deze pagina om over de Update van de Inhoud als Dienst te 
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
 
 ---
-
 
 # Inhoud bijwerken als service {#content-update-as-a-service}
 
@@ -39,11 +39,11 @@ U kunt deze activiteit voor een tijd van lager netwerkverkeer ook plannen.
 >
 >De functie Offlineupdate bulken is geoptimaliseerd en werkt alleen de kanalen bij die zijn gewijzigd.
 
-## Bulk offline bijwerken {#using-bulk-offline-update} gebruiken
+## Bulk offline bijwerken gebruiken {#using-bulk-offline-update}
 
 U kunt bulk off-line update van het Gebruikersinterface (UI) manueel gebruiken of de bulkupdate van de diensten plannen OSGi.
 
-### AEM Screens-gebruikersinterface {#using-aem-screens-user-interface} gebruiken
+### AEM Screens-gebruikersinterface gebruiken {#using-aem-screens-user-interface}
 
 Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een AEM Screens-project:
 
@@ -52,7 +52,7 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Adobe Experience Manager Web Console Configuration {#adobe-experience-manager-web-console-configuration}
+### Configuratie Adobe Experience Manager-webconsole {#adobe-experience-manager-web-console-configuration}
 
 Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een AEM Screens-project:
 
@@ -74,4 +74,3 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
    **Plan** FrequencyGeef een tijd op, bijvoorbeeld 17:00 pm of 5:00 pm, waarop deze service offline-inhoud moet bijwerken.
 
 1. Klik op **Opslaan** om uw instellingen op te slaan en uw inhoud wordt op het opgegeven tijdstip bijgewerkt.
-
