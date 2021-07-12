@@ -2,19 +2,19 @@
 title: Tizen Player
 description: Deze pagina beschrijft de installatie en het werk van Speler Tizen.
 feature: Schermen, afspeelapparatuur beheren
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
 
 ---
 
+# Tizen Player implementeren {#tizen-player}
 
-# Tizen Player {#tizen-player} implementeren
-
-## Tizen Player {#installing-tizen-player} installeren
+## Tizen Player installeren {#installing-tizen-player}
 
 Voer de volgende stappen uit om Tizen Player voor AEM Screens te implementeren:
 
@@ -70,7 +70,7 @@ Volg de onderstaande stappen op het Samsung-apparaat om de installatie van de AE
    >Zowel het apparaat Tizen als de `http`-server moeten verbinding met elkaar kunnen maken. De server moet dus bereikbaar zijn voor de Tizen-speler.
 
 
-## Gebruikersagents met het probleem SameSite Cookie {#exempting-user-agents} vrijstellen
+## Gebruikersagenten vrijstellen van het probleem SameSite Cookie {#exempting-user-agents}
 
 >[!IMPORTANT]
 >**Dit punt is van toepassing op Adobe Experience Manager (AEM) 6.5.5 tot en met AEM 6.5.7**
@@ -88,7 +88,7 @@ Voer de onderstaande stappen uit om deze niet-compatibele clients vrij te stelle
 
 1. Registreer de Tizen-speler tegen AEM 6.5.5 en hoger en registreer de inhoud normaal.
 
-## Op afstand de Tizen Player {#remote-provisioning} voorzien
+## De Tizen Player op afstand bevoorraden {#remote-provisioning}
 
 Op afstand kunt u met de Tizen Player honderden of duizenden Samsung Tizen-beeldschermen zonder veel moeite implementeren. Het vermijdt de vervelende handmatige inspanning om elke speler met server URL en bulkregistratiecode, of andere parameters te vormen, en in het geval van Schermen als Cloud Service om de wolkenwijze en wolkentoken te vormen.
 
@@ -110,7 +110,7 @@ De Tizen-speler wordt geïnstalleerd en bij het opstarten (en elke keer dat de c
 }
 ```
 
-### Beleidskenmerken en doel {#policy-attributes}
+### Beleidskenmerken en Doel {#policy-attributes}
 
 In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 
@@ -130,7 +130,7 @@ In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 | cloudToken | Registratietoken voor registratie tegen schermen als Cloud Service. |
 
 
-## Het Tizen-apparaat aanmelden bij de Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
+## Het Tizen-apparaat inschrijven voor de Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
 Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Samsung Remote Management Service (RMS) en de URL Launcher op afstand te configureren:
 
@@ -164,4 +164,3 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
    ![afbeelding](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Klik op **Opslaan** om de wijzigingen weer te geven op het scherm.
-
