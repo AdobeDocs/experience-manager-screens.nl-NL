@@ -3,17 +3,17 @@ title: Authoring met gegevenstriggers
 seo-title: Authoring met gegevenstriggers
 description: Volg deze pagina om te leren hoe u ontwerpt met gegevenstriggers.
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-
-# Ontwerpen met gegevenstriggers {#authoring-with-data-triggers}
+# Authoring met gegevenstriggers {#authoring-with-data-triggers}
 
 Deze sectie benadrukt hoe te om het richten in uw kanalen toe te laten.
 
@@ -40,7 +40,7 @@ Nadat u de voorgaande stappen hebt uitgevoerd, kunt u het activeren van de doelg
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## Het toelaten van het Targeting in een Kanaal van AEM Screens {#enabling-targeting}
+## Het toelaten van Targeting in een Kanaal van AEM Screens {#enabling-targeting}
 
 Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te schakelen.
 
@@ -75,7 +75,7 @@ Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te sch
 
 1. Selecteer **Merk** en **Activiteit** van het drop-down menu en klik **Begin richten**.
 
-### Meer informatie: Voorbeeld van gebruik van gevallen {#learn-more-example-use-cases}
+### Meer informatie: Voorbeelden {#learn-more-example-use-cases}
 
 Nadat u ContextHub voor uw project van AEM Screens hebt gevormd, kunt u de verschillende Gevallen van het Gebruik volgen om te begrijpen hoe de gegevens teweeggebrachte activa een vitale rol in verschillende industrieën spelen:
 
