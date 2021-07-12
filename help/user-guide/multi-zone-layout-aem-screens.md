@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 0%
 
 ---
-
 
 # Layout meerdere zones {#multi-zone-layout}
 
@@ -46,7 +46,7 @@ Voordat u begint met het implementeren van deze functionaliteit, moet u de conce
 * [Weergave maken](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
 * [Een kanaal toewijzen aan een weergave](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
-## Layout voor meerdere zones maken {#creating-multi-zone-layout}
+## Layout meerdere zones maken {#creating-multi-zone-layout}
 
 Tijdens het maken van een kanaal kunt u verschillende sjablonen gebruiken om zones in uw kanaal te maken. U kunt één afbeelding, video of ingesloten kanaal toevoegen waarmee meerdere elementen in een reeks kunnen worden weergegeven.
 
@@ -61,7 +61,7 @@ Tijdens het maken van een kanaal kunt u verschillende sjablonen gebruiken om zon
 
 1. Klik **Maken** om het maken van het kanaal te voltooien.
 
-### Single Assets gebruiken in een of meer zones {#using-single-assets-in-one-or-more-zones}
+### Single Assets in een of meer zones gebruiken {#using-single-assets-in-one-or-more-zones}
 
 U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle afzonderlijke zones gebruiken. Volg de onderstaande stappen voor implementatie:
 
@@ -162,7 +162,7 @@ U moet de kanalen aan de vertoning toewijzen om de inhoud te bekijken. Voer de o
       >
       > Wanneer u het hoofdkanaal (in dit geval **MultiZone**) aan het scherm hebt toegewezen, is het verplicht om de andere twee ingesloten kanalen **Zone1** en **Zone2** ook aan hetzelfde scherm toe te wijzen.
 
-### Het apparaat {#registering-device} registreren
+### Het apparaat registreren {#registering-device}
 
 Nadat u een locatie en een weergave hebt ingesteld, voert u de onderstaande stappen uit om het apparaat te registreren en de weergave aan het apparaat toe te wijzen.
 
@@ -183,7 +183,7 @@ Nadat u een locatie en een weergave hebt ingesteld, voert u de onderstaande stap
    >[!NOTE]
    >Als u de inhoud in de speler van het Scherm probeert te bekijken, zorg ervoor u **Update Offline Inhoud** van het kanaaldashboard voor elk van de kanalen klikt die aan de vertoning worden toegewezen.
 
-### Resultaat {#viewing-the-result} weergeven
+### Het resultaat weergeven {#viewing-the-result}
 
 Als u lay-outs met meerdere zones hebt geïmplementeerd met behulp van de voorgaande stappen, wordt de volgende uitvoer weergegeven.
 
@@ -192,5 +192,3 @@ Controleer de schermspeler om de uitvoer weer te geven die de inhoud in twee ver
 De linkerzone is een reekskanaal en de rechterzone bevat een video.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
-
-
