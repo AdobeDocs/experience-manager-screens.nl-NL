@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: Ontwerpschermen, starten
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 0%
 
 ---
-
 
 # Inhoud bijwerken met Schermen starten {#launches}
 
@@ -47,7 +47,7 @@ Als u een ervaring uitvoert op de live-datum instellen op de speler, gaat u als 
 
 * eventuele tijdverschillen tussen de server en de speler
 
-### Respijtperiode {#understanding-grace-period}
+### Respijtperiode begrijpen {#understanding-grace-period}
 
 Als u wilt dat de speler de inhoud kan afspelen op de actieve datum van de set, moeten de voorgaande activiteiten worden gestart vóór de live datum.
 
@@ -61,7 +61,7 @@ Dus als we live gaan, zal de promotie vroeg beginnen bij deze offset. In de bove
 >
 >De evaluatieperiode voor het starten van schermen is ingesteld op 24 uur. Dit betekent dat wanneer we de live-datum instellen voor het opstarten van bronnen onder */content/screens*, de promotie begint met deze verschuiving.
 
-### Respijtperiode {#updating-out-of-the-box-grace-period} bijwerken
+### Respijtperiode buiten de box bijwerken {#updating-out-of-the-box-grace-period}
 
 In deze sectie wordt uitgelegd hoe u een uitstelperiode kunt bijwerken naar 10 minuten.
 
@@ -82,11 +82,11 @@ Aangezien u de Periode van de Aflossing aan 10 minuten in het voorafgaande voorb
 
 Als de live datum bijvoorbeeld is ingesteld op 24 november, 9:00 uur en de respijtperiode op 600 seconden, begint de promotietaak op 24 november om 8:50 uur.
 
-## Starten van schermen {#using-launches} gebruiken
+## Starten van schermen gebruiken {#using-launches}
 
 In deze sectie ziet u hoe u de functie Schermen starten in uw AEM Screens-project implementeert.
 
-### Starten van schermen {#creating-a-launch} maken
+### Schermen starten {#creating-a-launch}
 
 Voer de onderstaande stappen uit om de functie Schermen starten te implementeren voor uw AEM Screens-project:
 
@@ -177,7 +177,7 @@ Voer de onderstaande stappen uit om de eigenschappen van de startpagina te bewer
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Het uitgeven van de Lancering van de Schermen om Kanalen {#editing-the-screens-launch-to-add-or-remove-channels} toe te voegen of te verwijderen
+### Het uitgeven van de Lancering van de Schermen om Kanalen toe te voegen of te verwijderen  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Nadat u de lancering hebt gecreeerd, kunt u kanalen aan de bestaande lancering toevoegen of verwijderen gebruikend **de optie van de Lanceer van de Edit**.
 
@@ -200,11 +200,10 @@ U kunt de middelen kiezen u als deel van deze handbevordering in **de Tovenaar v
 1. Klik **Next** in **Promote Launch** tovenaar.
 1. Klik **Promote** om de lancering te bevorderen.
 
-### Starten van schermen {#deleting-the-screens-launch} verwijderen
+### De functie Schermen starten verwijderen {#deleting-the-screens-launch}
 
 U kunt de lancering schrappen gebruikend **Schrap Lancering** optie van **PENDING LAUNCHES** paneel.
 
 >[!CAUTION]
 >
 >Met deze actie verwijdert u ook alle onderliggende elementen (geneste lanceringen).
-
