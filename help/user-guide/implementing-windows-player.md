@@ -11,21 +11,21 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: Schermen beheren, Windows Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 0%
 
 ---
 
-
-# Windows 10 Player {#implementing-windows-player} implementeren
+# Windows 10 Player implementeren {#implementing-windows-player}
 
 In deze sectie wordt beschreven hoe u AEM Screens Windows 10 Player configureert. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
 
-## Windows Player {#installing-windows-player} installeren
+## Windows Player installeren {#installing-windows-player}
 
 Installeer Windows Player voor AEM Screens om Windows Player voor AEM Screens te implementeren.
 
@@ -34,7 +34,7 @@ Bezoek de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/
 >[!NOTE]
 >Er is geen venstermodus in Windows Player. Dit is altijd de modus Volledig scherm.
 
-### Environment instellen voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### De Milieu van de vestiging voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
 >U moet een omgeving instellen voor Windows Player als u AEM Screens 6.5.5 Service Pack gebruikt.
@@ -54,7 +54,7 @@ Configuratie** met `http://localhost:4502/system/console/configMgr`.
 
 1. Klik **Opslaan**.
 
-### Ad hoc methode {#ad-hoc-method}
+### Ad hoc-methode {#ad-hoc-method}
 
 Met de ad-hocmethode kunt u de nieuwste Windows Player (*.exe*) installeren. Bezoek [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) pagina.
 
@@ -70,7 +70,7 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 >
 >Als **State** **UNREGISTERED** is, kunt u **Token** gebruiken om het apparaat te registreren.
 
-## Windows Player {#name-windows} een naam geven
+## Namen van Windows Player {#name-windows}
 
 U kunt een gebruikersvriendelijke apparaatnaam aan uw Windows-speler toewijzen en daarbij de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen de naam van uw Windows-speler opgeven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
 
@@ -193,4 +193,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-
