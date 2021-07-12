@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Schermen beheren
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Analytics-integratie met AEM Screens {#adobe-analytics-integration-with-aem-screens}
 
@@ -57,7 +57,7 @@ Adobe Analytics Integration with AEM Screens dwingt dus de volgende *doelstellin
 * ROI van de implementatie van de digitale handtekening inschakelen
 * Analyses integreren als basis voor toekomstige mogelijkheden voor het verzamelen en analyseren van gebruiksinformatie
 
-## Architectuurdetails {#architectural-details}
+## Architectuurafbeeldingen {#architectural-details}
 
 Een AEM Screens-klant wil weten welke inhoud op welk moment en voor hoe lang (geaggregeerd) is weergegeven. Dit is algemeen vermogen van signaleringsoplossing. In plaats van onze eigen analyses op te stellen, zal AEM Screens Adobe Analytics benutten en daarmee kunnen we iets anders bereiken op de markt - kanaaloverschrijdende analyses die de inhoud die op locatie wordt getoond, helpen correleren met andere gegevensbronnen.
 
@@ -73,7 +73,7 @@ Navigeer naar **Adobe Experience Manager Web Console Configuration** om Adobe An
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## Schermanalyse: Stroom {#screens-analytics-enablement-flow} inschakelen
+## Schermanalyse: Stroom inschakelen {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
@@ -81,7 +81,7 @@ Navigeer naar **Adobe Experience Manager Web Console Configuration** om Adobe An
 
 ![]()
 
-### Eigenschappen {#configuring-the-properties} configureren
+### Eigenschappen configureren {#configuring-the-properties}
 
 >[!CAUTION]
 >
@@ -132,4 +132,3 @@ Analytische gebeurtenissen worden offline opgeslagen in geïndexeerdeDB en later
 >[!NOTE]
 >
 >Voor meer informatie over ***Sequencing*** en ***Standaardgegevensmodel voor gebeurtenissen***, raadpleegt u **[Adobe Analytics configureren voor AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
-
