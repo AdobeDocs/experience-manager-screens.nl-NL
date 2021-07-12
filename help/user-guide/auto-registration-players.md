@@ -3,21 +3,21 @@ title: Automatische registratie van spelers
 seo-title: Automatische registratie van spelers
 description: Volg deze pagina voor meer informatie over automatische registratie van afspeelapparatuur met AMS-/On-Prem-schermen.
 feature: Schermen, afspeelapparatuur beheren
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 28449523-a44d-4260-9771-f1987686cbb6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
-
 # Automatische registratie van spelers {#auto-registration}
 
 Bulk die duizenden spelers handmatig registreert, kan zeer omslachtig worden en zorgt voor meer tijd en kosten. Om dit proces te vereenvoudigen, staat de bulkregistratiefunctie u toe om een pre-gedeelde sleutel in AEM te specificeren die in een speler of door een configuratiedossier of een Mobiel Apparaatbeheer (MDM) oplossing kan worden voorzien.
 
-## Automatische registratie van spelers {#bulk-registering-implementation} implementeren
+## Automatische registratie van spelers implementeren {#bulk-registering-implementation}
 
 Voer de volgende stappen uit om automatische registratie van spelers te implementeren:
 
