@@ -11,29 +11,29 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 feature: Schermen beheren, Android Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
 
 ---
 
-
-# Android-speler {#implementing-android-player} implementeren
+# Android-speler implementeren {#implementing-android-player}
 
 In deze sectie wordt beschreven hoe u de Android-speler configureert. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
 
 Daarnaast is **Watchdog** een oplossing om de speler te herstellen van vastlopen. Een toepassing moet zich bij de waakhond dienst registreren en dan periodiek berichten naar de dienst verzenden die het levend is. Als de waakhonddienst niet binnen een bepaalde tijd een bewaarde bericht ontvangt, probeert de dienst om het apparaat voor een schoon terugwinning (als het de voldoende voorrechten heeft) opnieuw op te starten of de toepassing opnieuw te beginnen.
 
-## Android-speler {#installing-android-player} installeren
+## Android Player installeren {#installing-android-player}
 
 Installeer Android Player voor AEM Screens om Android Player voor AEM Screens te implementeren.
 
 Bezoek de pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
-### Environment instellen voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### De Milieu van de vestiging voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
 >U moet een omgeving instellen voor Android Player als u AEM Screens 6.5.5 Service Pack gebruikt.
@@ -52,7 +52,7 @@ Voer de onderstaande stappen uit:
 1. Klik **Opslaan**.
 
 
-### Ad hoc methode {#ad-hoc-method}
+### Ad hoc-methode {#ad-hoc-method}
 
 Met de ad-hocmethode kunt u de nieuwste Android-speler (*.exe*) installeren. Bezoek [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) pagina.
 
@@ -69,11 +69,11 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 >
 >Als **State** **UNREGISTERED** is, kunt u **Token** gebruiken om het apparaat te registreren.
 
-## Android Watchdog {#implementing-android-watchdog} implementeren
+## Android Watchdog implementeren {#implementing-android-watchdog}
 
 Vanwege de architectuur van Android vereist het opnieuw opstarten van het apparaat dat de toepassing systeemrechten heeft. Hiervoor moet u de apk ondertekenen met de ondertekeningssleutels van de fabrikant. Als dit niet het geval is, wordt de speler opnieuw gestart door de controlehond en wordt het apparaat niet opnieuw opgestart.
 
-### Signering van Android-apparaten met behulp van fabriekssleutels {#signage-of-android-apks-using-manufacturer-keys}
+### Handtekening van Android-apks met behulp van fabriekssleutels {#signage-of-android-apks-using-manufacturer-keys}
 
 Als u toegang wilt tot enkele geprivilegieerde API&#39;s van Android, zoals *PowerManager* of *HDMIControlServices*, moet u de android-app ondertekenen met de toetsen van de fabrikant.
 
@@ -174,11 +174,11 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 >[!NOTE]
 >Alle Android-apparaten hebben een *sdcard*-map, ongeacht of een werkelijke *sdcard* is ingevoegd of niet. Wanneer dit bestand wordt geïmplementeerd, bevindt het zich op hetzelfde niveau als de map Downloads. Sommige MDM&#39;s zoals Samsung Knox verwijzen mogelijk naar deze *sdcard* maplocatie als *Interne opslag*.
 
-## Bulkprovisioning van Android Player met gebruik van Enterprise Mobility Management {#bulk-provisioning}
+## Bulkprovisioning van Android Player via Enterprise Mobility Management {#bulk-provisioning}
 
 Wanneer u de Android-speler bulksgewijs implementeert, wordt het vervelend om elke speler handmatig te registreren bij AEM. Het wordt ten zeerste aanbevolen om een EMM-oplossing (Enterprise Mobility Management), zoals VMWare Airwatch, MobileIron of Samsung Knox, te gebruiken om uw implementatie op afstand te voorzien en te beheren. AEM Screens Android-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
 
-## Android-speler {#name-android} een naam geven
+## Android-speler hernoemen {#name-android}
 
 U kunt een gebruikersvriendelijke apparaatnaam aan uw Android-speler toewijzen en daarbij de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen uw Android-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
 
