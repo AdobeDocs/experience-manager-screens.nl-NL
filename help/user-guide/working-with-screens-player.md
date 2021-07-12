@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Schermen beheren
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 0%
 
 ---
-
 
 # Werken met AEM Screens Player {#working-with-aem-screens-player}
 
@@ -48,7 +48,7 @@ U kunt voorkeuren voor uw apparaat configureren vanaf het dashboard van het appa
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
-### De interface Admin {#the-admin-ui}
+### De interface van Admin {#the-admin-ui}
 
 Als u de **Admin UI** vanuit het voorkeurenvenster inschakelt, kan de gebruiker de beheerinstellingen openen vanuit de Schermspeler. Bovendien, als u deze optie van het apparatendashboard onbruikbaar maakt, kan de gebruiker niet admin UI van de speler openen.
 
@@ -86,7 +86,7 @@ In het menu Configuratie kunt u de volgende instellingen wijzigen:
 >
 >Het wordt geadviseerd om **Admin UI** in de Plaatsingen van de Productie onbruikbaar te maken.
 
-#### Opties {#content-cache-options} voor het menu-cachegeheugen voor inhoud openen
+#### Opties voor het menu-cachegeheugen voor inhoud openen {#content-cache-options}
 
 U kunt cache voor kanalen en toepassingen wissen via de interface voor beheer in AEM Screens Player.
 
@@ -124,7 +124,7 @@ Ga als volgt te werk om de voorkeuren van uw speler te wijzigen:
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## Problemen met AEM Screens Player {#troubleshooting-aem-screens-player} oplossen
+## Problemen met AEM Screens Player oplossen {#troubleshooting-aem-screens-player}
 
 U kunt verschillende problemen met de AEM Screens Player (hardware en software) oplossen:
 
