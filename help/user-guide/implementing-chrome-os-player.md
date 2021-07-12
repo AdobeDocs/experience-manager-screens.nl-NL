@@ -10,21 +10,21 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Schermen beheren
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
-
-# Chrome OS Player {#implementing-chrome-os-player} implementeren
+# Chrome OS Player implementeren  {#implementing-chrome-os-player}
 
 In deze sectie wordt beschreven hoe u de Chrome OS Player implementeert met de Chrome Management Console.
 
-## Chrome Management Console {#using-chrome-management-console} gebruiken
+## Chrome Management Console gebruiken {#using-chrome-management-console}
 
 Voer de onderstaande stappen uit om de chrome beheerconsole in te stellen:
 
@@ -80,7 +80,7 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
    Het kan een paar notulen afhankelijk van het netwerk voor de veranderingen duren om van kracht te worden. Het wordt aanbevolen opnieuw op te starten.
 
-#### Status extern apparaat {#checking-remote-device-status} controleren
+#### Status van extern apparaat controleren {#checking-remote-device-status}
 
 1. Meld u aan bij de Chrome Developer Console.
 1. Blader naar **Apparaatbeheer** > **Chrome Devices** en selecteer het apparaat dat u wilt besturen.
@@ -91,7 +91,7 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 >
 >Houd er rekening mee dat deze instellingen mogelijk enkele minuten nadat het apparaat is ingeschreven, zijn ingeschakeld. Elke optie kan na verloop van tijd worden ingeschakeld.
 
-### Externe configuratie configureren van Chrome OS Players {#configuring-remote-configuration-of-chrome-os-players}
+### Externe configuratie van Chrome OS Players configureren {#configuring-remote-configuration-of-chrome-os-players}
 
 De AEM Screens Player is een toepassing waarvoor Kiosk is ingeschakeld en waarmee ook Externe beleidsconfiguratie voor Chrome OS Players wordt ingeschakeld.
 
@@ -108,7 +108,7 @@ Voer de onderstaande stappen uit om verschillende opties van de speler te config
 >
 >Start het apparaat opnieuw op om beleidswijzigingen te synchroniseren.
 
-#### Voorbeeld JSON-bestand beleid {#example-policy-json-file}
+#### JSON-bestand voorbeeldbeleid {#example-policy-json-file}
 
 ```java
 {
