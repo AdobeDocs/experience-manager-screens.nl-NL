@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
 
 ---
-
 
 # Weergaven maken en beheren {#creating-and-managing-displays}
 
@@ -35,7 +35,7 @@ Op deze pagina ziet u hoe u beeldschermen maakt en beheert.
 * [Kanalen maken en beheren](managing-channels.md)
 * [Locaties maken en beheren](managing-locations.md)
 
-## Nieuwe weergave maken {#creating-a-new-display}
+## Een nieuwe weergave maken {#creating-a-new-display}
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Zodra een apparaat config aan uw vertoning in de plaats wordt geplaatst, zal de 
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
-## Het dashboard {#display-dashboard} weergeven
+## Het dashboard weergeven {#display-dashboard}
 
 Het weergavedashboard biedt u verschillende deelvensters voor het beheer van weergaveapparaten en apparaatconfiguraties voor uw apparaat.
 
@@ -118,7 +118,7 @@ Het **DISPLAY INFORMATIE** paneel verstrekt de vertoningseigenschappen.
 Klik op (**..**) in de rechterbovenhoek in het deelvenster **INFORMATIE WEERGEVEN** om de eigenschappen weer te geven en een voorvertoning van de weergave te bekijken.
 
 
-#### Weergaveeigenschappen {#viewing-properties}
+#### Eigenschappen weergeven {#viewing-properties}
 
 Klik **Eigenschappen** om de eigenschappen van uw vertoning te bekijken of te veranderen.
 
