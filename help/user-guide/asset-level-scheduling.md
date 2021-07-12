@@ -4,15 +4,15 @@ seo-title: Activering van middelenniveau
 description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
 seo-description: Volg deze pagina om te leren hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
 feature: Ontwerpschermen, activering van middelenniveau
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 0%
 
 ---
-
 
 # Activering van middelenniveau {#asset-level-scheduling}
 
@@ -78,13 +78,13 @@ Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
 
    ![afbeelding](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-## Herhaling van activa {#handling-recurrence-in-assets} verwerken
+## Herhaling van activa afhandelen {#handling-recurrence-in-assets}
 
 U kunt ook bepalen dat de middelen elke dag, week of maand opnieuw worden uitgevoerd, afhankelijk van uw vereisten.
 
-Stel dat u een afbeelding alleen wilt weergeven op vrijdag van 13.00 tot 22.00 uur. Met het tabblad **Activering** kunt u het gewenste herhalingsinterval voor het element instellen.
+Stel dat u een afbeelding alleen op vrijdag van 13.00 tot 19.00 uur wilt weergeven. Met het tabblad **Activering** kunt u het gewenste herhalingsinterval voor het element instellen.
 
-### Dagscheiding {#day-parting}
+### Dagverdeling {#day-parting}
 
 1. Selecteer het element en klik op **Configureren** (moersleutelpictogram) om het dialoogvenster Eigenschappen te openen.
 
@@ -122,7 +122,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 1. Ga de uitdrukking in **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
-#### Voorbeeldexpressies voor WeekParting {#example-two}
+#### Voorbeelden van expressies voor WeekParting {#example-two}
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
@@ -147,7 +147,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 1. Ga de uitdrukking in **Programma** in en uw activa zullen voor het bepaalde interval van dag en tijd tonen.
 
-#### Voorbeeldexpressies voor MonthParting {#example-three}
+#### Voorbeelden van expressies voor MonthParting {#example-three}
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
@@ -184,7 +184,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 >Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.  Daarnaast kunt u _militaire tijd_ notatie (dat wil zeggen 14:00) gebruiken in plaats van *am/pm* notatie (dat wil zeggen, 2:00 pm).
 
 
-## Activering van meerdere elementen {#multi-asset-scheduling}
+## Activering van meerdere middelen {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
@@ -222,4 +222,3 @@ Voer de onderstaande stappen uit om meerdere elementen te selecteren en de weerg
    >Het planningspictogram is in de rechterbovenhoek zichtbaar voor de elementen die worden geactiveerd met meerdere elementen.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
