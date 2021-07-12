@@ -11,17 +11,17 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
-
-# Een werkstroom voor het opvullen van video&#39;s maken {#creating-a-video-padding-workflow}
+# Workflow voor het opvullen van video&#39;s maken {#creating-a-video-padding-workflow}
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
@@ -48,7 +48,7 @@ Vul de volgende voorwaarden in voordat u een workflow voor video maakt:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
-## Een werkstroom voor het opvullen van video&#39;s maken {#creating-a-video-padding-workflow-1}
+## Workflow voor het opvullen van video&#39;s maken {#creating-a-video-padding-workflow-1}
 
 Als u een workflow voor het opvullen van video&#39;s wilt maken, moet u een workflow voor uw video maken en vervolgens hetzelfde gebruiken in het AEM Screens-projectkanaal.
 
@@ -57,7 +57,7 @@ Voer de onderstaande stappen uit om de workflow te maken en te gebruiken:
 1. Een workflow maken
 1. De workflow gebruiken in een AEM Screens-project
 
-### Workflow {#creating-a-workflow} maken
+### Een workflow maken {#creating-a-workflow}
 
 Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
@@ -113,7 +113,7 @@ Voer de onderstaande stappen uit om de workflow in uw AEM Screens-project te geb
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## Uitvoer voor werkstroom valideren {#validating-the-output-for-the-workflow}
+## De uitvoer voor de workflow valideren {#validating-the-output-for-the-workflow}
 
 U kunt de uitvoer valideren door:
 
@@ -121,4 +121,3 @@ U kunt de uitvoer valideren door:
 * Navigeer naar ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, zoals in de onderstaande afbeelding wordt getoond:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
-
