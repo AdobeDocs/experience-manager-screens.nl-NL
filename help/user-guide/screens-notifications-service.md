@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: Ontwerpschermen
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 205235d7-e621-4134-975c-257ae60939bc
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
-
-# AEM Screens-meldingsservice{#aem-screens-notifications-service}
+# AEM Screens-berichtenservice{#aem-screens-notifications-service}
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
@@ -45,7 +45,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 Deze dienst kan in de OSGi Webconsole worden gevormd.
 
-## E-mailinstellingen {#configuring-email-settings} configureren
+## E-mailinstellingen configureren {#configuring-email-settings}
 
 Voer de onderstaande stappen uit om de instellingen voor e-mailmeldingen te configureren:
 
@@ -96,7 +96,7 @@ Als u deze koppeling opent, gaat u rechtstreeks naar het dashboard van het appar
 
 E-mails worden alleen verzonden als er ten minste één apparaat is dat niet is gepingeld voor de opgegeven pingelt-time-out en dat nog steeds niet pingelt op het moment dat de e-mail wordt gegenereerd.
 
-### Voorbeeld van gebruik van gevallen {#example-use-cases}
+### Voorbeelden {#example-use-cases}
 
 In het volgende voorbeeld worden enkele referentiescenario&#39;s beschreven om de eigenschappen van de E-mailbewakingsservice van het schermapparaat te configureren.
 
