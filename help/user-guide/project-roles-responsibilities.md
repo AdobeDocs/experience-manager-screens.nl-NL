@@ -3,15 +3,15 @@ title: '"Deel 1: Projectrollen en -verantwoordelijkheden"'
 seo-title: '"Deel 1: Projectrollen en -verantwoordelijkheden"'
 description: Volg deze zelfstudie om meer inzicht te krijgen in rollen, verantwoordelijkheden en tijdlijnen die tijdens de verkoop- en projectlevenscycli voor een digitaal ondertekeningsproject zijn vereist.
 feature: Overzicht
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
 
 ---
-
 
 # Deel 1: Projectrollen en -verantwoordelijkheden {#part-project-roles-and-responsibilities}
 
@@ -39,7 +39,7 @@ Het bepalen van toepassings gebruiks-caseparameters in partnerschap met Adobe, A
 
 Adobe bevat bronnen van Adobe Managed Services, zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-#### Implementators AEM {#aem-implementors}
+#### AEM {#aem-implementors}
 
 Een **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
@@ -47,7 +47,7 @@ Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Ex
 
 AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase kan het mogelijk maken het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met extra fasen die ondersteuning voor interactieve elementen bevatten via aanraakschermen, sensoren, dynamische triggers enzovoort.
 
-#### AV-integratoren {#av-integrators}
+#### AV-integrators {#av-integrators}
 
 Een **AV-integrator** is verantwoordelijk voor het uitvoeren van ontdekkingen met eindgebruikers om vereisten te definiëren die het projectbereik bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
 
