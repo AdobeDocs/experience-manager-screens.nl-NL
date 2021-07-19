@@ -6,10 +6,10 @@ feature: Overzicht, digitale signalen
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: da5abdb3b12f8e1e71af2f9dbc80ec2434ae08ed
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 6%
+source-wordcount: '584'
+ht-degree: 5%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 6%
 **AEM (Adobe Experience Manager) Schermen**  - een Digital Signage-oplossing waarmee u dynamische en interactieve digitale ervaringen en interacties met verschillende soorten schermen kunt publiceren in combinatie met een uitgebreid digitaal marketingplatform.
 
 Ga aan de slag met een eenvoudige digitale handtekening met behulp van [Kickstart voor AEM Screens](kickstart-for-aem-screens.md).
+
+Meer informatie over het configureren en maken van uw AEM Screens-project in AEM als Cloud Service vindt u [hier](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/screens-as-cloud-service/home.html?lang=en).
 
 ## Overzicht {#overview}
 
@@ -33,7 +35,7 @@ Zie [Verklarende woordenlijst](screens-glossary.md) voor meer informatie over de
 
 In het volgende diagram wordt de algemene architectuur van een AEM Screens-speler weergegeven:
 
-![chlimage_1-21](assets/chlimage_1-29.png)
+![chlimage_1-29](assets/chlimage_1-29.png)
 
 ### Maak over 5 minuten een digitale signaalervaring {#create-a-digital-signage-experience-in-minutes}
 
