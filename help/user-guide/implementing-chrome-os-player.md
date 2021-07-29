@@ -13,9 +13,9 @@ feature: Schermen beheren
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,9 @@ Voer de onderstaande stappen uit om de chrome beheerconsole in te stellen:
 ## Naam van Chrome OS Player {#name-chrome}
 
 U kunt een gebruikersvriendelijke apparaatnaam aan uw Chrome-speler toewijzen en daarbij de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen de Chrome-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
+
+>[!NOTE]
+>U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Player is geregistreerd, kan de Player-naam niet meer worden gewijzigd.
 
 Voer de onderstaande stappen uit om de naam te configureren in Chrome Player:
 
