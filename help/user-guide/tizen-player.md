@@ -5,9 +5,9 @@ feature: Schermen, afspeelapparatuur beheren
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,9 @@ Voer de onderstaande stappen uit:
 ### Naamgeving van Tizen Player {#name-tizen}
 
 U kunt een gebruikersvriendelijke apparaatnaam aan uw Tizen-speler toewijzen en daarbij de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen de Tizen-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
+
+>[!NOTE]
+>U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Player is geregistreerd, kan de Player-naam niet meer worden gewijzigd.
 
 Voer de onderstaande stappen uit om de naam in de Tizen-speler te configureren:
 
