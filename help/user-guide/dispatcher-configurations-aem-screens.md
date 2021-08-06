@@ -7,7 +7,7 @@ feature: Schermen beheren
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
+source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 2%
@@ -135,7 +135,7 @@ Als u de cache voor de elementen wilt inschakelen zodat de elementen worden verz
 
 Zorg ervoor dat u deze filters en cacheregels toestaat in verzenders die de publicatie-instanties voor het functioneren van schermen vooraf verzenden.
 
-## Voorwaarden voor Manifest versie v3{#prerequisites3}
+### Voorwaarden voor Manifest versie v3{#prerequisites3}
 
 Zorg ervoor dat u aan deze twee voorwaarden voldoet voordat u Dispatcher (manifestversie v3) voor AEM Screens configureert:
 
