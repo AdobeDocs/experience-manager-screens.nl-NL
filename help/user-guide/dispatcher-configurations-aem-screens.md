@@ -7,9 +7,9 @@ feature: Schermen beheren
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 7e4d3c5ed7299d6439bf9be6d49ec9224dcf71ed
+source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -28,16 +28,15 @@ De volgende pagina verstrekt de richtlijnen voor het vormen verzender voor een p
 
 ## Voorwaarden {#prerequisites}
 
->[!IMPORTANT]
->Voordat u een dispatcher configureert voor een AEM Screens-project, moet u vooraf op de hoogte zijn van Dispatcher.
->Raadpleeg [Dispatcher configureren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) voor meer informatie.
+Voordat u een dispatcher configureert voor een AEM Screens-project, moet u vooraf op de hoogte zijn van Dispatcher.
+Raadpleeg [Dispatcher configureren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) voor meer informatie.
 
 ## Dispatcher configureren {#configuring-dispatcher}
 
 >[!IMPORTANT]
->De volgende Dispatcher-configuraties zijn alleen van toepassing op Manifest-versie v2. Raadpleeg [Dispatcher Configurations for Manifest version v3]{#configuring-dispatcherv3} for manifest version V3.
+>De volgende Dispatcher-configuraties zijn alleen van toepassing op Manifest-versie v2. Raadpleeg [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) for manifest version v3.
 
-AEM Screens-spelers/apparaten gebruiken geverifieerde sessies om ook toegang te krijgen tot de bronnen in de publicatieinstanties. Als u dus meerdere publicatieinstanties hebt, moeten de aanvragen altijd naar dezelfde publicatieinstantie gaan, zodat de geverifieerde sessie geldig is voor alle aanvragen die afkomstig zijn van de AEM Screens-spelers/apparaten.
+AEM Screens-spelers of -apparaten gebruiken geverifieerde sessies om ook toegang te krijgen tot de bronnen in de publicatieinstanties. Als u dus meerdere publicatieinstanties hebt, moeten de aanvragen altijd naar dezelfde publicatieinstantie gaan, zodat de geverifieerde sessie geldig is voor alle aanvragen die afkomstig zijn van de AEM Screens-spelers/apparaten.
 
 Voer de onderstaande stappen uit om de dispatcher voor een AEM Screens-project te configureren.
 
@@ -138,7 +137,7 @@ Zorg ervoor dat u deze filters en cacheregels toestaat in verzenders die de publ
 
 ## Voorwaarden voor Manifest versie v3{#prerequisites3}
 
-Volg deze twee voorwaarden voordat u Dispatcher voor AEM Screens configureert:
+Zorg ervoor dat u aan deze twee voorwaarden voldoet voordat u Dispatcher (manifestversie v3) voor AEM Screens configureert:
 
 * Zorg ervoor dat u `v3 manifests` gebruikt. Navigeer naar `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` en controleer of `Enable ContentSync Cache` is uitgeschakeld.
 
