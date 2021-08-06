@@ -7,9 +7,9 @@ feature: Schermen beheren
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d3903605e50668a568e5c336b47ad4c6d8cd1dc0
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '432'
 ht-degree: 3%
 
 ---
@@ -26,11 +26,19 @@ De volgende pagina verstrekt de richtlijnen voor het vormen verzender voor een p
 >
 >Als er geen verzender is, maak de registratieserver in de OSGi componentenlijst onbruikbaar.
 
-## Voorwaarden {#pre-requisites}
+## Voorwaarden {#prerequisites}
 
-Voordat u een dispatcher configureert voor een AEM Screens-project, moet u vooraf op de hoogte zijn van Dispatcher.
+>[!IMPORTANT]
+>Voordat u een dispatcher configureert voor een AEM Screens-project, moet u vooraf op de hoogte zijn van Dispatcher.
+>Raadpleeg [Dispatcher configureren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) voor meer informatie.
 
-Raadpleeg [Dispatcher configureren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) voor meer informatie.
+Volg deze twee voorwaarden voordat u Dispatcher voor AEM Screens configureert:
+
+* Zorg ervoor dat u `v3 manifests` gebruikt. Navigeer naar `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` en controleer of `Enable ContentSync Cache` is uitgeschakeld.
+
+* Zorg ervoor dat de verzender flush agent bij `/etc/replication/agents.publish/dispatcher1useast1Agent` in publicatieinstantie wordt gevormd.
+
+   ![afbeelding](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
 ## Dispatcher configureren {#configuring-dispatcher}
 
