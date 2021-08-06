@@ -7,9 +7,9 @@ feature: Schermen beheren
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 60922dfe062e3b0c8b4385833d8f19a5e1d38a6e
+source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ De volgende pagina verstrekt de richtlijnen voor het vormen verzender voor een p
 Voordat u een dispatcher configureert voor een AEM Screens-project, moet u vooraf op de hoogte zijn van Dispatcher.
 Raadpleeg [Dispatcher configureren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) voor meer informatie.
 
-## Dispatcher configureren {#configuring-dispatcher}
+## Dispatcher configureren voor manifestversie v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
 >De volgende Dispatcher-configuraties zijn alleen van toepassing op Manifest-versie v2. Raadpleeg [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) for manifest version v3.
