@@ -7,9 +7,9 @@ feature: Schermen beheren
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
+source-git-commit: 0d341b5d370654e9b1f56ca3afbc2a075cc85188
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 2%
 
 ---
@@ -25,8 +25,6 @@ De volgende pagina verstrekt de richtlijnen voor het vormen verzender voor een p
 >Als een verzender beschikbaar is, kunnen verbindingen met de registratieserver worden verhinderd door in de verzeneringsregels te filtreren.
 >
 >Als er geen verzender is, maak de registratieserver in de OSGi componentenlijst onbruikbaar.
-
-## Voorwaarden {#prerequisites}
 
 Voordat u een dispatcher configureert voor een AEM Screens-project, moet u vooraf op de hoogte zijn van Dispatcher.
 Raadpleeg [Dispatcher configureren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) voor meer informatie.
