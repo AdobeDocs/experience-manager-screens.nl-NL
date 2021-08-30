@@ -13,7 +13,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -90,13 +90,12 @@ Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens to
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Het kanaal toewijzen aan een weergave
+1. Wijs het kanaal toe aan een weergave.
 
    >[!NOTE]
    >Voeg de gebruikersinteractiegebeurtenis toe wanneer u het kanaal toewijst aan de weergave.
 
-1. 
-   1. Registreer een speler tegen dit project en wijs het aan de vertoning toe. U moet nu uw interactieve toepassing kunnen zien uitvoeren op AEM Screens.
+1. Registreer een speler tegen dit project en wijs het aan de vertoning toe. U moet nu uw interactieve toepassing kunnen zien uitvoeren op AEM Screens.
 
    Raadpleeg [Apparaatregistratie](device-registration.md) voor meer informatie over het registreren van een apparaat.
 
