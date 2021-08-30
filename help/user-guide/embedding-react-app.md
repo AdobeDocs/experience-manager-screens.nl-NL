@@ -1,30 +1,30 @@
 ---
 title: Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics
-seo-title: Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics
+seo-title: Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics
 description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Angular) gebruikend de redacteur van de SPA van de AEM die door bedrijfsberoeps in AEM kunnen worden gevormd en ook hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
-seo-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Angular) gebruikend de redacteur van de SPA van de AEM die door bedrijfsberoeps in AEM kunnen worden gevormd en ook hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
+seo-description: Follow this page to learn how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
 uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: e4ecc179-e421-4687-854c-14d31bed031d
 docset: aem65
-feature: Schermen ontwikkelen
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
-
 
 # Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
 In deze sectie wordt beschreven hoe u een interactieve toepassing van één pagina insluit met REACT (of Angular) met behulp van de AEM SPA-editor die door professionals in AEM kan worden geconfigureerd en hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
 
-## De AEM SPA-editor {#using-the-aem-spa-editor} gebruiken
+## De AEM SPA Editor gebruiken {#using-the-aem-spa-editor}
 
 Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
 
@@ -67,14 +67,12 @@ Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens to
 
 1. Maak een nieuw AEM Screens-project. Raadpleeg [Projecten maken en beheren](creating-a-screens-project.md) voor meer informatie.
 
+1. Creeer nieuw **het Kanaal van de Toepassing** (bij voorkeur) (of 1x1 malplaatje, of multi-zone kanaal) in **Kanalen** omslag van uw project van het Scherm.
+
    >[!NOTE]
-   >
-   >Creeer een **Kanaal van de Opeenvolging** terwijl het creëren van een kanaal in **de omslag van Kanalen** van uw project van het Scherm.
-   >
-   >
+   >**De** Kanalen van de opeenvolging worden ontmoedigd voor dit gebruiksgeval aangezien zij inherent met een diapresentatielogica komen die met de interactieve aard van de ervaring zal strijdig zijn
    >Raadpleeg [Kanalen maken en beheren](managing-channels.md) voor meer informatie.
 
-   ![screen_shot_2019-02-15at100330am](assets/screen_shot_2019-02-15at100330am.png)
 
 1. Bewerk een willekeurig volgnummer en sleep en zet een ingesloten pagina-component neer.
 
@@ -84,15 +82,21 @@ Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens to
    >
    >Voeg de gebruikersinteractiegebeurtenis toe wanneer u het kanaal toewijst aan de weergave.
 
-1. Klik **Bewerken** van de actiebar om de eigenschappen van het opeenvolgingskanaal uit te geven.
+1. Klik op **Bewerken** op de actiebalk om de eigenschappen van het kanaal te bewerken.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Sleep de component **Ingesloten pagina** en selecteer de startpagina onder de mijnvoorbeeldtoepassing, bijvoorbeeld ***/content/mysamplespa/nl/home***.
+1. Sleep de component **Ingesloten pagina** of hergebruik de bestaande component in een toepassingskanaal en selecteer de startpagina onder de mijnvoorbeeldtoepassing, bijvoorbeeld ***/content/mysamplespa/nl/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
-1. Registreer een speler tegen dit project en u moet nu uw interactieve toepassing kunnen zien die op AEM Screens wordt uitgevoerd.
+1. Het kanaal toewijzen aan een weergave
+
+   >[!NOTE]
+   >Voeg de gebruikersinteractiegebeurtenis toe wanneer u het kanaal toewijst aan de weergave.
+
+1. 
+   1. Registreer een speler tegen dit project en wijs het aan de vertoning toe. U moet nu uw interactieve toepassing kunnen zien uitvoeren op AEM Screens.
 
    Raadpleeg [Apparaatregistratie](device-registration.md) voor meer informatie over het registreren van een apparaat.
 
@@ -138,4 +142,3 @@ Volg de onderstaande stappen om de SPA met Adobe Analytics te integreren met off
    >[!NOTE]
    >
    >De spelerfirmware voegt automatisch meer informatie over de speler en de bijbehorende runtimeomgeving toe aan de aangepaste analysegegevens die u verzendt. Daarom hoeft u wellicht geen informatie op laag niveau over het besturingssysteem en het apparaat op te nemen, tenzij dit absoluut noodzakelijk is. U hoeft zich alleen te richten op de bedrijfsanalysegegevens.
-

@@ -1,20 +1,18 @@
 ---
 title: Veelgestelde vragen over AEM Screens
-seo-title: Veelgestelde vragen over AEM Screens
+seo-title: AEM Screens FAQs
 description: Volg deze pagina om antwoorden te krijgen op veelgestelde vragen over een AEM Screens-project.
-seo-description: Volg deze pagina om antwoorden te krijgen op veelgestelde vragen over een AEM Screens-project.
-uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
-contentOwner: jsyal
-feature: Digitale handtekening, inhoud
+seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
+feature: Digital Signage, Content
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1872'
 ht-degree: 0%
 
 ---
-
 
 # Veelgestelde vragen over AEM Screens {#aem-screens-faqs}
 
@@ -84,7 +82,7 @@ Het wordt aanbevolen de apparaat-id op te halen uit de sessie in plaats van deze
 
 ### 3. Is er een manier om een verzoek tot registratie van een apparaat af te wijzen? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Je kunt de registratieaanvragen niet afwijzen. In plaats daarvan zouden de registratieverzoeken na een onderbreking moeten verlopen die in [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl) wordt gevormd. Deze waarde wordt standaard ingesteld op één dag en wordt opgeslagen in een geheugencache.
+Je kunt de registratieaanvragen niet afwijzen. In plaats daarvan zouden de registratieverzoeken na een onderbreking moeten verlopen die in `Adobe Experience Manager Web Console` wordt gevormd. Deze waarde wordt standaard ingesteld op één dag en wordt opgeslagen in een geheugencache.
 
 ## Apparaatbewaking en statusrapporten {#device-monitoring-and-health-reports}
 
@@ -152,7 +150,7 @@ Voer de onderstaande stappen uit om Op een Android-speler actief blijven in te s
 
 Er is geen venstermodus in Windows Player. Dit is altijd de modus Volledig scherm.
 
-### 5. Hoe problemen op te lossen als een speler van AEM Screens onophoudelijk login verzoeken verzendt?{#requests-login}
+### 5. Hoe kan ik problemen oplossen als een AEM Screens-speler voortdurend aanmeldingsaanvragen verzendt?{#requests-login}
 
 Voer de onderstaande stappen uit om een AEM Screens-speler problemen op te lossen die continu aanvragen verzendt naar `/content/screens/svc.json` en `/libs/granite/core/content/login.validate/j_security_check`:
 
@@ -186,7 +184,7 @@ U kunt de details van de weergave en het apparaat ophalen via:
          ContextHub.getStore('screens-channels');
       ```
 
-## Algemene tips voor het oplossen van problemen {#general-troubleshooting-tips}
+## Algemene tips voor probleemoplossing {#general-troubleshooting-tips}
 
 ### 1. Hoe te om Livefyre onbruikbaar te maken om Fout A/P van de Schermen te vermijden? {#how-to-disable-livefyre-to-avoid-a-p-screens-error}
 
@@ -210,5 +208,3 @@ AEM Screens maakt indexdefinities voor de query&#39;s die door het product worde
 Als er *Vraag Traversal WARNs* in `error.log` zijn, creeer een douaneindex voor uw vraag. Raadpleeg [Indexen configureren](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) voor meer informatie.
 
 U kunt ook naar een extra bron verwijzen op [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
-
-
