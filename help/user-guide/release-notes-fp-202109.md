@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ Zie Basic Playback Monitoring voor meer informatie.
 
 * **Updates voor Rapport voor toewijzing van inhoud**
 
+* **Ondersteuning voor V3-manifest**
+
+   U kunt Dispatcher nu configureren voor Manifest Version v3. Raadpleeg [Dispatcher configureren voor manifestversie v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) voor meer informatie.
+Bovendien, als u douanecomponenten als deel van v3 manifests gebruikt, zie [Malplaatje voor de Handlers van de Douane](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Opgeloste problemen {#bug-fixes}
