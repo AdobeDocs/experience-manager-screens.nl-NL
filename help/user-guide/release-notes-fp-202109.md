@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Zie Ondersteuning miniaturen voor video&#39;s voor meer informatie.
 Zie Basic Playback Monitoring voor meer informatie.
 
 * **Updates voor Rapport voor toewijzing van inhoud**
+
+   Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij verbeterde gebruikerservaring. In het downloadbare rapport worden verbeterde entiteiten met betrekking tot de speler, zoals locaties, weergaven en apparaten, op één spreadsheettabblad weergegeven en wordt informatie over de inhoudsprovider weergegeven, zoals kanalen en elementen op een ander tabblad.
 
 * **Ondersteuning voor V3-manifest**
 
