@@ -1,11 +1,11 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202109
-description: '"Volg deze pagina voor meer informatie over het AEM Screens Feature Pack 202105, uitgebracht op 22 september 2021."'
+description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 202105, uitgebracht op 23 september 2021.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -25,7 +25,7 @@ U kunt het recentste eigenschappak voor AEM Screens 6.5.9 Versie van [het Portaa
 
 ## Releasedatum {#release-date}
 
-De releasedatum voor AEM Screens Feature Pack 202109 is 9 september 2021.
+De releasedatum voor AEM Screens Feature Pack 202109 is 23 september 2021.
 
 ### Wat is er nieuw? {#what-is-new}
 
