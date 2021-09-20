@@ -2,7 +2,7 @@
 title: Ondersteuning voor miniaturen voor video's in AEM Screens
 description: In deze pagina wordt beschreven hoe u ondersteuning voor miniaturen voor video's in schermen kunt toevoegen.
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -31,7 +31,6 @@ Dankzij de ondersteuning voor miniaturen kunt u:
 Voer de onderstaande stappen uit om miniaturen in video&#39;s te gebruiken:
 
 1. Navigeer naar een bestaand rasterkanaal of maak een nieuw kanaal.
-
 
 1. Selecteer het kanaal en klik op **Edit** van de actiebar om de redacteur te openen.
 
