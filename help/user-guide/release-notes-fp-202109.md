@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,85 @@ Bovendien, als u douanecomponenten als deel van v3 manifests gebruikt, zie [Malp
 
 ### Opgeloste problemen {#bug-fixes}
 
+**Player-zijde**
+
+* Fouten met het in cache plaatsen van bestanden zijn opgelost door elementen te vervangen door uitvoeringen.
+
+* De spelers stellen nu alleen elementen van uitvoeringen beschikbaar als er renditie-toewijzing is.
+
+* U kunt nu slack-waarschuwingen instellen op basis van splunklogboeken.
+
+* Verbeteren pingel om opnieuw voor authentiek te verklaren als de reactie ongeldig JSON is.
+
+* Numerieke kanaalnamen/rollen hebben een leeg scherm veroorzaakt.
+
+* Download geoptimaliseerde uitvoeringen via SmartSync.
+
+* Transformeer de toewijzing in een lijst met vertoningssleutels.
+
+* Verwijder toegang tot cmd.exe en reg.exe in de venstersspeler.
+
+* Beperk csrf symbolische vraag.
+
+* Een speler moet de laatste geslaagde afspeelgebeurtenis melden.
+
+* Een speler moet de afspeelstatus melden.
+
+* De speler herdownloadt geen Middelen wanneer `ALL` Geheime voorgeheugen wordt ontruimd.
+
+* Als Player-beheerder kunt u nu een spelernaam kiezen.
+
+* Het verwijderen van kanaaltoewijzing uit de weergave wordt niet weerspiegeld in de speler.
+
+* Als de speler opnieuw wordt geladen terwijl de kanaalupdate wordt gedownload, negeert de speler de update.
+
+* De component Embedded Page respecteert aanraakgebeurtenis niet.
+
+* Externe provisioning van Tizen Player wordt nu ondersteund.
+
+**Server-zijde**
+
+* Doelvideo wordt niet weergegeven
+* Voorwaarde bij het uitzenden van weergavegegevens verschuiven naar volgende waarden.
+
+* Kanaalvoorvertoning werkt niet voor kanalen met video&#39;s.
+
+* De modus Voorvertoning is leeg voor het gesplitste schermkanaal.
+
+* Videominiaturen worden leeg gerenderd met ingeschakelde adaptieve uitvoeringen.
+
+* Kanaalmanifest automatisch bijwerken als de pagina waarnaar wordt verwezen, wordt gepubliceerd.
+
+* Kanalen JSON bevat geen aangepaste kanalen (#942)
+
+* Verwijderde apparaten blokkeren nu de wachtrij voor schermreplicatie niet.
+
+* Manifest bevat geen doelinhoud of ingesloten sitepagina&#39;s.
+
+* Nieuwe kernafbeeldingscomponent die niet aan het kanaalmanifest is toegevoegd.
+
+* Het downloaden van geoptimaliseerde uitvoeringen via SmartSync wordt nu ondersteund.
+
+* Geoptimaliseerde uitvoering afspelen voor alle elementen.
+
+* Toegevoegde ondersteuning voor meerdere typen inhoudsproviders
+
+* De ingesloten strategie voor het afspelen van reeksen is verbroken en deze is nu opgelost.
+
+* Offline manifest die de verzoekparameter `wcmmode` voor HTML ingang gebruikt, die het oncacheable maakt.
+
+* Lege, dynamische ingesloten reeks leidt soms tot een leeg scherm.
+
+* Een speler moet de afspeelstatus melden.
+
+* Video wordt afgespeeld in `Tiny mode` en niet als video op volledig scherm op het apparaat.
+
+* OSGi-wachtwoorden zijn zichtbaar als platte tekst.
 
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
-De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigenschap 8:
+De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 9 van de Eigenschap:
 
 * ChromeOS
 * Windows
