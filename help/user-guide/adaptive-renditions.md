@@ -2,9 +2,9 @@
 title: Adaptieve uitvoeringen in AEM Screens
 description: Op deze pagina wordt beschreven hoe u Adaptieve uitvoeringen in AEM Screens kunt gebruiken.
 index: false
-source-git-commit: 0a870f337f69f3379abb15dac504ee8e8355bc98
+source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ De adaptieve Vertoningen staan de apparaten toe om automatisch de beste vertonin
 
 ## Doelstelling {#objective}
 
-Als AEM Screens Content Author kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudsvariaties hoeft te maken.
+Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. U moet de adaptieve uitvoeringen configureren voordat een inhoudsauteur deze functie in een AEM Screens-kanaal kan gebruiken.
 
 Als u dus een aantal verschillende apparaten hebt geïmplementeerd, kan het apparaat met deze functie automatisch de meest geschikte uitvoering van een element downloaden en afspelen op basis van de regels.
 
