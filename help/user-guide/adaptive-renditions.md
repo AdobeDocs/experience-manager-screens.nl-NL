@@ -1,15 +1,16 @@
 ---
 title: Adaptieve uitvoeringen in AEM Screens
-description: Op deze pagina wordt beschreven hoe u Adaptieve uitvoeringen in AEM Screens kunt gebruiken.
+description: Op deze pagina vindt u het overzicht van de architectuur en de configuraties voor adaptieve uitvoeringen in AEM Screens.
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
-# Aangepaste uitvoeringen {#adaptive-renditions}
+
+# Adaptieve uitvoeringen: Overzicht en configuraties van architectuur {#adaptive-renditions}
 
 ## Inleiding {#introduction}
 
@@ -59,12 +60,11 @@ Om de eigenschap toe te laten, voeg minstens één toewijzingsregel toe en zorg 
 
 ## Auteur instellen en publiceren {#setup-author-publish}
 
-Voer de onderstaande stappen uit om de auteur in te stellen en te publiceren:
+Overweeg de volgende aanbevelingen in Auteur en Publiceer voorafgaand aan het gebruiken van Aangepaste Vertoningen:
 
 * Uitvoeringstoewijzing moet handmatig worden herhaald.
 
 * Elementuitvoeringen worden niet standaard gerepliceerd. Alle relevante activa moeten handmatig worden gerepliceerd.
-
 
 ## Regels voor renderingstoewijzing toevoegen {#adding-rendition-mapping-rules}
 
@@ -90,4 +90,4 @@ Voer de onderstaande stappen uit om de auteur in te stellen en te publiceren:
 
 ## De volgende stappen {#next-steps}
 
-Nadat u de uitvoeringen hebt geüpload, kunt u nu Adaptieve uitvoeringen gebruiken in uw AEM Screens-kanalen.
+Nadat u de uitvoeringen hebt geüpload, kunt u nu Adaptieve uitvoeringen gebruiken in uw AEM Screens-kanalen. Zie Adaptieve uitvoeringen gebruiken voor meer informatie.

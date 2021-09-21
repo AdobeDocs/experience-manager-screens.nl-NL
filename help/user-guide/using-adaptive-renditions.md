@@ -2,10 +2,10 @@
 title: Adaptieve uitvoeringen gebruiken in AEM Screens
 description: Op deze pagina wordt beschreven hoe u Adaptieve uitvoeringen in AEM Screens kunt gebruiken.
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,13 @@ Als u dus een aantal verschillende apparaten hebt geïmplementeerd, kan het appa
 ## Vereisten {#pre-reqs}
 
 >[!IMPORTANT]
->Voordat u Adaptieve uitvoeringen gaat gebruiken, wordt u aangeraden om in een AEM Screens-kanaal te leren over het architecturale overzicht en de architecturale configuratie van deze functie. Zie Adaptieve uitvoeringen voor meer informatie.
+>Voordat u Adaptieve uitvoeringen gaat gebruiken, wordt u aangeraden om in een AEM Screens-kanaal te leren over het architecturale overzicht en de architecturale configuratie van deze functie. Zie Adaptieve uitvoeringen: Overzicht van architectuur en configuraties voor meer informatie.
 
-## Adaptieve uitvoeringen gebruiken {#using-adaptive-renditions}
+## Adaptieve uitvoeringen gebruiken in een AEM Screens-kanaal {#using-adaptive-renditions}
+
+Nadat u toewijzingsregels hebt toegevoegd en vertoningen hebt geüpload, kunt u nu Adaptieve uitvoeringen gebruiken voor uw elementen in een AEM Screens-kanaal.
+
+Voer de onderstaande stappen uit:
+
+
 
