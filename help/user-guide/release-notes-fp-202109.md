@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -59,17 +59,15 @@ Bovendien, als u douanecomponenten als deel van v3 manifests gebruikt, zie [Malp
 
 * U kunt nu slack-waarschuwingen instellen op basis van splunklogboeken.
 
-* Verbeteren pingel om opnieuw voor authentiek te verklaren als de reactie ongeldig JSON is.
+* Verbeterd pingelen om opnieuw voor authentiek te verklaren als de reactie ongeldig JSON is.
 
 * Numerieke kanaalnamen/rollen hebben een leeg scherm veroorzaakt.
 
 * Download geoptimaliseerde uitvoeringen via SmartSync.
 
-* Transformeer de toewijzing in een lijst met vertoningssleutels.
+* De toewijzing is omgezet in een lijst met vertoningssleutels.
 
-* Verwijder toegang tot cmd.exe en reg.exe in de venstersspeler.
-
-* Beperk csrf symbolische vraag.
+* Toegang tot `cmd.exe` en `reg.exe` in de vensterspeler is verwijderd.
 
 * Een speler moet de laatste geslaagde afspeelgebeurtenis melden.
 
@@ -83,7 +81,7 @@ Bovendien, als u douanecomponenten als deel van v3 manifests gebruikt, zie [Malp
 
 * Als de speler opnieuw wordt geladen terwijl de kanaalupdate wordt gedownload, negeert de speler de update.
 
-* De component Embedded Page respecteert aanraakgebeurtenis niet.
+* De component Ingesloten pagina respecteert nu de aanraakgebeurtenis.
 
 * Externe provisioning van Tizen Player wordt nu ondersteund.
 
@@ -100,13 +98,11 @@ Bovendien, als u douanecomponenten als deel van v3 manifests gebruikt, zie [Malp
 
 * Kanaalmanifest automatisch bijwerken als de pagina waarnaar wordt verwezen, wordt gepubliceerd.
 
-* Kanalen JSON bevat geen aangepaste kanalen (#942)
-
 * Verwijderde apparaten blokkeren nu de wachtrij voor schermreplicatie niet.
 
-* Manifest bevat geen doelinhoud of ingesloten sitepagina&#39;s.
+* Manifest bevatte geen doelinhoud of ingesloten sitepagina&#39;s. Dit is nu opgelost.
 
-* Nieuwe kernafbeeldingscomponent die niet aan het kanaalmanifest is toegevoegd.
+* De nieuwe component van het kernbeeld wordt nu toegevoegd aan kanaalmanifest.
 
 * Het downloaden van geoptimaliseerde uitvoeringen via SmartSync wordt nu ondersteund.
 
@@ -118,14 +114,11 @@ Bovendien, als u douanecomponenten als deel van v3 manifests gebruikt, zie [Malp
 
 * Offline manifest die de verzoekparameter `wcmmode` voor HTML ingang gebruikt, die het oncacheable maakt.
 
-* Lege, dynamische ingesloten reeks leidt soms tot een leeg scherm.
+* Lege, dynamische ingesloten reeks heeft soms een leeg scherm veroorzaakt.
 
-* Een speler moet de afspeelstatus melden.
+* Speler meldt nu zijn playbackstatus.
 
-* Video wordt afgespeeld in `Tiny mode` en niet als video op volledig scherm op het apparaat.
-
-* OSGi-wachtwoorden zijn zichtbaar als platte tekst.
-
+* Video werd afgespeeld in `Tiny mode` en niet als video op volledig scherm op apparaat en het probleem is nu opgelost.
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
