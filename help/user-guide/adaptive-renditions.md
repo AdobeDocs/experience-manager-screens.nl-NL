@@ -2,7 +2,7 @@
 title: Adaptieve uitvoeringen in AEM Screens
 description: Op deze pagina vindt u het overzicht van de architectuur en de configuraties voor adaptieve uitvoeringen in AEM Screens.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Aangepaste uitvoeringen zijn gebaseerd op het idee dat meerdere elementuitvoerin
 
 ## De instelling configureren voor het gebruik van adaptieve uitvoeringen {#setup-adaptive-renditions}
 
-Om de Aangepaste eigenschap van Uitvoeringen toe te laten, zouden de toewijzingsregels aanwezig moeten zijn en de configuratie van CA oplosbaar voor kanalen en vertoningen:
+Om de Aangepaste eigenschap van Uitvoeringen toe te laten, zouden de toewijzingsregels aanwezig moeten zijn en de Context-Aware Configuratie oplosbaar voor kanalen en vertoningen:
 
 1. Controleer of de configuratie van de vertoningstoewijzing bestaat in `JCR`. Alle recentste eigenschapspakketten hebben deze knoopstructuur vooraf bevolkt.
 
