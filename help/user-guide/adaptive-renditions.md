@@ -2,10 +2,10 @@
 title: Adaptieve uitvoeringen in AEM Screens
 description: Op deze pagina vindt u het overzicht van de architectuur en de configuraties voor adaptieve uitvoeringen in AEM Screens.
 index: false
-source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
+source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,12 @@ Aangepaste uitvoeringen zijn gebaseerd op het idee dat meerdere elementuitvoerin
 
 ## De instelling configureren voor het gebruik van adaptieve uitvoeringen {#setup-adaptive-renditions}
 
-Om de Aangepaste eigenschap van Uitvoeringen toe te laten, zouden de toewijzingsregels aanwezig moeten zijn en de Context-Aware Configuratie oplosbaar voor kanalen en vertoningen:
+Om de Aangepaste eigenschap van Uitvoeringen toe te laten, zouden de toewijzingsregels aanwezig moeten zijn en de context-Aware (CA) Configuratie oplosbaar voor kanalen en vertoningen.
+
+>[!NOTE]
+>Voor meer informatie over Inhoud-Aware Configuraties, zie [hier](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+
+Voer de onderstaande stappen uit om de installatie te configureren:
 
 1. Controleer of de configuratie van de vertoningstoewijzing bestaat in `JCR`. Alle recentste eigenschapspakketten hebben deze knoopstructuur vooraf bevolkt.
 
@@ -74,4 +79,4 @@ Overweeg de volgende aanbevelingen in Auteur en Publiceer voorafgaand aan het ge
 
 ## De volgende stappen {#next-steps}
 
-Nadat u de uitvoeringen hebt geconfigureerd en geüpload, kunt u als inhoudsauteur nu Adaptieve uitvoeringen gebruiken en ook uw apparaten migreren om deze functie toe te passen, op uw AEM Screens-kanalen. Zie [Aangepaste uitvoeringen gebruiken](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
+Nadat u de uitvoeringen hebt geconfigureerd en geüpload, kunt u als inhoudsauteur nu Adaptieve uitvoeringen gebruiken en ook uw apparaten migreren voor grote netwerken om deze functie te gebruiken, in uw AEM Screens-kanalen. Zie [Aangepaste uitvoeringen gebruiken](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
