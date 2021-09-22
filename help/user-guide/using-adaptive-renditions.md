@@ -2,10 +2,10 @@
 title: Adaptieve uitvoeringen gebruiken in AEM Screens
 description: Op deze pagina wordt beschreven hoe u Adaptieve uitvoeringen in AEM Screens kunt gebruiken.
 index: false
-source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
+source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 3%
+source-wordcount: '376'
+ht-degree: 0%
 
 ---
 
@@ -21,16 +21,39 @@ Als AEM Screens Content Author kunt u nu apparaatspecifieke elementuitvoeringen 
 
 Als u dus een aantal verschillende apparaten hebt geïmplementeerd, kan het apparaat met deze functie automatisch de meest geschikte uitvoering van een element downloaden en afspelen op basis van de regels.
 
-## Vereisten {#pre-reqs}
-
 >[!IMPORTANT]
 >Voordat u Adaptieve uitvoeringen gaat gebruiken, wordt u aangeraden om in een AEM Screens-kanaal te leren over het architecturale overzicht en de architecturale configuratie van deze functie. Zie Adaptieve uitvoeringen: Overzicht van architectuur en configuraties voor meer informatie.
 
-## Adaptieve uitvoeringen gebruiken in een AEM Screens-kanaal {#using-adaptive-renditions}
+## Migratiestrategie {#migration-strategy}
 
-Nadat u toewijzingsregels hebt toegevoegd en vertoningen hebt geüpload, kunt u nu Adaptieve uitvoeringen gebruiken voor uw elementen in een AEM Screens-kanaal.
+>[!IMPORTANT]
+>Voor grote netwerken, adviseert men dat de migratie geleidelijk wordt gedaan om de risico&#39;s te verlichten aangezien de eigenschap veranderingen in manifest en dossieropslagformaat zal introduceren.
 
-Voer de onderstaande stappen uit:
+Het volgende diagram toont de migratiestrategie voor grote netwerken:
+
+![afbeelding](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
+
+Om de eigenschap toe te laten, voeg minstens één toewijzingsregel toe en zorg ervoor de configuratie van de vertoningstoewijzing in de context van vertoningen en kanalen oplosbaar is. Voer de volgende stappen uit om te migreren:
+
+1. Voeg [Regels voor vertoningstoewijzing](/help/user-guide/adaptive-renditions.md) toe.
+1. Maak een map voor nieuwe kanalen en voeg een verwijzing toe die naar de configuratie van de vertoningstoewijzing wijst.
+1. Maak nieuwe kanalen die de oude vervangen en upload uitvoeringen.
+1. Wijs vertoningen aan de nieuwe kanalen opnieuw toe.
+1. Voeg een verwijzing naar de gemigreerde vertoningen of plaatsen toe die bij de configuratie van de vertoningstoewijzing richten.
+1. Herhaal stap 3, 4 en 5 voor alle resterende kanalen en beeldschermen.
+
+   >[!NOTE]
+   >Na de voltooiing van de migratie, zorg ervoor om alle configuratieverwijzingen uit kanalen, vertoningen, en plaatsen te verwijderen en één aan de knoop van de projectinhoud toe te voegen.
 
 
+## Uitvoeringen uploaden en Adaptieve uitvoeringen gebruiken in een AEM Screens Channel {#upload-renditions}
 
+1. Maak een versie van het element die beter geschikt is voor de signaalweergave, bijvoorbeeld `portrait orientation`.
+
+1. Kies het naamgevingspatroon van de vertoning, bijvoorbeeld `portrait`.
+
+1. Wijzig de naam van het elementbestand zodat het het patroon bevat, bijvoorbeeld `my_asset_portrait.png`.
+
+1. Klik op **Vertoning toevoegen** om de vertoning te uploaden, zoals weergegeven in de onderstaande afbeelding.
+
+   ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
