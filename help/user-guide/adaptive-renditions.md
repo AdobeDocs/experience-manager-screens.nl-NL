@@ -2,7 +2,7 @@
 title: Adaptieve uitvoeringen in AEM Screens
 description: Op deze pagina vindt u het overzicht van de architectuur en de configuraties voor adaptieve uitvoeringen in AEM Screens.
 index: false
-source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -48,8 +48,6 @@ Om de Aangepaste eigenschap van Uitvoeringen toe te laten, zouden de toewijzings
    * In een oudere versie van de projecten van het Scherm, moet de vereniging uitdrukkelijk worden bepaald door `sling:configRef` bezit toe te voegen die bij `/conf/screens` aan de knoop van de projectinhoud richten.
 
       ![afbeelding](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
-
-
 
 ## Auteur instellen en publiceren {#setup-author-publish}
 

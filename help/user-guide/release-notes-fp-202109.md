@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,14 @@ Zie Basic Playback Monitoring voor meer informatie.
 * **Updates voor Rapport voor toewijzing van inhoud**
 
    Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij verbeterde gebruikerservaring. In het downloadbare rapport worden verbeterde entiteiten met betrekking tot de speler, zoals locaties, weergaven en apparaten, op één spreadsheettabblad weergegeven en wordt informatie over de inhoudsprovider weergegeven, zoals kanalen en elementen op een ander tabblad.
+
+* **Aangepaste uitvoeringen**
+
+   De adaptieve Vertoningen staan de apparaten toe om automatisch de beste vertoning voor een apparaat te selecteren dat op klant-bepaalde regels wordt gebaseerd.
+
+   Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Zie Adaptieve uitvoeringen: Overzicht van architectuur en configuraties voor meer informatie.
+
+   Bovendien kunt u als AEM Screens Content Author nu Adaptive Renditions gebruiken in uw AEM Screens-project en ook een migratiestrategie toepassen voor grote netwerken. Zie Adaptieve uitvoeringen gebruiken voor meer informatie.
 
 * **Ondersteuning voor V3-manifest**
 
