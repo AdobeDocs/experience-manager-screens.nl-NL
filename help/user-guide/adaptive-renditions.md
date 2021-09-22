@@ -2,9 +2,9 @@
 title: Adaptieve uitvoeringen in AEM Screens
 description: Op deze pagina vindt u het overzicht van de architectuur en de configuraties voor adaptieve uitvoeringen in AEM Screens.
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
@@ -74,4 +74,4 @@ Overweeg de volgende aanbevelingen in Auteur en Publiceer voorafgaand aan het ge
 
 ## De volgende stappen {#next-steps}
 
-Nadat u de uitvoeringen hebt geconfigureerd en geüpload, kunt u nu Adaptieve uitvoeringen gebruiken in uw AEM Screens-kanalen. Zie Adaptieve uitvoeringen gebruiken voor meer informatie.
+Nadat u de uitvoeringen hebt geconfigureerd en geüpload, kunt u als inhoudsauteur nu Adaptieve uitvoeringen gebruiken en ook uw apparaten migreren om deze functie toe te passen, op uw AEM Screens-kanalen. Zie [Aangepaste uitvoeringen gebruiken](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
