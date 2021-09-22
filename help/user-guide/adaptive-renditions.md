@@ -2,10 +2,10 @@
 title: Adaptieve uitvoeringen in AEM Screens
 description: Op deze pagina vindt u het overzicht van de architectuur en de configuraties voor adaptieve uitvoeringen in AEM Screens.
 index: false
-source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
+source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 1%
+source-wordcount: '552'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ De mogelijkheid om een gekoppeld naampatroon voor de uitvoering te hebben, defin
 
 ![afbeelding](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## De instelling configureren voor het gebruik van adaptieve uitvoeringen {#setup-adaptive-renditions}
+## Eigenschap voor renderingstoewijzing toevoegen aan het schermproject {#rendition-mapping-new}
 
 Om de Aangepaste eigenschap van Uitvoeringen toe te laten, zouden de volgende toewijzingsregels aanwezig moeten zijn en de Context-Aware (CA) Configuratie zou voor kanalen en vertoningen moeten oplosbaar zijn.
 
@@ -37,22 +37,22 @@ Om de Aangepaste eigenschap van Uitvoeringen toe te laten, zouden de volgende to
 
 Voer de onderstaande stappen uit om de installatie te configureren:
 
-1. Navigeer naar **CRXDE Lite**. Controleer of de **rendition-mapping**-configuratie bestaat in `JCR`, zoals in de onderstaande afbeelding wordt getoond.
+1. Navigeer naar **CRXDE Lite**. Controleer of de **rendition-mapping**-configuratie bestaat in `/conf/screens/sling:configs/rendition-mapping`, zoals in de onderstaande afbeelding wordt getoond.
 
-   >[!NOTE]
-   >Alle recentste eigenschapspakketten hebben deze knoopstructuur vooraf bevolkt.
+   >![afbeelding](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![afbeelding](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >Als u het recentste Pak 202109 van de Eigenschap installeerde, zult u **rendition-mapping** knoopstructuur vooraf bevolkt in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite zien. Zie [Opmerkingen bij de release voor Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) voor meer informatie over het nieuwste functiepakket.
+   >Voor bestaande projecten, zorg ervoor dat het project van Schermen **rendition-mapping** bijbehorende configuratie heeft. Zie [Toewijzing van de Vertoning aan een Bestaand project](#rendition-mapping-existing) sectie toevoegen om meer te leren.
 
-1. Zorg ervoor dat aan het project Screens de configuratie van de vertoningstoewijzing is gekoppeld.
+### Eigenschap voor renderingstoewijzing toevoegen aan een bestaand project {#rendition-mapping-existing}
 
-   * Elk nieuw project dat met de het projecttovenaar van de Schermen wordt gecreeerd zal een verwijzing bevatten die naar **vertoning-afbeelding** configuratie richt.
+1. Navigeer naar **CRXDE Lite**.
 
-      ![afbeelding](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. Definieer expliciet de koppeling naar de uitvoeringstoewijzing door `sling:configRef`-eigenschap toe te voegen die `/conf/screens` aanwijst naar het knooppunt met de projectinhoud, zoals in de onderstaande afbeelding wordt getoond.
 
-   * In een oudere versie van de projecten van het Scherm, moet u de vereniging uitdrukkelijk bepalen door `sling:configRef` bezit toe te voegen richtend bij `/conf/screens` aan de knoop van de projectinhoud.
+   ![afbeelding](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![afbeelding](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## Auteur instellen en publiceren {#setup-author-publish}
 
