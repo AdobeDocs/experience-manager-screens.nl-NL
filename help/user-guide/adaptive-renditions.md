@@ -2,9 +2,9 @@
 title: Adaptieve uitvoeringen in AEM Screens
 description: Op deze pagina vindt u het overzicht van de architectuur en de configuraties voor adaptieve uitvoeringen in AEM Screens.
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -86,9 +86,10 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. Voeg de patrooneigenschap toe met de waarde die het weergavematroon bevat.
 
-
-1. Voeg de patrooneigenschap toe met de waarde die het weergavematroon bevat dat wordt geselecteerd als de expressie wordt geëvalueerd op true.
+   >[!NOTE]
+   >De waarde die in de patrooneigenschap is gedefinieerd, wordt aangepast aan de nieuwe elementuitvoering en wordt geselecteerd als de expressie wordt geëvalueerd op true.
 
    Als u de patrooneigenschap wilt toevoegen, klikt u op **rule1** die u hebt gemaakt en voert u **pattern** in **Name** en **landscape** in **Value** in, zoals hieronder wordt weergegeven. Klik op **Add**.
 
