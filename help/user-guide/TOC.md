@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens Help
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarmee u dynamische en interactieve digitale ervaringen en interacties kunt publiceren.
 feature-set: Experience Manager Screens
-source-git-commit: 21bb9194d470bc4842a00e20ab3e3d7f517effed
+source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 1%
    + [Overstappen van ContentSync naar SmartSync](smartsync.md)
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
    + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
+   + [Ondersteuning van miniaturen voor video&#39;s](thumbnail-support.md)
    + Specifieke overwegingen voor klanten {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Chrome Player gebruiken als extensie voor het oplossen van problemen](using-chrome-player-as-an-extension.md)
