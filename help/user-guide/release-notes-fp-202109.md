@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 375024848ed736104add828251ea494406a4f7ba
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -32,24 +32,25 @@ De releasedatum voor AEM Screens Feature Pack 202109 is 23 september 2021.
 * **Ondersteuning van miniaturen voor video&#39;s**
 
    Ondersteuning voor miniaturen voor video&#39;s die nu worden ondersteund in AEM Screens. Een inhoudauteur kan een duimnagel voor video&#39;s bepalen zodat het beeld als placeholder kan worden gebruikt en behoorlijk het playback en richten van inhoud testen, terwijl de daadwerkelijke video door het aangewezen team wordt gebeëindigd. De afbeelding kan ook worden gebruikt voor het geval dat het afspelen van de video mislukt.
-Zie Ondersteuning miniaturen voor video&#39;s voor meer informatie.
+Zie [Ondersteuning van miniaturen voor video&#39;s](/help/user-guide/thumbnail-support.md) voor meer informatie.
 
 * **Standaardafspeelcontrole**
 
    AEM Screens ondersteunt nu elementaire afspeelcontrole. De speler zal nu diverse playbackmetriek met elk melden pingelt (gebrek aan 30 seconden). Op basis van de meetgegevens kunnen verschillende randgevallen worden gedetecteerd (geplakte ervaring, leeg scherm, planningsprobleem, enz.). Met deze functie kan het team op afstand controleren of een speler inhoud correct afspeelt, de reactiviteit verbetert tot lege schermen of gebroken ervaringen in het veld en het risico dat de eindgebruiker een verbroken ervaring krijgt verkleind.
-Zie Basic Playback Monitoring voor meer informatie.
+Zie [Basic Playback Monitoring](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) voor meer informatie.
 
 * **Updates voor Rapport voor toewijzing van inhoud**
 
    Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij verbeterde gebruikerservaring. In het downloadbare rapport worden verbeterde entiteiten met betrekking tot de speler, zoals locaties, weergaven en apparaten, op één spreadsheettabblad weergegeven en wordt informatie over de inhoudsprovider weergegeven, zoals kanalen en elementen op een ander tabblad.
+Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie.
 
 * **Aangepaste uitvoeringen**
 
    De adaptieve Vertoningen staan de apparaten toe om automatisch de beste vertoning voor een apparaat te selecteren dat op klant-bepaalde regels wordt gebaseerd.
 
-   Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Zie Adaptieve uitvoeringen: Overzicht van architectuur en configuraties voor meer informatie.
+   Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken.
 
-   Bovendien kunt u als AEM Screens Content Author nu Adaptive Renditions gebruiken in uw AEM Screens-project en ook een migratiestrategie toepassen voor grote netwerken. Zie Adaptieve uitvoeringen gebruiken voor meer informatie.
+   Bovendien kunt u als AEM Screens Content Author nu Adaptive Renditions gebruiken in uw AEM Screens-project en ook een migratiestrategie toepassen voor grote netwerken.
 
 * **Ondersteuning voor V3-manifest**
 
