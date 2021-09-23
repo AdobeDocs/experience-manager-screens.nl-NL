@@ -2,10 +2,10 @@
 title: Adaptieve uitvoeringen in AEM Screens
 description: Op deze pagina vindt u het overzicht van de architectuur en de configuraties voor adaptieve uitvoeringen in AEM Screens.
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 0%
+source-wordcount: '671'
+ht-degree: 1%
 
 ---
 
@@ -64,16 +64,39 @@ Overweeg de volgende aanbevelingen in Auteur en Publiceer voorafgaand aan het ge
 
 ## Regels voor renderingstoewijzing toevoegen {#add-rendition-mapping-rules}
 
-1. Als u een toewijzingsregel wilt toevoegen, moet u een knooppunt van het type `nt:unstructured` onder het knooppunt **rendition-mapping** maken.
+Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoeringstoewijzing:
 
-1. Voeg de expressie-eigenschap toe met de waarde die de query-expressie bevat.
+1. Navigeer naar dit pad `/conf/screens/sling:configs/rendition-mapping` van **CRXDE Lite**.
+
+1. Maak een knooppunt onder **rendition-mapping**. Klik met de rechtermuisknop op **rendition-mapping** en klik op **Create** —> **Create Node**, zoals in de onderstaande afbeelding wordt getoond.
+
+   ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. Voer de **Naam** voor uw toewijzingsregel in, zoals **rule1** en het knooppunt **Type** als **nt:unStructured** in het dialoogvenster **Node maken**. Klik op **OK**.
+
+   ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. U moet het uitdrukkingsbezit met de waarde toevoegen die de vraaguitdrukking bevat.
 
    >[!NOTE]
    >Raadpleeg [Mediaquerysyntaxis gebruiken](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) voor meer informatie.
 
+   Klik op **rule1** die u hebt gemaakt en voer **expression** in **Name** en **(orientation:landscape)** in **Value** in, zoals hieronder wordt getoond. Klik op **Add**.
+
+   ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. Voeg de patrooneigenschap toe met de waarde die het weergavematroon bevat dat wordt geselecteerd als de expressie wordt geëvalueerd op true.
 
-   ![afbeelding](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   Als u de patrooneigenschap wilt toevoegen, klikt u op **rule1** die u hebt gemaakt en voert u **pattern** in **Name** en **landscape** in **Value** in, zoals hieronder wordt weergegeven. Klik op **Add**.
+
+   ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. Klik op **Alles opslaan** en u ziet de eigenschappen onder het knooppunt dat u onder **rendition-mapping** hebt gemaakt.
+
+   ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## De volgende stappen {#next-steps}

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -65,8 +65,6 @@ Bovendien, als u douanecomponenten als deel van v3 manifests gebruikt, zie [Malp
 * Fouten met het in cache plaatsen van bestanden zijn opgelost door elementen te vervangen door uitvoeringen.
 
 * De spelers stellen nu alleen elementen van uitvoeringen beschikbaar als er renditie-toewijzing is.
-
-* U kunt nu slack-waarschuwingen instellen op basis van splunklogboeken.
 
 * Verbeterd pingelen om opnieuw voor authentiek te verklaren als de reactie ongeldig JSON is.
 
