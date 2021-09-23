@@ -2,9 +2,9 @@
 title: Adaptieve uitvoeringen in AEM Screens
 description: Op deze pagina vindt u het overzicht van de architectuur en de configuraties voor adaptieve uitvoeringen in AEM Screens.
 index: false
-source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
+source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '691'
 ht-degree: 1%
 
 ---
@@ -102,4 +102,4 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
 
 ## De volgende stappen {#next-steps}
 
-Nadat u de uitvoeringen hebt geconfigureerd en geüpload, kunt u als inhoudsauteur nu Adaptieve uitvoeringen gebruiken en ook uw apparaten migreren voor grote netwerken om deze functie te gebruiken, in uw AEM Screens-kanalen. Zie [Aangepaste uitvoeringen gebruiken](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
+Zodra u eigenschappen en regels van de vertoningsafbeelding van de vertoning hebt toegevoegd, nu als Inhoudsauteur, kunt u uw activa vormen om Aangepaste Vertoningen te gebruiken en ook uw apparaten voor grote netwerken migreren om deze eigenschap, in uw kanalen van AEM Screens te gebruiken. Zie [Aangepaste uitvoeringen gebruiken](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
