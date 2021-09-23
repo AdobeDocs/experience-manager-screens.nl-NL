@@ -1,11 +1,11 @@
 ---
 title: Ondersteuning voor miniaturen voor video's in AEM Screens
 description: In deze pagina wordt beschreven hoe u ondersteuning voor miniaturen voor video's in schermen kunt toevoegen.
-index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,23 @@ Voer de onderstaande stappen uit om miniaturen in video&#39;s te gebruiken:
 
 1. Selecteer het kanaal en klik op **Edit** van de actiebar om de redacteur te openen.
 
+   ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. Voeg of geef een bestaande videocomponent, zoals aangetoond in hieronder figuur toe uit.
+
+   ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. Selecteer de video en klik op het *moersleutelpictogram* om de video-eigenschappen te openen.
 
+   ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. Het dialoogvenster **Video** wordt geopend waar u de neerzetzone **Miniatuur** wilt weergeven.
 
+   ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. Sleep een afbeelding van de elementenkiezer naar de neerzetzone **Miniatuur** en klik op **Done**.
+
+   ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. Klik op **Voorvertoning**.
 

@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens Help
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarmee u dynamische en interactieve digitale ervaringen en interacties kunt publiceren.
 feature-set: Experience Manager Screens
-source-git-commit: a2a214964a2b2785bf9b57d7af4148e62d58245f
+source-git-commit: f710bb2004cac8e10bf6cd0e0ccde4f9d10120a6
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 1%
    + [Overstappen van ContentSync naar SmartSync](smartsync.md)
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
    + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
-   + [Ondersteuning van miniaturen voor video&#39;s](thumbnail-support.md)
    + Specifieke overwegingen voor klanten {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Chrome Player gebruiken als extensie voor het oplossen van problemen](using-chrome-player-as-an-extension.md)
@@ -82,6 +81,7 @@ ht-degree: 1%
       + [Authoring met gegevenstriggers](authoring-data-triggers.md)
       + [Spraakherkenning](voice-recognition.md)
       + [Rapport Inhoudstoewijzing](content-assignment-report.md)
+      + [Ondersteuning van miniaturen voor video&#39;s](thumbnail-support.md)
    + Updates van inhoud beheren {#content-updates}
       + [Update voor on-demand inhoud](on-demand-content.md)
       + [Inhoud als service-update](content-update-as-a-service.md)
@@ -105,11 +105,13 @@ ht-degree: 1%
    + [ContextHub configureren in AEM Screens](configuring-context-hub.md)
    + [Aangepaste sjablonen maken voor MultiZone-layouts](creating-custom-templates-multizone-layouts.md)
    + [Aangepaste branding en opmaak toepassen voor tekstbedekkingen](custom-branding-text-overlays.md)
+   + [Adaptieve uitvoeringen: Overzicht en configuraties van architectuur](/help/user-guide/adaptive-renditions.md)
 + Problemen oplossen en veelgestelde vragen {#troubleshooting}
    + [Veelgestelde vragen over AEM Screens](aem-screens-faqs.md)
    + [Problemen oplossen in Device Control Center](monitoring-screens.md)
    + [Configuratie videoweergave](troubleshoot-videos.md)
 + Releaseopmerkingen {#release-notes}
+   + [Opmerkingen bij de release voor Feature Pack 202109](release-notes-fp-202109.md)
    + [Opmerkingen bij de release voor Feature Pack 202105](release-notes-fp-202105.md)
    + [Opmerkingen bij de release voor Feature Pack 202103](release-notes-fp-202103.md)
    + [Opmerkingen bij de release voor Feature Pack 202011](release-notes-fp-202011.md)

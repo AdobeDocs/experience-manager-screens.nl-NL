@@ -1,10 +1,9 @@
 ---
-title: Adaptieve uitvoeringen in AEM Screens
-description: Op deze pagina vindt u het overzicht van de architectuur en de configuraties voor adaptieve uitvoeringen in AEM Screens.
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: Overzicht en configuraties van adaptieve uitvoeringen van architectuur
+description: Deze pagina beschrijft Overzicht van architectuur en Configuraties in CRXDE Lite voor Aangepaste Uitvoeringen in AEM Screens.
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -54,14 +53,6 @@ Voer de onderstaande stappen uit om de installatie te configureren:
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## Auteur instellen en publiceren {#setup-author-publish}
-
-Overweeg de volgende aanbevelingen in Auteur en Publiceer voorafgaand aan het gebruiken van Aangepaste Vertoningen:
-
-* Uitvoeringstoewijzing moet handmatig worden herhaald.
-
-* Elementuitvoeringen worden niet standaard gerepliceerd. Alle relevante activa moeten handmatig worden gerepliceerd.
-
 ## Regels voor renderingstoewijzing toevoegen {#add-rendition-mapping-rules}
 
 Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoeringstoewijzing:
@@ -102,4 +93,4 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
 
 ## De volgende stappen {#next-steps}
 
-Zodra u eigenschappen en regels van de vertoningsafbeelding van de vertoning hebt toegevoegd, nu als Inhoudsauteur, kunt u uw activa vormen om Aangepaste Vertoningen te gebruiken en ook uw apparaten voor grote netwerken migreren om deze eigenschap, in uw kanalen van AEM Screens te gebruiken. Zie [Aangepaste uitvoeringen gebruiken](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
+Zodra u eigenschappen en regels van de vertoningsafbeelding van de vertoning hebt toegevoegd, nu als Inhoudsauteur, kunt u uw activa vormen om Aangepaste Vertoningen te gebruiken en ook uw apparaten voor grote netwerken migreren om deze eigenschap, in uw kanalen van AEM Screens te gebruiken.

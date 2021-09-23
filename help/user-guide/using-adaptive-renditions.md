@@ -2,9 +2,9 @@
 title: Adaptieve uitvoeringen gebruiken in AEM Screens
 description: Op deze pagina wordt beschreven hoe u Adaptieve uitvoeringen in AEM Screens kunt gebruiken.
 index: false
-source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
+source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,6 @@ Om de eigenschap toe te laten, voeg minstens één toewijzingsregel toe en zorg 
 
    >[!NOTE]
    >Na de voltooiing van de migratie, zorg ervoor om alle configuratieverwijzingen uit kanalen, vertoningen, en plaatsen te verwijderen en één aan de knoop van de projectinhoud toe te voegen.
-
 
 ## Uitvoeringen uploaden en Adaptieve uitvoeringen gebruiken in een AEM Screens Channel {#upload-renditions}
 
