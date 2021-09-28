@@ -1,13 +1,13 @@
 ---
 title: Adaptieve uitvoeringen gebruiken in AEM Screens
 description: Op deze pagina wordt beschreven hoe u Adaptieve uitvoeringen in AEM Screens kunt gebruiken.
-index: false
-source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
+source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
+
 
 # Adaptieve uitvoeringen gebruiken in AEM Screens {#adaptive-renditions}
 
@@ -36,9 +36,9 @@ Voer de onderstaande stappen uit om vertoningen toe te passen op de elementen di
 
 1. Maak een versie van het element die beter geschikt is voor de signaalweergave, bijvoorbeeld `seahorse.jpg`.
 
-1. Kies bijvoorbeeld het weergavematroon,`landscape`, vergelijkbaar met wat is gedefinieerd in de patrooneigenschap in CRXDE Lite. Raadpleeg [Regels voor vertoningstoewijzing toevoegen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) voor meer informatie.
+1. Kies bijvoorbeeld het weergavematroon,`landscape`, vergelijkbaar met wat is gedefinieerd in **pattern**-eigenschap in **CRXDE Lite**. Raadpleeg [Regels voor vertoningstoewijzing toevoegen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) voor meer informatie.
 
-1. Wijzig de naam van het elementbestand zodat het het patroon bevat, bijvoorbeeld `seahorse_landscape.png`.
+1. Wijzig de naam van het elementbestand zodat het het patroon bevat (gedefinieerd in stap 3), bijvoorbeeld `seahorse_landscape.png`.
 
 1. Klik op **Vertoning toevoegen** om de vertoning te uploaden, zoals weergegeven in de onderstaande afbeelding.
 
