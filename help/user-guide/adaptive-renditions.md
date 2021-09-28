@@ -1,13 +1,13 @@
 ---
 title: Overzicht en configuraties van adaptieve uitvoeringen van architectuur
 description: Deze pagina beschrijft Overzicht van architectuur en Configuraties in CRXDE Lite voor Aangepaste Uitvoeringen in AEM Screens.
-source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
+exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
+source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
-
 
 # Adaptieve uitvoeringen: Overzicht en configuraties van architectuur {#adaptive-renditions}
 
@@ -93,4 +93,4 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
 
 ## De volgende stappen {#next-steps}
 
-Zodra u eigenschappen en regels van de vertoningsafbeelding van de vertoning hebt toegevoegd, nu als Inhoudsauteur, kunt u uw activa vormen om Aangepaste Vertoningen te gebruiken en ook uw apparaten voor grote netwerken migreren om deze eigenschap, in uw kanalen van AEM Screens te gebruiken.
+Zodra u eigenschappen en regels van de vertoningsafbeelding van de vertoning hebt toegevoegd, nu als Inhoudsauteur, kunt u uw activa vormen om Aangepaste Vertoningen te gebruiken en ook uw apparaten voor grote netwerken migreren om deze eigenschap, in uw kanalen van AEM Screens te gebruiken. Zie [Aangepaste uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
