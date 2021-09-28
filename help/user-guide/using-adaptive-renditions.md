@@ -2,9 +2,9 @@
 title: Adaptieve uitvoeringen gebruiken in AEM Screens
 description: Op deze pagina wordt beschreven hoe u Adaptieve uitvoeringen in AEM Screens kunt gebruiken.
 index: false
-source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
+source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,34 @@ Als AEM Screens Content Author kunt u nu apparaatspecifieke elementuitvoeringen 
 Als een ontwikkelaar de eigenschappen en regels voor de renditie-toewijzing heeft toegevoegd, kunt u de renditie-toewijzing nu toepassen op elementen en vervolgens de elementen in een AEM Screens-kanaal opnemen.
 
 >[!IMPORTANT]
->Voordat u Adaptieve uitvoeringen gaat gebruiken, wordt u aangeraden om in een AEM Screens-kanaal te leren over het architecturale overzicht en de architecturale configuratie van deze functie. Zie Adaptieve uitvoeringen: Overzicht van architectuur en configuraties voor meer informatie.
+>Voordat u Adaptieve uitvoeringen gaat gebruiken, wordt u aangeraden om in een AEM Screens-kanaal te leren over het architecturale overzicht en de architecturale configuratie van deze functie. Zie [Aangepaste uitvoeringen: Overzicht van architectuur en configuraties](/help/user-guide/adaptive-renditions.md) voor meer informatie.
+
+## Adaptieve uitvoeringen gebruiken in kanalen {#using-adaptive-renditions}
+
+>[!NOTE]
+>Nadat u [eigenschap voor vertoningstoewijzing voor uitvoering hebt toegevoegd aan het Schermproject](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) en [regels voor vertoningstoewijzing voor uitvoering](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), bent u nu klaar om de uitvoeringen toe te passen op uw elementen.
+
+### Vertoningen toepassen op elementen {#apply-renditions-assets}
+
+Voer de onderstaande stappen uit om vertoningen toe te passen op de elementen die u wilt gebruiken in het kanaal voor touroperrasters:
+
+1. Navigeer naar de map **Assets** in uw AEM.
+
+1. Maak een versie van het element die beter geschikt is voor de signaalweergave, bijvoorbeeld `seahorse.jpg`.
+
+1. Kies bijvoorbeeld het weergavematroon,`landscape`, vergelijkbaar met wat is gedefinieerd in de patrooneigenschap in CRXDE Lite. Raadpleeg [Regels voor vertoningstoewijzing toevoegen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) voor meer informatie.
+
+1. Wijzig de naam van het elementbestand zodat het het patroon bevat, bijvoorbeeld `seahorse_landscape.png`.
+
+1. Klik op **Vertoning toevoegen** om de vertoning te uploaden, zoals weergegeven in de onderstaande afbeelding.
+
+   ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
 
 ## Migratiestrategie {#migration-strategy}
 
 >[!IMPORTANT]
->Voor grote netwerken, adviseert men dat de migratie geleidelijk wordt gedaan om de risico&#39;s te verlichten aangezien de eigenschap veranderingen in manifest en dossieropslagformaat zal introduceren.
+>Voor grote netwerken, adviseert men dat de migratie geleidelijk wordt gedaan om de risico&#39;s te verlichten aangezien de eigenschap veranderingen in manifest en dossieropslagformaat zal introduceren. Als u `sling:configRef` toevoegt aan het hele project, moeten alle spelers zijn bijgewerkt naar Feature Pack 6.5.9. Als u een aantal spelers hebt bijgewerkt, hoeft u `sling:configRef` alleen toe te voegen aan die weergaven, locaties of kanaalmappen waarin alle spelers zijn bijgewerkt naar Feature Pack 6.5.9.
 
 Het volgende diagram toont de migratiestrategie voor grote netwerken:
 
@@ -44,14 +66,3 @@ Om de eigenschap toe te laten, voeg minstens één toewijzingsregel toe en zorg 
    >[!NOTE]
    >Na de voltooiing van de migratie, zorg ervoor om alle configuratieverwijzingen uit kanalen, vertoningen, en plaatsen te verwijderen en één aan de knoop van de projectinhoud toe te voegen.
 
-## Uitvoeringen uploaden en Adaptieve uitvoeringen gebruiken in een AEM Screens Channel {#upload-renditions}
-
-1. Maak een versie van het element die beter geschikt is voor de signaalweergave, bijvoorbeeld `portrait orientation`.
-
-1. Kies het naamgevingspatroon van de vertoning, bijvoorbeeld `portrait`.
-
-1. Wijzig de naam van het elementbestand zodat het het patroon bevat, bijvoorbeeld `my_asset_portrait.png`.
-
-1. Klik op **Vertoning toevoegen** om de vertoning te uploaden, zoals weergegeven in de onderstaande afbeelding.
-
-   ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
