@@ -1,8 +1,8 @@
 ---
 title: Inhoud bijwerken met Schermen starten
-seo-title: Inhoud bijwerken met Schermen starten
+seo-title: Content Update using Screens Launch
 description: Inhoudsauteurs kunnen een toekomstige versie van de kanalen maken, ook wel Launch genoemd, en als u de actieve datum voor deze lancering verder instelt, kan inhoud live worden weergegeven op apparaten of spelers.
-seo-description: Inhoudsauteurs kunnen een toekomstige versie van de kanalen maken, ook wel Launch genoemd, en als u de actieve datum voor deze lancering verder instelt, kan inhoud live worden weergegeven op apparaten of spelers.
+seo-description: Content authors can create future version of the channel(s), known as Launch and further setting live date for this launch allows content to be live in devices or players.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,20 +10,20 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
-feature: Ontwerpschermen, starten
+feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
 
 # Inhoud bijwerken met Schermen starten {#launches}
 
-Inhoudsauteurs kunnen een toekomstige versie van het kanaal of de kanalen maken, ook wel **Starten van schermen** genoemd, en de live datum voor deze lancering verder instellen. Hierdoor kan de inhoud live worden weergegeven in apparaten of spelers op de opgegeven live datum.
+Inhoudsauteurs kunnen een toekomstige versie van het kanaal of de kanalen maken, ook wel **Starten van schermen** genoemd, en de live datum voor deze lancering verder instellen. Hierdoor kan de inhoud live worden weergegeven op apparaten of spelers op de opgegeven live datum.
 
 Met behulp van ***Screens Launch***, kunnen de auteurs elk kanaal in de lancering voorproef en een verzoek tot overzicht in werking stellen. De groep van fiatteurs zal bericht krijgen en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
 
