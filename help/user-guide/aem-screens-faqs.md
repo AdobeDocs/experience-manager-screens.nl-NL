@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
+source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,17 @@ Voor *dynamische verwijzingen*, komt de resolutie voor zodra het kanaal aan de v
 1. De bovenliggende hoofdlocatie van de weergave heeft een onderliggende node die overeenkomt met de kanaalnaam waarnaar wordt verwezen
 
 En zo verder, tot u de plaatsingsomslag bereikt en daar tegenhoudt op het ogenblik (zodat kunt u niet naar een kanaal verwijzen dat in de kanaalomslag bijvoorbeeld, slechts kanalen in de plaatssubboom zou zijn).
+
+### 5. Hoe te opstelling de off-line configuratie van de Clib van de Douane in het Kanaal van AEM Screens?
+
+Wanneer u een geïntegreerde aangepaste client-side code `clientlib` in een AEM Screens-kanaal gebruikt, moeten de volgende stappen worden uitgevoerd om ervoor te zorgen dat de `clientlib`-bestanden met succes in het kanaal (`manifest.json`) worden geladen en het pad van `clientlib` bevatten.
+
+Voer de onderstaande stappen uit vanuit de kanaaleditor:
+
+1. Selecteer een kanaal en klik op **Edit** van de actiebar om de kanaalredacteur te openen.
+1. Selecteer de component waar u de aangepaste `clientlib` wilt toevoegen.
+1. Klik op de vormingsknoop (het moersleutelpictogram).
+1. Navigeer naar het **tabblad Offlineconfig** en voeg het pad toe aan uw aangepaste clientlib in **Client-side bibliotheken**.
 
 ## Apparaatregistratie {#device-registration}
 
