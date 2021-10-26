@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
+source-git-commit: 6433e586f505df889fef7ddb9ee5f530f5d6d46c
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 9 uitgebracht.
 
-U kunt het recentste eigenschappak voor AEM Screens 6.5.9 Versie van [het Portaal van de Distributie van de Software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer naar **Adobe Experience Manager** tab en zoek **Screens** om het nieuwste functiepakket met de naam **AEM 6.5 Screens FP9** te krijgen.
+U kunt het nieuwste functiepakket voor de AEM Screens 6.5.9-versie downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeren naar **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste functiepakket met de naam **AEM 6.5 Schermen FP9**.
 
 ## Releasedatum {#release-date}
 
@@ -32,30 +32,33 @@ De releasedatum voor AEM Screens Feature Pack 202109 is 23 september 2021.
 * **Ondersteuning van miniaturen voor video&#39;s**
 
    Ondersteuning voor miniaturen voor video&#39;s die nu worden ondersteund in AEM Screens. Een inhoudauteur kan een duimnagel voor video&#39;s bepalen zodat het beeld als placeholder kan worden gebruikt en behoorlijk het playback en richten van inhoud testen, terwijl de daadwerkelijke video door het aangewezen team wordt gebeëindigd. De afbeelding kan ook worden gebruikt voor het geval dat het afspelen van de video mislukt.
-Zie [Ondersteuning van miniaturen voor video&#39;s](/help/user-guide/thumbnail-support.md) voor meer informatie.
+Zie [Ondersteuning van miniaturen voor video&#39;s](/help/user-guide/thumbnail-support.md) voor meer informatie .
 
 * **Standaardafspeelcontrole**
 
    AEM Screens ondersteunt nu elementaire afspeelcontrole. De speler zal nu diverse playbackmetriek met elk melden pingelt (gebrek aan 30 seconden). Op basis van de meetgegevens kunnen verschillende randgevallen worden gedetecteerd (geplakte ervaring, leeg scherm, planningsprobleem, enz.). Met deze functie kan het team op afstand controleren of een speler inhoud correct afspeelt, de reactiviteit verbetert tot lege schermen of gebroken ervaringen in het veld en het risico dat de eindgebruiker een verbroken ervaring krijgt verkleind.
-Zie [Basic Playback Monitoring](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) voor meer informatie.
+Zie [Standaardafspeelcontrole](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) voor meer informatie .
 
 * **Updates voor Rapport voor toewijzing van inhoud**
 
    Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij verbeterde gebruikerservaring. In het downloadbare rapport worden verbeterde entiteiten met betrekking tot de speler, zoals locaties, weergaven en apparaten, op één spreadsheettabblad weergegeven en wordt informatie over de inhoudsprovider weergegeven, zoals kanalen en elementen op een ander tabblad.
-Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie.
+Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie .
 
 * **Aangepaste uitvoeringen**
 
    De adaptieve Vertoningen staan de apparaten toe om automatisch de beste vertoning voor een apparaat te selecteren dat op klant-bepaalde regels wordt gebaseerd.
 
-   Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Zie [Aangepaste uitvoeringen: Overzicht van architectuur en configuraties](/help/user-guide/adaptive-renditions.md) voor meer informatie.
+   Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Zie [Adaptieve uitvoeringen: Overzicht en configuraties van architectuur](/help/user-guide/adaptive-renditions.md) voor meer informatie .
 
-   Bovendien kunt u als AEM Screens Content Author uw middelen configureren voor het gebruik van Aangepaste uitvoeringen en tevens uw apparaten migreren voor grote netwerken om deze functie te gebruiken, in uw AEM Screens-kanalen. Zie [Aangepaste uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
+   Bovendien kunt u als AEM Screens Content Author uw middelen configureren voor het gebruik van Aangepaste uitvoeringen en tevens uw apparaten migreren voor grote netwerken om deze functie te gebruiken, in uw AEM Screens-kanalen. Zie [Adaptieve uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie .
 
 * **Ondersteuning voor V3-manifest**
 
-   U kunt Dispatcher nu configureren voor Manifest Version v3. Raadpleeg [Dispatcher configureren voor manifestversie v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) voor meer informatie.
-Bovendien, als u douanecomponenten als deel van v3 manifests gebruikt, zie [Malplaatje voor de Handlers van de Douane](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   U kunt Dispatcher nu configureren voor Manifest Version v3. Voor het inschakelen van v3 Manifest moet u het volgende configureren: * Update dispatcher * Update aangepaste component * Schakel ContentSync uit in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+* SmartSync inschakelen in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+
+   Zie [Dispatcher configureren voor manifestversie v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) voor meer informatie .
+Als u bovendien aangepaste componenten gebruikt als onderdeel van v3-manifesten, raadpleegt u [Sjabloon voor aangepaste handlers](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Opgeloste problemen {#bug-fixes}
@@ -74,13 +77,13 @@ Bovendien, als u douanecomponenten als deel van v3 manifests gebruikt, zie [Malp
 
 * De toewijzing is omgezet in een lijst met vertoningssleutels.
 
-* Toegang tot `cmd.exe` en `reg.exe` in de vensterspeler is verwijderd.
+* Verwijderde toegang tot `cmd.exe` en `reg.exe` in de Windows-speler.
 
 * Een speler moet de laatste geslaagde afspeelgebeurtenis melden.
 
 * Een speler moet de afspeelstatus melden.
 
-* De speler herdownloadt geen Middelen wanneer `ALL` Geheime voorgeheugen wordt ontruimd.
+* Speler downloadt geen Middelen opnieuw wanneer `ALL` Cache is gewist.
 
 * Als Player-beheerder kunt u nu een spelernaam kiezen.
 
@@ -119,13 +122,13 @@ Bovendien, als u douanecomponenten als deel van v3 manifests gebruikt, zie [Malp
 
 * De ingesloten strategie voor het afspelen van reeksen is verbroken en deze is nu opgelost.
 
-* Offline manifest die de verzoekparameter `wcmmode` voor HTML ingang gebruikt, die het oncacheable maakt.
+* Offline manifest die de verzoekparameter gebruikt `wcmmode` voor de vermelding van html, waardoor deze ontoegankelijk wordt.
 
 * Lege, dynamische ingesloten reeks heeft soms een leeg scherm veroorzaakt.
 
 * Speler meldt nu zijn playbackstatus.
 
-* Video werd afgespeeld in `Tiny mode` en niet als video op volledig scherm op apparaat en het probleem is nu opgelost.
+* Video is afgespeeld in `Tiny mode` en wordt niet afgespeeld als video op een volledig scherm op het apparaat. Het probleem is nu opgelost.
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
@@ -139,4 +142,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 9 van de Eig
 
 #### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
 
-Raadpleeg **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)** voor meer informatie over de opgeloste problemen.
+Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 467526b82c07fd3594c704c1720477c72ecb9d38
+source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,10 @@ In de volgende sectie worden antwoorden gegeven op een aantal veelgestelde vrage
 * Controleer of de voorvertoning van het kanaal werkt.
 * Controleren of de voorvertoning werkt
 * Registreer de speler als browserextensie op uw systeem naar hetzelfde scherm en controleer of dit werkt.
-* Navigeer naar `http://localhost:24502` terwijl de speler op uw systeem wordt uitgevoerd. Controleer of alle inhoud correct is gedownload.
+* Met de speler die op uw systeem loopt, navigeer aan `http://localhost:24502`. Controleer of alle inhoud correct is gedownload.
 * Controleer de elementen of de juiste uitvoeringen zijn gemaakt en of de juiste uitvoering wordt afgespeeld.
 * Controleer of de geplande inhoud aanwezig is en of de tijden correct zijn. Controleer of de in de speler ingestelde tijd juist is.
-* Inspect de spelerconsole registreert en controleert om het even welke fouten. Klik en inspecteer met de rechtermuisknop om de consolelogboeken te zien. Als u de Windows-speler gebruikt, drukt u op `CTRL + ALT +I` om de Dev-console op te roepen om de logbestanden weer te geven.
+* Inspect de spelerconsole registreert en controleert om het even welke fouten. Klik en inspecteer met de rechtermuisknop om de consolelogboeken te zien. Druk op `CTRL + ALT +I` om de dev-console op te roepen om de logbestanden te bekijken.
 
 ### 2. Hoe kan het probleem met grijswaardenschermen in AEM Screens worden opgelost door een standaardkanaal of -schema te maken?
 
@@ -43,11 +43,11 @@ Alle andere inhoud, zoals kanalen of programma&#39;s, krijgt prioriteit groter d
 
 ### 1. Wat is het verschil tussen een online en een off-line kanaal? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
-Een ***Onlinekanaal*** toont de bijgewerkte inhoud in de real-time omgeving, terwijl een ***Offlinekanaal*** de in de cache opgeslagen inhoud toont.
+An ***Onlinekanaal*** wordt de bijgewerkte inhoud in de real-time omgeving weergegeven, terwijl een ***Offline kanaal*** wordt de inhoud in de cache weergegeven.
 
 ### 2. Hoe maak ik online een kanaal? {#how-do-i-make-a-channel-online}
 
-Selecteer het kanaal en navigeer naar kanaaleigenschappen in de actiebalk. Schakel **Developer mode (force channel to be online)** onder **Channel** tab in om het kanaal online te maken.
+Selecteer het kanaal en navigeer naar kanaaleigenschappen in de actiebalk. Controleren **Modus Ontwikkelaar (kanaal forceren om online te zijn)** krachtens **Kanaal** om het kanaal online te maken.
 
 ### 3. Wat is het gebruik van het gebied van de Rol van het Kanaal? {#what-is-the-use-of-the-channel-role-field}
 
@@ -55,9 +55,9 @@ De rol van het Kanaal, is de abstractie van het daadwerkelijke kanaal dat wordt 
 
 ### 4. Hoe gebeurt de werkelijke kanaalresolutie? {#how-does-actual-channel-resolution-happen}
 
-Voor *statische verwijzingen*, volgt de resolutie enkel de weg die wordt gespecificeerd.
+Voor *statische verwijzingen* De resolutie volgt alleen het opgegeven pad.
 
-Voor *dynamische verwijzingen*, komt de resolutie voor zodra het kanaal aan de vertoning (niet het programma) wordt toegewezen. Het weergavepad wordt de context voor het kanaal en de resolutie gebeurt als volgt (hoogste naar laagste prioriteit):
+Voor *dynamische verwijzingen*, treedt de resolutie op zodra het kanaal is toegewezen aan de weergave (niet het schema). Het weergavepad wordt de context voor het kanaal en de resolutie gebeurt als volgt (hoogste naar laagste prioriteit):
 
 1. De weergave heeft een onderliggende node die overeenkomt met de kanaalnaam waarnaar wordt verwezen
 1. De weergave heeft een knooppunt op hetzelfde niveau dat overeenkomt met de naam van het kanaal waarnaar wordt verwezen
@@ -68,14 +68,14 @@ En zo verder, tot u de plaatsingsomslag bereikt en daar tegenhoudt op het ogenbl
 
 ### 5. Hoe te opstelling de off-line configuratie van de Clib van de Douane in het Kanaal van AEM Screens?
 
-Wanneer u een geïntegreerde aangepaste client-side code `clientlib` in een AEM Screens-kanaal gebruikt, moeten de volgende stappen worden uitgevoerd om ervoor te zorgen dat de `clientlib`-bestanden met succes in het kanaal (`manifest.json`) worden geladen en het pad van `clientlib` bevatten.
+Wanneer u een geïntegreerde aangepaste code aan de clientzijde gebruikt `clientlib` in een AEM Screens-kanaal moeten de volgende stappen worden uitgevoerd om ervoor te zorgen dat de `clientlib` bestanden zijn geladen in het kanaal (`manifest.json`) en bevat het pad van de `clientlib`.
 
 Voer de onderstaande stappen uit vanuit de kanaaleditor:
 
-1. Selecteer een kanaal en klik op **Edit** van de actiebar om de kanaalredacteur te openen.
-1. Selecteer de component waar u de aangepaste `clientlib` wilt toevoegen.
+1. Selecteer een kanaal en klik op **Bewerken** in de actiebalk om de kanaaleditor te openen.
+1. Selecteer de component waar u de aangepaste elementen wilt toevoegen `clientlib`.
 1. Klik op de vormingsknoop (het moersleutelpictogram).
-1. Navigeer naar het **tabblad Offlineconfig** en voeg het pad toe aan uw aangepaste clientlib in **Client-side bibliotheken**.
+1. Ga naar de **Offlineconfiguratie** en voeg het pad toe aan uw aangepaste clientlib in **Client-side bibliotheken**.
 
 ## Apparaatregistratie {#device-registration}
 
@@ -93,7 +93,7 @@ Het wordt aanbevolen de apparaat-id op te halen uit de sessie in plaats van deze
 
 ### 3. Is er een manier om een verzoek tot registratie van een apparaat af te wijzen? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Je kunt de registratieaanvragen niet afwijzen. In plaats daarvan zouden de registratieverzoeken na een onderbreking moeten verlopen die in `Adobe Experience Manager Web Console` wordt gevormd. Deze waarde wordt standaard ingesteld op één dag en wordt opgeslagen in een geheugencache.
+Je kunt de registratieaanvragen niet afwijzen. In plaats daarvan zouden de registratieverzoeken na een onderbreking moeten verlopen die binnen wordt gevormd `Adobe Experience Manager Web Console`. Deze waarde wordt standaard ingesteld op één dag en wordt opgeslagen in een geheugencache.
 
 ## Apparaatbewaking en statusrapporten {#device-monitoring-and-health-reports}
 
@@ -109,9 +109,9 @@ Controleer de volgende mogelijkheden om het probleem met het lege scherm op te l
 
 U moet het filter Apache Sling Reference Filter Allow Empty inschakelen. Dit is vereist voor een optimale werking van het controleprotocol tussen AEM Screens Player en de AEM Screens-server.
 
-1. Navigeer naar **Configuratie Adobe Experience Manager-webconsole**
-1. Schakel de optie **allow.empty** in.
-1. Klik **Opslaan**.
+1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole**
+1. Controleer de **allow.empty** optie.
+1. Klikken **Opslaan**.
 
 ### 3. Hoe problemen op te lossen als tijdens het registreren van een speler van AEM Screens, het apparaat FAILURE en de console logboeken de fout ENAME_NOT_FOUND tonen? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
@@ -121,13 +121,13 @@ Dit probleem kan optreden als de speler de AEM Screens Server DNS niet kan vinde
 
 Een Android-controlehond die alleen Android-API&#39;s gebruikt, maakt al deel uit van de apk. Er is geen extra software nodig, maar afhankelijk van het apparaat dat u gebruikt, moet u mogelijk de apk opnieuw ondertekenen om systeemrechten te verkrijgen voor een volledige energiecyclus (PowerManager-API). Als de toepassing niet opnieuw wordt ondertekend met de toetsen van de fabrikant, wordt de toepassing afgesloten en opnieuw gestart, maar niet met de energiecyclus.
 
-Raadpleeg [**Android Player implementeren**](implementing-android-player.md) voor meer informatie over het implementeren van Android Player.
+Voor meer informatie over het implementeren van Android Player raadpleegt u [**Android-speler implementeren**](implementing-android-player.md).
 
 ### 5. Welke externe controle- en waarschuwingsprogramma&#39;s (software) van derden beveelt Adobe/AMS aan om elk apparaat te controleren?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Afhankelijk van wat u uit de controle en het alarm wenst, meldt een nieuwe eigenschap de dienst van de Meldingen van AEM Screens u als een apparaat niet in een tijd heeft gepingeld. De hulpmiddelen van derden zijn afhankelijk van uw besturingssysteem, de mogelijkheden en de specifieke behoeften van de klant.
 
-Raadpleeg [**AEM Screens Notifications Service**](screens-notifications-service.md) voor meer informatie over waar u de apparaatactiviteit kunt controleren.
+Voor meer informatie over waar u de apparaatactiviteit kunt controleren, raadpleegt u [**AEM Screens-berichtenservice**](screens-notifications-service.md).
 
 ## AEM Screens Player {#aem-screens-player}
 
@@ -135,27 +135,27 @@ Raadpleeg [**AEM Screens Notifications Service**](screens-notifications-service.
 
 De ChromeOS-speler kan als Chrome Browser-insteekmodule worden geïnstalleerd in de modus voor ontwikkelaars zonder dat hiervoor een daadwerkelijk chrome speler-apparaat nodig is. Volg onderstaande stappen voor installatie:
 
-1. Klik [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
+1. Klikken [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
 1. Pak het uit en sla het op de schijf op.
-1. Open Chrome browser en selecteer **Extensies** in het menu of navigeer direct naar ***chrome://extensions***.
-1. Schakel de **modus Ontwikkelaar** vanuit de rechterbovenhoek in.
-1. Klik op **Niet-verpakte** vanuit de linkerbovenhoek laden en niet-gecomprimeerde Chrome Player laden.
-1. Schakel **AEM Screens Chrome Player** insteekmodule in als deze beschikbaar is in de lijst met extensies.
-1. Open een nieuw tabblad en klik op het pictogram **Apps** in de linkerbovenhoek of navigeer rechtstreeks naar ***chrome://apps***.
-1. Klik op **AEM Screens** Insteekmodule om Chrome Player te starten. Standaard wordt de speler gestart in de modus Volledig scherm. Druk op **esc** om de modus Volledig scherm af te sluiten.
+1. Chrome openen en **Extensies** in het menu of rechtstreeks navigeer naar ***chrome://extensions***.
+1. Schakel de **Modus Ontwikkelaar** in de rechterbovenhoek.
+1. Klikken op **Niet-verpakt laden** in de linkerbovenhoek en geladen niet-gecomprimeerde Chrome Player.
+1. Controleren **AEM Screens Chrome Player** insteekmodule indien beschikbaar in de lijst met extensies.
+1. Open een nieuw tabblad en klik op de knop **Apps** vanuit de linkerbovenhoek, of rechtstreeks naar ***chrome://apps***.
+1. Klikken op **AEM Screens** Insteekmodule voor het starten van Chrome Player. Standaard wordt de speler gestart in de modus Volledig scherm. Druk **esc** om de modus Volledig scherm af te sluiten.
 
 ### 2. Hoe te om problemen op te lossen als de speler van de Schermen niet door te verifiëren instantie met douanefoutenmanager kan verifiëren? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-Wanneer de AEM Screens-speler wordt gestart, wordt een aanvraag ingediend bij ***/content/screens/svc.ping.json*** wanneer de speler een fout van 404 krijgt. De speler start een verificatieaanvraag om te verifiëren op basis van de publicatie-instantie. Als er een manager van de douanefout in publiceer instantie is, gelieve ervoor te zorgen dat u de 404 statuscode voor anonieme gebruiker op ***/content/screens/svc.ping.json*** terugkeert.
+Wanneer AEM Screens Player wordt gestart, wordt het volgende gevraagd: ***/content/screens/svc.ping.json***, wanneer de speler een fout van 404 krijgt. De speler start een verificatieaanvraag om te verifiëren op basis van de publicatie-instantie. Als er een aangepaste fouthandler is in de publicatieversie, moet u de 404-statuscode voor anonieme gebruikers retourneren op ***/content/screens/svc.ping.json***.
 
 ### 3. Hoe kunt u instellen dat het scherm van het apparaat blijft ingeschakeld in een Android-speler? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Voer de onderstaande stappen uit om Op een Android-speler actief blijven in te schakelen:
 
-1. Naar instellingen voor Android-speler navigeren —> **Info**
-1. Tik 7 keer op het buildnummer om **Developer Options** in **Settings** in te schakelen
-1. Navigeer naar **Opties voor ontwikkelaars**
-1. **Wake** inschakelen
+1. Navigeren naar de instellingen van de Android-speler —> **Info**
+1. Tik 7 keer op het buildnummer om in te schakelen **Ontwikkelopties** in **Instellingen**
+1. Navigeren naar **Ontwikkelopties**
+1. Inschakelen **Blijf wakker**
 
 ### 4. Hoe te om vensterwijze voor de speler van Vensters toe te laten?{#enable-player}
 
@@ -163,17 +163,17 @@ Er is geen venstermodus in Windows Player. Dit is altijd de modus Volledig scher
 
 ### 5. Hoe kan ik problemen oplossen als een AEM Screens-speler voortdurend aanmeldingsaanvragen verzendt?{#requests-login}
 
-Voer de onderstaande stappen uit om een AEM Screens-speler problemen op te lossen die continu aanvragen verzendt naar `/content/screens/svc.json` en `/libs/granite/core/content/login.validate/j_security_check`:
+Voer de onderstaande stappen uit om een AEM Screens-speler problemen op te lossen die voortdurend aanvragen verzendt naar `/content/screens/svc.json` en `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. Wanneer de AEM Screens-speler wordt gestart, wordt `/content/screens/svc.json` opgevraagd. Wanneer de speler een 404 statuscode in de reactie krijgt, initieert het een authentificatieverzoek gebruikend `/libs/granite/core/content/login.validate/j_security_check` tegen *publish* instantie. Als er een manager van de douanefout in *publish* instantie is, zorg ervoor om de 404 statuscode voor anonieme gebruiker op `/content/screens/svc.json` of `/content/screens/svc.ping.json` terug te keren.
+1. Wanneer AEM Screens Player wordt gestart, wordt het volgende gevraagd: `/content/screens/svc.json`. Wanneer de speler een 404 statuscode in de reactie krijgt, initieert het een authentificatieverzoek gebruikend `/libs/granite/core/content/login.validate/j_security_check` tegen de *publish* -instantie. Als er een aangepaste fouthandler is in het dialoogvenster *publish* -instantie, zorg er dan voor dat u de 404-statuscode voor anonieme gebruikers retourneert op `/content/screens/svc.json` of `/content/screens/svc.ping.json`.
 
-1. Controleer of de configuratie van de verzender deze aanvragen toestaat in `/filters`.
+1. Controleer of deze aanvragen zijn toegestaan in de configuratie van de verzender `/filters`.
 
-   Zie [Schermfilters configureren](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) voor meer informatie.
+   Zie [Schermfilters configureren](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) voor meer informatie .
 
 1. Controleer of de regels voor het herschrijven van de verzender een van de rasterpaden naar een ander pad herschrijven.
 
-1. Controleer of u `/etc/map` regels op de *auteur* of *publish* instantie hebt en de de schermwegen aan `sling:match` worden aangepast en intern aan een verschillend weg opnieuw gericht. Het oplossen van de nauwkeurige url in `/system/console/jcrresolver` helpt bij het identificeren als *publish* instantie deze URLs aan een ander weg herschrijft.
+1. Controleer of u `/etc/map` voorschriften inzake *auteur* of *publish* instantie- en rasterpaden komen overeen met `sling:match` en intern omgeleid naar een ander pad. De exacte URL oplossen in `/system/console/jcrresolver` helpt bij het vaststellen of de *publish* -instantie herschrijft deze URL&#39;s naar een ander pad.
 
 1. Controleer of de configuratie van Apache Sling Resource Resolver Factory interne herschrijvingen veroorzaakt.
 
@@ -182,7 +182,7 @@ Voer de onderstaande stappen uit om een AEM Screens-speler problemen op te losse
 U kunt de details van de weergave en het apparaat ophalen via:
 
 * **een interne JS API**
-* **een ContextHub-archief**: Drie opslag ContextHub wordt bepaald in  `/libs/screens/clientlibs/contexthub` om kanalen, apparaat en, vertoningsinfo bloot te stellen.
+* **een ContextHub-archief**: Drie opslag ContextHub wordt bepaald in `/libs/screens/clientlibs/contexthub` om kanalen, apparaat en, vertoningsinfo bloot te stellen.
 
    Volg de stappen hieronder om deze ContentHub opslagwaarden te gebruiken:
 
@@ -205,17 +205,32 @@ Om Livefyre onbruikbaar te maken om logboekfouten te vermijden:
 
    * Ga naar `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
    * Zoeken naar de AEM Livefyre-bundel: `com.adobe.cq.social.cq-social-livefyre`
-   * Klik **Stop**
+   * Klikken **Stoppen**
 
 1. ***Livefyre-poller uitschakelen:***
 
    * Navigeer in CRXDE Lite naar `/etc/importers/polling/livefyre-poller/jcr:content`
-   * Voeg een nieuwe eigenschap *enabled* type *Boolean* toe
-   * **enabled eigenschap** instellen op **false**
+   * Een nieuwe eigenschap toevoegen *enabled* type *Boolean*
+   * Set **enabled, eigenschap** tot **false**
 
 ### 2. Hoe te om de informatie van de Index van het Eik toe te voegen? {#add-oak-index-info}
 
 AEM Screens maakt indexdefinities voor de query&#39;s die door het product worden gebruikt.
-Als er *Vraag Traversal WARNs* in `error.log` zijn, creeer een douaneindex voor uw vraag. Raadpleeg [Indexen configureren](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) voor meer informatie.
+Als er *Query Traversal WARNs* in de `error.log`, maakt u een aangepaste index voor uw query. Zie [De indexen configureren](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) voor meer informatie .
 
-U kunt ook naar een extra bron verwijzen op [Oak Documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+U kunt ook naar een extra bron verwijzen op [Oak-documentatie](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
+
+### 3. Wat wordt vereist om v3 Manifests te vormen {#configure-v3}
+
+Voor het inschakelen van v3-manifest moet u:
+
+* Dispatcher bijwerken.
+Zie [Dispatcher configureren voor manifestversie v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) voor meer informatie .
+
+* Aangepaste component bijwerken.
+Zie [Sjabloon voor aangepaste handlers](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers) voor meer informatie .
+
+* ContentSync uitschakelen in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+
+* SmartSync inschakelen in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
