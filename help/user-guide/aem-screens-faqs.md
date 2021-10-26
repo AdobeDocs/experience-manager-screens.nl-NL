@@ -7,7 +7,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6f491825c8cbc7159de1a41dd6f902b086325606
+source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 0%
@@ -221,7 +221,7 @@ Als er *Query Traversal WARNs* in de `error.log`, maakt u een aangepaste index v
 U kunt ook naar een extra bron verwijzen op [Oak-documentatie](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
-### 3. Wat wordt vereist om v3 Manifests te vormen {#configure-v3}
+### 3. Wat wordt vereist om v3 Manifests te vormen? {#configure-v3}
 
 Voor het inschakelen van v3-manifest moet u:
 
