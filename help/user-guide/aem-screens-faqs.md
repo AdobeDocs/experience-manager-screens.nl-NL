@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 77ec3e6de6760bc5e31675399ed91bac4150ae69
+source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2061'
 ht-degree: 0%
 
 ---
@@ -234,3 +234,9 @@ Zie [Sjabloon voor aangepaste handlers](https://experienceleague.adobe.com/docs/
 * ContentSync uitschakelen in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
 * SmartSync inschakelen in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+
+* Bewerken `channel/experience fragment/page components`.
+
+* Ga naar de **Offlineconfiguratie** tab.
+
+* Enter `clientlibs `en mappen voor statische bestanden die aan het manifest moeten worden toegevoegd.
