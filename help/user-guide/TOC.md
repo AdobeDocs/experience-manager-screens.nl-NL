@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens Help
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarmee u dynamische en interactieve digitale ervaringen en interacties kunt publiceren.
 feature-set: Experience Manager Screens
-source-git-commit: 8676b259304326ef3319ef40aa072b9d2a292a2e
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
    + [Kickstart Guide](kickstart-for-aem-screens.md)
    + [Schermen Best Practices Guide](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
    + [Belangrijkste voorwaarden](screens-glossary.md)
-+ Basisprincipes van digitale signaalnetwerken {#digital-signage-network}
++ Basisprincipes van digitale-signaalnetwerken {#digital-signage-network}
    + [Deel 1: Projectrollen en -verantwoordelijkheden](project-roles-responsibilities.md)
    + [Deel 2: Overwegingen als projecten worden behandeld](project-considerations.md)
    + [Deel 3: Testen, concepttest, piloten en rollouts](testing-pocs-pilots-rollouts.md)
@@ -38,7 +38,8 @@ ht-degree: 1%
    + [Overstappen van ContentSync naar SmartSync](smartsync.md)
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
    + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
-   + Specifieke overwegingen voor klanten {#installing-client}
+   + [Apparaten voor schermreplicatie configureren](configure-screens-replication.md)
+   + Klantenspecifieke overwegingen {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Chrome Player gebruiken als extensie voor het oplossen van problemen](using-chrome-player-as-an-extension.md)
       + [Android-speler](implementing-android-player.md)
@@ -51,18 +52,18 @@ ht-degree: 1%
    + Analyseintegratie met AEM Screens {#analytics-integration}
       + [Adobe Analytics-integratie](adobe-analytics-integration-aem-screens.md)
       + [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Authoring en voorbeelden van hoofdletters/kleine letters gebruiken {#authoring}
-   + Een schermproject {#setting-up-projects} instellen
++ Authoring en voorbeelden van hoofdletters en kleine letters gebruiken {#authoring}
+   + Een schermproject instellen {#setting-up-projects}
       + [Projecten maken en beheren](creating-a-screens-project.md)
       + [Kanalen maken en beheren](managing-channels.md)
       + [Weergaven maken en beheren](managing-displays.md)
       + [Locaties maken en beheren](managing-locations.md)
       + [Planningen maken en beheren](managing-schedules.md)
       + [Apparaten beheren](managing-devices.md)
-      + Kanalen {#assigning-channels} toewijzen
+      + Kanalen toewijzen {#assigning-channels}
          + [Kanaaltoewijzing](channel-assignment-latest-fp.md)
          + [Kanaaltoewijzing: Oudere AEM Screens-functiepakketten](channel-assignment.md)
-   + Kenmerken van kernproduct {#product-features} gebruiken
+   + Basisproductfuncties gebruiken {#product-features}
       + [Tekstbedekking](text-overlay.md)
       + [Bulk offline bijwerken](bulk-offline-update.md)
       + [AEM Screens-berichtenservice](screens-notifications-service.md)

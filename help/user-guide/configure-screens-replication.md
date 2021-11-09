@@ -3,9 +3,9 @@ title: De agent voor schermreplicatie configureren
 description: Volg deze pagina om informatie te krijgen over hoe te om de Agent van de Replicatie van het Scherm te vormen.
 role: Developer
 level: Intermediate
-source-git-commit: 9f0beddf87d9f5473fdedc292d3c24e96b85cdd4
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '339'
 ht-degree: 6%
 
 ---
@@ -82,3 +82,29 @@ Volg de onderstaande sectie om instellingen in de agent voor schermreplicatie bi
 1. Klik op gereedschappen —> **Implementatie** —> **Replicatie**.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1a.png)
+
+1. Klikken op **Medewerkers op auteur**.
+
+   ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1b.png)
+
+1. Klik op de koppeling, zoals in de onderstaande afbeelding wordt getoond.
+
+   ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1c.png)
+
+1. Klikken op **Bewerken**.
+
+   ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1d.png)
+
+1. Controleren **Ingeschakeld** van de **Instellingen** tab.
+
+   ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1e.png)
+
+1. Navigeren naar **Vervoer** van de **Instellingen agent** en voert u hetzelfde wachtwoord in dat u eerder hebt ingesteld in stap 8 van [Gebruikers inschakelen en het wachtwoord bijwerken](#enable-users). Klikken op **OK**.
+
+   ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+
+1. Nadat u de voorgaande stappen hebt uitgevoerd, kunt u klikken op **Verbinding testen** om de verbinding te verifiëren.
+
+   ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1g.png)
+
+   Als de verbindingsverificatie is gelukt, hebt u de configuratie van de agent voor schermreplicatie voltooid.
