@@ -3,10 +3,10 @@ title: Apparaten voor schermreplicatie configureren
 description: Volg deze pagina om informatie te krijgen over hoe te om de Agenten van de Replicatie van het Scherm te vormen.
 role: Developer
 level: Intermediate
-source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
+source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '504'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ Deze volgende pagina beschrijft hoe te om de Agenten van de Replicatie van het S
 
 ## Doelstelling {#objective}
 
-De agent van de Replicatie van het Scherm is verantwoordelijk voor het brengen pingelt gegevens van publiceren aan auteur. Het is essentieel om dit te vormen zodat de auteur het apparaat kan tonen pingelen.
+De agent van de Replicatie van het Scherm is verantwoordelijk voor het brengen pingelt gegevens zoals, *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* en nog veel meer van dergelijke waarden, van publiceren naar auteur. Het is essentieel om dit te vormen zodat de auteur het apparaat kan tonen pingelen.
 
 >[!NOTE]
 >Voor meer informatie over de Agent van de Replicatie van het Scherm, zie [Screens Replication Agents and Commands](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -34,7 +34,7 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 >[!NOTE]
 >Om veiligheidsredenen is het raadzaam het beheerderswachtwoord niet te gebruiken voor schermgebruikers.
 
-1. Navigeer naar de AEM.
+1. Navigeer naar de instantie van uw AEM-auteur.
 
 1. Klik op gereedschappen —> **Beveiliging** —> **Gebruikers**.
 
@@ -65,7 +65,7 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 1. Voer een nieuw wachtwoord in het dialoogvenster **Wachtwoord wijzigen** en klik op **Opslaan**.
 
    >[!NOTE]
-   >U moet **beheerder** in **Uw wachtwoord** veld.
+   >U moet het bestaande beheerderswachtwoord invoeren in **Uw wachtwoord** veld.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
@@ -92,6 +92,9 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 
 Volg de onderstaande sectie om instellingen in de agent voor schermreplicatie bij te werken:
 
+>[!IMPORTANT]
+>U moet de volgende stappen op ALLE bestaande agenten van de schermreplicatie voltooien.
+
 1. Navigeer naar de AEM.
 
 1. Klik op gereedschappen —> **Implementatie** —> **Replicatie**.
@@ -117,9 +120,11 @@ Volg de onderstaande sectie om instellingen in de agent voor schermreplicatie bi
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Navigeren naar **Vervoer** van de **Instellingen agent** en voert u hetzelfde wachtwoord in dat u eerder hebt ingesteld in stap 8 van [Gebruikers inschakelen en het wachtwoord bijwerken](#enable-users). Klikken op **OK**.
+1. Navigeren naar **Vervoer** van de **Instellingen agent** en werkt het dialoogvenster **Gebruiker** tot **screens-receiver-user** en voert u hetzelfde wachtwoord in dat u eerder hebt ingesteld in stap 8 van [Gebruikers inschakelen en het wachtwoord bijwerken](#enable-users).
 
-   ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+   ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
+
+1. Klikken op **OK**.
 
 1. Nadat u de voorgaande stappen hebt uitgevoerd, kunt u klikken op **Verbinding testen** om de verbinding te verifiëren.
 
