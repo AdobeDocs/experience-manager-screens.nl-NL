@@ -3,17 +3,17 @@ title: De agent voor schermreplicatie configureren
 description: Volg deze pagina om informatie te krijgen over hoe te om de Agent van de Replicatie van het Scherm te vormen.
 role: Developer
 level: Intermediate
-source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '417'
 ht-degree: 5%
 
 ---
 
 
-# De agent voor schermreplicatie configureren {#configuring-screens-replication-agent}
+# Apparaten voor schermreplicatie configureren {#configuring-screens-replication-agent}
 
-Deze volgende pagina beschrijft hoe te om de Agent van de Replicatie van het Scherm te vormen.
+Deze volgende pagina beschrijft hoe te om de Agenten van de Replicatie van het Scherm te vormen.
 
 >[!NOTE]
 >Voor meer informatie over de Agent van de Replicatie van het Scherm, zie [Screens Replication Agents and Commands](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -21,7 +21,7 @@ Deze volgende pagina beschrijft hoe te om de Agent van de Replicatie van het Sch
 U moet beide secties voltooien om de configuratie voor de Agent van de Replicatie van het Scherm te voltooien:
 
 1. [Gebruikers inschakelen en het wachtwoord bijwerken](#enable-users)
-1. [De agent voor schermreplicatie bijwerken](#replicate-agent)
+1. [Instellingen bijwerken voor de agent voor schermreplicatie](#replicate-agent)
 
 ## Gebruikers inschakelen en het wachtwoord bijwerken {#enable-users}
 
@@ -81,7 +81,7 @@ Voer de onderstaande stappen uit:
 
 1. Klikken op **OK** ter bevestiging.
 
-## De agent voor schermreplicatie bijwerken {#replicate-agent}
+## Instellingen bijwerken voor de agent voor schermreplicatie {#replicate-agent}
 
 Volg de onderstaande sectie om instellingen in de agent voor schermreplicatie bij te werken:
 
@@ -95,7 +95,10 @@ Volg de onderstaande sectie om instellingen in de agent voor schermreplicatie bi
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Zoeken naar de koppeling met de letter **S** en klik erop, zoals getoond in de hieronder figuur.
+1. Zoek naar de agent van de Replicatie van het Scherm op auteur en klik de verbinding, zoals aangetoond in het hieronder cijfer.
+
+   >[!NOTE]
+   >Zoek naar de agent van de Replicatie van het Scherm met de brief **S** opgenomen in de naam van de auteur.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 

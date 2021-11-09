@@ -1,15 +1,15 @@
 ---
 title: Auteur en publicatie configureren in AEM Screens
-seo-title: Auteur en publicatie configureren in AEM Screens
+seo-title: Configuring Author and Publish in AEM Screens
 description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
-seo-description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
-feature: Schermen beheren
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,13 @@ Voordat u aan de slag gaat met auteur- en publicatieservers, hebt u eerst kennis
 
 >[!IMPORTANT]
 >
->Als u meer dan één publicatieexemplaar met dispatcher wilt gebruiken, moet u de dispatcher.om het even welk dossier in uw verzender bijwerken. Zie [Vaste sessies inschakelen](dispatcher-configurations-aem-screens.md#enable-sticky-session) voor meer informatie.
+>Als u meer dan één publicatieexemplaar met dispatcher wilt gebruiken, moet u de dispatcher.om het even welk dossier in uw verzender bijwerken. Zie [Vaste sessies inschakelen](dispatcher-configurations-aem-screens.md#enable-sticky-session) voor meer informatie .
 
 ## Instanties voor auteur en publiceren configureren {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
->Als u meer wilt weten over de auteur en het architecturale overzicht wilt publiceren en wilt weten hoe de inhoud is geschreven op een AEM instantie van de auteur en vervolgens wordt gerepliceerd naar meerdere publicatie-instanties, raadpleegt u [Overzicht van architectuur voor auteurs en publiceren](author-publish-architecture-overview.md).
+>Als u meer wilt weten over de auteur en het architecturale overzicht wilt publiceren en wilt weten hoe de inhoud is geschreven op een AEM auteur-instantie en vervolgens naar meerdere publicatie-instanties moet worden gerepliceerd, raadpleegt u [Overzicht van auteur- en publicatiearchitectuur](author-publish-architecture-overview.md).
 
 De volgende sectie verklaart hoe te om replicatieagenten op auteur te plaatsen en topologie te publiceren.
 
@@ -58,7 +58,7 @@ Om replicatieagenten tot stand te brengen, moet u leren hoe te om een standaardr
 
 Er zijn 3 replicatieagenten die voor de Schermen nodig zijn:
 
-1. **Standaard replicatieagent  ***(opgegeven*** als standaard replicatieagent**)
+1. **Standaardreplicatieagent ***(opgegeven als*** Standard Replication Agent**)
 1. **Screens Replication Agent**
 1. **Replicatieagent omkeren**
 
@@ -66,19 +66,19 @@ Er zijn 3 replicatieagenten die voor de Schermen nodig zijn:
 
 Voer de onderstaande stappen uit om een standaardreplicatieagent te maken:
 
-1. Navigeer naar uw AEM-instantie —> hamerpictogram —> **Bewerkingen** —> **Configuratie**.
+1. Ga naar uw AEM-exemplaar —> hamerpictogram —> **Bewerkingen** —> **Configuratie**.
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. Selecteer **Replication** van de linkernavigatieboom.
+1. Selecteer **Replicatie** in de linkernavigatiestructuur.
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. Selecteer **Medewerkers op auteur** van **Replication** omslag en klik **Nieuw** om een nieuwe standaardreplicatieagent tot stand te brengen.
+1. Selecteer **Medewerkers op auteur** van de **Replicatie** map en klik op **Nieuw** om een nieuwe standaardreplicatieagent tot stand te brengen.
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Voer de **Titel** en **Naam** in om de replicatieagent te maken en klik **Maken**.
+1. Voer de **Titel** en **Naam** om de replicatieagent te creëren en klik **Maken**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
@@ -86,15 +86,15 @@ Voer de onderstaande stappen uit om een standaardreplicatieagent te maken:
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. Klik **Bewerken** om het dialoogvenster **Agent-instellingen** te openen en de details in te voeren.
+1. Klikken **Bewerken** om de **Instellingen agent** om de details in te voeren.
 
    >[!NOTE]
    >
-   >Gebruiker moet **Enabled** controleren om replicatieagent toe te laten. U moet deze optie op Gebrek controleren, de Agenten van de Replicatie van de Schermen en Omgekeerde.
+   >Gebruiker moet controleren **Ingeschakeld** om replicatieagent toe te laten. U moet deze optie op Gebrek controleren, de Agenten van de Replicatie van de Schermen en Omgekeerde.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
-1. Navigeer naar het tabblad **Vervoer** en voer **URI**, **Gebruiker** en **Wachtwoord** in.
+1. Ga naar de **Vervoer** en voert u de **URI**, **Gebruiker** en **Wachtwoord**.
 
    ![screen_shot_2019-03-04at34955pm](assets/screen_shot_2019-03-04at34955pm.png)
 
@@ -113,6 +113,9 @@ Voer de onderstaande stappen uit om een standaardreplicatieagent te maken:
 1. Maak AEM Screens-replicatieagent voor pub1. Buiten-de-doos, is er één genoemde Agent van de Replicatie van het Scherm die aan haven 4503 richt. Dit moet worden ingeschakeld.
 1. Maak AEM Screens-replicatieagent voor pub2. Kopieer de de replicatieagent van Schermen voor pub1 en verander de haven aan punt 4504 voor pub2.
 
+   >[!NOTE]
+   >Om te leren hoe te om de Agenten van de Replicatie van het Scherm te vormen, zie [De agent voor schermreplicatie configureren](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
+
 #### Screens Reverse Replication Agents maken {#creating-screens-reverse-replication-agents}
 
 1. Creeer standaard omgekeerde replicatieagent voor pub1.
@@ -127,18 +130,18 @@ Apache Sling Oak-Gebaseerde Ontdekking voor alle Publish instanties in de topolo
 Voor elke publicatie-instantie:
 
 1. Ga naar `https://<host>:<port>/system/console/configMgr`
-1. Selecteer **Apache Sling Oak-Based Discovery Service** Configuration.
+1. Selecteren **Apache Sling Oak-based Discovery Service** Configuratie.
 1. Update Topology schakelaar-URL&#39;s: Voeg URL&#39;s toe van alle publicatieinstanties die voor parseren worden gebruikt:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. **Whitelist List** voor topologieconnector: aanpassen aan IPs of subnets die het ontleden publicatieinstanties behandelen
-1. **Lokale-lusbewerkingen automatisch stoppen inschakelen**
+1. **Whitelist-lijst met topologiecontracten**: aanpassen aan IPs of subnets die het ontleden publicatieinstanties behandelen
+1. Inschakelen **Lokale lussen automatisch stoppen**
 
 De configuratie moet identiek zijn voor elke publicatie-instantie en de Local-loop met de auto-stop voorkomt een oneindige lus.
 
 #### Stap 2: Publicatietopologie verifiëren {#step-verify-publish-topology}
 
-Navigeer voor elk van de publicatie-instanties naar `https://:/system/console/topology`. U zou elke publiceer instanties moeten zien die in de topologie onder **Uitgaande topologieschakelaars** worden vertegenwoordigd.
+Blader voor elk van de publicatie-instanties naar `https://:/system/console/topology`. U zou elke publicatieinstanties moeten zien die in de topologie onder worden vertegenwoordigd **Uitgaande topologieschakelaars**.
 
 #### Stap 3: ActiveMQ Artemis-cluster instellen {#step-setup-activemq-artemis-cluster}
 
@@ -147,10 +150,10 @@ De clustergebruiker en het wachtwoord van alle publiceer instanties in de topolo
 
 Op elke publicatie-instantie:
 
-1. Navigeer in de OSGi-console naar **MAIN** —> **Crypto Support** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
+1. Navigeer in de OSGi-console naar **BELANGRIJK** —> **Crypto-ondersteuning** (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
 1. Typ het gewenste wachtwoord voor normale tekst (voor alle instanties hetzelfde) in **Onbewerkte tekst**
-1. Klik **Protect**.
-1. Kopieer de waarde **Beveiligde tekst** naar het aantekenblok of de teksteditor. Deze waarde zal in OSGi config voor ActiveMQ worden gebruikt.
+1. Klikken **Protect**.
+1. De waarde kopiëren **Beveiligde tekst** op notitiepad of teksteditor. Deze waarde zal in OSGi config voor ActiveMQ worden gebruikt.
 
 Aangezien elke publicatieinstantie door gebrek unieke crypto sleutels heeft moet u deze stap op elke pub instantie uitvoeren en de unieke sleutel voor de volgende configuratie opslaan.
 
@@ -164,11 +167,11 @@ Aangezien elke publicatieinstantie door gebrek unieke crypto sleutels heeft moet
 Op elke publicatie-instantie:
 
 1. Navigeer naar de manager van OSGi Config `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
-1. Selecteer **Apache ActiveMQ Artemis JMS Provider** Configuration
+1. Selecteren **Apache ActiveMQ Artemis JMS Provider** Configuratie
 1. Werk het volgende bij:
 
    * ***Clusterwachtwoord***: gebruik gecodeerde waarde van vorige stap per respectieve instantie
-   * ***Onderwerpen***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
+   * ***Onderwerpen***: `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
 #### ActiveMQ Artemis-cluster verifiëren {#verify-activemq-artemis-cluster}
 
@@ -189,7 +192,7 @@ Voer de onderstaande stappen uit voor elke instantie Publiceren:
 
 Als voorbeeld, toont het volgende beeld op succesvolle configuratie van de Server van Artemis ActiveMQ.
 
-Als de volgende configuratie niet wordt weergegeven vanuit */system/console/mq*, navigeert u naar */system/console/mq* en klikt u op **Opnieuw starten** om de broker opnieuw te starten.
+Als u de volgende configuratie niet ziet van */system/console/mq* en navigeer vervolgens naar */system/console/mq* en klik op **Opnieuw starten** om de makelaar opnieuw te starten.
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -197,9 +200,9 @@ Als de volgende configuratie niet wordt weergegeven vanuit */system/console/mq*,
 
 Voer de stappen uit op elke instantie Publiceren:
 
-1. Navigeer naar **OSGi Console** > **Configuratiebeheer**
-1. Selecteer **Filter Apache Sling Referrer**
-1. Configuratie bijwerken en **controleren Lege waarden toestaan**
+1. Ga naar de **OSGi Console** > **Configuratiebeheer**
+1. Selecteren **Filter Apache Sling Referrer**
+1. Configuratie bijwerken en **selectievakje Lege waarden toestaan**
 
 ### Instantie voor auteur en publicatie configureren {#configuring-author-and-publish-instance}
 
@@ -214,7 +217,7 @@ Zodra u opstelling publiceert topologie, moet u de auteur vormen en instanties p
 #### Stap 1: AEM Screens Player (apparaat) starten {#step-starting-an-aem-screens-player-device}
 
 1. Open een apart browservenster.
-1. Ga naar de schermspeler met de *webbrowser*, dat wil zeggen`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html`, of start de AEM Screens-app. Wanneer u het apparaat opent, zult u merken dat de status van het apparaat niet is geregistreerd.
+1. Ga naar de schermspeler met de *webbrowser*, dat wil zeggen:`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` of start de AEM Screens-app. Wanneer u het apparaat opent, zult u merken dat de status van het apparaat niet is geregistreerd.
 
 >[!NOTE]
 >
@@ -223,18 +226,18 @@ Zodra u opstelling publiceert topologie, moet u de auteur vormen en instanties p
 #### Stap 2: Een apparaat registreren bij auteur {#step-registering-a-device-on-author}
 
 1. Ga naar `https://localhost:4502/screens.html/content/screens/we-retail` of selecteer uw project en navigeer naar Apparaten > Apparaatbeheer.
-1. Selecteer **Apparaat registreren**.
-1. Klik **Apparaatregistratie** om het apparaat weer te geven.
-1. Selecteer het apparaat dat u wilt registreren en klik **Apparaat registreren**.
+1. Selecteren **Apparaat registreren**.
+1. Klikken **Apparaatregistratie** om het apparaat weer te geven.
+1. Selecteer het apparaat dat u wilt registreren en klik op **Apparaat registreren**.
 1. Verifieer de registratiecode en klik **Valideren**.
-1. Voer een titel voor het apparaat in en klik op **Registreren**.
+1. Voer een titel in voor uw apparaat en klik op **Registreren**.
 
 #### Stap 3: Apparaat toewijzen aan weergave {#step-assigning-the-device-to-display}
 
-1. Klik **Weergave toewijzen** in het dialoogvenster van de vorige stap.
-1. Selecteer het weergavepad voor uw kanaal in de map **Locations**.
-1. Klik **Toewijzen**.
-1. Klik **Voltooien** om het proces te voltooien, en nu wordt het apparaat toegewezen.
+1. Klikken **Weergave toewijzen** in het dialoogvenster van de vorige stap.
+1. Selecteer het weergavepad voor uw kanaal in het menu **Locaties** map.
+1. Klikken **Toewijzen**.
+1. Klikken **Voltooien** om het proces te voltooien, en nu wordt het apparaat toegewezen.
 
 Controleer de speler en u ziet de inhoud die u in het kanaal hebt toegevoegd.
 
@@ -247,7 +250,7 @@ Voer voordat u de onderstaande stappen uitvoert, de apparaat-id controleren. Zoe
 Voer de onderstaande stappen uit om de gebruiker van het apparaat te repliceren:
 
 1. Navigeer naar de pagina voor gebruikersbeheer (bijvoorbeeld: `https://localhost:4502/useradmin`
-1. Zoeken naar de **screens-devices-master** groep
+1. Zoeken naar **schermen-apparaten-master** groep
 1. Klik met de rechtermuisknop op de groep en klik op **Activeren**
 
 >[!CAUTION]
@@ -256,15 +259,15 @@ Voer de onderstaande stappen uit om de gebruiker van het apparaat te repliceren:
 
 U kunt het apparaat ook activeren via de apparaatbeheerconsole. Voer de onderstaande stappen uit:
 
-1. Navigeer naar uw project Schermen —> **Apparaten**.
-1. Klik **Apparaatbeheer** op de actiebalk.
-1. Selecteer het apparaat en klik op **Activeren** in de actiebalk, zoals in de onderstaande afbeelding wordt getoond.
+1. Ga naar uw project Schermen —> **Apparaten**.
+1. Klikken **Apparaatbeheer** in de actiebalk.
+1. Selecteer het apparaat en klik op **Activeren** op de actiebalk, zoals in de onderstaande afbeelding.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->Als u het apparaat hebt geactiveerd, kunt u ook de URL van de server bewerken of bijwerken door te klikken op **Server-URL bewerken** in de actiebalk, zoals in de onderstaande afbeelding wordt getoond, en de wijzigingen worden doorgegeven aan de AEM Screens-speler.
+>Als u het apparaat hebt geactiveerd, kunt u ook de URL van de server bewerken of bijwerken door op **URL van server bewerken** in de actiebalk, zoals in de onderstaande afbeelding wordt getoond, worden uw wijzigingen doorgegeven aan de AEM Screens-speler.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -272,20 +275,20 @@ U kunt het apparaat ook activeren via de apparaatbeheerconsole. Voer de ondersta
 
 De volgende punten geven een overzicht van de lijst Publishing Check:
 
-* *Scherm Apparaatgebruiker*  - Dit wordt opgeslagen als een AEM gebruiker en geactiveerd via  **Gereedschappen**  >  **Beveiliging**  >  **Gebruikers**. De gebruiker zal met &quot;schermen&quot;met een lange geserialiseerde koord worden vooraf bepaald.
+* *Apparaatgebruiker voor schermen* - Dit wordt opgeslagen als een AEM gebruiker en geactiveerd van **Gereedschappen** > **Beveiliging** > **Gebruikers**. De gebruiker zal met &quot;schermen&quot;met een lange geserialiseerde koord worden vooraf bepaald.
 
-* *Project* : het AEM Screens-project.
-* *Locatie*  - Locatie waarmee het apparaat is verbonden.
-* *Kanaal* - een of meer kanalen die op de locatie worden weergegeven
-* *Plan*  - als het gebruiken van een programma ervoor zorgt dit wordt gepubliceerd
-* *Locatie, Planningen en Kanaalmap*  - als de bijbehorende bronnen zich in een map bevinden.
+* *Project* - Het AEM Screens-project.
+* *Locatie* - Locatie waarmee het apparaat is verbonden.
+* *Kanaal/kanalen* - een of meer kanalen die op de locatie worden weergegeven
+* *Schema* - indien een schema wordt gebruikt, zorg ervoor dat dit wordt gepubliceerd
+* *Locatie, planningen en kanaalmap* - als de bijbehorende bronnen zich in een map bevinden.
 
 Voer de onderstaande stappen uit om het gedrag van de auteur/publicatie te verifiëren:
 
 1. Kanaalinhoud bijwerken op auteurinstantie
-1. **Publicatie beheren** uitvoeren om nieuwe wijzigingen in alle publicatievarianten te publiceren
-1. Druk op **Activeren** om het apparaat te activeren vanuit **Apparaatbeheer**
-1. **URL** van auteurinstantie-URL naar een van de URL van publicatieinstanties bewerken
+1. Uitvoeren **Publicatie beheren** om nieuwe wijzigingen te publiceren in alle publicatievarianten
+1. Druk **Activeren** om het apparaat te activeren van **Apparaatbeheer**
+1. **URL bewerken** van auteur-instantie-URL naar een publicatie-instantie-URL
 1. Controleren of de bijgewerkte kanaalinhoud wordt weergegeven op de AEM Screens-speler
 1. Deze stappen herhalen met een andere publicatie-instantie
 
@@ -293,17 +296,17 @@ Voer de onderstaande stappen uit om het gedrag van de auteur/publicatie te verif
 #### Stap 5: Het apparaat aanwijzen om een instantie te publiceren in het deelvenster Beheer {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Bekijk de interface voor het beheer van de schermspeler, druk lang op de linkerbovenhoek om het menu Admin te openen, op de AEM Screens-speler met aanraakbediening of met een muis.
-1. Klik op de optie **Configuratie** in het zijpaneel.
-1. Schrijverinstantie wijzigen om instantie te publiceren in **Server**.
+1. Klik op de knop **Configuratie** in het zijpaneel.
+1. Instantie van auteur wijzigen in **Server**.
 
 Bekijk de wijzigingen in je AEM Screens-speler.
 
 U kunt de URL van de server ook bijwerken/bewerken vanuit de apparaatbeheerconsole met de volgende stappen:
 
-1. Navigeer naar uw AEM Screens-project en selecteer de map **Devices**.
-1. Klik **Apparaatbeheer** op de actiebalk.
-1. Selecteer het apparaat en klik op **Server-URL bewerken** in de actiebalk, zoals in de onderstaande afbeelding wordt weergegeven. Uw wijzigingen worden doorgegeven aan de AEM Screens-speler.
+1. Ga naar uw AEM Screens-project en selecteer het **Apparaten** map.
+1. Klikken **Apparaatbeheer** in de actiebalk.
+1. Selecteer het apparaat en klik op **URL van server bewerken** in de actiebalk, zoals in de onderstaande afbeelding wordt getoond, worden uw wijzigingen doorgegeven aan de AEM Screens-speler.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-Met de functie **Publicatie beheren** kunt u inhoud-updates van de auteur leveren en op het apparaat publiceren. U kunt inhoud voor uw gehele AEM Screens-project publiceren of de publicatie ervan ongedaan maken, of alleen voor een van uw kanalen, locatie, apparaat, toepassing of schema. Voor meer informatie over deze eigenschap, verwijs naar [On-Demand Content Update](on-demand-content.md).
+De **Publicatie beheren** met deze functie kunt u inhoud-updates van de auteur leveren en op het apparaat publiceren. U kunt inhoud voor uw gehele AEM Screens-project publiceren of de publicatie ervan ongedaan maken, of alleen voor een van uw kanalen, locatie, apparaat, toepassing of schema. Voor meer informatie over deze functie raadpleegt u [Update voor on-demand inhoud](on-demand-content.md).
