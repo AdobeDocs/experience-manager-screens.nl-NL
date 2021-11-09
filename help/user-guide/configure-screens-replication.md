@@ -3,10 +3,10 @@ title: De agent voor schermreplicatie configureren
 description: Volg deze pagina om informatie te krijgen over hoe te om de Agent van de Replicatie van het Scherm te vormen.
 role: Developer
 level: Intermediate
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '440'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,10 @@ U moet beide secties voltooien om de configuratie voor de Agent van de Replicati
 
 ## Gebruikers inschakelen en het wachtwoord bijwerken {#enable-users}
 
-Voer de onderstaande stappen uit:
+Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord voor screens-receiver-user bij te werken:
+
+>[!NOTE]
+>Om veiligheidsredenen is het raadzaam het beheerderswachtwoord niet te gebruiken voor schermgebruikers.
 
 1. Navigeer naar de AEM.
 
