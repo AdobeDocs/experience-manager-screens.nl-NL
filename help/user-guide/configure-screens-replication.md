@@ -1,12 +1,12 @@
 ---
-title: De agent voor schermreplicatie configureren
-description: Volg deze pagina om informatie te krijgen over hoe te om de Agent van de Replicatie van het Scherm te vormen.
+title: Apparaten voor schermreplicatie configureren
+description: Volg deze pagina om informatie te krijgen over hoe te om de Agenten van de Replicatie van het Scherm te vormen.
 role: Developer
 level: Intermediate
-source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
+source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,6 +14,10 @@ ht-degree: 3%
 # Apparaten voor schermreplicatie configureren {#configuring-screens-replication-agent}
 
 Deze volgende pagina beschrijft hoe te om de Agenten van de Replicatie van het Scherm te vormen.
+
+## Doelstelling {#objective}
+
+De agent van de Replicatie van het Scherm is verantwoordelijk voor het brengen pingelt gegevens van publiceren aan auteur. Het is essentieel om dit te vormen zodat de auteur het apparaat kan tonen pingelen.
 
 >[!NOTE]
 >Voor meer informatie over de Agent van de Replicatie van het Scherm, zie [Screens Replication Agents and Commands](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
