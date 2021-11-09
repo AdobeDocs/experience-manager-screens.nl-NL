@@ -3,9 +3,9 @@ title: Apparaten voor schermreplicatie configureren
 description: Volg deze pagina om informatie te krijgen over hoe te om de Agenten van de Replicatie van het Scherm te vormen.
 role: Developer
 level: Intermediate
-source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
+source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
@@ -105,10 +105,10 @@ Volg de onderstaande sectie om instellingen in de agent voor schermreplicatie bi
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Zoek naar de agent van de Replicatie van het Scherm op auteur en klik de verbinding, zoals aangetoond in het hieronder cijfer.
+1. Zoek naar alle agenten van de Replicatie van het Scherm op auteur en klik de verbinding, zoals aangetoond in het hieronder cijfer.
 
    >[!NOTE]
-   >Zoek naar de agent van de Replicatie van het Scherm met de brief **S** opgenomen in de naam van de auteur.
+   >Zoek naar alle agenten van de Replicatie van het Scherm. De naam van de agent voor schermreplicatie bevat een letter **S** in de titel.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
