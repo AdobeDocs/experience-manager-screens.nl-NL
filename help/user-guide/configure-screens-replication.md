@@ -3,7 +3,7 @@ title: Apparaten voor schermreplicatie configureren
 description: Volg deze pagina om informatie te krijgen over hoe te om de Agenten van de Replicatie van het Scherm te vormen.
 role: Developer
 level: Intermediate
-source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
+source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 3%
@@ -17,7 +17,7 @@ Deze volgende pagina beschrijft hoe te om de Agenten van de Replicatie van het S
 
 ## Doelstelling {#objective}
 
-De agent van de Replicatie van het Scherm is verantwoordelijk voor het brengen pingelt gegevens zoals, *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* en nog veel meer van dergelijke waarden, van publiceren naar auteur. Het is essentieel om dit te vormen zodat de auteur het apparaat kan tonen pingelen.
+De agent van de Replicatie van het Scherm is verantwoordelijk voor het brengen van bevelgegevens zoals, *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* en nog veel meer van dergelijke waarden, van publiceren naar auteur. Het is essentieel om dit te vormen zodat de auteur het apparaat kan tonen pingelen.
 
 >[!NOTE]
 >Voor meer informatie over de Agent van de Replicatie van het Scherm, zie [Screens Replication Agents and Commands](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
