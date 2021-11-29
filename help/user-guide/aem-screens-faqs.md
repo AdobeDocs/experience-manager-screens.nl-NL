@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
+source-git-commit: a3bed3baf7e825299a82ccf624c3cdf876830cd0
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2119'
 ht-degree: 0%
 
 ---
@@ -243,4 +243,4 @@ Zie [Sjabloon voor aangepaste handlers](https://experienceleague.adobe.com/docs/
 
 ### 4. Wat moet u doen als, na het pakket screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 en de schermen core bundles geïnstalleerd maar niet actief zijn?
 
-De AMS-aansluiting werkt alleen als u een minimale versie van AEM 6.5 Feature Pack 8 AMS installeert. Zie de [Beschikbaarheid](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) voor de minimale versie van het functiepakket.
+De AMS-aansluiting werkt alleen als u een minimale versie van AEM 6.5 Feature Pack 8 installeert. Zie de [Beschikbaarheid](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) voor de minimale versie van het functiepakket.
