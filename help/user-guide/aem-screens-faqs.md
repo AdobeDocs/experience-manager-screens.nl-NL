@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fc120c02e01d0159ca0294a9b5326b53a0fa48f0
+source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -244,3 +244,13 @@ Zie [Sjabloon voor aangepaste handlers](https://experienceleague.adobe.com/docs/
 ### 4. Wat moet u doen als, na het pakket screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 en de schermen core bundles geïnstalleerd maar niet actief zijn?
 
 De AMS-aansluiting werkt alleen als u een minimale versie van AEM 6.5 Feature Pack 8 installeert. Zie de [Beschikbaarheid](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) voor de minimale versie van het pakket met schermfuncties.
+
+### 5. Hoe te om de dienst van Externalzer van de Verbinding CQ in Schermen te vormen?
+
+De dienst wordt gebruikt om openbare hostname voor de auteur te bepalen en instanties te publiceren, en de waarden worden dan gebruikt om de apparatenserver URLs en ook voor het richten ContextHub bij te werken.
+
+De dienst van Externalzer van de Verbinding CQ in Schermen kan via worden gevormd:
+
+1. Ga naar `http://localhost:4502/system/console/configMgr`
+1. Day CQ Link ExternalAlizer
+1. Wijzig de hostnaam voor de `author/publish` zo nodig in te voeren
