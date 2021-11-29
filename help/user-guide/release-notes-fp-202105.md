@@ -1,12 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202105
 description: '"Volg deze pagina voor meer informatie over het AEM Screens Feature Pack 202105, uitgebracht op 4 juni 2021."'
-feature: Functiepakket
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
+exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
+source-git-commit: 02bc399d61f5666918caad9fce3d69d63f0782d7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -20,17 +21,20 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 8 uitgebracht.
 
-U kunt het recentste eigenschappak voor AEM Screens 6.5.8 Versie van [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer naar **Adobe Experience Manager** tab en zoek **Screens** om het nieuwste functiepakket met de naam **AEM 6.5 Screens FP8** te krijgen.
+U kunt het nieuwste functiepakket voor de AEM Screens 6.5.8-versie downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeren naar **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste functiepakket met de naam **AEM 6.5 Schermen FP8**.
+
+>[!IMPORTANT]
+>Als u de pakketten hebt geïnstalleerd, moet u een minimale versie van AEM 6.5 Feature Pack 8 voor de AMS-aansluiting installeren `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` en de `screens core bundles`.
 
 ## Releasedatum {#release-date}
 
 De releasedatum voor AEM Screens Feature Pack 202105 is 4 juni 2021.
 
-### Wat is er nieuw?{#what-is-new}
+### Wat is er nieuw? {#what-is-new}
 
 * **Pagina vergrendelen in een AEM Screens-kanaal**
 
-   AEM Screens biedt nu ondersteuning voor *Een pagina vergrendelen*, zoals al is geïmplementeerd in AEM Sites. Met Adobe Experience Manager (AEM) kunt u een pagina vergrendelen, zodat niemand anders de inhoud kan wijzigen. Dit is handig wanneer u veel bewerkingen uitvoert op een bepaalde pagina of wanneer u een pagina even wilt stilzetten.
+   AEM Screens ondersteunt nu *Een pagina vergrendelen*, zoals reeds geïmplementeerd in AEM Sites. Met Adobe Experience Manager (AEM) kunt u een pagina vergrendelen, zodat niemand anders de inhoud kan wijzigen. Dit is handig wanneer u veel bewerkingen uitvoert op een bepaalde pagina of wanneer u een pagina even wilt stilzetten.
 
 * **Naam van AEM Screens Player-apparaat**
 
@@ -63,6 +67,6 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigen
 * Android
 * Linux
 
-#### AEM Screens Player-downloads {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
 
-Raadpleeg **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)** voor meer informatie over de opgeloste problemen.
+Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
