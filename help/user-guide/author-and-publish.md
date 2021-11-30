@@ -1,18 +1,14 @@
 ---
 title: Auteur en publicatie configureren in AEM Screens
-seo-title: Configuring Author and Publish in AEM Screens
 description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
-feature: Administering Screens
-role: Admin, Developer
-level: Intermediate
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: c152c6b46e33b42376cedeb7245d69c7c09ecd44
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '2006'
 ht-degree: 0%
 
 ---
+
 
 # Auteur en publicatie configureren in AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -310,3 +306,22 @@ U kunt de URL van de server ook bijwerken/bewerken vanuit de apparaatbeheerconso
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 De **Publicatie beheren** met deze functie kunt u inhoud-updates van de auteur leveren en op het apparaat publiceren. U kunt inhoud voor uw gehele AEM Screens-project publiceren of de publicatie ervan ongedaan maken, of alleen voor een van uw kanalen, locatie, apparaat, toepassing of schema. Voor meer informatie over deze functie raadpleegt u [Update voor on-demand inhoud](on-demand-content.md).
+
+## Tips voor het oplossen van problemen {#troubleshoot-tips}
+
+Volg de onderstaande sectie om antwoorden te krijgen op veelgestelde vragen met betrekking tot auteur/publicatie-instellingen.
+
+### Hoe voegt u een omleiding van https naar http toe na de eerste registratie en toewijzing? {#add-redirect}
+
+**Oplossing**
+Inschakelen instellen `Proxy/Load Balancer Connection in the Jetty configuration` tot `true`.
+
+### Offline-inhoud en downloadproblemen met speler bijwerken met externe middelen `/content/dam/projects/<project>`? {#update-offline-content}
+
+**Oplossing**
+Leesmachtigingen geven voor de groep met meerdere offlineupdatefrasters-service voor gebruikers en schermen-apparaten-master voor alle `/content/dam` of de specifieke elementen die u wilt gebruiken, als u restrictiever wilt zijn.
+
+### Hoe te om de fouten van de Agent van de Replicatie van het Scherm op te lossen? {#replication-agent}
+
+**Oplossing**
+Zorg ervoor u niet Gebruik voor omgekeerde replicatieoptie in de agentenconfiguratie hebt gecontroleerd. De Agent van de Replicatie van schermen kan niet als omgekeerde replicatieagent worden gebruikt en het werkingsgebied van deze eigenschap moet apparatenbevelen van auteur door:sturen om te publiceren.
