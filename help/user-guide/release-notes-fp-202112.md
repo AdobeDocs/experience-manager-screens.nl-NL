@@ -4,9 +4,9 @@ description: Volg deze pagina voor informatie over AEM Screens Feature Pack 2021
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: a01458fd34bb2fca01ef3f498ccaab1cf258e9f8
+source-git-commit: 2b1396762134c72836f6b05b6936a9cec380dd97
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
@@ -29,15 +29,26 @@ De releasedatum voor AEM Screens Feature Pack 202112 is 3 december 2021.
 
 ### Wat is er nieuw? {#what-is-new}
 
-* Android-app-updates moeten zijn gericht op Android 11 (API-niveau 30).
+* Updates van Android-toepassingen zijn nu bedoeld voor Android 11 (API-niveau 30). Android-speler bevindt zich momenteel in doel-API-niveau 29.
+
+* Als ontwikkelaar zult u activa nu zien die vertoningen worden vermeld slechts als vertoningsingangen onder overeenkomstige activa in manifest om de rekbaarheid, de duidelijkheid, en de gemakkelijke behandeling van manifest te verzekeren.
 
 ### Opgeloste problemen {#bug-fixes}
 
+* U kunt nu analytische gebeurtenissen filteren op basis van het gebeurtenistype.
+
+* Verzamel spelerlogboeken op locatie en analyseer deze voor een zwart scherm.
+
+* Player die een leeg scherm met een gesplitst schermkanaal weergeeft, is nu opgelost
+
+* Vaste aangepaste handlerdocumenten door kernbundel toe te voegen op openbare maven.
+
+* De Speler werkte ingebouwde programmatuurversie na verbetering niet bij. Dit is nu opgelost.
 
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
-De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 9 van de Eigenschap:
+De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 10 van de Eigenschap:
 
 * ChromeOS
 * Windows
