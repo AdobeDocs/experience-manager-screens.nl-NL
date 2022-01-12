@@ -4,13 +4,13 @@ description: Volg deze pagina voor informatie over AEM Screens Feature Pack 2021
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
+source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
-
 
 # Opmerkingen bij de release voor Feature Pack 202112 {#release-notes-for-feature-pack}
 
@@ -45,6 +45,11 @@ De releasedatum voor AEM Screens Feature Pack 202112 is 17 december 2021.
 
 * De Speler werkte ingebouwde programmatuurversie na verbetering niet bij. Dit is nu opgelost.
 
+* De voorvertoning blijft ongewijzigd bij de vorige spelerconfiguratie.
+
+* Weergavevoorvertoning wordt onder bepaalde omstandigheden niet weergegeven.
+
+* Gelijktijdige downloadfouten corrigeren in SmartSync.
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
