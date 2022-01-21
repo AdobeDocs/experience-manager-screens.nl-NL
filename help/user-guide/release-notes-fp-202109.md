@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
+source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -54,18 +54,31 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * **Ondersteuning voor V3-manifest**
 
-   U kunt Dispatcher nu configureren voor Manifest Version v3. Voor het inschakelen van v3 Manifest moet u het volgende configureren:
+   U kunt Dispatcher nu configureren voor Manifest Version v3. Voor het inschakelen van v3-manifest moet u:
+
+   * Wis om het even welke hangende off-line inhoudstaken in zowel auteur als gepubliceerd
+
+      * Naar crx/de navigeren in auteur en publiceren
+
+      * Klik op Gereedschappen —> Query uitvoeren
+
+      * In het vraaggebruik `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+
+      * Hiermee worden alle taken met offline inhoud vermeld die momenteel worden uitgevoerd of in behandeling zijn in de wachtrij
+
+      * Wacht tot er geen off-line inhoudstaken meer van de vraag zijn teruggekeerd
+   * ContentSync uitschakelen in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * SmartSync inschakelen in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Verzender bijwerken
 
    * Aangepaste component bijwerken
 
-   * ContentSync uitschakelen in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-
-   * SmartSync inschakelen in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Zie [Dispatcher configureren voor manifestversie v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) voor meer informatie .
    * Als u aangepaste componenten gebruikt als onderdeel van v3-manifesten, raadpleegt u [Sjabloon voor aangepaste handlers](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+
 
 
 ### Opgeloste problemen {#bug-fixes}
