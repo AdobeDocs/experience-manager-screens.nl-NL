@@ -1,17 +1,17 @@
 ---
 title: Informatie over deze handleiding
-seo-title: Beschrijving op de Guide
-description: Deze pagina beschrijft de intent van de Gids van Beste praktijken
-seo-description: Deze pagina beschrijft de intent van de Gids van Beste praktijken
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-title: Description on the Guide
+description: Volg deze beste praktijken AEM 6.5 gids voor projecten van AEM Screens om projecten, van strategische en ontwerpbriefing, tot plaatsing en na steun te plannen en uit te voeren.
+seo-description: This page describes the intent of the Best Practices Guide
+exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
+source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
-
-# Informatie over deze {#about-guide}
+# Informatie over deze handleiding {#about-guide}
 
 De AEM Screens Best Practices Guide is bedoeld als leidraad voor het succesvol plannen en uitvoeren van een AEM Screens-project.
 
@@ -43,6 +43,6 @@ Deze gids verstrekt niet alleen een uitvoerig inzicht en praktisch advies om zic
 >
 > In deze Guide gebruikte termen (in de context van AEM Screens):
 >
-> * **Onder** UX wordt verstaan de ervaring van digitale handtekeningen die aan eindgebruikers worden geleverd.
-> * **UI** wordt beschouwd als om het gebruikersinterface, dat u toestaat om uw projecten in Schermen tot stand te brengen en te beheren.
+> * **UX** wordt beschouwd als de ervaring van digitale handtekeningen die aan eindgebruikers worden geleverd.
+> * **UI** wordt beschouwd als de gebruikersinterface, die u toestaat om uw projecten in Schermen tot stand te brengen en te beheren.
 
