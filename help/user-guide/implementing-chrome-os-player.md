@@ -1,21 +1,21 @@
 ---
 title: Chrome OS Player implementeren
-seo-title: Chrome OS Player implementeren
+seo-title: Implementing Chrome OS Player
 description: Volg deze pagina voor meer informatie over de implementatie van Chrome OS Player met de Chrome Management Console.
-seo-description: Volg deze pagina voor meer informatie over de implementatie van Chrome OS Player met de Chrome Management Console.
+seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
-feature: Schermen beheren
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ In deze sectie wordt beschreven hoe u de Chrome OS Player implementeert met de C
 
 Voer de onderstaande stappen uit om de chrome beheerconsole in te stellen:
 
-1. Registreer u voor de Chrome Management Console. U moet een licentie aanvragen voor Chrome Management Console. Neem contact op met [Google Support](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) om de instellingen van Chrome-apparaten te beheren voor meer informatie.
-1. Voer uw Chrome OS-apparaat in het domein in en wacht 15 minuten totdat het apparaat synchroniseert met de Chrome Management Console. Klik [hier](https://support.google.com/chrome/a/answer/1360534?hl=en) voor meer informatie over het inschrijven van een chroomapparaat.
+1. Registreer u voor de Chrome Management Console. U moet een licentie aanvragen voor Chrome Management Console. Contact [Google-ondersteuning](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) om Chrome-apparaatinstellingen te beheren voor meer informatie.
+1. Voer uw Chrome OS-apparaat in het domein in en wacht 15 minuten totdat het apparaat synchroniseert met de Chrome Management Console. Als u meer wilt weten over het inschrijven van een chroomapparaat, klikt u op [hier](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. De Chrome Player is beschikbaar in de Chrome Web Store.
 
 >[!NOTE]
@@ -68,8 +68,8 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
-1. Blader naar **Apparaatbeheer** > **Chrome Management** > **Apparaatinstellingen**.
-1. Schuif omlaag naar **Kiosk Settings** en klik **Kiosk Applications** beheren.
+1. Bladeren naar **Apparaatbeheer** > **Chrome-beheer** > **Apparaatinstellingen**.
+1. Omlaag schuiven naar **Kiosk-instellingen** en klik op **Kiosktoepassingen beheren**.
 
    ![kiosk](assets/kiosk.png)
 
@@ -79,16 +79,16 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
    >
    >Het kan ongeveer 15 minuten duren voordat een onlangs gepubliceerde app in deze lijst wordt weergegeven.
 
-1. Selecteer **AEM Screens Player** in het vervolgkeuzemenu **Kiosk App automatisch starten**.
+1. Selecteren **AEM Screens Player** van de **Kiosk-app automatisch starten** vervolgkeuzelijst.
 
    Het kan een paar notulen afhankelijk van het netwerk voor de veranderingen duren om van kracht te worden. Het wordt aanbevolen opnieuw op te starten.
 
 #### Status van extern apparaat controleren {#checking-remote-device-status}
 
 1. Meld u aan bij de Chrome Developer Console.
-1. Blader naar **Apparaatbeheer** > **Chrome Devices** en selecteer het apparaat dat u wilt besturen.
-1. Klik **Systeemactiviteit en probleemoplossing**.
-1. Controleer de eigenschappen **Opnieuw opstarten Device** en **Schermvastlegging** van het apparaat. U kunt ook de status en gezondheidsgegevens van het apparaat controleren.
+1. Bladeren naar **Apparaatbeheer** > **Chrome-apparaten** en selecteert u het apparaat dat u wilt besturen.
+1. Klikken **Systeemactiviteit en probleemoplossing**.
+1. Controleer de **Opnieuw opstarten** en **Schermvastlegging** eigenschappen van het apparaat. U kunt ook de status en gezondheidsgegevens van het apparaat controleren.
 
 >[!NOTE]
 >
@@ -101,11 +101,11 @@ De AEM Screens Player is een toepassing waarvoor Kiosk is ingeschakeld en waarme
 Voer de onderstaande stappen uit om verschillende opties van de speler te configureren:
 
 1. Meld u aan bij de Chrome Management Console.
-1. Klik **Apparaatbeheer** > **Chrome Management** > **App Management**. De AEM Screens Player wordt in de lijst weergegeven.
+1. Klikken **Apparaatbeheer** > **Chrome-beheer** > **Toepassingsbeheer**. De AEM Screens Player wordt in de lijst weergegeven.
 1. Klik op de toepassing **AEM Screens Player**.
-1. Klik **Kiosk montages** en selecteer uw org (*als het gebruiken van een testmilieu*).
-1. Klik op **upload configuratiedossier** en upload het configuratiebeleid (*Json dossier*).
-1. Klik **Opslaan**. U moet het apparaat opnieuw opstarten om het beleid te synchroniseren.
+1. Klikken **Kiosk-instellingen** en selecteer uw org (*bij gebruik van een testomgeving*).
+1. Klikken op **uploadconfiguratiebestand** en uploadt het configuratiebeleid (*JSON-bestand*).
+1. Klikken **Opslaan**. U moet het apparaat opnieuw opstarten om het beleid te synchroniseren.
 
 >[!NOTE]
 >
@@ -151,4 +151,8 @@ In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 
 >[!NOTE]
 >
->De configuraties van het beleid worden strikt afgedwongen en worden niet manueel met voeten getreden bij admin UI van de speler. Om handspelerconfiguratie voor een bepaald beleid toe te staan, specificeer niet het beleid in ***beleidsconfiguratie,*** bijvoorbeeld, als u handconfiguratie voor reboot programma wilt toestaan, specificeer niet de sleutel ***rebootSchedule*** in de beleidsconfiguratie.
+>De configuraties van het beleid worden strikt afgedwongen en worden niet manueel met voeten getreden bij admin UI van de speler. Om handspelerconfiguratie voor een bepaald beleid toe te staan, specificeer niet het beleid in ***beleidsconfiguratie,*** Als u bijvoorbeeld handmatige configuratie voor reboot programma wilt toestaan, specificeer niet de sleutel ***rebootSchedule*** in de beleidsconfiguratie.
+
+### De afstandsbediening voor schermen gebruiken {#using-remote-control}
+
+AEM Screens biedt functionaliteit voor afstandsbediening. Meer informatie over deze functie vindt u hier: [Schermen afstandsbediening](implementing-remote-control.md)
