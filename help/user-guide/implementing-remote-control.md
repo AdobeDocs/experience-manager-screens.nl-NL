@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ In het volgende diagram wordt het sleutelgebruik op een Samsung-afstandsbedienin
 >[!NOTE]
 >Als u de waarden voor apparaatconfiguratie van enableAdminUI en/of enableOSD instelt op false, schakelt de externe server de interface van de beheerder en de kanaalswitch niet in of uit. U kunt ook niet met de pijltoetsen door de interface(s) van de beheerder navigeren. U kunt de cache echter wel wissen en de speler opnieuw laden. U kunt de functie voor besturing op afstand uitschakelen als een van de toetsenbordcombinaties conflicteert met uw interactieve inhoud met deze code:
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```
