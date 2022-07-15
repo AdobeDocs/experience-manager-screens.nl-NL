@@ -9,8 +9,8 @@ product: experience manager
 audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 1%
    + [Zakelijke inhoud in UX-strategieën](business-content-strategy.md)
    + [UX-afhankelijkheden](ux-dependencies.md)
    + [Integratie met Analytics](analytics.md)
-+ Ontwerpoverzichten {#design-brief}
++ Briefing ontwerp {#design-brief}
    + [UX-reiskaart](journey-map.md)
    + [UX-prototypen](prototypes.md)
    + [UX-draadframes](wireframes.md)
    + [Overgang naar Platform](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
-+ Implementatieoverzicht {#deployment-brief}
++ Overzicht van implementatie {#deployment-brief}
    + [Configuraties AEM Platform](aem-platform-configurations.md)
    + [Projecttaxonomie en -uitvoering](project-taxonomy-implementation.md)
    + Netwerkverkeersbeheer {#manage-network-traffic}
