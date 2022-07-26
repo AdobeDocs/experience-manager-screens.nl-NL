@@ -1,15 +1,15 @@
 ---
 title: Dispatcher Configurations voor AEM Screens
-seo-title: Dispatcher Configurations voor AEM Screens
+seo-title: Dispatcher Configurations for AEM Screens
 description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
-seo-description: Deze pagina benadrukt richtlijnen voor het vormen van dispatcher voor een project van AEM Screens.
-feature: Schermen beheren
+seo-description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
+feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
+source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '660'
 ht-degree: 2%
 
 ---
@@ -27,12 +27,12 @@ De volgende pagina verstrekt de richtlijnen voor het vormen verzender voor een p
 >Als er geen verzender is, maak de registratieserver in de OSGi componentenlijst onbruikbaar.
 
 Voordat u een dispatcher configureert voor een AEM Screens-project, moet u vooraf op de hoogte zijn van Dispatcher.
-Raadpleeg [Dispatcher configureren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) voor meer informatie.
+Zie [Dispatcher configureren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) voor meer informatie .
 
 ## Dispatcher configureren voor manifestversie v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->De volgende Dispatcher-configuraties zijn alleen van toepassing op Manifest-versie v2. Raadpleeg [Dispatcher Configurations for Manifest version v3](#configuring-dispatcherv3) for manifest version v3.
+>De volgende Dispatcher-configuraties zijn alleen van toepassing op Manifest-versie v2. Zie [Dispatcher Configurations voor Manifest versie v3](#configuring-dispatcherv3) voor manifestversie v3.
 
 AEM Screens-spelers of -apparaten gebruiken geverifieerde sessies om ook toegang te krijgen tot de bronnen in de publicatieinstanties. Als u dus meerdere publicatieinstanties hebt, moeten de aanvragen altijd naar dezelfde publicatieinstantie gaan, zodat de geverifieerde sessie geldig is voor alle aanvragen die afkomstig zijn van de AEM Screens-spelers/apparaten.
 
@@ -40,7 +40,7 @@ Voer de onderstaande stappen uit om de dispatcher voor een AEM Screens-project t
 
 ### Vaste sessies inschakelen {#enable-sticky-session}
 
-Als u meerdere publicatie-instanties wilt gebruiken die worden voorafgegaan door één verzender, moet u het `dispatcher.any`-bestand bijwerken om kleverigheid mogelijk te maken
+Als u meerdere publicatie-instanties wilt gebruiken die zijn voorafgegaan door één verzender, moet u de `dispatcher.any` bestand voor kleverigheid
 
 ```xml
 /stickyConnections {
@@ -51,11 +51,11 @@ Als u meerdere publicatie-instanties wilt gebruiken die worden voorafgegaan door
  }
 ```
 
-Als u één publicatie-instantie hebt voorafgegaan door één verzender, helpt het inschakelen van de kleverigheid bij de verzender niet omdat het taakverdelingsmechanisme elke aanvraag naar de verzender kan verzenden. In dit geval klikt u op **Enable** in het veld **Stickiness** om deze in te schakelen op het niveau van het taakverdelingsmechanisme, zoals in de onderstaande afbeelding wordt getoond:
+Als u één publicatie-instantie hebt voorafgegaan door één verzender, helpt het inschakelen van de kleverigheid bij de verzender niet omdat het taakverdelingsmechanisme elke aanvraag naar de verzender kan verzenden. In dit geval klikt u op **Inschakelen** in **Sticiteit** -veld om het mogelijk te maken op het niveau van het taakverdelingsmechanisme, zoals in onderstaande afbeelding wordt getoond:
 
 ![afbeelding](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Bijvoorbeeld, als u AWS ALB gebruikt, verwijs naar [Doelgroepen voor uw Balancers van de Lading van de Toepassing ](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) voor het toelaten van kleverigheid op het niveau van ALB. Laat de kleverigheid 1 dag toe.
+Als u bijvoorbeeld AWS ALB gebruikt, raadpleegt u [Doelgroepen voor de taaktaakverdelingsbalansen van uw toepassing](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) voor het inschakelen van kleverigheid op ALB-niveau. Laat de kleverigheid 1 dag toe.
 
 ### Stap 1: Clientkoppen configureren {#step-configuring-client-headers}
 
@@ -69,7 +69,7 @@ Voeg het volgende toe aan `/clientheaders`sectie:
 
 ### Stap 2: Schermfilters configureren {#step-configuring-screens-filters}
 
-Als u schermfilters wilt configureren, voegt u het volgende toe aan ***/filter***.
+Als u schermfilters wilt configureren, voegt u het volgende toe: ***/filter***.
 
 ```
 ## AEM Screens Filters
@@ -92,14 +92,14 @@ Als u schermfilters wilt configureren, voegt u het volgende toe aan ***/filter**
 
 ### Stap 3: Dispatcher Cache uitschakelen {#step-disabling-dispatcher-cache}
 
-Schakel caching van dispatcher uit voor ***/content/screens path***.
+Verzendcache uitschakelen voor ***/content/screens pad***.
 
-Schermspelers gebruiken geverifieerde sessie, zodat de verzender geen van de schermspelers-aanvragen voor `channels/assets` in de cache plaatst.
+Schermspelers gebruiken geverifieerde sessie, zodat de verzender geen van de schermspelers-aanvragen voor `channels/assets`.
 
 Als u de cache voor de elementen wilt inschakelen zodat de elementen worden verzonden in de cache van de verzender, moet u:
 
-* `/allowAuthorization 1` toevoegen in `/cache`-sectie
-* Voeg de onderstaande regels toe aan `/rules`-sectie van `/cache`
+* Toevoegen `/allowAuthorization 1` in `/cache` sectie
+* Voeg de onderstaande regels toe aan `/rules` deel van `/cache`
 
 ```xml
 /0000
@@ -137,9 +137,9 @@ Zorg ervoor dat u deze filters en cacheregels toestaat in verzenders die de publ
 
 Zorg ervoor dat u aan deze twee voorwaarden voldoet voordat u Dispatcher (manifestversie v3) voor AEM Screens configureert:
 
-* Zorg ervoor dat u `v3 manifests` gebruikt. Navigeer naar `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` en controleer of `Enable ContentSync Cache` is uitgeschakeld.
+* Zorg ervoor dat u `v3 manifests`. Navigeren naar `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` en ervoor zorgen dat `Enable ContentSync Cache` is uitgeschakeld.
 
-* Zorg ervoor dat de verzender flush agent bij `/etc/replication/agents.publish/dispatcher1useast1Agent` in publicatieinstantie wordt gevormd.
+* Zorg ervoor dat de verzendende agent wordt gevormd bij `/etc/replication/agents.publish/dispatcher1useast1Agent` in publicatieexemplaar.
 
    ![afbeelding](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
@@ -173,11 +173,11 @@ Zorg ervoor dat u aan deze twee voorwaarden voldoet voordat u Dispatcher (manife
 
 ### Cacheregels {#cache-rules-v3}
 
-* Voeg `/allowAuthorized "1"` aan `/cache` sectie in `publish_farm.any` toe.
+* Toevoegen `/allowAuthorized "1"` tot `/cache` sectie in `publish_farm.any`.
 
 * Alle schermspelers gebruiken geverifieerde sessies om verbinding te maken met AEM (auteur/publicatie). De uit-van-de-doos Dispatcher bewaart deze urls niet, zodat zouden wij die moeten toelaten.
 
-* `statfileslevel "10"` toevoegen aan `/cache`-sectie in `publish_farm.any`
+* Toevoegen `statfileslevel "10"` tot `/cache` sectie in `publish_farm.any`
 Dit zal caching tot 10 niveaus van cachedocroot steunen en dienovereenkomstig ongeldig maken wanneer de inhoud wordt gepubliceerd eerder dan alles ongeldig te maken. U kunt dit niveau wijzigen op basis van de diepte van de inhoudstructuur
 
 * Voeg het volgende toe aan `/invalidate section in publish_farm.any`
@@ -189,7 +189,7 @@ Dit zal caching tot 10 niveaus van cachedocroot steunen en dienovereenkomstig on
    }
    ```
 
-* Voeg de volgende regels toe aan `/rules` sectie in `/cache` in `publish_farm.any` of in een dossier dat van `publish_farm.any` inbegrepen is:
+* Voeg de volgende regels toe aan `/rules` sectie in `/cache` in `publish_farm.any` of in een bestand waarvan `publish_farm.any`:
 
    ```
    ## Don't cache CSRF login tokens
@@ -230,3 +230,24 @@ Dit zal caching tot 10 niveaus van cachedocroot steunen en dienovereenkomstig on
        /type "deny"
        }
    ```
+
+### Validatieregel toevoegen voor segments.js {#invalidsegmentjs}
+
+Als u nieuwe segmenten toevoegt en publiceert, `segments.js` Het bestand dat door de dispatcher wordt aangeboden, bevat niet de nieuwe items die de doelstroom op het schermapparaat verbreken. Het bestand segments.js wordt in het cachegeheugen opgeslagen op het niveau van de verzender, maar er was geen validatieregel voor hetzelfde. U moet daarom een regel voor validatie toevoegen.
+
+* Nieuwe segmenten toevoegen aan de `/conf/<project-name>/settings/wcm/segments.seg.js` bestand.
+
+* Een validatieregel toevoegen aan `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Hier volgt de regel die moet worden toegevoegd:
+
+```
+    /invalidate {
+                        .
+                        .
+                        /0004 {
+                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /type "allow"
+                        }
+                }
+```
+
+* Deze regel zorgt voor de `segments.js` Het bestand is ongeldig en de nieuwste versie wordt opgehaald wanneer deze wordt gewijzigd.
