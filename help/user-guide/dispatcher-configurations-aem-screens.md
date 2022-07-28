@@ -7,9 +7,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -233,9 +233,7 @@ Dit zal caching tot 10 niveaus van cachedocroot steunen en dienovereenkomstig on
 
 ### Validatieregel toevoegen voor segments.js {#invalidsegmentjs}
 
-Als u nieuwe segmenten toevoegt en publiceert, `segments.js` Het bestand dat door de dispatcher wordt aangeboden, bevat niet de nieuwe items die de doelstroom op het schermapparaat verbreken. Het bestand segments.js wordt in het cachegeheugen opgeslagen op het niveau van de verzender, maar er was geen validatieregel voor hetzelfde. U moet daarom een regel voor validatie toevoegen.
-
-* Nieuwe segmenten toevoegen aan de `/conf/<project-name>/settings/wcm/segments.seg.js` bestand.
+Als u gerichte campagnes gebruikt met AEM Screens, dan `segments.js file` die door de verzender worden gediend moet ongeldig worden verklaard, aangezien u toevoegt en nieuwe segmenten op AEM publiceert. Zonder deze validatieregel werken nieuwe doelcampagnes niet op de schermspeler (in plaats daarvan worden de standaardinhoud weergegeven).
 
 * Een validatieregel toevoegen aan `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Hier volgt de regel die moet worden toegevoegd:
 
@@ -244,7 +242,7 @@ Als u nieuwe segmenten toevoegt en publiceert, `segments.js` Het bestand dat doo
                         .
                         .
                         /0004 {
-                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /glob "conf/<project-name>/settings/wcm/.js"
                                /type "allow"
                         }
                 }
