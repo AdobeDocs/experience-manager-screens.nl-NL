@@ -1,15 +1,15 @@
 ---
 title: Projecttaxonomie
-seo-title: 'Projecttaxonomie '
+seo-title: Project Taxonomy
 description: Deze pagina beschrijft de taxonomie van projecten
-seo-description: De pagina beschrijft de taxonomie van projecten
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Project Taxonomy
+exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
+source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
-
 
 # Projecttaxonomie {#project-taxonomy}
 
@@ -27,7 +27,7 @@ Overweeg het volgende voordat u de AEM Screens Digital Sigage-oplossing implemen
 * **Planning**
 * **De inhoud voorvertonen**
 
-Om over deze termijnen te leren, verwijs naar [Verklarende woordenlijst](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+Raadpleeg voor meer informatie over deze termen [Verklarende woordenlijst](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Om over deze termijnen te leren, verwijs naar [Verklarende woordenlijst](https:/
 >* text config-bestand om elke speler automatisch te laten verwijzen naar een specifieke instantie van een AEM
 
 
-## Een AEM Screens-project {#creating-a-project} implementeren
+## Een AEM Screens-project implementeren {#creating-a-project}
 
 Een AEM Screens-auteur is verantwoordelijk voor het maken en beheren van een gebruikerservaring met behulp van de beschikbare componenten in AEM Screens. De auteur maakt en bekijkt de inhoud en biedt een gebruiksvriendelijke grafische gebruikersinterface door de beschikbare segmenten van AEM Screens te configureren, te implementeren en te integreren.
 
@@ -47,14 +47,15 @@ Een AEM Screens-auteur is verantwoordelijk voor het maken en beheren van een geb
 
 Een auteur begint gewoonlijk een AEM Screens-project door:
 
-* [een AEM Screens-project maken](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
-* [kanalen maken](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-channels.html)
-* [toevoegen van componenten en elementen aan het kanaal](https://helpx.adobe.com/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
-* [maken, planningen](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-schedules.html)
-* [locaties maken](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-locations.html)
-* [beeldschermen maken](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-displays.html)
-* [Kanalen toewijzen aan de weergaven](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
-* [weergeven, inhoud in een AEM Screens-speler](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
+* [een AEM Screens-project maken](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
+* [kanalen maken](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
+* [toevoegen van componenten en elementen aan het kanaal](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
+* [maken, planningen](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
+* [locaties maken](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
+* [beeldschermen maken](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
+* [Kanalen toewijzen aan de weergaven](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
+
+* [weergeven, inhoud in een AEM Screens-speler](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
 
 >[!NOTE]
->Bovendien kunt u een reeks plaatsen van een spreadsheet CSV/XLS aan uw project van AEM Screens in bulk invoeren. Volg [Nieuwe projectimportmodule van Bestand](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) voor meer informatie.
+>U kunt ook een set locaties vanuit een CSV/XLS-spreadsheet in een AEM Screens-project bulksgewijs importeren. Volg [Nieuwe importmodule voor project uit bestand](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) voor meer informatie .

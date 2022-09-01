@@ -6,9 +6,9 @@ user-guide-title: Adobe Experience Manager Screens Help
 breadcrumb-title: AEM Screens Guide
 user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarmee u dynamische en interactieve digitale ervaringen en interacties kunt publiceren.
 feature-set: Experience Manager Screens
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: ce0524a11f693e5413c08cc79b46121260333de2
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 + [Inleiding tot schermen](aem-screens-introduction.md)
 + Overzicht en Kickstart Guide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + [Schermen Best Practices Guide](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [Schermen Best Practices Guide](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html)
    + [Belangrijkste voorwaarden](screens-glossary.md)
 + Basisprincipes van digitale-signaalnetwerken {#digital-signage-network}
    + [Deel 1: Projectrollen en -verantwoordelijkheden](project-roles-responsibilities.md)
