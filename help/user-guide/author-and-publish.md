@@ -2,7 +2,7 @@
 title: Auteur en publicatie configureren in AEM Screens
 description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
+source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%
@@ -102,20 +102,20 @@ Voer de onderstaande stappen uit om een standaardreplicatieagent te maken:
 #### Standaardreplicatieagents maken  {#creating-standard-replication-agents}
 
 1. Creeer standaard replicatieagent voor pub1 (uit-van-de-doos standaardagent zou reeds moeten worden gevormd) (bijvoorbeeld, *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
-1. Creeer standaard replicatieagent voor pub2. U kunt rep agent voor pub1 kopiëren en het vervoer bijwerken dat voor pub2 moet worden gebruikt door de haven in de vervoerconfiguratie te veranderen. (bijvoorbeeld *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
+1. Creeer standaard replicatieagent voor pub2. U kunt als replicatieagent voor pub1 kopiëren en het vervoer bijwerken dat voor pub2 moet worden gebruikt door de haven in de vervoerconfiguratie te veranderen. (bijvoorbeeld *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Schermreplicatieagents maken {#creating-screens-replication-agents}
 
-1. Maak AEM Screens-replicatieagent voor pub1. Buiten-de-doos, is er één genoemde Agent van de Replicatie van het Scherm die aan haven 4503 richt. Dit moet worden ingeschakeld.
-1. Maak AEM Screens-replicatieagent voor pub2. Kopieer de de replicatieagent van Schermen voor pub1 en verander de haven aan punt 4504 voor pub2.
+1. Creeer een agent van de het schermreplicatie voor pub1. Buiten-de-doos, is er één genoemde Agent van de Replicatie van het Scherm die aan haven 4503 richt. Dit moet worden ingeschakeld.
+1. Maak een schermreplicatieagent voor pub2. Kopieer de Agent van de Replicatie van het Scherm voor pub1 en verander de haven aan punt 4504 voor pub2.
 
    >[!NOTE]
    >Om te leren hoe te om de Agenten van de Replicatie van het Scherm te vormen, zie [De agent voor schermreplicatie configureren](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### Screens Reverse Replication Agents maken {#creating-screens-reverse-replication-agents}
 
-1. Creeer standaard omgekeerde replicatieagent voor pub1.
-1. Creeer standaard omgekeerde replicatieagent voor pub2. U kunt omgekeerde rep agent voor pub1 kopiëren en het vervoer bijwerken dat voor pub2 moet worden gebruikt door de haven in de vervoerconfiguratie te veranderen.
+1. Creeer een omgekeerde replicatieagent voor pub1.
+1. Creeer een omgekeerde replicatieagent voor pub2. U kunt omgekeerde replicatieagent voor pub1 kopiëren en het vervoer bijwerken dat voor pub2 moet worden gebruikt door de haven in de vervoerconfiguratie te veranderen.
 
 ## Publicatietopologie instellen {#setting-up-publish-topology}
 
