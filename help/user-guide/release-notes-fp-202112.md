@@ -1,14 +1,14 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202112
-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202112 uitgebracht op 17 december 2021.
+description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202112 uitgebracht op 12 januari 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 1%
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,17 @@ U kunt het nieuwste functiepakket voor de AEM Screens 6.5.10-versie downloaden v
 
 ## Releasedatum {#release-date}
 
-De releasedatum voor AEM Screens Feature Pack 202112 is 17 december 2021.
+De releasedatum voor AEM Screens Feature Pack 202112 is 12 januari 2022.
 
 ### Wat is er nieuw? {#what-is-new}
 
 * Updates van Android-toepassingen zijn nu bedoeld voor Android 11 (API-niveau 30). Android-speler bevindt zich momenteel in doel-API-niveau 29.
+
+* Weergavevoorvertoning blijft hangen bij vorige spelerconfiguratie
+
+* Weergavevoorvertoning wordt onder bepaalde omstandigheden niet gerenderd
+
+* Gelijktijdige downloadfouten corrigeren in SmartSync
 
 * Als ontwikkelaar zult u activa nu zien die vertoningen worden vermeld slechts als vertoningsingangen onder overeenkomstige activa in manifest om de rekbaarheid, de duidelijkheid, en de gemakkelijke behandeling van manifest te verzekeren.
 

@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -553,6 +553,15 @@ De volgende code bevat de minimumvereisten in het `pom.xml` voor dat specifieke 
 In de onderstaande video ziet u de voltooide component en de manier waarop deze aan een volgnummer kan worden toegevoegd. Het kanaal wordt vervolgens toegevoegd aan de weergave Locatie en uiteindelijk toegewezen aan een schermspeler.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## Aanvullende overwegingen voor aangepaste componenten die andere pagina&#39;s of fragmenten insluiten {#additional-considerations}
+
+Als de aangepaste component die u ontwikkelt andere pagina&#39;s moet bevatten of uit fragmenten moet bestaan en u wilt dat wijzigingen in de ingesloten inhoud automatisch door de speler worden opgepakt zonder dat het kanaal opnieuw moet worden gepubliceerd, moet u rekening houden met de volgende twee beperkingen:
+
+1. In plaats van rechtstreeks uit te breiden `foundation/components/parbase`, moet u het volgende uitbreiden `screens/core/components/content/page` of `screens/core/components/content/experiencefragment`
+2. De naam van de eigenschap die u gebruikt om naar de ingesloten inhoud te verwijzen, moet `pagePath`
+
+Het gebruik van deze twee kerncomponenten van het Scherm komt ook met het extra voordeel dat zij kunnen zorgen voor het bundelen van sommige gebiedsdelen u (cliënt-zijbibliotheken, doopvonten, enz.) nodig hebt via hun off-line configuratieopties in de componentendialoog, die dan de verantwoordelijkheid van om het even welke douane off-line manager vermindert u voor dit zou moeten gebruiken, soms zelfs volledig verwijderend de behoefte om één in de eerste plaats te gebruiken.
 
 ## Voltooide code {#finished-code}
 
