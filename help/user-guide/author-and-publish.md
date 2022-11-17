@@ -2,9 +2,9 @@
 title: Auteur en publicatie configureren in AEM Screens
 description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina om te leren hoe u auteur kunt configureren en publiceren voor AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 0%
 
 ---
@@ -128,9 +128,10 @@ Voor elke publicatie-instantie:
 1. Ga naar `https://<host>:<port>/system/console/configMgr`
 1. Selecteren **Apache Sling Oak-based Discovery Service** Configuratie.
 1. Update Topology schakelaar-URL&#39;s: Voeg URL&#39;s toe van alle publicatieinstanties die voor parseren worden gebruikt:
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **Whitelist-lijst met topologiecontracten**: aanpassen aan IPs of subnets die het ontleden publicatieinstanties behandelen
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **Whitelist-lijst met topologiecontracten**: Pas aan IPs of subnets aan die alle publicatieinstanties behandelen. Verzeker u whitelist IP/hostname van alle publiceer instanties zonder het havenaantal.
+
 1. Inschakelen **Lokale lussen automatisch stoppen**
 
 De configuratie moet identiek zijn voor elke publicatie-instantie en de Local-loop met de auto-stop voorkomt een oneindige lus.
