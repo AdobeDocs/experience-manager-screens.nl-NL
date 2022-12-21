@@ -1,18 +1,18 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202001
-seo-title: Opmerkingen bij de release voor Feature Pack 202001
+seo-title: Release Notes for Feature Pack 202001
 description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202001 uitgebracht op 31 januari 2020.
-seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202001 uitgebracht op 31 januari 2020.
-feature: Functiepakket
+seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
+source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release voor Feature Pack 202001{#release-notes-for-feature-pack}
 
@@ -20,28 +20,32 @@ ht-degree: 0%
 >
 >We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
 
-AEM Screens heeft AEM 6.4 Feature Pack 7 en AEM 6.5 Feature Pack 3 uitgebracht met de volgende gegevens.
+## Beschikbaarheid {#availability}
+
+AEM Screens heeft AEM 6.5 Feature Pack 3 uitgebracht.
+
+U kunt het nieuwste functiepakket voor AEM Screens 6.5.3 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeren naar **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste functiepakket met de naam **AEM 6.5 Schermen FP3**.
 
 ## Releasedatum {#release-date}
 
 De releasedatum voor AEM Screens Feature Pack 202001 is 31 januari 2020.
 
-### Wat is er nieuw?{#what-s-new}
+### Wat is er nieuw? {#what-s-new}
 
-* **Met Command Sync for Asset**
-PlaybackCommand Sync kunnen verschillende spelers gesynchroniseerd worden afgespeeld. De spelers kunnen verschillende inhoud afspelen, maar elk element moet dezelfde duur hebben.
-Meer over de Synchronisatie van het Bevel en hoe te om master en cliënten te plaatsen, verwijs naar [het Gebruiken van de Synchronisatie van het Bevel](using-command-sync.md).
+* **Command Sync voor afspelen van element**
+Met Command Sync kunt u het afspelen tussen verschillende spelers synchroniseren. De spelers kunnen verschillende inhoud afspelen, maar elk element moet dezelfde duur hebben.
+Raadpleeg voor meer informatie over Command Sync en het instellen van master clients en clients [Opdrachtsynchronisatie gebruiken](using-command-sync.md).
 
-* **Health check framework to show status of https and allow empty**
-referenceThe Health Check framework allows the user to check if two necessary configuration (Allow Empty Referrer Requests and Apache Felix Jetty Based HTTP Service) are up before running an AEM Screens project.
+* **Health check framework to show status of https and allow empty reference**
+Met het Health Check-framework kan de gebruiker controleren of twee noodzakelijke configuraties (Allow Empty Referrer Requests en Apache Felix Jetty Based HTTP Service) zijn ingesteld voordat een AEM Screens-project wordt uitgevoerd.
 
-   Raadpleeg [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework) voor meer informatie over Health Check Framework.
+   Voor meer informatie over Health Check Framework raadpleegt u [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Updates voor**
-typen standaardovergangDe eigenschappen van de overgangscomponent, zoals 
-**** Typen is nu standaard ingesteld op  **** Vervagen en  **** Duur  **1600 ms**.
+* **Updates voor standaardovergangstypen**
+De eigenschappen van de overgangscomponent, zoals 
+**Type** is nu ingesteld op **Vervagen** en de **Duur** als **1600 ms**, standaard.
 
-   Raadpleeg [Overgangen toepassen](/help/user-guide/applying-transitions.md) gebruiken voor meer informatie.
+   Zie [Overgangen toepassen](/help/user-guide/applying-transitions.md) Gebruik hoofdletters/kleine letters voor meer informatie.
 
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
@@ -52,6 +56,6 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.4 Pak van de Eigen
 * Windows
 * Android
 
-#### AEM Screens Player-downloads {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
 
-Raadpleeg [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/) voor meer informatie over de opgeloste problemen.
+Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [**Downloads voor AEM Screens Player**](https://download.macromedia.com/screens/).
