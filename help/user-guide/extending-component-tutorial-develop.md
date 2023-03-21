@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 29116a15d5486b2c446cae0d092c4d4b802fe9e7
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ De component van de Poster van de douane wordt gecreeerd door de component van h
 
 U hebt het volgende nodig om deze zelfstudie te voltooien:
 
-1. [AEM 6,4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/release-notes.html) of [AEM 6,3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) + Functiepakket voor nieuwste schermen
+1. AEM 6.5 + het nieuwste pakket met schermfuncties
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokale ontwikkelomgeving
 
-De lesstappen en schermafbeeldingen worden uitgevoerd met behulp van CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/aem-eclipse.html) of [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-64/developing/devtools/ht-intellij.html) IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Meer informatie over het gebruiken van winde aan [ontwikkelen met AEM kunt u hier vinden](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+De lesstappen en schermafbeeldingen worden uitgevoerd met behulp van CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) of [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Meer informatie over het gebruiken van winde aan [ontwikkelen met AEM kunt u hier vinden](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 ## Projectinstelling {#project-setup}
 
