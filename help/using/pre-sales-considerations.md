@@ -1,17 +1,17 @@
 ---
 title: Overwegingen als projecten worden behandeld
-seo-title: Overwegingen als projecten worden behandeld
+seo-title: Considerations as Projects are Scoped
 description: De pagina beschrijft Overwegingen aangezien de Projecten worden gescoord
-seo-description: De pagina beschrijft Overwegingen aangezien de Projecten worden gescoord
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Considerations as Projects are Scoped
+exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
 
-
-# Overwegingen als Projecten {#pre-sales-considerations} worden gesegregeerd
+# Overwegingen als projecten worden behandeld {#pre-sales-considerations}
 
 >[!NOTE]
 >De typische belanghebbende voor deze activiteit is een Marketing/Bedrijfs Strategist.
@@ -19,7 +19,7 @@ ht-degree: 0%
 Deze fase omvat alle inspanningen vóór verkoop en detectie die nodig zijn om het projectbereik volledig te definiëren. Het werk dat tijdens Dag Zero wordt uitgevoerd, zet de toon voor de rest van het project en beïnvloedt het algemene succes van de toepassing die wordt gebouwd.
 In dit stadium, worden de belangrijkste verkopers geïdentificeerd en samengebracht helpen het projectplan opstellen. Het is in deze fase van belang dat ook de inkoop wordt opgezet met belangrijke projectbelanghebbenden binnen het clientbedrijf, zoals Sales Executives, Marketing Managers en IT-teams, aangezien zij allemaal een belangrijke rol zullen spelen bij de ontwikkeling van de toepassing en het verdere onderhoud ervan.
 
-## Belangrijke te leveren items {#key-deliverables}
+## Belangrijkste te leveren items {#key-deliverables}
 
 De belangrijkste resultaten in dit stadium zijn:
 
@@ -31,6 +31,6 @@ De belangrijkste resultaten in dit stadium zijn:
 
 >[!NOTE]
 >
->Identificeer zo snel mogelijk de gegevens die nodig zijn voor de toepassing en waar deze vandaan komt. Tijdens de implementatie wordt dieper ingegaan op de vraag welke gegevens de client wil gebruiken, waar die gegevens momenteel zijn opgeslagen en hoe deze kunnen worden benaderd door de toepassing die wordt gebouwd. Dit neemt echter niet weg dat er tijdens *Day Zero* meer tijd nodig is om te achterhalen welke gegevens de client wil gebruiken. Door het ontwikkelingsteam vooraf op de hoogte te stellen van de uitdagingen die zich in de toekomst kunnen voordoen, wordt de implementatie soepeler verlopen.
+>Identificeer zo snel mogelijk de gegevens die nodig zijn voor de toepassing en waar deze vandaan komt. Tijdens de implementatie zal er dieper worden ingegaan op de situatie, maar neemt u de tijd in *Dagnul* om te weten te komen welke gegevens de cliënt van plan is te gebruiken, waar die gegevens momenteel worden opgeslagen, en hoe het door de toepassing kan worden betreden die wordt gebouwd. Door het ontwikkelingsteam vooraf op de hoogte te stellen van de uitdagingen die zich in de toekomst kunnen voordoen, wordt de implementatie soepeler verlopen.
 
-Raadpleeg de videozelfstudie over [Overwegingen als projecten worden gereproduceerd](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) voor meer informatie.
+Videozelfstudie inschakelen [Overwegingen als projecten worden behandeld](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) voor meer informatie .

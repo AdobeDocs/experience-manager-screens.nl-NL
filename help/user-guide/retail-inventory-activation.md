@@ -1,8 +1,8 @@
 ---
 title: Gerichte activering in de detailhandel
-seo-title: Gerichte activering in de detailhandel
+seo-title: Retail Inventory Targeted Activation
 description: In deze Use Case wordt de voorraad voor de detailhandel getoond voor drie verschillende gekleurde sweatshirts. Afhankelijk van het aantal sweatshirts dat beschikbaar is in voorraad en dat is opgenomen in Google Sheets, wordt de afbeelding (rood, groen of blauw sweatshirt) met het hoogste aantal weergegeven op het scherm.
-seo-description: In deze Use Case wordt de voorraad voor de detailhandel getoond voor drie verschillende gekleurde sweatshirts. Afhankelijk van het aantal sweatshirts dat beschikbaar is in voorraad en dat is opgenomen in Google Sheets, wordt de afbeelding (rood, groen of blauw sweatshirt) met het hoogste aantal weergegeven op het scherm.
+seo-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,13 +10,13 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-feature: Ontwerpschermen
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Voor dit geval van Gebruik, zal de Rood, Groen, of Blauwe trui op uw scherm tone
 
 ## Voorwaarden {#preconditions}
 
-Voordat u begint met het implementeren van de in de handel verkrijgbare activering, moet u leren hoe u ***Gegevensopslag***, ***Audience Segmentation*** en ***Enable Targeting for Channels*** in een AEM Screens-project instelt.
+Voordat u begint met het implementeren van de activering van de inventarisatie voor handelsdoeleinden, moet u leren hoe u de ***Gegevensopslag***, ***Auditiesegmentatie*** en ***Doelstelling voor kanalen inschakelen*** in een AEM Screens-project.
 
-Verwijs naar [het Vormen ContextHub in AEM Screens](configuring-context-hub.md) voor gedetailleerde informatie.
+Zie [ContextHub configureren in AEM Screens](configuring-context-hub.md) voor nadere informatie.
 
 ## Basisstroom {#basic-flow}
 
 Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Retail Inventory te implementeren:
 
-1. **De Google Sheets vullen**
+1. **Google-bladen vullen**
 
    1. Navigeer naar het Google-werkblad ContextHubDemo.
    1. Voeg drie kolommen (Rood, Groen en Blauw) toe met de bijbehorende waarden voor drie verschillende sweatshirts.
@@ -50,33 +50,33 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
 1. **Het publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek van de vestiging*** in **[Het vormen ContextHub in AEM Screens](configuring-context-hub.md)** pagina voor meer details).
+   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: Segmentering publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
 
-   1. Voeg drie nieuwe segmenten **For_Red**, **For_Green** en **For_Blue** toe.
+   1. Drie nieuwe segmenten toevoegen **Voor_rood**, **For_Green**, en **Voor_blauw**.
 
-   1. Selecteer **For_Red** en klik **Edit** in de actiebalk.
+   1. Selecteren **Voor_rood** en klik op **Bewerken** in de actiebalk.
 
-   1. Sleep de **Vergelijking: Bezit - bezit** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteer **googlesheets/value/1/2** in de vervolgkeuzelijst in **Voornaam eigenschap**
+   1. Sleep de **Vergelijking: Eigenschap - Eigenschap** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
+   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Voornaam eigenschap**
 
-   1. Selecteer **Operator** als **groter-dan** van het drop-down menu
+   1. Selecteer **Operator** als **groter dan** in het keuzemenu
 
-   1. Selecteer **Gegevenstype** als **getal**
+   1. Selecteren **Gegevenstype** als **getal**
 
-   1. Selecteer **googlesheets/value/1/1** in de vervolgkeuzelijst in **Tweede eigenschapsnaam**.
+   1. Selecteren **goochelesheets/value/1/1** in de vervolgkeuzelijst **Tweede eigenschapsnaam**.
 
-   1. **een andere vergelijking slepen en neerzetten: Bezit - bezit** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteer **googlesheets/value/1/2** in de vervolgkeuzelijst in **Voornaam eigenschap**.
+   1. Slepen en neerzetten **een andere vergelijking: Eigenschap - Eigenschap** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
+   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Voornaam eigenschap**.
 
-   1. Selecteer **Operator** als **groter-dan** van het drop-down menu
+   1. Selecteer **Operator** als **groter dan** in het keuzemenu
 
-   1. Selecteer **Gegevenstype** als **getal**
+   1. Selecteren **Gegevenstype** als **getal**
 
-   1. Selecteer **googlesheets/value/1/0** in de vervolgkeuzelijst in **Tweede eigenschapsnaam**
+   1. Selecteren **goochelesheets/value/1/0** in de vervolgkeuzelijst **Tweede eigenschapsnaam**
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Op dezelfde manier geef en voeg vergelijkingsbezitsregels aan **For_Blue** segment zoals aangetoond in het hieronder cijfer uit:
+   Op dezelfde manier bewerkt en voegt u vergelijkingseigenschapsregels toe aan **Voor_blauw** segment zoals weergegeven in onderstaande afbeelding:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
@@ -86,32 +86,32 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
    >[!NOTE]
    >
-   >Voor segmenten **For_Green** en **For_Green** kunnen gegevens niet worden opgelost in de editor omdat alleen de eerste vergelijking nu geldig is volgens de waarden in het Google-blad.
+   >U zult merken dat voor segmenten **For_Green** en **For_Green** gegevens kunnen niet worden opgelost in de editor, omdat alleen de eerste vergelijking op dit moment geldig is volgens de waarden in het Google-blad.
 
-1. Navigeer en selecteer uw **DataDrivenRetail** kanaal (een opeenvolgend kanaal) en klik **Edit** van de actiebar.
+1. Navigeer en selecteer uw **DataDrivenRetail** kanaal (een volgend kanaal) en klik op **Bewerken** in de actiebalk.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
    >[!CAUTION]
    >
-   >U zou opstelling uw **ContextHub** **Configuraties** moeten hebben gebruikend het kanaal **Eigenschappen** —> **Personalization** tabel.
+   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** —> **Personalisatie** tab.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   U moet zowel **Merk** als **Gebied** voor de activiteiten selecteren om behoorlijk te worden vermeld wanneer u het Targeting proces begint.
+   U moet beide opties selecteren **Merk** en de **Gebied** voor de activiteiten die correct moeten worden vermeld wanneer u het Targeting proces begint.
 
 1. **Een standaardafbeelding toevoegen**
 
-   1. Voeg een standaardafbeelding toe aan uw kanaal en klik op **Doelafbeelding**.
-   1. Selecteer **Merk** en **Activiteit** van het drop-down menu en klik **Begin richten**.
+   1. Voeg een standaardafbeelding toe aan uw kanaal en klik op **Doelstelling**.
+   1. Selecteren **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
 
-   1. Klik **Beginnen met richten**.
+   1. Klikken **Doelstelling starten**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   Voordat u de doelframes maakt, moet u de segmenten (**For_Green**, **For_Red** en **For_Blue**) toevoegen door te klikken op **+ Add Experience Targeting** vanuit de zijspoor, zoals in de onderstaande afbeelding wordt getoond.
+   Voordat u de doelframes gaat opgeven, moet u de segmenten toevoegen (**For_Green**, **Voor_rood**, en **Voor_blauw**) door op **+ Toevoeging Ervaring richten** van de zijspoorstaaf, zoals aangegeven in onderstaande figuur.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -121,6 +121,6 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
 1. **De voorvertoning controleren**
 
-   1. Klik op **Voorvertoning.** Open ook uw Google-werkblad en werk de waarde ervan bij.
+   1. Klikken **Voorvertoning.** Open ook het Google-werkblad en werk de waarde ervan bij.
    1. Wijzig de waarde voor alle drie de kolommen en u ziet hoe de afbeelding van de weergave wordt bijgewerkt volgens de hoogste waarde in de voorraad.
    ![retail_result](assets/retail_result.gif)

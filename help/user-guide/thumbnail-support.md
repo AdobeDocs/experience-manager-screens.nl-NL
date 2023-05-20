@@ -32,7 +32,7 @@ Voer de onderstaande stappen uit om miniaturen in video&#39;s te gebruiken:
 
 1. Navigeer naar een bestaand rasterkanaal of maak een nieuw kanaal.
 
-1. Selecteer het kanaal en klik op **Edit** van de actiebar om de redacteur te openen.
+1. Selecteer het kanaal en klik op **Bewerken** in de actiebalk om de editor te openen.
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,19 +40,19 @@ Voer de onderstaande stappen uit om miniaturen in video&#39;s te gebruiken:
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Selecteer de video en klik op het *moersleutelpictogram* om de video-eigenschappen te openen.
+1. Selecteer de video en klik op de knop *moersleutel* om de video-eigenschappen te openen.
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. Het dialoogvenster **Video** wordt geopend waar u de neerzetzone **Miniatuur** wilt weergeven.
+1. De **Video** wordt het dialoogvenster geopend waarin u het dialoogvenster **Miniatuur** dropzone.
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Sleep een afbeelding van de elementenkiezer naar de neerzetzone **Miniatuur** en klik op **Done**.
+1. Sleep een afbeelding van de elementkiezer naar de **Miniatuur** dropzone en klik op **Gereed**.
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Klik op **Voorvertoning**.
+1. Klikken op **Voorvertoning**.
 
 1. Als een video op de component wordt geplaatst, zal de video spelen. Als dat niet het geval is en de miniatuur is ingesteld, wordt de miniatuur afgespeeld. Anders wordt de component beschouwd als niet gevormd en zal worden overgeslagen.
 

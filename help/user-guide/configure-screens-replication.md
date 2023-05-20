@@ -3,13 +3,13 @@ title: Apparaten voor schermreplicatie configureren
 description: Volg deze pagina om informatie te krijgen over hoe te om de Agenten van de Replicatie van het Scherm te vormen.
 role: Developer
 level: Intermediate
-source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
+exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
+source-git-commit: 93bbffa2d752bfbd92702487802d40e7e8e287b8
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 3%
 
 ---
-
 
 # Apparaten voor schermreplicatie configureren {#configuring-screens-replication-agent}
 

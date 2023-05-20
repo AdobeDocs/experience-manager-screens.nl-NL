@@ -1,21 +1,21 @@
 ---
 title: AEM Screens-berichtenservice
-seo-title: AEM Screens-berichtenservice
+seo-title: AEM Screens Notifications Service
 description: Volg deze pagina voor meer informatie over hoe u de apparaatactiviteit kunt controleren.
-seo-description: Volg deze pagina voor meer informatie over hoe u de apparaatactiviteit kunt controleren.
+seo-description: Follow this page to learn more about how you can monitor device activity.
 uuid: 9843219d-ed39-4e4f-bef4-e500528ff9f1
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
-feature: Ontwerpschermen
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***AEM Screens Notifications Service***, beschrijft de functie waarmee u de apparaatactiviteit kunt controleren.
+***AEM Screens-berichtenservice***, beschrijft de functie waarmee u de apparaatactiviteit kunt controleren.
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
@@ -41,7 +41,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 ## Overzicht {#overview}
 
-***Met AEM Screens Notifications Service*** kunnen beheerders een e-mail ontvangen als een AEM screens player niet pingelt gedurende een configureerbare periode.
+***AEM Screens-berichtenservice***, stelt beheerders in staat een e-mail te ontvangen als een AEM schermspeler niet pingelt gedurende een configureerbare periode.
 
 Deze dienst kan in de OSGi Webconsole worden gevormd.
 
@@ -49,44 +49,44 @@ Deze dienst kan in de OSGi Webconsole worden gevormd.
 
 Voer de onderstaande stappen uit om de instellingen voor e-mailmeldingen te configureren:
 
-1. Open **Adobe Experience Manager Web Console Configuration**.
-1. Open **Screens Device Email Monitoring Service**.
+1. Openen **Configuratie Adobe Experience Manager-webconsole**.
+1. Openen **E-mailbewakingsservice van apparaat weergeven**.
 
    ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. Definieer de volgende velden om uw instellingen voor de e-mail te configureren:
 
-   **Apparaten** PadVoer het pad in naar de schermprojecten die u wilt controleren. Het pad is meestal `/home/users/screens/<Name of your project>`.
+   **Pad naar apparaat** Voer het pad in naar de schermprojecten die u wilt controleren. Het pad is meestal `/home/users/screens/<Name of your project>`.
 
-   Als uw project bijvoorbeeld **We.Retail** is, gebruikt u het projectpad als ***/home/users/screens/we-retail***.
+   Als uw project bijvoorbeeld **Wij.Detailhandel**, gebruikt u het projectpad als ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
    >Geef het projectpad op waarin de apparaatgebruikers zich bevinden.
 
-   **PlanningsfrequentieGeef een tijd (bijv. 17:00 uur of 17:00 uur) of frequentie op in uren (bijv. 1) waarop deze monitor e-mails moet verzenden.** 
+   **Planningsfrequentie** Geef een tijd (bijv. 17:00 uur of 15:00 uur) of frequentie op in uren (bijv. 1) waarop deze monitor e-mails moet verzenden.
 
-   **Ping** TimeoutThis specificeert het interval in notulen waarna een apparaat als niet bereikbaar zou moeten worden beschouwd.
+   **Time-out pingel** Dit specificeert het interval in notulen waarna een apparaat als niet bereikbaar zou moeten worden beschouwd.
 
-   **SMTP** ServerSpecificeert de Server SMTP die voor het verzenden van e-mails wordt gebruikt.
+   **SMTP-server** Specificeert de Server SMTP die voor het verzenden van e-mails wordt gebruikt.
 
-   **SMTP** PortEnter de Haven SMTP.
+   **SMTP-poort** Ga de Haven SMTP in.
 
-   **Met TLS (** TLSTransport Layer Security) kunt u een veilige communicatie met de SMTP-server gebruiken.
+   **TLS gebruiken** De Veiligheid van de Laag van het vervoer (TLS) laat u toe om een veilige communicatie met de Server te gebruiken SMTP.
 
    Het wordt aanbevolen TLS te gebruiken voor een veilige verbinding met bedrijfsmailservers. Vraag uw e-mailbeheerder om de juiste waarden.
 
-   **** gebruikersnaamGeef de gebruikersnaam op voor het verzenden van e-mails.
+   **gebruikersnaam** Geef de gebruikersnaam op voor het verzenden van e-mails.
 
-   **** wachtwoordGeef het wachtwoord op voor het verzenden van e-mails.
+   **password** Geef het wachtwoord op voor het verzenden van e-mails.
 
-   **** OntvangerGeef het e-mailadres van de ontvanger op.
+   **Ontvanger** Geef het e-mailadres van de ontvanger op.
 
    >[!NOTE]
    >
    >U kunt slechts één e-mailadres invoeren. Als u een grote hoeveelheid e-mail wilt verzenden, maakt u een groep- of distributielijst met de relevante gebruikers.
 
-1. Klik **Opslaan** om de monitoractiviteit te configureren via een e-mail voor uw AEM Screens-apparaat.
+1. Klikken **Opslaan** om de monitoractiviteit door een e-mail voor uw AEM Screens apparaat te vormen.
 
 ## E-mailmelding {#email-notification}
 

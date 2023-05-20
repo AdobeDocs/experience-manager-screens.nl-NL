@@ -1,8 +1,8 @@
 ---
-title: '"Deel 4: Projectbeheer en -implementatie"'
-seo-title: '"Deel 4: Projectbeheer en -implementatie"'
+title: "Deel 4: Projectbeheer en -implementatie"
+seo-title: "Part 4: Project Management and Deployment"
 description: Volg deze zelfstudie om meer te leren over projectbeheer en de voorbereiding van de implementatie (projectvoorbereiding, projectinitiatie, projectvoortgang). Bovendien, krijg om te weten hoe het projectwerkingsgebied en het programma samen met het verzamelen van informatie over verkoper, interne arbeid, en besnoeiingen-bladen worden bepaald.
-seo-description: Volg deze zelfstudie om meer te leren over projectbeheer en de voorbereiding van de implementatie (projectvoorbereiding, projectinitiatie, projectvoortgang). Bovendien, krijg om te weten hoe het projectwerkingsgebied en het programma samen met het verzamelen van informatie over verkoper, interne arbeid, en besnoeiingen-bladen worden bepaald.
+seo-description: Follow this tutorial to learn about project management and deployment preparation (project pre-production, project initiation, project progression). Additionally, get to know how the project scope and schedule is defined along with gathering information on vendor, internal labor, and cut-sheets.
 uuid: 44ff4d2b-c9bf-47f4-a14c-9f11554e3182
 contentOwner: jsyal
 content-type: reference
@@ -10,13 +10,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
-feature: Overzicht
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Het is belangrijk dat alle belanghebbenden begrijpen waarvoor de AV-integrator v
 
 ## Overzicht van alle drie fasen in Projectbeheer {#summary-of-all-three-phases-in-project-management}
 
-Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren. Deze stadia worden algemeen bedoeld als ***dagen***.
+Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren. Deze fasen worden gewoonlijk aangeduid als ***dagen***.
 
 ### Dagnulactiviteiten {#day-zero-activities}
 
-De eerste fase wordt aangeduid als ***Day Zero***. In deze fase zijn alle pre-sales- en ontdekkingsinspanningen inbegrepen die nodig zijn om het toepassingsgebied van de projecten volledig te definiëren. De tweede fase, dag één, verwijst naar alle activiteiten die deel uitmaken van de inzet. Tot slot verwijst Dag Twee naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
+De eerste fase wordt ***Dagnul***. In deze fase zijn alle pre-sales- en ontdekkingsinspanningen inbegrepen die nodig zijn om het toepassingsgebied van de projecten volledig te definiëren. De tweede fase, dag één, verwijst naar alle activiteiten die deel uitmaken van de inzet. Tot slot verwijst Dag Twee naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
 
 De activiteiten van Zero van de dag omvatten pre-Verkoop, de Ontdekking van de Cliënt, de Analyse van de Vereisten van de Toepassing, en de definitie van het Toepassingsgebied van het Project. Deze fase kan ook initiële betrokkenheid en definitie van projectvereisten voor projectbeheer omvatten, ter voorbereiding op implementatie.
 
@@ -60,7 +60,7 @@ Dag Zero bestaat uit acht belangrijke stappen voor alle aspecten van de oprijpla
 
 ### Dag 1 Activiteiten {#day-one-activities}
 
-De tweede fase, ***Dag één***, verwijst naar alle activiteiten die deel uitmaken van de implementatie-inspanning. Een ander belangrijk technisch document voor een succesvol project is de Grafiek van plaatsingsGantt.
+de tweede fase, ***Dag één***, verwijst naar alle activiteiten die deel uitmaken van de inzet. Een ander belangrijk technisch document voor een succesvol project is de Grafiek van plaatsingsGantt.
 
 Als overgangen van de verkoopkans aan een project, is een kickoff vergadering gepland om te bevestigen:
 
@@ -92,4 +92,4 @@ Volg deze zelfstudie om meer te weten te komen over projectbeheer en de voorbere
 
 Zodra u met zeer belangrijke overwegingen het Beheer van het Project voor de Plaatsingen van AEM Screens grondig bent;
 
-Navigeer naar **[Deel 5: Overdenkingen van de steun](support-considerations.md)** om de Steun van Dag 2 en de processen te begrijpen betrokken.
+Navigeren naar **[Deel 5: Overwegingen voor ondersteuning](support-considerations.md)** om inzicht te krijgen in de ondersteuning op dag 2 en de processen die hiermee gepaard gaan.

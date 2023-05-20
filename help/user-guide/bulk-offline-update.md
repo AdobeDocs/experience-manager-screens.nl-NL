@@ -1,8 +1,8 @@
 ---
 title: Bulk offline bijwerken
-seo-title: Bulk offline bijwerken
+seo-title: Bulk Offline Update
 description: Volg deze pagina om te leren hoe u alle kanalen in bulk kunt bijwerken.
-seo-description: Volg deze pagina om te leren hoe u alle kanalen in bulk kunt bijwerken.
+seo-description: Follow this page to learn how you can update all the channels in bulk.
 uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
 contentOwner: jsyal
 content-type: reference
@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
-feature: Ontwerpschermen
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ U kunt bulk off-line update van het Gebruikersinterface (UI) manueel gebruiken o
 Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een AEM Screens-project:
 
 1. Navigeer naar uw AEM Screens-project.
-1. Selecteer het project en klik **Offline inhoud bijwerken** van de actiebar om de kanaalinhoud manueel bij te werken.
+1. Selecteer het project en klik op **Offline inhoud bijwerken** in de actiebalk om de kanaalinhoud handmatig bij te werken.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -68,7 +68,7 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
 
 1. Voeg de volgende eigenschappen toe:
 
-   **Projectpad** opgevenGeef het pad van uw AEM Screens-project op. Het pad is meestal `/content/screens/<Name of your project>`.
+   **Projectpad** Geef het pad van uw AEM Screens-project op. Het pad is meestal `/content/screens/<Name of your project>`.
 
    *Bijvoorbeeld*, `/content/screens/we-retail`. U kunt dit pad vinden in de URL door een willekeurig project te selecteren onder AEM Screens (klik niet op het pictogram).
 
@@ -76,6 +76,6 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
    >
    >Geef het projectpad op ten opzichte van het kanaal.
 
-   **Plan** FrequencyGeef een tijd op, bijvoorbeeld 17:00 pm of 5:00 pm, waarop deze service offline-inhoud moet bijwerken.
+   **Planningsfrequentie** Geef een tijd op, bijvoorbeeld 17:00 of 15:00, waarop deze service offline-inhoud moet bijwerken.
 
-1. Klik op **Opslaan** om uw instellingen op te slaan en uw inhoud wordt op het opgegeven tijdstip bijgewerkt.
+1. Klikken **Opslaan** om uw instellingen op te slaan, wordt uw inhoud op het opgegeven tijdstip bijgewerkt.

@@ -1,15 +1,15 @@
 ---
 title: Gegevenstriggers
-seo-title: Gegevenstriggers
+seo-title: Data Triggers
 description: De pagina beschrijft gegevenstrriggers
-seo-description: De pagina beschrijft gegevenstrriggers
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes data triggers
+exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
-
 
 # Dynamische creatieve optimalisaties {#dynamic-creative}
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >De meest gangbare belanghebbenden voor deze activiteit zijn een AEM Implementor.
 
-**Dynamische Creative** Optimizationor DCO, wordt gebruikt om digitale signaalervaringen tot stand te brengen die de unieke omstandigheden van om het even welke bepaalde plaats op om het even welk bepaald ogenblik en voor om het even welke bepaalde gebruiker weerspiegelen.
+**Dynamic Creative Optimization** DCO, wordt gebruikt om digitale signaalervaringen tot stand te brengen die de unieke omstandigheden van om het even welke bepaalde plaats op om het even welk bepaald tijdstip en voor om het even welke bepaalde gebruiker weerspiegelen.
 
 Dit wordt ook wel &#39;Afvlakken aan clientzijde&#39; van inhoud genoemd.
 
@@ -38,6 +38,5 @@ Het hebben van een visuele handelsstrategie die DCO omvat kan netwerkkijkers dra
 
 Er zijn twee hoofdtypen gegevenstriggers:
 
-* **Lokale gegevenstriggers**: Deze gegevenstriggers zijn lokaal op het apparaat. Als u bijvoorbeeld op het scherm tikt, wordt een sensor geactiveerd die het lokale gegevenselement of de kanaalschakelaar activeert.
+* **Triggers voor lokale gegevens**: Deze gegevenstriggers zijn lokaal op het apparaat. Als u bijvoorbeeld op het scherm tikt, wordt een sensor geactiveerd die het lokale gegevenselement of de kanaalschakelaar activeert.
 * **Externe gegevenstriggers**: Dit omvatte gegevens activeerde kanaalschakelaar of een activaschakelaar die op waarden door de Dienst API van het Web zijn teruggekeerd.
-

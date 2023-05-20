@@ -1,24 +1,24 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 201809
-seo-title: Opmerkingen bij de release voor Feature Pack 201809
+seo-title: Release Notes for Feature Pack 201809
 description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 201809 dat op 1 oktober 2018 is uitgebracht.
-seo-description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 201809 dat op 1 oktober 2018 is uitgebracht.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
 uuid: 48240e27-e4c2-48bc-bcca-2a2ec93edc47
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
-feature: Functiepakket
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release voor Feature Pack 201809 {#release-notes-for-feature-pack}
 
@@ -32,16 +32,16 @@ De AEM Screens heeft AEM 6.4.2 Feature Pack 2 en AEM 6.3.3 Feature Pack 4 uitgeb
 
 De releasedatum voor AEM Screens Feature Pack 201809 is 1 oktober 2018.
 
-### Wat is er nieuw?{#what-s-new}
+### Wat is er nieuw? {#what-s-new}
 
-* **Adobe Analytics Proof Play-rapportage**: Raadpleeg  [Adobe Analytics Integration with AEM ](adobe-analytics-integration-aem-screens.md) Screenstents voor meer informatie.
+* **Adobe Analytics Proof Play Reporting**: Zie [Adobe Analytics-integratie met AEM Screens](adobe-analytics-integration-aem-screens.md) voor meer informatie.
 
-* **Adobe Analytics Enable Players to cache and send playback events to Adobe Analytics**: Raadpleeg  [Adobe Analytics configureren met AEM ](configuring-adobe-analytics-aem-screens.md) screenstents voor meer informatie.
+* **Adobe Analytics Enable Players to cache and send playback events to Adobe Analytics**: Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie.
 
-* **Offlineinhoud** voor bulkupdate: Hiermee kunt u alle kanalen bulksgewijs bijwerken en het navigeren naar een bepaald kanaal vermijden en de inhoud bijwerken. Raadpleeg [Bulk Offline update](bulk-offline-update.md) voor meer informatie.
+* **Offline inhoud bulksgewijs bijwerken**: Hiermee kunt u alle kanalen bulksgewijs bijwerken en het navigeren naar een bepaald kanaal vermijden en de inhoud bijwerken. Zie [Bulk offline bijwerken](bulk-offline-update.md) voor meer informatie.
 
 * **Publicatiekanalen bulken om instanties te publiceren**
-* **Enhanced Player Logging Mechanism**: U kunt het maximale aantal logbestanden voor een AEM Screens-speler opgeven. Raadpleeg [Werken met een AEM Screens Player](working-with-screens-player.md) voor meer informatie.
+* **Verbeterd Player Logging Mechanisme**: U kunt het maximale aantal logbestanden voor een AEM Screens-speler opgeven. Zie [Werken met een AEM Screens Player](working-with-screens-player.md) voor meer informatie .
 
 * **Implementatie voor auteur/publicatie (verscherpen)**
 
@@ -54,6 +54,6 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.4.2 Feature Pack 2
 * Android
 * iOS
 
-#### AEM Screens Player-downloads {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player {#aem-screens-player-downloads}
 
-Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [AEM Screens Player Downloads](https://download.macromedia.com/screens/).
+Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/).

@@ -1,15 +1,15 @@
 ---
 title: Reiskaart
-seo-title: Reiskaart voor AEM Screens
+seo-title: Journey Map for AEM Screens
 description: De pagina beschrijft Journey Map voor AEM Screens
-seo-description: De pagina beschrijft Journey Map voor AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Journey Map for AEM Screens
+exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
-
 
 # UX-reiskaart {#journey-map}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Een kaart van de Ervaring van de Gebruiker wordt ontworpen om zicht in te verstrekken hoe en waarom de gebruikers de digitale inhoud die door het netwerk wordt geleverd zullen ervaren.
 
-## De UX-reiskaart opbouwen {#building-map}
+## De UX-reiskaart samenstellen {#building-map}
 
 Een sterk inzicht in hoe de consumenten met een digitaal signaalnetwerk in een fysieke ruimte zullen communiceren is essentieel voor het succes en de waarde die door dat netwerk worden geleverd. Het helpt ook om te begrijpen hoe de digitale ervaringen binnen de context van alle andere kanalen zullen worden verbruikt een klant kan ontmoeten.
 

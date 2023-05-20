@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Rapport Inhoudstoewijzing {#content-assignment-report}
 
-Met de functie Rapport voor inhoudstoewijzing kan een AEM Screens-beheerder of auteur een *Rapport voor inhoudstoewijzing* exporteren in een spreadsheetindeling.
+Met de functie Rapport voor toewijzing van inhoud kan een AEM Screens-beheerder of auteur een *Rapport Inhoudstoewijzing* in spreadsheetformaat.
 
 ## Rapport Inhoudstoewijzing gebruiken {#using-content-assignment-report}
 
@@ -45,19 +45,19 @@ Als u uw AEM Screens-project hebt ingesteld en vertoningen hebt toegewezen aan e
 
 Volg de onderstaande instructies om het Rapport Inhoudstoewijzing te downloaden:
 
-1. Navigeer naar uw AEM Screens-project en selecteer het project **DemoScreens**.
+1. Ga naar uw AEM Screens-project en selecteer het project **DemoScreens**.
 
-1. Klik op **Rapport Inhoudstoewijzing** in de actiebalk.
+1. Klikken op **Rapport Inhoudstoewijzing** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Het gedownloade spreadsheet bestaat uit twee tabbladen, zoals **Locations** en **Content**. Het lusje van de Plaats toont vier kolommen zoals **Plaatsen**, **Vertoningen**, **Kanalen**, en **Apparaten** die kunnen worden gebruikt om deze vier entiteiten met betrekking tot uw project van AEM Screens verder te onderzoeken.
+1. Het gedownloade werkblad bestaat uit twee tabbladen, zoals **Locaties** en **Inhoud**. Op het tabblad Locatie worden vier kolommen weergegeven, zoals **Locaties**, **Weergaven**, **Kanalen**, en **Apparaten** die gebruikt kunnen worden om deze vier entiteiten met betrekking tot uw AEM Screens-project nader te onderzoeken.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
    >De weergegeven gegevens in het werkblad worden alfabetisch gesorteerd in een leesbare indeling.
 
-1. U kunt op om het even welke kanalen van **Kanalen** kolom klikken om het **Inhoud** lusje te openen dat u aan dat kanaal direct zal navigeren en u ook informatie over activa (beelden en video&#39;s) verbonden aan dat specifieke kanaal, zoals aangetoond in het hieronder cijfer zal verstrekken.
+1. U kunt op elk kanaal klikken vanuit het **Kanalen** kolom om de **Inhoud** die u rechtstreeks naar dat kanaal navigeert en u ook informatie geeft over elementen (afbeeldingen en video&#39;s) die aan dat specifieke kanaal zijn gekoppeld, zoals in de onderstaande afbeelding wordt getoond.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

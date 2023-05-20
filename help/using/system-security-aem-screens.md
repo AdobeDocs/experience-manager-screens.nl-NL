@@ -1,18 +1,17 @@
 ---
 title: Beveiligingscontrolelijst voor AEM Screens
-seo-title: Beveiligingscontrolelijst voor AEM Screens
+seo-title: Security Checklist for AEM Screens
 description: De pagina beschrijft de lijst met beveiligingscontroles voor AEM Screens
-seo-description: De pagina beschrijft de lijst met beveiligingscontroles voor AEM Screens
-translation-type: tm+mt
+seo-description: The page describes Security Checklist for AEM Screens
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 
-# Overwegingen bij systeembeveiliging voor AEM Screens {#security-checklist}
+# Overwegingen met betrekking tot systeembeveiliging voor AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
 >Dit is een interne Git Resource.
@@ -20,12 +19,12 @@ ht-degree: 0%
 Deze pagina benadrukt de Overwegingen van de Veiligheid van het Systeem voor AEM Screens.
 
 
-## Whitepaper voor AEM Screens Security {#white-paper}
+## Witboek voor AEM Screens-beveiliging {#white-paper}
 
 In deze sectie wordt het witboek beschreven. (Bijlage witboek in behandeling)
 
 
-## Veelgestelde vragen voor AEM Screens Security {#faqs-screens}
+## Veelgestelde vragen over beveiliging van AEM Screens {#faqs-screens}
 
 De volgende veelgestelde vragen gaan uit van een geverifieerde, geregistreerde spelerarchitectuur die HTTPS gebruikt als communicatieprotocol tussen speler en AEM Server.
 

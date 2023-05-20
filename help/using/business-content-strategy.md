@@ -1,17 +1,17 @@
 ---
-title: Business Content Strategy voor [!UICONTROL AEM Screens]
-seo-title: Business Content Strategy voor [!UICONTROL AEM Screens]
+title: Business Content-strategie voor [!UICONTROL AEM Screens]
+seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: In de handleiding wordt de strategie voor zakelijke content beschreven
-seo-description: In deze handleiding wordt de strategie voor zakelijke content beschreven
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The guide describes Business Content Strategy
+exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
-
-# Business Content Strategy {#business-content}
+# Zakelijke inhoudsstrategie {#business-content}
 
 >[!NOTE]
 >

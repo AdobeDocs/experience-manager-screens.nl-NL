@@ -1,8 +1,8 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 201907
-seo-title: Opmerkingen bij de release voor Feature Pack 201907
+seo-title: Release Notes for Feature Pack 201907
 description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 201907, uitgebracht op 31 juli 2019.
-seo-description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 201907, uitgebracht op 31 juli 2019.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
 uuid: e5349c92-d532-4f04-a757-7c4545cdb074
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,16 +10,16 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
-feature: Functiepakket
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release voor Feature Pack 201907 {#release-notes-for-feature-pack}
 
@@ -33,19 +33,19 @@ AEM Screens heeft AEM 6.4.5 Feature Pack 5 en AEM 6.5.1 Feature Pack 1 uitgebrac
 
 De releasedatum voor AEM Screens Feature Pack 201907 is 31 juli 2019.
 
-### Wat is er nieuw?{#what-s-new}
+### Wat is er nieuw? {#what-s-new}
 
 * **Data Triger drijft activaverandering in een kanaal van AEM Screens**
 
 De speler schakelt over naar een kanaal met de informatie over noodgevallen bij ontvangst van een gebeurtenis die door het noodsysteem is geactiveerd. Het kanaal speelt uitsluitend tot de noodsituatie voorbij is.
 
-Raadpleeg [Noodkanaal](emergency-channel.md) Gebruiksscenario voor implementatie.
+Zie [Noodkanaal](emergency-channel.md) Gebruik hoofdletters/kleine letters voor implementatie.
 
 * **Doelstelling ingeschakeld voor asynchrone componenten
 
 Het richten kan nu voor activa worden toegelaten die in het project van AEM Screens worden gebruikt.
 
-Meer over leren hoe u het richten voor activa in het project van AEM Screens kunt toelaten, verwijs naar [het Vormen ContextHub in AEM Screens](configuring-context-hub.md).
+Voor meer informatie over hoe u het richten voor activa in het project van AEM Screens kunt toelaten, verwijs naar [ContextHub configureren in AEM Screens](configuring-context-hub.md).
 
 Nadat u ContextHub voor uw project van AEM Screens hebt gevormd, volg verschillende gebruiksgevallen om te begrijpen hoe de gegevens teweeggebrachte activa een vitale rol in verschillende industrieën spelen:
 
@@ -62,11 +62,11 @@ De updatehandler parseert nu de ervaringsfragmenten en verzamelt alle afbeelding
 * **Lanceringen**
 
 Met Launches kunnen auteurs van inhoud een toekomstige versie van de kanalen maken. Met behulp van lanceringen, kunnen de auteurs elk kanaal in de lancering voorproef en een verzoek tot overzicht in werking stellen. De groep van fiatteurs zal bericht krijgen en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
-Raadpleeg [Launches](launches.md) voor meer informatie.
+Zie [Starten](launches.md) voor meer informatie .
 
 * **Offlineconfiguraties in Experience Fragments**
 
-U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen terwijl u het fragment voor schermbeleving configureert. Raadpleeg [Ervingsfragmenten gebruiken](experience-fragments-in-screens.md) voor meer informatie.
+U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen terwijl u het fragment voor schermbeleving configureert. Zie [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md) voor meer informatie .
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
@@ -76,6 +76,6 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.4.5 Feature Pack 5
 * Windows
 * Android
 
-#### AEM Screens Player-downloads {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
 
-Raadpleeg [AEM Screens Player Downloads](https://download.macromedia.com/screens/) voor meer informatie over de opgeloste problemen.
+Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/).

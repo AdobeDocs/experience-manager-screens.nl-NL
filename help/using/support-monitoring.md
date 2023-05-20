@@ -1,15 +1,15 @@
 ---
 title: Ondersteuningscontrole
-seo-title: Ondersteuningscontrole voor AEM Screens
+seo-title: Support Monitoring for AEM Screens
 description: De pagina beschrijft Support Monitoring for AEM Screens Best Practices Guide
-seo-description: De pagina beschrijft Support Monitoring for AEM Screens Best Practices Guide
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Support Monitoring for AEM Screens Best Practices Guide
+exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # Ondersteuningscontrole {#support-monitoring}
 
@@ -26,24 +26,23 @@ Met contentcontrole kunt u problemen oplossen met betrekking tot inhoud die niet
 
 1. Als een probleem met een leeg scherm wordt aangetroffen:
 
-   * Controleer *voorvertoning* om te zien of het kanaal een zwart scherm toont
-   * Registreer een *lokale chroomspeler* (als uitbreiding) op uw laptop aan dat scherm en controleer of dat een zwart scherm toont.
-   * Klik met de rechtermuisknop en controleer *toepasbare logbestanden*.
+   * Controleren *voorvertoning* om te zien of toont het kanaal een zwart scherm
+   * Een *lokale chroomspeler* (als extensie) op uw laptop naar dat beeldscherm en controleer of dat een zwart scherm weergeeft.
+   * Klikken met rechtermuisknop en controleren en controleren *toepasselijke stamboeken*.
 
    Als dit niet gebeurt op de lokale speler, maar alleen op het apparaat:
 
-   * Controleer *mediatype* (wordt gebruikt) dat mogelijk problemen heeft op dat apparaat en bevestig ook of de inhoud lokaal is gedownload (de cache van de beheerdersinterface is leeg).
-   * Neem *apparaatlogboeken* op in het ticket voor snelle probleemoplossing.
-   * *Verzamel* logsgegevens van het apparaat van AEM.
+   * Controleren *mediatype* (wordt gebruikt) die problemen kunnen hebben op dat apparaat en ook bevestigen of de inhoud lokaal is gedownload (de cache van het beheerdersinterface is leeg).
+   * Inclusief alle *apparaatlogboeken* in het kaartje voor het snelle oplossen van problemen.
+   * *Logboeken verzamelen* van het apparaat AEM.
 
 
-## Apparaatbewaking {#device-monitoring}
+## Apparaatcontrole {#device-monitoring}
 
 Apparaatbewaking met betrekking tot de bewaking van het fysieke apparaat als er een probleem optreedt met een leeg scherm:
 
 1. Als een probleem met een leeg scherm wordt aangetroffen:
 
-   * Controleer of *display* is ingeschakeld.
-   * Controleer of de *computer* is ingeschakeld en een signaal verzendt.
-   * Klik met de rechtermuisknop, controleer en controleer *toepasbare logbestanden*.
-
+   * Controleer of de *display* is ingeschakeld.
+   * Controleer of de *computer* wordt aangedreven en verzendt signaal.
+   * Klikken met rechtermuisknop, controleren en controleren *toepasselijke stamboeken*.

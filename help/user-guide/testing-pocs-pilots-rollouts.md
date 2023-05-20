@@ -1,8 +1,8 @@
 ---
-title: '"Deel 3: Testen, concepttest, piloten en rollouts"'
-seo-title: '"Deel 3: Testen, concepttest, piloten en rollouts"'
+title: "Deel 3: Testen, concepttest, piloten en rollouts"
+seo-title: "Part 3: Testing, POCs, Pilots & Rollouts"
 description: Volg deze zelfstudie om de belangrijkste termen met betrekking tot een algemeen projectplan te leren, zoals projectcyclus, acties met betrekking tot hardwaretests, concepttest, piloten en rollouts.
-seo-description: Volg deze zelfstudie om de belangrijkste termen met betrekking tot een algemeen projectplan te leren, zoals projectcyclus, acties met betrekking tot hardwaretests, concepttest, piloten en rollouts.
+seo-description: Follow this tutorial to learn the key terms involved in an overall project plan such as project cycle, actions surrounding hardware testing, Proof Of Concept, pilots and rollouts.
 uuid: 8e9b4f8f-cc09-4cd6-9465-c8eedb639dd8
 contentOwner: jsyal
 content-type: reference
@@ -10,13 +10,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
-feature: Overzicht
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -78,4 +78,4 @@ Al deze fasen als onderdeel van het algemene projectplan zullen helpen bij het b
 
 Wanneer u grondig met het testen, het Bewijs van Concept, proefprogramma&#39;s en rollen bent, volg het volgende leerprogramma dat diep in het Beheer van het Project en de betrokken processen duikt.
 
-Navigeer naar **[Deel 4: Projectbeheer en -implementatie](project-management-and-deployment.md)** voor meer informatie.
+Navigeren naar **[Deel 4: Projectbeheer en -implementatie](project-management-and-deployment.md)** voor meer informatie .

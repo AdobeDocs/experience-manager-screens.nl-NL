@@ -1,8 +1,8 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 201905
-seo-title: Opmerkingen bij de release voor Feature Pack 201905
+seo-title: Release Notes for Feature Pack 201905
 description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 201905 dat op 16 mei 2019 is uitgebracht.
-seo-description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 201905 dat op 16 mei 2019 is uitgebracht.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201905 released on May 16, 2019.
 uuid: ebbaa7bb-4672-4a07-bcb7-67a778c72db8
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,16 +10,16 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 1209bd96-9de5-428e-a1b5-950507e66c0b
 docset: aem65
-feature: Functiepakket
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release voor Feature Pack 201905 {#release-notes-for-feature-pack}
 
@@ -33,33 +33,33 @@ De AEM Screens heeft AEM 6.3.3.3 Feature Pack 6 en AEM 6.4.4.0 Feature Pack 4 ui
 
 De releasedatum voor AEM Screens Feature Pack 201905 is 16 mei 2019.
 
-### Wat is er nieuw?{#what-s-new}
+### Wat is er nieuw? {#what-s-new}
 
 * **Project importeren**
 
 De Importeur van het project is een eigenschap beschikbaar in AEM Screens die u toestaat om een reeks plaatsen van een spreadsheet CSV/XLS aan uw project van AEM Screens in bulk in te voeren.
 
-Raadpleeg **[Nieuwe projectimportmodule van bestand](project-importer.md)** voor meer informatie.
+Zie **[Nieuwe importmodule voor project uit bestand](project-importer.md)** voor meer informatie .
 
 * **Overstappen van ContentSync naar SmartSync**
 
 SmartSync minimaliseert serverlading/opslag en netwerkverkeer om kosten te drukken.
 
-Raadpleeg **[Overgang van ContentSync naar SmartSync](smartsync.md)** voor meer informatie.
+Zie **[Overstappen van ContentSync naar SmartSync](smartsync.md)** voor meer informatie .
 
 * **Noodkanaal**
 
 In dit gebruiksscenario wordt bij het maken en beheren van een noodkanaal benadrukt dat de auteur van de inhoud in geval van een voorwaarde van een volgnummer kan wisselen.
 
-Raadpleeg **[Noodkanaal](emergency-channel.md)** Gebruiksscenario voor meer informatie.
+Zie **[Noodkanaal](emergency-channel.md)** Gebruik Hoofdlettergebruik voor meer informatie.
 
 * **Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics**
 
 In deze sectie wordt beschreven hoe u een interactieve toepassing van één pagina insluit met REACT (of Angular) met behulp van de AEM SPA-editor die door professionals in AEM kan worden geconfigureerd en hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
 
-Raadpleeg **[Een REACT-toepassing insluiten met de AEM SPA Editor en Integrating with AEM Screens Analytics](embedding-react-app.md)** voor meer informatie.
+Zie **[Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics](embedding-react-app.md)** voor meer informatie .
 
-### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers  {#released-aem-screens-players}
 
 De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.3.3.3 Feature Pack 6 en AEM 6.4.4.0 Feature Pack 4:
 
@@ -67,6 +67,6 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.3.3.3 Feature Pack
 * Windows
 * Android
 
-#### AEM Screens Player-downloads {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
 
-Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)**.
+Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)**.

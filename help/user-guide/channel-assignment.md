@@ -1,15 +1,15 @@
 ---
 title: Kanaaltoewijzing
-seo-title: Kanaaltoewijzing
+seo-title: Channel Assignment
 description: Volg deze pagina voor meer informatie over Kanaaltoewijzing en Dagverdeling.
-feature: Auteursschermen, Kanaaltoewijzing
+feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 1%
+source-wordcount: '1213'
+ht-degree: 0%
 
 ---
 
@@ -29,19 +29,19 @@ Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 
 Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
+1. Ga bijvoorbeeld naar de gewenste weergave **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
 
    ![afbeelding](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tik/klik **Kanaal toewijzen** in de actiebalk
+1. Tikken/klikken **Kanaal toewijzen** in de actiebalk
 
    Of
 
-   Tik/klik **Dashboard** en klik **+Wijs Kanaal** van **TOEGEWEZEN KANALEN** paneel toe om **Kanaaltoewijzing** dialoogdoos te openen.
+   Tikken/klikken **Dashboard** en klik op **+Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** om het deelvenster **Kanaaltoewijzing** in.
 
    ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
-   U kunt de eigenschappen van de **de dialoogdoos van de Toewijzing van het Kanaal** van de sectie hieronder vormen. Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
+   U kunt de eigenschappen configureren via de **Kanaaltoewijzing** in de onderstaande sectie. Zie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
 
 
 ## Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
@@ -50,9 +50,9 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
 Met het referentiekanaal kunt u een verwijzing naar het gewenste kanaal opgeven, op kanaalnaam of op kanaalpad.
 
-* **per pad**: u verstrekt een expliciete verwijzing gebruikend de absolute weg van het kanaal.
+* **op pad**: u verstrekt een expliciete verwijzing gebruikend de absolute weg van het kanaal.
 
-* **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met bijvoorbeeld de naam *gaat over de dag*, waarbij de werkelijke inhoud in twee steden anders zou zijn, maar u hebt nog steeds de rol van het normaal kanaal op alle weergaven.
+* **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met bijvoorbeeld een naam *dagblad*, waarbij de inhoud in feite in twee steden anders zou zijn, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
 
 ### Kanaalrol {#role-channel}
 
@@ -63,7 +63,7 @@ De rol van het kanaal bepaalt de context van de vertoning. De rol wordt op versc
 Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. Degene met de hoogste waarde heeft altijd voorrang op lagere waarden. Bijvoorbeeld, als er twee kanalen A en B zijn. A heeft een prioriteit van 1 en B heeft een prioriteit van 2, dan wordt kanaal B getoond, aangezien het een hogere prioriteit dan A heeft.
 
 >[!NOTE]
->De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in **de dialoogdoos van de Toewijzing van het Kanaal**, zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
+>De prioriteit voor een kanaal wordt ingesteld als een getal (1 voor het minimum) in het dialoogvenster **Kanaaltoewijzing** , zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
 ### Ondersteunde gebeurtenissen {#supported-events-channel}
 
@@ -80,12 +80,12 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
 
-Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het dialoogvenster **Kanaaltoewijzing**:
+Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het menu **Kanaaltoewijzing** dialoogvenster:
 
-* **Onmiddellijk**: wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
+* **Meteen**: wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
 * **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of afspeelt u de nieuwe inhoud
    >[!NOTE]
-   >Deze optie is standaard geselecteerd.
+   >Deze optie is standaard ingeschakeld.
 * **Aan het einde van de reeks**: wanneer een nieuw programma activeert of een update wordt ontvangen, hebt u de optie om op de volledige opeenvolging te wachten om zijn eind te bereiken, en net vóór de gewenste opeenvolging, kunt u terugloop naar het eerste element, u vernieuwt of de nieuwe inhoud speelt
 
    >[!NOTE]
@@ -93,15 +93,15 @@ Selecteer een van de volgende opties die beschikbaar zijn om de methode voor ond
 
 ### Schema {#schedule-channel}
 
-In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Het laat u ook een begindatum (**actief van**) en een einddatum (**actief tot**) voor het te tonen kanaal bepalen.
+In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Ook kunt u een begindatum definiëren (**actief van**) en een einddatum (**actief tot**) voor het kanaal dat moet worden weergegeven.
 
-**Knopinfo** voor bijtrekken weergeven:
+**Knopinfo voor activering weergeven**:
 
-De knopinfo voor het weergeven van de aantrekkingskracht definieert of de knopinfo voor het aantrekken (&quot;*Aanraken op een willekeurige plaats om te beginnen*&quot;) moet worden weergegeven of niet terwijl het kanaal wordt uitgevoerd.
+Knopinfo voor aantrekken weergeven die aangeeft of de knopinfo voor aantrekken (&quot;*Tik ergens om te beginnen*&quot;) moet worden getoond of niet terwijl het kanaal loopt.
 
 ### DayParting {#dayparting}
 
-Planningen wanneer gecombineerd met **DayParting**, staat u toe om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen tegelijkertijd.
+Planningen indien gecombineerd met **DayParting**, kunt u een algemeen schema instellen met meerdere kanalen die op specifieke tijdstippen van de dag worden uitgevoerd, en deze instelling opnieuw gebruiken voor al uw beeldschermen tegelijk.
 
 DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. AEM Screens staat u toe om kanalen in termen van dag-parting binnen een dag, een week, of een maand volgens het vereiste te plannen.
 
@@ -135,13 +135,13 @@ In dit voorbeeld wordt getoond welke dayParting is bereikt in een casino, waar d
    <td>LiveConcert</td>
    <td>Weekend</td>
    <td> </td>
-   <td>21 okt 2017 - 22 okt 2017 <br /> na 20:00 vóór 22:00</td>
+   <td>21 okt. 2017 - 22 okt. 2017 <br /> na 20:00 vóór 22:00</td>
   </tr>
   <tr>
    <td>SpecialsDiner</td>
    <td>Weekend</td>
    <td> </td>
-   <td>21 okt 2017 - 22 okt 2017 <br /> na 22:00 voor 1:00</td>
+   <td>21 okt. 2017 - 22 okt. 2017 <br /> na 22:00 voor 1:00</td>
   </tr>
  </tbody>
 </table>
@@ -159,7 +159,7 @@ Hier, zult u dag-parting zoals per maanden tot stand brengen, zodat de kanaalinh
 
 >[!NOTE]
 >
->Daarnaast kunt u ***Prioriteit*** voor elk van de kanalen definiëren. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.
+>Bovendien kunt u ***Prioriteit*** voor elk van de kanalen. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.
 
 #### Inhoud afspelen voor kanalen met dezelfde prioriteit {#playing-content-for-channels-with-same-priority}
 

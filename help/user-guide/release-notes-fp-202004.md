@@ -1,18 +1,18 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202004
-seo-title: Opmerkingen bij de release voor Feature Pack 202004
+seo-title: Release Notes for Feature Pack 202004
 description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004, uitgebracht op 20 april 2020.
-seo-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004, uitgebracht op 20 april 2020.
-feature: Functiepakket
+seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release voor Feature Pack 202004 {#release-notes-for-feature-pack}
 
@@ -24,29 +24,29 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.4 Feature Pack 8 en AEM 6.5 Feature Pack 4 uitgebracht.
 
-U kunt het nieuwste functiepakket voor AEM Screens 6.4.8 of AEM Screens 6.5.4 Release van [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden met uw Adobe ID. Navigeer naar **Adobe Experience Manager** tab en zoek **Screens** om het nieuwste functiepakket te krijgen.
+U kunt het nieuwste functiepakket voor AEM Screens 6.4.8 of AEM Screens 6.5.4 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeren naar **Adobe Experience Manager** tabblad en zoeken naar **Schermen** voor het nieuwste functiepakket.
 
 ## Releasedatum {#release-date}
 
 De releasedatum voor AEM Screens Feature Pack 20204 is 20 april 2020.
 
-### Wat is er nieuw?{#what-s-new}
+### Wat is er nieuw? {#what-s-new}
 
 * **Opties voor afspeelonderbreking**
 
    Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
 
-   Verwijs naar de sectie **[Methode van de Onderbreking](/help/user-guide/channel-assignment.md#interruption-method-channel)** om meer over opties te leren beschikbaar bij **de dialoogdoos van de Toewijzing van het Kanaal** om deze eigenschap in uw project van AEM Screens uit te voeren.
+   Zie de sectie **[Onderbrekingsmethode](/help/user-guide/channel-assignment.md#interruption-method-channel)** voor meer informatie over de opties die beschikbaar zijn op **Kanaaltoewijzing** om deze functie te implementeren in uw AEM Screens-project.
 
 * **Startpagina&#39;s voor schermen**
 
    De ervaringsstroom van de auteur van de inhoud is verbeterd en het aantal klikken dat u in de toekomst wilt gebruiken, is verminderd.
 
-   Raadpleeg **[Inhoud bijwerken met Schermen starten](launches.md)** voor meer informatie.
+   Zie **[Inhoud bijwerken met Schermen starten](launches.md)** voor meer informatie .
 
 * **Kanaaldashboard**
 
-   Hiermee worden updates van instructies in het kanaaldashboard in het deelvenster **KANAALINFORMATIE** weergegeven.
+   Geeft updates weer naar instructies in het kanaaldashboard in het dialoogvenster **KANAALINFORMATIE** deelvenster.
 
 
 * **Manifest weergeven**
@@ -59,13 +59,13 @@ De releasedatum voor AEM Screens Feature Pack 20204 is 20 april 2020.
 
    Tijdens het toevoegen van test aan de functie voor tekstbedekking is de tekengrootte nauwkeurig en verbeterd.
 
-   Raadpleeg **[Tekstbedekking](text-overlay.md)** om een aantrekkelijke ervaring te creëren in een Kanaal van de Opeenvolging door een titel of een beschrijving boven op een beeld te verstrekken.
+   Zie **[Tekstbedekking](text-overlay.md)** om een aantrekkelijke ervaring in een Kanaal van de Opeenvolging tot stand te brengen door een titel of een beschrijving over bovenop een beeld te verstrekken.
 
 * **Verbeteringen in opdrachtsynchronisatie**
 
    Met deze release van dit functiepakket worden verbeteringen in de opdrachtsynchronisatievertraging tussen de wijzigingen in de elementen weerspiegeld.
 
-   Raadpleeg **[Command Sync](using-command-sync.md)** voor meer informatie.
+   Zie **[Opdrachtsynchronisatie](using-command-sync.md)** voor meer informatie .
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 
@@ -75,6 +75,6 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM Screens AEM 6.4 Pak 
 * Windows
 * Android
 
-#### AEM Screens Player-downloads {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
 
-Raadpleeg **[AEM Screens Player Downloads](https://download.macromedia.com/screens/)** voor meer informatie over de opgeloste problemen.
+Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)**.

@@ -1,8 +1,8 @@
 ---
 title: Ervaringsfragmenten gebruiken
-seo-title: Ervaringsfragmenten gebruiken
+seo-title: Using Experience Fragments
 description: Volg deze pagina voor meer informatie over het gebruik van Experience Fragments in AEM Screens.
-seo-description: Volg deze pagina voor meer informatie over het gebruik van Experience Fragments in AEM Screens.
+seo-description: Follow this page to learn about using Experience Fragments in AEM Screens.
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-feature: Ontwerpschermen, ervaringsfragmenten
+feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Deze pagina behandelt de volgende onderwerpen:
 
 ## Overzicht {#overview}
 
-Een ***Experience Fragment*** is een groep van een of meer componenten, inclusief inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen. De fragmenten van de ervaring kunnen om het even welke component, zoals, één of veelvoudige componenten bevatten die om het even wat binnen een paragraafsysteem kunnen bevatten, die in de volledige ervaring zullen worden van verwijzingen voorzien of door een derde eindpunt gevraagd.
+An ***Ervaar fragment*** is een groep van één of meerdere componenten met inbegrip van inhoud en lay-out die binnen pagina&#39;s kunnen worden van verwijzingen voorzien. De fragmenten van de ervaring kunnen om het even welke component, zoals, één of veelvoudige componenten bevatten die om het even wat binnen een paragraafsysteem kunnen bevatten, die in de volledige ervaring zullen worden van verwijzingen voorzien of door een derde eindpunt gevraagd.
 
 
 ## Experience Fragments gebruiken in AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->In het volgende voorbeeld wordt **We.Retail** gebruikt als een demoproject van waaruit het Experience Fragment wordt gebruikt vanuit een pagina **Sites** naar een AEM Screens-project.
+>In het volgende voorbeeld wordt **Wij.Detailhandel** als een demo-project van waaruit het ervaringsfragment wordt gebruikt vanuit een **Sites** pagina naar een AEM Screens-project.
 
 Als voorbeeld, toont het volgende werkschema het gebruik van ervaringsfragmenten van We.Retail in Plaatsen. U kunt een webpagina kiezen en die inhoud in uw AEM Screens-kanaal gebruiken in een van uw projecten.
 
@@ -47,50 +47,50 @@ Als voorbeeld, toont het volgende werkschema het gebruik van ervaringsfragmenten
 
 ***Een project maken***
 
-1. Klik **Schermproject maken** om een nieuw project te maken.
+1. Klikken **Schermproject maken** om een nieuw project te maken.
 1. Voer de titel in als **DemoProject**.
-1. Klik **Opslaan**.
+1. Klikken **Opslaan**.
 
-Een **DemoProject** zal aan uw AEM Screens worden toegevoegd.
+A **DemoProject** wordt toegevoegd aan je AEM Screens.
 
 ***Een kanaal maken***
 
-1. Navigeer naar **DemoProject** u creeerde en selecteer **Kanalen** omslag.
+1. Ga naar de **DemoProject** u creeerde en selecteert **Kanalen** map.
 
-1. Klik **Maken** van de actiebar om de tovenaar te openen.
-1. Kies de **Sequence Channel** sjabloon in de wizard en klik op **Volgende**.
+1. Klikken **Maken** in de actiebalk om de wizard te openen.
+1. Kies de optie **Volgekanaal** sjabloon van de wizard en klik op **Volgende**.
 
-1. Voer de **Titel** in als **TestChannel** en klik op **Create**.
+1. Voer de **Titel** als **TestChannel** en klik op **Maken**.
 
-Een **TestChannel** zal aan uw **DemoProject** worden toegevoegd.\
+A **TestChannel** wordt toegevoegd aan uw **DemoProject**.\
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
 
 
 ### Een ervaringsfragment maken {#creating-an-experience-fragment}
 
-Volg de onderstaande stappen om de inhoud van **We.Retail** aan uw **TestChannel** in **DemoProject** te gebruiken.
+Voer de onderstaande stappen uit om de inhoud te benutten van **Wij.Detailhandel** aan uw **TestChannel** in **DemoProject**.
 
 1. **Navigeer aan een pagina van Plaatsen in Wij.Retail**
 
-   1. Navigeer naar Sites en selecteer **We.Retail** -> **United States** -> **English** -> **Equipment** en selecteer deze pagina om dit als ervaringsfragment voor uw kanaal van het Scherm te gebruiken.
+   1. Ga naar sites en selecteer **Wij.Detailhandel** -> **Verenigde Staten** -> **Engels** -> **Apparatuur** en selecteer deze pagina om deze te gebruiken als ervaringsfragment voor uw kanaal van het Scherm.
 
-   1. Klik op **Bewerken** op de actiebalk om de pagina te openen die u wilt gebruiken als ervaringsfragment voor het kanaal Schermen.
+   1. Klikken **Bewerken** in de actiebalk om de pagina te openen die u als ervaringsfragment voor uw rasterkanaal wilt gebruiken.
 
 1. **De inhoud opnieuw gebruiken**
 
    1. Selecteer het fragment dat u in het kanaal wilt opnemen.
-   1. Klik op het laatste pictogram aan de rechterkant om het dialoogvenster **Omzetten in ervaringsfragment** te openen.
+   1. Klik op het laatste pictogram van rechts om het dialoogvenster **Omzetten in ervaringsfragment** in.
 
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Experience-fragment maken**
 
-   1. Kies **Actie** als **Een nieuw Erviteitsfragment** maken.
+   1. Kies de optie **Handeling** als **Een nieuw ervaringsfragment maken**.
 
    1. Selecteer **Bovenliggend pad**.
-   1. Selecteer **Sjabloon**. Kies hier de sjabloon **Fragment ervaren - Variatie van schermen** (waarde in het veld `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
+   1. Selecteer **Sjabloon**. Kies de optie **Ervaring fragment - rastervariatie** sjabloon hier (waarde in veld) `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
 
-   1. Voer **Fragmenttitel** in als **ScreensFragment**.
+   1. Voer de **Fragmenttitel** als **ScreensFragment**.
 
    1. Klik op het vinkje om het maken van een nieuw ervaringsfragment te voltooien.
 
@@ -101,61 +101,61 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** aan uw **TestChannel
 1. **Actieve kopie van ervaringsfragment maken**
 
    1. Navigeer naar de AEM startpagina.
-   1. Selecteer **Fragmenten ervaren** en markeer **Fragment** van Screens en klik **Variatie als levende-exemplaar**, zoals aangetoond in het hieronder cijfer:
+   1. Selecteren **Ervaar fragmenten** en de **ScreensFragment** en klik op **Variatie als live-kopie**, zoals weergegeven in onderstaande afbeelding:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Selecteer **ScreensFragment** van **Create Levende Kopie** tovenaar en klik **Next**.
+   c. Selecteer **ScreensFragment** van **Live kopie maken** wizard en klik op **Volgende**.
 
-   d. Voer de **Titel** en **Naam** in als **Schermen**.
+   d. Voer de **Titel** en **Naam** als **Schermen**.
 
-   e. Klik **Maken** om de actieve kopie te maken.
+   e. Klikken **Maken** om de actieve kopie te maken.
 
-   f. Klik **Done** om terug te keren naar **ScreensFragment** pagina.
+   f. Klikken **Gereed** om terug te gaan naar **ScreensFragment** pagina.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
    >[!NOTE]
    >
-   >Nadat u het fragment Schermen hebt gemaakt, kunt u de eigenschappen van het fragment bewerken. Selecteer het fragment en klik op **Eigenschappen** op de actiebalk.
+   >Nadat u het fragment Schermen hebt gemaakt, kunt u de eigenschappen van het fragment bewerken. Selecteer het fragment en klik op **Eigenschappen** in de actiebalk.
 
    **Eigenschappen van een rasterfragment bewerken**
 
-   1. Navigeer naar **ScreensFragment** (u creeerde in de voorafgaande stappen) en klik **Eigenschappen** van de actiebar.
+   1. Ga naar de **ScreensFragment** (u hebt in de voorgaande stappen gemaakt) en klik op **Eigenschappen** in de actiebalk.
 
-   1. Selecteer de **tab Offline configuratie**, zoals in de onderstaande afbeelding wordt getoond.
+   1. Selecteer **Offlineconfiguratie** zoals weergegeven in de onderstaande afbeelding.
 
-   U kunt **Client-side bibliotheken** (java en css) en **Statische bestanden** aan uw ervaringsfragment toevoegen.
+   U kunt de **Client-side bibliotheken** (java en css) en **Statische bestanden** naar uw ervaringsfragment.
 
    In het volgende voorbeeld ziet u de toevoeging van bibliotheken aan de clientzijde en de lettertypen als onderdeel van statische bestanden aan uw ervaringsfragment.  ![fragment](assets/fragment.gif)
 
 1. **Experience Fragment gebruiken als component in Screenkanaal**
 
-   1. Navigeer naar het kanaal van het Scherm waar u het **fragment** van Schermen wilt gebruiken.
-   1. Selecteer **TestChannel** en klik **Edit** van de actiebar.
+   1. Navigeer naar het kanaal van het Scherm waar u wilt gebruiken **Schermen** fragment.
+   1. Selecteer **TestChannel** en klik op **Bewerken** in de actiebalk.
 
    1. Klik op het componentpictogram op het zijtabblad.
-   1. Sleep **Experience Fragment** naar uw kanaal.
+   1. Sleep de **Ervaar fragment** naar uw kanaal.
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e. Selecteer de component **Experience Fragment** en selecteer het pictogram linksboven (moersleutel) om het dialoogvenster **Experience Fragment** te openen.
+   e. Selecteer **Ervaar fragment** en selecteer het pictogram linksboven om het dialoogvenster **Ervaar fragment** in.
 
-   f. Selecteer **Schermen** levende exemplaar van het fragment u in *Stap 3* in **Weg** creeerde.
+   f. Selecteer **Schermen** live kopie van het fragment dat u hebt gemaakt in *Stap 3* in **Pad**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Selecteer **Schermen** levende exemplaar van het fragment u in *Stap 3* in **ErvingsFragment** creeerde.
+   f. Selecteer **Schermen** live kopie van het fragment dat u hebt gemaakt in *Stap 3* in de **Ervaar fragment**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. Voer de milliseconden in **Duur** in.
+   h. Voer de milliseconden in **Duur**.
 
-   i. Selecteer **Offline Config** van **de dialoogdoos van de Fragments van de Ervaring** om de cliënt-zijbibliotheken en de statische dossiers te bepalen.
+   i. Selecteer **Offlineconfiguratie** van de **Ervaar fragmenten** om de bibliotheken aan de clientzijde en de statische bestanden te definiëren.
 
    >[!NOTE]
    >
-   >Als u clientbibliotheken of statische bestanden wilt toevoegen naast de bestanden die u in stap 4 hebt geconfigureerd, kunt u een bestand toevoegen via het tabblad **Offlineconfig** in het dialoogvenster **Fragment ervaren**.
+   >Als u bibliotheken aan de clientzijde of de statische bestanden wilt toevoegen naast de bestanden die u in stap 4 hebt geconfigureerd, kunt u toevoegen via het menu **Offlineconfiguratie** in de **Ervaar fragment** in.
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
@@ -163,19 +163,19 @@ Volg de onderstaande stappen om de inhoud van **We.Retail** aan uw **TestChannel
 
 ### Het resultaat valideren {#validating-the-result}
 
-Na voltooiing van vorige stappen, kunt u uw ervaringsfragment in **ChannelOne** bevestigen door:
+Nadat u de vorige stappen hebt uitgevoerd, kunt u het ervaringsfragment valideren in **ChannelOne** door:
 
-1. Navigeer naar **TestChannel**.
-1. Selecteer **Voorvertoning** in de actiebalk.
+1. Navigeren naar de **TestChannel**.
+1. Het selecteren van **Voorvertoning** in de actiebalk.
 
-U zult de inhoud van de **pagina van Plaatsen** (levend-exemplaar van het ervaringsfragment) in uw kanaal bekijken, zoals aangetoond in het hieronder cijfer:\
+U zult de inhoud van bekijken **Sites** pagina (live kopie van het ervaringsfragment) in uw kanaal, zoals in de onderstaande afbeelding wordt getoond:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
 ## Wijzigingen op de pagina doorgeven {#propagating-changes-from-the-master-page}
 
-***Live*** kopie verwijst naar de kopie (van de bron), onderhouden door synchronisatiehandelingen zoals gedefinieerd door de rollout-configuraties.
+***Live kopie*** verwijst naar de kopie (van de bron), bijgehouden door synchronisatiehandelingen zoals gedefinieerd door de rollout-configuraties.
 
-Aangezien het Fragment van de Ervaring, wij tot stand gekomen een levende kopie van **Plaatsen** pagina&#39;s is, zodat als u veranderingen in dat bepaalde fragment van de master pagina aanbrengt, zult u de veranderingen in uw kanaal of de bestemming bekijken waar u het Fragment van de Ervaring hebt gebruikt.
+Sinds het fragment van de Ervaring hebben wij gecreeerd is een levende kopie van **Sites** pagina&#39;s, dus als u wijzigingen aanbrengt in dat specifieke fragment op de master pagina, zult u de wijzigingen in uw kanaal of de bestemming bekijken waar u het fragment van de Ervaring hebt gebruikt.
 
 >[!NOTE]
 >
@@ -183,7 +183,7 @@ Aangezien het Fragment van de Ervaring, wij tot stand gekomen een levende kopie 
 
 Voer de onderstaande stappen uit om wijzigingen van het master kanaal naar het doelkanaal door te geven:
 
-1. Selecteer het fragment van de Ervaring van **de pagina van Plaatsen** (master) en klik het potloodpictogram om de punten in het Fragment van de Ervaring uit te geven.
+1. Selecteer het fragment van de Ervaring van **Sites** (master) pagina en klik het potloodpictogram om de punten in het Fragment van de Ervaring uit te geven.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
@@ -191,7 +191,7 @@ Voer de onderstaande stappen uit om wijzigingen van het master kanaal naar het d
 
    ![screen_shot_2018-06-08at25031pm](assets/screen_shot_2018-06-08at25031pm.png)
 
-1. Het dialoogvenster **Productraster** wordt geopend.
+1. De **Productraster** wordt geopend.
 
    ![screen_shot_2018-06-08at25306pm](assets/screen_shot_2018-06-08at25306pm.png)
 
@@ -213,9 +213,9 @@ Voer de onderstaande stappen uit om wijzigingen van het master kanaal naar het d
 
 Voer de onderstaande stappen uit om de wijzigingen in uw kanaal te bevestigen:
 
-1. Navigeer naar **Schermen** -> **Kanalen** -> **TestChannel**.
+1. Ga naar de **Schermen** -> **Kanalen** -> **TestChannel**.
 
-1. Klik **Voorvertoning** van de actiebar om de veranderingen te bevestigen.
+1. Klikken **Voorvertoning** in de actiebalk om de wijzigingen te bevestigen.
 
-In de volgende afbeelding ziet u de wijzigingen in uw **TestChannel**:\
+In de volgende afbeelding worden de wijzigingen in uw **TestChannel**:\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)

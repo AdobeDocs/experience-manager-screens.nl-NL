@@ -1,15 +1,15 @@
 ---
 title: Apparaatspecificaties
-seo-title: Apparaatspecificaties
+seo-title: Device Specifications
 description: De pagina beschrijft apparaatspecificaties
-seo-description: De pagina beschrijft apparaatspecificaties
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes device specifications
+exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
 
 # Apparaatconfiguraties {#device-configurations}
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >De meest voorkomende belanghebbende bij deze activiteit is A/V-integrator.
 
-Bevestig op basis van de informatie die tijdens *Day Zero* is verzameld de volgende informatie voordat u begint met de ontwikkeling:
+Gebaseerd op de informatie die tijdens *Dagnul*, bevestig de volgende informatie voordat u begint met de ontwikkeling:
 
 * Wat is de richting, afmetingen en resolutie van de schermen die worden gebruikt?
 

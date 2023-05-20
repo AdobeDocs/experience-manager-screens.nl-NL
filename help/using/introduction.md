@@ -1,19 +1,19 @@
 ---
 title: Inleiding tot [!UICONTROL AEM Screens]
-seo-title: Best Practices Guide for [!UICONTROL AEM Screens] projects
+seo-title: Best Practices Guide for [!UICONTROL AEM Screens] Projects
 description: Deze pagina is een inleidende sectie voor AEM Screens
-seo-description: Deze pagina biedt een inleiding op AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: This page provides an introduction to AEM Screens
+exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 9%
+source-wordcount: '671'
+ht-degree: 10%
 
 ---
 
-
 # Inleiding tot AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager)** Screensis a Digital Signage Solution waarmee u dynamische en interactieve digitale ervaringen kunt ontwerpen, publiceren en afspelen met verschillende typen in-venue weergaveschermen, in overleg met een alomvattende strategie voor digitale marketing in het universeel kanaal.
+**AEM (Adobe Experience Manager) schermen** is een Digital Signage-oplossing waarmee u dynamische en interactieve digitale ervaringen kunt ontwerpen, publiceren en afspelen met verschillende typen in-locatievensters in overleg met een uitgebreide digitale marketingstrategie voor meerdere kanalen.
 
 Met AEM Screens kunt u:
 
@@ -34,7 +34,7 @@ Het maken en beheren van een digitaal signalisatienetwerk met behulp van AEM Scr
 
 >[!NOTE]
 >
->Raadpleeg **[AEM Screens User Guide](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)** voor meer informatie over de verschillende functies in een AEM Screens-projectontwikkeling en -beheer.
+>Raadpleeg voor meer informatie over de verschillende functies in een AEM Screens-projectontwikkeling en -beheer de **[AEM Screens-gebruikershandleiding](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**.
 
 ## AEM Sites versus AEM Screens {#aem-sites-screens}
 
@@ -44,13 +44,13 @@ Het maken en beheren van een digitaal signalisatienetwerk met behulp van AEM Scr
 
 AEM Screens biedt een geïntegreerd platform voor ontwerpen/afspelen voor het implementeren van inhoud naar digitale signaalapparaten in openbare ruimten. Hoewel de auteur van de ervaring moet streven naar consistentie op het web en in-venue kanalen, zijn er enkele verschillen die moeten worden opgemerkt.
 
-* **Weltijd**: Webpagina&#39;s zijn doorgaans ontworpen om een schat aan informatie te bieden die over een relatief langere periode kan worden gebruikt. In-locatiegebonden digitale ervaringen moeten daarentegen anticiperen op de behoeften van de kijker en duidelijke en beknopte aanwijzingen bieden voor de manier waarop en waarom de gebruiker zich moet engageren. Dit leidt tot meer gerichte, gekromde en contextuele ervaringen.
+* **Dwell-time**: Webpagina&#39;s zijn doorgaans ontworpen om een schat aan informatie te bieden die over een relatief langere periode kan worden gebruikt. In-locatiegebonden digitale ervaringen moeten daarentegen anticiperen op de behoeften van de kijker en duidelijke en beknopte aanwijzingen bieden voor de manier waarop en waarom de gebruiker zich moet engageren. Dit leidt tot meer gerichte, gekromde en contextuele ervaringen.
 
 * **Kijkafstand**: De weergaveafstand is over het algemeen langer of verder verwijderd dan de weergaveafstand die gebruikers doorgaans afleggen op een website. Daarom moet de tekstgrootte normaal gesproken groter zijn en moet de afstand tussen tekst, afbeeldingen en andere aanvullende inhoud worden getest op basis van de verwachte schermgrootte en plaatsing in de fysieke ruimte.
 
 * **Persistentie**: De verbonden staat van het spelerapparaat zou nooit moeten worden toegestaan om te beïnvloeden of digitale ervaringen aan de gebruiker worden geleverd of niet. De speler moet zodanig zijn ontworpen dat een of meer ervaringen altijd aanhouden en kunnen worden geleverd, ongeacht de verbindingsstatus van het spelerapparaat.
 
-* **Segmentatie** medialijn: Wanneer u elk spelerapparaat configureert voor een eigen lussegment, weet u zeker dat gelokaliseerde inhoud eenvoudig kan worden gemaakt, gepubliceerd en afgespeeld binnen de algemene digitale ervaring. Media-elementen die zich in ingesloten reekskanalen bevinden, worden toegevoegd aan het vorige lussegment en bieden de mogelijkheid een medialusegment voor elke locatiegroep als doel in te stellen.
+* **Segmentering mediatlus**: Wanneer u elk spelerapparaat configureert voor een eigen lussegment, weet u zeker dat gelokaliseerde inhoud eenvoudig kan worden gemaakt, gepubliceerd en afgespeeld binnen de algemene digitale ervaring. Media-elementen die zich in ingesloten reekskanalen bevinden, worden toegevoegd aan het vorige lussegment en bieden de mogelijkheid een medialusegment voor elke locatiegroep als doel in te stellen.
 
 * **Interactieve ervaringen**: Een toepassing met aanraakbediening kan worden ontworpen en geleverd in een rasterkanaal met AEM en de SPA-editor. Het is aan te raden om consistente eigenschappen van het universeel ontwerp toe te passen, een inactiviteitstimer om de ervaring opnieuw in te stellen en een duidelijke aanroep van actie te maken voor welke taken de toepassing kan uitvoeren. De landingspagina moet bestaan uit belangrijke digitale elementen die zijn ontworpen om waarde over te brengen, de gebruiker op het scherm aan te trekken en de gebruiker ertoe aan te zetten zich aan te sluiten.
 

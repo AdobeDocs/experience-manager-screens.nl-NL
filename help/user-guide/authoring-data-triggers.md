@@ -1,14 +1,14 @@
 ---
 title: Authoring met gegevenstriggers
-seo-title: Authoring met gegevenstriggers
+seo-title: Authoring with Data Triggers
 description: Volg deze pagina om te leren hoe u ontwerpt met gegevenstriggers.
-feature: Ontwerpschermen
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Deze sectie benadrukt hoe te om het richten in uw kanalen toe te laten.
 
 ## Vereisten {#prereqs}
 
-Alvorens u de stappen hieronder volgt om het richten in kanalen toe te laten, moet u de [Zeer belangrijke Termijnen in het Vormen in AEM Screens](configuring-context-hub.md) leren die voor het begrip van ContextHub en het richten in AEM Screens wordt vereist.
+Voordat u de onderstaande stappen uitvoert om het gebruik van doelkanalen in te schakelen, moet u de opdracht [Belangrijke termen in configuratie in AEM Screens](configuring-context-hub.md) vereist voor het begrip ContextHub en het richten in AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -44,36 +44,36 @@ Nadat u de voorgaande stappen hebt uitgevoerd, kunt u het activeren van de doelg
 
 Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te schakelen.
 
-1. Navigeer naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door **DataDrivenRetail** *(opeenvolgingskanaal)* te gebruiken die in een Kanaal van AEM Screens wordt gecreeerd.
+1. Navigeer naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door te gebruiken **DataDrivenRetail** *(volgnummer)* gemaakt in een AEM Screens Channel.
 
-1. Selecteer het kanaal **DataDrivenRetail** en klik **Eigenschappen** van de actiebar.
+1. Selecteer het kanaal **DataDrivenRetail** en klik op **Eigenschappen** in de actiebalk.
 
    ![screen_shot_2019-05-01at4332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Selecteer **Personalization** lusje om de configuraties te opstelling ContextHub en de weg van ContextHub en van Segmenten te selecteren.
+1. Selecteer **Personalisatie** lusje aan opstelling de configuraties ContextHub en selecteer de weg ContextHub en van Segmenten.
 
-   1. Selecteer **ContextHub Path** als **libs** > **settings** > **cloudsettings** > **default** > **ContextHub Configurations** en klik ****.
+   1. Selecteer **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en klik op **Selecteren**.
 
-   1. Selecteer **Segmentpad** als **conf** > **We.Retail** > **settings** > **wcm** > **segments** en klik **Selecteer a1 >.**
+   1. Selecteer **Segmentpad** als **conf** > **Wij.Detailhandel** > **instellingen** > **wcm** > **segmenten** en klik op **Selecteren**.
 
-   1. Klik **Opslaan en sluiten**.
+   1. Klikken **Opslaan en sluiten**.
    >[!NOTE]
    >
    >Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigeer en selecteer **DataDrivenRetail** uit **DataDrivenAssets** > **Kanalen** en klik **Bewerken** op de actiebalk. Sleep de elementen naar de Kanaaleditor en zet ze neer.
+1. Navigeer en selecteer de **DataDrivenRetail** van **DataDrivenAssets** > **Kanalen** en klik op **Bewerken** in de actiebalk. Sleep de elementen naar de Kanaaleditor en zet ze neer.
 
    >[!NOTE]
    >
-   >Als u opstelling alles correct hebt geplaatst, zult u **het richten** optie in drop-down van de redacteur zien, zoals aangetoond in het hieronder cijfer.
+   >Als u alles correct hebt ingesteld, ziet u **Doelstelling** in de drop-down van de redacteur, zoals aangetoond in het hieronder cijfer.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Klik **gericht**.
+1. Klikken **Doelstelling**.
 
-1. Selecteer **Merk** en **Activiteit** van het drop-down menu en klik **Begin richten**.
+1. Selecteren **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
 
 ### Meer informatie: Voorbeelden {#learn-more-example-use-cases}
 

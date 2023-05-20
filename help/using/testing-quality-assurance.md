@@ -1,15 +1,15 @@
 ---
 title: Testen en kwaliteitsborging
-seo-title: Testen en kwaliteitsborging voor AEM Screens
+seo-title: Testing and Quality Assurance for AEM Screens
 description: De pagina beschrijft Testing and Quality Assurance for AEM Screens Best Practices Guide
-seo-description: De pagina beschrijft Testing and Quality Assurance for AEM Screens Best Practices Guide
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Testing and Quality Assurance for AEM Screens Best Practices Guide
+exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
-
 
 # Testen en kwaliteitsborging {#testing-quality}
 
@@ -38,7 +38,7 @@ De volgende mechanische overwegingen worden aanbevolen:
 * kabelbeheer
 * apparaatnetwerken
 
-## 2. Overwegingen voor software {#software-considerations}
+## 2. Overwegingen bij software {#software-considerations}
 
 De volgende softwareoverwegingen worden geadviseerd:
 
@@ -52,7 +52,7 @@ De volgende softwareoverwegingen worden geadviseerd:
 
 AEM Screens bevat een Device Control Center-module waarmee u eindpunten van de toepassing Screens Player kunt beheren.
 
-Dit verwijst naar elk *player*-hardwareapparaat waarop de toepassing Schermspeler is geïnstalleerd en dat is geregistreerd bij een instantie van AEM.
+Dit heeft betrekking op *player* hardwareapparaat waarop de toepassing Schermspeler is geïnstalleerd en die is geregistreerd bij een instantie van AEM.
 Met deze module kunt u:
 
 1. Toepassingsfoutlogboeken van de speler controleren
@@ -60,7 +60,7 @@ Met deze module kunt u:
 1. Downloads van inhoud beheren
 1. Problemen met het opnieuw opstarten van toepassingen beheren
 
-Als u meer informatie wilt over ***Device Control Center***, raadpleegt u [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens User Guide**.
+Meer informatie over ***Device Control Center***, zie [Problemen oplossen in Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens-gebruikershandleiding**.
 
 >[!CAUTION]
 >
@@ -76,12 +76,12 @@ Als u meer informatie wilt over ***Device Control Center***, raadpleegt u [Troub
 >
 > Adobe raadt aan dat speciale, externe apparaatbeheerplatforms worden gebruikt voor alle implementaties.
 
-Het gekozen specifieke platform is afhankelijk van een aantal factoren, zoals het ***doelbesturingssysteem***, ***projectvereisten*** en ***aantal eindpunten***.
+Het gekozen specifieke platform is afhankelijk van een aantal factoren, waaronder ***doelbesturingssysteem***, ***projectvereisten*** en ***aantal eindpunten***.
 
 Enkele voorbeelden zijn:
 
 * Google Chrome-apparaatbeheer
 * TeamViewer
 * AirWatch
-* 42Tandwiel
+* 42Gears
 * AV Integrator Middleware

@@ -1,21 +1,21 @@
 ---
 title: Overzicht van auteur- en publicatiearchitectuur
-seo-title: Overzicht van auteur- en publicatiearchitectuur
+seo-title: Author and Publish Architectural Overview
 description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina voor meer informatie over auteur en publiceer een architecturaal overzicht.
-seo-description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina voor meer informatie over auteur en publiceer een architecturaal overzicht.
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more on author and publish architectural overview.
 uuid: 19bac3de-8938-4339-82f0-6ccb932b6684
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
-feature: Schermen beheren
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Voordat u aan de slag gaat met auteur- en publicatieservers, hebt u eerst kennis
 
 AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. AEM Screens-apparaten kunnen nu via het taakverdelingsmechanisme verbinding maken met een AEM publicatiefarm. De veelvoudige AEM publiceer instanties kunnen worden toegevoegd om te blijven het publicatielandbouwbedrijf schrapen.
 
-*Bijvoorbeeld*, geeft een de inhoudauteur van AEM Screens een bevel op het auteurssysteem voor een bepaald apparaat uit dat wordt gevormd om met een publicatielandbouwbedrijf of een de inhoudauteur van AEM Screens in wisselwerking te staan die informatie over apparaten verkrijgt die worden gevormd om met te communiceren publiceert landbouwbedrijven.
+*Bijvoorbeeld*, geeft een de inhoudauteur van AEM Screens een bevel op het auteurssysteem voor een bepaald apparaat uit dat wordt gevormd om met een publicatielandbouwbedrijf of een de inhoudauteur van AEM Screens in wisselwerking te staan die informatie over apparaten verkrijgt die worden gevormd om met te communiceren publicatielandbouwbedrijven.
 
 Het volgende diagram illustreert de auteur en publicatiemilieu&#39;s.
 
@@ -54,12 +54,12 @@ Het volgende diagram illustreert de auteur en publicatiemilieu&#39;s.
 
 Er zijn vijf architecturale componenten, die deze oplossing vergemakkelijken:
 
-* ***Repliceren van*** inhoud van auteur naar publicatie voor weergave door apparaten
+* ***Inhoud repliceren*** van auteur naar publicatie voor weergave op apparaten
 
-* ***Binaire inhoud*** opnieuw genereren van publicatie (ontvangen van apparaten) naar auteur
-* ***Opdrachten van*** auteur verzenden om te publiceren via specifieke REST API&#39;s
+* ***Omkeren*** het herhalen van binaire inhoud van publiceren (die van apparaten wordt ontvangen) aan auteur
+* ***Verzenden*** opdrachten van de auteur om te publiceren via specifieke REST API&#39;s
 * ***Berichten*** tussen publicatie-instanties om updates en opdrachten voor apparaatinformatie te synchroniseren
-* ****** Pollingby the auteur of publish instances to obtain device information via specific REST APIs
+* ***Opiniepeiling*** door de auteur van publicatie-instanties om apparaatinformatie via specifieke REST API&#39;s te verkrijgen
 
 ### Replicatie (vooruit) van inhoud en configuraties  {#replication-forward-of-content-and-configurations}
 
@@ -87,9 +87,9 @@ Daarom verzendt de auteurinstantie het bericht naar alle Publish instanties. Noc
 
 ### Replicatie omkeren {#reverse-replication}
 
-In veel gevallen, na een bevel, wordt één of andere soort reactie verwacht van het apparaat van het Scherm om aan de instantie van de Auteur door:sturen. Om dit AEM te bereiken wordt ***Omgekeerde replicatie*** gebruikt.
+In veel gevallen, na een bevel, wordt één of andere soort reactie verwacht van het apparaat van het Scherm om aan de instantie van de Auteur door:sturen. Om deze AEM te verwezenlijken ***Replicatie omkeren*** wordt gebruikt.
 
-* Creeer een omgekeerde replicatieagent voor elke publiceer instantie, zoals aan de standaardreplicatieagenten en de agenten van de het schermreplicatie.
+* Creeer een omgekeerde replicatieagent voor elke publiceer instantie, die aan de standaardreplicatieagenten en de agenten van de het vertoningenreplicatie aansluit.
 * Een configuratie van de werkschemaopstarter luistert naar knopen die op de publicatieinstantie worden gewijzigd en brengt beurtelings een werkschema in werking om de reactie van het Apparaat in de Publish outbox van de instantie te plaatsen.
 * Een omgekeerde replicatie in deze context wordt slechts gebruikt voor binaire gegevens (zoals, logboekdossiers en screenshots) die door de apparaten worden verstrekt. Niet-binaire gegevens worden opgehaald door polling.
 * De omgekeerde replicatie die van de AEM auteursinstantie wordt gepolled wint de reactie terug en bewaart het aan de auteursinstantie.
@@ -98,9 +98,9 @@ In veel gevallen, na een bevel, wordt één of andere soort reactie verwacht van
 
 De auteurinstantie moet de apparaten kunnen opiniepeilen om een hartslag te krijgen en de gezondheidsstatus van een aangesloten apparaat te kennen.
 
-Apparaten pingelen het taakverdelingsmechanisme en worden gerouteerd naar een publicatie-instantie. De status van het apparaat wordt vervolgens vrijgegeven door de publicatie-instantie via een publicatie-API die @ **api/screens-dcc/devices/static** voor alle actieve apparaten en **api/screens-dcc/devices/&lt;device_id>/status.json** voor één apparaat wordt aangeboden.
+Apparaten pingelen het taakverdelingsmechanisme en worden gerouteerd naar een publicatie-instantie. De status van het apparaat wordt vervolgens vrijgegeven door de publicatie-instantie via een API voor publiceren die @ **api/screens-dcc/devices/static** voor alle actieve apparaten en **api/screens-dcc/devices/&lt;device_id>/status.json** voor één apparaat.
 
-De instantie van de auteur opiniepeilt alle publicatieinstanties en voegt de reacties van de apparatenstatus in één enkele status samen. De geplande baan die op auteur opiniepeilt is `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` en kan op een cron uitdrukking worden gevormd.
+De instantie van de auteur opiniepeilt alle publicatieinstanties en voegt de reacties van de apparatenstatus in één enkele status samen. De geplande taak die wordt opiniepeild bij de auteur is `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` en kan worden geconfigureerd op basis van een uitsnijduitdrukking.
 
 ## Registratie {#registration}
 
@@ -112,4 +112,4 @@ Zodra een apparaat op het auteursmilieu is geregistreerd worden de apparatenconf
 
 ### De volgende stappen {#the-next-steps}
 
-Als u het architecturale ontwerp van auteur en publiceer opstelling in AEM Screens begrijpt, verwijs naar [Het Vormen Auteur en Publiceren voor AEM Screens](author-and-publish.md) voor meer details.
+Als u het architecturale ontwerp van de auteur en de publicatie opstelling in AEM Screens begrijpt, verwijs naar [Auteur en publicatie configureren voor AEM Screens](author-and-publish.md) voor meer informatie .

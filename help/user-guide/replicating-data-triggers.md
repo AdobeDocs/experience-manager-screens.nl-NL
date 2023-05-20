@@ -1,18 +1,18 @@
 ---
 title: Repliceer gegevenstriggers om servers te publiceren
-seo-title: Repliceer gegevenstriggers om de server te publiceren
+seo-title: Replicate data-triggers to publish server
 description: Volg deze pagina om te leren hoe u gegevenstriggers kunt repliceren om de server te publiceren.
-seo-description: Repliceer gegevenstriggers naar publicatieserver.
-feature: Schermen beheren, Data Trigger
+seo-description: Replicate data-triggers to publish server.
+feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '522'
 ht-degree: 2%
 
 ---
-
 
 # Gegevenstriggers repliceren naar publicatieservers {#replicating-data-triggers}
 
@@ -30,53 +30,53 @@ Dit komt in feite neer op handmatig publiceren:
 
 Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van de server te repliceren.
 
-### Stap 1: Replicating ContextHub Configurations {#replicating-contexthub-configurations}
+### Stap 1: Replicatie van ContextHub-configuraties {#replicating-contexthub-configurations}
 
-1. Navigeer naar **Tools** > **Implementatie** > **Distributie** > **Publish Agent** en klik op de publicatieagent om uw instellingen te configureren.
+1. Navigeren naar **Gereedschappen** > **Implementatie** > **Distributie** > **Publicatieagent** en klik op de publicatieagent om uw montages te vormen.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
    >[!NOTE]
    >
-   >U kunt ook `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` gebruiken om rechtstreeks naar het scherm te navigeren om de verbinding te configureren en te testen.
+   >U kunt ook de opdracht `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` om rechtstreeks naar het scherm te navigeren om de verbinding te configureren en te testen.
 
-1. Klik **Verbinding van de Test** van de actiebar om de mededeling van de auteur met te bevestigen publiceert instantie, zoals aangetoond in het hieronder cijfer.
+1. Klikken **Verbinding testen** vanuit de actiebalk om de communicatie van de auteur met de publicatie-instantie te valideren, zoals in de onderstaande afbeelding wordt getoond.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
    >[!NOTE]
    >
-   >Als de test ontbreekt, moet u de configuratie van de replicatieagent tussen de auteur bevestigen en instantie publiceren. Raadpleeg [Verbinding voor het oplossen van problemen](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) voor meer informatie.
+   >Als de test ontbreekt, moet u de configuratie van de replicatieagent tussen de auteur bevestigen en instantie publiceren. Zie [Problemen met testverbinding oplossen](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) voor meer informatie .
 
-1. Selecteer **Add** van **Distribution Agent** het schermboom en selecteer de configuratiepad voor uw project, bijvoorbeeld `/conf/screens/settings/cloudsettings/configuration`.
+1. Selecteren **Toevoegen** van de **Distribution Agent** de het schermboom en selecteert de configuratiepad voor uw project, bijvoorbeeld `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Klik **Verzenden**.
+1. Klikken **Verzenden**.
 
-### De doelgroepen {#replicating-audiences} repliceren
+### Het publiek repliceren {#replicating-audiences}
 
-1. Navigeer naar uw AEM-instantie > **Personalisatie** > **Soorten publiek** of gebruik `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` om rechtstreeks te navigeren.
+1. Ga naar uw AEM-instantie > **Personalisatie** > **Soorten publiek** of gebruik `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` om rechtstreeks te navigeren.
 
-1. Boor neer in uw projectomslag, bijvoorbeeld, `/conf/screens/`.
+1. Ga bijvoorbeeld naar de projectmap, `/conf/screens/`.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. Selecteer alle soorten publiek en segmenten in de gebruikersinterface.
 
-1. Klik **Publicatie beheren** van de actiebar.
+1. Klikken **Publicatie beheren** in de actiebalk.
 
-1. Klik **Volgende** en **Publiceren**.
+1. Klikken **Volgende** en **Publiceren**.
 
-### Repliceren van de activiteiten {#replicating-activities}
+### Herhaling van de activiteiten  {#replicating-activities}
 
-1. Navigeer naar uw AEM-instantie > **Personalisatie** > **Activiteiten** of gebruik `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` om rechtstreeks te navigeren.
+1. Ga naar uw AEM-instantie > **Personalisatie** > **Activiteiten** of gebruik `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` om rechtstreeks te navigeren.
 
-1. Boor neer in uw projectomslag, namelijk `/content/campaigns/screens/…`.
+1. Ga naar de projectmap, dat wil zeggen: `/content/campaigns/screens/…`.
 
 1. Selecteer alle activiteiten in de gebruikersinterface.
 
-1. Klik **Publicatie beheren** van de actiebar.
+1. Klikken **Publicatie beheren** in de actiebalk.
 
-1. Klik **Volgende** en **Publiceren**.
+1. Klikken **Volgende** en **Publiceren**.
 
 >[!IMPORTANT]
 >
@@ -90,32 +90,32 @@ Als de replicatie succesvol is, zou u de volgende structuur op publiceren instan
 `/conf/screens/settings/wcm/segments/…`
 `/content/campaigns/screens/…`
 
-## Problemen met testverbinding {#troubleshoot-test} oplossen
+## Problemen met testverbinding oplossen {#troubleshoot-test}
 
 Als de testverbinding terwijl het herhalen van de configuraties ContextHub ontbreekt, volg de sectie hieronder voor het oplossen van problemen de kwestie:
 
-1. Navigeer naar Extra > **Implementatie** > **Distributie** > **Publish Agent**.
+1. Ga naar Gereedschappen > **Implementatie** > **Distributie** > **Publicatieagent**.
 
-1. Klik **geef** van de actiebar uit en zorg ervoor het eindpunt URL in **de Eindpunten van de Importer** gebied ook aan publicatieserver URL in de Agent van de Distributie richt.
+1. Klikken **Bewerken** van de actiebalk en zorg ervoor dat het eindpunt URL in **Eindpunten importeren** Het veld verwijst ook naar de URL van de publicatieserver in Distribution Agent.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Als u niet de standaardadmin geloofsbrieven gebruikt, dan moet u de distributieagent met een verschillende gebruikersbenaming en een wachtwoord vormen.
 
    Voer de onderstaande stappen uit:
 
-   1. Navigeer naar Extra > **Bewerkingen** > **Webconsole** `http://localhost:4502/system/console/configMgr`om het **Adobe Experience Manager-webconsolescherm** te openen.
+   1. Ga naar Gereedschappen > **Bewerkingen** > **Webconsole** `http://localhost:4502/system/console/configMgr`om de **Adobe Experience Manager-webconsolescherm**.
    1. Zoeken naar **Apache Sling Distribution Transport Credentials - Gebruikersreferenties gebaseerd DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
-   1. Maak een configuratie door **Naam**, **Gebruikersnaam** en **wachtwoord** te vullen, bijvoorbeeld *slingTransportSecretProvider*.
+   1. Een configuratie maken door deze te vullen **Naam**, **Gebruikersnaam** en **password**, bijvoorbeeld *slingTransportSecretProvider*.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. Klik **Opslaan**
-   1. Gebruik `Cmd +F` om naar **Apache Sling Distribution Agent - Forward Agents Factory** te zoeken om de configuraties te openen en naar **Transport Secret Provider** te zoeken.
+   1. Klikken **Opslaan**
+   1. Gebruiken `Cmd +F` om te zoeken naar **Apache Sling Distribution Agent - Forward Agents Factory** om de configuraties te openen en te zoeken naar **Vervoersgeheim provider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
-   1. Werk `(name=default)` met `(name=slingTransportSecretProvider)` bij.
-   1. Klik **sparen** en stel opnieuw de testverbinding van het **scherm van de Agent van de Distributie** van uw AEM instantie in werking.
+   1. Werk de `(name=default)` with `(name=slingTransportSecretProvider)`.
+   1. Klikken **Opslaan** en voer de testverbinding opnieuw uit vanaf de **Distribution Agent** opnieuw vanaf uw AEM-instantie.

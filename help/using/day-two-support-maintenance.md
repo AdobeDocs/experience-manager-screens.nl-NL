@@ -1,17 +1,17 @@
 ---
 title: Dag twee Support en onderhoud
-seo-title: Dag twee Ondersteuning en onderhoud voor AEM Screens
+seo-title: Day Two Support and Maintenance for AEM Screens
 description: De pagina beschrijft Dag Twee Steun en Onderhoud
-seo-description: De pagina beschrijft Dag Twee Steun en Onderhoud
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Day Two Support and Maintenance
+exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
-
-# Dag twee Platform support en onderhoud {#day-two-support-maintenance}
+# Dag twee Platform, ondersteuning en onderhoud {#day-two-support-maintenance}
 
 AEM Screens heeft meerdere pakketten nodig om projecten te laten functioneren. In alle omgevingen moet dezelfde versie van Adobe Experience Manager worden uitgevoerd.
 

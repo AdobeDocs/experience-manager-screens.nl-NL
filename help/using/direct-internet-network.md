@@ -1,13 +1,13 @@
 ---
 title: Directe internettoegang
 description: Directe internettoegang
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # Direct Internet Network (bekabeld/draadloos) {#direct-internet-access}
 
@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen 
    >**Tip voor probleemoplossing**
    >Als AEM Screens niet correct verbinding maakt en de verwachte inhoud niet wordt weergegeven:
    >
-   >1. Controleer uw firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443` zijn.
+   >1. Controle in uw firewall van de Router van Internet als er om het even welke beperkingen betreffende zijn `TCP/IP Port 80/443`.
    >1. Zorg ervoor dat alle vereiste Havens worden toegestaan.
 
 
@@ -60,26 +60,26 @@ Het directe netwerk van Internet wordt logisch gezien gescheiden in twee blokken
 
 * Netwerk voor lokale gebieden
 
-### Breedgebiednetwerk {#wan-connection}
+### Breed gebiedsnetwerk {#wan-connection}
 
 De prestaties van de verbinding van Internet naast bereikbaarheid van het netwerk moeten voldoende bandbreedte verstrekken om AEM Screens in werking te stellen.
 
-*Voldoende* hangt af van het aantal aangesloten AEM en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
+*Voldoende* is afhankelijk van het aantal aangesloten AEM en van het gebruik van andere consumenten in het netwerk, zoals smartphones, tablets, cashiers, computers of gastWi-Fi-netwerken.
 
 >[!NOTE]
 >
 >Alle hierboven genoemde apparaten, hebben een gezamenlijke toegang tot de verbinding van Internet en de bandbreedte vermindert lineair wanneer u meer consumenten of computers aan het netwerk toevoegt.
 
-### Netwerk {#lan-connection} voor lokale gebieden
+### Netwerk voor lokale gebieden {#lan-connection}
 
 De prestaties van het Netwerk van het Lokale Gebied (LAN), behalve de bereikbaarheid van het netwerk verstrekt voldoende bandbreedte om AEM Screens in werking te stellen.
 
 Het LAN netwerk past gewoonlijk minstens een netwerk 100 Mbps aan, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem te verbinden.
-Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Internet Link, wordt u aangeraden ten minste moderne Wi-Fi-standaarden zoals `IEEE 802.11g` te gebruiken. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwere* standaarden zoals `802.11h-n` zijn van betere kwaliteit.
+Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Internet Link, is het raadzaam om moderne Wi-Fi-standaarden te gebruiken, zoals `IEEE 802.11g` minimaal. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwer* Standaarden `802.11h-n` van betere kwaliteit zijn.
 
 >[!NOTE]
 >
->Als een Wi-Fi Repeater vereist is, wordt dit sterk aanbevolen voor een Wi-Fi-toegangspunt voor Net, zoals Google Nest Mesh Wi-Fi of een vergelijkbaar toegangspunt. Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
+>Als u een Wi-Fi Repeater nodig hebt, is het sterk aan te raden een Wi-Fi-toegangspunt voor het net te gebruiken, zoals Google Nest Mesh Wi-Fi of een vergelijkbaar toegangspunt. Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
 
 ## Media en middelen downloaden {#download}
 
@@ -96,4 +96,3 @@ De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van 
 >De informatie staat u toe om de consumptie van elk apparaat in het netwerk te bekijken die en een bron van Internet verzoeken te downloaden. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/assets/download-times-direct.png)
-

@@ -1,8 +1,8 @@
 ---
 title: Nieuwe importmodule voor project uit bestand
-seo-title: Nieuwe importmodule voor project uit bestand
+seo-title: New Project Importer from File
 description: Met deze functionaliteit kunt u een set locaties vanuit een CSV/XLS-spreadsheet bulksgewijs importeren naar uw AEM Screens-project.
-seo-description: Met deze functionaliteit kunt u een set locaties vanuit een CSV/XLS-spreadsheet bulksgewijs importeren naar uw AEM Screens-project.
+seo-description: This functionality allows you to bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
 uuid: e1ad76ae-6925-4d72-80ce-8343a76125ce
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ content-type: reference
 topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
-feature: Schermen beheren
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 1%
+source-wordcount: '673'
+ht-degree: 0%
 
 ---
 
@@ -55,20 +55,20 @@ Het gegevensmodel voor de projectimportmodule wordt hieronder beschreven:
 | **Eigenschap** | **Beschrijving** |
 |---|---|
 | ***path {string*}** | Het bronnenpad voor de locatie |
-| ***[./jcr:title] {string*}** | De naam van de sjabloon die moet worden gebruikt (dat wil zeggen de locatie voor *screens/core/templates/location*) |
+| ***[./jcr:title] {string*}** | De naam van de sjabloon die moet worden gebruikt (dat wil zeggen de locatie voor *schermen/kern/sjablonen/locatie*) |
 | ***template {string}*** | Optionele titel voor de pagina |
 | ***[./jcr:description] {string}*** | Optionele beschrijving voor de pagina |
 
 Voor het spreadsheetbestand (CSV/XLS) zijn dus de volgende kolommen vereist:
 
-* **path {string}** Het pad voor de locatie die geïmporteerd moet worden, waarbij de hoofdmap van het pad de locatiemap voor het project is (dat wil zeggen,  */* foom wordt geïmporteerd naar  */content/screens/&lt;project>/locations/foo*)
+* **path {string}** Het pad voor de locatie die moet worden geïmporteerd, waarbij de hoofdmap van het pad de locatiemap voor het project is (dat wil zeggen: */foo* wordt geïmporteerd naar */content/screens/&lt;project>/locations/foo*)
 
-* **template {string}** De sjabloon die voor de nieuwe locatie moet worden gebruikt, is nu de enige toegestane waarde &#39;location&#39;, maar deze wordt in de toekomst uitgebreid naar alle schermsjablonen (&#39;display&#39;, &#39;sequencechannel&#39; enzovoort).
+* **template {string}** De sjabloon die voor de nieuwe locatie moet worden gebruikt, is nu de enige toegestane waarde &#39;location&#39;, maar deze wordt in de toekomst uitgebreid tot alle schermsjablonen (&#39;display&#39;, &#39;sequencechannel&#39; enzovoort).
 * **[./*] {string}** Elke optionele eigenschap die op de locatie moet worden ingesteld (dat wil zeggen: ./jcr:title, ./jcr:description, ./foo, ./bar). De huidige versie staat momenteel geen filtreren toe
 
 >[!NOTE]
 >
->Elke kolom die niet aan de bovenstaande voorwaarden voldoet, wordt gewoon genegeerd. Als er bijvoorbeeld een andere kolom in het CSV/XLS-bestand (sheet) is gedefinieerd, anders dan **path**,**template**,**title** en **description** in het bestand, worden deze velden genegeerd en **Project Importer** zal deze extra niet valideren velden voor het importeren van uw project naar uw AEM Screens-project.
+>Elke kolom die niet aan de bovenstaande voorwaarden voldoet, wordt gewoon genegeerd. Als er bijvoorbeeld een andere kolom in het bestand CSV/XLS (sheet) is gedefinieerd, behalve **pad**,**template**,**titel**, en **beschrijving** in uw bestand worden deze velden genegeerd en **Project importeren** valideert deze aanvullende velden voor het importeren van uw project naar uw AEM Screens-project niet.
 
 ## Project importeren gebruiken {#using-project-importer}
 
@@ -80,9 +80,7 @@ In de volgende sectie wordt beschreven hoe de projectimportmodule wordt gebruikt
 >
 >* Andere bestanden dan CSV/XLS/XLSX-extensies worden niet ondersteund in de huidige versie.
 >* Er bestaat geen filter voor de eigenschappen van geïmporteerde bestanden en alles wat begint met &quot;./&quot; wordt geïmporteerd.
-
 >
-
 
 
 ### Vereisten {#prerequisites}
@@ -105,21 +103,21 @@ Voer de onderstaande stappen uit om een bestand te importeren naar de map locati
 
 ![screen_shot_2019-05-14at21523pm](assets/screen_shot_2019-05-14at21523pm.png)
 
-1. Navigeer naar uw AEM Screens-project (**DemoProjectImport**).
+1. Ga naar uw AEM Screens-project (**DemoProjectImport**).
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Selecteer het project,** DemoProjectImporter **—>** Create **—>** de Plaatsen van de Invoer** van de zijbar.
+1. Selecteer het project,** DemoProjectImporter **—>** Maken **—>** Locaties** importeren vanaf de zijbalk.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. De wizard **Importeren** wordt geopend. Selecteer het bestand dat u voor uw project hebt met locaties of selecteer het bestand (***minimum-file.xls***) dat u hebt gedownload in de sectie *Eerste vereisten*.
+1. De **Importeren** openen. Selecteer het bestand dat u voor uw project hebt met locaties of selecteer het bestand (***minimum-file.xls***) die u hebt gedownload van de *Vereisten* sectie.
 
    Als u het bestand hebt geselecteerd, klikt u op **Volgende**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Verifieer de inhoud van het dossier (plaatsen) van de tovenaar van de Invoer en klik **Invoer**.
+1. Controleer de inhoud van het bestand (locaties) via de wizard Importeren en klik op **Importeren**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

@@ -1,12 +1,11 @@
 ---
-title: 'Configuratie werkstroom voor directe plaatsing '
-seo-title: Configuratie werkstroom voor directe plaatsing
+title: Configuratie werkstroom voor directe plaatsing
+seo-title: Direct Placement Workflow Configuration
 description: Deze pagina markeert de Configuratie van de Werkstroom van de Directe Plaatsing.
-seo-description: Deze pagina markeert de Configuratie van de Werkstroom van de Directe Plaatsing.
-translation-type: tm+mt
+seo-description: This page highlights Direct Placement Workflow Configuration.
 source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -25,21 +24,21 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 Met Direct Placement Workflow Configuration wordt een AEM Screens-projectkanaal toegewezen aan een specifieke map in middelen en kan elk middel in die map worden geplaatst. Het wordt aangeraden een bulkofflineupdate te activeren om de publicatie te voltooien.
 
-U kunt ook als auteur van inhoud handmatig op **Offlineinhoud bijwerken** klikken.
+U kunt als inhoudauteur ook handmatig klikken **Offline inhoud bijwerken**.
 
 >[!NOTE]
 >
->Als u wilt leren hoe u bulksgewijs offline updates kunt gebruiken, raadpleegt u [Inhoud bijwerken als service](/help/user-guide/content-update-as-a-service.md).
+>Raadpleeg voor meer informatie over het gebruik van bulksgewijze offline updates de [Inhoud bijwerken als service](/help/user-guide/content-update-as-a-service.md).
 
 ## Workflow voor directe plaatsing configureren {#configuring-workflow}
 
 >[!IMPORTANT]
 >
->Voordat u de configuratie start, moet u [Demopakket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip) installeren. Nadat u het pakket hebt geïnstalleerd, kunt u het vanuit uw AEM-instantie weergeven en openen —> Gereedschappen (pictogram) —> **Workflow** —> **Workflowmodellen**.
+>Voordat u de configuratie start, moet u de [Demopakket](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Nadat u het pakket hebt geïnstalleerd, kunt u het vanuit uw AEM bekijken en openen —> Gereedschappen (pictogram) —> **Workflow** —> **Workflowmodellen**.
 
 Voer de onderstaande stappen uit om de workflow voor directe plaatsing te configureren:
 
-1. Navigeer vanuit uw AEM naar AEM Screens en maak een Screens-project met de naam **Asset Workflow**.
+1. Navigeer naar AEM Screens vanaf uw AEM en maak een screens-project met de naam **Workflow voor middelen**.
 
-1. Creeer een kanaal genoemd als **Workflow-Assets** onder **Kanalen** omslag.
+1. Een kanaal maken met de naam **Workflow-middelen** krachtens **Kanalen** map.
 

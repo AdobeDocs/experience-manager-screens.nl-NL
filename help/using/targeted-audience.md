@@ -1,12 +1,11 @@
 ---
 title: Doelpubliek
-seo-title: Doelgroep voor AEM Screens
+seo-title: Target Audience for AEM Screens
 description: De pagina beschrijft wie het doelpubliek voor de gids van de Beste praktijken van AEM Screens is
-seo-description: De pagina beschrijft wie het doelpubliek voor de gids van de Beste praktijken van AEM Screens is
-translation-type: tm+mt
+seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '501'
 ht-degree: 4%
 
 ---
@@ -25,7 +24,7 @@ In het onderstaande diagram ziet u de rollen waarnaar we in de hele handleiding 
 >[!NOTE]
 >Veel van deze rollen kunnen intern of uitbesteed zijn, afhankelijk van hoe elk project wordt opgezet.
 
-## Rollen {#roles} definiëren
+## Rollen definiëren {#roles}
 
 In de volgende sectie vindt u een overzicht van het doelpubliek:
 
@@ -33,7 +32,7 @@ In de volgende sectie vindt u een overzicht van het doelpubliek:
 
 Adobe bevat bronnen van Adobe Managed Services, zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-### Implementators AEM {#aem-implementors}
+### AEM {#aem-implementors}
 
 AEM Implementors zijn verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
@@ -41,7 +40,7 @@ Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Ex
 
 AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase kan het mogelijk maken het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met extra fasen die ondersteuning voor interactieve elementen bevatten via aanraakschermen, sensoren, dynamische triggers enzovoort.
 
-### AV-integratoren {#av-integrators}
+### AV-integrators {#av-integrators}
 
 De A/V Integrator is de Leverancier/Partner van de Hardware. Dit is de partij die zich bezighoudt met het ontwerp en de voorbereiding van de detailhandel, met inbegrip van hardwareverwerving, configuratie, en plaatsing. Het is doorgaans een gecontracteerde derde partij die toegang heeft tot een Network Operations Center (NOC). In veel gevallen is de A/V-integrator de eigenaar van het project vanwege zijn voortdurende betrokkenheid na de lancering.
 
@@ -68,4 +67,4 @@ Creative &amp; Content Management kan een van de volgende opties zijn:
 Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens-implementatie. Een projectmanager is de puntpersoon voor de volledige implementatie van het aangewezen project en voert belangrijke verantwoordelijkheden uit zoals het plaatsen van chronologie, het behandelen van teambehoeften en mededelingen, het richten van uitdagingen, en het verzekeren dat de doelstellingen worden verwezenlijkt.
 
 >[!NOTE]
->Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek **[de Rollen en de Verantwoordelijkheden van het Project](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Ga voor meer informatie over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject naar **[Projectrollen en -verantwoordelijkheden](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.

@@ -1,21 +1,21 @@
 ---
 title: Noodkanaal
-seo-title: Noodkanaal
+seo-title: Emergency Channel
 description: Volg dit gebruiksvoorbeeld om te leren over het maken en beheren van een noodkanaal dat de auteur van de inhoud van een opeenvolgingskanaal kan overschakelen in het geval van een voorwaarde.
-seo-description: Volg dit gebruiksvoorbeeld om te leren over het maken en beheren van een noodkanaal dat de auteur van de inhoud van een opeenvolgingskanaal kan overschakelen in het geval van een voorwaarde.
+seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
 uuid: 612917c9-a832-453b-970c-f4365f7b105d
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-feature: Ontwerpschermen
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Inhoudsauteurs
 
 Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
-1. Maak een AEM Screens-project met de naam **EmergencyChannel**, zoals hieronder wordt weergegeven.
+1. Een AEM Screens-project maken met de naam **EmergencyChannel**, zoals hieronder weergegeven.
 
    >[!NOTE]
    >Raadpleeg Een project maken voor meer informatie over het maken en beheren van projecten in AEM Screens.
@@ -52,24 +52,24 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
 1. **Een volgend kanaal maken**
 
-   1. Selecteer de map **Kanalen** en klik op **Maken** om de wizard te openen en een kanaal te maken.
+   1. Selecteer **Kanalen** map en klik op **Maken** om de wizard te openen en een kanaal te maken.
 
-   1. Selecteer **Sequence Channel** in de wizard en maak het kanaal met de naam **MainAdChannel**.
+   1. Selecteren **Volgekanaal** van de wizard en maakt u het kanaal met de naam **MainAdChannel**.
 
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Inhoud toevoegen aan Volgkanaal**
 
    1. Selecteer het kanaal (**MainAdChannel**).
-   1. Klik **Bewerken** van de actiebar om de redacteur te openen. Sleep enkele elementen naar uw kanaal.
+   1. Klikken **Bewerken** in de actiebalk om de editor te openen. Sleep enkele elementen naar uw kanaal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Noodkanaal maken**
 
-   1. Selecteer **Kanalen** omslag.
-   1. Klik op **Maken** om de wizard te openen en een kanaal te maken.
-   1. Selecteer **Sequence Channel** in de wizard en maak het kanaal met de naam **EmergencyChannel**.
+   1. Selecteer **Kanalen** map.
+   1. Klikken op **Maken** om de wizard te openen en een kanaal te maken.
+   1. Selecteren **Volgekanaal** van de wizard en maakt u het kanaal met de naam **EmergencyChannel**.
 
    >[!NOTE]
    >
@@ -80,79 +80,79 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 1. **Inhoud toevoegen aan noodkanaal**
 
    1. Selecteer het kanaal (**Noodkanaal)**.
-   1. Klik **Bewerken** van de actiebar om de redacteur te openen. Sleep het element dat u tijdens een noodsituatie wilt gebruiken naar het kanaal.
+   1. Klikken **Bewerken** in de actiebalk om de editor te openen. Sleep het element dat u tijdens een noodsituatie wilt gebruiken naar het kanaal.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
 1. **Een locatie maken**
 
-   1. Navigeer naar de map **Locations**.
-   1. Klik **Maken** van de actiebar en creeer een plaats genoemd **Store** van de tovenaar.
+   1. Navigeren naar **Locaties** map.
+   1. Klikken **Maken** op de actiebalk en maak een locatie met de naam **Winkel** van de wizard.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Weergaven maken op uw locatie**
 
-   Navigeer naar uw locatie (**Store**) en klik op **Create** op de actiebalk. Volg de tovenaar om twee **vertoningen te creëren** die als **StoreFront** en **StoreRear** worden genoemd.
+   Ga naar uw locatie (**Winkel**) en klik op **Maken** in de actiebalk. Volg de wizard om twee te maken **Weergaven** genaamd **StoreFront** en **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Een schema maken**
 
-   1. Navigeer naar de map **Planningen**.
-   1. Klik **Maken** van de actiebar. Volg de tovenaar om een programma tot stand te brengen genoemd als **StoreSchedule**.
+   1. Ga naar uw **Planningen** map.
+   1. Klikken **Maken** in de actiebalk. Volg de wizard om een schema met de naam **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Wijs zowel de Vertoningen aan uw Programma toe en vastgestelde Prioriteiten
 
-   1. Selecteer het schema **(StoreSchedule)** en klik **Dashboard** van de actiebar.
+   1. Selecteer het schema **(StoreSchedule)** en klik op **Dashboard** in de actiebalk.
 
-   1. Klik **+ toewijzen Kanaal** van **TOEGEWEZEN KANALEN** paneel.
+   1. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** deelvenster.
 
-   1. Vanuit het dialoogvenster **Kanaaltoewijzing**:
+   1. Van de **Kanaaltoewijzing** dialoogvenster:
 
-      1. Selecteer het pad naar **MainAdChannel**
-      1. **Prioriteit** instellen als 2
-      1. Stel de ondersteunde gebeurtenissen in op **Eerste Laden** en **Niet-actief scherm**.
-      1. Klik **Opslaan**
+      1. Selecteer het pad naar de **MainAdChannel**
+      1. Stel de **Prioriteit** 2
+      1. Ondersteunde gebeurtenissen instellen als **Oorspronkelijke belasting** en **Niet-actief scherm**.
+      1. Klikken **Opslaan**
 
-      Op dezelfde manier zult u de zelfde stappen opnieuw moeten volgen om **EmergencyChannel** toe te wijzen en zijn **Priority** te plaatsen.
+      Op dezelfde manier moet u dezelfde stappen opnieuw uitvoeren om de opdracht **EmergencyChannel** en stelt **Prioriteit**.
    >[!NOTE]
    >
    >Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. Degene met de hoogste waarde heeft altijd voorrang op lagere waarden.
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Klik **+ toewijzen Kanaal** van **TOEGEWEZEN KANALEN** paneel.
+1. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** deelvenster.
 
-1. Vanuit het dialoogvenster **Kanaaltoewijzing**:
+1. Van de **Kanaaltoewijzing** dialoogvenster:
 
-   1. Selecteer het pad naar **EmergencyChannel**
-   1. **Prioriteit** instellen als 1
+   1. Selecteer het pad naar de **EmergencyChannel**
+   1. Stel de **Prioriteit** 1
 
-   1. Stel de ondersteunde gebeurtenissen in als **Eerste Laden**, **Niet-actief scherm** en **Gebruikersinteractie**
+   1. Ondersteunde gebeurtenissen instellen als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Gebruikersinteractie**
 
-   1. Klik **Opslaan**
+   1. Klikken **Opslaan**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
-   U kunt de toegewezen kanalen van **StoreSchedule** dashboard bekijken.
+   U kunt de toegewezen kanalen weergeven via de **StoreSchedule** dashboard.
 
    ![screen_shot_2019-02-25at93658pm](assets/screen_shot_2019-02-25at93658pm.png)
 
 1. **Plan toewijzen aan elke weergave**
 
-   1. Navigeer naar elk scherm, zoals **EmergencyChannel** —> **Locaties** —> **Store** —>**StoreFront**.
+   1. Ga naar elke weergave, zoals **EmergencyChannel** —> **Locaties** —> **Winkel** —>**StoreFront**.
 
-   1. Klik **Dashboard** van de actie om het vertoningsdashboard te openen.
-   1. Klik **..** van **TOEGEWEZEN KANALEN &amp; SCHEDULES** en klik verder **+Wijs Programma** toe.
+   1. Klikken **Dashboard** van de handeling om het weergavedashboard te openen.
+   1. Klikken **...** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** en klik vervolgens op **+Plan toewijzen**.
 
-   1. Selecteer het pad naar het schema (bijvoorbeeld **EmergencyChannel** —> **Planningen** —>**StoreSchedule**).
+   1. Selecteer het pad naar het schema (bijvoorbeeld hier **EmergencyChannel** —> **Planningen** —>**StoreSchedule**).
 
-   1. Klik **Opslaan**.
+   1. Klikken **Opslaan**.
 
-   U kunt het toegewezen programma aan de vertoning van **StoreSchedule** dashboard bekijken.
+   U kunt het toegewezen schema aan de vertoning van bekijken **StoreSchedule** dashboard.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **Apparaatregistratie**
@@ -165,24 +165,24 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
 Voer in noodgevallen de volgende stappen uit:
 
-1. Navigeer naar **EmergencyChannel** —> **Planningen** —> **StoreSchedule** en selecteer **Dashboard** in de actiebalk.
+1. Navigeren naar **EmergencyChannel** —> **Planningen** —> **StoreSchedule** en selecteert u **Dashboard** in de actiebalk.
 
    ![screen_shot_2019-02-25at10112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Selecteer **EmergencyChannel** van **StoreSchedule** dashboard en klik **Edit Taak**.
+1. Selecteer **EmergencyChannel** van de **StoreSchedule** dashboard en klik op **Toewijzing bewerken**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Werk **Prioriteit** van **EmergencyChannel** aan **3** van **Kanaaltoewijzing** dialoogdoos bij en klik **Save**.
+1. Werk de **Prioriteit** van de **EmergencyChannel** tot **3** van de **Kanaaltoewijzing** en klik op **Opslaan**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Zodra de prioriteit van het kanaal is bijgewerkt, geeft alle AEM Screens-speler de **EmergencyChannel**-inhoud weer, zoals hieronder wordt weergegeven.
+1. Zodra de prioriteit van het kanaal is bijgewerkt, geeft alle AEM Screens-speler de **EmergencyChannel** inhoud, zoals hieronder weergegeven.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Conclusie {#conclusion}
 
-De **EmergencyChannel** zal zijn inhoud blijven tonen tot de auteur van de inhoud de Prioriteitswaarde aan 1 terugstelt.
+De **EmergencyChannel** blijft de inhoud weergeven totdat de auteur van de inhoud de waarde Prioriteit terugzet op 1.
 
-Zodra de inhoudauteur de instructies ontvangt dat de noodsituatie is ontruimd, zou hij/zij de prioriteit van **MainAdChannel** moeten bijwerken die normale playback zal veroorzaken om te hervatten.
+Zodra de inhoudauteur de instructies ontvangt dat de noodsituatie is ontruimd, moet hij/zij de prioriteit van bijwerken **MainAdChannel** waardoor het normale afspelen wordt hervat.

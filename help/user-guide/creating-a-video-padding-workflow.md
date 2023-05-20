@@ -1,8 +1,8 @@
 ---
 title: Workflow voor het opvullen van video's maken
-seo-title: Workflow voor het opvullen van video's maken
+seo-title: Creating a Video Padding Workflow
 description: Volg deze pagina voor meer informatie over het maken van een video-opvulling in de workflow voor uw elementen.
-seo-description: Volg deze pagina voor meer informatie over het maken van een video-opvulling in de workflow voor uw elementen.
+seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
 uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,13 +10,13 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
-feature: Ontwerpschermen
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 ## Overzicht {#overview}
 
-Het volgende gebruiksgeval betreft het plaatsen van een video (voorbeeld: 1280 x 720) in een kanaal met een beeldscherm van 1920 x 1080 en een video van 0 x 0 (linksboven). De video mag op geen enkele manier worden uitgerekt of gewijzigd en gebruikt **Cover** in de video-component niet.
+Het volgende gebruiksgeval betreft het plaatsen van een video (voorbeeld: 1280 x 720) in een kanaal met een beeldscherm van 1920 x 1080 en een video van 0 x 0 (linksboven). De video mag op geen enkele manier worden uitgerekt of gewijzigd en mag niet worden gebruikt **Omslag** in de videocomponent.
 
 De video wordt weergegeven als een object van pixel 1 tot pixel 1280, van pixel 1 tot pixel 720, en de rest van het kanaal als standaardkleur.
 
@@ -43,8 +43,8 @@ De video wordt weergegeven als een object van pixel 1 tot pixel 1280, van pixel 
 
 Vul de volgende voorwaarden in voordat u een workflow voor video maakt:
 
-1. Een video uploaden in de map **Assets** in uw AEM-instantie
-1. Maak een AEM Screens-project (bijvoorbeeld **TestVideoRendition**) en een kanaal met de naam (**VideoRendering**), zoals in de onderstaande afbeelding wordt getoond:
+1. Een video uploaden in **Activa** map in uw AEM-instantie
+1. Een AEM Screens-project maken (bijvoorbeeld **TestVideoRendition**) en een kanaal met de naam (**VideoRendering**), zoals weergegeven in onderstaande afbeelding:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
@@ -61,39 +61,39 @@ Voer de onderstaande stappen uit om de workflow te maken en te gebruiken:
 
 Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
-1. Navigeer naar uw AEM en klik op gereedschappen vanaf de zijbalk. Selecteer **Workflow** —> **Modellen** om een nieuw model te maken.
+1. Navigeer naar uw AEM en klik op gereedschappen vanaf de zijbalk. Selecteren **Workflow** —> **Modellen** om een nieuw model te maken.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klik **Modellen** —> **Maken** —> **Model maken**. Typ de **Titel** (als **VideoRendition**) en **Naam** in **Werkstroommodel toevoegen**. Klik **Done** om het workflowmodel toe te voegen.
+1. Klikken **Modellen** —> **Maken** —> **Model maken**. Voer de **Titel** (as **VideoRendition**) en **Naam** in de **Workflowmodel toevoegen**. Klikken **Gereed** om het workflowmodel toe te voegen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Nadat u het workflowmodel hebt gemaakt, selecteert u het model (**VideoRendition**) en klikt u op **Bewerken** op de actiebalk.
+1. Als u het workflowmodel hebt gemaakt, selecteert u het model (**VideoRendition**) en klik op **Bewerken** in de actiebalk.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Sleep de **Command Line** component naar uw werkstroom.
+1. Sleep de **Opdrachtregel** aan uw workflow.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Selecteer de component **Command Line** en open het dialoogvenster Eigenschappen.
+1. Selecteer **Opdrachtregel** en opent u het dialoogvenster met eigenschappen.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Selecteer het tabblad **Argumenten** om de velden in te voeren in het dialoogvenster **Command Line - Step Properties**.
+1. Selecteer **Argumenten** om de velden in te voeren in het dialoogvenster **Opdrachtregel - stapeigenschappen** in.
 
-   Voer de notatie in de **Mime Types** (als ***video/mp4***) en de opdracht in als (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=color=black&quot; ccd5dam.video.fullhd-hp.mp4***) om de workflow te starten in het veld **Opdrachten**.
+   Voer de notatie in het dialoogvenster **MIME-typen** (as ***video/mp4***) en de opdracht als (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**) om de workflow te starten in de **Opdrachten** veld.
 
    Raadpleeg de details over **MIME-typen** en **Opdrachten** in de onderstaande opmerking.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Selecteer het werkschema (**VideoRenditions**) en klik **Begin Werkschema** van de actiebar om **de dialoogdoos van het Werkschema van de Looppas** te openen.
+1. Selecteer de workflow (**VideoRenditions**) en klik op **Workflow starten** van de actiebalk om het dialoogvenster **Workflow uitvoeren** in.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Selecteer het pad van uw element in **Payload** (als ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) en voer **Title** in als ***RunVideo*** en klik **Run 9/>.**
+1. Selecteer het pad van uw element in het dialoogvenster **Payload** (as ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) en voert u de **Titel** als ***RunVideo*** en klik op **Uitvoeren**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -101,11 +101,11 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
 Voer de onderstaande stappen uit om de workflow in uw AEM Screens-project te gebruiken:
 
-1. Navigeer naar een AEM Screens-project (**TestVideoRendition** —> **Kanalen** —>**VideoRendition**).
+1. Navigeren naar een AEM Screens-project (**TestVideoRendition** —> **Kanalen** —>**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Klik op **Bewerken** op de actiebalk. Sleep de video die u aanvankelijk naar **Middelen** hebt geüpload.
+1. Klikken **Bewerken** in de actiebalk. Sleep de video die u aanvankelijk hebt geüpload naar **Activa**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
@@ -118,6 +118,6 @@ Voer de onderstaande stappen uit om de workflow in uw AEM Screens-project te geb
 U kunt de uitvoer valideren door:
 
 * De voorvertoning van de video in het kanaal controleren
-* Navigeer naar ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, zoals in de onderstaande afbeelding wordt getoond:
+* Ga naar de ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, zoals weergegeven in onderstaande afbeelding:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

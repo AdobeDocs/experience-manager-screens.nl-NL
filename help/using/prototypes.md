@@ -1,15 +1,15 @@
 ---
 title: Prototypen
-seo-title: Prototypen
+seo-title: Prototypes
 description: Deze pagina beschrijft Prototypen voor een Project van AEM Screens
-seo-description: De pagina beschrijft Prototypen voor een AEM Screens-project
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Prototypes for an AEM Screens Project
+exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
-
 
 # Prototypen van gebruikerservaring {#prototypes}
 

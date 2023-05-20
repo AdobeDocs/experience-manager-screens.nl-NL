@@ -1,21 +1,21 @@
 ---
 title: Locaties maken en beheren
-seo-title: Locaties beheren
+seo-title: Managing Locations
 description: Volg deze pagina voor meer informatie over het maken/beheren van locaties.
-seo-description: Volg deze pagina voor meer informatie over het maken/beheren van locaties.
+seo-description: Follow this page to learn about creating/managing locations.
 uuid: f18802d4-dae8-48b2-8c94-ecc73579b29f
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
-feature: Ontwerpschermen
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ Op deze pagina worden locaties voor schermen gemaakt en beheerd.
 Nadat u uw project voor schermen hebt gemaakt, volgt u de onderstaande stappen om een nieuwe locatie voor een project Screens te maken:
 
 1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik vervolgens op Rasteren. U kunt ook rechtstreeks navigeren naar: `http://localhost:4502/screens.html/content/screens`.
-1. Navigeer naar het schermproject en klik op **Locaties**.
-1. Klik **Maken** naast het plusteken in de actiebalk. Er wordt een wizard geopend.
-1. Selecteer de sjabloon **Locatie** in de wizard en klik op **Volgende**.
+1. Navigeer naar het project Screens en klik op **Locaties**.
+1. Klikken **Maken** naast het plusteken in de actiebalk. Er wordt een wizard geopend.
+1. Selecteer de sjabloon **Locatie** van de wizard en klik op **Volgende**.
 
-1. Voer de eigenschappen in voor **Titel en tags**, **Meer titels en beschrijvingen**, **Aan/Uit-tijd** en **Vanity URL**.
+1. Voer de eigenschappen in voor **Titel en tags**, **Meer titels en beschrijving**, **Aan/Uit-tijd**, en **Vanity URL**.
 
-1. Klik op **Maken** en de locatie wordt gemaakt en toegevoegd aan de map met locaties.
+1. Klikken **Maken** en de locatie wordt gemaakt en toegevoegd aan de map met locaties.
 
 Zie de onderstaande stappen voor meer informatie over het maken van een nieuwe locatie voor een AEM Screens-project. Voor demonstratiedoeleinden wordt de nieuwe locatie (SanJose) gemaakt onder *DemoProject*.
 
@@ -56,7 +56,7 @@ Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie mak
 De eigenschappen van een locatie bewerken/openen:
 
 1. Selecteer de locatie.
-1. Klik **Eigenschappen** van de actiebar.
+1. Klikken **Eigenschappen** in de actiebalk.
 
 ![player3](assets/player3.gif)
 
@@ -64,4 +64,4 @@ De eigenschappen van een locatie bewerken/openen:
 
 Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie maken.
 
-Zie [Weergaven maken en beheren](managing-displays.md) voor meer informatie.
+Zie [Weergaven maken en beheren](managing-displays.md) voor meer informatie .

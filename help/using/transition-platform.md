@@ -1,15 +1,15 @@
 ---
 title: Overgang naar Platform
-seo-title: Overgang naar Platform voor AEM Screens
+seo-title: Transition to Platform for AEM Screens
 description: De pagina beschrijft overgang naar Platform
-seo-description: De pagina beschrijft overgang naar Platform
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Transition to Platform
+exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
-
 
 # Overgang naar Platform {#transition-platform}
 
@@ -23,14 +23,14 @@ Dit omvat het in kaart brengen van platformspecifieke configuraties aan los bepa
 
 Voorbeelden hiervan zijn hoe en wanneer u wilt gebruiken:
 
-* **Ervaar** fragmentaties voor het maken van inhoudsgroepen
+* **Ervaar fragmenten** voor het maken van inhoudsgroepen
 * **Inhoudsfragmenten** voor het maken van tekstvariaties
-* **Context** Hubfor voor het creëren van externe gegevensopslag, SPA voor interactieve ervaringen
-* **OSGi-** services voor netwerkwaarschuwingen
-* **Asset** Linkfor Creative Cloud sourcing
-* **Netwerkmappen** voor middelentoewijzing
+* **Context Hub** voor het maken van externe gegevensopslagruimten, SPA voor interactieve ervaringen
+* **OSGi-diensten** voor netwerkwaarschuwingen
+* **Elementkoppeling** voor Creative Cloud-sourcing
+* **Netwerkmappen** voor middelenallocatie
 * **Tekstbedekking** voor realtime gegevens
-* **** Plannen voor weergave-/kanaalgroepen
+* **Planningen** voor weergave-/kanaalgroepen
 * **Workflows** voor automatische inhoudsbewerkingen.
 
 In deze fase, is het belangrijk om alle vereiste taken en activiteiten te herzien die aandacht zullen vereisen en hen behoorlijk zullen documenteren zodat de toegewezen taken behoorlijk spoor-in de plaatsingsfase kunnen zijn.

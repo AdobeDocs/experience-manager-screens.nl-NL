@@ -1,15 +1,15 @@
 ---
 title: Kanaaltoewijzing - Laatste FP
-seo-title: Kanaaltoewijzing - Laatste FP
+seo-title: Channel Assignment - Latest FP
 description: Volg deze pagina om meer te weten te komen over Kanaaltoewijzing en DayParting.
-feature: Auteursschermen, Kanaaltoewijzing
+feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 1%
+source-wordcount: '1467'
+ht-degree: 0%
 
 ---
 
@@ -36,24 +36,24 @@ Volg de onderstaande secties om een AEM Screens-project te maken en een kanaal t
 
 Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
-1. Maak een AEM Screens-project met de naam **DemoScreens**.
+1. Een AEM Screens-project maken met de naam **DemoScreens**.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Raadpleeg [Projecten maken en beheren](creating-a-screens-project.md) voor meer informatie over het maken van een AEM Screens-project.
+   >Zie [Projecten maken en beheren](creating-a-screens-project.md) om te leren hoe u een AEM Screens-project maakt.
 
-1. Creeer een opeenvolgingskanaal genoemd als **Cafeteria** in **Kanalen** omslag.
+1. Een volgnummer maken met de naam **Cafeteria** in de **Kanalen** map.
 
-1. Selecteer het kanaal en klik **Bewerken** van de actiebar om inhoud aan uw kanaal toe te voegen.
+1. Selecteer het kanaal en klik op **Bewerken** in de actiebalk om inhoud toe te voegen aan uw kanaal.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   Met het kanaal **Cafeteria** worden bijvoorbeeld nu de volgende afbeeldingen weergegeven:
+   De **Cafeteria** in het kanaal worden nu de volgende afbeeldingen weergegeven:
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
-1. Maak een locatie met de naam **SanJose** en een weergave als **Lobby**.
+1. Een locatie maken met de naam **SanJose** en een weergave als **Lobby**.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
@@ -61,44 +61,44 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
 Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toewijzen om de inhoud te bekijken.
 
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locaties** —> **SanJose** —> **Lobby**.
+1. Ga bijvoorbeeld naar de gewenste weergave **DemoScreens** —> **Locaties** —> **SanJose** —> **Lobby**.
 
-1. Tik/klik **Kanaal toewijzen** vanuit de actiebalk.
+1. Tikken/klikken **Kanaal toewijzen** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Of
 
-   Tik/klik op **Dashboard** in de actiebalk en klik op **+Kanaal toewijzen** in het **Toegewezen KANALEN &amp; SCHEDULES**-deelvenster.
+   Tikken/klikken **Dashboard** op de actiebalk en klik op **+Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
-1. Het dialoogvenster **Kanaaltoewijzing** wordt geopend.
+1. De **Kanaaltoewijzing** wordt geopend.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Van **Montages** optie, kunt u het kanaal **door weg** of **door naam** kiezen, **de Rol van het Kanaal**, **Prioriteit**, **Ondersteunde Gebeurtenissen**, en &lt;a1 2/>Onderbrekingsmethoden **.** Bovendien kunt u de knopinfo voor aantrekken inschakelen vanuit dit dialoogvenster.
+1. Van de **Instellingen** kunt u het kanaal kiezen **op pad** of **op naam**, voert u de **Kanaalrol**, **Prioriteit**, **Ondersteunde gebeurtenissen**, en **Methoden voor onderbreking**. Bovendien kunt u de knopinfo voor aantrekken inschakelen vanuit dit dialoogvenster.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >
-   >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaltoewijzingseigenschappen.
+   >Zie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
 
-1. Selecteer bij de optie **Schema** de opties **Activeringsvenster** en **Herhalingsschema**.
+1. Van de **Schema** Selecteer de optie **Activeringsvenster** en **Herhalingsschema**.
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Raadpleeg de sectie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaltoewijzingseigenschappen.
+   >Zie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
 
-1. Klik **Save** zodra u uw voorkeur hebt gevormd.
+1. Klikken **Opslaan** zodra u uw voorkeuren hebt geconfigureerd.
 
 ### De inhoud weergeven in Chrome Player {#viewing-content-output}
 
 In dit voorbeeld wordt de uitvoer op een Chrome-speler getoond. Nadat u het kanaal aan de weergave hebt toegewezen, moet u het apparaat registreren bij een speler.
 
-Raadpleeg [Apparaatregistratie](device-registration.md) voor informatie over het registreren van een apparaat voor een AEM Screens-speler.
+Zie [Apparaatregistratie](device-registration.md) voor informatie over het registreren van een apparaat op een AEM Screens-speler.
 
 U geeft de volgende uitvoer weer naar keuze van de speler:
 
@@ -106,23 +106,23 @@ U geeft de volgende uitvoer weer naar keuze van de speler:
 
 ## Tijdlijnweergave {#timeline-view}
 
-Nadat u een kanaal hebt toegewezen aan een weergave en een terugkeringsschema hebt ingesteld, kunt u de tijdlijn weergeven in het deelvenster **TOEGEWEZEN KANALEN EN SCHADUWEN**.
+Nadat u een kanaal aan een weergave hebt toegewezen en een herhalingsschema hebt ingesteld, kunt u de tijdlijn vanuit de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
 Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
 
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locaties** —> **SanJose** —> **Lobby**.
+1. Ga bijvoorbeeld naar de gewenste weergave **DemoScreens** —> **Locaties** —> **SanJose** —> **Lobby**.
 
-1. Tik/klik **Kanaal toewijzen** vanuit de actiebalk.
+1. Tikken/klikken **Kanaal toewijzen** in de actiebalk.
 
    Of
 
-   Tik/klik **Dashboard** en klik **Timeline** in het **TOEGEWEZEN KANALEN &amp; SCHEDULES** paneel.
+   Tikken/klikken **Dashboard** en klik op **Tijdlijn** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Kanaaleigenschappen van dialoogvenster Kanaaltoewijzing {#channel-properties}
 
-De volgende eigenschappen worden ingesteld met de optie **Instellingen** in het dialoogvenster **Kanaaltoewijzing**.
+De volgende eigenschappen worden ingesteld vanuit de **Instellingen** in de **Kanaaltoewijzing** in.
 
 ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -130,9 +130,9 @@ De volgende eigenschappen worden ingesteld met de optie **Instellingen** in het 
 
 Als u een kanaal selecteert, kunt u een verwijzing naar het gewenste kanaal opgeven, hetzij op de kanaalnaam, hetzij op het kanaalpad.
 
-* **per pad**: u verstrekt een expliciete verwijzing gebruikend de absolute weg van het kanaal.
+* **op pad**: u verstrekt een expliciete verwijzing gebruikend de absolute weg van het kanaal.
 
-* **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met bijvoorbeeld de naam *gaat over de dag*, waarbij de werkelijke inhoud in twee steden anders zou zijn, maar u hebt nog steeds de rol van het normaal kanaal op alle weergaven.
+* **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met bijvoorbeeld een naam *dagblad*, waarbij de inhoud in feite in twee steden anders zou zijn, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
 
 ### Kanaalrol {#role-channel}
 
@@ -144,7 +144,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 >[!NOTE]
 >
->De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in **de dialoogdoos van de Toewijzing van het Kanaal**, zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
+>De prioriteit voor een kanaal wordt ingesteld als een getal (1 voor het minimum) in het dialoogvenster **Kanaaltoewijzing** , zoals hierboven vermeld. Bovendien, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
 ### Ondersteunde gebeurtenissen {#supported-events-channel}
 
@@ -160,40 +160,40 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
 
-Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het dialoogvenster **Kanaaltoewijzing**:
+Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het menu **Kanaaltoewijzing** dialoogvenster:
 
-* **Onmiddellijk**: wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
+* **Meteen**: wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
 * **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of afspeelt u de nieuwe inhoud
 
    >[!NOTE]
-   >Deze optie is standaard geselecteerd.
+   >Deze optie is standaard ingeschakeld.
 
 * **Aan het einde van de reeks**: wanneer een nieuw programma activeert of een update wordt ontvangen, hebt u de optie om op de volledige opeenvolging te wachten om zijn eind te bereiken, en net vóór de gewenste opeenvolging, kunt u terugloop naar het eerste element, u vernieuwt of de nieuwe inhoud speelt
 
    >[!NOTE]
    >Als u de tweede of derde optie gebruikt, kunnen de op de toewijzing gedefinieerde planningstijden enigszins worden uitgesteld omdat de speler op het einde van het item of de reeks (na de opgegeven tijd) wacht voordat het item of de reeks wordt vernieuwd. De vertraging is afhankelijk van de afspeelduur van het item.
 
-De volgende eigenschappen worden geplaatst van **Programma** optie in **Kanaaltoewijzing** dialoogdoos.
+De volgende eigenschappen worden ingesteld vanuit de **Schema** in de **Kanaaltoewijzing** in.
 
 ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### Activeringsvenster {#activation-window}
 
-In het venster Activering kunt u een **Begindatum** en een **Einddatum** selecteren om uw inhoud weer te geven.
+In het venster Activering kunt u een **Begindatum** en **Einddatum** om uw inhoud weer te geven.
 
 ### Herhalingsschema {#recurrence-schedule}
 
-Met het schema Herhaling kunt u een terugkerend schema voor uw inhoud instellen. Klik op **+ voeg Programma** toe om een terugkeringsprogramma aan uw kanaal toe te voegen.
+Met het schema Herhaling kunt u een terugkerend schema voor uw inhoud instellen. Klikken op **+ Plan toevoegen** om een terugkerend programma aan uw kanaal toe te voegen.
 
 >[!NOTE]
 >U kunt veelvoudige terugkomende programma&#39;s aan uw kanaal toevoegen.
->De Planningen van de herhaling introduceren *DayParting*, die u toestaat om een globaal programma met veelvoudige kanalen te plaatsen die op specifieke tijden van de dag lopen, en hergebruik die opstelling voor al uw vertoningen in één keer.
+>Herhalingsschema&#39;s worden geïntroduceerd *DayParting*, waarmee u een algemeen schema kunt instellen met meerdere kanalen die op specifieke tijdstippen van de dag worden uitgevoerd, en die instelling voor al uw beeldschermen tegelijk opnieuw kunt gebruiken.
 
 U kunt de volgende opties instellen:
 
 * **Naam**: Titel van uw terugkerend schema.
-* **Herhalen**: Kies of de planning  **Dagelijks**,  **Wekelijks**,  **Maandelijks**, of  **Jaarlijks** loopt.
-* **Begin**: De begintijd voor uw schema.
+* **Herhalen**: Kies of de planning wordt uitgevoerd **Dagelijks**, **Wekelijks**, **Maandelijks**, of **Jaarlijks**.
+* **Start**: De begintijd voor uw schema.
 * **Einde**: De eindtijd voor uw schema. U kunt de achtergrondkleur instellen op tijd of duur.
    * **Tijd**: Het programma eindigt op een bepaald tijdstip.
    * **Duur**: Het schema loopt gedurende een bepaalde tijdsduur in uren of minuten.
@@ -210,7 +210,7 @@ In dit voorbeeld wordt getoond hoe een restaurant Dagparting gebruikt om dagelij
 
 Hier, zullen wij elke dag in verschillende tijdgroeven verdelen, zodat de kanaalinhoud op de gespecificeerde tijd van de dag speelt. Stel de volgende eigenschappen van het programma Herhaling voor uw kanaal in om de inhoud af te spelen volgens deze gebruiksaanwijzing.
 
-| **Naam** | **Herhalen** | **Begin** | **End** |
+| **Naam** | **Herhalen** | **Start** | **Einde** |
 |---|---|---|---|
 | Ontbijt | Dagelijks | 06:00 | 11:00 |
 | Lunch | Dagelijks | 11:00 | 15:00 |
@@ -220,11 +220,11 @@ Hier, zullen wij elke dag in verschillende tijdgroeven verdelen, zodat de kanaal
 
 In dit voorbeeld ziet u hoe DayParting wordt geïmplementeerd in een casino waar de livegebeurtenis plaatsvindt elk weekend van 8:00 tot 10:00 uur en er speciale menu&#39;s beschikbaar zijn voor het diner na 10:00 tot 13:00 uur.
 
-| **Naam** | **Herhalen** | **Begin** | **Einde** |
+| **Naam** | **Herhalen** | **Start** | **Einde** |
 |---|---|---|---|
 | Weekend | Wekelijks: zaterdag, zondag | 20:00 | 22:00 |
 | Specials | Dagelijks: Maandag - vrijdag | 22:00 | 01:00 |
 
 >[!NOTE]
 >
->Daarnaast kunt u ***Prioriteit*** voor elk van de kanalen definiëren. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.
+>Bovendien kunt u ***Prioriteit*** voor elk van de kanalen. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.

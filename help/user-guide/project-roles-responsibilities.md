@@ -1,14 +1,14 @@
 ---
-title: '"Deel 1: Projectrollen en -verantwoordelijkheden"'
-seo-title: '"Deel 1: Projectrollen en -verantwoordelijkheden"'
+title: "Deel 1: Projectrollen en -verantwoordelijkheden"
+seo-title: "Part 1: Project Roles and Responsibilities"
 description: Volg deze zelfstudie om meer inzicht te krijgen in rollen, verantwoordelijkheden en tijdlijnen die tijdens de verkoop- en projectlevenscycli voor een digitaal ondertekeningsproject zijn vereist.
-feature: Overzicht
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe bevat bronnen van Adobe Managed Services, zoals de CSE (Customer Success E
 
 #### AEM {#aem-implementors}
 
-Een **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
+An **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
 Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Experience) van eindgebruikers worden ook vastgelegd en via dit proces geleverd.
 
@@ -49,7 +49,7 @@ AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaat
 
 #### AV-integrators {#av-integrators}
 
-Een **AV-integrator** is verantwoordelijk voor het uitvoeren van ontdekkingen met eindgebruikers om vereisten te definiëren die het projectbereik bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
+An **AV-integrator** is verantwoordelijk voor het uitvoeren van detectie met eindgebruikers om vereisten te definiëren die het projectbereik bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
 
 ## Deel 1: Videozelfstudie over projectrollen en -verantwoordelijkheden {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -65,4 +65,4 @@ Volg de onderstaande zelfstudie om precies te begrijpen hoe elke partij in de im
 
 Zodra u de projectrollen en de verantwoordelijkheden in het uitvoeren van een digitaal ondertekeningsproject begrijpt, volg het volgende leerprogramma dat diep in onderwerpen zoals het testen en pre-verkoopoverwegingen duikt aangezien het project wanneer het ontwikkelen van de kansen van AEM Screens wordt scoped.
 
-Navigeer naar **[Deel 2: Overwegingen als Projecten worden Gescoped](project-considerations.md)** voor meer details.
+Navigeren naar **[Deel 2: Overwegingen als projecten worden behandeld](project-considerations.md)** voor meer informatie .

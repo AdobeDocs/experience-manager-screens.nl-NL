@@ -1,8 +1,8 @@
 ---
 title: Offlinekanalen
-seo-title: Offlinekanalen
-description: 'De AEM Screens-speler biedt offline ondersteuning voor kanalen door gebruik te maken van de ContentSync-technologie. Volg deze pagina voor meer informatie over updatehandlers en het inschakelen van offlineconfiguratie voor een kanaal.  '
-seo-description: 'De AEM Screens-speler biedt offline ondersteuning voor kanalen door gebruik te maken van de ContentSync-technologie. Volg deze pagina voor meer informatie over updatehandlers en het inschakelen van offlineconfiguratie voor een kanaal.  '
+seo-title: Offline Channels
+description: De AEM Screens-speler biedt offline ondersteuning voor kanalen door gebruik te maken van de ContentSync-technologie. Volg deze pagina voor meer informatie over updatehandlers en het inschakelen van offlineconfiguratie voor een kanaal.
+seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,24 +10,24 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-feature: Schermen ontwikkelen
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
 
-
 # Offlinekanalen {#offline-channels}
 
-De schermspeler biedt offline ondersteuning voor de kanalen door gebruik te maken van de technologie ***ContentSync***.
+De schermspeler biedt offline ondersteuning voor de kanalen door de ***ContentSync*** -technologie.
 
 De spelers gebruiken een lokale http server om de ongezipte inhoud te dienen.
 
-Wanneer een kanaal wordt gevormd om *online* in werking te stellen, dient de speler de kanaal-middelen door tot de AEM server toegang te hebben maar wanneer het kanaal wordt gevormd om *off-line* in werking te stellen, dient de speler de kanaal-middelen van een lokale server http.
+Wanneer een kanaal wordt gevormd om in werking te stellen *online*, dient de speler de kanaal-middelen door tot de AEM server toegang te hebben maar wanneer het kanaal wordt gevormd om in werking te stellen *offline*, dient de speler de kanaal-middelen van een lokale server http.
 
 De workflow voor het proces is als volgt:
 
@@ -37,9 +37,9 @@ De workflow voor het proces is als volgt:
 1. Het postvak downloaden en lokaal uitpakken
 1. Lokale kopie van de inhoud weergeven
 
-## Handlers {#update-handlers} bijwerken
+## Handlers bijwerken {#update-handlers}
 
-***ContentSync*** gebruikt updatemanagers om alle noodzakelijke pagina&#39;s en activa voor een specifiek project te ontleden en te verzamelen. AEM Screens gebruikt de volgende updatehandlers:
+De ***ContentSync*** gebruikt updatemanagers om alle noodzakelijke pagina&#39;s en activa voor een specifiek project te ontleden en te verzamelen. AEM Screens gebruikt de volgende updatehandlers:
 
 ### Algemene opties {#common-options}
 
@@ -57,7 +57,7 @@ De workflow voor het proces is als volgt:
   <tr>
    <td>kanalen</td> 
    <td>verzamelt een kanaal</td> 
-   <td>extensie: uitbreiding van de te verzamelen bron<br /> [pathSuffix='']: achtervoegsel toevoegen aan kanaalpad<br /> </td> 
+   <td>extensie: uitbreiding van de te verzamelen middelen<br /> [pathSuffix='']: achtervoegsel om toe te voegen aan het kanaalpad<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
@@ -90,7 +90,7 @@ Voer de onderstaande stappen uit om de ContentSync-configuratie te testen:
 1. Een lokale server starten in de uitgepakte map
 1. De startpagina openen en de status van uw app controleren
 
-## Offlineconfiguratie inschakelen voor een kanaal {#enabling-offline-config-for-a-channel}
+## Offlineconfig voor een kanaal inschakelen {#enabling-offline-config-for-a-channel}
 
 Volg de onderstaande stappen om offline config voor een kanaal toe te laten:
 
@@ -98,19 +98,19 @@ Volg de onderstaande stappen om offline config voor een kanaal toe te laten:
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Navigeer naar het kanaaldashboard en klik op **..** in **KANAALINFORMATIE** Panel om de eigenschappen te wijzigen.
+1. Navigeer naar het kanaaldashboard en klik op **...** in de **KANAALINFORMATIE** Deelvenster om de eigenschappen te wijzigen.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Navigeer naar de kanaaleigenschappen en controleer of het selectievakje is uitgeschakeld onder het tabblad **Kanaal**. Klik **Opslaan en sluiten**.
+1. Navigeer naar de kanaaleigenschappen en controleer of het selectievakje is uitgeschakeld onder het dialoogvenster **Kanaal** tab. Klikken **Opslaan en sluiten**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Voordat inhoud correct op het apparaat wordt geïmplementeerd, klikt u op **Offlineinhoud bijwerken**.
+   Voordat de inhoud correct op het apparaat wordt geïmplementeerd, klikt u op de knop **Offline inhoud bijwerken**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
-   De status **Offline** onder **EIGENSCHAPPEN** wordt ook dienovereenkomstig bijgewerkt.
+   De **Off line** status onder **EIGENSCHAPPEN** ook dienovereenkomstig bijgewerkt.
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
@@ -120,4 +120,4 @@ Volg de onderstaande stappen om offline config voor een kanaal toe te laten:
 
 >[!NOTE]
 >
->Meer over het malplaatje voor douane off-line middelmanagers en de minimumvereisten in `pom.xml` voor dat specifieke project leren, verwijs naar [Malplaatje voor de Handlers van de Douane](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Developing a Custom Component for AEM Screens**.
+>Meer informatie over het malplaatje voor douane off-line middelmanagers en de minimumvereisten in `pom.xml` voor dat specifieke project: [Sjabloon voor aangepaste handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Een aangepaste component voor AEM Screens ontwikkelen**.

@@ -1,16 +1,16 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202103
-description: '"Volg deze pagina voor meer informatie over het AEM Screens Feature Pack 202103 dat op 5 maart 2021 is uitgebracht."'
-feature: Functiepakket
+description: "Volg deze pagina voor meer informatie over het AEM Screens Feature Pack 202103 dat op 5 maart 2021 is uitgebracht."
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
-
 
 # Opmerkingen bij de release voor Feature Pack 202103 {#release-notes-for-feature-pack}
 
@@ -21,26 +21,26 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 7 uitgebracht.
 
-U kunt het recentste eigenschappak voor AEM Screens 6.5.7 Versie van [het Portaal van de Distributie van de Software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer naar **Adobe Experience Manager** tabblad en zoek **Screens** om het nieuwste functiepakket met de naam **AEM 6.5 Screens FP7** te krijgen.
+U kunt het nieuwste functiepakket voor AEM Screens 6.5.7 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeren naar **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste functiepakket met de naam **AEM 6.5 Schermen FP7**.
 
 ## Releasedatum {#release-date}
 
 De releasedatum voor AEM Screens Feature Pack 202103 is 5 maart 2021.
 
-### Wat is er nieuw?{#what-is-new}
+### Wat is er nieuw? {#what-is-new}
 
 * **AEM Screens Auto Registration of Players**
 
    Bulk die duizenden spelers handmatig registreert, is erg omslachtig en verhoogt tijd en kosten. Om dit proces te vereenvoudigen, staat de Auto Registratie van spelerseigenschap u toe om een pre-gedeelde sleutel in AEM te specificeren die in een speler of door een configuratiedossier of een Mobiel Apparaatbeheer (MDM) oplossing kan worden voorzien.
 
-   Raadpleeg [Automatische registratie van spelers](/help/user-guide/auto-registration-players.md) voor meer informatie.
+   Zie [Automatische registratie van spelers](/help/user-guide/auto-registration-players.md) voor meer informatie .
 
 
 * **Bulkprovisioning van Android Player via Enterprise Mobility Management**
 
    Wanneer u de Android-speler bulksgewijs implementeert, wordt het vervelend om elke speler handmatig te registreren bij AEM. Het wordt ten zeerste aanbevolen om een EMM-oplossing (Enterprise Mobility Management), zoals VMWare Airwatch, MobileIron of Samsung Knox, te gebruiken om uw implementatie op afstand te voorzien en te beheren. AEM Screens Android-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
 
-   Raadpleeg [Bulk Provisioning van Android Player met Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) voor meer informatie.
+   Zie [Bulkprovisioning van Android Player via Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) voor meer informatie .
 
 
 ### Opgeloste problemen {#bug-fixes}
@@ -49,11 +49,11 @@ De releasedatum voor AEM Screens Feature Pack 202103 is 5 maart 2021.
 
 * De migratie van SmartSync zou de speler breken, als het geheime voorgeheugen niet ongeldig werd gemaakt.
 
-* Offline caches zijn niet gemaakt als de toewijzing *OfflineConfig* had.
+* Er zijn geen offlinekaarten gemaakt als de toewijzing *OfflineConfig*.
 
 * Updates voor Tizen-speler die zijn verbroken omdat het verwijzingsbeleid &#39;strict-origin-wanneer-cross-origin&#39; niet wordt ondersteund.
 
-* Het veranderen van toegewezen kanaalprogramma *Herhaalt* gebied verbond UI.
+* Het programma van het toegewezen kanaal wijzigen *Herhalen* het veld verbreekt de interface.
 
 * Offline-inhoud bijwerken is mislukt vanwege query-uitzonderingen.
 
@@ -69,6 +69,6 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 7 van de Eig
 * Windows
 * Linux
 
-#### AEM Screens Player-downloads {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
 
-Raadpleeg **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)** voor meer informatie over de opgeloste problemen.
+Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

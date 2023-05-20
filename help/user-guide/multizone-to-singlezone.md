@@ -1,15 +1,15 @@
 ---
 title: Hoofdlettergebruik voor overgangen van MultiZone naar SingleZone
 description: Volg deze pagina voor meer informatie over het gebruik van hoofdletters en kleine letters voor multiZone-overgangen.
-seo-description: MultiZone naar SingleZone Overgangen gebruiken hoofdletters en kleine letters.
+seo-description: MultiZone to SingleZone Transitions use case.
 contentOwner: Jyotika Syal
-feature: Ontwerpschermen
+feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -38,49 +38,49 @@ Inhoudsauteurs
 
 Voer de onderstaande stappen uit om een project in te stellen:
 
-1. Maak een AEM Screens-project met de naam **Overnameloop**, zoals hieronder wordt weergegeven.
+1. Een AEM Screens-project maken met de naam **OvernamingLoop**, zoals hieronder weergegeven.
 
    ![element](assets/mz-to-sz1.png)
 
 
 1. **Een uit meerdere zones bestaand rasterkanaal maken**
 
-   1. Selecteer de map **Kanalen** en klik op **Maken** op de actiebalk om de wizard te openen en een kanaal te maken.
-   1. Selecteer **Linker-L Bar Split Screen Channel** van de tovenaar en creeer het kanaal genoemd als **MultiZoneLayout**.
-   1. Voeg inhoud toe aan het kanaal. Sleep de elementen naar elk van de zones. In het volgende voorbeeld ziet u een kanaal **MultiZoneLayout** dat bestaat uit een video, een afbeelding en een tekstbanner (in een ingesloten reeks), zoals hieronder wordt weergegeven.
+   1. Selecteer **Kanalen** map en klik op **Maken** in de actiebalk om de wizard te openen en een kanaal te maken.
+   1. Selecteren **Linkerbalk, gesplitst rasterkanaal** van de wizard en maakt u het kanaal met de naam **MultiZoneLayout**.
+   1. Voeg inhoud toe aan het kanaal. Sleep de elementen naar elk van de zones. In het volgende voorbeeld wordt een **MultiZoneLayout** kanaal bestaande uit een video, een afbeelding en een tekstbanner (in een ingesloten reeks), zoals hieronder weergegeven.
 
    ![element](assets/mz-to-sz2.png)
 
    >[!NOTE]
    >
-   >Raadpleeg [Layout met meerdere zones](multi-zone-layout-aem-screens.md) voor meer informatie over het maken van een lay-out met meerdere zones in uw kanaal.
+   >Voor meer informatie over het maken van een lay-out met meerdere zones in uw kanaal raadpleegt u [Layout meerdere zones](multi-zone-layout-aem-screens.md).
 
 
-1. Maak een ander kanaal met de naam **Overnamekanaal** naar de map **Kanalen**.
+1. Een ander kanaal maken met de naam **Overnamekanaal** aan uw **Kanalen** map.
 
    ![element](assets/mz-to-sz3.png)
 
-1. Klik op **Bewerken** op de actiebalk om inhoud aan dit kanaal toe te voegen. Voeg een **Kanaal** component en een beeldmiddel toe dat u wilt overschakelen aan dit kanaal, zoals aangetoond in het hieronder cijfer:
+1. Klikken **Bewerken** in de actiebalk om inhoud toe te voegen aan dit kanaal. Voeg een **Kanaal** en een afbeeldingselement waarnaar u wilt schakelen, naar dit kanaal, zoals in de onderstaande afbeelding wordt getoond:
 
    ![element](assets/mz-to-sz4.png)
 
-1. Open de instellingen voor de component Channel en wijs deze naar het kanaal **MultiZoneLayout** dat u hebt gemaakt in *stap 2*.
+1. Open de instellingen voor de component Channel en wijs deze naar de **MultiZoneLayout** kanaal dat u in creeerde *stap 2*.
 
    ![element](assets/mz-to-sz5.png)
 
-1. Stel de duur in van het veld **Reeks** op **10000 ms**.
+1. De duur instellen vanuit de **Reeks** veld naar **10000 ms**.
 
    ![element](assets/mz-to-sz6.png)
 
-1. Open op dezelfde manier de instellingen voor de afbeelding (het element dat u hebt toegevoegd) en stel de duur van de afbeelding in op **Reeks** in het veld **3000 ms**.
+1. Open op dezelfde manier de instellingen voor de afbeelding (het element dat u hebt toegevoegd) en stel de duur in op basis van de **Reeks** veld naar **3000 ms**.
 
    ![element](assets/mz-to-sz7.png)
 
 ## De voorvertoning controleren {#checking-the-preview}
 
-U kunt de gewenste output van de speler bekijken of enkel door op **Voorproef** van de redacteur te klikken.
+U kunt de gewenste uitvoer weergeven vanuit de speler of alleen door op de knop **Voorvertoning** uit de editor.
 
-De uitvoer toont hoe een lay-out met meerdere zones voor *10000 ms* wordt afgespeeld en dan overschakelt naar de lay-out met één zone die de afspeelduur van *3000 ms* heeft en vervolgens weer overschakelt naar de lay-out met meerdere zones.
+De uitvoer toont hoe een lay-out met meerdere zones wordt afgespeeld voor *10000 ms* en schakelt vervolgens over naar de lay-out met één zone waarvoor de afspeelduur *3000 ms* en schakelt dan terug naar de lay-out met meerdere zones.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

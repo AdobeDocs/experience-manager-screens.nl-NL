@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics configureren met AEM Screens
-seo-title: Adobe Analytics configureren met AEM Screens
+seo-title: Configuring Adobe Analytics with AEM Screens
 description: Volg deze sectie voor meer informatie over het volgen en verzenden van aangepaste gebeurtenissen met gebruik van Offline Adobe Analytics
-seo-description: Volg deze sectie voor meer informatie over het volgen en verzenden van aangepaste gebeurtenissen met gebruik van Offline Adobe Analytics
+seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
-feature: Schermen beheren
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 8%
+source-wordcount: '672'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 ## Sequentie in Adobe Analytics met AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Het ***sequentieproces*** begint met de service voor gegevensopslag die de Adobe Analytics-service activeert. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de vangst van de gegevenstest aan Vensters I/O en de gebeurtenissen van het verblijf wordt teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma, de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
+De ***volgordeproces*** begint met de gegevensopslagservice die de Adobe Analytics-service activeert. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de vangst van de gegevenstest aan Vensters I/O en de gebeurtenissen van het verblijf wordt teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma, de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
 
 ### Scheidingsdiagram {#sequencing-diagram}
 
@@ -108,10 +108,10 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td> </td> 
    <td>Hoofdcategorie DMe</td> 
    <td>event.category</td> 
-   <td>required</td> 
+   <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Hoofdcategorie (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Groepering van gebeurtenistypen - <strong>We verzenden Player</strong></td> 
+   <td>Hoofdcategorie (BUREAUBLAD, MOBIEL, WEB, PROCESS, SDK, SERVICE, ECOSYSTEEM) - Groepering van gebeurtenistypen - <strong>We sturen speler</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -178,7 +178,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
   </tr>
   <tr>
    <td> </td> 
-   <td>Count</td> 
+   <td>Aantal</td> 
    <td>event.count</td> 
    <td>optioneel</td> 
    <td>getal</td> 
@@ -232,12 +232,12 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
   </tr>
   <tr>
    <td> </td> 
-   <td>Beschrijving van fout</td> 
+   <td>Foutbeschrijving</td> 
    <td>event.error_description</td> 
    <td> </td> 
    <td>string</td> 
    <td> </td> 
-   <td>Beschrijving van fout<br /> </td> 
+   <td>Beschrijving fout<br /> </td> 
   </tr>
   <tr>
    <td><strong><em>Bron/product van oorsprong</em></strong></td> 
@@ -286,7 +286,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
   </tr>
   <tr>
    <td><strong><em>Inhoud</em></strong></td> 
-   <td>Actie</td> 
+   <td>Handeling</td> 
    <td>content.action</td> 
    <td>vereist</td> 
    <td>string</td> 

@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics-integratie met AEM Screens
-seo-title: Adobe Analytics-integratie met AEM Screens
+seo-title: Adobe Analytics Integration with AEM Screens
 description: Volg deze pagina om meer te weten te komen over de integratie van AEM Screens met Adobe Analytics in de doos en geeft u een proefdruk van het spel.
-seo-description: Volg deze pagina om meer te weten te komen over de integratie van AEM Screens met Adobe Analytics in de doos en geeft u een proefdruk van het spel.
+seo-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
 uuid: 80d61af7-bf4d-46ca-a026-99a666c2e1a0
 contentOwner: jsyal
 content-type: reference
@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
-feature: Schermen beheren
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, moet u de Steun van Adobe contacteren en toegang verzoeken. U kunt het nieuwste functiepakket voor AEM Screens downloaden van [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
+>Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, moet u de Steun van Adobe contacteren en toegang verzoeken. U kunt het nieuwste functiepakket voor AEM Screens downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
@@ -39,7 +39,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 ## Overzicht {#overview}
 
-***AEM*** Screenshefboomwerkingen Adobe Analytics, en daarmee kunt u iets uniek in de markt - kanaalanalyses bereiken die helpen inhoud correleren die in plaats met andere gegevensbronnen wordt getoond.
+***AEM Screens*** Gebruikt Adobe Analytics, en daarmee kunt u iets uniek in de markt - dwars-kanaalanalyses bereiken die helpen inhoud correleren die in plaats met andere gegevensbronnen wordt getoond.
 
 AEM Screens biedt een uitweg uit de box-integratie met Adobe Analytics en biedt u een bewijs van spel.
 
@@ -47,12 +47,12 @@ In deze sectie wordt de volgende functionaliteit beschreven die betrokken is bij
 
 * Staat voor bewijs van spel rapportering door apparaat toe
 * Staat toe dat de verslaggeving van de play-out per actief wordt aangetoond
-* Hiermee zorgt u ervoor dat alle spelergebeurtenissen worden vastgelegd en een tijdstempel krijgen
+* Hiermee zorgt u ervoor dat alle spelergebeurtenissen worden vastgelegd en voorzien van een tijdstempel
 * Hiermee zorgt u ervoor dat alle spelergebeurtenissen lokaal worden opgeslagen als het afspelen niet is verbonden met een netwerk
 * Hiermee kunnen feedbacklussen worden gemaakt die gebeurtenissen bijhouden
 * Hiermee kan het systeem inhoud en lay-outs wijzigen op basis van succescriteria die door de auteur van de inhoud zijn gedefinieerd
 
-Adobe Analytics Integration with AEM Screens dwingt dus de volgende *doelstellingen* af:
+Adobe Analytics Integration with AEM Screens dwingt dus het volgende af *doelen*:
 
 * ROI van de implementatie van de digitale handtekening inschakelen
 * Analyses integreren als basis voor toekomstige mogelijkheden voor het verzamelen en analyseren van gebruiksinformatie
@@ -69,7 +69,7 @@ In het volgende architectuurdiagram wordt de Adobe Analytics Integration met AEM
 
 De montages van Adobe Analytics kunnen van de console worden gevormd OSGi.
 
-Navigeer naar **Adobe Experience Manager Web Console Configuration** om Adobe Analytics for AEM Screens te configureren, zoals in de onderstaande afbeelding wordt getoond:
+Navigeren naar **Configuratie Adobe Experience Manager-webconsole** Adobe Analytics for AEM Screens configureren, zoals in de onderstaande afbeelding wordt getoond:
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -77,7 +77,7 @@ Navigeer naar **Adobe Experience Manager Web Console Configuration** om Adobe An
 
 >[!CAUTION]
 >
->Voordat u de eigenschappen configureert, neemt u contact op met de Adobe Relationship Manager om een ticket te maken voor een **Analytics API Key** en **Analytics Project** voor gebruik met AEM Screens.
+>Alvorens u de eigenschappen vormt, gelieve uw Manager van de Verhouding van de Adobe te contacteren om een kaartje tot stand te brengen om een **Sleutel Analytics API** en **Analyseproject** voor gebruik met AEM Screens.
 
 ![]()
 
@@ -85,7 +85,7 @@ Navigeer naar **Adobe Experience Manager Web Console Configuration** om Adobe An
 
 >[!CAUTION]
 >
->Voordat u de eigenschappen configureert, neemt u contact op met de Adobe Relationship Manager om een ticket te maken voor een **Analytics API Key** en **Analytics Project** voor gebruik met AEM Screens.
+>Alvorens u de eigenschappen vormt, gelieve uw Manager van de Verhouding van de Adobe te contacteren om een kaartje tot stand te brengen om een **Sleutel Analytics API** en **Analyseproject** voor gebruik met AEM Screens.
 
 In de volgende tabel worden de eigenschappen gemarkeerd met hun beschrijving voor het configureren van Adobe Analytics voor AEM Screens:
 
@@ -98,7 +98,7 @@ In de volgende tabel worden de eigenschappen gemarkeerd met hun beschrijving voo
   <tr>
    <td><strong>URL voor analyse</strong></td>
    <td>URL om analysegegevens van de speler te posten. <br>
-   Voor ontwikkeling/fase</em>  - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   Voor ontwikkeling/fase</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Voor productie</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Sleutel Analytics API</strong></td>
@@ -121,7 +121,7 @@ In de volgende tabel worden de eigenschappen gemarkeerd met hun beschrijving voo
 
 >[!NOTE]
 >
->Standaard is de **Analytics Send Frequency** 15 minuten.
+>Standaard worden de **Verzendfrequentie voor analyse** is 15 minuten.
 
 #### Adobe Analytics Service gebruiken in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
@@ -131,4 +131,4 @@ Analytische gebeurtenissen worden offline opgeslagen in geïndexeerdeDB en later
 
 >[!NOTE]
 >
->Voor meer informatie over ***Sequencing*** en ***Standaardgegevensmodel voor gebeurtenissen***, raadpleegt u **[Adobe Analytics configureren voor AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
+>Meer informatie over de ***Sequentie*** en ***Standaardgegevensmodel voor gebeurtenissen***, raadpleeg **[Adobe Analytics voor AEM Screens configureren](configuring-adobe-analytics-aem-screens.md)**.

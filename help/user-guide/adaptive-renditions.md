@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ## Inleiding {#introduction}
 
-De adaptieve Vertoningen staan de apparaten toe om automatisch de beste vertoning voor een apparaat te selecteren dat op klant-bepaalde regels wordt gebaseerd. De apparaten zullen automatisch de meest aangewezen vertoning van activa downloaden en spelen die op deze regels wordt gebaseerd die klanten toestaan om zich bij het ontwerpen van *main* slechts te concentreren ervaring.
+De adaptieve Vertoningen staan de apparaten toe om automatisch de beste vertoning voor een apparaat te selecteren dat op klant-bepaalde regels wordt gebaseerd. De apparaten zullen automatisch de meest aangewezen vertoning van activa downloaden en spelen die op deze regels wordt gebaseerd die klanten toestaan om zich bij het ontwerpen van *hoofd* ervaring.
 
 ## Doelstelling {#objective}
 
@@ -32,23 +32,23 @@ De mogelijkheid om een gekoppeld naampatroon voor de uitvoering te hebben, defin
 Om de Aangepaste eigenschap van Uitvoeringen toe te laten, zouden de volgende toewijzingsregels aanwezig moeten zijn en de Context-Aware (CA) Configuratie zou voor kanalen en vertoningen moeten oplosbaar zijn.
 
 >[!NOTE]
->Voor meer informatie over Inhoud-Aware Configuraties, zie [hier](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+>Ga voor meer informatie over configuraties met behoud van inhoud naar [hier](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
 
 Voer de onderstaande stappen uit om de installatie te configureren:
 
-1. Navigeer naar **CRXDE Lite**. Controleer of de **rendition-mapping**-configuratie bestaat in `/conf/screens/sling:configs/rendition-mapping`, zoals in de onderstaande afbeelding wordt getoond.
+1. Navigeren naar **CRXDE Lite**. Controleer of de **rendition-mapping** configuratie bestaat in `/conf/screens/sling:configs/rendition-mapping`, zoals weergegeven in onderstaande afbeelding.
 
    >![afbeelding](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Als u het recentste Pak 202109 van de Eigenschap installeerde, zult u **rendition-mapping** knoopstructuur vooraf bevolkt in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite zien. Zie [Opmerkingen bij de release voor Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) voor meer informatie over het nieuwste functiepakket.
-   >Voor bestaande projecten, zorg ervoor dat het project van Schermen **rendition-mapping** bijbehorende configuratie heeft. Zie [Toewijzing van de Vertoning aan een Bestaand project](#rendition-mapping-existing) sectie toevoegen om meer te leren.
+   >Als u de nieuwste versie van Feature Pack 202109 hebt geïnstalleerd, kunt u **rendition-mapping** knooppuntstructuur vooraf ingevuld in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Zie [Opmerkingen bij de release voor Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) voor meer informatie over het nieuwste functiepakket.
+   >Voor bestaande projecten moet u ervoor zorgen dat het project Screens de **rendition-mapping** gekoppelde configuratie. Zie [Uitvoeringstoewijzing toevoegen aan een bestaand project](#rendition-mapping-existing) voor meer informatie.
 
 ### Eigenschap voor renderingstoewijzing toevoegen aan een bestaand project {#rendition-mapping-existing}
 
-1. Navigeer naar **CRXDE Lite**.
+1. Navigeren naar **CRXDE Lite**.
 
-1. Definieer expliciet de koppeling naar de uitvoeringstoewijzing door `sling:configRef`-eigenschap toe te voegen die `/conf/screens` aanwijst naar het knooppunt met de projectinhoud, zoals in de onderstaande afbeelding wordt getoond.
+1. De koppeling voor de rendiingtoewijzing expliciet definiëren door deze toe te voegen `sling:configRef` eigenschap die wijst op `/conf/screens` aan de knoop van de projectinhoud, zoals aangetoond in het hieronder cijfer.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
@@ -57,13 +57,13 @@ Voer de onderstaande stappen uit om de installatie te configureren:
 
 Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoeringstoewijzing:
 
-1. Navigeer naar dit pad `/conf/screens/sling:configs/rendition-mapping` van **CRXDE Lite**.
+1. Naar dit pad navigeren `/conf/screens/sling:configs/rendition-mapping` van **CRXDE Lite**.
 
-1. Maak een knooppunt onder **rendition-mapping**. Klik met de rechtermuisknop op **rendition-mapping** en klik op **Create** —> **Create Node**, zoals in de onderstaande afbeelding wordt getoond.
+1. Een knooppunt maken onder **rendition-mapping**. Rechtsklik ingeschakeld **rendition-mapping** en klik op **Maken** —> **Knooppunt maken**, zoals weergegeven in onderstaande afbeelding.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Voer de **Naam** voor uw toewijzingsregel in, zoals **rule1** en het knooppunt **Type** als **nt:unStructured** in het dialoogvenster **Node maken**. Klik op **OK**.
+1. Voer de **Naam** voor uw toewijzingsregel, zoals **rule1** en het knooppunt **Type** als **nt:ongestructureerd** in **Knooppunt maken** in. Klikken op **OK**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -71,9 +71,9 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
 1. U moet het uitdrukkingsbezit met de waarde toevoegen die de vraaguitdrukking bevat.
 
    >[!NOTE]
-   >Raadpleeg [Mediaquerysyntaxis gebruiken](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) voor meer informatie.
+   >Zie [Mediaquerysyntaxis gebruiken](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) voor meer informatie.
 
-   Klik op **rule1** die u hebt gemaakt en voer **expression** in **Name** en **(orientation:landscape)** in **Value** in, zoals hieronder wordt getoond. Klik op **Add**.
+   Klikken op **rule1** die u hebt gemaakt, en voert u in **expression** in **Naam** en **(oriëntatie:liggend)** in **Waarde**, zoals hieronder weergegeven. Klikken op **Toevoegen**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -82,15 +82,15 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
    >[!NOTE]
    >De waarde die in de patrooneigenschap is gedefinieerd, wordt aangepast aan de nieuwe elementuitvoering en wordt geselecteerd als de expressie wordt geëvalueerd op true.
 
-   Als u de patrooneigenschap wilt toevoegen, klikt u op **rule1** die u hebt gemaakt en voert u **pattern** in **Name** en **landscape** in **Value** in, zoals hieronder wordt weergegeven. Klik op **Add**.
+   Als u de patrooneigenschap wilt toevoegen, klikt u op **rule1** die u hebt gemaakt, en voert u in **patroon** in **Naam** en **landschap** in **Waarde**, zoals hieronder weergegeven. Klikken op **Toevoegen**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Klik op **Alles opslaan** en u ziet de eigenschappen onder het knooppunt dat u onder **rendition-mapping** hebt gemaakt.
+1. Klikken op **Alles opslaan** en u zult de eigenschappen onder de knoop zien u onder creeerde **rendition-mapping**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## De volgende stappen {#next-steps}
 
-Zodra u eigenschappen en regels van de vertoningsafbeelding van de vertoning hebt toegevoegd, nu als Inhoudsauteur, kunt u uw activa vormen om Aangepaste Vertoningen te gebruiken en ook uw apparaten voor grote netwerken migreren om deze eigenschap, in uw kanalen van AEM Screens te gebruiken. Zie [Aangepaste uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
+Zodra u eigenschappen en regels van de vertoningsafbeelding van de vertoning hebt toegevoegd, nu als Inhoudsauteur, kunt u uw activa vormen om Aangepaste Vertoningen te gebruiken en ook uw apparaten voor grote netwerken migreren om deze eigenschap, in uw kanalen van AEM Screens te gebruiken. Zie [Adaptieve uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie .

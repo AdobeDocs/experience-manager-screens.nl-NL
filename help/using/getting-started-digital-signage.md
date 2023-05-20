@@ -1,15 +1,15 @@
 ---
 title: Basisbeginselen van digitale signalen voor [!UICONTROL AEM Screens]
-seo-title: Basisbeginselen van digitale signalen voor [!UICONTROL AEM Screens]
-description: In de handleiding worden de basisbeginselen van een digitaal ondertekeningsproject beschreven
-seo-description: In de handleiding worden de basisbeginselen van een digitaal ondertekeningsproject beschreven
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-title: Basics Of Digital  Signage for [!UICONTROL AEM Screens]
+description: In de handleiding worden de grondbeginselen van een digitaal ondertekeningsproject beschreven
+seo-description: The guide describes the basics of a digital signage project
+exl-id: e3913be2-9028-4773-a034-e16924a71e04
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
-
 
 # Basisbeginselen van een digitaal ondertekeningsproject {#basics-digital-signage}
 
@@ -17,9 +17,9 @@ Voordat u naar de best practices voor AEM Screens-implementatie gaat, is het bel
 
 Deze sectie bevat aanbevelingen voor belangrijke sleutelelementen die essentieel zijn voor een AEM Screens-projectimplementatie.
 
-## Belangrijke elementen in digitale handtekening {#key-elements}
+## Belangrijkste elementen in digitale signalen {#key-elements}
 
-De *Belangrijke elementen* in een digitaal ondertekeningsproject zijn:
+De *Belangrijkste elementen* bij een digitaal ondertekeningsproject gaat het om :
 
 ![](/help/assets/Elements-Revised.png)
 
@@ -33,7 +33,7 @@ Het definiëren van de belangrijkste elementen is van essentieel belang voordat 
    * Gebruik van fysiek koperdraad
    * Grootte van schermen
    * Aantal schermen
-      * orientation
+      * oriëntatie
       * hoogte-breedteverhouding
       * resolutievoorkeur
 

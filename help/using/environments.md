@@ -1,12 +1,11 @@
 ---
 title: Omgevingen voor [!UICONTROL AEM Screens]
-seo-title: Omgevingen voor [!UICONTROL AEM Screens]
+seo-title: Environments for [!UICONTROL AEM Screens]
 description: Op deze pagina worden de omgevingen voor een AEM Screens-project beschreven.
-seo-description: Deze pagina markeert de omgevingen voor een AEM Screens-project.
-translation-type: tm+mt
+seo-description: This page highlights the environments for an AEM Screens project.
 source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 # Omgevingen {#environments}
 
-Bepaal vooraf welke AEM omgevingen de client heeft en verwacht dat u gebruikt, zowel voor *ontwikkeling* als *implementatie*.
+Bepaal vooraf welke AEM omgevingen de client heeft en verwacht dat u gebruikt, zowel voor *ontwikkeling* en *implementatie*.
 
 >[!NOTE]
 >

@@ -100,7 +100,7 @@ Stel dat u een afbeelding alleen op vrijdag van 13.00 tot 19.00 uur wilt weergev
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
-| **Expressie** | **Interpretatie** |
+| **Uitdrukking** | **Interpretatie** |
 |---|---|
 | vóór 8:00 | het middel in het kanaal speelt vóór 20:00 uur dagelijks |
 | 14:00 | het middel in het kanaal speelt na 2:00 pm dagelijks af |
@@ -127,7 +127,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
-| **Expressie** | **Interpretatie** |
+| **Uitdrukking** | **Interpretatie** |
 |---|---|
 | Ma,Wed,Fri | de activa spelen in het kanaal vanaf maandag, woensdag en vrijdag |
 | Mon-Thu | de activa spelen in het kanaal van op Maandagen aan Donderdag |
@@ -152,7 +152,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
-| **Expressie** | **Interpretatie** |
+| **Uitdrukking** | **Interpretatie** |
 |---|---|
 | van februari,mei,augustus,november | de activa spelen in februari, mei, augustus en november op het kanaal |
 | van februari-juli | het actief vanaf februari tot eind juli op het kanaal wordt afgespeeld |
@@ -175,7 +175,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
 
-| **Expressie** | **Interpretatie** |
+| **Uitdrukking** | **Interpretatie** |
 |---|---|
 | na 6.00 uur en vóór 18.00 uur op de maan,Wed van Jan-Mar | de activa spelen in het kanaal tussen 6.00 uur en 6.00 uur op maandag en woensdag van januari tot en met eind maart |
 | op de eerste dag van januari na 23.00 uur ook op de tweede dag van januari, ook op de derde dag van januari vóór 15.00 uur | het middel in het kanaal begint na 1 januari om 2:00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3:00 uur op 3 januari |

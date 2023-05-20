@@ -1,8 +1,8 @@
 ---
-title: '"Deel 2: Overwegingen als projecten worden opgespoord"'
-seo-title: '"Deel 2: Overwegingen als projecten worden opgespoord"'
+title: "Deel 2: Overwegingen als projecten worden opgespoord"
+seo-title: "Part 2: Considerations as Projects are Scoped"
 description: Volg deze zelfstudie om meer te leren over de inhoudsstrategie, I/O-lagen, elementtypen, publiekssegmentatie, dagonderdelen, bedrijfsvereisten en overwegingen met betrekking tot gereedheid van de site.
-seo-description: Volg deze zelfstudie om meer te leren over de inhoudsstrategie, I/O-lagen, elementtypen, publiekssegmentatie, dagonderdelen, bedrijfsvereisten en overwegingen met betrekking tot gereedheid van de site.
+seo-description: Follow this tutorial to learn about the content strategy, I/O layers, asset types, audience segmentation, day parts, business operations requirements, and site readiness considerations.
 uuid: 96359202-8f55-4330-97c5-fc8f8c916a8d
 contentOwner: jsyal
 content-type: reference
@@ -10,13 +10,13 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 10b81628-46db-4122-bf9e-96f41f080055
 docset: aem65
-feature: Overzicht
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -87,10 +87,10 @@ Volg de onderstaande zelfstudie om meer te leren over de inhoudsstrategie, I/O-l
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Leer over de inhoudsstrategie, I/O lagen, activa types, publiekssegmentatie, dagdelen, bedrijfsverrichtingsvereisten, en de overwegingen van de plaatsbereidheid.*
+*Leer over de inhoudsstrategie, I/O lagen, activa types, publiekssegmentatie, dagdelen, bedrijfsverrichtingsvereisten, en overwegingen van de plaatsbereidheid.*
 
 ## De volgende stap {#the-next-step}
 
 Zodra u de elementen begrijpt die tijdens projectontdekking samen met de input van belanghebbenden worden geïdentificeerd om het project te beoordelen en een aangewezen ontwerp voor te bereiden, moet u de belangrijkste termijnen leren betrokken bij een algemeen projectplan zoals projectcyclus, acties die het hardware testen, Bewijs van Concept, piloten en rollouts omringen.
 
-Navigeer naar **[Testen, concepttest, piloten en rollouts](testing-pocs-pilots-rollouts.md)** voor meer informatie.
+Navigeren naar **[Testen, concepttest, piloten en rollouts](testing-pocs-pilots-rollouts.md)** voor meer informatie .

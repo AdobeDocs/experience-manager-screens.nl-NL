@@ -1,7 +1,6 @@
 ---
 title: Richtlijnen voor hardwareselectie voor afspeelapparaten
 description: Richtlijnen voor hardwareselectie voor afspeelapparaten
-translation-type: tm+mt
 source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
 workflow-type: tm+mt
 source-wordcount: '220'
@@ -16,7 +15,7 @@ In de volgende sectie vindt u de richtlijnen voor het selecteren van hardware vo
 
 ## Belangrijke overwegingen {#important-considerations}
 
-* Bron altijd ***Commerciële*** of ***Industriële*** Gradecomponenten voor zowel de speler van PC als het Comité van de Vertoning of Projector.
+* Altijd bron ***Commercieel*** of ***Industrieel*** Graducomponenten voor zowel de speler van PC als het Comité van de Vertoning of Projector.
 
 * Neem altijd contact op met leveranciers die de markt voor digitale handtekeningen bedienen.
 * Houd altijd rekening met omgevingsfactoren zoals omgevingstemperatuur en relatieve vochtigheid.
@@ -47,10 +46,10 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td><p>・ChromeOS 32 GB</p> <p>・Windows 128 GB</p> </td>
    <td>onBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet / Wireless,<br /> 2x USB</td>
+   <td>DVI,<br /> Ethernet/Wireless,<br /> 2x USB</td>
    <td>
     <ul>
-     <li>Standaardherhalen op volledig scherm<br /> </li>
+     <li>Standaardherhaling op volledig scherm<br /> </li>
      <li>Dagverdeling</li>
     </ul> </td>
   </tr>
@@ -61,7 +60,7 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td>128 GBB</td>
    <td>onBoard</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 2x USB</td>
    <td>
     <ul>
      <li>Dynamische inhoud van één bron</li>
@@ -76,7 +75,7 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td>256 GB</td>
    <td>GPU voor speciale grafische kaarten</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 4x USB</td>
+   <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 4x USB</td>
    <td>
     <ul>
      <li>4 of meer inhoudszones, gelijktijdig afspelen van video</li>

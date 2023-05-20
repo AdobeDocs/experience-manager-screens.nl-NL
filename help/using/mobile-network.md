@@ -1,13 +1,13 @@
 ---
 title: Direct mobiel netwerk
 description: De pagina beschrijft Direct Mobile Network Setup
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
 
 ---
-
 
 # Direct mobiel netwerk {#mobile-network-setup}
 
@@ -17,7 +17,7 @@ In AEM Screens wordt de vereiste inhoud fysiek gedownload naar de spelercontroll
 
 Het voordeel om AEM Screens Players over Cellular 3/4/5G met uw Mobiele Leverancier van de Gegevens van de Dienst te verbinden is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst om beste beschikbare netwerkdekking te verzekeren. Dit bevindt zich gewoonlijk in een verhoogde en open positie met zo weinig mogelijk omringende beton- of metaalconstructie.
 
-Met deze instelling kunnen AEM schermgebruikers heel flexibel werken omdat er geen vaste verbinding is vereist om verbinding te maken met AEM Screens. Dit is vooral interessant voor letterlijke of mobiele instellingen.
+Deze instelling biedt AEM schermgebruikers een grote flexibiliteit omdat er geen vaste verbinding vereist is om verbinding te maken met AEM Screens. Dit is vooral interessant voor letterlijke of mobiele instellingen.
 
 Het volgende diagram toont de Directe Mobiele Opstelling van het Netwerk en bestaat uit één enkel segment van de netwerkverbinding en de verbinding van elke speler aan het mobiele of cellulaire gegevensnetwerk.
 
@@ -56,7 +56,7 @@ De volgende lijst benadrukt de gegevensnetwerken met hun standaardbandbreedte:
 |--- |--- |
 | 3G | 42 Mbps |
 | 4G | 150 Mbps |
-| 5 G | 1000 - 10000 Mbps |
+| 5G | 1000 - 10000 Mbps |
 
 Wanneer het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt wordt het geadviseerd om de volgende vragen te beantwoorden:
 
@@ -68,13 +68,13 @@ Als follow-up moet het vereiste gegevenspakket ten minste zijn:
 
 
 >[!IMPORTANT]
->Voor het eerste uploaden van mediabestanden, bijvoorbeeld door het integreren van nieuwe spelers, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht en in bovenstaande veronderstellingen worden weerspiegeld. Een 4G-netwerk met *goede*-dekking en *onbeperkt*-gegevens moeten overeenkomen met de meest gangbare installaties in deze netwerkinstelling.
+>Voor het eerste uploaden van mediabestanden, bijvoorbeeld door het integreren van nieuwe spelers, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht en in bovenstaande veronderstellingen worden weerspiegeld. Een 4G-netwerk met *goed* dekking en *onbeperkt* de gegevens zouden de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
 
 >[!NOTE]
->Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens-speler. Als er slechts eerlijke dekking beschikbaar op een specifieke plaats is moet het in overweging nemen om de algemene Opstelling van het Netwerk aan [Mobiel Netwerk met de Mobiele Router van Gegevens en Actieve Componenten van het Netwerk ](/help/using/mobile-network-router.md) te schakelen.
+>Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens-speler. Als er slechts eerlijke dekking beschikbaar op een specifieke plaats is moet het in overweging nemen om de algemene Opstelling van het Netwerk aan te schakelen [Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk](/help/using/mobile-network-router.md).
 
 
-### Netwerk {#lan-connection} voor lokale gebieden
+### Netwerk voor lokale gebieden {#lan-connection}
 
 De prestatieszorgen van het Netwerk van het Lokale Gebied (LAN), naast de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens regelmatig te werken. De aanbeveling voor de LAN netwerksnelheden moet bij netwerken 100 Mbps minstens beginnen, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem te verbinden.
 
@@ -95,6 +95,3 @@ De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van 
 >Alle informatie heeft betrekking op het gebruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/using/assets/download-times-mobile.png)
-
-
-

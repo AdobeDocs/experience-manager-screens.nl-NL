@@ -1,8 +1,8 @@
 ---
 title: Activering van ziekenhuisreservering
-seo-title: Activering van ziekenhuisreservering
+seo-title: Hospitality Reservation Activation
 description: Het volgende gebruiksgeval toont het gebruik van activering van ziekenhuisreserveringen op basis van de waarden in Google Sheets.
-seo-description: Het volgende gebruiksgeval toont het gebruik van activering van ziekenhuisreserveringen op basis van de waarden in Google Sheets.
+seo-description: The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
 uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,13 +10,13 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-feature: Ontwerpschermen
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,15 @@ Het volgende gebruiksgeval toont het gebruik van activering van ziekenhuisreserv
 
 ## Beschrijving {#description}
 
-Voor dit geval van Gebruik, wordt het Blad van Google bevolkt met percentage van reservering op twee restaurants **Restaurant1** en **Restaurant2**. Een formule wordt toegepast gebaseerd op waarden van Restaurant1 en Restaurant2 en gebaseerd op de formule, wordt waarde 1 of 2 toegewezen aan **AdTarget** Kolom.
+Voor dit geval van Gebruik, is het Blad van Google bevolkt met percentage van reserve op twee restaurants **Restaurant1** en **Restaurant2**. Er wordt een formule toegepast op basis van de waarden van Restaurant1 en Restaurant2 en op basis van de formule, de waarde 1 of 2 wordt toegewezen aan de **AdTarget** Kolom.
 
-Als de waarde van **Restaurant1** > **Restaurant2**, dan **AdTaget** wordt toegewezen waarde **1** anders **AdTarget** wordt toegewezen waarde **2**. Waarde 1 genereert *Stak food* optie en Waarde 2 resulteert in de weergave van *Thai food* optie op uw beeldscherm.
+Als de waarde van **Restaurant1** > **Restaurant2** vervolgens **Advertentietag** is toegewezen waarde **1** anders **AdTarget** is toegewezen waarde **2**. Waarde 1 genereert *Steekvoedsel* optie en waarde 2 resulteert in weergave van *Thais voedsel* op het scherm.
 
 ## Voorwaarden {#preconditions}
 
-Voordat u de reserveringsactivering gaat implementeren, moet u leren hoe u ***Gegevensopslag***, ***Audience Segmentation*** en ***Enable Targeting for Channels*** in een AEM Screens-project instelt.
+Voordat u de activering van de reservering gaat implementeren, moet u leren hoe u de activering kunt instellen ***Gegevensopslag***, ***Auditiesegmentatie*** en ***Doelstelling voor kanalen inschakelen*** in een AEM Screens-project.
 
-Verwijs naar [het Vormen ContextHub in AEM Screens](configuring-context-hub.md) voor gedetailleerde informatie.
+Zie [ContextHub configureren in AEM Screens](configuring-context-hub.md) voor nadere informatie.
 
 ## Basisstroom {#basic-flow}
 
@@ -43,47 +43,47 @@ Voer de onderstaande stappen uit om de activeringsaanvraag voor de ziekenhuisres
 
 1. **De Google Sheets vullen en de formule toevoegen.**
 
-   Pas bijvoorbeeld de formule toe op de derde kolom **AdTarget**, zoals in de onderstaande afbeelding wordt getoond.
+   Pas bijvoorbeeld de formule toe op de derde kolom **AdTarget**, zoals weergegeven in onderstaande afbeelding.
 
    ![screen_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
 
 1. **De segmenten in soorten publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek van de vestiging*** in **[Het vormen ContextHub in AEM Screens](configuring-context-hub.md)** pagina voor meer details).
+   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: Segmentering publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
 
-   1. Selecteer **Bladen A1 1** en klik **Bewerken**.
-
-   1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteer **googlesheets/value/1/2** in de vervolgkeuzelijst in **Eigenschapnaam**
-
-   1. Selecteer **Operator** als **equal** in het keuzemenu
-
-   1. Voer de **Waarde** in als **1**
-
-   1. Selecteer op dezelfde manier **Bladen A1 2** en klik **Bewerken**.
+   1. Selecteer **Bladen A1 1** en klik op **Bewerken**.
 
    1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteer **googlesheets/value/1/2** in de vervolgkeuzelijst in **Eigenschapnaam**
+   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**
+
+   1. Selecteer **Operator** als **gelijk** in het keuzemenu
+
+   1. Voer de **Waarde** als **1**
+
+   1. Selecteer op dezelfde manier de **Bladen A1 2** en klik op **Bewerken**.
+
+   1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
+   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**
 
    1. Selecteer **Operator** als **2**
 
-1. Navigeer en selecteer uw kanaal () en klik **uitgeven** van de actiebar. In het volgende voorbeeld, **DataDrivenRestaurant**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
+1. Navigeer en selecteer het kanaal () en klik **Bewerken** in de actiebalk. In het volgende voorbeeld: **DataDrivenRestaurant**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
 
    >[!NOTE]
    >
-   >Uw kanaal zou reeds een standaardbeeld moeten hebben en het publiek zou pre-gevormd moeten zijn zoals die in [het Vormen ContextHub in AEM Screens](configuring-context-hub.md) wordt beschreven.
+   >Het kanaal moet al een standaardafbeelding hebben en het publiek moet vooraf zijn geconfigureerd zoals beschreven in [ContextHub configureren in AEM Screens](configuring-context-hub.md).
 
    ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
-   >U zou opstelling uw **ContextHub** **Configuraties** moeten hebben gebruikend het kanaal **Eigenschappen** —> **Personalization** tabel.
+   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** —> **Personalisatie** tab.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Selecteer **Doelstelling** in de editor en selecteer **Merk** en **Activiteit** in het keuzemenu en klik **Doelstelling starten**.
+1. Selecteren **Doelstelling** in de editor en selecteer **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
 1. **De voorvertoning controleren**
 
-   1. Klik op **Voorvertoning.** Open ook uw Google Sheets en werk de waarde ervan bij.
-   1. Werk de waarde in **Restaurant1** en **Restaurant2** kolommen bij. Als **Restaurant1** > **Restaurant2,** u een beeld van *Steak* anders zou moeten kunnen bekijken, *Thai* vertoningen van voedselbeeld op uw scherm.
+   1. Klikken **Voorvertoning.** Open ook uw Google-bladen en werk de waarde ervan bij.
+   1. De waarde bijwerken in **Restaurant1** en **Restaurant2** kolommen. Indien **Restaurant1** > **Restaurant2,** u zou een beeld van moeten kunnen bekijken *Steak* anders voedsel, *Thai* voedselafbeeldingen worden op het scherm weergegeven.
    ![result5](assets/result5.gif)

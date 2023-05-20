@@ -1,6 +1,6 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202105
-description: '"Volg deze pagina voor meer informatie over het AEM Screens Feature Pack 202105, uitgebracht op 4 juni 2021."'
+description: "Volg deze pagina voor meer informatie over het AEM Screens Feature Pack 202105, uitgebracht op 4 juni 2021."
 feature: Feature Pack
 role: Developer
 level: Intermediate

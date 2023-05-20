@@ -1,16 +1,16 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202011
-description: '"Volg deze pagina om informatie te krijgen voor AEM Screens Feature Pack 202011 uitgebracht op 30 november 2020."'
-feature: Functiepakket
+description: "Volg deze pagina om informatie te krijgen voor AEM Screens Feature Pack 202011 uitgebracht op 30 november 2020."
+feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b080a697-0e65-4ae1-a161-669c3098246b
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
-
 
 # Opmerkingen bij de release voor Feature Pack 202011 {#release-notes-for-feature-pack}
 
@@ -21,29 +21,29 @@ ht-degree: 1%
 
 AEM Screens heeft AEM 6.5 Feature Pack uitgebracht 6.
 
-U kunt het recentste eigenschappak voor AEM Screens 6.5.6 Versie van [het Portaal van de Distributie van de Software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer naar **Adobe Experience Manager** tab en zoek **Screens** om het nieuwste functiepakket met de naam **AEM 6.5 Screens FP6** te krijgen.
+U kunt het nieuwste functiepakket voor de AEM Screens 6.5.6-versie downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeren naar **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste functiepakket met de naam **AEM 6.5 Schermen FP6**.
 
 ## Releasedatum {#release-date}
 
 De Releasedatum voor AEM Screens Feature Pack 202011 is 30 november 2020.
 
-### Wat is er nieuw?{#what-is-new}
+### Wat is er nieuw? {#what-is-new}
 
 * **Rapport Inhoudstoewijzing**
 
-   Met de functie Rapport voor inhoudstoewijzing kan een AEM Screens-beheerder of auteur een *Rapport voor inhoudstoewijzing* exporteren in een spreadsheetindeling.
-Raadpleeg [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie.
+   Met de functie Rapport voor toewijzing van inhoud kan een AEM Screens-beheerder of auteur een *Rapport Inhoudstoewijzing* in spreadsheetformaat.
+Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie .
 
 
 * **Tizen Player**
 
    Er is een nieuwe speler met de naam Tizen-speler geïntroduceerd met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
-Raadpleeg [Tizen Player implementeren](/help/user-guide/tizen-player.md) voor meer informatie.
+Zie [Tizen Player implementeren](/help/user-guide/tizen-player.md) voor meer informatie .
 
 * **Functies zoeken vanuit Apparaatbeheer**
 
    Er is nu een nieuwe zoekfunctionaliteit beschikbaar via de interface van Apparaatbeheer met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
-Raadpleeg [Een apparaat zoeken vanuit Apparaatbeheer](/help/user-guide/device-registration.md#search-device) voor meer informatie.
+Zie [Een apparaat zoeken vanuit Apparaatbeheer](/help/user-guide/device-registration.md#search-device) voor meer informatie .
 
 * **Standaardpinginterval**
 
@@ -59,6 +59,6 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigen
 * Tizen
 * Linux
 
-#### AEM Screens Player-downloads {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
 
-Raadpleeg **[AEM Screens Player Downloads](https://download.macromedia.com/screens/index.html)** voor meer informatie over de opgeloste problemen.
+Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
