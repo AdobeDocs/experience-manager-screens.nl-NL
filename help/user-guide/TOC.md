@@ -8,9 +8,9 @@ user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarme
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 6%
 
 ---
@@ -25,10 +25,10 @@ ht-degree: 6%
    + [Belangrijkste voorwaarden](screens-glossary.md)
 + Basisprincipes van digitale-signaalnetwerken {#digital-signage-network}
    + [Deel 1: Projectrollen en -verantwoordelijkheden](project-roles-responsibilities.md)
-   + [Deel 2: Overwegingen als projecten worden behandeld](project-considerations.md)
+   + [Deel 2: Aandachtspunten als projecten](project-considerations.md)
    + [Deel 3: Testen, concepttest, piloten en rollouts](testing-pocs-pilots-rollouts.md)
    + [Deel 4: Projectbeheer en -implementatie](project-management-and-deployment.md)
-   + [Deel 5: Overwegingen voor ondersteuning](support-considerations.md)
+   + [Deel 5: Overwegingen bij de ondersteuning](support-considerations.md)
 + Configuratie en beheer {#administering}
    + [Serverconfiguraties weergeven](configuring-screens-introduction.md)
    + [Dispatcher-configuraties instellen](dispatcher-configurations-aem-screens.md)
@@ -47,6 +47,7 @@ ht-degree: 6%
       + [Android-speler](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
+      + [Cloud Player](implementing-cloud-player.md)
       + [Automatische registratie van spelers](auto-registration-players.md)
       + [De afstandsbediening gebruiken](implementing-remote-control.md)
    + Auteur publiceren {#author-publish}
@@ -65,7 +66,7 @@ ht-degree: 6%
       + [Apparaten beheren](managing-devices.md)
       + Kanalen toewijzen {#assigning-channels}
          + [Kanaaltoewijzing](channel-assignment-latest-fp.md)
-         + [Kanaaltoewijzing: Oudere AEM Screens-functiepakketten](channel-assignment.md)
+         + [Kanaaltoewijzing: oudere AEM Screens-functiepakketten](channel-assignment.md)
    + Basisproductfuncties gebruiken {#product-features}
       + [Tekstbedekking](text-overlay.md)
       + [Bulk offline bijwerken](bulk-offline-update.md)
@@ -104,13 +105,13 @@ ht-degree: 6%
    + [REST API&#39;s](rest-api.md)
    + [Een aangepaste component voor AEM Screens ontwikkelen](developing-custom-component-tutorial-develop.md)
    + [Offlinekanalen](offline-channels.md)
-   + [AEM Screens-componenten uitbreiden](extending-component-tutorial-develop.md)
+   + [Een AEM Screens-component uitbreiden](extending-component-tutorial-develop.md)
    + [Componenten maken](creating-components.md)
    + [Een REACT-toepassing insluiten met AEM SPA Editor en integreren met AEM Screens Analytics](embedding-react-app.md)
    + [ContextHub configureren in AEM Screens](configuring-context-hub.md)
    + [Aangepaste sjablonen maken voor MultiZone-layouts](creating-custom-templates-multizone-layouts.md)
    + [Aangepaste branding en opmaak toepassen voor tekstbedekkingen](custom-branding-text-overlays.md)
-   + [Adaptieve uitvoeringen: Overzicht en configuraties van architectuur](/help/user-guide/adaptive-renditions.md)
+   + [Adaptieve uitvoeringen: Overzicht van architectuur en configuraties](/help/user-guide/adaptive-renditions.md)
 + Problemen oplossen en veelgestelde vragen {#troubleshooting}
    + [Veelgestelde vragen over AEM Screens](aem-screens-faqs.md)
    + [Problemen oplossen in Device Control Center](monitoring-screens.md)
@@ -124,7 +125,7 @@ ht-degree: 6%
    + [Opmerkingen bij de release voor Feature Pack 202103](release-notes-fp-202103.md)
    + [Opmerkingen bij de release voor Feature Pack 202011](release-notes-fp-202011.md)
    + [Opmerkingen bij de release voor Feature Pack 202008](release-notes-fp-202008.md)
-   + [Opmerkingen bij de release voor Feature Pack 202004](release-notes-fp-202004.md)
+   + [Opmerkingen bij de release voor Feature Pack 20204](release-notes-fp-202004.md)
    + [Opmerkingen bij de release voor Feature Pack 202001](release-notes-fp-202001.md)
    + [Opmerkingen bij de release voor Feature Pack 201909](release-notes-fp-201909.md)
    + [Opmerkingen bij de release voor Feature Pack 201907](release-notes-fp-201907.md)
