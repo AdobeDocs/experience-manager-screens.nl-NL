@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit om de naam te configureren in Chrome Player:
    ![afbeelding](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome Players moeten in ondernemingsinschrijving worden ingeschreven en de speler van Chrome moet door de Console van het Beheer van Chrome worden opgesteld, anders zal identiteitskaart van activa leeg terugkeren (bijvoorbeeld, chroom als uitbreiding). De apparaatnaam wordt alleen opgenomen op het moment van registratie. Toekomstige wijzigingen worden niet opgepikt door Adobe Experience Manager (AEM).
+   >Chrome Players moeten in ondernemingsinschrijving worden ingeschreven en de speler van Chrome moet door de Console van het Beheer van Chrome worden opgesteld, anders zal identiteitskaart van activa leeg terugkeren (bijvoorbeeld, chroom als uitbreiding). De apparaatnaam wordt alleen opgenomen op het moment van registratie. Toekomstige wijzigingen worden niet door Adobe Experience Manager (AEM) overgenomen.
 
 ### Modus Kiosk inschakelen {#enabling-kiosk-mode}
 
@@ -83,16 +83,16 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
    Het kan een paar notulen afhankelijk van het netwerk voor de veranderingen duren om van kracht te worden. Het wordt aanbevolen opnieuw op te starten.
 
-#### Status van extern apparaat controleren {#checking-remote-device-status}
+#### De status van extern apparaat controleren {#checking-remote-device-status}
 
 1. Meld u aan bij de Chrome Developer Console.
 1. Bladeren naar **Apparaatbeheer** > **Chrome-apparaten** en selecteert u het apparaat dat u wilt besturen.
 1. Klikken **Systeemactiviteit en probleemoplossing**.
-1. Controleer de **Opnieuw opstarten** en **Schermvastlegging** eigenschappen van het apparaat. U kunt ook de status en gezondheidsgegevens van het apparaat controleren.
+1. Controleer de **Apparaat opnieuw opstarten** en **Schermvastlegging** eigenschappen van het apparaat. U kunt ook de status en gezondheidsgegevens van het apparaat controleren.
 
 >[!NOTE]
 >
->Houd er rekening mee dat deze instellingen mogelijk enkele minuten nadat het apparaat is ingeschreven, zijn ingeschakeld. Elke optie kan na verloop van tijd worden ingeschakeld.
+>Deze instellingen kunnen enkele minuten nadat het apparaat is ingeschreven, zijn ingeschakeld. Elke optie kan na verloop van tijd worden ingeschakeld.
 
 ### Externe configuratie van Chrome OS Players configureren {#configuring-remote-configuration-of-chrome-os-players}
 
@@ -136,18 +136,21 @@ Voer de onderstaande stappen uit om verschillende opties van de speler te config
 }
 ```
 
-### Beleidskenmerken en doel {#policy-attributes-and-purpose}
+### Beleidskenmerken en -doel {#policy-attributes-and-purpose}
 
 In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 
 | **Beleidsnaam** | **Doel** |
 |---|---|
-| *server* | De URL naar de Adobe Experience Manager-server |
-| *resolutie* | De resolutie van het Chrome OS-apparaat |
-| *rebootSchedule* | Het programma om de Chrome-speler opnieuw op te starten |
-| *enableAdminUI* | Schakel de interface van Admin voor technici in om het apparaat op locatie te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
-| *enableOSD* | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals zodra het volledig en in productie wordt gevormd. |
-| *enableActivityUI* | Schakel deze optie in om de voortgang van activiteiten zoals downloaden en synchroniseren weer te geven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
+| server | De URL naar de Adobe Experience Manager-server (AEM). |
+| registrationKey | Wordt gebruikt voor de bulkregistratie van apparaten met behulp van een vooraf gedeelde sleutel. |
+| resolutie | De resolutie van het apparaat. |
+| rebootSchedule | Het programma om de speler opnieuw op te starten. |
+| enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
+| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
+| enableActivityUI | Schakel deze optie in om de voortgang van activiteiten zoals downloaden en synchroniseren weer te geven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
+| cloudMode | Stel dit in op true als u wilt dat de Tizen-speler verbinding maakt met as a Cloud Service schermen. Ingesteld op false om verbinding te maken met AMS of on-Prem AEM. |
+| cloudToken | Registratietoken voor registratie tegen as a Cloud Service schermen. |
 
 >[!NOTE]
 >

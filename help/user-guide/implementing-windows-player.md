@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 >
 >Als de **Staat** is **GEREGISTREERD**, merkt u de **Apparaat-id** wordt ingevuld.
 >
->Als de **Staat** is **ONGEREGISTREERD** kunt u de **Token** om het apparaat te registreren.
+>Als de **Staat** is **ONGEREGISTREERD**, kunt u de **Token** om het apparaat te registreren.
 
 ## Namen van Windows Player {#name-windows}
 
@@ -112,7 +112,7 @@ De configuratie zal ervoor zorgen dat alle spelers de zelfde server pingelen die
 
 Voer de onderstaande stappen uit om Windows 10 Player te configureren:
 
-1. Installeer Windows Player.
+1. Windows Player installeren.
 1. Het configuratiebestand zoeken onder ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Werk de configuratie-JSON bij met behulp van de onderstaande informatie en kopieer vervolgens dezelfde map naar alle systemen waar de speler zich bevindt.
 
@@ -120,14 +120,18 @@ Voer de onderstaande stappen uit om Windows 10 Player te configureren:
 
 De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verwijzing samen:
 
+
 | **Beleidsnaam** | **Doel** |
 |---|---|
 | server | De URL naar de Adobe Experience Manager-server (AEM). |
+| registrationKey | Wordt gebruikt voor de bulkregistratie van apparaten met behulp van een vooraf gedeelde sleutel. |
 | resolutie | De resolutie van het apparaat. |
 | rebootSchedule | Het programma om de speler opnieuw op te starten. |
 | enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
-| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals zodra het volledig en in productie wordt gevormd. |
+| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
 | enableActivityUI | Schakel deze optie in om de voortgang van activiteiten zoals downloaden en synchroniseren weer te geven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
+| cloudMode | Stel dit in op true als u wilt dat de Tizen-speler verbinding maakt met as a Cloud Service schermen. Ingesteld op false om verbinding te maken met AMS of on-Prem AEM. |
+| cloudToken | Registratietoken voor registratie tegen as a Cloud Service schermen. |
 
 #### JSON-bestand met voorbeeldbeleid {#example-policy-json-file}
 
@@ -162,7 +166,7 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 1. Maak een niet-administratieve gebruiker (als u er al een hebt) die u voor Kiosk wilt gebruiken. Dit kan een lokale of domeingebruiker zijn.
 1. Installeer de vensterspeler voor die Kiosk-gebruiker vanuit [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/) pagina.
-1. Zie [De Lanceerinrichting van Shell van het gebruik om Vensters 10 kiosk tot stand te brengen](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) om uw manuscript PowerShell voor meer informatie te wijzigen.
+1. Zie [De Lanceerinrichting van Shell van het gebruik om Vensters 10 kiosk te creëren](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) om uw manuscript PowerShell voor meer informatie te wijzigen.
 
    Wijzig het manuscript PowerShell om de gebruikersbenaming met te vervangen u creeerde. Controleer of het pad naar het uitvoerbare bestand van de toepassing juist is. Hierdoor wordt de aangepaste shell ingesteld als de toepassing voor de venstersspeler voor de gebruiker kiosk en wordt de standaardwaarde als explorer.exe voor andere gebruikers ingesteld.
 
@@ -183,7 +187,7 @@ Met het voorbeeldscript in de koppelingen wordt de aangepaste shell in- en uitge
 >
 >In sommige venstermilieu&#39;s kunnen de manuscripten PowerShell door beleid (vooral niet ondertekende manuscripten) worden beperkt. Als u uw script wilt uitvoeren, moet u deze beperking mogelijk tijdelijk uitschakelen en opnieuw inschakelen om het script uit te voeren. Open een venster PowerShell en gebruik deze bevelen.
 >
->*onbeperkt beleid instellen* - om beperkingen tijdelijk te verwijderen
+>*onbeperkt beleid voor instellen* - om beperkingen tijdelijk te verwijderen
 >
 >*beperkt beleid voor instellen* - beperking weer inschakelen nadat het script is uitgevoerd
 
