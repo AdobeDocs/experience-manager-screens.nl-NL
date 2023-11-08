@@ -14,7 +14,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
@@ -130,7 +130,7 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 | enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
 | enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
 | enableActivityUI | Schakel deze optie in om de voortgang van activiteiten zoals downloaden en synchroniseren weer te geven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
-| cloudMode | Stel dit in op true als u wilt dat de Tizen-speler verbinding maakt met as a Cloud Service schermen. Ingesteld op false om verbinding te maken met AMS of on-Prem AEM. |
+| cloudMode | Stel dit in op true als u wilt dat de Windows-speler verbinding maakt met as a Cloud Service schermen. Ingesteld op false om verbinding te maken met AMS of on-Prem AEM. |
 | cloudToken | Registratietoken voor registratie tegen as a Cloud Service schermen. |
 
 #### JSON-bestand met voorbeeldbeleid {#example-policy-json-file}
