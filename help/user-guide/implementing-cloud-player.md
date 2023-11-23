@@ -11,9 +11,10 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
+source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -67,3 +68,24 @@ Selecteer op basis van het type van de AEM-instantie een van de volgende hulplij
 * [AEM op locatie/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+## Offlineondersteuning voor externe inhoud ophalen {#offline-support}
+
+In verschillende gebruiksscenario&#39;s kunnen kanalen vereisen dat inhoud wordt opgehaald uit een externe bron (bijvoorbeeld weerswidgets of toepassingen voor één pagina van de Handel) die niet van nature offline ondersteuning kunnen bieden. Om offline functionaliteit voor deze specifieke gebruiksgevallen in te schakelen, biedt Cloud Player ondersteuning voor aangepaste kopteksten.
+Cloud Player past een Network First-cachemethode toe, wat betekent dat het probeert inhoud van het netwerk op te halen (en de cache vervolgens met de nieuwste versie bij), en dat het terugvalt op cacheinhoud indien beschikbaar. Als u offline ondersteuning voor het ophalen van dergelijke inhoud wilt implementeren, moet de aangepaste header in de aanvraag worden opgenomen. Vervolgens wordt de aanvraag met de aangepaste header in de cache van de speler geplaatst, zodat de offline toegang tot de inhoud wordt vergemakkelijkt terwijl de cachemethode Netwerkeerste behouden blijft.
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```
