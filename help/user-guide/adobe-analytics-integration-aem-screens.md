@@ -14,9 +14,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,16 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Deze AEM Screens-functionaliteit is alleen beschikbaar als u een minimale versie van AEM 6.4.2 Feature Pack 2 of AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd.
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u een minimale versie van AEM 6.4.2 Feature Pack 2 of AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd. Voor klanten van AEM Screens-cloudservices neemt u contact op met uw Adobe Relationship Manager om Adobe Analytics in Screens Cloud in te schakelen.
 
 >[!NOTE]
 >
->Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, moet u de Steun van Adobe contacteren en toegang verzoeken. U kunt het nieuwste functiepakket voor AEM Screens downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
+>Om toegang tot één van beiden van deze Pakketten van de Eigenschap te krijgen, moet u de Steun van de Adobe contacteren en om toegang verzoeken. U kunt het nieuwste functiepakket voor AEM Screens downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
 * **Overzicht**
-* **Architectuurafbeeldingen**
+* **Architectuurgegevens**
 * **Eigenschappen configureren**
 
 ## Overzicht {#overview}
@@ -57,9 +57,9 @@ Adobe Analytics Integration with AEM Screens dwingt dus het volgende af *doelen*
 * ROI van de implementatie van de digitale handtekening inschakelen
 * Analyses integreren als basis voor toekomstige mogelijkheden voor het verzamelen en analyseren van gebruiksinformatie
 
-## Architectuurafbeeldingen {#architectural-details}
+## Architectuurgegevens {#architectural-details}
 
-Een AEM Screens-klant wil weten welke inhoud op welk moment en voor hoe lang (geaggregeerd) is weergegeven. Dit is algemeen vermogen van signaleringsoplossing. In plaats van onze eigen analyses op te stellen, zal AEM Screens Adobe Analytics benutten en daarmee kunnen we iets anders bereiken op de markt - kanaaloverschrijdende analyses die de inhoud die op locatie wordt getoond, helpen correleren met andere gegevensbronnen.
+Een AEM Screens-klant wil weten welke inhoud op welk moment en voor hoe lang (geaggregeerd) is weergegeven. Dit is gemeenschappelijk vermogen van signaleringsoplossing. In plaats van onze eigen analyses op te stellen, zal AEM Screens Adobe Analytics benutten en daarmee kunnen we iets anders bereiken op de markt - kanaaloverschrijdende analyses die de inhoud die op locatie wordt getoond, helpen correleren met andere gegevensbronnen.
 
 In het volgende architectuurdiagram wordt de Adobe Analytics Integration met AEM Screens uitgelegd:
 
@@ -73,7 +73,7 @@ Navigeren naar **Configuratie Adobe Experience Manager-webconsole** Adobe Analyt
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
-## Schermanalyse: Stroom inschakelen {#screens-analytics-enablement-flow}
+## Screens Analytics: Enablement Flow {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
 >
@@ -98,7 +98,7 @@ In de volgende tabel worden de eigenschappen gemarkeerd met hun beschrijving voo
   <tr>
    <td><strong>URL voor analyse</strong></td>
    <td>URL om analysegegevens van de speler te posten. <br>
-   Voor ontwikkeling/fase</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Voor productie</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   Voor ontwikkeling/fase</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Voor productie</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Sleutel Analytics API</strong></td>
