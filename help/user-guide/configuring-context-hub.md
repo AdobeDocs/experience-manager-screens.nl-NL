@@ -14,16 +14,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1513'
 ht-degree: 1%
 
 ---
 
 # ContextHub configureren in AEM Screens {#configuring-contexthub-in-aem-screens}
 
-In deze sectie wordt de nadruk gelegd op het maken en beheren van gegevensgestuurde wijzigingen in elementen met behulp van een gegevensopslag.
+In deze sectie wordt de nadruk gelegd op het maken en beheren van gegevensgestuurde wijzigingen in elementen met behulp van een gegevensopslagruimte.
 
 ## Belangrijkste voorwaarden {#key-terms}
 
@@ -53,7 +53,7 @@ Alvorens u begint de Configuraties van de Hub van de Context voor een project va
 >
 >Raadpleeg voor meer informatie [API-sleutel ophalen](https://developers.google.com/maps/documentation/javascript/get-api-key) in Google documentatie.
 
-## Stap 1: Een gegevensopslag instellen {#step-setting-up-a-data-store}
+## Stap 1: Een Data Store instellen {#step-setting-up-a-data-store}
 
 U kunt de gegevensopslag instellen als een lokale I/O-gebeurtenis of als een lokale databasegebeurtenis.
 
@@ -111,7 +111,6 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
       >1. Verwijderen `cloudsettings` en opslaan.
       >1. Naam wijzigen `cloudsettings1` tot `cloudsettings` en opslaan.
       >1. U moet nu controleren of /conf/screens/settings/cloudsettings `jcr:primaryType` als `sling:Folder`.
-
       >
       >Volg deze stappen in auteur en publiceer voor of na de verbetering.
 
@@ -144,10 +143,13 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
       ```
 
       >[!NOTE]
+      >
       In de bovenstaande voorbeeldcode: **pollInterval** definieert de frequentie waarmee de waarden worden vernieuwd (in ms).
+      >
       Vervang de code door uw *&lt;sheet id=&quot;&quot;>* en *&lt;api key=&quot;&quot;>*, die je hebt opgehaald tijdens het instellen van de Google Sheets.
 
       >[!CAUTION]
+      >
       Als u uw Google Sheets maakt, slaat u configuraties buiten de algemene map op (bijvoorbeeld in uw eigen projectmap), dan werkt het aanwijzen van doelen niet uit het vak.
 
 1. **Opslagsegmentatie instellen**
@@ -162,11 +164,11 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
 U moet het proces van het bepalen van de json overslaan en het als leeg verlaten.
 
 
-## Stap 3: Segmenten instellen voor het publiek {#setting-up-audience}
+## Stap 3: Segmenten voor het publiek instellen {#setting-up-audience}
 
 1. **Segmenten maken voor het publiek**
 
-   1. Ga van uw AEM naar **Personalisatie** > **Soorten publiek** > **schermen**.
+   1. Navigeer van uw AEM naar **Personalisatie** > **Soorten publiek** > **schermen**.
 
    1. Klikken **Maken** > **Maak een Context Hub Segment.** De **Nieuw ContextHub-segment** wordt geopend.
 
@@ -177,19 +179,19 @@ U moet het proces van het bepalen van de json overslaan en het als leeg verlaten
    1. Selecteer het segment **Higherthan50** en klik op **Eigenschappen** in de actiebalk.
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Selecteer **Personalisatie** van de **Segmenteigenschappen**. Stel de **ContextHub-pad** tot `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` en **Segmentpad** tot `/conf/screens/settings/wcm/segments` en klik op **Opslaan**, zoals weergegeven in onderstaande afbeelding.
+   1. Selecteer de **Personalisatie** van de **Segmenteigenschappen**. Stel de **ContextHub-pad** tot `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` en **Segmentpad** tot `/conf/screens/settings/wcm/segments` en klik op **Opslaan**, zoals weergegeven in onderstaande afbeelding.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub13.png)
 
    1. Stel op dezelfde manier de **ContextHub-pad** en **Segmentpad** for **Lager dan50** ook segment.
 
-## Stap 4: Merk en gebied instellen {#setting-brand-area}
+## Stap 4: Opzetten van merk en gebied {#setting-brand-area}
 
 Volg de onderstaande stappen om een merk te maken in uw activiteiten en gebied onder het merk:
 
 1. **Een merk in activiteiten maken**
 
-   1. Ga van uw AEM naar **Personalisatie** > **Activiteiten**.
+   1. Navigeer van uw AEM naar **Personalisatie** > **Activiteiten**.
 
    1. Klikken **Maken** > **Merk maken**.
 
@@ -201,7 +203,8 @@ Volg de onderstaande stappen om een merk te maken in uw activiteiten en gebied o
 
 
       >[!CAUTION]
-      Bekend probleem: Als u een gebied wilt toevoegen, verwijdert u het master item uit de URL, zoals
+      >
+      Bekend probleem: als u een gebied wilt toevoegen, verwijdert u het stramien uit de URL, bijvoorbeeld
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
 1. **Een gebied in uw merk maken**
@@ -217,17 +220,17 @@ Volg de onderstaande stappen om een merk te maken in uw activiteiten en gebied o
    1. Voer de **Titel** als **ScreensValue** en klik op **Maken**.
 Er wordt een gebied in uw merk gemaakt.
 
-## Stap 5: Segmenten maken in een activiteit {#step-setting-up-audience-segmentation}
+## Stap 5: De segmenten in een activiteit maken {#step-setting-up-audience-segmentation}
 
 Nadat u een gegevensopslag hebt ingesteld en uw activiteiten (merk en gebied) hebt gedefinieerd, volgt u onderstaande stappen om segmenten in uw activiteit te maken.
 
 1. **Segmenten maken in activiteiten**
 
-   1. Ga van uw AEM naar **Personalisatie** > **Activiteiten** > **SchermenMerk** >**ScreensValue**.
+   1. Navigeer van uw AEM naar **Personalisatie** > **Activiteiten** > **SchermenMerk** >**ScreensValue**.
 
    1. Klikken **Maken** > **Activiteit maken.** De **Wizard Activiteiten configureren** wordt geopend.
 
-   1. Voer de **Titel** als **ValueCheck50** en **Naam** als **taxecheck50**. Selecteer **Richtingsmotor** als **ContextHub (AEM)** in de vervolgkeuzelijst en klik op **Volgende**.
+   1. Voer de **Titel** als **ValueCheck50** en **Naam** als **taxecheck50**. Selecteer de **Richtingsmotor** als **ContextHub (AEM)** in de vervolgkeuzelijst en klik op **Volgende**.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub14.png)
 
@@ -243,15 +246,15 @@ Nadat u een gegevensopslag hebt ingesteld en uw activiteiten (merk en gebied) he
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Stap 5: Segmenten in soorten publiek bewerken{#editing-audience-segmentation}
+## Stap 5: De segmenten in soorten publiek bewerken{#editing-audience-segmentation}
 
 1. **Segmenten bewerken**
 
-   1. Ga van uw AEM naar **Personalisatie** > **Soorten publiek** > **schermen**.
+   1. Navigeer van uw AEM naar **Personalisatie** > **Soorten publiek** > **schermen**.
 
    1. Selecteer het segment **Higherthan50** en klik op **Bewerken** in de actiebalk.
 
-   1. Sleep de **Vergelijking: Eigenschap - waarde** aan de redacteur.
+   1. Sleep de **Vergelijking: eigenschap - waarde** aan de redacteur.
 
    1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap met een waarde vergelijken** in.
 
@@ -262,57 +265,61 @@ De **goochelesheets/value/1/0** verwijst naar rij 2 en kolom zoals deze in de go
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. Selecteer **Operator** als **groter dan** in het keuzemenu.
+   1. Selecteer de **Operator** als **groter dan** in het keuzemenu.
 
    1. Voer de **Waarde** als **70**.
 
       >[!NOTE]
+      >
       De AEM valideert uw gegevens van het Blad van Google door uw segment als groen te tonen.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub18.png)
+
    Op dezelfde manier kunt u de eigenschapswaarden bewerken tot **Lager dan50**.
 
-   1. Sleep de **Vergelijking: Eigenschap - waarde** aan de redacteur.
+   1. Sleep de **Vergelijking: eigenschap - waarde** aan de redacteur.
 
    1. Klik op het moersleutelpictogram om het dialoogvenster **Een eigenschap met een waarde vergelijken** in.
 
    1. Selecteren **goochelesheets/value/1/0** in de vervolgkeuzelijst **Eigenschapnaam**.
 
-   1. Selecteer **Operator** als **kleiner dan** in het keuzemenu.
+   1. Selecteer de **Operator** als **kleiner dan** in het keuzemenu.
 
    1. Voer de **Waarde** als **50**.
 
 
-
 ## Het richten in Kanalen toelaten {#step-enabling-targeting-in-channels}
 
-Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te schakelen.
+Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kanalen in te schakelen.
 
-1. Navigeer naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door te gebruiken **DataDrivenChannel** gemaakt in een AEM Screens Channel.
+1. Ga naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door te gebruiken **DataDrivenChannel** gemaakt in een AEM Screens Channel.
 
 1. Selecteer het kanaal **TargetChannel** en klik op **Eigenschappen** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/context-hub/context-hub19.png)
 
-1. Selecteer **Personalisatie** lusje aan opstelling de configuraties ContextHub.
+1. Selecteer de **Personalisatie** lusje aan opstelling de configuraties ContextHub.
 
-   1. Stel de **ContextHub-pad** tot `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` en **Segmentpad** tot `/conf/screens/settings/wcm/segments` en klik op **Opslaan**.
+   1. Stel de **ContextHub-pad** tot `/conf/screens/settings/wcm/segments` en **Segmentpad** tot `/conf/screens/settings/wcm/segments`.
+   1. Merk instellen op **SchermenMerk** uit de vervolgkeuzelijst en **Verwijzing gebied instellen** tot **ScreensValue**.
 
    1. Klikken **Opslaan en sluiten**.
 
       >[!NOTE]
+      >
       Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
 
-      ![afbeelding](/help/user-guide/assets/context-hub/context-hub20.png)
+      ![afbeelding](/help/user-guide/assets/context-hub/context-hub20New.png)
 
    1. Navigeer en selecteer de **TargetChannel** kanaal en klik **Bewerken** in de actiebalk.
 
       >[!NOTE]
-      Als u alles correct hebt ingesteld, ziet u **Doelstelling** in de drop-down van de redacteur, zoals aangetoond in het hieronder cijfer.
+      >
+      Als u alles correct hebt ingesteld, ziet u **Targeting** in de drop-down van de redacteur, zoals aangetoond in het hieronder cijfer.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub21.png)
 
-## Meer informatie: Voorbeelden {#learn-more-example-use-cases}
+## Meer informatie: voorbeelden gebruiken {#learn-more-example-use-cases}
 
 Nadat u ContextHub voor uw project van AEM Screens hebt gevormd, kunt u de verschillende Gevallen van het Gebruik volgen om te begrijpen hoe de gegevens teweeggebrachte activa een vitale rol in verschillende industrieën spelen:
 
