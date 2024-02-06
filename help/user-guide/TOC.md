@@ -8,10 +8,10 @@ user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarme
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
+source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 6%
+source-wordcount: '510'
+ht-degree: 5%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 6%
       + [Tekstbedekking](text-overlay.md)
       + [Bulk offline bijwerken](bulk-offline-update.md)
       + [AEM Screens-berichtenservice](screens-notifications-service.md)
-      + [Ervaringsfragmenten gebruiken](experience-fragments-in-screens.md)
+      + [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md)
       + [Activering van middelenniveau](asset-level-scheduling.md)
       + [Activering op kanaalniveau](channel-level-activation.md)
       + [Een live kopie maken en beheren](managing-livecopy.md)
@@ -116,7 +116,8 @@ ht-degree: 6%
    + [Veelgestelde vragen over AEM Screens](aem-screens-faqs.md)
    + [Problemen oplossen in Device Control Center](monitoring-screens.md)
    + [Configuratie videoweergave](troubleshoot-videos.md)
-+ Releaseopmerkingen {#release-notes}
++ Opmerkingen bij de release {#release-notes}
+   + [Opmerkingen bij de release voor Feature Pack 20240166](release-notes-fp-20240116.md)
    + [Opmerkingen bij de release voor Feature Pack 202204](release-notes-fp-202204.md)
    + [Opmerkingen bij de release voor Feature Pack 202203](release-notes-fp-202203.md)
    + [Opmerkingen bij de release voor Feature Pack 202112](release-notes-fp-202112.md)
