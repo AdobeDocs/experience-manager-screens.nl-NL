@@ -4,9 +4,9 @@ description: Volg deze pagina voor informatie over AEM Screens Feature Pack 2024
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e172d2a4a3d2c1f3b555edc8f8ea41b663fc0a30
+source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,3 @@ Deze release bevat alleen beveiligingsoplossingen.
 * XSS-probleem op `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * Correctie, Ontbrekend programma voor herhaling en voeg planningknoppen toe: een probleem ontdekt in Kanaalplanning. (SCRNS-2739)
-
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
-
-Als u de nieuwste AEM Screens-speler wilt downloaden, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
