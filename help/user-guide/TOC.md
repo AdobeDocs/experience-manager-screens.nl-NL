@@ -8,9 +8,9 @@ user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarme
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 5f67d469bb6e562e0bc91f098e1941aeea923c9e
+source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '522'
 ht-degree: 5%
 
 ---
@@ -119,6 +119,7 @@ ht-degree: 5%
 + Opmerkingen bij de release {#release-notes}
    + [Opmerkingen bij de release voor Feature Pack 202401](release-notes-fp-202401.md)
    + [Opmerkingen bij de release voor Feature Pack 20240116](release-notes-fp-20240116.md)
+   + [Opmerkingen bij de release voor Feature Pack 20240215](release-notes-fp-20240215.md)
    + [Opmerkingen bij de release voor Feature Pack 202204](release-notes-fp-202204.md)
    + [Opmerkingen bij de release voor Feature Pack 202203](release-notes-fp-202203.md)
    + [Opmerkingen bij de release voor Feature Pack 202112](release-notes-fp-202112.md)
