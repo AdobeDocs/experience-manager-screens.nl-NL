@@ -76,9 +76,11 @@ Selecteer op basis van het type van de AEM-instantie een van de volgende hulplij
 
 >[!NOTE]
 >
-## Veroudering van Chrome-toepassingen door Google
-1. Chrome Apps on Chrome OS Hardware: Google heeft Chrome Apps actief vervangen door PWA apps, met een geplande migratie tot januari 2025. Daarom werkt de AEM Screens Player-app op Chrome OS niet meer op basis van de gedeelde tijdlijn. We roepen onze klanten die momenteel Chrome Player in productie gebruiken op om te plannen voor de overgang naar de Screens Cloud Player.
-2. Chrome Extension Player op Mac, Windows en Linux: vanwege Google-veroudering, vanaf Google Chrome versie 114, wordt de Screens Chrome Extension Player niet meer ondersteund. We raden u ten zeerste aan over te stappen op onze schermcloudspeler voor al uw ontwikkelings- en testvereisten.
+>## Veroudering van Chrome-toepassingen door Google
+>1. Chrome Apps on Chrome OS Hardware: 
+>Google heeft Chrome Apps actief vervangen door PWA apps, met een geplande migratie tot januari 2025. Daarom werkt de AEM Screens Player-app op Chrome OS niet meer op basis van de gedeelde tijdlijn. We roepen onze klanten die momenteel Chrome Player in productie gebruiken op om te plannen voor de overgang naar de Screens Cloud Player.
+>2. Chrome Extension Player op Mac, Windows en Linux: 
+>vanwege Google-veroudering, vanaf Google Chrome versie 114, wordt de Screens Chrome Extension Player niet meer ondersteund. We raden u ten zeerste aan over te stappen op onze schermcloudspeler voor al uw ontwikkelings- en testvereisten.
 
 ## Offlineondersteuning voor externe inhoud ophalen {#offline-support}
 
