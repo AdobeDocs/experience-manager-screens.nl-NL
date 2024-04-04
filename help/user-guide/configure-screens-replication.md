@@ -4,9 +4,9 @@ description: Volg deze pagina om informatie te krijgen over hoe te om de Agenten
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 93bbffa2d752bfbd92702487802d40e7e8e287b8
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '498'
 ht-degree: 3%
 
 ---
@@ -34,15 +34,15 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 >[!NOTE]
 >Om veiligheidsredenen is het raadzaam het beheerderswachtwoord niet te gebruiken voor schermgebruikers.
 
-1. Navigeer naar de instantie van uw AEM-auteur.
+1. Navigeer naar de AEM Author-instantie.
 
-1. Klik op gereedschappen —> **Beveiliging** —> **Gebruikers**.
+1. Klik op Gereedschappen > **Beveiliging** > **Gebruikers**.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
 1. Zoeken naar **screens-receiver-user**.
 
-1. Selecteer **screens-receiver-user** en klik op **Inschakelen** in de actiebalk.
+1. Selecteer de **screens-receiver-user** en klik op **Inschakelen** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
@@ -54,7 +54,7 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Selecteer **screens-receiver-user** en klik op **Eigenschappen** in de actiebalk.
+1. Selecteer de **screens-receiver-user** en klik op **Eigenschappen** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
@@ -71,7 +71,7 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 
 1. Klikken op **Opslaan en sluiten**.
 
-1. Selecteer **screens-receiver-user** en klik op **Activeren** in de actiebalk.
+1. Selecteer de **screens-receiver-user** en klik op **Activeren** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
@@ -79,7 +79,7 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Selecteer **screens-receiver-user** en klik op **Uitschakelen** in de actiebalk.
+1. Selecteer de **screens-receiver-user** en klik op **Uitschakelen** in de actiebalk.
 
    >[!IMPORTANT]
    > Uitschakelen **screens-receiver-user** alleen wordt deze gebruiker uitgeschakeld voor de instantie van de auteur en blijven alle gebruikers in de instantie publish actief. Klik niet op **Deactiveren** uit de actiebalk, want door deactivering wordt de gebruiker ook uit de publicatie-instanties verwijderd.
@@ -97,7 +97,7 @@ Volg de onderstaande sectie om instellingen in de agent voor schermreplicatie bi
 
 1. Navigeer naar de AEM.
 
-1. Klik op gereedschappen —> **Implementatie** —> **Replicatie**.
+1. Klik op Gereedschappen > **Implementatie** > **Replicatie**.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
@@ -130,4 +130,4 @@ Volg de onderstaande sectie om instellingen in de agent voor schermreplicatie bi
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
-   Als de verbindingsverificatie is gelukt, hebt u de configuratie van de agent voor schermreplicatie voltooid.
+   Als de verificatie van de verbinding is gelukt, hebt u de configuratie van de agent voor schermreplicatie voltooid.

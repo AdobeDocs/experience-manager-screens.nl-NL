@@ -6,9 +6,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 
 Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
-1. Ga bijvoorbeeld naar de gewenste weergave **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
+1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
 
    ![afbeelding](assets/screen_shot_2018-08-23at25359pm.png)
 
 1. Tikken/klikken **Kanaal toewijzen** in de actiebalk
 
-   Of
+   Of,
 
    Tikken/klikken **Dashboard** en klik op **+Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** om het deelvenster **Kanaaltoewijzing** in.
 
@@ -50,7 +50,7 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
 Met het referentiekanaal kunt u een verwijzing naar het gewenste kanaal opgeven, op kanaalnaam of op kanaalpad.
 
-* **op pad**: u verstrekt een expliciete verwijzing gebruikend de absolute weg van het kanaal.
+* **op pad**: u geeft een expliciete verwijzing op met het absolute pad van het kanaal.
 
 * **op naam**: U voert de naam in van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met bijvoorbeeld een naam *dagblad*, waarbij de inhoud in feite in twee steden anders zou zijn, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
 
@@ -70,7 +70,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 * **Oorspronkelijke belasting**: laadt het kanaal wanneer de speler wordt gestart. Het kan aan veelvoudige kanalen in combinatie met programma worden toegewezen
 * **Niet-actief scherm**: wordt geladen wanneer het scherm niet actief is. Het kan aan veelvoudige kanalen in combinatie met programma worden toegewezen
 * **Timer**: moet worden vastgesteld wanneer een schema wordt verstrekt
-* **Gebruikersinteractie**: de speler schakelt over naar het opgegeven kanaal als er een gebruikersinteractie op het scherm is (aanraking) in een niet-actief kanaal en wordt geladen wanneer het scherm wordt aangeraakt
+* **Gebruikersinteractie**: de speler schakelt over naar het opgegeven kanaal als er een gebruikersinteractie op het scherm plaatsvindt (aanraking) in een niet-actief kanaal en wordt geladen wanneer het scherm wordt aangeraakt
 
 ### Onderbrekingsmethode {#interruption-method-channel}
 
@@ -82,18 +82,18 @@ Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken
 
 Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het menu **Kanaaltoewijzing** dialoogvenster:
 
-* **Meteen**: wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
-* **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of afspeelt u de nieuwe inhoud
-   >[!NOTE]
-   >Deze optie is standaard ingeschakeld.
+* **Meteen**: wanneer de planning wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
+* **Aan het einde van het huidige item**: wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, hebt u de optie om te wachten tot het huidige item in de reeks klaar is met afspelen en pas daarna vernieuwt of speelt u de nieuwe inhoud af
+  >[!NOTE]
+  >Deze optie is standaard ingeschakeld.
 * **Aan het einde van de reeks**: wanneer een nieuw programma activeert of een update wordt ontvangen, hebt u de optie om op de volledige opeenvolging te wachten om zijn eind te bereiken, en net vóór de gewenste opeenvolging, kunt u terugloop naar het eerste element, u vernieuwt of de nieuwe inhoud speelt
 
-   >[!NOTE]
-   >Als u de tweede of derde optie gebruikt, kunnen de op de toewijzing gedefinieerde planningstijden enigszins worden uitgesteld omdat de speler op het einde van het item of de reeks (na de opgegeven tijd) wacht voordat het item of de reeks wordt vernieuwd. De vertraging is afhankelijk van de afspeelduur van het item.
+  >[!NOTE]
+  >Als u de tweede of derde optie gebruikt, kunnen de op de toewijzing gedefinieerde planningstijden enigszins worden uitgesteld omdat de speler op het einde van het item of de reeks (na de opgegeven tijd) wacht voordat het item of de reeks wordt vernieuwd. De vertraging is afhankelijk van de afspeelduur van het item.
 
 ### Schema {#schedule-channel}
 
-In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Ook kunt u een begindatum definiëren (**actief van**) en een einddatum (**actief tot**) voor het kanaal dat moet worden weergegeven.
+In het schema kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Ook kunt u een begindatum definiëren (**actief van**) en een einddatum (**actief tot**) voor het kanaal dat wordt weergegeven.
 
 **Knopinfo voor activering weergeven**:
 
@@ -116,12 +116,12 @@ Hier, zullen wij elke dag in drie verschillende tijdgroeven verdelen, zodat de k
 | **Kanaal** | **Rol** | **Prioriteit** | **Schema** |
 |---|---|---|---|
 | Menu_A | Ontbijt |  | na 6:00 en vóór 11:00 |
-| Menu_B | Lunch |  | na 11.00 uur en vóór 15.00 uur |
-| Menu_C | Diner |  | na 15.00 uur en vóór 20.00 uur |
+| Menu_B | Lunch |  | na 11:00 en vóór 15:00 |
+| Menu_C | Diner |  | na 15:00 en vóór 20:00 |
 
 #### Inhoud afspelen op een bepaalde dag van de week {#playing-content-on-a-particular-day-of-the-week}
 
-In dit voorbeeld wordt getoond welke dayParting is bereikt in een casino, waar de livegebeurtenis plaatsvindt elk weekend van 8:00 tot 10:00 uur en er speciale menu&#39;s beschikbaar zijn voor het diner na 10:00 tot 13:00 uur.
+In dit voorbeeld wordt getoond welke dayParting is bereikt in een casino, waar de livegebeurtenis plaatsvindt elk weekend van 8:00 tot 10:00 uur en er speciale menu&#39;s beschikbaar zijn voor het diner na 10:00 tot 13:00 uur
 
 <table>
  <tbody>
@@ -163,11 +163,11 @@ Hier, zult u dag-parting zoals per maanden tot stand brengen, zodat de kanaalinh
 
 #### Inhoud afspelen voor kanalen met dezelfde prioriteit {#playing-content-for-channels-with-same-priority}
 
-Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien Kanaal B prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan kanaal A.
+Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien Kanaal B prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan Kanaal A.
 
 | **Kanaal** | **Rol** | **Prioriteit** | **Schema** |
 |---|---|---|---|
-| A | Winter | 1 | 01 dec. 2017 - 31 dec. 2017 |
+| A | Winter | 1 | 1 dec. 2017 - 31 dec. 2017 |
 | B | Kerstmis | 2 | 24 dec. 2017 - 31 dec. 2017 |
 
 
@@ -177,4 +177,3 @@ Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het 
 >
 >* [Herhaling van activa afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Herhaling van middelen in een kanaal afhandelen](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-

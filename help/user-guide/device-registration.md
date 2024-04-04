@@ -14,9 +14,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
 >1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en klik op **Opslaan**.
 >1. Klik op de knop **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
-
 >
-
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
@@ -126,9 +124,9 @@ Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande
 
 Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weergeven via de interface van Apparaatbeheer.
 
-1. Navigeer bijvoorbeeld naar de interface van Apparaatbeheer vanuit uw AEM Screens-project. **DemoScreens** —> **Apparaten**.
+1. Navigeer bijvoorbeeld naar de interface van Apparaatbeheer vanuit uw AEM Screens-project. **DemoScreens** > **Apparaten**.
 
-1. Selecteer **Apparaten** en klik op **Apparaatbeheer** in de actiebalk.
+1. Selecteer de **Apparaten** en klik op **Apparaatbeheer** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -138,7 +136,7 @@ Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weerg
 
    ![afbeelding](/help/user-guide/assets/device-manager/device-manager-2.png)
 
-   Of
+   Of,
 
    Klikken `/` (forward slash) om de zoekfunctionaliteit aan te roepen.
 
@@ -149,10 +147,10 @@ Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weerg
 
 * De gebruiker zal om het even welk woord kunnen zoeken dat in *Apparaat-id* of *Apparaatnaam*.
 
-   >[!NOTE]
-   >Het wordt aanbevolen de apparaatnamen in meerdere woorden te maken, zoals *Boston Store Lobby* in plaats van één *BostonStoreLobby*.
+  >[!NOTE]
+  >Het wordt aanbevolen de apparaatnamen in meerdere woorden te maken, zoals *Boston Store Lobby* in plaats van één *BostonStoreLobby*.
 
-* Als u apparaatnamen maakt, zoals *Boston Store Lobby* kan worden gezocht naar een woord *boston*, *winkel* of *lobby* maar als de naam van het apparaat wordt aangeduid als *BostonStoreLobby* zoeken *boston* De resultaten worden niet weergegeven.
+* Als u apparaatnamen maakt, zoals *Boston Store Lobby*, kan worden gezocht naar elk woord *boston*, *winkel* of *lobby* maar als de apparaatnaam wordt aangeduid als *BostonStoreLobby* zoeken *boston* De resultaten worden niet weergegeven.
 
 * Jokerteken `*` wordt ondersteund voor zoeken. Als dat het geval is, zoekt u naar alle apparaten met namen die beginnen met *boston* kunt u *boston**.
 
@@ -162,7 +160,7 @@ Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weerg
 
 Beperkingen van wachtwoorden voor gebruikers in het hele systeem kunnen leiden tot een fout in de apparaatregistratie. De apparaatregistratie gebruikt een willekeurig gegenereerd wachtwoord om de apparaatgebruiker te maken.
 
-Als het wachtwoord wordt beperkt door de *AuthorizableActionProvider* configuratie, zou het creëren van de apparatengebruiker kunnen ontbreken.
+Als het wachtwoord door *AuthorizableActionProvider* configuratie, zou het creëren van de apparatengebruiker kunnen ontbreken.
 
 >[!NOTE]
 >

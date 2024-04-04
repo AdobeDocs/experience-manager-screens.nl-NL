@@ -1,29 +1,28 @@
 ---
-title: Overnamekanaal voor één gebruik
-seo-title: Single Use TakeOver Channel
-description: Volg dit Geval van Gebruik voor het creëren van Één enkel Gebruik neemOver Kanaal.
-seo-description: Follow this Use Case for creating a Single Use TakeOver Channel.
+title: Single-Use TakeOver Channel
+description: Volg dit gebruiksgeval voor het creëren van een enig-Gebruik NeemOver Kanaal.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
 # Overnamekanaal voor één gebruik {#single-use-takeover-channel}
 
-De volgende pagina toont een gebruiksgeval dat op vestiging een project op benadrukt hoe te om een Enig kanaal tot stand te brengen TakeOver dat slechts één keer voor een specifieke tijd speelt.
+De volgende pagina toont een gebruiksgeval dat op vestiging een project op benadrukt hoe te om een Enig kanaal tot stand te brengen TakeOver dat één keer voor een specifieke tijd speelt.
 
 
 ## Omschrijving hoofdletter gebruiken {#use-case-description}
 
-Met deze optie wordt uitgelegd hoe u een kanaal maakt dat *overname* van het normaal afspeelkanaal voor een weergave of groep weergaven. De overname vindt slechts eenmaal en voor een bepaald tijdstip plaats.
-Er is bijvoorbeeld een Single TakeOver-kanaal dat op vrijdag van 9.00 tot 10.00 uur wordt afgespeeld. Tijdens deze tijd, zou geen ander kanaal moeten spelen. Voor en na deze keer wordt het overnamekanaal voor eenmalig gebruik niet afgespeeld. In het volgende voorbeeld ziet u hoe u een enkel overnamekanaal maakt waarmee de inhoud gedurende 2 minuten vóór 12:00 uur op 31 december tot 12:01 uur kan worden afgespeeld.
+Met deze optie wordt uitgelegd hoe u een kanaal maakt dat *overname* in het normale afspeelkanaal voor een weergave of groep weergaven. De overname vindt slechts eenmaal en voor een bepaalde tijd plaats.
+
+Er is bijvoorbeeld een Single TakeOver-kanaal dat op vrijdag 9.00 tot 10.00 uur &#39;s nachts wordt afgespeeld. Er is dan geen enkel ander kanaal nodig. Voor en na deze keer wordt het overnamekanaal voor eenmalig gebruik niet afgespeeld. In het volgende voorbeeld wordt de creatie getoond van één overnamekanaal waarmee de inhoud gedurende 2 minuten vóór 12:00 uur op 31 december kan worden afgespeeld tot 12:01 uur
 
 ### Voorwaarden {#preconditions}
 
@@ -52,7 +51,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/single-takeover2.png)
 
-1. Selecteer **MainAdChannel** en klik op **Bewerken** in de actiebalk. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
+1. Selecteer de **MainAdChannel** en klik op **Bewerken** in de actiebalk. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
 
    ![element](assets/single-takeover2.png)
 
@@ -68,7 +67,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/single-takeover4.png)
 
-1. Stel een locatie en weergave voor uw kanalen in. Bijvoorbeeld de volgende locatie **Lobby** en weergave **MainLobbyDisplay** is ingesteld voor dit project.
+1. Stel een locatie en weergave voor uw kanalen in. Bijvoorbeeld het volgende **Lobby** locatie en  **MainLobbyDisplay** de vertoning wordt opstelling voor dit project.
 
    ![element](assets/single-takeover5.png)
 
@@ -85,27 +84,26 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/single-takeover7.png)
 
-1. De weergave selecteren **Overname** van de **Locaties** map. Klikken **Kanaal toewijzen** in de actiebalk om het kanaal voor één keer overnemen toe te wijzen.
+1. De weergave selecteren **Overname** van de **Locaties** map. Klikken **Kanaal toewijzen** op de actiebalk, zodat u het kanaal voor één keer overnemen kunt toewijzen.
 
-1. Om het **Overname** naar de weergave op een gepland moment en vul de volgende velden in via het menu **Kanaaltoewijzing** en klik op **Opslaan**:
+1. Wijs het **Overname** naar de weergave op een gepland moment en vul de volgende velden in via het menu **Kanaaltoewijzing** en klik op **Opslaan**:
 
-   * **Kanaalpad**: Het pad naar het kanaal TakeOver selecteren
-   * **Prioriteit**: De prioriteit van dit kanaal instellen op groter dan de **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.
+   * **Kanaalpad**: Selecteer het pad naar het kanaal TakeOver
+   * **Prioriteit**: Stel de prioriteit van dit kanaal groter in dan de **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.
 
-      >[!NOTE]
-      >Prioriteit kan elke waarde zijn die hoger is dan de prioritaire waarde van het normaal afspeelkanaal.
-   * **Ondersteunde gebeurtenissen**: Selecteer **Niet-actief scherm** en **Timer**.
-   * **Schema**: Voer de tekst in voor het schema waarop u wilt dat dit kanaal de weergave uitvoert. De tekst hier staat bijvoorbeeld toe dat de inhoud 2 minuten vóór 12.00 uur op 31 december wordt afgespeeld tot 12.01 uur.
-De tekst in de **Schema** in dit voorbeeld wordt vermeld *op de 31 dag van december na 23.58 uur en ook op de 1 dag van januari vóór 00.01*.
+     >[!NOTE]
+     >Prioriteit kan elke waarde zijn die hoger is dan de prioritaire waarde van het normale afspeelkanaal.
+   * **Ondersteunde gebeurtenissen**: Selecteer de **Niet-actief scherm** en **Timer**.
+   * **Schema**: Ga de tekst voor het programma in dat u dit kanaal wilt in werking stellen de vertoning. De tekst hier staat bijvoorbeeld toe dat de inhoud 2 minuten vóór 12.00 uur op 31 december wordt afgespeeld. De tekst in het dialoogvenster **Schema** in dit voorbeeld wordt vermeld *op de 31 dag van december na 23.58 uur en ook op de 1 dag van januari vóór 00.01*.
 
-      ![element](assets/single-takeover8.png)
+     ![element](assets/single-takeover8.png)
 
-      Navigeren naar de weergave vanuit **SingleUseTakeOver** —> **Locaties** —> **Lobby** —> **MainLobbyDisplay** en klik op **Dashboard** op de actiebalk om de toegewezen kanalen met hun prioriteiten weer te geven, zoals hieronder wordt weergegeven.
+     Navigeren naar de weergave vanuit **SingleUseTakeOver** > **Locaties** > **Lobby** > **MainLobbyDisplay** en klik op **Dashboard** in de actiebalk, zodat u de toegewezen kanalen met hun prioriteiten kunt weergeven, zoals hieronder wordt weergegeven.
 
-      >[!NOTE]
-      >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.
+     >[!NOTE]
+     >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.
 
-      ![element](assets/single-takeover9.png)
+     ![element](assets/single-takeover9.png)
 
 >[!NOTE]
 >

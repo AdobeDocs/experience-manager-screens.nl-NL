@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Volg deze pagina om te leren hoe u aangepaste branding en opmaak kunt toepassen 
 
 Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkingen te maken:
 
-1. Maak een AEM Screens-project. In dit voorbeeld wordt de functionaliteit weergegeven door een project met de naam **customstyle** en een kanaal **DemoBrand** , zoals weergegeven in onderstaande afbeelding.
+1. Maak een AEM Screens-project. In dit voorbeeld wordt de functionaliteit weergegeven door een project met de naam **customstyle** en een kanaal met **DemoBrand** , zoals weergegeven in onderstaande afbeelding.
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -34,9 +34,9 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
    >[!NOTE]
    >Als u wilt leren hoe u een tekstbedekking aan uw element in een kanaaleditor kunt toevoegen, raadpleegt u [Tekstbedekking](/help/user-guide/text-overlay.md).
 
-1. Navigeer naar CRXDE Lite van uw AEM-exemplaar —> Gereedschappen —> **CRXDE Lite**.
+1. Navigeer naar CRXDE Lite via AEM > Gereedschappen > **CRXDE Lite**.
 
-1. U moet een aangepast ontwerp maken in `/apps/settings/wcm/designs/<your-project>/`In dit geval navigeert u naar `/apps/settings/wcm/designs/customstyle/`
+1. U moet een aangepast ontwerp maken in `/apps/settings/wcm/designs/<your-project>/`In dit geval navigeert u bijvoorbeeld naar `/apps/settings/wcm/designs/customstyle/`
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
@@ -69,7 +69,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 1. Kopieer het pad naar uw project. In dit geval wordt het pad `/apps/settings/wcm/designs/customstyle`.
 
-1. Navigeren naar het kanaal met de naam **DemoBrand** (gemaakt in stap 1) en klik op **Eigenschappen** in de actiebalk nadat u het kanaal hebt geselecteerd.
+1. Navigeren naar het kanaal met de naam **DemoBrand** (gemaakt in stap (1)) en klik op **Eigenschappen** in de actiebalk nadat u het kanaal hebt geselecteerd.
 
 1. Ga naar de **Geavanceerd** en controleer de **Ontwerp** veld.
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -89,11 +89,11 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 1. Als u de bestaande sjablonen voor schermen wilt bedekken om uw eigen ontwerpen standaard te injecteren:
 
    1. Bedekking `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
-   1. De *cq:designPath* eigenschap in `/apps/screens/core/templates/sequencechannel/jcr:content` naar het nieuwe ontwerp te verwijzen.
+   1. Wijzig de *cq:designPath* eigenschap in `/apps/screens/core/templates/sequencechannel/jcr:content` om naar het nieuwe ontwerp te verwijzen.
 
 1. Uw eigen sjabloon maken:
    1. Kopiëren `/libs/screens/core/templates/sequencechannel` tot `/apps/customstyle/templates/styled-sequencechannel`.
-   1. De *cq:designPath* eigenschap in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` naar het nieuwe ontwerp te verwijzen.
+   1. Wijzig de *cq:designPath* eigenschap in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` om naar het nieuwe ontwerp te verwijzen.
 
 
 ### ACLs bijwerken {#updating-acls}
@@ -110,7 +110,7 @@ Nadat u de voorgaande stappen hebt uitgevoerd, kunt u de *stats.css* bestand van
 
 Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking weer te geven:
 
-1. Ga naar uw AEM Screens-project met de naam **customstyle** —> **Kanalen** —> **DemoBrand**. Selecteer het kanaal en klik op **Bewerken** in de actiebalk om de editor te openen.
+1. Ga naar uw AEM Screens-project met de naam **customstyle** > **Kanalen** > **DemoBrand**. Selecteer het kanaal en klik op **Bewerken** in de actiebalk om de editor te openen.
 
 1. Aangezien u het ontwerp nu aan uw **Ontwerpen** , zoals hierboven vermeld, klikt u op **Voorvertoning** Hiermee geeft u de huidige opmaak op de afbeelding weer met tekstbedekking.
 

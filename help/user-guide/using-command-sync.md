@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 2%
+source-wordcount: '779'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Op de volgende pagina wordt beschreven hoe u Command Sync kunt gebruiken. Met Co
 
 >[!IMPORTANT]
 >
->Deze functie ondersteunt geen ingesloten reeksen, dynamische ingesloten reeksen, toepassingskanalen of overgangen.
+>Deze functie biedt geen ondersteuning voor ingesloten reeksen, dynamische ingesloten reeksen, toepassingskanalen of overgangen.
 
 ## Overzicht {#overview}
 
@@ -50,7 +50,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
    >
    >Als u wilt leren hoe u een kanaal maakt of inhoud aan een kanaal toevoegt, raadpleegt u [Kanalen maken en beheren](/help/user-guide/managing-channels.md)
 
-   Het kanaal bevat de volgende inhoud, zoals weergegeven in de onderstaande afbeelding.
+   Het kanaal bevat de volgende inhoud, zoals in de onderstaande afbeelding wordt getoond.
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
@@ -92,7 +92,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
 ### Een primaire {#setting-up-primary}
 
-1. Ga vanuit **CommandSyncDemo** —> **Locaties**  —> **Lobby** —> **LobbyDisplay** en klik op **Dashboard** in de actiebalk.
+1. Navigeren naar het weergavedashboard vanaf **CommandSyncDemo** > **Locaties**  > **Lobby** > **LobbyDisplay** en klik op **Dashboard** in de actiebalk.
 U ziet de twee apparaten (chroom- en vensterspeler) in **APPARATEN** zoals weergegeven in de onderstaande afbeelding.
    ![image1](assets/command-sync/command-sync10-1.png)
 
@@ -111,7 +111,7 @@ U ziet de twee apparaten (chroom- en vensterspeler) in **APPARATEN** zoals weerg
 ### Synchroniseren met primaire {#sync-up-primary}
 
 1. Nadat u het Chrome-apparaat als primair hebt ingesteld, kunt u het andere apparaat (in dit geval de Windows-speler) synchroniseren met het primaire apparaat.
-Selecteer het andere apparaat (in dit geval de Windows-speler) in het menu **APPARATEN** en klik op **Synchroniseren met primair apparaat**, zoals weergegeven in onderstaande afbeelding.
+Selecteer het andere apparaat (in dit geval de Windows-speler) in het menu **APPARATEN** deelvenster en klik op **Synchroniseren met primair apparaat**, zoals weergegeven in onderstaande afbeelding.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -124,7 +124,7 @@ Selecteer het andere apparaat (in dit geval de Windows-speler) in het menu **APP
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### De-synchroniseren met de Primaire {#desync-up-primary}
+### De-synchroniseren met de primaire {#desync-up-primary}
 
 Nadat u een apparaat of apparaten hebt gesynchroniseerd met een primair apparaat, kunt u de synchronisatie van het apparaat ongedaan maken.
 

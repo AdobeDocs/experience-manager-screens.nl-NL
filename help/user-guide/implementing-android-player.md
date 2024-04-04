@@ -14,9 +14,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 >
 >Als de **Staat** is **GEREGISTREERD**, merkt u de **Apparaat-id** wordt ingevuld.
 >
->Als de **Staat** is **ONGEREGISTREERD** kunt u de **Token** om het apparaat te registreren.
+>Als de **Staat** is **ONGEREGISTREERD**, kunt u de **Token** om het apparaat te registreren.
 
 ## Android Watchdog implementeren {#implementing-android-watchdog}
 
@@ -85,7 +85,7 @@ Sommige geprivilegieerde API&#39;s van Android openen, zoals *PowerManager* of *
 
 Volg de onderstaande stappen om de android-apk te ondertekenen met de toetsen van de fabrikant:
 
-1. Download de app van Google Play of van [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/) page
+1. Download de apk van Google Play of van [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/) page
 1. Vraag de platformtoetsen aan bij de fabrikant voor een *pk8* en *peperen* file
 
 1. Zoek het hulpprogramma voor ondertekenaars in android-SDK met Zoeken ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
@@ -108,7 +108,7 @@ In het volgende diagram wordt de implementatie van waakhond-service getoond:
 
 >[!NOTE]
 >
->In Android worden de *AlarmManager* wordt gebruikt om de *pendingIntents* die kan worden uitgevoerd, zelfs als de app is vastgelopen en de alarmlevering niet exact is vastgelegd in API 19 (Kitkat). Behoud wat ruimte tussen het interval van de tijdopnemer en *AlarmManager&#39;s* *pendingIntent* alarm.
+>In Android worden de *AlarmManager* wordt gebruikt om de *pendingIntents* die kan worden uitgevoerd, zelfs als de app is vastgelopen en de alarmlevering niet exact is vastgelegd in API 19 (Kitkat). Tussenruimte tussen het interval van de timer en het *AlarmManager&#39;s* *pendingIntent* alarm.
 
 **3. Toepassing vastloopt** Als de toepassing vastloopt, wordt de in AlarmManager geregistreerde pendingIntent for Reboot niet meer opnieuw ingesteld en wordt de app opnieuw opgestart of opnieuw opgestart (afhankelijk van de machtigingen die beschikbaar zijn op het moment van initialisatie van de cordova-plug-in).
 
@@ -172,7 +172,7 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 ```
 
 >[!NOTE]
->Alle Android-apparaten hebben een *sdcard* map of een werkelijke map *sdcard* wordt ingevoegd of niet. Wanneer dit bestand wordt geïmplementeerd, bevindt het zich op hetzelfde niveau als de map Downloads. Sommige MDM&#39;s, zoals Samsung Knox, verwijzen mogelijk naar deze *sdcard* maplocatie als *Interne opslag*.
+>Alle Android-apparaten hebben een *sdcard* map of een werkelijke map is *sdcard* wordt ingevoegd of niet. Dit bestand wordt tijdens de implementatie op hetzelfde niveau geplaatst als de map Downloads. Sommige MDM&#39;s, zoals Samsung Knox, verwijzen mogelijk naar deze *sdcard* maplocatie als *Interne opslag*.
 
 ## Bulkprovisioning van Android Player via Enterprise Mobility Management {#bulk-provisioning}
 
@@ -187,8 +187,8 @@ U kunt een gebruikersvriendelijke apparaatnaam aan uw Android-speler toewijzen e
 
 Voer de onderstaande stappen uit om de naam te configureren in Android-speler:
 
-1. Navigeren naar **instellingen** —> **Apparaat**
-1. De naam van uw apparaat bewerken en instellen als naam voor uw Android-speler
+1. Navigeren naar **instellingen** > **Apparaat**
+1. Geef uw apparatennaam uit en plaats uw speler Android
 
 ### Bulkprovisioning van Android Player implementeren met gebruik van Enterprise Mobility Management {#implementation}
 

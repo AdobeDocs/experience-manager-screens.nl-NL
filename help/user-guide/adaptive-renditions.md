@@ -2,14 +2,14 @@
 title: Overzicht en configuraties van adaptieve uitvoeringen van architectuur
 description: Deze pagina beschrijft Overzicht van architectuur en Configuraties in CRXDE Lite voor Aangepaste Uitvoeringen in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '645'
 ht-degree: 1%
 
 ---
 
-# Adaptieve uitvoeringen: Overzicht en configuraties van architectuur {#adaptive-renditions}
+# Adaptieve uitvoeringen: Overzicht van architectuur en configuraties {#adaptive-renditions}
 
 ## Inleiding {#introduction}
 
@@ -59,7 +59,7 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
 
 1. Naar dit pad navigeren `/conf/screens/sling:configs/rendition-mapping` van **CRXDE Lite**.
 
-1. Een knooppunt maken onder **rendition-mapping**. Rechtsklik ingeschakeld **rendition-mapping** en klik op **Maken** —> **Knooppunt maken**, zoals weergegeven in onderstaande afbeelding.
+1. Een knooppunt maken onder **rendition-mapping**. Rechtsklik ingeschakeld **rendition-mapping** en klik op **Maken** > **Knooppunt maken**, zoals weergegeven in onderstaande afbeelding.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
@@ -82,7 +82,7 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
    >[!NOTE]
    >De waarde die in de patrooneigenschap is gedefinieerd, wordt aangepast aan de nieuwe elementuitvoering en wordt geselecteerd als de expressie wordt geëvalueerd op true.
 
-   Als u de patrooneigenschap wilt toevoegen, klikt u op **rule1** die u hebt gemaakt, en voert u in **patroon** in **Naam** en **landschap** in **Waarde**, zoals hieronder weergegeven. Klikken op **Toevoegen**.
+   Klik op **rule1** die u hebt gemaakt, en voert u in **patroon** in **Naam** en **landschap** in **Waarde**, zoals hieronder weergegeven. Klikken op **Toevoegen**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 

@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1119'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ In de volgende sectie wordt beschreven hoe u de functie voor spraakherkenning in
 
 Alvorens u de eigenschap van de stemerkenning gebruikt, zorg ervoor u een project en een kanaal met inhoud hebt opstelling voor uw project.
 
-1. In het volgende voorbeeld ziet u een demo-project met de naam **VoiceDemo** en drie opeenvolgende kanalen **Hoofd**, **ColdDrinks**, en **HotDrinks**, zoals weergegeven in onderstaande afbeelding.
+1. In het volgende voorbeeld ziet u een demo-project met de naam **VoiceDemo** en drie volgordekanalen **Hoofd**, **ColdDrinks**, en **HotDrinks**, zoals weergegeven in onderstaande afbeelding.
 
    ![afbeelding](assets/voice-recognition/vr-1.png)
 
@@ -51,13 +51,13 @@ Alvorens u de eigenschap van de stemerkenning gebruikt, zorg ervoor u een projec
    >
    >Als u wilt leren hoe u een kanaal maakt of inhoud aan een kanaal toevoegt, raadpleegt u [Kanalen maken en beheren](/help/user-guide/managing-channels.md)
 
-   Of
+   Of,
 
    U kunt drie volgordekanalen maken **Hoofd**, **ColdDrinks**, en **HotDrinks** en één extra kanaal van 1 x 2 gesplitste schermen **SplitScreen** zoals weergegeven in onderstaande afbeelding.
 
    ![afbeelding](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigeer naar elk kanaal en voeg inhoud toe. Blader bijvoorbeeld naar **VoiceDemo** —> **Kanalen** —> **Hoofd** en selecteert u het kanaal. Klikken **Bewerken** op de actiebalk om de editor te openen en naar wens inhoud (afbeeldingen/video&#39;s) toe te voegen. Voeg op dezelfde manier inhoud toe aan beide **ColdDrinks** en de **HotDrinks** kanaal.
+1. Navigeer naar elk kanaal en voeg inhoud toe. Blader bijvoorbeeld naar **VoiceDemo** > **Kanalen** > **Hoofd** en selecteert u het kanaal. Klikken **Bewerken** op de actiebalk om de editor te openen en naar wens inhoud (afbeeldingen/video&#39;s) toe te voegen. Voeg op dezelfde manier inhoud toe aan beide **ColdDrinks** en de **HotDrinks** kanaal.
 
    De kanalen bevatten nu elementen (afbeeldingen), zoals in de onderstaande afbeeldingen wordt getoond.
 
@@ -83,7 +83,7 @@ Zodra u inhoud aan uw kanalen hebt toegevoegd, moet u aan elk van de kanalen nav
 
 Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
-1. Navigeer naar elk kanaal en voeg inhoud toe. Blader bijvoorbeeld naar **VoiceDemo** —> **Kanalen** —> **Hoofd** en selecteert u het kanaal.
+1. Navigeer naar elk kanaal en voeg inhoud toe. Blader bijvoorbeeld naar **VoiceDemo** > **Kanalen** > **Hoofd** en selecteert u het kanaal.
 
 1. Klikken **Eigenschappen** in de actiebalk.
 
@@ -95,9 +95,9 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
    ![afbeelding](assets/voice-recognition/vr-6.png)
 
-   Of
+   Of,
 
-   U kunt ook van tevoren tags maken voor uw AEM en deze selecteren. Nadat u de stappen hebt uitgevoerd die in [Tags maken](#creating-tags), kunt u de tag van de locatie selecteren en aan het kanaal toevoegen, zoals in de onderstaande afbeelding wordt getoond:
+   U kunt ook van tevoren voor uw project tags maken van uw AEM en deze selecteren. Nadat u de stappen hebt uitgevoerd die in [Tags maken](#creating-tags), kunt u de tag van de locatie selecteren en aan het kanaal toevoegen, zoals in de onderstaande afbeelding wordt getoond:
 
    ![afbeelding](assets/voice-recognition/vr-tag1.png)
 
@@ -116,15 +116,15 @@ Ga als volgt te werk om labels te maken:
 
 1. Navigeer naar de AEM.
 
-1. Klikken op gereedschapspictogram —> **Tags**.
+1. Klik op het gereedschapspictogram > **Tags**.
    ![afbeelding](assets/voice-recognition/vr-7.png)
 
-1. Klikken **Maken** —> **Naamruimte maken**.
+1. Klikken **Maken** > **Naamruimte maken**.
    ![afbeelding](assets/voice-recognition/vr-tag3.png)
 
 1. Voer bijvoorbeeld de naam van het project in. **VoiceDemo** en klik op **Maken**.
 
-1. Selecteer **VoiceDemo** project en klik **Tag maken** in de actiebalk.
+1. Selecteer de **VoiceDemo** project en klik **Tag maken** in de actiebalk.
    ![afbeelding](assets/voice-recognition/vr-tag4.png)
 
 1. Voer de naam van de tag in en klik op **Verzenden**.
@@ -150,7 +150,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
 
    | **Kanaalnaam** | **Prioriteit** | **Ondersteunde gebeurtenissen** |
    |---|---|---|
-   | Hoofd | 2 | Eerste belasting, inactief scherm, timer |
+   | Hoofd | 2 | Eerste belasting, inactief scherm, Timer |
    | HotDrinks | 1 | Gebruikersinteractie |
    | ColdDrinks | 1 | Gebruikersinteractie |
    | SplitScreen | 1 | Gebruikersinteractie |
@@ -177,10 +177,10 @@ Wanneer de voorgaande stappen zijn voltooid, kunt u het chroomapparaat registrer
 
 **Gewenste uitvoer voor sequentiekanaal**
 
-De **Hoofd** kanaal speelt zijn inhoud af, maar wanneer u woorden met sleutelwoord gebruikt **heet** zoals *Ik zou graag een warme drank hebben*, begint het kanaal met het afspelen van de inhoud van het **HotDrinks** kanaal.
+De **Hoofd** kanaal speelt zijn inhoud af, maar wanneer u woorden met sleutelwoord gebruikt **heet** zoals *Ik zou graag een warme drank hebben*, wordt de inhoud van het **HotDrinks** kanaal.
 
-Ook als u woord met een trefwoord gebruikt **koud** zoals *Ik zou graag iets kouds hebben*, begint het kanaal met het afspelen van de inhoud van het **ColdDrinks** kanaal.
+Op dezelfde manier als u woord met een sleutelwoord gebruikt **koud** zoals *Ik zou graag iets kouds hebben*, wordt de inhoud van het **ColdDrinks** kanaal.
 
 **Gewenste uitvoer voor gesplitste schermkanalen**
 
-De **Hoofd** kanaal speelt zijn inhoud af, maar wanneer u woorden met sleutelwoord gebruikt **heet** en **koud** samen *Ik zou graag het menu voor warme en koude dranken zien*, begint het kanaal met het afspelen van de inhoud van het **SplitScreen** kanaal. Als je zegt *terug naar hoofdmenu*, wordt teruggeschakeld naar het hoofdkanaal.
+De **Hoofd** kanaal speelt zijn inhoud af, maar wanneer u woorden met sleutelwoord gebruikt **heet** en **koud** samen *Ik zou graag het menu voor warme en koude dranken zien*, wordt de inhoud van het **SplitScreen** kanaal. Als je zegt *terug naar hoofdmenu*, wordt teruggeschakeld naar het hoofdkanaal.

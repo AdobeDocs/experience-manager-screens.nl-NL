@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '927'
 ht-degree: 1%
 
 ---
@@ -66,9 +66,9 @@ Voer de onderstaande stappen uit om een Left20-LandscapeHD3Zone-lay-out te maken
 
    ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Navigeren naar **CRXDE Lite** van uw AEM-exemplaar —> Gereedschappen —> **CRXDE Lite**.
+1. Navigeren naar **CRXDE Lite** van uw AEM instantie > Gereedschappen > **CRXDE Lite**.
 
-1. Een map maken onder **apps** genaamd **aangepaste sjabloon**. Maak op dezelfde manier een andere map met de naam **template** krachtens **aangepaste sjabloon**, zoals weergegeven in onderstaande afbeelding.
+1. Een map maken onder **apps** getiteld als **aangepaste sjabloon**. Maak ook een andere map met de naam **template** krachtens **aangepaste sjabloon**, zoals weergegeven in onderstaande afbeelding.
 
    ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
@@ -77,7 +77,7 @@ Voer de onderstaande stappen uit om een Left20-LandscapeHD3Zone-lay-out te maken
 
 1. De linker-balksjabloon kopiëren vanuit `/libs/screens/core/templates/splitscreenchannel/lbar-left` tot `/apps/customtemplate/template`.
 
-1. Naam van gekopieerde bestanden wijzigen **lbar-left** (`/apps/customtemplate/template`) naar **my-custom-layout**.
+1. De naam van de gekopieerde gegevens wijzigen **lbar-left** (`/apps/customtemplate/template`) naar **my-custom-layout**.
    ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. Navigeren naar `/apps/customtemplate/template/my-custom-layout` en de eigenschappen bijwerken **jcr:beschrijving** tot *Sjabloon voor Left20-LandscapeHD3Zone* en **jcr:titel** tot *Left20-LandscapeHD3Zone*.
@@ -142,7 +142,7 @@ Voer de onderstaande stappen uit om een Left20-LandscapeHD3Zone-lay-out te maken
 
 Voer de onderstaande stappen uit om de bovenstaande aangepaste sjabloon te gebruiken in uw AEM Screens-project:
 
-1. Navigeer naar uw project van het Scherm dat u in stap (1) creeerde en selecteer **Kanalen** map.
+1. Navigeer naar uw project van het Scherm dat u in stap 1 creeerde en selecteer **Kanalen** map.
 
    ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template8.png)
 

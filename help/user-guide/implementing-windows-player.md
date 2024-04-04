@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ U kunt een gebruikersvriendelijke apparaatnaam aan uw Windows-speler toewijzen e
 
 Voer de onderstaande stappen uit om de naam in Windows Player te configureren:
 
-1. Klikken op **start** —> **run**
+1. Klikken op **start** > **run**
 1. Enter `system.cpl`
 1. Gebruik het tabblad Naam van de computer om de hostnaam van de computer in te stellen
 
@@ -91,7 +91,7 @@ Volg deze sectie om te leren hoe te om de standaardopties in de Installateur van
    `C:\Users\User\screens-player`)
 1. Installeren
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
-1. Open
+1. Openen
    `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
 
 **Voorbeeld**

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -31,42 +31,43 @@ De releasedatum voor AEM Screens Feature Pack 202109 is 23 september 2021.
 
 * **Ondersteuning van miniaturen voor video&#39;s**
 
-   Ondersteuning voor miniaturen voor video&#39;s die nu worden ondersteund in AEM Screens. Een inhoudauteur kan een duimnagel voor video&#39;s bepalen zodat het beeld als placeholder kan worden gebruikt en behoorlijk het playback en richten van inhoud testen, terwijl de daadwerkelijke video door het aangewezen team wordt gebeëindigd. De afbeelding kan ook worden gebruikt voor het geval dat het afspelen van de video mislukt.
+  Ondersteuning voor miniaturen voor video&#39;s die nu worden ondersteund in AEM Screens. Een inhoudauteur kan een duimnagel voor video&#39;s bepalen zodat het beeld als placeholder kan worden gebruikt en behoorlijk het playback en richten van inhoud testen, terwijl de daadwerkelijke video door het aangewezen team wordt gebeëindigd. De afbeelding kan ook worden gebruikt voor het geval dat het afspelen van de video mislukt.
 Zie [Ondersteuning van miniaturen voor video&#39;s](/help/user-guide/thumbnail-support.md) voor meer informatie .
 
 * **Standaardafspeelcontrole**
 
-   AEM Screens ondersteunt nu elementaire afspeelcontrole. De speler zal nu diverse playbackmetriek met elk melden pingelt (gebrek aan 30 seconden). Op basis van de meetgegevens kunnen verschillende randgevallen worden gedetecteerd (geplakte ervaring, leeg scherm, planningsprobleem, enz.). Met deze functie kan het team op afstand controleren of een speler inhoud correct afspeelt, de reactiviteit verbetert tot lege schermen of gebroken ervaringen in het veld en het risico dat de eindgebruiker een verbroken ervaring krijgt verkleind.
+  AEM Screens ondersteunt nu elementaire afspeelcontrole. De speler zal nu diverse playbackmetriek met elk melden pingelt (gebrek aan 30 seconden). Op basis van de meetgegevens kunnen verschillende randgevallen worden gedetecteerd (geplakte ervaring, leeg scherm, planningsprobleem, enz.). Met deze functie kan het team op afstand controleren of een speler inhoud correct afspeelt, de reactiviteit verbetert tot lege schermen of gebroken ervaringen in het veld en het risico dat de eindgebruiker een verbroken ervaring krijgt verkleind.
 Zie [Standaardafspeelcontrole](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) voor meer informatie .
 
 * **Updates voor Rapport voor toewijzing van inhoud**
 
-   Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij verbeterde gebruikerservaring. In het downloadbare rapport worden verbeterde entiteiten met betrekking tot de speler, zoals locaties, weergaven en apparaten, op één spreadsheettabblad weergegeven en wordt informatie over de inhoudsprovider weergegeven, zoals kanalen en elementen op een ander tabblad.
+  Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij verbeterde gebruikerservaring. In het downloadbare rapport worden verbeterde entiteiten met betrekking tot de speler, zoals locaties, weergaven en apparaten, op één spreadsheettabblad weergegeven en wordt informatie over de inhoudsprovider weergegeven, zoals kanalen en elementen op een ander tabblad.
 Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie .
 
 * **Aangepaste uitvoeringen**
 
-   De adaptieve Vertoningen staan de apparaten toe om automatisch de beste vertoning voor een apparaat te selecteren dat op klant-bepaalde regels wordt gebaseerd.
+  De adaptieve Vertoningen staan de apparaten toe om automatisch de beste vertoning voor een apparaat te selecteren dat op klant-bepaalde regels wordt gebaseerd.
 
-   Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Zie [Adaptieve uitvoeringen: Overzicht en configuraties van architectuur](/help/user-guide/adaptive-renditions.md) voor meer informatie .
+  Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Zie [Adaptieve uitvoeringen: Overzicht van architectuur en configuraties](/help/user-guide/adaptive-renditions.md) voor meer informatie .
 
-   Bovendien kunt u als AEM Screens Content Author uw middelen configureren voor het gebruik van Aangepaste uitvoeringen en tevens uw apparaten migreren voor grote netwerken om deze functie te gebruiken, in uw AEM Screens-kanalen. Zie [Adaptieve uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie .
+  Bovendien kunt u als AEM Screens Content Author uw middelen configureren voor het gebruik van Aangepaste uitvoeringen en tevens uw apparaten migreren voor grote netwerken om deze functie te gebruiken, in uw AEM Screens-kanalen. Zie [Adaptieve uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie .
 
 * **Ondersteuning voor V3-manifest**
 
-   U kunt Dispatcher nu configureren voor Manifest Version v3. Voor het inschakelen van v3-manifest moet u:
+  U kunt de Dispatcher nu configureren voor Manifest Version v3. Voor het inschakelen van v3-manifest moet u:
 
    * Wis om het even welke hangende off-line inhoudstaken in zowel auteur als gepubliceerd
 
       * Naar crx/de navigeren in auteur en publiceren
 
-      * Klik op Gereedschappen —> Query uitvoeren
+      * Klik op Gereedschappen > Query
 
       * In het vraaggebruik `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
 
       * Hiermee worden alle taken met offline inhoud vermeld die momenteel worden uitgevoerd of in behandeling zijn in de wachtrij
 
       * Wacht tot er geen off-line inhoudstaken meer van de vraag zijn teruggekeerd
+
    * ContentSync uitschakelen in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
 
    * SmartSync inschakelen in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
@@ -80,10 +81,9 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
    * Als u aangepaste componenten gebruikt als onderdeel van v3-manifesten, raadpleegt u [Sjabloon voor aangepaste handlers](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
-
 ### Opgeloste problemen {#bug-fixes}
 
-**Player-zijde**
+**Speler**
 
 * Fouten met het in cache plaatsen van bestanden zijn opgelost door elementen te vervangen door uitvoeringen.
 
@@ -97,7 +97,7 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * De toewijzing is omgezet in een lijst met vertoningssleutels.
 
-* Verwijderde toegang tot `cmd.exe` en `reg.exe` in de Windows-speler.
+* Toegang tot `cmd.exe` en `reg.exe` in de Windows-speler.
 
 * Een speler moet de laatste geslaagde afspeelgebeurtenis melden.
 
@@ -124,7 +124,7 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * De modus Voorvertoning is leeg voor het gesplitste schermkanaal.
 
-* Videominiaturen worden leeg gerenderd met ingeschakelde adaptieve uitvoeringen.
+* Videominiaturen worden leeg weergegeven met ingeschakelde adaptieve uitvoeringen.
 
 * Kanaalmanifest automatisch bijwerken als de pagina waarnaar wordt verwezen, wordt gepubliceerd.
 
