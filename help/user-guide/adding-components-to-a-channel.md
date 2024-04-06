@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Wanneer u een project van AEM Screens creeert, zult u een lijst van standaardcom
 
 Volg onderstaande stappen om de standaardcomponenten voor uw project Schermen weer te geven:
 
-1. Selecteer het kanaal. Bijvoorbeeld: **We.Winkel in winkel** —> **Kanalen** —> **Niet-actief kanaal**.
+1. Selecteer het kanaal. Bijvoorbeeld: **We.Winkel in winkel** > **Kanalen** > **Niet-actief kanaal**.
 
 1. Klikken **Bewerken** in de actiebalk om de AEM-editor te openen.
 1. Klik op de knop **+** van de zijbalk om de componenten te openen.
@@ -49,10 +49,10 @@ AEM verstrekt een aantal andere componenten. U kunt altijd andere componenten (d
 
 In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een AEM Screens-project getoond:
 
-1. Selecteer het kanaal waaraan u een nieuwe component wilt toevoegen. Bijvoorbeeld: **We.Winkel in winkel** —> **Kanalen** —> **Niet-actief kanaal**.
+1. Selecteer het kanaal waaraan u een nieuwe component wilt toevoegen. Bijvoorbeeld: **We.Winkel in winkel** > **Kanalen** > **Niet-actief kanaal**.
 
 1. Klikken **Bewerken** in de actiebalk om de editor te openen.
-1. Selecteren **Ontwerp** in.
+1. Selecteren **Ontwerp** -modus.
 1. Selecteer de volledige ontwerpeditor aan de rechterkant en klik op het instellingensymbool om het dialoogvenster **ParSys-ontwerp** in.
 1. U kunt de componenten selecteren die u in uw AEM Screens-project wilt importeren. In het volgende voorbeeld wordt de toevoeging van **Livefyre** aan een AEM Screens-project.
 
@@ -68,7 +68,7 @@ In de volgende sectie worden de AEM Screens-componenten uitgelegd die u in uw pr
 
 >[!NOTE]
 >
->Als u de eigenschappen van een component wilt weergeven, selecteert u de component en klikt u op het hamerpictogram om eigenschappen te openen of weer te geven.
+>Als u de eigenschappen van een component wilt weergeven, selecteert u de component en klikt u op het hamerpictogram om eigenschappen te openen/weergeven.
 
 ### Toepassing {#application}
 
@@ -79,7 +79,7 @@ Toepassingscomponent heeft de volgende eigenschappen:
 | **Eigenschap** | **Beschrijving** |
 |---|---|
 | ***Toepassingspad*** | Selecteer het absolute pad waar de toepassing bestaat. |
-| ***Duur (ms)*** | Selecteer de duur van de toepassing. Standaard is de duur ingesteld op -1, wat betekent dat het element voorgoed wordt uitgevoerd (dat wil zeggen, toepassing op één pagina). Wanneer u de waarde voor de duur > 0 instelt, wordt het element voor de opgegeven duur weergegeven en gaat u vervolgens naar de volgende waarde. |
+| ***Duur (ms)*** | Selecteer de toepassingsduur. Standaard is de duur ingesteld op -1, wat betekent dat het element voorgoed wordt uitgevoerd (dat wil zeggen, toepassing op één pagina). Wanneer u de waarde voor de duur > 0 instelt, wordt het element voor de opgegeven duur weergegeven en gaat u vervolgens naar de volgende waarde. |
 
 In het volgende voorbeeld wordt getoond hoe u een toepassingscomponent insluit samen met de voorvertoning van de eigenschappen ervan:
 
@@ -208,7 +208,7 @@ Raadpleeg voor meer informatie over het maken van een ervaringsfragment en het t
 | **Ervaar fragment** |
 | ***Ervaar fragment*** | Selecteer het ervaringsfragment. |
 | ***Duur*** | Selecteer de volledige duur van het ervaringsfragment dat in het kanaal speelt. |
-| **Offlineconfiguratie** |
+| **Offline configuratie** |
 | ***Client-side bibliotheken*** | Javascript- en CSS-bestanden. |
 | ***Statische bestanden*** | Statische bestanden die u als offline configuraties kunt toevoegen aan uw ervaringsfragment. |
 
@@ -243,7 +243,7 @@ In de volgende afbeelding ziet u de overgangscomponent (die via slepen en neerze
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Selecteer het overgangspictogram en klik op de knop **Configureren** (moersleutelpictogram) om het dialoogvenster te openen **Overgang** in. Dit dialoogvenster bevat drie tabbladen:
+Selecteer het overgangspictogram en klik op de knop **Configureren** (moersleutelpictogram) om het dialoogvenster **Overgang** in. Dit dialoogvenster bevat drie tabbladen:
 
 * **Overgang**
 * **Reeks**
@@ -328,7 +328,7 @@ De videocomponent heeft de volgende eigenschappen:
   </tr>
   <tr>
    <td><em><strong>Renderen</strong></em></td>
-   <td><p>Als de hoogte-breedteverhouding van de video niet op het scherm past, kunt u de rendering instellen op <strong>bevatten</strong> of <strong>bedekken</strong>.</p> <p><em>Bevatten</em> betekent dat de volledige video wordt weergegeven en de ontbrekende gebieden worden opgevuld met een zwarte rand.</p> <p><em>Omslag</em> betekent dat de video de hele viewport bedekt, maar dat sommige onderdelen die aan de zijkanten overlopen verborgen zijn.</p> </td>
+   <td><p>Als de hoogte-breedteverhouding van de video niet op het scherm past, kunt u de rendering instellen op <strong>bevatten</strong> of <strong>bedekken</strong>.</p> <p><em>Bevat</em> betekent dat de volledige video wordt weergegeven en de ontbrekende gebieden worden opgevuld met een zwarte rand.</p> <p><em>Omslag</em> betekent dat de video de hele viewport bedekt, maar dat sommige onderdelen die aan de zijkanten overlopen verborgen zijn.</p> </td>
   </tr>
   <tr>
    <td><em><strong>Grootte</strong></em></td>

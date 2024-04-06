@@ -13,9 +13,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
 1. **Een volgend kanaal maken**
 
-   1. Selecteer **Kanalen** map en klik op **Maken** om de wizard te openen en een kanaal te maken.
+   1. Selecteer de **Kanalen** map en klik op **Maken** om de wizard te openen en een kanaal te maken.
 
    1. Selecteren **Volgekanaal** van de wizard en maakt u het kanaal met de naam **MainAdChannel**.
 
@@ -67,7 +67,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
 1. **Noodkanaal maken**
 
-   1. Selecteer **Kanalen** map.
+   1. Selecteer de **Kanalen** map.
    1. Klikken op **Maken** om de wizard te openen en een kanaal te maken.
    1. Selecteren **Volgekanaal** van de wizard en maakt u het kanaal met de naam **EmergencyChannel**.
 
@@ -93,14 +93,14 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
 1. **Weergaven maken op uw locatie**
 
-   Ga naar uw locatie (**Winkel**) en klik op **Maken** in de actiebalk. Volg de wizard om twee te maken **Weergaven** genaamd **StoreFront** en **StoreRear**.
+   Ga naar uw locatie (**Winkel**) en klik op **Maken** in de actiebalk. Volg de wizard om twee te maken **Weergaven** getiteld als **StoreFront** en **StoreRear**.
 
-   ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
+   ![screen_shot_2019-02-22at12255pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Een schema maken**
 
    1. Ga naar uw **Planningen** map.
-   1. Klikken **Maken** in de actiebalk. Volg de wizard om een schema met de naam **StoreSchedule**.
+   1. Klikken **Maken** in de actiebalk. Volg de wizard om een schema te maken met de naam **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
@@ -118,6 +118,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
       1. Klikken **Opslaan**
 
       Op dezelfde manier moet u dezelfde stappen opnieuw uitvoeren om de opdracht **EmergencyChannel** en stelt **Prioriteit**.
+
    >[!NOTE]
    >
    >Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. Degene met de hoogste waarde heeft altijd voorrang op lagere waarden.
@@ -129,7 +130,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 1. Van de **Kanaaltoewijzing** dialoogvenster:
 
    1. Selecteer het pad naar de **EmergencyChannel**
-   1. Stel de **Prioriteit** 1
+   1. Stel de **Prioriteit** als 1
 
    1. Ondersteunde gebeurtenissen instellen als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Gebruikersinteractie**
 
@@ -143,12 +144,12 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
 1. **Plan toewijzen aan elke weergave**
 
-   1. Ga naar elke weergave, zoals **EmergencyChannel** —> **Locaties** —> **Winkel** —>**StoreFront**.
+   1. Ga naar elke weergave, zoals **EmergencyChannel** > **Locaties** > **Winkel** >**StoreFront**.
 
    1. Klikken **Dashboard** van de handeling om het weergavedashboard te openen.
-   1. Klikken **...** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** en klik vervolgens op **+Plan toewijzen**.
+   1. Klikken **...** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster en klik vervolgens op **+Plan toewijzen**.
 
-   1. Selecteer het pad naar het schema (bijvoorbeeld hier **EmergencyChannel** —> **Planningen** —>**StoreSchedule**).
+   1. Selecteer het pad naar het schema (bijvoorbeeld hier **EmergencyChannel** > **Planningen** >**StoreSchedule**).
 
    1. Klikken **Opslaan**.
 
@@ -165,11 +166,11 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
 Voer in noodgevallen de volgende stappen uit:
 
-1. Navigeren naar **EmergencyChannel** —> **Planningen** —> **StoreSchedule** en selecteert u **Dashboard** in de actiebalk.
+1. Navigeren naar **EmergencyChannel** > **Planningen** > **StoreSchedule** en selecteert u **Dashboard** in de actiebalk.
 
    ![screen_shot_2019-02-25at10112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Selecteer **EmergencyChannel** van de **StoreSchedule** dashboard en klik op **Toewijzing bewerken**.
+1. Selecteer de **EmergencyChannel** van de **StoreSchedule** dashboard en klik op **Toewijzing bewerken**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
@@ -177,7 +178,7 @@ Voer in noodgevallen de volgende stappen uit:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Zodra de prioriteit van het kanaal is bijgewerkt, geeft alle AEM Screens-speler de **EmergencyChannel** inhoud, zoals hieronder weergegeven.
+1. Zodra de prioriteit van het kanaal is bijgewerkt, geeft alle AEM Screens-speler de **EmergencyChannel** inhoud, zoals hieronder wordt weergegeven.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 

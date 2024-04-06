@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 ## Overzicht {#overview}
 
-Het volgende gebruiksgeval betreft het plaatsen van een video (voorbeeld: 1280 x 720) in een kanaal met een beeldscherm van 1920 x 1080 en een video van 0 x 0 (linksboven). De video mag op geen enkele manier worden uitgerekt of gewijzigd en mag niet worden gebruikt **Omslag** in de videocomponent.
+Het volgende gebruiksgeval bestaat uit het plaatsen van een video (bijvoorbeeld 1280 x 720) in een kanaal met een beeldscherm van 1920 x 1080 en het plaatsen van de video op 0 x 0 (linksboven). De video mag op geen enkele manier worden uitgerekt of gewijzigd en gebruikt deze **Omslag** in de videocomponent.
 
 De video wordt weergegeven als een object van pixel 1 tot pixel 1280, van pixel 1 tot pixel 720, en de rest van het kanaal als standaardkleur.
 
@@ -44,7 +44,7 @@ De video wordt weergegeven als een object van pixel 1 tot pixel 1280, van pixel 
 Vul de volgende voorwaarden in voordat u een workflow voor video maakt:
 
 1. Een video uploaden in **Activa** map in uw AEM-instantie
-1. Een AEM Screens-project maken (bijvoorbeeld **TestVideoRendition**) en een kanaal met de naam (**VideoRendering**), zoals weergegeven in onderstaande afbeelding:
+1. Een AEM Screens-project maken (bijvoorbeeld **TestVideoRendition**) en een kanaal genoemd (**VideoRendering**), zoals weergegeven in onderstaande afbeelding:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
 
@@ -61,11 +61,11 @@ Voer de onderstaande stappen uit om de workflow te maken en te gebruiken:
 
 Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
-1. Navigeer naar uw AEM en klik op gereedschappen vanaf de zijbalk. Selecteren **Workflow** —> **Modellen** om een nieuw model te maken.
+1. Navigeer naar uw AEM en klik op gereedschappen vanaf de zijbalk. Selecteren **Workflow** > **Modellen** om een nieuw model te maken.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klikken **Modellen** —> **Maken** —> **Model maken**. Voer de **Titel** (as **VideoRendition**) en **Naam** in de **Workflowmodel toevoegen**. Klikken **Gereed** om het workflowmodel toe te voegen.
+1. Klikken **Modellen** > **Maken** > **Model maken**. Voer de **Titel** (as **VideoRendition**) en **Naam** in de **Workflowmodel toevoegen**. Klikken **Gereed** om het workflowmodel toe te voegen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -73,17 +73,17 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Sleep de **Opdrachtregel** aan uw workflow.
+1. Sleep de **Opdrachtregel** aan uw werkstroom.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Selecteer **Opdrachtregel** en opent u het dialoogvenster met eigenschappen.
+1. Selecteer de **Opdrachtregel** en opent u het dialoogvenster met eigenschappen.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Selecteer **Argumenten** om de velden in te voeren in het dialoogvenster **Opdrachtregel - stapeigenschappen** in.
+1. Selecteer de **Argumenten** om de velden in te voeren in het dialoogvenster **Opdrachtregel - stapeigenschappen** in.
 
-   Voer de notatie in het dialoogvenster **MIME-typen** (as ***video/mp4***) en de opdracht als (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4**) om de workflow te starten in de **Opdrachten** veld.
+   Voer de notatie in het dialoogvenster **MIME-typen** (as ***video/mp4***) en de opdracht als (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhp.mp4**) om de workflow te starten in het dialoogvenster **Opdrachten** veld.
 
    Raadpleeg de details over **MIME-typen** en **Opdrachten** in de onderstaande opmerking.
 
@@ -101,7 +101,7 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
 Voer de onderstaande stappen uit om de workflow in uw AEM Screens-project te gebruiken:
 
-1. Navigeren naar een AEM Screens-project (**TestVideoRendition** —> **Kanalen** —>**VideoRendition**).
+1. Navigeren naar een AEM Screens-project (**TestVideoRendition** > **Kanalen** >**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 

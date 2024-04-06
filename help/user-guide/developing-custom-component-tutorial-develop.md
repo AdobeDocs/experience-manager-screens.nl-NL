@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ AEM Screens heeft sommige interessante beperkingen die niet noodzakelijk waar vo
    Schermcomponenten vereisen twee verschillende weergaven afhankelijk van welke [ontwerpmodus](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) wordt gebruikt:
 
    1. **Productie**: Modus Voorvertoning of Publiceren (wcmmode=disabled)
-   1. **Bewerken**: worden gebruikt voor alle andere ontwerpmodi, zoals bewerken, ontwerpen, basiskleur, ontwikkelaar...
+   1. **Bewerken**: wordt gebruikt voor alle andere ontwerpmodi, zoals bewerken, ontwerpen, basisstructuur, ontwikkelaar...
 
    `helloworld.html`doet dienst als schakelaar, die welke auteurswijze momenteel actief controleert en aan een ander manuscript van HTML opnieuw richt. Een algemene regel die door rasteronderdelen wordt gebruikt, is het hebben van een `edit.html` script voor de bewerkingsmodus en een `production.html` script voor de productiemodus.
 
@@ -266,7 +266,7 @@ AEM Screens heeft sommige interessante beperkingen die niet noodzakelijk waar vo
    </jcr:root>
    ```
 
-   Het tekstveld voor het bericht wordt opgeslagen in een eigenschap met de naam `message` en dat het nummerveld voor de Duur wordt opgeslagen naar een eigenschap met de naam `duration`. Er wordt naar deze twee eigenschappen verwezen in `/apps/weretail-run/components/content/helloworld/production.html` door HTL als `${properties.message}` en `${properties.duration}`.
+   Het tekstveld voor het bericht wordt opgeslagen in een eigenschap met de naam `message` en dat het nummerveld voor de Duur wordt opgeslagen naar een eigenschap met de naam `duration`. Naar deze twee eigenschappen wordt in `/apps/weretail-run/components/content/helloworld/production.html` door HTL als `${properties.message}` en `${properties.duration}`.
 
    ![Hello World - dialoogvenster voltooid](assets/2018-04-29_at_5_21pm.png)
 
@@ -298,7 +298,7 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
 
    Eigenschappen voor /apps/weretail-run/components/content/helloworld/clientlibs/shared
 
-   De eigenschap Categorieën is een tekenreeks die de clientbibliotheek identificeert. De categorie cq.screens.component wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom wordt elke CSS/JS die in de sharedclientLib is gedefinieerd, in alle modi geladen.
+   De eigenschap category is een tekenreeks die de clientbibliotheek identificeert. De categorie cq.screens.component wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom wordt elke CSS/JS die in de sharedclientLib is gedefinieerd, in alle modi geladen.
 
    Het is aan te raden geen paden in een productieomgeving rechtstreeks toegankelijk te maken voor /apps. De eigenschap allowProxy zorgt ervoor dat naar de CSS- en JS-clientbibliotheek wordt verwezen via het voorvoegsel of/etc.clientlibs.
 
@@ -401,15 +401,15 @@ Onder een Web.Retail pagina van het Ontwerp van de Looppas wordt gecreeerd die a
    | sling:resourceType | String | wcm/core/components/ontwerper |
    | cq:doctype | String | html_5 |
 
-   ![Ontwerppagina bij /apps/settings/wcm/designs/we-Retail-run](assets/2018-05-07_at_1219pm.png)
+   ![Ontwerppagina op /apps/settings/wcm/designs/we-Retail-run](assets/2018-05-07_at_1219pm.png)
 
-   Ontwerppagina bij /apps/settings/wcm/designs/we-Retail-run
+   Ontwerppagina op /apps/settings/wcm/designs/we-Retail-run
 
 ## Een volgend kanaal maken {#create-sequence-channel}
 
 De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de component te testen, wordt een nieuw Kanaal van de Opeenvolging gecreeerd.
 
-1. Ga in het menu AEM Start naar **Schermen** > **We.Retail Ru** n > en selecteer **Kanalen**.
+1. Navigeer in het menu AEM Start naar **Schermen** > **We.Retail Ru** n > en selecteer **Kanalen**.
 
 1. Klik op de knop **Maken** knop
 
@@ -422,7 +422,8 @@ De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de compo
 1. Sjabloonstap - kies **Volgekanaal**
 
    1. Eigenschappenstap
-   * Basistabel > Titel = **Niet-actief kanaal**
+
+   * Basistabblad > Titel = **Niet-actief kanaal**
    * Tabblad Kanaal > Controleren **Kanaal online maken**
 
    ![niet-kanaals](assets/idle-channel.gif)
@@ -439,7 +440,7 @@ De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de compo
 
    1. Klik op de knop **moersleutel** Pictogram in Parsys om de toegestane componenten te vormen
 
-   1. Selecteer **Schermen** en de **We.Retail Run - Inhoud** groep.
+   1. Selecteer de **Schermen** en de **We.Retail Run - Inhoud** groep.
 
    ![2018-04-30_om_5_43:00](assets/2018-04-30_at_5_43pm.png)
 
@@ -558,7 +559,7 @@ In de onderstaande video ziet u de voltooide component en de manier waarop deze 
 
 Als de aangepaste component die u ontwikkelt andere pagina&#39;s moet bevatten of uit fragmenten moet bestaan en u wilt dat wijzigingen in de ingesloten inhoud automatisch door de speler worden opgepakt zonder dat het kanaal opnieuw moet worden gepubliceerd, moet u rekening houden met de volgende twee beperkingen:
 
-1. In plaats van rechtstreeks uit te breiden `foundation/components/parbase`, moet u het volgende uitbreiden `screens/core/components/content/page` of `screens/core/components/content/experiencefragment`
+1. In plaats van rechtstreeks uit te breiden `foundation/components/parbase`, moet u beide `screens/core/components/content/page` of `screens/core/components/content/experiencefragment`
 2. De naam van de eigenschap die u gebruikt om naar de ingesloten inhoud te verwijzen, moet `pagePath`
 
 Het gebruik van deze twee kerncomponenten van het Scherm komt ook met het extra voordeel dat zij kunnen zorgen voor het bundelen van sommige gebiedsdelen u (cliënt-zijbibliotheken, doopvonten, enz.) nodig hebt via hun off-line configuratieopties in de componentendialoog, die dan de verantwoordelijkheid van om het even welke douane off-line manager vermindert u voor dit zou moeten gebruiken, soms zelfs volledig verwijderend de behoefte om één in de eerste plaats te gebruiken.

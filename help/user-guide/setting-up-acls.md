@@ -1,21 +1,17 @@
 ---
 title: ACLs van de vestiging
-seo-title: Setting up ACLs
-description: Volg deze pagina leren hoe te om projecten te segregeren gebruikend ACLs zodat elk individu of team hun eigen project behandelt.
-seo-description: Follow this page to learn how to segregate projects using ACLs so that each individual or team handles their own project.
-uuid: d5609bd9-3f13-4f11-ad4f-23c2ac3aa8fc
+description: Leer hoe te om projecten te scheiden gebruikend ACLs zodat elk individu of team hun eigen project behandelt.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -38,7 +34,7 @@ De volgende stappen vatten de procedure voor vestiging ACLs voor een project sam
 
    U kunt ook deze koppeling gebruiken, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   Klik vervolgens op **Opslaan**.
+   Selecteer vervolgens **Opslaan**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
@@ -58,7 +54,7 @@ De volgende stappen vatten de procedure voor vestiging ACLs voor een project sam
 
    ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. Stel de toestemmingen voor de groep in **Acme** gebruiken `(http://localhost:4502/useradmin)`.
+1. De machtigingen voor de groep instellen **Acme** gebruiken `(http://localhost:4502/useradmin)`.
 
    Selecteer de groep **Acme** en klik op de knop **machtigingen**.
 
@@ -70,26 +66,26 @@ De volgende lijst vat de weg met de toestemmingen op het projectniveau samen:
 
 | **Pad** | **Machtiging** | **Beschrijving** |
 |---|---|---|
-| `/apps/<project>` | LEZEN | Biedt toegang tot projectbestanden (indien van toepassing) |
-| `/content/dam/<project>` | ALLES | Biedt toegang tot de projectelementen zoals afbeeldingen of video in DAM |
-| `/content/screens/<project>` | ALLES | Verwijdert toegang tot alle andere projecten onder /content/screens |
-| `/content/screens/svc` | LEZEN | Biedt toegang tot de registratieservice |
-| `/libs/screens` | LEZEN | Biedt toegang tot DCC |
-| `/var/contentsync/content/screens/` | ALLES | Hiermee kunt u offline inhoud voor het project bijwerken |
+| `/apps/<project>` | LEZEN | Biedt indien van toepassing toegang tot projectbestanden. |
+| `/content/dam/<project>` | ALLES | Biedt toegang tot de opslag van de projectelementen, zoals afbeeldingen of video in DAM. |
+| `/content/screens/<project>` | ALLES | Verwijdert toegang tot alle andere projecten onder /content/screens. |
+| `/content/screens/svc` | LEZEN | Biedt toegang tot de registratieservice. |
+| `/libs/screens` | LEZEN | Biedt toegang tot DCC. |
+| `/var/contentsync/content/screens/` | ALLES | Hiermee kunt u offline inhoud voor het project bijwerken. |
 
 >[!NOTE]
 >
->In sommige gevallen kunt u auteurfuncties (zoals het beheren van activa en het creëren van kanalen) van adminfuncties (zoals het registreren van spelers) scheiden. In zulk een scenario, creeer twee groepen en voeg de auteursgroep aan contribuanten en de admingroep aan zowel auteurs als gebruiker-beheerders toe.
+>Soms kunt u auteurfuncties (zoals het beheren van activa en het creëren van kanalen) van adminfuncties (zoals het registreren van spelers) scheiden. In zulk een scenario, creeer twee groepen en voeg de auteursgroep aan contribuanten en de admingroep aan zowel auteurs als gebruiker-beheerders toe.
 
 ### Groepen maken {#creating-groups}
 
-Het creëren van een nieuw project zou standaardgebruikersgroepen met een basisreeks toegewezen toestemmingen ook moeten tot stand brengen. U zou de toestemmingen tot de typische rollen moeten uitbreiden wij voor AEM Screens hebben.
+Het creëren van een project zou standaardgebruikersgroepen met een basisreeks toegewezen toestemmingen ook moeten tot stand brengen. Breid de toestemmingen tot de typische rollen uit die in AEM Screens worden bepaald.
 
 U kunt bijvoorbeeld de volgende projectspecifieke groepen maken:
 
 * Scherm Projectbeheerders
 * Schert Projectoperators (registreer spelers en beheer locaties en apparaten)
-* Schermen van de Gebruikers van het Project (werk met kanalen, programma&#39;s en kanaaltaken)
+* De Gebruikers van het Project van schermen (werk met kanalen, programma&#39;s, en kanaaltaken)
 
 De volgende tabel geeft een overzicht van de groepen met een beschrijving en machtigingen voor een AEM Screens-project:
 
@@ -115,7 +111,7 @@ De volgende tabel geeft een overzicht van de groepen met een beschrijving en mac
   </tr>
   <tr>
    <td>Schermgebruikers<br /> <em>schermen-gebruikers</em></td>
-   <td>Kanalen en schema's maken en bijwerken en toewijzen aan locatie in AEM Screens</td>
+   <td>Kanalen en schema's maken en bijwerken en toewijzen aan locaties in AEM Screens</td>
    <td>
     <ul>
      <li>Lid van contribuanten</li>

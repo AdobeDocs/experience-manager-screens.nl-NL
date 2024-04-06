@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 1%
+source-wordcount: '796'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 Tekstbedekking is een functie die beschikbaar is in AEM Screens en waarmee u een aantrekkelijke ervaring kunt creëren in een Volgkanaal door een titel of een beschrijving boven op een afbeelding op te geven.
 
-Als u wilt leren hoe u uw eigen aangepaste component kunt maken, raadpleegt u **AEM Screens-componenten uitbreiden**.
+Raadpleeg voor meer informatie over het maken van uw eigen aangepaste component de volgende **Een AEM Screens-component uitbreiden**.
 
 In deze sectie wordt alleen uitgelegd hoe u de postercomponent in een AEM Screens-project kunt gebruiken en toepassen en deze als tekstbedekking kunt gebruiken in een van uw reekskanalen.
 
@@ -48,7 +48,7 @@ In de volgende sectie wordt het gebruik van tekstbedekking in een AEM Screens-pr
 
 **Vereisten**
 
-Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor zorgen dat u een project hebt ingesteld als voorwaarde voor het implementeren van tekstbedekking. Bijvoorbeeld,
+Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor zorgen dat u een project hebt ingesteld als voorwaarde voor het implementeren van tekstbedekking. Bijvoorbeeld:
 
 * Een AEM Screens-project maken (in dit voorbeeld: **TextOverlayDemo**)
 
@@ -62,7 +62,7 @@ In de volgende afbeelding wordt de **TextOverlayDemo** project met **TextSample*
 
 Voer de onderstaande stappen uit om tekstbedekking in een AEM Screens-kanaal te gebruiken:
 
-1. Navigeren naar **TextOverlayDemo** —> **Kanalen** —> **TextSample** en klik op **Bewerken** in de actiebalk om de editor te openen.
+1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Bewerken** in de actiebalk om de editor te openen.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -70,7 +70,7 @@ Voer de onderstaande stappen uit om tekstbedekking in een AEM Screens-kanaal te 
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Selecteer **Tekstbedekking** in de navigatiebalk van het dialoogvenster, zoals in de onderstaande afbeelding wordt getoond.
+1. Selecteer de **Tekstbedekking** in de navigatiebalk van het dialoogvenster, zoals in de onderstaande afbeelding wordt getoond.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -84,7 +84,7 @@ U kunt tekst toevoegen aan het tekstvak en typografische accenten toevoegen, zoa
 
 **Kleurvariant** Met deze optie kan de tekst Donker (zwarte tekst) of Licht (witte tekst) zijn.
 
-**Grootte en positionering** Met deze optie kan de gebruiker de tekst horizontaal of verticaal uitlijnen of ook met fijnkorrelige gereedschappen tekstuitlijning uitlijnen.
+**Grootte en positie** Met deze optie kan de gebruiker de tekst horizontaal of verticaal uitlijnen of ook met fijnkorrelige gereedschappen tekstuitlijning uitlijnen.
 
 >[!NOTE]
 >
@@ -102,13 +102,13 @@ Raadpleeg voor meer informatie over het instellen en beheren van gegevensgestuur
 
 Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de onderstaande stappen om waarden uit de Google-werkbladen te gebruiken:
 
-1. Navigeren naar **TextOverlayDemo** —> **Kanalen** —> **TextSample** en klik op **Eigenschappen** in de actiebalk.
+1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Eigenschappen** in de actiebalk.
 
-1. Selecteer **Personalisatie** aan opstelling de configuraties ContextHub.
+1. Selecteer de **Personalisatie** aan opstelling de configuraties ContextHub.
 
-   1. Selecteer **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en klik op **Selecteren**.
+   1. Selecteer de **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en klik op **Selecteren**.
 
-   1. Selecteer **Segmentpad** als **conf** > **schermen** > **instellingen** > **wcm** > **segmenten** en klik op **Selecteren**.
+   1. Selecteer de **Segmentpad** als **conf** > **schermen** > **instellingen** > **wcm** > **segmenten** en klik op **Selecteren**.
 
    1. Klikken **Opslaan en sluiten**.
 
@@ -118,13 +118,13 @@ Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de ond
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigeren naar **TextOverlayDemo** —> **Kanalen** —> **TextSample** en klik op **Bewerken** in de actiebalk om de editor te openen.
+1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Bewerken** in de actiebalk om de editor te openen.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Voeg een component voor afbeelding en tekstbedekking toe aan de afbeelding, zoals beschreven in [Tekstbedekking gebruiken](/help/user-guide/text-overlay.md#using-text-overlay) van deze pagina.
 
-1. Klikken op **Configureren** (moersleutelpictogram) om het dialoogvenster te openen **Afbeelding** in.
+1. Klikken op **Configureren** (moersleutelpictogram) om het dialoogvenster **Afbeelding** in.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
@@ -142,7 +142,7 @@ Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de ond
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
-1. Ga terug naar de **Tekstbedekking** van het dialoogvenster Afbeelding en voeg de tekst toe *Huidige temperatuur {waarde}*, zoals weergegeven in onderstaande afbeelding.
+1. Ga terug naar de **Tekstbedekking** van het dialoogvenster Afbeelding en voeg de tekst toe *Huidige temperatuur {Value}*, zoals weergegeven in onderstaande afbeelding.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 

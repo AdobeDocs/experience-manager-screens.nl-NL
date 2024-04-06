@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Zie [ContextHub configureren in AEM Screens](configuring-context-hub.md) voor na
 
 Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Retail Inventory te implementeren:
 
-1. **Google-bladen vullen**
+1. **De Google-bladen vullen**
 
    1. Navigeer naar het Google-werkblad ContextHubDemo.
    1. Voeg drie kolommen (Rood, Groen en Blauw) toe met de bijbehorende waarden voor drie verschillende sweatshirts.
@@ -50,25 +50,25 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
 1. **Het publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: Segmentering publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
+   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
 
    1. Drie nieuwe segmenten toevoegen **Voor_rood**, **For_Green**, en **Voor_blauw**.
 
    1. Selecteren **Voor_rood** en klik op **Bewerken** in de actiebalk.
 
-   1. Sleep de **Vergelijking: Eigenschap - Eigenschap** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Voornaam eigenschap**
+   1. Sleep de **Compare : property - property** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
+   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Voornaam van eigenschap**
 
-   1. Selecteer **Operator** als **groter dan** in het keuzemenu
+   1. Selecteer de **Operator** als **groter dan** in het keuzemenu
 
    1. Selecteren **Gegevenstype** als **getal**
 
    1. Selecteren **goochelesheets/value/1/1** in de vervolgkeuzelijst **Tweede eigenschapsnaam**.
 
-   1. Slepen en neerzetten **een andere vergelijking: Eigenschap - Eigenschap** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Voornaam eigenschap**.
+   1. Slepen en slepen **another Comparation : Property - Property** aan de redacteur en klik vormen pictogram om de eigenschappen uit te geven.
+   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Voornaam van eigenschap**.
 
-   1. Selecteer **Operator** als **groter dan** in het keuzemenu
+   1. Selecteer de **Operator** als **groter dan** in het keuzemenu
 
    1. Selecteren **Gegevenstype** als **getal**
 
@@ -80,7 +80,7 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Op dezelfde manier geef en voeg vergelijkingsbezitsregels aan* voor_Groen **segment toe zoals aangetoond in het hieronder cijfer:
+   Op dezelfde manier geef en voeg vergelijkingsbezitsregels aan* voor_Groene **segment toe zoals aangetoond in het hieronder cijfer:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
@@ -94,16 +94,17 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
    >[!CAUTION]
    >
-   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** —> **Personalisatie** tab.
+   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** > **Personalisatie** tab.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   U moet beide opties selecteren **Merk** en de **Gebied** voor de activiteiten die correct moeten worden vermeld wanneer u het Targeting proces begint.
+   >
+   >U moet beide **Merk** en de **Gebied** voor de activiteiten die correct moeten worden vermeld wanneer u het Targeting proces begint.
 
 1. **Een standaardafbeelding toevoegen**
 
-   1. Voeg een standaardafbeelding toe aan uw kanaal en klik op **Doelstelling**.
+   1. Voeg een standaardafbeelding toe aan uw kanaal en klik op **Targeting**.
    1. Selecteren **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
 
    1. Klikken **Doelstelling starten**.
@@ -111,7 +112,8 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   Voordat u de doelframes gaat opgeven, moet u de segmenten toevoegen (**For_Green**, **Voor_rood**, en **Voor_blauw**) door op **+ Toevoeging Ervaring richten** van de zijspoorstaaf, zoals aangegeven in onderstaande figuur.
+   >
+   >Voordat u de doelframes gaat opgeven, moet u de segmenten toevoegen (**For_Green**, **Voor_rood**, en **Voor_blauw**) door op **+ Toevoeging Ervaring richten** van de zijspoorstaaf, zoals aangegeven in onderstaande figuur.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -123,4 +125,5 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
    1. Klikken **Voorvertoning.** Open ook het Google-werkblad en werk de waarde ervan bij.
    1. Wijzig de waarde voor alle drie de kolommen en u ziet hoe de afbeelding van de weergave wordt bijgewerkt volgens de hoogste waarde in de voorraad.
+
    ![retail_result](assets/retail_result.gif)

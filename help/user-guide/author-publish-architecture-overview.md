@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Het volgende diagram illustreert het replicatieproces:
 
 ### Screens Replication Agents and Commands  {#screens-replication-agents-and-commands}
 
-Er worden aangepaste schermspecifieke replicatiemiddelen gemaakt om opdrachten van de instantie Auteur naar het AEM Screens-apparaat te verzenden. De publicatie-instanties van AEM fungeren als tussenpersoon om deze opdrachten naar het apparaat door te sturen.
+Er worden aangepaste schermspecifieke replicatiemiddelen gemaakt om opdrachten van de instantie Auteur naar het AEM Screens-apparaat te verzenden. De AEM publiceer instanties dienen als tussenpersoon om deze bevelen aan het apparaat door te sturen.
 
 Hierdoor kunnen auteurs het apparaat blijven beheren, zoals apparaatupdates verzenden en screenshots nemen van de auteursomgeving. De de replicatieagenten van AEM Screens hebben een configuratie van het douanevervoer, als standaardreplicatieagenten.
 
@@ -89,7 +89,7 @@ Daarom verzendt de auteurinstantie het bericht naar alle Publish instanties. Noc
 
 In veel gevallen, na een bevel, wordt één of andere soort reactie verwacht van het apparaat van het Scherm om aan de instantie van de Auteur door:sturen. Om deze AEM te verwezenlijken ***Replicatie omkeren*** wordt gebruikt.
 
-* Creeer een omgekeerde replicatieagent voor elke publiceer instantie, die aan de standaardreplicatieagenten en de agenten van de het vertoningenreplicatie aansluit.
+* Creeer een omgekeerde replicatieagent voor elke publiceer instantie, zoals aan de standaardreplicatieagenten en de agenten van de het schermreplicatie.
 * Een configuratie van de werkschemaopstarter luistert naar knopen die op de publicatieinstantie worden gewijzigd en brengt beurtelings een werkschema in werking om de reactie van het Apparaat in de Publish outbox van de instantie te plaatsen.
 * Een omgekeerde replicatie in deze context wordt slechts gebruikt voor binaire gegevens (zoals, logboekdossiers en screenshots) die door de apparaten worden verstrekt. Niet-binaire gegevens worden opgehaald door polling.
 * De omgekeerde replicatie die van de AEM auteursinstantie wordt gepolled wint de reactie terug en bewaart het aan de auteursinstantie.

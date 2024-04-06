@@ -7,9 +7,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Op deze pagina worden kanalen voor AEM Screens gemaakt en beheerd.
 
 Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappen om een nieuw kanaal voor uw project te maken:
 
-1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik vervolgens op Rasteren. U kunt ook rechtstreeks navigeren naar `https://localhost:4502/screens.html/content/screens`.
+1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik vervolgens op Rasteren. U kunt ook rechtstreeks naar `https://localhost:4502/screens.html/content/screens`.
 
 1. Navigeer naar uw project Screens en selecteer **Kanalen** map.
 
@@ -37,7 +37,7 @@ Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappe
 
    ![demochannel](assets/create-channel1.png)
 
-1. Selecteer **Volgekanaal** sjabloon uit de **Maken** wizard en klik op **Volgende**.
+1. Selecteer de **Volgekanaal** sjabloon uit de **Maken** wizard en klik op **Volgende**.
 
    ![demochannel](assets/create-channel2.png)
 
@@ -99,11 +99,11 @@ Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 1. Selecteren **Video&#39;s** onder Elementen en sleep de gewenste video&#39;s.
 
 >[!NOTE]
->Als u problemen ondervindt bij het uploaden van video&#39;s naar uw kanaal, raadpleegt u [Problemen met video&#39;s oplossen](troubleshoot-videos.md).
+>Als u problemen ondervindt bij het uploaden van video&#39;s naar uw kanaal, raadpleegt u [Video&#39;s oplossen](troubleshoot-videos.md).
 
-### Eigenschappen weergeven {#viewing-properties}
+### Weergaveeigenschappen {#viewing-properties}
 
-Volg onderstaande stappen om de eigenschappen van een kanaal weer te geven of te bewerken:
+Voer de volgende stappen uit om de eigenschappen van een kanaal weer te geven of te bewerken:
 
 1. Klik op het kanaal u wilt uitgeven.
 1. Klikken **Eigenschappen** in de actiebalk om de kanaaleigenschappen weer te geven of te bewerken. Met de volgende tabbladen kunt u de opties wijzigen.
@@ -150,7 +150,7 @@ U moet de **Manifest weergeven** van de **KANAALINFORMATIE** in het dashboard Ka
 ![image1](assets/channel-one.png)
 
 
-### Online en offline kanalen {#online-and-offline-channels}
+### Online- en offlinekanalen {#online-and-offline-channels}
 
 >[!NOTE]
 >Wanneer u een kanaal maakt, is dit standaard offline.
@@ -161,13 +161,13 @@ An ***Onlinekanaal*** wordt de bijgewerkte inhoud in de real-time omgeving weerg
 
 Volg de onderstaande stappen om het kanaal online te maken:
 
-1. Navigeren naar het kanaal als **TestProject** —> **Kanalen** —> **TestChannel**.
+1. Navigeren naar het kanaal als **TestProject** > **Kanalen** > **TestChannel**.
 
    Selecteer het kanaal.
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klikken **Dashboard** in de actiebalk om de status van de speler weer te geven. De **KANAALINFORMATIE** geeft informatie over of het kanaal online of offline is.
+   Klikken **Dashboard** in de actiebalk om de status van de speler weer te geven. De **KANAALINFORMATIE** biedt informatie over het feit of het kanaal online of offline is.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -204,7 +204,7 @@ De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld a
   <tr>
    <td>Wijzigen in onlinekanaal</td>
    <td>Inhoud automatisch bijgewerkt</td>
-   <td><p>Inhoud bijgewerkt op "Apparaat: Push Config"</p> <p>Of</p> <p>Inhoud bijgewerkt op <strong><i>Apparaat: Opnieuw starten</i></strong></p> </td>
+   <td><p>Inhoud bijgewerkt op "Device: Push Config"</p> <p>Of,</p> <p>Inhoud bijgewerkt op <strong><i>Apparaat: opnieuw starten</i></strong></p> </td>
   </tr>
   <tr>
    <td>Wijziging in offlinekanaal, maar Channel "Push Content" wordt NIET geactiveerd (geen offlinepakket wordt opnieuw gemaakt)</td>
@@ -214,7 +214,7 @@ De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld a
   <tr>
    <td>Wijziging in offlinekanaal en Kanaal wordt "pushinhoud" geactiveerd (nieuw offlinepakket)</td>
    <td>Inhoud automatisch bijgewerkt</td>
-   <td><p>Inhoud bijgewerkt op <strong><i>Apparaat: Push Config</i></strong></p> <p>Of</p> <p>Inhoud bijgewerkt op <strong><i>Apparaat: Opnieuw starten</i></strong></p> </td>
+   <td><p>Inhoud bijgewerkt op <strong><i>Apparaat: Push Config</i></strong></p> <p>Of,</p> <p>Inhoud bijgewerkt op <strong><i>Apparaat: opnieuw starten</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>Wijzigen in configuratie</p>
@@ -225,7 +225,7 @@ De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld a
      <li>Kanaaltoewijzing (rol, gebeurtenis, planning)</li>
     </ul> </td>
    <td>Configuratie automatisch bijgewerkt</td>
-   <td><p>Configuratie bijgewerkt op <strong><i>Apparaat: Push Config</i></strong></p> <p>Of</p> <p>Configuratie bijgewerkt op <strong><i>Apparaat: Opnieuw starten</i></strong></p> </td>
+   <td><p>Configuratie bijgewerkt op <strong><i>Apparaat: Push Config</i></strong></p> <p>Of,</p> <p>Configuratie bijgewerkt op <strong><i>Apparaat: opnieuw starten</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
@@ -244,7 +244,6 @@ De bijbehorende weergaven worden weergegeven in het dialoogvenster **Toegewezen 
 >* [Locaties maken en beheren](managing-locations.md)
 >* [Weergaven maken en beheren](managing-displays.md)
 >
-
 
 Klik bovendien op de weergave in het dialoogvenster **TOEGEWEZEN WEERGAVEN** om de weergaveinformatie weer te geven, zoals hieronder wordt getoond:
 

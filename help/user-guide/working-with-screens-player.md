@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -34,17 +34,17 @@ Nadat u een kanaal aan een weergave hebt toegewezen, geeft de AEM Screens Player
 
 U kunt voorkeuren voor uw apparaat configureren vanaf het dashboard van het apparaat, dat toegankelijk is via de AEM ontwerpinstantie.
 
-1. Navigeer naar het apparaatdashboard van uw project, bijvoorbeeld ***Project testen*** —> ***Apparaten***.
+1. Navigeer naar het apparaatdashboard van uw project, bijvoorbeeld ***Project testen*** > ***Apparaten***.
 
    Selecteren **Apparaten** en **Apparaatbeheer** in de actiebalk.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Klik op het apparaat om het dashboard van het apparaat te openen.
+1. Klik op het apparaat om het apparaatdashboard te openen.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Controleer de **VOORKEUREN** deelvenster. U kunt de **Gebruikersinterface van beheerder** en **Kanaalswitch** voor de speler op basis van deze twee opties.
+1. Controleer de **Voorkeuren** deelvenster. U kunt de **Gebruikersinterface van beheerder** en **Kanaalswitch** voor uw speler uit deze twee opties.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
@@ -74,13 +74,13 @@ In het menu Configuratie kunt u de volgende instellingen wijzigen:
 
 * In- of uitschakelen **Menu Beheer**, **Kanaalswitch**, en **UI voor activiteiten** voor de Schermspeler.
 
-   Als de **UI voor activiteiten** is ingeschakeld vanuit de **Configuratie** de AEM Screens-speler de *spelersactiviteitmeldingen* in de rechterbovenhoek van de speler, zoals in de onderstaande afbeelding wordt getoond.
+  Als de **UI voor activiteiten** is ingeschakeld vanuit de **Configuratie** in de AEM Screens-speler wordt de *spelersactiviteitmeldingen* in de rechterbovenhoek van de speler, zoals in de onderstaande afbeelding wordt getoond.
 
-   ![afbeelding](/help/user-guide/assets/activity_ui.png)
+  ![afbeelding](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
->De **Firmware bijwerken** werkt alleen op de cordova, zoals Android-spelers.
+>De **Firmware bijwerken** Deze optie werkt alleen op de cordova, zoals Android-spelers.
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ In het menu Configuratie kunt u de volgende instellingen wijzigen:
 
 U kunt cache voor kanalen en toepassingen wissen via de interface voor beheer in AEM Screens Player.
 
-Selecteer **Inhoudcache** van de zijspoorstaaf om het geheime voorgeheugen bij te werken.
+Selecteer de **Inhoudcache** van de zijrail om het geheime voorgeheugen bij te werken.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -141,10 +141,10 @@ U kunt verschillende problemen met de AEM Screens Player (hardware en software) 
 
 Er zijn twee typen updates voor de AEM Screens Player:
 
-| **Methode** | **Details** | **via extern** | **Geautomatiseerd** | **0 Downtime** |
+| **Methode** | **Details** | **via extern** | **Automatisch** | **0 Downtime** |
 |---|---|---|---|---|
 | Firmware-update | Toegepast op bestaande geïnstalleerde Players via verre bevel. Na de update wordt de speler automatisch opnieuw geladen met de bestaande inhoud. | Ja | Aangepast | Bijna - 1-3 seconden |
-| Updates van Flash Player | Dit is een nieuw uitvoerbaar die op de Speler moet worden opgesteld. Dit vereist om nieuw binair getal op afstand op de speler te kopiëren en de huidige versie te stoppen en de nieuwe versie te starten. Hiervoor moet u mogelijk de voorgeladen pakketten opnieuw downloaden. | Ja (via externe shell) | Aangepast | Nee |
+| Updates van Flash Player | Dit is een nieuw uitvoerbaar die op de Speler moet worden opgesteld. Dit vereist om nieuw binair getal op afstand op de speler te kopiëren en de huidige versie te stoppen en de nieuwe versie te starten. Hiervoor moet u mogelijk de voorladen van de pakketten opnieuw downloaden. | Ja (via externe shell) | Aangepast | Nee |
 
 ## Richtlijnen voor hardwareselectie voor afspeelapparaat {#hardware-selection-guidelines-for-player-device}
 
@@ -210,7 +210,7 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 4x USB</td>
    <td>
     <ul>
-     <li>4 of meer inhoudszones, gelijktijdig afspelen van video</li>
+     <li>4 of meer inhoudszones, gelijktijdige videoweergave</li>
      <li>Interactief meerdere pagina's</li>
      <li>Multi-Source Data Triggers</li>
     </ul> </td>

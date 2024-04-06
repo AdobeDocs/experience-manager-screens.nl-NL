@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Zie [ContextHub configureren in AEM Screens](configuring-context-hub.md) voor na
 
 Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale temperatuuractivering van Travel Center te implementeren:
 
-1. **Google-bladen vullen**
+1. **De Google-bladen vullen**
 
    1. Navigeer naar het Google-werkblad ContextHubDemo.
    1. Een kolom toevoegen met **Kop1** met de bijbehorende temperatuurwaarde.
@@ -48,23 +48,23 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
 1. **De segmenten in soorten publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: Segmentering publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
+   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
 
-   1. Selecteer **Bladen A1 1** en klik op **Bewerken**.
+   1. Selecteer de **Bladen A1 1** en klik op **Bewerken**.
 
    1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
    1. Selecteren **goochelesheets/value/1/0** in de vervolgkeuzelijst **Eigenschapnaam**
 
-   1. Selecteer **Operator** als **groter dan of gelijk aan** in het keuzemenu
+   1. Selecteer de **Operator** als **groter dan of gelijk aan** in het keuzemenu
 
    1. Voer de **Waarde** als **50**
 
    1. Selecteer op dezelfde manier de **Bladen A1 2** en klik op **Bewerken**.
 
-   1. Selecteer **Vergelijkingseigenschap - waarde** en klik op het configuratiepictogram om de eigenschappen te bewerken.
+   1. Selecteer de **Vergelijkingseigenschap - waarde** en klik op het configuratiepictogram om de eigenschappen te bewerken.
    1. Selecteren **goochelesheets/value/1/0** in de vervolgkeuzelijst **Eigenschapnaam**
 
-   1. Selecteer **Operator** als **kleiner dan** in het keuzemenu
+   1. Selecteer de **Operator** als **kleiner dan** in het keuzemenu
 
    1. Voer de **Waarde** als **50**
 
@@ -78,11 +78,11 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    >[!CAUTION]
    >
-   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** —> **Personalisatie** tab.
+   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** > **Personalisatie** tab.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Selecteren **Doelstelling** in de editor en selecteer **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
+1. Selecteren **Targeting** in de editor en selecteer **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
 
    ![new_activity3](assets/new_activity3.gif)
 
@@ -90,4 +90,5 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    1. Klikken **Voorvertoning.** Open ook het Google-werkblad en werk de waarde ervan bij.
    1. Als u de waarde wijzigt in minder dan 50, kunt u de afbeelding van zomerdranken bekijken. Als de waarde in het Google-blad 50 of hoger is dan de waarde die u zou moeten kunnen zien voor een afbeelding van warme drank.
+
    ![result3](assets/result3.gif)

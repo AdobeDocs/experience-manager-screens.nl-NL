@@ -1,22 +1,18 @@
 ---
 title: Nieuwe importmodule voor project uit bestand
-seo-title: New Project Importer from File
 description: Met deze functionaliteit kunt u een set locaties vanuit een CSV/XLS-spreadsheet bulksgewijs importeren naar uw AEM Screens-project.
-seo-description: This functionality allows you to bulk-import a set of locations from a CSV/XLS spreadsheet to your AEM Screens project.
-uuid: e1ad76ae-6925-4d72-80ce-8343a76125ce
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -27,7 +23,7 @@ In deze sectie wordt een functionaliteit beschreven voor het bulksgewijs importe
 
 ## Inleiding {#introduction}
 
-Wanneer u een AEM Screens-project voor het eerst in uw organisatie instelt, moet u ook alle locaties maken. Als uw project een groot aantal plaatsen impliceert, resulteert het in een vervelende taak die veel het klikken en het wachten in UI impliceert.
+Wanneer u een AEM Screens-project voor het eerst in uw organisatie instelt, moet u ook alle locaties maken. Als uw project vele plaatsen impliceert, resulteert het in een vervelende taak die veel het klikken en het wachten in UI impliceert.
 
 Het doel van deze functie is de tijd die nodig is om het project op te zetten te verkorten en zo begrotingsproblemen op te lossen.
 
@@ -54,21 +50,20 @@ Het gegevensmodel voor de projectimportmodule wordt hieronder beschreven:
 
 | **Eigenschap** | **Beschrijving** |
 |---|---|
-| ***path {string*}** | Het bronnenpad voor de locatie |
-| ***[./jcr:title] {string*}** | De naam van de sjabloon die moet worden gebruikt (dat wil zeggen de locatie voor *schermen/kern/sjablonen/locatie*) |
-| ***template {string}*** | Optionele titel voor de pagina |
-| ***[./jcr:description] {string}*** | Optionele beschrijving voor de pagina |
+| ***`path {string*}`*** | Het bronnenpad voor de locatie |
+| ***`[./jcr:title] {string*}`*** | De naam van de sjabloon die moet worden gebruikt (dat wil zeggen de locatie voor *schermen/kern/sjablonen/locatie*) |
+| ***`template {string}`*** | Optionele titel voor de pagina |
+| ***`[./jcr:description] {string}`*** | Optionele beschrijving voor de pagina |
 
 Voor het spreadsheetbestand (CSV/XLS) zijn dus de volgende kolommen vereist:
 
-* **path {string}** Het pad voor de locatie die moet worden geïmporteerd, waarbij de hoofdmap van het pad de locatiemap voor het project is (dat wil zeggen: */foo* wordt geïmporteerd naar */content/screens/&lt;project>/locations/foo*)
-
-* **template {string}** De sjabloon die voor de nieuwe locatie moet worden gebruikt, is nu de enige toegestane waarde &#39;location&#39;, maar deze wordt in de toekomst uitgebreid tot alle schermsjablonen (&#39;display&#39;, &#39;sequencechannel&#39; enzovoort).
-* **[./*] {string}** Elke optionele eigenschap die op de locatie moet worden ingesteld (dat wil zeggen: ./jcr:title, ./jcr:description, ./foo, ./bar). De huidige versie staat momenteel geen filtreren toe
+* **pad {string}** - Het pad voor de te importeren locatie, waarbij de hoofdmap van het pad de locatiemap voor het project is (dat wil zeggen: *`/foo`* wordt geïmporteerd naar *`/content/screens/<project>/locations/foo`*)
+* **template {string}** - De sjabloon die voor de nieuwe locatie moet worden gebruikt, is nu de enige toegestane waarde &quot;location&quot;, maar deze wordt in de toekomst uitgebreid tot alle screeningsjablonen (`display`, `sequencechannel`, enzovoort)
+* **[./*] {string}** - Een optionele eigenschap die op de locatie moet worden ingesteld (dat wil zeggen: `./jcr:title`, `./jcr:description`, `./foo, ./bar`). De huidige versie staat geen filtreren toe.
 
 >[!NOTE]
 >
->Elke kolom die niet aan de bovenstaande voorwaarden voldoet, wordt gewoon genegeerd. Als er bijvoorbeeld een andere kolom in het bestand CSV/XLS (sheet) is gedefinieerd, behalve **pad**,**template**,**titel**, en **beschrijving** in uw bestand worden deze velden genegeerd en **Project importeren** valideert deze aanvullende velden voor het importeren van uw project naar uw AEM Screens-project niet.
+>Een kolom die niet voldoet aan de bovenstaande voorwaarden, wordt genegeerd. Als er bijvoorbeeld een andere kolom in het bestand CSV/XLS (sheet) is gedefinieerd, behalve **pad**, **template**, **titel**, en **beschrijving** in uw bestand worden deze velden genegeerd. En, **Project importeren** valideert deze aanvullende velden voor het importeren van uw project naar uw AEM Screens-project niet.
 
 ## Project importeren gebruiken {#using-project-importer}
 
@@ -82,12 +77,11 @@ In de volgende sectie wordt beschreven hoe de projectimportmodule wordt gebruikt
 >* Er bestaat geen filter voor de eigenschappen van geïmporteerde bestanden en alles wat begint met &quot;./&quot; wordt geïmporteerd.
 >
 
-
 ### Vereisten {#prerequisites}
 
-* Een nieuw project maken met de naam **DemoProjectImport**
+* Een project maken met de naam **DemoProjectImport**
 
-* Gebruik een voorbeeld-CSV- of Excel-bestand dat u wilt importeren.
+* Gebruik een voorbeeld-CSV- of Excel-bestand dat u moet importeren.
 
 Voor demo-doeleinden kunt u een Excel-bestand downloaden uit de onderstaande sectie.
 
@@ -95,7 +89,7 @@ Voor demo-doeleinden kunt u een Excel-bestand downloaden uit de onderstaande sec
 
 ### Het bestand met minimaal vereiste velden importeren {#importing-the-file-with-minimum-required-fields}
 
-Voer de onderstaande stappen uit om een bestand te importeren naar de map locations met minimaal vereiste velden:
+Voer de onderstaande stappen uit om een bestand te importeren naar een locatiemap met minimaal vereiste velden:
 
 >[!NOTE]
 >
@@ -107,11 +101,11 @@ Voer de onderstaande stappen uit om een bestand te importeren naar de map locati
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Selecteer het project,** DemoProjectImporter **—>** Maken **—>** Locaties** importeren vanaf de zijbalk.
+1. Selecteer het project,** DemoProjectImporter **>** Maken **>** Locaties** importeren vanaf de zijbalk.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. De **Importeren** openen. Selecteer het bestand dat u voor uw project hebt met locaties of selecteer het bestand (***minimum-file.xls***) die u hebt gedownload van de *Vereisten* sectie.
+1. De **Importeren** wordt weergegeven. Selecteer het bestand voor uw project met locaties of selecteer het bestand (***minimum-file.xls***) die u hebt gedownload van de *Vereisten* sectie.
 
    Als u het bestand hebt geselecteerd, klikt u op **Volgende**.
 

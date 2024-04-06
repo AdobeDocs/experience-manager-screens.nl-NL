@@ -6,7 +6,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
 Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toewijzen om de inhoud te bekijken.
 
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locaties** —> **SanJose** —> **Lobby**.
+1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** > **Locaties** > **SanJose** > **Lobby**.
 
 1. Tikken/klikken **Kanaal toewijzen** in de actiebalk.
 
@@ -110,7 +110,7 @@ Nadat u een kanaal aan een weergave hebt toegewezen en een herhalingsschema hebt
 
 Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
 
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** —> **Locaties** —> **SanJose** —> **Lobby**.
+1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** > **Locaties** > **SanJose** > **Lobby**.
 
 1. Tikken/klikken **Kanaal toewijzen** in de actiebalk.
 

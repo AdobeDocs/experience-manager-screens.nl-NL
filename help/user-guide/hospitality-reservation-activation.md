@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -49,14 +49,14 @@ Voer de onderstaande stappen uit om de activeringsaanvraag voor de ziekenhuisres
 
 1. **De segmenten in soorten publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: Segmentering publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
+   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
 
-   1. Selecteer **Bladen A1 1** en klik op **Bewerken**.
+   1. Selecteer de **Bladen A1 1** en klik op **Bewerken**.
 
    1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
    1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**
 
-   1. Selecteer **Operator** als **gelijk** in het keuzemenu
+   1. Selecteer de **Operator** als **gelijk** in het keuzemenu
 
    1. Voer de **Waarde** als **1**
 
@@ -65,7 +65,7 @@ Voer de onderstaande stappen uit om de activeringsaanvraag voor de ziekenhuisres
    1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
    1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**
 
-   1. Selecteer **Operator** als **2**
+   1. Selecteer de **Operator** als **2**
 
 1. Navigeer en selecteer het kanaal () en klik **Bewerken** in de actiebalk. In het volgende voorbeeld: **DataDrivenRestaurant**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
 
@@ -77,13 +77,14 @@ Voer de onderstaande stappen uit om de activeringsaanvraag voor de ziekenhuisres
 
    >[!CAUTION]
    >
-   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** —> **Personalisatie** tab.
+   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** > **Personalisatie** tab.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Selecteren **Doelstelling** in de editor en selecteer **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
+1. Selecteren **Targeting** in de editor en selecteer **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
 1. **De voorvertoning controleren**
 
    1. Klikken **Voorvertoning.** Open ook uw Google-bladen en werk de waarde ervan bij.
    1. De waarde bijwerken in **Restaurant1** en **Restaurant2** kolommen. Indien **Restaurant1** > **Restaurant2,** u zou een beeld van moeten kunnen bekijken *Steak* anders voedsel, *Thai* voedselafbeeldingen worden op het scherm weergegeven.
+
    ![result5](assets/result5.gif)

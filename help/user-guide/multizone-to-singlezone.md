@@ -1,25 +1,23 @@
 ---
 title: Hoofdlettergebruik voor overgangen van MultiZone naar SingleZone
-description: Volg deze pagina voor meer informatie over het gebruik van hoofdletters en kleine letters voor multiZone-overgangen.
-seo-description: MultiZone to SingleZone Transitions use case.
+description: Volg deze pagina zodat u meer kunt leren over de Gebruiksscenario's van MultiZone naar SingleZone-overgangen.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# Overgang van meerdere zones naar één zone {#multizone-to-singlezone-use-case}
-
+# Meerdere zones naar één zone overgang {#multizone-to-singlezone-use-case}
 
 ## Omschrijving hoofdletter gebruiken {#use-case-description}
 
-In deze sectie wordt een gebruikscasevoorbeeld beschreven waarin wordt benadrukt hoe u een lay-outkanaal met meerdere zones instelt dat met een lay-outkanaal met één zone afwisselt. Het kanaal met meerdere zones heeft het rangschikken van beeld/video activa en het toont hoe u opstellingsproject kunt dat van multi-zone aan single-zone en vice versa afwisselt.
+In deze sectie wordt een gebruiksvoorbeeld beschreven waarin wordt benadrukt hoe u een lay-outkanaal met meerdere zones instelt dat met een lay-outkanaal met één zone afwisselt. Het kanaal met meerdere zones heeft het rangschikken van beeld/video activa en het toont hoe u opstellingsproject kunt dat van multi-zone aan single-zone en omgekeerd afwisselt.
 
 ### Voorwaarden {#preconditions}
 
@@ -45,9 +43,9 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 1. **Een uit meerdere zones bestaand rasterkanaal maken**
 
-   1. Selecteer **Kanalen** map en klik op **Maken** in de actiebalk om de wizard te openen en een kanaal te maken.
+   1. Selecteer de **Kanalen** map en klik op **Maken** van de actiebar en het openen van de tovenaar zodat kunt u een kanaal creëren.
    1. Selecteren **Linkerbalk, gesplitst rasterkanaal** van de wizard en maakt u het kanaal met de naam **MultiZoneLayout**.
-   1. Voeg inhoud toe aan het kanaal. Sleep de elementen naar elk van de zones. In het volgende voorbeeld wordt een **MultiZoneLayout** kanaal bestaande uit een video, een afbeelding en een tekstbanner (in een ingesloten reeks), zoals hieronder weergegeven.
+   1. Voeg inhoud toe aan het kanaal. Sleep de elementen naar elk van de zones. In het volgende voorbeeld wordt een **MultiZoneLayout** kanaal bestaande uit een video, een afbeelding en een tekstbanner (in een ingesloten reeks), zoals hieronder wordt weergegeven.
 
    ![element](assets/mz-to-sz2.png)
 
@@ -60,7 +58,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/mz-to-sz3.png)
 
-1. Klikken **Bewerken** in de actiebalk om inhoud toe te voegen aan dit kanaal. Voeg een **Kanaal** en een afbeeldingselement waarnaar u wilt schakelen, naar dit kanaal, zoals in de onderstaande afbeelding wordt getoond:
+1. Klikken **Bewerken** op de actiebalk, zodat u inhoud aan dit kanaal kunt toevoegen. Voeg een **Kanaal** en een afbeeldingsmiddel waarop u voor dit kanaal wilt schakelen, zoals in de onderstaande afbeelding wordt getoond:
 
    ![element](assets/mz-to-sz4.png)
 
@@ -68,22 +66,22 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/mz-to-sz5.png)
 
-1. De duur instellen vanuit de **Reeks** veld naar **10000 ms**.
+1. De duur instellen vanuit de **Reeks** veld naar **10000 milliseconden**.
 
    ![element](assets/mz-to-sz6.png)
 
-1. Open op dezelfde manier de instellingen voor de afbeelding (het element dat u hebt toegevoegd) en stel de duur in op basis van de **Reeks** veld naar **3000 ms**.
+1. Open op dezelfde manier de instellingen voor de afbeelding (het element dat u hebt toegevoegd) en stel de duur in op basis van de **Reeks** veld naar **3000 milliseconden**.
 
    ![element](assets/mz-to-sz7.png)
 
 ## De voorvertoning controleren {#checking-the-preview}
 
-U kunt de gewenste uitvoer weergeven vanuit de speler of alleen door op de knop **Voorvertoning** uit de editor.
+U kunt de gewenste uitvoer weergeven vanuit de speler of alleen door **Voorvertoning** uit de editor.
 
-De uitvoer toont hoe een lay-out met meerdere zones wordt afgespeeld voor *10000 ms* en schakelt vervolgens over naar de lay-out met één zone waarvoor de afspeelduur *3000 ms* en schakelt dan terug naar de lay-out met meerdere zones.
+De uitvoer toont aan hoe een lay-out met meerdere zones wordt afgespeeld voor *10000 milliseconden* en schakelt vervolgens over naar de lay-out met één zone waarvoor de afspeelduur *3000 milliseconden* en schakelt dan terug naar de lay-out met meerdere zones.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 
 >[!NOTE]
 >
->U kunt uw kanaalovergang (van multi-zone aan single-zone lay-out of vice versa), volgens uw vereisten aanpassen.
+>U kunt de kanaalovergang naar wens aanpassen (van multi-zone naar single-zone lay-out of omgekeerd).

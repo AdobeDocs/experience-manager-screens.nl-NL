@@ -14,9 +14,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Als u een ervaring uitvoert op de live-datum instellen op de speler, gaat u als 
 
 * het publiceren van de bronnen voor het publiceren van instanties (neemt doorgaans een paar minuten in beslag, afhankelijk van de grootte van de kanalen of middelen die moeten worden gepubliceerd)
 
-* de tijd die de update offline nodig heeft om te voltooien (neemt doorgaans een paar minuten in beslag)
+* de tijd die de update offline nodig heeft om te voltooien (duurt meestal een paar minuten)
 
 * de tijd die de spelers nodig hebben om de inhoud van de publicatie-instantie te downloaden (neemt meestal minuten in beslag, afhankelijk van de bandbreedte en de grootte van de elementen die moeten worden gedownload)
 
@@ -67,7 +67,7 @@ In deze sectie wordt uitgelegd hoe u een uitstelperiode kunt bijwerken naar 10 m
 
 1. Navigeer naar CRXDE Lite en vervolgens naar `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Klik met de rechtermuisknop en kopieer het bestand.
-3. Navigeren naar `/apps/system/config` en klikt u met de rechtermuisknop en plakt u deze.
+3. Navigeren naar `/apps/system/config` en klik met de rechtermuisknop en plak deze.
 4. Dubbelklikken op `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` om het bestand in de editor in CRXDE Lite te openen. De respijtperiode voor het pad moet worden vermeld */content/screens/* als **86400**. Wijzig die waarde in **600**.
 
 De inhoud in het tekstbestand moet er nu ongeveer als volgt uitzien:
@@ -90,7 +90,7 @@ In deze sectie ziet u hoe u de functie Schermen starten in uw AEM Screens-projec
 
 Voer de onderstaande stappen uit om de functie Schermen starten te implementeren voor uw AEM Screens-project:
 
-1. Een volgnummer maken in bijvoorbeeld uw AEM Screens-project **LaunchesDemo** —> **Kanalen** —> **FutureLaunch**, zoals hieronder weergegeven.
+1. Een volgnummer maken in bijvoorbeeld uw AEM Screens-project **LaunchesDemo** > **Kanalen** > **FutureLaunch**, zoals hieronder weergegeven.
 
    >[!CAUTION]
    >
@@ -102,7 +102,7 @@ Voer de onderstaande stappen uit om de functie Schermen starten te implementeren
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. De **Starten maken** wizard wordt geopend. U kunt het kanaal selecteren dat al zichtbaar is in de wizard of op **+ Kanalen toevoegen** om het kanaal toe te voegen waarvoor u de lancering wilt creëren.
+1. De **Starten maken** wizard wordt geopend. U kunt het kanaal selecteren dat al zichtbaar is in de wizard of op **+ Kanalen toevoegen** om het kanaal toe te voegen waarvoor u de lancering wilt tot stand brengen.
 
 1. Klikken **Volgende** van de **Starten maken** wizard. De **Subpagina&#39;s opnemen** is standaard geselecteerd.
 
@@ -124,7 +124,7 @@ Voer de onderstaande stappen uit om de functie Schermen starten te implementeren
 
    >[!NOTE]
    >
-   >*Inschakelen of controleren* de optie **Live-gegevens van bronpagina overnemen** Hiermee kunnen de kanalen als live kopieën worden gemaakt tijdens het starten. Als er wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen automatisch toegepast op de startkanalen.
+   >*Inschakelen of controleren* de optie **Live-gegevens van bronpagina overnemen** Hiermee kunnen de kanalen als live kopieën worden gemaakt tijdens de lancering. Als er wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen automatisch toegepast op de startkanalen.
    >
    >
    >*Uitschakelen of uitschakelen* **Live-gegevens van bronpagina overnemen** Hiermee kunnen de kanalen worden gekopieerd zonder live relatie tijdens het opstarten. Als er dus wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen niet toegepast op de startkanalen.
@@ -138,12 +138,12 @@ Voer de onderstaande stappen uit om de functie Schermen starten te implementeren
    **Promotiebereik starten**
 
    * **Volledige introductie bevorderen**: Alle kanalen van de lancering worden bevorderd op de vastgestelde levende datum.
-   * **Gewijzigde pagina&#39;s promoten**: Alleen aangepaste startbronnen worden bevorderd. U wordt aangeraden deze optie te gebruiken als de startrevisie niet vereist is.
+   * **Gewijzigde pagina&#39;s promoten**: Alleen gewijzigde startbronnen worden bevorderd. U wordt aangeraden deze optie te gebruiken als de startrevisie niet vereist is.
    * **Goedgekeurde pagina&#39;s promoten**: Voor deze optie moet de goedkeuringsworkflow voor het starten worden uitgevoerd op de startkanalen. Alleen goedgekeurde pagina&#39;s worden gepromoveerd op de ingestelde live datum.
 
-      >[!CAUTION]
-      >
-      >Bij het starten van de live datum wordt de tijdzone van de speler/het apparaat gevolgd en niet die van de server.
+     >[!CAUTION]
+     >
+     >Bij het starten van de live datum wordt de tijdzone van de speler/het apparaat gevolgd en niet die van de server.
 
 1. U ziet dat de opstart is gemaakt. U kunt op **Openen** om de pagina&#39;s in de editor weer te geven of klik op **Gereed** om terug naar uw project te navigeren.
 
@@ -179,9 +179,9 @@ Voer de onderstaande stappen uit om de eigenschappen van de startpagina te bewer
 
 ### Het uitgeven van de Lancering van de Schermen om Kanalen toe te voegen of te verwijderen  {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Nadat u de opstart hebt gemaakt, kunt u kanalen toevoegen aan of verwijderen uit de bestaande opstart met **Starten bewerken** optie.
+Nadat u de opstart hebt gemaakt, kunt u kanalen toevoegen aan of verwijderen uit de bestaande opstart met **Starten bewerken** -optie.
 
-Als u klaar bent, klikt u op **Opslaan** om terug te navigeren naar **FutureLaunch** kanaal.
+Als u klaar bent, klikt u **Opslaan** om terug te navigeren naar **FutureLaunch** kanaal.
 
 ### Schermen handmatig starten bevorderen{#promote-the-screens-launch-manually}
 
@@ -194,9 +194,9 @@ U kunt de bronnen die u wilt promoten, kiezen in het kader van deze handmatige p
 1. U kunt de optie voor het verwijderen van de opstart na de productie in- of uitschakelen.
 1. U kunt de **Toepassingsgebied** van de lancering, met de volgende opties:
    1. **Volledige introductie bevorderen**: Alle kanalen van de lancering worden bevorderd op de vastgestelde levende datum.
-   1. **Gewijzigde pagina&#39;s promoten**: Alleen aangepaste startbronnen worden bevorderd. U wordt aangeraden deze optie te gebruiken als de startrevisie niet vereist is.
+   1. **Gewijzigde pagina&#39;s promoten**: Alleen gewijzigde startbronnen worden bevorderd. U wordt aangeraden deze optie te gebruiken als de startrevisie niet vereist is.
    1. **Goedgekeurde pagina&#39;s promoten**: Voor deze optie moet de goedkeuringsworkflow voor het starten worden uitgevoerd op de startkanalen. Alleen goedgekeurde pagina&#39;s worden gepromoveerd op de ingestelde live datum.
-   1. **Huidige pagina promoten**: Voor deze optie moet de goedkeuringsworkflow alleen voor de huidige pagina worden uitgevoerd.
+   1. **Huidige pagina promoten**: Voor deze optie is de goedkeuringsworkflow alleen voor de huidige pagina vereist.
 1. Klikken **Volgende** in de **Starten bevorderen** wizard.
 1. Klikken **Bevorderen** de lancering te bevorderen.
 

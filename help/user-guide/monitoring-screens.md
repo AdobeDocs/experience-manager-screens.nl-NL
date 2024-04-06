@@ -14,16 +14,16 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
 
 # Problemen oplossen in Device Control Center {#troubleshooting-device-control-center}
 
-U kunt de prestaties voor de activiteit en het apparaat van de Schermspeler controleren en problemen oplossen gebruikend het dashboard van het Apparaat. Deze pagina verstrekt informatie over hoe te om waargenomen prestatiesproblemen voor de speler van het Scherm en de toegewezen apparaten te controleren en problemen op te lossen.
+U kunt de prestaties voor de activiteit en het apparaat van de Schermspeler controleren en problemen oplossen gebruikend het dashboard van het Apparaat. Deze pagina biedt informatie over hoe u waargenomen prestatieproblemen voor de schermspeler en de toegewezen apparaten kunt controleren en oplossen.
 
 ## Monitor en problemen oplossen vanuit Device Control Center {#monitor-and-troubleshoot-from-device-control-center}
 
@@ -33,7 +33,7 @@ U kunt de activiteit controleren en zo uw speler van het Scherm problemen oploss
 
 Ga als volgt te werk om naar het dashboard van het apparaat te navigeren:
 
-1. Navigeer naar het apparaatdashboard van uw project, bijvoorbeeld ***Project testen*** —> ***Apparaten***.
+1. Navigeer naar het apparaatdashboard van uw project, bijvoorbeeld ***Project testen*** > ***Apparaten***.
 
    Selecteren **Apparaten** en **Apparaatbeheer** in de actiebalk.
 
@@ -73,7 +73,7 @@ Klik ook op de knop **...** in de rechterbovenhoek van het dialoogvenster **Appa
 
 ### Apparaatgegevens bijwerken {#update-device-information}
 
-Controleer de **APPARAATINFORMATIE** om de configuratieupdate, het apparaatmodel, het apparaatbesturingssysteem en de shell-informatie weer te geven.
+Controleer de **APPARAATGEGEVENS** om de configuratieupdate, het apparaatmodel, het apparaatbesturingssysteem en de shell-informatie weer te geven.
 
 ![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
@@ -99,7 +99,7 @@ Klikken (**...**) in de rechterbovenhoek van het deelvenster Schermafbeelding va
 
 ### Voorkeuren beheren {#manage-preferences}
 
-De **VOORKEUREN** kan de gebruiker de voorkeuren wijzigen voor **Gebruikersinterface van beheerder**, **Kanaalswitch**, en **Foutopsporing op afstand** voor het apparaat.
+De **Voorkeuren** kan de gebruiker de voorkeuren wijzigen voor **Gebruikersinterface van beheerder**, **Kanaalswitch**, en **Foutopsporing op afstand** voor het apparaat.
 
 >[!NOTE]
 >Zie voor meer informatie over deze optie [AEM Screens Player](working-with-screens-player.md).
@@ -124,19 +124,18 @@ Klik bovendien op **Instellingen** in de rechterbovenhoek om de voorkeuren voor 
 >* **Waarschuwing**
 >* **Fout**
 
-
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
 ## OSGi-instellingen problemen oplossen {#troubleshoot-osgi-settings}
 
 U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen.
 
-Sommige van deze functies zijn momenteel alleen beschikbaar als de *Lege filter Apache-schuifverwijzing toestaan* wordt toegelaten in de configuratie OSGi. Op het dashboard kan een waarschuwing worden weergegeven dat sommige van deze functies mogelijk niet kunnen worden gebruikt vanwege beveiligingsinstellingen.
+Sommige van deze functies zijn momenteel alleen beschikbaar als de *Lege filter Apache-schuifverwijzing toestaan* wordt toegelaten in de configuratie OSGi. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
 
 Voer de onderstaande stappen uit om het filter Leeg toestaan van Apache-verwijzing in te schakelen
 
 1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole**, dat wil zeggen: `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Controleer de **allow.empty** optie.
+1. Controleer de **allow.empty** -optie.
 1. Klikken **Opslaan**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
@@ -163,4 +162,4 @@ Het wordt aanbevolen de Player-hardware en het besturingssysteem zodanig te impl
 
 #### Aanvullende bronnen {#additional-resources}
 
-Zie [Configuratie en probleemoplossing voor het afspelen van video](troubleshoot-videos.md) om fouten op te sporen in video&#39;s die in uw kanaal worden afgespeeld en om problemen op te lossen.
+Zie [Configuratie en probleemoplossing voor videoweergave](troubleshoot-videos.md) om fouten op te sporen in video&#39;s die in uw kanaal worden afgespeeld en om problemen op te lossen.

@@ -6,7 +6,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 
 Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** —> **Locaties** —> **SanJose** —> **StoreDisplay**.
+1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** > **Locaties** > **SanJose** > **StoreDisplay**.
 
    ![afbeelding](assets/screen_shot_2018-08-23at25359pm.png)
 

@@ -7,7 +7,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1792'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
    1. **Kanaaltoewijzing** wordt geopend.
    1. Selecteren **Referentiekanaal**.. per pad.
-   1. Selecteer de **Kanaalpad** als **Activering op kanaalniveau** —> ***Kanalen*** —> ***MainAdChannel***.
+   1. Selecteer de **Kanaalpad** als **Activering op kanaalniveau** > ***Kanalen*** > ***MainAdChannel***.
    1. De **Kanaalrol** is gevuld als **hoofdkanaal**.
    1. Selecteer de **Prioriteit** als **1**.
    1. Selecteer de **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting** en **Niet-actief scherm**.
@@ -114,14 +114,14 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    >[!NOTE]
    >
-   >U kunt ook kanaal toewijzen vanaf het weergavedashboard door te navigeren naar **Activering op kanaalniveau** —> **Locaties** —> **Regio** —> **RegionDisplay** en klikken **Dashboard** in de actiebalk. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
+   >U kunt ook kanaal toewijzen vanaf het weergavedashboard door te navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klikken **Dashboard** in de actiebalk. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
    Kanaal toewijzen **TargetedSinglePlay** voor display**:
 
-   1. Navigeren naar **Activering op kanaalniveau** —> **Locaties** —> **Regio** —> **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
+   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
    1. **Kanaaltoewijzing** wordt geopend.
    1. Selecteren **Referentiekanaal**.. per pad.
-   1. Selecteer de **Kanaalpad** als **Activering op kanaalniveau*** —> ***Kanalen*** —> ***TargetedSinglePlay***.
+   1. Selecteer de **Kanaalpad** als **Activering op kanaalniveau*** > ***Kanalen*** > ***TargetedSinglePlay***.
    1. De **Kanaalrol** is gevuld als **doelgericht**.
    1. Stel de **Prioriteit** als **2**.
    1. Selecteer de **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting**, **Niet-actief scherm** en **Timer**, *zoals weergegeven in de onderstaande afbeelding.
@@ -130,13 +130,13 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    >[!CAUTION]
    >
-   U moet de prioriteit instellen voor **TargetedSinglePlay** kanaal hoger dan **MainAdSegment** kanaal.
+   >U moet de prioriteit instellen voor **TargetedSinglePlay** kanaal hoger dan **MainAdSegment** kanaal.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   Als u dezelfde dag wilt kiezen, moet u de volgende dag selecteren en de datum handmatig op dezelfde dag maar voor een later tijdstip bewerken. Hierdoor kan de gebruiker geen datum uit het verleden selecteren. Raadpleeg het onderstaande voorbeeld:
+   >Als u dezelfde dag wilt kiezen, moet u de volgende dag selecteren en de datum handmatig op dezelfde dag maar voor een later tijdstip bewerken. Hierdoor kan de gebruiker geen datum uit het verleden selecteren. Raadpleeg het onderstaande voorbeeld:
 
    ![new1](assets/new1.gif)
 
@@ -148,9 +148,9 @@ De speler geeft de inhoud van **MainAdChannel** en precies om 11:59 uur (zoals b
 
 >[!NOTE]
 >
-Raadpleeg de volgende bronnen voor meer informatie over AEM Screen Player:
-[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)
-[Werken met AEM Screens Player](working-with-screens-player.md)
+>Raadpleeg de volgende bronnen voor meer informatie over AEM Screen Player:
+>[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)
+>[Werken met AEM Screens Player](working-with-screens-player.md)
 
 
 ## Herhaling van middelen in een kanaal afhandelen {#handling-recurrence-in-assets}
@@ -167,7 +167,7 @@ Stel dat u de inhoud van een kanaal alleen op vrijdag van 13.00 uur tot 10.00 uu
 
    >[!NOTE]
    >
-   U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
+   >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
 
 1. Voer de expressie in de **Schema** en uw middel zal voor het bepaalde interval van dag en tijd tonen.
 
@@ -187,7 +187,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 >[!NOTE]
 >
-U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
+>U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
 
 ### WeekParting {#week-parting}
 
@@ -197,7 +197,7 @@ U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat w
 
    >[!NOTE]
    >
-   U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
+   >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
 
 1. Voer de expressie in de **Schema** en uw middel zal voor het bepaalde interval van dag en tijd tonen.
 
@@ -215,7 +215,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 >[!NOTE]
 >
-U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
+>U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
 
 
 ### MonthParting {#month-parting}
@@ -226,7 +226,7 @@ U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat w
 
    >[!NOTE]
    >
-   U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
+   >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
 
 1. Voer de expressie in de **Schema** en uw middel zal voor het bepaalde interval van dag en tijd tonen.
 
@@ -240,11 +240,11 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 >[!NOTE]
 >
-Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.
+>Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.
 
 >[!NOTE]
 >
-U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
+>U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
 
 ### Combinatie van partners {#combined-parting}
 
@@ -254,7 +254,7 @@ U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat w
 
    >[!NOTE]
    >
-   U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
+   >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
 
 1. Voer de expressie in de **Schema** en uw middel zal voor het bepaalde interval van dag en tijd tonen.
 
@@ -270,4 +270,4 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 >[!NOTE]
 >
-Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.  Bovendien kunt u ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
+>Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.  Bovendien kunt u ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).

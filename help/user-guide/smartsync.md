@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ De functie SmartSync biedt een aantal voordelen voor uw AEM Screens-project. Het
 
 >[!NOTE]
 >
->Adobe raadt u ten zeerste aan SmartSync te gebruiken voor AEM Screens-projecten.
+>Adobe raadt u ten zeerste aan om SmartSync te gebruiken voor AEM Screens-projecten.
 
 ## Migreren van ContentSync naar SmartSync {#migrating-from-contentsync-to-smartsync}
 
@@ -63,7 +63,7 @@ De functie SmartSync biedt een aantal voordelen voor uw AEM Screens-project. Het
 
 | **Platform** | **Minimaal ondersteunde Player-versie** |
 |---|---|
-| Android | 3.3.72 |
+| Android | 3.3.72. |
 | Chrome-besturingssysteem | 1.0.136 |
 | Windows | 1.0.136 |
 
@@ -71,7 +71,7 @@ Voer de onderstaande stappen uit om van ContentSync over te schakelen op SmartSy
 
 1. Voor het migreren van ContentSync naar SmartSync moet de ContentSync-cache worden gewist voordat SmartSync wordt geactiveerd.
 
-   Ga via de koppeling naar de ContentSync-console ***https://localhost:4502/libs/cq/contentsync/content/console.html*** en klik op **Cache wissen**, zoals weergegeven in onderstaande afbeelding:
+   Ga via de koppeling naar de ContentSync-console van uw instantie ***https://localhost:4502/libs/cq/contentsync/content/console.html*** en klik op **Cache wissen**, zoals weergegeven in onderstaande afbeelding:
 
    ![clear_contesync_cache](assets/clear_contesync_cache.png)
 
@@ -79,7 +79,7 @@ Voer de onderstaande stappen uit om van ContentSync over te schakelen op SmartSy
    >
    >Alle inhoudcache moet worden gewist voordat u SmartSync voor het eerst kunt gebruiken.
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM instantie —> hamerpictogram —> **Bewerkingen** —> **Webconsole**.
+1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM instantie > hamerpictogram > **Bewerkingen** > **Webconsole**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
@@ -87,7 +87,7 @@ Voer de onderstaande stappen uit om van ContentSync over te schakelen op SmartSy
 
    Voor het zoeken van de **Schermen offline-inhoudsservice** eigenschap, druk **Command+F** for **Mac** en **Ctrl+F** for **Windows**.
 
-   ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
+   ![screen_shot_2019-02-19at2643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
 1. Klikken **Opslaan** de **Schermen met services voor offline inhoud** en dus SmartSync voor AEM Screens gebruiken.
 1. Nadat u SmartSync hebt ingeschakeld, moet u naar uw project navigeren en op **Offline inhoud bijwerken** *(vanaf de actiebalk),* zoals weergegeven in onderstaande afbeelding.

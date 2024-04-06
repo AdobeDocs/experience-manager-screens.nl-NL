@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -42,21 +42,22 @@ Nadat u de voorgaande stappen hebt uitgevoerd, kunt u het activeren van de doelg
 
 ## Het toelaten van Targeting in een Kanaal van AEM Screens {#enabling-targeting}
 
-Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te schakelen.
+Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kanalen in te schakelen.
 
-1. Navigeer naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door te gebruiken **DataDrivenRetail** *(volgnummer)* gemaakt in een AEM Screens Channel.
+1. Ga naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door te gebruiken **DataDrivenRetail** *(volgnummer)* gemaakt in een AEM Screens Channel.
 
 1. Selecteer het kanaal **DataDrivenRetail** en klik op **Eigenschappen** in de actiebalk.
 
    ![screen_shot_2019-05-01at4332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Selecteer **Personalisatie** lusje aan opstelling de configuraties ContextHub en selecteer de weg ContextHub en van Segmenten.
+1. Selecteer de **Personalisatie** lusje aan opstelling de configuraties ContextHub en selecteer de weg ContextHub en van Segmenten.
 
-   1. Selecteer **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en klik op **Selecteren**.
+   1. Selecteer de **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en klik op **Selecteren**.
 
-   1. Selecteer **Segmentpad** als **conf** > **Wij.Detailhandel** > **instellingen** > **wcm** > **segmenten** en klik op **Selecteren**.
+   1. Selecteer de **Segmentpad** als **conf** > **Wij.Detailhandel** > **instellingen** > **wcm** > **segmenten** en klik op **Selecteren**.
 
    1. Klikken **Opslaan en sluiten**.
+
    >[!NOTE]
    >
    >Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
@@ -67,15 +68,15 @@ Voer de onderstaande stappen uit om het activeren van uw doelbestanden in te sch
 
    >[!NOTE]
    >
-   >Als u alles correct hebt ingesteld, ziet u **Doelstelling** in de drop-down van de redacteur, zoals aangetoond in het hieronder cijfer.
+   >Als u alles correct hebt ingesteld, ziet u **Targeting** in de drop-down van de redacteur, zoals aangetoond in het hieronder cijfer.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Klikken **Doelstelling**.
+1. Klikken **Targeting**.
 
 1. Selecteren **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
 
-### Meer informatie: Voorbeelden {#learn-more-example-use-cases}
+### Meer informatie: voorbeelden gebruiken {#learn-more-example-use-cases}
 
 Nadat u ContextHub voor uw project van AEM Screens hebt gevormd, kunt u de verschillende Gevallen van het Gebruik volgen om te begrijpen hoe de gegevens teweeggebrachte activa een vitale rol in verschillende industrieën spelen:
 

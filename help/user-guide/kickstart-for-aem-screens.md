@@ -6,9 +6,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -29,13 +29,13 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 
 >[!IMPORTANT]
 >**OSGi-configuratie-instellingen**
->U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen. Momenteel zijn enkele van deze functies alleen beschikbaar als het filter Lege waarden toestaan van Apache-verwijzing is ingeschakeld in de OSGi-configuratie. Op het dashboard kan een waarschuwing worden weergegeven dat sommige van deze functies mogelijk niet kunnen worden gebruikt vanwege beveiligingsinstellingen.
+>U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen. Momenteel zijn enkele van deze functies alleen beschikbaar als het filter Lege waarden toestaan van Apache-verwijzing is ingeschakeld in de OSGi-configuratie. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
 >Voer de onderstaande stappen uit om de ***Lege filter Apache-schuifverwijzing toestaan***:
 
 
 ## Lege verwijzingsverzoeken toestaan {#allow-empty-referrer-requests}
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM instantie —> hamerpictogram —> **Bewerkingen** —> **Webconsole**.
+1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM instantie > hamerpictogram > **Bewerkingen** > **Webconsole**.
 
    ![afbeelding](assets/config/empty-ref1.png)
 
@@ -47,7 +47,7 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 
    ![afbeelding](assets/config/empty-ref2.png)
 
-1. Klikken **Opslaan** om het filter Apache Sling Referrer (Leeg toestaan) in te schakelen.
+1. Klikken **Opslaan** om het filter Apache Sling Referrer inschakelen Leeg toestaan.
 
 ## Een Digital Signage-ervaring maken in 5 minuten {#creating-a-digital-signage-experience-in-minutes}
 
@@ -152,13 +152,13 @@ Nadat u een locatie hebt gemaakt, moet u een nieuwe weergave voor uw locatie mak
 
 Zodra de projectopstelling volledig is, moet u het kanaal aan een vertoning toewijzen om de inhoud te bekijken.
 
-1. Ga vanuit **DemoScreens** —> **Locaties** —> **TestLocation** —> **LobbyDisplay**.
+1. Ga vanuit **DemoScreens** > **Locaties** > **TestLocation** > **LobbyDisplay**.
 
 1. Tikken/klikken **Kanaal toewijzen** in de actiebalk.
 
    ![afbeelding](assets/kickstart/demo-assign1.png)
 
-   Of
+   Of,
 
    Tikken/klikken **Dashboard** op de actiebalk en klik op **+Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
@@ -191,13 +191,12 @@ U moet het apparaat registreren via het AEM dashboard.
 >
 >1. Klikken [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
 >1. Pak het uit en sla het op de schijf op.
->1. Chrome openen en **Extensies** in het menu of rechtstreeks navigeer naar ***chrome://extensions***.
+>1. Chrome openen en **Extensies** in het menu of rechtstreeks door ***chrome://extensions***.
 >1. Schakel de **Modus Ontwikkelaar** in de rechterbovenhoek.
 >1. Klikken op **Niet-verpakt laden** in de linkerbovenhoek en geladen niet-gecomprimeerde Chrome Player.
 >1. Controleren **AEM Screens Chrome Player** insteekmodule indien beschikbaar in de lijst met extensies.
 >1. Open een nieuw tabblad en klik op de knop **Apps** vanuit de linkerbovenhoek, of rechtstreeks naar ***chrome://apps***.
 >1. Klikken op **AEM Screens** Insteekmodule voor het starten van Chrome Player. Standaard wordt de speler gestart in de modus Volledig scherm. Druk **esc** om de modus Volledig scherm af te sluiten.
-
 
 Wanneer uw Chrome OS-speler is ingeschakeld, voert u de onderstaande stappen uit om een Chrome-apparaat te registreren.
 
@@ -207,7 +206,7 @@ Wanneer uw Chrome OS-speler is ingeschakeld, voert u de onderstaande stappen uit
 
    ![afbeelding](assets/kickstart/demo-register1.png)
 
-1. Tik/klik op de knop **Apparaatregistratie** vanaf de rechterbovenhoek.
+1. Tik/klik op de knop **Apparaatregistratie** van rechtsboven.
 
 1. Selecteer het vereiste apparaat en tik/klik **Apparaat registreren**.
 
@@ -226,7 +225,7 @@ Wanneer uw Chrome OS-speler is ingeschakeld, voert u de onderstaande stappen uit
 
    ![afbeelding](assets/kickstart/demo-register5.png)
 
-1. Selecteer het pad naar uw weergave als **DemoScreens** —> **Locaties** —> **TestLocation** —> **LobbyDisplay** en klik op **Toewijzen**.
+1. Selecteer het pad naar uw weergave als **DemoScreens** > **Locaties** > **TestLocation** > **LobbyDisplay** en klik op **Toewijzen**.
 
    ![afbeelding](assets/kickstart/demo-device6.png)
 
