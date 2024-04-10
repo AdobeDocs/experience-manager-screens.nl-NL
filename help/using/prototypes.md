@@ -1,12 +1,10 @@
 ---
 title: Prototypen
-seo-title: Prototypes
 description: Deze pagina beschrijft Prototypen voor een Project van AEM Screens
-seo-description: The page describes Prototypes for an AEM Screens Project
 exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -17,18 +15,18 @@ ht-degree: 0%
 >
 >De typische belanghebbende voor deze activiteit is een Marketing/Bedrijfs Strategist.
 
-Het is belangrijk om de ideeën, veronderstellingen en gebiedsdelen te testen die eerder in de Kaart van de Reis van UX door het gebruiken van het prototypen van UX werden bepaald.
+Het is belangrijk om de ideeën, de veronderstellingen, en de gebiedsdelen te testen die eerder in de Kaart van de Reis van UX door het prototypen van UX worden bepaald te gebruiken.
 
-In deze fase van het project maken we ons meer zorgen over kernfunctionaliteit en minder over het verfijnen van de werkelijke UX.
+In deze fase van het project, zou u zich meer over kernfunctionaliteit en minder over het verfijnen van daadwerkelijke UX moeten ongerust maken.
 
-Doorgaans wordt inhoud van het type sample of FPO in dit stadium gebruikt om de projectbeheerder en de belangrijkste belanghebbenden te helpen belangrijke hiaten in de UX-stroom en eventuele tijdproblemen met het afspelen en verwante triggergebeurtenissen te identificeren.
+In dit stadium wordt doorgaans de inhoud van het voorbeeld of de FPO gebruikt. Het helpt de projectmanager en belangrijkste belanghebbenden om het even welke belangrijke hiaten in de stroom van UX en om het even welke timingsproblemen met de playback en verwante trekkergebeurtenissen te identificeren.
 Deze fase kan ook mogelijke problemen met positionering, schaal en grootte van bedrijfsmiddelen aan het licht brengen.
 
-Door prototypes van de ervaring, kunnen wij diverse scenario&#39;s voor simuleren hoe de inhoud zal worden verbruikt, welke interactie kan voorkomen en welke externe gegevensgebiedsdelen een verstoring van de voorgenomen stroom van de ervaring kunnen veroorzaken.
+Door prototypen van de ervaring te maken, kunt u verschillende scenario&#39;s simuleren voor de manier waarop de inhoud wordt verbruikt, welke interacties kunnen optreden en welke externe gegevensafhankelijkheden een verstoring van de bedoelde stroom van de ervaring kunnen veroorzaken.
 
-Er zijn verschillende voorbeelden van Gebruiksscenario&#39;s gemaakt die als referentie of uitgangspunt dienen voor het maken van prototypen van specifieke ervaringen.
+Er zijn verschillende voorbeelden van Gebruiksscenario&#39;s gemaakt die als referentie of uitgangspunt dienen voor het maken van prototypen van bepaalde ervaringen.
 
 
 >[!NOTE]
 > Bevestig tijdens de UX-ontwerpfase dat het UI-ontwerp voldoende kan worden ondersteund door de geëxtraheerde gegevens.
-> Bijvoorbeeld, is het waarschijnlijk dat niet alle besluitvormers met de gegevensstructuur van hun productgegevensbestand vertrouwd zijn. Zij kunnen beschrijvers op hun oplossing kiezen UX die geen primaire gebieden in de gegevenslaag zijn. Wanneer vroegtijdig wordt vastgesteld waar manipulatie van de gegevens nodig kan zijn en deze aan de klant wordt meegedeeld, worden misverstanden later voorkomen. Als de klant besluit de UI-labels uit te breiden of te wijzigen nadat de ontwikkeling is gestart, is meer moeite nodig om de wijzigingen aan te brengen.
+> Het is bijvoorbeeld waarschijnlijk dat niet alle besluitvormers bekend zijn met de gegevensstructuur van hun productdatabase. Zij kunnen beschrijvers op hun oplossing kiezen UX die geen primaire gebieden in de gegevenslaag zijn. Het vroegtijdig identificeren waar manipulatie van de gegevens noodzakelijk kan zijn en het meedelen van het aan de cliënt verhindert misverstanden later. Als de client besluit de UI-labels uit te breiden of te wijzigen nadat de ontwikkeling is gestart, is meer moeite nodig om de wijzigingen aan te brengen.

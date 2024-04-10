@@ -1,38 +1,36 @@
 ---
-title: Overgang naar Platform
-seo-title: Transition to Platform for AEM Screens
-description: De pagina beschrijft overgang naar Platform
-seo-description: The page describes Transition to Platform
+title: Overgang naar platform
+description: Meer informatie over de overgang naar Platform in AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
-# Overgang naar Platform {#transition-platform}
+# Overgang naar platform {#transition-platform}
 
 >[!NOTE]
 >
 >De meest gangbare belanghebbenden voor deze activiteit zijn een AEM Implementor.
 
-Naarmate ons project van een strategische visie naar een gedraadiseerde realiteit is gevorderd, moeten we nu beginnen met het voorbereiden van de taken die nodig zijn om daadwerkelijk een screens-project op te zetten in AEM die we kunnen implementeren.
+Aangezien uw project van een strategische visie aan een wireframed werkelijkheid is voortgegaan, zou u nu voor de taken moeten beginnen noodzakelijk om een project van de Schermen in AEM te creëren die u kunt opstellen.
 
-Dit omvat het in kaart brengen van platformspecifieke configuraties aan los bepaalde vereisten die in de prototypefase worden bepaald.
+Dit project omvat het in kaart brengen van platform-specifieke configuraties aan los bepaalde vereisten die in de prototypefase worden bepaald.
 
-Voorbeelden hiervan zijn hoe en wanneer u wilt gebruiken:
+Voorbeelden zijn hoe en wanneer u het volgende wilt gebruiken:
 
-* **Ervaar fragmenten** voor het maken van inhoudsgroepen
-* **Inhoudsfragmenten** voor het maken van tekstvariaties
-* **Context Hub** voor het maken van externe gegevensopslagruimten, SPA voor interactieve ervaringen
-* **OSGi-diensten** voor netwerkwaarschuwingen
-* **Elementkoppeling** voor Creative Cloud-sourcing
-* **Netwerkmappen** voor middelenallocatie
-* **Tekstbedekking** voor realtime gegevens
-* **Planningen** voor weergave-/kanaalgroepen
+* **Ervaar fragmenten** voor het maken van inhoudsgroepen.
+* **Inhoudsfragmenten** voor het maken van tekstvariaties.
+* **Context Hub** voor het creëren van externe gegevensopslag, SPA voor interactieve ervaringen.
+* **OSGi-diensten** voor netwerkwaarschuwingen.
+* **Koppeling met middelen** voor Creative Cloud sourcing.
+* **Netwerkmappen** voor de toewijzing van activa.
+* **Tekstbedekking** voor realtime gegevens.
+* **Planningen** voor weergave-/kanaalgroepen.
 * **Workflows** voor automatische inhoudsbewerkingen.
 
-In deze fase, is het belangrijk om alle vereiste taken en activiteiten te herzien die aandacht zullen vereisen en hen behoorlijk zullen documenteren zodat de toegewezen taken behoorlijk spoor-in de plaatsingsfase kunnen zijn.
+In deze fase, herzie alle vereiste taken en activiteiten die aandacht vereisen en behoorlijk hen documenteer zodat kunnen de toegewezen taken behoorlijk in de plaatsingsfase worden gevolgd.
 
-We moeten ook alle vooraf gedefinieerde activiteiten als mogelijke kandidaten voor automatisering in deze fase bekijken.
+Bovendien moet u alle vooraf gedefinieerde activiteiten als mogelijke kandidaten voor automatisering in deze fase bekijken.

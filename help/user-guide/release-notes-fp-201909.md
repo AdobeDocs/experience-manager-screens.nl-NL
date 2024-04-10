@@ -1,15 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 201909
-seo-title: Release Notes for Feature Pack 201909
-description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 201909, uitgebracht op 31 juli 2019.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201909 released on October 07, 2019.
+description: Release-aantekeningen voor AEM Screens Feature Pack 201909, uitgebracht op 31 juli 2019.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
+>We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor AEM 6.3-schermplatform.
 
 AEM Screens heeft AEM 6.4.6 Feature Pack 6 en AEM 6.5.2 Feature Pack 2 uitgebracht, met de volgende details.
 
@@ -30,33 +28,33 @@ De releasedatum voor AEM Screens Feature Pack 2019 is 7 oktober 2019.
 
 * **Verbeterde UI-updates voor het maken van schermproject**
 
-   De bijgewerkte gebruikersinterface voor het creëren van een nieuw het schermproject is nu beschikbaar. U kunt een nieuw project van het Scherm met weinig eenvoudige kliks tot stand brengen. Bovendien heeft het eigenschappentabblad voor elk project nu een meer intuïtieve gebruikersinterface.
+  De bijgewerkte gebruikersinterface voor het maken van een AEM Screens-project is nu beschikbaar. U kunt een project van het Scherm met weinig eenvoudige kliks tot stand brengen. Bovendien heeft het tabblad Eigenschappen voor elk project nu een intuïtievere gebruikersinterface.
 
-   Zie [Een nieuw schermproject maken](creating-a-screens-project.md) voor meer informatie .
+  Zie [Een nieuw schermproject maken](creating-a-screens-project.md) voor meer informatie .
 
-* **Verbeterd apparaatdashboard:**
+* **Verbeterd apparaatdashboard**
 
-   Het apparaatdashboard toont de apparaatinformatie, status, screenshot, logboeken, voorkeuren en de apparaatdetails waarmee u de apparaatactiviteiten en -functies kunt controleren. De deelvensters worden nu bijgewerkt.
+  Het dashboard van het apparaat toont de apparateninformatie, de status, de screenshots, logboeken, voorkeur, en de apparatendetails die u de apparatenactiviteiten en de functies laten controleren. De deelvensters worden nu bijgewerkt.
 
-   Zie [Problemen oplossen in Device Control Center](monitoring-screens.md) voor meer informatie .
+  Zie [Problemen oplossen in Device Control Center](monitoring-screens.md) voor meer informatie .
 
 * **Ingeschakelde time-out om toetsenbordinteractie toe te staan**
 
-   Schakel afstandsbedieningen in als alternatief voor aanraakborden. De aanraking om op elkaar in te werken en de activiteit timeout behandelt toetsenbordinput.
+  Schakel afstandsbedieningen in als alternatief voor aanraakschermen. De aanraking om op elkaar in te werken en de activiteit timeout behandelt toetsenbordinput.
 
 * **Offlineconfiguraties in Experience Fragments**
 
-   U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen tijdens het configureren van rasterervaringsfragment.
+  U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen tijdens het configureren van schermafbeeldingsfragment.
 Zie [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md) voor meer informatie .
 
-### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers
 
 De volgende AEM Screens Players worden vrijgegeven voor AEM 6.4.6 Pak van de Eigenschap 6 en AEM 6.5.2 Pak 2 van de Eigenschap:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player
 
 Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [**Downloads voor AEM Screens Player**](https://download.macromedia.com/screens/).

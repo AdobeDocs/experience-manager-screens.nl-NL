@@ -1,12 +1,13 @@
 ---
 title: Release-aantekeningen voor schermfunctie Pack 202401
-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202401 uitgebracht op 2 januari 2024.
+description: Meer informatie over AEM Screens Feature Pack 202401 uitgebracht op 2 januari 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
+exl-id: 9879f339-e70f-446d-acd3-380016269f27
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Het wordt aanbevolen een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). We kunnen de meest recente versiegegevens ophalen van [hier](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>Het wordt aanbevolen een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de meest recente versiegegevens ophalen vanuit [hier](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Beschikbaarheid {#availability}
 
@@ -24,7 +25,7 @@ U kunt het nieuwste functiepakket voor de AEM Screens 6.5.11.1-versie downloaden
 
 ## Releasedatum {#release-date}
 
-De releasedatum voor AEM Screens Feature Pack 202204 is 2024 jan.
+De releasedatum voor AEM Screens Feature Pack 202204 is 20 januari 2024.
 
 ### Wat is er nieuw? {#what-is-new}
 

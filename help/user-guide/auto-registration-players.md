@@ -5,16 +5,16 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
 
 # Automatische registratie van spelers {#auto-registration}
 
-Bulk die duizenden spelers handmatig registreert, kan omslachtig worden en zorgt voor meer tijd en kosten. Om dit proces te vereenvoudigen, staat de bulkregistratiefunctie u toe om een pre-gedeelde sleutel in AEM te specificeren die in een speler of door een configuratiedossier of een Mobiel Apparaatbeheer (MDM) oplossing kan worden voorzien.
+Bulk die duizenden spelers handmatig registreert, kan omslachtig worden en zorgt voor meer tijd en kosten. Om dit proces te vereenvoudigen, laat de bulkregistratiefunctie u een pre-gedeelde sleutel in AEM specificeren die in een speler of door een configuratiedossier of een Mobiel Apparaatbeheer (MDM) oplossing kan worden provisioned.
 
 ## Automatische registratie van spelers implementeren {#bulk-registering-implementation}
 

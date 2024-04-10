@@ -1,33 +1,30 @@
 ---
 title: Adobe Analytics configureren met AEM Screens
-seo-title: Configuring Adobe Analytics with AEM Screens
-description: Volg deze sectie voor meer informatie over het volgen en verzenden van aangepaste gebeurtenissen met gebruik van Offline Adobe Analytics
-seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
-uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
+description: Meer informatie over het rangschikken en verzenden van aangepaste gebeurtenissen via Offline Adobe Analytics.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics configureren met AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.4.2 Feature Pack 2 en AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd.
+>This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, moet u de Steun van Adobe contacteren en toegang verzoeken. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
@@ -36,7 +33,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 ## Sequentie in Adobe Analytics met AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-De ***volgordeproces*** begint met de gegevensopslagservice die de Adobe Analytics-service activeert. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de vangst van de gegevenstest aan Vensters I/O en de gebeurtenissen van het verblijf wordt teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma, de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
+De ***volgordeproces*** begint met de gegevensopslagservice die de Adobe Analytics-service activeert. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de vangst van de gegevenstest aan Vensters I/O en de gebeurtenissen van het verblijf wordt teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd een maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
 
 ### Scheidingsdiagram {#sequencing-diagram}
 
@@ -61,7 +58,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
   </tr>
   <tr>
    <td><strong><em>Kern/gebeurtenis</em></strong></td> 
-   <td>GUID gebeurtenis</td> 
+   <td>GUID van gebeurtenis</td> 
    <td>event.guid</td> 
    <td>aanbevolen</td> 
    <td>string</td> 
@@ -84,7 +81,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>aanbevolen</td> 
    <td>string</td> 
    <td>timestamp - UTC</td> 
-   <td>Begindatum van gebeurtenis, als u dit NIET opgeeft, wordt de tijd van de gebeurtenis aangenomen op het tijdstip dat deze door de server is ontvangen</td> 
+   <td>Tijdstip van begindatum van gebeurtenis, als u dit niet hebt opgegeven, wordt de tijd van de gebeurtenis aangenomen als het tijdstip waarop deze door de server is ontvangen</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -111,7 +108,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Hoofdcategorie (BUREAUBLAD, MOBIEL, WEB, PROCESS, SDK, SERVICE, ECOSYSTEEM) - Groepering van gebeurtenistypen - <strong>We sturen speler</strong></td> 
+   <td>Hoofdcategorie (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Groepering van gebeurtenistypen - <strong>Speler verzonden</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -120,7 +117,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>aanbevolen</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Subcategorie - Sectie van een workflow of gebied van een scherm, enz. (Recente bestanden, CC-bestanden, mobiele ontwerpen enzovoort.)</td> 
+   <td>Subcategorie - Sectie van een werkstroom, of Gebied van een scherm, etc. (Recente bestanden, CC-bestanden, mobiele ontwerpen enzovoort.)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -138,7 +135,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>aanbevolen</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Subtype gebeurtenis (maken, bijwerken, verwijderen, publiceren, enz.) - Aanvullende details van de actie van de gebruiker</td> 
+   <td>Subtype gebeurtenis (maken, bijwerken, verwijderen, publiceren, enzovoort) - Meer informatie over de actie van de gebruiker</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -147,7 +144,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>optioneel</td> 
    <td>boolean</td> 
    <td> </td> 
-   <td>Gebeurtenis gegenereerd terwijl de handeling offline/online was (true/false)</td> 
+   <td>Gebeurtenis gegenereerd tijdens offline/online actie (true/false)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -174,7 +171,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>optioneel</td> 
    <td>string<br /> </td> 
    <td>UUID</td> 
-   <td>Identificeert het Apparaat GUID (b.v. machine identiteitskaart of knoeiboel van IP adres + subnet masker + netwerk identiteitskaart + gebruikersagent) - hier zullen wij de gebruikersbenaming van de speler verzenden die bij registratietijd wordt geproduceerd.</td> 
+   <td>Identificeert het Apparaat GUID (bijvoorbeeld, machine identiteitskaart of knoeiboel van IP adres + subnet masker + netwerk identiteitskaart + gebruikersagent) - hier wordt de gebruikersbenaming van de speler die bij registratietijd wordt geproduceerd verzonden.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -183,7 +180,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>optioneel</td> 
    <td>getal</td> 
    <td> </td> 
-   <td>Aantal keer dat de gebeurtenis heeft plaatsgevonden - Hier wordt de videoduur verzonden</td> 
+   <td>Aantal keren dat de gebeurtenis heeft plaatsgevonden - De videoduur wordt verzonden</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -192,7 +189,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>optioneel</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Waarde van de gebeurtenis (bijv. instellingen aan/uit)</td> 
+   <td>Waarde van de gebeurtenis (bijvoorbeeld instellingen aan/uit)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -240,7 +237,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>Beschrijving fout<br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>Bron/product van oorsprong</em></strong></td> 
+   <td><strong><em>Bron/oorsprong product</em></strong></td> 
    <td>Naam</td> 
    <td>source.name</td> 
    <td>vereist</td> 
@@ -291,7 +288,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
-   <td>De URL naar het element inclusief de vertoning die daadwerkelijk is afgespeeld</td> 
+   <td>De URL naar het element inclusief de vertoning die is afgespeeld</td> 
   </tr>
   <tr>
    <td> </td> 

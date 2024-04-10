@@ -1,15 +1,14 @@
 ---
 title: Activering op kanaalniveau - Afspelen van één gebeurtenis
-seo-title: Channel Level Activation - Single Event Playback
-description: Volg deze handleiding om de activering van het kanaalniveau te begrijpen met het afspelen van één gebeurtenis.
+description: Meer informatie over activering op kanaalniveau met het afspelen van één gebeurtenis.
 topic-tags: authoring
 feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -62,7 +61,7 @@ In de volgende afbeelding wordt de **Activering op kanaalniveau** project met **
 
 >[!NOTE]
 >
->Raadpleeg de volgende bronnen voor meer informatie over het maken van een project en het maken van een volgnummer:
+>Zie de volgende bronnen voor aanvullende informatie over het maken van een project en het maken van een sequentiekanaal:
 >
 >* [Projecten maken en beheren](creating-a-screens-project.md)
 >
@@ -87,7 +86,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    >[!NOTE]
    >
-   >Raadpleeg voor meer informatie over het maken van een locatie **[Locaties maken en beheren](managing-locations.md)**.
+   >Ga voor meer informatie over het maken van een locatie naar **[Locaties maken en beheren](managing-locations.md)**.
 
 1. **Weergave onder locatie maken**
 
@@ -103,12 +102,12 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
    1. **Kanaaltoewijzing** wordt geopend.
-   1. Selecteren **Referentiekanaal**.. per pad.
+   1. Selecteren **Referentiekanaal** per pad.
    1. Selecteer de **Kanaalpad** als **Activering op kanaalniveau** > ***Kanalen*** > ***MainAdChannel***.
    1. De **Kanaalrol** is gevuld als **hoofdkanaal**.
    1. Selecteer de **Prioriteit** als **1**.
    1. Selecteer de **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting** en **Niet-actief scherm**.
-   1. Klikken **Opslaan**.
+   1. Selecteren **Opslaan**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
@@ -120,35 +119,35 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
    1. **Kanaaltoewijzing** wordt geopend.
-   1. Selecteren **Referentiekanaal**.. per pad.
+   1. Selecteren **Referentiekanaal** per pad.
    1. Selecteer de **Kanaalpad** als **Activering op kanaalniveau*** > ***Kanalen*** > ***TargetedSinglePlay***.
    1. De **Kanaalrol** is gevuld als **doelgericht**.
    1. Stel de **Prioriteit** als **2**.
-   1. Selecteer de **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting**, **Niet-actief scherm** en **Timer**, *zoals weergegeven in de onderstaande afbeelding.
-   1. Kies in **actief van** 27 november 2018, 11:59 en in **actief tot** 28 november 2018 12:05
-   1. Klikken **Opslaan**.
+   1. Selecteer de **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Timer**, zoals weergegeven in onderstaande afbeelding.
+   1. Kies in **actief van** 27 november 2018 11:59 **actief tot** 28 november 2018 12:05
+   1. Selecteren **Opslaan**.
 
    >[!CAUTION]
    >
-   >U moet de prioriteit instellen voor **TargetedSinglePlay** kanaal hoger dan **MainAdSegment** kanaal.
+   >De prioriteit instellen voor **TargetedSinglePlay** kanaal hoger dan **MainAdSegment** kanaal.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   >Als u dezelfde dag wilt kiezen, moet u de volgende dag selecteren en de datum handmatig op dezelfde dag maar voor een later tijdstip bewerken. Hierdoor kan de gebruiker geen datum uit het verleden selecteren. Raadpleeg het onderstaande voorbeeld:
+   >Als u dezelfde dag wilt kiezen, selecteert u de volgende dag en bewerkt u de datum vervolgens handmatig naar dezelfde dag, maar voor een later tijdstip. Als u dit doet, kan de gebruiker geen datum uit het verleden selecteren. Zie het volgende voorbeeld:
 
    ![new1](assets/new1.gif)
 
 ## De resultaten bekijken {#viewing-the-results}
 
-Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave voltooid is, start u de AEM Screens-speler om de inhoud weer te geven.
+Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave is voltooid, start u de AEM Screens-speler om de inhoud weer te geven.
 
-De speler geeft de inhoud van **MainAdChannel** en precies om 11:59 uur (zoals bepaald in het schema), **TargetedSinglePlay** het kanaal zal zijn inhoud tot 12:05 en dan tonen **MainAdChannel** wordt het afspelen van de inhoud hervat.
+De speler geeft de inhoud van **MainAdChannel** en precies om 23:59 (zoals bepaald in het schema), de **TargetedSinglePlay** het kanaal toont zijn inhoud tot 12:05 A.M. en toen **MainAdChannel** hervat het afspelen van de inhoud.
 
 >[!NOTE]
 >
->Raadpleeg de volgende bronnen voor meer informatie over AEM Screen Player:
+>Zie de volgende bronnen voor meer informatie over AEM Screen Player:
 >[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)
 >[Werken met AEM Screens Player](working-with-screens-player.md)
 
@@ -161,7 +160,7 @@ Stel dat u de inhoud van een kanaal alleen op vrijdag van 13.00 uur tot 10.00 uu
 
 ### Dagverdeling {#day-parting}
 
-1. Selecteer het kanaal en klik op **Dashboard** van de actiebalk om het kanaaldashboard te openen.
+1. Selecteer het kanaal en selecteer vervolgens **Dashboard** in de actiebalk.
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
 
@@ -169,7 +168,7 @@ Stel dat u de inhoud van een kanaal alleen op vrijdag van 13.00 uur tot 10.00 uu
    >
    >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
 
-1. Voer de expressie in de **Schema** en uw middel zal voor het bepaalde interval van dag en tijd tonen.
+1. Voer de expressie in de **Schema** en uw activa toont voor het bepaalde interval van dag en tijd.
 
 #### Voorbeeldexpressies voor dagparatie {#example-one}
 
@@ -177,21 +176,21 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
-| vóór 8:00 | het middel in het kanaal speelt vóór 20:00 uur dagelijks |
-| 14:00 | het middel in het kanaal speelt na 2:00 pm dagelijks af |
-| na 12:15 en vóór 12:45 | het middel in het kanaal speelt na 12:15 elke dag gedurende 30 minuten af |
-| vóór 12:15 ook na 12:45 | het middel in het kanaal speelt vóór 12:15 elke dag en dan ook na 12:45 uur af |
-| Mon,Tue,Wed of MonWed | het actief vanaf maandag tot en met woensdag in het kanaal wordt afgespeeld |
-| op de eerste dag van januari na 23.00 uur ook op de tweede dag van januari, ook op de derde dag van januari vóór 15.00 uur | het middel in het kanaal begint na 1 januari om 2:00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3:00 uur op 3 januari |
-| op de 1-2 dag van januari na 2:00 uur, ook op de 2-3 dag van januari vóór 15.00 uur | Het middel in het kanaal begint speler na 1 januari om 2:00 uur, blijft spelen tot 2 januari om 3:00 uur, dan begint het opnieuw op 2 januari om 2:00 uur en blijft spelen tot 3:00 uur op 3 januari |
+| vóór 8:00 | Het middel in het kanaal speelt vóór 8:00 a.m. dagelijks |
+| na 2:00 | Het middel in het kanaal speelt na 2:00 p.m. dagelijks af |
+| na 12:15 en vóór 12:45 | Het middel in het kanaal speelt na 23:15 uur elke dag gedurende 30 minuten af |
+| vóór 12:15 ook na 12:45 | Het middel in het kanaal speelt vóór 12:15 elke dag en dan ook na 12:45 uur. |
+| Mon,Kleurtoon,Wed of MonWed | het actief vanaf maandag tot en met woensdag in het kanaal wordt afgespeeld |
+| op de eerste dag van januari na 2:00 uur, ook op de tweede dag van januari, ook op de derde dag van januari vóór 3:00 uur. | het middel in het kanaal begint na 1 januari om 2.00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3.00 uur &#39;s middags op 3 januari |
+| op de 1-2 dagen van januari na 2:00 uur, ook op de 2-3 dagen van januari vóór 3:00 uur. | Het middel in het kanaal start speler na 1 januari om 2:00 uur, gaat verder met afspelen tot 2 januari om 3:00 uur &#39;s middags, vervolgens begint het opnieuw op 2 januari om 2:00 uur &#39;s middags en wordt verder afgespeeld tot 3:00 uur &#39;s middags op 3 januari |
 
 >[!NOTE]
 >
->U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
+>U kunt ook _militaire tijd_ notatie (14:00) in plaats van *A.M./P.M.* (14:00)
 
 ### WeekParting {#week-parting}
 
-1. Selecteer het kanaal en klik op **Dashboard** van de actiebalk om het kanaaldashboard te openen.
+1. Selecteer het kanaal en selecteer vervolgens **Dashboard** in de actiebalk.
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
 
@@ -199,7 +198,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
    >
    >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
 
-1. Voer de expressie in de **Schema** en uw middel zal voor het bepaalde interval van dag en tijd tonen.
+1. Voer de expressie in de **Schema** en uw activa toont voor het bepaalde interval van dag en tijd.
 
 #### Voorbeelden van expressies voor WeekParting {#example-two}
 
@@ -207,20 +206,20 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
-| Mon,Tue,Wed of MonWed | het actief vanaf maandag tot en met woensdag in het kanaal wordt afgespeeld |
-| vóór 8:00 | het middel in het kanaal speelt vóór 20:00 uur dagelijks |
-| 14:00 | het middel in het kanaal speelt na 2:00 pm dagelijks af |
-| na 12:15 en vóór 12:45 | het middel in het kanaal speelt na 12:15 elke dag gedurende 30 minuten af |
-| vóór 12:15 ook na 12:45 | het kanaal wordt dagelijks vóór 12:15 uur afgespeeld en vervolgens ook na 12:45 uur |
+| Mon,Kleurtoon,Wed of MonWed | het actief vanaf maandag tot en met woensdag in het kanaal wordt afgespeeld |
+| vóór 8:00 | Het middel in het kanaal speelt vóór 8:00 a.m. dagelijks |
+| na 2:00 | Het middel in het kanaal speelt na 2:00 p.m. dagelijks af |
+| na 12:15 en vóór 12:45 | Het middel in het kanaal speelt na 23:15 uur elke dag gedurende 30 minuten af |
+| vóór 12:15 ook na 12:45 | Het kanaal speelt vóór 12:15 elke dag en dan ook na 12:45 |
 
 >[!NOTE]
 >
->U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
+>U kunt ook _militaire tijd_ notatie (14:00) in plaats van *A.M./P.M.* (14:00)
 
 
 ### MonthParting {#month-parting}
 
-1. Selecteer het kanaal en klik op **Dashboard** van de actiebalk om het kanaaldashboard te openen.
+1. Selecteer het kanaal en selecteer vervolgens **Dashboard** in de actiebalk.
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
 
@@ -228,7 +227,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
    >
    >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
 
-1. Voer de expressie in de **Schema** en uw middel zal voor het bepaalde interval van dag en tijd tonen.
+1. Voer de expressie in de **Schema** en uw activa toont voor het bepaalde interval van dag en tijd.
 
 #### Voorbeelden van expressies voor MonthParting {#example-three}
 
@@ -236,19 +235,19 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
-| van februari,mei,augustus,november | de activa spelen in februari, mei, augustus, november |
+| van `February,May,August,November` | de activa spelen in de kanalen in februari, mei, augustus, november |
 
 >[!NOTE]
 >
->Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.
+>Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte- als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en januari.
 
 >[!NOTE]
 >
->U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
+>U kunt ook _militaire tijd_ notatie (14:00) in plaats van *A.M./P.M.* (14:00)
 
 ### Combinatie van partners {#combined-parting}
 
-1. Selecteer het kanaal en klik op **Dashboard** van de actiebalk om het kanaaldashboard te openen.
+1. Selecteer het kanaal en selecteer vervolgens **Dashboard** in de actiebalk.
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
 
@@ -256,7 +255,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
    >
    >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
 
-1. Voer de expressie in de **Schema** en uw middel zal voor het bepaalde interval van dag en tijd tonen.
+1. Voer de expressie in de **Schema** en uw activa toont voor het bepaalde interval van dag en tijd.
 
 #### Voorbeelden van expressies voor de combinatie van delen {#example-four}
 
@@ -264,10 +263,10 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
-| na 6.00 uur en vóór 18.00 uur op de maan,Wed van Jan-Mar | de activa spelen in het kanaal tussen 6.00 uur en 6.00 uur op maandag en woensdag van januari tot en met eind maart |
-| op de eerste dag van januari na 23.00 uur ook op de tweede dag van januari, ook op de derde dag van januari vóór 15.00 uur | het middel in het kanaal begint na 1 januari om 2:00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3:00 uur op 3 januari |
-| op de 1-2 dag van januari na 2:00 uur, ook op de 2-3 dag van januari vóór 15.00 uur | Het middel in het kanaal begint speler na 1 januari om 2:00 uur, blijft spelen tot 2 januari om 3:00 uur, dan begint het opnieuw op 2 januari om 2:00 uur en blijft spelen tot 3:00 uur op 3 januari |
+| na 6:00 en vóór 18:00 op maandag, wijk Jan-Mar | de activa spelen in het kanaal tussen 6.00 uur en 6.00 uur op maandag en woensdag van januari tot en met eind maart |
+| op de eerste dag van januari na 2:00 uur, ook op de tweede dag van januari, ook op de derde dag van januari vóór 3:00 uur. | het middel in het kanaal begint na 1 januari om 2.00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3.00 uur &#39;s middags op 3 januari |
+| op de 1-2 dagen van januari na 2:00 uur, ook op de 2-3 dagen van januari vóór 3:00 uur. | Het middel in het kanaal start speler na 1 januari om 2:00 uur, gaat verder met afspelen tot 2 januari om 3:00 uur &#39;s middags, vervolgens begint het opnieuw op 2 januari om 2:00 uur &#39;s middags en wordt verder afgespeeld tot 3:00 uur &#39;s middags op 3 januari |
 
 >[!NOTE]
 >
->Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en Jan/januari.  Bovendien kunt u ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
+>Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte- als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en januari. U kunt ook _militaire tijd_ notatie (14:00) in plaats van *A.M./P.M.* (14:00)

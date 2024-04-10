@@ -1,15 +1,12 @@
 ---
 title: Gebeurtenissen op basis van gegevens
-seo-title: Data Driven Events
 description: null
-seo-description: null
 page-status-flag: never-activated
-uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ In Digitale signage, geven de gegevensgedreven gebeurtenissen informatie in echt
 
 ## Het gebruiken van de Hub van de Context voor Gegevens-gedreven Gebeurtenissen {#using-context-hub-for-data-driven-events}
 
-AEM Screens laat gegevens gedreven gebeurtenissen door de Hub van de Context toe. De Hub van de context, staat u toe om real time te gebruiken
+AEM Screens laat gegevens gedreven gebeurtenissen door de Hub van de Context toe. Met de Context Hub kunt u real-time gebruiken.
 
 ### Gegevensgestuurde gebeurtenissen categoriseren {#categorizing-data-driven-events}
 

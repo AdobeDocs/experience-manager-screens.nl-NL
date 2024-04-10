@@ -1,18 +1,15 @@
 ---
 title: Inhoud bijwerken als service
-seo-title: Content Update As a Service
-description: Volg deze pagina om over de Update van de Inhoud als Dienst te leren.
-seo-description: Follow this page to learn about Content Update As a Service.
-uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
+description: Meer informatie over Inhoud bijwerken als service.
 contentOwner: Jyotika syal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +20,12 @@ In deze sectie worden de volgende onderwerpen over het bijwerken van content-as-
 * **Overzicht**
 * **Bulk offline bijwerken gebruiken**
 
+<!--
 >[!CAUTION]
 >
->Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.3 Feature Pack 3 of AEM 6.4 Screens Feature Pack 1 hebt geïnstalleerd.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
 
 ## Overzicht {#overview}
 
@@ -47,10 +45,10 @@ U kunt bulk off-line update van het Gebruikersinterface (UI) manueel gebruiken o
 
 Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een AEM Screens-project:
 
-1. Navigeer naar uw AEM Screens-project.
+1. Ga naar uw AEM Screens-project.
 1. Selecteer het project en klik op **Offline inhoud bijwerken** in de actiebalk om de kanaalinhoud handmatig bij te werken.
 
-   ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
+   ![screen_shot_2018-04-24at12256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
 ### Configuratie Adobe Experience Manager-webconsole {#adobe-experience-manager-web-console-configuration}
 
@@ -71,6 +69,6 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
    >
    >Geef het projectpad op ten opzichte van het kanaal.
 
-   **Planningsfrequentie** Geef een tijd op, bijvoorbeeld 17:00 of 15:00, waarop deze service offline-inhoud moet bijwerken.
+   **Planningsfrequentie** Geef een tijd op, bijvoorbeeld 5:00 p.m. of 17:00, waarop deze service offline-inhoud moet bijwerken.
 
-1. Klikken **Opslaan** om uw instellingen op te slaan, wordt uw inhoud op het opgegeven tijdstip bijgewerkt.
+1. Selecteren **Opslaan** zodat u uw instellingen kunt opslaan. Alle inhoud wordt op het opgegeven tijdstip bijgewerkt.

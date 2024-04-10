@@ -1,13 +1,11 @@
 ---
 title: Tijdsduur afspeelafbeelding op projectniveau
-seo-title: Project Level Image Playback Duration
-description: Met deze functionaliteit kunt u de afspeelduur van afbeeldingen op projectniveau definiëren.
-seo-description: This functionality allows you to define image playback duration at the project level.
+description: Leer hoe u de duur van het afspelen van afbeeldingen definieert op projectniveau.
 contentOwner: jsyal
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +18,7 @@ Met deze functies kunt u de afspeelduur van afbeeldingen op projectniveau defini
 
 ### Vereisten {#prerequisites}
 
-Voordat u deze functie gebruikt, moet u eerst een project instellen als voorwaarde voor het implementeren van deze functie. Bijvoorbeeld,
+Voordat u deze functie gebruikt, moet u eerst een project instellen als voorwaarde voor het implementeren van deze functie. Bijvoorbeeld:
 
 1. Een AEM Screens-project maken (in dit voorbeeld: **ProjectLevelPlayback**)
 

@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De volgende pagina toont een gebruiksgeval dat op vestiging een project op benad
 ## Omschrijving hoofdletter gebruiken {#use-case-description}
 
 Met deze optie wordt uitgelegd hoe u een kanaal maakt dat *overname* in het normale afspeelkanaal voor een weergave of groep weergaven. De overname duurt een bepaalde dag en een bepaalde tijd onafgebroken.
-Bijvoorbeeld, is er een Perpetual TakeOver kanaal dat elke Vrijdag van 9.00 tot 10.00 uur tijdens deze tijd speelt, geen ander kanaal zou moeten spelen. In het volgende voorbeeld ziet u hoe u een perpetual takeover channel maakt waarmee de inhoud elke woensdag gedurende twee uur kan worden afgespeeld, van 2:00 tot 16:00 uur
+Bijvoorbeeld, is er een Perpetual TakeOver kanaal dat elke Vrijdag van 9:00 a.m. door 10:00 a.m. speelt. Tijdens deze tijd, zou geen ander kanaal moeten spelen. In het volgende voorbeeld ziet u hoe u een perpetual takeover channel maakt waarmee de inhoud elke woensdag gedurende twee uur vanaf 2.00 tot 16.00 uur kan worden afgespeeld.
 
 ### Voorwaarden {#preconditions}
 
@@ -57,7 +57,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
    >[!NOTE]
    >De **MainAdChannel** in dit voorbeeld wordt een volgnummer weergegeven waarmee inhoud continu wordt afgespeeld.
 
-1. Een **Overname** kanaal dat de inhoud in **MainAdChannel** en speelt elke woensdag van 2:00 tot 16:00 uur af
+1. Een **Overname** kanaal dat de inhoud in **MainAdChannel** en speelt elke woensdag van 2:00 tot 16:00
 
 1. Selecteer de **Overname** en klik op **Bewerken** in de actiebalk. Sleep enkele elementen naar uw kanaal. In het volgende voorbeeld ziet u hoe een afbeelding met één zone wordt toegevoegd aan dit kanaal.
 
@@ -96,7 +96,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
    * **actief van**: Begindatum en -tijd.
    * **actief tot**: Einddatum en -tijd.
 
-     De tekst in **Schema** en **actief van** en **actief tot** datum en tijd hier zodat de inhoud elke woensdag om 14.00 tot 16.00 uur kan worden afgespeeld.
+     De tekst in **Schema** en **actief van** en **actief tot** datum en tijd hier staat de inhoud toe om elke Woensdag van 2:00 p.m. tot 4:00 p.m. te spelen.
 
 
      ![element](assets/p_usecase7.png)
@@ -107,7 +107,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
      >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.
 
      ![element](assets/p_usecase8.png)
-Nu, **Overname** kanaal neemt het over **MainAdChannel** om 2:00 uur gedurende twee uur tot 16:00 uur elke woensdag en speelt de inhoud van de artikelen vanaf 9 januari 2020 tot 31 januari 2020.
+Nu, **Overname** kanaal neemt het over **MainAdChannel** om 2:00 uur voor twee uur tot 16:00 uur elke woensdag en speelt de inhoud van januari 2020 tot 31 januari 2020 af.
 
 ## Voorbeeldexpressies {#example-expressions}
 
@@ -115,13 +115,13 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
-| vóór 8:00 | het kanaal speelt vóór 8:00 uur dagelijks |
-| 14:00 | het kanaal speelt na 2:00 pm dagelijks af |
-| na 12:15 en vóór 12:45 | het kanaal wordt 30 minuten lang elke dag om 12:15 uur afgespeeld |
-| vóór 12:15 ook na 12:45 | het kanaal wordt dagelijks vóór 12:15 uur afgespeeld en vervolgens ook na 12:45 uur |
-| op de eerste dag van januari na 23.00 uur ook op de tweede dag van januari, ook op de derde dag van januari vóór 17.00 uur | Het kanaal begint na 1 januari om 2:00 uur te spelen, blijft de hele dag spelen op 2 januari tot 3:00 uur op 3 januari. |
-| op de 1-2 dagen van januari na 2:00 uur ook op de 2-3 dagen van januari vóór 3:00 uur. | Het kanaal start speler na 1 januari om 2:00 uur, gaat verder met spelen tot 2 januari om 3:00 uur, dan start het opnieuw op 2 januari om 2:00 uur en gaat verder met spelen tot 3:00 uur op 3 januari |
+| vóór 8:00 | het kanaal speelt vóór 08:00 om 00 elke dag |
+| na 2:00 | het kanaal speelt na 2:00 p.m. elke dag |
+| na 12:15 en vóór 12:45 | het kanaal speelt elke dag om 12:15 uur gedurende 30 minuten af |
+| vóór 12:15 ook na 12:45 | Het kanaal speelt vóór 12:15 elke dag en dan ook na 12:45 |
+| op de eerste dag van januari na 2:00 uur, ook op de tweede dag van januari, ook op de derde dag van januari vóór 3:00 uur. | het kanaal begint na 1 januari om 14.00 uur af te spelen, gaat de hele dag door met afspelen op 2 januari tot 3.00 uur &#39;s middags op 3 januari |
+| op de 1-2 dagen van januari na 2:00 uur, ook op de 2-3 dagen van januari vóór 3:00 uur. | Het kanaal start speler na 1 januari om 2:00 uur, gaat verder met spelen tot 2 januari om 3:00 uur &#39;s middags, dan begint het opnieuw op 2 januari om 2:00 uur &#39;s middags en wordt verder afgespeeld tot 3:00 uur &#39;s avonds op 3 januari |
 
 >[!NOTE]
 >
->U kunt ook _militaire tijd_ notatie (14:00) in plaats van *am/pm* notatie (dat wil zeggen, 14:00 uur).
+>U kunt ook _militaire tijd_ notatie (14:00) in plaats van *A.M./P.M.* (14:00)

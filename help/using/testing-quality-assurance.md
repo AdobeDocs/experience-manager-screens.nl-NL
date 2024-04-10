@@ -1,12 +1,10 @@
 ---
 title: Testen en kwaliteitsborging
-seo-title: Testing and Quality Assurance for AEM Screens
-description: De pagina beschrijft Testing and Quality Assurance for AEM Screens Best Practices Guide
-seo-description: The page describes Testing and Quality Assurance for AEM Screens Best Practices Guide
+description: Meer informatie over testen en kwaliteitsborging voor AEM Screens vindt u in de Best Practices Guide.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -16,7 +14,7 @@ ht-degree: 0%
 >[!NOTE]
 >De meest voorkomende belanghebbende bij deze activiteit is A/V-integrator.
 
-Aangezien wij dichter aan daadwerkelijke plaatsing van het digitale signaalnetwerk worden, zouden wij een Plan van de Test en van QA moeten creëren dat elk element van het netwerk met inbegrip van alle hardwarecomponenten, alle softwarecomponenten en alle voorzien van een netwerkcomponenten richt.
+Aangezien u dichter aan plaatsing van het digitale signaalnetwerk wordt, creeer een plan van de Test en van QA dat elk element van het netwerk met inbegrip van alle hardwarecomponenten, alle softwarecomponenten, en alle voorzien van een netwerkcomponenten richt.
 In de fase moeten volledige testsystemen worden gebouwd en volledig getest.
 
 Er moet een controlelijst worden gemaakt die alle eerder gedefinieerde KPI&#39;s identificeert en de te leveren items op basis daarvan meet.
@@ -38,7 +36,7 @@ De volgende mechanische overwegingen worden aanbevolen:
 * kabelbeheer
 * apparaatnetwerken
 
-## 2. Overwegingen bij software {#software-considerations}
+## 2. Softwareoverwegingen {#software-considerations}
 
 De volgende softwareoverwegingen worden geadviseerd:
 
@@ -52,7 +50,7 @@ De volgende softwareoverwegingen worden geadviseerd:
 
 AEM Screens bevat een Device Control Center-module waarmee u eindpunten van de toepassing Screens Player kunt beheren.
 
-Dit heeft betrekking op *player* hardwareapparaat waarop de toepassing Schermspeler is geïnstalleerd en die is geregistreerd bij een instantie van AEM.
+Dit heeft betrekking op *player* hardwareapparaat waarop de toepassing Schermspeler is geïnstalleerd en die is geregistreerd bij een AEM.
 Met deze module kunt u:
 
 1. Toepassingsfoutlogboeken van de speler controleren
@@ -60,28 +58,28 @@ Met deze module kunt u:
 1. Downloads van inhoud beheren
 1. Problemen met het opnieuw opstarten van toepassingen beheren
 
-Meer informatie over ***Device Control Center***, zie [Problemen oplossen in Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens-gebruikershandleiding**.
+Meer informatie over ***Device Control Center***, zie [Problemen oplossen in Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens-gebruikershandleiding**.
 
 >[!CAUTION]
 >
-> Gebruik Device Control Center niet om:
-> 1. Nieuwe versies van de spelertoepassing installeren
-> 1. Bronnen op systeemniveau controleren
-> 1. Systeemfouten oplossen
-> 1. Toestaan voor externe desktopinterventie
-
+>Gebruik Device Control Center niet om:
+>
+>* Nieuwe versies van de spelertoepassing installeren
+>* Bronnen op systeemniveau controleren
+>* Systeemfouten oplossen
+>* Toestaan voor externe desktopinterventie
 
 
 >[!NOTE]
 >
-> Adobe raadt aan dat speciale, externe apparaatbeheerplatforms worden gebruikt voor alle implementaties.
+> De Adobe beveelt aan dat speciale, externe platforms voor apparaatbeheer worden gebruikt voor alle implementaties.
 
-Het gekozen specifieke platform is afhankelijk van een aantal factoren, waaronder ***doelbesturingssysteem***, ***projectvereisten*** en ***aantal eindpunten***.
+Het gekozen specifieke platform is afhankelijk van verschillende factoren, waaronder ***doelbesturingssysteem***, ***projectvereisten***, en ***aantal eindpunten***.
 
-Enkele voorbeelden zijn:
+Hieronder volgen enkele voorbeelden:
 
 * Google Chrome-apparaatbeheer
 * TeamViewer
 * AirWatch
-* 42Gears
-* AV Integrator Middleware
+* `42Gears`
+* AV-integrator-middleware

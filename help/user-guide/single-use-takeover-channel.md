@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De volgende pagina toont een gebruiksgeval dat op vestiging een project op benad
 
 Met deze optie wordt uitgelegd hoe u een kanaal maakt dat *overname* in het normale afspeelkanaal voor een weergave of groep weergaven. De overname vindt slechts eenmaal en voor een bepaalde tijd plaats.
 
-Er is bijvoorbeeld een Single TakeOver-kanaal dat op vrijdag 9.00 tot 10.00 uur &#39;s nachts wordt afgespeeld. Er is dan geen enkel ander kanaal nodig. Voor en na deze keer wordt het overnamekanaal voor eenmalig gebruik niet afgespeeld. In het volgende voorbeeld wordt de creatie getoond van één overnamekanaal waarmee de inhoud gedurende 2 minuten vóór 12:00 uur op 31 december kan worden afgespeeld tot 12:01 uur
+Er is bijvoorbeeld een Single TakeOver-kanaal dat vanaf vrijdag 9.00 uur tot 10.00 uur &#39;s ochtends wordt afgespeeld. Tijdens deze tijd, zou geen ander kanaal moeten spelen. Voor en na deze keer wordt het overnamekanaal voor eenmalig gebruik niet afgespeeld. In het volgende voorbeeld ziet u hoe u één overnamekanaal maakt waarmee de inhoud gedurende 2 minuten vóór 12:00 uur &#39;s middags op 31 december kan worden afgespeeld tot 12:01 uur &#39;s middags.
 
 ### Voorwaarden {#preconditions}
 
@@ -94,7 +94,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
      >[!NOTE]
      >Prioriteit kan elke waarde zijn die hoger is dan de prioritaire waarde van het normale afspeelkanaal.
    * **Ondersteunde gebeurtenissen**: Selecteer de **Niet-actief scherm** en **Timer**.
-   * **Schema**: Ga de tekst voor het programma in dat u dit kanaal wilt in werking stellen de vertoning. De tekst hier staat bijvoorbeeld toe dat de inhoud 2 minuten vóór 12.00 uur op 31 december wordt afgespeeld. De tekst in het dialoogvenster **Schema** in dit voorbeeld wordt vermeld *op de 31 dag van december na 23.58 uur en ook op de 1 dag van januari vóór 00.01*.
+   * **Schema**: Ga de tekst voor het programma in dat u dit kanaal wilt in werking stellen de vertoning. De tekst hier staat bijvoorbeeld toe dat de inhoud 2 minuten vóór 12.00 uur &#39;s middags wordt afgespeeld op 31 dec tot 12.01 uur &#39;s middags. De tekst in de **Schema** in dit voorbeeld wordt vermeld *op de 31 dag van december na 23.58 uur en ook op de 1 dag van januari vóór 00.01*.
 
      ![element](assets/single-takeover8.png)
 
