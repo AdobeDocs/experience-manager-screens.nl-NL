@@ -1,15 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202001
-seo-title: Release Notes for Feature Pack 202001
-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202001 uitgebracht op 31 januari 2020.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
+description: Meer informatie over het AEM Screens Feature Pack 202001 dat op 31 januari 2020 werd uitgebracht.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
+>Voer een upgrade uit naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
 
 ## Beschikbaarheid {#availability}
 
@@ -33,28 +31,30 @@ De releasedatum voor AEM Screens Feature Pack 202001 is 31 januari 2020.
 ### Wat is er nieuw? {#what-s-new}
 
 * **Command Sync voor afspelen van element**
+
 Met Command Sync kunt u het afspelen tussen verschillende spelers synchroniseren. De spelers kunnen verschillende inhoud afspelen, maar elk element moet dezelfde duur hebben.
-Meer informatie over de Synchronisatie van het Bevel en hoe te om het hoofd en de cliënten te plaatsen, zie [Opdrachtsynchronisatie gebruiken](using-command-sync.md).
+Meer informatie over de Synchronisatie van het Bevel en hoe te om primaire en cliënten te plaatsen, zie [Opdrachtsynchronisatie gebruiken](using-command-sync.md).
 
 * **Health check framework to show status of https and allow empty reference**
+
 Met het Health Check-framework kan de gebruiker controleren of twee noodzakelijke configuraties (Allow Empty Referrer Requests en Apache Felix Jetty Based HTTP Service) zijn ingesteld voordat een AEM Screens-project wordt uitgevoerd.
 
-  Ga voor meer informatie over Health Check Framework naar [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+Ga voor meer informatie over Health Check Framework naar [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Updates voor standaardovergangstypen**
-De eigenschappen van de overgangscomponent, zoals **Type** is nu ingesteld op **Vervagen** en de **Duur** als **1600 ms**, standaard.
+De eigenschappen van de overgangscomponent, zoals **Type** is nu ingesteld op **Vervagen** en de **Duur** als **1600 milliseconden**, standaard.
 
   Zie [Overgangen toepassen](/help/user-guide/applying-transitions.md) Gebruik hoofdletters/kleine letters voor meer informatie.
 
 
-### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers
 
 De volgende AEM Screens Players worden vrijgegeven voor AEM 6.4 Pak van de Eigenschap 7 en AEM 6.5 Pak van de Eigenschap 3:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player
 
 Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [**Downloads voor AEM Screens Player**](https://download.macromedia.com/screens/).

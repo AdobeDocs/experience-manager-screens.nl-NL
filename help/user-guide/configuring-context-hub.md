@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1447'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
    >
    >1. Navigeer naar CRXDE Lite en vervolgens naar `/conf/screens/settings/cloudsettings`.
    >1. Controleren of `cloudsettings jcr:primaryType` bevindt zich in `sling:Folder`. Als de `jcr:primaryType` is niet in `sling:folder`, gaat u door met de volgende stappen.
-   >1. Klikken met rechtermuisknop `/conf/screens/settings` en maak een knooppunt met *name* als **cloudsettings1** en *Type* als **sling:map** en sla de wijzigingen op.
+   >1. Klikken met rechtermuisknop `/conf/screens/settings` en maak een knooppunt met *name* als **`cloudsettings1`** en *Type* als **`sling:Folder`** en sla de wijzigingen op.
    >1. Alle knooppunten onder verplaatsen `/conf/screens/settings/cloudsettings` tot `cloudsettings1`.
    >1. Verwijderen `cloudsettings` en opslaan.
    >1. Naam wijzigen `cloudsettings1` tot `cloudsettings` en opslaan.
@@ -110,10 +110,10 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
    >
    >Voer de volgende stappen uit in Auteur en Publiceren voor of na de upgrade.
 
-   1. Voer de **Titel** als **Google Sheets**, **Winkelnaam** als **goochelheets**, en **Winkeltype** als **contexthub.generic-jsonp** en klik op **Volgende**.
+   1. Voer de **Titel** als **Google Sheets**, **Winkelnaam** als **`googlesheets`**, en **Winkeltype** als **c`ontexthub.generic-jsonp`** en klik op **Volgende**.
 
       >[!CAUTION]
-      >Als u Adobe Experience Manager (AEM) 6.4 gebruikt, voert u de **Configuratietitel** als **goochelheets** en de **Winkeltype** als **contexthub.generic-jsonp**.
+      >Als u Adobe Experience Manager (AEM) 6.4 gebruikt, voert u de **Configuratietitel** als **`googlesheets`** en de **Winkeltype** als **c`ontexthub.generic-jsonp`**.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub6.png)
 

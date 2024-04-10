@@ -1,9 +1,6 @@
 ---
 title: Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics
-seo-title: Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics
-description: Volg deze pagina om te leren hoe te om een interactieve enige paginatoepassing in te bedden gebruikend REACT (of Angular) gebruikend de redacteur van de SPA van de AEM die door bedrijfsberoeps in AEM kunnen worden gevormd en ook hoe te om uw interactieve toepassing met off-line Adobe Analytics te integreren.
-seo-description: Follow this page to learn how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
-uuid: fb56ede0-7b36-4f47-b9e5-d806c9a3c707
+description: Leer hoe u een interactieve toepassing van één pagina insluit met REACT (of Angular) met de AEM SPA editor.
 content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
 
 # Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-In deze sectie wordt beschreven hoe u een interactieve toepassing van één pagina insluit met REACT (of Angular) met behulp van de AEM SPA-editor die door professionals in AEM kan worden geconfigureerd, en hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
+U kunt een interactieve toepassing van één pagina insluiten met REACT (of Angular). U doet dit door de AEM SPA redacteur te gebruiken die door bedrijfsberoeps in AEM wordt gevormd. U kunt ook leren hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
 
 ## De AEM SPA Editor gebruiken {#using-the-aem-spa-editor}
 
@@ -32,9 +29,9 @@ Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
 
    >[!NOTE]
    >
-   >Dit archetype leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen SPA projecten. De eigenschappen die moeten worden verstrekt wanneer het gebruiken van dit archetype staat toe om als gewenst alle delen van dit project te noemen.
+   >Dit archetype leidt tot een minimaal project van Adobe Experience Manager als uitgangspunt voor uw eigen SPA projecten. Met de eigenschappen die moeten worden opgegeven bij het gebruik van dit archetype kunt u naar wens alle onderdelen van dit project benoemen.
 
-1. Volg de readme instructies om een AEM redacteursarchetype project tot stand te brengen SPA:
+1. Als u een archetype-project voor een AEM SPA editor wilt maken, volgt u de leesmij-instructies:
 
    ```
    mvn clean install archetype:update-local-catalog
@@ -49,7 +46,7 @@ Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
 
    >[!NOTE]
    >
-   >We gebruiken de **GroupId** als ***com.adobe.aem.screens*** en de **ArtifactId** als ***Mijn SPA*** (dit zijn de standaardwaarden). U kunt zo nodig uw eigen keuze maken.
+   >In deze documentatie worden de **GroupId** als ***com.adobe.aem.screens*** en de **ArtifactId** als ***Mijn SPA*** (dit zijn de standaardwaarden). U kunt zo nodig uw eigen keuze maken.
 
 1. Zodra het project wordt gecreeerd, of gebruik winde of redacteur van uw keus en voer het geproduceerde Geweven project in.
 1. Distribueren naar uw lokale AEM met de opdracht ***mvn clean install -PautoInstallPackage***.
@@ -65,14 +62,12 @@ De inhoud bewerken in de REACT-app:
 
 Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens toe te voegen:
 
-1. Maak een nieuw AEM Screens-project. Zie [Projecten maken en beheren](creating-a-screens-project.md) voor meer informatie .
-
-1. Een nieuwe **Toepassingskanaal** (bij voorkeur) (of 1x1-sjabloon of multikanaalskanaal) in het dialoogvenster **Kanalen** map van uw project Screens.
+1. Maak een AEM Screens-project. Zie [Projecten maken en beheren](creating-a-screens-project.md) voor meer informatie .
+1. Een **Toepassingskanaal** (bij voorkeur) (of 1x1-sjabloon of multikanaalskanaal) in het dialoogvenster **Kanalen** map van uw AEM Screens-project.
 
    >[!NOTE]
-   >**Kanalen volgreeks** worden afgeraden voor dit gebruik omdat ze inherent een diapresentatielogica hebben die conflicteert met de interactieve aard van de ervaring
+   >**Kanalen volgreeks** worden afgeraden voor dit gebruiksgeval, omdat deze van nature een diapresentatielogica hebben die conflicteert met de interactieve aard van de ervaring.
    >Zie [Kanalen maken en beheren](managing-channels.md) voor meer informatie .
-
 
 1. Bewerk een willekeurig volgnummer en sleep en zet een ingesloten pagina-component neer.
 
@@ -82,11 +77,11 @@ Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens to
    >
    >Voeg de gebruikersinteractiegebeurtenis toe wanneer u het kanaal toewijst aan de weergave.
 
-1. Klikken op **Bewerken** in de actiebalk om de eigenschappen van het kanaal te bewerken.
+1. Klikken **Bewerken** in de actiebalk, zodat u de eigenschappen van het kanaal kunt bewerken.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Sleep de **Ingesloten pagina** of hergebruik de bestaande component in een toepassingskanaal en selecteer bijvoorbeeld de startpagina onder de mysamplespa-toepassing, ***/content/mysamplespa/nl/home***.
+1. Sleep de **Ingesloten pagina** of hergebruik de bestaande component in een toepassingskanaal en selecteer bijvoorbeeld de startpagina onder de mysamplespa-toepassing. ***/content/mysamplespa/nl/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -105,14 +100,14 @@ Volg de onderstaande stappen om de SPA met Adobe Analytics te integreren met off
 
 1. Adobe Analytics configureren in AEM Screens.
 
-   Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie over het uitvoeren van reeksen in Adobe Analytics met AEM Screens en het verzenden van aangepaste gebeurtenissen met behulp van offline Adobe Analytics.
+   Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie over het uitvoeren van opeenvolging in Adobe Analytics met AEM Screens en het verzenden van douanegebeurtenissen die off-line Adobe Analytics gebruiken.
 
 1. Bewerk uw reactie-app in de IDE/editor van uw keuze (met name de tekstcomponent of andere component die u wilt gebruiken om gebeurtenissen uit te zenden).
 1. Voeg bij de klikgebeurtenis of andere gebeurtenis die u voor uw component wilt vastleggen de analysegegevens toe met behulp van het standaardgegevensmodel.
 
-   Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md)Zie voor meer informatie.
+   Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie .
 
-1. Roep de AEM Screens Analytics API aan om de gebeurtenis offline op te slaan en in bursts naar Adobe Analytics te verzenden.
+1. Roep de AEM Screens Analytics API aan, zodat u de gebeurtenis offline kunt opslaan en in bursts naar Adobe Analytics kunt verzenden.
 
    Bijvoorbeeld:
 
@@ -140,4 +135,4 @@ Volg de onderstaande stappen om de SPA met Adobe Analytics te integreren met off
 
    >[!NOTE]
    >
-   >De spelerfirmware voegt automatisch meer informatie over de speler en de bijbehorende runtimeomgeving toe aan de aangepaste analysegegevens die u verzendt. Daarom hoeft u wellicht geen informatie op laag niveau over het besturingssysteem en het apparaat op te nemen, tenzij dit absoluut noodzakelijk is. U hoeft zich alleen te richten op de bedrijfsanalysegegevens.
+   >De spelerfirmware voegt automatisch meer informatie over de speler en de bijbehorende runtimeomgeving toe aan de aangepaste analysegegevens die u verzendt. Daarom moet u mogelijk, tenzij nodig, details van het besturingssysteem of het apparaat op laag niveau vastleggen. Focus op de bedrijfsanalysegegevens.

@@ -1,21 +1,17 @@
 ---
 title: Overzicht van auteur- en publicatiearchitectuur
-seo-title: Author and Publish Architectural Overview
-description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Volg deze pagina voor meer informatie over auteur en publiceer een architecturaal overzicht.
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more on author and publish architectural overview.
-uuid: 19bac3de-8938-4339-82f0-6ccb932b6684
+description: AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties.
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -30,7 +26,7 @@ Deze pagina benadrukt de volgende onderwerpen:
 
 ## Vereisten {#prerequisites}
 
-Voordat u aan de slag gaat met auteur- en publicatieservers, hebt u eerst kennis van:
+Voordat u begint met auteurservers en publicatieservers, moet u op de hoogte zijn van:
 
 * **AEM**
 * **AEM Screens-project maken en beheren**
@@ -38,32 +34,32 @@ Voordat u aan de slag gaat met auteur- en publicatieservers, hebt u eerst kennis
 
 >[!NOTE]
 >
->Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.4 Screens Feature Pack 2 hebt geïnstalleerd. Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Als u beschikt over de juiste machtigingen, kunt u deze downloaden via Pakket delen.
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.4 Screens Feature Pack 2 hebt geïnstalleerd. Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Nadat u toestemming hebt, download het van het Aandeel van het Pakket.
 
 ## Inleiding {#introduction}
 
-AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. AEM Screens-apparaten kunnen nu via het taakverdelingsmechanisme verbinding maken met een AEM publicatiefarm. De veelvoudige AEM publiceer instanties kunnen worden toegevoegd om te blijven het publicatielandbouwbedrijf schrapen.
+AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Apparaten op AEM Screens kunnen nu verbinding maken met een AEM publicatiefarm via een taakverdelingsmechanisme. De veelvoudige AEM publiceer instanties kunnen worden toegevoegd om te blijven het publicatielandbouwbedrijf schrapen.
 
-*Bijvoorbeeld*, geeft een de inhoudauteur van AEM Screens een bevel op het auteurssysteem voor een bepaald apparaat uit dat wordt gevormd om met een publicatielandbouwbedrijf of een de inhoudauteur van AEM Screens in wisselwerking te staan die informatie over apparaten verkrijgt die worden gevormd om met te communiceren publicatielandbouwbedrijven.
+*Bijvoorbeeld*, geeft een auteur van AEM Screens-inhoud een opdracht uit op het ontwerpsysteem voor een bepaald apparaat. Dat apparaat wordt gevormd om met te communiceren publiceer landbouwbedrijf of een de inhoudauteur van AEM Screens die informatie over apparaten verkrijgt die om met publicatielandbouwbedrijven worden gevormd in wisselwerking te staan.
 
-Het volgende diagram illustreert de auteur en publicatiemilieu&#39;s.
+Het volgende diagram illustreert zowel de auteursomgeving als het het publiceren milieu.
 
 ![screen_shot_2019-03-04at30236pm](assets/screen_shot_2019-03-04at30236pm.png)
 
 ## Architecturaal ontwerp {#architectural-design}
 
-Er zijn vijf architecturale componenten, die deze oplossing vergemakkelijken:
+Er zijn vijf architecturale componenten die deze oplossing vergemakkelijken:
 
 * ***Inhoud repliceren*** van auteur naar publicatie voor weergave op apparaten
 
-* ***Omkeren*** het herhalen van binaire inhoud van publiceren (die van apparaten wordt ontvangen) aan auteur
-* ***Verzenden*** opdrachten van de auteur om te publiceren via specifieke REST API&#39;s
-* ***Berichten*** tussen publicatie-instanties om updates en opdrachten voor apparaatinformatie te synchroniseren
-* ***Opiniepeiling*** door de auteur van publicatie-instanties om apparaatinformatie via specifieke REST API&#39;s te verkrijgen
+* ***Omkeren*** het repliceren van binaire inhoud van het het publiceren milieu (die van apparaten wordt ontvangen) aan het auteursmilieu.
+* ***Verzenden*** opdrachten van de auteur om te publiceren via specifieke REST API&#39;s.
+* ***Berichten*** tussen publicatie-instanties om updates en opdrachten voor apparaatinformatie te synchroniseren.
+* ***Opiniepeiling*** door de auteur van publicatie-instanties om apparaatinformatie via specifieke REST API&#39;s te verkrijgen.
 
 ### Replicatie (vooruit) van inhoud en configuraties  {#replication-forward-of-content-and-configurations}
 
-De standaard replicatieagenten worden gebruikt om de inhoud van het het schermkanaal, locatieconfiguraties en apparatenconfiguraties te herhalen. Op deze manier kunnen auteurs de inhoud van een kanaal bijwerken en desgewenst een goedkeuringswerkstroom doorlopen voordat ze kanaalupdates publiceren. Een replicatieagent moet voor elke publicatieinstantie in publicatielandbouwbedrijf worden gecreeerd.
+De standaard replicatieagenten worden gebruikt om de inhoud van het AEM Screens-kanaal, locatieconfiguraties, en apparatenconfiguraties te herhalen. Op deze manier kunnen auteurs de inhoud van een kanaal bijwerken en desgewenst een goedkeuringswerkstroom doorlopen voordat ze kanaalupdates publiceren. Een replicatieagent moet voor elk worden gecreeerd publiceer instantie in publiceer landbouwbedrijf.
 
 Het volgende diagram illustreert het replicatieproces:
 
@@ -71,7 +67,7 @@ Het volgende diagram illustreert het replicatieproces:
 
 >[!NOTE]
 >
->Een replicatieagent moet voor elke publicatieinstantie in publicatielandbouwbedrijf worden gecreeerd.
+>Een replicatieagent moet voor elk worden gecreeerd publiceer instantie in publiceer landbouwbedrijf.
 
 ### Screens Replication Agents and Commands  {#screens-replication-agents-and-commands}
 
@@ -81,24 +77,24 @@ Hierdoor kunnen auteurs het apparaat blijven beheren, zoals apparaatupdates verz
 
 ### Berichten tussen publicatie-instanties  {#messaging-between-publish-instances}
 
-In veel gevallen is een opdracht slechts bedoeld om één keer naar een apparaat te worden verzonden. In een publicatiearchitectuur met taakverdeling is het echter onbekend met welke instantie het apparaat verbinding maakt.
+Vaak is een opdracht slechts bedoeld om één keer naar een apparaat te worden verzonden. In een publicatiearchitectuur met taakverdeling is het echter onbekend met welke instantie het apparaat verbinding maakt.
 
-Daarom verzendt de auteurinstantie het bericht naar alle Publish instanties. Nochtans zou slechts één enkel bericht dan aan het apparaat moeten worden afgelost. Om correct overseinen te verzekeren moet één of andere mededeling plaatsvinden tussen publiceer instanties. Dit wordt bereikt met *Apache ActiveMQ Artemis*. Elke publicatieinstantie wordt geplaatst in een losjes gekoppelde Topologie gebruikend de Eak-Gebaseerde de ontdekkingsdienst van de Verkenning en ActiveMQ wordt gevormd zodat elke publicatieinstantie één enkele berichtrij kan communiceren en creëren. Het apparaat van het Scherm opiniepeilt het publicatielandbouwbedrijf via het ladingsverdelingsmechanisme en neemt het bevel van de bovenkant van de rij op.
+Daarom verzendt de auteurinstantie het bericht naar alle Publish instanties. Nochtans zou slechts één enkel bericht dan aan het apparaat moeten worden afgelost. Voor een correct bericht moet er communicatie plaatsvinden tussen de publicatie-instanties. Dit wordt bereikt met *Apache ActiveMQ Artemis*. Elke publicatieinstantie wordt geplaatst in een losjes gekoppelde Topologie gebruikend de Eak-Gebaseerde de ontdekkingsdienst van de Verkenning en ActiveMQ wordt gevormd zodat elke publicatieinstantie één enkele berichtrij kan communiceren en creëren. Het apparaat van AEM Screens pollt AEM publiceer landbouwbedrijf als taakverdelingsmechanisme en neemt het bevel van de bovenkant van de rij op.
 
 ### Replicatie omkeren {#reverse-replication}
 
-In veel gevallen, na een bevel, wordt één of andere soort reactie verwacht van het apparaat van het Scherm om aan de instantie van de Auteur door:sturen. Om deze AEM te verwezenlijken ***Replicatie omkeren*** wordt gebruikt.
+Vaak wordt na een opdracht een reactie van het apparaat Screens verwacht die naar de instantie Auteur wordt doorgestuurd. Om dit AEM te bereiken ***Replicatie omkeren*** wordt gebruikt.
 
-* Creeer een omgekeerde replicatieagent voor elke publiceer instantie, zoals aan de standaardreplicatieagenten en de agenten van de het schermreplicatie.
-* Een configuratie van de werkschemaopstarter luistert naar knopen die op de publicatieinstantie worden gewijzigd en brengt beurtelings een werkschema in werking om de reactie van het Apparaat in de Publish outbox van de instantie te plaatsen.
+* Creeer een omgekeerde replicatieagent voor elke publiceer instantie, zoals aan de standaardreplicatieagenten en de replicatieagenten van AEM Screens.
+* Een configuratie van de werkschemaopstarter luistert naar knopen die op AEM worden gewijzigd publiceert instantie en teweegbrengt beurtelings een werkschema om de reactie van het Apparaat in AEM outbox van de publicatieinstantie te plaatsen.
 * Een omgekeerde replicatie in deze context wordt slechts gebruikt voor binaire gegevens (zoals, logboekdossiers en screenshots) die door de apparaten worden verstrekt. Niet-binaire gegevens worden opgehaald door polling.
-* De omgekeerde replicatie die van de AEM auteursinstantie wordt gepolled wint de reactie terug en bewaart het aan de auteursinstantie.
+* De omgekeerde replicatieopiniepeiling van de AEM auteursinstantie wint de reactie en bewaart het aan de auteursinstantie.
 
 ### Opiniepeiling van publicatie-instanties  {#polling-of-publish-instances}
 
 De auteurinstantie moet de apparaten kunnen opiniepeilen om een hartslag te krijgen en de gezondheidsstatus van een aangesloten apparaat te kennen.
 
-Apparaten pingelen het taakverdelingsmechanisme en worden gerouteerd naar een publicatie-instantie. De status van het apparaat wordt vervolgens vrijgegeven door de publicatie-instantie via een API voor publiceren die @ **api/screens-dcc/devices/static** voor alle actieve apparaten en **api/screens-dcc/devices/&lt;device_id>/status.json** voor één apparaat.
+Apparaten pingelen het taakverdelingsmechanisme en worden gerouteerd naar een publicatie-instantie. De status van het apparaat wordt vervolgens vrijgegeven door de AEM-publicatie-instantie via een API voor publiceren die @ **api/screens-dcc/devices/static** voor alle actieve apparaten en **api/screens-dcc/devices/&lt;device_id>/status.json** voor één apparaat.
 
 De instantie van de auteur opiniepeilt alle publicatieinstanties en voegt de reacties van de apparatenstatus in één enkele status samen. De geplande taak die wordt opiniepeild bij de auteur is `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` en kan worden geconfigureerd op basis van een uitsnijduitdrukking.
 
@@ -106,7 +102,7 @@ De instantie van de auteur opiniepeilt alle publicatieinstanties en voegt de rea
 
 Registratie begint nog steeds bij de AEM auteur. AEM Screens Device wordt verwezen naar de auteurinstantie en de registratie is voltooid.
 
-Zodra een apparaat op het auteursmilieu is geregistreerd worden de apparatenconfiguratie en kanaal/planningtoewijzingen herhaald aan AEM publiceer instanties. De configuratie van het Apparaat van AEM Screens wordt dan bijgewerkt om aan de Balancer van de Lading vóór AEM te richten publiceert landbouwbedrijf. Dit is bedoeld om eenmalig te worden ingesteld, zodra het schermapparaat is aangesloten op de publicatieomgeving, kan het opdrachten blijven ontvangen die afkomstig zijn van de auteursomgeving en hoeft het schermapparaat nooit rechtstreeks aan te sluiten op de auteursomgeving.
+Nadat een apparaat op het AEM auteursmilieu wordt geregistreerd, worden de apparatenconfiguratie en kanaal/planningtoewijzingen herhaald aan de AEM publicatieinstanties. De configuratie van het Apparaat van AEM Screens wordt dan bijgewerkt om aan de Balancer van de Lading vóór AEM te richten publiceert landbouwbedrijf. Dit is bedoeld als een eenmalige installatie. Nadat het Apparaat van de Schermen met succes met het publicatiemilieu wordt verbonden, kan het bevelen uit het auteursmilieu blijven ontvangen. Het is niet nodig om het AEM Screens-apparaat rechtstreeks aan te sluiten op de AEM auteur-omgeving.
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 
