@@ -5,16 +5,16 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fb5e7f314ce8557bbee64743929dce945b35a83a
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen over AEM Screens {#aem-screens-faqs}
 
-In de volgende sectie worden antwoorden gegeven op een aantal veelgestelde vragen over een AEM Screens-project.
+Dit onderwerp verstrekt antwoorden aan algemeen gestelde FAQs met betrekking tot een project van AEM Screens.
 
 ## Probleem met leeg scherm {#blank-screen}
 
