@@ -1,4 +1,5 @@
 ---
+cloud: Experience Cloud
 user-guide-title: Handleiding met best practices voor AEM Screens-projecten
 breadcrumb-title: Handleiding AEM Screens met best practices
 solution-title: AEM Screens
@@ -9,10 +10,10 @@ product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: cd3c7e0766aebd0fd5cb0ae52c0bf72095308bb5
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
@@ -35,10 +36,10 @@ ht-degree: 16%
    + [UX-reiskaart](journey-map.md)
    + [UX-prototypen](prototypes.md)
    + [UX-draadframes](wireframes.md)
-   + [Overgang naar Platform](transition-platform.md)
+   + [Overgang naar platform](transition-platform.md)
    + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Overzicht van implementatie {#deployment-brief}
-   + [Configuraties AEM Platform](aem-platform-configurations.md)
+   + [Platformconfiguraties AEM](aem-platform-configurations.md)
    + [Projecttaxonomie en -uitvoering](project-taxonomy-implementation.md)
    + Netwerkverkeersbeheer {#manage-network-traffic}
       + [Netwerkverkeer beheren](/help/using/managing-network-traffic.md)
@@ -51,4 +52,4 @@ ht-degree: 16%
    + [Betrokkenheidsstrategie leverancier](vendor-engagement.md)
 + Ondersteuning en onderhoud {#ongoing-support}
    + [Ondersteuning en toezicht](support-monitoring.md)
-   + [Dag twee Platform, ondersteuning en onderhoud](day-two-support-maintenance.md)
+   + [Dag twee Platform Support en Onderhoud](day-two-support-maintenance.md)
