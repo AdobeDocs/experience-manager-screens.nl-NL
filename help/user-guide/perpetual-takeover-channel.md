@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 1. De weergave selecteren **MainLobbyDisplay** van de **Locaties** map. Klikken **Kanaal toewijzen** op de actiebalk, zodat u de **Kanaaltoewijzing** in.
 
    >[!NOTE]
-   >Raadpleeg voor meer informatie over het toewijzen van een kanaal aan een weergave **[Kanaaltoewijzing](channel-assignment.md)**.
+   >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar **[Kanaaltoewijzing](channel-assignment.md)**.
 
 1. Vul de velden (**Kanaalpad**, **Prioriteit**, en **Ondersteunde gebeurtenissen**) van de **Kanaaltoewijzing** en klik op **Opslaan** om de **MainAdChannel** op uw scherm.
 
@@ -92,7 +92,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
    * **Schema**: Ga de tekst voor het programma in dat u dit kanaal wilt in werking stellen de vertoning. De tekst in de **Schema** in dit voorbeeld wordt vermeld *Woensdag na 14.00 uur en vóór 16.00 uur*.
 
      >[!NOTE]
-     >Meer informatie over de expressies die u kunt toevoegen aan de **Schema**, verwijst u naar de [Voorbeeldexpressies](#example-expressions) hieronder.
+     >Meer informatie over de expressies die u kunt toevoegen aan de **Schema**, zie de [Voorbeeldexpressies](#example-expressions) hieronder.
    * **actief van**: Begindatum en -tijd.
    * **actief tot**: Einddatum en -tijd.
 

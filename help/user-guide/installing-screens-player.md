@@ -8,9 +8,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,11 @@ Downloaden **AEM Screens Player**, bezoek de [AEM 6.5 Player-downloads](https://
 
 >[!NOTE]
 >
->Wanneer u de nieuwste speler hebt gedownload (*.exe*) voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
+>Wanneer u de nieuwste Player (*.exe*) voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
 >1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en klik op **Opslaan**.
 >1. Klik op de knop **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
-
 
 ## Standaardafspeelcontrole {#playback-monitoring}
 
@@ -79,10 +78,10 @@ Hieronder worden enkele beperkingen weergegeven voor elementaire afspeelcontrole
 
 ### Aanvullende bronnen {#additional-resources}
 
-Raadpleeg de volgende onderwerpen voor diepgaande informatie:
+Zie de volgende onderwerpen voor een diepgaande informatie:
 
-* Ga naar **Google Play**. Raadpleeg voor meer informatie over het implementeren van Android Watchdog [Android-speler implementeren](implementing-android-player.md).
+* Ga voor het downloaden van Android Player naar **Google Play**. Ga voor meer informatie over het implementeren van Android Watchdog naar [Android-speler implementeren](implementing-android-player.md).
 
 * Als u Chrome OS Player wilt implementeren, raadpleegt u [Chrome Management Console](implementing-chrome-os-player.md) voor meer informatie .
 
-* Als u de AEM Screens Windows-speler wilt configureren, raadpleegt u [Windows Player implementeren](implementing-windows-player.md).
+* Voor het configureren van AEM Screens Windows Player raadpleegt u [Windows Player implementeren](implementing-windows-player.md).

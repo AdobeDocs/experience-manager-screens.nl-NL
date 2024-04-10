@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Voer de onderstaande stappen uit om de activeringsaanvraag voor de ziekenhuisres
 
 1. **De segmenten in soorten publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
+   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
 
    1. Selecteer de **Bladen A1 1** en klik op **Bewerken**.
 

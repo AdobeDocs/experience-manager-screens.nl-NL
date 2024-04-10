@@ -7,9 +7,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
    >[!NOTE]
    >
-   >Als u wilt leren hoe u een kanaal maakt of inhoud aan een kanaal toevoegt, raadpleegt u [Kanalen maken en beheren](/help/user-guide/managing-channels.md)
+   >Ga voor meer informatie over het maken van een kanaal of het toevoegen van inhoud aan een kanaal naar [Kanalen maken en beheren](/help/user-guide/managing-channels.md)
 
    Het kanaal bevat de volgende inhoud, zoals in de onderstaande afbeelding wordt getoond.
 
@@ -62,7 +62,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
    >[!NOTE]
    >
-   >Raadpleeg voor meer informatie over het toewijzen van een kanaal aan een weergave [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
+   >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
 
 1. Navigeren naar **Apparaten** map en klik op **Apparaatbeheer** op de actiebalk om de apparaten te registreren.
 
@@ -70,7 +70,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
    >[!NOTE]
    >
-   >Als u wilt leren hoe u een apparaat registreert, raadpleegt u [Apparaatregistratie](/help/user-guide/device-registration.md)
+   >Ga voor meer informatie over het registreren van een apparaat naar [Apparaatregistratie](/help/user-guide/device-registration.md)
 
 1. In dit voorbeeld worden voor demo-doeleinden een chroom- en een Windows-speler weergegeven als twee aparte apparaten. Beide apparaten wijzen aan de zelfde vertoning.
    ![image1](assets/command-sync6.png)

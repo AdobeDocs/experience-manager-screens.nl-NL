@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1452'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Alvorens u begint de Configuraties van de Hub van de Context voor een project va
 >
 >Google Sheets wordt in het volgende voorbeeld gebruikt als een voorbeelddatabasesysteem van waaruit de waarden worden opgehaald en is alleen voor educatieve doeleinden. Adobe biedt geen ondersteuning voor het gebruik van Google Sheets voor productieomgevingen.
 >
->Raadpleeg voor meer informatie [API-sleutel ophalen](https://developers.google.com/maps/documentation/javascript/get-api-key) in Google documentatie.
+>Zie voor meer informatie [API-sleutel ophalen](https://developers.google.com/maps/documentation/javascript/get-api-key) in Google documentatie.
 
 ## Stap 1: Een Data Store instellen {#step-setting-up-a-data-store}
 

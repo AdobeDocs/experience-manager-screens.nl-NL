@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td><p>8 GB geheugen</p> <p>4 MB cache</p> </td>
    <td>128 GB</td>
    <td>onBoard</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 2x USB</td>
    <td>
     <ul>
@@ -202,7 +202,7 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td><p>16 GB geheugen</p> <p>8 MB cache</p> </td>
    <td>256 GB</td>
    <td>GPU voor speciale grafische kaarten</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 4x USB</td>
    <td>
     <ul>

@@ -13,9 +13,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ De releasedatum voor AEM Screens Feature Pack 201809 is 1 oktober 2018.
 
 ### Wat is er nieuw? {#what-s-new}
 
-* **Adobe Analytics Proof Play Reporting**: raadpleeg [Adobe Analytics-integratie met AEM Screens](adobe-analytics-integration-aem-screens.md) voor meer informatie.
+* **Adobe Analytics Proof Play Reporting**: Zie [Adobe Analytics-integratie met AEM Screens](adobe-analytics-integration-aem-screens.md) voor meer informatie.
 
-* **Adobe Analytics Enable Players to cache and send playback events to Adobe Analytics**: raadpleeg [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie.
+* **Adobe Analytics Enable Players to cache and send playback events to Adobe Analytics**: Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie.
 
 * **Offline inhoud bulksgewijs bijwerken**: Hiermee kunt u alle kanalen bulksgewijs bijwerken en het navigeren naar een bepaald kanaal voorkomen en de inhoud bijwerken. Zie [Bulk offline bijwerken](bulk-offline-update.md) voor meer informatie.
 

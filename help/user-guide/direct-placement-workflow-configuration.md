@@ -1,9 +1,9 @@
 ---
 title: Configuratie werkstroom voor directe plaatsing
 description: Deze pagina markeert de Configuratie van de Werkstroom van de Directe Plaatsing.
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ U kunt ook als auteur van inhoud handmatig klikken **Offline inhoud bijwerken**.
 
 >[!NOTE]
 >
->Raadpleeg voor meer informatie over het gebruik van bulksgewijze offline updates de [Inhoud bijwerken als service](/help/user-guide/content-update-as-a-service.md).
+>Zie voor meer informatie over het gebruik van bulkofflineupdate [Inhoud bijwerken als service](/help/user-guide/content-update-as-a-service.md).
 
 ## Workflow voor directe plaatsing configureren {#configuring-workflow}
 

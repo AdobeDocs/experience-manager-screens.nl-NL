@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Met het Rapport Inhoudstoewijzing kunt u niet alleen een voorvertoning weergeven
 ### Voorwaarden {#pre-reqs}
 
 Voordat u het rapport Inhoud toewijzen downloadt, moet u een AEM Screens-project met kanalen, locaties en apparaten instellen.
-Raadpleeg de volgende bronnen voor meer informatie:
+Zie de volgende bronnen voor meer informatie:
 
 1. [Projecten maken en beheren](/help/user-guide/creating-a-screens-project.md)
 1. [Kanalen maken en beheren](/help/user-guide/managing-channels.md)
@@ -58,6 +58,6 @@ Volg de onderstaande instructies om het Rapport Inhoudstoewijzing te downloaden:
    >[!NOTE]
    >De weergegeven gegevens in het werkblad worden alfabetisch gesorteerd in een leesbare indeling.
 
-1. U kunt op elk kanaal klikken vanuit het **Kanalen** kolom om de **Inhoud** die u rechtstreeks naar dat kanaal navigeert en u ook informatie geeft over elementen (afbeeldingen en video&#39;s) die aan dat specifieke kanaal zijn gekoppeld, zoals in de onderstaande afbeelding wordt getoond.
+1. U kunt op elk kanaal klikken vanuit het **Kanalen** kolom voor het openen van de **Inhoud** die u rechtstreeks naar dat kanaal navigeert en u ook informatie geeft over elementen (afbeeldingen en video&#39;s) die aan dat specifieke kanaal zijn gekoppeld, zoals in de onderstaande afbeelding wordt getoond.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

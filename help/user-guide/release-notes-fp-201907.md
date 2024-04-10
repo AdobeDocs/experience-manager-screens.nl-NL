@@ -14,9 +14,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Zie [Noodkanaal](emergency-channel.md) Gebruik hoofdletters/kleine letters voor 
 
 Het richten kan nu voor activa worden toegelaten die in het project van AEM Screens worden gebruikt.
 
-Voor meer informatie over hoe u het richten voor activa in het project van AEM Screens kunt toelaten, verwijs naar [ContextHub configureren in AEM Screens](configuring-context-hub.md).
+Voor meer informatie over hoe u het richten voor activa in het project van AEM Screens kunt toelaten, zie [ContextHub configureren in AEM Screens](configuring-context-hub.md).
 
 Nadat u ContextHub voor uw project van AEM Screens hebt gevormd, volg verschillende gebruiksgevallen om te begrijpen hoe de gegevens teweeggebrachte activa een vitale rol in verschillende industrieën spelen:
 
@@ -59,7 +59,7 @@ Nadat u ContextHub voor uw project van AEM Screens hebt gevormd, volg verschille
 
 De updatehandler parseert nu de ervaringsfragmenten en verzamelt alle afbeeldingen, video&#39;s of producten die eraan zijn gekoppeld.
 
-* **Lanceringen**
+* **Starten**
 
 Met Launches kunnen auteurs van inhoud een toekomstige versie van de kanalen maken. Met behulp van lanceringen, kunnen de auteurs elk kanaal in de lancering voorproef en een verzoek tot overzicht in werking stellen. De groep van fiatteurs zal bericht krijgen en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
 Zie [Starten](launches.md) voor meer informatie .

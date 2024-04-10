@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ De volgende tabel geeft een overzicht van de groepen met een beschrijving en mac
    <td><strong>Machtigingen</strong></td>
   </tr>
   <tr>
-   <td>Schermbeheerders<br /> <em>screens-admins</em></td>
+   <td>Schermbeheerders<br /> <em><code>screens-admins</code></em></td>
    <td>Toegang op beheerniveau voor AEM Screens-mogelijkheden</td>
    <td>
     <ul>
@@ -110,29 +110,29 @@ De volgende tabel geeft een overzicht van de groepen met een beschrijving en mac
     </ul> </td>
   </tr>
   <tr>
-   <td>Schermgebruikers<br /> <em>schermen-gebruikers</em></td>
+   <td>Schermgebruikers<br /> <em><code>screens-users</code></em></td>
    <td>Kanalen en schema's maken en bijwerken en toewijzen aan locaties in AEM Screens</td>
    <td>
     <ul>
      <li>Lid van contribuanten</li>
-     <li>&lt;project&gt; /content/screens</li>
-     <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
+     <li><code>&lt;project&gt; /content/dam</code></li>
+     <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Schermoperatoren<br /> <em>schermoperatoren</em></td>
+   <td>Schermoperatoren<br /> <em><code>screens-operators</code></em></td>
    <td>Locatiestructuur maken en bijwerken en spelers registreren in AEM Screens</td>
    <td>
     <ul>
      <li>Lid van contribuanten</li>
-     <li>jcr:alle /home/users/screens</li>
-     <li>jcr:alle /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li><code>jcr:all /home/users/screens</code></li>
+     <li><code>jcr:all /home/groups/screens</code></li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Schermspelers<br /> <em>schermen-&lt;project&gt;-devices</em></td>
+   <td>Schermspelers<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>Hiermee worden alle spelers en alle spelers/apparaten automatisch gegroepeerd als leden van de contribuanten.</td>
    <td><p> Lid van contribuanten</p> </td>
   </tr>

@@ -2,9 +2,9 @@
 title: Instanties voor auteurs en publiceren configureren in AEM Screens
 description: Leer hoe u een instantie Auteur en een instantie Publish voor AEM Screens configureert.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -306,7 +306,7 @@ U kunt de URL van de server ook bijwerken/bewerken vanuit de apparaatbeheerconso
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-De **Publicatie beheren** Met deze functie kunt u inhoud-updates leveren van Auteur naar apparaat. U kunt inhoud publiceren/unpublish voor uw volledige AEM Screens-project of slechts voor één van uw kanalen, plaats, apparaat, toepassing, of een programma. Raadpleeg voor meer informatie over deze functie [Update voor on-demand inhoud](on-demand-content.md).
+De **Publicatie beheren** Met deze functie kunt u inhoud-updates leveren van Auteur naar apparaat. U kunt inhoud publiceren/unpublish voor uw volledige AEM Screens-project of slechts voor één van uw kanalen, plaats, apparaat, toepassing, of een programma. Zie voor meer informatie over deze functie [Update voor on-demand inhoud](on-demand-content.md).
 
 ## Tips voor het oplossen van problemen {#troubleshoot-tips}
 

@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -112,4 +112,4 @@ Zodra een apparaat op het auteursmilieu is geregistreerd worden de apparatenconf
 
 ### De volgende stappen {#the-next-steps}
 
-Als u het architecturale ontwerp van de auteur en de publicatie opstelling in AEM Screens begrijpt, verwijs naar [Auteur en publicatie configureren voor AEM Screens](author-and-publish.md) voor meer informatie .
+Als u het architectuurontwerp van de auteur en de publicatie-instellingen in AEM Screens begrijpt, raadpleegt u [Auteur en publicatie configureren voor AEM Screens](author-and-publish.md) voor meer informatie .

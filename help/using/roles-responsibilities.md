@@ -4,9 +4,9 @@ seo-title: AEM Screens Project Roles  and Responsibilities
 description: De pagina beschrijft AEM Screens-projectrollen en -verantwoordelijkheden
 seo-description: The page describes AEM Screens Project Roles  and Responsibilities
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1242'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Als ervaren AEM-implementator zult u waarschijnlijk de rollen gezien hebben waar
 
 In een typisch AEM Screens-project worden de rollen verder verfijnd, aangezien zij elk een belangrijk doel in het project dienen.
 
-In het onderstaande diagram ziet u de rollen waarnaar we in de hele handleiding zullen verwijzen.
+Het diagram hieronder toont de rollen die wij door de gids zullen zien.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -31,9 +31,9 @@ In de volgende sectie vindt u een overzicht van het doelpubliek:
 
 ### Adobe {#adobe-audience}
 
-Adobe bevat bronnen van Adobe Managed Services, zoals de CSE (Customer Success Engineer) en Adobe Support.
+Adobe omvat Adobe Managed Services-bronnen zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-### AEM {#aem-implementors}
+### Implementators AEM {#aem-implementors}
 
 AEM Implementors zijn verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
@@ -49,7 +49,7 @@ Een AV-integrator is verantwoordelijk voor het uitvoeren van detectie met eindge
 
 #### Overdenking van hardwarepartner {#selecting-hardware-partner}
 
-Het is cruciaal om de juiste hardwarepartner te selecteren. De volgende vragen moeten in overweging worden genomen:
+Het is van cruciaal belang om de juiste hardwarepartner te selecteren. De volgende vragen moeten in overweging worden genomen:
 
 1. Wat zijn de voorwaarden van de overeenkomst op het niveau van de Dienst?
 
@@ -90,9 +90,9 @@ Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens
 
 Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren.  Deze fasen worden gewoonlijk aangeduid als **Dagen**. Dit zijn geen letterlijke dagen, maar aanwijzingen voor elke grote fase van het project.
 
-1. De eerste fase wordt *Dagnul*. Deze fase omvat alle pre-sales en ontdekkingsinspanningen die worden vereist om het projectwerkingsgebied volledig te bepalen.
+1. De eerste fase wordt aangeduid als *Dagnul*. Deze fase omvat alle pre-sales en ontdekkingsinspanningen die worden vereist om het projectwerkingsgebied volledig te bepalen.
 1. de tweede fase, *Dag één*, verwijst naar alle activiteiten die deel uitmaken van de inzet.
-1. De derde en laatste fase *Dag twee* verwijst naar alle lopende operaties en ondersteunende elementen als onderdeel van de totale oplossing.
+1. De derde en laatste fase *Dag twee* verwijst naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het 
 >
 >Een aanvullende video volgen op **[Projectbeheer en -implementatie](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** voor meer informatie over de preproductie van projecten, de start van projecten en de voortgang van projecten.
 
-## RACI {#raci-chart}
+## RACI-diagram {#raci-chart}
 
 Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt.
 
@@ -110,31 +110,31 @@ Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt.
 
 ### RACI-definities {#raci-definitions}
 
-* **Verantwoordelijk**: Werkt het werk om de taak te voltooien.
+* **Verantwoordelijk**: Werkt het werk om de taak te voltooien?
 
-* **Verrekenbaar**: Delegeert het werk en is de laatste partij om de taak te herzien alvorens het volledig is.
+* **Verrekenbaar**: Delegates work and is the last party to review the task before it is complete.
 
 * **Geconsulteerd**: Hiermee wordt de taak of het te leveren item gecontroleerd.
 
-* **Informatief**: Op de hoogte gehouden van de voortgang van de taak, maar niet betrokken bij de details van het te leveren item.
+* **Informatief**: Bewaar op de hoogte van de voortgang van de taak, maar is niet betrokken bij de details van het te leveren item.
 
 Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt en verstrekt een voorbeeld van gemeenschappelijke taken en overwegingen in een project van AEM Screens.
 
-In de volgende tabel wordt een overzicht gegeven van de **Nul dag: Overwegingen vóór de verkoop**:
+De volgende tabel geeft een overzicht van de **Nul dag: overwegingen vóór verkoop**:
 
-| **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoudsbeheer** |
+| **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
 |---|---|---|---|---|
 | Teamsamenstelling en selectie van leverancier | I | I | RA | RA |
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Aanpassing aan strategische doelstellingen | CI | I | RA | RA |
 | Rapportagebehoeften en ROI-identificatie | I | C | RA | C |
 | Vereisten voor het bezoek en de hardware van de site | RA | I | C | C |
-| Ondersteuningsproces | C | I | RA | I |
+| Ondersteuningsproces - definitie | C | I | RA | I |
 | Bereik van werk en projectplan bepalen | RA | RA | C | C |
 
-In de volgende tabel wordt een overzicht gegeven van de **Dag één: Projectimplementatie (toepassingsontwerp)**:
+De volgende tabel geeft een overzicht van de **Dag één: Projectimplementatie (toepassingsontwerp)**:
 
-| **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoudsbeheer** |
+| **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
 |---|---|---|---|---|
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Uitlijning op projectplan en -schema | RA | RA | C | C |
@@ -152,42 +152,42 @@ In de volgende tabel wordt een overzicht gegeven van de **Dag één: Projectimpl
 | Plan voor de overgang van het proefproject naar de productie | RA | RA | I | I |
 | Kennisoverdracht | RA | RA | I | I |
 
-In de volgende tabel wordt een overzicht gegeven van de **Dag één: Projectimplementatie (gereedheid voor detailhandel)**:
+De volgende tabel geeft een overzicht van de **Dag één: Projectimplementatie (gereedheid voor detailhandel)**:
 
-| **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoudsbeheer** |
+| **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
 |---|---|---|---|---|
 | Hardwarebestelling en -opslag | RA | I | I | I |
 | Handelson-boarding-schema | I | I | C | RA |
-| Testen van gebruikersacceptatie opslaan | I | C | RA |  |
+| Testen van gebruikersacceptatie opslaan | I | C | RA |   |
 | Hardwarebulkconfiguratie | RA | I | C | I |
 | Overeenkomst over ondersteuning na de lancering | RA | C | RA | C |
 
-In de volgende tabel wordt een overzicht gegeven van de **Dag één: Dag één: Projectimplementatie (hardware)**:
+De volgende tabel geeft een overzicht van de **Dag 1: Dag 1: Projectimplementatie (hardware)**:
 
-| **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoudsbeheer** |
+| **Fase** | **A/V-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
 |---|---|---|---|---|
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Het kleine Ontwerp omvat bedradingsverrichtingen | - | - | - | - |
 | Hardwareselectie van speler | RAC | - | - | - |
 | Apparaatbeheer van master | RA | I | - | - |
 | Apparaatbestelling en -opslag en -configuratie | RA | CI | I | - |
-| Ondersteuningsproces | RA | I | RA | C |
+| Ondersteuningsproces - definitie | RA | I | RA | C |
 
 >[!NOTE]
 >
 >Rollen veranderen tijdens dag twee (na het opstarten).
 
-* **Auteur**: Inhoudsbeheer en strategie
+* **Auteur**: Inhoudsbeheer + strategie
 
 * **Ontwikkelaar**: Meestal een lid van het AEM Screens-implementatieteam of een lid van het interne ontwikkelingsteam
 
-* **Technicus**: ofwel door de AV-integrator is aangeworven of deel uitmaakt van dezelfde onderneming.
+* **Technicus**: ofwel door de AV-integrator aangeworven of maakt deel uit van dezelfde onderneming.
 
-In de volgende tabel wordt een overzicht gegeven van de **Dag twee: RACI-diagram voor ondersteuning na starten**:
+De volgende tabel geeft een overzicht van de **Dag twee: RACI-grafiek voor ondersteuning na starten**:
 
-| **Fase** | **Auteur** | **Developer** | **Technicus** |
+| **Fase** | **Auteur** | **Ontwikkelaar** | **Technicus** |
 |---|---|---|---|
-| *Dag twee: Ondersteuning na starten* |
+| *Dag twee: ondersteuning na starten* |
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA |
 | Ondersteuning voor Tier 1 | I | I | RA |
 | Support voor niveau 2 | I | C | RA |

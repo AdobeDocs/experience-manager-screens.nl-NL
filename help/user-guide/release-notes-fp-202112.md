@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ De releasedatum voor AEM Screens Feature Pack 202112 is 12 januari 2022.
 
 * Weergavevoorvertoning blijft hangen bij vorige spelerconfiguratie
 
-* Weergavevoorvertoning wordt onder bepaalde omstandigheden niet gerenderd
+* Weergavevoorvertoning wordt onder bepaalde omstandigheden niet weergegeven
 
 * Gelijktijdige downloadfouten corrigeren in SmartSync
 

@@ -1,5 +1,5 @@
 ---
-title: Opmerkingen bij de release voor Feature Pack 202004
+title: Opmerkingen bij de release voor Feature Pack 20204
 seo-title: Release Notes for Feature Pack 202004
 description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004, uitgebracht op 20 april 2020.
 seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
@@ -7,14 +7,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
-# Opmerkingen bij de release voor Feature Pack 202004 {#release-notes-for-feature-pack}
+# Opmerkingen bij de release voor Feature Pack 20204 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
@@ -34,38 +34,38 @@ De releasedatum voor AEM Screens Feature Pack 20204 is 20 april 2020.
 
 * **Opties voor afspeelonderbreking**
 
-   Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
+  Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
 
-   Zie de sectie **[Onderbrekingsmethode](/help/user-guide/channel-assignment.md#interruption-method-channel)** voor meer informatie over de opties die beschikbaar zijn op **Kanaaltoewijzing** om deze functie te implementeren in uw AEM Screens-project.
+  Zie de sectie **[Onderbrekingsmethode](/help/user-guide/channel-assignment.md#interruption-method-channel)** voor meer informatie over de opties die beschikbaar zijn op **Kanaaltoewijzing** om deze functie te implementeren in uw AEM Screens-project.
 
 * **Startpagina&#39;s voor schermen**
 
-   De ervaringsstroom van de auteur van de inhoud is verbeterd en het aantal klikken dat u in de toekomst wilt gebruiken, is verminderd.
+  De ervaringsstroom van de auteur van de inhoud is verbeterd en het aantal klikken dat u in de toekomst wilt gebruiken, is verminderd.
 
-   Zie **[Inhoud bijwerken met Schermen starten](launches.md)** voor meer informatie .
+  Zie **[Inhoud bijwerken met Schermen starten](launches.md)** voor meer informatie .
 
 * **Kanaaldashboard**
 
-   Geeft updates weer naar instructies in het kanaaldashboard in het dialoogvenster **KANAALINFORMATIE** deelvenster.
+  Geeft updates weer naar instructies in het kanaaldashboard in het dialoogvenster **KANAALINFORMATIE** deelvenster.
 
 
 * **Manifest weergeven**
 
-   U kunt het manifestbestand nu weergeven via het kanaaldashboard.
+  U kunt het manifestbestand nu weergeven via het kanaaldashboard.
 
-   Zie **[De manifest weergeven](/help/user-guide/managing-channels.md#view-manifest)**.
+  Zie **[De manifest weergeven](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Tekstbedekking**
 
-   Tijdens het toevoegen van test aan de functie voor tekstbedekking is de tekengrootte nauwkeurig en verbeterd.
+  Tijdens het toevoegen van test aan de functie voor tekstbedekking is de tekengrootte nauwkeurig en verbeterd.
 
-   Zie **[Tekstbedekking](text-overlay.md)** om een aantrekkelijke ervaring in een Kanaal van de Opeenvolging tot stand te brengen door een titel of een beschrijving over bovenop een beeld te verstrekken.
+  Zie **[Tekstbedekking](text-overlay.md)** om een aantrekkelijke ervaring in een Kanaal van de Opeenvolging tot stand te brengen door een titel of een beschrijving over bovenop een beeld te verstrekken.
 
 * **Verbeteringen in opdrachtsynchronisatie**
 
-   Met deze release van dit functiepakket worden verbeteringen in de opdrachtsynchronisatievertraging tussen de wijzigingen in de elementen weerspiegeld.
+  Met deze release van dit functiepakket worden verbeteringen in de opdrachtsynchronisatievertraging tussen de wijzigingen in de elementen weerspiegeld.
 
-   Zie **[Opdrachtsynchronisatie](using-command-sync.md)** voor meer informatie .
+  Zie **[Opdrachtsynchronisatie](using-command-sync.md)** voor meer informatie .
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 

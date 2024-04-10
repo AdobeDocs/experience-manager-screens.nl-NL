@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Deze AEM Screens-functionaliteit is alleen beschikbaar als u een minimale versie van AEM 6.4.2 Feature Pack 2 of AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd. Voor klanten van AEM Screens-cloudservices neemt u contact op met uw Adobe Relationship Manager om Adobe Analytics in Screens Cloud in te schakelen.
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u een minimale versie van AEM 6.4.2 Feature Pack 2 of AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd. Voor klanten van de cloudservice van AEM Screens neemt u contact op met uw Adobe Relationship Manager om Adobe Analytics in Screens Cloud in te schakelen.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Navigeren naar **Configuratie Adobe Experience Manager-webconsole** Adobe Analyt
 
 >[!CAUTION]
 >
->Alvorens u de eigenschappen vormt, gelieve uw Manager van de Verhouding van de Adobe te contacteren om een kaartje tot stand te brengen om een **Sleutel Analytics API** en **Analyseproject** voor gebruik met AEM Screens.
+>Alvorens u de eigenschappen vormt, contacteer uw Manager van de Verhouding van de Adobe om een kaartje tot stand te brengen om een **Sleutel Analytics API** en **Analyseproject** voor gebruik met AEM Screens.
 
 ![]()
 
@@ -81,7 +81,7 @@ Navigeren naar **Configuratie Adobe Experience Manager-webconsole** Adobe Analyt
 
 >[!CAUTION]
 >
->Alvorens u de eigenschappen vormt, gelieve uw Manager van de Verhouding van de Adobe te contacteren om een kaartje tot stand te brengen om een **Sleutel Analytics API** en **Analyseproject** voor gebruik met AEM Screens.
+>Alvorens u de eigenschappen vormt, contacteer uw Manager van de Verhouding van de Adobe om een kaartje tot stand te brengen om een **Sleutel Analytics API** en **Analyseproject** voor gebruik met AEM Screens.
 
 In de volgende tabel worden de eigenschappen gemarkeerd met hun beschrijving voor het configureren van Adobe Analytics voor AEM Screens:
 

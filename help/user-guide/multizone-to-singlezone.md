@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    >[!NOTE]
    >
-   >Voor meer informatie over het maken van een lay-out met meerdere zones in uw kanaal raadpleegt u [Layout meerdere zones](multi-zone-layout-aem-screens.md).
+   >Ga voor meer informatie over het maken van een lay-out met meerdere zones in uw kanaal naar [Layout meerdere zones](multi-zone-layout-aem-screens.md).
 
 
 1. Een ander kanaal maken met de naam **Overnamekanaal** aan uw **Kanalen** map.

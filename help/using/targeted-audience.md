@@ -3,9 +3,9 @@ title: Doelpubliek
 seo-title: Target Audience for AEM Screens
 description: De pagina beschrijft wie het doelpubliek voor de gids van de Beste praktijken van AEM Screens is
 seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '495'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ Als ervaren AEM-implementator zult u waarschijnlijk de rollen gezien hebben waar
 
 In een typisch AEM Screens-project worden de rollen verder verfijnd, aangezien zij elk een belangrijk doel in het project dienen.
 
-In het onderstaande diagram ziet u de rollen waarnaar we in de hele handleiding zullen verwijzen.
+Het diagram hieronder toont de rollen die wij door de gids zullen zien.
 
 ![](/help/assets/roles-used.png)
 
@@ -30,9 +30,9 @@ In de volgende sectie vindt u een overzicht van het doelpubliek:
 
 ### Adobe {#adobe-audience}
 
-Adobe bevat bronnen van Adobe Managed Services, zoals de CSE (Customer Success Engineer) en Adobe Support.
+Adobe omvat Adobe Managed Services-bronnen zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-### AEM {#aem-implementors}
+### Implementators AEM {#aem-implementors}
 
 AEM Implementors zijn verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
@@ -57,7 +57,7 @@ Zij zijn degenen die vereisten en opstellingsKPI metriek bepalen. Een Business S
 
 Het team Creative and Content Management werkt nauw samen met het strategieteam en zet vereisten om in clientervaringen. Zij drijven het algemene ontwerp van UX en krullen inhoud die het merk aanvult.
 
-Creative &amp; Content Management kan een van de volgende opties zijn:
+Creative Suite en Content Management kunnen er als volgt uitzien:
 
 * Creative Agency of
 * Brand Manager

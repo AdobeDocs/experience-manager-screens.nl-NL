@@ -7,9 +7,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 1d591503bc337e5677a3c4030771463f7e178e1e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -34,18 +34,17 @@ De releasedatum voor AEM Screens Feature Pack 202001 is 31 januari 2020.
 
 * **Command Sync voor afspelen van element**
 Met Command Sync kunt u het afspelen tussen verschillende spelers synchroniseren. De spelers kunnen verschillende inhoud afspelen, maar elk element moet dezelfde duur hebben.
-Raadpleeg voor meer informatie over Command Sync en het instellen van master clients en clients [Opdrachtsynchronisatie gebruiken](using-command-sync.md).
+Meer informatie over de Synchronisatie van het Bevel en hoe te om het hoofd en de cliënten te plaatsen, zie [Opdrachtsynchronisatie gebruiken](using-command-sync.md).
 
 * **Health check framework to show status of https and allow empty reference**
 Met het Health Check-framework kan de gebruiker controleren of twee noodzakelijke configuraties (Allow Empty Referrer Requests en Apache Felix Jetty Based HTTP Service) zijn ingesteld voordat een AEM Screens-project wordt uitgevoerd.
 
-   Voor meer informatie over Health Check Framework raadpleegt u [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+  Ga voor meer informatie over Health Check Framework naar [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Updates voor standaardovergangstypen**
-De eigenschappen van de overgangscomponent, zoals 
-**Type** is nu ingesteld op **Vervagen** en de **Duur** als **1600 ms**, standaard.
+De eigenschappen van de overgangscomponent, zoals **Type** is nu ingesteld op **Vervagen** en de **Duur** als **1600 ms**, standaard.
 
-   Zie [Overgangen toepassen](/help/user-guide/applying-transitions.md) Gebruik hoofdletters/kleine letters voor meer informatie.
+  Zie [Overgangen toepassen](/help/user-guide/applying-transitions.md) Gebruik hoofdletters/kleine letters voor meer informatie.
 
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}

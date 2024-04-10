@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 1%
+source-wordcount: '285'
+ht-degree: 0%
 
 ---
 
@@ -31,23 +31,23 @@ De Releasedatum voor AEM Screens Feature Pack 202011 is 30 november 2020.
 
 * **Rapport Inhoudstoewijzing**
 
-   Met de functie Rapport voor toewijzing van inhoud kan een AEM Screens-beheerder of auteur een *Rapport Inhoudstoewijzing* in spreadsheetformaat.
+  Met de functie Rapport voor toewijzing van inhoud kan een AEM Screens-beheerder of auteur een *Rapport Inhoudstoewijzing* in spreadsheetformaat.
 Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie .
 
 
 * **Tizen Player**
 
-   Er is een nieuwe speler met de naam Tizen-speler geïntroduceerd met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
+  Er is een nieuwe speler met de naam Tizen-speler geïntroduceerd met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
 Zie [Tizen Player implementeren](/help/user-guide/tizen-player.md) voor meer informatie .
 
 * **Functies zoeken vanuit Apparaatbeheer**
 
-   Er is nu een nieuwe zoekfunctionaliteit beschikbaar via de interface van Apparaatbeheer met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
+  Er is nu een nieuwe zoekfunctionaliteit beschikbaar via de interface van Apparaatbeheer met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
 Zie [Een apparaat zoeken vanuit Apparaatbeheer](/help/user-guide/device-registration.md#search-device) voor meer informatie .
 
 * **Standaardpinginterval**
 
-   Het gebrek pingelt interval is nu geplaatst aan 30 seconden in deze versie.
+  Het gebrek pingelt interval is nu geplaatst aan 30 seconden in deze versie.
 
 ### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
 

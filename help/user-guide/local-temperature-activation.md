@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
 1. **De segmenten in soorten publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
+   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
 
    1. Selecteer de **Bladen A1 1** en klik op **Bewerken**.
 

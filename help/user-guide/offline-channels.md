@@ -14,9 +14,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ De workflow voor het proces is als volgt:
 
 ## Handlers bijwerken {#update-handlers}
 
-De ***ContentSync*** gebruikt updatemanagers om alle noodzakelijke pagina&#39;s en activa voor een specifiek project te ontleden en te verzamelen. AEM Screens gebruikt de volgende updatehandlers:
+De ***ContentSync*** gebruikt updatehandlers om alle noodzakelijke pagina&#39;s en activa voor een specifiek project te ontleden en te verzamelen. AEM Screens gebruikt de volgende updatehandlers:
 
 ### Algemene opties {#common-options}
 
-* *type*: het updatehandlertype dat moet worden gebruikt
+* *type*: het type update-handler dat moet worden gebruikt
 * *pad*: pad naar de bron
 * *[targetRootDirectory]*: doelmap in het ZIP-bestand
 
@@ -57,17 +57,17 @@ De ***ContentSync*** gebruikt updatemanagers om alle noodzakelijke pagina&#39;s 
   <tr>
    <td>kanalen</td> 
    <td>verzamelt een kanaal</td> 
-   <td>extensie: uitbreiding van de te verzamelen middelen<br /> [pathSuffix='']: achtervoegsel om toe te voegen aan het kanaalpad<br /> </td> 
+   <td>uitbreiding : uitbreiding van de te verzamelen bron<br /> [pathSuffix='']: achtervoegsel om aan het kanaalpad toe te voegen<br /> </td> 
   </tr>
   <tr>
    <td>clientlib</td> 
    <td>de opgegeven clientbibliotheek verzamelen</td> 
-   <td>[extension='']: kan css of js zijn, om alleen de eerste of alleen de laatste te verzamelen</td> 
+   <td>[extension='']: kan css of js zijn, alleen de eerste, of alleen de laatste</td> 
   </tr>
   <tr>
    <td>assetrendities</td> 
    <td>de rendities van het element verzamelen</td> 
-   <td>[renditions=[]]: lijst met te verzamelen vertoningen. Wordt standaard ingesteld op de oorspronkelijke uitvoering</td> 
+   <td>[renditions=[]]: lijst met vertoningen die moeten worden verzameld. Wordt standaard ingesteld op de oorspronkelijke uitvoering</td> 
   </tr>
   <tr>
    <td>kopiëren</td> 
@@ -81,7 +81,7 @@ De ***ContentSync*** gebruikt updatemanagers om alle noodzakelijke pagina&#39;s 
 
 Voer de onderstaande stappen uit om de ContentSync-configuratie te testen:
 
-1. Open `https://localhost:4502/libs/cq/contentsync/content/console.html`
+1. Openen `https://localhost:4502/libs/cq/contentsync/content/console.html`
 1. Selecteer uw config in de lijst
 1. Klik op Cache wissen
 1. Klik op Cache bijwerken
@@ -98,7 +98,7 @@ Volg de onderstaande stappen om offline config voor een kanaal toe te laten:
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Navigeer naar het kanaaldashboard en klik op **...** in de **KANAALINFORMATIE** Deelvenster om de eigenschappen te wijzigen.
+1. Navigeer naar het kanaaldashboard en klik **...** in de **KANAALINFORMATIE** Deelvenster om de eigenschappen te wijzigen.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -120,4 +120,4 @@ Volg de onderstaande stappen om offline config voor een kanaal toe te laten:
 
 >[!NOTE]
 >
->Meer informatie over het malplaatje voor douane off-line middelmanagers en de minimumvereisten in `pom.xml` voor dat specifieke project: [Sjabloon voor aangepaste handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Een aangepaste component voor AEM Screens ontwikkelen**.
+>Meer informatie over het malplaatje voor douane off-line middelmanagers en de minimumvereisten in `pom.xml` voor dat specifieke project , zie [Sjabloon voor aangepaste handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Een aangepaste component voor AEM Screens ontwikkelen**.

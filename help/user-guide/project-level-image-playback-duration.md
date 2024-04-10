@@ -2,9 +2,9 @@
 title: Tijdsduur afspeelafbeelding op projectniveau
 description: Leer hoe u de duur van het afspelen van afbeeldingen definieert op projectniveau.
 contentOwner: jsyal
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,15 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-Met deze functies kunt u de afspeelduur van afbeeldingen op projectniveau definiëren. In alle afbeeldingen wordt deze afspeelduur standaard overgenomen. Als geen duur op het projectniveau wordt bepaald, zal het standaardplayback van 8 seconden verdergaan.
+Met deze functie kunt u de afspeelduur van afbeeldingen op projectniveau definiëren. In alle afbeeldingen wordt deze afspeelduur standaard overgenomen. Als geen duur op het projectniveau wordt bepaald, blijft het standaardplayback van 8 seconden verdergaan.
 
 ### Vereisten {#prerequisites}
 
-Voordat u deze functie gebruikt, moet u eerst een project instellen als voorwaarde voor het implementeren van deze functie. Bijvoorbeeld:
+Voordat u deze functie kunt gebruiken, moet u een project instellen als een voorwaarde voor het implementeren van deze functie. Bijvoorbeeld:
 
-1. Een AEM Screens-project maken (in dit voorbeeld: **ProjectLevelPlayback**)
-
-1. Een volgnummer maken als **PlayBackChannel** krachtens **Kanalen** map
-
-1. Inhoud toevoegen aan **PlayBackChannel**
+1. Een AEM Screens-project maken (in dit voorbeeld: **ProjectLevelPlayback**).
+1. Een volgnummer maken als **PlayBackChannel** krachtens **Kanalen** map.
+1. Inhoud toevoegen aan **PlayBackChannel**.
 
    ![elementen](assets/image_playback1.png)
 
@@ -48,11 +46,11 @@ Volg de onderstaande stappen om te leren hoe u de duur van het afspelen van afbe
 1. Ga naar uw project **ProjectLevelPlayback** en klik op **Eigenschappen** in de actiebalk.
    ![elementen](assets/image_playback3.png)
 
-1. Selecteer alle afbeeldingen in het kanaal en klik op het moersleutelpictogram linksboven (zoals in de onderstaande afbeelding) om het dialoogvenster Kanaalniveau configureren te openen.
+1. Selecteer alle afbeeldingen in het kanaal en klik op het moersleutelpictogram linksboven (zoals in de onderstaande afbeelding), zodat u het dialoogvenster Kanaalniveau configureren kunt openen.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Pagina** wordt geopend.
+1. De **Pagina** wordt geopend.
 
    >[!NOTE]
    >
@@ -60,7 +58,7 @@ Volg de onderstaande stappen om te leren hoe u de duur van het afspelen van afbe
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Bewerk de **Duur** van 8000 (ms) tot 3000 (ms), d.w.z., 3 seconden. Klik op het vinkje rechtsboven in het dialoogvenster **Pagina** om uw wijzigingen op te slaan.
+   Bewerk de **Duur** van 8000 (milliseconden) tot 3000 (milliseconden), dat wil zeggen, 3 seconden. Klik op het vinkje rechtsboven in het dialoogvenster **Pagina** zodat uw wijzigingen worden opgeslagen.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

@@ -2,9 +2,9 @@
 title: Adaptieve uitvoeringen gebruiken in AEM Screens
 description: Op deze pagina wordt beschreven hoe u Adaptieve uitvoeringen in AEM Screens kunt gebruiken.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: cd26f77b9b41a5854aaa1f936abed3b410533684
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Als AEM Screens Content Author kunt u nu apparaatspecifieke elementuitvoeringen 
 Als een ontwikkelaar de eigenschappen en regels voor de renditie-toewijzing heeft toegevoegd, kunt u de renditie-toewijzing nu toepassen op elementen en vervolgens de elementen in een AEM Screens-kanaal opnemen.
 
 >[!IMPORTANT]
->Voordat u Adaptieve uitvoeringen gaat gebruiken, wordt u aangeraden om in een AEM Screens-kanaal te leren over het architecturale overzicht en de architecturale configuratie van deze functie. Zie [Adaptieve uitvoeringen: Overzicht en configuraties van architectuur](/help/user-guide/adaptive-renditions.md) voor meer informatie .
+>Voordat u Adaptieve uitvoeringen gaat gebruiken, wordt u aangeraden om in een AEM Screens-kanaal te leren over het architecturale overzicht en de architecturale configuratie van deze functie. Zie [Adaptieve uitvoeringen: Overzicht van architectuur en configuraties](/help/user-guide/adaptive-renditions.md) voor meer informatie .
 
 ## Adaptieve uitvoeringen gebruiken in kanalen {#using-adaptive-renditions}
 
@@ -55,7 +55,7 @@ Voer de onderstaande stappen uit om vertoningen toe te passen op de elementen di
 ## Migratiestrategie {#migration-strategy}
 
 >[!IMPORTANT]
->Voor grote netwerken, adviseert men dat de migratie geleidelijk wordt gedaan om de risico&#39;s te verlichten aangezien de eigenschap veranderingen in manifest en dossieropslagformaat zal introduceren. Het toevoegen van `sling:configRef` voor het hele project moeten alle spelers worden bijgewerkt naar Feature Pack 6.5.9. Als u een aantal spelers hebt bijgewerkt, moet u de `sling:configRef` alleen naar die weergaven, locaties of kanaalmappen waarin alle spelers zijn bijgewerkt naar Feature Pack 6.5.9.
+>Voor grote netwerken, adviseert men dat de migratie geleidelijk wordt gedaan om de risico&#39;s te verlichten aangezien de eigenschap veranderingen in manifest en dossieropslagformaat zal introduceren. De `sling:configRef` voor het hele project moeten alle spelers worden bijgewerkt naar Feature Pack 6.5.9. Als u een aantal spelers hebt bijgewerkt, moet u de `sling:configRef` alleen naar die weergaven, locaties of kanaalmappen waarin alle spelers zijn bijgewerkt naar Feature Pack 6.5.9.
 
 Het volgende diagram toont de migratiestrategie voor grote netwerken:
 

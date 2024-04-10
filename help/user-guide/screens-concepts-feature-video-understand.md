@@ -1,6 +1,5 @@
 ---
 title: Video over AEM Screens-overzicht
-seo-title: AEM Screens Overview Video
 description: AEM Screens is een Digital Signage-oplossing waarmee marketers dynamische en interactieve digitale ervaringen kunnen publiceren naar verschillende soorten schermen.
 contentOwner: dgordon
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -8,7 +7,7 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%
@@ -31,7 +30,7 @@ Als u de video&#39;s wilt volgen, hebt u het volgende nodig:
 
 1. Een schermspeler
 
-Klik op [hier](https://download.macromedia.com/screens/). AEM Screens is ook beschikbaar in [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+Selecteer [hier](https://download.macromedia.com/screens/). AEM Screens is ook beschikbaar in [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 In de onderstaande video wordt gedetailleerd ingegaan op het maken van een nieuw kanaal, het ontwerpen van nieuwe inhoud en het toevoegen van een kanaal aan een herbruikbaar schema. Het volgt losjes de eerste helft van [Schermkaarthandleiding](kickstart-for-aem-screens.md).
 

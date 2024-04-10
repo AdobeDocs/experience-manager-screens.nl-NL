@@ -4,9 +4,9 @@ seo-title: Recommended Approach in an AEM Screens Project
 description: De pagina beschrijft geadviseerde benadering in een project van AEM Screens
 seo-description: The page describes recommended approach in an AEM Screens project
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -17,29 +17,29 @@ Aanbevolen wordt om elk AEM Screens-project op ondernemingsniveau als een langet
 
 ## Richtlijnen voor het ontwikkelen van een strategie voor digitale signalen {#signage-strategy}
 
-Raadpleeg de weinige aanbevelingen voordat u een digitaal ondertekeningsproject ontwikkelt en implementeert:
+Zie de weinige aanbevelingen alvorens een digitaal ondertekeningsproject te ontwikkelen en op te stellen:
 
-* **Bereik**: Als de gewenste oplossing ambitieus is, wordt aanbevolen de te leveren items in afzonderlijke fasen te verdelen om het bereik van het project te bepalen.
+* **Bereik**: Als de gewenste oplossing ambitieus is, wordt u aangeraden de te leveren items op te splitsen in afzonderlijke fasen om het bereik van het project te bepalen.
 
 * **Gevallen voor gedefinieerd gebruik**: De projectfasen moeten nauwkeurig omschreven gebruiksgevallen met duidelijk vastgestelde succescriteria opleveren.
 
 * **Incrementele te leveren items**: Focus op het stapsgewijs leveren van functies.
 
-* **Geschatte resultaten schatten**: Begin met uit-van-de-doos eigenschappen van AEM Screens alvorens douanecomponenten en integraties te bouwen. altijd brainstorm als het gewenste resultaat kan worden bereikt met de onderdelen en functies die standaard bij AEM Screens worden geleverd.
+* **Geschatte resultaten schatten**: Begin met de functies van de out-of-the-box AEM Screens voordat u aangepaste componenten en integraties gaat maken. altijd brainstorm als het gewenste resultaat kan worden bereikt met de onderdelen en functies die standaard bij AEM Screens worden geleverd.
 
-* **Piloten, rollouts en concepttest definiëren**: Ontwikkelen van een concepttest (Proof of Concept, POC&#39;s) en indien nodig aanpassen via een proefproject en uitrol.
+* **Piloten, rollouts en concepttest definiëren**: Ontwikkelen van een concepttest (Proof of Concept, POC&#39;s) en indien nodig aanpassen door middel van een proef en uitrol.
 
-* **Vooraf gedefinieerde inhoudsstrategie**: Vaststellen van een inhoudsstrategie, met inbegrip van doelstellingen op korte en lange termijn. Bovendien, richt merkdoelstellingen/KPIs met eigenschapverbeteringen.
+* **Vooraf gedefinieerde inhoudsstrategie**: Een inhoudstrategie vaststellen, met inbegrip van doelstellingen op korte en lange termijn. Bovendien, richt merkdoelstellingen/KPIs met eigenschapverbeteringen.
 
-   >[!NOTE]
-   >
-   > De upfront kosten zijn vaak hoger op een AEM Screens-project omdat het nodig is te investeren in hardware, fixtures en site-ontwerpen; daarom kan het eenvoudiger houden van initiële inhoudoplossingen helpen de budgetverwachtingen te beheren .
+  >[!NOTE]
+  >
+  > De upfront kosten zijn vaak hoger op een AEM Screens-project omdat het nodig is te investeren in hardware, fixtures en site-ontwerpen. Daarom kan het eenvoudiger houden van initiële inhoudoplossingen helpen bij het beheren van de budgetverwachtingen.
 
-* **Grote hoeveelheden te leveren items schatten**: Als de oplossing op grote schaal zal worden geleverd, wordt geadviseerd om de componenten van de toepassing uit te rollen aan zorgvuldig gekozen proefplaatsen voor proefgebruik. Lever aan nieuwe plaatsen en apparaten aangezien de toepassing bevestiging overgaat.
+* **Grote hoeveelheden te leveren items schatten**: Als de oplossing op grote schaal wordt geleverd, wordt u aangeraden de componenten van de toepassing uit te rollen naar zorgvuldig gekozen proeflocaties voor gebruik bij de proef. Lever aan nieuwe plaatsen en apparaten aangezien de toepassing bevestiging overgaat.
 
-   >[!NOTE]
-   >
-   > Begin analyses tijdens de proef te verzamelen om bedrijfsteams te helpen het succes van de oplossing tegen de specifieke metriek bevestigen zij proberen te bereiken. Het weten hoe de piloot uitvoert helpt het bedrijfsteam bepalen welke verbeteringen moeten worden aangebracht.
+  >[!NOTE]
+  >
+  > Begin analyses tijdens de proef te verzamelen om bedrijfsteams te helpen het succes van de oplossing tegen de specifieke metriek bevestigen zij proberen te bereiken. Het weten hoe de piloot uitvoert helpt het bedrijfsteam bepalen welke verbeteringen moeten worden aangebracht.
 
 * **Leveringen splitsen in meetbare taken**: Door de levering van functies in meetbare taken te splitsen, kunt u tijdig feedback geven, beter haalbare doelen bieden en de algehele projectrisico&#39;s verminderen.
 

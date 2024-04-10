@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 ```
 
 >[!NOTE]
->Alle Android™-apparaten hebben een `*sdcard*` map of een werkelijke map is `*sdcard*` wordt ingevoegd of niet. Dit bestand wordt tijdens de implementatie op hetzelfde niveau geplaatst als de map Downloads. Sommige MDM&#39;s, zoals Samsung Knox, verwijzen mogelijk naar deze *sdcard* maplocatie als *Interne opslag*.
+>Alle Android™-apparaten hebben een `*sdcard*` map of een werkelijke map is `*sdcard*` wordt ingevoegd of niet. Dit bestand wordt tijdens de implementatie op hetzelfde niveau geplaatst als de map Downloads. Sommige MDM&#39;s, zoals Samsung Knox, kunnen dit zien *sdcard* maplocatie als *Interne opslag*.
 
 ## Bulkprovisioning van Android™ Player via Enterprise Mobility Management {#bulk-provisioning}
 

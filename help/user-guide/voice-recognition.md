@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Alvorens u de eigenschap van de stemerkenning gebruikt, zorg ervoor u een projec
 
    >[!NOTE]
    >
-   >Als u wilt leren hoe u een kanaal maakt of inhoud aan een kanaal toevoegt, raadpleegt u [Kanalen maken en beheren](/help/user-guide/managing-channels.md)
+   >Ga voor meer informatie over het maken van een kanaal of het toevoegen van inhoud aan een kanaal naar [Kanalen maken en beheren](/help/user-guide/managing-channels.md)
 
    Of,
 
@@ -139,7 +139,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
    ![afbeelding](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
-   >Raadpleeg voor meer informatie over het toewijzen van een kanaal aan een weergave [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
+   >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
 
 1. Kanalen toewijzen **Hoofd**, **ColdDrinks**, en **HotDrinks** aan uw **LobbyDisplay**. Als u bovendien de **SplitScreen** kanaal voor uw project, zorg ervoor u dat ook aan de vertoning toewijst.
 
@@ -157,7 +157,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
 
    >[!NOTE]
    >
-   >Raadpleeg voor meer informatie over het toewijzen van een kanaal aan een weergave [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
+   >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
 
 1. Wanneer u kanalen aan een vertoning hebt toegewezen, navigeer aan **LobbyDisplay** en selecteert u de weergave. Selecteren **Eigenschappen** in de actiebalk.
 

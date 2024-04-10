@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >Als u wilt leren hoe u een tekstbedekking aan uw element in een kanaaleditor kunt toevoegen, raadpleegt u [Tekstbedekking](/help/user-guide/text-overlay.md).
+   >Ga voor meer informatie over het toevoegen van een tekstbedekking aan uw element in een kanaaleditor naar [Tekstbedekking](/help/user-guide/text-overlay.md).
 
 1. Navigeer naar CRXDE Lite via AEM > Gereedschappen > **CRXDE Lite**.
 
@@ -84,7 +84,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 1. Klikken **Opslaan en sluiten** om het ontwerppad bij te werken.
 
    >[!IMPORTANT]
-   >U kunt de bestaande sjablonen voor schermen bedekken door standaard uw eigen ontwerpen te injecteren of uw eigen sjabloon te maken. Raadpleeg de onderstaande stappen voor meer informatie.
+   >U kunt de bestaande sjablonen voor schermen bedekken door standaard uw eigen ontwerpen te injecteren of uw eigen sjabloon te maken. Zie de onderstaande stappen voor meer informatie.
 
 1. Als u de bestaande sjablonen voor schermen wilt bedekken om uw eigen ontwerpen standaard te injecteren:
 

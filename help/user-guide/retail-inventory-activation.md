@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
 1. **Het publiek configureren volgens de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (raadpleeg ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
+   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
 
    1. Drie nieuwe segmenten toevoegen **Voor_rood**, **For_Green**, en **Voor_blauw**.
 

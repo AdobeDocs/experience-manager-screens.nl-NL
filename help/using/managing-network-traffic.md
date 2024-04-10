@@ -2,9 +2,9 @@
 title: Netwerkverkeer beheren
 description: De pagina beschrijft Standaardnetwerkinstellingen en hoe u het netwerkverkeer kunt beheren.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ Een voordeel van een proxyserver is dat de cache van deze server alle gebruikers
 
 Wanneer een volmachtsserver een verzoek om een middel van Internet (zoals een Web-pagina ontvangt of terwijl het verbinden met een Uitgever van de AEM), scant het zijn lokaal geheime voorgeheugen van eerder geroepen urls. Als het de pagina vindt, keert het het aan de gebruiker terug zonder het verzoek aan Internet door:sturen. Als de pagina niet in het geheime voorgeheugen is, handelt de volmachtsserver (als cliënt) namens de gebruiker en verzoekt de pagina van de server in Internet. Wanneer de inhoud wordt geretourneerd, koppelt de proxyserver het aan de oorspronkelijke aanvraag en stuurt het door naar de gebruiker.
 
-## Werken met de standaardnetwerkinstellingen {#network-setups}
+## De standaardnetwerkinstellingen {#network-setups}
 
-Om een netwerkOpstelling uit te voeren, moet u naar de volgende scenario&#39;s met hun sterke punten en plaatsingsdetails verwijzen.
+Om een netwerkOpstelling uit te voeren, zie de volgende scenario&#39;s met hun sterke punten en plaatsingsdetails.
 
 Deze gids benadrukt vier verschillende soorten de Montages van het Netwerk binnen een Organisatie:
 
@@ -45,4 +45,4 @@ De volgende lijst schetst de verschillende types van netwerkmontages met voor en
 | **Direct Internet Network (bekabeld/draadloos)** | Eenvoudig en recht vooruit naar SetUp<br>Goede keuze voor middelgrote of grotere installaties<br>Het specifieke Netwerk kan worden ingekapseld<br>Enkele foutpunten<br>Relatief goedkoop<br>Goede schaalbaarheid | Verplicht internetgegevensplan |
 | **Direct mobiel netwerk** | Eenvoudig in te stellen<br>Goede keuze voor middelgrote of grotere installaties<br>Goede schaalbaarheid<br>Ingekapselde schermen | Verplichte internetverbinding |
 | **Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk** | Eenvoudig in te stellen<br>Goede keuze voor middelgrote of grotere installaties<br>Het specifieke Netwerk kan worden ingekapseld<br>Enkele foutpunten<br>Relatief goedkoop<br>Goede schaalbaarheid | Verplicht internetgegevensplan |
-| **Enclosed Corporate Network (bekabeld/draadloos)** | Hoge flexibiliteit en schaalbaarheid<br>Zeer veilig vanwege verschillende regels van defensie<br>Ingekapselde Netwerken<br>Eenvoudig te bewaken en te onderhouden<br>Betrouwbaar | Gecompliceerd en duur<br>Aanbevolen voor de Specialisten van het Netwerk of de Integrators van het Systeem |
+| **Enclosed Corporate Network (bekabeld/draadloos)** | Hoge flexibiliteit en schaalbaarheid<br>Zeer veilig vanwege verschillende regels van defensie<br>Encapsulated Networks<br>Eenvoudig te bewaken en te onderhouden<br>Betrouwbaar | Gecompliceerd en duur<br>Aanbevolen voor de Specialisten van het Netwerk of de Integrators van het Systeem |

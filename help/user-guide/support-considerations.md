@@ -14,14 +14,14 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
 
-# Deel 5: Overwegingen voor ondersteuning {#part-support-considerations}
+# Deel 5: Overwegingen bij de ondersteuning {#part-support-considerations}
 
 Deze pagina markeert het afsluitende deel van een serie van 5 delen die teamleden moet helpen leren hoe hardware, software en connectiviteitskwesties worden behandeld. In deze fase worden kostenramingen en -kaders voor on-site ondersteuning besproken. Bovendien verklaart ook hoe de parameters van SLA, operationele begrotingen, en de overdrachten NOC worden beheerd.
 
@@ -52,7 +52,7 @@ Hier volgen enkele belangrijke overwegingen voor de ondersteuning op dag 2:
 
 * Vereisten zoals extern apparaatbeheer, beschikbaarheid van de helpdesk en on-site ondersteuning van technici zijn praktisch een gegeven in deze fase van de ontwikkeling van de Digital Signage-industrie. Afgezien van deze basislijnbehoeften zouden AV Integrators ook kostenvariabelen tussen pro-actieve versus reactieve controle en steunmodellen moeten onderzoeken.
 * Ter voorbereiding op het succes op lange termijn is het van het grootste belang dat er een overeenkomst op het niveau van de steun op dag 2 wordt gesloten (ook wel een &quot;S.L.A.&quot; genoemd) in samenwerking met de AV-integrator. SLAs zal de dienst van de de detailsteun post-plaatsing helpen om cliëntverwachtingen te plaatsen.
-* Een zeer belangrijk middel dat in het succesvolle beheer van veelvoudige netwerken wordt gebruikt is de Kennisbank. SharePoint is een populair platform voor dit soort bronnen. De Kennisbank omvat pre-scripted Q&amp;A voor agenten NOC om te volgen, ervoor zorgend binnenkomende verzoeken van de probleemresolutie op een verenigbare manier worden behandeld. Kennisbanken omvatten doorgaans referentiematerialen voor systeemconfiguraties en locaties, inclusief losse vellen voor hardware en referentiematerialen voor systeemsoftware.
+* Een zeer belangrijk middel dat in het succesvolle beheer van veelvoudige netwerken wordt gebruikt is de Kennisbank. SharePoint is een populair platform voor dit soort bronnen. De Kennisbank omvat pre-scripted Q&amp;A voor agenten NOC om te volgen, ervoor zorgend binnenkomende verzoeken van de probleemresolutie op een verenigbare manier worden behandeld. De Bases van de kennis omvatten typisch verwijzingsmaterialen voor systeemconfiguraties en plaatsplaatsen met inbegrip van besnoeiingsbladen voor hardware en verwijzingsmaterialen voor systeemsoftware.
 * Bewaking- en beheermogelijkheden zijn grotendeels afhankelijk van besturingssystemen en schermmogelijkheden van Media Player. Windows-besturingssystemen bieden het grootste detailniveau. Voor implementaties die op Android- of iOS-apparaten worden uitgevoerd, wordt Mobile Device Management (ook wel MDM genoemd) gebruikt.
 * Sommige schermfabrikanten bieden de mogelijkheid om schermen onafhankelijk van mediaplayers te controleren, terwijl andere een extern apparaat nodig hebben.
 * AV Integrators hefboomwerking een mengeling van technologieën, zodat blijven de oplossingen flexibel om de behoeften van de eindcliënt het best te richten.
@@ -69,4 +69,4 @@ Volg deze slotzelfstudie naar een 5-delige serie zelfstudie hieronder waarin wor
 
 ## Conclusie {#conclusion}
 
-Deze 5 deelreeksen zijn geconcentreerd op zeer belangrijke overwegingen kritiek om het succes van uw project te verzekeren. Raadpleeg andere secties in de AEM Screens User Guide voor meer informatie over de implementatie.
+Deze 5 deelreeksen zijn geconcentreerd op zeer belangrijke overwegingen kritiek om het succes van uw project te verzekeren. Zie andere secties van de AEM Screens User Guide voor implementatiedetails.

@@ -1,13 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202109
-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202109, uitgebracht op 23 september 2021.
+description: Meer informatie over het AEM Screens Feature Pack 202109 dat op 23 september 2021 is uitgebracht.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
+>We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
 
 ## Beschikbaarheid {#availability}
 
@@ -31,17 +31,17 @@ De releasedatum voor AEM Screens Feature Pack 202109 is 23 september 2021.
 
 * **Ondersteuning van miniaturen voor video&#39;s**
 
-  Ondersteuning voor miniaturen voor video&#39;s die nu worden ondersteund in AEM Screens. Een inhoudauteur kan een duimnagel voor video&#39;s bepalen zodat het beeld als placeholder kan worden gebruikt en behoorlijk het playback en richten van inhoud testen, terwijl de daadwerkelijke video door het aangewezen team wordt gebeëindigd. De afbeelding kan ook worden gebruikt voor het geval dat het afspelen van de video mislukt.
+  Ondersteuning voor miniaturen voor video&#39;s die nu worden ondersteund in AEM Screens. Een auteur van inhoud definieert een miniatuur voor video&#39;s, zodat de afbeelding als plaatsaanduiding wordt gebruikt. Ook wordt het afspelen en activeren van inhoud op de juiste wijze getest, terwijl de video zelf door het juiste team wordt voltooid. De afbeelding kan ook worden gebruikt als het afspelen van de video mislukt.
 Zie [Ondersteuning van miniaturen voor video&#39;s](/help/user-guide/thumbnail-support.md) voor meer informatie .
 
 * **Standaardafspeelcontrole**
 
-  AEM Screens ondersteunt nu elementaire afspeelcontrole. De speler zal nu diverse playbackmetriek met elk melden pingelt (gebrek aan 30 seconden). Op basis van de meetgegevens kunnen verschillende randgevallen worden gedetecteerd (geplakte ervaring, leeg scherm, planningsprobleem, enz.). Met deze functie kan het team op afstand controleren of een speler inhoud correct afspeelt, de reactiviteit verbetert tot lege schermen of gebroken ervaringen in het veld en het risico dat de eindgebruiker een verbroken ervaring krijgt verkleind.
-Zie [Standaardafspeelcontrole](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/installing-screens-player.html?lang=en#playback-monitoring) voor meer informatie .
+  AEM Screens ondersteunt nu elementaire afspeelcontrole. De speler rapporteert nu verschillende playbackmetriek met elk pingelt (gebrek aan 30 seconden). Op basis van de meetgegevens worden verschillende randgevallen gedetecteerd (geplakte ervaring, leeg scherm, planningsprobleem, enzovoort). Met deze functie kan het team op afstand controleren of een speler de inhoud correct afspeelt en de reactiviteit op lege schermen verbetert of de ervaringen in het veld verbroken zijn. Het vermindert ook het risico om een gebroken ervaring aan het eind - gebruiker te tonen.
+Zie [Standaardafspeelcontrole](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) voor meer informatie .
 
 * **Updates voor Rapport voor toewijzing van inhoud**
 
-  Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij verbeterde gebruikerservaring. In het downloadbare rapport worden verbeterde entiteiten met betrekking tot de speler, zoals locaties, weergaven en apparaten, op één spreadsheettabblad weergegeven en wordt informatie over de inhoudsprovider weergegeven, zoals kanalen en elementen op een ander tabblad.
+  Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij verbeterde gebruikerservaring. In het downloadbare rapport worden verbeterde spelergerelateerde entiteiten zoals locaties, weergaven en apparaten op één spreadsheettabblad weergegeven en wordt informatie over de inhoudsprovider weergegeven, zoals kanalen en elementen op een ander tabblad.
 Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie .
 
 * **Aangepaste uitvoeringen**
@@ -50,35 +50,35 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
   Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Zie [Adaptieve uitvoeringen: Overzicht van architectuur en configuraties](/help/user-guide/adaptive-renditions.md) voor meer informatie .
 
-  Bovendien kunt u als AEM Screens Content Author uw middelen configureren voor het gebruik van Aangepaste uitvoeringen en tevens uw apparaten migreren voor grote netwerken om deze functie te gebruiken, in uw AEM Screens-kanalen. Zie [Adaptieve uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie .
+  Bovendien kunt u als AEM Screens Content Author uw middelen configureren voor het gebruik van Adaptieve uitvoeringen. U kunt uw apparaten ook migreren voor grote netwerken om deze functie in uw AEM Screens-kanalen te gebruiken. Zie [Adaptieve uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie .
 
 * **Ondersteuning voor V3-manifest**
 
   U kunt de Dispatcher nu configureren voor Manifest Version v3. Voor het inschakelen van v3-manifest moet u:
 
-   * Wis om het even welke hangende off-line inhoudstaken in zowel auteur als gepubliceerd
+   * Wis alle taken met offline inhoud die in behandeling zijn, zowel in de auteur als gepubliceerd.
 
-      * Naar crx/de navigeren in auteur en publiceren
+      * Navigeer naar CRXDE Lite in Auteur en Publiceer.
 
-      * Klik op Gereedschappen > Query
+      * Klik op Opties > Query.
 
-      * In het vraaggebruik `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+      * In de query gebruikt u `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 
-      * Hiermee worden alle taken met offline inhoud vermeld die momenteel worden uitgevoerd of in behandeling zijn in de wachtrij
+      * Hier worden alle taken met offlineinhoud weergegeven die momenteel worden uitgevoerd of in behandeling zijn in de wachtrij.
 
-      * Wacht tot er geen off-line inhoudstaken meer van de vraag zijn teruggekeerd
+      * Wacht tot er geen off-line inhoudstaken meer van de vraag zijn teruggekeerd.
 
-   * ContentSync uitschakelen in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+   * ContentSync uitschakelen in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-   * SmartSync inschakelen in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
+   * SmartSync inschakelen in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
-   * Verzender bijwerken
+   * Dispatcher bijwerken.
 
-   * Aangepaste component bijwerken
+   * Aangepaste component bijwerken.
 
 
-   * Zie [Dispatcher configureren voor manifestversie v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) voor meer informatie .
-   * Als u aangepaste componenten gebruikt als onderdeel van v3-manifesten, raadpleegt u [Sjabloon voor aangepaste handlers](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+   * Zie [Dispatcher configureren voor manifestversie v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer informatie .
+   * Als u aangepaste componenten gebruikt als onderdeel van v3-manifesten, raadpleegt u [Sjabloon voor aangepaste handlers](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Opgeloste problemen {#bug-fixes}
@@ -89,7 +89,7 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * De spelers stellen nu alleen elementen van uitvoeringen beschikbaar als er renditie-toewijzing is.
 
-* Verbeterd pingelen om opnieuw voor authentiek te verklaren als de reactie ongeldig JSON is.
+* Verbeterd pingelen om opnieuw te verifiëren als de reactie ongeldig JSON is.
 
 * Numerieke kanaalnamen/rollen hebben een leeg scherm veroorzaakt.
 
@@ -101,9 +101,9 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * Een speler moet de laatste geslaagde afspeelgebeurtenis melden.
 
-* Een speler moet zijn playbackstatus melden.
+* Een speler moet de afspeelstatus melden.
 
-* Speler downloadt geen Middelen opnieuw wanneer `ALL` Cache is gewist.
+* De speler downloadt geen Middelen opnieuw wanneer `ALL` Cache is gewist.
 
 * Als Player-beheerder kunt u nu een spelernaam kiezen.
 
@@ -118,7 +118,7 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 **Server-zijde**
 
 * Doelvideo wordt niet weergegeven
-* Voorwaarde bij het uitzenden van weergavegegevens verschuiven naar volgende waarden.
+* Vervang weergavevoorwaarden voor het uitzenden van weergavegegevens naar volgende bewerkingen.
 
 * Kanaalvoorvertoning werkt niet voor kanalen met video&#39;s.
 
@@ -146,20 +146,20 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * Lege, dynamische ingesloten reeks heeft soms een leeg scherm veroorzaakt.
 
-* Speler meldt nu zijn playbackstatus.
+* De speler rapporteert nu zijn playbackstatus.
 
 * Video is afgespeeld in `Tiny mode` en wordt niet afgespeeld als video op een volledig scherm op het apparaat. Het probleem is nu opgelost.
 
-### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers
 
 De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 9 van de Eigenschap:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player
 
 Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

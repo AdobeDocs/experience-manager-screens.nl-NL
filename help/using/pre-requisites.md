@@ -2,9 +2,9 @@
 title: Vereisten [!UICONTROL AEM Screens]
 description: Leer wat de voorwaarden zijn voordat u een AEM Screens-project start.
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Raadpleeg de volgende zelfstudies en bronnen voor meer informatie over Adobe Exp
 
 ## Leren werken met productfuncties en persoonlijke functies in AEM Screens {#product-features}
 
-Raadpleeg de volgende bronnen voor meer informatie over de basisbeginselen van een AEM Screens-project:
+Zie de volgende bronnen voor meer informatie over de basisbeginselen van een AEM Screens-project:
 
 * **[AEM Screens-gebruikershandleiding](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**: Verstrekt een gedetailleerde documentatie over eigenschappen en functionaliteiten van gevarieerde personen die in een project van AEM Screens worden gebruikt.
 

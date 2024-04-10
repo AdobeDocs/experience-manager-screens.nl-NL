@@ -4,9 +4,9 @@ seo-title: Project Taxonomy
 description: Deze pagina beschrijft de taxonomie van projecten
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Overweeg het volgende voordat u de AEM Screens Digital Sigage-oplossing implemen
 * **Planning**
 * **De inhoud voorvertonen**
 
-Raadpleeg voor meer informatie over deze termen [Verklarende woordenlijst](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
+Zie voor meer informatie over deze termen [Verklarende woordenlijst](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
@@ -35,7 +35,6 @@ Raadpleeg voor meer informatie over deze termen [Verklarende woordenlijst](https
 >
 >* hardwaremiddelendatabase om een schermproject automatisch te vullen
 >* text config-bestand om elke speler automatisch te laten verwijzen naar een specifieke instantie van een AEM
-
 
 ## Een AEM Screens-project implementeren {#creating-a-project}
 
@@ -50,7 +49,7 @@ Een auteur begint gewoonlijk een AEM Screens-project door:
 * [een AEM Screens-project maken](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html?lang=en)
 * [kanalen maken](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels.html?lang=en)
 * [toevoegen van componenten en elementen aan het kanaal](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel.html?lang=en)
-* [maken, planningen](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
+* [maken, schema&#39;s](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules.html?lang=en)
 * [locaties maken](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations.html?lang=en)
 * [beeldschermen maken](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html?lang=en)
 * [Kanalen toewijzen aan de weergaven](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment.html?lang=en)
@@ -58,4 +57,4 @@ Een auteur begint gewoonlijk een AEM Screens-project door:
 * [weergeven, inhoud in een AEM Screens-speler](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
 
 >[!NOTE]
->U kunt ook een set locaties vanuit een CSV/XLS-spreadsheet in een AEM Screens-project bulksgewijs importeren. Volg [Nieuwe importmodule voor project uit bestand](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) voor meer informatie .
+>U kunt ook een set locaties vanuit een CSV/XLS-spreadsheet in een AEM Screens-project bulksgewijs importeren. Volgen [Nieuwe importmodule voor project uit bestand](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) voor meer informatie .

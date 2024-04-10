@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -172,7 +172,7 @@ Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het 
 
 >[!NOTE]
 >
-> Raadpleeg de volgende secties voor meer informatie over DayParting:
+> Zie de volgende secties voor meer informatie over DayParting:
 >
 >* [Herhaling van activa afhandelen](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
 >* [Herhaling van middelen in een kanaal afhandelen](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

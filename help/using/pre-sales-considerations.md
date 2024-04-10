@@ -4,9 +4,9 @@ seo-title: Considerations as Projects are Scoped
 description: De pagina beschrijft Overwegingen aangezien de Projecten worden gescoord
 seo-description: The page describes Considerations as Projects are Scoped
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ De belangrijkste resultaten in dit stadium zijn:
 >
 >Identificeer zo snel mogelijk de gegevens die nodig zijn voor de toepassing en waar deze vandaan komt. Tijdens de implementatie zal er dieper worden ingegaan op de situatie, maar neemt u de tijd in *Dagnul* om te weten te komen welke gegevens de cliënt van plan is te gebruiken, waar die gegevens momenteel worden opgeslagen, en hoe het door de toepassing kan worden betreden die wordt gebouwd. Door het ontwikkelingsteam vooraf op de hoogte te stellen van de uitdagingen die zich in de toekomst kunnen voordoen, wordt de implementatie soepeler verlopen.
 
-Videozelfstudie inschakelen [Overwegingen als projecten worden behandeld](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) voor meer informatie .
+Bekijk videozelfstudie aan [Overwegingen als projecten worden behandeld](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) voor meer informatie .
