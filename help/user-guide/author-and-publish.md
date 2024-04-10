@@ -2,9 +2,9 @@
 title: Instanties voor auteurs en publiceren configureren in AEM Screens
 description: Leer hoe u een instantie Auteur en een instantie Publish voor AEM Screens configureert.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 4b8013873be87d4d118f627d6131ff3e2fd087de
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Voor elke instantie Publish:
 1. Update Topology schakelaar URLs: voeg URLs van alle het ontleden toe Publish instanties die zijn:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Whitelist-lijst met topologieverbindingen**: Pas aan IPs of subnets aan die alle Publish instanties behandelen. Verzeker u whitelist IP/hostname van alle Publish instanties zonder het havenaantal.
+1. **Topologieaansluiting `Whitelist` Lijst**: Pas aan IPs of subnets aan die alle Publish instanties behandelen. Zorgen voor `whitelist` IP/hostname van alle Publish instanties zonder het havenaantal.
 
 1. Inschakelen **Lokale lussen automatisch stoppen**
 
@@ -213,7 +213,7 @@ Nadat u opstelling de het publiceren topologie hebt, vorm de Auteur en publiceer
 >
 >Als u aan de slag wilt gaan met dit voorbeeld, maakt u een AEM Screens-project gevolgd door een locatie, weergave en kanaal in uw project te maken. Voeg inhoud aan uw kanaal toe en wijs het kanaal aan een vertoning toe.
 
-#### Stap 1: een AEM Screens Player (apparaat) starten {#step-starting-an-aem-screens-player-device}
+#### Stap 1: een AEM Screens Player (apparaat) starten
 
 1. Open een apart browservenster.
 1. Ga naar de schermspeler met de *webbrowser*, dat wil zeggen:`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` of start de AEM Screens-app. Wanneer u het apparaat opent, ziet u dat het apparaat niet is geregistreerd.
@@ -280,7 +280,7 @@ De volgende punten vatten de lijst van de Controle van het Publiceren samen:
 * *Schema* - indien een schema wordt gebruikt, zorg ervoor dat dit wordt gepubliceerd
 * *Locatie, planningen en kanaalmap* - als de bijbehorende bronnen zich in een map bevinden.
 
-Voer de onderstaande stappen uit om het gedrag Auteur/Publicatie te verifiëren:
+Voer de onderstaande stappen uit om het gedrag bij schrijven en publiceren te controleren:
 
 1. Anaalinhoud bijwerken op instantie Auteur.
 1. Uitvoeren **Publicatie beheren** om nieuwe wijzigingen in alle instanties Publiceren te publiceren.

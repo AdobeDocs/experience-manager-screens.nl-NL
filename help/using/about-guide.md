@@ -1,12 +1,10 @@
 ---
 title: Informatie over deze handleiding
-seo-title: Description on the Guide
-description: Volg deze beste praktijken AEM 6.5 gids voor projecten van AEM Screens om projecten, van strategische en ontwerpbriefing, tot plaatsing en na steun te plannen en uit te voeren.
-seo-description: This page describes the intent of the Best Practices Guide
+description: Leer over beste praktijken voor de projecten van AEM Screens om projecten te plannen en uit te voeren, van strategische en ontwerpbriefing, tot plaatsing en na steun.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -17,17 +15,17 @@ De AEM Screens Best Practices Guide is bedoeld als leidraad voor het succesvol p
 
 Het doelpubliek voor dit document is:
 
-* *AEM*
+* *Implementators AEM*
 * *AV-integrators*
 * *Bedrijfsstrategieën*
 * *Projectmanagers*
 * *Consultants*
 
-Er moet echter op worden gewezen dat veel andere rollen ook baat zullen hebben bij het lezen van deze gids.
+Er moet echter op worden gewezen dat veel andere rollen ook baat kunnen hebben bij het lezen van deze handleiding.
 
-De AEM Screens is een nieuwe uitbreiding van Adobe Experience Manager (AEM) en omdat de instrumenten nieuw zijn en hun potentiële toepassingen variëren, is het van essentieel belang belangrijke overwegingen en gemeenschappelijke risicofactoren in kaart te brengen die van belang zijn voor de ontwikkeling en implementatie van AEM Screens.
+De AEM Screens is een nieuwe uitbreiding naar Adobe Experience Manager (AEM). Omdat de instrumenten nieuw zijn en hun potentiële toepassingen variëren, is het van essentieel belang om belangrijke overwegingen en gemeenschappelijke risicofactoren te identificeren die bij de ontwikkeling en implementatie van AEM Screens betrokken zijn.
 
-Deze gids verstrekt niet alleen een uitvoerig inzicht en praktisch advies om zich voor te stellen, ontwerpen en opzettelijke klantenervaringen in uw digitale signaalimplementatie te brengen maar ook gidst u hoe te om een positieve invloed op uw zaken tot stand te brengen gebruikend enkele beste praktijken die terwijl het opstellen van een digitaal ondertekeningsproject in AEM Screens worden gevolgd.
+Deze gids verstrekt een uitvoerig inzicht en praktisch advies om zich voor te stellen, te ontwerpen, en opzettelijke klantenervaringen in uw digitale signaalimplementatie te brengen. Het begeleidt u ook hoe te om een positieve invloed op uw zaken tot stand te brengen gebruikend enkele beste praktijken terwijl het opstellen van een digitaal ondertekeningsproject in AEM Screens worden gevolgd.
 
 >[!IMPORTANT]
 >
@@ -35,14 +33,12 @@ Deze gids verstrekt niet alleen een uitvoerig inzicht en praktisch advies om zic
 >
 > * **[Projectrollen en -verantwoordelijkheden](roles-responsibilities.md)**
 > * **[RACI-grafiek voor verschillende rollen](roles-responsibilities.md#raci-chart)**
-> * **[Configuraties AEM Platform](aem-platform-configurations.md)**
+> * **[Platformconfiguraties AEM](aem-platform-configurations.md)**
 > * **[Ondersteuning en toezicht](support-monitoring.md)**
-
 
 >[!NOTE]
 >
 > In deze Guide gebruikte termen (in de context van AEM Screens):
 >
 > * **UX** wordt beschouwd als de ervaring van digitale handtekeningen die aan eindgebruikers worden geleverd.
-> * **UI** wordt beschouwd als de gebruikersinterface, die u toestaat om uw projecten in Schermen tot stand te brengen en te beheren.
-
+> * **UI** wordt beschouwd als de gebruikersinterface waarmee u projecten in schermen kunt maken en beheren.

@@ -1,21 +1,17 @@
 ---
 title: Apparaten beheren
-seo-title: Managing Devices
-description: In deze pagina wordt de toewijzing van apparaten beschreven.
-seo-description: Follow this page to learn about device assignment. The Devices console allows you to access the device manager to assign your device to a display.
-uuid: 889cc11c-60f7-4966-82b5-9ebdd082a3c5
+description: Meer informatie over het toewijzen en beheren van apparaten in AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -34,7 +30,7 @@ Met de apparaatconsole hebt u toegang tot de apparaatmanager om uw apparaat aan 
 
 Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 
-1. Navigeer naar de map Devices van uw project, bijvoorbeeld
+1. Ga bijvoorbeeld naar de map Devices van uw project
 
    `http://localhost:4502/screens.html/content/screens/TestProject`
 
@@ -59,7 +55,7 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Klik op de knop (**...**) in de rechterbovenhoek van het dialoogvenster **APPARATEN** om apparaatconfiguratie toe te voegen of de apparaten bij te werken.
+   Klik op de knop (**...**) rechtsboven in het dialoogvenster **APPARATEN** om apparaten toe te voegen of bij te werken.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

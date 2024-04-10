@@ -1,15 +1,13 @@
 ---
 title: Kanalen maken en beheren
-seo-title: Managing Channels
-description: Volg deze pagina voor meer informatie over het maken en beheren van kanalen. Ook wordt het kanaaldashboard en het bewerken van inhoud voor een kanaal uitgelegd.
-seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
+description: Meer informatie over het maken en beheren van kanalen. Ook wordt het kanaaldashboard en het bewerken van inhoud voor een kanaal uitgelegd.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -27,7 +25,7 @@ Op deze pagina worden kanalen voor AEM Screens gemaakt en beheerd.
 
 ## Een nieuw kanaal maken {#creating-a-new-channel}
 
-Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappen om een nieuw kanaal voor uw project te maken:
+Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappen om een kanaal voor uw project te maken:
 
 1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik vervolgens op Rasteren. U kunt ook rechtstreeks naar `https://localhost:4502/screens.html/content/screens`.
 
@@ -55,12 +53,12 @@ De volgende sjabloonopties zijn beschikbaar wanneer u de wizard gebruikt, zoals:
 |---|---|
 | Map Kanalen | Hiermee kunt u een map maken waarin de verzameling kanalen wordt opgeslagen. |
 | Volgekanaal | Hiermee kunt u een kanaal maken waarmee de componenten opeenvolgend worden afgespeeld (een voor een in een presentatie). |
-| Toepassingskanaal | Hiermee kunt u uw aangepaste webtoepassing weergeven in de schermspeler. |
-| 1 x 1 gesplitst schermkanaal | Hiermee kunt u de component in één zone weergeven. |
-| 1 x 2 gesplitst schermkanaal | Hiermee kunt u de elementen weergeven in twee zones (horizontaal gesplitst). |
-| 2 x 1 gesplitst rasterkanaal | Hiermee kunt u de elementen weergeven in twee zones (verticaal gesplitst). |
-| 2 x 2 gesplitst schermkanaal | Hiermee kunt u de elementen weergeven in vier zones (horizontaal en verticaal in een matrix). |
-| 2 tot 3 gesplitste schermkanaal | Hiermee kunt u de elementen weergeven in twee zones (horizontaal gesplitst) waarbij een van de zones groter is dan de andere. |
+| Toepassingskanaal | Hiermee kunt u uw aangepaste webtoepassing presenteren in de schermspeler. |
+| 1 x 1 gesplitst schermkanaal | Hiermee kunt u een component in één zone weergeven. |
+| 1 x 2 gesplitst schermkanaal | Hiermee kunt u de elementen in twee zones (horizontaal gesplitst) weergeven. |
+| 2 x 1 gesplitst rasterkanaal | Hiermee kunt u de elementen in twee zones (verticaal gesplitst) weergeven. |
+| 2 x 2 gesplitst schermkanaal | Hiermee kunt u de elementen in vier zones (horizontaal en verticaal gesplitst in een matrix) weergeven. |
+| 2 tot 3 gesplitste schermkanaal | Hiermee kunt u de elementen in twee zones (horizontaal gesplitst) weergeven waarbij een van de zones groter is dan de andere. |
 | Linker- of rechterL-balkgesplitste schermkanaal | Hiermee kunnen auteurs van inhoud verschillende typen elementen weergeven in zones met de juiste grootte. |
 
 >[!NOTE]
@@ -69,7 +67,7 @@ De volgende sjabloonopties zijn beschikbaar wanneer u de wizard gebruikt, zoals:
 
 >[!IMPORTANT]
 >
-> Als u eenmaal inhoud aan uw kanaal hebt gemaakt en toegevoegd, bestaat de volgende stap uit het maken van een locatie, gevolgd door het maken van een weergave. Bovendien moet u dat kanaal aan een vertoning toewijzen. Zie de bronnen hieronder aan het einde van de sectie voor meer informatie.
+> Als u eenmaal inhoud aan uw kanaal hebt gemaakt en toegevoegd, bestaat de volgende stap uit het maken van een locatie, gevolgd door het maken van een weergave. Bovendien moet u dat kanaal aan een vertoning toewijzen. Zie de bronnen hieronder aan het einde van de sectie.
 
 ## Werken met kanalen {#working-with-channels}
 
@@ -83,7 +81,7 @@ U kunt een kanaal bewerken, weergeven, eigenschappen en dashboard, kopiëren, vo
 Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 
 1. Selecteer het kanaal dat u wilt bewerken (zoals in de bovenstaande afbeelding wordt getoond).
-1. Klikken **Bewerken** in de linkerbovenhoek van de actiebalk om de kanaaleigenschappen te bewerken. De redacteur opent die u toestaat om activa/componenten aan uw kanaal toe te voegen die u wilt publiceren.
+1. Klikken **Bewerken** in de linkerbovenhoek van de actiebalk, zodat u de kanaaleigenschappen kunt bewerken. De redacteur opent die u activa/componenten aan uw kanaal kunt toevoegen die u wilt publiceren.
 
 >[!NOTE]
 >U kunt componenten aan uw kanaal toevoegen. Zie **[Componenten toevoegen aan een kanaal](adding-components-to-a-channel.md)** voor meer informatie .
@@ -95,27 +93,23 @@ Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 
 1. Selecteer het kanaal waar u de video wilt uploaden.
-1. Klikken **Bewerken** in de actiebalk om de editor te openen.
-1. Selecteren **Video&#39;s** onder Elementen en sleep de gewenste video&#39;s.
+1. Klikken **Bewerken** in de actiebalk.
+1. Selecteer in de editor de optie **Video&#39;s** onder Elementen en sleep de gewenste video&#39;s.
 
 >[!NOTE]
 >Als u problemen ondervindt bij het uploaden van video&#39;s naar uw kanaal, raadpleegt u [Video&#39;s oplossen](troubleshoot-videos.md).
 
-### Weergaveeigenschappen {#viewing-properties}
+### Eigenschappen van een kanaal weergeven of bewerken {#viewing-properties}
 
-Voer de volgende stappen uit om de eigenschappen van een kanaal weer te geven of te bewerken:
-
-1. Klik op het kanaal u wilt uitgeven.
-1. Klikken **Eigenschappen** in de actiebalk om de kanaaleigenschappen weer te geven of te bewerken. Met de volgende tabbladen kunt u de opties wijzigen.
+1. Klik op het kanaal dat u wilt bewerken.
+1. Klikken **Eigenschappen** in de actiebalk, zodat u de kanaaleigenschappen kunt weergeven/bewerken. Op het volgende tabblad kunt u de opties wijzigen.
 
 ![eigenschappen](assets/properties.gif)
 
 ### Het dashboard weergeven {#viewing-dashboard}
 
-Voer de volgende stappen uit om het dashboard van een kanaal weer te geven:
-
 1. Selecteer het kanaal dat u wilt bewerken.
-1. Klikken **Dashboard** op de actiebalk om het dashboard weer te geven. De **KANAALINFORMATIE**,**TOEGEWEZEN WEERGAVEN**, en **AFGELOPEN LAUNCHES** wordt geopend, zoals in de onderstaande afbeelding wordt getoond:
+1. Klikken **Dashboard** in de actiebalk.
 
 ![dashboard](assets/dashboard.gif)
 
@@ -123,7 +117,7 @@ Voer de volgende stappen uit om het dashboard van een kanaal weer te geven:
 
 In het deelvenster Kanaalgegevens worden de kanaaleigenschappen beschreven, samen met de voorvertoning naar het kanaal. Ook, verstrekt het u de informatie over of het kanaal off-line of online is.
 
-Klik op de knop (**...**) van de **KANAALINFORMATIE** actiebalk om eigenschappen weer te geven, de inhoud te bewerken of de cache (offline inhoud) voor het kanaal bij te werken.
+Klik op de knop (**...**) van de **KANAALINFORMATIE** op de actiebalk, zodat u eigenschappen kunt bekijken, de inhoud kunt bewerken of de cache (offline inhoud) voor het kanaal kunt bijwerken.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -134,7 +128,7 @@ U kunt manifest van het kanaaldashboard bekijken.
 >[!IMPORTANT]
 >Deze optie is alleen beschikbaar bij AEM 6.4 Feature Pack 8 of AEM 6.5 Feature Pack 4.
 
-Ga als volgt te werk om deze optie in te schakelen vanaf het kanaaldashboard:
+Voer de volgende stappen uit, zodat u deze optie kunt inschakelen via het kanaaldashboard:
 
 1. **Kanaal op offline instellen**
    1. Selecteer het kanaal en selecteer **Eigenschappen** op de actiebalk
@@ -157,7 +151,7 @@ U moet de **Manifest weergeven** van de **KANAALINFORMATIE** in het dashboard Ka
 
 Wanneer u een kanaal maakt, kan dit worden gedefinieerd als een online- of een offlinekanaal.
 
-An ***Onlinekanaal*** wordt de bijgewerkte inhoud in de real-time omgeving weergegeven, terwijl een ***Offline kanaal*** wordt de inhoud in de cache weergegeven.
+An ***Onlinekanaal*** geeft de bijgewerkte inhoud in de real-time omgeving weer, terwijl een ***Offline kanaal*** geeft de inhoud in de cache weer.
 
 Volg de onderstaande stappen om het kanaal online te maken:
 
@@ -167,7 +161,7 @@ Volg de onderstaande stappen om het kanaal online te maken:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klikken **Dashboard** in de actiebalk om de status van de speler weer te geven. De **KANAALINFORMATIE** biedt informatie over het feit of het kanaal online of offline is.
+   Klikken **Dashboard** in de actiebalk, zodat u de status van de speler kunt bekijken. De **KANAALINFORMATIE** biedt informatie over het feit of het kanaal online of offline is.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -186,7 +180,7 @@ Volg de onderstaande stappen om het kanaal online te maken:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Als u uw kanaal opnieuw offline wilt configureren, schakelt u de optie voor de modus Ontwikkelaar uit via de optie **Eigenschappen** tab (zoals weergegeven in stap (3)) en vervolgens vanaf het tabblad **KANAALINFORMATIE** paneelklik **Offline inhoud bijwerken**, zoals weergegeven in onderstaande afbeelding.
+>Om uw kanaal opnieuw als off-line te vormen, uncheck de de wijzeoptie van de Ontwikkelaar van **Eigenschappen** tab (zoals weergegeven in stap 3). Dan, van **KANAALINFORMATIE** paneelklik **Offline inhoud bijwerken**, zoals weergegeven in onderstaande afbeelding.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -232,7 +226,7 @@ De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld a
 
 ### Toegewezen beeldschermen {#assigned-displays}
 
-In het toegewezen deelvenster wordt de weergave weergegeven die aan het kanaal is gekoppeld. Het verstrekt een momentopname van de toegewezen vertoning samen met de resolutie.
+De **Toegewezen beeldschermen** toont de weergave die aan het kanaal is gekoppeld. Het verstrekt een momentopname van de toegewezen vertoning samen met de resolutie.
 
 De bijbehorende weergaven worden weergegeven in het dialoogvenster **Toegewezen beeldschermen** deelvenster, zoals hieronder weergegeven:
 
@@ -245,7 +239,7 @@ De bijbehorende weergaven worden weergegeven in het dialoogvenster **Toegewezen 
 >* [Weergaven maken en beheren](managing-displays.md)
 >
 
-Klik bovendien op de weergave in het dialoogvenster **TOEGEWEZEN WEERGAVEN** om de weergaveinformatie weer te geven, zoals hieronder wordt getoond:
+Klik ook op de weergave in het dialoogvenster **TOEGEWEZEN WEERGAVEN** om de weergaveinformatie weer te geven, zoals hieronder wordt getoond:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

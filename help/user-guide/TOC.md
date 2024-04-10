@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
@@ -8,10 +8,10 @@ user-guide-description: Leer hoe u een Digital Signage-oplossing gebruikt waarme
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 5%
+source-wordcount: '518'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 + [Inleiding tot schermen](aem-screens-introduction.md)
 + Overzicht en Kickstart Guide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + [Schermen Best Practices Guide](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html)
+   + [Schermen Best Practices Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Belangrijkste voorwaarden](screens-glossary.md)
 + Basisprincipes van digitale-signaalnetwerken {#digital-signage-network}
    + [Deel 1: Projectrollen en -verantwoordelijkheden](project-roles-responsibilities.md)
@@ -41,10 +41,10 @@ ht-degree: 5%
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
    + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
    + [Apparaten voor schermreplicatie configureren](configure-screens-replication.md)
-   + Klantenspecifieke overwegingen {#installing-client}
+   + Clientspecifieke overwegingen {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Chrome Player gebruiken als extensie voor het oplossen van problemen](using-chrome-player-as-an-extension.md)
-      + [Android-speler](implementing-android-player.md)
+      + [Android](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)
@@ -99,7 +99,7 @@ ht-degree: 5%
       + [Gerichte activering in de detailhandel](retail-inventory-activation.md)
       + [Overgangen toepassen](applying-transitions.md)
       + [Overgangen van meerdere zones naar één zone](multizone-to-singlezone.md)
-      + [Overnamekanaal voor één gebruik](single-use-takeover-channel.md)
+      + [Single-Use TakeOver Channel](single-use-takeover-channel.md)
       + [Overnamekanaal voor persoonlijk gebruik](perpetual-takeover-channel.md)
 + Developer and API Resources {#developing}
    + [REST API&#39;s](rest-api.md)

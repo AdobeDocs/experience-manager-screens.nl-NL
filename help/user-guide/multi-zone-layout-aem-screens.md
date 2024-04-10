@@ -1,22 +1,18 @@
 ---
 title: Layout meerdere zones
-seo-title: Multi-zone Layout
-description: Met Layout meerdere zones kunt u inhoud van meerdere zones maken en verschillende elementen gebruiken, zoals video's, afbeeldingen en tekst die in één scherm kunnen worden gecombineerd. Volg deze pagina voor meer informatie.
-seo-description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
-uuid: 2ad689ef-700a-4eed-b5e2-fc57f2288388
+description: Leer hoe u inhoud voor meerdere zones maakt en verschillende elementen gebruikt, zoals video's, afbeeldingen en tekst die in AEM Screens in één scherm kunnen worden gecombineerd.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -33,7 +29,7 @@ De volgende pagina beschrijft het gebruik van lay-out met meerdere zones en beha
 
 ## Overzicht {#overview}
 
-***Layout meerdere zones*** kunt u inhoud met meerdere zones maken en verschillende elementen gebruiken, zoals video&#39;s, afbeeldingen en tekst die in één scherm kunnen worden gecombineerd. U kunt afbeeldingen, video&#39;s en tekst aan elkaar trekken, zodat deze allemaal kunnen overvloeien en een intuïtieve digitale ervaring ontstaat.
+***Layout meerdere zones*** Hiermee kunt u inhoud met meerdere zones maken en verschillende elementen gebruiken, zoals video&#39;s, afbeeldingen en tekst die in één scherm kunnen worden gecombineerd. U kunt afbeeldingen, video&#39;s en tekst aan elkaar trekken, zodat deze allemaal kunnen overvloeien en een intuïtieve digitale ervaring ontstaat.
 
 Zoals bij de projectvereisten, soms hebt u veelvoudige streken in een kanaal nodig en geeft hen uit als één uitvoerige eenheid. Bijvoorbeeld, een productopeenvolging met een verwante sociale media voer die in drie afzonderlijke streken op één enkel kanaal loopt.
 
@@ -42,8 +38,8 @@ Zoals bij de projectvereisten, soms hebt u veelvoudige streken in een kanaal nod
 
 Voordat u begint met het implementeren van deze functionaliteit, moet u de conceptuele kennis over:
 
-* [Een AEM Screens-project maken](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
-* [Weergave maken](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [Een AEM Screens-project maken](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [Weergave maken](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Een kanaal toewijzen aan een weergave](/help/user-guide/channel-assignment.md)
 
 ## Lay-out met meerdere zones maken {#creating-multi-zone-layout}
@@ -68,7 +64,7 @@ U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle afzon
 1. **Inhoud toevoegen aan het kanaal**
 
    1. Navigeren naar **Zones** > **Kanalen**> **MultiZone**.
-   1. Selecteer de **MultiZone** kanaal en klik **Bewerken** in de actiebalk om de editor te openen.
+   1. Selecteer de **MultiZone** kanaal en klik **Bewerken** in de actiebalk.
 
 1. **Afbeeldingen toevoegen aan het kanaal**
 
@@ -91,53 +87,53 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
 1. **Twee kanalen toevoegen aan de kanaalmap**
 
    1. Navigeren naar **Zones** > **Kanalen** > **Ingesloten kanalen** en klik op **Maken** in de actiebalk.
-   1. Selecteren **Volgekanaal** van de **Maken** wizard om een kanaal te maken met de naam **Zone1**.
-   1. Selecteren **Zone1** en klik op **Bewerken** in de actiebalk om de editor te openen.
+   1. Selecteren **Volgekanaal** van de **Maken** wizard om een kanaal te maken met de naam **`Zone1`**.
+   1. Selecteren **`Zone1`** en klik op **Bewerken** in de actiebalk.
    1. Sleep enkele afbeeldingen naar dit kanaal.
-   1. Maak op dezelfde manier een ander volgnummer met de naam **Zone2** in **Ingesloten kanalen** map.
+   1. Maak op dezelfde manier een ander volgnummer met de naam **`Zone2`** in **Ingesloten kanalen** map.
    1. Sleep een video naar dit kanaal.
 
-   De volgende afbeelding toont de kanalen **Zone1** en **Zone2**:
+   De volgende afbeelding toont de kanalen **`Zone1`** en **`Zone2`**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
-   De afbeeldingen die zijn toegevoegd aan de editor van **Zone1** volgordekanaal wordt hieronder weergegeven:
+   De afbeeldingen die zijn toegevoegd aan de editor van **`Zone1`** volgordekanaal wordt hieronder weergegeven:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   De video die is toegevoegd aan de editor van **Zone2** volgordekanaal wordt hieronder weergegeven:
+   De video die is toegevoegd aan de editor van **`Zone2`** volgordekanaal wordt hieronder weergegeven:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
 1. **Ingesloten reeksen (component) toevoegen aan hoofdkanaal (MultiZone)**
 
    1. Navigeren naar **Zones** > **Kanalen** > **MultiZone**.
-   1. Klikken **Bewerken** in de actiebalk om de editor te openen.
+   1. Klikken **Bewerken** in de actiebalk.
    1. Sleep de **Ingesloten reeks** aan beide zones.
    1. Selecteer de ingesloten reeks in een van de zones.
    1. Klik op de knop **Configureren** (moersleutel) naar een van de ingesloten reeksen in de editor.
-   1. Kanaalpad selecteren als **Zones** > **Kanalen** > **Ingesloten kanalen** > **Zone1**, zoals weergegeven in onderstaande afbeelding.
-   1. Voeg op dezelfde manier de **Zone2** naar een andere ingesloten reekscomponent in de editor.
+   1. Kanaalpad selecteren als **Zones** > **Kanalen** > **Ingesloten kanalen** > **`Zone1`**, zoals weergegeven in onderstaande afbeelding.
+   1. Voeg op dezelfde manier de **`Zone2`** naar een andere ingesloten reekscomponent in de editor.
 
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 ### Een locatie en een weergave maken {#creating-location}
 
-Maak een locatie en een weergave om de inhoud in de Schermspeler weer te geven.
+Maak een locatie en een weergave zodat u de inhoud in de AEM Screens-speler kunt bekijken.
 
 1. **Een locatie maken**
 
    1. Navigeren naar **Zones** > **Locaties** map.
-   1. Selecteer de **Locaties** map en klik op **Maken** in de actiebalk.
-   1. Selecteren **Locatie** van de **Maken** wizard en klik op **Volgende**.
-   1. Voer de **Titel** als **SanJose** en klik op **Maken**.
+   1. Selecteer de **Locaties** map en selecteer **Maken** in de actiebalk.
+   1. Selecteren **Locatie** van de **Maken** wizard en selecteert u **Volgende**.
+   1. Voer de **Titel** als **SanJose** en selecteert u **Maken**.
 
 1. **Weergave maken**
 
    1. Navigeren naar **Zones** > **Locaties** map.
-   1. Selecteer de **SanJose** locatie en klik op **Maken** in de actiebalk.
-   1. Selecteren **Weergave** van de **Maken** wizard en klik op **Volgende**.
-   1. Voer de **Titel** als **Lobby** en klik op **Maken**.
+   1. Selecteer de **SanJose** locatie en selecteer **Maken** in de actiebalk.
+   1. Selecteren **Weergave** van de **Maken** wizard en selecteert u **Volgende**.
+   1. Voer de **Titel** als **Lobby** en selecteert u **Maken**.
 
 ### Kanalen toewijzen aan de weergave {#channel-channel}
 
@@ -146,47 +142,49 @@ Wijs de kanalen aan de vertoning toe om de inhoud te bekijken. Voer de onderstaa
 1. **Kanaal toewijzen aan de weergave**
 
    1. Navigeren naar **Zones** > **Locaties** > **SanJose**> **Lobby**.
-   1. Selecteer de **Lobby** weergeven en klikken **Kanaal toewijzen** in de actiebalk.
+   1. Selecteer de **Lobby** weergeven en selecteren **Kanaal toewijzen** in de actiebalk.
    1. Voer het pad naar het **MultiZone** kanaal in **Kanaalpad**.
    1. Stel de **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Timer**.
-   1. Klikken **Opslaan**.
+   1. Selecteren **Opslaan**.
 
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. U moet ook de andere twee ingesloten kanalen toewijzen (**Zone1** en **Zone2**) op dit scherm.
-   1. Wanneer u alle drie de kanalen aan de **Lobby** weergegeven, kunt u de toegewezen kanalen weergeven vanaf het weergavedashboard.
+   1. U moet ook de andere twee ingesloten kanalen toewijzen (**`Zone1`** en **`Zone2`**) op dit scherm.
+   1. Nadat u alle drie de kanalen aan **Lobby** weergegeven, kunt u de toegewezen kanalen weergeven vanaf het weergavedashboard.
 
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
       >[!IMPORTANT]
       >
-      > Nadat u het hoofdkanaal hebt toegewezen (in dit geval **MultiZone**) aan het scherm toe te wijzen, is het verplicht de andere twee ingesloten kanalen toe te wijzen **Zone1** en **Zone2** ook op hetzelfde scherm.
+      >Nadat u het hoofdkanaal hebt toegewezen (in dit geval **MultiZone**) aan het scherm toe te wijzen, is het verplicht de andere twee ingesloten kanalen toe te wijzen **`Zone1`** en **`Zone2`** ook op hetzelfde scherm.
 
 ### Het apparaat registreren {#registering-device}
 
-Nadat u een locatie en een weergave hebt ingesteld, voert u de onderstaande stappen uit om het apparaat te registreren en de weergave aan het apparaat toe te wijzen.
+Wanneer u een locatie en een weergave hebt ingesteld, voert u de onderstaande stappen uit om het apparaat te registreren en de weergave aan het apparaat toe te wijzen.
 
 1. **Het apparaat registreren**
 
    1. Navigeren naar **Zones** > **Apparaten** map.
-   1. Selecteer de **Apparaten** map en klik op **Apparaatbeheer** in de actiebalk.
-   1. Klikken **Apparaatregistratie** en selecteer het apparaat in behandeling in de lijst.
+   1. Selecteer de **Apparaten** map en selecteer **Apparaatbeheer** in de actiebalk.
+   1. Selecteren **Apparaatregistratie** en selecteer het apparaat in behandeling in de lijst.
+
       >[!NOTE]
       > De titel van het apparaat moet overeenkomen met het apparaattoken (**Token** veld) weergegeven in het dialoogvenster **Apparaatregistratie** tab.
-   1. Als de titel overeenkomt met het apparaattoken, selecteert u het apparaat en klikt u op **Apparaat registreren** in de actiebalk.
-   1. Als de registratiecode overeenkomt met de code in de Schermspeler **Apparaatregistratie** tabblad, klikt u op **Valideren** in de actiebalk.
+
+   1. Als de titel overeenkomt met het apparaattoken, selecteert u het apparaat en selecteert u **Apparaat registreren** in de actiebalk.
+   1. Als de registratiecode overeenkomt met de code in de Schermspeler **Apparaatregistratie** tab, selecteert u **Valideren** in de actiebalk.
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img6.png)
-   1. Voer de **Titel** als **Chrome-Device1** en klik op **Registreren**.
+   1. Voer de **Titel** als **`Chrome-Device1`** en selecteert u **Registreren**.
    1. Selecteren **Weergave toewijzen** en selecteer het pad naar de apparaatconfiguratie.
 
    >[!NOTE]
-   >Als u de inhoud in de Schermspeler probeert te bekijken, zorg ervoor u klikt **Offline inhoud bijwerken** van het kanaaldashboard voor elk van de kanalen die aan de vertoning worden toegewezen.
+   >Als u de inhoud probeert weer te geven in de Schermspeler, moet u **Offline inhoud bijwerken** van het kanaaldashboard voor elk van de kanalen die aan de vertoning worden toegewezen.
 
 ### Het resultaat weergeven {#viewing-the-result}
 
-Als u lay-outs met meerdere zones hebt geïmplementeerd met behulp van de voorgaande stappen, wordt de volgende uitvoer weergegeven.
+Wanneer u lay-outs met meerdere zones implementeert met behulp van de voorgaande stappen, wordt de volgende uitvoer weergegeven.
 
-Controleer de schermspeler om de uitvoer weer te geven die de inhoud in twee verschillende zones weergeeft. De linker- en rechterzones (beide gebruiken een ingesloten reeks als een component).
+Controleer de schermspeler zodat u de uitvoer kunt bekijken die de inhoud in twee verschillende zones weergeeft. De linker- en rechterzones (beide gebruiken een ingesloten reeks als een component).
 
 De linkerzone is een reekskanaal en de rechterzone bevat een video.
 

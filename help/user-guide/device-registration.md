@@ -1,22 +1,18 @@
 ---
 title: Apparaatregistratie
-seo-title: Device Registration
-description: Deze pagina beschrijft het proces van de apparatenregistratie in een project van AEM Screens.
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: Meer informatie over het registratieproces van een AEM Screens-project.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -38,7 +34,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
 >1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en klik op **Opslaan**.
->1. Klik op de knop **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
+>1. Selecteer de **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -51,7 +47,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    >[!NOTE]
    >
-   >Ga voor meer informatie over het maken van een nieuw project voor schermen in het AEM dashboard naar [Schermproject maken en beheren](creating-a-screens-project.md).
+   >Ga voor meer informatie over het maken van een project voor schermen in het AEM dashboard naar [Schermproject maken en beheren](creating-a-screens-project.md).
 
 1. Tik/klik op de knop **Apparaatbeheer** in de actiebalk.
 
@@ -84,17 +80,17 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    >[!NOTE]
    >
-   >De **Nieuwe registratie** kunt u een nieuw apparaat registreren.
+   >De **Nieuwe registratie** Hiermee kunt u een nieuw apparaat registreren.
    >
    >De **Weergave toewijzen** Hiermee kunt u het apparaat rechtstreeks aan een weergave toevoegen.
 
-   Als u op **Voltooien**, moet u het apparaat toewijzen aan een scherm.
+   Als u op **Voltooien**, moet u het apparaat aan een vertoning toewijzen.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
    >[!NOTE]
    >
-   >Raadpleeg voor meer informatie over het maken en beheren van een weergave voor uw screeningproject [Weergaven maken en beheren](managing-displays.md).
+   >Ga voor meer informatie over het maken en beheren van een weergave voor uw project Schermen naar [Weergaven maken en beheren](managing-displays.md).
 
 ### Apparaat toewijzen aan een weergave {#assigning-device-to-a-display}
 
@@ -116,7 +112,7 @@ Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Bovendien kunt u het weergavedashboard weergeven wanneer u op **Voltooien**.
+   U kunt ook het weergavedashboard weergeven wanneer u op **Voltooien**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -126,7 +122,7 @@ Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weerg
 
 1. Navigeer bijvoorbeeld naar de interface van Apparaatbeheer vanuit uw AEM Screens-project. **DemoScreens** > **Apparaten**.
 
-1. Selecteer de **Apparaten** en klik op **Apparaatbeheer** in de actiebalk.
+1. Selecteer de **Apparaten** map en klik op **Apparaatbeheer** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -145,26 +141,26 @@ Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weerg
 
 ### Beperkingen betreffende zoekfunctionaliteit {#limitations}
 
-* De gebruiker zal om het even welk woord kunnen zoeken dat in *Apparaat-id* of *Apparaatnaam*.
+* De gebruiker kan elk woord zoeken dat in de *Apparaat-id* of *Apparaatnaam*.
 
   >[!NOTE]
   >Het wordt aanbevolen de apparaatnamen in meerdere woorden te maken, zoals *Boston Store Lobby* in plaats van één *BostonStoreLobby*.
 
-* Als u apparaatnamen maakt, zoals *Boston Store Lobby*, kan worden gezocht naar elk woord *boston*, *winkel* of *lobby* maar als de apparaatnaam wordt aangeduid als *BostonStoreLobby* zoeken *boston* De resultaten worden niet weergegeven.
+* Als u apparaatnamen maakt, zoals *Boston Store Lobby*, wordt naar elk woord gezocht *boston*, *winkel*, of *lobby*. Als de apparaatnaam echter *BostonStoreLobby* en vervolgens zoeken naar *boston* geeft geen resultaten weer.
 
-* Jokerteken `*` wordt ondersteund voor zoeken. Als dat het geval is, zoekt u naar alle apparaten met namen die beginnen met *boston* kunt u *boston**.
+* Jokerteken `*` wordt ondersteund voor zoeken. Als u alle apparaten wilt zoeken met namen die beginnen met *boston* kunt u *boston**.
 
-* Als de apparaatnaam *BostonStoreLobby* en zoeken naar *boston* retourneert het resultaat niet met *boston** in je zoekcriteria retourneert het resultaat.
+* Als de apparaatnaam *BostonStoreLobby* en zoeken naar *boston* retourneert het resultaat niet en gebruikt vervolgens *boston** in je zoekcriteria geeft het resultaat.
 
 ## Beperkingen betreffende apparaatregistratie {#limitations-on-device-registration}
 
-Beperkingen van wachtwoorden voor gebruikers in het hele systeem kunnen leiden tot een fout in de apparaatregistratie. De apparaatregistratie gebruikt een willekeurig gegenereerd wachtwoord om de apparaatgebruiker te maken.
+Beperkingen van gebruikerswachtwoorden voor het hele systeem kunnen leiden tot een fout in de apparaatregistratie. De apparaatregistratie gebruikt een willekeurig gegenereerd wachtwoord om de apparaatgebruiker te maken.
 
 Als het wachtwoord door *AuthorizableActionProvider* configuratie, zou het creëren van de apparatengebruiker kunnen ontbreken.
 
 >[!NOTE]
 >
->Het huidige gegenereerde willekeurige wachtwoord bestaat uit 36 ASCII-tekens, variërend van 33 tot 122 (bevat bijna alle speciale tekens).
+>Het huidige gegenereerde willekeurige wachtwoord bestaat uit 36 ASCII-tekens tussen 33 en 122 (bevat bijna alle speciale tekens).
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration
@@ -174,6 +170,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Aanvullende bronnen {#additional-resources}
+### Overige bronnen {#additional-resources}
 
 Ga voor meer informatie over AEM Screens Player naar [AEM Screens Player](working-with-screens-player.md).

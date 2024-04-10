@@ -1,13 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202103
-description: "Volg deze pagina voor meer informatie over het AEM Screens Feature Pack 202103 dat op 5 maart 2021 is uitgebracht."
+description: Meer weten over het AEM Screens Feature Pack 202103 dat op 5 maart 2021 werd uitgebracht?
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
+>We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
 
 ## Beschikbaarheid {#availability}
 
@@ -31,16 +31,16 @@ De releasedatum voor AEM Screens Feature Pack 202103 is 5 maart 2021.
 
 * **AEM Screens Auto Registration of Players**
 
-   Bulk die duizenden spelers handmatig registreert, is erg omslachtig en verhoogt tijd en kosten. Om dit proces te vereenvoudigen, staat de Auto Registratie van spelerseigenschap u toe om een pre-gedeelde sleutel in AEM te specificeren die in een speler of door een configuratiedossier of een Mobiel Apparaatbeheer (MDM) oplossing kan worden voorzien.
+  Bulk die duizenden spelers handmatig registreert, is omslachtig en verhoogt tijd en kosten. Om dit proces te vereenvoudigen, kunt u met de functie Automatische registratie van spelers een vooraf gedeelde sleutel in AEM opgeven. Deze sleutel kan in een speler of door een configuratiedossier of een oplossing van het Beheer van het Mobiel Apparaat (MDM) worden voorzien.
 
-   Zie [Automatische registratie van spelers](/help/user-guide/auto-registration-players.md) voor meer informatie .
+  Zie [Automatische registratie van spelers](/help/user-guide/auto-registration-players.md) voor meer informatie .
 
 
-* **Bulkprovisioning van Android Player via Enterprise Mobility Management**
+* **Bulkprovisioning van Android™ Player via Enterprise Mobility Management**
 
-   Wanneer u de Android-speler bulksgewijs implementeert, wordt het vervelend om elke speler handmatig te registreren bij AEM. Het wordt ten zeerste aanbevolen om een EMM-oplossing (Enterprise Mobility Management), zoals VMWare Airwatch, MobileIron of Samsung Knox, te gebruiken om uw implementatie op afstand te voorzien en te beheren. AEM Screens Android-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
+  Wanneer u de Android™-speler bulksgewijs inzet, wordt het vervelend om elke speler handmatig te registreren bij AEM. Het wordt ten zeerste aanbevolen een EMM-oplossing (Enterprise Mobility Management) te gebruiken, zoals `VMWare Airwatch`, `MobileIron`, of `Samsung Knox` om uw implementatie op afstand te voorzien en te beheren. AEM Screens Android™-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
 
-   Zie [Bulkprovisioning van Android Player via Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) voor meer informatie .
+  Zie [Bulkprovisioning van Android™ Player via Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) voor meer informatie .
 
 
 ### Opgeloste problemen {#bug-fixes}
@@ -51,9 +51,9 @@ De releasedatum voor AEM Screens Feature Pack 202103 is 5 maart 2021.
 
 * Er zijn geen offlinekaarten gemaakt als de toewijzing *OfflineConfig*.
 
-* Updates voor Tizen-speler die zijn verbroken omdat het verwijzingsbeleid &#39;strict-origin-wanneer-cross-origin&#39; niet wordt ondersteund.
+* Updates voor `Tizen` De speler die brak omdat het verwijzingsbeleid strikt-oorsprong-wanneer-dwars-oorsprong niet wordt gesteund.
 
-* Het programma van het toegewezen kanaal wijzigen *Herhalen* het veld verbreekt de interface.
+* Het programma van het toegewezen kanaal wijzigen *Herhalingen* het veld verbreekt de interface.
 
 * Offline-inhoud bijwerken is mislukt vanwege query-uitzonderingen.
 
@@ -61,14 +61,14 @@ De releasedatum voor AEM Screens Feature Pack 202103 is 5 maart 2021.
 
 * Het mislukte configuratieupdateverzoek veroorzaakte het lege scherm.
 
-### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers
 
 De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 7 van de Eigenschap:
 
 * Chrome-besturingssysteem
 * Windows
-* Linux
+* Linux®
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player
 
 Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
