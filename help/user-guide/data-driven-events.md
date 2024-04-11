@@ -3,8 +3,7 @@ title: Gebeurtenissen op basis van gegevens
 description: null
 page-status-flag: never-activated
 contentOwner: jsyal
-discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 # Gebeurtenissen op basis van gegevens{#data-driven-events}
 
-In Digitale signage, geven de gegevensgedreven gebeurtenissen informatie in echt - tijd door interactief gebruik van digitale menu&#39;s en videomuren in dienst en over. U kunt de gebruikerservaring maximaliseren met gegevensgestuurde gebeurtenissen.
+In Digitaal signaal, verbinden de gegeven-gedreven gebeurtenissen en brengen informatie in echt - tijd door interactief gebruik van digitale menu&#39;s en videomuren over. U kunt de gebruikerservaring maximaliseren met gegevensgestuurde gebeurtenissen.
 
 ## Het gebruiken van de Hub van de Context voor Gegevens-gedreven Gebeurtenissen {#using-context-hub-for-data-driven-events}
 
@@ -22,14 +21,14 @@ AEM Screens laat gegevens gedreven gebeurtenissen door de Hub van de Context toe
 
 ### Gegevensgestuurde gebeurtenissen categoriseren {#categorizing-data-driven-events}
 
-Gebeurtenissen die worden aangestuurd, zijn ingedeeld in vier verschillende categorieën:
+Gegevensgestuurde gebeurtenissen worden ingedeeld in de volgende vier categorieën:
 
-* Gegevens in bedrijf
+* Gegevens in gebruik
 * Gegevens in presentatie
-* Data Out-activering
-* Presentatie gegevens uit
+* Uitgaande gegevens
+* Presentatie voor gegevensuitvoer
 
-#### Gegevens in bedrijf {#data-in-operational}
+#### Gegevens in gebruik {#data-in-operational}
 
 Dit kan verder in Onderbreking van het Kanaal en Placeholder worden gecategoriseerd.
 
@@ -37,9 +36,9 @@ Dit kan verder in Onderbreking van het Kanaal en Placeholder worden gecategorise
 
 Gegevens worden uitgevoerd in het tijdelijke kanaal en na een trigger wijzigt u een element in een kanaal.
 
-#### Gegevens uit activering {#data-out-actionable}
+#### Uitgaande gegevens {#data-out-actionable}
 
-Wanneer een opdracht naar het LCD-scherm wordt gestuurd om het scherm in en uit te schakelen. Voorbeeld: helderheid of volume van het scherm.
+Wanneer een opdracht naar het LCD-scherm wordt gestuurd om het scherm in en uit te schakelen. Voorbeeld, helderheid of volume van het scherm.
 
 #### Presentatie voor gegevensuitvoer {#data-out-presentational}
 

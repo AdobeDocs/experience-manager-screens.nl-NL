@@ -1,22 +1,18 @@
 ---
 title: Temperatuuractivering in het midden van de reis
-seo-title: Travel Center Temperature Activation
-description: Het volgende gebruiksgeval toont het gebruik van de lokale temperatuuractivering van het reiscentrum op basis van de waarden die in Google Sheets worden bevolkt.
-seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
-uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
+description: Met AEM Screens leert u hoe u met dit gebruiksgeval het gebruik van lokale temperatuuractivering in het reiscentrum kunt demonstreren op basis van de waarden in Google Sheets.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -27,7 +23,7 @@ Het volgende gebruiksgeval toont het gebruik van de lokale temperatuuractivering
 
 ## Beschrijving {#description}
 
-Voor dit geval van Gebruik, als uw Google Bladen Waarde minder dan 50 heeft, dan zal een beeld met hete dranken tonen en als de waarde groter dan of gelijk aan 50 is, dan zal het beeld met koude dranken tonen. In het geval van een andere of geen waarde geeft de speler een standaardafbeelding weer.
+Als de waarde in Google Sheets lager is dan 50, wordt in dit geval een afbeelding met warme dranken weergegeven. Als de waarde groter dan of gelijk aan 50 is, wordt een afbeelding met koude dranken weergegeven. Als er een andere waarde of helemaal geen waarde is, geeft de speler een standaardafbeelding weer.
 
 ## Voorwaarden {#preconditions}
 
@@ -42,7 +38,7 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 1. **De Google-bladen vullen**
 
    1. Navigeer naar het Google-werkblad ContextHubDemo.
-   1. Een kolom toevoegen met **Kop1** met de bijbehorende temperatuurwaarde.
+   1. Een kolom toevoegen met **`Heading1`** met de bijbehorende temperatuurwaarde.
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
@@ -52,7 +48,7 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    1. Selecteer de **Bladen A1 1** en klik op **Bewerken**.
 
-   1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
+   1. Selecteer het vergelijkingsbezit en klik het configuratiepictogram.
    1. Selecteren **goochelesheets/value/1/0** in de vervolgkeuzelijst **Eigenschapnaam**
 
    1. Selecteer de **Operator** als **groter dan of gelijk aan** in het keuzemenu
@@ -61,7 +57,7 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    1. Selecteer op dezelfde manier de **Bladen A1 2** en klik op **Bewerken**.
 
-   1. Selecteer de **Vergelijkingseigenschap - waarde** en klik op het configuratiepictogram om de eigenschappen te bewerken.
+   1. Selecteer de **Vergelijkingseigenschap - waarde** en klik op het configuratiepictogram.
    1. Selecteren **goochelesheets/value/1/0** in de vervolgkeuzelijst **Eigenschapnaam**
 
    1. Selecteer de **Operator** als **kleiner dan** in het keuzemenu
@@ -89,6 +85,6 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 1. **De voorvertoning controleren**
 
    1. Klikken **Voorvertoning.** Open ook het Google-werkblad en werk de waarde ervan bij.
-   1. Als u de waarde wijzigt in minder dan 50, kunt u de afbeelding van zomerdranken bekijken. Als de waarde in het Google-blad 50 of hoger is dan de waarde die u zou moeten kunnen zien voor een afbeelding van warme drank.
+   1. Wijzig de waarde in minder dan 50. Je moet een afbeelding van een koude drank kunnen bekijken. Als de waarde in Google Sheets 50 of hoger is, ziet u een afbeelding van een warme drank.
 
    ![result3](assets/result3.gif)
