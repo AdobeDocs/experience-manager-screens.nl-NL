@@ -1,22 +1,18 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 201907
-seo-title: Release Notes for Feature Pack 201907
-description: Volg deze pagina voor informatie over het AEM Screens Feature Pack 201907, uitgebracht op 31 juli 2019.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
-uuid: e5349c92-d532-4f04-a757-7c4545cdb074
+description: Meer informatie over het AEM Screens Feature Pack 201907 dat op 31 juli 2019 is uitgebracht.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -25,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
 
 AEM Screens heeft AEM 6.4.5 Feature Pack 5 en AEM 6.5.1 Feature Pack 1 uitgebracht, met de volgende details.
 
@@ -61,21 +57,21 @@ De updatehandler parseert nu de ervaringsfragmenten en verzamelt alle afbeelding
 
 * **Starten**
 
-Met Launches kunnen auteurs van inhoud een toekomstige versie van de kanalen maken. Met behulp van lanceringen, kunnen de auteurs elk kanaal in de lancering voorproef en een verzoek tot overzicht in werking stellen. De groep van fiatteurs zal bericht krijgen en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
+Met Launches kunnen auteurs van inhoud toekomstige versies van de kanalen maken. Met behulp van Launches kunnen auteurs elk kanaal voorvertonen tijdens het starten en een verzoek om revisie starten. De groep van fiatteurs krijgt bericht en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
 Zie [Starten](launches.md) voor meer informatie .
 
 * **Offlineconfiguraties in Experience Fragments**
 
-U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen terwijl u het fragment voor schermbeleving configureert. Zie [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md) voor meer informatie .
+U kunt nu offline configuraties (client-side bibliotheken en statische bestanden) toevoegen terwijl u het fragment van de schermbeleving configureert. Zie [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md) voor meer informatie .
 
-### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers
 
 De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.4.5 Feature Pack 5 en AEM 6.5.1 Feature Pack 1:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player
 
 Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/).

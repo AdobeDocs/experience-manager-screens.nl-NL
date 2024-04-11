@@ -1,28 +1,24 @@
 ---
 title: REST API's
-seo-title: REST API
-description: AEM Screens biedt een eenvoudige RESTful-API die voldoet aan de Sirenespecificatie. Volg deze pagina om te leren hoe u door de inhoudsstructuur kunt navigeren en opdrachten naar apparaten in de omgeving kunt verzenden.
-seo-description: AEM Screens provides a simple RESTful API that follows the Siren specification. Follow this page to learn how to navigate the content structure and send commands to devices in the environment.
-uuid: 5988fdcb-cda5-4d3e-a2ab-f9ee4179e568
+description: Leer hoe AEM Screens een eenvoudige RESTful-API biedt die voldoet aan de Sirenespecificatie. Leer ook hoe u door de inhoudsstructuur kunt navigeren en opdrachten naar apparaten in de omgeving kunt verzenden.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: c07b6e4f-c0a4-4151-a543-76dabd6d5146
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: ac01935a-c3ff-485a-b60e-227fb94c75b0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
 
 # REST API&#39;s{#rest-apis}
 
-AEM Screens biedt een eenvoudige RESTful-API die volgt op de [Siren](https://github.com/kevinswiber/siren) specificatie. Het staat toe om de inhoudsstructuur te navigeren en bevelen naar apparaten in het milieu te verzenden.
+AEM Screens biedt een eenvoudige RESTful-API die volgt op de [Siren](https://github.com/kevinswiber/siren) specificatie. Hiermee kunt u door de inhoudsstructuur navigeren en opdrachten naar apparaten in de omgeving verzenden.
 
 De API is toegankelijk via [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
 
@@ -30,7 +26,7 @@ De API is toegankelijk via [*http://localhost:4502/api/screens.json*](http://loc
 
 De JSON die door de API-aanroepen wordt geretourneerd, vermeldt de entiteiten met betrekking tot de huidige bron. Na de vermelde zelfverbinding, is elk van deze entiteiten opnieuw toegankelijk als middel REST.
 
-Als u bijvoorbeeld toegang wilt krijgen tot de weergaven in onze vlaggenschiplocatie voor demo, kunt u het volgende oproepen:
+Als u bijvoorbeeld toegang wilt krijgen tot de weergaven op de vlaggenschiplocatie van de demo, kunt u het volgende oproepen:
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship.json HTTP/1.1
@@ -121,7 +117,7 @@ Of met krullen:
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
 
-***Resultaat:***
+***Resultaat***
 
 ```xml
 {
@@ -153,7 +149,7 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
 }
 ```
 
-Om deze actie teweeg te brengen zou men roepen:
+U activeert deze handeling door het volgende op te roepen:
 
 ```xml
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
