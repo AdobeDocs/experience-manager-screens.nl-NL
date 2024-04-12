@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Zie [Projecten maken en beheren](creating-a-screens-project.md) om te leren hoe u een AEM Screens-project maakt.
+   >Ga voor meer informatie over het maken van een AEM Screens-project naar [Projecten maken en beheren](creating-a-screens-project.md).
 
 1. Een volgnummer maken met de naam **Cafeteria** in de **Kanalen** map.
 
@@ -82,14 +82,14 @@ Wanneer de projectopstelling volledig is, moet u het kanaal aan een vertoning to
 
    >[!NOTE]
    >
-   >Zie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
+   >Zie voor meer informatie over de eigenschappen van kanaaltoewijzingen [Kanaaleigenschappen](#channel-properties) sectie.
 
 1. Van de **Schema** selecteert u de optie **Activeringsvenster** en **Herhalingsschema**.
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Zie [Kanaaleigenschappen](#channel-properties) voor meer informatie over de eigenschappen van kanaaltoewijzingen.
+   >Zie voor meer informatie over de eigenschappen van kanaaltoewijzingen [Kanaaleigenschappen](#channel-properties) sectie.
 
 1. Klikken **Opslaan** zodra u uw voorkeuren hebt geconfigureerd.
 
@@ -97,7 +97,7 @@ Wanneer de projectopstelling volledig is, moet u het kanaal aan een vertoning to
 
 In dit voorbeeld wordt de uitvoer op een Chrome-speler getoond. Nadat u het kanaal aan de weergave hebt toegewezen, moet u het apparaat registreren bij een speler.
 
-Zie [Apparaatregistratie](device-registration.md) voor informatie over het registreren van een apparaat op een AEM Screens-speler.
+Ga voor meer informatie over het registreren van een apparaat op een AEM Screens-speler naar [Apparaatregistratie](device-registration.md).
 
 U kunt de volgende uitvoer naar keuze van de speler weergeven:
 

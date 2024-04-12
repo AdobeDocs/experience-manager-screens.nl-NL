@@ -1,13 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202204
-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202204, uitgebracht op 26 april 2022.
+description: Meer informatie over het AEM Screens Feature Pack 202204 dat op 26 april 2022 werd uitgebracht.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202204 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
 
 ## Beschikbaarheid {#availability}
 
@@ -29,7 +29,7 @@ De releasedatum voor AEM Screens Feature Pack 202204 is 26 april 2022.
 
 ### Wat is er nieuw? {#what-is-new}
 
-* Met een nieuwe functie voor besturing op afstand hebt u gemakkelijker toegang tot de interface van Admin, de kanaalswitch of andere functies, zoals het wissen van de cache en het opnieuw laden. U kunt de lokale ingebouwde programmatuurversie en systeeminformatie over de speler ook bekijken.
+* Met een nieuwe functie voor besturing op afstand hebt u gemakkelijker toegang tot de beheerinterface, de kanaalswitch of andere functies, zoals het wissen van de cache en het opnieuw laden. U kunt de lokale ingebouwde programmatuurversie en systeeminformatie over de speler ook bekijken.
 
 ### Opgeloste problemen {#bug-fixes}
 
@@ -41,22 +41,22 @@ De releasedatum voor AEM Screens Feature Pack 202204 is 26 april 2022.
 
 * Het kanaal van het SPA van de Schermen veroorzaakte een wit scherm met de Speler van Vensters. Dit is nu opgelost.
 
-* De parameter wcmmode is verwijderd uit alle rasterverzoeken op de publicatie-instantie.
+* De parameter wcmmode is verwijderd uit alle schermverzoeken op de publicatie-instantie.
 
 * De Player Activity UI werkt nu zoals verwacht.
 
-* De speler kon de laatste update niet ophalen via het beheren van publicatie. Dit is nu opgelost.
+* De speler heeft de laatste update niet opgehaald door publicatie te beheren. Dit is nu opgelost.
 
-### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers
 
 De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 11 van de Eigenschap:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player
 
 Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

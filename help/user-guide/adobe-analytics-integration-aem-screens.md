@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics-integratie met AEM Screens
-description: Volg deze pagina om meer te weten te komen over de integratie van AEM Screens met Adobe Analytics in de doos en geeft u een proefdruk van het spel.
+description: Meer informatie over de integratie van AEM Screens met Adobe Analytics in de doos vindt u in een proefdruk.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 ## Overzicht {#overview}
 
-***AEM Screens*** Gebruikt Adobe Analytics, en daarmee kunt u iets uniek in de markt - dwars-kanaalanalyses bereiken die helpen inhoud correleren die in plaats met andere gegevensbronnen wordt getoond.
+***AEM Screens*** gebruikt Adobe Analytics, en daarmee kunt u iets uniek in de markt bereiken - kanaalanalyses die helpen inhoud correleren die op plaats met andere gegevensbronnen wordt getoond.
 
 AEM Screens biedt een uitweg uit de box-integratie met Adobe Analytics en biedt u een bewijs van spel.
 
@@ -55,7 +55,7 @@ Adobe Analytics Integration with AEM Screens dwingt dus het volgende af *doelen*
 
 ## Architectuurgegevens {#architectural-details}
 
-Een AEM Screens-klant wil weten welke inhoud op welk moment en voor hoe lang (geaggregeerd) is weergegeven. Dit is gemeenschappelijk vermogen van signaleringsoplossing. In plaats van onze eigen analyses op te stellen, zal AEM Screens Adobe Analytics benutten en daarmee kunnen we iets anders bereiken op de markt - kanaaloverschrijdende analyses die de inhoud die op locatie wordt getoond, helpen correleren met andere gegevensbronnen.
+Een AEM Screens-klant wil weten welke inhoud op welk moment en voor hoe lang (geaggregeerd) is weergegeven. Dit is gemeenschappelijk vermogen van signaleringsoplossing. AEM Screens gebruikt Adobe Analytics in plaats van een aparte analysetoepassing te maken. Met deze combinatie kunnen we iets uniek bereiken op de markt - kanaaloverschrijdende analyses die helpen inhoud die op locatie wordt getoond, te correleren met andere gegevensbronnen.
 
 In het volgende architectuurdiagram wordt de Adobe Analytics Integration met AEM Screens uitgelegd:
 
@@ -65,7 +65,7 @@ In het volgende architectuurdiagram wordt de Adobe Analytics Integration met AEM
 
 De montages van Adobe Analytics kunnen van de console worden gevormd OSGi.
 
-Navigeren naar **Configuratie Adobe Experience Manager-webconsole** Adobe Analytics for AEM Screens configureren, zoals in de onderstaande afbeelding wordt getoond:
+Navigeren naar **Configuratie Adobe Experience Manager-webconsole** zodat u Adobe Analytics for AEM Screens kunt configureren.
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -121,7 +121,7 @@ In de volgende tabel worden de eigenschappen gemarkeerd met hun beschrijving voo
 
 #### Adobe Analytics Service gebruiken in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Dit scenario haalt Analytics API door de vraag van het HART van een analysedienst in de ingebouwde programmatuur en de apparaat scherm-kern componenten aan om gebeurtenissen uitdrukkelijk tot stand te brengen en te verzenden specifiek voor een bepaald gebruiksgeval terwijl het toestaan van rekbaarheid waar om het even welk douanebericht naar Analytics van een douane ontwikkeld kanaal kan worden verzonden.
+Dit scenario haalt Analytics API door de vraag van het REST van een analysedienst in de ingebouwde programmatuur aan. Het instrumenteert ook AEM de schermen-kern componenten om gebeurtenissen uitdrukkelijk tot stand te brengen en te verzenden specifiek voor een bepaald gebruiksgeval. Dit alles terwijl het toestaan van rekbaarheid waar om het even welk douanebericht aan Analytics van een douane-ontwikkeld kanaal kan worden verzonden.
 
 Analytische gebeurtenissen worden offline opgeslagen in geïndexeerdeDB en later afgekapt en naar de cloud verzonden.
 

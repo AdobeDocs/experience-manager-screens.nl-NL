@@ -1,9 +1,9 @@
 ---
 title: Richtlijnen voor hardwareselectie voor afspeelapparaten
-description: Richtlijnen voor hardwareselectie voor afspeelapparaten
-source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
+description: Lees meer over de richtlijnen voor het selecteren van hardware voor AEM Screens Player-apparaten.
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -43,10 +43,10 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td>Basis</td>
    <td>Dual Core, i3 of quad core Intel® Atom processor op instapniveau</td>
    <td><p>4 GB geheugen</p> <p>2 MB cache</p> </td>
-   <td><p>・ChromeOS 32 GB</p> <p>・Windows 128 GB</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>onBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI,<br /> Ethernet/Wireless,<br /> 2x USB</td>
+   <td>DVI<br /> Ethernet/Wireless,<br /> 2x USB</td>
    <td>
     <ul>
      <li>Standaardherhaling op volledig scherm<br /> </li>
@@ -55,11 +55,11 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
   </tr>
   <tr>
    <td>Standaard</td>
-   <td>Quad Core, Intel® Core i5 processor</td>
+   <td>Quad Core, Intel® Core™ i5 processor</td>
    <td><p>8 GB geheugen</p> <p>4 MB cache</p> </td>
-   <td>128 GBB</td>
+   <td>128 GB</td>
    <td>onBoard</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 2x USB</td>
    <td>
     <ul>
@@ -70,15 +70,15 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
   </tr>
   <tr>
    <td>Geavanceerd</td>
-   <td>Quad Core met hyperthreading, Intel® Core i7 processor</td>
+   <td>Quad Core met hyperthreading, Intel® Core™ i7 processor</td>
    <td><p>16 GB geheugen</p> <p>8 MB cache</p> </td>
    <td>256 GB</td>
    <td>GPU voor speciale grafische kaarten</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 4x USB</td>
    <td>
     <ul>
-     <li>4 of meer inhoudszones, gelijktijdig afspelen van video</li>
+     <li>4 of meer inhoudszones, gelijktijdige videoweergave</li>
      <li>Interactief meerdere pagina's</li>
      <li>Multi-Source Data Triggers</li>
     </ul> </td>
