@@ -2,7 +2,7 @@
 title: Adaptieve uitvoeringen gebruiken in AEM Screens
 description: Leer hoe u Adaptieve uitvoeringen kunt gebruiken in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -35,12 +35,12 @@ Ga als volgt te werk om vertoningen toe te passen op elementen die u wilt gebrui
 1. Ga naar de **Activa** in uw AEM-exemplaar.
 1. Maak een versie van het element die beter geschikt is voor de bewegingsweergave, bijvoorbeeld `seahorse.jpg`.
 1. Kies bijvoorbeeld het naamgevingspatroon van de vertoning.`landscape`, vergelijkbaar met de definitie in **patroon** eigenschap in **CRXDE Lite**. Zie [Regels voor renderingstoewijzing toevoegen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) voor meer informatie .
-1. Klikken **Vertoning toevoegen** om de vertoning te uploaden, zoals in onderstaande afbeelding wordt getoond.
+1. Selecteren **Vertoning toevoegen** om de vertoning te uploaden, zoals in onderstaande afbeelding wordt getoond.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
 1. Selecteer de naam van het elementbestand. De vertoning die u toevoegt, moet het patroon bevatten (gedefinieerd in stap 3), bijvoorbeeld `seahorse-landscape.png`.
-1. Selecteer het element en klik op **Publicatie beheren** op de actiebalk om het element te publiceren.
+1. Selecteer het element en selecteer **Publicatie beheren** op de actiebalk om het element te publiceren.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

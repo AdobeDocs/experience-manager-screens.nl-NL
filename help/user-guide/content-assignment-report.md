@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Volg de onderstaande instructies om het Rapport Inhoudstoewijzing te downloaden:
 
 1. Ga naar uw AEM Screens-project en selecteer het project **DemoScreens**.
 
-1. Klikken **Rapport Inhoudstoewijzing** in de actiebalk.
+1. Selecteren **Rapport Inhoudstoewijzing** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ Volg de onderstaande instructies om het Rapport Inhoudstoewijzing te downloaden:
    >[!NOTE]
    >De gegevens die in het werkblad worden weergegeven, worden alfabetisch gesorteerd in een leesbare indeling.
 
-1. Klik op een van de kanalen van het dialoogvenster **Kanalen** de kolom opent **Inhoud** tab. Het programma navigeert u rechtstreeks naar dat kanaal en geeft u informatie over elementen (afbeeldingen en video&#39;s) die aan dat specifieke kanaal zijn gekoppeld.
+1. Een van de kanalen selecteren in het dialoogvenster **Kanalen** de kolom opent **Inhoud** tab. Het programma navigeert u rechtstreeks naar dat kanaal en geeft u informatie over elementen (afbeeldingen en video&#39;s) die aan dat specifieke kanaal zijn gekoppeld.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

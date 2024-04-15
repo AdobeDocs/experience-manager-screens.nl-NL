@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -51,13 +51,13 @@ Tijdens het maken van een kanaal kunt u verschillende sjablonen gebruiken om zon
 **Een kanaal maken**
 
 1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en **Schermen**. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`.
-1. Navigeren naar **Kanalen** map en klik op **Maken** in de actiebalk.
+1. Navigeren naar **Kanalen** map en selecteer **Maken** in de actiebalk.
 
 1. Selecteren **1 x 2 gesplitst schermkanaal** van de **Maken** wizard.
 
-1. Klikken **Volgende** en voert u de **titel** als **MultiZone**.
+1. Selecteren **Volgende** en voert u de **titel** als **MultiZone**.
 
-1. Klikken **Maken** om het maken van het kanaal te voltooien.
+1. Selecteren **Maken** om het maken van het kanaal te voltooien.
 
 ### Enkelvoudige elementen in een of meer zones gebruiken {#using-single-assets-in-one-or-more-zones}
 
@@ -66,7 +66,7 @@ U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle afzon
 1. **Inhoud toevoegen aan het kanaal**
 
    1. Navigeren naar **Zones** > **Kanalen**> **MultiZone**.
-   1. Selecteer de **MultiZone** kanaal en klik **Bewerken** in de actiebalk.
+   1. Selecteer de **MultiZone** kanaal en selecteer **Bewerken** in de actiebalk.
 
 1. **Afbeeldingen toevoegen aan het kanaal**
 
@@ -80,17 +80,17 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
 
 1. **Een kanaalmap maken**
 
-   1. Navigeren naar **Zones** > **MultiZone** > **Kanalen** en klik op **Maken** in de actiebalk.
-   1. Selecteren **Map Kanalen** van de **Maken** wizard en klik op **Volgende**.
-   1. Voer de titel in als **Ingesloten kanalen** en klik op **Maken**.
+   1. Navigeren naar **Zones** > **MultiZone** > **Kanalen** en selecteert u **Maken** in de actiebalk.
+   1. Selecteren **Map Kanalen** van de **Maken** wizard en selecteert u **Volgende**.
+   1. Voer de titel in als **Ingesloten kanalen** en selecteert u **Maken**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Twee kanalen toevoegen aan de kanaalmap**
 
-   1. Navigeren naar **Zones** > **Kanalen** > **Ingesloten kanalen** en klik op **Maken** in de actiebalk.
+   1. Navigeren naar **Zones** > **Kanalen** > **Ingesloten kanalen** en selecteert u **Maken** in de actiebalk.
    1. Selecteren **Volgekanaal** van de **Maken** wizard om een kanaal te maken met de naam **`Zone1`**.
-   1. Selecteren **`Zone1`** en klik op **Bewerken** in de actiebalk.
+   1. Selecteren **`Zone1`** en selecteert u **Bewerken** in de actiebalk.
    1. Sleep enkele afbeeldingen naar dit kanaal.
    1. Maak op dezelfde manier een ander volgnummer met de naam **`Zone2`** in **Ingesloten kanalen** map.
    1. Sleep een video naar dit kanaal.
@@ -110,10 +110,10 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
 1. **Ingesloten reeksen (component) toevoegen aan hoofdkanaal (MultiZone)**
 
    1. Navigeren naar **Zones** > **Kanalen** > **MultiZone**.
-   1. Klikken **Bewerken** in de actiebalk.
+   1. Selecteren **Bewerken** in de actiebalk.
    1. Sleep de **Ingesloten reeks** aan beide zones.
    1. Selecteer de ingesloten reeks in een van de zones.
-   1. Klik op de knop **Configureren** (moersleutel) naar een van de ingesloten reeksen in de editor.
+   1. Selecteer de **Configureren** (moersleutel) naar een van de ingesloten reeksen in de editor.
    1. Kanaalpad selecteren als **Zones** > **Kanalen** > **Ingesloten kanalen** > **`Zone1`**, zoals weergegeven in onderstaande afbeelding.
    1. Voeg op dezelfde manier de **`Zone2`** naar een andere ingesloten reekscomponent in de editor.
 

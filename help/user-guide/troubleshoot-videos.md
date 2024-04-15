@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Nadat u de video naar het kanaal hebt geüpload, moet AEM beginnen met het maken
 De video weergeven:
 
 1. Naar uw video navigeren, bijvoorbeeld `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Klik op de video en vouw het menu linksboven uit en klik op **Uitvoeringen**.
+1. Selecteer de video en vouw het menu linksboven uit en selecteer **Uitvoeringen**.
 
 Er moeten verschillende uitvoeringen zijn (een MP4 of M4V).
 
@@ -39,7 +39,7 @@ Als er geen uitvoering is, moet u ervoor zorgen dat mpeg is geïnstalleerd op he
 >
 >Als er geen uitvoering is, moet u ervoor zorgen dat mpeg is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
 >
->Klikken [hier](https://www.ffmpeg.org/download.html) om fmpeg te installeren.
+>Selecteren [hier](https://www.ffmpeg.org/download.html) om fmpeg te installeren.
 
 ## Video-elementen {#video-assets}
 
@@ -51,11 +51,11 @@ Controleer of mpeg is geïnstalleerd en de videoprofielen.
 
 ### Videoprofiel controleren {#checking-video-profile}
 
-1. Ga naar de **Videoprofiel**, dat wil zeggen: `http://localhost:4502/etc/dam/video.html` en klik op **Testvideo uploaden**.
+1. Ga naar de **Videoprofiel**, dat wil zeggen: `http://localhost:4502/etc/dam/video.html` en selecteert u **Testvideo uploaden**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Upload een testvideo en klik op **OK** zodat u met het transcoderen kunt beginnen.
+1. Upload een testvideo en selecteer **OK** zodat u met het transcoderen kunt beginnen.
 
    Als de getranscodeerde video ontbreekt, breid de output van ffmpeg uit om het even welke fouten in de consoloutput van ffmpeg te begrijpen.
 

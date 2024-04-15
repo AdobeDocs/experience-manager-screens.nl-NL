@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
 1. **Een volgend kanaal maken**
 
-   1. Selecteer de **Kanalen** map en klik op **Maken**.
+   1. Selecteer de **Kanalen** map en selecteer **Maken**.
 
    1. Selecteren **Volgekanaal** van de wizard en maakt u het kanaal met de naam **MainAdChannel**.
 
@@ -57,7 +57,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 1. **Inhoud toevoegen aan Volgkanaal**
 
    1. Selecteer het kanaal (**MainAdChannel**).
-   1. Klikken **Bewerken** in de actiebalk.
+   1. Selecteren **Bewerken** in de actiebalk.
    1. Sleep enkele elementen naar het kanaal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
@@ -65,7 +65,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 1. **Noodkanaal maken**
 
    1. Selecteer de **Kanalen** map.
-   1. Klikken **Maken**.
+   1. Selecteren **Maken**.
    1. Selecteren **Volgekanaal** van de wizard en maakt u het kanaal met de naam **EmergencyChannel**.
 
    >[!NOTE]
@@ -77,7 +77,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 1. **Inhoud toevoegen aan noodkanaal**
 
    1. Selecteer het kanaal (**Noodkanaal)**.
-   1. Klikken **Bewerken** in de actiebalk.
+   1. Selecteren **Bewerken** in de actiebalk.
    1. Sleep het element dat u tijdens een noodsituatie wilt gebruiken naar het kanaal en zet het neer.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
@@ -85,36 +85,36 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 1. **Een locatie maken**
 
    1. Navigeren naar **Locaties** map.
-   1. Klikken **Maken** op de actiebalk en maak een locatie met de naam **Winkel** van de wizard.
+   1. Selecteren **Maken** op de actiebalk en maak een locatie met de naam **Winkel** van de wizard.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Weergaven maken op uw locatie**
 
-   Ga naar uw locatie (**Winkel**) en klik op **Maken** in de actiebalk. Na de wizard maakt u twee **Weergaven** getiteld als **StoreFront** en **StoreRear**.
+   Ga naar uw locatie (**Winkel**) en selecteert u **Maken** in de actiebalk. Na de wizard maakt u twee **Weergaven** getiteld als **StoreFront** en **StoreRear**.
 
    ![screen_shot_2019-02-22at12255pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Een schema maken**
 
    1. Ga naar uw **Planningen** map.
-   1. Klikken **Maken** in de actiebalk.
+   1. Selecteren **Maken** in de actiebalk.
    1. Na de tovenaar, creeer een programma genoemd als **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Wijs zowel de Vertoningen aan uw Programma toe en vastgestelde Prioriteiten
 
-   1. Selecteer het schema **(StoreSchedule)** en klik op **Dashboard** in de actiebalk.
+   1. Selecteer het schema **(StoreSchedule)** en selecteert u **Dashboard** in de actiebalk.
 
-   1. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** deelvenster.
+   1. Selecteren **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** deelvenster.
 
    1. Van de **Kanaaltoewijzing** dialoogvenster:
 
       1. Selecteer het pad naar de **MainAdChannel**
       1. Stel de **Prioriteit** 2
       1. Ondersteunde gebeurtenissen instellen als **Oorspronkelijke belasting** en **Niet-actief scherm**.
-      1. Klikken **Opslaan**
+      1. Selecteren **Opslaan**
 
       Voer dezelfde stappen opnieuw uit om de opdracht **EmergencyChannel** en stelt **Prioriteit**.
 
@@ -124,7 +124,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** deelvenster.
+1. Selecteren **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** deelvenster.
 
 1. Van de **Kanaaltoewijzing** dialoogvenster:
 
@@ -133,7 +133,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
    1. Ondersteunde gebeurtenissen instellen als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Gebruikersinteractie**
 
-   1. Klikken **Opslaan**
+   1. Selecteren **Opslaan**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
@@ -145,12 +145,12 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
    1. Ga naar elke weergave, zoals **EmergencyChannel** > **Locaties** > **Winkel** >**StoreFront**.
 
-   1. Klikken **Dashboard** in de actiebalk.
-   1. Klikken **...** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster en klik vervolgens op **+Plan toewijzen**.
+   1. Selecteren **Dashboard** in de actiebalk.
+   1. Selecteren **...** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** en selecteert u **+Plan toewijzen**.
 
    1. Selecteer het pad naar het schema (bijvoorbeeld hier **EmergencyChannel** > **Planningen** >**StoreSchedule**).
 
-   1. Klikken **Opslaan**.
+   1. Selecteren **Opslaan**.
 
    U kunt het toegewezen schema aan de vertoning van bekijken **StoreSchedule** dashboard.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
@@ -169,11 +169,11 @@ Voer in geval van nood de volgende stappen uit:
 
    ![screen_shot_2019-02-25at10112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Selecteer de **EmergencyChannel** van de **StoreSchedule** dashboard en klik op **Toewijzing bewerken**.
+1. Selecteer de **EmergencyChannel** van de **StoreSchedule** dashboard en selecteer **Toewijzing bewerken**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Werk de **Prioriteit** van de **EmergencyChannel** tot **3** van de **Kanaaltoewijzing** en klik op **Opslaan**.
+1. Werk de **Prioriteit** van de **EmergencyChannel** tot **3** van de **Kanaaltoewijzing** en selecteert u **Opslaan**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 

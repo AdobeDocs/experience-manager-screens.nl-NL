@@ -4,7 +4,7 @@ description: Meer informatie over de AEM Screens Players en hun respectieve vers
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%
@@ -45,7 +45,7 @@ In de volgende sectie worden de Adobe Experience Manager (AEM) Screens Players m
 
 ### Koppeling downloaden {#download-link}
 
-Klik op downloadkoppeling voor iOS Player:
+Selecteer downloadkoppeling voor iOS Player:
 
 aem-screens-player-ios-3.3.0.ipa.zip
 
@@ -76,7 +76,7 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### Koppeling downloaden {#download-link-1}
 
-Klik op de downloadkoppeling voor Windows 10 Player:
+Selecteer downloadkoppeling voor Windows 10 Player:
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
@@ -92,7 +92,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 ### Koppeling downloaden {#download-link-2}
 
-Klik op de downloadkoppeling voor Android™ Player:
+Selecteer downloadkoppeling voor Android™ Player:
 
 aem-screens-player-android-3.3.0.apk.zip
 

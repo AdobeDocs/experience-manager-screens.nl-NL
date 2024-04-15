@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Met de volgende belangrijke punten hieronder kunt u de server configureren en AE
 
    ![afbeelding](assets/config/empty-ref2.png)
 
-1. Klikken **Opslaan** om het filter Apache Sling Referrer inschakelen Leeg toestaan.
+1. Selecteren **Opslaan** om het filter Apache Sling Referrer inschakelen Leeg toestaan.
 
 
 #### HTTP-service op basis van Apache Felix Jetty {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ Met de volgende belangrijke punten hieronder kunt u de server configureren en AE
 
    ![afbeelding](assets/config/config-1.png)
 
-1. Klikken **Opslaan** de *http* service.
+1. Selecteren **Opslaan** de *http* service.
 
 #### Aanraakinterface inschakelen voor AEM Screens {#enable-touch-ui-for-aem-screens}
 

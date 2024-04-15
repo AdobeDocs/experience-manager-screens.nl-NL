@@ -2,7 +2,7 @@
 title: Overzicht en configuraties van adaptieve uitvoeringen van architectuur
 description: Leer meer over het architectuuroverzicht en de configuraties in CRXDE Lite voor Adaptieve Uitvoeringen in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 1%
@@ -58,11 +58,11 @@ Voer de onderstaande stappen uit om de installatie te configureren:
 Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoeringstoewijzing:
 
 1. Naar dit pad navigeren `/conf/screens/sling:configs/rendition-mapping` van **CRXDE Lite**.
-1. Een knooppunt maken onder **rendition-mapping**. Klikken met rechtermuisknop **rendition-mapping** en klik op **Maken** > **Knooppunt maken**, zoals weergegeven in onderstaande afbeelding.
+1. Een knooppunt maken onder **rendition-mapping**. Klikken met rechtermuisknop **rendition-mapping** en selecteert u **Maken** > **Knooppunt maken**, zoals weergegeven in onderstaande afbeelding.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Voer de **Naam** voor uw toewijzingsregel, zoals **rule1** en het knooppunt **Type** als **`nt:unstructured`** in **Knooppunt maken** in. Klikken **OK**.
+1. Voer de **Naam** voor uw toewijzingsregel, zoals **rule1** en het knooppunt **Type** als **`nt:unstructured`** in **Knooppunt maken** in. Selecteren **OK**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
    >[!NOTE]
    >Zie [Mediaquerysyntaxis gebruiken](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) voor meer informatie.
 
-   Klikken **rule1** die u hebt gemaakt, en voert u in **expression** in **Naam** en **(oriëntatie:liggend)** in **Waarde**, zoals hieronder weergegeven. Klikken **Toevoegen**.
+   Selecteren **rule1** die u hebt gemaakt, en voert u in **expression** in **Naam** en **(oriëntatie:liggend)** in **Waarde**, zoals hieronder weergegeven. Selecteren **Toevoegen**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
    >[!NOTE]
    >De waarde die in de patrooneigenschap wordt gedefinieerd, komt overeen met de nieuwe elementuitvoering en wordt geselecteerd als de expressie wordt geëvalueerd op true.
 
-   Klik op **rule1** die u hebt gemaakt, en voert u in **patroon** in **Naam** en **landschap** in **Waarde**, zoals hieronder weergegeven. Klikken **Toevoegen**.
+   Selecteer **rule1** die u hebt gemaakt, en voert u in **patroon** in **Naam** en **landschap** in **Waarde**, zoals hieronder weergegeven. Selecteren **Toevoegen**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Klikken **Alles opslaan** en bekijk de eigenschappen onder de knoop u onder creeerde **rendition-mapping**.
+1. Selecteren **Alles opslaan** en bekijk de eigenschappen onder de knoop u onder creeerde **rendition-mapping**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

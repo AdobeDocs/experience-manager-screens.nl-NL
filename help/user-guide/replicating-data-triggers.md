@@ -5,7 +5,7 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 ### Stap 1: het herhalen van Configuraties ContextHub {#replicating-contexthub-configurations}
 
-1. Navigeren naar **Gereedschappen** > **Implementatie** > **Distributie** > **Publish Agent** en klik de het publiceren agent zodat kunt u uw montages vormen.
+1. Navigeren naar **Gereedschappen** > **Implementatie** > **Distributie** > **Publish Agent** en selecteert u de publicatieagent, zodat u uw instellingen kunt configureren.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -38,7 +38,7 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
    >
    >U kunt ook de opdracht `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` om rechtstreeks naar het scherm te navigeren om de verbinding te configureren en te testen.
 
-1. Klikken **Verbinding testen** vanuit de actiebalk, zodat u de communicatie van de auteur met de instantie Publishing kunt valideren, zoals in het volgende voorbeeld wordt getoond:
+1. Selecteren **Verbinding testen** vanuit de actiebalk, zodat u de communicatie van de auteur met de instantie Publishing kunt valideren, zoals in het volgende voorbeeld wordt getoond:
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 1. Selecteren **Toevoegen** van de **Distribution Agent** de het schermboom en selecteert de configuratiepad voor uw project, bijvoorbeeld `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Klikken **Verzenden**.
+1. Selecteren **Verzenden**.
 
 ### Het publiek repliceren {#replicating-audiences}
 
@@ -60,9 +60,9 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 1. Selecteer alle soorten publiek en segmenten in de gebruikersinterface.
 
-1. Klikken **Publicatie beheren** in de actiebalk.
+1. Selecteren **Publicatie beheren** in de actiebalk.
 
-1. Klikken **Volgende** en **Publiceren**.
+1. Selecteren **Volgende** en **Publiceren**.
 
 ### Herhaling van de activiteiten  {#replicating-activities}
 
@@ -72,9 +72,9 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 1. Selecteer alle activiteiten in de gebruikersinterface.
 
-1. Klikken **Publicatie beheren** in de actiebalk.
+1. Selecteren **Publicatie beheren** in de actiebalk.
 
-1. Klikken **Volgende** en **Publiceren**.
+1. Selecteren **Volgende** en **Publiceren**.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Als de testverbinding terwijl het herhalen van de configuraties ContextHub ontbr
 
 1. Ga naar Gereedschappen > **Implementatie** > **Distributie** > **Publish Agent**.
 
-1. Klikken **Bewerken** van de actiebalk en zorg ervoor dat het eindpunt-URL in **Eindpunten importeren** Het veld verwijst ook naar de URL van de publicatieserver in Distribution Agent.
+1. Selecteren **Bewerken** van de actiebalk en zorg ervoor dat het eindpunt-URL in **Eindpunten importeren** Het veld verwijst ook naar de URL van de publicatieserver in Distribution Agent.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Als u niet de standaardadmin geloofsbrieven gebruikt, dan moet u de distributiegagent met een verschillende gebruikersbenaming en een wachtwoord vormen.
@@ -110,10 +110,10 @@ Als de testverbinding terwijl het herhalen van de configuraties ContextHub ontbr
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. Klikken **Opslaan**
+   1. Selecteren **Opslaan**
    1. Gebruiken `Cmd +F` om naar **Apache Sling Distribution Agent - Forward Agents Factory** om de configuraties te openen en naar **Vervoersgeheim provider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Werk de `(name=default)` with `(name=slingTransportSecretProvider)`.
-   1. Klikken **Opslaan** en voer de testverbinding opnieuw uit vanaf de **Distribution Agent** opnieuw vanaf uw AEM-instantie.
+   1. Selecteren **Opslaan** en voer de testverbinding opnieuw uit vanaf de **Distribution Agent** opnieuw vanaf uw AEM-instantie.

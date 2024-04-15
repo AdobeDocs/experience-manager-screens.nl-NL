@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Voer de onderstaande stappen uit:
 1. Stel de **SameSite-kenmerk voor de cookies met het token** van **Lax** tot **Geen**.
    ![afbeelding](/help/user-guide/assets/granite-updates.png)
 
-1. Klikken **Opslaan**.
+1. Selecteren **Opslaan**.
 
 
 ### Ad hoc-methode {#ad-hoc-method}
@@ -55,7 +55,7 @@ Met de ad-hocmethode kunt u de nieuwste Android™-speler installeren (*.exe*). 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeren naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u wenst om met te verbinden en te klikken **Opslaan**.
+1. Navigeren naar **Configuratie** in het linkeractiemenu en voer de locatie (het adres) in van de AEM die u wilt verbinden en selecteer **Opslaan**.
 
 1. Ga naar de **Apparaat** **Registratie** van het linkeractiemenu zodat kunt u de status van het proces van de apparatenregistratie controleren.
 

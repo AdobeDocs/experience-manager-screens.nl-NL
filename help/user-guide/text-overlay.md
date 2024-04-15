@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -58,11 +58,11 @@ In de volgende afbeelding wordt de **TextOverlayDemo** project met **TextSample*
 
 Voer de onderstaande stappen uit om tekstbedekking in een AEM Screens-kanaal te gebruiken:
 
-1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Bewerken** in de actiebalk.
+1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en selecteert u **Bewerken** in de actiebalk.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Selecteer de afbeelding en klik op **Configureren** (moersleutelpictogram) om het dialoogvenster Eigenschappen te openen.
+1. Selecteer de afbeelding en selecteer **Configureren** (moersleutelpictogram) om het dialoogvenster Eigenschappen te openen.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
@@ -114,7 +114,7 @@ Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de ond
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Bewerken** in de actiebalk.
+1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en selecteert u **Bewerken** in de actiebalk.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -129,7 +129,7 @@ Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de ond
    >[!NOTE]
    >Als u opstelling uw configuratie ContextHub niet hebt, is deze optie gehandicapt voor uw project.
 
-1. Enter **Waarde** in de **Plaatsaanduiding** veld. Selecteer de rij waarin u de waarde op uw Google-blad wilt ophalen **ContextHub-variabele**. In dit geval wordt de waarde opgehaald uit rij 2 en kolom 1 van de Google-bladen. Voer nu de **Standaardwaarde** als **20**, zoals weergegeven in onderstaande afbeelding. Klik op het vinkje als u klaar bent.
+1. Enter **Waarde** in de **Plaatsaanduiding** veld. Selecteer de rij waarin u de waarde op uw Google-blad wilt ophalen **ContextHub-variabele**. In dit geval wordt de waarde opgehaald uit rij 2 en kolom 1 van de Google-bladen. Voer nu de **Standaardwaarde** als **20**, zoals weergegeven in onderstaande afbeelding. Als u klaar bent, selecteert u het vinkje.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

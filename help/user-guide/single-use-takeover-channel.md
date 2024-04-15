@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/single-takeover2.png)
 
-1. Selecteer de **MainAdChannel** en klik op **Bewerken** in de actiebalk. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
+1. Selecteer de **MainAdChannel** en selecteert u **Bewerken** in de actiebalk. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
 
    ![element](assets/single-takeover2.png)
 
@@ -62,7 +62,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 1. Een **Overname** kanaal dat de inhoud in **MainAdChannel** en wordt alleen gedurende een bepaalde dag en tijd afgespeeld.
 
-1. Selecteer de **Overname** en klik op **Bewerken** in de actiebalk. Sleep enkele elementen naar uw kanaal. In het volgende voorbeeld ziet u hoe een afbeelding met één zone wordt toegevoegd aan dit kanaal.
+1. Selecteer de **Overname** en selecteert u **Bewerken** in de actiebalk. Sleep enkele elementen naar uw kanaal. In het volgende voorbeeld ziet u hoe een afbeelding met één zone wordt toegevoegd aan dit kanaal.
 
    ![element](assets/single-takeover4.png)
 
@@ -72,20 +72,20 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 **Kanalen toewijzen aan een weergave**
 
-1. De weergave selecteren **MainLobbyDisplay** van de **Locaties** map. Klikken **Kanaal toewijzen** in de actiebalk.
+1. De weergave selecteren **MainLobbyDisplay** van de **Locaties** map. Selecteren **Kanaal toewijzen** in de actiebalk.
 
    ![element](assets/single-takeover6.png)
 
    >[!NOTE]
    >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar **[Kanaaltoewijzing](channel-assignment.md)**.
 
-1. Vul de velden (**Kanaalpad**, **Prioriteit**, en **Ondersteunde gebeurtenissen**) van de **Kanaaltoewijzing** en klik op **Opslaan**. U hebt nu de opdracht **MainAdChannel** op uw scherm.
+1. Vul de velden (**Kanaalpad**, **Prioriteit**, en **Ondersteunde gebeurtenissen**) van de **Kanaaltoewijzing** en selecteert u **Opslaan**. U hebt nu de opdracht **MainAdChannel** op uw scherm.
 
    ![element](assets/single-takeover7.png)
 
-1. De weergave selecteren **Overname** van de **Locaties** map. Klikken **Kanaal toewijzen** op de actiebalk, zodat u het kanaal voor één keer overnemen kunt toewijzen.
+1. De weergave selecteren **Overname** van de **Locaties** map. Selecteren **Kanaal toewijzen** op de actiebalk, zodat u het kanaal voor één keer overnemen kunt toewijzen.
 
-1. Wijs het **Overname** naar de weergave op een gepland moment en vul de volgende velden in via het menu **Kanaaltoewijzing** en klik op **Opslaan**:
+1. Wijs het **Overname** naar de weergave op een gepland moment en vul de volgende velden in via het menu **Kanaaltoewijzing** en selecteert u **Opslaan**:
 
    * **Kanaalpad**: Selecteer het pad naar het kanaal TakeOver
    * **Prioriteit**: Stel de prioriteit van dit kanaal groter in dan de **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.
@@ -97,7 +97,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
      ![element](assets/single-takeover8.png)
 
-     Navigeren naar de weergave vanuit **SingleUseTakeOver** > **Locaties** > **Lobby** > **MainLobbyDisplay** en klik op **Dashboard** in de actiebalk, zodat u de toegewezen kanalen met hun prioriteiten kunt weergeven, zoals hieronder wordt weergegeven.
+     Navigeren naar de weergave vanuit **SingleUseTakeOver** > **Locaties** > **Lobby** > **MainLobbyDisplay** en selecteert u **Dashboard** in de actiebalk, zodat u de toegewezen kanalen met hun prioriteiten kunt weergeven, zoals hieronder wordt weergegeven.
 
      >[!NOTE]
      >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.

@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens to
    >
    >Voeg de gebruikersinteractiegebeurtenis toe wanneer u het kanaal toewijst aan de weergave.
 
-1. Klikken **Bewerken** in de actiebalk, zodat u de eigenschappen van het kanaal kunt bewerken.
+1. Selecteren **Bewerken** in de actiebalk, zodat u de eigenschappen van het kanaal kunt bewerken.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
@@ -103,7 +103,7 @@ Volg de onderstaande stappen om de SPA met Adobe Analytics te integreren met off
    Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie over het uitvoeren van opeenvolging in Adobe Analytics met AEM Screens en het verzenden van douanegebeurtenissen die off-line Adobe Analytics gebruiken.
 
 1. Bewerk uw reactie-app in de IDE/editor van uw keuze (met name de tekstcomponent of andere component die u wilt gebruiken om gebeurtenissen uit te zenden).
-1. Voeg bij de klikgebeurtenis of andere gebeurtenis die u voor uw component wilt vastleggen de analysegegevens toe met behulp van het standaardgegevensmodel.
+1. Voeg bij de select-gebeurtenis of andere gebeurtenis die u voor de component wilt vastleggen de analysegegevens toe met behulp van het standaardgegevensmodel.
 
    Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie .
 

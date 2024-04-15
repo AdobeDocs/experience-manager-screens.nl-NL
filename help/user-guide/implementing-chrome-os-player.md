@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -25,7 +25,7 @@ In deze sectie wordt beschreven hoe u de Chrome OS Player implementeert met de C
 Voer de onderstaande stappen uit om de chrome beheerconsole in te stellen:
 
 1. Registreer u voor de Chrome Management Console. U moet een licentie voor Chrome Management Console aanvragen. Contact [Google-ondersteuning](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) om Chrome-apparaatinstellingen te beheren voor meer informatie.
-1. Voer uw Chrome OS-apparaat in het domein in en wacht 15 minuten totdat het apparaat synchroniseert met de Chrome Management Console. Als u meer wilt weten over het inschrijven van een chroomapparaat, klikt u op [hier](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Voer uw Chrome OS-apparaat in het domein in en wacht 15 minuten totdat het apparaat synchroniseert met de Chrome Management Console. Als u meer wilt weten over het inschrijven van chroomapparaten, selecteert u [hier](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. De Chrome Player is beschikbaar in de Chrome Web store.
 
 >[!NOTE]
@@ -65,7 +65,7 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. Bladeren naar **Apparaatbeheer** > **Chrome-beheer** > **Apparaatinstellingen**.
-1. Omlaag schuiven naar **Kiosk-instellingen** en klik op **Kiosktoepassingen beheren**.
+1. Omlaag schuiven naar **Kiosk-instellingen** en selecteert u **Kiosktoepassingen beheren**.
 
    ![kiosk](assets/kiosk.png)
 
@@ -83,7 +83,7 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 1. Meld u aan bij de Chrome Developer Console.
 1. Bladeren naar **Apparaatbeheer** > **Chrome-apparaten** en selecteert u het apparaat dat u wilt besturen.
-1. Klikken **Systeemactiviteit en probleemoplossing**.
+1. Selecteren **Systeemactiviteit en probleemoplossing**.
 1. Controleer de **Apparaat opnieuw opstarten** en **Schermvastlegging** eigenschappen van het apparaat. U kunt ook de status en gezondheidsgegevens van het apparaat controleren.
 
 >[!NOTE]
@@ -97,11 +97,11 @@ De AEM Screens Player is een toepassing waarvoor Kiosk is ingeschakeld en waarme
 Voer de onderstaande stappen uit om verschillende opties van de speler te configureren:
 
 1. Meld u aan bij de Chrome Management Console.
-1. Klikken **Apparaatbeheer** > **Chrome-beheer** > **Toepassingsbeheer**. De AEM Screens Player wordt in de lijst weergegeven.
-1. Klik op de toepassing **AEM Screens Player**.
-1. Klikken **Kiosk-instellingen** en selecteer uw org (*bij gebruik van een testomgeving*).
-1. Klikken **uploadconfiguratiebestand** en uploadt het configuratiebeleid (*JSon-bestand*).
-1. Klikken **Opslaan**. Start het apparaat opnieuw op zodat u het beleid kunt synchroniseren.
+1. Selecteren **Apparaatbeheer** > **Chrome-beheer** > **Toepassingsbeheer**. De AEM Screens Player wordt in de lijst weergegeven.
+1. Selecteer de toepassing **AEM Screens Player**.
+1. Selecteren **Kiosk-instellingen** en selecteer uw org (*bij gebruik van een testomgeving*).
+1. Selecteren **uploadconfiguratiebestand** en uploadt het configuratiebeleid (*JSon-bestand*).
+1. Selecteren **Opslaan**. Start het apparaat opnieuw op zodat u het beleid kunt synchroniseren.
 
 >[!NOTE]
 >

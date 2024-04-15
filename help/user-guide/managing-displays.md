@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Een apparaat config dienst als placeholder voor een echt digitaal signaalapparaa
 1. Selecteer uw weergavemap en selecteer **Dashboard weergeven** in de actiebalk.
 1. Selecteren **+ Apparaatconfiguratie toevoegen** rechtsboven in het **Apparaten** deelvenster.
 
-1. Selecteer de **Apparaatconfiguratie** als de vereiste sjabloon en tik/klik **Volgende**.
+1. Selecteer de **Apparaatconfiguratie** als de vereiste sjabloon en selecteer **Volgende**.
 
-1. Voer de vereiste eigenschappen in en tik/klik op **Maken**.
+1. Voer de vereiste eigenschappen in en selecteer **Maken**.
 
 Het apparaat config wordt gecreeerd en aan de huidige vertoning toegevoegd (in de volgende demonstratie, wordt het nieuwe apparaat config gecreeerd *DeviceConfig*).
 
@@ -102,12 +102,12 @@ Het weergavedashboard biedt u verschillende deelvensters voor het beheer van wee
 
 De **INFORMATIE OVER WEERGAVE** Het deelvenster bevat de weergave-eigenschappen.
 
-Klikken (**...**) in de rechterbovenhoek in de **INFORMATIE OVER WEERGAVE** zodat u de eigenschappen kunt bekijken en een voorvertoning van de weergave kunt bekijken.
+Selecteren (**...**) in de rechterbovenhoek in de **INFORMATIE OVER WEERGAVE** zodat u de eigenschappen kunt bekijken en een voorvertoning van de weergave kunt bekijken.
 
 
 #### Weergaveeigenschappen {#viewing-properties}
 
-Klikken **Eigenschappen** zodat u de eigenschappen van de weergave kunt bekijken of wijzigen.
+Selecteren **Eigenschappen** zodat u de eigenschappen van de weergave kunt bekijken of wijzigen.
 
 U kunt ook de waarde van de gebeurtenistimer voor uw interactieve kanaal aanpassen in **Niet-actieve time-out** eigendom onder **Weergave** tab. De standaardwaarde is *300 seconden*.
 
@@ -125,7 +125,7 @@ De **APPARATEN** Het paneel verstrekt informatie over de apparatenvormen.
 
 Selecteren (**...**) in de rechterbovenhoek in de **APPARATEN** zodat u apparaatconfiguraties kunt toevoegen en apparaten kunt bijwerken.
 
-Klik ook op de apparaatconfiguratie om eigenschappen weer te geven, een apparaat toe te wijzen of het volledig te verwijderen.
+Ook, selecteer het apparaat config om eigenschappen te bekijken, een apparaat toe te wijzen, of het volledig te schrappen.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

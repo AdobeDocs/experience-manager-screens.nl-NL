@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
@@ -47,7 +47,7 @@ U kunt een gebruikersvriendelijke apparaatnaam aan uw Tizen-speler toewijzen en 
 
 Voer de onderstaande stappen uit om de naam in de Tizen-speler te configureren:
 
-1. Klik op de menuknop op de afstandsbediening.
+1. Selecteer de menuknop op de afstandsbediening.
 1. Navigeren naar **netwerk** > **Apparaatnaam** zodat u een naam aan de speler kunt toewijzen.
 
 ### Updates configureren op het Samsung-apparaat {#config-updates}
@@ -55,11 +55,11 @@ Voer de onderstaande stappen uit om de naam in de Tizen-speler te configureren:
 Volg de onderstaande stappen op het Samsung-apparaat om de installatie van de AEM Screens-speler op het apparaat te voltooien:
 
 1. Navigeer naar het Samsung-apparaat en schakel het in.
-1. Klik op de knop **MENU** van de afstandsbediening van het apparaat naar beneden schuiven **Systeem** in de linkernavigatiebalk.
+1. Selecteer de **MENU** van de afstandsbediening van het apparaat naar beneden schuiven **Systeem** in de linkernavigatiebalk.
 1. Omlaag schuiven en de **Afspelen via** en wijzigen in **URL Launcher** -optie.
    ![afbeelding](/help/user-guide/assets/tizen/rms-2.png)
 1. Wanneer de URL Launcher is ingesteld, drukt u op **Home** vanaf de afstandsbediening.
-1. Ga naar de **Instellingen voor URL-opstart** en voer het IP-adres van uw localhost-server in en klik op **Gereed**.
+1. Ga naar de **Instellingen voor URL-opstart** en voer het IP-adres van uw localhost-server in en selecteer **Gereed**.
 
    >[!NOTE]
    >De Tizen-speler moet verbinding kunnen maken met de http-server.

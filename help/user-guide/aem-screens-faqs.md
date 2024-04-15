@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Schakel het filter Apache Sling Reference Filter Allow Empty in. Dit is vereist 
 
 1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole**
 1. Controleer de **allow.empty** -optie.
-1. Klikken **Opslaan**.
+1. Selecteren **Opslaan**.
 
 ### 3. Hoe kan ik problemen oplossen als tijdens het registreren van een AEM Screens-speler, het apparaat MISLUKT weergeeft en de console-logboeken de fout ENAME_NOT_FOUND weergeven?
 
@@ -133,13 +133,13 @@ Voor meer informatie over waar u apparatenactiviteit kunt controleren, zie [**AE
 
 De ChromeOS-speler kan als Chrome Browser-insteekmodule worden geïnstalleerd in de modus voor ontwikkelaars zonder dat hiervoor een daadwerkelijk chrome speler-apparaat nodig is. Volg onderstaande stappen voor installatie:
 
-1. Klikken [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
+1. Selecteren [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
 1. Pak het uit en sla het op de schijf op.
 1. Chrome openen en **Extensies** in het menu of rechtstreeks door ***chrome://extensions***.
 1. Schakel de **Modus Ontwikkelaar** in de rechterbovenhoek.
 1. Selecteren **Niet-verpakt laden** in de linkerbovenhoek en laadt de gedecomprimeerde Chrome Player.
 1. Indien beschikbaar in de lijst met extensies, schakelt u **AEM Screens Chrome Player** insteekmodule.
-1. Open een nieuw tabblad en klik op de knop **Apps** in de linkerbovenhoek, of rechtstreeks naar ***chrome://apps***.
+1. Open een nieuw tabblad en selecteer de **Apps** in de linkerbovenhoek, of rechtstreeks naar ***chrome://apps***.
 1. Selecteer de **AEM Screens** Insteekmodule. Standaard wordt de speler gestart in de modus Volledig scherm. Druk **Esc** om de modus Volledig scherm af te sluiten.
 
 ### 2. Hoe kan ik problemen oplossen als de schermspeler niet kan worden geverifieerd via een publicatie-instantie met een aangepaste fouthandler?

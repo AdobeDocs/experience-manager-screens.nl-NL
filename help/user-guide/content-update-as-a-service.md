@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -46,7 +46,7 @@ U kunt bulk off-line update van het Gebruikersinterface (UI) manueel gebruiken o
 Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een AEM Screens-project:
 
 1. Ga naar uw AEM Screens-project.
-1. Selecteer het project en klik op **Offline inhoud bijwerken** in de actiebalk om de kanaalinhoud handmatig bij te werken.
+1. Selecteer het project en selecteer **Offline inhoud bijwerken** in de actiebalk om de kanaalinhoud handmatig bij te werken.
 
    ![screen_shot_2018-04-24at12256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -63,7 +63,7 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
 
    **Projectpad** Geef het pad van uw AEM Screens-project op. Het pad is meestal `/content/screens/<Name of your project>`.
 
-   *Bijvoorbeeld*, `/content/screens/we-retail`. U kunt dit pad vinden in de URL door een willekeurig project te selecteren onder AEM Screens (klik niet op het pictogram).
+   *Bijvoorbeeld*, `/content/screens/we-retail`. U kunt dit pad vinden in de URL door een willekeurig project onder AEM Screens te selecteren (selecteer het pictogram niet).
 
    >[!NOTE]
    >

@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
    >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
 
 1. Navigeren naar **Apparaten** map.
-1. Klikken **Apparaatbeheer** in de actiebalk.
+1. Selecteren **Apparaatbeheer** in de actiebalk.
 
    ![image1](assets/command-sync5.png)
 
@@ -77,11 +77,11 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 ### Kanaalinstellingen bijwerken
 
 1. Navigeren naar **ChannelLobby**.
-1. Klikken **Bewerken** in de actiebalk.
+1. Selecteren **Bewerken** in de actiebalk.
 1. Selecteer het volledige kanaal zoals weergegeven in de onderstaande afbeelding.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Klik op het moersleutelpictogram.
+1. Selecteer het moersleutelpictogram.
    ![image1](assets/command-sync/command-sync8-1.png)
 
 1. In de **Pagina** in, voert u de *gesynchroniseerd* trefwoord in het dialoogvenster **Strategie** veld.
@@ -90,15 +90,15 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
 ### Een primaire {#setting-up-primary}
 
-1. Navigeren naar het weergavedashboard vanaf **CommandSyncDemo** > **Locaties**  > **Lobby** > **LobbyDisplay** en klik op **Dashboard** in de actiebalk.
+1. Navigeren naar het weergavedashboard vanaf **CommandSyncDemo** > **Locaties**  > **Lobby** > **LobbyDisplay** en selecteert u **Dashboard** in de actiebalk.
 Let op de twee apparaten (chroom- en vensterspeler) in **APPARATEN** , zoals in het volgende voorbeeld:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Van de **APPARATEN** selecteert u het apparaat dat u als primair wilt instellen. In het volgende voorbeeld ziet u hoe u het Chrome-apparaat als primair apparaat instelt. Klikken **Instellen als primair apparaat**.
+1. Van de **APPARATEN** selecteert u het apparaat dat u als primair wilt instellen. In het volgende voorbeeld ziet u hoe u het Chrome-apparaat als primair apparaat instelt. Selecteren **Instellen als primair apparaat**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Voer het IP-adres in **Instellen als primair apparaat** en klik op **Opslaan**.
+1. Voer het IP-adres in **Instellen als primair apparaat** en selecteert u **Opslaan**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
@@ -109,11 +109,11 @@ Let op de twee apparaten (chroom- en vensterspeler) in **APPARATEN** , zoals in 
 ### Synchroniseren met primaire {#sync-up-primary}
 
 1. Nadat u het Chrome-apparaat als primair hebt ingesteld, synchroniseert u het andere apparaat (in dit geval de Windows-speler) met het primaire apparaat.
-Selecteer het andere apparaat (in dit geval de Windows-speler) in het menu **APPARATEN** deelvenster en klik op **Synchroniseren met primair apparaat**.
+Selecteer het andere apparaat (in dit geval de Windows-speler) in het menu **APPARATEN** en selecteert u **Synchroniseren met primair apparaat**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. Selecteer het apparaat in de lijst en klik op **Opslaan**.
+1. Selecteer het apparaat in de lijst en selecteer **Opslaan**.
 
    >[OPMERKING:]
    > De **Synchroniseren met primair apparaat** wordt de lijst met primaire apparaten weergegeven. Selecteer de gewenste optie.
@@ -134,11 +134,11 @@ Volg onderstaande stappen om de synchronisatie van het primaire apparaat te verw
 
 1. Ga naar de **APPARATEN** en selecteert u het apparaat.
 
-1. Klikken **Apparaten synchroniseren** zodat u de synchronisatie van de client met het primaire apparaat ongedaan kunt maken.
+1. Selecteren **Apparaten synchroniseren** zodat u de synchronisatie van de client met het primaire apparaat ongedaan kunt maken.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Klikken **Bevestigen** om de synchronisatie van het geselecteerde apparaat met het primaire apparaat ongedaan te maken.
+1. Selecteren **Bevestigen** om de synchronisatie van het geselecteerde apparaat met het primaire apparaat ongedaan te maken.
 
    >[OPMERKING:]
    > Als u het primaire apparaat selecteert en de optie Niet-synchroniseren gebruikt, worden alle apparaten die op het primaire apparaat zijn aangesloten in één stap gedesynchroniseerd.

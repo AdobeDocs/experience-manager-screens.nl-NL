@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 1. **Weergave onder locatie maken**
 
    1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio**.
-   1. Selecteren **Regio** en klik op **+ Maken** in de actiebalk.
+   1. Selecteren **Regio** en selecteert u **+ Maken** in de actiebalk.
    1. Selecteren **Weergave** van de wizard en maakt u een weergave met de naam **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -100,7 +100,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    Voor **MainAdChannel:**
 
-   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
+   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en selecteert u **Kanaal toewijzen** in de actiebalk.
    1. **Kanaaltoewijzing** wordt geopend.
    1. Selecteren **Referentiekanaal** per pad.
    1. Selecteer de **Kanaalpad** als **Activering op kanaalniveau** > ***Kanalen*** > ***MainAdChannel***.
@@ -113,11 +113,11 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    >[!NOTE]
    >
-   >U kunt ook kanaal toewijzen vanaf het weergavedashboard door te navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klikken **Dashboard** in de actiebalk. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
+   >U kunt ook kanaal toewijzen vanaf het weergavedashboard door te navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en selecteren **Dashboard** in de actiebalk. Selecteren **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
    Kanaal toewijzen **TargetedSinglePlay** voor display**:
 
-   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
+   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en selecteert u **Kanaal toewijzen** in de actiebalk.
    1. **Kanaaltoewijzing** wordt geopend.
    1. Selecteren **Referentiekanaal** per pad.
    1. Selecteer de **Kanaalpad** als **Activering op kanaalniveau*** > ***Kanalen*** > ***TargetedSinglePlay***.

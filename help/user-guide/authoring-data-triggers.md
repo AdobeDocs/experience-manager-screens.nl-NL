@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -45,17 +45,17 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
 
 1. Ga naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door te gebruiken **DataDrivenRetail** *(volgnummer)* gemaakt in een AEM Screens Channel.
 
-1. Selecteer het kanaal **DataDrivenRetail** en klik op **Eigenschappen** in de actiebalk.
+1. Selecteer het kanaal **DataDrivenRetail** en selecteert u **Eigenschappen** in de actiebalk.
 
    ![screen_shot_2019-05-01at4332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
 1. Selecteer de **Personalisatie** lusje zodat kunt u opstelling de configuraties ContextHub en de weg van ContextHub en van Segmenten selecteren.
 
-   1. Selecteer de **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en klik op **Selecteren**.
+   1. Selecteer de **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en selecteert u **Selecteren**.
 
-   1. Selecteer de **Segmentpad** als **conf** > **`We.Retail`** > **instellingen** > **wcm** > **segmenten** en klik op **Selecteren**.
+   1. Selecteer de **Segmentpad** als **conf** > **`We.Retail`** > **instellingen** > **wcm** > **segmenten** en selecteert u **Selecteren**.
 
-   1. Klikken **Opslaan en sluiten**.
+   1. Selecteren **Opslaan en sluiten**.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Navigeer en selecteer de **DataDrivenRetail** van **DataDrivenAssets** > **Kanalen** en klik op **Bewerken** in de actiebalk. Sleep de elementen naar de Kanaaleditor en zet ze neer.
+1. Navigeer en selecteer de **DataDrivenRetail** van **DataDrivenAssets** > **Kanalen** en selecteert u **Bewerken** in de actiebalk. Sleep de elementen naar de Kanaaleditor en zet ze neer.
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Klikken **Targeting**.
+1. Selecteren **Targeting**.
 
-1. Selecteren **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
+1. Selecteren **Merk** en de **Activiteit** in het keuzemenu en selecteert u **Doelstelling starten**.
 
 ### Meer informatie: voorbeelden gebruiken {#learn-more-example-use-cases}
 

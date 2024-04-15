@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -46,25 +46,25 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
 
-   1. Selecteer de **Bladen A1 1** en klik op **Bewerken**.
+   1. Selecteer de **Bladen A1 1** en selecteert u **Bewerken**.
 
-   1. Selecteer het vergelijkingsbezit en klik het configuratiepictogram.
+   1. Selecteer het vergelijkingsbezit en selecteer het configuratiepictogram.
    1. Selecteren **goochelesheets/value/1/0** in de vervolgkeuzelijst **Eigenschapnaam**
 
    1. Selecteer de **Operator** als **groter dan of gelijk aan** in het keuzemenu
 
    1. Voer de **Waarde** als **50**
 
-   1. Selecteer op dezelfde manier de **Bladen A1 2** en klik op **Bewerken**.
+   1. Selecteer op dezelfde manier de **Bladen A1 2** en selecteert u **Bewerken**.
 
-   1. Selecteer de **Vergelijkingseigenschap - waarde** en klik op het configuratiepictogram.
+   1. Selecteer de **Vergelijkingseigenschap - waarde** en selecteer het configuratiepictogram.
    1. Selecteren **goochelesheets/value/1/0** in de vervolgkeuzelijst **Eigenschapnaam**
 
    1. Selecteer de **Operator** als **kleiner dan** in het keuzemenu
 
    1. Voer de **Waarde** als **50**
 
-1. Navigeer en selecteer het kanaal () en klik **Bewerken** in de actiebalk. In het volgende voorbeeld: **DataDrivenWeather**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
+1. Navigeer en selecteer uw kanaal () en selecteer **Bewerken** in de actiebalk. In het volgende voorbeeld: **DataDrivenWeather**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
 
    >[!NOTE]
    >
@@ -78,13 +78,13 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Selecteren **Targeting** in de editor en selecteer **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
+1. Selecteren **Targeting** in de editor en selecteer **Merk** en de **Activiteit** in het keuzemenu en selecteert u **Doelstelling starten**.
 
    ![new_activity3](assets/new_activity3.gif)
 
 1. **De voorvertoning controleren**
 
-   1. Klikken **Voorvertoning.** Open ook het Google-werkblad en werk de waarde ervan bij.
+   1. Selecteren **Voorvertoning.** Open ook het Google-werkblad en werk de waarde ervan bij.
    1. Wijzig de waarde in minder dan 50. Je moet een afbeelding van een koude drank kunnen bekijken. Als de waarde in Google Sheets 50 of hoger is, ziet u een afbeelding van een warme drank.
 
    ![result3](assets/result3.gif)

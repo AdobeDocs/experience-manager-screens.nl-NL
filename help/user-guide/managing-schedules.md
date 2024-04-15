@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -33,11 +33,11 @@ U kunt een programma voor uw project van het Scherm tot stand brengen dat alle a
 Voer de onderstaande stappen uit om een schema voor uw kanaal te maken:
 
 1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik vervolgens op Rasteren. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`.
-1. Navigeer naar het project Screens en klik op **Planningen**.
-1. Klikken **Maken** in de actiebalk.
-1. Selecteren **Schema** van de **Maken** wizard en klik op **Volgende**.
+1. Navigeer naar het project Screens en selecteer **Planningen**.
+1. Selecteren **Maken** in de actiebalk.
+1. Selecteren **Schema** van de **Maken** wizard en selecteert u **Volgende**.
 
-1. Voer de **Naam** en **Titel** en klik op **Maken**.
+1. Voer de **Naam** en **Titel** en selecteert u **Maken**.
 
 U kunt een planningsomslag met de aangewezen naam en de titel in uw project zien.
 
@@ -58,8 +58,8 @@ Voer de onderstaande stappen uit om het dashboard voor het schema weer te geven.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Deelvenster Informatie plannen** Klik Eigenschappen van de hoger-juiste hoek van het paneel van de INFORMATIE van het SCHEMA aan mening/veranderingseigenschappen van het programma.
+   **Deelvenster Informatie plannen** Selecteer Eigenschappen in de rechterbovenhoek van het venster SCHEEPINFORMATIE om de eigenschappen van het schema weer te geven of te wijzigen.
 
-   **Deelvenster Toegewezen kanalen** Klik op +Kanaal toewijzen in de rechterbovenhoek van het deelvenster Toegewezen KANALEN om het dialoogvenster Kanaaltoewijzing te openen.
+   **Deelvenster Toegewezen kanalen** Selecteer +Kanaal toewijzen in de rechterbovenhoek van het deelvenster Toegewezen KANALEN om het dialoogvenster Kanaaltoewijzing te openen.
 
    **Deelvenster Toegewezen beeldschermen** Selecteer een van de weergaven in het deelvenster TOEGEWEZEN WEERGAVEN om het weergavedashboard te openen.

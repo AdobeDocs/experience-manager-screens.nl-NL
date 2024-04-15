@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -31,13 +31,13 @@ Voer de onderstaande stappen uit om een live kopie van een kanaal in uw projectm
 
 1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en **Schermen**. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`.
 
-1. Navigeer naar het project Screens en klik op **Kanalen**.
-1. Klikken **Maken** en selecteert u **Live kopie** zodat u een live kopie van het kanaal kunt maken.
-1. Selecteer het doel en klik op **Volgende**.
+1. Navigeer naar het project Screens en selecteer **Kanalen**.
+1. Selecteren **Maken** en selecteert u **Live kopie** zodat u een live kopie van het kanaal kunt maken.
+1. Selecteer het doel en selecteer **Volgende**.
 1. Selecteer de locatie waar de live kopie kan worden opgeslagen.
 1. Voer de **Titel** en **Naam** in de **Live kopie maken** pagina.
 
-1. Klikken **Openen** om de inhoud van een nieuwe live kopie te bekijken of **Gereed** om terug te keren naar de hoofdpagina.
+1. Selecteren **Openen** om de inhoud van een nieuwe live kopie te bekijken of **Gereed** om terug te keren naar de hoofdpagina.
 
 U kunt ook de onderstaande stappen volgen voor een visuele weergave voor het maken van een nieuwe live kopie van een kanaal.
 
@@ -51,11 +51,11 @@ Een actieve kopie is een kopie van een bestaand kanaal.
 
 Zie de volgende stappen om de inhoud van uw live kopie weer te geven:
 
-1. Navigeer naar het project Schermen en klik op de locatie waar u oorspronkelijk een live kopie hebt gemaakt, zoals in de bovenstaande sectie wordt getoond. (Hier is de locatie gekozen als **Kanalen** map)
+1. Navigeer naar het project Schermen en selecteer de locatie waar u oorspronkelijk een live kopie hebt gemaakt, zoals in de bovenstaande sectie wordt getoond. (Hier is de locatie gekozen als **Kanalen** map)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-1. Klikken **Bewerken** in de actiebalk.
+1. Selecteren **Bewerken** in de actiebalk.
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
@@ -67,7 +67,7 @@ Zie de volgende stappen om de inhoud van uw live kopie weer te geven:
 
 U kunt ook de eigenschappen van uw live-kopieerkanaal weergeven.
 
-1. Ga naar uw livefkopie en klik op **Eigenschappen** in de actiebalk.
+1. Navigeer naar het kanaal voor live kopiëren en selecteer **Eigenschappen** in de actiebalk.
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
@@ -79,7 +79,7 @@ U kunt ook de eigenschappen van uw live-kopieerkanaal weergeven.
 
 De modus **Status van live kopiëren** Zoals u in de onderstaande afbeelding ziet, kunt u de relatiestatus van alle elementen in het kanaal bekijken.
 
-1. Klikken **Bewerken** zodat u de **Status van live kopiëren** en bekijk de koppeling van uw kanaalinhoud aan het oorspronkelijke kanaal (waaruit de live kopie wordt gegenereerd).
+1. Selecteren **Bewerken** zodat u de **Status van live kopiëren** en bekijk de koppeling van uw kanaalinhoud aan het oorspronkelijke kanaal (waaruit de live kopie wordt gegenereerd).
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -93,7 +93,7 @@ De modus **Status van live kopiëren** Zoals u in de onderstaande afbeelding zie
 
 U kunt de overerving van de live kopie ook annuleren, zodat de inhoud onafhankelijk wordt van de oorspronkelijke vertakking.
 
-In het volgende voorbeeld ziet u dat u de afbeelding in de bewerkingsmodus selecteert en op het overervingssymbool annuleren rechtsboven klikt.
+In het volgende voorbeeld ziet u dat u de afbeelding selecteert in de bewerkingsmodus en dat u het overervingssymbool annuleren rechtsboven selecteert.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -117,7 +117,7 @@ Voer de onderstaande stappen uit om ervoor te zorgen dat uw wijzigingen van het 
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. Als u wijzigingen in het actieve kopieerkanaal wilt doorgeven, navigeert u naar het AEM dashboard en selecteert u het actieve kopieerkanaal en klikt u op **Eigenschappen** in de actiebalk.
+1. Als u wijzigingen in het actieve kopieerkanaal wilt doorgeven, navigeert u naar het AEM-dashboard en selecteert u het actieve kopieerkanaal en selecteert u **Eigenschappen** in de actiebalk.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 

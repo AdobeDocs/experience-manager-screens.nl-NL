@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 1. **Een uit meerdere zones bestaand rasterkanaal maken**
 
-   1. Selecteer de **Kanalen** map en klik op **Maken** van de actiebar en het openen van de tovenaar zodat kunt u een kanaal creëren.
+   1. Selecteer de **Kanalen** map en selecteer **Maken** van de actiebar en het openen van de tovenaar zodat kunt u een kanaal creëren.
    1. Selecteren **Linkerbalk, gesplitst rasterkanaal** van de wizard en maakt u het kanaal met de naam **MultiZoneLayout**.
    1. Voeg inhoud toe aan het kanaal. Sleep de elementen naar elk van de zones. In het volgende voorbeeld wordt een **MultiZoneLayout** kanaal bestaande uit een video, een afbeelding en een tekstbanner (in een ingesloten reeks), zoals hieronder wordt weergegeven.
 
@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/mz-to-sz3.png)
 
-1. Klikken **Bewerken** op de actiebalk, zodat u inhoud aan dit kanaal kunt toevoegen. Voeg een **Kanaal** en een afbeeldingsmiddel waarop u voor dit kanaal wilt schakelen, zoals in de onderstaande afbeelding wordt getoond:
+1. Selecteren **Bewerken** op de actiebalk, zodat u inhoud aan dit kanaal kunt toevoegen. Voeg een **Kanaal** en een afbeeldingsmiddel waarop u voor dit kanaal wilt schakelen, zoals in de onderstaande afbeelding wordt getoond:
 
    ![element](assets/mz-to-sz4.png)
 

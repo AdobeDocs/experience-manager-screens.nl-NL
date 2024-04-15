@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ Voer de onderstaande stappen uit om de functie Schermen starten te implementeren
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Selecteer het kanaal **FutureLaunch** en klik op **Starten maken** in de actiebalk.
+1. Selecteer het kanaal **FutureLaunch** en selecteert u **Starten maken** in de actiebalk.
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. De **Starten maken** wizard wordt geopend. U kunt het kanaal selecteren dat al zichtbaar is in de wizard of op **+ Kanalen toevoegen** om het kanaal toe te voegen waarvoor u de lancering wilt tot stand brengen.
+1. De **Starten maken** wizard wordt geopend. U kunt het kanaal selecteren dat al zichtbaar is in de wizard of **+ Kanalen toevoegen** om het kanaal toe te voegen waarvoor u de lancering wilt tot stand brengen.
 
-1. Klikken **Volgende** van de **Starten maken** wizard. De **Subpagina&#39;s opnemen** is standaard geselecteerd.
+1. Selecteren **Volgende** van de **Starten maken** wizard. De **Subpagina&#39;s opnemen** is standaard geselecteerd.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >U kunt **+ Kanalen toevoegen** om een ander kanaal toe te voegen waarvoor u de lancering wilt creëren.
 
-   Te gebruiken **Kanalen toevoegen** navigeer naar het kanaal waarvoor u de opstart wilt maken en klik op **Selecteren**.
+   Te gebruiken **Kanalen toevoegen** navigeer naar het kanaal waarvoor u de opstart wilt maken en selecteer **Selecteren**.
 
    De **Selecteren** is uitgeschakeld als u meerdere kanalen of een map wilt selecteren om de opstart toe te voegen.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Nadat u het kanaal of de kanalen selecteert, klikt u op **Volgende**.
+   Nadat u het kanaal of de kanalen hebt geselecteerd, selecteert u **Volgende**.
 
 
-1. Voer de **Titel starten** als **SummerPromotions** en u hoeft de **Opstartdatum**, zoals weergegeven in onderstaande afbeelding. Klikken **Maken**.
+1. Voer de **Titel starten** als **SummerPromotions** en u hoeft de **Opstartdatum**, zoals weergegeven in onderstaande afbeelding. Selecteren **Maken**.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Voer de onderstaande stappen uit om de eigenschappen van de startpagina te bewer
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Selecteer de start en klik op **Starteigenschappen** van de **AFGELOPEN LAUNCHES** deelvenster.
+1. Selecteer de start en selecteer **Starteigenschappen** van de **AFGELOPEN LAUNCHES** deelvenster.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-19.png)
 

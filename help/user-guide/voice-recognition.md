@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Alvorens u de eigenschap van de stemerkenning gebruikt, zorg ervoor u een projec
 
    ![afbeelding](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigeer naar elk kanaal en voeg inhoud toe. Blader bijvoorbeeld naar **VoiceDemo** > **Kanalen** > **Hoofd** en selecteert u het kanaal. Klikken **Bewerken** voegt u vervolgens naar wens inhoud (afbeeldingen/video&#39;s) toe op de actiebalk. Voeg op dezelfde manier inhoud toe aan beide **ColdDrinks** en de **HotDrinks** kanaal.
+1. Navigeer naar elk kanaal en voeg inhoud toe. Blader bijvoorbeeld naar **VoiceDemo** > **Kanalen** > **Hoofd** en selecteert u het kanaal. Selecteren **Bewerken** voegt u vervolgens naar wens inhoud (afbeeldingen/video&#39;s) toe op de actiebalk. Voeg op dezelfde manier inhoud toe aan beide **ColdDrinks** en de **HotDrinks** kanaal.
 
    De kanalen bevatten nu elementen (afbeeldingen), zoals in de onderstaande afbeeldingen wordt getoond.
 
@@ -85,7 +85,7 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
 1. Navigeer naar elk kanaal en voeg inhoud toe. Blader bijvoorbeeld naar **VoiceDemo** > **Kanalen** > **Hoofd** en selecteert u het kanaal.
 
-1. Klikken **Eigenschappen** in de actiebalk.
+1. Selecteren **Eigenschappen** in de actiebalk.
 
    ![afbeelding](assets/voice-recognition/vr-5.png)
 
@@ -107,7 +107,7 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
    ![afbeelding](assets/voice-recognition/vr-emb-7.png)
 
-1. Klikken **Opslaan en sluiten** als u klaar bent.
+1. Selecteren **Opslaan en sluiten** als u klaar bent.
 
 
 ### Tags maken {#creating-tags}
@@ -116,18 +116,18 @@ Ga als volgt te werk om labels te maken:
 
 1. Navigeer naar de AEM.
 
-1. Klik op het pictogram Gereedschappen > **Tags**.
+1. Gereedschapspictogram selecteren > **Tags**.
    ![afbeelding](assets/voice-recognition/vr-7.png)
 
-1. Klikken **Maken** > **Naamruimte maken**.
+1. Selecteren **Maken** > **Naamruimte maken**.
    ![afbeelding](assets/voice-recognition/vr-tag3.png)
 
-1. Voer bijvoorbeeld de naam van het project in. **VoiceDemo** en klik op **Maken**.
+1. Voer bijvoorbeeld de naam van het project in. **VoiceDemo** en selecteert u **Maken**.
 
-1. Selecteer de **VoiceDemo** project en klik **Tag maken** in de actiebalk.
+1. Selecteer de **VoiceDemo** project en selecteer **Tag maken** in de actiebalk.
    ![afbeelding](assets/voice-recognition/vr-tag4.png)
 
-1. Voer de naam van de tag in en klik op **Verzenden**.
+1. Voer de naam van de tag in en selecteer **Verzenden**.
    ![afbeelding](assets/voice-recognition/vr-tag5.png)
 
 U kunt deze labels nu gebruiken in uw AEM Screens-project.

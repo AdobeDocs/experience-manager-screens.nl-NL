@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,16 +58,16 @@ Voer de onderstaande stappen uit om de workflow te maken en te gebruiken:
 Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
 1. Navigeer naar de AEM.
-1. Klik op gereedschappen van de zijbalk.
+1. Selecteer gereedschappen van de zijbalk.
 1. Selecteren **Workflow** > **Modellen** zodat u een model kunt maken.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klikken **Modellen** > **Maken** > **Model maken**. Voer de **Titel** (as **VideoRendition**) en **Naam** in de **Workflowmodel toevoegen**. Klikken **Gereed** om het workflowmodel toe te voegen.
+1. Selecteren **Modellen** > **Maken** > **Model maken**. Voer de **Titel** (as **VideoRendition**) en **Naam** in de **Workflowmodel toevoegen**. Selecteren **Gereed** om het workflowmodel toe te voegen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Selecteer het model nadat u het workflowmodel hebt gemaakt (**VideoRendition**) en klik op **Bewerken** in de actiebalk.
+1. Selecteer het model nadat u het workflowmodel hebt gemaakt (**VideoRendition**) en selecteert u **Bewerken** in de actiebalk.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -87,11 +87,11 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Selecteer de workflow (**VideoRenditions**).
-1. Klikken **Workflow starten** in de actiebalk.
+1. Selecteren **Workflow starten** in de actiebalk.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. In de **Workflow uitvoeren** selecteert u het pad van uw element in het dialoogvenster **Payload** (as ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) en voert u de **Titel** als ***RunVideo*** en klik op **Uitvoeren**.
+1. In de **Workflow uitvoeren** selecteert u het pad van uw element in het dialoogvenster **Payload** (as ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) en voert u de **Titel** als ***RunVideo*** en selecteert u **Uitvoeren**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ Voer de onderstaande stappen uit om de workflow in uw AEM Screens-project te geb
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Klikken **Bewerken** in de actiebalk. Sleep de video die u aanvankelijk hebt geüpload naar **Activa**.
+1. Selecteren **Bewerken** in de actiebalk. Sleep de video die u aanvankelijk hebt geüpload naar **Activa**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Wanneer u de video hebt geüpload, klikt u op **Voorvertoning** om de uitvoer weer te geven.
+1. Wanneer u de video hebt geüpload, selecteert u **Voorvertoning** om de uitvoer weer te geven.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

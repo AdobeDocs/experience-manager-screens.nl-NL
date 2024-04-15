@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Volg de onderstaande stappen om naar het apparaatdashboard te navigeren:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Selecteer het apparaat (**NewTestDevice**) en klik op **Dashboard** in de actiebalk.
+1. Selecteer het apparaat (**NewTestDevice**) en selecteert u **Dashboard** in de actiebalk.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ Selecteren **Eigenschappen** zodat u de **Apparaateigenschappen** in. U kunt de 
 
 U kunt de schermafbeelding van de speler bekijken vanaf het apparaat **AFSPEELSCREENSHOT** deelvenster.
 
-Klikken (**...**) in de rechterbovenhoek van het deelvenster Schermafbeelding van speler en selecteer **Schermafbeelding vernieuwen** om de opname van de actieve speler weer te geven.
+Selecteren (**...**) in de rechterbovenhoek van het deelvenster Schermafbeelding van speler en selecteer **Schermafbeelding vernieuwen** om de opname van de actieve speler weer te geven.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ Voer de onderstaande stappen uit om het filter Leeg toestaan van Apache-verwijzi
 
 1. Navigeer naar **de webconsoleconfiguratie** van Adobe Experience Manager, dat wil gezegd `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Schakel de **optie allow.empty in** .
-1. Klik op **Opslaan**.
+1. Selecteer **Opslaan**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

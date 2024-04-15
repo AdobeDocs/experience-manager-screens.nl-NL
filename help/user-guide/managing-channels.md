@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 0%
@@ -31,15 +31,15 @@ Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappe
 
 1. Navigeer naar uw project Screens en selecteer **Kanalen** map.
 
-1. Klikken **Maken** in de actiebalk.
+1. Selecteren **Maken** in de actiebalk.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Selecteer de **Volgekanaal** sjabloon uit de **Maken** wizard en klik op **Volgende**.
+1. Selecteer de **Volgekanaal** sjabloon uit de **Maken** wizard en selecteert u **Volgende**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Voer de titel in als **ScreensChannel** en klik op **Maken**.
+1. Voer de titel in als **ScreensChannel** en selecteert u **Maken**.
 
    ![demochannel](assets/create-project4.png)
 
@@ -81,7 +81,7 @@ U kunt een kanaal bewerken, weergeven, eigenschappen en dashboard, kopiëren, vo
 Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 
 1. Selecteer het kanaal dat u wilt bewerken (zoals in de bovenstaande afbeelding wordt getoond).
-1. Klikken **Bewerken** in de linkerbovenhoek van de actiebalk, zodat u de kanaaleigenschappen kunt bewerken. De redacteur opent die u activa/componenten aan uw kanaal kunt toevoegen die u wilt publiceren.
+1. Selecteren **Bewerken** in de linkerbovenhoek van de actiebalk, zodat u de kanaaleigenschappen kunt bewerken. De redacteur opent die u activa/componenten aan uw kanaal kunt toevoegen die u wilt publiceren.
 
 >[!NOTE]
 >U kunt componenten aan uw kanaal toevoegen. Zie **[Componenten toevoegen aan een kanaal](adding-components-to-a-channel.md)** voor meer informatie .
@@ -93,7 +93,7 @@ Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 
 1. Selecteer het kanaal waar u de video wilt uploaden.
-1. Klikken **Bewerken** in de actiebalk.
+1. Selecteren **Bewerken** in de actiebalk.
 1. Selecteer in de editor de optie **Video&#39;s** onder Elementen en sleep de gewenste video&#39;s.
 
 >[!NOTE]
@@ -101,15 +101,15 @@ Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 
 ### Eigenschappen van een kanaal weergeven of bewerken {#viewing-properties}
 
-1. Klik op het kanaal dat u wilt bewerken.
-1. Klikken **Eigenschappen** in de actiebalk, zodat u de kanaaleigenschappen kunt weergeven/bewerken. Op het volgende tabblad kunt u de opties wijzigen.
+1. Selecteer het kanaal dat u wilt bewerken.
+1. Selecteren **Eigenschappen** in de actiebalk, zodat u de kanaaleigenschappen kunt weergeven/bewerken. Op het volgende tabblad kunt u de opties wijzigen.
 
 ![eigenschappen](assets/properties.gif)
 
 ### Het dashboard weergeven {#viewing-dashboard}
 
 1. Selecteer het kanaal dat u wilt bewerken.
-1. Klikken **Dashboard** in de actiebalk.
+1. Selecteren **Dashboard** in de actiebalk.
 
 ![dashboard](assets/dashboard.gif)
 
@@ -117,7 +117,7 @@ Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 
 In het deelvenster Kanaalgegevens worden de kanaaleigenschappen beschreven, samen met de voorvertoning naar het kanaal. Ook, verstrekt het u de informatie over of het kanaal off-line of online is.
 
-Klik op de knop (**...**) van de **KANAALINFORMATIE** op de actiebalk, zodat u eigenschappen kunt bekijken, de inhoud kunt bewerken of de cache (offline inhoud) voor het kanaal kunt bijwerken.
+Selecteer de (**...**) van de **KANAALINFORMATIE** op de actiebalk, zodat u eigenschappen kunt bekijken, de inhoud kunt bewerken of de cache (offline inhoud) voor het kanaal kunt bijwerken.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -133,11 +133,11 @@ Voer de volgende stappen uit, zodat u deze optie kunt inschakelen via het kanaal
 1. **Kanaal op offline instellen**
    1. Selecteer het kanaal en selecteer **Eigenschappen** op de actiebalk
    1. Navigeren naar **Kanaal** en zorg ervoor dat u de controle ongedaan maakt **Modus voor ontwikkelaar (kanaal forceren om online te zijn)** option
-   1. Klikken **Opslaan en sluiten**
+   1. Selecteren **Opslaan en sluiten**
 1. **Offline inhoud bijwerken**
    1. Selecteer het kanaal en selecteer **Dashboard** op de actiebalk
-   1. Navigeren naar **KANAALINFORMATIE** deelvenster en klik op *...*
-   1. Klikken **Offline inhoud bijwerken**
+   1. Navigeren naar **KANAALINFORMATIE** en selecteert u *...*
+   1. Selecteren **Offline inhoud bijwerken**
 
 U moet de **Manifest weergeven** van de **KANAALINFORMATIE** in het dashboard Kanaal.
 
@@ -161,17 +161,17 @@ Volg de onderstaande stappen om het kanaal online te maken:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klikken **Dashboard** in de actiebalk, zodat u de status van de speler kunt bekijken. De **KANAALINFORMATIE** biedt informatie over het feit of het kanaal online of offline is.
+   Selecteren **Dashboard** in de actiebalk, zodat u de status van de speler kunt bekijken. De **KANAALINFORMATIE** biedt informatie over het feit of het kanaal online of offline is.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Klikken **Eigenschappen** van de actiebalk en navigeer naar de **Kanaal** tabblad zoals hieronder weergegeven:
+1. Selecteren **Eigenschappen** van de actiebalk en navigeer naar de **Kanaal** tabblad zoals hieronder weergegeven:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
 1. Controleer de **Ontwikkelaar** **modus (kanaal forceren om online te zijn)** om het kanaal online te maken.
 
-   Klikken **Opslaan en sluiten** om uw optie op te slaan.
+   Selecteren **Opslaan en sluiten** om uw optie op te slaan.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
@@ -180,7 +180,7 @@ Volg de onderstaande stappen om het kanaal online te maken:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Om uw kanaal opnieuw als off-line te vormen, uncheck de de wijzeoptie van de Ontwikkelaar van **Eigenschappen** tab (zoals weergegeven in stap 3). Dan, van **KANAALINFORMATIE** paneelklik **Offline inhoud bijwerken**, zoals weergegeven in onderstaande afbeelding.
+>Om uw kanaal opnieuw als off-line te vormen, uncheck de de wijzeoptie van de Ontwikkelaar van **Eigenschappen** tab (zoals weergegeven in stap 3). Dan, van **KANAALINFORMATIE** deelvensterselectie **Offline inhoud bijwerken**, zoals weergegeven in onderstaande afbeelding.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -239,7 +239,7 @@ De bijbehorende weergaven worden weergegeven in het dialoogvenster **Toegewezen 
 >* [Weergaven maken en beheren](managing-displays.md)
 >
 
-Klik ook op de weergave in het dialoogvenster **TOEGEWEZEN WEERGAVEN** om de weergaveinformatie weer te geven, zoals hieronder wordt getoond:
+Selecteer ook de weergave in het dialoogvenster **TOEGEWEZEN WEERGAVEN** om de weergaveinformatie weer te geven, zoals hieronder wordt getoond:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

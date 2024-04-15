@@ -10,7 +10,7 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -97,11 +97,11 @@ Voer de onderstaande stappen uit om de inhoud toe te passen van **`We.Retail`** 
 1. **Actieve kopie van ervaringsfragment maken**
 
    1. Navigeer naar de AEM startpagina.
-   1. Selecteren **Ervaar fragmenten** en de **ScreensFragment** en klik op **Variatie als live-kopie**, zoals weergegeven in onderstaande afbeelding:
+   1. Selecteren **Ervaar fragmenten** en de **ScreensFragment** en selecteert u **Variatie als live-kopie**, zoals weergegeven in onderstaande afbeelding:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Selecteer de **ScreensFragment** van **Live kopie maken** wizard en klik op **Volgende**.
+   c. Selecteer de **ScreensFragment** van **Live kopie maken** wizard en selecteert u **Volgende**.
 
    d. Voer de **Titel** en **Naam** als **Schermen**.
 
@@ -113,11 +113,11 @@ Voer de onderstaande stappen uit om de inhoud toe te passen van **`We.Retail`** 
 
    >[!NOTE]
    >
-   >Nadat u een AEM Screens-fragment hebt gemaakt, kunt u de eigenschappen van het fragment bewerken. Selecteer het fragment en klik op **Eigenschappen** in de actiebalk.
+   >Nadat u een AEM Screens-fragment hebt gemaakt, kunt u de eigenschappen van het fragment bewerken. Selecteer het fragment en selecteer **Eigenschappen** in de actiebalk.
 
    **Eigenschappen van een rasterfragment bewerken**
 
-   1. Ga naar de **ScreensFragment** (u hebt in de voorgaande stappen gemaakt) en klik op **Eigenschappen** in de actiebalk.
+   1. Ga naar de **ScreensFragment** (u hebt in de voorgaande stappen gemaakt) en selecteert u **Eigenschappen** in de actiebalk.
 
    1. Selecteer de **Offline configuratie** zoals weergegeven in de onderstaande afbeelding.
 
@@ -128,9 +128,9 @@ Voer de onderstaande stappen uit om de inhoud toe te passen van **`We.Retail`** 
 1. **Experience Fragment gebruiken als component in Screenkanaal**
 
    1. Navigeer naar het kanaal van het Scherm waar u wilt gebruiken **Schermen** fragment.
-   1. Selecteer de **TestChannel** en klik op **Bewerken** in de actiebalk.
+   1. Selecteer de **TestChannel** en selecteert u **Bewerken** in de actiebalk.
 
-   1. Klik op het componentpictogram op het zijtabblad.
+   1. Selecteer het componentenpictogram van de zijtabel.
    1. Sleep de **Ervaar fragment** naar uw kanaal.
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
@@ -179,11 +179,11 @@ Omdat het ervaringsfragment dat u hebt gemaakt, een live kopie is van het dialoo
 
 Voer de onderstaande stappen uit om wijzigingen van het primaire kanaal naar het doelkanaal door te geven:
 
-1. Selecteer het fragment van de Ervaring van **Sites** (primaire) pagina en klik op het potloodpictogram zodat u de items in het ervaringsfragment kunt bewerken.
+1. Selecteer het fragment van de Ervaring van **Sites** (primaire) pagina en selecteer het potloodpictogram zodat u de items in het ervaringsfragment kunt bewerken.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
-1. Selecteer het fragment van de Ervaring en klik het moersleutelpictogram zodat kunt u de dialoogdoos openen om de beelden uit te geven.
+1. Selecteer het fragment van de Ervaring en selecteer het moersleutelpictogram zodat kunt u de dialoogdoos openen om de beelden uit te geven.
 
    ![screen_shot_2018-06-08at25031pm](assets/screen_shot_2018-06-08at25031pm.png)
 
@@ -195,7 +195,7 @@ Voer de onderstaande stappen uit om wijzigingen van het primaire kanaal naar het
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. Selecteer het fragment van de Ervaring en klik het pictogram van de Uitvoer zodat kunt u veranderingen in het fragment verspreiden dat in uw kanaal wordt gebruikt.
+1. Selecteer het fragment van de Ervaring en selecteer het pictogram van de Uitvoer zodat kunt u veranderingen in het fragment verspreiden dat in uw kanaal wordt gebruikt.
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 
@@ -211,7 +211,7 @@ Voer de onderstaande stappen uit om de wijzigingen in uw kanaal te bevestigen:
 
 1. Ga naar de **Schermen** > **Kanalen** > **TestChannel**.
 
-1. Klikken **Voorvertoning** in de actiebalk.
+1. Selecteren **Voorvertoning** in de actiebalk.
 
 In de volgende afbeelding ziet u de wijzigingen in uw **TestChannel**:\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)

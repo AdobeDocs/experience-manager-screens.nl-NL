@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -50,15 +50,15 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
    1. Drie nieuwe segmenten toevoegen **Voor_rood**, **For_Green**, en **Voor_blauw**.
 
-   1. Selecteren **Voor_rood** en klik op **Bewerken** in de actiebalk.
+   1. Selecteren **Voor_rood** en selecteert u **Bewerken** in de actiebalk.
 
    1. Sleep de **Compare : property - property** aan de redacteur.
-   1. Klik op de knop **Configuratie** pictogram.
+   1. Selecteer de **Configuratie** pictogram.
    1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Voornaam van eigenschap**.
    1. Selecteer de **Operator** als **groter dan** in het keuzemenu.
    1. Selecteren **Gegevenstype** als **getal**.
    1. Selecteren **goochelesheets/value/1/1** in de vervolgkeuzelijst **Tweede eigenschapsnaam**.
-   1. Slepen en neerzetten **another Comparation : Property - Property** aan de redacteur en klik **Configuratie** pictogram.
+   1. Slepen en neerzetten **another Comparation : Property - Property** aan de redacteur en selecteer **Configuratie** pictogram.
    1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Voornaam van eigenschap**.
    1. Selecteer de **Operator** als **groter dan** in het keuzemenu.
    1. Selecteren **Gegevenstype** als **getal**.
@@ -79,7 +79,7 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
    >Merk op dat voor segmenten **For_Green** en **For_Green** gegevens kunnen niet worden opgelost in de editor, omdat alleen de eerste vergelijking op dit moment geldig is volgens de waarden in het Google-blad.
 
 1. Navigeer en selecteer uw **DataDrivenRetail** kanaal (een volgnummer).
-1. Klikken **Bewerken** in de actiebalk.
+1. Selecteren **Bewerken** in de actiebalk.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -95,15 +95,15 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
 1. **Een standaardafbeelding toevoegen**
 
-   1. Voeg een standaardafbeelding toe aan uw kanaal en klik op **Targeting**.
-   1. Selecteren **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
-   1. Klikken **Doelstelling starten**.
+   1. Voeg een standaardafbeelding toe aan uw kanaal en selecteer **Targeting**.
+   1. Selecteren **Merk** en de **Activiteit** in het keuzemenu en selecteert u **Doelstelling starten**.
+   1. Selecteren **Doelstelling starten**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
-   >Voeg eerst de segmenten toe voordat u de doelframes maakt (**For_Green**, **Voor_rood**, en **Voor_blauw**) door op **+ Toevoeging Ervaring richten** van de zijspoorstaaf, zoals aangegeven in onderstaande figuur.
+   >Voeg eerst de segmenten toe voordat u de doelframes maakt (**For_Green**, **Voor_rood**, en **Voor_blauw**) door **+ Toevoeging Ervaring richten** van de zijspoorstaaf, zoals aangegeven in onderstaande figuur.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -113,7 +113,7 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
 1. **De voorvertoning controleren**
 
-   1. Klikken **Voorvertoning.** Open ook het Google-werkblad en werk de waarde ervan bij.
+   1. Selecteren **Voorvertoning.** Open ook het Google-werkblad en werk de waarde ervan bij.
    1. Wijzig de waarde voor alle drie de kolommen. U ziet dat de beeldweergave wordt bijgewerkt volgens de hoogste inventariswaarde.
 
    ![retail_result](assets/retail_result.gif)

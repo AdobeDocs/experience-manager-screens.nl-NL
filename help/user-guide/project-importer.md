@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -23,13 +23,13 @@ In deze sectie wordt een functionaliteit beschreven voor het bulksgewijs importe
 
 ## Inleiding {#introduction}
 
-Wanneer u een AEM Screens-project voor het eerst in uw organisatie instelt, maakt u ook alle locaties. Als uw project vele plaatsen impliceert, resulteert het in een vervelende taak die veel het klikken en het wachten in UI impliceert.
+Wanneer u een AEM Screens-project voor het eerst in uw organisatie instelt, maakt u ook alle locaties. Als uw project vele plaatsen impliceert, resulteert het in een vervelende taak die veel het selecteren en het wachten in UI impliceert.
 
 Het doel van deze functie is de tijd die nodig is om het project op te zetten te verkorten en zo begrotingsproblemen op te lossen.
 
 Door de auteur een spreadsheet als inputdossier te laten verstrekken, en het systeem te laten automatisch de locatieboom in het achterste eind creëren, deze eigenschap:
 
-* *behaalt betere prestaties dan handmatig door de gebruikersinterface te klikken*
+* *behaalt betere prestaties dan handmatig selecteren via de gebruikersinterface*
 * *laat de klant de plaatsen uitvoeren zij van hun eigen systeem hebben en hen gemakkelijk direct in AEM invoeren*
 
 Dit bespaart zowel tijd als geld tijdens aanvankelijke projectopstelling of wanneer het uitbreiden van bestaande AEM Screens tot nieuwe plaatsen.
@@ -107,11 +107,11 @@ Voer de onderstaande stappen uit om een bestand te importeren naar een locatiema
 
 1. De **Importeren** wordt weergegeven. Selecteer het bestand voor uw project met locaties of selecteer het bestand (***minimum-file.xls***) die u hebt gedownload van de *Vereisten* sectie.
 
-   Klik op **Volgende**.
+   Selecteer het bestand nadat u het hebt geselecteerd **Volgende**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Controleer de inhoud van het bestand (locaties) via de wizard Importeren en klik op **Importeren**.
+1. Controleer de inhoud van het bestand (locaties) via de wizard Importeren en selecteer **Importeren**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

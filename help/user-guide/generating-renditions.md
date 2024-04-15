@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -30,13 +30,13 @@ U kunt handmatige en automatische Full HD-uitvoeringen genereren. In de volgende
 
 Voer de onderstaande stappen uit om automatisch volledige HD-uitvoeringen te genereren:
 
-1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik op het hamerpictogram zodat u **Workflow**.
+1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en selecteer het hamerpictogram zodat u **Workflow**.
 
-   Klikken **Modellen**.
+   Selecteren **Modellen**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Selecteer in het workflowmodelbeheer de optie **DAM Update-element** model en klik **Bewerken** in de actiebalk.
+1. Selecteer in het workflowmodelbeheer de optie **DAM Update-element** model en selecteer **Bewerken** in de actiebalk.
 
    ![step5_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -47,15 +47,15 @@ Voer de onderstaande stappen uit om automatisch volledige HD-uitvoeringen te gen
 1. Selecteer de **Proces** tab.
 1. Geef de volledige HD-profielen op in de lijst in **Argumenten** als volgt:
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. Klikken **OK**.
+1. Selecteren **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Klikken **Opslaan** linksboven in het dialoogvenster **DAM Update-element** scherm.
+1. Selecteren **Opslaan** linksboven in het dialoogvenster **DAM Update-element** scherm.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Navigeren naar **Activa** en uploadt u een nieuwe video. Klik op de video en open de rails aan de zijkant van de rendities. Let op de twee full HD video&#39;s.
+1. Navigeren naar **Activa** en uploadt u een nieuwe video. Selecteer de video en open de Renditions side rail. Let op de twee full HD video&#39;s.
 
    ![step10_-_open_videoAsset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,21 +71,21 @@ Voer de onderstaande stappen uit om automatisch volledige HD-uitvoeringen te gen
 
 Voer de onderstaande stappen uit om handmatig volledige HD-uitvoeringen te genereren:
 
-1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en klik op het hamerpictogram zodat u gereedschappen kunt selecteren en **Workflow**.
+1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en selecteer het hamerpictogram zodat u gereedschappen kunt selecteren en **Workflow**.
 
-   Klikken **Modellen**.
+   Selecteren **Modellen**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Selecteer in workflowmodelbeheer de optie **Element voor schermupdate** en klik op de knop **Workflow starten** om de **Workflow uitvoeren** in.
+1. Selecteer in workflowmodelbeheer de optie **Element voor schermupdate** en selecteert u het **Workflow starten** om de **Workflow uitvoeren** in.
 
    ![step5_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Selecteer de gewenste video in de **Payload** en klik op **Uitvoeren**.
+1. Selecteer de gewenste video in de **Payload** en selecteert u **Uitvoeren**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Navigeren naar **Activa**, gaat u naar uw element en klikt u erop.
+1. Navigeren naar **Activa**, gaat u verder met uw element en selecteert u het.
 
    ![stap7_open_theVideoAsset](assets/step7_-_open_thevideoasset.png)
 

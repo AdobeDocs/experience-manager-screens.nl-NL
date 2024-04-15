@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -22,21 +22,21 @@ De ChromeOS-speler kan als Chrome Browser-insteekmodule worden geïnstalleerd in
 
 Volg deze pagina voor informatie over het installeren van de chroomspeler als browser uitbreiding.
 
-1. Klikken [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
+1. Selecteren [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
 
 1. Pak het uit en sla het op de schijf op.
 
-1. Open Chrome-browser en klik op het menu met drie punten en selecteer **Meer gereedschappen** van **Extensies** in de rechterbovenhoek of navigeer rechtstreeks naar `chrome://extensions`.
+1. Open Chrome-browser en selecteer het menu met drie punten en selecteer **Meer gereedschappen** van **Extensies** in de rechterbovenhoek of navigeer rechtstreeks naar `chrome://extensions`.
 
 1. Schakel de **Ontwikkelaar** vanuit de rechterbovenhoek.
 
-1. Klikken **Niet-verpakt laden** in de linkerbovenhoek en geladen niet-gecomprimeerde Chrome Player.
+1. Selecteren **Niet-verpakt laden** in de linkerbovenhoek en geladen niet-gecomprimeerde Chrome Player.
 
 1. Controleer de AEM Screens Chrome Player-insteekmodule als deze beschikbaar is in de lijst met extensies.
 
-1. Open een nieuw tabblad en klik in de linkerbovenhoek op het pictogram Apps of navigeer rechtstreeks naar `chrome://apps`.
+1. Open een nieuw tabblad en selecteer het pictogram Apps in de linkerbovenhoek of navigeer rechtstreeks naar `chrome://apps`.
 
-1. Klikken **AEM Screens-insteekmodule** zodat u Chrome Player kunt starten.
+1. Selecteren **AEM Screens-insteekmodule** zodat u Chrome Player kunt starten.
 
    >[!NOTE]
    >
@@ -66,4 +66,4 @@ Voer de onderstaande stappen uit om de Player-extensie bij te werken als er een 
 1. De naam van de oude map wijzigen met spelerbestanden
 1. Het nieuwe ritje extraheren op dezelfde locatie als de oude map
 1. Chrome starten en naar `chrome://extensions`
-1. Controleer het spelerpictogram en klik op de knop Vernieuwen of Opnieuw laden
+1. Controleer het spelerpictogram en selecteer de knop Vernieuwen of Opnieuw laden

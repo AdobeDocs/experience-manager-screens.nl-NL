@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 1. **Maak twee locaties en een kanaal onder elke locatiemap.**
 
    1. Navigeren naar **Demo** > **Locaties** > **Gebied A**.
-   1. Selecteren **Gebied A** en klik op **+ Maken** in de actiebalk.
+   1. Selecteren **Gebied A** en selecteert u **+ Maken** in de actiebalk.
    1. Selecteren **Locatie** van de wizard met **Titel** als **Winkel 1**. Op dezelfde manier creeer een andere plaats van de tovenaar genoemd als **Winkel 2** with **Titel** als **Winkel 2**. U kunt de **Naam** veld leeg tijdens maken **Winkel 1** en **Winkel 2**.
    1. Herhaal stap b) en selecteer nu **Volgekanaal** van de wizard. Voer de **Titel** als **Gebied A** en **Naam** als **regio** voor dit kanaal.
 
@@ -139,7 +139,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 1. **Weergave en kanaal maken onder elke locatie.**
 
    1. Navigeren naar **Demo** > **Locaties** > **Gebied A** > **Winkel 1**.
-   1. Selecteren **Winkel 1** en klik op **+ Maken** in de actiebalk.
+   1. Selecteren **Winkel 1** en selecteert u **+ Maken** in de actiebalk.
    1. Selecteren **Weergave** vanuit de wizard en maak **`Store1Display`**.
    1. Herhaal stap b) en selecteer deze keer **Volgekanaal** van de wizard. Voer de **Titel** als **`Store1Channel`** en de **Naam** als **winkel**.
 
@@ -169,14 +169,14 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
 1. **Voeg inhoud aan de Kanalen in hun respectieve Plaatsen toe.**
 
-   Ga naar de **Demo** > **Locaties** > **Gebied A** > **Gebied A** en klik op **Bewerken** in de actiebalk. Sleep de elementen die u aan het kanaal wilt toevoegen en zet deze neer.
+   Ga naar de **Demo** > **Locaties** > **Gebied A** > **Gebied A** en selecteert u **Bewerken** in de actiebalk. Sleep de elementen die u aan het kanaal wilt toevoegen en zet deze neer.
 
    >[!NOTE]
    >U kunt de ***Resources.zip*** bestand van de **Bronnen** hierboven, om de afbeeldingen als elementen voor uw kanaalinhoud te gebruiken.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Navigeer op dezelfde manier naar de **Demo** > **Locaties** > **Gebied B** > **Gebied B** en klik op **Bewerken** van de actiebar om de activa aan uw kanaal te slepen en te laten vallen, zoals hieronder getoond:
+   Navigeer op dezelfde manier naar de **Demo** > **Locaties** > **Gebied B** > **Gebied B** en selecteert u **Bewerken** van de actiebar om de activa aan uw kanaal te slepen en te laten vallen, zoals hieronder getoond:
 
    ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -189,7 +189,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
 1. **Een schema maken**
 
-   Navigeren en selecteren **Planningen** in uw AEM Screens-project. Klik vervolgens op **Maken** in de actiebalk.
+   Navigeren en selecteren **Planningen** in uw AEM Screens-project. Selecteer vervolgens **Maken** in de actiebalk.
 
    In de volgende afbeelding wordt de **AdSchedule** gemaakt in **Demo** project.
 
@@ -197,29 +197,29 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
 1. **Kanalen toewijzen aan een schema**
 
-   1. Navigeren naar **Demo** > **Planningen** > **AdSchedule** en klik op **Dashboard** in de actiebalk.
-   1. Klikken **+ Kanaal toewijzen** van **TOEGEWEZEN KANALEN** zodat u het deelvenster **Kanaaltoewijzing** in.
+   1. Navigeren naar **Demo** > **Planningen** > **AdSchedule** en selecteert u **Dashboard** in de actiebalk.
+   1. Selecteren **+ Kanaal toewijzen** van **TOEGEWEZEN KANALEN** zodat u het deelvenster **Kanaaltoewijzing** in.
    1. Selecteren **Referentiekanaal** per pad.
    1. Selecteer de **Kanaalpad** als **Demo** > ***Kanalen*** > ***Algemeen***.
    1. Voer de **Kanaalrol** als **GlobalAdSegment**.
    1. Selecteer de **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Gebruikersinteractie**.
-   1. Klikken **Opslaan**.
+   1. Selecteren **Opslaan**.
 
    **Kanaal op rol toewijzen voor regio:**
 
-   1. Klikken **+ Kanaal toewijzen** van **TOEGEWEZEN KANALEN** deelvenster.
+   1. Selecteren **+ Kanaal toewijzen** van **TOEGEWEZEN KANALEN** deelvenster.
    1. Selecteer in het dialoogvenster Kanaaltoewijzing de optie **Referentiekanaal** op naam.
    1. Voer de **Kanaalnaam** als **regio***.
    1. Voer de **Kanaalrol** als **RegionAdSegment**.
-   1. Klikken **Opslaan**.
+   1. Selecteren **Opslaan**.
 
    **Kanaal op rol toewijzen voor winkel:**
 
-   1. Klikken **+ Kanaal toewijzen** van **TOEGEWEZEN KANALEN** deelvenster.
+   1. Selecteren **+ Kanaal toewijzen** van **TOEGEWEZEN KANALEN** deelvenster.
    1. Selecteer in het dialoogvenster Kanaaltoewijzing de optie **Referentiekanaal** op naam.
    1. Voer de **Kanaalnaam** als **winkel**.
    1. Voer de **Kanaalrol** als **StoreAdSegment**.
-   1. Klikken **Opslaan**.
+   1. Selecteren **Opslaan**.
 
    In de volgende afbeelding worden de toegewezen kanalen weergegeven per pad en per rol.
 
@@ -229,7 +229,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    Ga naar de **Algemeen** Kanaal dat u oorspronkelijk hebt gemaakt in **Demo** project.
 
-   Klikken **Bewerken** in de actiebalk.
+   Selecteren **Bewerken** in de actiebalk.
 
    ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
@@ -244,10 +244,10 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 1. **Plan toewijzen aan elke weergave**
 
    1. Ga naar elke weergave, zoals **Demo** > **Locaties** > **Gebied A** >**Winkel 1** >**`Store1Display`**.
-   1. Klikken **Dashboard** in de actiebalk.
-   1. Klik op het dashboard op **...** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** en klikt u op **+Plan toewijzen**.
+   1. Selecteren **Dashboard** in de actiebalk.
+   1. Selecteer op het dashboard de optie **...** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** en selecteert u vervolgens **+Plan toewijzen**.
    1. Selecteer het pad naar het schema (bijvoorbeeld hier **Demo** > **Planningen** > **AdSchedule**).
-   1. Klikken **Opslaan**.
+   1. Selecteren **Opslaan**.
 
 ## De resultaten bekijken {#viewing-the-results}
 
@@ -306,9 +306,9 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
 1. **Groepen maken**
 
    1. Navigeren naar **Adobe Experience Manager**.
-   1. Klikken **Gereedschappen** > **Beveiliging** > **Groepen**.
-   1. Klikken **Groep maken** en betreden **Global-Author** in **ID**.
-   1. Klikken **Opslaan en sluiten**.
+   1. Selecteren **Gereedschappen** > **Beveiliging** > **Groepen**.
+   1. Selecteren **Groep maken** en betreden **Global-Author** in **ID**.
+   1. Selecteren **Opslaan en sluiten**.
 
    Maak op dezelfde manier twee andere groepen, zoals **Regionaal-auteur** en **Winkelauteur**.
 
@@ -317,11 +317,11 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
 1. **Gebruikers maken en gebruikers toevoegen aan groepen**
 
    1. Navigeren naar **Adobe Experience Manager**.
-   1. Klikken **Gereedschappen** > **Beveiliging** > **Gebruikers**.
-   1. Klikken **Gebruiker maken** en betreden **Wereldwijd gebruiker** in **ID**.
+   1. Selecteren **Gereedschappen** > **Beveiliging** > **Gebruikers**.
+   1. Selecteren **Gebruiker maken** en betreden **Wereldwijd gebruiker** in **ID**.
    1. Enter **Wachtwoord** en bevestig het wachtwoord voor deze gebruiker.
-   1. Klik op de knop **Groepen** en voert u de groepsnaam in **Groep selecteren**, bijvoorbeeld Enter **Global-Author** toevoegen **Wereldwijd gebruiker** aan die specifieke groep.
-   1. Klikken **Opslaan en sluiten**.
+   1. Selecteer de **Groepen** en voert u de groepsnaam in **Groep selecteren**, bijvoorbeeld Enter **Global-Author** toevoegen **Wereldwijd gebruiker** aan die specifieke groep.
+   1. Selecteren **Opslaan en sluiten**.
 
    Maak op dezelfde manier twee andere gebruikers, zoals **Regio-gebruiker** en **Winkelgebruiker** en voeg **Regionaal-auteur** en **Winkelauteur** respectievelijk.
 
@@ -333,15 +333,15 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
 1. **Alle groepen toevoegen aan contribuanten**
 
    1. Navigeren naar **Adobe Experience Manager**.
-   1. Klikken **Gereedschappen** > **Beveiliging** > **Groepen**.
+   1. Selecteren **Gereedschappen** > **Beveiliging** > **Groepen**.
    1. Selecteren **Medewerkers** in de lijst en selecteer **Leden** tab.
    1. Selecteer de **Groep** zoals **Global-Author**, **Regionaal-auteur,** en **Winkelauteur** aan contribuanten.
-   1. Klikken **Opslaan en sluiten**.
+   1. Selecteren **Opslaan en sluiten**.
 
 1. **Toegang tot machtigingen voor elke groep**
 
    1. Ga naar de *Useradmin* en gebruik deze interface om de machtigingen voor verschillende groepen te wijzigen.
-   1. Zoeken naar **Global-Author** en klik op **Machtigingen** zoals weergegeven in de onderstaande afbeelding.
+   1. Zoeken naar **Global-Author** en selecteert u **Machtigingen** zoals weergegeven in de onderstaande afbeelding.
    1. Op dezelfde manier kunt u tot de toestemmingen voor toegang hebben **Regionaal-auteur** en **Winkelauteur**.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
