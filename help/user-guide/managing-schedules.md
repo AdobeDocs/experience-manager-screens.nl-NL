@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Planningen, indien gecombineerd met ***DayParting***, kunt u een algemeen schema
 
 >[!NOTE]
 >
->Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.3 Sites Feature Pack 1 hebt geïnstalleerd. Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Nadat u de vereiste toestemmingen hebt, kunt u het van het Aandeel van het Pakket downloaden.
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.3 Sites Feature Pack 1 hebt geïnstalleerd. Neem contact op met de Adobe voor ondersteuning en vraag toegang tot dit functiepakket. Nadat u de vereiste toestemmingen hebt, kunt u het van het Aandeel van het Pakket downloaden.
 
 ## Een schema maken {#creating-a-schedule}
 

@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * **Ondersteuning voor V3-manifest**
 
-  U kunt de Dispatcher nu configureren voor Manifest Version v3. Voor het inschakelen van v3-manifest moet u:
+  U kunt de Dispatcher nu configureren voor Manifest Version v3. Ga als volgt te werk om v3-manifest in te schakelen:
 
    * Wis alle taken met offline inhoud die in behandeling zijn, zowel in de auteur als gepubliceerd.
 

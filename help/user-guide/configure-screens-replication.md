@@ -4,9 +4,9 @@ description: Leer over hoe te om de Agenten van de Replicatie van het Scherm te 
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,7 @@ Volg de onderstaande sectie om de instellingen in de AEM Screens Replication Age
 
 1. Klikken **OK**.
 
-1. Nadat u de voorgaande stappen hebt uitgevoerd, kunt u op **Verbinding testen** om de verbinding te verifiëren.
+1. Nadat u de voorgaande stappen hebt uitgevoerd, klikt u op **Verbinding testen** om de verbinding te verifiëren.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

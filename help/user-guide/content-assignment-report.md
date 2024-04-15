@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Zie de volgende bronnen voor meer informatie:
 
 ## Het rapport Inhoud toewijzen downloaden {#downloading-content-assignment-report-fp}
 
-Als u uw AEM Screens-project hebt ingesteld en vertoningen hebt toegewezen aan elk van de locaties zoals in de voorgaande stappen wordt weergegeven, kunt u het Rapport Inhoudstoewijzing downloaden.
+Wanneer u uw AEM Screens-project hebt ingesteld en vertoningen hebt toegewezen aan elk van de locaties zoals in de voorgaande stappen wordt getoond, downloadt u het Rapport Inhoudstoewijzing.
 
 >[!NOTE]
 >De eigenschap van het Rapport van de Toewijzing van de Inhoud kan slechts op het projectniveau worden betreden.

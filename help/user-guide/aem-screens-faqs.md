@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fb5e7f314ce8557bbee64743929dce945b35a83a
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2118'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ U kunt ook een extra bron zien op [Oak-documentatie](https://jackrabbit.apache.o
 
 ### 3. Wat is vereist om v3-manifest te configureren? {#configure-v3}
 
-Voor het inschakelen van v3-manifest moet u:
+Ga als volgt te werk om v3-manifest in te schakelen:
 
 * Dispatcher bijwerken.
 Zie [Dispatcher configureren voor manifestversie v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer informatie .

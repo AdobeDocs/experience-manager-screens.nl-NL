@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Een weergave is een virtuele groep schermen die naast elkaar zijn geplaatst. Het beeldscherm is permanent voor een installatie. Dit is de objecten inhoudsauteurs werken met en verwijzen altijd naar als logische vertoning eerder dan hun fysieke tegendelen.
 
-Nadat u een locatie hebt gemaakt, moet u een weergave voor uw locatie maken.
+Wanneer u een locatie maakt, moet u een weergave voor uw locatie maken.
 
 Op deze pagina ziet u hoe u beeldschermen maakt en beheert.
 
@@ -54,7 +54,7 @@ Wanneer u in positie hebt tonen, moet de volgende stap een apparaat tot stand br
 >
 >**De volgende stap**:
 >
->Wanneer u een weergave voor uw locatie maakt, moet u een kanaal aan uw weergave toewijzen om de inhoud te kunnen gebruiken.
+>Wanneer u een weergave voor uw locatie maakt, wijst u een kanaal toe aan uw weergave om de inhoud te gebruiken.
 >
 >Zie [Kanalen toewijzen](channel-assignment.md) voor meer informatie over het toewijzen van een kanaal aan de weergave.
 
@@ -74,11 +74,9 @@ Het apparaat config wordt gecreeerd en aan de huidige vertoning toegevoegd (in d
 
 ![deviceconfig](assets/deviceconfig.gif)
 
-Zodra een apparaat config aan uw vertoning in de plaats wordt geplaatst, zal de volgende stap een kanaal aan uw vertoning moeten toewijzen.
-
 >[!NOTE]
 >
->Zodra een apparaat config aan uw vertoning in de plaats wordt geplaatst, zal de volgende stap een kanaal aan uw vertoning moeten toewijzen.
+>Wanneer een apparaat config aan uw vertoning in de plaats wordt geplaatst, zal de volgende stap een kanaal aan uw vertoning moeten toewijzen.
 >
 >Zoals aangetoond in het hieronder cijfer, als het apparaat config als niet toegewezen in wordt getoond **APPARATEN** als er geen kanaal is toegewezen aan de desbetreffende apparaatconfiguratie.
 >

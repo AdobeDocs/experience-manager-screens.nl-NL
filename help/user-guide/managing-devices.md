@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Met de apparaatconsole hebt u toegang tot de apparaatmanager om uw apparaat aan 
 
 >[!CAUTION]
 >
->Voordat u het apparaat toewijst, moet u het registreren. Zie voor meer informatie [Apparaatregistratie](device-registration.md).
+>Registreer het voordat u het apparaat toewijst. Zie [Apparaatregistratie](device-registration.md).
 
 ## Apparaattoewijzing {#device-assignment}
 
@@ -69,6 +69,4 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 
 ### De volgende stappen {#the-next-steps}
 
-Wanneer u bekend bent met het toewijzen van kanaal aan een weergave, raadpleegt u de volgende bronnen:
-
-* [Monitor en problemen oplossen](monitoring-screens.md)
+Nadat u bekend bent met het toewijzen van een kanaal aan een weergave, raadpleegt u[Monitor en problemen oplossen](monitoring-screens.md).

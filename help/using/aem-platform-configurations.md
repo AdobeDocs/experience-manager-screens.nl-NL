@@ -2,9 +2,9 @@
 title: Platformconfiguraties AEM
 description: De pagina beschrijft AEM platformconfiguraties
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '445'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ Installeer FFMpeg volgens de stappen voor het juiste besturingssysteem (gewoonli
 
    >[!NOTE]
    >
-   >De `-strict -2` moet de laatste parameter in de lijst met parameters zijn. In AEM 6.4 moet u ook de knooppunten onder kopiëren */libs/settings/dam/video* tot */conf/global/settings/dam/video* zoals vermeld in [Video-uitvoeringen](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >De `-strict -2` moet de laatste parameter in de lijst met parameters zijn. Kopieer in AEM 6.4 ook de knooppunten onder */libs/settings/dam/video* tot */conf/global/settings/dam/video* zoals vermeld in [Video-uitvoeringen](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Controleer of video-conversies plaatsvinden en of uitvoeringen worden gemaakt.
 
 ## Wachtwoordbeperkingen {#password-restrictions}

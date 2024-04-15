@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Deze sectie benadrukt hoe te om het richten in uw kanalen toe te laten.
 
 ## Vereisten {#prereqs}
 
-Voordat u de onderstaande stappen uitvoert om het gebruik van doelkanalen in te schakelen, moet u de opdracht [Belangrijke termen in configuratie in AEM Screens](configuring-context-hub.md) vereist voor het begrip ContextHub en het richten in AEM Screens.
+Leer voordat u de onderstaande stappen uitvoert om het gebruik van doelkanalen in te schakelen, de [Belangrijke termen in configuratie in AEM Screens](configuring-context-hub.md) vereist voor het begrip ContextHub en het richten in AEM Screens.
 
 >[!IMPORTANT]
 >

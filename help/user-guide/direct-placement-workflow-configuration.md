@@ -1,9 +1,9 @@
 ---
 title: Configuratie werkstroom voor directe plaatsing
 description: Deze pagina markeert de Configuratie van de Werkstroom van de Directe Plaatsing.
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ U kunt ook als auteur van inhoud handmatig klikken **Offline inhoud bijwerken**.
 
 >[!IMPORTANT]
 >
->Voordat u de configuratie start, moet u de `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Nadat u het pakket hebt geïnstalleerd, kunt u het weergeven en openen via de AEM > Gereedschappen (pictogram) > **Workflow** > **Workflowmodellen**.
+>Installeer voordat u de configuratie start de `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Nadat u het pakket hebt geïnstalleerd, kunt u het weergeven en openen via de AEM > Gereedschappen (pictogram) > **Workflow** > **Workflowmodellen**.
 
 Voer de onderstaande stappen uit om de workflow voor directe plaatsing te configureren:
 

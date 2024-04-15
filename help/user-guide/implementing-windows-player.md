@@ -10,7 +10,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 U kunt een gebruikersvriendelijke apparaatnaam aan uw Windows-speler toewijzen en zo de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen een naam geven aan uw Windows-speler, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
 
 >[!NOTE]
->U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Player is geregistreerd, kan de Player-naam niet meer worden gewijzigd.
+>U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Speler wordt geregistreerd, kan de naam van de Speler niet meer worden veranderd.
 
 Voer de onderstaande stappen uit om de naam in Windows Player te configureren:
 

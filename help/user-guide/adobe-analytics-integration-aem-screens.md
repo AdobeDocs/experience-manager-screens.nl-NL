@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 5a340534df051a4ad4bf9080b972111717f14736
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om toegang tot één van beiden van deze Pakketten van de Eigenschap te krijgen, moet u de Steun van de Adobe contacteren en om toegang verzoeken. U kunt het nieuwste functiepakket voor AEM Screens downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
+>Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, contacteer de Steun van de Adobe en verzoek toegang. U kunt het nieuwste functiepakket voor AEM Screens downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
 
 In deze sectie worden de volgende onderwerpen behandeld:
 

@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,13 @@ Het doel van een concepttest is om initiële feedback te krijgen over de belangr
 
 Het testen van de integratie van systemen en software begint met het team van de Techniek van IT van de Audio/Video Integrator. Verwijzend naar het goedgekeurde systeemontwerp, vormt het Team van de Techniek van IT, voert uit, en controleert de installatie van hardwarecomponenten in een &quot;milieu van het Laboratorium&quot;in de faciliteit van de Integrator Audio/Video. Hierdoor kan de volledige oplossing voor kwaliteitscontrole grondig worden gecontroleerd en getest.
 
-Zodra het testen van QC volledig is het Team van de Techniek van IT creeert documentatie, werkschema&#39;s, en opleiding voor verwijzing tijdens dag-2 steun. De te testen systeemaspecten omvatten:
+Nadat het testen QC volledig is, leidt het Team van de Techniek van IT documentatie, werkschema&#39;s, en opleiding voor verwijzing tijdens dag-2 steun. De volgende systeemaspecten moeten worden getest:
 
-* Integratie AEM
-* Integraties van systemen van derden
-* Software
-* Hardware
-* Connectiviteit
+* AEM implementorintegratie.
+* Integraties van systemen van derden.
+* Software.
+* Hardware.
+* Connectiviteit.
 * Workflows voor de implementatie van inhoud, inclusief handmatige, geautomatiseerde en voorwaardelijke implementatie.
 
 ## Deel 3: Videozelfstudie over testen, concepttest, piloten en rollouts {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
@@ -79,6 +79,6 @@ Het in overweging nemen van al deze fasen als onderdeel van het algemene project
 
 ## De volgende stap {#the-next-step}
 
-Wanneer u grondig met het testen, het Bewijs van Concept, proefprogramma&#39;s en rollen bent, volg het volgende leerprogramma dat diep in het Beheer van het Project en de betrokken processen duikt.
+Wanneer u met het testen, het Bewijs van Concept, proefprogramma&#39;s, en roll outs door bent, volg de volgende zelfstudie die diep in het Beheer van het Project en de betrokken processen duikt.
 
 Navigeren naar **[Deel 4: Projectbeheer en -implementatie](project-management-and-deployment.md)** voor meer informatie .

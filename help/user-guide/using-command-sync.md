@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,8 @@ Let op de twee apparaten (chroom- en vensterspeler) in **APPARATEN** , zoals in 
 
 ### Synchroniseren met primaire {#sync-up-primary}
 
-1. Nadat u het Chrome-apparaat als primair hebt ingesteld, kunt u het andere apparaat (in dit geval de Windows-speler) synchroniseren met het primaire apparaat.
-Selecteer het andere apparaat (in dit geval de Windows-speler) in het menu **APPARATEN** deelvenster en klik op **Synchroniseren met primair apparaat**, zoals weergegeven in onderstaande afbeelding.
+1. Nadat u het Chrome-apparaat als primair hebt ingesteld, synchroniseert u het andere apparaat (in dit geval de Windows-speler) met het primaire apparaat.
+Selecteer het andere apparaat (in dit geval de Windows-speler) in het menu **APPARATEN** deelvenster en klik op **Synchroniseren met primair apparaat**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -124,7 +124,7 @@ Selecteer het andere apparaat (in dit geval de Windows-speler) in het menu **APP
 
 ### De-synchroniseren met de primaire {#desync-up-primary}
 
-Nadat u een apparaat of apparaten hebt gesynchroniseerd met een primair apparaat, kunt u de synchronisatie van het apparaat ongedaan maken.
+Nadat u een apparaat of apparaten naar een primair apparaat hebt gesynchroniseerd, kunt u de toewijzing van dat apparaat desynchroniseren.
 
 >[!NOTE]
 >

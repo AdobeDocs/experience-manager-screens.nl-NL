@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Voordat u een workflow voor video maakt, moet u aan de volgende voorwaarden vold
 
 ## Workflow voor het opvullen van video&#39;s maken {#creating-a-video-padding-workflow-1}
 
-Als u een workflow voor het opvullen van video&#39;s wilt maken, moet u een workflow voor uw video maken en vervolgens hetzelfde gebruiken in het AEM Screens-projectkanaal.
+Als u een workflow voor het opvullen van video&#39;s wilt maken, maakt u een workflow voor uw video en gebruikt u dezelfde workflow in het AEM Screens-projectkanaal.
 
 Voer de onderstaande stappen uit om de workflow te maken en te gebruiken:
 
@@ -67,7 +67,7 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Als u het workflowmodel hebt gemaakt, selecteert u het model (**VideoRendition**) en klik op **Bewerken** in de actiebalk.
+1. Selecteer het model nadat u het workflowmodel hebt gemaakt (**VideoRendition**) en klik op **Bewerken** in de actiebalk.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -107,7 +107,7 @@ Voer de onderstaande stappen uit om de workflow in uw AEM Screens-project te geb
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Nadat u de video hebt geüpload, klikt u op **Voorvertoning** om de uitvoer weer te geven.
+1. Wanneer u de video hebt geüpload, klikt u op **Voorvertoning** om de uitvoer weer te geven.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

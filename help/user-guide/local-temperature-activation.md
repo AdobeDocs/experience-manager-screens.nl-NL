@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Als de waarde in Google Sheets lager is dan 50, wordt in dit geval een afbeeldin
 
 ## Voorwaarden {#preconditions}
 
-Voordat u begint met het implementeren van de lokale temperatuuractivering van het reiscentrum, moet u leren hoe u het systeem instelt ***Gegevensopslag***, ***Auditiesegmentatie*** en ***Doelstelling voor kanalen inschakelen*** in een AEM Screens-project.
+Voordat u de lokale temperatuuractivering van het reiscentrum gaat implementeren, moet u leren hoe u de installatie kunt uitvoeren ***Gegevensopslag***, ***Auditiesegmentatie*** en ***Doelstelling voor kanalen inschakelen*** in een AEM Screens-project.
 
 Zie [ContextHub configureren in AEM Screens](configuring-context-hub.md) voor nadere informatie.
 

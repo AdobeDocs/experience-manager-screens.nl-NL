@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Een inhoudauteur kan een vertoning vormen om toegelaten stem te zijn. Het doel v
 >[!IMPORTANT]
 > De functie voor spraakherkenning is alleen beschikbaar voor Chrome OS- en Windows-spelers.
 
-Als u spraakherkenning wilt implementeren in uw AEM Screens-project, moet u de spraakherkenning inschakelen voor de weergave en elk kanaal koppelen aan een unieke tag om een kanaalovergang te activeren.
+Om stemerkenning in uw project van AEM Screens uit te voeren, laat de stemerkenning voor de Vertoning toe en associeer elk kanaal met een unieke markering om een kanaalovergang teweeg te brengen.
 
 In de volgende sectie wordt beschreven hoe u de functie voor spraakherkenning in een AEM Screens-project kunt inschakelen en gebruiken.
 
@@ -97,7 +97,7 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
    Of,
 
-   U kunt ook van tevoren voor uw project tags maken van uw AEM en deze selecteren. Nadat u de stappen hebt uitgevoerd die in [Tags maken](#creating-tags), kunt u de tag van de locatie selecteren en aan het kanaal toevoegen, zoals in de onderstaande afbeelding wordt getoond:
+   U kunt ook van tevoren voor uw project tags maken van uw AEM en deze selecteren. Nadat u de in [Tags maken](#creating-tags), kunt u de tag van de locatie selecteren en aan het kanaal toevoegen, zoals in de onderstaande afbeelding wordt getoond:
 
    ![afbeelding](assets/voice-recognition/vr-tag1.png)
 

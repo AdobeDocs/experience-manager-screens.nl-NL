@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In deze sectie wordt een functionaliteit beschreven voor het bulksgewijs importe
 
 ## Inleiding {#introduction}
 
-Wanneer u een AEM Screens-project voor het eerst in uw organisatie instelt, moet u ook alle locaties maken. Als uw project vele plaatsen impliceert, resulteert het in een vervelende taak die veel het klikken en het wachten in UI impliceert.
+Wanneer u een AEM Screens-project voor het eerst in uw organisatie instelt, maakt u ook alle locaties. Als uw project vele plaatsen impliceert, resulteert het in een vervelende taak die veel het klikken en het wachten in UI impliceert.
 
 Het doel van deze functie is de tijd die nodig is om het project op te zetten te verkorten en zo begrotingsproblemen op te lossen.
 
@@ -107,7 +107,7 @@ Voer de onderstaande stappen uit om een bestand te importeren naar een locatiema
 
 1. De **Importeren** wordt weergegeven. Selecteer het bestand voor uw project met locaties of selecteer het bestand (***minimum-file.xls***) die u hebt gedownload van de *Vereisten* sectie.
 
-   Als u het bestand hebt geselecteerd, klikt u op **Volgende**.
+   Klik op **Volgende**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 

@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
+source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Wijs de kanalen aan de vertoning toe om de inhoud te bekijken. Voer de onderstaa
    1. Selecteren **Opslaan**.
 
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. U moet ook de andere twee ingesloten kanalen toewijzen (**`Zone1`** en **`Zone2`**) op dit scherm.
+   1. Wijs op dezelfde manier de andere twee ingebedde kanalen (**`Zone1`** en **`Zone2`**) op dit scherm.
    1. Nadat u alle drie de kanalen aan **Lobby** weergegeven, kunt u de toegewezen kanalen weergeven vanaf het weergavedashboard.
 
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img8.png)

@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Verwijzen naar een *Kanaal op rol*, kunt u lokale versie van een kanaal maken om
 >
 >Een dynamische ingesloten reeks is vergelijkbaar met een ingesloten reeks, maar de gebruiker kan een hiërarchie volgen waarin wijzigingen/updates die in het ene kanaal zijn aangebracht, aan het andere kanaal worden doorgegeven in relatie tot het andere kanaal. De klasse volgt de bovenliggende-onderliggende hiërarchie en bevat ook elementen zoals afbeeldingen of video&#39;s.
 >
->***Dynamische ingesloten reeksen*** kunt u locatie-specifieke inhoud weergeven, terwijl ***Ingesloten reeksen*** alleen een algemene presentatie van de inhoud weergeven. Tijdens het instellen van Dynamische ingesloten reeksen moet u het kanaal ook configureren met de rol en naam van het kanaal. Zie de onderstaande stappen voor praktische implementatie.
+>***Dynamische ingesloten reeksen*** kunt u locatie-specifieke inhoud weergeven, terwijl ***Ingesloten reeksen*** alleen een algemene presentatie van de inhoud weergeven. Tijdens het instellen van Dynamische ingesloten reeksen configureert u het kanaal ook met de rol en naam van het kanaal. Zie de onderstaande stappen voor praktische implementatie.
 >
 >Voor meer informatie over het implementeren van ingesloten reeksen raadpleegt u [Ingesloten reeksen](embedded-sequences.md) in AEM Screens.
 

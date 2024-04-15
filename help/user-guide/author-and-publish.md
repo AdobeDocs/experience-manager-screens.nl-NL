@@ -2,9 +2,9 @@
 title: Instanties voor auteurs en publiceren configureren in AEM Screens
 description: Leer hoe u een instantie Auteur en een instantie Publish voor AEM Screens configureert.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ Voordat u aan de slag gaat met auteur- en publicatieservers, hebt u eerst kennis
 
 >[!NOTE]
 >
->Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.4 Screens Feature Pack 2 hebt geïnstalleerd. Als u toegang wilt krijgen tot dit pakket functies, moet u contact opnemen met de Adobe Support en toegang aanvragen. Nadat u toestemming hebt, kunt u het van het Aandeel van het Pakket downloaden.
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.4 Screens Feature Pack 2 hebt geïnstalleerd. Neem contact op met de Adobe voor ondersteuning en vraag toegang tot dit functiepakket. Nadat u toestemming hebt, kunt u het van het Aandeel van het Pakket downloaden.
 
 >[!IMPORTANT]
 >
->Als u meer dan één instantie Publish met Dispatcher wilt gebruiken, moet u de Dispatcher bijwerken. Zie [Vaste sessies inschakelen](dispatcher-configurations-aem-screens.md#enable-sticky-session) voor meer informatie .
+>Als u meer dan één instantie Publish met Dispatcher wilt gebruiken, werk de Dispatcher bij. Zie [Vaste sessies inschakelen](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## Instanties voor auteur en publiceren configureren {#configuring-author-and-publish-instances}
 
@@ -50,7 +50,7 @@ U kunt een eenvoudig voorbeeld instellen, waarin u een auteur host en twee insta
 
 ## Replication Agents instellen op auteur {#setting-replication-agents}
 
-Om replicatieagenten tot stand te brengen, moet u leren hoe te om een standaardreplicatieagent tot stand te brengen.
+Om replicatieagenten tot stand te brengen, leer hoe te om een standaardreplicatieagent tot stand te brengen.
 
 Er zijn drie replicatiemiddelen die voor de Schermen nodig zijn:
 

@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De volgende pagina verstrekt de richtlijnen voor het vormen van Dispatcher voor 
 >
 >Als er geen Dispatcher is, maak registratieserver in de OSGi componentenlijst onbruikbaar.
 
-Voordat u Dispatcher configureert voor een AEM Screens-project, moet u op de hoogte zijn van Dispatcher.
+Voordat u Dispatcher configureert voor een AEM Screens-project, moet u eerst op de hoogte zijn van Dispatcher.
 Zie [Dispatcher configureren](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) voor meer informatie .
 
 ## Dispatcher configureren voor manifestversie v2 {#configuring-dispatcher}
@@ -94,7 +94,7 @@ Dispatcher caching uitschakelen voor ***/content/screens pad***.
 
 Schermspelers gebruiken geverifieerde sessies, zodat de Dispatcher geen van de schermspelers in de cache plaatst die om `channels/assets`.
 
-Als u de cache voor de elementen wilt inschakelen zodat de elementen worden verzonden vanuit de Dispatcher-cache, moet u:
+Ga als volgt te werk om de cache voor de elementen in te schakelen, zodat de elementen worden aangeboden in de Dispatcher-cache:
 
 * Toevoegen `/allowAuthorization 1` in `/cache` sectie
 * Voeg de onderstaande regels toe aan `/rules` deel van `/cache`

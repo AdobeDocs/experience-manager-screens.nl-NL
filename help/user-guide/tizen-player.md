@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Voer de onderstaande stappen uit:
 U kunt een gebruikersvriendelijke apparaatnaam aan uw Tizen-speler toewijzen en zo de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen de Tizen-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
 
 >[!NOTE]
->U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Player is geregistreerd, kan de Player-naam niet meer worden gewijzigd.
+>U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Speler wordt geregistreerd, kan de naam van de Speler niet meer worden veranderd.
 
 Voer de onderstaande stappen uit om de naam in de Tizen-speler te configureren:
 
@@ -58,7 +58,7 @@ Volg de onderstaande stappen op het Samsung-apparaat om de installatie van de AE
 1. Klik op de knop **MENU** van de afstandsbediening van het apparaat naar beneden schuiven **Systeem** in de linkernavigatiebalk.
 1. Omlaag schuiven en de **Afspelen via** en wijzigen in **URL Launcher** -optie.
    ![afbeelding](/help/user-guide/assets/tizen/rms-2.png)
-1. Wanneer de URL Launcher is ingesteld, drukt u op de knop **Home** vanaf de afstandsbediening.
+1. Wanneer de URL Launcher is ingesteld, drukt u op **Home** vanaf de afstandsbediening.
 1. Ga naar de **Instellingen voor URL-opstart** en voer het IP-adres van uw localhost-server in en klik op **Gereed**.
 
    >[!NOTE]

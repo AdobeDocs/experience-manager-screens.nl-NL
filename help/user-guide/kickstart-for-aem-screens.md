@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1276'
 ht-degree: 1%
 
 ---
@@ -62,15 +62,15 @@ De eerste stap is het maken van een AEM Screens-project.
    ![afbeelding](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >Zodra u het project creeert, brengt het u terug naar de homepage van het Project van de Schermen. U kunt nu uw project selecteren. In een project zijn er vijf verschillende mappen met de naam **Toepassingen**, **Kanalen**, **Apparaten**, **Locaties**, en **Planningen**.
+   >Nadat u het project creeert, brengt het u terug naar de homepage van het Project van AEM Screens. U kunt nu uw project selecteren. In een project zijn er vijf verschillende mappen met de naam **Toepassingen**, **Kanalen**, **Apparaten**, **Locaties**, en **Planningen**.
 
 ### Een kanaal maken {#creating-channel}
 
-Nadat u een AEM Screens-project hebt gemaakt, moet u een kanaal maken waarin u de inhoud beheert.
+Nadat u uw AEM Screens-project hebt gemaakt, maakt u een kanaal waarin u de inhoud beheert.
 
 Ga als volgt te werk om een kanaal voor uw project te maken:
 
-1. Als u een project hebt gemaakt, selecteert u de optie **DemoScreens** en selecteert u de **Kanalen** map, zoals weergegeven in de onderstaande afbeelding. Klikken **+ Maken** in de actiebalk.
+1. Nadat u een project creeert, selecteer **DemoScreens** en selecteert u de **Kanalen** map, zoals weergegeven in de onderstaande afbeelding. Klikken **+ Maken** in de actiebalk.
 
    ![afbeelding](assets/kickstart/demo-2.png)
 
@@ -146,7 +146,7 @@ Wanneer u een locatie hebt gemaakt, maakt u een weergave voor uw locatie.
 
 ### Een kanaal toewijzen {#assigning-channel}
 
-Wanneer de projectopstelling volledig is, moet u het kanaal aan een vertoning toewijzen om de inhoud te bekijken.
+Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe om de inhoud te bekijken.
 
 1. Ga vanuit **DemoScreens** > **Locaties** > **TestLocation** > **LobbyDisplay**.
 
@@ -194,7 +194,7 @@ Registreer het apparaat met het AEM dashboard.
 >1. Open een nieuw tabblad en klik op de knop **Apps** in de linkerbovenhoek, of rechtstreeks naar ***chrome://apps***.
 >1. Klikken **AEM Screens** Insteekmodule voor het starten van Chrome Player. Standaard wordt de speler gestart in de modus Volledig scherm. Druk **Esc** om de modus Volledig scherm af te sluiten.
 
-Wanneer uw Chrome OS-speler is ingeschakeld, voert u de onderstaande stappen uit om een Chrome-apparaat te registreren.
+Nadat uw Chrome OS-speler is ingeschakeld, voert u de onderstaande stappen uit om een Chrome-apparaat te registreren.
 
 1. Ga naar de **Apparaten** van uw project van uw AEM instantie.
 

@@ -2,7 +2,7 @@
 title: Adaptieve uitvoeringen gebruiken in AEM Screens
 description: Leer hoe u Adaptieve uitvoeringen kunt gebruiken in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Nadat een ontwikkelaar de eigenschappen en regels voor het toewijzen van vertoni
 ## Adaptieve uitvoeringen gebruiken in kanalen {#using-adaptive-renditions}
 
 >[!NOTE]
->Zodra u hebt toegevoegd [rendition-mapping, eigenschap voor het schermproject](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) en [regels voor het toewijzen van vertoningen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)Als inhoudsauteur kunt u nu de uitvoeringen toepassen op uw elementen.
+>Nadat u [rendition-mapping, eigenschap voor het schermproject](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) en [regels voor het toewijzen van vertoningen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)Als inhoudsauteur kunt u nu de uitvoeringen toepassen op uw elementen.
 
 ### Vertoningen toepassen op elementen {#apply-renditions-assets}
 

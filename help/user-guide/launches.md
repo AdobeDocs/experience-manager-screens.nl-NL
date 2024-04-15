@@ -10,9 +10,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Met de hulp van ***Schermen starten*** auteurs kunnen dan elk kanaal voorvertone
 
 Bijvoorbeeld, als de auteur toekomstige versies van c1, c2 (kanalen) wil tot stand brengen, wordt een lancering gecreeerd en een levende datum wordt geplaatst (bijvoorbeeld, 10 8:00 A.M.). Alle updates in de inhoud worden ter controle verzonden.
 
-Zodra goedgekeurd en op levende datum (10 November, 8:00 a.m.), speelt deze lancering de inhoud op de apparaten of de spelers.
+Na goedkeuring en op levende datum (10 November, 8:00 a.m.), speelt deze lancering de inhoud op de apparaten of de spelers.
 
 ## Vereisten {#requirements}
 
@@ -45,7 +45,7 @@ Als u een ervaring uitvoert op de live-datum instellen op de speler, gaat u als 
 
 ### Respijtperiode begrijpen {#understanding-grace-period}
 
-Als u wilt dat de speler de inhoud kan beginnen af te spelen op de actieve datum van de set, moet u de voorgaande activiteiten starten vóór de actieve datum.
+Als u wilt dat de speler de inhoud kan beginnen af te spelen op de live-datum van de set, start u de voorgaande activiteiten vóór de live-datum.
 
 Als de live datum *24 november, 9:00* en de respijtperiode *24 uur* Dan zal de bovenstaande opeenvolging van acties beginnen bij (levende datum - respijtperiode), namelijk 23 November, 9:00 tijd van de server A.M. Dit geeft 24 uur om alle bovengenoemde acties voor de inhoud te voltooien om de spelers te bereiken. De spelers begrijpen dat dit een lanceringsinhoud is. Als zodanig wordt de inhoud niet direct afgespeeld, maar spelers kunnen deze inhoud opslaan als een toekomstige versie en deze precies laten afspelen op de ingestelde live datum in de tijdzone van de speler.
 
@@ -120,7 +120,7 @@ Voer de onderstaande stappen uit om de functie Schermen starten te implementeren
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Nadat u het kanaal of de kanalen hebt geselecteerd, klikt u op **Volgende**.
+   Nadat u het kanaal of de kanalen selecteert, klikt u op **Volgende**.
 
 
 1. Voer de **Titel starten** als **SummerPromotions** en u hoeft de **Opstartdatum**, zoals weergegeven in onderstaande afbeelding. Klikken **Maken**.

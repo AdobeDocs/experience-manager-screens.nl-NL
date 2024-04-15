@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
 ### Kanaal toewijzen aan een weergave {#assigning-channel-to-display}
 
-Wanneer de projectopstelling volledig is, moet u het kanaal aan een vertoning toewijzen om de inhoud te bekijken.
+Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe om de inhoud te bekijken.
 
 1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** > **Locaties** > **SanJose** > **Lobby**.
 
@@ -105,7 +105,7 @@ U kunt de volgende uitvoer naar keuze van de speler weergeven:
 
 ## Tijdlijnweergave {#timeline-view}
 
-Nadat u een kanaal aan een weergave hebt toegewezen en een herhalingsschema hebt ingesteld, kunt u de tijdlijn vanuit de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
+Wanneer u een kanaal hebt toegewezen aan een weergave en een herhalingsschema hebt ingesteld, kunt u de tijdlijn weergeven vanuit de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
 Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
 

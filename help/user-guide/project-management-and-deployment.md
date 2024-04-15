@@ -10,7 +10,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -86,6 +86,4 @@ Leer over projectbeheer en plaatsingsvoorbereiding en bepaal zeer belangrijke fa
 
 ## De volgende stap {#the-next-step}
 
-Zodra u met zeer belangrijke overwegingen het Beheer van het Project voor de Plaatsingen van AEM Screens grondig bent;
-
-Navigeren naar **[Deel 5: Overwegingen bij de ondersteuning](support-considerations.md)** Zo begrijpt u de Steun van Dag 2 en de processen in kwestie.
+Wanneer u met zeer belangrijke overwegingen rond het Beheer van het Project voor de Plaatsingen van AEM Screens door bent, navigeer aan **[Deel 5: Overwegingen bij de ondersteuning](support-considerations.md)** Zo begrijpt u de Steun van Dag 2 en de processen in kwestie.

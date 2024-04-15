@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ In een project, zijn er vijf soorten omslagen, zoals aangetoond in het hieronder
 
 ## Weergaveeigenschappen {#viewing-properties}
 
-Nadat u het project Schermen hebt gemaakt, selecteert u het project en klikt u op **Eigenschappen** van actiebar om eigenschappen van uw project uit te geven.
+Nadat u het project van Schermen creeert, selecteer het project en klik **Eigenschappen** van actiebar zodat kunt u de eigenschappen van uw project uitgeven.
 
 Met de volgende opties kunt u eigenschappen van uw **TestScreens**.
 
@@ -74,4 +74,4 @@ In de volgende stappen ziet u hoe u een toepassingsmap maakt voor uw **Toepassin
 
 ### De volgende stappen {#the-next-steps}
 
-Als u uw eigen project hebt gemaakt, raadpleegt u [Kanaalbeheer](managing-channels.md) om inhoud in uw kanaal te maken en te beheren.
+Wanneer u uw eigen project hebt gemaakt, raadpleegt u [Kanaalbeheer](managing-channels.md) om inhoud in uw kanaal te maken en te beheren.

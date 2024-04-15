@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Zie een [Voorbeeld JSON-beleid](#example-json) en een tabel waarin de verschille
 
 1. Gebruik een MDM- of ADB- of Android™ Studio-bestandsverkenner om dit beleid-JSON-bestand naar de *sdcard* op het Android™-apparaat.
 
-1. Zodra het dossier wordt opgesteld, gebruik MDM om de spelertoepassing te installeren.
+1. Wanneer het dossier wordt opgesteld, gebruik MDM om de spelertoepassing te installeren.
 
 1. Wanneer de spelertoepassing begint, wordt dit configuratiedossier gelezen en richt aan de toepasselijke AEM server waar het wordt geregistreerd en dan gecontroleerd.
 
@@ -179,7 +179,7 @@ Wanneer u de Android™-speler bulksgewijs inzet, wordt het vervelend om elke sp
 U kunt een gebruikersvriendelijke apparaatnaam toewijzen aan uw Android™-speler en zo de toegewezen apparaatnaam naar AEM (Adobe Experience Manager) verzenden. Met deze functie kunt u niet alleen uw Android™-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
 
 >[!NOTE]
->U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Player is geregistreerd, kan de Player-naam niet meer worden gewijzigd.
+>U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Speler wordt geregistreerd, kan de naam van de Speler niet meer worden veranderd.
 
 Voer de onderstaande stappen uit om de naam in de Android™-speler te configureren:
 

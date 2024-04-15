@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
 >[!NOTE]
 >
->Wanneer u de nieuwste Windows Player-versie hebt gedownload (*.exe*), van [AEM 6.4 Player-downloads](https://download.macromedia.com/screens/) Voer de stappen op de speler uit om de ad-hocinstallatie te voltooien:
+>Nadat u de nieuwste Windows Player hebt gedownload (*.exe*), van [AEM 6.4 Player-downloads](https://download.macromedia.com/screens/) Voer de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
 >1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en klik op **Opslaan**.
@@ -84,7 +84,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
    >
    >De **Weergave toewijzen** Hiermee kunt u het apparaat rechtstreeks aan een weergave toevoegen.
 
-   Als u op **Voltooien**, moet u het apparaat aan een vertoning toewijzen.
+   Als u op **Voltooien**, wijst u het apparaat toe aan een weergave.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -118,7 +118,7 @@ Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande
 
 ## Een apparaat zoeken vanuit Apparaatbeheer {#search-device}
 
-Nadat u apparaten hebt geregistreerd voor uw speler, kunt u alle apparaten weergeven via de interface van Apparaatbeheer.
+Wanneer u apparaten bij uw speler hebt geregistreerd, kunt u alle apparaten weergeven via de interface van Apparaatbeheer.
 
 1. Navigeer bijvoorbeeld naar de interface van Apparaatbeheer vanuit uw AEM Screens-project. **DemoScreens** > **Apparaten**.
 

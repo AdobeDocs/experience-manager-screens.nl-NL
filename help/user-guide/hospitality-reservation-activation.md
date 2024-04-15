@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Als de waarde van **`Restaurant1`** > **`Restaurant2`** vervolgens **Advertentie
 
 ## Voorwaarden {#preconditions}
 
-Voordat u de activering van de reservering gaat implementeren, moet u leren hoe u de activering kunt instellen ***Gegevensopslag***, ***Auditiesegmentatie*** en ***Doelstelling voor kanalen inschakelen*** in een AEM Screens-project.
+Voordat u de activering van reserveringen gaat implementeren, moet u leren hoe u de instelling ***Gegevensopslag***, ***Auditiesegmentatie*** en ***Doelstelling voor kanalen inschakelen*** in een AEM Screens-project.
 
 Zie [ContextHub configureren in AEM Screens](configuring-context-hub.md) voor nadere informatie.
 

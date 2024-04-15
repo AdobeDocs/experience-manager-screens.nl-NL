@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
    >
    >In deze documentatie worden de **GroupId** als ***com.adobe.aem.screens*** en de **ArtifactId** als ***Mijn SPA*** (dit zijn de standaardwaarden). U kunt zo nodig uw eigen keuze maken.
 
-1. Zodra het project wordt gecreeerd, of gebruik winde of redacteur van uw keus en voer het geproduceerde Geweven project in.
+1. Nadat het project wordt gecreeerd, of gebruik winde of redacteur van uw keus en voer het geproduceerde Maven project in.
 1. Distribueren naar uw lokale AEM met de opdracht ***mvn clean install -PautoInstallPackage***.
 
 ### Inhoud bewerken in de REACT-app {#editing-content-in-the-react-app}

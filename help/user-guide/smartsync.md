@@ -1,21 +1,17 @@
 ---
 title: Overstappen van ContentSync naar SmartSync
-seo-title: Transitioning from ContentSync to SmartSync
-description: Volg deze pagina voor meer informatie over de functie SmartSync en over de overgang van ContentSync naar SmartSync.
-seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
-uuid: c0619b56-1f6f-465a-a428-6df28e40b555
+description: Meer informatie over deze functie voor SmartSync en over de overgang van ContentSync naar SmartSync.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 content-type: reference
-discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -32,7 +28,7 @@ Deze wordt zowel op de server als op de client uitgevoerd.
 
 **Op de server**:
 
-* Inhoud van de kanalen, inclusief elementen, wordt in cache geplaatst in */var/contentSync*.
+* Inhoud van de kanalen, inclusief elementen, wordt in cache geplaatst in *`/var/contentsync`*.
 * Cache wordt aan de spelers blootgesteld via een manifest dat de beschikbare inhoud voor een vertoning beschrijft.
 
 **Aan de clientzijde**:
@@ -41,11 +37,11 @@ Deze wordt zowel op de server als op de client uitgevoerd.
 
 ### Voordelen van het gebruik van SmartSync {#benefits-of-using-smartsync}
 
-De functie SmartSync biedt een aantal voordelen voor uw AEM Screens-project. Het staat
+De functie SmartSync biedt verschillende voordelen voor uw AEM Screens-project, zoals:
 
-* Dramatische vermindering van het netwerkverkeer en de vereisten van de serveropslag
-* De speler downloadt intelligent activa slechts als het middel ontbreekt of verandert
-* Optimalisatie van server- en clientopslag
+* Een drastische vermindering van het netwerkverkeer en de opslagvereisten aan de serverzijde.
+* De speler downloadt intelligent activa slechts als het element ontbreekt of verandert.
+* Opslagoptimalisaties voor servers en clients.
 
 >[!NOTE]
 >
@@ -63,7 +59,7 @@ De functie SmartSync biedt een aantal voordelen voor uw AEM Screens-project. Het
 
 | **Platform** | **Minimaal ondersteunde Player-versie** |
 |---|---|
-| Android | 3.3.72. |
+| Android™ | 3.3.72. |
 | Chrome-besturingssysteem | 1.0.136 |
 | Windows | 1.0.136 |
 
@@ -85,11 +81,11 @@ Voer de onderstaande stappen uit om van ContentSync over te schakelen op SmartSy
 
 1. **Configuratie Adobe Experience Manager-webconsole** wordt geopend. Zoeken naar *offlinecontent*.
 
-   Voor het zoeken van de **Schermen offline-inhoudsservice** eigenschap, druk **Command+F** for **Mac** en **Ctrl+F** for **Windows**.
+   Als u de opdracht **Schermen offline-inhoudsservice** eigenschap, druk **Command+F** for **Mac**, en **Ctrl+F** for **Windows**.
 
    ![screen_shot_2019-02-19at2643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
 1. Klikken **Opslaan** de **Schermen met services voor offline inhoud** en dus SmartSync voor AEM Screens gebruiken.
-1. Nadat u SmartSync hebt ingeschakeld, moet u naar uw project navigeren en op **Offline inhoud bijwerken** *(vanaf de actiebalk),* zoals weergegeven in onderstaande afbeelding.
+1. Wanneer u SmartSync hebt ingeschakeld, navigeert u naar uw project en klikt u op **Offline inhoud bijwerken** *(vanaf de actiebalk),* zoals weergegeven in onderstaande afbeelding.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)

@@ -1,17 +1,13 @@
 ---
 title: Compatibiliteitsmatrix voor AEM Screens Player
-seo-title: Compatibility Matrix for AEM Screens Player
-description: Op deze pagina worden de AEM Screens Players weergegeven met hun respectievelijke AEM Screens versie.
-seo-description: This page lists the AEM Screens Players with their respective AEM Screens version.
+description: Meer informatie over de AEM Screens Players en hun respectieve versie van AEM Screens.
 page-status-flag: de-activated
-uuid: 54fcc40f-2e8f-40b5-a5c7-2a6264342dc3
 contentOwner: jsyal
-discoiquuid: a3f0cd27-dcc4-49c5-b80b-5025344278e2
 docset: aem65
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 3%
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->De volgende informatie wordt bijgewerkt met ingang van 14 mei 2018.
+>De volgende informatie is bijgewerkt met ingang van 14 mei 2018.
 
 In de volgende sectie worden de Adobe Experience Manager (AEM) Screens Players met hun respectievelijke AEM Screens versie weergegeven.
 
@@ -38,11 +34,11 @@ In de volgende sectie worden de Adobe Experience Manager (AEM) Screens Players m
   </tr>
   <tr>
    <td><strong><strong>AEM 6.3+SP1+Schermen FP2(1.0.298)</strong></strong></td> 
-   <td><p><strong>3.3.0</strong> </p> <p> </p> </td> 
+   <td><p><strong>3.3.0.</strong> </p> <p> </p> </td> 
   </tr>
   <tr>
    <td><strong>AEM 6,4</strong></td> 
-   <td><strong>3.3.0</strong> </td> 
+   <td><strong>3.3.0.</strong> </td> 
   </tr>
  </tbody>
 </table>
@@ -55,25 +51,25 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 [Bestand ophalen](assets/aem-screens-player-ios-330ipa.zip)
 
-## Windows10 Player {#windows-player}
+## Windows 10 Player {#windows-player}
 
 <table>
  <tbody>
   <tr>
    <td><strong>Versie AEM</strong></td> 
-   <td><strong>Windows10 Player</strong></td> 
+   <td><strong>Windows 10 Player</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Schermen FP1(1.0.64_B002)</strong></td> 
-   <td><strong>1.0.12</strong><br /> </td> 
+   <td><strong>1.0.12.</strong><br /> </td> 
   </tr>
   <tr>
    <td><strong><strong>AEM 6.3+SP1+Schermen FP2(1.0.298)</strong></strong></td> 
-   <td><strong>1.0.48 </strong></td> 
+   <td><strong>1,0,48 </strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6,4</strong></td> 
-   <td><p><strong>1.0.48 </strong></p> </td> 
+   <td><p><strong>1,0,48 </strong></p> </td> 
   </tr>
  </tbody>
 </table>
@@ -86,17 +82,17 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 
 [Bestand ophalen](assets/aem-screens-player-windows-1048-signedexe.zip)
 
-## Android-speler {#android-player}
+## Android™-speler {#android-player}
 
-| **Versie AEM** | **Android-speler** |
+| **Versie AEM** | **Android™-speler** |
 |---|---|
 | **AEM 6.3+SP1+Schermen FP1(1.0.64_B002)** | **3.2.68 -** (Beschikbaar op Macromedia Site) en Google Play Store |
-| **AEM 6.3+SP1+Schermen FP2(1.0.298)** | **3.3.0** |
-| **AEM 6,4** | **3.3.0** |
+| **AEM 6.3+SP1+Schermen FP2(1.0.298)** | **3.3.0.** |
+| **AEM 6,4** | **3.3.0.** |
 
 ### Koppeling downloaden {#download-link-2}
 
-Klik op de downloadkoppeling voor Android Player:
+Klik op de downloadkoppeling voor Android™ Player:
 
 aem-screens-player-android-3.3.0.apk.zip
 
@@ -107,15 +103,15 @@ aem-screens-player-android-3.3.0.apk.zip
   <tr>
    <td><strong>Versie AEM</strong></td> 
    <td><strong>iOS Player</strong></td> 
-   <td><strong>Windows10 Player</strong></td> 
+   <td><strong>Windows 10 Player</strong></td> 
    <td><strong>Chrome OS Player</strong><br /> </td> 
-   <td><strong>Android-speler</strong></td> 
+   <td><strong>Android™-speler</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Schermen FP1(1.0.64_B002)</strong></td> 
    <td><p><strong>3.2.72 - </strong>Beschikbaar in Apple-winkel</p> <p><strong>3.3.0.</strong> - Werkt niet</p> <p> </p> </td> 
    <td><strong>1.0.12.</strong> - (Beschikbaar op Macromedia)</td> 
-   <td><p><strong>1.0.30 -</strong> Beschikbaar in de Chrome Store.</p> <p>Niet ondersteund met Feature Pack1</p> </td> 
+   <td><p><strong>1.0.30 -</strong> Beschikbaar in de Chrome Store.</p> <p>Niet ondersteund met Feature Pack 1</p> </td> 
    <td><strong>3.2.68 -</strong> (Beschikbaar op Macromedia Site) en Google Play Store</td> 
   </tr>
   <tr>
