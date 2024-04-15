@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ De volgende pagina beschrijft het gebruik van lay-out met meerdere zones en beha
 
 Zoals bij de projectvereisten, soms hebt u veelvoudige streken in een kanaal nodig en geeft hen uit als één uitvoerige eenheid. Bijvoorbeeld, een productopeenvolging met een verwante sociale media voer die in drie afzonderlijke streken op één enkel kanaal loopt.
 
+>[!NOTE]
+>In kanalen met meerdere zones wordt het plannen op middelenniveau niet aanbevolen vanwege potentiële conflicten en onbedoeld gedrag. Als de activa-niveau planning noodzakelijk is, adviseert het om een afzonderlijk opeenvolgingskanaal tot stand te brengen en het plannen logica binnen dat kanaal toe te passen. Sluit vervolgens het sequentiekanaal in het kanaal met meerdere zones in.
 
 ### Vereisten {#prerequisites}
 
