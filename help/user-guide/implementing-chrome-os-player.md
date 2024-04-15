@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ U kunt een gebruikersvriendelijke apparaatnaam aan uw Chrome-speler toewijzen en
 
 Voer de onderstaande stappen uit om de naam te configureren in Chrome Player:
 
-1. U kunt desgewenst AV-integrators of IT-beheerders toestaan de id en locatie van de bedrijfsmiddelen in te stellen als onderdeel van de inschrijving voor de onderneming.
+1. U kunt desgewenst audio-/video-integrators of IT-beheerders toestaan de id en locatie van het element in te stellen als onderdeel van de inschrijving voor de onderneming.
 
    ![afbeelding](/help/user-guide/assets/chrome-device/chrome1.png)
 

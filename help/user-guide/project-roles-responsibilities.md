@@ -1,31 +1,30 @@
 ---
 title: "Deel 1: Projectrollen en -verantwoordelijkheden"
-seo-title: "Part 1: Project Roles and Responsibilities"
-description: Volg deze zelfstudie om meer inzicht te krijgen in rollen, verantwoordelijkheden en tijdlijnen die tijdens de verkoop- en projectlevenscycli voor een digitaal ondertekeningsproject zijn vereist.
+description: In dit leerprogramma, leer hoe te om rollen, verantwoordelijkheden, en tijdlijnen beter te begrijpen die tijdens de verkoop en de cycli van het projectleven voor een digitaal ondertekeningsproject worden vereist.
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # Deel 1: Projectrollen en -verantwoordelijkheden {#part-project-roles-and-responsibilities}
 
-Deze pagina benadrukt deel 1 van een 5 deelreeks die wordt ontworpen om teamleden te helpen rollen, verantwoordelijkheden en tijdlijnen beter begrijpen tijdens de verkoop en de cyclus van het projectleven voor een digitaal signaalproject wordt vereist.
+Deze pagina benadrukt deel 1 van een 5 deelreeks die wordt ontworpen om teamleden te helpen rollen, verantwoordelijkheden, en tijdlijnen beter begrijpen tijdens de verkoop en de cyclus van het projectleven voor een digitaal ondertekeningsproject wordt vereist.
 
 ## Overzicht {#overview}
 
-In de volgende zelfstudie worden projectrollen en -verantwoordelijkheden voor Adobe, AEM implementoren en A/V-integrators op hoog niveau besproken. U kunt naar volgende afleveringen navigeren om een uitgebreid overzicht te krijgen van hoe u AEM Screens-mogelijkheden en positionering met succes kunt ontwikkelen voor succes op de lange termijn.
+De volgende zelfstudie behandelt de Rollen en Verantwoordelijkheden van het Project voor Adobe, AEM Implementors, en Audio/Visuele Integrators op een hoog niveau. U kunt naar volgende afleveringen navigeren om een uitgebreid overzicht te krijgen van hoe u AEM Screens-mogelijkheden en positionering met succes kunt ontwikkelen voor succes op de lange termijn.
 
-Er zijn 3 primaire groepen die door het leveringsproces binnen worden betrokken:
+Er zijn drie primaire groepen die door het leveringsproces binnen het volgende worden betrokken:
 
 * Adobe
-* A/V-integrator
-* AEM-implementatieteam
+* Audio/video-integratie
+* Implementatieteam AEM
 
 >[!NOTE]
 >
@@ -33,23 +32,23 @@ Er zijn 3 primaire groepen die door het leveringsproces binnen worden betrokken:
 
 ## Overzicht van rollen die betrokken zijn bij een digitaal signaalproject {#summary-of-roles-involved-in-a-digital-signage-project}
 
-Het bepalen van toepassings gebruiks-caseparameters in partnerschap met Adobe, AEM Implementor en A/V Integrator zal softwareontwikkelingswerkingsgebied drijven. Dit zorgt voor een gefaseerde aanpak waarbij prestatiebenchmarks en succesmaatstaven worden vastgesteld voor het hele project.
+Het bepalen van toepassings gebruiks-caseparameters in partnerschap met Adobe, AEM Implementor, en Audio/Visuele Integrator drijft softwareontwikkelingswerkingsgebied. Dit proces zorgt ervoor dat een gefaseerde aanpak wordt vastgesteld met prestatie-benchmarks en succesmaatstaven die alle in het hele project worden geïdentificeerd.
 
 ### Adobe {#adobe}
 
-Adobe bevat bronnen van Adobe Managed Services, zoals de CSE (Customer Success Engineer) en Adobe Support.
+Adobe omvat Adobe Managed Services-bronnen zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-#### AEM {#aem-implementors}
+#### Implementators AEM {#aem-implementors}
 
 An **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
 Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Experience) van eindgebruikers worden ook vastgelegd en via dit proces geleverd.
 
-AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase kan het mogelijk maken het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met extra fasen die ondersteuning voor interactieve elementen bevatten via aanraakschermen, sensoren, dynamische triggers enzovoort.
+AEM Implementors implementeren doorgaans aangepaste functionaliteit in fasen in de loop van de tijd naar locaties. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase omvat het inschakelen van de mogelijkheid om het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met andere fasen die ondersteuning bieden voor interactieve elementen via aanraakschermen, sensoren, dynamische triggers enzovoort.
 
-#### AV-integrators {#av-integrators}
+#### Audio-/video-integratie {#av-integrators}
 
-An **AV-integrator** is verantwoordelijk voor het uitvoeren van detectie met eindgebruikers om vereisten te definiëren die het projectbereik bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
+An **Audio/video-integratie** is verantwoordelijk voor het uitvoeren van detectie met eindgebruikers om vereisten te definiëren die het projectbereik bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
 
 ## Deel 1: Videozelfstudie over projectrollen en -verantwoordelijkheden {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -59,10 +58,10 @@ Volg de onderstaande zelfstudie om precies te begrijpen hoe elke partij in de im
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Leer over de rollen en verantwoordelijkheden van Adobe, AV Integrators en AEM Implementors.*
+*Leer over de rollen en de verantwoordelijkheden van Adobe, Audio/Visuele Integrators, en AEM Implementors.*
 
 ## De volgende stap {#the-next-step}
 
-Zodra u de projectrollen en de verantwoordelijkheden in het uitvoeren van een digitaal ondertekeningsproject begrijpt, volg het volgende leerprogramma dat diep in onderwerpen zoals het testen en pre-verkoopoverwegingen duikt aangezien het project wanneer het ontwikkelen van de kansen van AEM Screens wordt scoped.
+Wanneer u de projectrollen en de verantwoordelijkheden in het uitvoeren van een digitaal ondertekeningsproject begrijpt, volg het volgende leerprogramma. Het delft in onderwerpen zoals het testen en pre-sales overwegingen aangezien het project wanneer het ontwikkelen van de kansen van AEM Screens wordt behandeld.
 
-Navigeren naar **[Deel 2: Overwegingen als projecten worden behandeld](project-considerations.md)** voor meer informatie .
+Navigeren naar **[Deel 2: Aandachtspunten als projecten](project-considerations.md)** voor meer informatie .

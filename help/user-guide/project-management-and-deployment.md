@@ -10,26 +10,26 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
 # Deel 4: Projectbeheer en -implementatie {#part-project-management-and-deployment}
 
-Deze pagina benadrukt deel 4 van een serie van 5 delen die is ontworpen om projectbeheer en de voorbereiding van de implementatie te behandelen en belangrijke factoren te bepalen de Integrator van AV voor met betrekking tot projectbeheer en plaatsingsvoorbereiding verantwoordelijk is.
+Deze pagina benadrukt deel 4 van een serie van 5 delen die wordt ontworpen om projectbeheer en plaatsingsvoorbereiding te behandelen en zeer belangrijke factoren te bepalen de Audio/Video Integrator voor met betrekking tot projectbeheer en plaatsingsvoorbereiding verantwoordelijk is.
 
 ## Overzicht {#overview}
 
 Deze pagina behandelt projectpreproductie, projectinitiatie, en projectvooruitgang.
 
-Het is belangrijk dat alle belanghebbenden begrijpen waarvoor de AV-integrator verantwoordelijk is, zodat gedocumenteerde plannen worden ontwikkeld op basis van de punten die in deze episode worden besproken
+Het is belangrijk dat alle belanghebbenden begrijpen waarvoor de integratie van audio en video verantwoordelijk is, zodat gedocumenteerde plannen worden ontwikkeld op basis van de punten die in deze uitzending aan de orde komen
 
 >[!NOTE]
 >
->Een AV-integrator met expertise op het gebied van projectbeheer van grootschalige Digital Signage-implementaties is belangrijk voor succes op lange termijn. Er wordt voorgesteld de projectplannen tussen de AV-integrator en AEM Implementor te vergelijken. Zo zorgt u ervoor dat de plannen op één lijn worden gebracht terwijl ze worden ontwikkeld en afgerond.
+>Het is belangrijk om op lange termijn een audio/video-integrator te identificeren met expertise op het gebied van projectbeheer van grootschalige Digital Signage-implementaties. Voorgesteld wordt dat projectplannen tussen de audio/video-integrator en AEM Implementor worden vergeleken. Zo zorgt u ervoor dat de plannen op één lijn worden gebracht terwijl ze worden ontwikkeld en afgerond.
 >
 >De partners die een holistische benadering in het beheren van project &quot;pre-productie,&quot;initiatie, en progressiefasen nemen helpen om uw eind-cliënten te verzekeren worden geplaatst om de meeste waarde van hun investering te realiseren
 
@@ -72,11 +72,11 @@ Als overgangen van de verkoopkans aan een project, is een kickoff vergadering ge
 
 Het laatste deel van een initiatief van Dag 1 is het voltooien van een NOC-afhandeling. Als een voltooid project om het even welke Dag twee dienst en steun omvat, organiseert de Projectleider een Vergadering NOC Handoff met de supervisors van die teams.
 
-Deze vergadering bestaat hoofdzakelijk uit de vertegenwoordigers van AV Integrator van Accountbeheer, de Verrichtingen van het Netwerk, Logistiek van het Gebied, de Diensten van de Inhoud, en Boekhouding. Vertegenwoordigers van het Beheer van het project van Adobe, de AEM Implementor, en de Klant van het Eind zijn betrokken in combinatie, met AV Integrator die programma, kadentie, en tollgates bepaalt. Projectmanagers zijn gewoonlijk het best om discussies te coördineren om ervoor te zorgen dat de juiste partijen op elkaar worden afgestemd en dat de vereiste documentatie voor de NOC handoff-vergadering wordt ontwikkeld. De kritieke steundocumentatie komt waarschijnlijk uit de Techniek van IT en/of AV naast Verkoop en de middelen van het Beheer van de Rekening over alle betrokken partijen. Voor om het even welke cliënten die helpdesksteun van NOC vereisen, moet de documentatie aan NOC supervisors voor upload aan een platform van de Kennisbank worden verstrekt.
+Deze vergadering bestaat voornamelijk uit vertegenwoordigers van Audio/Video Integrator van Accountbeheer, Netwerkbewerkingen, Veld Logistics, Content Services en Accounting. Vertegenwoordigers van het Beheer van het project van Adobe, AEM Implementor, en Eind-Klant zijn betrokken bij gelijktijdig, met de Audio/Video Integrator die programma, kadentie, en tollgates bepaalt. Projectmanagers zijn gewoonlijk het best om discussies te coördineren om ervoor te zorgen dat de juiste partijen op elkaar worden afgestemd en dat de vereiste documentatie voor de NOC handoff-vergadering wordt ontwikkeld. De kritieke steundocumentatie komt waarschijnlijk uit de Techniek van IT en/of Audio/Video naast Verkoop en de middelen van het Beheer van de Rekening over alle betrokken partijen. Voor om het even welke cliënten die helpdesksteun van NOC vereisen, moet de documentatie aan NOC supervisors voor upload aan een platform van de Kennisbank worden verstrekt.
 
 ## Deel 4: Videozelfstudie over projectbeheer en -implementatie {#part-video-tutorial-on-project-management-and-deployment}
 
-Leer over projectbeheer en plaatsingsvoorbereiding en bepaal zeer belangrijke factoren de Integrator van AV zoals met betrekking tot projectbeheer en plaatsingsvoorbereiding verantwoordelijk is.
+Leer over projectbeheer en plaatsingsvoorbereiding en bepaal zeer belangrijke factoren de Audio/Video Integrator voor zoals met betrekking tot projectbeheer en plaatsingsvoorbereiding verantwoordelijk is.
 
 ### Projectbeheer en -implementatie
 

@@ -1,13 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202203
-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202203, uitgebracht op 25 maart 2022.
+description: Meer informatie over het AEM Screens Feature Pack 202203 dat op 25 maart 2022 werd uitgebracht.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
 
 ## Beschikbaarheid {#availability}
 
@@ -45,19 +45,19 @@ Deze versie bevat alleen foutoplossingen.
 
 * De Player Activity UI werkt nu zoals verwacht.
 
-* De speler kon de laatste update niet ophalen via het beheren van publicatie. Dit is nu opgelost.
+* De speler kon de laatste update niet doorlopen door publicatie te beheren. Dit is nu opgelost.
 
-### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers
 
 De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 11 van de Eigenschap:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 * iOS
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player
 
 Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

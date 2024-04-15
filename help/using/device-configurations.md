@@ -4,7 +4,7 @@ seo-title: Device Specifications
 description: De pagina beschrijft apparaatspecificaties
 seo-description: The page describes device specifications
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De meest voorkomende belanghebbende bij deze activiteit is A/V-integrator.
+>Doorgaans is de belanghebbende bij deze activiteit een Audio/Video-integrator.
 
 Gebaseerd op de informatie die tijdens *Dagnul*, bevestig de volgende informatie voordat u begint met de ontwikkeling:
 

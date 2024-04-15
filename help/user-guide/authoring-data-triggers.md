@@ -1,14 +1,13 @@
 ---
 title: Authoring met gegevenstriggers
-seo-title: Authoring with Data Triggers
-description: Volg deze pagina om te leren hoe u ontwerpt met gegevenstriggers.
+description: Meer informatie over hoe u kunt ontwerpen met gegevenstriggers in een AEM Screens-kanaal.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -50,11 +49,11 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
 
    ![screen_shot_2019-05-01at4332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Selecteer de **Personalisatie** lusje aan opstelling de configuraties ContextHub en selecteer de weg ContextHub en van Segmenten.
+1. Selecteer de **Personalisatie** lusje zodat kunt u opstelling de configuraties ContextHub en de weg van ContextHub en van Segmenten selecteren.
 
    1. Selecteer de **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en klik op **Selecteren**.
 
-   1. Selecteer de **Segmentpad** als **conf** > **Wij.Detailhandel** > **instellingen** > **wcm** > **segmenten** en klik op **Selecteren**.
+   1. Selecteer de **Segmentpad** als **conf** > **`We.Retail`** > **instellingen** > **wcm** > **segmenten** en klik op **Selecteren**.
 
    1. Klikken **Opslaan en sluiten**.
 
