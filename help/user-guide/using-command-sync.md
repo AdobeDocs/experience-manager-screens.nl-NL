@@ -1,15 +1,13 @@
 ---
 title: Opdrachtsynchronisatie gebruiken
-seo-title: Using Command Sync
-description: Volg deze pagina voor meer informatie over het gebruik van Command Sync.
-seo-description: Follow this page to learn about how to use Command Sync.
+description: Meer informatie over het gebruik van Command Sync in AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -54,7 +52,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Een locatie maken **Lobby** en vervolgens een display met de naam **LobbyDisplay** in de **Locaties** map, zoals weergegeven in de onderstaande afbeelding.
+1. Een locatie maken **Lobby** en dan een display met de naam **LobbyDisplay** in de **Locaties** map, zoals weergegeven in de onderstaande afbeelding.
    ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Wijs het kanaal toe. **ChannelLobby** aan uw **LobbyDisplay**. U kunt het toegewezen kanaal nu vanaf het weergavedashboard bekijken op de weergave.
@@ -64,7 +62,8 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
    >
    >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
 
-1. Navigeren naar **Apparaten** map en klik op **Apparaatbeheer** op de actiebalk om de apparaten te registreren.
+1. Navigeren naar **Apparaten** map.
+1. Klikken **Apparaatbeheer** in de actiebalk.
 
    ![image1](assets/command-sync5.png)
 
@@ -77,26 +76,25 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
 ### Kanaalinstellingen bijwerken
 
-1. Navigeren naar **ChannelLobby** en klik op **Bewerken** in de actiebalk om de kanaalinstellingen bij te werken.
-
+1. Navigeren naar **ChannelLobby**.
+1. Klikken **Bewerken** in de actiebalk.
 1. Selecteer het volledige kanaal zoals weergegeven in de onderstaande afbeelding.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Klik op het moersleutelpictogram om het dialoogvenster **Pagina** in.
+1. Klik op het moersleutelpictogram.
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. Voer de *gesynchroniseerd* trefwoord in het dialoogvenster **Strategie** veld.
-
+1. In de **Pagina** in, voert u de *gesynchroniseerd* trefwoord in het dialoogvenster **Strategie** veld.
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Een primaire {#setting-up-primary}
 
 1. Navigeren naar het weergavedashboard vanaf **CommandSyncDemo** > **Locaties**  > **Lobby** > **LobbyDisplay** en klik op **Dashboard** in de actiebalk.
-U ziet de twee apparaten (chroom- en vensterspeler) in **APPARATEN** zoals weergegeven in de onderstaande afbeelding.
+Let op de twee apparaten (chroom- en vensterspeler) in **APPARATEN** , zoals in het volgende voorbeeld:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Van de **APPARATEN** selecteert u het apparaat dat u als primair wilt instellen. In het volgende voorbeeld ziet u hoe u het Chrome-apparaat als primair apparaat instelt. Klikken op **Instellen als primair apparaat**.
+1. Van de **APPARATEN** selecteert u het apparaat dat u als primair wilt instellen. In het volgende voorbeeld ziet u hoe u het Chrome-apparaat als primair apparaat instelt. Klikken **Instellen als primair apparaat**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
@@ -118,9 +116,9 @@ Selecteer het andere apparaat (in dit geval de Windows-speler) in het menu **APP
 1. Selecteer het apparaat in de lijst en klik op **Opslaan**.
 
    >[OPMERKING:]
-   > De **Synchroniseren met primair apparaat** wordt de lijst met primaire apparaten weergegeven. U kunt de gewenste optie selecteren.
+   > De **Synchroniseren met primair apparaat** wordt de lijst met primaire apparaten weergegeven. Selecteer de gewenste optie.
 
-1. Nadat het apparaat (Windows-speler) is gesynchroniseerd met de primaire speler (Chrome-speler), wordt het apparaat gesynchroniseerd in het dialoogvenster **APPARATEN** deelvenster.
+1. Wanneer het apparaat (Windows-speler) is gesynchroniseerd met de primaire speler (Chrome-speler), wordt het apparaat gesynchroniseerd in het dialoogvenster **APPARATEN** deelvenster.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
@@ -136,11 +134,11 @@ Volg onderstaande stappen om de synchronisatie van het primaire apparaat te verw
 
 1. Ga naar de **APPARATEN** en selecteert u het apparaat.
 
-1. Klikken op **Apparaat(en) desynchroniseren** om de synchronisatie van de client met het primaire apparaat ongedaan te maken.
+1. Klikken **Apparaten synchroniseren** zodat u de synchronisatie van de client met het primaire apparaat ongedaan kunt maken.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
 1. Klikken **Bevestigen** om de synchronisatie van het geselecteerde apparaat met het primaire apparaat ongedaan te maken.
 
    >[OPMERKING:]
-   > Als u het primaire apparaat selecteert en de optie Niet-synchroniseren gebruikt, worden alle apparaten die op het primaire apparaat zijn aangesloten in één stap gedessynchroniseerd.
+   > Als u het primaire apparaat selecteert en de optie Niet-synchroniseren gebruikt, worden alle apparaten die op het primaire apparaat zijn aangesloten in één stap gedesynchroniseerd.

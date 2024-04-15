@@ -1,13 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 202011
-description: "Volg deze pagina om informatie te krijgen voor AEM Screens Feature Pack 202011 uitgebracht op 30 november 2020."
+description: Meer weten over het AEM Screens Feature Pack 202011 dat op 30 november 2020 werd uitgebracht.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
 
 ## Beschikbaarheid {#availability}
 
@@ -49,16 +49,16 @@ Zie [Een apparaat zoeken vanuit Apparaatbeheer](/help/user-guide/device-registra
 
   Het gebrek pingelt interval is nu geplaatst aan 30 seconden in deze versie.
 
-### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers
 
 De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigenschap 6:
 
 * Chrome-besturingssysteem
 * Windows
-* Android
+* Android™
 * Tizen
-* Linux
+* Linux®
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player
 
 Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

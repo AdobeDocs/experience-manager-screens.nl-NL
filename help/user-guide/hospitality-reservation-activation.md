@@ -1,22 +1,18 @@
 ---
 title: Activering van ziekenhuisreservering
-seo-title: Hospitality Reservation Activation
-description: Het volgende gebruiksgeval toont het gebruik van activering van ziekenhuisreserveringen op basis van de waarden in Google Sheets.
-seo-description: The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
-uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
+description: Leer hoe dit gebruiksgeval het gebruik van activering van ziekenhuisreservering aantoont op basis van de waarden in Google Sheets.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -27,9 +23,9 @@ Het volgende gebruiksgeval toont het gebruik van activering van ziekenhuisreserv
 
 ## Beschrijving {#description}
 
-Voor dit geval van Gebruik, is het Blad van Google bevolkt met percentage van reserve op twee restaurants **Restaurant1** en **Restaurant2**. Er wordt een formule toegepast op basis van de waarden van Restaurant1 en Restaurant2 en op basis van de formule, de waarde 1 of 2 wordt toegewezen aan de **AdTarget** Kolom.
+Voor dit geval van Gebruik, is het Blad van Google bevolkt met percentage reserveringen op twee restaurants **`Restaurant1`** en **`Restaurant2`**. Een formule wordt toegepast op basis van waarden van `Restaurant1` en `Restaurant2` en op basis van de formule wordt waarde 1 of 2 toegewezen aan de **AdTarget** Kolom.
 
-Als de waarde van **Restaurant1** > **Restaurant2** vervolgens **Advertentietag** is toegewezen waarde **1** anders **AdTarget** is toegewezen waarde **2**. Waarde 1 genereert *Steekvoedsel* optie en waarde 2 resulteert in weergave van *Thais voedsel* op het scherm.
+Als de waarde van **`Restaurant1`** > **`Restaurant2`** vervolgens **Advertentietag** is toegewezen waarde **1** anders **AdTarget** is toegewezen waarde **2**. Waarde 1 genereert *Steekvoedsel* optie en waarde twee resulteert in weergave van *Thais voedsel* op het scherm.
 
 ## Voorwaarden {#preconditions}
 
@@ -39,9 +35,9 @@ Zie [ContextHub configureren in AEM Screens](configuring-context-hub.md) voor na
 
 ## Basisstroom {#basic-flow}
 
-Voer de onderstaande stappen uit om de activeringsaanvraag voor de ziekenhuisreservering te implementeren voor uw AEM Screens-project:
+Volg onderstaande stappen in het gebruiksgeval om de activering van de ziekenhuisreservering voor uw AEM Screens-project te implementeren:
 
-1. **De Google Sheets vullen en de formule toevoegen.**
+1. **Google Sheets vullen en de formule toevoegen**.
 
    Pas bijvoorbeeld de formule toe op de derde kolom **AdTarget**, zoals weergegeven in onderstaande afbeelding.
 
@@ -50,22 +46,15 @@ Voer de onderstaande stappen uit om de activeringsaanvraag voor de ziekenhuisres
 1. **De segmenten in soorten publiek configureren volgens de vereisten**
 
    1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
-
    1. Selecteer de **Bladen A1 1** en klik op **Bewerken**.
-
-   1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**
-
-   1. Selecteer de **Operator** als **gelijk** in het keuzemenu
-
-   1. Voer de **Waarde** als **1**
-
+   1. Selecteer de vergelijkingseigenschap en klik op de knop **Configuratie** pictogram.
+   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**.
+   1. Selecteer de **Operator** als **gelijk** in het keuzemenu.
+   1. Voer de **Waarde** als **1**.
    1. Selecteer op dezelfde manier de **Bladen A1 2** en klik op **Bewerken**.
-
-   1. Selecteer het vergelijkingsbezit en klik vormen pictogram om de eigenschappen uit te geven.
-   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**
-
-   1. Selecteer de **Operator** als **2**
+   1. Selecteer de vergelijkingseigenschap en klik op de knop **Configuratie** pictogram.
+   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**.
+   1. Selecteer de **Operator** als **2**.
 
 1. Navigeer en selecteer het kanaal () en klik **Bewerken** in de actiebalk. In het volgende voorbeeld: **DataDrivenRestaurant**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
 
@@ -85,6 +74,6 @@ Voer de onderstaande stappen uit om de activeringsaanvraag voor de ziekenhuisres
 1. **De voorvertoning controleren**
 
    1. Klikken **Voorvertoning.** Open ook uw Google-bladen en werk de waarde ervan bij.
-   1. De waarde bijwerken in **Restaurant1** en **Restaurant2** kolommen. Indien **Restaurant1** > **Restaurant2,** u zou een beeld van moeten kunnen bekijken *Steak* anders voedsel, *Thai* voedselafbeeldingen worden op het scherm weergegeven.
+   1. De waarde bijwerken in **`Restaurant1`** en **`Restaurant2`** kolommen. Indien **`Restaurant1`** > **`Restaurant2`,** u zou een beeld van moeten kunnen bekijken *Steak* anders voedsel, *Thai* voedselafbeeldingen worden op het scherm weergegeven.
 
    ![result5](assets/result5.gif)

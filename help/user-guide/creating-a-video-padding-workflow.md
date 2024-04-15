@@ -1,22 +1,18 @@
 ---
 title: Workflow voor het opvullen van video's maken
-seo-title: Creating a Video Padding Workflow
-description: Volg deze pagina voor meer informatie over het maken van een video-opvulling in de workflow voor uw elementen.
-seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
-uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
+description: Meer informatie over het maken van een video-opvulling in de workflow voor uw elementen.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -37,7 +33,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 Het volgende gebruiksgeval bestaat uit het plaatsen van een video (bijvoorbeeld 1280 x 720) in een kanaal met een beeldscherm van 1920 x 1080 en het plaatsen van de video op 0 x 0 (linksboven). De video mag op geen enkele manier worden uitgerekt of gewijzigd en gebruikt deze **Omslag** in de videocomponent.
 
-De video wordt weergegeven als een object van pixel 1 tot pixel 1280, van pixel 1 tot pixel 720, en de rest van het kanaal als standaardkleur.
+De video wordt weergegeven als een object van pixel 1 tot pixel 1280, van pixel 1 tot pixel 720, en de rest van het kanaal is de standaardkleur.
 
 ## Vereisten {#prerequisites}
 
@@ -61,7 +57,9 @@ Voer de onderstaande stappen uit om de workflow te maken en te gebruiken:
 
 Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
-1. Navigeer naar uw AEM en klik op gereedschappen vanaf de zijbalk. Selecteren **Workflow** > **Modellen** om een nieuw model te maken.
+1. Navigeer naar de AEM.
+1. Klik op gereedschappen van de zijbalk.
+1. Selecteren **Workflow** > **Modellen** zodat u een model kunt maken.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -73,27 +71,27 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Sleep de **Opdrachtregel** aan uw werkstroom.
+1. Sleep de **`Command Line`** aan uw werkstroom.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Selecteer de **Opdrachtregel** en opent u het dialoogvenster met eigenschappen.
+1. Selecteer de **`Command Line`** en opent u het dialoogvenster met eigenschappen.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Selecteer de **Argumenten** om de velden in te voeren in het dialoogvenster **Opdrachtregel - stapeigenschappen** in.
-
-   Voer de notatie in het dialoogvenster **MIME-typen** (as ***video/mp4***) en de opdracht als (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhp.mp4**) om de workflow te starten in het dialoogvenster **Opdrachten** veld.
+1. Selecteer de **Argumenten** tab.
+1. In de **Opdrachtregel - stapeigenschappen** de notatie in het dialoogvenster **MIME-typen** (as ***video/mp4***) en de opdracht als (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhp.mp4**). Met deze opdracht wordt de workflow in het dialoogvenster **Opdrachten** veld.
 
    Zie de details op **MIME-typen** en **Opdrachten** in de onderstaande opmerking.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Selecteer de workflow (**VideoRenditions**) en klik op **Workflow starten** van de actiebalk om het dialoogvenster **Workflow uitvoeren** in.
+1. Selecteer de workflow (**VideoRenditions**).
+1. Klikken **Workflow starten** in de actiebalk.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Selecteer het pad van uw element in het dialoogvenster **Payload** (as ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) en voert u de **Titel** als ***RunVideo*** en klik op **Uitvoeren**.
+1. In de **Workflow uitvoeren** selecteert u het pad van uw element in het dialoogvenster **Payload** (as ***/content/dam/huseinpeyda-crossroad01_512kb 2.mp4***) en voert u de **Titel** als ***RunVideo*** en klik op **Uitvoeren**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 

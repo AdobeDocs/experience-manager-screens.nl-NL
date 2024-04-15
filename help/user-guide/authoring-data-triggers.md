@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Volg onderstaande koppelingen voor meer informatie:
 1. **[Gegevensopslag instellen](configuring-context-hub.md)**
 1. **[Segmentering publiek instellen](configuring-context-hub.md)**
 
-Nadat u de voorgaande stappen hebt uitgevoerd, kunt u het activeren van de doelgroep op uw kanalen inschakelen.
+Wanneer u de voorafgaande stappen hebt voltooid, bent u klaar om het richten in uw kanalen toe te laten.
 
 ## Authoring met overzicht van gegevenstriggers {#author-targeting}
 

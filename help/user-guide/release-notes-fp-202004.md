@@ -1,15 +1,13 @@
 ---
 title: Opmerkingen bij de release voor Feature Pack 20204
-seo-title: Release Notes for Feature Pack 202004
-description: Volg deze pagina voor informatie over AEM Screens Feature Pack 202004, uitgebracht op 20 april 2020.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+description: Meer weten over het AEM Screens Feature Pack 20204 dat op 20 april 2020 is uitgebracht.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). Schermen bieden onderhoudsondersteuning voor AEM 6.3 Schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
 
 ## Beschikbaarheid {#availability}
 
@@ -34,9 +32,9 @@ De releasedatum voor AEM Screens Feature Pack 20204 is 20 april 2020.
 
 * **Opties voor afspeelonderbreking**
 
-  Als auteur van inhoud moet u kunnen opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen, maar belangrijke inhoud volledig kunt laten afspelen voordat u het afspelen afsluit vanwege het plannen.
+  Als auteur van inhoud, specificeer wanneer een kanaal wordt onderbroken zodat kunt u verkiezen om niet-kritieke inhoud uit te snijden, maar desgewenst belangrijke inhoud volledig laten spelen alvorens van spel wegens het plannen weg te snijden.
 
-  Zie de sectie **[Onderbrekingsmethode](/help/user-guide/channel-assignment.md#interruption-method-channel)** voor meer informatie over de opties die beschikbaar zijn op **Kanaaltoewijzing** om deze functie te implementeren in uw AEM Screens-project.
+  Meer informatie over de beschikbare opties vindt u op **Kanaaltoewijzing** in het dialoogvenster om deze functie te implementeren in uw AEM Screens-project, raadpleegt u de sectie **[Onderbrekingsmethode](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Startpagina&#39;s voor schermen**
 
@@ -59,7 +57,7 @@ De releasedatum voor AEM Screens Feature Pack 20204 is 20 april 2020.
 
   Tijdens het toevoegen van test aan de functie voor tekstbedekking is de tekengrootte nauwkeurig en verbeterd.
 
-  Zie **[Tekstbedekking](text-overlay.md)** om een aantrekkelijke ervaring in een Kanaal van de Opeenvolging tot stand te brengen door een titel of een beschrijving over bovenop een beeld te verstrekken.
+  Als u een aantrekkelijke ervaring in een Kanaal van de Opeenvolging wilt creëren door een titel of een beschrijving over bovenop een beeld te verstrekken, zie **[Tekstbedekking](text-overlay.md)**.
 
 * **Verbeteringen in opdrachtsynchronisatie**
 
@@ -67,14 +65,14 @@ De releasedatum voor AEM Screens Feature Pack 20204 is 20 april 2020.
 
   Zie **[Opdrachtsynchronisatie](using-command-sync.md)** voor meer informatie .
 
-### Uitgebrachte AEM Screens-spelers {#released-aem-screens-players}
+### Uitgebrachte AEM Screens-spelers
 
 De volgende AEM Screens Players worden vrijgegeven voor AEM Screens AEM 6.4 Pak van de Eigenschap 8 en AEM 6.5 Pak 4 van de Eigenschap:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### Downloads voor AEM Screens Player  {#aem-screens-player-downloads}
+#### Downloads voor AEM Screens Player
 
 Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)**.

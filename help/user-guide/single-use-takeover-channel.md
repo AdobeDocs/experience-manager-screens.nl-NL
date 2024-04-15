@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -17,10 +17,9 @@ ht-degree: 0%
 
 De volgende pagina toont een gebruiksgeval dat op vestiging een project op benadrukt hoe te om een Enig kanaal tot stand te brengen TakeOver dat één keer voor een specifieke tijd speelt.
 
-
 ## Omschrijving hoofdletter gebruiken {#use-case-description}
 
-Met deze optie wordt uitgelegd hoe u een kanaal maakt dat *overname* in het normale afspeelkanaal voor een weergave of groep weergaven. De overname vindt slechts eenmaal en voor een bepaalde tijd plaats.
+In dit geval wordt uitgelegd hoe u een kanaal maakt dat *overname* in het normale afspeelkanaal voor een weergave of groep weergaven. De overname vindt slechts eenmaal en voor een bepaalde tijd plaats.
 
 Er is bijvoorbeeld een Single TakeOver-kanaal dat vanaf vrijdag 9.00 uur tot 10.00 uur &#39;s ochtends wordt afgespeeld. Tijdens deze tijd, zou geen ander kanaal moeten spelen. Voor en na deze keer wordt het overnamekanaal voor eenmalig gebruik niet afgespeeld. In het volgende voorbeeld ziet u hoe u één overnamekanaal maakt waarmee de inhoud gedurende 2 minuten vóór 12:00 uur &#39;s middags op 31 december kan worden afgespeeld tot 12:01 uur &#39;s middags.
 

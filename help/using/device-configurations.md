@@ -1,12 +1,10 @@
 ---
 title: Apparaatspecificaties
-seo-title: Device Specifications
-description: De pagina beschrijft apparaatspecificaties
-seo-description: The page describes device specifications
+description: Meer informatie over de apparaatspecificaties van AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -25,9 +23,9 @@ Gebaseerd op de informatie die tijdens *Dagnul*, bevestig de volgende informatie
 
 * Welke software en besturingssysteem moet op de apparaten worden geïnstalleerd?
 
-* Worden spelers via een internetverbinding verplicht de schermen te synchroniseren met AEM servers?
+* Is een internetverbinding vereist voor spelers om de schermen te synchroniseren met AEM servers?
 
-* Wanneer wordt de inhoud van spelers bijgewerkt?
+* Wanneer wordt inhoud op spelers bijgewerkt?
 
 * Als u video&#39;s uitvoert, moet u de specificaties van het apparaat begrijpen, zodat de inhoud correct wordt weergegeven.
 
@@ -40,4 +38,4 @@ Gebaseerd op de informatie die tijdens *Dagnul*, bevestig de volgende informatie
 
 >[!NOTE]
 >
->Het is ook belangrijk om de specificaties voor de geselecteerde hardware te bevestigen om ervoor te zorgen het de toepassing kan steunen die wordt ontwikkeld. Als de toepassing bijvoorbeeld bedoeld is om vijf HD video&#39;s tegelijk uit te voeren, zal de hardware deze dan ondersteunen?
+>Het is ook belangrijk om de specificaties voor de geselecteerde hardware te bevestigen om ervoor te zorgen het de toepassing kan steunen die wordt ontwikkeld. Als de toepassing bijvoorbeeld bedoeld is om vijf HD-video&#39;s tegelijk uit te voeren, biedt de hardware dan ondersteuning voor deze toepassing?

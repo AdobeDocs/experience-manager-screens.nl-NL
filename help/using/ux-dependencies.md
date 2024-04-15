@@ -1,12 +1,10 @@
 ---
-title: UX-afhankelijkheden voor [!UICONTROL AEM Screens]
-seo-title: UX Dependencies for [!UICONTROL AEM Screens]
-description: In de handleiding worden UX-afhankelijkheden beschreven voor [!UICONTROL AEM Screens]
-seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+title: UX-afhankelijkheden voor AEM Screens
+description: Meer informatie over UX-afhankelijkheden voor AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -31,9 +29,9 @@ De volgende vragen moeten in overweging worden genomen bij het definiëren van e
    * Is het niet te vinden?
    * Geeft het advertenties?
 
-1. Hoe zijn de verbindingen en de netwerkbedradingsopstelling?
+1. Hoe zijn de verbindingen en de opstelling van de netwerkbedrading?
 
-1. Hoe vaak zullen de computers en de verbinding zijn en weg?
+1. Hoe vaak zijn de computers en de verbindingen aan en weg?
 
 1. Ondersteunt het fixontwerp toegankelijkheid?
 
