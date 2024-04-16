@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -45,7 +45,7 @@ An ***Onlinekanaal*** geeft de bijgewerkte inhoud in de real-time omgeving weer,
 
 ### 2. Hoe maak ik online een kanaal? {#how-do-i-make-a-channel-online}
 
-Selecteer het kanaal en navigeer naar kanaaleigenschappen in de actiebalk. Controleren **Modus Ontwikkelaar (kanaal forceren om online te zijn)** krachtens **Kanaal** om het kanaal online te maken.
+Klik op het kanaal en navigeer vanuit de actiebalk naar kanaaleigenschappen. Controleren **Modus Ontwikkelaar (kanaal forceren om online te zijn)** krachtens **Kanaal** om het kanaal online te maken.
 
 ### 3. Wat is het gebruik van het veld Kanaalrol? {#what-is-the-use-of-the-channel-role-field}
 
@@ -70,9 +70,9 @@ Wanneer u een geïntegreerde aangepaste code aan de clientzijde gebruikt `client
 
 Voer de onderstaande stappen uit vanuit de kanaaleditor:
 
-1. Selecteer een kanaal en selecteer vervolgens **Bewerken** in de actiebalk.
-1. Selecteer de component waar u de aangepaste elementen wilt toevoegen `clientlib`.
-1. Selecteer de vormingsknoop (het moersleutelpictogram).
+1. Klik op een kanaal en klik vervolgens op **Bewerken** in de actiebalk.
+1. Klik op de component waaraan u de aangepaste elementen wilt toevoegen `clientlib`.
+1. Klik op de knop Configureren (het moersleutelpictogram).
 1. Ga naar de **Offline configuratie** en voeg het pad toe aan uw aangepaste clientlib in **Client-side bibliotheken**.
 
 ## Apparaatregistratie {#device-registration}
@@ -109,7 +109,7 @@ Schakel het filter Apache Sling Reference Filter Allow Empty in. Dit is vereist 
 
 1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole**
 1. Controleer de **allow.empty** -optie.
-1. Selecteren **Opslaan**.
+1. Klikken **Opslaan**.
 
 ### 3. Hoe kan ik problemen oplossen als tijdens het registreren van een AEM Screens-speler, het apparaat MISLUKT weergeeft en de console-logboeken de fout ENAME_NOT_FOUND weergeven?
 
@@ -133,14 +133,14 @@ Voor meer informatie over waar u apparatenactiviteit kunt controleren, zie [**AE
 
 De ChromeOS-speler kan als Chrome Browser-insteekmodule worden geïnstalleerd in de modus voor ontwikkelaars zonder dat hiervoor een daadwerkelijk chrome speler-apparaat nodig is. Volg onderstaande stappen voor installatie:
 
-1. Selecteren [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
+1. Klikken [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
 1. Pak het uit en sla het op de schijf op.
-1. Chrome openen en **Extensies** in het menu of rechtstreeks door ***chrome://extensions***.
+1. Chrome openen en klikken **Extensies** in het menu of rechtstreeks door ***chrome://extensions***.
 1. Schakel de **Modus Ontwikkelaar** in de rechterbovenhoek.
-1. Selecteren **Niet-verpakt laden** in de linkerbovenhoek en laadt de gedecomprimeerde Chrome Player.
+1. Klikken **Niet-verpakt laden** in de linkerbovenhoek en laadt de gedecomprimeerde Chrome Player.
 1. Indien beschikbaar in de lijst met extensies, schakelt u **AEM Screens Chrome Player** insteekmodule.
-1. Open een nieuw tabblad en selecteer de **Apps** in de linkerbovenhoek, of rechtstreeks naar ***chrome://apps***.
-1. Selecteer de **AEM Screens** Insteekmodule. Standaard wordt de speler gestart in de modus Volledig scherm. Druk **Esc** om de modus Volledig scherm af te sluiten.
+1. Open een nieuw tabblad en klik op de knop **Apps** in de linkerbovenhoek, of rechtstreeks naar ***chrome://apps***.
+1. Klik op de knop **AEM Screens** Insteekmodule. Standaard wordt de speler gestart in de modus Volledig scherm. Druk **Esc** om de modus Volledig scherm af te sluiten.
 
 ### 2. Hoe kan ik problemen oplossen als de schermspeler niet kan worden geverifieerd via een publicatie-instantie met een aangepaste fouthandler?
 
@@ -203,7 +203,7 @@ Schakel Livefyre uit om logfouten te voorkomen door het volgende te doen.
 
    * Navigeren naar `https://<host>:<port>/system/console/bundles`.
    * Zoeken naar de AEM Livefyre-bundel: `com.adobe.cq.social.cq-social-livefyre`.
-   * Selecteren **Stoppen**.
+   * Klikken **Stoppen**.
 
 1. ***Livefyre-poller uitschakelen:***
 

@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 0%
@@ -32,11 +32,11 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    ![afbeelding](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Selecteren **Kanaal toewijzen** in de actiebalk.
+1. Klikken **Kanaal toewijzen** in de actiebalk.
 
    of
 
-   Selecteren **Dashboard** en selecteert u **+Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** zodat u het deelvenster **Kanaaltoewijzing** in.
+   Klikken **Dashboard** en klik op **+Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** zodat u het deelvenster **Kanaaltoewijzing** in.
 
    ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
@@ -78,7 +78,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 Als auteur van inhoud, specificeer wanneer een kanaal wordt onderbroken zodat kunt u verkiezen om niet-kritieke inhoud uit te snijden, maar desgewenst belangrijke inhoud laten spelen alvorens zijn playback wegens het plannen weg te snijden.
 
-Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het menu **Kanaaltoewijzing** dialoogvenster:
+Klik op een van de volgende opties om de methode voor onderbreking in te stellen in het menu **Kanaaltoewijzing** dialoogvenster:
 
 * **Meteen** - Wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen.
 * **Aan einde van huidig item** - Wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, kunt u optioneel wachten tot het huidige item in de reeks is afgespeeld. Alleen daarna kunt u de nieuwe inhoud vernieuwen of afspelen.

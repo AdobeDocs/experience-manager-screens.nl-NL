@@ -2,7 +2,7 @@
 title: Adaptieve uitvoeringen gebruiken in AEM Screens
 description: Leer hoe u Adaptieve uitvoeringen kunt gebruiken in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Inleiding {#introduction}
 
-De adaptieve Vertoningen staan de apparaten toe om automatisch de beste vertoning voor een apparaat te selecteren dat op klant-bepaalde regels wordt gebaseerd. De apparaten downloaden en spelen automatisch de meest aangewezen vertoning van activa die op deze regels wordt gebaseerd die klanten toestaan om zich bij het ontwerpen van *hoofd* ervaring.
+Met adaptieve uitvoeringen kunnen de apparaten automatisch op de beste uitvoering voor een apparaat klikken op basis van door de klant gedefinieerde regels. De apparaten downloaden en spelen automatisch de meest aangewezen vertoning van activa die op deze regels wordt gebaseerd die klanten toestaan om zich bij het ontwerpen van *hoofd* ervaring.
 
 ## Doelstelling {#objective}
 
@@ -35,12 +35,12 @@ Ga als volgt te werk om vertoningen toe te passen op elementen die u wilt gebrui
 1. Ga naar de **Activa** in uw AEM-exemplaar.
 1. Maak een versie van het element die beter geschikt is voor de bewegingsweergave, bijvoorbeeld `seahorse.jpg`.
 1. Kies bijvoorbeeld het naamgevingspatroon van de vertoning.`landscape`, vergelijkbaar met de definitie in **patroon** eigenschap in **CRXDE Lite**. Zie [Regels voor renderingstoewijzing toevoegen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) voor meer informatie .
-1. Selecteren **Vertoning toevoegen** om de vertoning te uploaden, zoals in onderstaande afbeelding wordt getoond.
+1. Klikken **Vertoning toevoegen** om de vertoning te uploaden, zoals in onderstaande afbeelding wordt getoond.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
-1. Selecteer de naam van het elementbestand. De vertoning die u toevoegt, moet het patroon bevatten (gedefinieerd in stap 3), bijvoorbeeld `seahorse-landscape.png`.
-1. Selecteer het element en selecteer **Publicatie beheren** op de actiebalk om het element te publiceren.
+1. Klik op de naam van het elementbestand. De vertoning die u toevoegt, moet het patroon bevatten (gedefinieerd in stap 3), bijvoorbeeld `seahorse-landscape.png`.
+1. Wanneer u het element hebt toegevoegd, klikt u op het element en klikt u op **Publicatie beheren** op de actiebalk om het element te publiceren.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 

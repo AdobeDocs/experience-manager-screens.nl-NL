@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -21,17 +21,17 @@ ht-degree: 0%
 
 U kunt de prestaties voor de activiteiten en het apparaat van de AEM Screens-speler controleren en problemen oplossen met behulp van het apparaatdashboard. Deze pagina biedt informatie over hoe u waargenomen prestatieproblemen voor de schermspeler en de toegewezen apparaten kunt controleren en oplossen.
 
-## Monitor en problemen oplossen via het beheercentrum van het apparaat {#monitor-and-troubleshoot-from-device-control-center}
+## Monitor en problemen oplossen vanuit Device Control Center {#monitor-and-troubleshoot-from-device-control-center}
 
-Via hetDevice Dashboard kunt u de activiteiten bijhouden en problemen met uw AEM Screens-speler oplossen.
+U kunt de activiteit controleren en zo uw speler van AEM Screens problemen oplossen, gebruikend het Dashboard van het Apparaat.
 
 ### Apparaatdashboard {#device-dashboard}
 
-Volg de onderstaande stappen om naar het apparaatdashboard te navigeren:
+Ga als volgt te werk om naar het dashboard van het apparaat te navigeren:
 
-1. Navigeer vanuit uw project naar het apparaatdashboard, bijvoorbeeld ***Project*** testen > ***apparaten***.
+1. Navigeer naar het apparaatdashboard van uw project, bijvoorbeeld ***Project testen*** > ***Apparaten***.
 
-   Selecteer **Apparaten** en **Apparaatbeheer op** de actiebalk.
+   Klikken **Apparaten** en **Apparaatbeheer** in de actiebalk.
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -39,7 +39,7 @@ Volg de onderstaande stappen om naar het apparaatdashboard te navigeren:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Selecteer het apparaat (**NewTestDevice**) en selecteert u **Dashboard** in de actiebalk.
+1. Klik op het apparaat (**NewTestDevice**) en klik op **Dashboard** in de actiebalk.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -53,7 +53,7 @@ De **Activiteit** toont het laatste pingelen van uw AEM Screens speler met times
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Selecteer **ook Logbestanden** verzamelen in de rechterbovenhoek van het **deelvenster Activiteit** om de logbestanden voor uw speler weer te geven.
+Klik ook op **Logbestanden verzamelen** in de rechterbovenhoek van het **Activiteit** om de logbestanden voor uw speler weer te geven.
 
 ### Apparaatdetails bijwerken {#update-device-details}
 
@@ -61,23 +61,23 @@ Controleer de **Apparaatdetails** zodat u de apparaat-IP, het opslaggebruik, de 
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Selecteer ook **Cache wissen** en **Bijwerken** om de cache van uw apparaat te wissen en de [firmware](screens-glossary.md) van dit deelvenster.
+Klik ook op **Cache wissen** en **Bijwerken** om de cache van uw apparaat te wissen en de [firmware](screens-glossary.md) van dit deelvenster.
 
-Selecteer ook **...** in de rechterbovenhoek van het **Apparaatdetails** om de status van de speler opnieuw te starten of te vernieuwen.
+Klik ook op **...** in de rechterbovenhoek van het **Apparaatdetails** om de status van de speler opnieuw te starten of te vernieuwen.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
 ### Apparaatgegevens bijwerken {#update-device-information}
 
-Schakel het **deelvenster DEVICE INFORMATION (APPARAATINFORMATIE)** in. Hier kunt u de configuratie-update, het apparaatmodel, het apparaat besturingssysteem en de shell-informatie bekijken.
+Controleer de **APPARAATGEGEVENS** deelvenster. Hier kunt u de configuratieupdate, het apparatenmodel, apparaat OS, en shell informatie bekijken.
 
-![screen_shot_2019-09-05-13853](assets/screen_shot_2019-09-05at13853pm.png)
+![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Selecteer ook (**...**) in de rechterbovenhoek van het deelvenster Apparaatinformatie om eigenschappen weer te geven of het apparaat bij te werken.
+Klik ook (**...**) in de rechterbovenhoek van het deelvenster Apparaatinformatie om eigenschappen weer te geven of het apparaat bij te werken.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Selecteren **Eigenschappen** zodat u de **Apparaateigenschappen** in. U kunt de apparaattitel bewerken of de optie voor configuratie-updates kiezen als **Handmatig** of **Automatisch**.
+Klikken **Eigenschappen** zodat u de **Apparaateigenschappen** in. U kunt de apparaattitel bewerken of de optie voor configuratie-updates kiezen als **Handmatig** of **Automatisch**.
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Selecteren **Eigenschappen** zodat u de **Apparaateigenschappen** in. U kunt de 
 
 U kunt de schermafbeelding van de speler bekijken vanaf het apparaat **AFSPEELSCREENSHOT** deelvenster.
 
-Selecteren (**...**) in de rechterbovenhoek van het deelvenster Schermafbeelding van speler en selecteer **Schermafbeelding vernieuwen** om de opname van de actieve speler weer te geven.
+Klikken (**...**) rechtsboven in het deelvenster Schermafbeelding van speler en klik op **Schermafbeelding vernieuwen** om de opname van de actieve speler weer te geven.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -98,22 +98,22 @@ Selecteren (**...**) in de rechterbovenhoek van het deelvenster Schermafbeelding
 De **Voorkeuren** kan de gebruiker de voorkeuren wijzigen voor **Gebruikersinterface van beheerder**, **Kanaalswitch**, en **Foutopsporing op afstand** voor het apparaat.
 
 >[!NOTE]
->Zie [AEM Screens Player](working-with-screens-player.md) voor meer informatie over deze opties.
+>Zie voor meer informatie over deze opties [AEM Screens Player](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Selecteer ook **Instellingen** in de rechterbovenhoek om de voorkeuren voor apparaten bij te werken. U kunt de volgende voorkeuren bijwerken:
+Klik ook op **Instellingen** in de rechterbovenhoek om de voorkeuren voor apparaten bij te werken. U kunt de volgende voorkeuren bijwerken:
 
 * **Server-URL**
 * **Resolutie**
-* **Schema opnieuw opstarten**
+* **Plan opnieuw opstarten**
 * **Max. nr. van te bewaren logbestanden**
 * **Logboekniveau**
 
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->U kunt elk van de volgende logbestandniveaus selecteren:
+>U kunt op een van de volgende logniveaus klikken:
 >* **Uitschakelen**
 >* **Foutopsporing**
 >* **Info**
@@ -122,23 +122,23 @@ Selecteer ook **Instellingen** in de rechterbovenhoek om de voorkeuren voor appa
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Problemen met OSGi-instellingen oplossen {#troubleshoot-osgi-settings}
+## OSGi-instellingen problemen oplossen {#troubleshoot-osgi-settings}
 
-Schakel de lege verwijzer in om het apparaat toe te staan gegevens naar de server te plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen.
+Schakel de lege referentie in zodat het apparaat gegevens naar de server kan posten. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen.
 
 Sommige van deze functies zijn momenteel alleen beschikbaar als de *Lege filter Apache-schuifverwijzing toestaan* wordt toegelaten in de configuratie OSGi. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
 
 Voer de onderstaande stappen uit om het filter Leeg toestaan van Apache-verwijzing in te schakelen
 
-1. Navigeer naar **de webconsoleconfiguratie** van Adobe Experience Manager, dat wil gezegd `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Schakel de **optie allow.empty in** .
-1. Selecteer **Opslaan**.
+1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole**, dat wil zeggen: `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Controleer de **allow.empty** -optie.
+1. Klikken **Opslaan**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
-### Aanbevelingen {#recommendations}
+### Recommendations {#recommendations}
 
-In de volgende sectie wordt aangeraden om de netwerkkoppelingen, servers en players te controleren om de gezondheid te begrijpen en op problemen te reageren.
+In de volgende sectie wordt aanbevolen de netwerkkoppelingen, servers en spelers te controleren om de status te begrijpen en op problemen te reageren.
 
 AEM biedt ingebouwde bewaking voor:
 
@@ -158,4 +158,4 @@ Het wordt aanbevolen de Player-hardware en het besturingssysteem zodanig te impl
 
 #### Overige bronnen {#additional-resources}
 
-Zie [Configuratie voor afspelen en problemen oplossen](troubleshoot-videos.md) voor video&#39;s die in je kanaal worden afgespeeld en problemen wilt oplossen.
+Zie [Configuratie en probleemoplossing voor videoweergave](troubleshoot-videos.md) als u fouten wilt opsporen in video&#39;s die in uw kanaal worden afgespeeld en problemen wilt oplossen.

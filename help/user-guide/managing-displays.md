@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -38,11 +38,11 @@ Op deze pagina ziet u hoe u beeldschermen maakt en beheert.
 >Maak een locatie voordat u een weergave maakt. Zie [Locaties maken en beheren](managing-locations.md) voor meer informatie .
 
 1. Ga bijvoorbeeld naar de juiste locatie `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Selecteer uw locatiemap en selecteer **Maken** Deze bevindt zich naast het plusteken op de actiebalk.
-1. Selecteren **Weergave** van de **Maken** wizard, selecteert u vervolgens **Volgende**.
+1. Klik op uw locatiemap en klik op **Maken** Deze bevindt zich naast het plusteken op de actiebalk.
+1. Klikken **Weergave** van de **Maken** wizard, en klik vervolgens op **Volgende**.
 1. Enter **Naam** en **Titel** voor uw weergavelocatie.
 1. Onder de **Weergave** kiest, kiest u de details van de layout. Kies het gewenste **Resolutie**, zoals **Volledig HD**. Kies het aantal apparaten horizontaal en verticaal.
-1. Selecteren **Maken**.
+1. Klikken **Maken**.
 
 De weergave (*StoreDisplay*) wordt gemaakt en toegevoegd aan de locatie (*SanJose*).
 
@@ -63,12 +63,12 @@ Wanneer u in positie hebt tonen, moet de volgende stap een apparaat tot stand br
 Een apparaat config dienst als placeholder voor een echt digitaal signaalapparaat dat nog niet geïnstalleerd is.
 
 1. Ga bijvoorbeeld naar de juiste weergave, `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Selecteer uw weergavemap en selecteer **Dashboard weergeven** in de actiebalk.
-1. Selecteren **+ Apparaatconfiguratie toevoegen** rechtsboven in het **Apparaten** deelvenster.
+1. Klik op de weergavemap en klik op **Dashboard weergeven** in de actiebalk.
+1. Klikken **+ Apparaatconfiguratie toevoegen** rechtsboven in het **Apparaten** deelvenster.
 
-1. Selecteer de **Apparaatconfiguratie** als de vereiste sjabloon en selecteer **Volgende**.
+1. Klik op de knop **Apparaatconfiguratie** als de vereiste sjabloon en klik op **Volgende**.
 
-1. Voer de vereiste eigenschappen in en selecteer **Maken**.
+1. Voer de vereiste eigenschappen in en klik op **Maken**.
 
 Het apparaat config wordt gecreeerd en aan de huidige vertoning toegevoegd (in de volgende demonstratie, wordt het nieuwe apparaat config gecreeerd *DeviceConfig*).
 
@@ -92,9 +92,9 @@ Het weergavedashboard biedt u verschillende deelvensters voor het beheer van wee
 
 >[!NOTE]
 >
->U kunt de dashboardlijsten selecteren en bulkacties voor items activeren in plaats van elk item afzonderlijk te doorlopen.
+>U kunt op de dashboardlijsten klikken en acties voor grote hoeveelheden van items activeren in plaats van elk item afzonderlijk te doorlopen.
 >
->De volgende afbeelding laat bijvoorbeeld zien hoe u meerdere kanalen van het weergavedashboard kunt selecteren.
+>In de volgende afbeelding ziet u bijvoorbeeld hoe u op meerdere kanalen van het weergavedashboard kunt klikken.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -102,12 +102,12 @@ Het weergavedashboard biedt u verschillende deelvensters voor het beheer van wee
 
 De **INFORMATIE OVER WEERGAVE** Het deelvenster bevat de weergave-eigenschappen.
 
-Selecteren (**...**) in de rechterbovenhoek in de **INFORMATIE OVER WEERGAVE** zodat u de eigenschappen kunt bekijken en een voorvertoning van de weergave kunt bekijken.
+Klikken (**...**) in de rechterbovenhoek in de **INFORMATIE OVER WEERGAVE** zodat u de eigenschappen kunt bekijken en een voorvertoning van de weergave kunt bekijken.
 
 
 #### Weergaveeigenschappen {#viewing-properties}
 
-Selecteren **Eigenschappen** zodat u de eigenschappen van de weergave kunt bekijken of wijzigen.
+Klikken **Eigenschappen** zodat u de eigenschappen van de weergave kunt bekijken of wijzigen.
 
 U kunt ook de waarde van de gebeurtenistimer voor uw interactieve kanaal aanpassen in **Niet-actieve time-out** eigendom onder **Weergave** tab. De standaardwaarde is *300 seconden*.
 
@@ -123,9 +123,9 @@ De **TOEGEWEZEN KANALEN** toont de toegewezen kanalen aan dit apparaat.
 
 De **APPARATEN** Het paneel verstrekt informatie over de apparatenvormen.
 
-Selecteren (**...**) in de rechterbovenhoek in de **APPARATEN** zodat u apparaatconfiguraties kunt toevoegen en apparaten kunt bijwerken.
+Klikken (**...**) in de rechterbovenhoek in de **APPARATEN** zodat u apparaatconfiguraties kunt toevoegen en apparaten kunt bijwerken.
 
-Ook, selecteer het apparaat config om eigenschappen te bekijken, een apparaat toe te wijzen, of het volledig te schrappen.
+Klik ook op de apparaatconfiguratie om eigenschappen weer te geven, een apparaat toe te wijzen of het volledig te verwijderen.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

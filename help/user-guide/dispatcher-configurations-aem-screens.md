@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Als u meerdere publicatie-instanties wilt gebruiken die zijn voorafgegaan door �
  }
 ```
 
-Als u één publicatie-exemplaar hebt voorafgegaan door één Dispatcher, helpt het niet om de stickiness op Dispatcher in te schakelen, omdat het taakverdelingsmechanisme elke aanvraag naar Dispatcher kan verzenden. In dit geval selecteert u **Inschakelen** in **Sticiteit** veld voor het inschakelen van het taakverdelingsmechanisme, zoals in de onderstaande afbeelding wordt getoond:
+Als u één publicatie-exemplaar hebt voorafgegaan door één Dispatcher, helpt het niet om de stickiness op Dispatcher in te schakelen, omdat het taakverdelingsmechanisme elke aanvraag naar Dispatcher kan verzenden. In dit geval klikt u op **Inschakelen** in **Sticiteit** veld voor het inschakelen van het taakverdelingsmechanisme, zoals in de onderstaande afbeelding wordt getoond:
 
 ![afbeelding](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

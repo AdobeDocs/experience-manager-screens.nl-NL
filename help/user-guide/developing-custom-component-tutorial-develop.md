@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2135'
 ht-degree: 0%
@@ -88,7 +88,7 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
 
 1. **Ga naar de AEM Screens > `We.Retail` Project uitvoeren:**
 
-   Selecteer in het menu AEM Start het pictogram Schermen. Controleer de `We.Retail` Project uitvoeren wordt gezien.
+   Klik in het menu AEM Start op het pictogram Schermen. Controleer de `We.Retail` Project uitvoeren wordt gezien.
 
    ![wij-kleinhandelaarster](assets/we-retaiul-run-starter.png)
 
@@ -405,9 +405,9 @@ Onder een `We.Retail` De pagina van het Ontwerp van de looppas wordt gecreeerd d
 
 De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de component te testen, wordt een nieuw Kanaal van de Opeenvolging gecreeerd.
 
-1. Navigeer in het menu AEM Start naar **Schermen** > **`We.Retail`Uitvoeren** > en selecteer **Kanalen**.
+1. Navigeer in het menu AEM Start naar **Schermen** > **`We.Retail`Uitvoeren** > en klik op **Kanalen**.
 
-1. Selecteer de **Maken** knop
+1. Klik op de knop **Maken** knop
 
    1. Kies **Entiteit maken**
 
@@ -435,9 +435,9 @@ De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de compo
 
 1. De paginamodus wijzigen in **Ontwerp** Modus.
 
-   1. Selecteer de **moersleutel** Pictogram in Parsys zodat kunt u de toegestane componenten vormen.
+   1. Klik op de knop **moersleutel** Pictogram in Parsys zodat kunt u de toegestane componenten vormen.
 
-   1. Selecteer de **Schermen** en de **`We.Retail`Uitvoeren - Inhoud** groep.
+   1. Klik op de knop **Schermen** en de **`We.Retail`Uitvoeren - Inhoud** groep.
 
    ![2018-04-30_om_5_43:00](assets/2018-04-30_at_5_43pm.png)
 

@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -101,17 +101,17 @@ Voer de onderstaande stappen uit om een bestand te importeren naar een locatiema
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Selecteer het project,** DemoProjectImporter **>** Maken **>** Locaties** importeren vanaf de zijbalk.
+1. Klik op het project** DemoProjectImporter **>** Maken **>** Locaties** importeren vanaf de zijbalk.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. De **Importeren** wordt weergegeven. Selecteer het bestand voor uw project met locaties of selecteer het bestand (***minimum-file.xls***) die u hebt gedownload van de *Vereisten* sectie.
+1. De **Importeren** wordt weergegeven. Klik het dossier voor uw project met plaatsen of klik het dossier (***minimum-file.xls***) die u hebt gedownload van de *Vereisten* sectie.
 
-   Selecteer het bestand nadat u het hebt geselecteerd **Volgende**.
+   Klik op **Volgende**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Controleer de inhoud van het bestand (locaties) via de wizard Importeren en selecteer **Importeren**.
+1. Controleer de inhoud van het bestand (locaties) via de wizard Importeren en klik op **Importeren**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

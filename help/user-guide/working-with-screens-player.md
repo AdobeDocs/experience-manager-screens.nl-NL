@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -32,11 +32,11 @@ U kunt voorkeuren voor uw apparaat configureren vanaf het dashboard van het appa
 
 1. Navigeer naar het apparaatdashboard van uw project, bijvoorbeeld ***Project testen*** > ***Apparaten***.
 
-   Selecteren **Apparaten** en **Apparaatbeheer** in de actiebalk.
+   Klikken **Apparaten** en **Apparaatbeheer** in de actiebalk.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Selecteer het apparaat zodat u het dashboard van het apparaat kunt openen.
+1. Klik op het apparaat zodat u het dashboard van het apparaat kunt openen.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ Als u de interface voor het beheer van de schermspeler wilt weergeven, drukt u o
 
 #### Toegang tot de Opties van het Menu van de Configuratie {#configuration-options}
 
-U kunt uw configuraties bijwerken als u **Configuratie** van het zijmenu, zoals weergegeven in onderstaande afbeelding:
+U kunt uw configuraties bijwerken als u op de knop **Configuratie** van het zijmenu, zoals weergegeven in onderstaande afbeelding:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ In het menu Configuratie kunt u de volgende instellingen wijzigen:
 
 U kunt cache voor kanalen en toepassingen wissen via de interface voor beheer in AEM Screens Player.
 
-Selecteer de **Inhoudcache** van de zijspoorstaaf zodat kunt u het geheime voorgeheugen bijwerken.
+Klik op de knop **Inhoudcache** van de zijspoorstaaf zodat kunt u het geheime voorgeheugen bijwerken.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

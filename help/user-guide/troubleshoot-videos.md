@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Nadat u de video naar het kanaal hebt geüpload, moet AEM beginnen met het maken
 De video weergeven:
 
 1. Naar uw video navigeren, bijvoorbeeld `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Selecteer de video en vouw het menu linksboven uit en selecteer **Uitvoeringen**.
+1. Klik op de video en vouw het menu linksboven uit en klik op **Uitvoeringen**.
 
 Er moeten verschillende uitvoeringen zijn (een MP4 of M4V).
 
@@ -39,7 +39,7 @@ Als er geen uitvoering is, moet u ervoor zorgen dat mpeg is geïnstalleerd op he
 >
 >Als er geen uitvoering is, moet u ervoor zorgen dat mpeg is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
 >
->Selecteren [hier](https://www.ffmpeg.org/download.html) om fmpeg te installeren.
+>Klikken [hier](https://www.ffmpeg.org/download.html) om fmpeg te installeren.
 
 ## Video-elementen {#video-assets}
 
@@ -51,11 +51,11 @@ Controleer of mpeg is geïnstalleerd en de videoprofielen.
 
 ### Videoprofiel controleren {#checking-video-profile}
 
-1. Ga naar de **Videoprofiel**, dat wil zeggen: `http://localhost:4502/etc/dam/video.html` en selecteert u **Testvideo uploaden**.
+1. Ga naar de **Videoprofiel**, dat wil zeggen: `http://localhost:4502/etc/dam/video.html` en klik op **Testvideo uploaden**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Upload een testvideo en selecteer **OK** zodat u met het transcoderen kunt beginnen.
+1. Upload een testvideo en klik op **OK** zodat u met het transcoderen kunt beginnen.
 
    Als de getranscodeerde video ontbreekt, breid de output van ffmpeg uit om het even welke fouten in de consoloutput van ffmpeg te begrijpen.
 
@@ -73,14 +73,14 @@ Controleer of mpeg is geïnstalleerd en de videoprofielen.
 
 Controleer de lijst met profielen in het paginaontwerp als de videocomponent niet correct is geconfigureerd.
 
-1. Navigeer naar het kanaal en selecteer het **Ontwerp** -modus.
+1. Navigeer naar het kanaal en klik op de knop **Ontwerp** -modus.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Selecteer de video en open de **Bewerken** in. Open de **Profielen** tab.
+1. Klik op de video en open de **Bewerken** in. Open de **Profielen** tab.
 
    >[!NOTE]
-   >Selecteer verschillende profielen (er moet ten minste het profiel &quot;Hoge kwaliteit H.264&quot; zijn).
+   >Klik op verschillende profielen (er moet ten minste het profiel &quot;H.264&quot; van hoge kwaliteit zijn).
 
 ### De video controleren in de webspeler {#checking-the-video-in-the-web-player}
 
@@ -91,10 +91,10 @@ Als de video niet wordt uitgevoerd op Safari, wordt deze ook niet uitgevoerd in 
 Ga als volgt te werk als u een DAM-workflow wilt gebruiken om FullHD-uitvoeringen te maken:
 
 1. Ga naar de *workflowmodel-beheerder* dat `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Selecteer de **Element voor schermupdate** model.
-1. Selecteren **Workflow starten** in de actiebalk.
-1. Van de **Workflow uitvoeren** selecteert u uw video-element in het dialoogvenster **Payload**.
-1. Selecteren **Uitvoeren**.
+1. Klik op de knop **Element voor schermupdate** model.
+1. Klikken **Workflow starten** in de actiebalk.
+1. Van de **Workflow uitvoeren** klikt u op uw video-element in het dialoogvenster **Payload**.
+1. Klikken **Uitvoeren**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ De absolute strategie:
 
 Volg de onderstaande stappen om een absolute strategie op te zetten:
 
-1. Navigeer naar de auteur van het kanaal en selecteer de sequentiecomponent zoals in de onderstaande afbeelding wordt getoond.
+1. Navigeer naar de auteur van het kanaal en klik op de component sequence zoals in de onderstaande afbeelding wordt weergegeven.
 1. Open het configuratievenster.
 1. Bewerk de **Strategie** en voeg absolute waarden toe.
 

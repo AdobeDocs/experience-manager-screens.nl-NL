@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
@@ -71,7 +71,7 @@ Volg onderstaande stappen om een `Left20-LandscapeHD3Zone` Layout voor een AEM S
    ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >Selecteren **Alles opslaan** van de actiebar in CRXDE Lite telkens als u creeert, uitgeeft, of inhoud kopieert aan om het even welke knopen. Anders kunt u de updates niet vastleggen.
+   >Klikken **Alles opslaan** van de actiebar in CRXDE Lite telkens als u creeert, uitgeeft, of inhoud kopieert aan om het even welke knopen. Anders kunt u de updates niet vastleggen.
 
 1. De linker-balksjabloon kopiëren vanuit `/libs/screens/core/templates/splitscreenchannel/lbar-left` tot `/apps/customtemplate/template`.
 
@@ -140,11 +140,11 @@ Volg onderstaande stappen om een `Left20-LandscapeHD3Zone` Layout voor een AEM S
 
 Voer de onderstaande stappen uit om de bovenstaande aangepaste sjabloon te gebruiken in uw AEM Screens-project:
 
-1. Navigeer naar uw project van het Scherm dat u in stap 1 creeerde en selecteer **Kanalen** map.
+1. Navigeer naar uw project van het Scherm dat u in stap 1 creeerde en klik **Kanalen** map.
 
    ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. Selecteren **Maken** in de actiebalk en selecteer de sjabloon **`Left20-LandscapeHD3Zone`** van de **Maken** wizard.
+1. Klikken **Maken** op de actiebalk en klik op de sjabloon **`Left20-LandscapeHD3Zone`** van de **Maken** wizard.
 
    ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template9.png)
 

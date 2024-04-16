@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -192,7 +192,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -212,7 +212,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -240,7 +240,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
    De eigenschap `sling:hideChildren`= `"[linkURL,size]`&quot; wordt gebruikt op de `items` knoop om ervoor te zorgen dat **linkURL** en **size** velden worden verborgen in het dialoogvenster. Het is niet voldoende deze knooppunten uit het posterdialoogvenster te verwijderen. De eigenschap `sling:hideResource="{Boolean}true"` op het tabblad Toegankelijkheid wordt gebruikt om het hele tabblad te verbergen.
 
-   Er worden twee geselecteerde velden toegevoegd aan het dialoogvenster, zodat auteurs de tekstpositie en -kleur van de titel en beschrijving kunnen bepalen.
+   Er worden twee klikvelden toegevoegd aan het dialoogvenster om auteurs de tekstpositie en -kleur van de titel en beschrijving te geven.
 
    ![Poster - Definitieve structuur van dialoogvenster](assets/2018-05-03_at_4_49pm.png)
 

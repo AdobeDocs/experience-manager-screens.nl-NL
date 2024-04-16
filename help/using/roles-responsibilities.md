@@ -2,7 +2,7 @@
 title: AEM Screens-projectrollen en -verantwoordelijkheden
 description: Meer informatie over de rollen en verantwoordelijkheden van AEM Screens-projecten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Een Audio/Video Integrator is verantwoordelijk voor het uitvoeren van detectie m
 
 #### Overdenking van hardwarepartner {#selecting-hardware-partner}
 
-Het is van cruciaal belang om de juiste hardwarepartner te selecteren. De volgende vragen moeten in overweging worden genomen:
+Het is van cruciaal belang om op de juiste hardwarepartner te klikken. De volgende vragen moeten in overweging worden genomen:
 
 1. Wat zijn de voorwaarden van de overeenkomst op het niveau van de Dienst?
 

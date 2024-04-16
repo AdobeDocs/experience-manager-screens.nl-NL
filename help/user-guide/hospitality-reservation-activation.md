@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -46,17 +46,17 @@ Volg onderstaande stappen in het gebruiksgeval om de activering van de ziekenhui
 1. **De segmenten in soorten publiek configureren volgens de vereisten**
 
    1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
-   1. Selecteer de **Bladen A1 1** en selecteert u **Bewerken**.
-   1. Selecteer de vergelijkingseigenschap en selecteer de optie **Configuratie** pictogram.
-   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**.
-   1. Selecteer de **Operator** als **gelijk** in het keuzemenu.
+   1. Klik op de knop **Bladen A1 1** en klik op **Bewerken**.
+   1. Klik op de vergelijkingseigenschap en klik op de knop **Configuratie** pictogram.
+   1. Klikken **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**.
+   1. Klik op de knop **Operator** als **gelijk** in het keuzemenu.
    1. Voer de **Waarde** als **1**.
-   1. Selecteer op dezelfde manier de **Bladen A1 2** en selecteert u **Bewerken**.
-   1. Selecteer de vergelijkingseigenschap en selecteer de optie **Configuratie** pictogram.
-   1. Selecteren **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**.
-   1. Selecteer de **Operator** als **2**.
+   1. Klik op de knop **Bladen A1 2** en klik op **Bewerken**.
+   1. Klik op de vergelijkingseigenschap en klik op de knop **Configuratie** pictogram.
+   1. Klikken **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**.
+   1. Klik op de knop **Operator** als **2**.
 
-1. Navigeer en selecteer uw kanaal () en selecteer **Bewerken** in de actiebalk. In het volgende voorbeeld: **DataDrivenRestaurant**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
+1. Navigeren en op het kanaal klikken () en op **Bewerken** in de actiebalk. In het volgende voorbeeld: **DataDrivenRestaurant**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
 
    >[!NOTE]
    >
@@ -70,10 +70,10 @@ Volg onderstaande stappen in het gebruiksgeval om de activering van de ziekenhui
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Selecteren **Targeting** in de editor en selecteer **Merk** en de **Activiteit** in het keuzemenu en selecteert u **Doelstelling starten**.
+1. Klikken **Targeting** vanuit de editor en klik op **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
 1. **De voorvertoning controleren**
 
-   1. Selecteren **Voorvertoning.** Open ook uw Google-bladen en werk de waarde ervan bij.
+   1. Klikken **Voorvertoning.** Open ook uw Google-bladen en werk de waarde ervan bij.
    1. De waarde bijwerken in **`Restaurant1`** en **`Restaurant2`** kolommen. Indien **`Restaurant1`** > **`Restaurant2`,** u zou een beeld van moeten kunnen bekijken *Steak* anders voedsel, *Thai* voedselafbeeldingen worden op het scherm weergegeven.
 
    ![result5](assets/result5.gif)

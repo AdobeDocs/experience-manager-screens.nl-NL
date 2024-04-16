@@ -2,7 +2,7 @@
 title: Duur van afspeelafbeelding
 description: Meer informatie over de afspeelduur van afbeeldingen in AEM Screens.
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Selecteren **Bewerken** in de actiebalk.
+1. Klikken **Bewerken** in de actiebalk.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Selecteer alle afbeeldingen in het kanaal en selecteer het moersleutelpictogram linksboven (zoals in de onderstaande afbeelding). Het dialoogvenster Kanaalniveau configureren wordt geopend.
+1. Klik op alle afbeeldingen in het kanaal en klik op het moersleutelpictogram linksboven (zoals in de onderstaande afbeelding). Het dialoogvenster Kanaalniveau configureren wordt geopend.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -56,7 +56,7 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Bewerk de **Duur** van 8000 (milliseconden) tot 3000 (milliseconden), dat wil zeggen, 3 seconden. Selecteer het vinkje in de rechterbovenhoek van het dialoogvenster **Pagina** zodat u uw wijzigingen kunt opslaan.
+   Bewerk de **Duur** van 8000 (milliseconden) tot 3000 (milliseconden), dat wil zeggen, 3 seconden. Klik op het vinkje rechtsboven in het dialoogvenster **Pagina** zodat u uw wijzigingen kunt opslaan.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

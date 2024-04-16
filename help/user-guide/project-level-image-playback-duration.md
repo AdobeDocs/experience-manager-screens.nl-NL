@@ -2,7 +2,7 @@
 title: Tijdsduur afspeelafbeelding op projectniveau
 description: Leer hoe u de duur van het afspelen van afbeeldingen definieert op projectniveau.
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -43,10 +43,10 @@ In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een
 
 Volg de onderstaande stappen om te leren hoe u de duur van het afspelen van afbeeldingen op projectniveau kunt bijwerken:
 
-1. Ga naar uw project **ProjectLevelPlayback** en selecteert u **Eigenschappen** in de actiebalk.
+1. Ga naar uw project **ProjectLevelPlayback** en klik op **Eigenschappen** in de actiebalk.
    ![elementen](assets/image_playback3.png)
 
-1. Selecteer alle afbeeldingen in het kanaal en selecteer het moersleutelpictogram linksboven (zoals in de onderstaande afbeelding), zodat u het dialoogvenster Kanaalniveau configureren kunt openen.
+1. Klik op alle afbeeldingen in het kanaal en klik op het moersleutelpictogram linksboven (zoals in de onderstaande afbeelding), zodat u het dialoogvenster Kanaalniveau configureren kunt openen.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
@@ -47,7 +47,7 @@ U kunt een gebruikersvriendelijke apparaatnaam aan uw Tizen-speler toewijzen en 
 
 Voer de onderstaande stappen uit om de naam in de Tizen-speler te configureren:
 
-1. Selecteer de menuknop op de afstandsbediening.
+1. Klik op de menuknop op de afstandsbediening.
 1. Navigeren naar **netwerk** > **Apparaatnaam** zodat u een naam aan de speler kunt toewijzen.
 
 ### Updates configureren op het Samsung-apparaat {#config-updates}
@@ -55,11 +55,11 @@ Voer de onderstaande stappen uit om de naam in de Tizen-speler te configureren:
 Volg de onderstaande stappen op het Samsung-apparaat om de installatie van de AEM Screens-speler op het apparaat te voltooien:
 
 1. Navigeer naar het Samsung-apparaat en schakel het in.
-1. Selecteer de **MENU** van de afstandsbediening van het apparaat naar beneden schuiven **Systeem** in de linkernavigatiebalk.
-1. Omlaag schuiven en de **Afspelen via** en wijzigen in **URL Launcher** -optie.
+1. Klik op de knop **MENU** van de afstandsbediening van het apparaat naar beneden schuiven **Systeem** in de linkernavigatiebalk.
+1. Omlaag schuiven en op de knop **Afspelen via** en wijzigen in **URL Launcher** -optie.
    ![afbeelding](/help/user-guide/assets/tizen/rms-2.png)
 1. Wanneer de URL Launcher is ingesteld, drukt u op **Home** vanaf de afstandsbediening.
-1. Ga naar de **Instellingen voor URL-opstart** en voer het IP-adres van uw localhost-server in en selecteer **Gereed**.
+1. Ga naar de **Instellingen voor URL-opstart** en voer het IP-adres van uw localhost-server in en klik op **Gereed**.
 
    >[!NOTE]
    >De Tizen-speler moet verbinding kunnen maken met de http-server.
@@ -145,29 +145,29 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
 
 1. Navigeer aan het adres van de Server en typ in de toegang MagicInfo URL en druk **Gereed**.
 
-1. Indien nodig TLS instellen. Navigeer naar de poort en selecteer het poortnummer op de server en selecteer **Opslaan**.
+1. Indien nodig TLS instellen. Navigeer naar de poort en klik op het poortnummer van de server en klik op **Opslaan**.
 
-1. Ga naar de **Apparaat** en controleer het apparaat dat u hebt geconfigureerd. Als een apparaat is gevonden, schakelt u het selectievakje in en selecteert u **Goedkeuren**.
+1. Ga naar de **Apparaat** en controleer het apparaat dat u hebt geconfigureerd. Wanneer een apparaat is gevonden, klikt u op het selectievakje en vervolgens klikt u op **Goedkeuren**.
 
    >![afbeelding](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Vul de vereiste informatie in en selecteer een apparaatgroep. Selecteren **OK**.
+1. Vul de vereiste gegevens in en klik op een apparaatgroep. Klikken **OK**.
 
    >![afbeelding](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Wanneer het Apparaat wordt goedgekeurd, verschijnt het op de Lijst van het Apparaat. Selecteren *Informatie* op uw apparatendoos zoals aangetoond in het volgende.
+1. Wanneer het Apparaat wordt goedgekeurd, verschijnt het op de Lijst van het Apparaat. Klikken *Informatie* op uw apparatendoos zoals aangetoond in het volgende.
 
    >![afbeelding](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Het dialoogvenster Apparaatinformatie wordt weergegeven. Selecteer de **Apparaatinfo** en selecteert u **Bewerken**.
+1. Het dialoogvenster Apparaatinformatie wordt weergegeven. Klik op de knop **Apparaatinfo** en klik op **Bewerken**.
 
    >![afbeelding](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Bewerk de apparaatopties en selecteer de **Instellen** tab. Navigeren naar **URL Launcher** en voer de URL in die als host fungeert voor de widget en `SSSP config file` zodat u een `SSSP` wordt toegepast, zoals weergegeven in de onderstaande afbeelding.
+1. Bewerk de apparaatopties en klik op de knop **Instellen** tab. Navigeren naar **URL Launcher** en voer de URL in die als host fungeert voor de widget en `SSSP config file` zodat u een `SSSP` wordt toegepast, zoals weergegeven in de onderstaande afbeelding.
 
    ![afbeelding](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Selecteren **Opslaan**.
+1. Klikken **Opslaan**.
 
 ### De afstandsbediening voor schermen gebruiken {#using-remote-control}
 

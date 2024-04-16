@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -24,15 +24,15 @@ U kunt ook rechtstreeks navigeren naar: `http://localhost:4502/screens.html/cont
 
 >[!NOTE]
 >**Navigatietips:**
->U kunt de cursorsleutels ook gebruiken om door verschillende omslagen in AEM te navigeren. Nadat u een bepaalde entiteit hebt geselecteerd, klikt u op de spatiebalk om eigenschappen voor die specifieke map te bewerken of weer te geven.
+>U kunt de cursorsleutels ook gebruiken om door verschillende omslagen in AEM te navigeren. Nadat u op een bepaalde entiteit hebt geklikt, klikt u op de spatiebalk om eigenschappen voor die specifieke map te bewerken of weer te geven.
 
 ## Een nieuw schermproject maken
 
-1. Selecteren **Schermen** van uw AEM instantie.
-1. Selecteren **Schermproject maken**.
-1. Voer de titel in als **TestScreens** en selecteert u **Opslaan**.
+1. Klikken **Schermen** van uw AEM instantie.
+1. Klikken **Schermproject maken**.
+1. Voer de titel in als **TestScreens** en klik op **Opslaan**.
 
-Het project wordt gecreeerd en het brengt u terug naar de console van het Project van de Schermen. U kunt nu uw project selecteren.
+Het project wordt gecreeerd en het brengt u terug naar de console van het Project van de Schermen. U kunt nu op uw project klikken.
 
 In een project, zijn er vijf soorten omslagen, zoals aangetoond in het hieronder cijfer:
 
@@ -51,7 +51,7 @@ In een project, zijn er vijf soorten omslagen, zoals aangetoond in het hieronder
 
 ## Weergaveeigenschappen {#viewing-properties}
 
-Nadat u het project van de Schermen creeert, selecteer het project en selecteer **Eigenschappen** van actiebar zodat kunt u de eigenschappen van uw project uitgeven.
+Nadat u het project van Schermen creeert, klik het project en klik **Eigenschappen** van actiebar zodat kunt u de eigenschappen van uw project uitgeven.
 
 Met de volgende opties kunt u eigenschappen van uw **TestScreens**.
 
@@ -63,10 +63,10 @@ U kunt ook uw eigen aangepaste map maken onder **Planningen**, **Locaties**, **T
 
 Een aangepaste map maken:
 
-1. Selecteer uw project en selecteer **Maken** naast het plusteken in de actiebalk.
-1. De **Maken** wordt geopend en selecteert u de gewenste optie.
-1. Selecteren **Volgende**.
-1. Voer de eigenschappen in en selecteer **Maken**.
+1. Klik op uw project en klik **Maken** naast het plusteken in de actiebalk.
+1. De **Maken** wordt geopend en klikt u op de gewenste optie.
+1. Klik op **Next**.
+1. Voer de eigenschappen in en klik op **Maken**.
 
 In de volgende stappen ziet u hoe u een toepassingsmap maakt voor uw **Toepassingen** primaire pagina in **TestScreens**.
 

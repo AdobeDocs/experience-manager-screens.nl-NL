@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -20,13 +20,13 @@ Bulk die duizenden spelers handmatig registreert, kan omslachtig worden en zorgt
 
 Voer de volgende stappen uit om automatische registratie van spelers te implementeren:
 
-1. Meld u aan bij uw AEM en selecteer uw AEM Screens-project en selecteer **Eigenschappen** in de actiebalk.
-1. Selecteer de **Geavanceerd** zodat u de **Apparaatregistratie** sectie.
+1. Meld u aan bij uw AEM en klik op uw AEM Screens-project en klik op **Eigenschappen** in de actiebalk.
+1. Klik op de knop **Geavanceerd** zodat u de **Apparaatregistratie** sectie.
 
 1. Geef een code voor automatische registratie op in **Registratiecode voor bulk** veld en een optionele standaardweergave in **Standaardweergavetoewijzing** om toe te wijzen aan de automatisch geregistreerde speler.
 
    >[!NOTE]
-   >Voer desgewenst een code van uw keuze in en selecteer een standaardweergave.
+   >Voer desgewenst een code van uw keuze in en klik op een standaardweergave.
 
    ![afbeelding](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Verstrek uw spelers van de aangewezen server URL en registratiecode gebruikend een MDM of configuratie JSON dossier.

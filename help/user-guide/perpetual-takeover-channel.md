@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/p_usecase2.png)
 
-1. Selecteer de **MainAdChannel** en selecteert u **Bewerken** in de actiebalk. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
+1. Klik op de knop **MainAdChannel** en klik op **Bewerken** in de actiebalk. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
 
    ![element](assets/p_usecase3.png)
 
@@ -59,7 +59,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 1. Een **Overname** kanaal dat de inhoud in **MainAdChannel** en speelt elke woensdag van 2:00 tot 16:00
 
-1. Selecteer de **Overname** en selecteert u **Bewerken** in de actiebalk. Sleep enkele elementen naar uw kanaal. In het volgende voorbeeld ziet u hoe een afbeelding met één zone wordt toegevoegd aan dit kanaal.
+1. Klik op de knop **Overname** en klik op **Bewerken** in de actiebalk. Sleep enkele elementen naar uw kanaal. In het volgende voorbeeld ziet u hoe een afbeelding met één zone wordt toegevoegd aan dit kanaal.
 
    ![element](assets/p_usecase4.png)
 
@@ -69,26 +69,26 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 **Kanalen toewijzen aan een weergave**
 
-1. De weergave selecteren **MainLobbyDisplay** van de **Locaties** map. Selecteren **Kanaal toewijzen** op de actiebalk, zodat u de **Kanaaltoewijzing** in.
+1. Klik op de weergave **MainLobbyDisplay** van de **Locaties** map. Klikken **Kanaal toewijzen** op de actiebalk, zodat u de **Kanaaltoewijzing** in.
 
    >[!NOTE]
    >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar **[Kanaaltoewijzing](channel-assignment.md)**.
 
-1. Vul de velden (**Kanaalpad**, **Prioriteit**, en **Ondersteunde gebeurtenissen**) van de **Kanaaltoewijzing** en selecteert u **Opslaan** om de **MainAdChannel** op uw scherm.
+1. Vul de velden (**Kanaalpad**, **Prioriteit**, en **Ondersteunde gebeurtenissen**) van de **Kanaaltoewijzing** en klik op **Opslaan** om de **MainAdChannel** op uw scherm.
 
-   * **Kanaalpad**: Selecteer het pad naar de **MainAdChannel** kanaal
+   * **Kanaalpad**: Klik op het pad naar het **MainAdChannel** kanaal
    * **Prioriteit**: Stel de prioriteit van dit kanaal in op 1.
-   * **Ondersteunde gebeurtenissen**: Selecteer de **Oorspronkelijke belasting** en **Niet-actief scherm**.
+   * **Ondersteunde gebeurtenissen**: Klik op de knop **Oorspronkelijke belasting** en **Niet-actief scherm**.
 
    ![element](assets/p_usecase6.png)
 
-1. De weergave selecteren **Overname** van de **Locaties** map. Selecteren **Kanaal toewijzen** op de actiebalk, zodat u het overnamekanaal kunt toewijzen.
+1. Klik op de weergave **Overname** van de **Locaties** map. Klikken **Kanaal toewijzen** op de actiebalk, zodat u het overnamekanaal kunt toewijzen.
 
 1. Het toewijzen van **Overname** kanaal naar uw weergave op een gepland tijdstip en de volgende velden vullen vanuit de **Kanaaltoewijzing** dialoogvenster en selecteren **Opslaan**:
 
-   * **Kanaalpad**: Selecteer het pad naar de **Overname** kanaal
+   * **Kanaalpad**: Klik op het pad naar het **Overname** kanaal
    * **Prioriteit**: Stel de prioriteit van dit kanaal groter in dan de **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.
-   * **Ondersteunde gebeurtenissen**: Selecteer de **Niet-actief scherm** en **Timer**.
+   * **Ondersteunde gebeurtenissen**: Klik op de knop **Niet-actief scherm** en **Timer**.
    * **Schema**: Ga de tekst voor het programma in dat u dit kanaal wilt in werking stellen de vertoning. De tekst in de **Schema** in dit voorbeeld wordt vermeld *Woensdag na 14.00 uur en vóór 16.00 uur*.
 
      >[!NOTE]
@@ -101,7 +101,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
      ![element](assets/p_usecase7.png)
 
-     Navigeren naar de weergave vanuit **Overname** > **Locaties** > **MainLobby** > **MainLobbyDisplay** en selecteert u **Dashboard** in de actiebalk, zodat u de toegewezen kanalen met hun prioriteiten kunt weergeven, zoals hieronder wordt weergegeven.
+     Navigeren naar de weergave vanuit **Overname** > **Locaties** > **MainLobby** > **MainLobbyDisplay** en klik op **Dashboard** in de actiebalk, zodat u de toegewezen kanalen met hun prioriteiten kunt weergeven, zoals hieronder wordt weergegeven.
 
      >[!NOTE]
      >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.

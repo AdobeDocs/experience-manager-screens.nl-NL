@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -78,10 +78,10 @@ De ***ContentSync*** gebruikt updatehandlers om alle noodzakelijke pagina&#39;s 
 Voer de onderstaande stappen uit om de ContentSync-configuratie te testen:
 
 1. Openen `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Selecteer uw config in de lijst
-1. Cache wissen
-1. Cache bijwerken selecteren
-1. Volledige download selecteren
+1. Klik uw config in de lijst
+1. Klik op Cache wissen
+1. Klik op Cache bijwerken
+1. Klik op Volledige download
 1. Het ZIP-bestand extraheren
 1. Een lokale server starten in de uitgepakte map
 1. De startpagina openen en de status van uw app controleren
@@ -95,16 +95,16 @@ Volg de onderstaande stappen om offline config voor een kanaal toe te laten:
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Navigeer naar het kanaaldashboard.
-1. Selecteren **...** in de **KANAALINFORMATIE** Deelvenster.
+1. Klikken **...** in de **KANAALINFORMATIE** Deelvenster.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. Ga naar de kanaaleigenschappen.
-1. Controleer of onder het tabblad ((Kanaal)) het selectievakje is uitgeschakeld en selecteer vervolgens **Opslaan en sluiten**.
+1. Controleer of het selectievakje is uitgeschakeld op het tabblad (Kanaal) en klik vervolgens op **Opslaan en sluiten**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Selecteer voordat de inhoud correct op het apparaat wordt geïmplementeerd de optie **Offline inhoud bijwerken**.
+   Voordat de inhoud correct op het apparaat wordt geïmplementeerd, klikt u op de knop **Offline inhoud bijwerken**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 

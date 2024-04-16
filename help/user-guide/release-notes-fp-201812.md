@@ -10,7 +10,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -37,7 +37,7 @@ De releasedatum voor AEM Screens Feature Pack 201812 is 16 januari 2019.
 
 * **Meerdere bedrijfsmiddelen plannen**:
 
-  Met planning voor meerdere elementen kan de gebruiker meerdere elementen selecteren en een afspeelschema toepassen op alle geselecteerde elementen. Zie **Meerdere bedrijfsmiddelen plannen** sectie in **[Asset Scheduling](asset-level-scheduling.md)**.
+  Met planning voor meerdere elementen kan de gebruiker op meerdere elementen klikken en een afspeelschema toepassen op alle geselecteerde elementen. Zie **Meerdere bedrijfsmiddelen plannen** sectie in **[Asset Scheduling](asset-level-scheduling.md)**.
 
 * **Layout meerdere zones**:
 

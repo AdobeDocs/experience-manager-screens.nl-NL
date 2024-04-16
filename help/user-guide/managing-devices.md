@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -36,26 +36,26 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Selecteer uw **Apparaten** map en selecteer **Apparaatbeheer** in de actiebalk. De toegewezen en niet toegewezen apparatenvertoning.
+1. Klik op **Apparaten** map en klik op **Apparaatbeheer** in de actiebalk. De toegewezen en niet toegewezen apparatenvertoning.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Selecteer een niet-toegewezen apparaat in de lijst en selecteer de optie **Apparaat toewijzen** in de actiebalk.
+1. Klik op een niet-toegewezen apparaat in de lijst en klik op de knop **Apparaat toewijzen** in de actiebalk.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Selecteer in de lijst de weergave waaraan u het apparaat wilt toewijzen en selecteer de optie **Toewijzen**.
+1. Klik op de weergave waaraan u het apparaat wilt toewijzen in de lijst en klik op de knop **Toewijzen**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Selecteer de **Voltooien** om het toewijzingsproces te voltooien.
+1. Klik op de knop **Voltooien** om het toewijzingsproces te voltooien.
 
 
    Het weergavedashboard geeft het toegewezen apparaat weer in het dialoogvenster **APPARATEN** deelvenster.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Selecteer de (**...**) rechtsboven in het dialoogvenster **APPARATEN** om apparaten toe te voegen of bij te werken.
+   Klik op de knop (**...**) rechtsboven in het dialoogvenster **APPARATEN** om apparaten toe te voegen of bij te werken.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

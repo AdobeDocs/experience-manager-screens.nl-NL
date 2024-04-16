@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 1. Kopieer het pad naar uw project, in dit geval is het pad `/apps/settings/wcm/designs/customstyle`.
 
-1. Navigeren naar het kanaal met de naam **DemoBrand** (gemaakt in stap (1)) en selecteer **Eigenschappen** in de actiebalk nadat u het kanaal hebt geselecteerd.
+1. Navigeren naar het kanaal met de naam **DemoBrand** (gemaakt in stap (1)) en klik op **Eigenschappen** in de actiebalk nadat u het kanaal hebt geselecteerd.
 
 1. Ga naar de **Geavanceerd** en controleer de **Ontwerp** veld.
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -79,7 +79,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Selecteren **Opslaan en sluiten** om het ontwerppad bij te werken.
+1. Klikken **Opslaan en sluiten** om het ontwerppad bij te werken.
 
    >[!IMPORTANT]
    >U kunt desgewenst de bestaande sjablonen voor schermen bedekken om uw eigen ontwerpen standaard te injecteren of uw eigen sjabloon geheel maken. Zie de onderstaande stappen voor meer informatie.
@@ -108,9 +108,9 @@ Wanneer u de voorgaande stappen hebt uitgevoerd, kunt u uw *stats.css* bestand v
 
 Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking weer te geven:
 
-1. Ga naar uw AEM Screens-project met de naam **`customstyle`** > **Kanalen** > **DemoBrand**. Selecteer het kanaal en selecteer **Bewerken** in de actiebalk.
+1. Ga naar uw AEM Screens-project met de naam **`customstyle`** > **Kanalen** > **DemoBrand**. Klik op het kanaal en klik **Bewerken** in de actiebalk.
 
-1. Aangezien u het ontwerp nu aan uw **Ontwerpen** veld, zoals hierboven vermeld, selecteert u **Voorvertoning** Hiermee geeft u de huidige opmaak op de afbeelding weer met tekstbedekking.
+1. Aangezien u het ontwerp nu aan uw **Ontwerpen** , zoals hierboven vermeld, klikt u op **Voorvertoning** Hiermee geeft u de huidige opmaak op de afbeelding weer met tekstbedekking.
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

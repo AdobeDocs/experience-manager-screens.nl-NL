@@ -10,7 +10,7 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -33,8 +33,8 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 >Nadat u de nieuwste Windows Player hebt gedownload (*.exe*), van [AEM 6.4 Player-downloads](https://download.macromedia.com/screens/) Voer de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
->1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en selecteert u **Opslaan**.
->1. Selecteer de **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
+>1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en klik op **Opslaan**.
+>1. Klik op de knop **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -49,15 +49,15 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
    >
    >Ga voor meer informatie over het maken van een project voor schermen in het AEM dashboard naar [Schermproject maken en beheren](creating-a-screens-project.md).
 
-1. Selecteer de **Apparaatbeheer** in de actiebalk.
+1. Klik op de knop **Apparaatbeheer** in de actiebalk.
 
    ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Selecteer de **Apparaatregistratie** aan de rechterbovenzijde.
+1. Klik op de knop **Apparaatregistratie** aan de rechterbovenzijde.
 
    ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Selecteer het gewenste apparaat (zelfde als stap 1) en selecteer **Apparaat registreren**.
+1. Klik op het gewenste apparaat (zelfde als in stap 1) en klik op **Apparaat registreren**.
 
    ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
@@ -69,12 +69,12 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Als de **Registratiecode** is hetzelfde op beide computers, selecteert u **Valideren** in AEM, zoals getoond in stap (6).
-1. Stel de gewenste naam voor het apparaat in en selecteer **Registreren**.
+1. Als de **Registratiecode** is hetzelfde op beide computers, klikt u op **Valideren** in AEM, zoals getoond in stap (6).
+1. Stel de gewenste naam voor het apparaat in en klik op **Registreren**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Selecteren **Voltooien** om het registratieproces te voltooien.
+1. Klikken **Voltooien** om het registratieproces te voltooien.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
@@ -84,7 +84,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
    >
    >De **Weergave toewijzen** Hiermee kunt u het apparaat rechtstreeks aan een weergave toevoegen.
 
-   Als u **Voltooien**, wijst u het apparaat toe aan een weergave.
+   Als u op **Voltooien**, wijst u het apparaat toe aan een weergave.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -96,19 +96,19 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
 Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande stappen uit om uw apparaat aan een weergave in uw AEM Screens-project toe te wijzen:
 
-1. Selecteer het apparaat en selecteer **Apparaat toewijzen** in de actiebalk.
+1. Klik op het apparaat en klik **Apparaat toewijzen** in de actiebalk.
 
    ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Selecteer het pad van de weergave in **Configuratiepad weergeven/apparaat**.
+1. Klik op het pad van de weergave in **Configuratiepad weergeven/apparaat**.
 
    ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Selecteren **Toewijzen** wanneer u het pad selecteert.
+1. Klikken **Toewijzen** wanneer u op het pad klikt.
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Selecteren **Voltooien** zodra het apparaat met succes is toegewezen, zoals in onderstaande afbeelding wordt getoond.
+1. Klikken **Voltooien** zodra het apparaat met succes is toegewezen, zoals in onderstaande afbeelding wordt getoond.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
@@ -122,7 +122,7 @@ Wanneer u apparaten bij uw speler hebt geregistreerd, kunt u alle apparaten weer
 
 1. Navigeer bijvoorbeeld naar de interface van Apparaatbeheer vanuit uw AEM Screens-project. **DemoScreens** > **Apparaten**.
 
-1. Selecteer de **Apparaten** map en selecteer **Apparaatbeheer** in de actiebalk.
+1. Klik op de knop **Apparaten** map en klik op **Apparaatbeheer** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/device-manager/device-manager-1.png)
 

@@ -4,7 +4,7 @@ description: Leer over hoe te om de Agenten van de Replicatie van het Scherm te 
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 3%
@@ -36,17 +36,17 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 
 1. Navigeer naar de AEM Author-instantie.
 
-1. Gereedschappen selecteren > **Beveiliging** > **Gebruikers**.
+1. Klik op Gereedschappen > **Beveiliging** > **Gebruikers**.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
 1. Zoeken naar **`screens-receiver-user`**.
 
-1. Selecteer de **`screens-receiver-user`** en selecteert u **Inschakelen** in de actiebalk.
+1. Klik op de knop **`screens-receiver-user`** en klik op **Inschakelen** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. Selecteren **OK** ter bevestiging.
+1. Klikken **OK** ter bevestiging.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
@@ -54,39 +54,39 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Selecteer de **`screens-receiver-user`** en selecteert u **Eigenschappen** in de actiebalk.
+1. Klik op de knop **`screens-receiver-user`** en klik op **Eigenschappen** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. Selecteren **Wachtwoord wijzigen** krachtens **Accountinstellingen** van de **Details** zoals weergegeven in de onderstaande afbeelding.
+1. Klikken **Wachtwoord wijzigen** krachtens **Accountinstellingen** van de **Details** zoals weergegeven in de onderstaande afbeelding.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. Voer een nieuw wachtwoord in het dialoogvenster **Wachtwoord wijzigen** en selecteert u **Opslaan**.
+1. Voer een nieuw wachtwoord in het dialoogvenster **Wachtwoord wijzigen** en klik op **Opslaan**.
 
    >[!NOTE]
    >Voer het bestaande beheerderswachtwoord in **Uw wachtwoord** veld.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
-1. Selecteren **Opslaan en sluiten**.
+1. Klikken **Opslaan en sluiten**.
 
-1. Selecteer de **`screens-receiver-user`** en selecteert u **Activeren** in de actiebalk.
+1. Klik op de knop **`screens-receiver-user`** en klik op **Activeren** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. Selecteren **OK** ter bevestiging.
+1. Klikken **OK** ter bevestiging.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Selecteer de **`screens-receiver-user`** en selecteert u **Uitschakelen** in de actiebalk.
+1. Klik op de knop **`screens-receiver-user`** en klik op **Uitschakelen** in de actiebalk.
 
    >[!IMPORTANT]
-   > Uitschakelen **`screens-receiver-user`** Hiermee wordt deze gebruiker alleen uitgeschakeld voor de instantie Authoring en blijven alle gebruikers in de instantie Publishing actief. Niet selecteren **Deactiveren** als u de code deactiveert, wordt de gebruiker ook uit de publicatie-instanties verwijderd.
+   > Uitschakelen **`screens-receiver-user`** Hiermee wordt deze gebruiker alleen uitgeschakeld voor de instantie Authoring en blijven alle gebruikers in de instantie Publishing actief. Niet klikken **Deactiveren** als u de code deactiveert, wordt de gebruiker ook uit de publicatie-instanties verwijderd.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
-1. Selecteren **OK** ter bevestiging.
+1. Klikken **OK** ter bevestiging.
 
 ## Instellingen bijwerken voor de agent voor schermreplicatie {#replicate-agent}
 
@@ -96,22 +96,22 @@ Volg de onderstaande sectie om de instellingen in de AEM Screens Replication Age
 >Voer de volgende stappen uit voor ALLE bestaande AEM Screens-replicatiemiddelen.
 
 1. Navigeer naar de AEM.
-1. Gereedschappen selecteren > **Implementatie** > **Replicatie**.
+1. Klik op Gereedschappen > **Implementatie** > **Replicatie**.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. Selecteren **Medewerkers op auteur**.
+1. Klikken **Medewerkers op auteur**.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Zoek naar alle agenten van de Replicatie van AEM Screens op auteur en selecteer de verbinding, zoals aangetoond in het hieronder cijfer.
+1. Zoek naar alle agenten van de Replicatie van AEM Screens op auteur en klik de verbinding, zoals aangetoond in het hieronder cijfer.
 
    >[!NOTE]
    >Zoeken naar alle AEM Screens Replication-agents. De naam van de agent voor schermreplicatie bevat de letter **S** in de titel.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
-1. Selecteren **Bewerken**.
+1. Klikken **Bewerken**.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
@@ -123,9 +123,9 @@ Volg de onderstaande sectie om de instellingen in de AEM Screens Replication Age
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 
-1. Selecteren **OK**.
+1. Klikken **OK**.
 
-1. Selecteer **Verbinding testen** om de verbinding te verifiëren.
+1. Nadat u de voorgaande stappen hebt uitgevoerd, klikt u op **Verbinding testen** om de verbinding te verifiëren.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

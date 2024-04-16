@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -26,19 +26,19 @@ U kunt inhoud vanuit AEM Screens publiceren en de publicatie ervan ongedaan make
 Voer de onderstaande stappen uit om inhoud te updaten van auteur tot uitgever naar apparaat voor een AEM Screens-project:
 
 1. Ga naar uw AEM Screens-project.
-1. Selecteren **Publicatie beheren** van de actiebar zodat kunt u het project aan uw publiceren instantie.
+1. Klikken **Publicatie beheren** van de actiebar zodat kunt u het project aan uw publiceren instantie.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. De **Publicatie beheren** wizard wordt geopend. U kunt de **Handeling** en plant ook de publicatietijd voor nu of later. Selecteren **Volgende**.
+1. De **Publicatie beheren** wizard wordt geopend. U kunt op de knop **Handeling** en plant ook de publicatietijd voor nu of later. Klik op **Next**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Controleer de doos zodat kunt u het volledige project van selecteren **`Manage Publication`** wizard.
+1. Controleer de doos zodat kunt u het volledige project van klikken **`Manage Publication`** wizard.
 
    ![screen_shot_2019-02-25at2712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Selecteren **+ Inclusief onderliggende items** van de actiebar en uncheck alle opties zodat kunt u alle modules in uw project publiceren en selecteren **Toevoegen** publiceren.
+1. Klikken **+ Inclusief onderliggende items** van de actiebar en uncheck alle opties zodat kunt u alle modules in uw project publiceren en klikken **Toevoegen** publiceren.
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ In de volgende afbeelding ziet u bijvoorbeeld hoe u alleen de gewijzigde pagina&
    1. **Alleen reeds gepubliceerde pagina&#39;s opnemen**: Met deze optie kunt u alleen updates beheren voor de pagina&#39;s die eerder zijn gepubliceerd.
 
 
-1. Van de **`Manage Publication wizard`**, selecteert u **Publiceren**.
+1. Van de **`Manage Publication wizard`**, klikt u op **Publiceren**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -72,9 +72,9 @@ In de volgende afbeelding ziet u bijvoorbeeld hoe u alleen de gewijzigde pagina&
    >    1. De workflow werkt niet als de auteur het replicatieproces niet voltooit (de inhoud wordt nog geüpload naar een publicatie-instantie) nadat de auteur het **Publiceren** in de publicatieworkflow beheren.
 
    >[!CAUTION]
-   >Als u als auteur of inhoudsmaker de wijzigingen wilt zien in de apparaten die aan de auteurinstantie zijn gekoppeld, selecteert u **Offline inhoud bijwerken** van het kanaaldashboard of door het project te selecteren. In dit geval wordt de update offline-inhoud alleen uitgevoerd in de auteurinstantie.
+   >Als u als auteur of inhoudsmaker de wijzigingen wilt zien in de apparaten die aan de auteurinstantie zijn gekoppeld, klikt u op **Offline inhoud bijwerken** van het kanaaldashboard of door het project te selecteren. In dit geval wordt de update offline-inhoud alleen uitgevoerd in de auteurinstantie.
 
-1. Ga naar het project en selecteer **Offline inhoud bijwerken** in de actiebalk. Deze handeling stuurt dezelfde opdracht door naar de publicatie-instantie, zodat de offline ritssluitingen ook in de publicatie-instantie worden gemaakt.
+1. Ga naar het project en klik op **Offline inhoud bijwerken** in de actiebalk. Deze handeling stuurt dezelfde opdracht door naar de publicatie-instantie, zodat de offline ritssluitingen ook in de publicatie-instantie worden gemaakt.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -95,16 +95,16 @@ Voer de onderstaande stappen uit om inhoudsupdates te leveren van Auteur > Publi
 >
 >Volg deze sectie alleen als er wijzigingen zijn in een kanaal. Als er na de vorige update geen wijzigingen zijn aangebracht in een kanaal, werkt de publicatieworkflow voor een afzonderlijk kanaal niet.
 
-1. Navigeer naar uw AEM Screens-project en selecteer het kanaal.
-1. Selecteren **Publicatie beheren** in de actiebalk, zodat u het kanaal naar uw instantie Publiceren kunt publiceren.
+1. Navigeer naar uw AEM Screens-project en klik op het kanaal.
+1. Klikken **Publicatie beheren** in de actiebalk, zodat u het kanaal naar uw instantie Publiceren kunt publiceren.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. De **Publicatie beheren** wizard wordt geopend. U kunt de **Handeling** en plant ook de publicatietijd voor nu of later. Selecteren **Volgende**.
+1. De **Publicatie beheren** wizard wordt geopend. U kunt op de knop **Handeling** en plant ook de publicatietijd voor nu of later. Klik op **Next**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Selecteren **Publiceren** van de **`Manage Publication`** wizard.
+1. Klikken **Publiceren** van de **`Manage Publication`** wizard.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 

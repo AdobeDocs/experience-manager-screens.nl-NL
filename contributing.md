@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -36,11 +36,11 @@ Welke methode u kiest hangt van af hoe comfortabel u de documentatie in GitHub z
 
 Heeft u een suggestie, een observatie over de huidige documenten of vraagt u zich af hoe iets wordt beschreven? Maak vervolgens een uitgave. De kwesties zijn ook uitstekend als u iets hebt om bij te dragen, maar voel niet comfortabel het uitgeven van de docs of het maken van een trekpleidooi zelf.
 
-De kwesties staan u toe om uw idee voor verbetering aan de documenten gemakkelijk te beschrijven en een lid van het Team van AEM Docs kan het herzien. Selecteren **Een probleem aanmelden** boven aan het rechternavigatievenster op een pagina om een uitgave te maken.
+De kwesties staan u toe om uw idee voor verbetering aan de documenten gemakkelijk te beschrijven en een lid van het Team van AEM Docs kan het herzien. Klikken **Een probleem aanmelden** boven aan het rechternavigatievenster op een pagina om een uitgave te maken.
 
 ### Een volledige aanvraag maken {#create-a-pull-request}
 
-Als u een probleem ziet en precies weet hoe u dit kunt verhelpen, kunt u een pull-verzoek maken. De verzoeken van de Trek staan u toe om uw eigen uit te geven aan de documentatie, die dan voor opneming door een lid van het Team van AEM Docs wordt herzien. Selecteren **Deze pagina bewerken** boven aan het rechternavigatievenster op een willekeurige pagina om de voorgestelde wijzigingen aan te brengen en de pull-aanvraag te maken.
+Als u een probleem ziet en precies weet hoe u dit kunt verhelpen, kunt u een pull-verzoek maken. De verzoeken van de Trek staan u toe om uw eigen uit te geven aan de documentatie, die dan voor opneming door een lid van het Team van AEM Docs wordt herzien. Klikken **Deze pagina bewerken** boven aan het rechternavigatievenster op een willekeurige pagina om de voorgestelde wijzigingen aan te brengen en de pull-aanvraag te maken.
 
 Alle intrekkingsverzoeken moeten vergezeld gaan van een ondertekend [overeenkomst inzake contribuanten of CLA.](https://opensource.adobe.com/cla.html)  Dit geeft de Adobe toestemming om uw bijdragen als deel van het project te herverdelen. U hoeft slechts één keer een Adobe CLA in te dienen, dus als u al een eerder hebt verzonden, kunt u het beste gaan!
 

@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -58,15 +58,15 @@ In de volgende afbeelding wordt de **TextOverlayDemo** project met **TextSample*
 
 Voer de onderstaande stappen uit om tekstbedekking in een AEM Screens-kanaal te gebruiken:
 
-1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en selecteert u **Bewerken** in de actiebalk.
+1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Bewerken** in de actiebalk.
 
    ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Selecteer de afbeelding en selecteer **Configureren** (moersleutelpictogram) om het dialoogvenster Eigenschappen te openen.
+1. Klik op de afbeelding en klik op **Configureren** (moersleutelpictogram) om het dialoogvenster Eigenschappen te openen.
 
    ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Selecteer de **Tekstbedekking** in de navigatiebalk van het dialoogvenster, zoals in de onderstaande afbeelding wordt getoond.
+1. Klik op de knop **Tekstbedekking** in de navigatiebalk van het dialoogvenster, zoals in de onderstaande afbeelding wordt getoond.
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,15 +98,15 @@ Zie voor meer informatie over het instellen en beheren van gegevensgestuurde wij
 
 Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de onderstaande stappen om waarden uit de Google-werkbladen te gebruiken:
 
-1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en selecteert u **Eigenschappen** in de actiebalk.
+1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Eigenschappen** in de actiebalk.
 
-1. Selecteer de **Personalisatie** lusje zodat kunt u opstelling de configuraties ContextHub.
+1. Klik op de knop **Personalisatie** lusje zodat kunt u opstelling de configuraties ContextHub.
 
-   1. Selecteer de **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en selecteert u **Selecteren**.
+   1. Klik op de knop **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en klik op **Selecteren**.
 
-   1. Selecteer de **Segmentpad** als **conf** > **schermen** > **instellingen** > **wcm** > **segmenten** en selecteert u **Selecteren**.
+   1. Klik op de knop **Segmentpad** als **conf** > **schermen** > **instellingen** > **wcm** > **segmenten** en klik op **Selecteren**.
 
-   1. Selecteren **Opslaan en sluiten**.
+   1. Klikken **Opslaan en sluiten**.
 
       >[!NOTE]
       >
@@ -114,22 +114,22 @@ Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de ond
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en selecteert u **Bewerken** in de actiebalk.
+1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Bewerken** in de actiebalk.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Voeg een component voor afbeelding en tekstbedekking toe aan de afbeelding, zoals beschreven in [Tekstbedekking gebruiken](/help/user-guide/text-overlay.md#using-text-overlay) van deze pagina.
 
-1. Selecteren op **Configureren** (moersleutelpictogram) om het dialoogvenster **Afbeelding** in.
+1. Klikken op **Configureren** (moersleutelpictogram) om het dialoogvenster **Afbeelding** in.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Ga naar de **ContextHub** van de **Afbeelding** in. Selecteren **Toevoegen**.
+1. Ga naar de **ContextHub** van de **Afbeelding** in. Klikken **Toevoegen**.
 
    >[!NOTE]
    >Als u opstelling uw configuratie ContextHub niet hebt, is deze optie gehandicapt voor uw project.
 
-1. Enter **Waarde** in de **Plaatsaanduiding** veld. Selecteer de rij waarin u de waarde op uw Google-blad wilt ophalen **ContextHub-variabele**. In dit geval wordt de waarde opgehaald uit rij 2 en kolom 1 van de Google-bladen. Voer nu de **Standaardwaarde** als **20**, zoals weergegeven in onderstaande afbeelding. Als u klaar bent, selecteert u het vinkje.
+1. Enter **Waarde** in de **Plaatsaanduiding** veld. Klik op de rij waarin je de waarde van je Google-blad wilt ophalen **ContextHub-variabele**. In dit geval wordt de waarde opgehaald uit rij 2 en kolom 1 van de Google-bladen. Voer nu de **Standaardwaarde** als **20**, zoals weergegeven in onderstaande afbeelding. Klik op het vinkje als u klaar bent.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de ond
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Selecteren **Voorvertoning**.
+1. Klikken **Voorvertoning**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

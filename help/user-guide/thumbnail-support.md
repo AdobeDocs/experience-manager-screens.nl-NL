@@ -2,7 +2,7 @@
 title: Ondersteuning voor miniaturen voor video's in AEM Screens
 description: Leer hoe u ondersteuning voor miniaturen voor video's toevoegt in AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Voer de onderstaande stappen uit om miniaturen in video&#39;s te gebruiken:
 
 1. Navigeer naar een bestaand AEM Screens-kanaal of maak een kanaal.
 
-1. Selecteer het kanaal en selecteer **Bewerken** in de actiebalk.
+1. Klik op het kanaal en klik **Bewerken** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ Voer de onderstaande stappen uit om miniaturen in video&#39;s te gebruiken:
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Selecteer de video en selecteer de *moersleutel* pictogram.
+1. Klik op de video en klik op de *moersleutel* pictogram.
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -48,11 +48,11 @@ Voer de onderstaande stappen uit om miniaturen in video&#39;s te gebruiken:
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Sleep een afbeelding van de elementkiezer naar de **Miniatuur** zone neerzetten en selecteren **Gereed**.
+1. Sleep een afbeelding van de elementkiezer naar de **Miniatuur** zone neerzetten en klikken **Gereed**.
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Selecteren **Voorvertoning**.
+1. Klikken **Voorvertoning**.
 
 1. Als een video op de component wordt geplaatst, speelt de video. Als dat niet het geval is en de miniatuur is ingesteld, wordt de miniatuur afgespeeld. Anders, wordt de component beschouwd als niet gevormd en overgeslagen.
 

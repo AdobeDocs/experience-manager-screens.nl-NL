@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ Voer de onderstaande stappen uit om de functie Schermen starten te implementeren
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Selecteer het kanaal **FutureLaunch** en selecteert u **Starten maken** in de actiebalk.
+1. Klik op het kanaal **FutureLaunch** en klik op **Starten maken** in de actiebalk.
 
    ![Afbeelding](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. De **Starten maken** wizard wordt geopend. U kunt het kanaal selecteren dat al zichtbaar is in de wizard of **+ Kanalen toevoegen** om het kanaal toe te voegen waarvoor u de lancering wilt tot stand brengen.
+1. De **Starten maken** wizard wordt geopend. U kunt op het kanaal klikken dat al zichtbaar is in de wizard of op **+ Kanalen toevoegen** om het kanaal toe te voegen waarvoor u de lancering wilt tot stand brengen.
 
-1. Selecteren **Volgende** van de **Starten maken** wizard. De **Subpagina&#39;s opnemen** is standaard geselecteerd.
+1. Klikken **Volgende** van de **Starten maken** wizard. De **Subpagina&#39;s opnemen** is standaard geselecteerd.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >U kunt **+ Kanalen toevoegen** om een ander kanaal toe te voegen waarvoor u de lancering wilt creëren.
 
-   Te gebruiken **Kanalen toevoegen** navigeer naar het kanaal waarvoor u de opstart wilt maken en selecteer **Selecteren**.
+   Te gebruiken **Kanalen toevoegen** navigeer naar het kanaal waarvoor u de opstart wilt maken en klik op **Selecteren**.
 
-   De **Selecteren** is uitgeschakeld als u meerdere kanalen of een map wilt selecteren om de opstart toe te voegen.
+   De **Selecteren** is uitgeschakeld als u op meerdere kanalen of een map probeert te klikken om de opstart toe te voegen.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Nadat u het kanaal of de kanalen hebt geselecteerd, selecteert u **Volgende**.
+   Nadat u op het kanaal of de kanalen klikt, klikt u op **Volgende**.
 
 
-1. Voer de **Titel starten** als **SummerPromotions** en u hoeft de **Opstartdatum**, zoals weergegeven in onderstaande afbeelding. Selecteren **Maken**.
+1. Voer de **Titel starten** als **SummerPromotions** en u hoeft de **Opstartdatum**, zoals weergegeven in onderstaande afbeelding. Klikken **Maken**.
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ Voer de onderstaande stappen uit om de functie Schermen starten te implementeren
      >
      >Bij het starten van de live datum wordt de tijdzone van de speler/het apparaat gevolgd en niet die van de server.
 
-1. U ziet dat de opstart is gemaakt. U kunt **Openen** om de pagina&#39;s in de redacteur te bekijken of te selecteren **Gereed** om terug naar uw project te navigeren.
+1. U ziet dat de opstart is gemaakt. U kunt op **Openen** om de pagina&#39;s in de editor weer te geven of klik op **Gereed** om terug naar uw project te navigeren.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
@@ -167,15 +167,15 @@ Nadat de lancering wordt gecreeerd, kunt u de eigenschappen zoals levende datum,
 
 Voer de onderstaande stappen uit om de eigenschappen van de startpagina te bewerken:
 
-1. Naar het kanaal navigeren **FutureLaunch** *(de volgende introductie)* en selecteert u het kanaal zoals wordt weergegeven in de onderstaande afbeelding.
+1. Naar het kanaal navigeren **FutureLaunch** *(de volgende introductie)* en klik op het kanaal zoals in de onderstaande afbeelding wordt weergegeven.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Selecteren **Dashboard** in de actiebalk en u ziet de **AFGELOPEN LAUNCHES** van het kanaaldashboard.
+1. Klikken **Dashboard** in de actiebalk en u ziet de **AFGELOPEN LAUNCHES** van het kanaaldashboard.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Selecteer de start en selecteer **Starteigenschappen** van de **AFGELOPEN LAUNCHES** deelvenster.
+1. Klik op Starten en klik op **Starteigenschappen** van de **AFGELOPEN LAUNCHES** deelvenster.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-19.png)
 
@@ -183,7 +183,7 @@ Voer de onderstaande stappen uit om de eigenschappen van de startpagina te bewer
 
 Nadat u de opstart hebt gemaakt, kunt u kanalen toevoegen aan of verwijderen uit de bestaande opstart met **Starten bewerken** -optie.
 
-Als u klaar bent, selecteert u **Opslaan** om terug te navigeren naar **FutureLaunch** kanaal.
+Als u klaar bent, klikt u op **Opslaan** om terug te navigeren naar **FutureLaunch** kanaal.
 
 ### Schermen handmatig starten bevorderen{#promote-the-screens-launch-manually}
 
@@ -199,8 +199,8 @@ U kunt de bronnen die u wilt promoten, kiezen in het kader van deze handmatige p
    * **Gewijzigde pagina&#39;s promoten** - Alleen aangepaste startbronnen worden bevorderd. Gebruik deze optie als de startrevisie niet is vereist.
    * **Goedgekeurde pagina&#39;s promoten** - Voor deze optie moet de goedkeuringsworkflow voor het starten worden uitgevoerd op de startkanalen. Alleen goedgekeurde pagina&#39;s worden gepromoveerd op de ingestelde live datum.
    * **Huidige pagina promoten** - Voor deze optie is de goedkeuringsworkflow alleen voor de huidige pagina vereist.
-1. Selecteren **Volgende** in de **Starten bevorderen** wizard.
-1. Selecteren **Bevorderen** de lancering te bevorderen.
+1. Klikken **Volgende** in de **Starten bevorderen** wizard.
+1. Klikken **Bevorderen** de lancering te bevorderen.
 
 ### De functie Schermen starten verwijderen
 

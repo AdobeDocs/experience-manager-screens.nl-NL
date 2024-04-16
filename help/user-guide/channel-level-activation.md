@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -91,8 +91,8 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 1. **Weergave onder locatie maken**
 
    1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio**.
-   1. Selecteren **Regio** en selecteert u **+ Maken** in de actiebalk.
-   1. Selecteren **Weergave** van de wizard en maakt u een weergave met de naam **RegionDisplay.**
+   1. Klikken **Regio** en klik op **+ Maken** in de actiebalk.
+   1. Klikken **Weergave** van de wizard en maakt u een weergave met de naam **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -100,32 +100,32 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    Voor **MainAdChannel:**
 
-   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en selecteert u **Kanaal toewijzen** in de actiebalk.
+   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
    1. **Kanaaltoewijzing** wordt geopend.
-   1. Selecteren **Referentiekanaal** per pad.
-   1. Selecteer de **Kanaalpad** als **Activering op kanaalniveau** > ***Kanalen*** > ***MainAdChannel***.
+   1. Klikken **Referentiekanaal** per pad.
+   1. Klik op de knop **Kanaalpad** als **Activering op kanaalniveau** > ***Kanalen*** > ***MainAdChannel***.
    1. De **Kanaalrol** is gevuld als **hoofdkanaal**.
-   1. Selecteer de **Prioriteit** als **1**.
-   1. Selecteer de **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting** en **Niet-actief scherm**.
-   1. Selecteren **Opslaan**.
+   1. Klik op de knop **Prioriteit** als **1**.
+   1. Klik op de knop **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting** en **Niet-actief scherm**.
+   1. Klikken **Opslaan**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >U kunt ook kanaal toewijzen vanaf het weergavedashboard door te navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en selecteren **Dashboard** in de actiebalk. Selecteren **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
+   >U kunt ook kanaal toewijzen vanaf het weergavedashboard door te navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en selecteren **Dashboard** in de actiebalk. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
    Kanaal toewijzen **TargetedSinglePlay** voor display**:
 
-   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en selecteert u **Kanaal toewijzen** in de actiebalk.
+   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
    1. **Kanaaltoewijzing** wordt geopend.
-   1. Selecteren **Referentiekanaal** per pad.
-   1. Selecteer de **Kanaalpad** als **Activering op kanaalniveau*** > ***Kanalen*** > ***TargetedSinglePlay***.
+   1. Klikken **Referentiekanaal** per pad.
+   1. Klik op de knop **Kanaalpad** als **Activering op kanaalniveau*** > ***Kanalen*** > ***TargetedSinglePlay***.
    1. De **Kanaalrol** is gevuld als **doelgericht**.
    1. Stel de **Prioriteit** als **2**.
-   1. Selecteer de **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Timer**, zoals weergegeven in onderstaande afbeelding.
+   1. Klik op de knop **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Timer**, zoals weergegeven in onderstaande afbeelding.
    1. Kies in **actief van** 27 november 2018 11:59 **actief tot** 28 november 2018 12:05
-   1. Selecteren **Opslaan**.
+   1. Klikken **Opslaan**.
 
    >[!CAUTION]
    >
@@ -135,7 +135,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    >[!NOTE]
    >
-   >Als u dezelfde dag wilt kiezen, selecteert u de volgende dag en bewerkt u de datum vervolgens handmatig naar dezelfde dag, maar voor een later tijdstip. Als u dit doet, kan de gebruiker geen datum uit het verleden selecteren. Zie het volgende voorbeeld:
+   >Als u dezelfde dag wilt kiezen, klikt u op de volgende dag en bewerkt u de datum vervolgens handmatig naar dezelfde dag, maar voor een later tijdstip. Als u dit doet, kan de gebruiker geen datum uit het verleden selecteren. Zie het volgende voorbeeld:
 
    ![new1](assets/new1.gif)
 
@@ -160,7 +160,7 @@ Stel dat u de inhoud van een kanaal alleen op vrijdag van 13.00 uur tot 10.00 uu
 
 ### Dagverdeling {#day-parting}
 
-1. Selecteer het kanaal en selecteer vervolgens **Dashboard** in de actiebalk.
+1. Klik op het kanaal en klik vervolgens op **Dashboard** in de actiebalk.
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
 
@@ -190,7 +190,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 ### WeekParting {#week-parting}
 
-1. Selecteer het kanaal en selecteer vervolgens **Dashboard** in de actiebalk.
+1. Klik op het kanaal en klik vervolgens op **Dashboard** in de actiebalk.
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
 
@@ -219,7 +219,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 ### MonthParting {#month-parting}
 
-1. Selecteer het kanaal en selecteer vervolgens **Dashboard** in de actiebalk.
+1. Klik op het kanaal en klik vervolgens op **Dashboard** in de actiebalk.
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
 
@@ -247,7 +247,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 ### Combinatie van partners {#combined-parting}
 
-1. Selecteer het kanaal en selecteer vervolgens **Dashboard** in de actiebalk.
+1. Klik op het kanaal en klik vervolgens op **Dashboard** in de actiebalk.
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
 

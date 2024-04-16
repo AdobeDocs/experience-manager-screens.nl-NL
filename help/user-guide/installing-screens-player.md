@@ -6,7 +6,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -28,8 +28,8 @@ Downloaden **AEM Screens Player**, bezoek de [AEM 6.5 Player-downloads](https://
 >Nadat u de nieuwste speler (*.exe*), voert u de stappen op de speler uit, zodat u de ad-hocinstallatie kunt voltooien:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
->1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en selecteert u **Opslaan**.
->1. Selecteren **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
+>1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en klik op **Opslaan**.
+>1. Klikken **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
 
 ## Standaardafspeelcontrole {#playback-monitoring}
 

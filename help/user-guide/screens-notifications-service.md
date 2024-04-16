@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Voer de onderstaande stappen uit om de instellingen voor e-mailmeldingen te conf
    >
    >U kunt slechts één e-mailadres invoeren. Als u een grote hoeveelheid e-mail wilt verzenden, maakt u een groep- of distributielijst met de relevante gebruikers.
 
-1. Selecteren **Opslaan** om de monitoractiviteit door een e-mail voor uw AEM Screens apparaat te vormen.
+1. Klikken **Opslaan** om de monitoractiviteit door een e-mail voor uw AEM Screens apparaat te vormen.
 
 ## E-mailmelding {#email-notification}
 

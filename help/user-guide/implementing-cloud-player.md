@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 10375baae631d46e9003240149a3e16d5605e7b6
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -38,7 +38,7 @@ De installatie van Cloud Player kan op verschillende platforms verschillen. In h
 
    ![afbeelding](/help/user-guide/assets/cloud-player-install.png)
 
-1. Selecteer het installatiepictogram en de installatieknop in het bevestigingsdialoogvenster. Cloud Player wordt als zelfstandige toepassing op uw apparaat geïnstalleerd en kan met een pictogram worden gestart.
+1. Klik op het installatiepictogram en de installatieknop in het bevestigingsdialoogvenster. Cloud Player wordt als zelfstandige toepassing op uw apparaat geïnstalleerd en kan met een pictogram worden gestart.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Meer informatie over bulkprovisioning op Chrome OS vindt u op [Cloud Player inst
 
 ## Configuratie vereist op AEM instanties {#bulk-provisioning-config-aem}
 
-Selecteer op basis van het type van de AEM-instantie een van de volgende hulplijnen om CORS b/w AEM &amp; cloudspeler in te schakelen:
+Op basis van het type van de AEM-instantie klikt u op een van de volgende hulplijnen om CORS b/w AEM &amp; cloud player in te schakelen:
 * [AEM op locatie/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
 * [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
 

@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
 1. Een volgnummer maken met de naam **Cafeteria** in de **Kanalen** map.
 
-1. Selecteer het kanaal en selecteer vervolgens **Bewerken** in de actiebalk.
+1. Klik op het kanaal en klik vervolgens op **Bewerken** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -62,13 +62,13 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
 1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** > **Locaties** > **SanJose** > **Lobby**.
 
-1. Selecteren **Kanaal toewijzen** in de actiebalk.
+1. Klikken **Kanaal toewijzen** in de actiebalk.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Of,
 
-   Selecteren **Dashboard** op de actiebalk en selecteer **+Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
+   Klikken **Dashboard** op de actiebalk en klik op **+Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,14 +84,14 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
    >
    >Zie voor meer informatie over de eigenschappen van kanaaltoewijzingen [Kanaaleigenschappen](#channel-properties) sectie.
 
-1. Van de **Schema** selecteert u de optie **Activeringsvenster** en **Herhalingsschema**.
+1. Van de **Schema** klikt u op de knop **Activeringsvenster** en **Herhalingsschema**.
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
    >Zie voor meer informatie over de eigenschappen van kanaaltoewijzingen [Kanaaleigenschappen](#channel-properties) sectie.
 
-1. Selecteren **Opslaan** zodra u uw voorkeuren hebt geconfigureerd.
+1. Klikken **Opslaan** zodra u uw voorkeuren hebt geconfigureerd.
 
 ### De inhoud weergeven in Chrome Player {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
 
 1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoScreens** > **Locaties** > **SanJose** > **Lobby**.
 
-1. Selecteren **Kanaal toewijzen** in de actiebalk.
+1. Klikken **Kanaal toewijzen** in de actiebalk.
 
    Of,
 
-   Selecteren **Dashboard** en selecteert u **Tijdlijn** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
+   Klikken **Dashboard** en klik op **Tijdlijn** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -181,7 +181,7 @@ In het venster Activering kunt u een **Begindatum** en **Einddatum** om uw inhou
 
 ### Herhalingsschema {#recurrence-schedule}
 
-Met het schema Herhaling kunt u een terugkerend schema voor uw inhoud instellen. Selecteren **+ Plan toevoegen** om een terugkerend programma aan uw kanaal toe te voegen.
+Met het schema Herhaling kunt u een terugkerend schema voor uw inhoud instellen. Klikken **+ Plan toevoegen** om een terugkerend programma aan uw kanaal toe te voegen.
 
 >[!NOTE]
 >U kunt veelvoudige terugkomende programma&#39;s aan uw kanaal toevoegen.

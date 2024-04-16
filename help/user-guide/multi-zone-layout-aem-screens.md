@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -50,14 +50,14 @@ Tijdens het maken van een kanaal kunt u verschillende sjablonen gebruiken om zon
 
 **Een kanaal maken**
 
-1. Selecteer de Adobe Experience Manager-koppeling (linksboven) en **Schermen**. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`.
-1. Navigeren naar **Kanalen** map en selecteer **Maken** in de actiebalk.
+1. Klik op de Adobe Experience Manager-koppeling (linksboven) en vervolgens **Schermen**. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`.
+1. Navigeren naar **Kanalen** map en klik op **Maken** in de actiebalk.
 
-1. Selecteren **1 x 2 gesplitst schermkanaal** van de **Maken** wizard.
+1. Klikken **1 x 2 gesplitst schermkanaal** van de **Maken** wizard.
 
-1. Selecteren **Volgende** en voert u de **titel** als **MultiZone**.
+1. Klikken **Volgende** en voert u de **titel** als **MultiZone**.
 
-1. Selecteren **Maken** om het maken van het kanaal te voltooien.
+1. Klikken **Maken** om het maken van het kanaal te voltooien.
 
 ### Enkelvoudige elementen in een of meer zones gebruiken {#using-single-assets-in-one-or-more-zones}
 
@@ -66,7 +66,7 @@ U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle afzon
 1. **Inhoud toevoegen aan het kanaal**
 
    1. Navigeren naar **Zones** > **Kanalen**> **MultiZone**.
-   1. Selecteer de **MultiZone** kanaal en selecteer **Bewerken** in de actiebalk.
+   1. Klik op de knop **MultiZone** kanaal en klik **Bewerken** in de actiebalk.
 
 1. **Afbeeldingen toevoegen aan het kanaal**
 
@@ -80,17 +80,17 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
 
 1. **Een kanaalmap maken**
 
-   1. Navigeren naar **Zones** > **MultiZone** > **Kanalen** en selecteert u **Maken** in de actiebalk.
-   1. Selecteren **Map Kanalen** van de **Maken** wizard en selecteert u **Volgende**.
-   1. Voer de titel in als **Ingesloten kanalen** en selecteert u **Maken**.
+   1. Navigeren naar **Zones** > **MultiZone** > **Kanalen** en klik op **Maken** in de actiebalk.
+   1. Klikken **Map Kanalen** van de **Maken** wizard en klik op **Volgende**.
+   1. Voer de titel in als **Ingesloten kanalen** en klik op **Maken**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Twee kanalen toevoegen aan de kanaalmap**
 
-   1. Navigeren naar **Zones** > **Kanalen** > **Ingesloten kanalen** en selecteert u **Maken** in de actiebalk.
-   1. Selecteren **Volgekanaal** van de **Maken** wizard om een kanaal te maken met de naam **`Zone1`**.
-   1. Selecteren **`Zone1`** en selecteert u **Bewerken** in de actiebalk.
+   1. Navigeren naar **Zones** > **Kanalen** > **Ingesloten kanalen** en klik op **Maken** in de actiebalk.
+   1. Klikken **Volgekanaal** van de **Maken** wizard om een kanaal te maken met de naam **`Zone1`**.
+   1. Klikken **`Zone1`** en klik op **Bewerken** in de actiebalk.
    1. Sleep enkele afbeeldingen naar dit kanaal.
    1. Maak op dezelfde manier een ander volgnummer met de naam **`Zone2`** in **Ingesloten kanalen** map.
    1. Sleep een video naar dit kanaal.
@@ -110,11 +110,11 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
 1. **Ingesloten reeksen (component) toevoegen aan hoofdkanaal (MultiZone)**
 
    1. Navigeren naar **Zones** > **Kanalen** > **MultiZone**.
-   1. Selecteren **Bewerken** in de actiebalk.
+   1. Klikken **Bewerken** in de actiebalk.
    1. Sleep de **Ingesloten reeks** aan beide zones.
-   1. Selecteer de ingesloten reeks in een van de zones.
-   1. Selecteer de **Configureren** (moersleutel) naar een van de ingesloten reeksen in de editor.
-   1. Kanaalpad selecteren als **Zones** > **Kanalen** > **Ingesloten kanalen** > **`Zone1`**, zoals weergegeven in onderstaande afbeelding.
+   1. Klik op de ingesloten reeks in een van de zones.
+   1. Klik op de knop **Configureren** (moersleutel) naar een van de ingesloten reeksen in de editor.
+   1. Klik op het kanaalpad als **Zones** > **Kanalen** > **Ingesloten kanalen** > **`Zone1`**, zoals weergegeven in onderstaande afbeelding.
    1. Voeg op dezelfde manier de **`Zone2`** naar een andere ingesloten reekscomponent in de editor.
 
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-3.png)
@@ -126,16 +126,16 @@ Maak een locatie en een weergave zodat u de inhoud in de AEM Screens-speler kunt
 1. **Een locatie maken**
 
    1. Navigeren naar **Zones** > **Locaties** map.
-   1. Selecteer de **Locaties** map en selecteer **Maken** in de actiebalk.
-   1. Selecteren **Locatie** van de **Maken** wizard en selecteert u **Volgende**.
-   1. Voer de **Titel** als **SanJose** en selecteert u **Maken**.
+   1. Klik op de knop **Locaties** map en klik op **Maken** in de actiebalk.
+   1. Klikken **Locatie** van de **Maken** wizard en klik op **Volgende**.
+   1. Voer de **Titel** als **SanJose** en klik op **Maken**.
 
 1. **Weergave maken**
 
    1. Navigeren naar **Zones** > **Locaties** map.
-   1. Selecteer de **SanJose** locatie en selecteer **Maken** in de actiebalk.
-   1. Selecteren **Weergave** van de **Maken** wizard en selecteert u **Volgende**.
-   1. Voer de **Titel** als **Lobby** en selecteert u **Maken**.
+   1. Klik op de knop **SanJose** locatie en klik op **Maken** in de actiebalk.
+   1. Klikken **Weergave** van de **Maken** wizard en klik op **Volgende**.
+   1. Voer de **Titel** als **Lobby** en klik op **Maken**.
 
 ### Kanalen toewijzen aan de weergave {#channel-channel}
 
@@ -144,10 +144,10 @@ Wijs de kanalen aan de vertoning toe om de inhoud te bekijken. Voer de onderstaa
 1. **Kanaal toewijzen aan de weergave**
 
    1. Navigeren naar **Zones** > **Locaties** > **SanJose**> **Lobby**.
-   1. Selecteer de **Lobby** weergeven en selecteren **Kanaal toewijzen** in de actiebalk.
+   1. Klik op de knop **Lobby** weergeven en klikken **Kanaal toewijzen** in de actiebalk.
    1. Voer het pad naar het **MultiZone** kanaal in **Kanaalpad**.
    1. Stel de **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Timer**.
-   1. Selecteren **Opslaan**.
+   1. Klikken **Opslaan**.
 
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Wijs op dezelfde manier de andere twee ingebedde kanalen (**`Zone1`** en **`Zone2`**) op dit scherm.
@@ -167,20 +167,20 @@ Wanneer u een locatie en een weergave hebt ingesteld, voert u de onderstaande st
 1. **Het apparaat registreren**
 
    1. Navigeren naar **Zones** > **Apparaten** map.
-   1. Selecteer de **Apparaten** map en selecteer **Apparaatbeheer** in de actiebalk.
-   1. Selecteren **Apparaatregistratie** en selecteer het apparaat in behandeling in de lijst.
+   1. Klik op de knop **Apparaten** map en klik op **Apparaatbeheer** in de actiebalk.
+   1. Klikken **Apparaatregistratie** en klik op het apparaat in behandeling in de lijst.
 
       >[!NOTE]
       > De titel van het apparaat moet overeenkomen met het apparaattoken (**Token** veld) weergegeven in het dialoogvenster **Apparaatregistratie** tab.
 
-   1. Als de titel overeenkomt met het apparaattoken, selecteert u het apparaat en selecteert u **Apparaat registreren** in de actiebalk.
-   1. Als de registratiecode overeenkomt met de code in de Schermspeler **Apparaatregistratie** tab, selecteert u **Valideren** in de actiebalk.
+   1. Als de titel overeenkomt met het apparaattoken, klikt u op het apparaat en klikt u op **Apparaat registreren** in de actiebalk.
+   1. Als de registratiecode overeenkomt met de code in de Schermspeler **Apparaatregistratie** tabblad, klikt u op **Valideren** in de actiebalk.
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img6.png)
-   1. Voer de **Titel** als **`Chrome-Device1`** en selecteert u **Registreren**.
-   1. Selecteren **Weergave toewijzen** en selecteer het pad naar de apparaatconfiguratie.
+   1. Voer de **Titel** als **`Chrome-Device1`** en klik op **Registreren**.
+   1. Klikken **Weergave toewijzen** en klik op het pad naar de apparaatconfiguratie.
 
    >[!NOTE]
-   >Als u de inhoud probeert weer te geven in de Schermspeler, moet u **Offline inhoud bijwerken** van het kanaaldashboard voor elk van de kanalen die aan de vertoning worden toegewezen.
+   >Als u de inhoud in de Schermspeler probeert te bekijken, zorg ervoor u klikt **Offline inhoud bijwerken** van het kanaaldashboard voor elk van de kanalen die aan de vertoning worden toegewezen.
 
 ### Het resultaat weergeven {#viewing-the-result}
 

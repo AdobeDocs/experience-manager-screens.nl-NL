@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
@@ -31,10 +31,10 @@ Wanneer u een project van AEM Screens creeert, ziet u een lijst van standaardcom
 
 Volg onderstaande stappen om de standaardcomponenten voor uw project Schermen weer te geven:
 
-1. Selecteer het kanaal. Bijvoorbeeld: **`We.Retail In Store`** > **Kanalen** > **Niet-actief kanaal**.
+1. Klik op het kanaal. Bijvoorbeeld: **`We.Retail In Store`** > **Kanalen** > **Niet-actief kanaal**.
 
-1. Selecteren **Bewerken** in de actiebalk.
-1. Selecteer in de AEM Editor de optie **+** van de zijbalk.
+1. Klikken **Bewerken** in de actiebalk.
+1. Klik in de AEM Editor op de knop **+** van de zijbalk.
 1. Alle componenten die door gebrek in een het projectvertoningen van AEM Screens inbegrepen zijn, zoals aangetoond in het hieronder cijfer.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,12 +45,12 @@ AEM biedt diverse andere componenten. U kunt altijd andere componenten (die niet
 
 In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een AEM Screens-project getoond:
 
-1. Selecteer het kanaal waaraan u een component wilt toevoegen. Bijvoorbeeld: **`We.Retail In Store`** > **Kanalen** > **Niet-actief kanaal**.
+1. Klik op het kanaal waaraan u een component wilt toevoegen. Bijvoorbeeld: **`We.Retail In Store`** > **Kanalen** > **Niet-actief kanaal**.
 
-1. Selecteren **Bewerken** in de actiebalk.
-1. Selecteren **Ontwerp** -modus.
-1. Selecteer de volledige ontwerpeditor aan de rechterkant en selecteer het instellingensymbool, zodat u het dialoogvenster **Parsys-ontwerp** in.
-1. U kunt de componenten selecteren die u in uw AEM Screens-project wilt importeren. In het volgende voorbeeld wordt de toevoeging van **Livefyre** aan een AEM Screens-project.
+1. Klikken **Bewerken** in de actiebalk.
+1. Klikken **Ontwerp** -modus.
+1. Klik op de volledige ontwerpeditor aan de rechterkant en klik op het instellingensymbool, zodat u het dialoogvenster **Parsys-ontwerp** in.
+1. U kunt op de componenten klikken die u in uw AEM Screens-project wilt importeren. In het volgende voorbeeld wordt de toevoeging van **Livefyre** aan een AEM Screens-project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -64,7 +64,7 @@ In de volgende sectie worden de AEM Screens-componenten uitgelegd die u in uw pr
 
 >[!NOTE]
 >
->Als u de eigenschappen van een component wilt weergeven, selecteert u de component en selecteert u het hamerpictogram om eigenschappen te openen/weergeven.
+>Als u de eigenschappen van een component wilt weergeven, klikt u op de component en klikt u op het hamerpictogram om eigenschappen te openen/weergeven.
 
 ### Toepassing {#application}
 
@@ -74,8 +74,8 @@ Toepassingscomponent heeft de volgende eigenschappen:
 
 | **Eigenschap** | **Beschrijving** |
 |---|---|
-| ***Toepassingspad*** | Selecteer het absolute pad waar de toepassing bestaat. |
-| ***Duur (milliseconden)*** | Selecteer de toepassingsduur. Standaard is de duur ingesteld op -1, wat betekent dat het element voorgoed wordt uitgevoerd (dat wil zeggen, toepassing op één pagina). Wanneer u de waarde voor de duur > 0 instelt, wordt het element voor de opgegeven duur weergegeven en gaat u vervolgens naar de volgende waarde. |
+| ***Toepassingspad*** | Klik op het absolute pad waar de toepassing bestaat. |
+| ***Duur (milliseconden)*** | Klik op de duur van de toepassing. Standaard is de duur ingesteld op -1, wat betekent dat het element voorgoed wordt uitgevoerd (dat wil zeggen, toepassing op één pagina). Wanneer u de waarde voor de duur > 0 instelt, wordt het element voor de opgegeven duur weergegeven en gaat u vervolgens naar de volgende waarde. |
 
 In het volgende voorbeeld wordt getoond hoe u een toepassingscomponent insluit samen met de voorvertoning van de eigenschappen ervan:
 
@@ -193,7 +193,7 @@ De dynamische ingesloten reeks heeft de volgende eigenschappen:
 
 ### Ervaar fragment {#experience-fragment}
 
-Met een ervaringsfragment kunt u een Experience-fragment (groep van een of meer componenten, inclusief de inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM Screens-kanaal. Sleep de component naar AEM Editor en selecteer het Experience Fragment.
+Met een ervaringsfragment kunt u een Experience-fragment (groep van een of meer componenten, inclusief de inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM Screens-kanaal. Sleep de component naar AEM Editor en klik op Fragment van ervaring.
 
 Ga voor meer informatie over het maken van een Experience Fragment en het toepassen op een AEM Screens-project naar [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md).
 
@@ -221,7 +221,7 @@ Het afbeeldingselement heeft drie tabbladen, namelijk **Afbeelding**, **Toeganke
 | **Eigenschap** | **Beschrijving** |
 |---|---|
 | **Afbeelding** |
-| ***Afbeeldingselement*** | Selecteer het afbeeldingselement. |
+| ***Afbeeldingselement*** | Klik op het afbeeldingselement. |
 | ***Titel*** | Titel van de afbeelding. |
 | ***Koppelen naar*** | Voeg een koppeling toe aan de afbeelding. |
 | ***Beschrijving*** | Korte beschrijving voor de afbeelding. |
@@ -239,7 +239,7 @@ In de volgende afbeelding ziet u de overgangscomponent (die via slepen en neerze
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Selecteer het overgangspictogram en selecteer de optie **Configureren** (moersleutelpictogram) om het dialoogvenster **Overgang** in. Dit dialoogvenster bevat drie tabbladen:
+Klik op het overgangspictogram en klik op de knop **Configureren** (moersleutelpictogram) om het dialoogvenster **Overgang** in. Dit dialoogvenster bevat drie tabbladen:
 
 * **Overgang**
 * **Reeks**
@@ -316,7 +316,7 @@ De videocomponent heeft de volgende eigenschappen:
   </tr>
   <tr>
    <td><em><strong>Video-element</strong></em></td>
-   <td>Selecteer de koppeling naar de video.</td>
+   <td>Klik op de koppeling naar de video.</td>
   </tr>
   <tr>
    <td><em><strong>Duur</strong></em></td>

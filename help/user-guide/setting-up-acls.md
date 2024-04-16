@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -30,19 +30,19 @@ De volgende stappen vatten de procedure voor vestiging ACLs voor een project sam
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Selecteren **Groepen** en voer een id in (bijvoorbeeld Acme).
+1. Klikken **Groepen** en voer een id in (bijvoorbeeld Acme).
 
    U kunt ook deze koppeling gebruiken, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
-   Selecteer vervolgens **Opslaan**.
+   Klik op Volgende **Opslaan**.
 
    ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Selecteren **Medewerkers** in de lijst en dubbelselecteer deze.
+1. Klikken **Medewerkers** in de lijst en dubbelklik erop.
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Voeg de **Acme** (project dat u hebt gemaakt) naar **Leden aan groep toevoegen**. Selecteren **Opslaan**.
+1. Voeg de **Acme** (project dat u hebt gemaakt) naar **Leden aan groep toevoegen**. Klikken **Opslaan**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -56,7 +56,7 @@ De volgende stappen vatten de procedure voor vestiging ACLs voor een project sam
 
 1. De machtigingen voor de groep instellen **Acme** gebruiken `(http://localhost:4502/useradmin)`.
 
-   Selecteer de groep **Acme** en selecteert u de **machtigingen**.
+   Klik op de groep **Acme** en klik op de knop **machtigingen**.
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

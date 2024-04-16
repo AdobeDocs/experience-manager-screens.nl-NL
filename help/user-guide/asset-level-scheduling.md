@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Activering van middelenniveau wordt uitgevoerd door de **Activering** te gebruik
 
 Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
 
-1. Selecteer een willekeurig kanaal en selecteer vervolgens **Bewerken** in de actiebalk.
+1. Klik op een kanaal en klik vervolgens op **Bewerken** in de actiebalk.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -61,19 +61,19 @@ Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
    >* Een project maken, zie [Een nieuw project maken](creating-a-screens-project.md).
    >* Inhoud maken en toevoegen aan een kanaal, zie [Kanalen beheren](managing-channels.md).
 
-1. Selecteren **Bewerken** zodat kunt u de kanaaleditor openen en een element selecteren waarop u het plannen wilt toepassen.
+1. Klikken **Bewerken** zodat kunt u de kanaaleditor openen en op een element klikken waarop u de planning wilt toepassen.
 
    ![afbeelding](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Selecteer het element en selecteer vervolgens linksboven **Configureren** (moersleutelpictogram).
+1. Klik op het element en klik vervolgens linksboven **Configureren** (moersleutelpictogram).
 
-   Selecteer de **Activering** tab.
+   Klik op de knop **Activering** tab.
 
    ![afbeelding](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. U kunt de datum vanaf de datumkiezer opgeven met **Actief van** en **Actief tot** velden.
 
-   Als u **Actief van** en **Actief tot** datum en tijd, de activa tonen en lussen slechts tussen die begindatum/tijd en einddatum/tijd, respectievelijk.
+   Als u op de knop **Actief van** en **Actief tot** datum en tijd, de activa tonen en lussen slechts tussen die begindatum/tijd en einddatum/tijd, respectievelijk.
 
    ![afbeelding](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -85,7 +85,7 @@ Stel dat u een afbeelding alleen op vrijdag van 13.00 uur tot 22.00 uur wilt wee
 
 ### Dagverdeling {#day-parting}
 
-1. Selecteer het element en selecteer het aan **Configureren** (moersleutelpictogram) om het dialoogvenster Eigenschappen te openen.
+1. Klik op het element en klik op **Configureren** (moersleutelpictogram) om het dialoogvenster Eigenschappen te openen.
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
@@ -111,7 +111,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 ### WeekParting {#week-parting}
 
-1. Selecteer het element en selecteer **Configureren** (moersleutelpictogram).
+1. Klik op het element en klik vervolgens op **Configureren** (moersleutelpictogram).
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
@@ -136,7 +136,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 ### MonthParting {#month-parting}
 
-1. Selecteer het element en selecteer **Configureren** (moersleutelpictogram).
+1. Klik op het element en klik vervolgens op **Configureren** (moersleutelpictogram).
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
@@ -159,7 +159,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 ### Combinatie van partners {#combined-parting}
 
-1. Selecteer het element en selecteer **Configureren** (moersleutelpictogram).
+1. Klik op het element en klik vervolgens op **Configureren** (moersleutelpictogram).
 
 1. Na het ingaan van de begindatum/de tijd en eind/datumtijd, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw herhalingsprogramma te specificeren.
 
@@ -189,7 +189,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 >
 >The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
-***Activering van meerdere middelen*** Hiermee kan de gebruiker meerdere elementen selecteren en een afspeelschema toepassen op alle geselecteerde elementen.
+***Activering van meerdere middelen*** Hiermee kan de gebruiker op meerdere elementen klikken en een afspeelschema toepassen op alle geselecteerde elementen.
 
 ### Vereisten {#prerequisites}
 
@@ -200,21 +200,21 @@ Als u activering op meerdere niveaus voor uw middelen wilt gebruiken, maakt u ee
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Voer de onderstaande stappen uit om meerdere elementen te selecteren en de weergave ervan in een AEM Screens-project te plannen:
+Voer de onderstaande stappen uit om op meerdere elementen te klikken en de weergave ervan in een AEM Screens-project te plannen:
 
-1. Selecteren **MultiAssetChannel** selecteert u vervolgens **Bewerken** in de actiebalk.
+1. Klikken **MultiAssetChannel** en klik vervolgens op **Bewerken** in de actiebalk.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Selecteer meerdere elementen in de editor en selecteer vervolgens **Activering bewerken** (pictogram linksboven).
+1. Klik op meerdere elementen in de editor en klik vervolgens op **Activering bewerken** (pictogram linksboven).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Selecteer de datum en tijd in **Actief van** en **Actief tot** van de **Componentactivering** in. Selecteer het pictogram van het vinkje wanneer u klaar bent met het selecteren van de programma&#39;s.
+1. Klik op de datum en tijd in **Actief van** en **Actief tot** van de **Componentactivering** in. Klik op het pictogram van het vinkje wanneer u klaar bent met het selecteren van de schema&#39;s.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Selecteer Vernieuwen om de elementen te controleren waarop het schema voor meerdere elementen wordt toegepast.
+1. Klik op Vernieuwen om de elementen te controleren waarop het schema voor meerdere elementen is toegepast.
 
    >[!NOTE]
    >
@@ -232,12 +232,12 @@ Op deze manier kan de auteur van de inhoud het afspelen van een bepaald element 
 
 De globale Opheffing voor de Universele Tijd van het Begin wordt gedaan door te vormen **Activering** te gebruiken tijdens het openen van eigenschappen van een element. Voer de onderstaande stappen uit om een globale overschrijving uit te voeren voor het plannen van elementen:
 
-1. Selecteer een willekeurig kanaal en selecteer vervolgens **Bewerken** op de actiebalk, zodat u inhoud aan het kanaal kunt toevoegen of bewerken.
+1. Klik op een kanaal en klik vervolgens op **Bewerken** op de actiebalk, zodat u inhoud aan het kanaal kunt toevoegen of bewerken.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Selecteren **Bewerken**.
-1. Selecteer in de Kanaaleditor een element waarvan u het schema wilt toepassen.
+1. Klikken **Bewerken**.
+1. Klik in de kanaaleditor op een element waarvan u het schema wilt toepassen.
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 

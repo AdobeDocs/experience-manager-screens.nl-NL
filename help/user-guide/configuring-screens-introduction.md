@@ -9,7 +9,7 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Volg de onderstaande stappen om te controleren of deze twee vitale configuraties
    ![elementen](assets/health-check1.png)
 
 
-2. Selecteren **Geselecteerde gezondheidscontroles uitvoeren** zodat u de validatie kunt uitvoeren voor de twee hierboven vermelde eigenschappen.
+2. Klikken **Geselecteerde gezondheidscontroles uitvoeren** zodat u de validatie kunt uitvoeren voor de twee hierboven vermelde eigenschappen.
 
    Als beide filters zijn ingeschakeld, wordt het dialoogvenster **Screeningconfiguratie Health Service** toont de **Resultaat** als **OK** met beide configuraties zoals toegelaten.
 
@@ -76,7 +76,7 @@ Met de volgende belangrijke punten hieronder kunt u de server configureren en AE
 
    ![afbeelding](assets/config/empty-ref2.png)
 
-1. Selecteren **Opslaan** om het filter Apache Sling Referrer inschakelen Leeg toestaan.
+1. Klikken **Opslaan** om het filter Apache Sling Referrer inschakelen Leeg toestaan.
 
 
 #### HTTP-service op basis van Apache Felix Jetty {#allow-apache-felix-service}
@@ -93,7 +93,7 @@ Met de volgende belangrijke punten hieronder kunt u de server configureren en AE
 
    ![afbeelding](assets/config/config-1.png)
 
-1. Selecteren **Opslaan** de *http* service.
+1. Klikken **Opslaan** de *http* service.
 
 #### Aanraakinterface inschakelen voor AEM Screens {#enable-touch-ui-for-aem-screens}
 
