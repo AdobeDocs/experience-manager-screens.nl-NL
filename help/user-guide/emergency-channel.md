@@ -1,6 +1,6 @@
 ---
 title: Noodkanaal
-description: Leer over het creëren van en het leiden van een noodkanaal dat de inhoudauteur van een opeenvolgingskanaal kan schakelen als er een voorwaarde is.
+description: Leer over het creëren van en het leiden van een noodkanaal dat de Inhoudsauteur van een opeenvolgingskanaal kan schakelen als er een voorwaarde is.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Omschrijving hoofdletter gebruiken {#use-case-description}
 
-In deze sectie wordt een gebruiksvoorbeeld beschreven waarin wordt benadrukt dat de auteur van de inhoud bij het maken en beheren van een noodkanaal kan schakelen van een volgnummer als er een voorwaarde is.
+In deze sectie wordt een gebruikscase-voorbeeld beschreven waarin wordt benadrukt dat de inhoudsontwerper bij het maken en beheren van een noodkanaal kan schakelen van een volgnummer als er een voorwaarde is.
 
 ### Voorwaarden {#preconditions}
 
@@ -157,7 +157,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
 1. **Apparaatregistratie**
 
-   Voltooi het registratieproces van het apparaat. Wanneer u zich hebt geregistreerd, kunt u de volgende uitvoer weergeven op uw AEM Screens-speler.
+   Voltooi het registratieproces van het apparaat. Wanneer u zich hebt geregistreerd, kunt u de volgende uitvoer weergeven op uw AEM Screens Player.
 
    ![new30](assets/new30.gif)
 
@@ -177,12 +177,12 @@ Voer in geval van nood de volgende stappen uit:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Wanneer de prioriteit van het kanaal wordt bijgewerkt, geeft alle AEM Screens-speler de **EmergencyChannel** inhoud.
+1. Wanneer de prioriteit van het kanaal wordt bijgewerkt, geeft alle AEM Screens Player de **EmergencyChannel** inhoud.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Conclusie {#conclusion}
 
-De **EmergencyChannel** gaat verder met het weergeven van de inhoud totdat de auteur van de inhoud de Prioriteitswaarde herstelt naar 1.
+De **EmergencyChannel** blijft de inhoud weergeven totdat de Content Author de Priority Value terugzet naar 1.
 
-Wanneer de auteur van de inhoud de instructies ontvangt dat de noodsituatie is gewist, moet hij of zij de prioriteit van het **MainAdChannel** waardoor het afspelen wordt hervat.
+Wanneer de Inhoudsauteur de instructies ontvangt dat de noodsituatie is gewist, moet deze de prioriteit van de **MainAdChannel** waardoor het afspelen wordt hervat.

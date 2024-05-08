@@ -2,7 +2,7 @@
 title: Projecttaxonomie
 description: Meer weten over projecttaxonomie in verband met AEM Screens?
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Een auteur begint gewoonlijk een AEM Screens-project door:
 * [beeldschermen maken](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Kanalen toewijzen aan de weergaven](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [weergeven, inhoud in een AEM Screens-speler](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [weergeven, inhoud in een AEM Screens Player](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
 >U kunt ook een set locaties vanuit een CSV/XLS-spreadsheet in een AEM Screens-project bulksgewijs importeren. Zie [Nieuwe importmodule voor project uit bestand](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).

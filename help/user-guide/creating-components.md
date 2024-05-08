@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -26,7 +26,7 @@ AEM componenten worden gebruikt om de inhoud die op uw webpagina&#39;s beschikba
 
 ## Kanalen ontwerpen {#authoring-channels}
 
-Het kanaal is het centrale object van inhoud dat aan een set weergaven wordt geleverd. Daarom zou een inhoudauteur typisch een kanaal in de redacteur openen om inhoud toe te voegen of te wijzigen. Omdat het Kanaal een *** is`cq:Page`***, volgt het zelfde traditionele patroon van UX om componenten op het kanaal toe te voegen en te veranderen.
+Het kanaal is het centrale object van inhoud dat aan een set weergaven wordt geleverd. Daarom zou een Content Author normaal gesproken een kanaal openen in de editor om inhoud toe te voegen of te wijzigen. Omdat het Kanaal een *** is`cq:Page`***, volgt het zelfde traditionele patroon van UX om componenten op het kanaal toe te voegen en te veranderen.
 
 Omdat componenten in een kanaal doorgaans echter op volledig scherm worden weergegeven, heeft de ontwerpervaring te lijden onder het bewerken van afzonderlijke componenten of het samenstellen van nieuwe bestellingen. Daarom is het kanaal afhankelijk van kiezers om verschillende weergaven van de componenten te renderen. De ontwerpomgeving gebruikt de bewerkingskiezer om de rendering van aangepaste kanalen te activeren.
 

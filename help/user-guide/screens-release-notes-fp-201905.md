@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
+>We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
 
 De AEM Screens heeft AEM 6.3.3.3 Feature Pack 6 en AEM 6.4.4.0 Feature Pack 4 uitgebracht, met de volgende details.
 
@@ -45,9 +45,9 @@ Zie **[Overstappen van ContentSync naar SmartSync](smartsync.md)** voor meer inf
 
 * **Noodkanaal**
 
-In dit voorbeeld wordt bij het maken en beheren van een noodkanaal benadrukt dat de auteur van de inhoud kan schakelen van een volgnummer als er een voorwaarde is.
+In dit voorbeeld wordt bij het maken en beheren van een noodkanaal de nadruk gelegd op het feit dat de Content Author kan schakelen van een volgnummer als er een voorwaarde is.
 
-Zie **[Noodkanaal](emergency-channel.md)** Gebruik Hoofdlettergebruik voor meer informatie.
+Zie **[Noodkanaal](emergency-channel.md)** Gebruik hoofdletters/kleine letters voor meer informatie.
 
 * **Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics**
 
@@ -65,4 +65,4 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.3.3.3 Feature Pack
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)**.
+Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)**.

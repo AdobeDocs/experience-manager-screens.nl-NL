@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -48,7 +48,7 @@ U kunt voorkeuren voor uw apparaat configureren vanaf het dashboard van het appa
 
 Het inschakelen van de **Gebruikersinterface van beheerder** in het voorkeurenvenster kan de gebruiker de beheerinstellingen openen vanuit de schermspeler. Als u deze optie uitschakelt vanaf het dashboard van het apparaat, kan de gebruiker de interface voor beheer niet openen vanuit de speler.
 
-Als u de interface voor het beheer van de schermspeler wilt weergeven, drukt u op de linkerbovenhoek om het menu Admin te openen, op de AEM Screens-speler met aanraakbediening of met een muis. De informatie wordt weergegeven nadat de registratie is voltooid en de kanalen zijn geladen.
+Als u de interface voor het beheer van de schermspeler wilt weergeven, drukt u op de linkerbovenhoek om het menu Admin te openen, op uw AEM Screens Player met aanraakbediening of met een muis. De informatie wordt weergegeven nadat de registratie is voltooid en de kanalen zijn geladen.
 
 >[!NOTE]
 >
@@ -66,11 +66,11 @@ In het menu Configuratie kunt u de volgende instellingen wijzigen:
 
 * Herstellen **Firmware**, **Voorkeuren**, of **Naar fabriek** in dit dialoogvenster.
 
-* Geef het maximumaantal logbestanden op dat u voor een AEM Screens-speler wilt behouden in **Max. nr. van te bewaren logbestanden**.
+* Geef het maximum aantal logbestanden op dat u voor AEM Screens Player wilt behouden **Max. nr. van te bewaren logbestanden**.
 
 * In- of uitschakelen **Menu Beheer**, **Kanaalswitch**, en **UI voor activiteiten** voor de Schermspeler.
 
-  Als de **UI voor activiteiten** is ingeschakeld vanuit de **Configuratie** in de AEM Screens-speler wordt de *spelersactiviteitmeldingen* in de rechterbovenhoek van de speler, zoals in de onderstaande afbeelding wordt getoond.
+  Als de **UI voor activiteiten** is ingeschakeld vanuit de **Configuratie** in AEM Screens Player de *spelersactiviteitmeldingen* in de rechterbovenhoek van de speler, zoals in de onderstaande afbeelding wordt getoond.
 
   ![afbeelding](/help/user-guide/assets/activity_ui.png)
 
@@ -84,7 +84,7 @@ In het menu Configuratie kunt u de volgende instellingen wijzigen:
 
 #### Opties voor het menu-cachegeheugen voor inhoud openen {#content-cache-options}
 
-U kunt cache voor kanalen en toepassingen wissen via de interface voor beheer in AEM Screens Player.
+U kunt cache voor kanalen en toepassingen wissen via de beheerinterface in AEM Screens Player.
 
 Klik op de knop **Inhoudcache** van de zijspoorstaaf zodat kunt u het geheime voorgeheugen bijwerken.
 

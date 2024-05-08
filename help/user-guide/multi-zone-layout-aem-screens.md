@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
 
 ### Een locatie en een weergave maken {#creating-location}
 
-Maak een locatie en een weergave zodat u de inhoud in de AEM Screens-speler kunt bekijken.
+Maak een locatie en een weergave zodat u de inhoud in de AEM Screens Player kunt bekijken.
 
 1. **Een locatie maken**
 

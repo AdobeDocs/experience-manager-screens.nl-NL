@@ -1,6 +1,6 @@
 ---
 title: Problemen oplossen in Device Control Center
-description: Leer hoe u de prestaties voor de activiteiten en het apparaat van de AEM Screens-speler kunt controleren en oplossen met het apparaatdashboard.
+description: Leer hoe u de prestaties voor uw AEM Screens Player-activiteit en -apparaat kunt controleren en oplossen met het apparaatdashboard.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # Problemen oplossen in Device Control Center {#troubleshooting-device-control-center}
 
-U kunt de prestaties voor de activiteiten en het apparaat van de AEM Screens-speler controleren en problemen oplossen met behulp van het apparaatdashboard. Deze pagina biedt informatie over hoe u waargenomen prestatieproblemen voor de schermspeler en de toegewezen apparaten kunt controleren en oplossen.
+U kunt de prestaties voor uw AEM Screens Player-activiteit en -apparaat bewaken en problemen oplossen met behulp van het apparaatdashboard. Deze pagina biedt informatie over hoe u waargenomen prestatieproblemen voor de schermspeler en de toegewezen apparaten kunt controleren en oplossen.
 
 ## Monitor en problemen oplossen vanuit Device Control Center {#monitor-and-troubleshoot-from-device-control-center}
 
-U kunt de activiteit controleren en zo uw speler van AEM Screens problemen oplossen, gebruikend het Dashboard van het Apparaat.
+U kunt de activiteit controleren en zo uw Speler van AEM Screens problemen oplossen, gebruikend het Dashboard van het Apparaat.
 
 ### Apparaatdashboard {#device-dashboard}
 
@@ -49,7 +49,7 @@ Ga als volgt te werk om naar het dashboard van het apparaat te navigeren:
 
 ### Apparaatactiviteit controleren {#monitor-device-activity}
 
-De **Activiteit** toont het laatste pingelen van uw AEM Screens speler met timestamp. Laatste pingel beantwoordt aan de laatste tijd dat het apparaat de server contacteerde.
+De **Activiteit** toont het laatste pingelen van uw AEM Screens Player met timestamp. Laatste pingel beantwoordt aan de laatste tijd dat het apparaat de server contacteerde.
 
 ![chlimage_1](assets/chlimage_1.png)
 

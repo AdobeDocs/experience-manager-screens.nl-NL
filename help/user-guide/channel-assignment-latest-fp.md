@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
 In dit voorbeeld wordt de uitvoer op een Chrome-speler getoond. Wanneer u het kanaal aan uw vertoning hebt toegewezen, registreer het apparaat aan een speler.
 
-Ga voor meer informatie over het registreren van een apparaat op een AEM Screens-speler naar [Apparaatregistratie](device-registration.md).
+Ga voor meer informatie over het registreren van een apparaat op een AEM Screens Player naar [Apparaatregistratie](device-registration.md).
 
 U kunt de volgende uitvoer naar keuze van de speler weergeven:
 
@@ -156,7 +156,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 >[!IMPORTANT]
 > Deze optie is alleen beschikbaar bij <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Functiepakket 4.
 
-Als auteur van inhoud kunt u opgeven wanneer een kanaal wordt onderbroken. Zo kunt u ervoor kiezen om niet-kritieke inhoud uit te knippen. Maar het geeft u ook de optie om belangrijke inhoud volledig terug te laten spelen alvorens het wegens planning kort te snijden.
+Als inhoudsauteur kunt u opgeven wanneer een kanaal wordt onderbroken. Zo kunt u ervoor kiezen om niet-kritieke inhoud uit te knippen. Maar het geeft u ook de optie om belangrijke inhoud volledig terug te laten spelen alvorens het wegens planning kort te snijden.
 
 Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het menu **Kanaaltoewijzing** dialoogvenster:
 

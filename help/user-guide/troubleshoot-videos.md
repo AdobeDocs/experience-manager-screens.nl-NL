@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Configuratie en probleemoplossing voor videoweergave {#video-playback-configuration-and-troubleshooting}
 
-Wanneer u een video uploadt naar de DAM en het kanaal toevoegt, kunnen er problemen optreden waarbij de video mogelijk niet wordt afgespeeld in de AEM Screens-speler.
+Wanneer u een video uploadt naar de DAM en deze aan uw kanaal toevoegt, kunnen er problemen optreden waarbij de video mogelijk niet wordt afgespeeld in de AEM Screens Player.
 
 In de volgende secties wordt beschreven hoe u fouten kunt opsporen in het afspelen van video in uw kanaal en hoe u deze kunt oplossen.
 
@@ -102,7 +102,7 @@ Ga als volgt te werk als u een DAM-workflow wilt gebruiken om FullHD-uitvoeringe
 
 #### Problemen met AutoPlay-beleidsmarkering oplossen {#troubleshooting-autoplay-policy-flag}
 
-Als de AEM Screens-speler de video oppikt maar niet wordt weergegeven, moet u de markering Beleid automatisch afspelen oplossen.
+Als de AEM Screens Player de video oppikt maar niet weergeeft, los dan de markering Beleid automatisch afspelen problemen op.
 
 Voer de onderstaande stappen uit om een probleem met de Google-markering voor automatisch afspelen op te lossen:
 

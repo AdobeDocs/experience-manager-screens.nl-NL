@@ -2,9 +2,9 @@
 title: Overzicht en configuraties van adaptieve uitvoeringen van architectuur
 description: Leer meer over het architectuuroverzicht en de configuraties in CRXDE Lite voor Adaptieve Uitvoeringen in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 ## Inleiding {#introduction}
 
-Met adaptieve uitvoeringen kunnen de apparaten automatisch op de beste uitvoering voor een apparaat klikken op basis van door de klant gedefinieerde regels. De apparaten downloaden en spelen automatisch de meest aangewezen vertoning van activa die op deze regels wordt gebaseerd die klanten toestaan om zich bij het ontwerpen van *hoofd* ervaring.
+Met Adaptieve uitvoeringen kunnen apparaten automatisch op de beste uitvoering klikken voor een apparaat dat is gebaseerd op door de klant gedefinieerde regels. De apparaten downloaden en spelen automatisch de meest aangewezen vertoning van activa die op deze regels wordt gebaseerd, die klanten toestaan om zich op het ontwerpen van te concentreren *hoofd* alleen ervaring.
 
 ## Doelstelling {#objective}
 
-Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Configureer de Adaptieve uitvoeringen voordat een inhoudsauteur deze functie in een AEM Screens-kanaal kan gebruiken.
+Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Configureer de Adaptieve uitvoeringen voordat een Content Author deze functie in een AEM Screens-kanaal kan gebruiken.
 
 ## Overzicht van architectuur {#architectural-overview}
 
@@ -41,7 +41,7 @@ Voer de onderstaande stappen uit om de installatie te configureren:
    >![afbeelding](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Als u de nieuwste versie van Feature Pack 202109 hebt geïnstalleerd, ziet u de **rendition-mapping** knooppuntstructuur vooraf ingevuld in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Zie [Opmerkingen bij de release voor Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) voor meer informatie over het nieuwste functiepakket.
+   >Als u de nieuwste versie van Feature Pack 202109 hebt geïnstalleerd, ziet u de **rendition-mapping** knooppuntstructuur vooraf ingevuld in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Zie [Opmerkingen bij de release voor Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) voor meer informatie over het nieuwste elementenpakket.
    >Voor bestaande projecten moet u ervoor zorgen dat het project Screens de **rendition-mapping** gekoppelde configuratie. Zie [Uitvoeringstoewijzing toevoegen aan een bestaand project](#rendition-mapping-existing) voor meer informatie.
 
 ### Eigenschap voor renderingstoewijzing toevoegen aan een bestaand project {#rendition-mapping-existing}
@@ -72,7 +72,7 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
    >[!NOTE]
    >Zie [Mediaquerysyntaxis gebruiken](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) voor meer informatie.
 
-   Klikken **rule1** die u hebt gemaakt, en voert u in **expression** in **Naam** en **(oriëntatie:liggend)** in **Waarde**, zoals hieronder weergegeven. Klikken **Toevoegen**.
+   Klikken **rule1** die u hebt gemaakt, en voert u de **expression** in **Naam** en **(oriëntatie:liggend)** in **Waarde**, zoals hieronder weergegeven. Klikken **Toevoegen**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +81,7 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
    >[!NOTE]
    >De waarde die in de patrooneigenschap wordt gedefinieerd, komt overeen met de nieuwe elementuitvoering en wordt geselecteerd als de expressie wordt geëvalueerd op true.
 
-   Klik op **rule1** die u hebt gemaakt, en voert u in **patroon** in **Naam** en **landschap** in **Waarde**, zoals hieronder weergegeven. Klikken **Toevoegen**.
+   Klik op **rule1** die u hebt gemaakt, en voert u de **patroon** in **Naam** en **landschap** in **Waarde**, zoals hieronder weergegeven. Klikken **Toevoegen**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -91,4 +91,4 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
 
 ## De volgende stappen {#next-steps}
 
-Nadat u eigenschappen en regels voor renderingstoewijzing hebt toegevoegd als inhoudsauteur, kunt u uw elementen configureren. Dit doet u door gebruik te maken van Adaptieve uitvoeringen en ook uw apparaten te migreren naar grote netwerken om deze functie te gebruiken in uw AEM Screens-kanalen. Zie [Adaptieve uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie .
+Nadat u eigenschappen en regels voor renderingstoewijzing hebt toegevoegd als inhoudsauteur, kunt u uw elementen configureren. U kunt de Aangepaste Vertoningen gebruiken en ook uw apparaten migreren voor grote netwerken om deze eigenschap in uw kanalen van AEM Screens te gebruiken. Zie [Adaptieve uitvoeringen gebruiken in AEM Screens](/help/user-guide/using-adaptive-renditions.md) voor meer informatie .

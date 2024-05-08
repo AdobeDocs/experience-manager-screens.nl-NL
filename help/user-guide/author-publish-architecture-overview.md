@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Voordat u begint met auteurservers en publicatieservers, moet u op de hoogte zij
 
 AEM Screens-architectuur lijkt op een traditionele AEM Sites-architectuur. De inhoud wordt ontworpen op een AEM auteursinstantie en dan voorwaarts-herhaald aan veelvoudige publiceer instanties. Apparaten op AEM Screens kunnen nu verbinding maken met een AEM publicatiefarm via een taakverdelingsmechanisme. De veelvoudige AEM publiceer instanties kunnen worden toegevoegd om te blijven het publicatielandbouwbedrijf schrapen.
 
-*Bijvoorbeeld*, geeft een auteur van AEM Screens-inhoud een opdracht uit op het ontwerpsysteem voor een bepaald apparaat. Dat apparaat wordt gevormd om met te communiceren publiceer landbouwbedrijf of een de inhoudauteur van AEM Screens die informatie over apparaten verkrijgt die om met publicatielandbouwbedrijven worden gevormd in wisselwerking te staan.
+*Bijvoorbeeld*, geeft een AEM Screens Content Author een opdracht uit op het ontwerpsysteem voor een bepaald apparaat. Dat apparaat wordt gevormd om met te communiceren publiceer landbouwbedrijf of een Inhoudsauteur van AEM Screens die informatie over apparaten verkrijgt die worden gevormd om met te communiceren publiceert landbouwbedrijven.
 
 Het volgende diagram illustreert zowel de auteursomgeving als het het publiceren milieu.
 

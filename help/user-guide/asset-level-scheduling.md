@@ -5,7 +5,7 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 0%
@@ -224,11 +224,11 @@ Voer de onderstaande stappen uit om op meerdere elementen te klikken en de weerg
 
 ## Algemene Overschrijving voor universele begintijd {#global-override-scheduling}
 
-***Algemene Overschrijving voor universele begintijd***, is een instelling waarmee de auteur van de inhoud het afspelen van een afbeelding of video-element kan definiëren op basis van een specifieke tijd. De tijd-/tijdzone-instelling van een afzonderlijke speler wordt niet gebruikt.
+***Algemene Overschrijving voor universele begintijd***, is een instelling waarmee de Inhoudsauteur het afspelen van een afbeelding of video-element kan definiëren op basis van een specifieke tijd. De tijd-/tijdzone-instelling van een afzonderlijke speler wordt niet gebruikt.
 
 Doorgaans wordt het afspelen bepaald door de lokale tijd van een bepaalde speler, maar met de algemene overschrijving kan een specifieke, universele begintijd worden gebruikt om het afspelen van het element te starten.
 
-Op deze manier kan de auteur van de inhoud het afspelen van een bepaald element aanduiden als actief op een bepaalde datum/tijd, ongeacht de lokale klok, op alle spelers met de toegewezen inhoud.
+Hierdoor kan de Content Author het afspelen van een bepaald element toewijzen als actief op een bepaalde datum/tijd, ongeacht de lokale klok, op alle spelers die de toegewezen inhoud hebben.
 
 De globale Opheffing voor de Universele Tijd van het Begin wordt gedaan door te vormen **Activering** te gebruiken tijdens het openen van eigenschappen van een element. Voer de onderstaande stappen uit om een globale overschrijving uit te voeren voor het plannen van elementen:
 

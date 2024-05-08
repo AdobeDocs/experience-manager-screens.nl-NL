@@ -8,7 +8,7 @@ user-guide-description: Leer hoe u een Digital Signage-oplossing kunt gebruiken 
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 5%
@@ -56,7 +56,7 @@ ht-degree: 5%
    + Analyseintegratie met AEM Screens {#analytics-integration}
       + [Adobe Analytics-integratie](adobe-analytics-integration-aem-screens.md)
       + [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Authoring en voorbeelden van hoofdletters en kleine letters gebruiken {#authoring}
++ Voorbeelden van ontwerpen en gebruik {#authoring}
    + Een schermproject instellen {#setting-up-projects}
       + [Projecten maken en beheren](creating-a-screens-project.md)
       + [Kanalen maken en beheren](managing-channels.md)
@@ -92,7 +92,7 @@ ht-degree: 5%
       + [Update voor on-demand inhoud](on-demand-content.md)
       + [Inhoud als service-update](content-update-as-a-service.md)
       + [Inhoud bijwerken met Schermen starten](launches.md)
-   + Voorbeelden van hoofdletters/kleine letters gebruiken {#use-case-examples}
+   + Voorbeelden van hoofdletters gebruiken {#use-case-examples}
       + [Noodkanalen](emergency-channel.md)
       + [Temperatuuractivering in het midden van de reis](local-temperature-activation.md)
       + [Activering van ziekenhuisreservering](hospitality-reservation-activation.md)

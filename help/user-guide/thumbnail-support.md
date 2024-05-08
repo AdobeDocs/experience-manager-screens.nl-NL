@@ -2,9 +2,9 @@
 title: Ondersteuning voor miniaturen voor video's in AEM Screens
 description: Leer hoe u ondersteuning voor miniaturen voor video's toevoegt in AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
@@ -13,14 +13,14 @@ ht-degree: 1%
 
 ## Inleiding {#introduction}
 
-Een inhoudauteur kan een duimnagel voor video&#39;s bepalen zodat het beeld als placeholder wordt gebruikt en behoorlijk het playback en richten van inhoud test, terwijl de daadwerkelijke video door het aangewezen team wordt voltooid. De afbeelding kan ook worden gebruikt als het afspelen van de video mislukt.
+Een Content Author kan een miniatuur voor video&#39;s definiëren, zodat de afbeelding wordt gebruikt als plaatsaanduiding en het afspelen en activeren van inhoud correct wordt getest terwijl de video zelf wordt voltooid door het juiste team. De afbeelding kan ook worden gebruikt als het afspelen van de video mislukt.
 
 Door ondersteuning toe te voegen voor een miniatuurafbeelding op de video-component kan de klant op de juiste wijze een geldige component in het kanaal met werkelijke inhoud toevoegen en eventuele doelconfiguraties uitvoeren voordat de video wordt geleverd.
 
 >[!NOTE]
 >Als de miniatuurafbeelding op de video-component is ingesteld, wordt deze afgespeeld wanneer de video niet kan worden afgespeeld op de speler. Hierdoor kunt u het gewenste bericht aan het publiek afspelen (door inhoud af te spelen) in plaats van het volledig over te slaan.
 
-Dankzij de ondersteuning voor miniaturen kunt u:
+Met ondersteuning voor miniaturen kunt u:
 
 * Een kanaalervaring voorbereiden wanneer de video&#39;s nog niet klaar zijn of wanneer u niet per se een grote download van middelen op de spelers wilt testen
 

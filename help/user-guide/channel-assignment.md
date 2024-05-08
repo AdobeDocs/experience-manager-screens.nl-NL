@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 >
 > Deze optie is alleen beschikbaar bij <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Functiepakket 4.
 
-Als auteur van inhoud, specificeer wanneer een kanaal wordt onderbroken zodat kunt u verkiezen om niet-kritieke inhoud uit te snijden, maar desgewenst belangrijke inhoud laten spelen alvorens zijn playback wegens het plannen weg te snijden.
+Als Content Author kunt u opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen. Belangrijke inhoud kunt u desgewenst afspelen voordat u het afspelen afsluit vanwege het plannen.
 
 Klik op een van de volgende opties om de methode voor onderbreking in te stellen in het menu **Kanaaltoewijzing** dialoogvenster:
 

@@ -9,9 +9,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
 
 De AEM Screens heeft AEM 6.4.2 Feature Pack 2 en AEM 6.3.3 Feature Pack 4 uitgebracht, met de volgende details.
 
@@ -37,7 +37,7 @@ De releasedatum voor AEM Screens Feature Pack 201809 is 1 oktober 2018.
 * **Offline inhoud bulksgewijs bijwerken**: Hiermee kunt u alle kanalen bulksgewijs bijwerken, zodat u niet naar een bepaald kanaal hoeft te navigeren en de inhoud kunt bijwerken. Zie [Bulk offline bijwerken](bulk-offline-update.md) voor meer informatie.
 
 * **Kanalen bulksgewijs publiceren naar alle publicatie-instanties**
-* **Verbeterd Player Logging Mechanisme**: U kunt het maximum aantal logbestanden voor een AEM Screens-speler opgeven. Zie [Werken met een AEM Screens Player](working-with-screens-player.md) voor meer informatie .
+* **Verbeterd Player Logging Mechanisme**: U kunt het aantal maximale logbestanden voor een AEM Screens Player opgeven. Zie [Werken met een AEM Screens Player](working-with-screens-player.md) voor meer informatie .
 
 * **Implementatie voor auteur/publicatie (verscherpen)**
 
@@ -52,4 +52,4 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.4.2 Feature Pack 2
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/).
+Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/).

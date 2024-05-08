@@ -1,6 +1,6 @@
 ---
-title: Windows 10 Player implementeren
-description: Meer informatie over het configureren van AEM Screens Windows 10 Player.
+title: Windows Player implementeren
+description: Meer informatie over het configureren van Windows Player in AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -10,16 +10,16 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
 
-# Windows 10 Player implementeren {#implementing-windows-player}
+# Windows Player implementeren {#implementing-windows-player}
 
-In deze sectie wordt beschreven hoe u AEM Screens Windows 10 Player configureert. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
+In deze sectie wordt beschreven hoe u de Windows Player in AEM Screens configureert. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
 
 ## Windows Player installeren {#installing-windows-player}
 
@@ -28,7 +28,7 @@ Installeer Windows Player voor AEM Screens om Windows Player voor AEM Screens te
 Ga naar [**AEM 6.5 Player-downloads**](https://download.macromedia.com/screens/) pagina.
 
 >[!NOTE]
->Er is geen venstermodus in Windows Player. Dit is altijd de modus Volledig scherm.
+>Windows Player bevat geen venstermodus. De modus is altijd volledig scherm.
 
 ### De Milieu van de vestiging voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
@@ -50,7 +50,7 @@ Voer de onderstaande stappen uit:
 
 ### Ad hoc-methode {#ad-hoc-method}
 
-Met de ad-hocmethode kunt u de nieuwste Windows Player installeren (*.exe*). Bezoek [**AEM 6.5 Player-downloads**](https://download.macromedia.com/screens/) pagina.
+Met de ad-hocmethode kunt u de nieuwste Windows Player installeren (*.exe*). Ga naar [**AEM 6.5 Player-downloads**](https://download.macromedia.com/screens/) pagina.
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
@@ -66,7 +66,7 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 
 ## Namen van Windows Player {#name-windows}
 
-U kunt een gebruikersvriendelijke apparaatnaam aan uw Windows-speler toewijzen en zo de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen een naam geven aan uw Windows-speler, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
+U kunt een gebruikersvriendelijke apparatennaam aan uw Speler van Vensters toewijzen, waarbij de toegewezen apparatennaam naar Adobe Experience Manager (AEM) wordt verzonden. Met deze functie kunt u niet alleen uw Windows Player een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
 
 >[!NOTE]
 >U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Speler wordt geregistreerd, kan de naam van de Speler niet meer worden veranderd.
@@ -84,7 +84,7 @@ Volg deze sectie zodat kunt u leren hoe te om de standaardopties in de Installat
 ## Installatie met CLI (PowerShell) {#install-powershell}
 
 1. Een aangepaste locatie maken **toegewijd** voor Schermspeler, bijvoorbeeld:
-   `C:\Users\User\screens-player`)
+   `C:\Users\User\screens-player`
 1. Installeren
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
 1. Openen
@@ -102,7 +102,7 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Bulkregistratie van Windows Player {#bulk-registration}
 
-Wanneer u de Windows-speler implementeert, hoeft u niet handmatig elke speler te configureren. In plaats daarvan kunt u het JSON-configuratiebestand bijwerken nadat het is getest en klaar is voor implementatie.
+Wanneer het uitvoeren van de Speler van Vensters, te hoeven u niet manueel om elke speler te vormen. In plaats daarvan kunt u het JSON-configuratiebestand bijwerken nadat het is getest en klaar is voor implementatie.
 
 De configuratie zorgt ervoor dat alle spelers de zelfde server pingelen die in het configuratiedossier wordt verstrekt. Registreer elke speler handmatig.
 
@@ -124,9 +124,9 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 | resolutie | De resolutie van het apparaat. |
 | rebootSchedule | Het programma om de speler opnieuw op te starten. |
 | enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
-| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
-| enableActivityUI | Schakel deze optie in zodat u de voortgang van activiteiten, zoals downloaden en synchroniseren, kunt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
-| cloudMode | Stel dit in op true als u wilt dat de Windows-speler verbinding maakt met as a Cloud Service schermen. Ingesteld op false om verbinding te maken met AMS of on-prem AEM. |
+| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om naar een ander kanaal op het apparaat te gaan. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
+| enableActivityUI | Schakel deze optie in zodat u de voortgang van activiteiten zoals downloaden en synchroniseren kunt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
+| cloudMode | Stel dit in op true als u wilt dat de Windows Player verbinding maakt met as a Cloud Service schermen. Ingesteld op false om verbinding te maken met AMS of on-prem AEM. |
 | cloudToken | Registratietoken voor registratie tegen as a Cloud Service schermen. |
 
 #### JSON-bestand met voorbeeldbeleid {#example-policy-json-file}
@@ -144,11 +144,11 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 
 ## Modus Kiosk inschakelen {#enabling-kiosk-mode}
 
-Wanneer u de Windows-speler implementeert, is het belangrijk dat u de modus Kiosk inschakelt, zodat andere toepassingen of de taakbalk niet op het bureaublad van Windows worden weergegeven.
+Wanneer u de Speler van Vensters opstelt, is het belangrijk om een wijze van Kiosk toe te laten zodat andere toepassingen of taskbar niet op de Desktop van Vensters verschijnen.
 
 >[!CAUTION]
 >
->Adobe raadt een oplossing voor apparaatbeheer aan om Kiosk voor Windows in te schakelen. Voer de onderstaande stappen uit als u geen oplossing voor apparaatbeheer hebt om de modus Kiosk in te schakelen. Deze methode gebruikt de eigenschap van de Lanceerinrichting van Shell beschikbaar in Vensters 10 onderneming en uitgeeft. Andere door Microsoft aanbevolen methoden voor toepassingen die geen UWP zijn, kunnen ook worden toegepast om Kiosk in te schakelen, met name in andere versies van Windows.
+>Adobe raadt een oplossing voor apparaatbeheer aan om Kiosk voor Windows in te schakelen. Voer de onderstaande stappen uit als u geen oplossing voor apparaatbeheer hebt om de modus Kiosk in te schakelen. Deze methode gebruikt de eigenschap van de Lanceerinrichting van Shell beschikbaar in Vensters 10 Onderneming en uitgeeft. Andere door Microsoft aanbevolen methoden voor toepassingen die geen UWP zijn, kunnen ook worden toegepast om Kiosk in te schakelen, vooral in andere versies van Windows.
 
 Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
@@ -160,18 +160,18 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
    Zie ***Shell Launcher configureren*** in **[Shell Launcher](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** pagina door Microsoft® Windows voor aanvullende informatie.
 
-1. Maak een niet-administratieve gebruiker (als u er al een hebt) die u voor Kiosk wilt gebruiken. Dit kan een lokale of domeingebruiker zijn.
-1. Installeer de vensterspeler voor die Kiosk-gebruiker vanuit [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/) pagina.
+1. Maak een niet-administratieve gebruiker (als u er al een hebt) die u voor Kiosk wilt gebruiken. Het kan een lokale of domeingebruiker zijn.
+1. Installeer de Speler van Vensters voor die gebruiker van Kiosk van [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/) pagina.
 1. Zie [De Lanceerinrichting van Shell van het gebruik om Vensters 10 kiosk te creëren](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) om uw manuscript PowerShell voor meer informatie te wijzigen.
 
-   Wijzig het manuscript PowerShell zodat kunt u de gebruikersbenaming met vervangen u creeerde. Zorg ervoor dat het pad naar het uitvoerbare bestand van de toepassing juist is. Dit plaatst douane shell als toepassing van de venstersspeler voor de gebruiker van kiosk en plaatst het gebrek als explorer.exe voor andere gebruikers.
+   Wijzig het manuscript PowerShell zodat kunt u de gebruikersbenaming met vervangen u creeerde. Zorg ervoor dat het pad naar het uitvoerbare bestand van de toepassing juist is. Dit plaatst douane shell als toepassing van de Speler van Vensters voor de gebruiker van kiosk en plaatst het gebrek als explorer.exe voor andere gebruikers.
 
 1. Stel het manuscript PowerShell in werking als beheerder.
 1. Start opnieuw op en meld u opnieuw aan als de Kiosk-gebruiker en de spelertoepassing meteen moeten starten.
 
 ### Problemen oplossen {#troubleshooting}
 
-Als u een zwart scherm krijgt nadat u zich hebt aangemeld als gebruiker van Kiosk, betekent dit dat u mogelijk het pad naar het uitvoerbare bestand van de vensterspeler onjuist hebt opgegeven. Meld u weer aan als beheerder en controleer het script en voer het opnieuw uit.
+Als u een zwart scherm krijgt nadat u zich hebt aangemeld als gebruiker van Kiosk, betekent dit dat u mogelijk het pad naar het uitvoerbare bestand van Windows Player onjuist hebt opgegeven. Meld u weer aan als beheerder en controleer het script en voer het opnieuw uit.
 
 Het standaardinstallatiepad voor Windows Player is:
 
@@ -181,7 +181,7 @@ Met het voorbeeldscript in de koppelingen kunt u de aangepaste shell in- en uits
 
 >[!NOTE]
 >
->In sommige venstermilieu&#39;s, kunnen de manuscripten PowerShell door beleid (vooral niet ondertekende manuscripten) worden beperkt. Als u uw script wilt uitvoeren, schakelt u deze beperking tijdelijk uit en schakelt u deze opnieuw in om het script uit te voeren. Open een venster PowerShell en gebruik deze bevelen.
+>In sommige milieu&#39;s van Vensters, kunnen de manuscripten PowerShell door beleid (vooral niet ondertekende manuscripten) worden beperkt. Als u uw script wilt uitvoeren, schakelt u deze beperking tijdelijk uit en schakelt u deze opnieuw in om het script uit te voeren. Open een venster PowerShell en gebruik deze bevelen.
 >
 >*`set-executionpolicy unrestricted`* - om beperkingen tijdelijk te verwijderen.
 >

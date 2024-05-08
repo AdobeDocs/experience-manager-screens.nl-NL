@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Voer de onderstaande stappen uit om de chrome beheerconsole in te stellen:
 
 ## Naam van Chrome OS Player {#name-chrome}
 
-U kunt een gebruikersvriendelijke apparaatnaam aan uw Chrome-speler toewijzen en zo de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen de Chrome-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
+U kunt een gebruikersvriendelijke apparaatnaam aan uw Chrome Player toewijzen en zo de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen uw Chrome Player een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
 
 >[!NOTE]
 >U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Speler wordt geregistreerd, kan de naam van de Speler niet meer worden veranderd.
 
-Voer de onderstaande stappen uit om de naam te configureren in Chrome Player:
+Voer de onderstaande stappen uit om de naam in Chrome Player te configureren:
 
 1. U kunt desgewenst audio-/video-integrators of IT-beheerders toestaan de id en locatie van het element in te stellen als onderdeel van de inschrijving voor de onderneming.
 
@@ -54,7 +54,7 @@ Voer de onderstaande stappen uit om de naam te configureren in Chrome Player:
    ![afbeelding](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome Players moeten in ondernemingsinschrijving worden ingeschreven en de speler van Chrome moet door de Console van het Beheer van Chrome worden opgesteld, anders keert identiteitskaart van activa leeg terug (bijvoorbeeld, chroom als uitbreiding). De apparaatnaam wordt alleen opgenomen op het moment van registratie. Toekomstige wijzigingen worden niet opgepikt door Adobe Experience Manager (AEM).
+   >Chrome Players moeten in ondernemingsinschrijving worden ingeschreven en de Speler van Chrome moet door de Console van het Beheer van het Beheer van Chrome worden opgesteld, anders keert activa ID leeg terug (bijvoorbeeld, chroom als uitbreiding). De apparaatnaam wordt alleen opgenomen op het moment van registratie. Toekomstige wijzigingen worden niet opgepikt door Adobe Experience Manager (AEM).
 
 ### Modus Kiosk inschakelen {#enabling-kiosk-mode}
 
@@ -145,7 +145,7 @@ In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 | enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
 | enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
 | enableActivityUI | Schakel deze optie in zodat u de voortgang van activiteiten, zoals downloaden en synchroniseren, kunt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
-| cloudMode | Stel dit in op true als u wilt dat de Chrome-speler verbinding maakt met as a Cloud Service schermen. Ingesteld op false om verbinding te maken met AMS of on-prem AEM. |
+| cloudMode | Stel dit in op true als u wilt dat de Chrome Player verbinding maakt met as a Cloud Service schermen. Ingesteld op false om verbinding te maken met AMS of on-prem AEM. |
 | cloudToken | Registratietoken voor registratie tegen as a Cloud Service schermen. |
 
 >[!NOTE]

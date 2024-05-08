@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Er zijn twee belangrijke overwegingen dat u zich moet bewust zijn alvorens tot d
    >[!IMPORTANT]
    >De zones die zijn gedefinieerd in de aangepaste indeling komen mogelijk niet overeen met de algemene hoogte-breedteverhouding van de volledige layout. In de naamgevingsconventie die in dit document wordt gevolgd, wordt de hoogte-breedteverhouding van de aangepaste layout als geheel opgegeven.
 
-## Voorbeeld: hoofdletter gebruiken `Left20-LandscapeHD3Zone` Layout {#custom-template-one}
+## Voorbeeld van gebruik `Left20-LandscapeHD3Zone` Layout {#custom-template-one}
 
 Volg de onderstaande sectie om een aangepaste sjabloon te maken *`Left20-LandscapeHD3Zone`* met de volgende configuratie:
 

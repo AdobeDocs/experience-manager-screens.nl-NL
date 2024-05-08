@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
 
 ## Beschikbaarheid {#availability}
 
 AEM Screens heeft AEM 6.5 Feature Pack uitgebracht 6.
 
-U kunt het nieuwste functiepakket voor de AEM Screens 6.5.6-versie downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeren naar **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste functiepakket met de naam **AEM 6.5 Schermen FP6**.
+U kunt de nieuwste versie van het Feature Pack voor AEM Screens 6.5.6 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Ga naar de **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste elementenpakket met de titel **AEM 6.5 Schermen FP6**.
 
 ## Releasedatum {#release-date}
 
@@ -37,12 +37,12 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * **Tizen Player**
 
-  Er is een nieuwe speler met de naam Tizen-speler geïntroduceerd met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
+  Er is een nieuwe speler, Tizen Player genaamd, geïntroduceerd met de nieuwste Feature Pack voor de AEM Screens 6.5.6 Release.
 Zie [Tizen Player implementeren](/help/user-guide/tizen-player.md) voor meer informatie .
 
 * **Functies zoeken vanuit Apparaatbeheer**
 
-  Er is nu een nieuwe zoekfunctionaliteit beschikbaar via de interface van Apparaatbeheer met het nieuwste functiepakket voor AEM Screens 6.5.6 Release.
+  Er is nu een nieuwe zoekfunctionaliteit beschikbaar via de interface van Apparaatbeheer met het nieuwste Feature Pack voor de AEM Screens 6.5.6-versie.
 Zie [Een apparaat zoeken vanuit Apparaatbeheer](/help/user-guide/device-registration.md#search-device) voor meer informatie .
 
 * **Standaardpinginterval**
@@ -61,4 +61,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigen
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

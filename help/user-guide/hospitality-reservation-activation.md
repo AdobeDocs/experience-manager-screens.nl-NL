@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Het volgende gebruiksgeval toont het gebruik van activering van ziekenhuisreserv
 
 ## Beschrijving {#description}
 
-Voor dit geval van Gebruik, is het Blad van Google bevolkt met percentage reserveringen op twee restaurants **`Restaurant1`** en **`Restaurant2`**. Een formule wordt toegepast op basis van waarden van `Restaurant1` en `Restaurant2` en op basis van de formule wordt waarde 1 of 2 toegewezen aan de **AdTarget** Kolom.
+In dit geval wordt op het Google-blad een reserveringspercentage voor twee restaurants vermeld **`Restaurant1`** en **`Restaurant2`**. Een formule wordt toegepast op basis van waarden van `Restaurant1` en `Restaurant2` en op basis van de formule wordt waarde 1 of 2 toegewezen aan de **AdTarget** Kolom.
 
 Als de waarde van **`Restaurant1`** > **`Restaurant2`** vervolgens **Advertentietag** is toegewezen waarde **1** anders **AdTarget** is toegewezen waarde **2**. Waarde 1 genereert *Steekvoedsel* optie en waarde twee resulteert in weergave van *Thais voedsel* op het scherm.
 

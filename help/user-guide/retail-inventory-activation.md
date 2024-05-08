@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -23,9 +23,9 @@ In het volgende gebruiksgeval worden drie verschillende afbeeldingen gedemonstre
 
 ## Beschrijving {#description}
 
-In deze Use Case wordt de voorraad voor de detailhandel getoond voor drie verschillende gekleurde sweatshirts. Afhankelijk van het aantal sweatshirts dat beschikbaar is in voorraad en dat is opgenomen in Google Sheets, wordt de afbeelding (rood, groen of blauw sweatshirt) met het hoogste aantal weergegeven op het scherm.
+In deze gebruikszaak wordt de voorraad voor de detailhandel getoond voor drie verschillende gekleurde sweatshirts. Afhankelijk van het aantal sweatshirts dat beschikbaar is in voorraad en dat is opgenomen in Google Sheets, wordt de afbeelding (rood, groen of blauw sweatshirt) met het hoogste aantal weergegeven op het scherm.
 
-Voor deze optie gebruikt u de optie Rode, groene of blauwe trui op uw scherm op basis van de hoogste waarde van het aantal beschikbare sweaters.
+In dit geval wordt de zoomfunctie Rood, Groen of Blauw op uw scherm weergegeven op basis van de hoogste waarde van het aantal beschikbare sweaters.
 
 ## Voorwaarden {#preconditions}
 

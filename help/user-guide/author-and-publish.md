@@ -2,7 +2,7 @@
 title: Instanties voor auteurs en publiceren configureren in AEM Screens
 description: Leer hoe u een instantie Auteur en een instantie Publish voor AEM Screens configureert.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -220,7 +220,7 @@ Nadat u opstelling de het publiceren topologie hebt, vorm de Auteur en publiceer
 
 >[!NOTE]
 >
->U kunt een AEM Screens-speler openen met de AEM Screens-app die u hebt gedownload of met de webbrowser.
+>U kunt een AEM Screens Player openen met de AEM Screens-toepassing die u hebt gedownload of met de webbrowser.
 
 #### Stap 2: Een apparaat registreren bij auteur {#step-registering-a-device-on-author}
 
@@ -264,7 +264,7 @@ U kunt het apparaat ook activeren via de apparaatbeheerconsole. Voer de ondersta
 
 >[!NOTE]
 >
->Als u het apparaat hebt geactiveerd, kunt u ook de URL van de server bewerken of bijwerken. Klikken **URL van server bewerken** in de actiebalk, zoals in de onderstaande afbeelding wordt getoond, worden uw wijzigingen doorgegeven aan de AEM Screens-speler.
+>Als u het apparaat hebt geactiveerd, kunt u ook de URL van de server bewerken of bijwerken. Klikken **URL van server bewerken** in de actiebalk, zoals in de onderstaande afbeelding wordt getoond, worden uw wijzigingen doorgegeven aan de AEM Screens Player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -286,23 +286,23 @@ Voer de onderstaande stappen uit om het gedrag bij schrijven en publiceren te co
 1. Uitvoeren **Publicatie beheren** om nieuwe wijzigingen in alle instanties Publiceren te publiceren.
 1. Druk **Activeren** om het apparaat te activeren van **Apparaatbeheer**.
 1. **URL bewerken** van de instantie-URL van de auteur naar een van de URL voor het publiceren.
-1. Controleer of de inhoud van het bijgewerkte kanaal wordt weergegeven op de AEM Screens-speler.
+1. Controleer of de inhoud van het bijgewerkte kanaal wordt weergegeven op de AEM Screens Player.
 1. Herhaal deze stappen met een andere instantie Publiceren.
 
 
 #### Stap 5: het apparaat aanwijzen om een instantie te publiceren in het deelvenster Beheer {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Geef de interface voor het beheer van de schermspeler weer en druk op de linkerbovenhoek zodat u het menu Admin kunt openen, op de AEM Screens-speler met aanraakbediening of met een muis.
+1. Bekijk de interface voor het beheer van de schermspeler, druk lang op de linkerbovenhoek zodat u het menu Admin kunt openen, op AEM Screens Player met aanraakbediening of met een muis.
 1. Klik op de knop **Configuratie** in het zijpaneel.
 1. Auteurinstantie wijzigen in instantie Publiceren in **Server**.
 
-Bekijk de wijzigingen in je AEM Screens-speler.
+Bekijk de wijzigingen in uw AEM Screens Player.
 
 U kunt de URL van de server ook bijwerken/bewerken vanuit de apparaatbeheerconsole met de volgende stappen:
 
 1. Ga naar uw AEM Screens-project en klik op de knop **Apparaten** map.
 1. Klikken **Apparaatbeheer** in de actiebalk.
-1. Klik op het apparaat en klik **URL van server bewerken** in de actiebalk, zoals in de onderstaande afbeelding wordt getoond, en uw wijzigingen worden doorgegeven aan de AEM Screens-speler.
+1. Klik op het apparaat en klik **URL van server bewerken** in de actiebalk, zoals in de onderstaande afbeelding wordt getoond, en uw wijzigingen worden doorgegeven aan de AEM Screens Player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

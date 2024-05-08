@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -19,21 +19,21 @@ Dit onderwerp verstrekt antwoorden aan algemeen gestelde FAQs met betrekking tot
 ## Probleem met leeg scherm {#blank-screen}
 
 >[!NOTE]
->De vermelde verplichte controles die door primaire ondersteuning of klantenondersteuning moeten worden geprobeerd voordat een probleem aan de orde wordt gesteld.
+>De vermelde verplichte controles die primaire ondersteuning of klantenondersteuning moeten proberen voordat een probleem wordt aangekaart.
 
 ### 1. Wat zouden de het oplossen van problemenstappen van de Eerste hulp voor om het even welke klant moeten zijn die een zwart scherm of het niet spelen van inhoud onder ogen zien? {#troubleshooting-blank-screen}
 
 * Controleer of de voorvertoning van het kanaal werkt.
 * Controleren of de voorvertoning werkt
-* Registreer de speler als browserextensie op uw systeem naar hetzelfde scherm en controleer of dit werkt.
+* Registreer de speler als een browserextensie op uw systeem naar hetzelfde scherm en controleer of deze werkt.
 * Met de speler die op uw systeem loopt, navigeer aan `http://localhost:24502`. Controleer of alle inhoud correct is gedownload.
 * Controleer de elementen zodat u zeker weet dat de juiste uitvoeringen zijn gemaakt en dat de juiste vertoning wordt afgespeeld.
 * Controleer of de geplande inhoud aanwezig is en of de tijden correct zijn. Controleer of de in de speler ingestelde tijd juist is.
-* Inspect de spelerconsole registreert en controleert om het even welke fouten. Klik en inspecteer met de rechtermuisknop om de consolelogboeken te zien. Druk op `CTRL + ALT +I` om de dev-console op te roepen om de logbestanden te bekijken.
+* Inspect de spelerconsole registreert en controleert om het even welke fouten. Klik en inspecteer met de rechtermuisknop om de consolelogboeken te zien. Als u Windows Player gebruikt, drukt u op `CTRL + ALT +I` om de dev-console op te roepen om de logbestanden te bekijken.
 
 ### 2. Hoe kan het probleem met grijswaardenschermen in AEM Screens worden opgelost door een standaardkanaal of -schema te maken?
 
-Als u de lege of grijze schermen in het veld wilt vermijden, maakt u een standaard algemeen kanaal of schema, toegewezen aan elke weergave met de minste prioriteit 1. Voor het geval dat er iets mis gaat met inhoudsupdates (vanwege netwerk, speler, server of replicatie), omdat de spelers deze inhoud al in het cachegeheugen op de schijf hebben die fijn moet worden afgespeeld en de grijze schermen moet worden vermeden.
+Als u de lege of grijze schermen in het veld wilt vermijden, maakt u een standaard algemeen kanaal of schema, toegewezen aan elke weergave met de minste prioriteit 1. Als er iets mis gaat met het bijwerken van de inhoud omdat de spelers deze inhoud al in de cache hebben opgeslagen op de schijf. Het zou fijn moeten spelen en de grijze schermen vermijden.
 
 Alle andere inhoud, zoals kanalen of programma&#39;s, prioriteit groter dan 1, zodat neemt de andere inhoud prioriteit en globale kanaal of planningsinhoud (met prioriteit 1) slechts als reserve optie.
 
@@ -62,11 +62,11 @@ Voor *dynamische verwijzingen*, treedt de resolutie op zodra het kanaal is toege
 1. De bovenliggende locatie van de weergave heeft een onderliggende node die overeenkomt met de kanaalnaam waarnaar wordt verwezen
 1. De bovenliggende hoofdlocatie van de weergave heeft een onderliggende node die overeenkomt met de kanaalnaam waarnaar wordt verwezen
 
-En zo verder, tot u de plaatsingsomslag bereikt en daar tegenhoudt op het ogenblik (zodat kunt u niet naar een kanaal verwijzen dat in de kanaalomslag bijvoorbeeld, slechts kanalen in de plaatssubtree zou zijn).
+En zo verder, totdat u de locatiemap bereikt. Stop daar momenteel (zodat u niet naar een kanaal kunt verwijzen dat in de kanaalomslag zou zijn, bijvoorbeeld, slechts kanalen in de plaatssubboom).
 
 ### 5. Hoe stelt u een aangepaste clientlib-offlineconfiguratie in in AEM Screens Channel?
 
-Wanneer u een geïntegreerde aangepaste code aan de clientzijde gebruikt `clientlib` in een AEM Screens-kanaal moeten de volgende stappen worden uitgevoerd om ervoor te zorgen dat de `clientlib` bestanden zijn geladen in het kanaal (`manifest.json`) en bevat het pad van de `clientlib`.
+Wanneer u een geïntegreerde aangepaste code aan de clientzijde gebruikt `clientlib` in een AEM Screens-kanaal zijn de volgende stappen nodig. De stappen zorgen ervoor dat `clientlib` bestanden zijn geladen in het kanaal (`manifest.json`) en bevat het pad van de `clientlib`.
 
 Voer de onderstaande stappen uit vanuit de kanaaleditor:
 
@@ -77,17 +77,17 @@ Voer de onderstaande stappen uit vanuit de kanaaleditor:
 
 ## Apparaatregistratie {#device-registration}
 
-### 1. Als ik eindpunten zoals verzoeken om apparaat aan boord te nemen en registratie ontdekt, kan ik vele apparaten scripten en deze apparaten registreren. Is het mogelijk om deze verzoeken te beveiligen, naast het vergrendelen van dit aan een tak Wi-Fi? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### 1. Als ik eindpunten zoals verzoeken om apparaat aan boord te nemen en registratie ontdekt, kan ik vele apparaten scripten en deze apparaten registreren. Is het mogelijk om deze verzoeken te beveiligen, naast het vergrendelen van de aanvraag voor een vertakking Wi-Fi? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 Registratie is momenteel alleen mogelijk op de auteurinstantie. Hoewel de registratieservice niet is geverifieerd, wordt alleen een apparaat in AEM gemaakt dat in behandeling is en wordt het apparaat niet daadwerkelijk geregistreerd en wordt er geen weergave toegewezen.
 
-Als u een apparaat wilt registreren (een gebruiker voor het apparaat in AEM maakt), moet u zich verifiëren bij AEM en moet u de registratiewizard momenteel handmatig volgen om de registratie te voltooien. In theorie kan een kwaadwillige gebruiker meerdere apparaten in behandeling maken, maar zonder AEM aanmeldingsnaam kunnen geen apparaten worden geregistreerd.
+Als u een apparaat wilt registreren (en een gebruiker voor het apparaat in AEM maakt), moet u zich verifiëren bij AEM en de registratiewizard handmatig volgen om de registratie te voltooien. In theorie kan een kwaadwillige gebruiker meerdere apparaten in behandeling maken, maar kan geen apparaten registreren als deze geen AEM aanmeldingsgegevens hebben.
 
 ### 2. Is er een manier om de verzoeken van HTTP GET in de POST van HTTP met één of andere vorm van authentificatie om te zetten? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 De registratieaanvraag is een aanvraag van een POST.
 
-Het wordt aanbevolen de apparaat-id op te halen uit de sessie in plaats van deze als parameter door te geven. Hierdoor zouden de serverlogboeken, browsercache enzovoort worden opgeschoond. Het is geen veiligheidskwestie. Semantisch. GET wordt gebruikt wanneer er geen staatsverandering op de server is en de POST wordt gebruikt wanneer er een staatsverandering is.
+Het wordt aanbevolen de apparaat-id op te halen uit de sessie in plaats van deze als parameter door te geven. Als u dit doet, worden de serverlogboeken, de cache van de browser enzovoort opgeschoond. Het is geen veiligheidskwestie. Semantisch. GET wordt gebruikt wanneer er geen staatsverandering op de server is en de POST wordt gebruikt wanneer er een staatsverandering is.
 
 ### 3. Is er een manier om een verzoek tot registratie van een apparaat af te wijzen? {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -95,25 +95,25 @@ Je kunt de registratieaanvragen niet afwijzen. In plaats daarvan zouden de regis
 
 ## Apparaatbewaking en statusrapporten {#device-monitoring-and-health-reports}
 
-### 1. Hoe los ik problemen op als mijn AEM Screens-speler een leeg scherm weergeeft?
+### 1. Hoe los ik problemen op als mijn AEM Screens Player een leeg scherm weergeeft?
 
 Controleer op de volgende mogelijkheden om het probleem met het lege scherm op te lossen:
 
 * AEM kan de offline inhoud niet verschuiven
-* Kanaal heeft geen inhoud
-* Geen van de elementen wordt op het huidige tijdstip weergegeven
+* Het kanaal heeft geen inhoud
+* Geen van de elementen wordt tijdens de huidige tijd weergegeven
 
-### 2. Wat moet ik doen als AEM Screens Player zich niet kan registreren en de status ervan als mislukt wordt weergegeven?
+### 2. Wat doe ik als de AEM Screens Player zich niet kan registreren en de status ervan als mislukt wordt weergegeven?
 
-Schakel het filter Apache Sling Reference Filter Allow Empty in. Dit is vereist voor een optimale werking van het controleprotocol tussen AEM Screens Player en AEM Screens Server.
+Schakel het filter Apache Sling Reference Filter Allow Empty in. Vereist voor een optimale werking van het controleprotocol tussen AEM Screens Player en AEM Screens Server.
 
 1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole**
 1. Controleer de **allow.empty** -optie.
 1. Klikken **Opslaan**.
 
-### 3. Hoe kan ik problemen oplossen als tijdens het registreren van een AEM Screens-speler, het apparaat MISLUKT weergeeft en de console-logboeken de fout ENAME_NOT_FOUND weergeven?
+### 3. Hoe problemen op te lossen als tijdens het registreren van een Speler van AEM Screens, het apparaat MISLUKT toont en de consolelogboeken een fout ENAME_NOT_FOUND tonen?
 
-Dit probleem kan optreden als de speler de AEM Screens Server DNS niet kan vinden. U kunt proberen gebruikend het IP adres om te verbinden. Om IP van server te verkrijgen, gebruik: *arp &lt;server_dns_name>*.
+Dit probleem kan optreden als de speler de AEM Screens Server DNS niet kan vinden. U kunt proberen gebruikend het IP adres om te verbinden. Om IP van de server te verkrijgen, gebruik: *arp &lt;server_dns_name>*.
 
 ### 4. beveelt AMS aan een Android™-waakhond op alle apparaten te implementeren? Maakt de Watchdog (Cordova)-plug-in deel uit van de APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
@@ -129,22 +129,22 @@ Voor meer informatie over waar u apparatenactiviteit kunt controleren, zie [**AE
 
 ## AEM Screens Player
 
-### 1. Hoe installeer je ChromeOS-speler als Chrome Browser Plugin? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1. Hoe kan ik ChromeOS-speler installeren als Chrome-browserplug-in? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
-De ChromeOS-speler kan als Chrome Browser-insteekmodule worden geïnstalleerd in de modus voor ontwikkelaars zonder dat hiervoor een daadwerkelijk chrome speler-apparaat nodig is. Volg onderstaande stappen voor installatie:
+De ChromeOS-speler kan als Chrome-browserinsteekmodule worden geïnstalleerd in de modus voor ontwikkelaars zonder dat hiervoor een echt Chrome Player-apparaat nodig is. Volg onderstaande stappen voor installatie:
 
 1. Klikken [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
 1. Pak het uit en sla het op de schijf op.
-1. Chrome openen en klikken **Extensies** in het menu of rechtstreeks door ***chrome://extensions***.
+1. Open Chrome en klik op **Extensies** in het menu of rechtstreeks door ***chrome://extensions***.
 1. Schakel de **Modus Ontwikkelaar** in de rechterbovenhoek.
 1. Klikken **Niet-verpakt laden** in de linkerbovenhoek en laadt de gedecomprimeerde Chrome Player.
-1. Indien beschikbaar in de lijst met extensies, schakelt u **AEM Screens Chrome Player** insteekmodule.
+1. Controleer, indien beschikbaar in de lijst met extensies, de **AEM Screens Chrome Player** insteekmodule.
 1. Open een nieuw tabblad en klik op de knop **Apps** in de linkerbovenhoek, of rechtstreeks naar ***chrome://apps***.
 1. Klik op de knop **AEM Screens** Insteekmodule. Standaard wordt de speler gestart in de modus Volledig scherm. Druk **Esc** om de modus Volledig scherm af te sluiten.
 
-### 2. Hoe kan ik problemen oplossen als de schermspeler niet kan worden geverifieerd via een publicatie-instantie met een aangepaste fouthandler?
+### 2. Hoe kan ik problemen oplossen als de Schermspeler niet kan worden geverifieerd via een publicatie-instantie met een aangepaste fouthandler?
 
-Wanneer AEM Screens Player wordt gestart, wordt het volgende gevraagd: ***/content/screens/svc.ping.json***, wanneer de speler een fout van 404 krijgt. De speler start een verificatieaanvraag om te verifiëren op basis van de publicatieinstantie. Als er een manager van de douanefout in publiceer instantie is, zorg ervoor dat u de 404 statuscode voor anonieme gebruiker op terugkeert ***/content/screens/svc.ping.json***.
+Wanneer AEM Screens Player wordt gestart, wordt gevraagd naar ***/content/screens/svc.ping.json***, wanneer de speler een fout van 404 krijgt. De speler start een verificatieaanvraag om te verifiëren op basis van de publicatieinstantie. Als er een manager van de douanefout in publiceer instantie is, zorg ervoor dat u de 404 statuscode voor een anonieme gebruiker op terugkeert ***/content/screens/svc.ping.json***.
 
 ### 3. Hoe kunt u instellen dat het scherm van het apparaat blijft ingeschakeld in een Android™-speler? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -155,15 +155,15 @@ Voer de onderstaande stappen uit om Op een Android™-speler actief blijven in t
 1. Navigeren naar **Opties voor ontwikkelaars**.
 1. Inschakelen **Blijf wakker**.
 
-### 4. Hoe kan de venstermodus voor de Windows-speler worden ingeschakeld?{#enable-player}
+### 4. Hoe te om vensterwijze voor de Speler van Vensters toe te laten?{#enable-player}
 
-Er is geen venstermodus in Windows Player. Dit is altijd de modus Volledig scherm.
+Windows Player bevat geen venstermodus. De modus is altijd volledig scherm.
 
-### 5. Hoe kan ik problemen oplossen als een AEM Screens-speler voortdurend aanmeldingsaanvragen verzendt?
+### 5. Hoe kan ik problemen oplossen als een AEM Screens Player voortdurend aanmeldingsaanvragen verzendt?
 
-Volg de onderstaande stappen om een AEM Screens-speler problemen op te lossen die voortdurend aanvragen verzendt naar `/content/screens/svc.json` en `/libs/granite/core/content/login.validate/j_security_check`:
+Volg de onderstaande stappen om een AEM Screens Player problemen op te lossen die voortdurend verzoeken verzendt naar `/content/screens/svc.json` en `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. Wanneer AEM Screens Player wordt gestart, wordt het volgende gevraagd: `/content/screens/svc.json`. Wanneer de speler een 404 statuscode in de reactie krijgt, initieert het een authentificatieverzoek door te gebruiken `/libs/granite/core/content/login.validate/j_security_check` tegen de *publish* -instantie. Als er een aangepaste fouthandler is in het dialoogvenster *publish* -instantie, zorg er dan voor dat u de 404-statuscode voor anonieme gebruikers op `/content/screens/svc.json` of `/content/screens/svc.ping.json`.
+1. Wanneer AEM Screens Player wordt gestart, wordt `/content/screens/svc.json`. Wanneer de speler een 404 statuscode in de reactie krijgt, initieert het een authentificatieverzoek door te gebruiken `/libs/granite/core/content/login.validate/j_security_check` tegen de *publish* -instantie. Als er een aangepaste fouthandler is in het dialoogvenster *publish* -instantie, zorg er dan voor dat u de 404-statuscode voor anonieme gebruikers op `/content/screens/svc.json` of `/content/screens/svc.ping.json`.
 
 1. Controleren of uw Dispatcher-configuratie deze aanvragen toestaat in het dialoogvenster `/filters`.
 
@@ -209,7 +209,7 @@ Schakel Livefyre uit om logfouten te voorkomen door het volgende te doen.
 
    * Ga in CRXDE Lite naar `/etc/importers/polling/livefyre-poller/jcr:content`.
    * Een eigenschap toevoegen *enabled* type *Boolean*.
-   * Set **enabled, eigenschap** tot **false**.
+   * Set **Enabled, eigenschap** te worden **false**.
 
 ### 2. Hoe wordt informatie over de eikenindex toegevoegd? {#add-oak-index-info}
 
@@ -241,7 +241,7 @@ Zie [Sjabloon voor aangepaste handlers](https://experienceleague.adobe.com/en/do
 
 ### 4. Wat moet u doen als, na het pakket screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 en de schermen core bundles geïnstalleerd maar niet actief zijn?
 
-Installeer een minimale versie van AEM 6.5-functiepakket 8 voor de AMS-aansluiting. Zie [Beschikbaarheid](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) zodat u de minimale versie van het AEM Screens-functiepakket kunt ophalen.
+Installeer een minimale versie van AEM 6.5-functiepakket 8 voor de AMS-aansluiting. Zie [Beschikbaarheid](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) zodat je de minimumversie van AEM Screens Feature Pack kunt ophalen.
 
 ### 5. Hoe te om de dienst van Externalzer van de Verbinding van CQ in Schermen te vormen?
 

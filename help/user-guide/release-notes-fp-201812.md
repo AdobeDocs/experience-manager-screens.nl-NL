@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
 
 De AEM Screens heeft AEM 6.3 Feature Pack 5 en AEM 6.4 Feature Pack 3 uitgebracht, met de volgende gegevens.
 
@@ -33,7 +33,7 @@ De releasedatum voor AEM Screens Feature Pack 201812 is 16 januari 2019.
 
 * **Tekstbedekking op middelen in kanaal**:
 
-  Tekstbedekking is een functie die beschikbaar is in AEM Screens en waarmee u een aantrekkelijke ervaring kunt creëren in een Volgkanaal door een titel of een beschrijving boven op een afbeelding op te geven. Zie [**Tekstbedekking**](text-overlay.md).
+  De functie Tekstbedekking is beschikbaar in AEM Screens. Met deze functie kunt u een aantrekkelijke ervaring creëren in een volgreekkanaal door een titel of beschrijving boven op een afbeelding te plaatsen. Zie [**Tekstbedekking**](text-overlay.md).
 
 * **Meerdere bedrijfsmiddelen plannen**:
 
@@ -57,4 +57,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.3 Pak van de Eigen
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [**Downloads voor AEM Screens Player**](https://download.macromedia.com/screens/).
+Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [**Downloads voor AEM Screens Player**](https://download.macromedia.com/screens/).

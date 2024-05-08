@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -231,7 +231,7 @@ Dit steunt caching tot tien niveaus van geheim voorgeheugendocroot en ongeldig m
 
 ### Validatieregel toevoegen voor segments.js {#invalidsegmentjs}
 
-Als u gerichte campagnes gebruikt met AEM Screens, dan `segments.js file` Dient door de Dispatcher worden gediend moet ongeldig worden gemaakt, aangezien u toevoegt en nieuwe segmenten op AEM publiceert. Zonder deze validatieregel werken nieuwe doelcampagnes niet op de AEM Screens-speler (in plaats daarvan wordt de standaardinhoud weergegeven).
+Als u gerichte campagnes gebruikt met AEM Screens, dan `segments.js file` Dient door de Dispatcher worden gediend moet ongeldig worden gemaakt, aangezien u toevoegt en nieuwe segmenten op AEM publiceert. Zonder deze validatieregel werken nieuwe doelcampagnes niet op de AEM Screens Player (in plaats daarvan wordt de standaardinhoud weergegeven).
 
 * Een validatieregel toevoegen aan `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Hier volgt de regel die moet worden toegevoegd:
 

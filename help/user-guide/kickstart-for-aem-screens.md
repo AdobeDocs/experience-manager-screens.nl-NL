@@ -5,26 +5,26 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1282'
 ht-degree: 1%
 
 ---
 
 # Kickstart Guide {#kickstart-guide}
 
-De kickstart naar AEM Screens laat zien hoe u een AEM Screens-project kunt opzetten en uitvoeren. Het begeleidt u door het instellen van een eenvoudige digitale handtekening en het toevoegen van inhoud, zoals elementen en/of video&#39;s, aan elk kanaal en het verder publiceren van de inhoud naar een AEM Screens-speler.
+De kickstart naar AEM Screens laat zien hoe u een AEM Screens-project kunt opzetten en uitvoeren. Het begeleidt u door het instellen van een eenvoudige digitale handtekening en het toevoegen van inhoud, zoals elementen en/of video&#39;s, aan elk kanaal en het verder publiceren van de inhoud naar een AEM Screens Player.
 
 >[!NOTE]
->Voordat u aan de projectdetails gaat werken, moet u eerst het nieuwste Feature Pack voor AEM Screens hebben geïnstalleerd. U kunt het nieuwste functiepakket downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
+>Voordat u aan de projectdetails gaat werken, moet u eerst het nieuwste Feature Pack voor AEM Screens hebben geïnstalleerd. U kunt het nieuwste elementenpakket downloaden van het [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
 
 ## Vereisten {#prerequisites}
 
 Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te maken en inhoud verder te publiceren naar de Schermspeler.
 
 >[!NOTE]
->In de volgende zelfstudie wordt het afspelen van de inhoud van uw kanaal in Chrome OS Player geïllustreerd.
+>In de volgende zelfstudie wordt het afspelen van de inhoud van uw kanaal in een Chrome OS-speler geïllustreerd.
 
 >[!IMPORTANT]
 >**OSGi-configuratie-instellingen**
@@ -87,7 +87,7 @@ Ga als volgt te werk om een kanaal voor uw project te maken:
 
 ### Inhoud toevoegen aan een kanaal {#adding-content}
 
-Wanneer u uw kanaal op zijn plaats hebt, voeg inhoud aan uw kanaal toe die de speler van AEM Screens kan tonen.
+Wanneer u uw kanaal op zijn plaats hebt, voeg inhoud aan uw kanaal toe die de Speler van AEM Screens kan tonen.
 
 Voer de onderstaande stappen uit om inhoud aan het kanaal toe te voegen (**TestChannel**) in uw project:
 
@@ -162,18 +162,18 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
 1. De **Kanaaltoewijzing** wordt geopend.
 
-1. Van de **Instellingen** kiest u het kanaal **op pad**  en **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting** en **Niet-actief scherm**.
+1. Van de **Instellingen** kiest u het kanaal **op pad** en **Ondersteunde gebeurtenissen** zoals **Oorspronkelijke belasting** en **Niet-actief scherm**.
 
    >[!NOTE]
    >
-   >De **Kanaalrol**, **Prioriteit**, en **Methoden voor onderbreking** worden standaard allemaal gevuld. Zie [Kanaaleigenschappen](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) voor meer informatie over de eigenschappen van de kanaaltoewijzing.
+   >De **Kanaalrol**, **Prioriteit**, en **Methoden voor onderbreking** worden standaard allemaal gevuld. Zie de [Kanaaleigenschappen](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) voor meer informatie over de eigenschappen van de kanaaltoewijzing.
 
    ![afbeelding](assets/kickstart/demo-assign3.png)
 
    U kunt ook op de knop **Activeringsvenster** en **Herhalingsschema**.
 
    >[!NOTE]
-   >De *Herhalingsschema* Hiermee kunt u een terugkerend schema voor uw kanaal instellen. U stelt meerdere herhalingsschema&#39;s voor een kanaal in.
+   >De *Herhalingsschema* Hiermee kunt u een terugkerend schema voor uw kanaal instellen. U kunt meerdere herhalingsschema&#39;s instellen voor een kanaal.
    >Zie [Herhalingsschema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) voor meer informatie .
 
 1. Klikken **Opslaan** zodra u uw voorkeuren hebt geconfigureerd.
@@ -183,13 +183,13 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 Registreer het apparaat met het AEM dashboard.
 
 >[!IMPORTANT]
->De Chrome OS-speler kan worden geïnstalleerd als Chrome Browser-insteekmodule in de ontwikkelaarsmodus zonder dat hiervoor een echt chrome speler-apparaat nodig is. Volg onderstaande stappen voor installatie:
+>De Chrome OS-speler kan worden geïnstalleerd als Chrome-browserplug-in in de modus voor ontwikkelaars zonder dat hiervoor een echt Chrome Player-apparaat nodig is. Volg onderstaande stappen voor installatie:
 >
 >1. Klikken [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
 >1. Pak het uit en sla het op de schijf op.
->1. Chrome openen en klikken **Extensies** in het menu of rechtstreeks door ***chrome://extensions***.
+>1. Open Chrome en klik op **Extensies** in het menu of rechtstreeks door ***chrome://extensions***.
 >1. Schakel de **Modus Ontwikkelaar** in de rechterbovenhoek.
->1. Klikken **Niet-verpakt laden** in de linkerbovenhoek en geladen niet-gecomprimeerde Chrome Player.
+>1. Klikken **Niet-verpakt laden** in de linkerbovenhoek en laadt de gedecomprimeerde Chrome Player.
 >1. Controleren **AEM Screens Chrome Player** insteekmodule als deze beschikbaar is in de lijst met extensies.
 >1. Open een nieuw tabblad en klik op de knop **Apps** in de linkerbovenhoek, of rechtstreeks naar ***chrome://apps***.
 >1. Klikken **AEM Screens** Insteekmodule voor het starten van Chrome Player. Standaard wordt de speler gestart in de modus Volledig scherm. Druk **Esc** om de modus Volledig scherm af te sluiten.

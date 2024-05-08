@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 0%
@@ -251,27 +251,27 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
 ## De resultaten bekijken {#viewing-the-results}
 
-Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave is voltooid, start u de AEM Screens-speler om de inhoud weer te geven.
+Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave is voltooid, start u AEM Screens Player om de inhoud weer te geven.
 
 >[!NOTE]
 >
 >Raadpleeg de volgende bronnen voor meer informatie over AEM Screens Player:
 >
->* [De AEM Screens-speler downloaden](https://download.macromedia.com/screens/)
+>* [AEM Screens Player downloaden](https://download.macromedia.com/screens/)
 >* [Werken met AEM Screens Player](working-with-screens-player.md)
 
 
-De volgende uitvoer bevestigt de inhoud van uw kanaal in de AEM Screens-speler, afhankelijk van het weergavepad.
+De volgende uitvoer bevestigt uw kanaalinhoud in AEM Screens Player, afhankelijk van het weergavepad.
 
 **Scenario 1**:
 
-Als u het weergavepad toewijst als **Demo** > **Locaties** > **Gebied A** > **Winkel 1** > **`Store1Display`** wordt de volgende inhoud weergegeven op uw AEM Screens-speler.
+Als u het weergavepad toewijst als **Demo** > **Locaties** > **Gebied A** > **Winkel 1** > **`Store1Display`** wordt de volgende inhoud weergegeven op uw AEM Screens Player.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Scenario 1**:
 
-Als u het weergavepad toewijst als **Demo** > **Locaties** > **Gebied B** > **Winkel 3** > **`Store3Display`** wordt de volgende inhoud weergegeven op uw AEM Screens-speler.
+Als u het weergavepad toewijst als **Demo** > **Locaties** > **Gebied B** > **Winkel 3** > **`Store3Display`** wordt de volgende inhoud weergegeven op uw AEM Screens Player.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -281,7 +281,7 @@ U kunt globale, regionale of lokale auteurs maken om inhoud die voor hen van bel
 
 Bewerk ACLs zodat u de toegang van de gebruiker tot de inhoud kunt beperken die op hun plaats wordt gebaseerd.
 
-### Voorbeeld: hoofdletter gebruiken {#example-use-case}
+### Voorbeeld van gebruik {#example-use-case}
 
 In het volgende voorbeeld kunt u drie gebruikers voor het bovenstaande demoproject maken.
 

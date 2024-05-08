@@ -1,6 +1,6 @@
 ---
 title: AEM Screens configureren en implementeren
-description: De AEM Screens-speler is beschikbaar voor Android&trade, Chrome OS, iOS en Windows. Meer informatie over de configuratie en implementatie van AEM Screens.
+description: De AEM Screens Player is beschikbaar voor Android&trade, Chrome OS, iOS en Windows. Meer informatie over de configuratie en implementatie van AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Deze pagina laat zien hoe u de schermspelers op uw apparaten kunt installeren en
 
 >[!IMPORTANT]
 >
->De AEM Screens-speler gebruikt de token Cross-Site Request-vervalsing (CSRF) niet. Als u de AEM server wilt configureren zodat deze klaar is voor gebruik voor AEM Screens, slaat u het verwijzingsfilter over door lege referenties toe te staan.
+>AEM Screens Player gebruikt niet de token Cross-Site Request Svervalsing (CSRF). Als u de AEM server wilt configureren zodat deze klaar is voor gebruik voor AEM Screens, slaat u het verwijzingsfilter over door lege referenties toe te staan.
 
 ## Health Check Framework {#health-check-framework}
 
-Met het Health Check-framework kan de gebruiker controleren of twee benodigde configuraties zijn ingesteld voordat een AEM Screens-project wordt uitgevoerd.
+Met het Health Check Framework kan de gebruiker controleren of twee benodigde configuraties zijn ingesteld voordat een AEM Screens-project wordt uitgevoerd.
 
 Het staat de gebruiker toe om de volgende twee configuratiecontroles te verifiëren om een project van AEM Screens in werking te stellen, namelijk om de staat van de volgende twee filters te controleren:
 
@@ -42,7 +42,7 @@ Volg de onderstaande stappen om te controleren of deze twee vitale configuraties
    ![elementen](assets/health-check1.png)
 
 
-2. Klikken **Geselecteerde gezondheidscontroles uitvoeren** zodat u de validatie kunt uitvoeren voor de twee hierboven vermelde eigenschappen.
+2. Klikken **De geselecteerde gezondheidscontroles uitvoeren** zodat u de validatie kunt uitvoeren voor de twee hierboven vermelde eigenschappen.
 
    Als beide filters zijn ingeschakeld, wordt het dialoogvenster **Screeningconfiguratie Health Service** toont de **Resultaat** als **OK** met beide configuraties zoals toegelaten.
 
@@ -93,11 +93,11 @@ Met de volgende belangrijke punten hieronder kunt u de server configureren en AE
 
    ![afbeelding](assets/config/config-1.png)
 
-1. Klikken **Opslaan** de *http* service.
+1. Klikken **Opslaan** de *HTTP* service.
 
 #### Aanraakinterface inschakelen voor AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM Screens vereist TOUCH UI en werkt niet met CLASSIC UI van Adobe Experience Manager (AEM).
+AEM Screens vereist TOUCH UI en werkt niet met de Klassieke UI van Adobe Experience Manager (AEM).
 
 1. Navigeren naar `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Zorg ervoor dat de **Standaardmodus voor ontwerpgebruikersinterface** is ingesteld op **TOUCH**, zoals weergegeven in onderstaande afbeelding
@@ -116,7 +116,7 @@ Als AEM in productie wordt uitgevoerd, worden de **NOSAMPLECONTENT** uitvoerings
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Dit is vereist voor de AEM Screens Player om onlinekanalen af te spelen.
+Deze verwijdering is vereist voor AEM Screens Player om onlinekanalen af te spelen.
 
 #### Wachtwoordbeperkingen {#password-restrictions}
 

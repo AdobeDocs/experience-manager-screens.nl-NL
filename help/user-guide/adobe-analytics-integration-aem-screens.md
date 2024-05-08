@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics-integratie met AEM Screens
-description: Meer informatie over de integratie van AEM Screens met Adobe Analytics in de doos vindt u in een proefdruk.
+description: Meer informatie over de out-of-the-box integratie van AEM Screens met Adobe Analytics en een bewijs van spel.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Deze AEM Screens-functionaliteit is alleen beschikbaar als u een minimale versie van AEM 6.4.2 Feature Pack 2 of AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd. Voor klanten van de cloudservice van AEM Screens neemt u contact op met uw Adobe Relationship Manager om Adobe Analytics in Screens Cloud in te schakelen.
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u een minimale versie van AEM 6.4.2 Feature Pack 2 of AEM 6.3.3 Feature Pack 4 hebt geïnstalleerd. Voor klanten van de AEM Screens Cloud-service neemt u contact op met uw Adobe Relationship Manager om Adobe Analytics in Screens Cloud in te schakelen.
 
 >[!NOTE]
 >
->Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, contacteer de Steun van de Adobe en verzoek toegang. U kunt het nieuwste functiepakket voor AEM Screens downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
+>Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, contacteer de Steun van de Adobe en verzoek toegang. U kunt het nieuwste elementenpakket voor AEM Screens downloaden via het menu [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
@@ -45,8 +45,8 @@ In deze sectie wordt de volgende functionaliteit beschreven die betrokken is bij
 * Staat toe dat de verslaggeving van de play-out per actief wordt aangetoond
 * Hiermee zorgt u ervoor dat alle spelergebeurtenissen worden vastgelegd en voorzien van een tijdstempel
 * Hiermee zorgt u ervoor dat alle spelergebeurtenissen lokaal worden opgeslagen als het afspelen niet is verbonden met een netwerk
-* Hiermee kunnen feedbacklussen worden gemaakt die gebeurtenissen bijhouden
-* Hiermee kan het systeem inhoud en lay-outs wijzigen op basis van succescriteria die door de auteur van de inhoud zijn gedefinieerd
+* Er kunnen feedback-lussen worden gemaakt die gebeurtenissen bijhouden die in de loop der tijd worden afgespeeld
+* Hiermee kan het systeem inhoud en lay-outs bewerken op basis van succescriteria die zijn gedefinieerd door de Content Author
 
 Adobe Analytics Integration with AEM Screens dwingt dus het volgende af *doelen*:
 
@@ -55,7 +55,7 @@ Adobe Analytics Integration with AEM Screens dwingt dus het volgende af *doelen*
 
 ## Architectuurgegevens {#architectural-details}
 
-Een AEM Screens-klant wil weten welke inhoud op welk moment en voor hoe lang (geaggregeerd) is weergegeven. Dit is gemeenschappelijk vermogen van signaleringsoplossing. AEM Screens gebruikt Adobe Analytics in plaats van een aparte analysetoepassing te maken. Met deze combinatie kunnen we iets uniek bereiken op de markt - kanaaloverschrijdende analyses die helpen inhoud die op locatie wordt getoond, te correleren met andere gegevensbronnen.
+Een AEM Screens-klant wil weten welke inhoud op welk moment en voor hoe lang (geaggregeerd) is weergegeven. Deze noodzaak is een gemeenschappelijk vermogen van een ondertekeningsoplossing. AEM Screens gebruikt Adobe Analytics in plaats van een aparte analysetoepassing te maken. Met deze combinatie kunnen we iets uniek bereiken op de markt - kanaaloverschrijdende analyses die helpen inhoud die op locatie wordt getoond, te correleren met andere gegevensbronnen.
 
 In het volgende architectuurdiagram wordt de Adobe Analytics Integration met AEM Screens uitgelegd:
 
@@ -119,7 +119,7 @@ In de volgende tabel worden de eigenschappen gemarkeerd met hun beschrijving voo
 
 #### Adobe Analytics Service gebruiken in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Dit scenario haalt Analytics API door de vraag van het REST van een analysedienst in de ingebouwde programmatuur aan. Het instrumenteert ook AEM de schermen-kern componenten om gebeurtenissen uitdrukkelijk tot stand te brengen en te verzenden specifiek voor een bepaald gebruiksgeval. Dit alles terwijl het toestaan van rekbaarheid waar om het even welk douanebericht aan Analytics van een douane-ontwikkeld kanaal kan worden verzonden.
+Dit scenario haalt Analytics API door de vraag van het REST van een analysedienst in de ingebouwde programmatuur aan. Het instrumenteert ook AEM schermen-kern componenten om gebeurtenissen tot stand te brengen en te verzenden specifiek voor een bepaald gebruiksgeval. Al deze functionaliteit terwijl het toestaan van rekbaarheid waar om het even welk douanebericht naar Analytics van een douane-ontwikkeld kanaal kan worden verzonden.
 
 Analytische gebeurtenissen worden offline opgeslagen in geïndexeerdeDB en later afgekapt en naar de cloud verzonden.
 

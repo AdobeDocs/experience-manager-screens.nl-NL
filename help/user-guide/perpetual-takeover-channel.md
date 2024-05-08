@@ -1,12 +1,12 @@
 ---
 title: Perpetual TakeOver Channel
-description: Volg dit Geval van Gebruik voor het creëren van een PerpetualTakeOver Kanaal.
+description: Volg dit gebruiksgeval voor het maken van een Perpetual TakeOver Channel.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -19,7 +19,7 @@ De volgende pagina toont een gebruiksgeval dat op vestiging een project op benad
 
 ## Omschrijving hoofdletter gebruiken {#use-case-description}
 
-Met deze optie wordt uitgelegd hoe u een kanaal maakt dat *overname* in het normale afspeelkanaal voor een weergave of groep weergaven. De overname duurt een bepaalde dag en een bepaalde tijd onafgebroken.
+In dit geval wordt uitgelegd hoe u een kanaal maakt dat *overname* in het normale afspeelkanaal voor een weergave of groep weergaven. De overname duurt een bepaalde dag en een bepaalde tijd onafgebroken.
 Bijvoorbeeld, is er een Perpetual TakeOver kanaal dat elke Vrijdag van 9:00 a.m. door 10:00 a.m. speelt. Tijdens deze tijd, zou geen ander kanaal moeten spelen. In het volgende voorbeeld ziet u hoe u een perpetual takeover channel maakt waarmee de inhoud elke woensdag gedurende twee uur vanaf 2.00 tot 16.00 uur kan worden afgespeeld.
 
 ### Voorwaarden {#preconditions}

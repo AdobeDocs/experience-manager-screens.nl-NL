@@ -1,7 +1,7 @@
 ---
 title: Richtlijnen voor hardwareselectie voor afspeelapparaten
-description: Lees meer over de richtlijnen voor het selecteren van hardware voor AEM Screens Player-apparaten.
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+description: Lees meer over de richtlijnen voor hardwareselectie voor AEM Screens Player-apparaten.
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Richtlijnen voor hardwareselectie voor afspeelapparaat {#hardware-selection}
 
-In de volgende sectie vindt u de richtlijnen voor het selecteren van hardware voor een AEM Screens-speler.
+In de volgende sectie vindt u de richtlijnen voor het selecteren van hardware voor een AEM Screens Player.
 
 ## Belangrijke overwegingen {#important-considerations}
 

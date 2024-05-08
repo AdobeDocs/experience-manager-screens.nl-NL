@@ -6,9 +6,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ In deze pagina wordt beschreven hoe u AEM Screens Player kunt installeren.
 
 ## Beschikbare schermspeler {#available-players}
 
-De AEM Screens-speler is beschikbaar voor Android™, Chrome OS en Windows.
+De AEM Screens Player is beschikbaar voor Android™, Chrome OS en Windows.
 
 Downloaden **AEM Screens Player**, bezoek de [AEM 6.5 Player-downloads](https://download.macromedia.com/screens/) pagina.
 
@@ -29,13 +29,13 @@ Downloaden **AEM Screens Player**, bezoek de [AEM 6.5 Player-downloads](https://
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
 >1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en klik op **Opslaan**.
->1. Klikken **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
+>1. Klik op de knop **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
 
 ## Standaardafspeelcontrole {#playback-monitoring}
 
-De speler rapporteert verschillende afspeelmetriek voor elke speler `ping` dat is standaard 30 seconden. Op basis van deze maatstaven kan het verschillende randgevallen detecteren, zoals geplakte ervaring, een leeg scherm en planningsproblemen. Dit laat ons kwesties op het apparaat begrijpen en problemen oplossen, en bespoedigt zo een onderzoek en correctieve maatregelen met u.
+De speler rapporteert verschillende afspeelmetriek voor elke speler `ping` dat is standaard 30 seconden. Op basis van deze maatstaven kan het verschillende randgevallen detecteren, zoals geplakte ervaring, een leeg scherm en planningsproblemen. Het laat ons kwesties op het apparaat begrijpen en problemen oplossen, en bespoedigt zo een onderzoek en correctieve maatregelen voor u.
 
-Met de standaardafspeelcontrole in een AEM Screens-speler kunt u het volgende doen:
+Met de standaardafspeelcontrole in een AEM Screens Player kunt u het volgende doen:
 
 * Op afstand controleren of een speler de inhoud correct afspeelt.
 
@@ -65,22 +65,22 @@ De volgende eigenschappen worden in elk `ping`:
 
 ### Beperkingen {#limitations}
 
-Hieronder worden enkele beperkingen weergegeven voor elementaire afspeelcontrole:
+Hieronder volgt een aantal beperkingen voor elementaire afspeelcontrole:
 
 * De speler rapporteert zijn eigen playbackstaat aan de server, zodat vereist het een actieve verbinding.
 
-* De `isContentRendering` eigenschap die de GPU controleert, is te hulpbronnenintensief om standaard te kunnen worden ingeschakeld en vereist expliciete opt-in bij de voorkeuren voor spelers. Adobe raadt u aan deze functie niet te gebruiken met video&#39;s in productie.
+* De `isContentRendering` eigenschap die de GPU controleert, is veel bronintensiever om standaard te kunnen worden ingeschakeld en vereist expliciete opt-in van de voorkeuren voor spelers. Adobe raadt u aan deze functie niet te gebruiken met video&#39;s in productie.
 
 * Deze functie wordt alleen ondersteund voor reekskanalen en heeft nog geen betrekking op het gebruik van interactieve kanalen (SPA).
 
-* De metriek worden nog niet volledig blootgesteld aan klanten, Adobe werkt aan het toelaten van dashboard-als rapporterings en alarmeringsmechanismen spoedig.
+* De metriek worden nog niet volledig blootgesteld aan klanten, maar de Adobe werkt aan het toelaten van dashboard-als rapporterings en alarmeringsmechanismen spoedig.
 
 ### Overige bronnen {#additional-resources}
 
-Zie de volgende onderwerpen voor een diepgaande informatie:
+Zie de volgende onderwerpen voor diepgaande informatie:
 
 * Ga voor het downloaden van Android™ Player naar **Google Play**. Ga voor meer informatie over het implementeren van Android™ Watchdog naar [Android™-speler implementeren](implementing-android-player.md).
 
 * Als u Chrome OS Player wilt implementeren, raadpleegt u [Chrome Management Console](implementing-chrome-os-player.md) voor meer informatie .
 
-* Voor het configureren van AEM Screens Windows Player raadpleegt u [Windows Player implementeren](implementing-windows-player.md).
+* Ga voor het configureren van AEM Screens Windows Player naar [Windows Player implementeren](implementing-windows-player.md).

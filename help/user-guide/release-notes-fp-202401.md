@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). De nieuwste versiegegevens ophalen van [hier](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). De nieuwste versiegegevens ophalen van [hier](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Beschikbaarheid {#availability}
 
 AEM Screens heeft AEM 6.5 Feature Pack 11.1 uitgebracht.
 
-U kunt het nieuwste functiepakket voor de AEM Screens 6.5.11.1-versie downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeren naar **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste functiepakket met de naam **AEM 6.5 Schermen FP11.1**.
+U kunt de nieuwste versie van het Feature Pack voor de AEM Screens 6.5.11.1 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Ga naar de **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste elementenpakket met de titel **AEM 6.5 Schermen FP11.1**.
 
 ## Releasedatum {#release-date}
 

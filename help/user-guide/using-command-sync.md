@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
    >
    >Ga voor meer informatie over het registreren van een apparaat naar [Apparaatregistratie](/help/user-guide/device-registration.md)
 
-1. In dit voorbeeld worden voor demo-doeleinden een chroom- en een Windows-speler weergegeven als twee aparte apparaten. Beide apparaten wijzen aan de zelfde vertoning.
+1. In dit voorbeeld worden voor demo&#39;s een chroomapparaat en een Windows Player als twee aparte apparaten weergegeven. Beide apparaten wijzen aan de zelfde vertoning.
    ![image1](assets/command-sync6.png)
 
 ### Kanaalinstellingen bijwerken
@@ -91,7 +91,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 ### Een primaire {#setting-up-primary}
 
 1. Navigeren naar het weergavedashboard vanaf **CommandSyncDemo** > **Locaties**  > **Lobby** > **LobbyDisplay** en klik op **Dashboard** in de actiebalk.
-Let op de twee apparaten (chroom- en vensterspeler) in **APPARATEN** , zoals in het volgende voorbeeld:
+Let op de twee apparaten (chroom en Windows Player) in **APPARATEN** , zoals in het volgende voorbeeld:
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Van de **APPARATEN** klikt u op het apparaat dat u als primair wilt instellen. In het volgende voorbeeld ziet u hoe u het Chrome-apparaat als primair apparaat instelt. Klikken **Instellen als primair apparaat**.
@@ -108,8 +108,8 @@ Let op de twee apparaten (chroom- en vensterspeler) in **APPARATEN** , zoals in 
 
 ### Synchroniseren met primaire {#sync-up-primary}
 
-1. Nadat u het Chrome-apparaat als primair hebt ingesteld, synchroniseert u het andere apparaat (in dit geval de Windows-speler) met het primaire apparaat.
-Klik op het andere apparaat (in dit geval de Windows Player) in het menu van het dialoogvenster **APPARATEN** deelvenster en klik op **Synchroniseren met primair apparaat**.
+1. Nadat u het Chrome-apparaat als primair hebt ingesteld, synchroniseert u het andere apparaat (in dit geval de Windows Player) met het primaire apparaat.
+Klik op het andere apparaat (in dit geval Windows Player) van de **APPARATEN** deelvenster en klik op **Synchroniseren met primair apparaat**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -118,7 +118,7 @@ Klik op het andere apparaat (in dit geval de Windows Player) in het menu van het
    >[OPMERKING:]
    > De **Synchroniseren met primair apparaat** wordt de lijst met primaire apparaten weergegeven. Selecteer de gewenste optie.
 
-1. Wanneer het apparaat (Windows-speler) is gesynchroniseerd met de primaire speler (Chrome-speler), wordt het apparaat gesynchroniseerd in het dialoogvenster **APPARATEN** deelvenster.
+1. Wanneer het apparaat (Windows Player) is gesynchroniseerd met het primaire apparaat (Chrome Player), wordt het apparaat gesynchroniseerd in het dialoogvenster **APPARATEN** deelvenster.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 

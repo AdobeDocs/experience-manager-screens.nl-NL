@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
 
 AEM Screens heeft AEM 6.4.5 Feature Pack 5 en AEM 6.5.1 Feature Pack 1 uitgebracht, met de volgende details.
 
@@ -33,9 +33,10 @@ De releasedatum voor AEM Screens Feature Pack 201907 is 31 juli 2019.
 
 * **Data Triger drijft activaverandering in een kanaal van AEM Screens**
 
-De speler schakelt over naar een kanaal met de informatie over noodgevallen bij ontvangst van een gebeurtenis die door het noodsysteem is geactiveerd. Het kanaal speelt uitsluitend tot de noodsituatie voorbij is.
+De speler schakelt over naar een kanaal dat informatie over noodgevallen weergeeft. Het noodsysteem verzendt deze informatie wanneer het een gebeurtenis ontvangt. Het kanaal speelt uitsluitend tot de noodsituatie voorbij is.
 
-Zie [Noodkanaal](emergency-channel.md) Gebruik hoofdletters/kleine letters voor implementatie.
+
+Zie [Noodkanaal](emergency-channel.md) gebruiksgeval voor implementatie.
 
 * **Doelstelling ingeschakeld voor asynchrone componenten
 
@@ -62,7 +63,7 @@ Zie [Starten](launches.md) voor meer informatie .
 
 * **Offlineconfiguraties in Experience Fragments**
 
-U kunt nu offline configuraties (client-side bibliotheken en statische bestanden) toevoegen terwijl u het fragment van de schermbeleving configureert. Zie [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md) voor meer informatie .
+U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen tijdens het configureren van schermafbeeldingsfragment. Zie [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md) voor meer informatie .
 
 ### Uitgebrachte AEM Screens-spelers
 
@@ -74,4 +75,4 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.4.5 Feature Pack 5
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/).
+Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/).

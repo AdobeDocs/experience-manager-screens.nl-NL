@@ -2,7 +2,7 @@
 title: Direct mobiel netwerk
 description: Meer informatie over Direct Mobile Network Setup in AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Als follow-up moet het benodigde gegevenspakket ten minste het volgende zijn:
 >Voor het aanvankelijk uploaden van mediabestanden, bijvoorbeeld, terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een verhoogde downloadtijd worden verwacht en in de bovenstaande veronderstellingen worden weerspiegeld. Een 4G-netwerk met *goed* dekking en *onbeperkt* de gegevens zouden de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
 
 >[!NOTE]
->Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens-speler. Als er slechts eerlijke dekking beschikbaar bij een specifieke plaats is, denk na omschakeling van de algemene Opstelling van het Netwerk aan [Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk](/help/using/mobile-network-router.md).
+>Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens Player. Als er slechts eerlijke dekking beschikbaar bij een specifieke plaats is, denk na omschakeling van de algemene Opstelling van het Netwerk aan [Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk](/help/using/mobile-network-router.md).
 
 
 ### Netwerk voor lokale gebieden {#lan-connection}

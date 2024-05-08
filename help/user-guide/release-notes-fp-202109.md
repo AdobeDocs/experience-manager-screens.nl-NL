@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
 
 ## Beschikbaarheid {#availability}
 
 AEM Screens heeft AEM 6.5 Feature Pack 9 uitgebracht.
 
-U kunt het nieuwste functiepakket voor de AEM Screens 6.5.9-versie downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Navigeren naar **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste functiepakket met de naam **AEM 6.5 Schermen FP9**.
+U kunt de nieuwste versie van het Feature Pack voor de AEM Screens 6.5.9 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Ga naar de **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste elementenpakket met de titel **AEM 6.5 Schermen FP9**.
 
 ## Releasedatum {#release-date}
 
@@ -31,7 +31,7 @@ De releasedatum voor AEM Screens Feature Pack 202109 is 23 september 2021.
 
 * **Ondersteuning van miniaturen voor video&#39;s**
 
-  Ondersteuning voor miniaturen voor video&#39;s die nu worden ondersteund in AEM Screens. Een auteur van inhoud definieert een miniatuur voor video&#39;s, zodat de afbeelding als plaatsaanduiding wordt gebruikt. Ook wordt het afspelen en activeren van inhoud op de juiste wijze getest, terwijl de video zelf door het juiste team wordt voltooid. De afbeelding kan ook worden gebruikt als het afspelen van de video mislukt.
+  Ondersteuning voor miniaturen voor video&#39;s die nu worden ondersteund in AEM Screens. Een Content Author definieert een miniatuur voor video&#39;s, zodat de afbeelding als plaatsaanduiding wordt gebruikt. Ook wordt het afspelen en activeren van inhoud op de juiste wijze getest, terwijl het juiste team de werkelijke video voltooit. De afbeelding kan ook worden gebruikt als het afspelen van de video mislukt.
 Zie [Ondersteuning van miniaturen voor video&#39;s](/help/user-guide/thumbnail-support.md) voor meer informatie .
 
 * **Standaardafspeelcontrole**
@@ -41,12 +41,12 @@ Zie [Standaardafspeelcontrole](https://experienceleague.adobe.com/en/docs/experi
 
 * **Updates voor Rapport voor toewijzing van inhoud**
 
-  Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij verbeterde gebruikerservaring. In het downloadbare rapport worden verbeterde spelergerelateerde entiteiten zoals locaties, weergaven en apparaten op één spreadsheettabblad weergegeven en wordt informatie over de inhoudsprovider weergegeven, zoals kanalen en elementen op een ander tabblad.
+  Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij een verbeterde gebruikerservaring. Het downloadbare rapport geeft verbeterde entiteiten met betrekking tot spelers weer. Dergelijke entiteiten omvatten plaatsen, vertoningen, en apparaten in één spreadsheetlusje. Het omvat ook de informatie van de inhoudsleverancier zoals kanalen en activa in andere tabel.
 Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie .
 
 * **Aangepaste uitvoeringen**
 
-  Met adaptieve uitvoeringen kunnen de apparaten automatisch op de beste uitvoering voor een apparaat klikken op basis van door de klant gedefinieerde regels.
+  Met adaptieve uitvoeringen kan het apparaat automatisch op de beste uitvoering voor een apparaat klikken op basis van door de klant gedefinieerde regels.
 
   Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Zie [Adaptieve uitvoeringen: Overzicht van architectuur en configuraties](/help/user-guide/adaptive-renditions.md) voor meer informatie .
 
@@ -74,7 +74,7 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
    * Dispatcher bijwerken.
 
-   * Aangepaste component bijwerken.
+   * Werk de aangepaste component bij.
 
 
    * Zie [Dispatcher configureren voor manifestversie v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer informatie .
@@ -97,7 +97,7 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * De toewijzing is omgezet in een lijst met vertoningssleutels.
 
-* Toegang tot `cmd.exe` en `reg.exe` in de Windows-speler.
+* Toegang tot `cmd.exe` en `reg.exe` in Windows Player.
 
 * Een speler moet de laatste geslaagde afspeelgebeurtenis melden.
 
@@ -113,7 +113,7 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * De component Ingesloten pagina respecteert nu de aanraakgebeurtenis.
 
-* Externe provisioning van Tizen Player wordt nu ondersteund.
+* Externe provisioning van de Tizen-speler wordt nu ondersteund.
 
 **Server-zijde**
 
@@ -126,13 +126,13 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * Videominiaturen worden leeg weergegeven met ingeschakelde adaptieve uitvoeringen.
 
-* Kanaalmanifest automatisch bijwerken als de pagina waarnaar wordt verwezen, wordt gepubliceerd.
+* Werk het kanaalmanifest automatisch bij als de pagina waarnaar wordt verwezen, wordt gepubliceerd.
 
 * Verwijderde apparaten blokkeren nu de wachtrij voor schermreplicatie niet.
 
-* Manifest bevatte geen doelinhoud of ingesloten sitepagina&#39;s. Dit is nu opgelost.
+* Het manifest bevatte geen gerichte inhoud of plaatsen ingebedde pagina&#39;s. Deze bug is nu opgelost.
 
-* De nieuwe component van het kernbeeld wordt nu toegevoegd aan kanaalmanifest.
+* Er wordt nu een nieuwe kerncomponent voor de afbeelding toegevoegd aan het kanaalmanifest.
 
 * Het downloaden van geoptimaliseerde uitvoeringen via SmartSync wordt nu ondersteund.
 
@@ -140,13 +140,13 @@ Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) v
 
 * Toegevoegde ondersteuning voor meerdere typen inhoudsproviders
 
-* De ingesloten strategie voor het afspelen van reeksen is verbroken en deze is nu opgelost.
+* De strategie voor het afspelen van de ingesloten reeks is verbroken en deze bug is nu opgelost.
 
 * Offline manifest die de verzoekparameter gebruikt `wcmmode` voor de vermelding van html, waardoor deze ontoegankelijk wordt.
 
 * Lege, dynamische ingesloten reeks heeft soms een leeg scherm veroorzaakt.
 
-* De speler rapporteert nu zijn playbackstatus.
+* De speler rapporteert nu de afspeelstatus.
 
 * Video is afgespeeld in `Tiny mode` en wordt niet afgespeeld als video op een volledig scherm op het apparaat. Het probleem is nu opgelost.
 
@@ -162,4 +162,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 9 van de Eig
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens-speler wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
