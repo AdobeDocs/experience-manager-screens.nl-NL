@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Schermen die wij.Retail Run UI.Apps en Ui.Content pakketten installeren via CRX Package Manager](assets/crx-packages.png)
+   ![Screens Web.Retail Run Ui.Apps en Ui.Content pakketten geïnstalleerd via CRX Package Manager](assets/crx-packages.png)
 
    Schermen `We.Retail` Uitvoeren `Ui.Apps` en `Ui.Content` pakketten geïnstalleerd via CRX Package Manager.
 
@@ -296,7 +296,7 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
 
    De eigenschap category is een tekenreeks die de clientbibliotheek identificeert. De categorie cq.screens.component wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom wordt elke CSS/JS die in de sharedclientLib is gedefinieerd, in alle modi geladen.
 
-   Het is aan te raden geen paden in een productieomgeving rechtstreeks toegankelijk te maken voor /apps. De eigenschap allowProxy zorgt ervoor dat naar de CSS- en JS-clientbibliotheek wordt verwezen via het voorvoegsel of/etc.clientlibs.
+   Het is aan te raden geen paden in een productieomgeving rechtstreeks toegankelijk te maken voor /apps. De eigenschap allowProxy zorgt ervoor dat naar de CSS- en JS-client-bibliotheek wordt verwezen door middel van het voorvoegsel of/etc.clientlibs.
 
 1. Bestandsnaam maken `css.txt` onder de gedeelde map.
 

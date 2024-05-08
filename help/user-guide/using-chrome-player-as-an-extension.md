@@ -1,42 +1,42 @@
 ---
 title: Chrome Player gebruiken als een extensie
-description: Leer hoe u de chroomspeler installeert als een browserextensie voor AEM Screens.
+description: Leer hoe u de Chrome-speler installeert als een browserextensie voor AEM Screens.
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
-# Chrome Player gebruiken als een extensie {#using-chrome-player}
+# Chrome-speler gebruiken als extensie {#using-chrome-player}
 
-De ChromeOS-speler kan als Chrome-browserplug-in worden geïnstalleerd in de modus voor ontwikkelaars zonder dat hiervoor een apparaat met een chrome speler nodig is.
+De ChromeOS-speler kan als Chrome-browserinsteekmodule worden geïnstalleerd in de modus voor ontwikkelaars zonder dat hiervoor een echt Chrome-spelerapparaat nodig is.
 
 >[!CAUTION]
 >
-> Het gebruik van de Speler van Chrome als uitbreiding voor het oplossen van problemen wordt geadviseerd voor snelle demo&#39;s, het zuiveren en ook om klantenkwesties problemen op te lossen. Gebruik dit mechanisme niet voor productieplaatsingen die kiosk wijze en centraal beheer zouden vereisen.
+> Het gebruiken van de speler van Chrome als uitbreiding voor het oplossen van problemen wordt geadviseerd voor snelle demo&#39;s, het zuiveren en ook om klantenkwesties problemen op te lossen. Gebruik dit mechanisme niet voor productieplaatsingen die kiosk wijze en centraal beheer zouden vereisen.
 
-Volg deze pagina voor informatie over het installeren van de chroomspeler als browser uitbreiding.
+Volg deze pagina voor informatie over het installeren van de speler van Chrome als browser uitbreiding.
 
-1. Klikken [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
+1. Klikken [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome-speler te downloaden.
 
 1. Pak het uit en sla het op de schijf op.
 
 1. Open Chrome-browser en klik op het menu met drie punten en klik op **Meer gereedschappen** van **Extensies** in de rechterbovenhoek of navigeer rechtstreeks naar `chrome://extensions`.
 
-1. Schakel de **Ontwikkelaar** vanuit de rechterbovenhoek.
+1. Schakel de **Ontwikkelaar** in de rechterbovenhoek.
 
-1. Klikken **Niet-verpakt laden** in de linkerbovenhoek en geladen niet-gecomprimeerde Chrome Player.
+1. Klikken **Niet-verpakt laden** in de linkerbovenhoek en laadt de uitgeklapte Chrome-speler.
 
-1. Controleer de AEM Screens Chrome Player-insteekmodule als deze beschikbaar is in de lijst met extensies.
+1. Schakel de insteekmodule AEM Screens Chrome-speler in als deze beschikbaar is in de lijst met extensies.
 
 1. Open een nieuw tabblad en klik in de linkerbovenhoek op het pictogram Apps of navigeer rechtstreeks naar `chrome://apps`.
 
-1. Klikken **AEM Screens-insteekmodule** zodat u Chrome Player kunt starten.
+1. Klikken **AEM Screens-insteekmodule** zodat u de Chrome-speler kunt starten.
 
    >[!NOTE]
    >
@@ -49,12 +49,12 @@ Volg deze pagina voor informatie over het installeren van de chroomspeler als br
 
    >[!NOTE]
    >
-   > Als de bovenstaande URL niet werkt, betekent dit dat aan de speler geen weergave is toegewezen of dat de inhoud niet is gedownload. Controleer het netwerklusje voor speler config JSON om te zien of worden de correcte details verkregen door de speler en voor om het even welke netwerkkwesties in download.
+   > Als de bovenstaande URL niet werkt, betekent dit dat aan de speler geen weergave is toegewezen of dat de inhoud niet is gedownload. Controleer het netwerklusje voor speler config JSON om te zien of verkrijgt de speler de correcte details en voor om het even welke netwerkkwesties in download.
 
-1. Klik met de rechtermuisknop en inspecteer drie lagen van de chroomspeler.
+1. Klik met de rechtermuisknop en inspecteer drie lagen van de Chrome-speler.
    **Fouten opsporen in inhoud**: Klik met de rechtermuisknop en controleer de inhoud om fouten op te sporen in de actieve inhoud (er moet één item met de naam &quot;Inspect&quot; zijn in het contextmenu)
 
-   **Fouten opsporen in firmware**: Breng omhoog admin UI en klik dan met de rechtermuisknop aan en inspecteer om de ingebouwde programmatuur (speler) code te zuiveren. (U kunt de achtergrondpagina controleren en inspecteren en het opnieuw opstarten van de browser simuleren.)
+   **Fouten opsporen in firmware**: Breng omhoog admin UI en klik dan met de rechtermuisknop aan en inspecteer om de ingebouwde programmatuur (speler) code te zuiveren. (U kunt de achtergrondpagina beter inspecteren en inspecteren en het opnieuw starten van de browser simuleren.)
 
    **Achtergrondpagina voor foutopsporing**: De interface voor beheerders weergeven en vervolgens met de rechtermuisknop klikken en de achtergrondpagina inspecteren (voor achtergrondservices zoals http-server).
 

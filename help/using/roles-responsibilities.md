@@ -2,9 +2,9 @@
 title: AEM Screens-projectrollen en -verantwoordelijkheden
 description: Meer informatie over de rollen en verantwoordelijkheden van AEM Screens-projecten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ AEM Implementors zijn verantwoordelijk voor het uitvoeren van ontwikkelings- en 
 
 Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Experience) van eindgebruikers worden ook vastgelegd en via dit proces geleverd.
 
-AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase omvat het inschakelen van de mogelijkheid om het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met andere fasen die ondersteuning bieden voor interactieve elementen via aanraakschermen, sensoren, dynamische triggers enzovoort.
+AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase omvat het inschakelen van de mogelijkheid om het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met andere fasen die ondersteuning voor interactieve elementen bevatten via aanraakschermen, sensoren, dynamische triggers enzovoort.
 
 ### Audio-/video-integratie {#av-integrators}
 

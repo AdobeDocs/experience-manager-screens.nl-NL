@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 
 ## Lege verwijzingsverzoeken toestaan {#allow-empty-referrer-requests}
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM instantie > hamerpictogram > **Bewerkingen** > **Webconsole**.
+1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM > hamerpictogram > **Bewerkingen** > **Webconsole**.
 
    ![afbeelding](assets/config/empty-ref1.png)
 

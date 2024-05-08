@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Volg de onderstaande stappen om een AEM Screens Player problemen op te lossen di
 
 ### 6. Hoe haalt u de details van het scherm en het apparaat op van de speler-API?
 
-U kunt de details van de weergave en het apparaat ophalen via:
+U kunt de details van de weergave en het apparaat ophalen door:
 
 * **een interne JS API**
 * **een ContextHub-archief**: Drie ContextHub-winkels zijn gedefinieerd in `/libs/screens/clientlibs/contexthub` om kanalen, apparaat en, vertoningsinfo bloot te stellen.
@@ -247,7 +247,7 @@ Installeer een minimale versie van AEM 6.5-functiepakket 8 voor de AMS-aansluiti
 
 De dienst wordt gebruikt om openbare hostname voor de auteur te bepalen en instanties te publiceren, en de waarden worden dan gebruikt om de apparatenserver URLs en ook voor het richten ContextHub bij te werken.
 
-De dienst van Externalzer van de Verbinding CQ in Schermen kan via worden gevormd:
+De dienst van Externalzer van de Verbinding van CQ in Schermen kan door middel van: worden gevormd:
 
 1. Navigeren naar `http://localhost:4502/system/console/configMgr`
 1. Day CQ Link ExternalAlizer

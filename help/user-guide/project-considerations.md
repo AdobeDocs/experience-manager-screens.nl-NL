@@ -1,6 +1,6 @@
 ---
 title: "Deel 2: Overwegingen als projecten worden opgesplitst"
-description: Leer over de inhoudsstrategie, I/O lagen, activa types, publiekssegmentatie, dagdelen, bedrijfsverrichtingsvereisten, en de overwegingen van de plaatsbereidheid in AEM Screens.
+description: Leer meer over de inhoudsstrategie, I/O-lagen, elementtypen en publiekssegmentatie in AEM Screens. Lees meer over de onderdelen van de dag, de vereisten voor bedrijfsbewerkingen en de gereedheid van de site.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -23,28 +23,28 @@ Deze pagina benadrukt deel 2 van een reeks van 5 delen die wordt ontworpen om te
 
 ## Overzicht {#overview}
 
-De volgende zelfstudie heeft betrekking op de elementen die tijdens de ontdekking van het project moeten worden geïdentificeerd, samen met de inbreng van belanghebbenden om het project te beoordelen en een passend ontwerp voor te bereiden.
+De volgende zelfstudie behandelt de elementen die tijdens de ontdekking van het project moeten worden geïdentificeerd. Het omvat ook de inbreng van belanghebbenden om het project te beoordelen en de noodzakelijke voorbereidingen voor een passend ontwerp.
 
 De belangrijkste onderdelen van een digitaal ondertekeningsprogramma die vereist zijn voor een geslaagde implementatie zijn:
 
-* Content Strategy
-* Vereisten voor bedrijfsactiviteiten
-* Detectie IT- en netwerkomgeving
-* Eisen voor audio/video
-* Apparaatspecificaties
-* Gereedheid van site
+* Content strategy
+* Vereisten inzake bedrijfsactiviteiten
+* Detectie van IT- en netwerkomgevingen
+* Audio-/videovereisten
+* Apparaatspecificatie
+* Gereedheid van de site
 
 >[!NOTE]
 >
->Definieer een strategie voor inhoud waarin wordt overwogen hoe de toepassing software-, hardware- en connectiviteitsbronnen gebruikt om de gewenste waarde te leveren.
+>Definieer een inhoudsstrategie die in overweging neemt hoe de toepassing software-, hardware- en connectiviteitsbronnen gebruikt om de bedoelde waarde met succes te leveren.
 
-## Overzicht van projectoverwegingen in een digitale handtekening  {#summary-of-project-considerations-in-a-digital-signage}
+## Overzicht van projectoverwegingen in een digitale handtekening {#summary-of-project-considerations-in-a-digital-signage}
 
-Bij het ontwikkelen van een inhoudsstrategie zijn er verschillende overwegingen, zoals I/O-lagen, Asset Types, Audience Segmentations en de vereisten voor het dagdeel-schema.
+Wanneer het ontwikkelen van een inhoudsstrategie zijn er verscheidene overwegingen met inbegrip van I/O lagen, activa types, de Segmentaties van het Publiek, en de vereisten van het Programma van het Dagdeel.
 
 ### I/O-lagen {#i-o-layers}
 
-I/O-drive voorwaardelijk afspelen van inhoud op basis van het waarnemen van de nabijheid van het publiek. Wanneer een sensor bijvoorbeeld nabijheid detecteert, kan het afspelen van inhoud veranderen van &#39;aantrekken&#39; of passieve inhoud in &#39;aantrekken&#39; of interactief afspelen. Dit is vooral nuttig in toepassingen waar het dienen van inhoud op demografie gewenst is.
+I/O-drive voorwaardelijk afspelen van inhoud op basis van het waarnemen van de nabijheid van het publiek. Wanneer een sensor bijvoorbeeld nabijheid detecteert, kan het afspelen van inhoud veranderen van &#39;aantrekken&#39; of passieve inhoud in &#39;aantrekken&#39; of interactief afspelen. Deze functionaliteit is vooral handig in toepassingen waarin content op basis van demografie gewenst is.
 
 ### Elementen van inhoud {#content-asset-types}
 
@@ -61,32 +61,32 @@ Houd rekening met de volgende punten om u te helpen bij het begrijpen van de int
 
 ### Auditiesegmentatie, Dagonderdelen {#audience-segmentation-day-parts}
 
-Het ingaan van dag-Deel strategieën kan eindcliënten toestaan om hun inhoud en doeloverseinen aan het juiste publiek in de juiste tijd te segmenteren. Dit is met name effectief voor advertentie- of Retail-netwerken, waar veel content contributors de hele afspeellijst vormen.
+Het opnemen van dag-Deel strategieën kan eindcliënten toestaan om hun inhoud te segmenteren. Het kan helpen richten overseinen aan het juiste publiek op het juiste ogenblik. Deze mogelijkheid is vooral effectief voor advertentie- of Retail-netwerken, waar veel content contributors uit een hele afspeellijst bestaan.
 
 ### Vereisten voor bedrijfsactiviteiten {#business-operations-requirements}
 
-Zakelijke bewerkingen zijn ook belangrijk om te definiëren in discussies over inhoudsstrategie. Het formaliseren van de de steunvereisten van eind-cliënten kan helpen verwachtingen na plaatsing beheren, die ervoor zorgen de steuninspanningen correct worden gemeten.
+De bedrijfsverrichtingen zijn ook belangrijk om in de gesprekken van de inhoudsstrategie te bepalen. Het formaliseren van de de steunvereisten van eind-cliënten kan helpen verwachtingen na plaatsing beheren, die ervoor zorgen de steuninspanningen correct worden gemeten.
 
 ### Eisen voor audio/video {#a-v-requirements}
 
 De montagescenario&#39;s vereisen ook definitie, evenals overwegingen die apparatentoegang voor het onderhouden van materiaal omringen. Dit is niet alleen van invloed op de initiële aanbevelingen voor de installatielabels en -apparatuur, maar ook op de vereisten voor doorlopende service en ondersteuning.
 
-### Gereedheid van site {#site-readiness}
+### Gereedheid van de site {#site-readiness}
 
-De laatste stap in het Pre-Sales-proces is het bepalen van de gereedheid van de site. Dit kan worden vergemakkelijkt door siteenquêtes die site, project en voortgangsgegevens vastleggen. De gereedheid van de site legt in feite de huidige status van een locatie vast voordat deze wordt geïnstalleerd. De klant moet dan alle onderdelen aanroepen die de klant moet voorbereiden of van plan zijn te benaderen voordat een technicus aankomt. Dit omvat doorgaans elementen zoals voeding, gegevens, verwijdering van meubilair en verwijdering van stof.
+De laatste stap in het Pre-Sales-proces is het bepalen van de gereedheid van de site. Gereedheid kan worden vergemakkelijkt door siteenquêtes die site, project en voortgangsgegevens vastleggen. De gereedheid van de site legt in feite de huidige status van een locatie vast voordat deze wordt geïnstalleerd. De klant moet dan alle onderdelen aanroepen die de klant moet voorbereiden of van plan zijn te adresseren voordat een technicus arriveert. Doorgaans bevat deze controlelijst items zoals stroom, gegevens, verwijdering van meubilair en verwijdering van stof.
 
 ## Deel 2: Videozelfstudie over de overweging van projecten {#part-video-tutorial-on-considerations-as-projects-are-scoped}
 
-Volg de onderstaande zelfstudie om meer te leren over de inhoudsstrategie, I/O-lagen, elementtypen, publiekssegmentatie, onderdelen voor de dag, vereisten voor bedrijfsbewerkingen en gereedheidsoverwegingen voor de site.
+Volg de onderstaande zelfstudie om meer te leren over de inhoudsstrategie, I/O-lagen, elementtypen en publiekssegmentatie. Lees meer over de onderdelen van de dag, de vereisten voor bedrijfsbewerkingen en de gereedheid van de site.
 
 ### Overwegingen als projecten worden behandeld
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Leer over de inhoudsstrategie, I/O lagen, activa types, publiekssegmentatie, dagdelen, bedrijfsverrichtingsvereisten, en overwegingen van de plaatsbereidheid.*
+*Leer over de inhoudsstrategie, I/O lagen, activa types, en publiekssegmentatie. Lees meer over de onderdelen van de dag, de vereisten voor bedrijfsbewerkingen en de gereedheid van de site.*
 
 ## De volgende stap {#the-next-step}
 
-Wanneer u de elementen begrijpt die tijdens projectontdekking, samen met de input van belanghebbenden worden geïdentificeerd om het project te beoordelen en een aangewezen ontwerp voor te bereiden, leer de belangrijkste termijnen betrokken bij een algemeen projectplan. Dergelijke termen omvatten projectcyclus, acties rond het testen van hardware, Conceptproef, piloten, en rollouts.
+Begrijp de elementen die tijdens de projectontdekking worden geïdentificeerd, samen met de inbreng van belanghebbenden om het project te beoordelen en een passend ontwerp voor te bereiden. Leer de belangrijkste termijnen betrokken bij een algemeen projectplan. Dergelijke termen omvatten projectcyclus, acties rond het testen van hardware, Conceptproef, piloten, en rollouts.
 
 Navigeren naar **[Testen, concepttest, piloten en rollouts](testing-pocs-pilots-rollouts.md)** voor meer informatie .

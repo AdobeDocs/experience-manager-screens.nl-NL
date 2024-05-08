@@ -2,9 +2,9 @@
 title: Testen en kwaliteitsborging
 description: Meer informatie over testen en kwaliteitsborging voor AEM Screens vindt u in de Best Practices Guide.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Testen en kwaliteitsborging {#testing-quality}
 
 >[!NOTE]
->Doorgaans is de belanghebbende bij deze activiteit een Audio/Video-integrator.
+>Een typisch belanghebbende voor deze activiteit is een Audio/Video Integrator.
 
 Aangezien u dichter aan plaatsing van het digitale signaalnetwerk wordt, creeer een plan van de Test en van QA dat elk element van het netwerk met inbegrip van alle hardwarecomponenten, alle softwarecomponenten, en alle voorzien van een netwerkcomponenten richt.
 In de fase moeten volledige testsystemen worden gebouwd en volledig getest.
@@ -21,7 +21,7 @@ Er moet een controlelijst worden gemaakt die alle eerder gedefinieerde KPI&#39;s
 
 >[!NOTE]
 >
->Deze fase moet ook worden gebruikt als een hulpmiddel voor het maken van een installatie- en gebruikershandleiding die later met de apparatuur kan worden geleverd en ter referentie ter plaatse kan worden bewaard.
+>Deze fase moet ook worden gebruikt als hulpmiddel voor het maken van een installatie en gebruikershandleiding. Beide kunnen later met de apparatuur worden geleverd en ter referentie op de locatie worden gehouden.
 
 De volgende elementen moeten in overweging worden genomen:
 
@@ -48,9 +48,9 @@ De volgende softwareoverwegingen worden geadviseerd:
 
 ## 3. Overwegingen voor apparaatbeheer {#device-management-considerations}
 
-AEM Screens bevat een Device Control Center-module waarmee u eindpunten van de toepassing Screens Player kunt beheren.
+AEM Screens bevat een Device Control Center-module waarmee u eindpunten van schermspelertoepassingen kunt beheren.
 
-Dit heeft betrekking op *player* hardwareapparaat waarop de toepassing Schermspeler is geïnstalleerd en die is geregistreerd bij een AEM.
+Het verwijst naar *player* hardwareapparaat waarop de toepassing Schermspeler is geïnstalleerd en die is geregistreerd bij een AEM.
 Met deze module kunt u:
 
 1. Toepassingsfoutlogboeken van de speler controleren
@@ -58,11 +58,11 @@ Met deze module kunt u:
 1. Downloads van inhoud beheren
 1. Problemen met het opnieuw opstarten van toepassingen beheren
 
-Meer informatie over ***Device Control Center***, zie [Problemen oplossen in Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens-gebruikershandleiding**.
+Meer informatie over de ***Device Control Center***, zie [Problemen oplossen in Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens-gebruikershandleiding**.
 
 >[!CAUTION]
 >
->Gebruik Device Control Center niet om:
+>Gebruik het Device Control Center niet om:
 >
 >* Nieuwe versies van de spelertoepassing installeren
 >* Bronnen op systeemniveau controleren

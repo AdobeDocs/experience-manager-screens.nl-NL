@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8330c85b68e9fd3877a04455f38b908459036805
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Projectbeheerders hebben het recht en de verantwoordelijkheid om opmerkingen, ve
 
 ## Scope
 
-Deze gedragscode is zowel van toepassing binnen projectruimten als in openbare ruimten wanneer een individu het project of zijn gemeenschap vertegenwoordigt. Voorbeelden van het vertegenwoordigen van een project of gemeenschap zijn het gebruik van een officieel e-mailadres voor een project, het posten via een officiële sociale-mediaaccount of het optreden als een aangestelde vertegenwoordiger tijdens een online- of offlineevenement. De representatie van een project kan nader worden omschreven en verduidelijkt door de projectbeheerders.
+Deze gedragscode is zowel van toepassing binnen projectruimten als in openbare ruimten wanneer een individu het project of zijn gemeenschap vertegenwoordigt. Voorbeelden van het vertegenwoordigen van een project of gemeenschap zijn het gebruik van een officieel e-mailadres voor een project, het posten via een officiële sociale-mediaaccount of het optreden als een aangewezen vertegenwoordiger tijdens een online- of offlineevenement. De representatie van een project kan nader worden omschreven en verduidelijkt door de projectbeheerders.
 
 ## Handhaving
 

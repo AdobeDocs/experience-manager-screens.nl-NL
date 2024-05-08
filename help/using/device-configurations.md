@@ -2,9 +2,9 @@
 title: Apparaatspecificaties
 description: Meer informatie over de apparaatspecificaties van AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Doorgaans is de belanghebbende bij deze activiteit een Audio/Video-integrator.
+>Een typisch belanghebbende voor deze activiteit is een Audio/Video Integrator.
 
 Gebaseerd op de informatie die tijdens *Dagnul*, bevestig de volgende informatie voordat u begint met de ontwikkeling:
 
@@ -23,7 +23,7 @@ Gebaseerd op de informatie die tijdens *Dagnul*, bevestig de volgende informatie
 
 * Welke software en besturingssysteem moet op de apparaten worden geïnstalleerd?
 
-* Is een internetverbinding vereist voor spelers om de schermen te synchroniseren met AEM servers?
+* Is een verbinding van Internet vereist op spelers om de schermen met AEM servers te synchroniseren?
 
 * Wanneer wordt inhoud op spelers bijgewerkt?
 

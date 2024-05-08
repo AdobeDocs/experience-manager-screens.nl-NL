@@ -3,9 +3,9 @@ title: Gebeurtenissen op basis van gegevens
 description: null
 page-status-flag: never-activated
 contentOwner: jsyal
-source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Gegevensgestuurde gebeurtenissen worden ingedeeld in de volgende vier categorieÃ
 
 #### Gegevens in gebruik {#data-in-operational}
 
-Dit kan verder in Onderbreking van het Kanaal en Placeholder worden gecategoriseerd.
+Deze gebeurtenis kan verder worden gecategoriseerd in Kanaal onderbreekt en Placeholder.
 
 #### Gegevens in presentatie {#data-in-presentation}
 
@@ -42,4 +42,4 @@ Wanneer een opdracht naar het LCD-scherm wordt gestuurd om het scherm in en uit 
 
 #### Presentatie voor gegevensuitvoer {#data-out-presentational}
 
-Grafiek die de informatie samenvoegt tot de feedbacklus. Het gebruikt analyses om gebeurtenissen te evalueren en op te merken.
+Het diagram waarin de informatie wordt samengevoegd tot de feedbacklus. Het gebruikt analyses om gebeurtenissen te evalueren en op te merken.

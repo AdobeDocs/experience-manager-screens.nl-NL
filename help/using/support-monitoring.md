@@ -2,9 +2,9 @@
 title: Ondersteuningscontrole
 description: Meer informatie over Support Monitoring for AEM Screens Best Practices.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Met contentcontrole kunt u problemen met betrekking tot inhoud die niet correct 
 
 1. Als een probleem met een leeg scherm wordt aangetroffen:
 
-   * Controleren *voorvertoning* zodat u kunt zien of toont het kanaal een zwart scherm.
+   * Controleer de *voorvertoning* zodat u kunt zien of toont het kanaal een zwart scherm.
    * Een *lokale chroomspeler* (als extensie) op uw laptop naar dat beeldscherm en controleer of dat een zwart scherm weergeeft.
-   * Klikken met rechtermuisknop en controleren en controleren *toepasselijke stamboeken*.
+   * Klik met de rechtermuisknop en controleer en controleer de *toepasselijke stamboeken*.
 
-   Als dit niet gebeurt op de lokale speler maar alleen op het apparaat:
+   Als het probleem zich niet voordoet op de lokale speler, maar alleen op het apparaat:
 
-   * Controleren *mediatype* (wordt gebruikt) die problemen kunnen hebben op dat apparaat en ook bevestigen of de inhoud lokaal is gedownload (de cache van het beheerdersinterface is leeg).
+   * Controleer de *mediatype* (wordt gebruikt) die problemen kan hebben op dat apparaat en ook bevestigen of de inhoud met succes lokaal is gedownload (de geheime cache van het beheerdersinterface is leeg).
    * Inclusief alle *apparaatlogboeken* in het kaartje voor het snelle oplossen van problemen.
    * *Logboeken verzamelen* van het apparaat AEM.
 
@@ -41,5 +41,5 @@ Apparaatbewaking met betrekking tot de bewaking van het fysieke apparaat als er 
 1. Als een probleem met een leeg scherm wordt aangetroffen:
 
    * Controleer of de *display* is ingeschakeld.
-   * Controleer of de *computer* wordt aangedreven en verzendt signaal.
+   * Controleer of de *computer* wordt aangedreven en verzendt een signaal.
    * Klikken met rechtermuisknop, inspecteren en controleren *toepasselijke stamboeken*.

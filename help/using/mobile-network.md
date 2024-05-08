@@ -2,7 +2,7 @@
 title: Direct mobiel netwerk
 description: Meer informatie over Direct Mobile Network Setup in AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen 
 
 1. Zorg ervoor dat elk van de AEM spelers van het Scherm met het Netwerk van de Router wordt verbonden.
 
-1. Test de internetverbinding door een URL in uw systeembrowser aan te roepen.
+1. Test de verbinding van Internet door een URL in uw systeembrowser te roepen.
 
    >[!NOTE]
    >Als u een foutbericht krijgt, controleert u de netwerkinstellingen en controleert u of er voldoende netwerkkoppeling is. Controleer ook of de firewall van het besturingssysteem is geconfigureerd om netwerktoegang toe te staan terwijl de geconfigureerde AEM Screens-communicatiepoorten worden gebruikt.
@@ -92,6 +92,6 @@ De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van 
 
 >[!NOTE]
 >
->Alle informatie heeft betrekking op het gebruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
+>Alle informatie verwijst naar het verbruik van elk apparaat in het netwerk dat een internetbron aanvraagt en downloadt. Elk van die verzoeken voegt omhoog toe en breidt de Tijd van de Download uit.
 
 ![](/help/using/assets/download-times-mobile.png)

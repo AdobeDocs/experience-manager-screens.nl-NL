@@ -2,9 +2,9 @@
 title: Reiskaart
 description: Meer weten over Journey Map voor AEM Screens?
 exl-id: 23c368aa-5c5e-4bc8-802f-6ff53ec9e63a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De typische belanghebbende voor deze activiteit is een Marketing/Bedrijfs Strategist.
+>Een typische belanghebbende voor deze activiteit is een Marketing/Bedrijfs Strategist.
 
 Een kaart van de Ervaring van de Gebruiker wordt ontworpen om zicht in te verstrekken hoe en waarom de gebruikers de digitale inhoud ervaren die door het netwerk wordt geleverd.
 

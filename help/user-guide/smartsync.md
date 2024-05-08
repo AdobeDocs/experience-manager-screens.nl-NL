@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze wordt zowel op de server als op de client uitgevoerd.
 **Op de server**:
 
 * Inhoud van de kanalen, inclusief elementen, wordt in cache geplaatst in *`/var/contentsync`*.
-* Cache wordt aan de spelers blootgesteld via een manifest dat de beschikbare inhoud voor een vertoning beschrijft.
+* Cache wordt aan de spelers blootgesteld door middel van een manifest dat de beschikbare inhoud voor een vertoning beschrijft.
 
 **Aan de clientzijde**:
 
@@ -75,7 +75,7 @@ Voer de onderstaande stappen uit om van ContentSync over te schakelen op SmartSy
    >
    >Alle inhoudcache moet worden gewist voordat u SmartSync voor het eerst kunt gebruiken.
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM instantie > hamerpictogram > **Bewerkingen** > **Webconsole**.
+1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM > hamerpictogram > **Bewerkingen** > **Webconsole**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

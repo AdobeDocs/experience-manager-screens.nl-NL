@@ -2,7 +2,7 @@
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -21,7 +21,7 @@ De Ingesloten Collectieve Opstelling van het Netwerk is toepasselijk op kleinere
 Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM schermspelers in deze configuratie:
 
 1. Zorg ervoor dat elk van de AEM spelers van het Scherm met het Netwerk van Routers wordt verbonden.
-1. Test de internetverbinding door een URL op te roepen in de browser van uw systeem.
+1. Test de verbinding van Internet door een URL in browser van uw systeem te roepen.
 
    >[!NOTE]
    >Controleer de netwerkinstellingen als er een fout optreedt. Er zijn fundamenteel twee opties voor een juiste netwerkverbinding:
@@ -54,7 +54,7 @@ De prestaties van de verbinding van Internet, naast netwerkbereikbaarheid, moete
 
 >[!NOTE]
 >
->Alle apparaten hebben een gelijktijdige toegang tot de internetverbinding en de bandbreedte neemt lineair af wanneer u meer consumenten of computers aan het netwerk toevoegt.
+>Alle apparaten hebben een gelijktijdige toegang tot de verbinding van Internet en de bandbreedte lineair vermindert wanneer u meer consumenten of computers aan het netwerk toevoegt.
 
 ### Netwerk voor lokale gebieden {#lan-connection}
 

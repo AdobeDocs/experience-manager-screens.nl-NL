@@ -2,9 +2,9 @@
 title: UX-afhankelijkheden voor AEM Screens
 description: Meer informatie over UX-afhankelijkheden voor AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De typische belanghebbende voor deze activiteit is een Marketing/Bedrijfs Strategist.
+>Een typische belanghebbende voor deze activiteit is een Marketing/Bedrijfs Strategist.
 
 UX-afhankelijkheden bepalen waar en hoe inhoud wordt gestrategisch, zodat dit het meest effect heeft.
 

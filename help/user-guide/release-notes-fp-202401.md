@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 9879f339-e70f-446d-acd3-380016269f27
-source-git-commit: fe4f7d593ccea91f6109a0c759aea3faa37ae471
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Deze release bevat alleen beveiligingsoplossingen.
 
 * XSS-uitgave in het veld Niet-actieve tekst van AEM Screens-apparaat. (SCRNS-2614)
 
-* XSS-probleem op `screens/dashboard/device.html` via de `Clear cache` dialoogvenster Handeling. (SCRNS-2632)
+* XSS-probleem op `screens/dashboard/device.html` als `Clear cache` dialoogvenster Handeling. (SCRNS-2632)
 
 * XSS-probleem in configuratie van schermspeler op `libs/screens/player/browser/firmware.html`. (SCRNS-2652)
 
@@ -45,7 +45,7 @@ Deze release bevat alleen beveiligingsoplossingen.
 
 * XSS weerspiegeld met de parameter `item` om `/screens/register-device-wizard.html`. (SCRNS-2670)
 
-* Gereflecteerde XSS in `screens/dashboard/device.html` via de `returnPage` parameter. (SCRNS-3056)
+* Gereflecteerde XSS in `screens/dashboard/device.html` als `returnPage` parameter. (SCRNS-3056)
 
 * Open Omleiding op assign-device-wizard.html. (SCRNS-3444)
 

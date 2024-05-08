@@ -2,9 +2,9 @@
 title: Projecttaxonomie
 description: Meer weten over projecttaxonomie in verband met AEM Screens?
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De meest gangbare belanghebbenden voor deze activiteit zijn een AEM Implementor.
+>Een typisch belanghebbende voor deze activiteit is een AEM Implementor.
 
 Alvorens u een project van AEM Screens creeert, begrijp en strategiseer alle componenten die in de fase van het Draadframes van UX van het project worden bepaald.
 

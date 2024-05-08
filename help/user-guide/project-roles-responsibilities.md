@@ -5,9 +5,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ An **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings-
 
 Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Experience) van eindgebruikers worden ook vastgelegd en via dit proces geleverd.
 
-AEM Implementors implementeren doorgaans aangepaste functionaliteit in fasen in de loop van de tijd naar locaties. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase omvat het inschakelen van de mogelijkheid om het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met andere fasen die ondersteuning bieden voor interactieve elementen via aanraakschermen, sensoren, dynamische triggers enzovoort.
+AEM Implementors implementeren doorgaans aangepaste functionaliteit in fasen in de loop van de tijd naar locaties. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase omvat het inschakelen van de mogelijkheid om het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met andere fasen die ondersteuning voor interactieve elementen bevatten via aanraakschermen, sensoren, dynamische triggers enzovoort.
 
 #### Audio-/video-integratie {#av-integrators}
 

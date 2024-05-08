@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
@@ -339,7 +339,7 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
 
    De `categories` eigenschap is een tekenreeks die de clientbibliotheek identificeert. De `cq.screens.components` Deze categorie wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom zijn er CSS/JS-definities in de `shared` clientlib wordt in alle modi geladen.
 
-   Het is aan te raden geen paden in een productieomgeving rechtstreeks toegankelijk te maken voor /apps. De `allowProxy` zorgt ervoor dat er wordt verwezen naar de CSS- en JS-clientbibliotheek via een voorvoegsel van `/etc.clientlibs`. Meer informatie over de [allowProxy eigenschap is hier te vinden.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Het is aan te raden geen paden in een productieomgeving rechtstreeks toegankelijk te maken voor /apps. De `allowProxy` zorgt ervoor dat in de clientbibliotheek naar de CSS- en JS-indeling wordt verwezen door een voorvoegsel van `/etc.clientlibs`. Meer informatie over de [allowProxy eigenschap is hier te vinden.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Bestandsnaam maken `css.txt` onder de gedeelde map.
 

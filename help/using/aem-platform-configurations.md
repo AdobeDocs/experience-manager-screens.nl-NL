@@ -2,9 +2,9 @@
 title: Platformconfiguraties AEM
 description: De pagina beschrijft AEM platformconfiguraties
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '446'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->De meest gangbare belanghebbenden voor deze activiteit zijn een AEM Implementor.
+>Een typisch belanghebbende voor deze activiteit is een AEM Implementor.
 
 Ga aan de slag met AEM Screens door de onderstaande secties te volgen en AEM platformconfiguraties in te stellen
 
