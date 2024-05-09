@@ -2,9 +2,9 @@
 title: Informatie over deze handleiding
 description: Leer over beste praktijken voor de projecten van AEM Screens om projecten te plannen en uit te voeren, van strategische en ontwerpbriefing, tot plaatsing en na steun.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De AEM Screens Best Practices Guide is bedoeld als leidraad voor het succesvol p
 Het doelpubliek voor dit document is:
 
 * *Implementators AEM*
-* *Audio-/video-integratie*
+* *Audio-video-integratoren*
 * *Bedrijfsstrategieën*
 * *Projectmanagers*
 * *Consultants*

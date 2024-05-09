@@ -2,9 +2,9 @@
 title: AEM Screens-projectrollen en -verantwoordelijkheden
 description: Meer informatie over de rollen en verantwoordelijkheden van AEM Screens-projecten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Ex
 
 AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase omvat het inschakelen van de mogelijkheid om het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met andere fasen die ondersteuning voor interactieve elementen bevatten via aanraakschermen, sensoren, dynamische triggers enzovoort.
 
-### Audio-/video-integratie {#av-integrators}
+### Audio-video-integratoren {#av-integrators}
 
-De Audio/Video Integrator is de Leverancier/Partner van de Hardware. Dit is de partij die zich bezighoudt met het ontwerp en de voorbereiding van de detailhandel, met inbegrip van hardwareverwerving, configuratie, en plaatsing. Het is doorgaans een gecontracteerde derde die toegang heeft tot een Network Operations Center (NOC). Vaak is de Audio/Video Integrator de eigenaar van het project vanwege zijn voortdurende betrokkenheid na de lancering.
+De Audio-Video Integrator is de Leverancier/Partner van de Hardware. Dit is de partij die zich bezighoudt met het ontwerp en de voorbereiding van de detailhandel, met inbegrip van hardwareverwerving, configuratie, en plaatsing. Het is doorgaans een gecontracteerde derde die toegang heeft tot een Network Operations Center (NOC). Vaak is de Audio-Video Integrator de eigenaar van het project vanwege zijn voortdurende betrokkenheid na de lancering.
 
-Een Audio/Video Integrator is verantwoordelijk voor het uitvoeren van detectie met eindgebruikers om vereisten te definiëren die het projectbereik bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
+Een Audio-Video Integrator is verantwoordelijk voor het uitvoeren van ontdekkingen met eindklanten om vereisten te bepalen die projectwerkingsgebied bepalen om plaatsingen rond digitale signaalhardware te ontwerpen, te bouwen en effectief te beheren.
 
 #### Overdenking van hardwarepartner {#selecting-hardware-partner}
 
@@ -120,7 +120,7 @@ Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt en ver
 
 De volgende tabel geeft een overzicht van de **Nul dag: overwegingen vóór verkoop**:
 
-| **Fase** | **Audio/video-integratie** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
+| **Fase** | **Audio-video-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
 |---|---|---|---|---|
 | Teamsamenstelling en selectie van leverancier | I | I | RA | RA |
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
@@ -132,7 +132,7 @@ De volgende tabel geeft een overzicht van de **Nul dag: overwegingen vóór verk
 
 De volgende tabel geeft een overzicht van de **Dag één: Projectimplementatie (toepassingsontwerp)**:
 
-| **Fase** | **Audio/video-integratie** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
+| **Fase** | **Audio-video-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
 |---|---|---|---|---|
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Uitlijning op projectplan en -schema | RA | RA | C | C |
@@ -152,7 +152,7 @@ De volgende tabel geeft een overzicht van de **Dag één: Projectimplementatie (
 
 De volgende tabel geeft een overzicht van de **Dag één: Projectimplementatie (gereedheid voor detailhandel)**:
 
-| **Fase** | **Audio/video-integratie** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
+| **Fase** | **Audio-video-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
 |---|---|---|---|---|
 | Hardwarebestelling en -opslag | RA | I | I | I |
 | Handelson-boarding-schema | I | I | C | RA |
@@ -162,7 +162,7 @@ De volgende tabel geeft een overzicht van de **Dag één: Projectimplementatie (
 
 De volgende tabel geeft een overzicht van de **Dag 1: Dag 1: Projectimplementatie (hardware)**:
 
-| **Fase** | **Audio/video-integratie** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
+| **Fase** | **Audio-video-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
 |---|---|---|---|---|
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Het kleine Ontwerp omvat bedradingsverrichtingen | - | - | - | - |
@@ -179,7 +179,7 @@ De volgende tabel geeft een overzicht van de **Dag 1: Dag 1: Projectimplementati
 
 * **Ontwikkelaar**: Meestal een lid van het AEM Screens-implementatieteam of een lid van het interne ontwikkelingsteam
 
-* **Technicus**: ofwel gecontracteerd door de integratie Audio/Video of maakt deel uit van hetzelfde bedrijf.
+* **Technicus**: Of gecontracteerd door de Audio-Video integrator of deel uitmaakt van het zelfde bedrijf.
 
 De volgende tabel geeft een overzicht van de **Dag twee: RACI-grafiek voor ondersteuning na starten**:
 

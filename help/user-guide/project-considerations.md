@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De belangrijkste onderdelen van een digitaal ondertekeningsprogramma die vereist
 * Content strategy
 * Vereisten inzake bedrijfsactiviteiten
 * Detectie van IT- en netwerkomgevingen
-* Audio-/videovereisten
+* Vereisten voor audio en video
 * Apparaatspecificatie
 * Gereedheid van de site
 
@@ -67,7 +67,7 @@ Het opnemen van dag-Deel strategieën kan eindcliënten toestaan om hun inhoud t
 
 De bedrijfsverrichtingen zijn ook belangrijk om in de gesprekken van de inhoudsstrategie te bepalen. Het formaliseren van de de steunvereisten van eind-cliënten kan helpen verwachtingen na plaatsing beheren, die ervoor zorgen de steuninspanningen correct worden gemeten.
 
-### Eisen voor audio/video {#a-v-requirements}
+### Vereisten voor audio en video {#a-v-requirements}
 
 De montagescenario&#39;s vereisen ook definitie, evenals overwegingen die apparatentoegang voor het onderhouden van materiaal omringen. Dit is niet alleen van invloed op de initiële aanbevelingen voor de installatielabels en -apparatuur, maar ook op de vereisten voor doorlopende service en ondersteuning.
 

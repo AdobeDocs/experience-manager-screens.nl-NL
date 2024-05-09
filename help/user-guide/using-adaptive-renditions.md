@@ -2,9 +2,9 @@
 title: Adaptieve uitvoeringen gebruiken in AEM Screens
 description: Leer hoe u Adaptieve uitvoeringen kunt gebruiken in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,12 @@ ht-degree: 0%
 
 ## Inleiding {#introduction}
 
-Met adaptieve uitvoeringen kunnen de apparaten automatisch op de beste uitvoering voor een apparaat klikken op basis van door de klant gedefinieerde regels. De apparaten downloaden en spelen automatisch de meest aangewezen vertoning van activa die op deze regels wordt gebaseerd die klanten toestaan om zich bij het ontwerpen van *hoofd* ervaring.
+Met adaptieve uitvoeringen kunnen de apparaten automatisch op de beste uitvoering voor een apparaat klikken op basis van door de klant gedefinieerde regels. De apparaten downloaden automatisch de meest geschikte uitvoering van een middel en spelen deze die op deze regels wordt gebaseerd. Het laat klanten zich op het ontwerpen van *hoofd* ervaring.
 
 ## Doelstelling {#objective}
 
-Als AEM Screens Content Author kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudsvariaties hoeft te maken.
-Nadat een ontwikkelaar de eigenschappen en regels voor het toewijzen van vertoningen heeft toegevoegd, kunt u de vertoningstoewijzing op elementen toepassen en vervolgens de elementen in een AEM Screens-kanaal opnemen.
+Als AEM Scrßeens Content Author kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudsvariaties hoeft te maken.
+Nadat een ontwikkelaar de eigenschappen en regels voor het toewijzen van vertoningen heeft toegevoegd, kunt u de vertoningstoewijzing toepassen op elementen en deze vervolgens opnemen in een AEM Screens-kanaal.
 
 >[!IMPORTANT]
 >Voordat u begint met het gebruik van Adaptieve uitvoeringen in een AEM Screens-kanaal, raadt de Adobe u aan kennis te nemen van het architecturale overzicht en de architectuurconfiguratie van deze functie. Zie [Adaptieve uitvoeringen: Overzicht van architectuur en configuraties](/help/user-guide/adaptive-renditions.md).
@@ -26,7 +26,7 @@ Nadat een ontwikkelaar de eigenschappen en regels voor het toewijzen van vertoni
 ## Adaptieve uitvoeringen gebruiken in kanalen {#using-adaptive-renditions}
 
 >[!NOTE]
->Nadat u [rendition-mapping, eigenschap voor het schermproject](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) en [regels voor het toewijzen van vertoningen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)Als inhoudsauteur kunt u nu de uitvoeringen toepassen op uw elementen.
+>Nadat u de [rendition-mapping, eigenschap voor het schermproject](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) en [regels voor het toewijzen van vertoningen](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)Als inhoudsauteur kunt u nu de uitvoeringen toepassen op uw elementen.
 
 ### Vertoningen toepassen op elementen {#apply-renditions-assets}
 

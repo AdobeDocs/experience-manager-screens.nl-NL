@@ -2,9 +2,9 @@
 title: Testen en kwaliteitsborging
 description: Meer informatie over testen en kwaliteitsborging voor AEM Screens vindt u in de Best Practices Guide.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Testen en kwaliteitsborging {#testing-quality}
 
 >[!NOTE]
->Een typisch belanghebbende voor deze activiteit is een Audio/Video Integrator.
+>Een typisch belanghebbende voor deze activiteit is een Audio-Video Integrator.
 
 Aangezien u dichter aan plaatsing van het digitale signaalnetwerk wordt, creeer een plan van de Test en van QA dat elk element van het netwerk met inbegrip van alle hardwarecomponenten, alle softwarecomponenten, en alle voorzien van een netwerkcomponenten richt.
 In de fase moeten volledige testsystemen worden gebouwd en volledig getest.
@@ -82,4 +82,4 @@ Hieronder volgen enkele voorbeelden:
 * TeamViewer
 * AirWatch
 * `42Gears`
-* Middleware, bedrijfseigen audio/video-integrator
+* Middleware, bedrijfseigen audio-video-integrator

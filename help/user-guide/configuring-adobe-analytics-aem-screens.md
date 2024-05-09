@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 ## Sequentie in Adobe Analytics met AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-De ***volgordeproces*** begint met de gegevensopslagservice die de Adobe Analytics-service activeert. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de vangst van de gegevenstest aan Vensters I/O en de gebeurtenissen van het verblijf wordt teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma de beheerderreeksen, knipt het de gegevens van objecten opslag, en brengt het verder over in brokkenopslag. Er wordt geprobeerd een maximale hoeveelheid gegevens te verzenden wanneer verbinding wordt gemaakt.
+De ***volgordeproces*** begint met een gegevensopslagservice die de Adobe Analytics-service activeert. De inhoud van het kanaal verzendt de gebeurtenissen van Adobe Analytics met loonlijst, dat wil zeggen, de vangst van de gegevenstest aan Vensters I/O en de gebeurtenissen van het verblijf wordt teweeggebracht. De gebeurtenissen worden opgeslagen in de index-DB en vervolgens in de objectopslag geplaatst. Gebaseerd op het programma de beheerderreeksen, knipt het de gegevens van de objecten opslag, en brengt het verder over in brokkenopslag. Het probeert om de maximumhoeveelheid gegevens te verzenden wanneer verbonden.
 
 ### Scheidingsdiagram {#sequencing-diagram}
 
@@ -63,7 +63,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>aanbevolen</td> 
    <td>string</td> 
    <td>UUID</td> 
-   <td>Unieke id die de instantie van een gebeurtenis identificeert</td> 
+   <td>Unieke id die een instantie van een gebeurtenis identificeert</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -81,7 +81,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>aanbevolen</td> 
    <td>string</td> 
    <td>timestamp - UTC</td> 
-   <td>Tijdstip van begindatum van gebeurtenis, als u dit niet hebt opgegeven, wordt de tijd van de gebeurtenis aangenomen als het tijdstip waarop deze door de server is ontvangen</td> 
+   <td>Begindatum van gebeurtenis. Als u dit tijdstip niet hebt opgegeven, wordt de tijd van de gebeurtenis als de tijd aangenomen door de server toen deze werd ontvangen.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -144,7 +144,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>optioneel</td> 
    <td>boolean</td> 
    <td> </td> 
-   <td>Gebeurtenis gegenereerd tijdens offline/online actie (true/false)</td> 
+   <td>De gebeurtenis is gegenereerd terwijl de handeling offline/online was (true/false)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -207,7 +207,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>optioneel</td> 
    <td>string</td> 
    <td> </td> 
-   <td>URL van de webeigenschap of het mobiele schema - moet volledig gekwalificeerde URL omvatten</td> 
+   <td>URL van de webeigenschap of het mobiele schema - moet een volledig gekwalificeerde URL bevatten</td> 
   </tr>
   <tr>
    <td> </td> 

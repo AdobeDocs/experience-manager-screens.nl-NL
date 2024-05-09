@@ -1,29 +1,29 @@
 ---
 title: "Deel 1: Projectrollen en -verantwoordelijkheden"
-description: In dit leerprogramma, leer hoe te om rollen, verantwoordelijkheden, en tijdlijnen beter te begrijpen die tijdens de verkoop en de cycli van het projectleven voor een digitaal ondertekeningsproject worden vereist.
+description: In dit leerprogramma, begrijp de rollen, de verantwoordelijkheden, en de tijdlijnen die tijdens de verkoop en de cycli van het projectleven voor een digitaal ondertekeningsproject worden vereist.
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # Deel 1: Projectrollen en -verantwoordelijkheden {#part-project-roles-and-responsibilities}
 
-Deze pagina benadrukt deel 1 van een 5 deelreeks die wordt ontworpen om teamleden te helpen rollen, verantwoordelijkheden, en tijdlijnen beter begrijpen tijdens de verkoop en de cyclus van het projectleven voor een digitaal ondertekeningsproject wordt vereist.
+Deze pagina markeert deel 1 van een serie van 5 delen. Het wordt ontworpen om teamleden te helpen de rollen, de verantwoordelijkheden, en de tijdlijnen beter begrijpen die tijdens de verkoop en de cyclus van het projectleven voor een digitaal signaalproject worden vereist.
 
 ## Overzicht {#overview}
 
-De volgende zelfstudie behandelt de Rollen en Verantwoordelijkheden van het Project voor Adobe, AEM Implementors, en Audio/Visuele Integrators op een hoog niveau. U kunt naar volgende afleveringen navigeren om een uitgebreid overzicht te krijgen van hoe u AEM Screens-mogelijkheden en positionering met succes kunt ontwikkelen voor succes op de lange termijn.
+De volgende zelfstudie behandelt projectrollen en verantwoordelijkheden voor Adobe, AEM Implementors, en Audio/Visuele Integrators op een hoog niveau. U kunt naar volgende afleveringen navigeren om een uitgebreid overzicht te krijgen van hoe u AEM Screens-mogelijkheden met succes kunt ontwikkelen en implementaties voor succes op lange termijn kunt positioneren.
 
 Er zijn drie primaire groepen die door het leveringsproces binnen het volgende worden betrokken:
 
 * Adobe
-* Audio/video-integratie
+* Audio-video-integrator
 * Implementatieteam AEM
 
 >[!NOTE]
@@ -32,7 +32,7 @@ Er zijn drie primaire groepen die door het leveringsproces binnen het volgende w
 
 ## Overzicht van rollen die betrokken zijn bij een digitaal signaalproject {#summary-of-roles-involved-in-a-digital-signage-project}
 
-Het bepalen van toepassings gebruiks-caseparameters in partnerschap met Adobe, AEM Implementor, en Audio/Visuele Integrator drijft softwareontwikkelingswerkingsgebied. Dit proces zorgt ervoor dat een gefaseerde aanpak wordt vastgesteld met prestatie-benchmarks en succesmaatstaven die alle in het hele project worden geïdentificeerd.
+Het bepalen van toepassings gebruiks-caseparameters in partnerschap met Adobe, AEM Implementor, en Audio/Visuele Integrator drijft het werkingsgebied van de softwareontwikkeling. Dit proces zorgt ervoor dat een gefaseerde aanpak wordt vastgesteld met prestatie-benchmarks en succesmaatstaven die alle in het hele project worden geïdentificeerd.
 
 ### Adobe {#adobe}
 
@@ -44,11 +44,11 @@ An **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings-
 
 Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Experience) van eindgebruikers worden ook vastgelegd en via dit proces geleverd.
 
-AEM Implementors implementeren doorgaans aangepaste functionaliteit in fasen in de loop van de tijd naar locaties. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase omvat het inschakelen van de mogelijkheid om het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met andere fasen die ondersteuning voor interactieve elementen bevatten via aanraakschermen, sensoren, dynamische triggers enzovoort.
+AEM Implementors implementeren doorgaans aangepaste functionaliteit in fasen in de loop van de tijd naar locaties. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase omvat het inschakelen van ondersteuning voor het afspelen van gelokaliseerde inhoud via dynamische sjablonen en metagegevenstags. Het omvat andere fasen die steun voor interactieve elementen door aanraakschermen, sensoren, dynamische trekkers, etc. omvatten.
 
-#### Audio-/video-integratie {#av-integrators}
+#### Audio-video-integratoren {#av-integrators}
 
-An **Audio/video-integratie** is verantwoordelijk voor het uitvoeren van detectie met eindgebruikers om vereisten te definiëren die het projectbereik bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
+An **Audio-video-integrator** is verantwoordelijk voor het uitvoeren van ontdekkingen met eindgebruikers om vereisten te definiëren, het projectbereik te bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
 
 ## Deel 1: Videozelfstudie over projectrollen en -verantwoordelijkheden {#part-video-tutorial-on-project-roles-and-responsibilities}
 

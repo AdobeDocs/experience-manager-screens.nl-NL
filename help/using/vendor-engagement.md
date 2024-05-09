@@ -2,9 +2,9 @@
 title: Betrokkenheid leverancier
 description: Meer informatie over de handleiding Beste praktijken van AEM Screens voor betrokkenheid van leveranciers.
 exl-id: b1b1cd4b-f0a8-47d4-b8b8-dc7e42464230
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Betrokkenheid leverancier {#vendor-engagement}
 
 >[!NOTE]
->Een typisch belanghebbende voor deze activiteit is een Audio/Video Integrator.
+>Een typisch belanghebbende voor deze activiteit is een Audio-Video Integrator.
 
 In deze activiteit, is het belangrijk om alle belangrijkste verkopers te identificeren die in het assembleren en leveren van het netwerk en om het even welke partnergebiedsdelen worden vereist:
 

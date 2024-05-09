@@ -1,9 +1,9 @@
 ---
 title: Ondersteuning na introductie
 description: In de Best Practices Guide vindt u meer informatie over ondersteuning na het starten voor AEM Screens.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Laat de ondersteuning na de introductie in het beginstadium niet over het hoofd zien.
 
-Het is van cruciaal belang dat de hardwareleverancier de sites voldoende ondersteuning biedt voor de bedrijfsactiviteiten. De **Audio/video-integratie** moet nauw samenwerken met de belanghebbenden uit het bedrijfsleven en de vereiste vereisten uit verschillende aspecten identificeren.
+Het is van cruciaal belang dat de hardwareleverancier de sites voldoende ondersteuning biedt voor de bedrijfsactiviteiten. De **Audio-video-integrator** moet nauw samenwerken met de belanghebbenden uit het bedrijfsleven en de vereiste vereisten uit verschillende aspecten identificeren.
 Houd rekening met de volgende vereisten tijdens ondersteuning na de introductie:
 
 * extern apparaatbeheer
@@ -22,11 +22,11 @@ Houd rekening met de volgende vereisten tijdens ondersteuning na de introductie:
 * on-site ondersteuning door technici
 * apparaatbeheer (garantiesupport en opslag van reserveapparaten)
 
-Om zich voor te bereiden op succes op lange termijn is het ook van het grootste belang dat er een Service Level Agreement (SLA) op dag 2 wordt ingesteld in samenwerking met de Audio/Video Integrator. SLA zou alle post-plaatsing steundiensten moeten gedetailleerd helpen cliëntverwachtingen nauwkeurig plaatsen.
+Om zich voor te bereiden op succes op lange termijn is het ook van het grootste belang dat er een Service Level Agreement (SLA) op dag 2 wordt ingesteld in samenwerking met de Audio-Video Integrator. SLA zou alle post-plaatsing steundiensten moeten gedetailleerd helpen cliëntverwachtingen nauwkeurig plaatsen.
 
 >[!NOTE]
 >
->Definieer de operationele parameters die in een vroeg stadium in de operationele budgetten zijn opgenomen en lijn de verantwoordelijkheden af met de AEM-implementator en de audio- of videointegrator.
+>Definieer de operationele parameters die in een vroeg stadium in de operationele budgetten zijn opgenomen en lijn de verantwoordelijkheden af met de AEM-implementator en de audio-video-integrator.
 >
 >* Is de implementatie van een advertentienetwerk met veel belanghebbenden verbonden aan een gelegaliseerd netwerk? Dit kan kortere termijnen van de resolutietijd in vergelijking met een Collectief Communicatie netwerk dicteren.
 >* Is de toepassing hoogst zichtbaar aan de uitvoerende leiding van de eindcliënt? Sites met een hoge zichtbaarheid hebben mogelijk verschillende behandelingen nodig.

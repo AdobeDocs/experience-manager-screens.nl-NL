@@ -5,16 +5,16 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
 
 # Wat is Adobe Experience Manager Screens?{#what-is-aem-screens}
 
-**Experience Managers Screens** - een Digital Signage-oplossing waarmee u dynamische en interactieve digitale ervaringen en interacties met verschillende soorten schermen kunt publiceren, allemaal op een uitgebreid digitaal marketingplatform.
+**Experience Managers Screens** - een digitale signaaloplossing waarmee u dynamische en interactieve digitale ervaringen en interacties kunt publiceren die verschillende soorten schermen omvatten, allemaal op een uitgebreid digitaal marketingplatform.
 
 Ga aan de slag met een eenvoudige digitale handtekening, met [Kickstart voor AEM Screens](kickstart-for-aem-screens.md).
 
@@ -22,13 +22,13 @@ Om te leren hoe te om uw Experience Managers Screens project in as a Cloud Servi
 
 ## Overzicht {#overview}
 
-**Experience Managers Screens** is gebouwd op de solide basis van ***Experience Manager Sites***. Het stelt marketers en IT-personeel in staat om ervaringen te creëren en te beheren op meerdere digitale schermen die van invloed zijn op in-store/in-venue doelstellingen voor het opbouwen van merken en het stimuleren van de vraag. De integratie van Experience Managers Screens met Plaatsen laat u bestaande inhoud hergebruiken en effectief een coherente en verenigbare klantenoplossing leveren. Dit biedt een gestroomlijnde workflow voor het maken van speciale digitale ervaringen die zeer kosteneffectief en bruikbaar zijn. Het helpt ook de merkperceptie en invloed beslissingen te beïnvloeden die tot opleving in aankoop en betrokkenheid leiden.
+**Experience Managers Screens** is gebouwd op de solide basis van ***Experience Manager Sites***. Het stelt marketers en IT-personeel in staat om ervaringen op te zetten en te beheren op meerdere digitale schermen die van invloed zijn op de doelstellingen in de winkel/in de locatie om het merk op te bouwen en de vraag te stimuleren. De integratie van Experience Managers Screens met Plaatsen laat u bestaande inhoud hergebruiken en effectief een coherente en verenigbare klantenoplossing leveren. Deze workflow is gestroomlijnd om speciale digitale ervaringen te creëren die zeer kosteneffectief en bruikbaar zijn. Het helpt ook de merkperceptie en invloed beslissingen te beïnvloeden die tot opleving in aankoop en betrokkenheid leiden.
 
-Experience Managers Screens is een krachtige webgebaseerde oplossing waarmee u speciale digitale menuborden, productadviseurs en achtergrondafbeeldingen kunt maken om de interactie van klanten uit te breiden. Het helpt u verenigde en nuttige merkervaringen in fysieke plaatsen, zoals winkels, hotels, banken, gezondheidszorg en onderwijsinstellingen, en nog veel meer - van het zelfde platform van de Experience Manager te leveren. De schermen verstrekken vele unieke toepassingen zoals interactieve vertoningen, manier-vinden, branding, en het toevoegen van ambience aan uw milieu voor klanten en werknemers die op het domein worden gebaseerd waar deze worden opgesteld.
+Experience Managers Screens is een krachtige webgebaseerde oplossing waarmee u speciale digitale menuborden, productadviseurs en achtergrondafbeeldingen kunt maken om de interactie van klanten uit te breiden. Het helpt u verenigde en nuttige merkervaringen in fysieke plaatsen, zoals winkels, hotels, banken, gezondheidszorg en onderwijsinstellingen, en nog veel meer - van het zelfde platform van de Experience Manager te leveren. Schermen bieden veel unieke toepassingen. Bijvoorbeeld, interactieve vertoningen, manier-vinden, branding, en het toevoegen van ambientie aan uw milieu voor klanten en werknemers die op het domein worden gebaseerd waar zij worden opgesteld.
 
 Het maken en beheren van een toepassing met behulp van Experience Managers Screens is eenvoudig en intuïtief. An *toepassing* gastheren Web-pagina&#39;s die voor Experience Managers Screens door klanten of implementatiepartners worden gebouwd. *Locaties* vooraf gedefinieerde hiërarchieën beheren en *displays*. Elke weergave heeft een dashboard waarop verschillende apparaten en schermen worden weergegeven. Inhoud voor Experience Managers Screens wordt beheerd in *kanalen*. De Speler van Experience Managers Screens geeft inhoud terug binnen kanalen op vertoningen.
 
-Om de belangrijkste terminologieën te begrijpen verbonden aan Experience Managers Screens, zie [Verklarende woordenlijst](screens-glossary.md).
+Als u de belangrijkste terminologieën van Experience Managers Screens wilt begrijpen, raadpleegt u de [Verklarende woordenlijst](screens-glossary.md).
 
 ### Architectuur van schermspeler
 
@@ -38,7 +38,7 @@ Het volgende diagram toont de algemene architectuur van een speler van Experienc
 
 ### Maak over 5 minuten een digitale signaalervaring {#create-a-digital-signage-experience-in-minutes}
 
-Als u een demo Screens-project wilt maken en uw inhoud in de Schermspeler wilt publiceren, raadpleegt u [Kickstart voor Experience Managers Screens](kickstart-for-aem-screens.md).
+Als u een demo Screens-project wilt maken en uw inhoud wilt publiceren in de Screens-speler, raadpleegt u [Kickstart voor Experience Managers Screens](kickstart-for-aem-screens.md).
 
 ## Een nieuw project voor Experience Managers Screens starten {#starting-a-new-aem-screens-project}
 
@@ -61,7 +61,7 @@ Het volgende cijfer bepaalt de karakters en hun rollen voor Experience Managers 
 
 * **Best Practices Guide for Experience Managers Screens projects**
 
-  Volgen **[Best Practices Guide for Experience Managers Screens projects](/help/using/about-guide.md)** dat bedoeld is om gemeenschappelijke valkuilen te identificeren terwijl het uitvoeren van een project van Experience Managers Screens. Het materiaal concentreert zich hoofdzakelijk op de Rollen en de Verantwoordelijkheden van het Project, RACI Grafiek voor de Verschillende Configuraties van het Platform van de Experience Manager van Rollen, en Steun en Controle.
+  Volg de **[Best Practices Guide for Experience Managers Screens projects](/help/using/about-guide.md)** dat bedoeld is om gemeenschappelijke valkuilen te identificeren terwijl het uitvoeren van een project van Experience Managers Screens. Het materiaal richt zich voornamelijk op de projectrollen en -verantwoordelijkheden. Het richt zich op RACI Grafiek voor Verschillende Rollen, de Configuraties van het Platform van de Experience Manager, en Steun en Controle.
 
 <!-- DEAD LINK * **New Adobe Customer Support Experience**
 

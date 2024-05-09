@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ In het volgende gedeelte wordt een overzicht gegeven van de belangrijkste voorwa
 
 ### Conceptbewijs (POC) {#proof-of-concept-poc}
 
-Het doel van een concepttest is om initiële feedback te krijgen over de belangrijkste functies van een oplossing. Het laat zowel de eindcliënt als Audio/Video Integrator een kans om gebieden voor verbetering te identificeren en veronderstellingen over arbeidsvereisten en middeleisen voor te bereiden. Met een concepttest kunnen beide partijen ook de prestaties van de oplossing beoordelen. Dit wordt doorgaans gemeten aan de hand van:
+Het doel van een concepttest is om initiële feedback te krijgen over de belangrijkste functies van een oplossing. Het laat ook zowel de eindcliënt als audio-Video Integrator een kans om gebieden voor verbetering te identificeren en veronderstellingen over arbeidsvereisten en middeleisen voor te bereiden. Met een concepttest kunnen beide partijen ook de prestaties van de oplossing beoordelen. Dit wordt doorgaans gemeten aan de hand van:
 
 ### Kwaliteitscontrole {#quality-control}
 
-Het testen van de integratie van systemen en software begint met het team van de Techniek van IT van de Audio/Video Integrator. Verwijzend naar het goedgekeurde systeemontwerp, vormt het Team van de Techniek van IT, voert uit, en controleert de installatie van hardwarecomponenten in een &quot;milieu van het Laboratorium&quot;in de faciliteit van de Integrator Audio/Video. Hierdoor kan de volledige oplossing voor kwaliteitscontrole grondig worden gecontroleerd en getest.
+Het testen van de integratie van systemen en software begint met het team van de Techniek van IT van Audio-Video Integrator. Verwijzend naar het goedgekeurde systeemontwerp, vormt het Team van de Techniek van IT, voert uit, en controleert de installatie van hardwarecomponenten in een &quot;milieu van het Laboratorium&quot;in de audio-Video faciliteit van de Integrator. Hierdoor kan de volledige oplossing voor kwaliteitscontrole grondig worden gecontroleerd en getest.
 
 Nadat het testen QC volledig is, leidt het Team van de Techniek van IT documentatie, werkschema&#39;s, en opleiding voor verwijzing tijdens dag-2 steun. De volgende systeemaspecten moeten worden getest:
 
