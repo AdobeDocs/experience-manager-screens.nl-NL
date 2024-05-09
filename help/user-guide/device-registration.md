@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
 >[!NOTE]
 >
->Nadat u de nieuwste Windows Player hebt gedownload (*.exe*), van [AEM 6.4 Player-downloads](https://download.macromedia.com/screens/) Voer de stappen op de speler uit om de ad-hocinstallatie te voltooien:
+>Nadat u de nieuwste Windows Player hebt gedownload (*.exe*), van de [AEM 6.4 Player-downloads](https://download.macromedia.com/screens/) Voer de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
 >1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en klik op **Opslaan**.
@@ -112,7 +112,7 @@ Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   U kunt het weergavedashboard ook weergeven bij het selecteren **Voltooien**.
+   U kunt het weergavedashboard ook weergeven door **Voltooien**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -141,22 +141,22 @@ Wanneer u apparaten bij uw speler hebt geregistreerd, kunt u alle apparaten weer
 
 ### Beperkingen betreffende zoekfunctionaliteit {#limitations}
 
-* De gebruiker kan elk woord zoeken dat in de *Apparaat-id* of *Apparaatnaam*.
+* De gebruiker kan elk woord zoeken dat in het dialoogvenster *apparaat-id* of *apparaatnaam*.
 
   >[!NOTE]
-  >Het wordt aanbevolen de apparaatnamen in meerdere woorden te maken, zoals *Boston Store Lobby* in plaats van één *BostonStoreLobby*.
+  >Het wordt aanbevolen de apparaatnamen in meerdere woorden te maken, zoals *`Boston Store Lobby`* in plaats van één *`BostonStoreLobby`*.
 
-* Als u apparaatnamen maakt, zoals *Boston Store Lobby*, wordt naar elk woord gezocht *boston*, *winkel*, of *lobby*. Als de apparaatnaam echter *BostonStoreLobby* en vervolgens zoeken naar *boston* geeft geen resultaten weer.
+* Als u apparaatnamen hebt gemaakt zoals *`Boston Store Lobby`*, wordt naar elk woord gezocht *`boston`*, *`store`*, of *`lobby`*. Als de apparaatnaam echter *`BostonStoreLobby`* en vervolgens zoeken naar *`boston`* geeft geen resultaten weer.
 
-* Jokerteken `*` wordt ondersteund voor zoeken. Als u alle apparaten wilt zoeken met namen die beginnen met *boston* kunt u *boston**.
+* Jokerteken `*` wordt ondersteund voor zoeken. Als u alle apparaten wilt zoeken met namen die beginnen met *`boston`*, kunt u * gebruiken`boston`**.
 
-* Als de apparaatnaam *BostonStoreLobby* en zoeken naar *boston* retourneert het resultaat niet en gebruikt vervolgens *boston** in je zoekcriteria geeft het resultaat.
+* Als de apparaatnaam *`BostonStoreLobby`* en zoeken naar *`boston`* retourneert het resultaat niet en gebruikt vervolgens *`boston`** in je zoekcriteria geeft het resultaat.
 
 ## Beperkingen betreffende apparaatregistratie {#limitations-on-device-registration}
 
 Beperkingen van gebruikerswachtwoorden voor het hele systeem kunnen leiden tot een fout in de apparaatregistratie. De apparaatregistratie gebruikt een willekeurig gegenereerd wachtwoord om de apparaatgebruiker te maken.
 
-Als het wachtwoord door *AuthorizableActionProvider* configuratie, zou het creëren van de apparatengebruiker kunnen ontbreken.
+Als de *AuthorizableActionProvider* configuratie beperkt het wachtwoord, zou het creëren van de apparatengebruiker kunnen ontbreken.
 
 >[!NOTE]
 >

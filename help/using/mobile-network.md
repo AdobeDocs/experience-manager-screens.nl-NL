@@ -2,9 +2,9 @@
 title: Direct mobiel netwerk
 description: Meer informatie over Direct Mobile Network Setup in AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ AEM Screens Players kunnen ook worden aangesloten gebruikend mobiele of cellulai
 
 In AEM Screens wordt de vereiste inhoud fysiek gedownload naar de spelercontroller of -computer en correct opgeslagen in het onderliggende besturingssysteem. Daarom heeft de opgegeven bandbreedte alleen invloed op de eerste downloadtijd en op de updates van de inhoud. De bandbreedte heeft geen invloed op de prestaties van het regelmatig afspelen van beeldschermen.
 
-Het voordeel om AEM Screens Players over Cellular 3/4/5G met uw Mobiele Leverancier van de Gegevens van de Dienst te verbinden is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst om beste beschikbare netwerkdekking te verzekeren. Dit bevindt zich gewoonlijk in een verhoogde open positie met zo weinig mogelijk omringende beton- of metaalconstructies.
+Het voordeel om AEM Screens Players over Cellular 3/4/5G met uw Mobiele Leverancier van de Gegevens van de Dienst te verbinden is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst. Dit verzekert de beste beschikbare netwerkdekking. Deze plaats bevindt zich gewoonlijk in een verhoogde en open positie met zo weinig mogelijk omringende beton- of metaalconstructies.
 
-Deze instelling biedt AEM schermgebruikers een grote flexibiliteit omdat er geen vaste verbinding vereist is om verbinding te maken met AEM Screens. Dit is interessant voor letterlijke of mobiele instellingen.
+Deze instelling biedt AEM schermgebruikers grote flexibiliteit omdat er geen vaste verbinding is vereist om verbinding te maken met AEM Screens. Dit is interessant voor letterlijke of mobiele instellingen.
 
-Het volgende diagram toont de Directe Mobiele Opstelling van het Netwerk en bestaat uit één enkel segment van de netwerkverbinding en de verbinding van elke speler aan het mobiele of cellulaire gegevensnetwerk.
+Het volgende diagram toont de Directe Mobiele Opstelling van het Netwerk. Het bestaat uit één enkel netwerkverbindingssegment en de verbinding van elke speler aan het mobiele of cellulaire gegevensnetwerk.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
@@ -68,7 +68,7 @@ Als follow-up moet het benodigde gegevenspakket ten minste het volgende zijn:
 
 
 >[!IMPORTANT]
->Voor het aanvankelijk uploaden van mediabestanden, bijvoorbeeld, terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een verhoogde downloadtijd worden verwacht en in de bovenstaande veronderstellingen worden weerspiegeld. Een 4G-netwerk met *goed* dekking en *onbeperkt* de gegevens zouden de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
+>Voor het aanvankelijk uploaden van mediabestanden terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht; dit wordt weerspiegeld in de bovenstaande veronderstellingen. Een 4G-netwerk met *goed* dekking en *onbeperkt* de gegevens zouden de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
 
 >[!NOTE]
 >Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens Player. Als er slechts eerlijke dekking beschikbaar bij een specifieke plaats is, denk na omschakeling van de algemene Opstelling van het Netwerk aan [Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk](/help/using/mobile-network-router.md).
@@ -78,7 +78,7 @@ Als follow-up moet het benodigde gegevenspakket ten minste het volgende zijn:
 
 De prestatieszorgen van het Netwerk van het Lokale Gebied (LAN), naast de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens regelmatig te werken. De aanbeveling voor de LAN netwerksnelheden moet bij netwerken 100-Mbps minstens beginnen, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem te verbinden.
 
-Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld, zouden de netwerkcomponenten minstens 100 norm moeten aanpassen Mbps en de bandbreedte aanpassen die door de toegang van Internet of de specificatie van de Router wordt verstrekt. Anders, wordt de totale bandbreedte beperkt door de zwakste verbinding in de netwerkketen.
+Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld, zouden de netwerkcomponenten minstens de norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de toegang van Internet of de specificatie van de Router wordt verstrekt. Anders, wordt de totale bandbreedte beperkt door de zwakste verbinding in de netwerkketen.
 
 ## Media en middelen downloaden {#download}
 
@@ -86,7 +86,7 @@ AEM Screens biedt een aanzienlijk voordeel voor gebruikers van digitale berichte
 
 Voor normale bewerkingen, bijvoorbeeld een gedefinieerde afspeellijst die regelmatig wordt bijgewerkt - biedt deze functie een vrijwel netwerkonafhankelijke bewerking nadat alle bestanden op de speler zijn opgeslagen.
 
-Voor scenario&#39;s, waar er meer interactie met sensoren of trekkers en dynamische inhoud zijn, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe het schermreactie om optimale klantenervaring te verzekeren.
+Voor scenario&#39;s, waar er meer interactie met sensoren of trekkers en dynamische inhoud zijn, is een snelle en betrouwbare netwerkverbinding essentieel voor een directe het schermreactie om de best mogelijke klantenervaring te verzekeren.
 
 De volgende lijst verstrekt een overzicht over de zeer belangrijke gegevens van de netwerkconnectiviteit.
 

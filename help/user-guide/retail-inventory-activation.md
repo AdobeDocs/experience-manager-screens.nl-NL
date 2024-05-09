@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ In het volgende gebruiksgeval worden drie verschillende afbeeldingen gedemonstre
 
 ## Beschrijving {#description}
 
-In deze gebruikszaak wordt de voorraad voor de detailhandel getoond voor drie verschillende gekleurde sweatshirts. Afhankelijk van het aantal sweatshirts dat beschikbaar is in voorraad en dat is opgenomen in Google Sheets, wordt de afbeelding (rood, groen of blauw sweatshirt) met het hoogste aantal weergegeven op het scherm.
+In deze gebruikszaak wordt de voorraad voor de detailhandel getoond voor drie verschillende gekleurde sweatshirts. Afhankelijk van het aantal sweatshirts dat beschikbaar is in voorraad die wordt opgenomen in Google Sheets, wordt de afbeelding (rood, groen of blauw sweatshirt) met het hoogste aantal weergegeven.
 
-In dit geval wordt de zoomfunctie Rood, Groen of Blauw op uw scherm weergegeven op basis van de hoogste waarde van het aantal beschikbare sweaters.
+De trui Rood, Groen of Blauw wordt weergegeven op basis van de hoogste waarde van het aantal beschikbare sweaters.
 
 ## Voorwaarden {#preconditions}
 
@@ -55,22 +55,22 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
    1. Sleep de **Compare : property - property** aan de redacteur.
    1. Klik op de knop **Configuratie** pictogram.
    1. Klikken **googesheets/value/1/2** in de vervolgkeuzelijst **Voornaam van eigenschap**.
-   1. Klik op de knop **Operator** als **groter dan** in het keuzemenu.
-   1. Klikken **Gegevenstype** als **getal**.
+   1. Klik op de knop **Operator** en **groter dan** in het keuzemenu.
+   1. Klikken **Gegevenstype** en **getal**.
    1. Klikken **goochelesheets/value/1/1** in de vervolgkeuzelijst **Tweede eigenschapsnaam**.
    1. Slepen en neerzetten **another Comparation : Property - Property** aan de redacteur en klik **Configuratie** pictogram.
    1. Klikken **googesheets/value/1/2** in de vervolgkeuzelijst **Voornaam van eigenschap**.
-   1. Klik op de knop **Operator** als **groter dan** in het keuzemenu.
-   1. Klikken **Gegevenstype** als **getal**.
+   1. Klik op de knop **Operator** en **groter dan** in het keuzemenu.
+   1. Klikken **Gegevenstype** en **getal**.
    1. Klikken **goochelesheets/value/1/0** in de vervolgkeuzelijst **Tweede eigenschapsnaam**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Op dezelfde manier bewerkt en voegt u vergelijkingseigenschapsregels toe aan **Voor_blauw** segment zoals weergegeven in onderstaande afbeelding:
+   Op dezelfde manier bewerk en voeg vergelijkingseigenschapsregels toe aan de **Voor_blauw** segment zoals weergegeven in onderstaande afbeelding:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Op dezelfde manier bewerkt en voegt u vergelijkingseigenschapsregels toe aan **For_Green** segment zoals weergegeven in onderstaande afbeelding:
+   Op dezelfde manier bewerk en voeg vergelijkingseigenschapsregels toe aan de **For_Green** segment zoals weergegeven in onderstaande afbeelding:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
@@ -85,7 +85,7 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 
    >[!CAUTION]
    >
-   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** > **Personalisatie** tab.
+   >U had uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** > **Personalisatie** tab.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
@@ -114,6 +114,6 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 1. **De voorvertoning controleren**
 
    1. Klikken **Voorvertoning.** Open ook het Google-werkblad en werk de waarde ervan bij.
-   1. Wijzig de waarde voor alle drie de kolommen. U ziet dat de beeldweergave wordt bijgewerkt volgens de hoogste inventariswaarde.
+   1. Wijzig de waarde voor alle drie de kolommen. U ziet dat de beeldweergave wordt bijgewerkt volgens de hoogste waarde in het overzicht.
 
    ![retail_result](assets/retail_result.gif)

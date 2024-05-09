@@ -1,31 +1,31 @@
 ---
 title: Aangepaste branding en opmaak toepassen voor tekstbedekkingen
-description: Leer hoe u aangepaste branding en opmaak kunt toepassen op tekstbedekkingen die zijn toegepast op elementen in een AEM Screens-kanaal.
+description: Leer hoe u aangepaste branding en opmaak toepast voor tekstbedekkingen die zijn toegepast op elementen in een AEM Screens-kanaal.
 contentOwner: Jyotika Syal
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # Aangepaste branding en opmaak voor tekstbedekkingen {#creating-custom-branding-styling}
 
-Leer hoe u aangepaste branding en opmaak kunt toepassen op tekstbedekkingen die op uw middelen in een AEM Screens-kanaal zijn toegepast.
+Leer hoe u aangepaste branding en opmaak toepast voor tekstbedekkingen die op uw middelen in een AEM Screens-kanaal zijn toegepast.
 
 ## Aangepaste branding en opmaak maken voor tekstbedekkingen {#steps-custom-branding}
 
 Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkingen te maken:
 
-1. Maak een AEM Screens-project. In dit voorbeeld wordt de functionaliteit weergegeven door een project met de naam **`customstyle`** en een kanaal met **DemoBrand** , zoals weergegeven in onderstaande afbeelding.
+1. Maak een AEM Screens-project. In dit voorbeeld wordt de functionaliteit weergegeven door een project met de naam **`customstyle`** en een kanaal met **DemoBrand**, zoals weergegeven in onderstaande afbeelding.
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. Sleep vanuit de editor een afbeelding en zet deze neer en voeg tekstbedekking toe aan het element.
+1. Sleep vanuit de editor een afbeelding en zet deze neer en voeg een tekstbedekking toe aan het element.
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
@@ -38,7 +38,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Maken *static.css* en stelt de volgende CSS-regels in. Wordt ook weergegeven als voorbeeld in de afbeelding onder de CSS-regels.
+1. Een *static.css* en stelt de volgende CSS-regels in. Wordt ook weergegeven als voorbeeld in de afbeelding onder de CSS-regels.
 
    ```shell
     //global styles
@@ -96,7 +96,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 ### ACLs bijwerken {#updating-acls}
 
-Werk ACLs voor deze ontwerpen bij zodat zij door de speler kunnen worden gedownload.
+Werk ACLs voor deze ontwerpen bij zodat kan de speler hen downloaden.
 
 1. Navigeer naar gebruikersbeheerder en kies de optie `screens-<project>-devices group` en geeft deze leesmachtigingen aan het aangepaste ontwerppad.
 
@@ -122,7 +122,7 @@ Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking 
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Bovendien kunt u de laatste twee codeblokken verwijderen uit *static.css* bestand om de opmaakcode van de vakken rond de tekstbedekking te verwijderen.
+1. Bovendien kunt u de laatste twee codeblokken verwijderen uit de *static.css* bestand om de opmaakcode van de vakken rond de tekstbedekking te verwijderen.
 
 ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand10.png)
 

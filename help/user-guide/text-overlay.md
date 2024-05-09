@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 ## Overzicht {#overview}
 
-Tekstbedekking is een functie die beschikbaar is in AEM Screens en waarmee u een aantrekkelijke ervaring kunt creëren in een Volgkanaal door een titel of een beschrijving boven op een afbeelding op te geven.
+De functie Tekstbedekking is beschikbaar in AEM Screens. Met deze functie kunt u een aantrekkelijke ervaring creëren in een volgreekkanaal door een titel of beschrijving boven op een afbeelding te plaatsen.
 
 Ga voor meer informatie over het maken van uw eigen aangepaste component naar **Een AEM Screens-component uitbreiden**.
 
-In deze sectie wordt alleen uitgelegd hoe u de postercomponent in een AEM Screens-project kunt gebruiken en toepassen en deze als tekstbedekking kunt gebruiken in een van uw reekskanalen.
+In deze sectie wordt alleen weergegeven hoe u de postercomponent in een AEM Screens-project kunt gebruiken en toepassen. Het toont ook gevallen waarin het als een tekstbedekking in één van uw opeenvolgingskanalen wordt gebruikt.
 
 ## Tekstbedekking gebruiken {#using-text-overlay}
 
@@ -48,11 +48,11 @@ Voordat u deze functionaliteit implementeert, moet u een project instellen als e
 
 * Een AEM Screens-project maken (in dit voorbeeld: **TextOverlayDemo**)
 
-* Een volgnummer maken met de naam **TextSample** krachtens **Kanalen** map
+* Een volgnummer maken met de naam **TextSample** onder de **Kanalen** map
 
 * Inhoud toevoegen aan uw **TextSample** Kanaal
 
-In de volgende afbeelding wordt de **TextOverlayDemo** project met **TextSample** kanaal in **Kanalen** map.
+In de volgende afbeelding wordt de **TextOverlayDemo** met de **TextSample** in het **Kanalen** map.
 
 ![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
@@ -84,11 +84,11 @@ U kunt tekst toevoegen aan het tekstvak en typografische accenten toevoegen, zoa
 
 >[!NOTE]
 >
->Als u verfijnde gereedschappen correct wilt gebruiken, moet u de juiste positie in pixels identificeren met (px) als achtervoegsel, bijvoorbeeld 200 px. Het resultaat van deze expressie is 200 pixels vanaf het beginpunt.
+>Wanneer u verfijnde gereedschappen gebruikt, moet u de juiste positie in pixels identificeren met (px) als achtervoegsel, bijvoorbeeld 200 px. Het resultaat van deze expressie is 200 pixels van het beginpunt.
 
 ## ContextHub-waarden gebruiken in tekstbedekking {#using-text-overlay-context-hub}
 
-In de volgende sectie wordt het gebruik beschreven van waarden uit een gegevensopslagruimte, bijvoorbeeld Google-werkbladen in tekstbedekkingscomponenten.
+In de volgende sectie wordt het gebruik beschreven van waarden uit een gegevensopslagruimte, bijvoorbeeld Google-werkbladen in de component Text Overlay.
 
 **Vereisten**
 
@@ -118,7 +118,7 @@ Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de ond
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Voeg een component voor afbeelding en tekstbedekking toe aan de afbeelding, zoals beschreven in [Tekstbedekking gebruiken](/help/user-guide/text-overlay.md#using-text-overlay) van deze pagina.
+1. Voeg een component voor afbeelding en tekstbedekking toe aan de afbeelding, zoals wordt beschreven in het dialoogvenster [Tekstbedekking gebruiken](/help/user-guide/text-overlay.md#using-text-overlay) van deze pagina.
 
 1. Klikken op **Configureren** (moersleutelpictogram) om het dialoogvenster **Afbeelding** in.
 

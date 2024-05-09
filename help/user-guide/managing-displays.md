@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
 # Weergaven maken en beheren {#creating-and-managing-displays}
 
-Een weergave is een virtuele groep schermen die naast elkaar zijn geplaatst. Het beeldscherm is permanent voor een installatie. Dit is de objecten inhoudsauteurs werken met en verwijzen altijd naar als logische vertoning eerder dan hun fysieke tegendelen.
+Een weergave is een virtuele groep schermen die naast elkaar zijn geplaatst. Het beeldscherm is permanent voor een installatie. Het zijn de objecten inhoudsauteurs werken met en verwijzen altijd naar als logische vertoning eerder dan hun fysieke tegendelen.
 
 Wanneer u een locatie maakt, moet u een weergave voor uw locatie maken.
 
@@ -40,7 +40,7 @@ Op deze pagina ziet u hoe u beeldschermen maakt en beheert.
 1. Ga bijvoorbeeld naar de juiste locatie `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Klik op uw locatiemap en klik op **Maken** Deze bevindt zich naast het plusteken op de actiebalk.
 1. Klikken **Weergave** van de **Maken** wizard, en klik vervolgens op **Volgende**.
-1. Enter **Naam** en **Titel** voor uw weergavelocatie.
+1. Voer uw **Naam** en **Titel** voor uw weergavelocatie.
 1. Onder de **Weergave** kiest, kiest u de details van de layout. Kies het gewenste **Resolutie**, zoals **Volledig HD**. Kies het aantal apparaten horizontaal en verticaal.
 1. Klikken **Maken**.
 
@@ -48,7 +48,7 @@ De weergave (*StoreDisplay*) wordt gemaakt en toegevoegd aan de locatie (*SanJos
 
 ![display](assets/display.gif)
 
-Wanneer u in positie hebt tonen, moet de volgende stap een apparaat tot stand brengen config voor die bepaalde vertoning.
+Wanneer u een vertoning in positie hebt, moet de volgende stap een apparaat tot stand brengen config voor die bepaalde vertoning.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Wanneer u in positie hebt tonen, moet de volgende stap een apparaat tot stand br
 >
 >Wanneer u een weergave voor uw locatie maakt, wijst u een kanaal toe aan uw weergave om de inhoud te gebruiken.
 >
->Zie [Kanalen toewijzen](channel-assignment.md) voor meer informatie over het toewijzen van een kanaal aan de weergave.
+>Zie de [Kanalen toewijzen](channel-assignment.md) voor meer informatie over het toewijzen van een kanaal aan de weergave.
 
 ## Een nieuwe apparaatconfiguratie maken {#creating-a-new-device-config}
 
@@ -80,13 +80,13 @@ Het apparaat config wordt gecreeerd en aan de huidige vertoning toegevoegd (in d
 >
 >Zoals aangetoond in het hieronder cijfer, als het apparaat config als niet toegewezen in wordt getoond **APPARATEN** als er geen kanaal is toegewezen aan de desbetreffende apparaatconfiguratie.
 >
->U zou voorafgaand inzicht in het creëren van en het beheer van kanalen moeten hebben. Zie [Kanalen maken en beheren](managing-channels.md) voor meer informatie .
+>U moet eerst weten hoe u kanalen maakt en beheert. Zie [Kanalen maken en beheren](managing-channels.md) voor meer informatie .
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
 ## Het dashboard weergeven {#display-dashboard}
 
-Het weergavedashboard biedt u verschillende deelvensters voor het beheer van weergaveapparaten en apparaatconfiguraties voor uw apparaat.
+Het weergavedashboard biedt u verschillende deelvensters voor het beheer van weergaveapparaten. Het laat u ook uw apparaat vormen.
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
@@ -109,9 +109,9 @@ Klikken (**...**) in de rechterbovenhoek in de **INFORMATIE OVER WEERGAVE** zoda
 
 Klikken **Eigenschappen** zodat u de eigenschappen van de weergave kunt bekijken of wijzigen.
 
-U kunt ook de waarde van de gebeurtenistimer voor uw interactieve kanaal aanpassen in **Niet-actieve time-out** eigendom onder **Weergave** tab. De standaardwaarde is *300 seconden*.
+U kunt ook de waarde van de gebeurtenistimer voor uw interactieve kanaal aanpassen onder de optie **Weergave** tab. De standaardwaarde is *300 seconden*.
 
-Gebruiken **CRXDE Lite**, om toegang te krijgen tot **idleTimeout** eigenschap, dat wil zeggen: `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Gebruiken **CRXDE Lite**, om toegang te krijgen tot **idleTimeout** eigenschap, dat wil zeggen: `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Deelvenster Toegewezen kanalen {#assigned-channels-panel}
@@ -121,7 +121,7 @@ De **TOEGEWEZEN KANALEN** toont de toegewezen kanalen aan dit apparaat.
 
 ### Deelvenster Apparaten {#devices-panel}
 
-De **APPARATEN** Het paneel verstrekt informatie over de apparatenvormen.
+De **APPARATEN** Het deelvenster biedt informatie over de apparaatconfiguraties.
 
 Klikken (**...**) in de rechterbovenhoek in de **APPARATEN** zodat u apparaatconfiguraties kunt toevoegen en apparaten kunt bijwerken.
 
