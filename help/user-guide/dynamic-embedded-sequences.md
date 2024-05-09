@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2451'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,23 @@ Het gebruiken van Dynamische Ingesloten Reeksen behandelt de volgende onderwerpe
 
 ## Overzicht {#overview}
 
-***Dynamische ingesloten reeksen*** worden gecreeerd voor grote projecten die ouder-kind hiërarchie volgen, waar het kind binnen een plaatsomslag en niet een kanaalomslag van verwijzingen wordt voorzien. Hiermee kan de gebruiker een reeks in een kanaal insluiten met ***Kanaalrol***. Hiermee kan de gebruiker plaatsspecifieke plaatsaanduidingen voor verschillende kantoren definiëren met behulp van een ingesloten reeks in een hoofdkanaal.
+***Dynamische ingesloten reeksen*** worden gecreeerd voor grote projecten die een ouder-kind hiërarchie volgen, waar het kind binnen een plaatsomslag en niet een kanaalomslag van verwijzingen wordt voorzien. Hiermee kan de gebruiker een reeks in een kanaal insluiten met ***Kanaalrol***. Hiermee kan de gebruiker plaatsspecifieke plaatsaanduidingen voor verschillende kantoren definiëren met behulp van een ingesloten reeks in een hoofdkanaal.
 
-Wanneer u een kanaal toewijst aan een weergave, kunt u het pad van de weergave opgeven of de rol van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal.
+Wanneer u een kanaal toewijst aan een weergave, kunt u het pad van de weergave opgeven. U kunt ook de rol opgeven van het kanaal dat per context wordt omgezet in een daadwerkelijk kanaal.
 
-Als u Dynamische ingesloten reeks wilt gebruiken, wijst u een kanaal door ***Kanaalrol***. De Rol van het kanaal bepaalt de context van de vertoning. De rol wordt op verschillende acties gericht en staat los van het daadwerkelijke kanaal dat de rol vervult. In deze sectie wordt een gebruiksscenario beschreven dat kanalen op rol bepaalt en hoe u die inhoud op een globaal kanaal kunt toepassen. U kunt de rol ook zien als een id voor de toewijzing of als een alias voor het kanaal in de context van.
+Als u Dynamische ingesloten reeks wilt gebruiken, wijst u een kanaal door ***Kanaalrol***. De Rol van het kanaal bepaalt de context van de vertoning. De rol is gericht op verschillende acties en staat los van het daadwerkelijke kanaal dat de rol vervult. In deze sectie wordt een gebruiksscenario beschreven dat kanalen op rol bepaalt en hoe u die inhoud op een globaal kanaal kunt toepassen. U kunt de rol ook zien als een id voor de toewijzing of als een alias voor het kanaal in de context van.
 
 ### Voordelen van het gebruik van dynamische ingesloten reeksen {#benefits-of-using-dynamic-embedded-sequences}
 
-Het belangrijkste voordeel van het plaatsen van een opeenvolgingskanaal in een plaats in plaats van de kanaalomslag is lokale of regionale auteurs toe te staan om inhoud uit te geven relevant voor hen. Dit alles, terwijl het wordt beperkt van het uitgeven van kanalen hoger in de hiërarchie.
+Door een volgordekanaal in plaats van de kanaalmap in een locatie te plaatsen, kunnen lokale of regionale auteurs inhoud bewerken die voor hen van belang is. Het staat ook toe om van het uitgeven van kanalen hoger in de hiërarchie worden beperkt.
 
-Verwijzen naar een *Kanaal op rol*, kunt u lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen en u kunt ook een globaal kanaal maken dat de inhoud gebruikt voor de locatie-specifieke kanalen.
+Verwijzen naar een *Kanaal op rol*, kunt u een lokale versie van een kanaal maken. Als u dit doet, wordt locatiespecifieke inhoud dynamisch omgezet en kunt u ook een globaal kanaal maken dat de inhoud gebruikt voor de locatiespecifieke kanalen.
 
 >[!NOTE]
 >
 >**Ingesloten reeksen versus dynamische ingesloten reeksen**
 >
->Een dynamische ingesloten reeks is vergelijkbaar met een ingesloten reeks, maar de gebruiker kan een hiërarchie volgen waarin wijzigingen/updates die in het ene kanaal zijn aangebracht, aan het andere kanaal worden doorgegeven in relatie tot het andere kanaal. De klasse volgt de bovenliggende-onderliggende hiërarchie en bevat ook elementen zoals afbeeldingen of video&#39;s.
+>Een dynamische ingesloten reeks is vergelijkbaar met een ingesloten reeks, maar de gebruiker kan een hiërarchie volgen waarin wijzigingen en updates die in het ene kanaal zijn aangebracht, aan het andere kanaal worden doorgegeven in relatie tot het andere kanaal. De klasse volgt een bovenliggende-onderliggende hiërarchie en bevat ook elementen zoals afbeeldingen of video&#39;s.
 >
 >***Dynamische ingesloten reeksen*** kunt u locatie-specifieke inhoud weergeven, terwijl ***Ingesloten reeksen*** alleen een algemene presentatie van de inhoud weergeven. Tijdens het instellen van Dynamische ingesloten reeksen configureert u het kanaal ook met de rol en naam van het kanaal. Zie de onderstaande stappen voor praktische implementatie.
 >
@@ -57,7 +57,7 @@ In het volgende voorbeeld wordt een oplossing geboden waarbij de nadruk ligt op 
 
 >[!NOTE]
 >
->Ga voor meer informatie over kanaaltoewijzing naar **[Kanaaltoewijzing](channel-assignment.md)** onder sectie Ontwerpen in de documentatie van AEM Screens.
+>Ga voor meer informatie over kanaaltoewijzing naar **[Kanaaltoewijzing](channel-assignment.md)** onder de sectie Authoring in de documentatie van AEM Screens.
 
 ## Dynamische ingesloten reeks gebruiken {#using-dynamic-embedded-sequence-2}
 
@@ -68,15 +68,15 @@ In de volgende sectie wordt uitgelegd hoe u een dynamische ingesloten reeks maak
 Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor zorgen dat u aan de volgende voorwaarden kunt voldoen om dynamische ingesloten reeksen te implementeren:
 
 * Een AEM Screens-project maken (in dit voorbeeld: **Demo**).
-* Een kanaal maken als **Algemeen** krachtens **Kanalen** map.
+* Een **Algemeen** kanaal onder de **Kanalen** map.
 * Inhoud toevoegen aan uw **Algemeen** Kanaal (*Controleren **Resources.zip**voor relevante activa*).
 
-In de volgende afbeelding wordt de **Demo** project met **Algemeen** kanaal in **Kanalen** map.
+In de volgende afbeelding wordt de **Demo** project met **Algemeen** in het **Kanalen** map.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Bronnen {#resources}
 
-U kunt de volgende bronnen downloaden (afbeeldingen en deze toevoegen aan elementen) en deze verder gebruiken als kanaalinhoud voor demonstratiedoeleinden.
+U kunt de volgende bronnen downloaden (afbeeldingen en deze toevoegen aan elementen) en ze verder gebruiken als inhoud voor kanalen om te demonstreren.
 
 [Bestand ophalen](assets/resources.zip)
 
@@ -108,7 +108,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    >
    >Tijdens het maken van de **Gebied A** locatiemap, zorg ervoor u ingaat **Titel** als **Gebied A** en u kunt de **Naam** veld leeg, dus automatisch **regio** name is opgepikt.
    >
-   >Hetzelfde geldt voor het maken van een locatiemap **Gebied B**, zoals hieronder weergegeven:
+   >Hetzelfde geldt voor het maken van de locatiemap **Gebied B**, zoals hieronder weergegeven:
 
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
@@ -119,8 +119,8 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    1. Navigeren naar **Demo** > **Locaties** > **Gebied A**.
    1. Klikken **Gebied A** en klik op **+ Maken** in de actiebalk.
-   1. Klikken **Locatie** van de wizard met **Titel** als **Winkel 1**. Op dezelfde manier creeer een andere plaats van de tovenaar genoemd als **Winkel 2** with **Titel** als **Winkel 2**. U kunt de **Naam** veld leeg tijdens maken **Winkel 1** en **Winkel 2**.
-   1. Herhaal stap b) en klik nu op **Volgekanaal** van de wizard. Voer de **Titel** als **Gebied A** en **Naam** als **regio** voor dit kanaal.
+   1. Klikken **Locatie** van de wizard met **Titel** als **Winkel 1**. Op dezelfde manier creeer een andere plaats van de tovenaar genoemd als **Winkel 2** met de **Titel** als **Winkel 2**. U kunt de **Naam** veld leeg tijdens maken **Winkel 1** en **Winkel 2**.
+   1. Herhaal stap b) en klik nu op **Volgekanaal** van de wizard. Voer de **Titel** als **Gebied A** en **Naam** als de **regio** voor dit kanaal.
 
    >[!CAUTION]
    >
@@ -189,25 +189,25 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
 1. **Een schema maken**
 
-   Navigeren en klikken **Planningen** in uw AEM Screens-project. Klik vervolgens op **Maken** in de actiebalk.
+   Navigeren en op de knop **Planningen** in uw AEM Screens-project. Klik vervolgens op **Maken** in de actiebalk.
 
-   In de volgende afbeelding wordt de **AdSchedule** gemaakt in **Demo** project.
+   In de volgende afbeelding wordt de **AdSchedule** gemaakt in het dialoogvenster **Demo** project.
 
    ![screen_shot_2018-09-13at3307pm](assets/screen_shot_2018-09-13at33307pm.png)
 
 1. **Kanalen toewijzen aan een schema**
 
    1. Navigeren naar **Demo** > **Planningen** > **AdSchedule** en klik op **Dashboard** in de actiebalk.
-   1. Klikken **+ Kanaal toewijzen** van **TOEGEWEZEN KANALEN** zodat u het deelvenster **Kanaaltoewijzing** in.
+   1. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** zodat u het deelvenster **Kanaaltoewijzing** in.
    1. Klikken **Referentiekanaal** per pad.
-   1. Klik op de knop **Kanaalpad** als **Demo** > ***Kanalen*** > ***Algemeen***.
-   1. Voer de **Kanaalrol** als **GlobalAdSegment**.
-   1. Klik op de knop **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Gebruikersinteractie**.
+   1. Klik op de knop **Kanaalpad**, net als **Demo** > ***Kanalen*** > ***Algemeen***.
+   1. Voer de **Kanaalrol**, net als **GlobalAdSegment**.
+   1. Klik op de knop **Ondersteunde gebeurtenissen**, net als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Gebruikersinteractie**.
    1. Klikken **Opslaan**.
 
    **Kanaal op rol toewijzen voor regio:**
 
-   1. Klikken **+ Kanaal toewijzen** van **TOEGEWEZEN KANALEN** deelvenster.
+   1. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** deelvenster.
    1. Klik in het dialoogvenster Kanaaltoewijzing op **Referentiekanaal** op naam.
    1. Voer de **Kanaalnaam** als **regio***.
    1. Voer de **Kanaalrol** als **RegionAdSegment**.
@@ -215,7 +215,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    **Kanaal op rol toewijzen voor winkel:**
 
-   1. Klikken **+ Kanaal toewijzen** van **TOEGEWEZEN KANALEN** deelvenster.
+   1. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** deelvenster.
    1. Klik in het dialoogvenster Kanaaltoewijzing op **Referentiekanaal** op naam.
    1. Voer de **Kanaalnaam** als **winkel**.
    1. Voer de **Kanaalrol** als **StoreAdSegment**.
@@ -227,7 +227,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
 1. **Dynamische ingesloten reeks configureren naar algemeen kanaal.**
 
-   Ga naar de **Algemeen** Kanaal dat u oorspronkelijk hebt gemaakt in **Demo** project.
+   Ga naar de **Algemeen** Kanaal dat u oorspronkelijk in het dialoogvenster **Demo** project.
 
    Klikken **Bewerken** in de actiebalk.
 
@@ -323,7 +323,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
    1. Klik op de knop **Groepen** en voert u de groepsnaam in **Klik op Groep**, bijvoorbeeld Enter **Global-Author** toevoegen **Wereldwijd gebruiker** aan die specifieke groep.
    1. Klikken **Opslaan en sluiten**.
 
-   Maak op dezelfde manier twee andere gebruikers, zoals **Regio-gebruiker** en **Winkelgebruiker** en voeg **Regionaal-auteur** en **Winkelauteur** respectievelijk.
+   Maak op dezelfde manier twee andere gebruikers, zoals **Regio-gebruiker** en **Winkelgebruiker** en voegt deze toe aan **Regionaal-auteur** en **Winkelauteur** respectievelijk.
 
    >[!NOTE]
    >Het is aan te raden gebruikers toe te voegen aan een groep en vervolgens machtigingen toe te wijzen aan elke specifieke groep gebruikers.
@@ -334,14 +334,14 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
 
    1. Navigeren naar **Adobe Experience Manager**.
    1. Klikken **Gereedschappen** > **Beveiliging** > **Groepen**.
-   1. Klikken **Medewerkers** in de lijst en klik op **Leden** tab.
+   1. Klikken **Medewerkers** in de lijst en klik op de knop **Leden** tab.
    1. Klik op de knop **Groep** zoals **Global-Author**, **Regionaal-auteur,** en **Winkelauteur** aan contribuanten.
    1. Klikken **Opslaan en sluiten**.
 
 1. **Toegang tot machtigingen voor elke groep**
 
-   1. Ga naar de *Useradmin* en gebruik deze interface om de machtigingen voor verschillende groepen te wijzigen.
-   1. Zoeken naar **Global-Author** en klik op **Machtigingen** zoals weergegeven in de onderstaande afbeelding.
+   1. Ga naar de *Gebruikersbeheer* en gebruik deze interface om de machtigingen voor verschillende groepen te wijzigen.
+   1. Zoeken naar **Global-Author** en klik op de knop **Machtigingen** zoals weergegeven in de onderstaande afbeelding.
    1. Op dezelfde manier kunt u tot de toestemmingen voor toegang hebben **Regionaal-auteur** en **Winkelauteur**.
 
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
@@ -358,7 +358,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
    Zie het volgende cijfer voor het begrijpen van de stappen:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
-   Het volgende toont aan dat **Wereldwijd gebruiker** heeft toegang tot **Globaal kanaal** en beide **Gebied A** en **Gebied B** met alle vier de winkels, namelijk **Winkel 1**, **Winkel 2**, **Winkel 3**, en **Winkel 4**.
+   Het volgende toont aan dat **Wereldwijd gebruiker** heeft toegang tot **Globaal kanaal**. En toegang tot beide **Gebied A** en **Gebied B** met alle vier de winkels, namelijk **Winkel 1**, **Winkel 2**, **Winkel 3**, en **Winkel 4**.
 
    ![globaal](assets/global.gif)
 
@@ -374,7 +374,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   Het volgende toont aan regio-Gebruiker toegang tot allebei heeft **Gebied A** en **Gebied B** met alle vier de winkels, namelijk **Winkel 1**, **Winkel 2**, **Winkel 3**, en **Winkel 4**, maar heeft geen toegang tot **Algemeen** Kanaal.
+   Het volgende toont aan regio-Gebruiker toegang tot allebei heeft **Gebied A** en **Gebied B**. En toegang tot alle vier winkels, namelijk **Winkel 1**, **Winkel 2**, **Winkel 3**, en **Winkel 4**, maar heeft geen toegang tot **Algemeen** Kanaal.
 
    ![regio](assets/region.gif)
 
@@ -391,7 +391,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   Het volgende toont aan dat **Winkelgebruiker** heeft alleen toegang tot **Winkel 1**, **Winkel 2**, **Winkel 3**, en **Winkel 4**, maar beschikt niet over toegangsrechten tot de **Algemeen** of regio (**Gebied A** en **Gebied B**).
+   Het volgende toont aan dat **Winkelgebruiker** heeft alleen toegang tot **Winkel 1**, **Winkel 2**, **Winkel 3**, en **Winkel 4**. Het beschikt echter niet over toegangsrechten tot de **Algemeen** of regio (**Gebied A** en **Gebied B**).
 
    ![winkel](assets/store.gif)
 

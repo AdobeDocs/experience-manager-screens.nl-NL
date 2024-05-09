@@ -2,9 +2,9 @@
 title: Duur van afspeelafbeelding
 description: Meer informatie over de afspeelduur van afbeeldingen in AEM Screens.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-Nadat u een opeenvolgingskanaal creeert en beelden aan het toevoegt, door gebrek, veronderstellen alle beelden de playbackduur die in de het niveauconfiguratie van het Kanaal wordt bepaald. Elke afzonderlijke afbeelding kan nog steeds de standaardinstelling overschrijven en een andere afspeelduur hebben. Dit gebeurt door de afspeelduur van de specifieke afbeeldingscomponent te bewerken.
+Nadat u een opeenvolgingskanaal creeert en beelden aan het toevoegt, door gebrek, veronderstellen alle beelden de playbackduur die in de het niveauconfiguratie van het Kanaal wordt bepaald. Elke afzonderlijke afbeelding kan nog steeds de standaardinstelling overschrijven en een andere afspeelduur hebben. Deze mogelijkheid wordt bereikt door de afspeelduur van de specifieke afbeeldingscomponent te bewerken.
 
 ### Vereisten {#prerequisites}
 
 Voordat u deze functionaliteit implementeert, moet u ervoor zorgen dat u een project hebt ingesteld als voorwaarde voor het implementeren van deze functionaliteit. Bijvoorbeeld:
 
 1. Een AEM Screens-project maken (in dit voorbeeld: **ChannelLevelPlayback**)
-1. Een volgnummer maken als **PlaybackChannel** krachtens **Kanalen** map
+1. Een volgnummer maken als **PlaybackChannel** onder de **Kanalen** map
 1. Inhoud toevoegen aan **PlaybackChannel**
 
 ## Tijdsduur afspeelafbeelding op kanaalniveau bewerken {#editing-channel-level-image-playback-duration-assignment}
@@ -48,7 +48,7 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Pagina** wordt geopend.
+1. De **Pagina** wordt geopend.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
 ### Het resultaat weergeven {#viewing-the-result}
 
-Wanneer u de afspeelduur van het kanaal hebt bijgewerkt (in dit voorbeeld zijn alle drie afbeeldingen), ziet u dat de afbeeldingen nu 3 seconden worden afgespeeld in plaats van 8 seconden (standaardwaarde).
+Wanneer u de afspeelduur van het kanaal hebt bijgewerkt (in dit voorbeeld worden alle drie de afbeeldingen weergegeven), ziet u dat de afbeeldingen nu 3 seconden worden afgespeeld in plaats van 8 seconden (de standaardwaarde).
 
 ![channel_preview](assets/channel_preview.gif)
 

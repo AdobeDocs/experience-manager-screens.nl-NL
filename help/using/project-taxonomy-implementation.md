@@ -2,9 +2,9 @@
 title: Projecttaxonomie
 description: Meer weten over projecttaxonomie in verband met AEM Screens?
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,14 @@ Overweeg de volgende elementen voordat u uw AEM Screens-oplossing voor digitale 
 * **Planning**
 * **De inhoud voorvertonen**
 
-Zie voor meer informatie over deze termen [Verklarende woordenlijst](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+Zie voor meer informatie over deze termen de [Verklarende woordenlijst](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
 >U kunt het beste overwegen het volgende te gebruiken:
 >
 >* hardwaremiddelendatabase om een schermproject automatisch te vullen
->* text config-bestand om elke speler automatisch te laten verwijzen naar een specifieke instantie van een AEM
+>* tekstconfiguratiebestand dat elke speler automatisch aanwijst naar een specifieke instantie van een AEM
 
 ## Een AEM Screens-project implementeren {#creating-a-project}
 

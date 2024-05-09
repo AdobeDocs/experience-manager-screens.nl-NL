@@ -2,9 +2,9 @@
 title: Overgang naar platform
 description: Meer informatie over de overgang naar Platform in AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Een typisch belanghebbende voor deze activiteit is een AEM Implementor.
 
-Aangezien uw project van een strategische visie aan een wireframed werkelijkheid is voortgegaan, zou u nu voor de taken moeten beginnen noodzakelijk om een project van de Schermen in AEM te creëren die u kunt opstellen.
+Aangezien uw project van een strategische visie aan een wireframed werkelijkheid is voortgegaan, zou u voor de daadwerkelijke verwezenlijking van een project van de Schermen in AEM moeten voorbereidingen treffen die u kunt opstellen.
 
 Dit project omvat het in kaart brengen van platform-specifieke configuraties aan los bepaalde vereisten die in de prototypefase worden bepaald.
 
