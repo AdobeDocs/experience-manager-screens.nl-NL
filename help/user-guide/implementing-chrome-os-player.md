@@ -9,24 +9,24 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
 
-# Chrome OS Player implementeren  {#implementing-chrome-os-player}
+# Chrome OS Player implementeren {#implementing-chrome-os-player}
 
 In deze sectie wordt beschreven hoe u de Chrome OS Player implementeert met de Chrome Management Console.
 
 ## Chrome Management Console gebruiken {#using-chrome-management-console}
 
-Voer de onderstaande stappen uit om de chrome beheerconsole in te stellen:
+Voer de onderstaande stappen uit om de chroombeheerconsole in te stellen:
 
 1. Registreer u voor de Chrome Management Console. U moet een licentie voor Chrome Management Console aanvragen. Contact [Google-ondersteuning](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) om Chrome-apparaatinstellingen te beheren voor meer informatie.
-1. Voer uw Chrome OS-apparaat in het domein in en wacht 15 minuten totdat het apparaat synchroniseert met de Chrome Management Console. Als u meer wilt weten over het inschrijven van een chroomapparaat, klikt u op [hier](https://support.google.com/chrome/a/answer/1360534?hl=en).
-1. De Chrome Player is beschikbaar in de Chrome Web store.
+1. Schrijf uw Chrome OS-apparaat in het domein en wacht 15 minuten totdat het apparaat synchroniseert met de Chrome Management Console. Als u meer wilt weten over het inschrijven van een chroomapparaat, klikt u op [hier](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. De Chrome Player is beschikbaar in de Chrome Web Store.
 
 >[!NOTE]
 >
@@ -49,12 +49,12 @@ Voer de onderstaande stappen uit om de naam in Chrome Player te configureren:
 
    ![afbeelding](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. U kunt de id van het element instellen als onderdeel van de inschrijving op de onderneming en in de Chrome-beheerconsole.
+1. U kunt de id van het element instellen als onderdeel van de inschrijving op een bedrijf en in de Chrome Management Console.
 
    ![afbeelding](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome Players moeten in ondernemingsinschrijving worden ingeschreven en de Speler van Chrome moet door de Console van het Beheer van het Beheer van Chrome worden opgesteld, anders keert activa ID leeg terug (bijvoorbeeld, chroom als uitbreiding). De apparaatnaam wordt alleen opgenomen op het moment van registratie. Toekomstige wijzigingen worden niet opgepikt door Adobe Experience Manager (AEM).
+   >Chrome Players moeten in ondernemingsinschrijving worden ingeschreven en de Speler van Chrome moet door de Console van het Beheer van Chrome worden opgesteld, anders keert identiteitskaart van Activa leeg terug (bijvoorbeeld, chroom als uitbreiding). De apparaatnaam wordt alleen opgenomen op het moment van registratie. Toekomstige wijzigingen worden niet opgepikt door Adobe Experience Manager (AEM).
 
 ### Modus Kiosk inschakelen {#enabling-kiosk-mode}
 
@@ -94,9 +94,9 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 De AEM Screens Player is een toepassing waarvoor Kiosk is ingeschakeld en waarmee ook Externe beleidsconfiguratie voor Chrome OS Players wordt ingeschakeld.
 
-Voer de onderstaande stappen uit om verschillende opties van de speler te configureren:
+Voer de onderstaande stappen uit om de verschillende opties van de speler te configureren:
 
-1. Meld u aan bij de Chrome Management Console.
+1. Log in bij de Chrome Management Console.
 1. Klikken **Apparaatbeheer** > **Chrome-beheer** > **Toepassingsbeheer**. De AEM Screens Player wordt in de lijst weergegeven.
 1. Klik op de toepassing **AEM Screens Player**.
 1. Klikken **Kiosk-instellingen** en klik op uw org (*bij gebruik van een testomgeving*).
@@ -143,14 +143,14 @@ In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 | resolutie | De resolutie van het apparaat. |
 | rebootSchedule | Het programma om de speler opnieuw op te starten. |
 | enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
-| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om kanalen op het apparaat te schakelen. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
-| enableActivityUI | Schakel deze optie in zodat u de voortgang van activiteiten, zoals downloaden en synchroniseren, kunt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
+| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om naar een ander kanaal op het apparaat te gaan. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
+| enableActivityUI | Schakel deze optie in zodat u de voortgang van activiteiten zoals downloaden en synchroniseren kunt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
 | cloudMode | Stel dit in op true als u wilt dat de Chrome Player verbinding maakt met as a Cloud Service schermen. Ingesteld op false om verbinding te maken met AMS of on-prem AEM. |
 | cloudToken | Registratietoken voor registratie tegen as a Cloud Service schermen. |
 
 >[!NOTE]
 >
->De configuraties van het beleid worden strikt afgedwongen en worden niet manueel met voeten getreden bij admin UI van de speler. Om handspelerconfiguratie voor een bepaald beleid toe te staan, specificeer niet het beleid in ***beleidsconfiguratie***. Als u bijvoorbeeld handmatige configuratie wilt toestaan voor het opnieuw opstarten, geeft u de sleutel niet op ***rebootSchedule*** in de beleidsconfiguratie.
+>De beleidsconfiguraties worden strikt gehandhaafd en de Admin UI van de speler treedt manueel niet met voeten. Om handspelerconfiguratie voor een bepaald beleid toe te staan, specificeer niet het beleid in ***beleidsconfiguratie***. Als u bijvoorbeeld handmatige configuratie wilt toestaan voor het opnieuw opstarten, geeft u de sleutel niet op ***rebootSchedule*** in de beleidsconfiguratie.
 
 ### De afstandsbediening voor schermen gebruiken {#using-remote-control}
 

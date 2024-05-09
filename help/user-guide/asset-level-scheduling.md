@@ -1,13 +1,13 @@
 ---
 title: Activering van middelenniveau
-description: Leer hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader in de lokale tijdzone van de speler.
+description: Leer hoe u een specifiek middel in een kanaal activeert voor een gepland tijdkader, allemaal binnen de lokale tijdzone van de speler.
 feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,15 @@ De volgende onderwerpen worden behandeld in deze sectie:
 
 ## Overzicht {#overview}
 
-***Activering van middelenniveau*** Hiermee kunt u een specifiek middel in een kanaal activeren voor een gepland tijdkader in de lokale tijdzone van de speler. Dit is beschikbaar voor afbeeldingen, video&#39;s, overgangen, pagina&#39;s en ingesloten kanalen (dynamisch of statisch).
+***Activering van middelenniveau*** Hiermee kunt u een specifiek middel in een kanaal activeren voor een gepland tijdkader, allemaal binnen de lokale tijdzone van de speler. Deze mogelijkheid is beschikbaar voor afbeeldingen, video&#39;s, overgangen, pagina&#39;s en ingesloten kanalen (dynamisch of statisch).
 
 *Bijvoorbeeld*, wilt u dat een speciale promotie alleen tijdens het gelukkig uur (23.00 uur tot 17.00 uur) op maandag en woensdag wordt weergegeven.
 
-Met deze functie kunt u niet alleen de begin- en einddatum en -tijd opgeven, maar ook een herhalingspatroon.
+Met deze functie kunt u niet alleen een begin- en einddatum en -tijd opgeven, maar ook een herhalingspatroon.
 
 ## Activeringsvenster {#single-event-playback}
 
-Activering van middelenniveau wordt uitgevoerd door de **Activering** te gebruiken tijdens het openen van eigenschappen van een element.
+Activering van middelenniveau wordt uitgevoerd door de **Activering** te gebruiken terwijl u de eigenschappen van een element opent.
 
 Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
 
@@ -58,8 +58,8 @@ Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
    >
    >Meer informatie over hoe u
    >
-   >* Een project maken, zie [Een nieuw project maken](creating-a-screens-project.md).
-   >* Inhoud maken en toevoegen aan een kanaal, zie [Kanalen beheren](managing-channels.md).
+   >* Maak een project. Zie [Een nieuw project maken](creating-a-screens-project.md).
+   >* Maak inhoud en voeg inhoud toe aan een kanaal. Zie [Kanalen beheren](managing-channels.md).
 
 1. Klikken **Bewerken** zodat kunt u de kanaaleditor openen en op een element klikken waarop u de planning wilt toepassen.
 
@@ -79,7 +79,7 @@ Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
 
 ## Herhaling van activa afhandelen {#handling-recurrence-in-assets}
 
-U kunt ook bepalen dat de middelen elke dag, week of maand opnieuw worden uitgevoerd, afhankelijk van uw vereisten.
+U kunt activa plannen om met bepaalde intervallen op een dagelijkse, wekelijkse, of maandelijkse basis volgens uw vereiste terug te komen.
 
 Stel dat u een afbeelding alleen op vrijdag van 13.00 uur tot 22.00 uur wilt weergeven. U kunt de **Activering** om het gewenste herhalingsinterval voor uw element in te stellen.
 
@@ -96,7 +96,7 @@ Stel dat u een afbeelding alleen op vrijdag van 13.00 uur tot 22.00 uur wilt wee
 
 #### Voorbeeldexpressies voor dagparatie {#example-one}
 
-In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
+De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u aan het schema kunt toevoegen terwijl u een kanaal toewijst aan een weergave.
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
@@ -122,7 +122,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 #### Voorbeelden van expressies voor WeekParting {#example-two}
 
-In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
+De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u aan het schema kunt toevoegen terwijl u een kanaal toewijst aan een weergave.
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
@@ -147,7 +147,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 #### Voorbeelden van expressies voor MonthParting {#example-three}
 
-In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
+De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u aan het schema kunt toevoegen terwijl u een kanaal toewijst aan een weergave.
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
@@ -170,11 +170,11 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 #### Voorbeelden van expressies voor de combinatie van delen {#example-four}
 
-In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
+De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u aan het schema kunt toevoegen terwijl u een kanaal toewijst aan een weergave.
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
-| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | de activa spelen in het kanaal tussen 6.00 uur en 6.00 uur op maandag en woensdag van januari tot en met eind maart |
+| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | de activa spelen in het kanaal tussen 6.00 uur en 6.00 uur op maandag en woensdag van januari tot eind maart |
 | `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | het middel in het kanaal begint na 1 januari om 2.00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3.00 uur &#39;s middags op 3 januari |
 | `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | Het middel in het kanaal start speler na 1 januari om 2:00 uur, gaat verder met afspelen tot 2 januari om 3:00 uur &#39;s middags, vervolgens begint het opnieuw op 2 januari om 2:00 uur &#39;s middags en wordt verder afgespeeld tot 3:00 uur &#39;s middags op 3 januari |
 
@@ -214,7 +214,7 @@ Voer de onderstaande stappen uit om op meerdere elementen te klikken en de weerg
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Klik op Vernieuwen om de elementen te controleren waarop het schema voor meerdere elementen is toegepast.
+1. Klik verfrissen om de activa te controleren waarop het multi-activa programma wordt toegepast.
 
    >[!NOTE]
    >
@@ -226,11 +226,11 @@ Voer de onderstaande stappen uit om op meerdere elementen te klikken en de weerg
 
 ***Algemene Overschrijving voor universele begintijd***, is een instelling waarmee de Inhoudsauteur het afspelen van een afbeelding of video-element kan definiëren op basis van een specifieke tijd. De tijd-/tijdzone-instelling van een afzonderlijke speler wordt niet gebruikt.
 
-Doorgaans wordt het afspelen bepaald door de lokale tijd van een bepaalde speler, maar met de algemene overschrijving kan een specifieke, universele begintijd worden gebruikt om het afspelen van het element te starten.
+Doorgaans wordt het afspelen bepaald door de lokale tijd van een bepaalde speler. Maar met de globale overschrijving kan een specifieke, universele begintijd worden gebruikt om het afspelen van het element te starten.
 
-Hierdoor kan de Content Author het afspelen van een bepaald element toewijzen als actief op een bepaalde datum/tijd, ongeacht de lokale klok, op alle spelers die de toegewezen inhoud hebben.
+Als zodanig kan de Content Author het afspelen van een bepaald element aanwijzen. Ze kunnen de inhoud op een bepaalde datum/tijd weergeven, ongeacht de lokale klok op spelers die de toegewezen inhoud hebben.
 
-De globale Opheffing voor de Universele Tijd van het Begin wordt gedaan door te vormen **Activering** te gebruiken tijdens het openen van eigenschappen van een element. Voer de onderstaande stappen uit om een globale overschrijving uit te voeren voor het plannen van elementen:
+***Algemene Overschrijving voor universele begintijd*** wordt gedaan door te vormen **Activering** te gebruiken tijdens het openen van eigenschappen van een element. Voer de onderstaande stappen uit om een globale overschrijving uit te voeren voor het plannen van elementen:
 
 1. Klik op een kanaal en klik vervolgens op **Bewerken** op de actiebalk, zodat u inhoud aan het kanaal kunt toevoegen of bewerken.
 

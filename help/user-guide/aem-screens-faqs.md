@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2135'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,7 @@ Installeer een minimale versie van AEM 6.5-functiepakket 8 voor de AMS-aansluiti
 
 De dienst wordt gebruikt om openbare hostname voor de auteur te bepalen en instanties te publiceren, en de waarden worden dan gebruikt om de apparatenserver URLs en ook voor het richten ContextHub bij te werken.
 
-De dienst van Externalzer van de Verbinding van CQ in Schermen kan door middel van: worden gevormd:
+De dienst van Externalzer van de Verbinding CQ in Schermen kan op de volgende manier worden gevormd:
 
 1. Navigeren naar `http://localhost:4502/system/console/configMgr`
 1. Day CQ Link ExternalAlizer

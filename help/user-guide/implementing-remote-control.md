@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# De afstandsbediening voor schermen gebruiken  {#implementing-remote-control}
+# De afstandsbediening voor schermen gebruiken {#implementing-remote-control}
 
-Met de functie voor besturing op afstand hebt u gemakkelijker toegang tot de beheerinterface, de kanaalswitch of andere functies, zoals Cache wissen en opnieuw laden. Ook, voorziet het u van een methode om de lokale ingebouwde programmatuurversie en systeeminformatie over de speler te zien. Dit is vooral nuttig omdat het moeilijk kan zijn om een muis aan te sluiten en op productieapparaten te werken die buiten bereik zijn en nog meer als de speler verbinding met AEM heeft verloren. Dit is ook handig wanneer u Samsung RMS gebruikt, omdat het vanwege het verschil in resolutie moeilijk kan zijn om de interface van de beheerder met de muis te vinden en te openen.
+Met de functie voor besturing op afstand hebt u gemakkelijker toegang tot de beheerinterface, de kanaalswitch of andere functies, zoals Cache wissen en opnieuw laden. Ook, voorziet het u van een methode om de lokale ingebouwde programmatuurversie en systeeminformatie over de speler te zien. Deze mogelijkheid is vooral handig omdat het lastig kan zijn om een muis aan te sluiten. Of bewerk op productieapparaten die buiten bereik zijn en nog meer als de speler de verbinding met AEM heeft verbroken. Het is ook handig wanneer u Samsung RMS gebruikt, omdat het vanwege het verschil in resolutie moeilijk kan zijn om de interface van de beheerder met de muis te vinden en te openen.
 
 ## Algemene combinaties van afstandsbedieningen {#using-common-remote-control}
 
@@ -47,7 +47,7 @@ In het volgende diagram wordt het sleutelgebruik op een Samsung-afstandsbedienin
 ![image](assets/tizen/remote.png)
 
 >[!NOTE]
->Als u de configuratiewaarden voor het apparaat van enableAdminUI en/of enableOSD instelt op false, schakelt de afstandsbediening de interface voor beheerders en de kanaalswitch niet in of uit. U kunt de pijltoetsen niet gebruiken om door de interface van de beheerder of kanalen te navigeren. U kunt de cache echter wel wissen en de speler opnieuw laden. U kunt de functie voor besturing op afstand uitschakelen als een van de toetsenbordcombinaties conflicteert met uw interactieve inhoud met deze code:
+>Als u de configuratiewaarden voor het apparaat van enableAdminUI en/of enableOSD instelt op false, schakelt de externe server de interface van Admin en de kanaalschakelaar niet in. U kunt niet met de pijltoetsen door de interface van Admin of kanalen navigeren. U kunt de cache echter wel wissen en de speler opnieuw laden. U kunt de functie voor besturing op afstand uitschakelen als een van de toetsenbordcombinaties conflicteert met uw interactieve inhoud met deze code:
 
 ```
 require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 

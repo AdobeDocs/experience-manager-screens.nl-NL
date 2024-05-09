@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 >
 >**Belangrijke privacygegevens**
 >
->Wanneer het gebruiken van de eigenschap van de stemerkenning, volg alle toepasselijke wettelijke en ethische richtlijnen voor uw regio (met inbegrip van maar niet beperkt tot het verstrekken van een zichtbare kennisgeving aan eind - gebruikers dat de speler de Erkenning van de Stem gebruikt). De Adobe ontvangt, slaat, of verwerkt geen van de op stem betrekking hebbende informatie op. De AEM Screens-spelers gebruiken de standaard webspraak-API die in de bladerengine is ingebouwd. Achter de schermen verzendt deze API een golfvorm van uw toespraak naar Google-servers voor conversie van spraak naar tekst en deze tekst wordt door de speler vergeleken met geconfigureerde trefwoorden.
+>Wanneer het gebruiken van de eigenschap van de stemerkenning, volg alle toepasselijke wettelijke en ethische richtlijnen voor uw regio. Deze richtlijnen omvatten, maar niet beperkt tot, het verstrekken van een zichtbare kennisgeving aan eindgebruikers dat de speler stemerkenning gebruikt). De Adobe ontvangt, slaat, of verwerkt geen van de op stem betrekking hebbende informatie op. De AEM Screens-spelers gebruiken de standaard API voor webspraak die in de bladerengine is ingebouwd. Achter de schermen verzendt deze API een golfvorm van uw toespraak naar Google-servers voor conversie van spraak naar tekst. De speler past de tekst aan gevormde sleutelwoorden aan.
 >
->Zie [Google Privacy White paper on web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) voor meer informatie .
+>Zie [Google Privacy White paper on Web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) voor meer informatie .
 
 
 De eigenschap van de stemerkenning staat inhoudsverandering in een kanaal van AEM Screens toe dat door steminteractie wordt gedreven.
@@ -41,7 +41,7 @@ In de volgende sectie wordt beschreven hoe u de functie voor spraakherkenning in
 
 ## Inhoud weergeven in Volledig scherm of Kanaalschakelaar splitsen {#sequence-channel}
 
-Alvorens u de eigenschap van de stemerkenning gebruikt, zorg ervoor u een project en een kanaal met inhoud hebt opstelling voor uw project.
+Alvorens u een eigenschap van de stemerkenning gebruikt, zorg ervoor u een project en een kanaal met inhoud hebt opstelling voor uw project.
 
 1. In het volgende voorbeeld ziet u een demo-project met de naam **VoiceDemo** en drie volgordekanalen **Hoofd**, **ColdDrinks**, en **HotDrinks**, zoals weergegeven in onderstaande afbeelding.
 
@@ -73,7 +73,7 @@ Alvorens u de eigenschap van de stemerkenning gebruikt, zorg ervoor u een projec
 
    ![afbeelding](assets/voice-recognition/vr-2.png)
 
-   Als u het kanaal Gesplitste schermen aan uw project hebt toegevoegd, navigeert u naar **SplitScreen** en twee ingesloten reeksen slepen en neerzetten en paden toevoegen aan beide **ColdDrinks** en **HotDrinks** kanaal zoals weergegeven in de onderstaande afbeelding.
+   Als u het kanaal Schermen splitsen aan uw project hebt toegevoegd, navigeert u naar **SplitScreen** en twee ingesloten reeksen slepen en neerzetten. Paden toevoegen aan beide **ColdDrinks** en **HotDrinks** kanaal zoals weergegeven in de onderstaande afbeelding.
    ![afbeelding](assets/voice-recognition/vr-emb-6.png)
 
 
@@ -97,11 +97,11 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
    Of,
 
-   U kunt ook van tevoren voor uw project tags maken van uw AEM en op deze tags klikken. Nadat u de in [Tags maken](#creating-tags)kunt u op de tag klikken vanaf de locatie en deze toevoegen aan het kanaal, zoals in de onderstaande afbeelding wordt getoond:
+   U kunt ook van tevoren tags maken voor uw AEM en deze selecteren. Nadat u de in [Tags maken](#creating-tags)kunt u op de tag klikken vanaf de locatie en deze toevoegen aan het kanaal, zoals in de onderstaande afbeelding wordt getoond:
 
    ![afbeelding](assets/voice-recognition/vr-tag1.png)
 
-1. U kunt ook tag toevoegen met de naam **heet** aan de **HotDrinks** kanaal.
+1. Voeg op dezelfde manier een tag met de naam **heet** aan de **HotDrinks** kanaal.
 
 1. Als u een kanaal voor gesplitste schermen gebruikt, voegt u beide tags toe (**heet** en **koud**) aan de **SplitScreen** kanaaleigenschappen, zoals weergegeven in de onderstaande afbeelding.
 
@@ -116,7 +116,7 @@ Ga als volgt te werk om labels te maken:
 
 1. Navigeer naar de AEM.
 
-1. Klik op het pictogram Gereedschappen > **Tags**.
+1. Klik op het gereedschapspictogram > **Tags**.
    ![afbeelding](assets/voice-recognition/vr-7.png)
 
 1. Klikken **Maken** > **Naamruimte maken**.
@@ -161,7 +161,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
 
 1. Nadat u kanalen aan een vertoning hebt toegewezen, navigeer aan **LobbyDisplay** en klikt u op de weergave. Klikken **Eigenschappen** in de actiebalk.
 
-1. Ga naar de **Weergave** tab en enable **Voice ingeschakeld** optie onder **Inhoud**.
+1. Ga naar de **Weergave** en schakelt u de **Voice ingeschakeld** optie onder **Inhoud**.
 
    ![afbeelding](assets/voice-recognition/vr-disp.png)
 
@@ -170,17 +170,17 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
 
 ### De inhoud weergeven in de Chrome Player {#viewing-content}
 
-Wanneer de voorgaande stappen zijn voltooid, kunt u het chroomapparaat registreren om de uitvoer weer te geven.
+Wanneer de voorgaande stappen zijn voltooid, kunt u het Chrome-apparaat registreren om de uitvoer weer te geven.
 
 >[!NOTE]
 >Zie [Apparaatregistratie](device-registration.md).
 
 **Gewenste uitvoer voor sequentiekanaal**
 
-De **Hoofd** kanaal speelt zijn inhoud af, maar wanneer u woorden met sleutelwoord gebruikt **heet** zoals *Ik zou graag een warme drank hebben*, wordt de inhoud van het **HotDrinks** kanaal.
+De **Hoofd** kanaal wordt de inhoud ervan afgespeeld. Wanneer u echter woorden gebruikt met het trefwoord **heet**, zoals *Ik zou graag een warme drank hebben*, wordt de inhoud van het **HotDrinks** kanaal.
 
-Op dezelfde manier als u woord met een sleutelwoord gebruikt **koud** zoals *Ik zou graag iets kouds hebben*, wordt de inhoud van het **ColdDrinks** kanaal.
+En als u een woord met een trefwoord gebruikt **koud** zoals *Ik zou graag iets kouds hebben*, wordt de inhoud van het **ColdDrinks** kanaal.
 
 **Gewenste uitvoer voor gesplitste schermkanalen**
 
-De **Hoofd** kanaal wordt de inhoud ervan afgespeeld. Wanneer u echter woorden met trefwoorden gebruikt **heet** en **koud** samen *Ik zou graag het menu voor warme en koude dranken zien*, speelt het kanaal de inhoud van **SplitScreen** kanaal. Als je zegt *terug naar hoofdmenu*, wordt de **Hoofd** kanaal.
+De **Hoofd** kanaal wordt de inhoud ervan afgespeeld. Wanneer u echter woorden gebruikt met het trefwoord **heet** en **koud** samen, zoals *Ik zou graag het menu voor warme en koude dranken zien*, speelt het kanaal de inhoud van **SplitScreen** kanaal. Als je zegt *terug naar het hoofdmenu*, wordt de **Hoofd** kanaal.
