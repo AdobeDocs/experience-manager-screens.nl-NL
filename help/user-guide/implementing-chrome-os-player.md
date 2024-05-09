@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -22,10 +22,10 @@ In deze sectie wordt beschreven hoe u de Chrome OS Player implementeert met de C
 
 ## Chrome Management Console gebruiken {#using-chrome-management-console}
 
-Voer de onderstaande stappen uit om de chroombeheerconsole in te stellen:
+Voer de onderstaande stappen uit om de Chrome-beheerconsole in te stellen:
 
 1. Registreer u voor de Chrome Management Console. U moet een licentie voor Chrome Management Console aanvragen. Contact [Google-ondersteuning](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) om Chrome-apparaatinstellingen te beheren voor meer informatie.
-1. Schrijf uw Chrome OS-apparaat in het domein en wacht 15 minuten totdat het apparaat synchroniseert met de Chrome Management Console. Als u meer wilt weten over het inschrijven van een chroomapparaat, klikt u op [hier](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Schrijf uw Chrome OS-apparaat in het domein en wacht 15 minuten totdat het apparaat synchroniseert met de Chrome Management Console. Als u meer wilt weten over het inschrijven van een Chrome-apparaat, klikt u op [hier](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. De Chrome Player is beschikbaar in de Chrome Web Store.
 
 >[!NOTE]
@@ -54,7 +54,7 @@ Voer de onderstaande stappen uit om de naam in Chrome Player te configureren:
    ![afbeelding](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome Players moeten in ondernemingsinschrijving worden ingeschreven en de Speler van Chrome moet door de Console van het Beheer van Chrome worden opgesteld, anders keert identiteitskaart van Activa leeg terug (bijvoorbeeld, chroom als uitbreiding). De apparaatnaam wordt alleen opgenomen op het moment van registratie. Toekomstige wijzigingen worden niet opgepikt door Adobe Experience Manager (AEM).
+   >Chrome Players moeten in ondernemingsinschrijving worden ingeschreven en de Speler van Chrome moet door de Console van het Beheer van Chrome worden opgesteld, anders keert identiteitskaart van Activa leeg terug (bijvoorbeeld, Chrome als uitbreiding). De apparaatnaam wordt alleen opgenomen op het moment van registratie. Toekomstige wijzigingen worden niet opgepikt door Adobe Experience Manager (AEM).
 
 ### Modus Kiosk inschakelen {#enabling-kiosk-mode}
 

@@ -1,22 +1,22 @@
 ---
 title: Dispatcher Configurations voor AEM Screens
-description: Deze pagina benadrukt richtlijnen voor het vormen van Dispatcher voor een project van AEM Screens.
+description: Deze pagina benadrukt richtlijnen voor het vormen van een Dispatcher voor een project van AEM Screens.
 feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
 # Dispatcher Configurations voor AEM Screens{#dispatcher-configurations-for-aem-screens}
 
-Dispatcher is een Adobe Experience Manager-programma voor het in cache plaatsen en/of taakverdeling.
+Dispatcher is een Adobe Experience Manager-programma voor caching of taakverdeling, of beide.
 
-De volgende pagina verstrekt de richtlijnen voor het vormen van Dispatcher voor een project van AEM Screens.
+De volgende pagina verstrekt de richtlijnen voor het vormen van een Dispatcher voor een project van AEM Screens.
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ Zie [Dispatcher configureren](https://experienceleague.adobe.com/en/docs/experie
 ## Dispatcher configureren voor manifestversie v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->De volgende Dispatcher-configuraties zijn alleen van toepassing op Manifest-versie v2. Zie [Dispatcher Configurations voor Manifest versie v3](#configuring-dispatcherv3) voor manifestversie v3.
+>De volgende Dispatcher-configuraties zijn alleen van toepassing op Manifest-versie v2. Zie [Dispatcher Configurations voor Manifest versie v3](#configuring-dispatcherv3) voor Manifest versie v3.
 
-AEM Screens-spelers of -apparaten gebruiken geverifieerde sessies om ook toegang te krijgen tot de bronnen in de publicatie-instanties. Als u dus meerdere publicatieinstanties hebt, moeten de aanvragen altijd naar dezelfde publicatie-instantie gaan, zodat de geverifieerde sessie geldig is voor alle aanvragen die afkomstig zijn van de AEM Screens-spelers/apparaten.
+AEM Screens-spelers of -apparaten gebruiken een geverifieerde sessie om ook toegang te krijgen tot de bronnen in de publicatie-instanties. Wanneer u meerdere publicatie-instanties hebt, moeten de aanvragen altijd naar dezelfde publicatie-instantie gaan, zodat de geverifieerde sessie geldig is voor alle aanvragen die afkomstig zijn van de AEM Screens-spelers of -apparaten.
 
-Voer de onderstaande stappen uit om Dispatcher voor een AEM Screens-project te configureren.
+Voer de onderstaande stappen uit om de Dispatcher voor een AEM Screens-project te configureren.
 
 ### Vaste sessies inschakelen {#enable-sticky-session}
 
@@ -67,7 +67,7 @@ Voeg het volgende toe aan `/clientheaders`sectie:
 
 ### Stap 2: schermfilters configureren {#step-configure-screens-filters}
 
-Als u schermfilters wilt configureren, voegt u het volgende toe: ***/filter***.
+Voeg het volgende toe aan *** om schermfilters te configureren`/filter`***.
 
 ```
 ## AEM Screens Filters
@@ -94,7 +94,7 @@ Dispatcher caching uitschakelen voor ***/content/screens pad***.
 
 Schermspelers gebruiken geverifieerde sessies, zodat de Dispatcher geen van de schermspelers in de cache plaatst die om `channels/assets`.
 
-Ga als volgt te werk om de cache voor de elementen in te schakelen, zodat de elementen worden aangeboden in de Dispatcher-cache:
+Ga als volgt te werk om de cache voor de elementen in te schakelen, zodat de elementen vanuit de Dispatcher-cache worden verzonden:
 
 * Toevoegen `/allowAuthorization 1` in `/cache` sectie
 * Voeg de onderstaande regels toe aan `/rules` deel van `/cache`
@@ -129,11 +129,11 @@ Ga als volgt te werk om de cache voor de elementen in te schakelen, zodat de ele
 
 ## Dispatcher configureren voor manifestversie v3{#configuring-dispatcherv3}
 
-Zorg ervoor dat u deze filters en cacheregels toestaat in verzenders die de publicatie-instanties voor schermfuncties vooraf bekijken.
+Zorg ervoor dat u deze filters en cacheregels toestaat in verzenders die de publicatie-instanties voor de werking van schermen vooraf bekijken.
 
 ### Voorwaarden voor manifestversie v3{#prerequisites3}
 
-Voer de volgende twee voorwaarden uit voordat u Dispatcher (manifestversie v3) voor AEM Screens configureert:
+Volg deze twee voorwaarden alvorens een Dispatcher (duidelijke versie v3) voor AEM Screens te vormen:
 
 * Zorg ervoor dat u `v3 manifests`. Navigeren naar `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` en ervoor zorgen dat `Enable ContentSync Cache` is uitgeschakeld.
 
@@ -143,7 +143,7 @@ Voer de volgende twee voorwaarden uit voordat u Dispatcher (manifestversie v3) v
 
   ![afbeelding](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
-### Filters  {#filter-v3}
+### Filters {#filter-v3}
 
 ```
 ## AEM Screens Filters
@@ -173,10 +173,10 @@ Voer de volgende twee voorwaarden uit voordat u Dispatcher (manifestversie v3) v
 
 * Toevoegen `/allowAuthorized "1"` tot `/cache` sectie in `publish_farm.any`.
 
-* Alle AEM Screens-spelers gebruiken geverifieerde sessies om verbinding te maken met AEM (auteur/publicatie). De uit-van-de-doos Dispatcher bewaart deze urls niet, zodat zou u die moeten toelaten.
+* Alle AEM Screens-spelers gebruiken een geverifieerde sessie om verbinding te maken met AEM (auteur/publicatie). Een Dispatcher plaatst deze URL&#39;s niet in de cache, dus moet u ze inschakelen.
 
 * Toevoegen `statfileslevel "10"` tot `/cache` sectie in `publish_farm.any`
-Dit steunt caching tot tien niveaus van geheim voorgeheugendocroot en ongeldig maakt dienovereenkomstig wanneer de inhoud wordt gepubliceerd eerder dan alles ongeldig. U kunt dit niveau wijzigen op basis van de diepte van de inhoudstructuur
+Deze regel ondersteunt caching tot tien niveaus vanaf de cachedocroot en maakt dienovereenkomstig ongeldig wanneer inhoud wordt gepubliceerd in plaats van alles ongeldig te maken. U kunt dit niveau wijzigen op basis van de diepte van de inhoudstructuur
 
 * Voeg het volgende toe aan `/invalidate section in publish_farm.any`
 

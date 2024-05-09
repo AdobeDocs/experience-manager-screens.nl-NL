@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Volg deze pagina voor informatie over het installeren van de speler van Chrome a
 
 Voer de onderstaande stappen uit om de Player-extensie bij te werken als er een nieuwe versie van de speler wordt uitgebracht. U kunt ook de onderstaande instructies volgen om upgradescenario&#39;s te testen:
 
-1. Alle actieve chroom- en spelerinstanties sluiten
+1. Alle actieve Chrome- en Player-instanties sluiten
 1. De naam van de oude map wijzigen met spelerbestanden
 1. Het nieuwe ritje extraheren op dezelfde locatie als de oude map
 1. Chrome starten en naar `chrome://extensions`

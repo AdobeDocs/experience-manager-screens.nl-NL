@@ -2,7 +2,7 @@
 title: Ondersteuningscontrole
 description: Meer informatie over Support Monitoring for AEM Screens Best Practices.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Met contentcontrole kunt u problemen met betrekking tot inhoud die niet correct 
 1. Als een probleem met een leeg scherm wordt aangetroffen:
 
    * Controleer de *voorvertoning* zodat u kunt zien of toont het kanaal een zwart scherm.
-   * Een *lokale chroomspeler* (als extensie) op uw laptop naar dat beeldscherm en controleer of dat een zwart scherm weergeeft.
+   * Een *lokale Chrome-speler* (als extensie) op uw laptop naar dat beeldscherm en controleer of dat een zwart scherm weergeeft.
    * Klik met de rechtermuisknop en controleer en controleer de *toepasselijke stamboeken*.
 
    Als het probleem zich niet voordoet op de lokale speler, maar alleen op het apparaat:

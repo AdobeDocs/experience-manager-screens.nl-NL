@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Op deze pagina ziet u hoe u een aangepaste sjabloon voor een lay-out met meerder
 
 ## Belangrijke overwegingen {#considerations}
 
-Er zijn twee belangrijke overwegingen dat u zich moet bewust zijn alvorens tot douanemalplaatje in multi-zonelay-out te leiden:
+Er zijn twee belangrijke overwegingen dat u zich van bewust moet zijn alvorens een douanemalplaatje in een multi-zonelay-out tot stand te brengen:
 
 1. **Vaste pixelgrootte of percentages**:
 
@@ -30,11 +30,11 @@ Er zijn twee belangrijke overwegingen dat u zich moet bewust zijn alvorens tot d
 
 1. **Naamgevingsconventie**:
 
-   Voordat u begrijpt hoe u aangepaste multi-zone sjablonen kunt maken voor gebruik in een AEM Screens-project, moet u weten hoe de sjablonen die u wilt maken, zijn verdeeld.
+   Het helpt om te begrijpen hoe te om douane multi-zone malplaatjes tot stand te brengen in een project van AEM Screens te gebruiken. Maar eerst moet u het gemiddelde begrijpen van de sjablonen die u wilt maken.
 
    | **Lay-outnaam** | **Beschrijving** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Een liggende lay-out met drie zones waarmee u drie zones kunt maken:<br>* Zone 1 als 20% van het horizontale en verticale scherm vanaf links<br>* Zone 2 als 80 % van het horizontale scherm en 20 % van het verticale scherm rechts uitgevuld<br>* Zone 3 als 100 % van het horizontale en verticale scherm met een hoogte-breedteverhouding van 16:9 |
+   | `Left20-LandscapeHD3Zone` | Een liggende lay-out met drie zones waarmee u drie zones kunt maken:<br>* Zone 1 als 20% van het horizontale en verticale scherm vanaf links<br>* Zone 2 als 80% van het horizontale scherm en 20% van het verticale scherm rechts uitgevuld<br>* Zone 3: 100% van het horizontale en 80% van het verticale scherm. De verhouding is 16:9 |
    | `Upper20-PortraitHD2Zone` | Een staande sjabloon met twee zones die 20% van het scherm vanaf de bovenkant bedekt, met een hoogte-breedteverhouding van 16:9 |
    | `Right20-LandscapeSD3Zone` | Een sjabloon met drie zones die vanaf rechts 20% van het scherm bedekt, met een hoogte-breedteverhouding van 4:3 |
 
@@ -90,11 +90,11 @@ Volg onderstaande stappen om een `Left20-LandscapeHD3Zone` Layout voor een AEM S
 
    ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. Verwijzend naar stap (4) waarin u het bar-linkermalplaatje kopieerde, kunt u drie ontvankelijke netten onder bekijken `my-custom-layout/jcr:content`. Aangepaste CSS-klasse toevoegen aan elk responsief raster in het dialoogvenster *`cq:cssClass`* eigenschap, bijvoorbeeld *my-custom-layout—top-left* for *r1c1* knooppunt.
+1. Verwijzend naar stap (4) waarin u het bar-linkermalplaatje kopieerde, kunt u drie ontvankelijke netten onder bekijken `my-custom-layout/jcr:content`. Aangepaste CSS-klasse toevoegen aan elk responsief raster in het dialoogvenster *`cq:cssClass`* eigenschap, bijvoorbeeld *my-custom-layout-top-left* for *r1c1* knooppunt.
 
    ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   Op dezelfde manier toevoegen *my-custom-layout-top-right* for *r1c2*  en *my-custom-layout—bottom* for *r2c1* knooppunt.
+   Op dezelfde manier toevoegen *my-custom-layout-top-right* for *r1c2* en *my-custom-layout-bottom* for *r2c1* knooppunt.
 
    >[!NOTE]
    >Deze aangepaste klassen worden in de CSS gebruikt om de breedte/hoogte voor deze responsieve rasters in te stellen.
@@ -134,7 +134,7 @@ Volg onderstaande stappen om een `Left20-LandscapeHD3Zone` Layout voor een AEM S
 1. Navigeren naar `/apps/<project>/templates/my-custom-layout/jcr:content` en werk de eigenschap bij *`cq:designPath`* tot `/apps/settings/wcm/designs/customtemplate-designs` zodat kunt u de stijlen laden die in static.css worden gevormd.
 
    >[!NOTE]
-   >Typ alle stijlen in plaats van kopiëren of plakken. Hierdoor kunnen er witruimten ontstaan die resulteren in problemen met CSS-stijlen.
+   >Typ alle stijlen in plaats van te kopiëren of te plakken. Hierdoor kunnen witte ruimten ontstaan die resulteren in problemen met CSS-stijlen.
 
 ## Het resultaat weergeven {#viewing-result}
 
@@ -152,13 +152,13 @@ Voer de onderstaande stappen uit om de bovenstaande aangepaste sjabloon te gebru
 
    ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Een afbeelding invoegen als achtergrondlaag  {#inserting-image}
+## Een afbeelding invoegen als achtergrondlaag {#inserting-image}
 
 U kunt een afbeelding als achtergrondlaag invoegen in de layout:
 
 U kunt de CSS-regel aanpassen om &quot;data-uri&quot; te gebruiken en de afbeelding direct in te line (`Base64` gecodeerd) in het CSS-bestand waarin u hebt gemaakt (stap 13), *static.css*.
 
-Dit gebeurt als volgt:
+Deze regeling is als volgt:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 U kunt ook de onderstaande stappen volgen:

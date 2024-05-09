@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Op de volgende pagina wordt beschreven hoe u Command Sync kunt gebruiken. Met Co
 
 ## Overzicht {#overview}
 
-De digitale signaaloplossingen moeten videomuren en gesynchroniseerde playback steunen om scenario&#39;s zoals tellingen van Nieuwjaar of grote video te steunen die over veelvoudige schermen worden gesegmenteerd en dit is waar de Synchronisatie van het Bevel in spel komt.
+Digitale signaaloplossingen moeten videomuren en gesynchroniseerd afspelen ondersteunen. Dit scenario is waar als u scenario&#39;s zoals de tellingen van het Nieuwjaar probeert te steunen of grote video die omhoog wordt gesegmenteerd om over veelvoudige schermen te spelen. Dergelijke scenario&#39;s zijn waar de Synchronisatie van het Bevel in spel komt.
 
-Als u Command Sync wilt gebruiken, fungeert één speler als een *primair* en verzendt bevel en alle andere spelers handelen als *clients* en afspelen wanneer ze de opdracht ontvangen.
+Als u Command Sync wilt gebruiken, fungeert één speler als een *primair* en verzendt het bevel en alle andere spelers handelen zoals *clients* en afspelen wanneer ze de opdracht ontvangen.
 
-De *primair* verzendt een bevel naar alle geregistreerde cliënten wanneer het op het punt staat om playback van een punt te beginnen. De nuttige lading van dit kan de index van het te spelen punt en/of buitenste html van het te spelen element zijn.
+De *primair* verzendt een bevel naar alle geregistreerde cliënten wanneer het op het punt staat om playback van een punt te beginnen. De nuttige lading van deze actie kan de index van het te spelen punt, of buitenste html van het te spelen element zijn, of allebei.
 
 ## Opdrachtsynchronisatie implementeren {#using-command-sync}
 
@@ -38,7 +38,7 @@ In de volgende sectie wordt beschreven hoe u Command Sync in een AEM Screens-pro
 
 ### Het project instellen {#setting-up}
 
-Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een kanaal met inhoud instellen voor uw project.
+Alvorens u de eigenschap van de Synchronisatie van het Bevel gebruikt, zorg ervoor u een project en een kanaal met vastgestelde inhoud voor uw project hebt.
 
 1. In het volgende voorbeeld ziet u een demo-project met de naam **CommandSyncDemo** en een sequentiekanaal **ChannelLobby**.
 
@@ -62,7 +62,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
    >
    >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
 
-1. Navigeren naar **Apparaten** map.
+1. Ga naar de **Apparaten** map.
 1. Klikken **Apparaatbeheer** in de actiebalk.
 
    ![image1](assets/command-sync5.png)
@@ -71,7 +71,7 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
    >
    >Ga voor meer informatie over het registreren van een apparaat naar [Apparaatregistratie](/help/user-guide/device-registration.md)
 
-1. In dit voorbeeld worden voor demo&#39;s een chroomapparaat en een Windows Player als twee aparte apparaten weergegeven. Beide apparaten wijzen aan de zelfde vertoning.
+1. In dit voorbeeld worden voor demo&#39;s een Chrome-apparaat en een Windows Player weergegeven als twee aparte apparaten. Beide apparaten wijzen aan de zelfde vertoning.
    ![image1](assets/command-sync6.png)
 
 ### Kanaalinstellingen bijwerken
@@ -90,11 +90,11 @@ Voordat u de functie Opdrachtsynchronisatie gebruikt, moet u een project en een 
 
 ### Een primaire {#setting-up-primary}
 
-1. Navigeren naar het weergavedashboard vanaf **CommandSyncDemo** > **Locaties**  > **Lobby** > **LobbyDisplay** en klik op **Dashboard** in de actiebalk.
-Let op de twee apparaten (chroom en Windows Player) in **APPARATEN** , zoals in het volgende voorbeeld:
+1. Navigeren naar het weergavedashboard vanaf **CommandSyncDemo** > **Locaties**  > **Lobby** > **LobbyDisplay**. Klik vervolgens op **Dashboard** in de actiebalk.
+Let op de twee apparaten (Chrome en Windows Player) in **APPARATEN** , zoals in het volgende voorbeeld:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Van de **APPARATEN** klikt u op het apparaat dat u als primair wilt instellen. In het volgende voorbeeld ziet u hoe u het Chrome-apparaat als primair apparaat instelt. Klikken **Instellen als primair apparaat**.
+1. Van de **APPARATEN** klikt u op het apparaat dat u als primair wilt instellen. In het volgende voorbeeld ziet u hoe u het Chrome-apparaat instelt als het primaire apparaat. Klikken **Instellen als primair apparaat**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
@@ -104,11 +104,11 @@ Let op de twee apparaten (chroom en Windows Player) in **APPARATEN** , zoals in 
 
 >[!NOTE]
 >
->U kunt meerdere apparaten als primair instellen.
+>U kunt meerdere apparaten instellen als primaire apparaten.
 
 ### Synchroniseren met primaire {#sync-up-primary}
 
-1. Nadat u het Chrome-apparaat als primair hebt ingesteld, synchroniseert u het andere apparaat (in dit geval de Windows Player) met het primaire apparaat.
+1. Nadat u het Chrome-apparaat als primair apparaat hebt ingesteld, synchroniseert u het andere apparaat (in dit geval de Windows Player) met het primaire apparaat.
 Klik op het andere apparaat (in dit geval Windows Player) van de **APPARATEN** deelvenster en klik op **Synchroniseren met primair apparaat**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
