@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -26,21 +26,21 @@ SmartSync is het meest recente mechanisme dat door AEM Screens wordt gebruikt. H
 
 Deze wordt zowel op de server als op de client uitgevoerd.
 
-**Op de server**:
+**Op de server**
 
 * Inhoud van de kanalen, inclusief elementen, wordt in cache geplaatst in *`/var/contentsync`*.
-* Cache wordt aan de spelers blootgesteld door middel van een manifest dat de beschikbare inhoud voor een vertoning beschrijft.
+* Cache wordt aan de spelers blootgesteld als manifest dat de beschikbare inhoud voor een vertoning beschrijft.
 
-**Aan de clientzijde**:
+**Aan de clientzijde**
 
-* De speler werkt zijn inhoud bij die op hierboven geproduceerd manifest wordt gebaseerd.
+* De speler werkt de inhoud bij op basis van het hierboven gegenereerde manifest.
 
 ### Voordelen van het gebruik van SmartSync {#benefits-of-using-smartsync}
 
 De functie SmartSync biedt verschillende voordelen voor uw AEM Screens-project, zoals:
 
 * Een drastische vermindering van het netwerkverkeer en de opslagvereisten aan de serverzijde.
-* De speler downloadt intelligent activa slechts als het element ontbreekt of verandert.
+* De speler downloadt op intelligente wijze elementen alleen als het element ontbreekt of is gewijzigd.
 * Opslagoptimalisaties voor servers en clients.
 
 >[!NOTE]
