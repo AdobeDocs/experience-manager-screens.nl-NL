@@ -10,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
 
 # Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-U kunt een interactieve toepassing van één pagina insluiten met REACT (of Angular). U doet dit door de AEM SPA redacteur te gebruiken die door bedrijfsberoeps in AEM wordt gevormd. U kunt ook leren hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
+U kunt een interactieve toepassing van één pagina insluiten met REACT (of Angular). U doet dit door de AEM SPA redacteur te gebruiken die de bedrijfsberoeps in AEM vormen. U kunt ook leren hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
 
 ## De AEM SPA Editor gebruiken {#using-the-aem-spa-editor}
 
@@ -56,7 +56,7 @@ Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
 De inhoud bewerken in de REACT-app:
 
 1. Navigeren naar `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (vervang de hostnaam, poort en projectnaam, indien van toepassing).
-1. U zou de tekst moeten kunnen uitgeven die in de Hello wereldtoepassing wordt getoond.
+1. De tekst die wordt weergegeven in de Hello World-toepassing kunnen bewerken.
 
 ### De interactieve REACT-app toevoegen aan AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
@@ -81,7 +81,7 @@ Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens to
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Sleep de **Ingesloten pagina** of hergebruik de bestaande component in een toepassingskanaal en klik bijvoorbeeld op de startpagina onder de mijnvoorbeeldtoepassing. ***/content/mysamplespa/nl/home***.
+1. Sleep de **Ingesloten pagina** of hergebruik de bestaande component in een toepassingskanaal en klik op de startpagina onder de mijnsamplespa-toepassing, bijvoorbeeld ***/content/mysamplespa/nl/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -90,7 +90,7 @@ Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens to
    >[!NOTE]
    >Voeg de gebruikersinteractiegebeurtenis toe wanneer u het kanaal toewijst aan de weergave.
 
-1. Registreer een speler tegen dit project en wijs het aan de vertoning toe. U moet nu de interactieve toepassing kunnen zien die op AEM Screens wordt uitgevoerd.
+1. Registreer een speler tegen dit project en wijs het aan de vertoning toe. Uw interactieve toepassing wordt nu uitgevoerd op AEM Screens.
 
    Zie [Apparaatregistratie](device-registration.md) voor meer informatie over het registreren van een apparaat.
 
@@ -102,8 +102,8 @@ Volg de onderstaande stappen om de SPA met Adobe Analytics te integreren met off
 
    Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie over het uitvoeren van opeenvolging in Adobe Analytics met AEM Screens en het verzenden van douanegebeurtenissen die off-line Adobe Analytics gebruiken.
 
-1. Bewerk uw reactie-app in de IDE/editor van uw keuze (met name de tekstcomponent of andere component die u wilt gebruiken om gebeurtenissen uit te zenden).
-1. Voeg bij de klikgebeurtenis of andere gebeurtenis die u voor uw component wilt vastleggen de analysegegevens toe met behulp van het standaardgegevensmodel.
+1. Bewerk uw reactie-app in de IDE/editor van uw keuze (met name de tekstcomponent of andere component waarmee u gebeurtenissen wilt gaan uitzenden).
+1. Voeg bij de klikgebeurtenis of andere gebeurtenis die u voor de component wilt vastleggen de analysegegevens toe met behulp van het standaardgegevensmodel.
 
    Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie .
 

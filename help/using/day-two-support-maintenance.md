@@ -2,9 +2,9 @@
 title: Dag twee Support en onderhoud
 description: Meer informatie over ondersteuning en onderhoud op dag twee voor AEM Screens.
 exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 AEM Screens heeft verschillende pakketten nodig om projecten te laten functioneren. In alle omgevingen moet dezelfde versie van Adobe Experience Manager worden uitgevoerd.
 
-Volg de richtlijnen als steun en onderhoud voor Dag Twee van de fase van de projectontwikkeling:
+Volg de richtlijnen voor steun en onderhoud voor Dag twee van de projectontwikkelingsfase:
 
 1. Voer de meest recente versies van de volgende pakketten uit voor uw versie van Adobe Experience Manager:
 
@@ -23,6 +23,6 @@ Volg de richtlijnen als steun en onderhoud voor Dag Twee van de fase van de proj
 
 1. Identificeer om het even welke ontwikkelingspakketten (bijvoorbeeld, componenten van de Kern WCM) of derdehulpmiddelkits (bijvoorbeeld, de Hybris van SAP) die worden vereist.
 
-1. Installeer dezelfde softwarepakketten op uw lokale ontwikkelomgeving.
+1. Installeer dezelfde softwarepakketten in uw lokale ontwikkelomgeving.
 
 1. Geef uw client de opdracht dezelfde configuratie op alle QA-, Stage- en Production-servers toe te passen. Niet-overeenkomende serverconfiguraties veroorzaken problemen bij de implementatie en het testen.

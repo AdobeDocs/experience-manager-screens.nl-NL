@@ -1,6 +1,6 @@
 ---
 title: Werken met AEM Screens Player
-description: Meer informatie over het werken met AEM Screens Player, de beheerinterface en de kanaalswitch.
+description: Meer informatie over het werken met de AEM Screens Player, de Admin-gebruikersinterface en de kanaalswitch.
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt de inhoud van het kanaal en andere instellingen in AEM Screens Player beh
 >
 >Druk ***Ctrl+Cmd+F*** zodat u de modus Volledig scherm kunt afsluiten voor OS X AEM Screens Player.
 
-Nadat u een kanaal aan een vertoning toewijst, toont de Speler van AEM Screens de inhoud. U kunt instellingen voor de speler configureren met de voorkeuren voor de interface voor beheerders (van het dashboard) of met de speler zelf.
+Nadat u een kanaal aan een vertoning toewijst, toont de Speler van AEM Screens de inhoud. U kunt instellingen voor de speler configureren met de voorkeuren voor de interface van Admin (van het dashboard) of met de speler zelf.
 
 ## Het dashboard van het Apparaat gebruiken {#using-the-device-dashboard}
 
@@ -46,9 +46,9 @@ U kunt voorkeuren voor uw apparaat configureren vanaf het dashboard van het appa
 
 ### De interface van Admin {#the-admin-ui}
 
-Het inschakelen van de **Gebruikersinterface van beheerder** in het voorkeurenvenster kan de gebruiker de beheerinstellingen openen vanuit de schermspeler. Als u deze optie uitschakelt vanaf het dashboard van het apparaat, kan de gebruiker de interface voor beheer niet openen vanuit de speler.
+Het inschakelen van de **Gebruikersinterface van beheerder** in het voorkeurenvenster kan de gebruiker de beheerinstellingen openen vanuit de schermspeler. Als u deze optie uitschakelt vanaf het dashboard van het apparaat, kan de gebruiker de interface Admin niet openen vanuit de speler.
 
-Als u de interface voor het beheer van de schermspeler wilt weergeven, drukt u op de linkerbovenhoek om het menu Admin te openen, op uw AEM Screens Player met aanraakbediening of met een muis. De informatie wordt weergegeven nadat de registratie is voltooid en de kanalen zijn geladen.
+Als u de Admin UI van de Speler van de Schermen wilt bekijken, duw op de hoogste-linkerhoek om het Admin menu, op uw aanraking-toegelaten AEM Screens Player te openen, of door een muis te gebruiken. De informatie wordt weergegeven nadat de registratie is voltooid en de kanalen zijn geladen.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ In het menu Configuratie kunt u de volgende instellingen wijzigen:
 
 * Geef het maximum aantal logbestanden op dat u voor AEM Screens Player wilt behouden **Max. nr. van te bewaren logbestanden**.
 
-* In- of uitschakelen **Menu Beheer**, **Kanaalswitch**, en **UI voor activiteiten** voor de Schermspeler.
+* Schakel de **Menu Beheer**, **Kanaalswitch**, en **UI voor activiteiten** voor de schermspeler.
 
   Als de **UI voor activiteiten** is ingeschakeld vanuit de **Configuratie** in AEM Screens Player de *spelersactiviteitmeldingen* in de rechterbovenhoek van de speler, zoals in de onderstaande afbeelding wordt getoond.
 
@@ -92,7 +92,7 @@ Klik op de knop **Inhoudcache** van de zijspoorstaaf zodat kunt u het geheime vo
 
 ### De kanaalschakelaar {#the-channel-switcher}
 
-Het inschakelen van de **Kanaalswitch** in het voorkeurenvenster kan de gebruiker de kanaalselectie/instellingen openen vanuit de schermspeler.
+Het inschakelen van de **Kanaalswitch** in het voorkeurenvenster kan de gebruiker de instellingen voor kanaalselectie openen vanuit de schermspeler.
 
 Als u deze optie uitschakelt vanaf het dashboard van het apparaat, kan de gebruiker de kanaalvoorkeuren niet besturen via de schermspeler.
 
@@ -110,13 +110,13 @@ Als u de kanaalschakelaar van de speler wilt weergeven, drukt u lang op de linke
 
 ### Voorkeuren beheren vanuit AEM Screens Player
 
-U kunt ook de instellingen voor de interface van de beheerder en de kanaalschakelaar wijzigen vanuit de speler zelf.
+U kunt ook de instellingen voor de interface van Admin en de kanaalschakelaar van de speler zelf wijzigen.
 
 Voorkeuren wijzigen van uw speler:
 
 1. Druk op de linkerbovenhoek van het inactieve kanaal lang om het beheerpaneel te openen.
 1. Navigeren naar **Configuratie** in het linkeractiemenu.
-1. Configuratie inschakelen/uitschakelen voor **Gebruikersinterface van beheerder** of **Kanaalswitch**.
+1. De configuratie voor **Gebruikersinterface van beheerder** of **Kanaalswitch**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
@@ -127,11 +127,11 @@ U kunt verschillende problemen met de AEM Screens Player (hardware en software) 
 | **Problemen** | **Recommendations** |
 |---|---|
 | Player-opslag is vol | Overbodige bestanden verwijderen |
-| Speler verloren netwerk | Kat-5/kat-6 van het gebruik kabel. Voor wifi, verminder de afstand van de router aan het spelerapparaat |
+| Speler verloren netwerk | Kat-5 of kat-6 van het gebruik kabel. Voor wifi, verminder de afstand van de router aan het spelerapparaat |
 | AEM Screens Player vastgelopen | Het wordt aanbevolen een waakhond-app te hebben die ervoor zorgt dat de AEM Screens Player altijd wordt uitgevoerd |
 | AEM Screens Player heeft instellingen verloren | Verbinding met AEM server controleren |
-| AEM Screens Player wordt niet automatisch gestart nadat de speler opnieuw is opgestart/opgestart | Start van OS-map of initialisatieprocedure controleren |
-| AEM Screens Player geeft onjuiste/oude inhoud weer | Netwerkverbinding controleren |
+| AEM Screens Player wordt niet automatisch gestart na opnieuw opstarten of opnieuw opstarten | Start van OS-map of initialisatieprocedure controleren |
+| AEM Screens Player geeft onjuiste of oude inhoud weer | Netwerkverbinding controleren |
 
 ### Updates voor AEM Screens Player
 
@@ -140,7 +140,7 @@ Er zijn twee typen updates voor de AEM Screens Player:
 | **Methode** | **Details** | **door middel van externe** | **Automatisch** | **0 Downtime** |
 |---|---|---|---|---|
 | Firmware-update | Toegepast op bestaande geïnstalleerde Players door middel van ver bevel. Na de update wordt de speler automatisch opnieuw geladen met de bestaande inhoud. | Ja | Aangepast | Bijna - 1-3 seconden |
-| Updates van Flash Player | Dit is een nieuw uitvoerbaar die op de Speler moet worden opgesteld. Dit vereist om nieuw binair getal op afstand op de speler te kopiëren en de huidige versie te stoppen en de nieuwe versie te starten. Hiervoor kan het nodig zijn de voorgeladen pakketten opnieuw te downloaden. | Ja (via externe shell) | Aangepast | Nee |
+| Updates van Flash Player | Een nieuw uitvoerbaar die op de Speler wordt opgesteld. Deze functionaliteit vereist u om het nieuwe binaire getal op afstand op de speler te kopiëren, de huidige uitvoering te stoppen en de nieuwe versie te starten. Het kan nodig zijn de voorgeladen pakketten opnieuw te downloaden. | Ja (via externe shell) | Aangepast | Nee |
 
 ## Richtlijnen voor hardwareselectie voor afspeelapparaat {#hardware-selection-guidelines-for-player-device}
 

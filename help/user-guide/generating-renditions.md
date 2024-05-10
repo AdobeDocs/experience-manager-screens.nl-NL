@@ -9,26 +9,26 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Video-uitvoeringen {#video-renditions}
 
-U kunt handmatige en automatische Full HD-uitvoeringen genereren. In de volgende sectie wordt de workflow beschreven voor het toevoegen van uitvoeringen aan uw elementen.
+U kunt handmatige en automatische full-HD uitvoeringen genereren. In de volgende sectie wordt de workflow beschreven voor het toevoegen van uitvoeringen aan uw elementen.
 
-## Automatisch Full HD-uitvoeringen genereren  {#automatically-generating-full-hd-renditions}
+## Automatisch Full HD-uitvoeringen genereren {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Als de AEM Screens-video-uitvoeringen niet optimaal worden afgespeeld op uw apparaat, neemt u contact op met de hardwareleverancier voor de specificaties van de video. Zo krijgt u de beste prestaties op het apparaat en maakt u dus uw eigen aangepaste videoprofiel waarin u de juiste parameters voor FFMPEG opgeeft om uw vertoning te genereren. Vervolgens kunt u met de onderstaande stappen uw aangepaste videoprofiel toevoegen aan de lijst met profielen.
+>Als de AEM Screens-video-uitvoeringen niet optimaal worden afgespeeld op uw apparaat, neemt u contact op met de hardwareleverancier voor de specificaties van de video. Zo krijgt u de beste prestaties op het apparaat. Hiermee kunt u uw eigen aangepaste videoprofiel maken waarin u de juiste parameters voor FFMPEG opgeeft om uw vertoning te genereren. Vervolgens kunt u met de onderstaande stappen uw aangepaste videoprofiel toevoegen aan de lijst met profielen.
 >
 >Zie ook [Video&#39;s oplossen](troubleshoot-videos.md) om fouten op te sporen in het afspelen van video in uw kanaal en deze problemen op te lossen.
 
-Voer de onderstaande stappen uit om automatisch volledige HD-uitvoeringen te genereren:
+Voer de onderstaande stappen uit om automatisch full-HD-uitvoeringen te genereren:
 
 1. Klik op de Adobe Experience Manager-koppeling (linksboven) en klik op het hamerpictogram zodat u op **Workflow**.
 
@@ -69,7 +69,7 @@ Voer de onderstaande stappen uit om automatisch volledige HD-uitvoeringen te gen
 
 ## Handmatig Full HD-uitvoeringen genereren {#manually-generating-full-hd-renditions}
 
-Voer de onderstaande stappen uit om handmatig volledige HD-uitvoeringen te genereren:
+Voer de onderstaande stappen uit om volledige HD-uitvoeringen handmatig te genereren:
 
 1. Klik op de Adobe Experience Manager-koppeling (linksboven) en klik op het hamerpictogram zodat u op gereedschappen kunt klikken en op **Workflow**.
 

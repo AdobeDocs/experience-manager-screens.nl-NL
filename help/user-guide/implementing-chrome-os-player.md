@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 #### De status van extern apparaat controleren {#checking-remote-device-status}
 
 1. Meld u aan bij de Chrome Developer Console.
-1. Bladeren naar **Apparaatbeheer** > **Chrome-apparaten** en klik op het apparaat dat u wilt besturen.
+1. Bladeren naar **Apparaatbeheer** > **Chrome-apparaten** en klik op het apparaat waarop u de besturing wilt toepassen.
 1. Klikken **Systeemactiviteit en probleemoplossing**.
 1. Controleer de **Apparaat opnieuw opstarten** en **Schermvastlegging** eigenschappen van het apparaat. U kunt ook de status en gezondheidsgegevens van het apparaat controleren.
 

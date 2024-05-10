@@ -1,6 +1,6 @@
 ---
-title: Android-speler implementeren
-description: Leer meer over de implementatie van Android Watchdog, een oplossing waarmee u de Android-speler kunt herstellen van crashes.
+title: Android&trade implementeren; Player
+description: Leer meer over de implementatie van Android&trade; Watchdog, een oplossing waarmee u de Android&trade kunt herstellen; speler tegen vastlopen.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Met de ad-hocmethode kunt u de nieuwste Android™-speler installeren (*.exe*). 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeren naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u wenst om met te verbinden en te klikken **Opslaan**.
+1. Navigeren naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u met en klikt **Opslaan**.
 
 1. Ga naar de **Apparaat** **Registratie** van het linkeractiemenu zodat kunt u de status van het proces van de apparatenregistratie controleren.
 

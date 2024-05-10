@@ -6,9 +6,9 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -47,15 +47,15 @@ In de volgende sectie wordt uitgelegd hoe u één gebeurtenis kunt afspelen in e
 
 Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor zorgen dat u aan de volgende voorwaarden kunt voldoen om activering op kanaalniveau te kunnen starten:
 
-* Een AEM Screens-project maken, in dit voorbeeld **Activering op kanaalniveau**
+* Een AEM Screens-project maken, in dit voorbeeld **Activering op kanaalniveau**.
 
-* Een kanaal maken als **MainAdChannel** krachtens **Kanalen** map
+* Een kanaal maken als **MainAdChannel** onder de **Kanalen** map.
 
-* Een ander kanaal maken als **TargetedSinglePlay** krachtens **Kanalen** map
+* Een ander kanaal maken als **TargetedSinglePlay** onder de **Kanalen** map.
 
-* Relevante elementen aan beide kanalen toevoegen
+* Voeg relevante elementen aan beide kanalen toe.
 
-In de volgende afbeelding wordt de **Activering op kanaalniveau** project met **MainAdChannel** en **TargetedSinglePlay** kanalen in **Kanalen** map.
+In de volgende afbeelding wordt de **Activering op kanaalniveau** project met **MainAdChannel** en **TargetedSinglePlay** in de **Kanalen** map.
 
 ![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -101,35 +101,33 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    Voor **MainAdChannel:**
 
    1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
-   1. **Kanaaltoewijzing** wordt geopend.
-   1. Klikken **Referentiekanaal** per pad.
-   1. Klik op de knop **Kanaalpad** als **Activering op kanaalniveau** > ***Kanalen*** > ***MainAdChannel***.
+   1. In de **Kanaaltoewijzing** dialoogvenster, klikt u op **Referentiekanaal** per pad.
+   1. Klik op de knop **Kanaalpad** en klik vervolgens op **Activering op kanaalniveau** > ***Kanalen*** > ***MainAdChannel***.
    1. De **Kanaalrol** is gevuld als **hoofdkanaal**.
-   1. Klik op de knop **Prioriteit** als **1**.
-   1. Klik op de knop **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting** en **Niet-actief scherm**.
+   1. Klik op de knop **Prioriteit** en instellen op **1**.
+   1. Klik op de knop **Ondersteunde gebeurtenissen** zoals **Oorspronkelijke belasting** en **Niet-actief scherm**.
    1. Klikken **Opslaan**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >U kunt ook kanaal toewijzen vanaf het weergavedashboard door te navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en selecteren **Dashboard** in de actiebalk. Klikken **+ Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
+   >U kunt het kanaal ook toewijzen via het weergavedashboard. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay**. Selecteer op de actiebalk de optie **Dashboard**. Van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster, klikt u op **+ Kanaal toewijzen**.
 
    Kanaal toewijzen **TargetedSinglePlay** voor display**:
 
    1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
-   1. **Kanaaltoewijzing** wordt geopend.
-   1. Klikken **Referentiekanaal** per pad.
-   1. Klik op de knop **Kanaalpad** als **Activering op kanaalniveau*** > ***Kanalen*** > ***TargetedSinglePlay***.
+   1. In de **Kanaaltoewijzing** klikt u op **Referentiekanaal** per pad.
+   1. Klik op de knop **Kanaalpad** en klik vervolgens op **Activering op kanaalniveau** > ***Kanalen*** > ***TargetedSinglePlay***.
    1. De **Kanaalrol** is gevuld als **doelgericht**.
-   1. Stel de **Prioriteit** als **2**.
-   1. Klik op de knop **Ondersteunde gebeurtenissen** als **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Timer**, zoals weergegeven in onderstaande afbeelding.
-   1. Kies in **actief van** 27 november 2018 11:59 **actief tot** 28 november 2018 12:05
+   1. Stel de **Prioriteit** tot **2**.
+   1. Klik op de knop **Ondersteunde gebeurtenissen**, en instellen **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Timer**, zoals weergegeven in onderstaande afbeelding.
+   1. In **actief van**, ingesteld op 27 november 2018, 11:59 **actief tot**, ingesteld op 28 november 2018, 12:05
    1. Klikken **Opslaan**.
 
    >[!CAUTION]
    >
-   >De prioriteit instellen voor **TargetedSinglePlay** kanaal hoger dan **MainAdSegment** kanaal.
+   >De prioriteit instellen voor de **TargetedSinglePlay** kanaal hoger dan **MainAdSegment** kanaal.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
@@ -154,7 +152,7 @@ De speler geeft de inhoud van **MainAdChannel** en precies om 23:59 (zoals bepaa
 
 ## Herhaling van middelen in een kanaal afhandelen {#handling-recurrence-in-assets}
 
-U kunt middelen in een kanaal plannen om ook met bepaalde tussenpozen op dag, week of maandbasis opnieuw te komen naar wens.
+U kunt middelen in een kanaal plannen om met bepaalde intervallen op een dagelijkse, wekelijkse of maandelijkse basis volgens uw vereiste terug te keren.
 
 Stel dat u de inhoud van een kanaal alleen op vrijdag van 13.00 uur tot 10.00 uur wilt weergeven. U kunt de **Activering** om het gewenste herhalingsinterval voor uw element in te stellen.
 
@@ -172,7 +170,7 @@ Stel dat u de inhoud van een kanaal alleen op vrijdag van 13.00 uur tot 10.00 uu
 
 #### Voorbeeldexpressies voor dagparatie {#example-one}
 
-In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
+De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u aan het schema kunt toevoegen terwijl u een kanaal toewijst aan een weergave.
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
@@ -181,7 +179,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 | na 12:15 en vóór 12:45 | Het middel in het kanaal speelt na 23:15 uur elke dag gedurende 30 minuten af |
 | vóór 12:15 ook na 12:45 | Het middel in het kanaal speelt vóór 12:15 elke dag en dan ook na 12:45 uur. |
 | Mon,Kleurtoon,Wed of MonWed | het actief vanaf maandag tot en met woensdag in het kanaal wordt afgespeeld |
-| op de eerste dag van januari na 2:00 uur, ook op de tweede dag van januari, ook op de derde dag van januari vóór 3:00 uur. | het middel in het kanaal begint na 1 januari om 2.00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3.00 uur &#39;s middags op 3 januari |
+| op de eerste dag van januari na 14.00 uur, ook op de tweede dag van januari en ook op de derde dag van januari vóór 3.00 uur &#39;s middags. | het middel in het kanaal begint na 1 januari om 2.00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3.00 uur &#39;s middags op 3 januari |
 | op de 1-2 dagen van januari na 2:00 uur, ook op de 2-3 dagen van januari vóór 3:00 uur. | Het middel in het kanaal start speler na 1 januari om 2:00 uur, gaat verder met afspelen tot 2 januari om 3:00 uur &#39;s middags, vervolgens begint het opnieuw op 2 januari om 2:00 uur &#39;s middags en wordt verder afgespeeld tot 3:00 uur &#39;s middags op 3 januari |
 
 >[!NOTE]
@@ -202,7 +200,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 #### Voorbeelden van expressies voor WeekParting {#example-two}
 
-In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
+De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u aan het schema kunt toevoegen terwijl u een kanaal toewijst aan een weergave.
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
@@ -231,7 +229,7 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 #### Voorbeelden van expressies voor MonthParting {#example-three}
 
-In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
+De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u aan het schema kunt toevoegen terwijl u een kanaal toewijst aan een weergave.
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
@@ -259,12 +257,12 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 
 #### Voorbeelden van expressies voor de combinatie van delen {#example-four}
 
-In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
+De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u aan het schema kunt toevoegen terwijl u een kanaal toewijst aan een weergave.
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
-| na 6:00 en vóór 18:00 op maandag, wijk Jan-Mar | de activa spelen in het kanaal tussen 6.00 uur en 6.00 uur op maandag en woensdag van januari tot en met eind maart |
-| op de eerste dag van januari na 2:00 uur, ook op de tweede dag van januari, ook op de derde dag van januari vóór 3:00 uur. | het middel in het kanaal begint na 1 januari om 2.00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3.00 uur &#39;s middags op 3 januari |
+| na 6:00 en vóór 18:00 op maandag, wijk Jan-Mar | de activa spelen in het kanaal tussen 6.00 uur en 6.00 uur op maandag en woensdag van januari tot eind maart |
+| op de eerste dag van januari na 14.00 uur, ook op de tweede dag van januari en ook op de derde dag van januari vóór 3.00 uur &#39;s middags. | het middel in het kanaal begint na 1 januari om 2.00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3.00 uur &#39;s middags op 3 januari |
 | op de 1-2 dagen van januari na 2:00 uur, ook op de 2-3 dagen van januari vóór 3:00 uur. | Het middel in het kanaal start speler na 1 januari om 2:00 uur, gaat verder met afspelen tot 2 januari om 3:00 uur &#39;s middags, vervolgens begint het opnieuw op 2 januari om 2:00 uur &#39;s middags en wordt verder afgespeeld tot 3:00 uur &#39;s middags op 3 januari |
 
 >[!NOTE]

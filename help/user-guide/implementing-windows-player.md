@@ -10,7 +10,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Met de ad-hocmethode kunt u de nieuwste Windows Player installeren (*.exe*). Ga 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeren naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u wenst om met te verbinden en te klikken **Opslaan**.
+1. Navigeren naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u met en klikt **Opslaan**.
 1. Ga naar de **Apparaat** **Registratie** van het linkeractiemenu zodat kunt u de status van het proces van de apparatenregistratie controleren.
 
 >[!NOTE]

@@ -2,16 +2,16 @@
 title: AEM Screens-projectrollen en -verantwoordelijkheden
 description: Meer informatie over de rollen en verantwoordelijkheden van AEM Screens-projecten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
 
 # Projectrollen en -verantwoordelijkheden {#roles-responsibilities}
 
-Als ervaren AEM uitvoerder, hebt u waarschijnlijk de rollen gezien die als worden bedoeld *Auteurs*, *Ontwikkelaars*, en *IT/technici*.
+Als ervaren AEM uitvoerder, hebt u waarschijnlijk de rollen gezien die als worden bedoeld *Auteurs*, *Ontwikkelaars*, en *IT-technici*.
 
 In een typisch AEM Screens-project worden de rollen verder verfijnd, aangezien zij elk een belangrijk doel in het project dienen.
 
@@ -25,7 +25,7 @@ Het volgende diagram toont de rollen die u door de gids kunt verwachten te zien.
 
 ## Rollen definiëren {#roles}
 
-In de volgende sectie vindt u een overzicht van het doelpubliek:
+In de volgende sectie ziet u een overzicht van het doelpubliek:
 
 ### Adobe {#adobe-audience}
 
@@ -37,13 +37,13 @@ AEM Implementors zijn verantwoordelijk voor het uitvoeren van ontwikkelings- en 
 
 Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Experience) van eindgebruikers worden ook vastgelegd en via dit proces geleverd.
 
-AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. De volgende fase omvat het inschakelen van de mogelijkheid om het afspelen van gelokaliseerde inhoud te ondersteunen via dynamische sjablonen en metagegevenstags, met andere fasen die ondersteuning voor interactieve elementen bevatten via aanraakschermen, sensoren, dynamische triggers enzovoort.
+AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. In de volgende fase kunt u het afspelen van gelokaliseerde inhoud ondersteunen via dynamische sjablonen en metagegevenstags. Andere fasen omvatten ondersteuning voor interactieve elementen door middel van aanraakschermen, sensoren, dynamische triggers enzovoort.
 
 ### Audio-video-integratoren {#av-integrators}
 
-De Audio-Video Integrator is de Leverancier/Partner van de Hardware. Dit is de partij die zich bezighoudt met het ontwerp en de voorbereiding van de detailhandel, met inbegrip van hardwareverwerving, configuratie, en plaatsing. Het is doorgaans een gecontracteerde derde die toegang heeft tot een Network Operations Center (NOC). Vaak is de Audio-Video Integrator de eigenaar van het project vanwege zijn voortdurende betrokkenheid na de lancering.
+De audio-video Integrator is de leverancier-partner van de Hardware. Ze zijn de partij die zich bezighoudt met het ontwerp en de voorbereiding van de detailhandel, waaronder hardwareaanschaf, configuratie en implementatie. Het is doorgaans een gecontracteerde derde die toegang heeft tot een Network Operations Center (NOC). Vaak is de Audio-Video Integrator de eigenaar van het project vanwege zijn voortdurende betrokkenheid na de lancering.
 
-Een Audio-Video Integrator is verantwoordelijk voor het uitvoeren van ontdekkingen met eindklanten om vereisten te bepalen die projectwerkingsgebied bepalen om plaatsingen rond digitale signaalhardware te ontwerpen, te bouwen en effectief te beheren.
+Een Audio-Video Integrator is verantwoordelijk voor het uitvoeren van detectie met eindgebruikers om vereisten te definiëren, het projectbereik te bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
 
 #### Overdenking van hardwarepartner {#selecting-hardware-partner}
 
@@ -77,7 +77,7 @@ Creative &amp; Content Management kan het volgende zijn:
 
 ### Projectmanagers {#project-managers}
 
-Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens-implementatie. Een projectmanager is de puntpersoon voor de volledige implementatie van het aangewezen project. Zij voeren belangrijke verantwoordelijkheden uit zoals het plaatsen van chronologie, het behandelen van teambehoeften en mededelingen, het richten van uitdagingen, en het verzekeren dat de doelstellingen worden voldaan aan.
+Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens-implementatie. Een projectmanager is de puntpersoon voor de volledige implementatie van het aangewezen project. Zij voeren belangrijke verantwoordelijkheden uit zoals het plaatsen van chronologie en het behandelen van teambehoeften. Zij beïnvloeden ook mededelingen, het richten van uitdagingen, en het verzekeren dat de doelstellingen worden verwezenlijkt.
 
 >[!NOTE]
 >
@@ -86,11 +86,11 @@ Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens
 
 ## Projectfasen {#project-stages}
 
-Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren. Deze fasen worden gewoonlijk aangeduid als **Dagen**. Dit zijn geen letterlijke dagen, maar aanwijzingen voor elke grote fase van het project.
+Om een succesvolle digitale signaalplaatsing te steunen, is het gebruikelijk om het project in drie fasen te segmenteren. Deze fasen worden gewoonlijk aangeduid als **Dagen**. Het zijn geen letterlijke dagen, maar aanwijzingen voor elke grote fase van het project.
 
-1. De eerste fase wordt aangeduid als *Dagnul*. Deze fase omvat alle pre-sales en ontdekkingsinspanningen die worden vereist om het projectwerkingsgebied volledig te bepalen.
+1. De eerste fase wordt aangeduid als *Dagnul*. Dit stadium omvat alle pre-verkoop en ontdekkingsinspanningen die voor het bepalen van het projectwerkingsgebied worden vereist.
 1. de tweede fase, *Dag één*, verwijst naar alle activiteiten die deel uitmaken van de inzet.
-1. De derde en laatste fase *Dag twee* verwijst naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
+1. De derde en laatste fase *Dag twee*. Het verwijst naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
 
 >[!NOTE]
 >
@@ -177,9 +177,9 @@ De volgende tabel geeft een overzicht van de **Dag 1: Dag 1: Projectimplementati
 
 * **Auteur**: Inhoudsbeheer + strategie
 
-* **Ontwikkelaar**: Meestal een lid van het AEM Screens-implementatieteam of een lid van het interne ontwikkelingsteam
+* **Ontwikkelaar**: Meestal een lid van het AEM Screens-implementatieteam of een lid van een intern ontwikkelingsteam
 
-* **Technicus**: Of gecontracteerd door de Audio-Video integrator of deel uitmaakt van het zelfde bedrijf.
+* **Technicus**: Of gecontracteerd door Audio-Video Integrator of deel uitmaakt van het zelfde bedrijf.
 
 De volgende tabel geeft een overzicht van de **Dag twee: RACI-grafiek voor ondersteuning na starten**:
 

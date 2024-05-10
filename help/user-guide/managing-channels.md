@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappe
 
 1. Klik op de koppeling Adobe Experience Manager (linksboven) en vervolgens op Schermen. U kunt ook rechtstreeks naar `https://localhost:4502/screens.html/content/screens`.
 
-1. Navigeer naar uw project Schermen en klik op **Kanalen** map.
+1. Navigeer naar het project Schermen en klik op de knop **Kanalen** map.
 
 1. Klikken **Maken** in de actiebalk.
 
@@ -51,15 +51,15 @@ De volgende sjabloonopties zijn beschikbaar wanneer u de wizard gebruikt, zoals:
 
 | **Sjabloon, optie** | **Beschrijving** |
 |---|---|
-| Map Kanalen | Hiermee kunt u een map maken waarin de verzameling kanalen wordt opgeslagen. |
-| Volgekanaal | Hiermee kunt u een kanaal maken waarmee de componenten opeenvolgend worden afgespeeld (een voor een in een presentatie). |
-| Toepassingskanaal | Hiermee kunt u uw aangepaste webtoepassing presenteren in de schermspeler. |
-| 1 x 1 gesplitst schermkanaal | Hiermee kunt u een component in één zone weergeven. |
-| 1 x 2 gesplitst schermkanaal | Hiermee kunt u de elementen in twee zones (horizontaal gesplitst) weergeven. |
-| 2 x 1 gesplitst rasterkanaal | Hiermee kunt u de elementen in twee zones (verticaal gesplitst) weergeven. |
-| 2 x 2 gesplitst schermkanaal | Hiermee kunt u de elementen in vier zones (horizontaal en verticaal gesplitst in een matrix) weergeven. |
-| 2 tot 3 gesplitste schermkanaal | Hiermee kunt u de elementen in twee zones (horizontaal gesplitst) weergeven waarbij een van de zones groter is dan de andere. |
-| Linker- of rechterL-balkgesplitste schermkanaal | Hiermee kunnen auteurs van inhoud verschillende typen elementen weergeven in zones met de juiste grootte. |
+| Map Kanalen | Maak een map waarin u een verzameling kanalen wilt opslaan. |
+| Volgekanaal | Maak een kanaal waarmee de componenten opeenvolgend worden afgespeeld (een voor een in een presentatie). |
+| Toepassingskanaal | Toon uw aangepaste webtoepassing in de schermspeler. |
+| 1 x 1 gesplitst schermkanaal | Een component weergeven in één zone. |
+| 1 x 2 gesplitst schermkanaal | De elementen weergeven in twee zones (horizontaal gesplitst). |
+| 2 x 1 gesplitst rasterkanaal | De elementen weergeven in twee zones (verticaal gesplitst). |
+| 2 x 2 gesplitst schermkanaal | Geef de elementen weer in vier zones (horizontaal en verticaal opgesplitst in een matrix). |
+| 2 tot 3 gesplitste schermkanaal | Geef de elementen weer in twee zones (horizontaal gesplitst) waarbij een van de zones groter is dan de andere. |
+| Linker- of rechterL-balkgesplitste schermkanaal | Inhoudsauteurs kunnen verschillende typen elementen weergeven in zones met het juiste formaat. |
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 
 ### Kanaalgegevens {#channel-information}
 
-In het deelvenster Kanaalgegevens worden de kanaaleigenschappen beschreven, samen met de voorvertoning naar het kanaal. Ook, verstrekt het u de informatie over of het kanaal off-line of online is.
+In het deelvenster Kanaalgegevens worden de kanaaleigenschappen beschreven, samen met de voorvertoning naar het kanaal. Ook, verstrekt het u informatie over of het kanaal off-line of online is.
 
 Klik op de knop (**...**) van de **KANAALINFORMATIE** op de actiebalk, zodat u eigenschappen kunt bekijken, de inhoud kunt bewerken of de cache (offline inhoud) voor het kanaal kunt bijwerken.
 
@@ -132,11 +132,11 @@ Voer de volgende stappen uit, zodat u deze optie kunt inschakelen via het kanaal
 
 1. **Kanaal op offline instellen**
    1. Klik op het kanaal en klik **Eigenschappen** op de actiebalk
-   1. Navigeren naar **Kanaal** en zorg ervoor dat u de controle ongedaan maakt **Modus voor ontwikkelaar (kanaal forceren om online te zijn)** option
+   1. Ga naar de **Kanaal** en zorg ervoor dat u de controle ongedaan maakt **Modus voor ontwikkelaar (kanaal forceren om online te zijn)** option
    1. Klikken **Opslaan en sluiten**
 1. **Offline inhoud bijwerken**
    1. Klik op het kanaal en klik **Dashboard** op de actiebalk
-   1. Navigeren naar **KANAALINFORMATIE** deelvenster en klik op *...*
+   1. Ga naar de **KANAALINFORMATIE** deelvenster en klik op *...*
    1. Klikken **Offline inhoud bijwerken**
 
 U moet de **Manifest weergeven** van de **KANAALINFORMATIE** in het dashboard Kanaal.
@@ -169,7 +169,7 @@ Volg de onderstaande stappen om het kanaal online te maken:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Controleer de **Ontwikkelaar** **modus (kanaal forceren om online te zijn)** om het kanaal online te maken.
+1. Controleer de **Ontwikkelaar** **modus (het kanaal forceren om online te zijn)** om het kanaal online te maken.
 
    Klikken **Opslaan en sluiten** om uw optie op te slaan.
 
@@ -197,7 +197,7 @@ De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld a
   </tr>
   <tr>
    <td>Wijzigen in onlinekanaal</td>
-   <td>Inhoud automatisch bijgewerkt</td>
+   <td>Inhoud wordt automatisch bijgewerkt</td>
    <td><p>Inhoud bijgewerkt op "Device: Push Config"</p> <p>Of,</p> <p>Inhoud bijgewerkt op <strong><i>Apparaat: opnieuw starten</i></strong></p> </td>
   </tr>
   <tr>
@@ -207,7 +207,7 @@ De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld a
   </tr>
   <tr>
    <td>Wijziging in offlinekanaal en Kanaal wordt "pushinhoud" geactiveerd (nieuw offlinepakket)</td>
-   <td>Inhoud automatisch bijgewerkt</td>
+   <td>Inhoud wordt automatisch bijgewerkt</td>
    <td><p>Inhoud bijgewerkt op <strong><i>Apparaat: Push Config</i></strong></p> <p>Of,</p> <p>Inhoud bijgewerkt op <strong><i>Apparaat: opnieuw starten</i></strong></p> </td>
   </tr>
   <tr>
@@ -218,8 +218,8 @@ De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld a
      <li>Kanaaltoewijzingen (nieuw kanaal, verwijderd kanaal)</li>
      <li>Kanaaltoewijzing (rol, gebeurtenis, planning)</li>
     </ul> </td>
-   <td>Configuratie automatisch bijgewerkt</td>
-   <td><p>Configuratie bijgewerkt op <strong><i>Apparaat: Push Config</i></strong></p> <p>Of,</p> <p>Configuratie bijgewerkt op <strong><i>Apparaat: opnieuw starten</i></strong></p> </td>
+   <td>Configuratie wordt automatisch bijgewerkt</td>
+   <td><p>Configuratie wordt bijgewerkt op <strong><i>Apparaat: Push Config</i></strong></p> <p>Of,</p> <p>Configuratie bijgewerkt op <strong><i>Apparaat: opnieuw starten</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
