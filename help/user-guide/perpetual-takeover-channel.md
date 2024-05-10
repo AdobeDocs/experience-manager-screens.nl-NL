@@ -1,14 +1,14 @@
 ---
 title: Perpetual TakeOver Channel
-description: Volg dit gebruiksgeval voor het maken van een Perpetual TakeOver Channel.
+description: Leer hoe u een Perpetual TakeOver-kanaal maakt.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De volgende pagina toont een gebruiksgeval dat op vestiging een project op benad
 ## Omschrijving hoofdletter gebruiken {#use-case-description}
 
 In dit geval wordt uitgelegd hoe u een kanaal maakt dat *overname* in het normale afspeelkanaal voor een weergave of groep weergaven. De overname duurt een bepaalde dag en een bepaalde tijd onafgebroken.
-Bijvoorbeeld, is er een Perpetual TakeOver kanaal dat elke Vrijdag van 9:00 a.m. door 10:00 a.m. speelt. Tijdens deze tijd, zou geen ander kanaal moeten spelen. In het volgende voorbeeld ziet u hoe u een perpetual takeover channel maakt waarmee de inhoud elke woensdag gedurende twee uur vanaf 2.00 tot 16.00 uur kan worden afgespeeld.
+Bijvoorbeeld, is er een Perpetual TakeOver kanaal dat elke Vrijdag van 9:00 a.m. door 10:00 a.m. speelt. Tijdens deze tijd, zou geen ander kanaal moeten spelen. In het volgende voorbeeld wordt de creatie getoond van een perpetual takeover channel waarmee de inhoud elke woensdag gedurende twee uur van 2:00 tot 4:00 uur kan worden afgespeeld.
 
 ### Voorwaarden {#preconditions}
 
@@ -84,12 +84,12 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 1. Klik op de weergave **Overname** van de **Locaties** map. Klikken **Kanaal toewijzen** op de actiebalk, zodat u het overnamekanaal kunt toewijzen.
 
-1. Het toewijzen van **Overname** kanaal naar uw weergave op een gepland tijdstip en de volgende velden vullen vanuit de **Kanaaltoewijzing** dialoogvenster en selecteren **Opslaan**:
+1. Het toewijzen van **Overname** naar uw beeldscherm op een gepland tijdstip. Vervolgens worden de volgende velden gevuld vanuit de **Kanaaltoewijzing** dialoogvenster en selecteren **Opslaan**:
 
    * **Kanaalpad**: Klik op het pad naar het **Overname** kanaal
    * **Prioriteit**: Stel de prioriteit van dit kanaal groter in dan de **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.
    * **Ondersteunde gebeurtenissen**: Klik op de knop **Niet-actief scherm** en **Timer**.
-   * **Schema**: Ga de tekst voor het programma in dat u dit kanaal wilt in werking stellen de vertoning. De tekst in de **Schema** in dit voorbeeld wordt vermeld *Woensdag na 14.00 uur en vóór 16.00 uur*.
+   * **Schema**: Ga de tekst voor het programma in dat u dit kanaal op de vertoning wilt in werking stellen. De tekst in de **Schema** in dit voorbeeld wordt vermeld *Woensdag na 14.00 uur en vóór 16.00 uur*.
 
      >[!NOTE]
      >Meer informatie over de expressies die u kunt toevoegen aan de **Schema**, zie de [Voorbeeldexpressies](#example-expressions) hieronder.
@@ -101,7 +101,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
      ![element](assets/p_usecase7.png)
 
-     Navigeren naar de weergave vanuit **Overname** > **Locaties** > **MainLobby** > **MainLobbyDisplay** en klik op **Dashboard** in de actiebalk, zodat u de toegewezen kanalen met hun prioriteiten kunt weergeven, zoals hieronder wordt weergegeven.
+     Navigeren naar de weergave vanuit **Overname** > **Locaties** > **MainLobby** > **MainLobbyDisplay** klikt u vervolgens op **Dashboard** in de actiebalk, zodat u de toegewezen kanalen met hun prioriteiten kunt weergeven, zoals hieronder wordt weergegeven.
 
      >[!NOTE]
      >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.
@@ -111,7 +111,7 @@ Nu, **Overname** kanaal neemt het over **MainAdChannel** om 2:00 uur voor twee u
 
 ## Voorbeeldexpressies {#example-expressions}
 
-In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het schema kunt toevoegen terwijl u kanaal toewijst aan een weergave.
+De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u aan het schema kunt toevoegen terwijl u een kanaal toewijst aan een weergave.
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
@@ -119,8 +119,8 @@ In de volgende tabel worden enkele voorbeeldexpressies samengevat die u aan het 
 | na 2:00 | het kanaal speelt na 2:00 p.m. elke dag |
 | na 12:15 en vóór 12:45 | het kanaal speelt elke dag om 12:15 uur gedurende 30 minuten af |
 | vóór 12:15 ook na 12:45 | Het kanaal speelt vóór 12:15 elke dag en dan ook na 12:45 |
-| op de eerste dag van januari na 2:00 uur, ook op de tweede dag van januari, ook op de derde dag van januari vóór 3:00 uur. | het kanaal begint na 1 januari om 14.00 uur af te spelen, gaat de hele dag door met afspelen op 2 januari tot 3.00 uur &#39;s middags op 3 januari |
-| op de 1-2 dagen van januari na 2:00 uur, ook op de 2-3 dagen van januari vóór 3:00 uur. | Het kanaal start speler na 1 januari om 2:00 uur, gaat verder met spelen tot 2 januari om 3:00 uur &#39;s middags, dan begint het opnieuw op 2 januari om 2:00 uur &#39;s middags en wordt verder afgespeeld tot 3:00 uur &#39;s avonds op 3 januari |
+| op de eerste dag van januari na 14.00 uur, ook op de tweede dag van januari en ook op de derde dag van januari vóór 3.00 uur &#39;s middags. | Het kanaal begint na 2:00 uur &#39;s middags op 1 januari 2011, wordt de hele dag afgespeeld op 2 januari 2002, helemaal tot 17:00 uur &#39;s middags op 3 januari 2003 |
+| op de 1-2 dagen van januari na 2:00 uur, ook op de 2-3 dagen van januari vóór 3:00 uur. | Het kanaal start speler na 2:00 uur &#39;s middags op 1 januari, gaat verder met afspelen tot 17:00 uur &#39;s middags op 2 januari 2002. Het begint vervolgens opnieuw om 2:00 uur &#39;s middags en gaat verder met afspelen tot 17:00 uur &#39;s avonds op 3 januari 2003. |
 
 >[!NOTE]
 >

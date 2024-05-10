@@ -5,9 +5,9 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voer de volgende stappen uit om automatische registratie van spelers te implemen
 1. Meld u aan bij uw AEM en klik op uw AEM Screens-project en klik op **Eigenschappen** in de actiebalk.
 1. Klik op de knop **Geavanceerd** zodat u de **Apparaatregistratie** sectie.
 
-1. Geef een code voor automatische registratie op in **Registratiecode voor bulk** veld en een optionele standaardweergave in **Standaardweergavetoewijzing** om toe te wijzen aan de automatisch geregistreerde speler.
+1. Geef een code voor automatische registratie op in het dialoogvenster **Registratiecode voor bulk** veld. Dan een facultatieve standaardvertoning in **Standaardweergavetoewijzing** om toe te wijzen aan de automatisch geregistreerde speler.
 
    >[!NOTE]
    >Voer desgewenst een code van uw keuze in en klik op een standaardweergave.
@@ -44,11 +44,11 @@ Volg de onderstaande sectie om een aantal van de beste praktijken voor Veilighei
 
 * Zorg ervoor dat de registratiecode niet gecompromitteerd is - vorm de code in AEM enkel alvorens de bulkregistratie te beginnen en wanneer gedaan, ontruim dat gebied, en sparen in AEM.
 
-* U kunt het pad configureren `/bin/screens/registration` om slechts van bekende IP waaiers indien mogelijk toegankelijk te zijn.
+* U kunt het pad configureren `/bin/screens/registration` zodat het slechts van bekende IP waaiers, indien mogelijk toegankelijk is.
 
 * Overweeg het gebruiken van een MDM aan voorziening de speler met de configuratie.
 
 * Altijd gebruiken `HTTPS` en niet `HTTP` voor spelercommunicatie met AEM.
 
   >[!NOTE]
-  >De standaardweergave werkt momenteel alleen voor bulkregistratie en niet voor handmatige registratie zonder registratiecode.
+  >De standaardweergave werkt momenteel alleen voor bulkregistratie. Deze functie werkt niet voor handmatige registratie wanneer een registratiecode niet beschikbaar is.

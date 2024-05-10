@@ -2,14 +2,14 @@
 title: Platformconfiguraties AEM
 description: De pagina beschrijft AEM platformconfiguraties
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 2%
 
 ---
 
-# Platformconfiguraties AEM  {#platform-configurations}
+# Platformconfiguraties AEM {#platform-configurations}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Zie [Auteur en publicatie configureren in AEM Screens](https://experienceleague.
 
 >[!NOTE]
 >
->Als er slechts één auteur en één publicatiebewerking zijn, voert u alleen de volgende stappen uit **Replication Agents instellen op auteur** in [Auteur en publicatie configureren in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) pagina.
+>Als er slechts één auteur en één publicatiebewerking zijn, kunt u alleen de onderstaande stappen uitvoeren **Replication Agents instellen op auteur** in [Auteur en publicatie configureren in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) pagina.
 
 ## Dispatcher Configurations {#dispatcher-configurations}
 
@@ -49,7 +49,7 @@ Installeer FFMpeg volgens de stappen voor het juiste besturingssysteem (gewoonli
 
 ## Wachtwoordbeperkingen {#password-restrictions}
 
-Het wachtwoordbeleid van AEM moet op de instantie van AMS worden onbruikbaar gemaakt. Dit kan afwisselend in de Webconsole worden gevormd gebruikend de het apparatendienst van Schermen *com.adobe.cq.screens.device.impl.DeviceService*
+Het wachtwoordbeleid van AEM moet op de instantie van AMS worden onbruikbaar gemaakt. Het kan ook afwisselend in de Webconsole worden gevormd gebruikend de het apparatendienst van Schermen *com.adobe.cq.screens.device.impl.DeviceService*
 Zie **Wachtwoordbeperkingen** sectie in[Auteur en publicatie configureren in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## De omgevingen instellen {#setting-up-environments}
@@ -61,7 +61,7 @@ Installeer en voer de meest recente versies van de volgende pakketten voor uw ve
 * AEM Cumulatief reparatiepakket
 
 Identificeer naast het bovenstaande ontwikkelingspakketten (bijvoorbeeld WCM Core-componenten) of toolkits van derden (bijvoorbeeld SAP Hybris) die vereist zijn.
-Installeer dezelfde softwarepakketten op uw lokale ontwikkelomgeving. Geef uw client de opdracht dezelfde configuratie op alle QA-, Stage- en Production-servers toe te passen. Niet-overeenkomende serverconfiguraties veroorzaken problemen bij de implementatie en het testen.
+Installeer dezelfde softwarepakketten in uw lokale ontwikkelomgeving. Geef uw client de opdracht dezelfde configuratie op alle QA-, Stage- en Production-servers toe te passen. Niet-overeenkomende serverconfiguraties veroorzaken problemen bij de implementatie en het testen.
 
 >[!NOTE]
 >

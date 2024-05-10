@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 8c3221e17401d6ff792c61bf75275cc72e885432
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
 [Bestand ophalen](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Bestand ophalen](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
-   **Optioneel** als het werken met Eclipse of een andere winde het hieronder bronpakket downloadt. Stel het project aan een lokale AEM instantie op door het Maven bevel te gebruiken:
+   **Optioneel** Als u werkt met Eclipse of een andere IDE, downloadt u het onderstaande bronpakket. Stel het project aan een lokale AEM instantie op door het Maven bevel te gebruiken:
 
    **`mvn -PautoInstallPackage clean install`**
 
@@ -84,7 +84,7 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Dit pakket bevat de eerste inhoud en configuratiestructuur die nodig zijn voor het project. **`/conf/we-retail-run`** bevat alle configuraties voor de `We.Retail` Project uitvoeren. **`/content/dam/we-retail-run`** omvat het starten van digitale elementen voor het project. **`/content/screens/we-retail-run`** bevat de structuur van de inhoud van het Scherm. De inhoud onder al deze paden wordt voornamelijk in AEM bijgewerkt. Om de consistentie tussen omgevingen (lokaal, Ontwikkelen, Stage, Prod) te bevorderen, wordt vaak een basisinhoudsstructuur opgeslagen in bronbeheer.
+   Dit pakket bevat de eerste inhoud en configuratiestructuur die nodig zijn voor het project. **`/conf/we-retail-run`** bevat alle configuraties voor de `We.Retail` Project uitvoeren. **`/content/dam/we-retail-run`** omvat het starten van digitale elementen voor het project. **`/content/screens/we-retail-run`** bevat de structuur van de inhoud van het Scherm. De inhoud van al deze paden wordt voornamelijk in AEM bijgewerkt. Om de consistentie tussen omgevingen (lokaal, Ontwikkelen, Stage, Prod) te bevorderen, wordt vaak een basisinhoudsstructuur opgeslagen in bronbeheer.
 
 1. **Ga naar de AEM Screens > `We.Retail` Project uitvoeren:**
 
@@ -116,7 +116,7 @@ AEM Screens heeft sommige interessante beperkingen die niet noodzakelijk waar vo
 
    Eigenschappen voor /apps/weretail-run/components/content/helloworld
 
-   De **Hallo wereld** component breidt de **stichting/componenten/parbase** zodat deze op de juiste manier binnen een volgnummer kan worden gebruikt.
+   De **Hallo wereld** component breidt de **stichting, componenten, parbase** zodat deze op de juiste wijze kan worden gebruikt binnen een kanaal Reeks.
 
 1. Een bestand maken onder `/apps/weretail-run/components/content/helloworld` benoemd `helloworld.html.`
 
@@ -158,7 +158,7 @@ AEM Screens heeft sommige interessante beperkingen die niet noodzakelijk waar vo
    </div>
    ```
 
-   Het bovenstaande is de productiemarkering voor de Hello World-component. A `data-duration` wordt opgenomen aangezien de component op een kanaal van de Opeenvolging wordt gebruikt. De `data-duration` wordt gebruikt door het opeenvolgingskanaal om te weten hoe lang een opeenvolgingspunt moet worden getoond.
+   Het bovenstaande is de productiemarkering voor de component Hello World. A `data-duration` wordt opgenomen aangezien de component op een kanaal van de Opeenvolging wordt gebruikt. De `data-duration` wordt gebruikt door het kanaal van de Opeenvolging om te weten hoe lang een opeenvolgingspunt moet worden getoond.
 
    De component rendert een `div` en `h1` -tag met tekst. `${properties.message}` is een deel van het manuscript van HTML dat de inhoud van een bezit JCR uitvoert dat wordt genoemd `message`. Later wordt een dialoogvenster gemaakt waarin een gebruiker een waarde voor het dialoogvenster `message` eigenschapstekst.
 
@@ -189,20 +189,20 @@ AEM Screens heeft sommige interessante beperkingen die niet noodzakelijk waar vo
    </div>
    ```
 
-   Het bovenstaande is de bewerkte markering voor de Hello World-component. In het eerste blok wordt een bewerkte versie van de component weergegeven als het dialoogvenster is gevuld.
+   Het bovenstaande is de bewerkte markering voor de component Hello World. In het eerste blok wordt een bewerkte versie van de component weergegeven als het dialoogvenster is gevuld.
 
-   Het tweede blok wordt teruggegeven als geen dialoogdoos is ingegaan. De `cq-placeholder` en `data-emptytext` het label renderen ***Hallo wereld*** als plaatsaanduiding in dat geval. De tekenreeks voor het label kan met i18n worden geïnternationaliseerd ter ondersteuning van ontwerpen in meerdere landinstellingen.
+   Het tweede blok wordt teruggegeven als geen bericht van de dialoogdoos is ingegaan. De `cq-placeholder` en `data-emptytext` het label renderen ***Hallo wereld*** als plaatsaanduiding in dat geval. De tekenreeks voor het label kan met i18n worden geïnternationaliseerd ter ondersteuning van ontwerpen in meerdere landinstellingen.
 
 1. **Het dialoogvenster Schermafbeelding kopiëren dat moet worden gebruikt voor de component Hello World.**
 
-   Het is het gemakkelijkst om van een bestaande dialoog te beginnen en dan wijzigingen te maken.
+   Het is het eenvoudigst om vanuit een bestaand dialoogvenster te beginnen en vervolgens wijzigingen aan te brengen.
 
-   1. Het dialoogvenster kopiëren van: `/libs/screens/core/components/content/image/cq:dialog`
+   1. Kopieer het dialoogvenster van: `/libs/screens/core/components/content/image/cq:dialog`
    1. Het dialoogvenster onder plakken `/apps/weretail-run/components/content/helloworld`
 
    ![copy-image-dialog](assets/copy-image-dialog.gif)
 
-1. **Werk het dialoogvenster Hello World bij en voeg een tabblad voor het bericht toe.**
+1. **Werk het dialoogvenster Hello World bij en voeg een tab voor het bericht toe.**
 
    Werk het dialoogvenster bij, zodat dit overeenkomt met het volgende. De JCR-knooppuntstructuur van het laatste dialoogvenster wordt hieronder in XML weergegeven:
 
@@ -272,7 +272,7 @@ AEM Screens heeft sommige interessante beperkingen die niet noodzakelijk waar vo
 
 Client-Side Libraries bieden een mechanisme voor het organiseren en beheren van CSS- en JavaScript-bestanden die nodig zijn voor een AEM-implementatie.
 
-AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in de modus Voorbeeld/productie. Er worden twee clientbibliotheken gemaakt: een voor de bewerkingsmodus en een voor Voorvertoning/Productie.
+AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in de modus Voorbeeld-productie. Er worden twee clientbibliotheken gemaakt: een voor de bewerkingsmodus en een voor Voorvertoning-Productie.
 
 1. Maak een map voor client-side bibliotheken voor de component Hello World.
 
@@ -294,9 +294,9 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
 
    Eigenschappen voor /apps/weretail-run/components/content/helloworld/clientlibs/shared
 
-   De eigenschap category is een tekenreeks die de clientbibliotheek identificeert. De categorie cq.screens.component wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom wordt elke CSS/JS die in de sharedclientLib is gedefinieerd, in alle modi geladen.
+   De eigenschap category is een tekenreeks die de clientbibliotheek identificeert. De cq.screens.componentCategorie wordt gebruikt in zowel Edit als voorproef-Productie wijze. Daarom wordt elke CSS of JS die in de sharedclientlib is gedefinieerd, in alle modi geladen.
 
-   Het is aan te raden geen paden in een productieomgeving rechtstreeks toegankelijk te maken voor /apps. De eigenschap allowProxy zorgt ervoor dat naar de CSS- en JS-client-bibliotheek wordt verwezen door middel van het voorvoegsel of/etc.clientlibs.
+   U kunt het beste paden rechtstreeks naar `/apps` in een productieomgeving mag nooit worden blootgesteld. De eigenschap allowProxy zorgt ervoor dat naar de CSS- en JS-clientbibliotheek wordt verwezen via een voorvoegsel van `/etc.clientlibs`.
 
 1. Bestandsnaam maken `css.txt` onder de gedeelde map.
 
@@ -342,7 +342,7 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
 
 1. Werk de `categories` eigenschap van de productiecliënt die moet worden `cq.screens.components.production.`
 
-   Dit zorgt ervoor dat de stijlen alleen worden geladen in de modus Voorbeeld/productie.
+   Zo zorgt u ervoor dat de stijlen alleen worden geladen in de modus Voorvertoning-productie.
 
    ![Eigenschappen voor /apps/weretail-run/components/content/helloworld/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
 
@@ -394,7 +394,7 @@ Onder een `We.Retail` De pagina van het Ontwerp van de looppas wordt gecreeerd d
    | Naam | Type | Waarde |
    |---|---|---|
    | `jcr:title` | String | `We.Retail` Uitvoeren |
-   | `sling:resourceType` | String | wcm/core/components/ontwerper |
+   | `sling:resourceType` | String | `wcm`, `core`, `components`, `designer` |
    | `cq:doctype` | String | html_5 |
 
    ![Ontwerppagina op /apps/settings/wcm/designs/we-Retail-run](assets/2018-05-07_at_1219pm.png)
@@ -403,7 +403,7 @@ Onder een `We.Retail` De pagina van het Ontwerp van de looppas wordt gecreeerd d
 
 ## Een volgend kanaal maken {#create-sequence-channel}
 
-De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de component te testen, wordt een nieuw Kanaal van de Opeenvolging gecreeerd.
+De Hello World-component is bedoeld voor gebruik op een volgnummer. Om de component te testen, wordt een nieuw kanaal van de Opeenvolging gecreeerd.
 
 1. Navigeer in het menu AEM Start naar **Schermen** > **`We.Retail`Uitvoeren** > en klik op **Kanalen**.
 
@@ -441,7 +441,7 @@ De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de compo
 
    ![2018-04-30_om_5_43:00](assets/2018-04-30_at_5_43pm.png)
 
-1. De paginamodus wijzigen in **Bewerken**. De component Hello World kan nu aan de pagina worden toegevoegd en met andere componenten van het opeenvolgingskanaal worden gecombineerd.
+1. De paginamodus wijzigen in **Bewerken**. De Hello World-component kan nu aan de pagina worden toegevoegd en met andere het kanaalcomponenten van de Opeenvolging worden gecombineerd.
 
    ![2018-04-30_10_07](assets/2018-04-30_at_5_53pm.png)
 
@@ -453,11 +453,11 @@ De Hello World-component is bedoeld voor gebruik op een Volgekanaal. Om de compo
 
 ## Sjabloon voor aangepaste handlers {#custom-handlers}
 
-Als uw aangepaste component externe bronnen gebruikt, zoals elementen (afbeeldingen, video&#39;s, lettertypen en pictogrammen), specifieke elementuitvoeringen of clientbibliotheken (css en js), worden deze niet automatisch toegevoegd aan de offlineconfiguratie. De reden is dat alleen de markering HTML standaard is gebundeld.
+Als uw aangepaste component externe bronnen gebruikt, zoals elementen (afbeeldingen, video&#39;s, lettertypen en pictogrammen), specifieke elementuitvoeringen of clientbibliotheken (css en js), worden deze bronnen niet automatisch toegevoegd aan de offlineconfiguratie. De reden is dat alleen de markering HTML standaard is gebundeld.
 
-Om u te laten aanpassen en de nauwkeurige activa optimaliseren die aan de speler worden gedownload, biedt de Adobe een uitbreidingsmechanisme voor douanecomponenten aan om hun gebiedsdelen aan de off-line caching logica in AEM Screens bloot te stellen.
+Als u de exacte elementen die naar de speler worden gedownload precies wilt aanpassen en optimaliseren, biedt Adobe een extensiemechanisme. Dit mechanisme is voor douanecomponenten om hun gebiedsdelen aan de off-line caching logica in AEM Screens bloot te stellen.
 
-In de onderstaande sectie ziet u de sjabloon voor aangepaste offline bronhandlers en de minimumvereisten in de `pom.xml` voor dat specifieke project.
+In de onderstaande sectie ziet u de sjabloon voor aangepaste offline bronhandlers. Ook de minimumvereisten in de `pom.xml` voor dat specifieke project.
 
 ```java
 package …;
@@ -546,7 +546,7 @@ De volgende code bevat de minimumvereisten in het `pom.xml` voor dat specifieke 
       </dependencies>
 ```
 
-**OPMERKING** : Gebruik in het geval van AEMaaCS onderstaande afhankelijkheid in het dialoogvenster `pom.xml` voor dat specifieke project.
+**OPMERKING** : Als er AEM as a Cloud Service is, gebruikt u deze optie onder afhankelijkheid in het dialoogvenster `pom.xml` voor dat specifieke project.
 
 ```css
    <dependencies>
@@ -574,7 +574,7 @@ Houd rekening met de volgende twee beperkingen als uw aangepaste component ander
 1. In plaats van rechtstreeks uit te breiden `foundation/components/parbase`, moet u beide `screens/core/components/content/page` of `screens/core/components/content/experiencefragment`
 2. De naam van de eigenschap die u gebruikt om naar de ingesloten inhoud te verwijzen, moet `pagePath`.
 
-Het gebruik van deze twee kerncomponenten van het Scherm wordt ook geleverd met het extra voordeel dat zij kunnen zorgen voor het bundelen van sommige gebiedsdelen u nodig hebt (cliënt-zijbibliotheken, doopvonten, etc.). Zij doen dit door hun off-line configuratieopties in de doos van de componentendialoog, die dan de verantwoordelijkheid van om het even welke douane off-line manager vermindert u voor dit zou moeten gebruiken. Het kan soms zelfs de noodzaak om er een te gebruiken helemaal uit verwijderen.
+Het gebruik van deze twee kerncomponenten van het Scherm wordt ook geleverd met het extra voordeel dat zij kunnen zorgen voor het bundelen van sommige gebiedsdelen u nodig hebt (cliënt-zijbibliotheken, doopvonten, etc.). Deze functionaliteit wordt gedaan door middel van hun off-line configuratieopties in de de dialoogdoos van de component. Het vermindert dan de verantwoordelijkheid van om het even welke douane off-line manager die u voor het zou moeten gebruiken. Het kan soms zelfs de noodzaak om er een te gebruiken helemaal uit verwijderen.
 
 ## Voltooide code {#finished-code}
 

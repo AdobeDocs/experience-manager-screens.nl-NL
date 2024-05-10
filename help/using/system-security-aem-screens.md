@@ -1,9 +1,9 @@
 ---
 title: Beveiligingscontrolelijst voor AEM Screens
 description: Meer weten over de lijst met beveiligingscontroles voor AEM Screens?
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Overwegingen met betrekking tot systeembeveiliging voor AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->Dit is een interne Git Resource.
+>Een interne it-bron.
 
 Deze pagina benadrukt de Overwegingen van de Veiligheid van het Systeem voor AEM Screens.
 
@@ -24,7 +24,7 @@ In deze sectie wordt het witboek beschreven. (Bijlage witboek in behandeling)
 
 ## Veelgestelde vragen over beveiliging van AEM Screens {#faqs-screens}
 
-De volgende veelgestelde vragen gaan uit van een geverifieerde, geregistreerde spelerarchitectuur die HTTPS gebruikt als communicatieprotocol tussen speler en AEM Server.
+De volgende veelgestelde vragen gaan uit van een geverifieerde, geregistreerde spelerarchitectuur. Het gebruikt HTTPS als communicatie protocol tussen de speler en AEM Server.
 
 ### Veelgestelde vragen 1 {#faq1}
 
@@ -41,7 +41,7 @@ Moet ik HTTP of HTTPs gebruiken?
 
 **Antwoord**
 
-Gebruik HTTP&#39;s. Dit is een noodzaak als u zich zorgen maakt over veiligheid. Met HTTPs, wordt de mededeling gecodeerd tussen speler en server, en het onderscheppen van de inhoud of het wijzigen van het is onmogelijk.
+Gebruik HTTP&#39;s. Dit protocol is een must-have als u zich over veiligheid bekommert. Met HTTPs, wordt de mededeling gecodeerd tussen speler en server, en het onderscheppen van de inhoud of het wijzigen van het is onmogelijk.
 
 
 ### Veelgestelde vragen 3 {#faq3}
@@ -50,7 +50,7 @@ Is er bij het downloaden van inhoud enige vorm van ondertekening van de inhoud o
 
 **Antwoord**
 
-Elk element wordt door de server ondertekend en vervolgens door de speler voor dezelfde hash gevalideerd om integriteit te garanderen.
+Elk element is ondertekend (SHA) door de server. De speler valideert deze vervolgens voor dezelfde hash om integriteit te garanderen.
 Als de hash niet overeenkomt, probeert de software driemaal opnieuw te valideren. Na drie pogingen wordt de opdracht Downloaden als ongeldig beschouwd.
 
 
@@ -73,7 +73,7 @@ Een fysiek gecompromitteerde speler kan theoretisch worden gemanipuleerd om het 
 
 Zet de apparaten uit bereik, bij voorkeur in een beveiligde container, met bekabeling ook beveiligd. Schakel ook alle IR-externe poorten uit.
 
-Als het apparaat OS niet regelmatig wordt bijgewerkt, kan het OS aan veiligheidsgaten worden blootgesteld en verre aanvallen over het netwerk toestaan.
+Als het apparaat-besturingssysteem niet regelmatig wordt bijgewerkt, blijft het besturingssysteem mogelijk blootgesteld aan beveiligingslekken en kunnen externe aanvallen via het netwerk worden uitgevoerd.
 
 >[!NOTE]
 >
