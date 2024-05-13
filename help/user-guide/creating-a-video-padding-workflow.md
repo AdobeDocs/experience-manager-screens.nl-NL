@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 Het volgende gebruiksgeval bestaat uit het plaatsen van een video (bijvoorbeeld 1280 x 720) in een kanaal met een beeldscherm van 1920 x 1080 en het plaatsen van de video op 0 x 0 (linksboven). De video mag op geen enkele manier worden uitgerekt of gewijzigd en gebruikt deze **Omslag** in de videocomponent.
 
-De video wordt weergegeven als een object van pixel 1 tot pixel 1280, van pixel 1 tot pixel 720, en de rest van het kanaal is de standaardkleur.
+De video wordt weergegeven als een object van pixel 1 tot pixel 1280, van pixel 1 tot pixel 720. De rest van het kanaal is de standaardkleur.
 
 ## Vereisten {#prerequisites}
 
 Voordat u een workflow voor video maakt, moet u aan de volgende voorwaarden voldoen:
 
-1. Een video uploaden in **Activa** map in uw AEM-instantie
+1. Een video uploaden in het dialoogvenster **Activa** map in uw AEM-instantie
 1. Een AEM Screens-project maken (bijvoorbeeld **TestVideoRendition**) en een kanaal genoemd (**VideoRendering**), zoals weergegeven in onderstaande afbeelding:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -58,12 +58,12 @@ Voer de onderstaande stappen uit om de workflow te maken en te gebruiken:
 Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
 1. Navigeer naar de AEM.
-1. Klik op gereedschappen van de zijbalk.
+1. Klik op de gereedschappen van de zijspoor.
 1. Klikken **Workflow** > **Modellen** zodat u een model kunt maken.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Klikken **Modellen** > **Maken** > **Model maken**. Voer de **Titel** (as **VideoRendition**) en **Naam** in de **Workflowmodel toevoegen**. Klikken **Gereed** om het workflowmodel toe te voegen.
+1. Klikken **Modellen** > **Maken** > **Model maken**. Voer de **Titel** (zoals **VideoRendition**) en **Naam** in de **Workflowmodel toevoegen**. Klikken **Gereed** om het workflowmodel toe te voegen.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -115,7 +115,7 @@ Voer de onderstaande stappen uit om de workflow in uw AEM Screens-project te geb
 
 U kunt de uitvoer valideren door:
 
-* De voorvertoning van de video in het kanaal controleren
+* Een voorvertoning van de video in het kanaal controleren
 * Ga naar de ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, zoals weergegeven in onderstaande afbeelding:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

@@ -1,6 +1,6 @@
 ---
 title: Layout meerdere zones
-description: Leer hoe u inhoud voor meerdere zones maakt en verschillende elementen gebruikt, zoals video's, afbeeldingen en tekst die in AEM Screens in één scherm kunnen worden gecombineerd.
+description: Leer hoe u inhoud voor meerdere zones maakt en verschillende elementen gebruikt, zoals video's, afbeeldingen en tekst die in één scherm in AEM Screens worden gecombineerd.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ De volgende pagina beschrijft het gebruik van lay-out met meerdere zones en beha
 Zoals bij de projectvereisten, soms hebt u veelvoudige streken in een kanaal nodig en geeft hen uit als één uitvoerige eenheid. Bijvoorbeeld, een productopeenvolging met een verwante sociale media voer die in drie afzonderlijke streken op één enkel kanaal loopt.
 
 >[!NOTE]
->In kanalen met meerdere zones wordt het plannen op middelenniveau niet aanbevolen vanwege potentiële conflicten en onbedoeld gedrag. Als de activa-niveau planning noodzakelijk is, adviseert het om een afzonderlijk opeenvolgingskanaal tot stand te brengen en het plannen logica binnen dat kanaal toe te passen. Sluit vervolgens het sequentiekanaal in het kanaal met meerdere zones in.
+>In kanalen met meerdere zones wordt het plannen op middelenniveau niet aanbevolen vanwege potentiële conflicten en onbedoeld gedrag. Als een schema op middelenniveau noodzakelijk is, maakt u een afzonderlijk volgnummer en past u de planningslogica toe binnen dat kanaal. Sluit vervolgens het sequentiekanaal in het kanaal met meerdere zones in.
 
 ### Vereisten {#prerequisites}
 
@@ -51,7 +51,7 @@ Tijdens het maken van een kanaal kunt u verschillende sjablonen gebruiken om zon
 **Een kanaal maken**
 
 1. Klik op de Adobe Experience Manager-koppeling (linksboven) en vervolgens **Schermen**. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`.
-1. Navigeren naar **Kanalen** map en klik op **Maken** in de actiebalk.
+1. Ga naar de **Kanalen** map en klik op **Maken** in de actiebalk.
 
 1. Klikken **1 x 2 gesplitst schermkanaal** van de **Maken** wizard.
 
@@ -76,7 +76,7 @@ U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle afzon
 
 ### Gesegrafeerde inhoud gebruiken in een of meer zones {#using-sequenced-content-in-one-or-more-zones}
 
-Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillende zones wordt weergegeven, volgt u onderstaande stappen voor meer informatie.
+Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillende zones wordt weergegeven, volgt u de onderstaande stappen voor meer informatie.
 
 1. **Een kanaalmap maken**
 
@@ -91,7 +91,7 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
    1. Navigeren naar **Zones** > **Kanalen** > **Ingesloten kanalen** en klik op **Maken** in de actiebalk.
    1. Klikken **Volgekanaal** van de **Maken** wizard om een kanaal te maken met de naam **`Zone1`**.
    1. Klikken **`Zone1`** en klik op **Bewerken** in de actiebalk.
-   1. Sleep enkele afbeeldingen naar dit kanaal.
+   1. Sleep een paar afbeeldingen naar dit kanaal.
    1. Maak op dezelfde manier een ander volgnummer met de naam **`Zone2`** in **Ingesloten kanalen** map.
    1. Sleep een video naar dit kanaal.
 
@@ -125,14 +125,14 @@ Maak een locatie en een weergave zodat u de inhoud in de AEM Screens Player kunt
 
 1. **Een locatie maken**
 
-   1. Navigeren naar **Zones** > **Locaties** map.
+   1. Ga naar de **Zones** > **Locaties** map.
    1. Klik op de knop **Locaties** map en klik op **Maken** in de actiebalk.
    1. Klikken **Locatie** van de **Maken** wizard en klik op **Volgende**.
    1. Voer de **Titel** als **SanJose** en klik op **Maken**.
 
 1. **Weergave maken**
 
-   1. Navigeren naar **Zones** > **Locaties** map.
+   1. Ga naar de **Zones** > **Locaties** map.
    1. Klik op de knop **SanJose** locatie en klik op **Maken** in de actiebalk.
    1. Klikken **Weergave** van de **Maken** wizard en klik op **Volgende**.
    1. Voer de **Titel** als **Lobby** en klik op **Maken**.
@@ -166,7 +166,7 @@ Wanneer u een locatie en een weergave hebt ingesteld, voert u de onderstaande st
 
 1. **Het apparaat registreren**
 
-   1. Navigeren naar **Zones** > **Apparaten** map.
+   1. Ga naar de **Zones** > **Apparaten** map.
    1. Klik op de knop **Apparaten** map en klik op **Apparaatbeheer** in de actiebalk.
    1. Klikken **Apparaatregistratie** en klik op het apparaat in behandeling in de lijst.
 

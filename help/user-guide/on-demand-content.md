@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Voer de onderstaande stappen uit om inhoud te updaten van auteur tot uitgever na
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. De **Publicatie beheren** wizard wordt geopend. U kunt op de knop **Handeling** en plant ook de publicatietijd voor nu of later. Klik op **Next**.
+1. De **Publicatie beheren** Wizard wordt geopend. U kunt op de knop **Handeling** en plant ook de publicatietijd voor nu of later. Klik op **Next**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -72,9 +72,9 @@ In de volgende afbeelding ziet u bijvoorbeeld hoe u alleen de gewijzigde pagina&
    >    1. De workflow werkt niet als de auteur het replicatieproces niet voltooit (de inhoud wordt nog geüpload naar een publicatie-instantie) nadat de auteur het **Publiceren** in de publicatieworkflow beheren.
 
    >[!CAUTION]
-   >Als u als auteur of inhoudsmaker de wijzigingen wilt zien in de apparaten die aan de auteurinstantie zijn gekoppeld, klikt u op **Offline inhoud bijwerken** van het kanaaldashboard of door het project te selecteren. In dit geval wordt de update offline-inhoud alleen uitgevoerd in de auteurinstantie.
+   >Als maker van inhoud klikt u als u de wijzigingen wilt zien op de apparaten die zijn gekoppeld aan de auteurinstantie **Offline inhoud bijwerken** van het kanaaldashboard of door het project te selecteren. In dit geval wordt de update van offline inhoud alleen uitgevoerd in de auteurinstantie.
 
-1. Ga naar het project en klik op **Offline inhoud bijwerken** in de actiebalk. Deze handeling stuurt dezelfde opdracht door naar de publicatie-instantie, zodat de offline ritssluitingen ook in de publicatie-instantie worden gemaakt.
+1. Ga naar het project en klik op **Offline inhoud bijwerken** in de actiebalk. Deze handeling stuurt dezelfde opdracht door naar de instantie publish, zodat de offline ritten ook voor uw instantie Publish worden gemaakt.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -85,7 +85,7 @@ In de volgende afbeelding ziet u bijvoorbeeld hoe u alleen de gewijzigde pagina&
 
    >[!CAUTION]
    >
-   >Trigger de update offline inhoud in de instantie Auteur, als u een speler hebt die bij de auteurserver wordt geregistreerd. Offline inhoud bijwerken is niet vereist voor de speler die is geregistreerd bij de instantie Publishing.
+   >Trigger de update offline inhoud in de instantie Auteur, als u een speler hebt die bij de auteurserver wordt geregistreerd. U hoeft de offline inhoud niet bij te werken voor de speler die is geregistreerd bij de instantie Publishing.
 
 ### Publicatie voor een kanaal beheren {#managing-publication-for-a-channel}
 
@@ -100,7 +100,7 @@ Voer de onderstaande stappen uit om inhoudsupdates te leveren van Auteur > Publi
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. De **Publicatie beheren** wizard wordt geopend. U kunt op de knop **Handeling** en plant ook de publicatietijd voor nu of later. Klik op **Next**.
+1. De **Publicatie beheren** Wizard wordt geopend. U kunt op de knop **Handeling** en plant ook de publicatietijd voor nu of later. Klik op **Next**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 

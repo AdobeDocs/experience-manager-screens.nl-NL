@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Volg onderstaande stappen om de standaardcomponenten voor uw project Schermen we
 
 ### Een nieuwe component toevoegen {#adding-a-new-component}
 
-AEM biedt diverse andere componenten. U kunt altijd andere componenten (die niet standaard zijn opgenomen) aan uw project toevoegen, omdat deze compatibel zijn met AEM Screens.
+AEM biedt diverse andere componenten. U kunt altijd andere componenten (die niet standaard zijn opgenomen) aan uw project toevoegen, omdat deze componenten compatibel zijn met AEM Screens.
 
 In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een AEM Screens-project getoond:
 
@@ -50,7 +50,7 @@ In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een
 1. Klikken **Bewerken** in de actiebalk.
 1. Klikken **Ontwerp** -modus.
 1. Klik op de volledige ontwerpeditor aan de rechterkant en klik op het instellingensymbool, zodat u het dialoogvenster **Parsys-ontwerp** in.
-1. U kunt op de componenten klikken die u in uw AEM Screens-project wilt importeren. In het volgende voorbeeld wordt de toevoeging van **Livefyre** aan een AEM Screens-project.
+1. U kunt op de componenten klikken die u in uw AEM Screens-project wilt importeren. In het volgende voorbeeld wordt de toevoeging van de **Livefyre** aan een AEM Screens-project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -70,12 +70,12 @@ In de volgende sectie worden de AEM Screens-componenten uitgelegd die u in uw pr
 
 De **Toepassing** kunt u een toepassing aan uw kanaal toevoegen.
 
-Toepassingscomponent heeft de volgende eigenschappen:
+De toepassingscomponent heeft de volgende eigenschappen:
 
 | **Eigenschap** | **Beschrijving** |
 |---|---|
 | ***Toepassingspad*** | Klik op het absolute pad waar de toepassing bestaat. |
-| ***Duur (milliseconden)*** | Klik op de duur van de toepassing. Standaard is de duur ingesteld op -1, wat betekent dat het element voorgoed wordt uitgevoerd (dat wil zeggen, toepassing op één pagina). Wanneer u de waarde voor de duur > 0 instelt, wordt het element voor de opgegeven duur weergegeven en gaat u vervolgens naar de volgende waarde. |
+| ***Duur (milliseconden)*** | Klik op de duur van de toepassing. Standaard is de duur ingesteld op -1, wat betekent dat het element voorgoed wordt uitgevoerd (dat wil zeggen, één paginatoepassing). Wanneer u de waarde voor de duur > 0 instelt, wordt het element voor de opgegeven duur weergegeven en gaat u vervolgens naar de volgende waarde. |
 
 In het volgende voorbeeld wordt getoond hoe u een toepassingscomponent insluit samen met de voorvertoning van de eigenschappen ervan:
 
@@ -135,9 +135,9 @@ De ingesloten pagina heeft de volgende eigenschappen:
 
 >[!NOTE]
 >
->Zie voor meer informatie over ingesloten reeksen [Ingesloten reeksen](embedded-sequences.md) onder sectie Ontwerpschermen.
+>Zie voor meer informatie over ingesloten reeksen [Ingesloten reeksen](embedded-sequences.md) onder de sectie Ontwerpschermen.
 
-Met een ingesloten reeks kunt u een ingesloten volgnummer toevoegen aan uw bestaande kanaal (met andere elementen).
+Met een ingesloten reeks kunt u een ingesloten volgnummer toevoegen aan het bestaande kanaal (met andere elementen).
 
 De ingesloten reeks heeft de volgende pagina-eigenschappen:
 
@@ -157,7 +157,7 @@ De ingesloten reeks heeft de volgende pagina-eigenschappen:
   </tr>
   <tr>
    <td><strong><em>Strategie</em></strong></td>
-   <td>Instellen op <strong>origineel</strong> of <strong>enkel</strong>. De waarde instellen op <strong>origineel</strong> betekent dat de volgende reeks volledig op elke cyclus van de bovenliggende reeks wordt uitgevoerd. De andere mogelijke waarde is <strong>enkel</strong>. Bij deze waarde wordt slechts één item van de volgende waarde op elke run weergegeven. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.</td>
+   <td>Instellen op <strong>origineel</strong> of <strong>enkel</strong>. De waarde instellen op de <strong>origineel</strong> betekent dat de volgende reeks volledig op elke cyclus van de bovenliggende reeks wordt uitgevoerd. De andere mogelijke waarde is <strong>enkel</strong>. Bij een dergelijke waarde wordt slechts één item van de volgende reeks op elke reeks weergegeven. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.</td>
   </tr>
  </tbody>
 </table>
@@ -166,7 +166,7 @@ De ingesloten reeks heeft de volgende pagina-eigenschappen:
 
 Met een dynamische ingesloten reeks kunt u een reeks toevoegen die vergelijkbaar is met de bovenstaande reeks, behalve met de rol van het kanaal.
 
-Zie voor meer informatie over ingesloten reeksen [Ingesloten reeksen](embedded-sequences.md) onder sectie Ontwerpschermen.
+Zie voor meer informatie over ingesloten reeksen [Ingesloten reeksen](embedded-sequences.md) onder de sectie Ontwerpschermen.
 
 De dynamische ingesloten reeks heeft de volgende eigenschappen:
 
@@ -186,14 +186,14 @@ De dynamische ingesloten reeks heeft de volgende eigenschappen:
   </tr>
   <tr>
    <td><strong><em>Strategie</em></strong></td>
-   <td>Instellen op <strong>origineel</strong> of <strong>enkel</strong>. De waarde instellen op <strong>origineel</strong> betekent dat de volgende reeks volledig op elke cyclus van de bovenliggende reeks wordt uitgevoerd. De andere mogelijke waarde is <strong>enkel</strong>. Bij een dergelijke waarde wordt slechts één item van de volgende waarde op elke run weergegeven. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.</td>
+   <td>Instellen op <strong>origineel</strong> of <strong>enkel</strong>. De waarde instellen op de <strong>origineel</strong> betekent dat de volgende reeks volledig op elke cyclus van de bovenliggende reeks wordt uitgevoerd. De andere mogelijke waarde is <strong>enkel</strong>. Een dergelijke waarde zou slechts één item van de volgende waarde op elke run weergeven. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.</td>
   </tr>
  </tbody>
 </table>
 
 ### Ervaar fragment {#experience-fragment}
 
-Met een ervaringsfragment kunt u een Experience-fragment (groep van een of meer componenten, inclusief de inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM Screens-kanaal. Sleep de component naar AEM Editor en klik op Fragment van ervaring.
+Met een ervaringsfragment kunt u een Experience-fragment (een groep van een of meer componenten, waaronder inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM Screens-kanaal. Sleep de component naar AEM Editor en klik op Fragment van ervaring.
 
 Ga voor meer informatie over het maken van een Experience Fragment en het toepassen op een AEM Screens-project naar [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md).
 
@@ -206,7 +206,7 @@ Ga voor meer informatie over het maken van een Experience Fragment en het toepas
 | ***Duur*** | Selecteer de volledige duur van het ervaringsfragment dat in het kanaal wordt afgespeeld. |
 | **Offline configuratie** |
 | ***Client-side bibliotheken*** | JavaScript- en CSS-bestanden. |
-| ***Statische bestanden*** | Statische bestanden die u als offline configuraties kunt toevoegen aan uw ervaringsfragment. |
+| ***Statische bestanden*** | Statische bestanden die u als offlineconfiguraties kunt toevoegen aan het ervaringsfragment. |
 
 >[!NOTE]
 >
@@ -293,7 +293,7 @@ De overgangscomponent heeft de volgende eigenschappen:
   </tr>
   <tr>
    <td><strong><em>Actief tot</em></strong></td>
-   <td>Tijdstempel dat aangeeft tot wanneer de overgang actief kan zijn.</td>
+   <td>De tijdstempel geeft aan tot wanneer de overgang actief kan zijn.</td>
   </tr>
   <tr>
    <td><strong><em>Schema</em></strong></td>

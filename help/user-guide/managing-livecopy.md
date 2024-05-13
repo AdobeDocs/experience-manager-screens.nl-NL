@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -37,21 +37,21 @@ Voer de onderstaande stappen uit om een live kopie van een kanaal in uw projectm
 1. Klik op de locatie waar de live kopie kan worden opgeslagen.
 1. Voer de **Titel** en **Naam** in de **Live kopie maken** pagina.
 
-1. Klikken **Openen** om de inhoud van een nieuwe live kopie te bekijken of **Gereed** om terug te keren naar de hoofdpagina.
+1. Klikken **Openen** om de inhoud van de nieuwe live kopie te bekijken of **Gereed** om terug te keren naar de hoofdpagina.
 
 U kunt ook de onderstaande stappen volgen voor een visuele weergave voor het maken van een nieuwe live kopie van een kanaal.
 
-In het volgende voorbeeld wordt getoond hoe u een live kopie (***IdleLiveCopy***) voor ***Niet-actief kanaal*** met doelmap als ***Kanalen***.
+In het volgende voorbeeld wordt getoond hoe u een live kopie (***IdleLiveCopy***) voor ***Niet-actief kanaal*** met de doelmap als ***Kanalen***.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
 ## Inhoud van het kanaal Live kopie weergeven {#viewing-content-of-the-live-copy-channel}
 
-Een actieve kopie is een kopie van een bestaand kanaal.
+Een live kopie is een kopie van een bestaand kanaal.
 
 Zie de volgende stappen om de inhoud van uw live kopie weer te geven:
 
-1. Navigeer naar het project Schermen en klik op de locatie waar u oorspronkelijk een live kopie hebt gemaakt, zoals in de bovenstaande sectie wordt getoond. (Hier is de locatie gekozen als **Kanalen** map)
+1. Navigeer naar het project Schermen en klik op de locatie waar u oorspronkelijk een live kopie hebt gemaakt, zoals in de bovenstaande sectie wordt getoond. (Hier is de locatie gekozen als de **Kanalen** map)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -79,7 +79,7 @@ U kunt ook de eigenschappen van uw live-kopieerkanaal weergeven.
 
 De modus **Status van live kopiëren** Zoals u in de onderstaande afbeelding ziet, kunt u de relatiestatus van alle elementen in het kanaal bekijken.
 
-1. Klikken **Bewerken** zodat u de **Status van live kopiëren** en bekijk de koppeling van uw kanaalinhoud aan het oorspronkelijke kanaal (waaruit de live kopie wordt gegenereerd).
+1. Klikken **Bewerken** zodat u de **Status van live kopiëren**. U kunt ook de koppeling van de kanaalinhoud aan het oorspronkelijke kanaal bekijken waaruit de live kopie wordt gegenereerd.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -99,7 +99,7 @@ In het volgende voorbeeld ziet u dat u in de bewerkingsmodus op de afbeelding kl
 
 ### Wijzigingen doorgeven aan het kanaal van Live kopie {#propagating-changes-to-the-live-copy-channel}
 
-Als u wijzigingen aanbrengt of wijzigingen aanbrengt in het oorspronkelijke kanaal, moet u deze wijzigingen ook doorgeven aan uw Live Copy-kanaal.
+Als u wijzigingen aanbrengt of wijzigingen aanbrengt in het oorspronkelijke kanaal, moet u die wijzigingen ook doorgeven aan uw live kopieerkanaal.
 
 Voer de onderstaande stappen uit om ervoor te zorgen dat uw wijzigingen van het oorspronkelijke kanaal naar het actieve kopieerkanaal worden doorgegeven:
 

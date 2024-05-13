@@ -4,9 +4,9 @@ description: Leer over hoe te om de Agenten van de Replicatie van het Scherm te 
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Deze volgende pagina beschrijft hoe te om de Agenten van de Replicatie van het S
 
 ## Doelstelling {#objective}
 
-De agent van de Replicatie van het Scherm is verantwoordelijk voor het brengen van bevelgegevens zoals, *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* en nog veel meer van dergelijke waarden, van publiceren naar auteur. Het is essentieel om dit te vormen zodat de auteur het apparaat kan tonen pingelen.
+De agent van de Replicatie van het Scherm is verantwoordelijk voor het brengen van bevelsgegevens zoals *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* en nog veel meer van dergelijke waarden, van publiceren naar auteur. Het is essentieel om deze agent te vormen zodat de auteur het apparaat kan tonen pingelt.
 
 >[!NOTE]
 >Voor meer informatie over de Agent van de Replicatie van het Scherm, zie [Screens Replication Agents and Commands](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -34,7 +34,7 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 >[!NOTE]
 >Om veiligheidsredenen is het raadzaam het beheerderswachtwoord niet te gebruiken voor `screens-receiver-user`.
 
-1. Navigeer naar de AEM Author-instantie.
+1. Navigeer naar de instantie van AEM auteur.
 
 1. Klik op Gereedschappen > **Beveiliging** > **Gebruikers**.
 
@@ -93,7 +93,7 @@ Voer de onderstaande stappen uit om gebruikers in te schakelen en het wachtwoord
 Volg de onderstaande sectie om de instellingen in de AEM Screens Replication Agent bij te werken:
 
 >[!IMPORTANT]
->Voer de volgende stappen uit voor ALLE bestaande AEM Screens-replicatiemiddelen.
+>Voer de volgende stappen uit voor ALLE bestaande AEM Screens Replication Agents.
 
 1. Navigeer naar de AEM.
 1. Klik op Gereedschappen > **Implementatie** > **Replicatie**.
@@ -104,10 +104,10 @@ Volg de onderstaande sectie om de instellingen in de AEM Screens Replication Age
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Zoek naar alle agenten van de Replicatie van AEM Screens op auteur en klik de verbinding, zoals aangetoond in het hieronder cijfer.
+1. Zoek naar alle Medewerkers van de Replicatie van AEM Screens op auteur en klik de verbinding, zoals aangetoond in het hieronder cijfer.
 
    >[!NOTE]
-   >Zoeken naar alle AEM Screens Replication-agents. De naam van de agent voor schermreplicatie bevat de letter **S** in de titel.
+   >Zoeken naar alle AEM Screens Replication Agents. De naam van de agent voor schermreplicatie bevat de letter **S** in de titel.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 

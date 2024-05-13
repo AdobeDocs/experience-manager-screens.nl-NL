@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 De volgende sectie verklaart hoe te om projecten te segregeren gebruikend ACLs zodat elk individu of team hun eigen project behandelt.
 
-Als AEM beheerder, wilt u ervoor zorgen dat de teamleden van een project zich niet in andere projecten mengen en elk van de gebruikers specifieke rollen zoals per projectvereisten worden toegewezen.
+Als AEM beheerder, wilt u ervoor zorgen dat de teamleden van een project zich niet in andere projecten mengen. Elke gebruiker wordt toegewezen specifieke rollen zoals per projectvereisten.
 
 ## Machtigingen instellen {#setting-up-permissions}
 
@@ -42,7 +42,7 @@ De volgende stappen vatten de procedure voor vestiging ACLs voor een project sam
 
    ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Voeg de **Acme** (project dat u hebt gemaakt) naar **Leden aan groep toevoegen**. Klikken **Opslaan**.
+1. Voeg de **Acme** (project dat u hebt gemaakt) naar **Leden toevoegen aan de groep**. Klikken **Opslaan**.
 
    ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -66,12 +66,12 @@ De volgende lijst vat de weg met de toestemmingen op het projectniveau samen:
 
 | **Pad** | **Machtiging** | **Beschrijving** |
 |---|---|---|
-| `/apps/<project>` | LEZEN | Biedt indien van toepassing toegang tot projectbestanden. |
-| `/content/dam/<project>` | ALLES | Biedt toegang tot de opslag van de projectelementen, zoals afbeeldingen of video in DAM. |
+| `/apps/<project>` | LEZEN | Indien van toepassing toegang verlenen tot projectbestanden. |
+| `/content/dam/<project>` | ALLES | Toegang bieden tot de opslag van de projectmiddelen, zoals afbeeldingen of video in DAM. |
 | `/content/screens/<project>` | ALLES | Verwijdert toegang tot alle andere projecten onder /content/screens. |
-| `/content/screens/svc` | LEZEN | Biedt toegang tot de registratieservice. |
-| `/libs/screens` | LEZEN | Biedt toegang tot DCC. |
-| `/var/contentsync/content/screens/` | ALLES | Hiermee kunt u offline inhoud voor het project bijwerken. |
+| `/content/screens/svc` | LEZEN | Toegang verlenen tot de registratieservice. |
+| `/libs/screens` | LEZEN | Toegang tot DCC bieden. |
+| `/var/contentsync/content/screens/` | ALLES | Help u offline inhoud voor het project bij te werken. |
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ De volgende tabel geeft een overzicht van de groepen met een beschrijving en mac
   </tr>
   <tr>
    <td>Schermspelers<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>Hiermee worden alle spelers en alle spelers/apparaten automatisch gegroepeerd als leden van de contribuanten.</td>
+   <td>Alle spelers en alle spelers/apparaten zijn automatisch lid van de contribuanten.</td>
    <td><p> Lid van contribuanten</p> </td>
   </tr>
  </tbody>

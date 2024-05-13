@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Deze zelfstudie behandelt de volgende punten die relevant zijn voor een geslaagd
 
 >[!NOTE]
 >
->De typische verkoopcycli voor de implementatie van Digital Signage op schaal kunnen variëren van 9 tot 18 maanden. Er zijn vele factoren betrokken die de definitieve tijdlijn beïnvloeden, niet het minst waarvan is hoe de eindcliënt succes meet en hoe het risico tegenover hun partners zijn wanneer het introduceren van een nieuwe oplossing.
+>De typische verkoopcycli voor de implementatie van Digital Signage op schaal kunnen variëren van 9 tot 18 maanden. Er zijn veel factoren die van invloed zijn op de uiteindelijke tijdslijn. Sommige van deze factoren omvatten hoe de eindcliënt succes meet en hoe het risico tegenover hun partners zijn wanneer een nieuwe oplossing wordt geïntroduceerd.
 
 Belanghebbenden voor een digitaal ondertekeningsprogramma in een detailhandelomgeving kunnen bijvoorbeeld het volgende doen:
 
@@ -46,7 +46,7 @@ Belanghebbenden voor een digitaal ondertekeningsprogramma in een detailhandelomg
 
 ## Samenvatting van de belangrijkste voorwaarden die bij een algemeen projectplan zijn betrokken {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
-In het volgende gedeelte wordt een overzicht gegeven van de belangrijkste voorwaarden die aan een algemeen projectplan verbonden zijn, zoals de projectcyclus, acties rond hardwaretests, concepttest, piloten en uitrol.
+In de volgende sectie vindt u een overzicht van de belangrijkste voorwaarden voor een algemeen projectplan, de belangrijkste voorwaarden zijn onder andere de projectcyclus, acties rond hardwaretests, concepttest, piloten en rollouts.
 
 ### Conceptbewijs (POC) {#proof-of-concept-poc}
 
@@ -54,9 +54,9 @@ Het doel van een concepttest is om initiële feedback te krijgen over de belangr
 
 ### Kwaliteitscontrole {#quality-control}
 
-Het testen van de integratie van systemen en software begint met het team van de Techniek van IT van Audio-Video Integrator. Verwijzend naar het goedgekeurde systeemontwerp, vormt het Team van de Techniek van IT, voert uit, en controleert de installatie van hardwarecomponenten in een &quot;milieu van het Laboratorium&quot;in de audio-Video faciliteit van de Integrator. Hierdoor kan de volledige oplossing voor kwaliteitscontrole grondig worden gecontroleerd en getest.
+Het testen van systemen en de Integratie van de Software begint met het Audio-Video Integrators team van de Techniek van IT. Verwijzend naar het goedgekeurde systeemontwerp, vormt het team van de Techniek van IT, voert uit, en controleert de installatie van hardwarecomponenten in een &quot;milieu van het Laboratorium&quot;in de audio-Video faciliteit van de Integrator. Dankzij deze regeling kan de volledige oplossing voor kwaliteitscontrole grondig worden geëvalueerd en getest.
 
-Nadat het testen QC volledig is, leidt het Team van de Techniek van IT documentatie, werkschema&#39;s, en opleiding voor verwijzing tijdens dag-2 steun. De volgende systeemaspecten moeten worden getest:
+Nadat het testen van QC volledig is, leidt het team van de Techniek van IT documentatie, werkschema&#39;s, en opleiding voor verwijzing tijdens dag-2 steun. De volgende systeemaspecten moeten worden getest:
 
 * AEM implementorintegratie.
 * Integraties van systemen van derden.
@@ -67,7 +67,7 @@ Nadat het testen QC volledig is, leidt het Team van de Techniek van IT documenta
 
 ## Deel 3: Videozelfstudie over testen, concepttest, piloten en rollouts {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
-Volg de onderstaande zelfstudie om meer inzicht te krijgen in Testen, Conceptproefdrukken, Proefprogramma&#39;s en Rollouts.
+Volg de onderstaande zelfstudie om meer inzicht te krijgen in testen, concepttests, proefprogramma&#39;s en rollouts.
 
 Het in overweging nemen van al deze fasen als onderdeel van het algemene projectplan helpt verwachtingen te beheren en identificeert natuurlijke punten waarin de investering in een AEM Screens-implementatie kan worden geëvalueerd.
 

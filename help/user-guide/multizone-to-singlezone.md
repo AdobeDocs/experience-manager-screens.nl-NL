@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Omschrijving hoofdletter gebruiken {#use-case-description}
 
-In deze sectie wordt een gebruiksvoorbeeld beschreven waarin wordt benadrukt hoe u een lay-outkanaal met meerdere zones instelt dat met een lay-outkanaal met één zone afwisselt. Het kanaal met meerdere zones heeft het rangschikken van beeld/video activa en het toont hoe u opstellingsproject kunt dat van multi-zone aan single-zone en omgekeerd afwisselt.
+In deze sectie wordt een gebruiksvoorbeeld beschreven waarin wordt benadrukt hoe u een lay-outkanaal met meerdere zones instelt dat met een lay-outkanaal met één zone afwisselt. Het kanaal met meerdere zones heeft het rangschikken van beeld/video activa en het toont hoe u opstelling een project dat van multi-zone aan single-zone afwisselt en omgekeerd.
 
 ### Voorwaarden {#preconditions}
 
@@ -78,7 +78,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 U kunt de gewenste uitvoer weergeven vanuit de speler of alleen door **Voorvertoning** uit de editor.
 
-De uitvoer toont aan hoe een lay-out met meerdere zones wordt afgespeeld voor *10000 milliseconden* en schakelt vervolgens over naar de lay-out met één zone waarvoor de afspeelduur *3000 milliseconden* en schakelt dan terug naar de lay-out met meerdere zones.
+De uitvoer toont aan hoe een lay-out met meerdere zones wordt afgespeeld voor *10000 milliseconden*. Vervolgens wordt overgeschakeld naar een lay-out met één zone met een afspeelduur van *3000 milliseconden*. Tot slot gaat het terug naar de multi-zone layout.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

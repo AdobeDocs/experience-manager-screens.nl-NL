@@ -5,20 +5,20 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
 # Gegevenstriggers repliceren naar publicatieservers {#replicating-data-triggers}
 
-Wanneer het gebruiken van ContextHub en AEM het richten Motor om inhoud aan te passen die op gegevenstrekkers in een auteur/publiceer opstelling wordt gebaseerd, worden alle aan ContextHub en Personalisatie verwante configuraties niet automatisch herhaald met de kanalen wanneer zij worden gepubliceerd.
+Wanneer het gebruiken van ContextHub en AEM het richten Motor om inhoud aan te passen die op gegevenstrekkers in een auteur/publiceer opstelling wordt gebaseerd, worden alle aan ContextHub en Personalisatie verwante configuraties niet automatisch herhaald met de kanalen wanneer gepubliceerd.
 
 Op deze pagina kunt u leren welke handmatige stappen zijn vereist om deze configuraties afzonderlijk te publiceren.
 
-Dit komt eigenlijk neer op handmatig publiceren:
+Dit proces komt neer op het manueel publiceren van het volgende:
 
 1. Configuraties van de modules ContextHub Store en UI
 1. Personalisatiepubliek
@@ -64,7 +64,7 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 1. Klikken **Volgende** en **Publiceren**.
 
-### Herhaling van de activiteiten  {#replicating-activities}
+### Herhaling van de activiteiten {#replicating-activities}
 
 1. Ga naar uw AEM-instantie > **Personalisatie** > **Activiteiten** of gebruik `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` om rechtstreeks te navigeren.
 
@@ -92,12 +92,12 @@ Als de replicatie succesvol is, zou u de volgende structuur op publiceren instan
 
 Als de testverbinding terwijl het herhalen van de configuraties ContextHub ontbreekt, volg de sectie hieronder voor het oplossen van problemen de kwestie:
 
-1. Ga naar Gereedschappen > **Implementatie** > **Distributie** > **Publish Agent**.
+1. Navigeren naar **Gereedschappen** > **Implementatie** > **Distributie** > **Publish Agent**.
 
-1. Klikken **Bewerken** van de actiebalk en zorg ervoor dat het eindpunt-URL in **Eindpunten importeren** Het veld verwijst ook naar de URL van de publicatieserver in Distribution Agent.
+1. Klikken **Bewerken** van de actiebalk en zorg ervoor dat het eindpunt-URL in het dialoogvenster **Eindpunten importeren** Het veld verwijst ook naar de URL van de publicatieserver in Distribution Agent.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Als u niet de standaardadmin geloofsbrieven gebruikt, dan moet u de distributiegagent met een verschillende gebruikersbenaming en een wachtwoord vormen.
+1. Als u niet de standaardadmin geloofsbrieven gebruikt, dan moet u de Agent van de Distributie met een verschillende gebruikersbenaming en een wachtwoord vormen.
 
    Voer de onderstaande stappen uit:
 
