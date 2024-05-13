@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -43,7 +43,7 @@ U kunt deze activiteit voor een tijd van lager netwerkverkeer ook plannen.
 
 ## Bulk offline bijwerken gebruiken {#using-bulk-offline-update}
 
-U kunt bulk off-line update van het Gebruikersinterface (UI) manueel gebruiken of de bulkupdate van de diensten plannen OSGi.
+U kunt Bulk Offline Update van het Gebruikersinterface (UI) manueel gebruiken of de bulkupdate van de diensten plannen OSGi.
 
 ### AEM Screens-gebruikersinterface gebruiken {#using-aem-screens-user-interface}
 
@@ -59,7 +59,7 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
 Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een AEM Screens-project:
 
 1. Configuratie Adobe Experience Manager-webconsole.
-1. Zoeken naar bulksgewijs offline updateservices.
+1. Zoeken naar services voor offline bijwerken van bulkbestanden.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

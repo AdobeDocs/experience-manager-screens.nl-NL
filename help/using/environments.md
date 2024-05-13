@@ -1,7 +1,7 @@
 ---
 title: Omgevingen voor [!UICONTROL AEM Screens]
 description: Meer informatie over de omgevingen voor een AEM Screens-project.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -27,6 +27,6 @@ Volg de onderstaande richtlijnen om de omgeving voor uw AEM Screens-project in t
 
 1. Identificeer om het even welke ontwikkelingspakketten (bijvoorbeeld, componenten van de Kern WCM) of derdehulpmiddelkits (bijvoorbeeld, de Hybris van SAP) die worden vereist.
 
-1. Installeer dezelfde softwarepakketten op uw lokale ontwikkelomgeving.
+1. Installeer dezelfde softwarepakketten in uw lokale ontwikkelomgeving.
 
 1. Geef uw client de opdracht dezelfde configuratie op alle QA-, Stage- en Production-servers toe te passen. Niet-overeenkomende serverconfiguraties veroorzaken problemen bij de implementatie en het testen.

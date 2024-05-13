@@ -8,9 +8,9 @@ user-guide-description: Leer hoe u een Digital Signage-oplossing kunt gebruiken 
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 5%
    + [Deel 4: Projectbeheer en -implementatie](project-management-and-deployment.md)
    + [Deel 5: Overwegingen bij de ondersteuning](support-considerations.md)
 + Configuratie en beheer {#administering}
-   + [Serverconfiguraties weergeven](configuring-screens-introduction.md)
+   + [Schermserver configureren](configuring-screens-introduction.md)
    + [Dispatcher-configuraties instellen](dispatcher-configurations-aem-screens.md)
    + [Schermspeler installeren](installing-screens-player.md)
    + [Schermspeler verbinden](working-with-screens-player.md)
@@ -40,7 +40,7 @@ ht-degree: 5%
    + [Overstappen van ContentSync naar SmartSync](smartsync.md)
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
    + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
-   + [Apparaten voor schermreplicatie configureren](configure-screens-replication.md)
+   + [Replicatieagents configureren op schermen](configure-screens-replication.md)
    + Clientspecifieke overwegingen {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Chrome Player gebruiken als extensie voor het oplossen van problemen](using-chrome-player-as-an-extension.md)
@@ -100,7 +100,7 @@ ht-degree: 5%
       + [Overgangen toepassen](applying-transitions.md)
       + [Overgangen van meerdere zones naar één zone](multizone-to-singlezone.md)
       + [Single-Use TakeOver Channel](single-use-takeover-channel.md)
-      + [Overnamekanaal voor persoonlijk gebruik](perpetual-takeover-channel.md)
+      + [Perpetual Use of TakeOver Channel](perpetual-takeover-channel.md)
 + Developer and API Resources {#developing}
    + [REST API&#39;s](rest-api.md)
    + [Een aangepaste component voor AEM Screens ontwikkelen](developing-custom-component-tutorial-develop.md)

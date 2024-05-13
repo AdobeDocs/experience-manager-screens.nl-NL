@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Volg de onderstaande instructies om het Rapport Inhoudstoewijzing te downloaden:
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Het gedownloade werkblad bestaat uit twee tabbladen, zoals **Locaties** en **Inhoud**. Op het tabblad Locatie worden vier kolommen weergegeven, zoals **Locaties**, **Weergaven**, **Kanalen**, en **Apparaten** die kunnen worden gebruikt om deze vier entiteiten met betrekking tot uw AEM Screens-project nader te onderzoeken.
+1. Het gedownloade werkblad bestaat uit twee tabbladen, zoals **Locaties** en **Inhoud**. Op het tabblad Locatie worden vier kolommen weergegeven, zoals **Locaties**, **Weergaven**, **Kanalen**, en **Apparaten** die kunnen worden gebruikt voor het onderzoeken van deze vier entiteiten met betrekking tot uw AEM Screens-project.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 

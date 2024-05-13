@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->In deze sectie worden de kanaaltoewijzing en de planning van kanalen voor AEM 6.5.5-pakket met schermfuncties en hoger gemarkeerd.
+>Deze sectie benadrukt de Toewijzing van het Kanaal en het plannen van kanalen voor AEM 6.5.5 het Pak van de Eigenschap van Schermen en later.
 
 Wanneer u een weergave hebt ingesteld, wijst u een kanaal toe aan een weergave om de inhoud weer te geven.
 
@@ -82,14 +82,14 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
    >[!NOTE]
    >
-   >Zie voor meer informatie over de eigenschappen van kanaaltoewijzingen [Kanaaleigenschappen](#channel-properties) sectie.
+   >Zie voor meer informatie over de eigenschappen van Channel Assignment de [Kanaaleigenschappen](#channel-properties) sectie.
 
 1. Van de **Schema** klikt u op de knop **Activeringsvenster** en **Herhalingsschema**.
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Zie voor meer informatie over de eigenschappen van kanaaltoewijzingen [Kanaaleigenschappen](#channel-properties) sectie.
+   >Zie voor meer informatie over de eigenschappen van Channel Assignment de [Kanaaleigenschappen](#channel-properties) sectie.
 
 1. Klikken **Opslaan** zodra u uw voorkeuren hebt geconfigureerd.
 
@@ -105,7 +105,7 @@ U kunt de volgende uitvoer naar keuze van de speler weergeven:
 
 ## Tijdlijnweergave {#timeline-view}
 
-Wanneer u een kanaal hebt toegewezen aan een weergave en een herhalingsschema hebt ingesteld, kunt u de tijdlijn weergeven vanuit de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
+Wanneer u een kanaal aan een vertoning hebt toegewezen en een Programma van de Herhaling opstelling, kunt u de chronologie van bekijken **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
 
 Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
 
@@ -134,7 +134,7 @@ Als u een kanaal selecteert, kunt u een verwijzing naar het gewenste kanaal opge
 
 ### Kanaalrol {#role-channel}
 
-De rol van het kanaal bepaalt de context van de vertoning. De rol wordt op verschillende acties gericht en staat los van het daadwerkelijke kanaal dat de rol vervult.
+De rol van het kanaal bepaalt de context van de vertoning. Diverse acties richten zich op de rol. Het is onafhankelijk van het daadwerkelijke kanaal dat de rol vervult.
 
 ### Prioriteit {#priority-channel}
 
@@ -158,7 +158,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 Als inhoudsauteur kunt u opgeven wanneer een kanaal wordt onderbroken. Zo kunt u ervoor kiezen om niet-kritieke inhoud uit te knippen. Maar het geeft u ook de optie om belangrijke inhoud volledig terug te laten spelen alvorens het wegens planning kort te snijden.
 
-Selecteer een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het menu **Kanaaltoewijzing** dialoogvenster:
+Maak een keuze uit een van de volgende opties die beschikbaar zijn om de methode voor onderbreking in te stellen in het menu **Kanaaltoewijzing** dialoogvenster:
 
 * **Meteen** - Wanneer de planning wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen
 * **Einde van het huidige item** - Wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, kunt u optioneel wachten tot het huidige item in de reeks is afgespeeld. Pas daarna kunt u de nieuwe inhoud vernieuwen of afspelen.
@@ -181,15 +181,15 @@ In het venster Activering kunt u een **Begindatum** en **Einddatum** om uw inhou
 
 ### Herhalingsschema {#recurrence-schedule}
 
-Met het schema Herhaling kunt u een terugkerend schema voor uw inhoud instellen. Klikken **+ Plan toevoegen** om een terugkerend programma aan uw kanaal toe te voegen.
+Met het schema Herhaling kunt u een terugkerend schema voor uw inhoud instellen. Klikken **+ Plan toevoegen** om een Programma van de Herhaling aan uw kanaal toe te voegen.
 
 >[!NOTE]
 >U kunt veelvoudige terugkomende programma&#39;s aan uw kanaal toevoegen.
->Herhalingsschema&#39;s worden geïntroduceerd *DayParting* Hiermee kunt u een algemeen schema instellen met meerdere kanalen die op specifieke tijdstippen van de dag worden uitgevoerd, en die instelling opnieuw gebruiken voor al uw beeldschermen tegelijk.
+>Herhalingsschema&#39;s worden geïntroduceerd *DayParting*. U stelt een globaal schema in met meerdere kanalen die op specifieke tijdstippen van de dag worden uitgevoerd, en gebruikt dat schema opnieuw voor al uw weergaven tegelijk.
 
 U kunt de volgende opties instellen:
 
-* **Naam** - Titel van uw terugkerend schema.
+* **Naam** - Titel van uw terugkeringsschema.
 * **Herhalen** - Kies of de planning wordt uitgevoerd **Dagelijks**, **Wekelijks**, **Maandelijks**, of **Jaarlijks**.
 * **Start** - De begintijd voor uw schema.
 * **Einde** - De eindtijd voor uw schema. U kunt de waarde instellen op tijd of duur.

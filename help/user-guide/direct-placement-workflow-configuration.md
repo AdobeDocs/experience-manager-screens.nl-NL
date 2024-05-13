@@ -1,9 +1,9 @@
 ---
 title: Configuratie werkstroom voor directe plaatsing
 description: Deze pagina markeert de Configuratie van de Werkstroom van de Directe Plaatsing.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -38,5 +38,5 @@ Voer de onderstaande stappen uit om de workflow voor directe plaatsing te config
 
 1. Navigeer naar AEM Screens vanaf uw AEM en maak een Screens-project met de naam **Workflow voor middelen**.
 
-1. Een kanaal maken met de naam **Workflow-middelen** krachtens **Kanalen** map.
+1. Een kanaal maken met de naam **Workflow-middelen** onder de **Kanalen** map.
 

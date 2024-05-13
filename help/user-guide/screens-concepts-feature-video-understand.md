@@ -7,9 +7,9 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Als u de video&#39;s wilt volgen, hebt u het volgende nodig:
 
 1. Een schermspeler
 
-Klik op [hier](https://download.macromedia.com/screens/). AEM Screens is ook beschikbaar in [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+Klik op [hier](https://download.macromedia.com/screens/). AEM Screens is ook beschikbaar in het dialoogvenster [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 In de onderstaande video wordt gedetailleerd ingegaan op het maken van een nieuw kanaal, het ontwerpen van nieuwe inhoud en het toevoegen van een kanaal aan een herbruikbaar schema. Het volgt losjes de eerste helft van [Schermkaarthandleiding](kickstart-for-aem-screens.md).
 
