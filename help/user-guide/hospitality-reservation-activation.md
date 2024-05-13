@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Het volgende gebruiksgeval toont het gebruik van activering van ziekenhuisreserv
 
 In dit geval wordt op het Google-blad een reserveringspercentage voor twee restaurants vermeld **`Restaurant1`** en **`Restaurant2`**. Een formule wordt toegepast op basis van waarden van `Restaurant1` en `Restaurant2` en op basis van de formule wordt waarde 1 of 2 toegewezen aan de **AdTarget** Kolom.
 
-Als de waarde van **`Restaurant1`** > **`Restaurant2`** vervolgens **Advertentietag** is toegewezen waarde **1** anders **AdTarget** is toegewezen waarde **2**. Waarde 1 genereert *Steekvoedsel* optie en waarde twee resulteert in weergave van *Thais voedsel* op het scherm.
+Als de waarde van **`Restaurant1`** > **`Restaurant2`** vervolgens **Advertentietag** is toegewezen waarde **1** anders **AdTarget** is toegewezen waarde **2**. Waarde 1 genereert een *Steekvoedsel* en Waarde twee resulteert in een weergave van *Thais voedsel* op het scherm.
 
 ## Voorwaarden {#preconditions}
 
@@ -66,7 +66,7 @@ Volg onderstaande stappen in het gebruiksgeval om de activering van de ziekenhui
 
    >[!CAUTION]
    >
-   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** > **Personalisatie** tab.
+   >Uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** > **Personalisatie** had op dit punt al moeten zijn ingesteld.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

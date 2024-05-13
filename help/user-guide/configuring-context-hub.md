@@ -1,6 +1,6 @@
 ---
 title: ContextHub configureren in AEM Screens
-description: Leer over ContextHub in het richten motor zodat kunt u gegevensopslag voor de inhoudsverandering van de gegevenstrekker bepalen.
+description: Leer over ContextHub in het richten motor zodat kunt u een gegevensopslag voor de inhoudsverandering van de gegevenstrekker bepalen.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1450'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,15 @@ Voordat u de details van het maken en beheren van voorraadgestuurde kanalen in u
 
 **Publiek** - Definieert de regel.
 
-**Segment** - De versie van het element dat voor de opgegeven regel moet worden afgespeeld. Als de temperatuur bijvoorbeeld lager is dan 50 graden Fahrenheit, wordt op het scherm een afbeelding van een warme drank weergegeven, anders een koude drank.
+**Segment** - De versie van een element dat voor de opgegeven regel moet worden afgespeeld. Als de temperatuur bijvoorbeeld lager is dan 50 graden Fahrenheit, wordt op het scherm een afbeelding van een warme drank weergegeven, anders een koude drank.
 
-Het volgende diagram verstrekt een visuele vertegenwoordiging van hoe de Configuraties ContextHub met Activiteit, Publiek, en Kanalen samenvallen.
+Het volgende diagram verstrekt een visuele vertegenwoordiging van hoe de configuraties ContextHub met Activiteit, Publiek, en Kanalen samenvallen.
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## Voorwaarden {#preconditions}
 
-Alvorens u begint de Configuraties van de Hub van de Context voor een project van AEM Screens te vormen, opstelling Google Bladen (voor demonstratiedoeleinden).
+Alvorens u begint configuraties te vormen ContextHub voor een project van AEM Screens, opstelling Google Bladen (voor demonstratiedoeleinden).
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Alvorens u begint de Configuraties van de Hub van de Context voor een project va
 
 U kunt de gegevensopslag instellen als een lokale I/O-gebeurtenis of als een lokale databasegebeurtenis.
 
-De volgende gegevens van het activaniveau brengen voorbeeld teweeg toont een lokale gegevensbestandgebeurtenis die opstelling een gegevensopslag zoals een Excel blad dat u configuraties ContextHub en segmentweg aan het kanaal van AEM Screens laat gebruiken.
+In het volgende voorbeeld van een lokale databasegebeurtenis wordt een activering van gegevens op middelenniveau getoond. De gebeurtenisreeksen - omhoog een gegevensopslag zoals een blad van Excel dat u configuraties ContextHub en segmentweg aan het kanaal van AEM Screens laat gebruiken.
 
 Nadat u de `google` correct blad, zoals in het onderstaande voorbeeld wordt getoond:
 
@@ -67,13 +67,13 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
 
 >[!NOTE]
 >
->In het onderstaande specifieke voorbeeld worden de Google-werkbladen weergegeven als een gegevensopslagruimte die een wijziging van het element activeert wanneer de waarde hoger is dan 100 of lager dan 50.
+>In het onderstaande specifieke voorbeeld worden de Google-bladen weergegeven als een gegevensopslagruimte die een wijziging van het element activeert wanneer de waarde hoger is dan 100 of lager dan 50.
 
 ## Stap 2: Opslagconfiguraties instellen {#step-setting-store-configurations}
 
 1. **Navigeren naar ContextHub**
 
-   Navigeer naar de AEM en klik vanuit de linkerzijbalk op het gereedschapspictogram. Klikken **Sites** > **ContextHub**, zoals weergegeven in onderstaande afbeelding.
+   Navigeer naar de AEM en klik in de linkerzijbalk op het gereedschapspictogram. Klikken **Sites** > **ContextHub**, zoals weergegeven in onderstaande afbeelding.
 
    ![afbeelding](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -146,7 +146,7 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
 
       >[!CAUTION]
       >
-      >Als u uw Google Sheets maakt, slaat u configuraties buiten de algemene map op (bijvoorbeeld in uw eigen projectmap), dan werkt het instellen van een doel niet uit de verpakking.
+      >Als u uw Google Sheets maakt om configuraties buiten de algemene map op te slaan (bijvoorbeeld in uw eigen projectmap), werkt het instellen van een doel niet uit de verpakking.
 
 1. **Opslagsegmentatie instellen**
 
@@ -166,7 +166,7 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
 
    1. Navigeer van uw AEM naar **Personalisatie** > **Soorten publiek** > **schermen**.
 
-   1. Klikken **Maken** > **Maak een Context Hub Segment.** De **Nieuw ContextHub-segment** wordt geopend.
+   1. Klikken **Maken** > **Maak een ContextHub-segment.** De **Nieuw ContextHub-segment** wordt geopend.
 
    1. Voer de **Titel** als `**Higherthan50**` en klik op **Maken**. Maak op dezelfde manier een ander segment met de naam `**Lowerthan50**`.
 
@@ -219,7 +219,7 @@ Er wordt een gebied gemaakt in uw merk.
 
 ## Stap 5: De segmenten in een activiteit maken {#step-setting-up-audience-segmentation}
 
-Nadat u een gegevensopslag hebt ingesteld en uw activiteit (merk en gebied) hebt gedefinieerd, volgt u onderstaande stappen om segmenten in uw activiteit te maken.
+Nadat u een gegevensopslag hebt ingesteld en uw activiteit (merk en gebied) hebt gedefinieerd, volgt u de onderstaande stappen om segmenten in uw activiteit te maken.
 
 1. **Segmenten maken in activiteiten**
 
@@ -289,7 +289,7 @@ Nadat u een gegevensopslag hebt ingesteld en uw activiteit (merk en gebied) hebt
 
 Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kanalen in te schakelen.
 
-1. Ga naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door te gebruiken **DataDrivenChannel** gemaakt in een AEM Screens Channel.
+1. Ga naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door te gebruiken **DataDrivenChannel** gemaakt in een AEM Screens-kanaal.
 
 1. Klik op het kanaal **TargetChannel** en klik op **Eigenschappen** in de actiebalk.
 
@@ -304,7 +304,7 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
 
       >[!NOTE]
       >
-      >Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
+      >Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties ContextHub en segmenten bewaarde.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -312,7 +312,7 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
 
       >[!NOTE]
       >
-      >Als u alles correct hebt ingesteld, ziet u **Targeting** in de drop-down van de redacteur, zoals aangetoond in het hieronder cijfer.
+      >Als u alles correct hebt ingesteld, ziet u de **Targeting** in de drop-down van de redacteur, zoals aangetoond in het hieronder cijfer.
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub21.png)
 

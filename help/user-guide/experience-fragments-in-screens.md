@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Deze pagina behandelt de volgende onderwerpen:
 
 ## Overzicht {#overview}
 
-An ***Ervaar fragment*** is een groep van één of meerdere componenten met inbegrip van inhoud en lay-out die binnen pagina&#39;s kunnen worden van verwijzingen voorzien. De fragmenten van de ervaring kunnen om het even welke component, zoals één of veelvoudige componenten bevatten die om het even wat binnen een paragraafsysteem kunnen bevatten dat in de volledige ervaring van verwijzingen wordt voorzien of door een derde eindpunt wordt gevraagd.
+An ***Ervaar fragment*** is een groep van één of meerdere componenten met inbegrip van inhoud en lay-out die binnen pagina&#39;s kunnen worden van verwijzingen voorzien. De Fragmenten van de ervaring kunnen om het even welke component bevatten. Bijvoorbeeld, kan het één of veelvoudige componenten bevatten die om het even wat binnen een paragraafsysteem kunnen bevatten dat in de volledige ervaring van verwijzingen wordt voorzien of door een derde eindpunt wordt gevraagd.
 
 
 ## Experience Fragments gebruiken in AEM Screens {#using-experience-fragments-in-aem-screens}
@@ -35,7 +35,7 @@ An ***Ervaar fragment*** is een groep van één of meerdere componenten met inbe
 >[!NOTE]
 >In het volgende voorbeeld wordt **`We.Retail`** als een demoproject van waar het Fragment van de Ervaring van een wordt toegepast **Sites** pagina naar een AEM Screens-project.
 
-De volgende workflow toont bijvoorbeeld het gebruik van ervaringsfragmenten uit `We.Retail` in sites. U kunt een webpagina kiezen en die inhoud in uw AEM Screens-kanaal gebruiken in een van uw projecten.
+De volgende workflow illustreert bijvoorbeeld het gebruik van Experience Fragments uit `We.Retail` in sites. U kunt een webpagina kiezen en die inhoud in uw AEM Screens-kanaal gebruiken in een van uw projecten.
 
 ### Voorwaarden {#pre-requisites}
 
@@ -68,7 +68,7 @@ Voer de onderstaande stappen uit om de inhoud toe te passen van **`We.Retail`** 
 
 1. **Navigeer aan een pagina van Plaatsen in Wij.Retail**
 
-   1. Ga naar sites en klik op **`We.Retail`** > **Verenigde Staten** > **Engels** > **Apparatuur** en klik op deze pagina zodat u dit kunt gebruiken als een ervaringsfragment voor uw rasterkanaal.
+   1. Ga naar sites en klik op **`We.Retail`** > **Verenigde Staten** > **Engels** > **Apparatuur** en klik op deze pagina zodat u deze kunt gebruiken als een ervaringsfragment voor uw rasterkanaal.
 
    1. Klikken **Bewerken** op de actiebalk, zodat u de pagina kunt openen die u als ervaringsfragment voor het kanaal Schermen wilt gebruiken.
 
@@ -92,7 +92,7 @@ Voer de onderstaande stappen uit om de inhoud toe te passen van **`We.Retail`** 
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Opmerking: als u op een eenvoudigere optie wilt klikken, klikt u op het vinkje rechts van het veld zodat u het dialoogvenster Selecteren kunt openen.
+   Als u een eenvoudigere optie wilt selecteren, klikt u op het vinkje rechts van het veld, zodat u het dialoogvenster Selecteren kunt openen.
 
 1. **Actieve kopie van ervaringsfragment maken**
 
@@ -101,13 +101,13 @@ Voer de onderstaande stappen uit om de inhoud toe te passen van **`We.Retail`** 
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Klik op de knop **ScreensFragment** van **Live kopie maken** wizard en klik op **Volgende**.
+   c. Klik op de knop **ScreensFragment** van de **Live kopie maken** wizard en klik op **Volgende**.
 
    d. Voer de **Titel** en **Naam** als **Schermen**.
 
    e. Klik **Maken** zodat u de Live kopie kunt maken.
 
-   f. Klik **Gereed** zodat u kunt terugkeren naar **ScreensFragment** pagina.
+   f. Klik **Gereed** zodat u terug naar **ScreensFragment** pagina.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -121,7 +121,7 @@ Voer de onderstaande stappen uit om de inhoud toe te passen van **`We.Retail`** 
 
    1. Klik op de knop **Offline configuratie** zoals weergegeven in de onderstaande afbeelding.
 
-   U kunt de **Client-side bibliotheken** (Java™ en css) en **Statische bestanden** naar uw ervaringsfragment.
+   U kunt de **Client-side bibliotheken** (Java™ en CSS) en **Statische bestanden** naar uw ervaringsfragment.
 
    In het volgende voorbeeld ziet u de toevoeging van bibliotheken aan de clientzijde en de lettertypen als onderdeel van statische bestanden aan uw Experience Fragment.  ![fragment](assets/fragment.gif)
 
@@ -137,11 +137,11 @@ Voer de onderstaande stappen uit om de inhoud toe te passen van **`We.Retail`** 
 
    e. Klik op de knop **Ervaar fragment** en klik op het pictogram linksboven zodat u het dialoogvenster **Ervaar fragment** in.
 
-   f. Klik op de knop **Schermen** live kopie van het fragment dat u hebt gemaakt in *Stap 3* in **Pad**.
+   f. Klik op de knop **Schermen** Live kopie van het fragment dat u hebt gemaakt in *Stap 3* in **Pad**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Klik op de knop **Schermen** live kopie van het fragment dat u hebt gemaakt in *Stap 3* in de **Ervaar fragment**.
+   f. Klik op de knop **Schermen** Live kopie van het fragment dat u hebt gemaakt in *Stap 3* in de **Ervaar fragment**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
@@ -159,7 +159,7 @@ Voer de onderstaande stappen uit om de inhoud toe te passen van **`We.Retail`** 
 
 ### Het resultaat valideren {#validating-the-result}
 
-Nadat u de vorige stappen hebt uitgevoerd, kunt u het fragment van uw ervaring valideren in **ChannelOne** door:
+Nadat u de voorgaande stappen hebt uitgevoerd, kunt u het fragment van uw ervaring valideren in **ChannelOne** door:
 
 1. Navigeren naar de **TestChannel**.
 1. De **Voorvertoning** in de actiebalk.
@@ -171,7 +171,7 @@ De inhoud weergeven vanuit de **Sites** pagina (live kopie van het Experience Fr
 
 ***Live kopie*** verwijst naar de kopie (van de bron), bijgehouden door synchronisatiehandelingen zoals gedefinieerd door de rollout-configuraties.
 
-Omdat het ervaringsfragment dat u hebt gemaakt, een live kopie is van het dialoogvenster **Sites** pagina&#39;s, en u verandert dat bepaalde fragment van de primaire pagina, bekijkt u de veranderingen in uw kanaal. Of bekijk de bestemming waar u het fragment van de Ervaring hebt gebruikt.
+Omdat het ervaringsfragment dat u hebt gemaakt een live kopie is van het dialoogvenster **Sites** pagina&#39;s, en u verandert dat bepaalde fragment van de primaire pagina, bekijkt u de veranderingen in uw kanaal. Of bekijk de bestemming waar u het fragment van de Ervaring hebt gebruikt.
 
 >[!NOTE]
 >

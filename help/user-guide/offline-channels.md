@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ De workflow voor het proces is als volgt:
 1. Alle gerelateerde elementen verzamelen.
 1. Verpak alles in een ZIP-bestand.
 1. Download het gecomprimeerde bestand en extraheer het lokaal.
-1. Lokale kopie van de inhoud weergeven.
+1. Een lokale kopie van de inhoud weergeven.
 
 ## Handlers bijwerken {#update-handlers}
 
@@ -77,14 +77,14 @@ De ***ContentSync*** gebruikt updatehandlers om alle noodzakelijke pagina&#39;s 
 
 Voer de onderstaande stappen uit om de ContentSync-configuratie te testen:
 
-1. Openen `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Klik uw config in de lijst
-1. Klik op Cache wissen
-1. Klik op Cache bijwerken
-1. Klik op Volledige download
-1. Het ZIP-bestand extraheren
-1. Een lokale server starten in de uitgepakte map
-1. De startpagina openen en de status van uw app controleren
+1. Open `https://localhost:4502/libs/cq/contentsync/content/console.html`.
+1. Klik uw config in de lijst.
+1. Klikken **Cache wissen**.
+1. Klikken **Cache bijwerken**.
+1. Klikken **Volledige download**.
+1. Extraheer het ZIP-bestand.
+1. Start een lokale server in de uitgepakte map.
+1. Open de startpagina en controleer de status van uw app.
 
 ## Offlineconfig voor een kanaal inschakelen {#enabling-offline-config-for-a-channel}
 
@@ -118,4 +118,4 @@ Volg de onderstaande stappen om offline config voor een kanaal toe te laten:
 
 >[!NOTE]
 >
->Meer informatie over het malplaatje voor douane off-line middelmanagers en de minimumvereisten in `pom.xml` voor dat specifieke project , zie [Sjabloon voor aangepaste handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Een aangepaste component voor AEM Screens ontwikkelen**.
+>Leer over het malplaatje voor douane off-line middelmanagers. Meer informatie over de minimumvereisten in de `pom.xml` voor het project. Zie [Sjabloon voor aangepaste handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Een aangepaste component voor AEM Screens ontwikkelen**.

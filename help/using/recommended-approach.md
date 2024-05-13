@@ -2,18 +2,18 @@
 title: Aanbevolen aanpak
 description: Meer informatie over de aanbevolen aanpak in een AEM Screens-project.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
 
 # Aanbevolen aanpak {#recommended-approach}
 
-Aanbevolen wordt om elk AEM Screens-project op ondernemingsniveau als een langetermijnonderneming te beschouwen. Een projectduur van één of meerdere jaren is waarschijnlijk, vooral als de oplossing voor complexe gebruikersinteractie toestaat of aan diverse apparaten en plaatsen wordt opgesteld.
+Het is de beste praktijk om elk AEM Screens-project op ondernemingsniveau te beschouwen als een langetermijnonderneming. Een projectduur van één of meerdere jaren is waarschijnlijk, vooral als de oplossing voor complexe gebruikersinteractie toestaat of aan diverse apparaten en plaatsen wordt opgesteld.
 
-## Richtlijnen voor het ontwikkelen van een strategie voor digitale signalen {#signage-strategy}
+## Richtsnoeren voor de ontwikkeling van een strategie voor digitale signalen {#signage-strategy}
 
 Zie de weinige aanbevelingen alvorens een digitaal ondertekeningsproject te ontwikkelen en op te stellen:
 
@@ -33,7 +33,7 @@ Zie de weinige aanbevelingen alvorens een digitaal ondertekeningsproject te ontw
   >
   > De upfront-kosten zijn vaak hoger voor een AEM Screens-project, omdat u moet investeren in hardware, reparaties en siteontwerpen. Daarom kan het eenvoudiger houden van initiële inhoudoplossingen helpen bij het beheer van de budgetverwachtingen.
 
-* **Grootschalige te leveren items schatten**: Als de oplossing op grote schaal wordt geleverd, is het raadzaam de onderdelen van de toepassing uit te rollen naar zorgvuldig gekozen proeflocaties voor proefgebruik. Lever aan nieuwe plaatsen en apparaten aangezien de toepassing bevestiging overgaat.
+* **Grootschalige te leveren items schatten**: Indien de oplossing op grote schaal wordt geleverd, dient u de onderdelen van de toepassing uit te rollen naar zorgvuldig gekozen proeflocaties voor proefgebruik. Lever aan nieuwe plaatsen en apparaten aangezien de toepassing bevestiging overgaat.
 
   >[!NOTE]
   >
@@ -43,4 +43,4 @@ Zie de weinige aanbevelingen alvorens een digitaal ondertekeningsproject te ontw
 
 * **Een routekaart ontwikkelen**: Als uw cliënt een eigenschap-rijk product wil, leveren een segment van de geplande functionaliteit vroeg in het project en plannen andere eigenschappen voor toekomstige fasen. Een eerste levering met veel functies brengt een groter risico met zich mee en is moeilijker te valideren met de client.
 
-* **Inzicht in bereik van aangepaste integratie**: Interactieve componenten met aanraakscherminteractie, bewegingssensor of RFID vereisen een aanzienlijke aangepaste ontwikkeling in de implementatiemethode. Een diapresentatie, videoreclame of statisch menu kan als grafische inhoud of HTML worden geleverd op een rasterkanaal.
+* **Inzicht in het bereik van aangepaste integratie**: Interactieve componenten met aanraakscherminteractie, bewegingssensor of RFID vereisen een aanzienlijke aangepaste ontwikkeling in de implementatiemethode. Een diapresentatie, videoreclame of statisch menu kan als grafische inhoud of HTML worden geleverd op een rasterkanaal.

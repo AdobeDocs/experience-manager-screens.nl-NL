@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 **Apparaat** - Een apparaat kan de afspeelsoftware uitvoeren om een visuele uitvoer te produceren. Het kan het weergeven van bijgesneden, geschaalde, vertaalde delen van algemene inhoud of ervaring besturen. De schermconfiguratie is gebonden aan een beeldscherm, maar kan worden vervangen in het geval een technisch defect optreedt.
 
-**Weergave** - Een weergave is een virtuele groep schermen die naast elkaar zijn geplaatst. Het beeldscherm is permanent voor een installatie. Dit is de objecten inhoudsauteurs werken met en verwijzen altijd naar als logische vertoning eerder dan hun fysieke tegendelen.
+**Weergave** - Een weergave is een virtuele groep schermen die naast elkaar zijn geplaatst. Het beeldscherm is permanent voor een installatie. Met dit object werken inhoudsauteurs en verwijzen ze altijd naar een logische weergave in plaats van naar hun fysieke tegenonderdelen.
 
 **Firmware** - Firmware is de term die wordt gegeven aan de software die wordt uitgevoerd op het apparaat in de spelertoepassing in een webweergave. Het is een JavaScript-laag die de inhoud in een kanaal binnen iFrames uitvoert en via plug-ins toegang tot native mogelijkheden biedt. De firmware kan worden bijgewerkt zonder de spelertoepassing bij te werken.
 
-**Live kopie** - Een live kopie is een kopie van specifieke site-inhoud waarvoor een live relatie met de oorspronkelijke bron behouden blijft. Met deze live relatie kan de live kopie inhoud en pagina-eigenschappen overnemen van de bron.
+**Live kopie** - Een live kopie is een kopie van specifieke site-inhoud waarvoor een live relatie met de oorspronkelijke bron behouden blijft. Dankzij deze live relatie kan de Live kopie inhoud en pagina-eigenschappen overnemen van de bron.
 
 **Locatie/locatiemap** - Locaties of locaties in de locatiemap bieden de host voor de configuratie van de weergaven op basis van de locatie van de verschillende schermen.
 

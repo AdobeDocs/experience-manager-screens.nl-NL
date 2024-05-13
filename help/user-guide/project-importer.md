@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Door de auteur een spreadsheet als inputdossier te laten verstrekken, en het sys
 * *behaalt betere prestaties dan handmatig selecteren via de gebruikersinterface*
 * *laat de klant de plaatsen uitvoeren zij van hun eigen systeem hebben en hen gemakkelijk direct in AEM invoeren*
 
-Dit bespaart zowel tijd als geld tijdens aanvankelijke projectopstelling of wanneer het uitbreiden van bestaande AEM Screens tot nieuwe plaatsen.
+Dit proces bespaart zowel tijd als geld tijdens aanvankelijke projectopstelling of wanneer het uitbreiden van bestaande AEM Screens tot nieuwe plaatsen.
 
 ## Overzicht van architectuur {#architectural-overview}
 
@@ -51,14 +51,14 @@ Het gegevensmodel voor de projectimportmodule wordt hieronder beschreven:
 | **Eigenschap** | **Beschrijving** |
 |---|---|
 | ***`path {string*}`*** | Het bronnenpad voor de locatie |
-| ***`[./jcr:title] {string*}`*** | De naam van de sjabloon die moet worden gebruikt (dat wil zeggen de locatie voor *schermen/kern/sjablonen/locatie*) |
+| ***`[./jcr:title] {string*}`*** | De naam van de sjabloon die moet worden gebruikt (de locatie voor *schermen/kern/sjablonen/locatie*) |
 | ***`template {string}`*** | Optionele titel voor de pagina |
 | ***`[./jcr:description] {string}`*** | Optionele beschrijving voor de pagina |
 
 Voor het spreadsheetbestand (CSV/XLS) zijn dus de volgende kolommen vereist:
 
 * **pad {string}** - Het pad voor de te importeren locatie, waarbij de hoofdmap van het pad de locatiemap voor het project is (dat wil zeggen: *`/foo`* wordt geïmporteerd naar *`/content/screens/<project>/locations/foo`*)
-* **template {string}** - De sjabloon die voor de nieuwe locatie moet worden gebruikt, is nu de enige toegestane waarde &quot;location&quot;, maar deze wordt in de toekomst uitgebreid tot alle screeningsjablonen (`display`, `sequencechannel`, enzovoort)
+* **template {string}** - De sjabloon die voor de nieuwe locatie moet worden gebruikt, is nu de enige toegestane waarde &quot;location&quot;, maar deze waarde wordt in de toekomst uitgebreid tot alle screensjablonen (`display`, `sequencechannel`, enzovoort)
 * **[./*] {string}** - Een optionele eigenschap die op de locatie moet worden ingesteld (dat wil zeggen: `./jcr:title`, `./jcr:description`, `./foo, ./bar`). De huidige versie staat geen filtreren toe.
 
 >[!NOTE]
@@ -89,7 +89,7 @@ Voor demo-doeleinden kunt u een Excel-bestand downloaden uit de onderstaande sec
 
 ### Het bestand met minimaal vereiste velden importeren {#importing-the-file-with-minimum-required-fields}
 
-Voer de onderstaande stappen uit om een bestand te importeren naar een locatiemap met minimaal vereiste velden:
+Voer de onderstaande stappen uit om een bestand te importeren naar een locatiemap met de minimaal vereiste velden:
 
 >[!NOTE]
 >

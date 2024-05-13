@@ -1,5 +1,5 @@
 ---
-title: Workflow gebruiken om middelenupdates voor een AEM Screens-kanaal te automatiseren
+title: Een workflow gebruiken om middelenupdates voor een AEM Screens-kanaal te automatiseren
 description: Leer hoe u een workflow maakt voor het automatisch verwerken van naar Adobe Experience Manager geüploade elementen en het dynamisch toewijzen van deze middelen aan een rasterkanaal.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -7,17 +7,17 @@ topic-tags: developing
 feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 
-# Workflow gebruiken om middelenupdates voor een AEM Screens-kanaal te automatiseren {#automate-channel-updates-workflow}
+# Een workflow gebruiken om middelenupdates voor een AEM Screens-kanaal te automatiseren {#automate-channel-updates-workflow}
 
-Leer hoe u een workflow maakt voor het automatisch verwerken van naar Adobe Experience Manager geüploade elementen en het dynamisch toewijzen van deze middelen aan een rasterkanaal. Wanneer in dit voorbeeld een afbeelding aan een specifieke map wordt toegevoegd, wordt een workflow geactiveerd die een dynamische tekstbedekking (watermerkproces) toepast en de afbeelding toewijst aan een rasterkanaal. De lessen die u in dit voorbeeld hebt geleerd, kunnen op een groot aantal verschillende automatiseringsscenario&#39;s worden toegepast.
+Leer hoe u een workflow maakt voor het automatisch verwerken van naar Adobe Experience Manager geüploade elementen en het dynamisch toewijzen van deze middelen aan een rasterkanaal. In dit voorbeeld wordt een workflow gestart wanneer een afbeelding wordt toegevoegd aan een specifieke map. De workflow past een dynamische tekstbedekking (watermerkproces) toe en wijst de afbeelding toe aan een rasterkanaal. De lessen die u in dit voorbeeld hebt geleerd, kunnen op een groot aantal verschillende automatiseringsscenario&#39;s worden toegepast.
 
 ## Vereisten {#prerequisites}
 
@@ -38,7 +38,7 @@ In de onderstaande video ziet u hoe u een pakket voorbeeldcode kunt installeren 
 
 ## Workflowmodel {#workflow-model}
 
-Er is een aangepast metagegevensschema voor de map gemaakt om het doelkanaal voor rasters vast te leggen waaraan afbeeldingen moeten worden toegevoegd. Er worden twee workflowmodellen gebruikt om de verwerking van middelen te automatiseren. De **DAM Update-element** de workflow is aangepast om een aangepaste workflow aan te roepen; **Schermen van de verwerking van demo-elementen** waarmee de bovenliggende map van het element wordt geïnspecteerd om het doelkanaal voor rasters te bepalen. De **Schermen van de verwerking van demo-elementen** is ook verantwoordelijk voor het toepassen van het watermerk op de afbeelding.
+Er is een aangepast metagegevensschema voor de map gemaakt om het doelkanaal voor rasters vast te leggen waaraan afbeeldingen moeten worden toegevoegd. Er worden twee workflowmodellen gebruikt om de verwerking van middelen te automatiseren. De **DAM Update-element** De workflow wordt bewerkt om een aangepaste workflow aan te roepen. **Schermen Demo Asset Processing die de map met elementen inspecteert om het doelkanaal voor schermen te bepalen. De **Schermen van de verwerking van demo-elementen** is ook verantwoordelijk voor het toepassen van het watermerk op de afbeelding.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 

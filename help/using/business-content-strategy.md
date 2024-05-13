@@ -2,9 +2,9 @@
 title: Zakelijke inhoudsstrategie voor AEM Screens
 description: Meer weten over marketing en zakelijke content-strategie met betrekking tot AEM Screens?
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 >
 >Een typische belanghebbende voor deze activiteit is een Marketing/Bedrijfs Strategist.
 
-Inhoud is een belangrijke factor bij het aansturen van betrokkenheid. In de pre-verkoopfase, is het belangrijk om een bedrijfsinhoudsstrategie te bepalen die overweegt hoe de toepassing hardware, software, en connectiviteitsmiddelen gebruikt om de voorgenomen waarde aan de klanten van uw cliënt te leveren.
+Inhoud is een belangrijke factor bij het aansturen van betrokkenheid. In de pre-verkoopfase, is het belangrijk om een bedrijfsinhoudstrategie te bepalen. Die strategie houdt rekening met de manier waarop de toepassing hardware, software en connectiviteitsbronnen gebruikt om de bedoelde waarde aan de klanten van uw klant te leveren.
 
-Een goed gedefinieerde strategie voor zakelijke inhoud stelt een pad in voor het maken, distribueren en volgen van het gebruik van inhoud in verhouding tot de reis van de koper en de marketingaanraakpunten in de verkooptrechter. Het is van cruciaal belang dat de juiste boodschap op het juiste moment naar de juiste klant wordt gestuurd.
+Een goed gedefinieerde strategie voor zakelijke inhoud stelt een pad in voor het maken, distribueren en volgen van het gebruik van inhoud in verhouding tot de reis van de koper. Zij houdt ook rekening met de marketingaanraakpunten in de verkooptrechter. Het is van cruciaal belang dat de juiste boodschap op het juiste moment naar de juiste klant wordt gestuurd.
 
-Overweeg hoe de toepassing Schermen kan helpen om dit te bereiken en KPIs te bepalen helpen het succes van de toepassing in het leveren van die inhoud meten.
+Overweeg hoe de toepassing Schermen kan helpen om deze strategie te bereiken en KPIs te bepalen helpen het succes van de toepassing in het leveren van die inhoud meten.
 
 >[!NOTE]
 >

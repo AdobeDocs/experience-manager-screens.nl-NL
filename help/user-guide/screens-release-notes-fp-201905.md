@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Zie **[Noodkanaal](emergency-channel.md)** Gebruik hoofdletters/kleine letters v
 
 * **Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics**
 
-In deze sectie wordt beschreven hoe u een interactieve toepassing van één pagina insluit met REACT (of Angular) in de AEM SPA-editor. De redacteur kan door bedrijfsberoeps in AEM worden gevormd. Ook wordt beschreven hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
+In deze sectie wordt beschreven hoe u een interactieve toepassing van één pagina insluit met REACT (of Angular) in de AEM SPA-editor. Zakelijke professionals in AEM kunnen de editor configureren. Ook wordt beschreven hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
 
 Zie **[Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics](embedding-react-app.md)** voor meer informatie .
 

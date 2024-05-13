@@ -9,16 +9,16 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
 
 # Configuratie en probleemoplossing voor videoweergave {#video-playback-configuration-and-troubleshooting}
 
-Wanneer u een video uploadt naar de DAM en deze aan uw kanaal toevoegt, kunnen er problemen optreden waarbij de video mogelijk niet wordt afgespeeld in de AEM Screens Player.
+Wanneer u een video uploadt naar de DAM en deze toevoegt aan uw kanaal, kunnen er problemen optreden waarbij de video mogelijk niet wordt afgespeeld in de AEM Screens Player.
 
 In de volgende secties wordt beschreven hoe u fouten kunt opsporen in het afspelen van video in uw kanaal en hoe u deze kunt oplossen.
 
@@ -33,19 +33,19 @@ De video weergeven:
 
 Er moeten verschillende uitvoeringen zijn (een MP4 of M4V).
 
-Als er geen uitvoering is, moet u ervoor zorgen dat mpeg is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
+Als er geen uitvoering is, controleert u of FFMPEG is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
 
 >[!CAUTION]
 >
->Als er geen uitvoering is, moet u ervoor zorgen dat mpeg is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
+>Als er geen uitvoering is, controleert u of FFMPEG is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
 >
->Klikken [hier](https://www.ffmpeg.org/download.html) om fmpeg te installeren.
+>Klikken [hier](https://www.ffmpeg.org/download.html) om FFMPEG te installeren.
 
 ## Video-elementen {#video-assets}
 
 Als u geen bronkenmerk onder video ziet, kan het zijn dat de video niet is gecodeerd. Als de video op de juiste wijze is getranscodeerd, wordt deze weergegeven in het dashboard, zoals hieronder wordt getoond:
 
-Controleer of mpeg is geïnstalleerd en de videoprofielen.
+Controleer of FFMPEG is geïnstalleerd en of de videoprofielen zijn geïnstalleerd.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -57,7 +57,7 @@ Controleer of mpeg is geïnstalleerd en de videoprofielen.
 
 1. Upload een testvideo en klik op **OK** zodat u met het transcoderen kunt beginnen.
 
-   Als de getranscodeerde video ontbreekt, breid de output van ffmpeg uit om het even welke fouten in de consoloutput van ffmpeg te begrijpen.
+   Als de getranscodeerde video mislukt, vouwt u de uitvoer van FFMPEG uit om fouten in de uitvoer van de console van FFMPEG te begrijpen.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -80,13 +80,13 @@ Controleer de lijst met profielen in het paginaontwerp als de videocomponent nie
 1. Klik op de video en open de **Bewerken** in. Open de **Profielen** tab.
 
    >[!NOTE]
-   >Klik op verschillende profielen (er moet ten minste het profiel &quot;H.264&quot; van hoge kwaliteit zijn).
+   >Klik op verschillende profielen (er moet ten minste het profiel &quot;Hoge kwaliteit H.264&quot; zijn).
 
 ### De video controleren in de webspeler {#checking-the-video-in-the-web-player}
 
 Gebruik de **Webspeler** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` om het afspelen in browsers (Chrome en Safari) te valideren. Chrome wordt gebruikt op Android™-apparaten terwijl Safari de OS X- en iOS-browser is.
 
-Als de video niet wordt uitgevoerd op Safari, wordt deze ook niet uitgevoerd in de OS X- en iOS-spelers. Dit is waarschijnlijk een coderingsprobleem en de video moet opnieuw worden gecodeerd.
+Als de video niet wordt uitgevoerd op Safari, wordt deze ook niet uitgevoerd in de OS X- en iOS-spelers. Dit probleem is waarschijnlijk een coderingsprobleem en de video moet opnieuw worden gecodeerd.
 
 Ga als volgt te werk als u een DAM-workflow wilt gebruiken om FullHD-uitvoeringen te maken:
 
@@ -113,7 +113,7 @@ Voer de onderstaande stappen uit om een probleem met de Google-markering voor au
 
 >[!NOTE]
 >
->Meer over de beste praktijken voor goede gebruikerservaring met het nieuwe autoplay beleid in Chrome leren, zie documentatie voor *Beleidswijzigingen automatisch uitvoeren* om `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Meer over beste praktijken voor goede gebruikerservaring met het nieuwe autoplay beleid in Chrome leren. Zie *Beleidswijzigingen automatisch uitvoeren* om `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Video synchroniseren over meerdere spelers {#syncing-video-across-multiple-players}
 

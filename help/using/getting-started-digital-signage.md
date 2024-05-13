@@ -2,9 +2,9 @@
 title: Basisbeginselen van digitale signalen voor [!UICONTROL AEM Screens]
 description: Leer de grondbeginselen van een digitaal ondertekeningsproject.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Voordat u naar de best practices voor AEM Screens-implementatie gaat, is het belangrijk dat u het project beschouwt als een digitaal ondertekeningsproject in plaats van als een traditionele softwareontwikkeling.
 
-Deze sectie bevat aanbevelingen voor belangrijke sleutelelementen die essentieel zijn voor een AEM Screens-projectimplementatie.
+In deze sectie worden aanbevelingen gegeven over belangrijke sleutelelementen die van essentieel belang zijn voor de AEM Screens-projectimplementatie.
 
 ## Belangrijkste elementen in digitale signalen {#key-elements}
 
@@ -40,14 +40,14 @@ Het definiëren van de belangrijkste elementen is van essentieel belang voordat 
    De connectiviteit benadrukt op de volgende vragen:
    * Een netwerk (cel of wi-fi) of standalone?
       * Moet u updates van USB-inhoud toestaan?
-      * Moet u gegevensverzameling toestaan?
+      * Moet u het gebruik van gegevensverzameling toestaan?
 
 1. **Installatie**
 
    Installatie omvat:
    * Weergave: liggend of staand
    * Hoe wordt het scherm gemonteerd?
-      * Staand versus liggend
+      * Oriëntatie Staand versus oriëntatie Liggend
       * Volledige huisvesting
       * Dekplaat
    * Ondersteuning voor reparaties
@@ -79,7 +79,7 @@ Het definiëren van de belangrijkste elementen is van essentieel belang voordat 
 
 1. **Omgeving**
 
-   Milieu benadrukt het volgende:
+   Het milieu legt de nadruk op:
    * Locatie weergeven?
       * Binnen vs. buiten
       * Buiten bereik of rechtstreeks toegankelijk

@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Voer de onderstaande stappen uit om de instellingen voor e-mailmeldingen te conf
 
    **Planningsfrequentie** - Geef een tijd (bijvoorbeeld 17:00 of 17:00) of frequentie op in uren (bijvoorbeeld 1) waarop deze monitor e-mails moet verzenden.
 
-   **Pingetijd uit** - Dit specificeert het interval in notulen waarna een apparaat als niet bereikbaar zou moeten worden beschouwd.
+   **Pingetijd uit** - Dit gebied specificeert het interval in notulen waarna een apparaat als niet bereikbaar zou moeten worden beschouwd.
 
    **SMTP-server** - Geeft de SMTP-server op die wordt gebruikt voor het verzenden van e-mails.
 
@@ -91,11 +91,14 @@ Nadat u de configuratie voor uw e-mailberichten hebt ingesteld, ontvangt u een e
 
 Als u deze koppeling opent, gaat u rechtstreeks naar het dashboard van het apparaat.
 
-E-mails worden alleen verzonden als er ten minste één apparaat is dat niet pingelt voor de opgegeven pingelt-time-out en dat nog steeds niet pingelt op het moment dat de e-mail wordt gegenereerd.
+E-mails worden alleen verzonden als:
+
+* er is minstens één apparaat dat niet voor bepaald pingel timeout heeft gepingeld, en
+* blijft niet pingelen op het tijdstip van het genereren van de e-mail.
 
 ### Voorbeelden van gevallen {#example-use-cases}
 
-In het volgende voorbeeld worden enkele referentiescenario&#39;s beschreven om de eigenschappen van de E-mailcontroledienst van het Apparaat van het Scherm te configureren.
+In het volgende voorbeeld worden een aantal scenario&#39;s ter referentie beschreven, om de eigenschappen van de E-mailcontroledienst van het Apparaat van het Scherm te configureren.
 
 **Scenario 1**
 
@@ -103,4 +106,4 @@ U plaatst de planningsfrequentie als 1:00 A.M. en pingelt onderbreking als 60. V
 
 **Scenario 2**
 
-U plaatst de planningsfrequentie als 1 en pingelt onderbreking als 60. Als uw AEM Screens-apparaat vervolgens niet tussen één keer op een bepaald tijdstip van de dag pingelt, ontvangt u een e-mailmelding waarin de inactiviteit van het apparaat wordt bevestigd.
+U plaatst de planningsfrequentie als 1 en pingelt onderbreking als 60. Als uw AEM Screens-apparaat vervolgens niet op een bepaald tijdstip van de dag pingelt, ontvangt u een e-mailmelding waarin de inactiviteit van het apparaat wordt bevestigd.
