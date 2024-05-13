@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    >[!CAUTION]
    >
-   >U moet uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** > **Personalisatie** tab.
+   >Uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** > **Personalisatie** moet al zijn ingesteld.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 1. **De voorvertoning controleren**
 
    1. Klikken **Voorvertoning.** Open ook het Google-werkblad en werk de waarde ervan bij.
-   1. Wijzig de waarde in minder dan 50. Je moet een afbeelding van een koude drank kunnen bekijken. Als de waarde in Google Sheets 50 of hoger is, ziet u een afbeelding van een warme drank.
+   1. Wijzig de waarde in minder dan 50. Je kunt een afbeelding van een koud drankje bekijken. Als de waarde in Google Sheets 50 of hoger is, ziet u een afbeelding van een warme drank.
 
    ![result3](assets/result3.gif)

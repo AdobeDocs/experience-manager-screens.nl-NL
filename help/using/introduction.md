@@ -2,9 +2,9 @@
 title: Inleiding tot AEM Screens
 description: Meer weten over AEM Screens en wat het voor jou kan doen?
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '667'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ Met AEM Screens kunt u:
 * **productadviseurs**
 * **achtergrondafbeelding van levensstijl**
 
-Ook, verstrekken de Schermen vele unieke toepassingen voor klanten en werknemers die op het domein worden gebaseerd waar deze, zoals worden opgesteld:
+Ook, verstrekken de Schermen vele unieke toepassingen voor klanten en werknemers die op het domein worden gebaseerd waar de toepassingen, zoals worden opgesteld:
 
 * **interactieve weergaven**
 * **wegwerken**
@@ -28,11 +28,9 @@ Ook, verstrekken de Schermen vele unieke toepassingen voor klanten en werknemers
 
 Het maken en beheren van een digitaal signalisatienetwerk met behulp van AEM Screens is eenvoudig en intuïtief. Een spelerappicatie host contentkanalen die voor de AEM Screens door klanten of implementatiepartners zijn gebouwd. *Locaties* beheert een vooraf gedefinieerde locatiehiërarchie en bevat weergaven. Elke *weergave* heeft een dashboard waarop verschillende gekoppelde apparaten en schermen worden weergegeven. Content voor AEM Screens wordt beheerd in *kanalen*. *Speler voor AEM Screens* rendert de content die aanwezig is in kanalen op displays.
 
-
-
 >[!NOTE]
 >
->Ga voor meer informatie over de verschillende functies in een AEM Screens-projectontwikkeling en -beheer naar **[AEM Screens-gebruikershandleiding](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>Raadpleeg voor meer informatie over de verschillende functies in een AEM Screens-projectontwikkeling en -beheer de **[AEM Screens-gebruikershandleiding](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## AEM Sites versus AEM Screens {#aem-sites-screens}
 
@@ -42,7 +40,7 @@ Het maken en beheren van een digitaal signalisatienetwerk met behulp van AEM Scr
 
 AEM Screens biedt een geïntegreerd platform voor ontwerpen/afspelen voor het implementeren van inhoud naar digitale signaalapparaten in openbare ruimten. Hoewel de auteur van de ervaring moet streven naar consistentie op het web en in-venue kanalen, zijn er enkele verschillen die moeten worden opgemerkt.
 
-* **Dwell-time**: Webpagina&#39;s zijn doorgaans ontworpen om een schat aan informatie te bieden die over een relatief langere periode kan worden gebruikt. In-locatiegebonden digitale ervaringen moeten daarentegen anticiperen op de behoeften van de kijker en duidelijke en beknopte aanwijzingen bieden voor de manier waarop en waarom de gebruiker zich moet engageren. Dit resulteert in ervaringen die doelgerichter, cursiever en contextueel zijn.
+* **Dwell-time**: Webpagina&#39;s zijn doorgaans ontworpen om een schat aan informatie te bieden die over een relatief langere periode kan worden gebruikt. In-locatiegebonden digitale ervaringen moeten daarentegen anticiperen op de behoeften van de kijker en duidelijke en beknopte aanwijzingen bieden voor de manier waarop en waarom de gebruiker zich moet engageren. Dergelijke aandacht resulteert in ervaringen die doelgerichter, cursiever en contextueel zijn.
 
 * **Kijkafstand**: De weergaveafstand is langer of verder verwijderd dan de weergaveafstand die gebruikers doorgaans afleggen op een website. Daarom moet de tekstgrootte normaal gesproken groter zijn en moet de afstand tussen tekst, afbeeldingen en andere aanvullende inhoud worden getest op basis van de verwachte schermgrootte en plaatsing in de fysieke ruimte.
 
@@ -54,7 +52,7 @@ AEM Screens biedt een geïntegreerd platform voor ontwerpen/afspelen voor het im
 
 AEM Screens biedt een framework om inhoud te implementeren op fysieke apparaten. Inhoud wordt toegewezen aan kanalen in schermen, die media-inhoud of toepassingen op aanraakschermen kunnen bevatten. Binnen dit framework kan een AEM Sites-toepassing als inhoud worden geleverd via een kanaal.
 
-Voordat een site in een kanaal in rasters wordt neergezet, moet een AEM site worden opgemaakt voor gebruik met de afmetingen van het weergaveapparaat waarvoor de site is bedoeld.
+Een AEM Site moet zijn opgemaakt voor gebruik met de afmetingen van het weergaveapparaat waarvoor het is bedoeld. U moet dit doen voordat u het bestand in een Kanaal in schermen neerzet.
 
 >[!NOTE]
 >Veel AEM Sites-componenten zijn niet compatibel met AEM Screens. AEM Screens wordt geleverd met veel van zijn eigen kant-en-klare componenten waarmee u digitale ervaringen kunt opbouwen zonder aanpassingen. Als de projectvereisten dit toestaan, kunt u waar mogelijk ingebouwde AEM Screens-functionaliteit gebruiken.

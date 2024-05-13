@@ -1,12 +1,12 @@
 ---
 title: Single-Use TakeOver Channel
-description: Volg dit gebruiksgeval voor het creëren van een enig-Gebruik NeemOver Kanaal.
+description: Volg deze handige optie voor het maken van een eenmalig overnamekanaal.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![element](assets/single-takeover4.png)
 
-1. Stel een locatie en weergave voor uw kanalen in. Bijvoorbeeld het volgende **Lobby** locatie en  **MainLobbyDisplay** de vertoning wordt opstelling voor dit project.
+1. Stel een locatie en weergave voor uw kanalen in. Bijvoorbeeld het volgende **Lobby** locatie en **MainLobbyDisplay** de vertoning wordt opstelling voor dit project.
 
    ![element](assets/single-takeover5.png)
 
@@ -93,11 +93,11 @@ Voer de onderstaande stappen uit om een project in te stellen:
      >[!NOTE]
      >Prioriteit kan elke waarde zijn die hoger is dan de prioritaire waarde van het normale afspeelkanaal.
    * **Ondersteunde gebeurtenissen**: Klik op de knop **Niet-actief scherm** en **Timer**.
-   * **Schema**: Ga de tekst voor het programma in dat u dit kanaal wilt in werking stellen de vertoning. De tekst hier staat bijvoorbeeld toe dat de inhoud 2 minuten vóór 12.00 uur &#39;s middags wordt afgespeeld op 31 dec tot 12.01 uur &#39;s middags. De tekst in de **Schema** in dit voorbeeld wordt vermeld *op de 31 dag van december na 23.58 uur en ook op de 1 dag van januari vóór 00.01*.
+   * **Schema**: Ga de tekst voor het programma in dat u dit kanaal op de vertoning wilt in werking stellen. De tekst hier staat bijvoorbeeld toe dat de inhoud 2 minuten vóór 12.00 uur &#39;s middags wordt afgespeeld op 31 dec tot 12.01 uur &#39;s middags. De tekst in de **Schema** in dit voorbeeld wordt vermeld *op de 31 dag van december na 23.58 uur en ook op de 1 dag van januari vóór 00.01*.
 
      ![element](assets/single-takeover8.png)
 
-     Navigeren naar de weergave vanuit **SingleUseTakeOver** > **Locaties** > **Lobby** > **MainLobbyDisplay** en klik op **Dashboard** in de actiebalk, zodat u de toegewezen kanalen met hun prioriteiten kunt weergeven, zoals hieronder wordt weergegeven.
+     Navigeren naar de weergave vanuit **SingleUseTakeOver** > **Locaties** > **Lobby** > **MainLobbyDisplay**. Klikken **Dashboard** in de actiebalk, zodat u de toegewezen kanalen met hun prioriteiten kunt weergeven, zoals hieronder wordt weergegeven.
 
      >[!NOTE]
      >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.

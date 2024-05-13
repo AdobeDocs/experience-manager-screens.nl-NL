@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Wanneer u de voorafgaande stappen hebt voltooid, bent u klaar om het richten in 
 
 Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kanalen in te schakelen.
 
-1. Ga naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door te gebruiken **DataDrivenRetail** *(volgnummer)* gemaakt in een AEM Screens Channel.
+1. Ga naar een van de AEM Screens-kanalen. De volgende stappen tonen aan hoe te om het richten toe te laten door te gebruiken **DataDrivenRetail** *(volgnummer)* gemaakt in een AEM Screens-kanaal.
 
 1. Klik op het kanaal **DataDrivenRetail** en klik op **Eigenschappen** in de actiebalk.
 
@@ -67,7 +67,7 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
 
    >[!NOTE]
    >
-   >Als u alles correct hebt ingesteld, ziet u **Targeting** in de drop-down van de redacteur, zoals aangetoond in het hieronder cijfer.
+   >Als u alles correct hebt ingesteld, ziet u de **Targeting** in de drop-down van de redacteur, zoals aangetoond in het hieronder cijfer.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

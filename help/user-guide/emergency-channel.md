@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Omschrijving hoofdletter gebruiken {#use-case-description}
 
-In deze sectie wordt een gebruikscase-voorbeeld beschreven waarin wordt benadrukt dat de inhoudsontwerper bij het maken en beheren van een noodkanaal kan schakelen van een volgnummer als er een voorwaarde is.
+In deze sectie wordt een gebruiksvoorbeeld beschreven. Het benadrukt het creëren van en het leiden van een noodkanaal dat de Inhoudsauteur van een opeenvolgingskanaal kan schakelen, als er een voorwaarde is.
 
 ### Voorwaarden {#preconditions}
 
@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
    1. Klik op het kanaal (**MainAdChannel**).
    1. Klikken **Bewerken** in de actiebalk.
-   1. Sleep enkele elementen naar het kanaal.
+   1. Sleep een aantal elementen naar het kanaal.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
@@ -84,7 +84,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
 1. **Een locatie maken**
 
-   1. Navigeren naar **Locaties** map.
+   1. Ga naar de **Locaties** map.
    1. Klikken **Maken** op de actiebalk en maak een locatie met de naam **Winkel** van de wizard.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
@@ -185,4 +185,4 @@ Voer in geval van nood de volgende stappen uit:
 
 De **EmergencyChannel** blijft de inhoud weergeven totdat de Content Author de Priority Value terugzet naar 1.
 
-Wanneer de Inhoudsauteur de instructies ontvangt dat de noodsituatie is gewist, moet deze de prioriteit van de **MainAdChannel** waardoor het afspelen wordt hervat.
+Wanneer de Inhoudsauteur de instructies ontvangt dat de noodsituatie is gewist, moet deze de prioriteit van de **MainAdChannel**. Hierdoor wordt het normale afspelen hervat.

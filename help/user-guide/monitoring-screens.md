@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -144,12 +144,12 @@ AEM biedt ingebouwde bewaking voor:
 
 * *Hartslag* om de 5 seconden om aan te geven dat de AEM Screens Player wordt uitgevoerd.
 * *Schermafbeelding* van de Speler die toont wat op de Speler wordt getoond.
-* De *AEM Screens Player Firmware* versie geïnstalleerd op de Speler.
+* De *AEM Screens Player Firmware* is geïnstalleerd op de Player.
 * *Vrije opslagruimte* op de speler.
 
 Recommendations voor externe controle met software van derden:
 
-* CPU-gebruik op afspeelapparatuur.
+* CPU-gebruik in afspeelapparatuur.
 * Controleer of het AEM Screens Player-proces wordt uitgevoerd.
 * Extern opnieuw opstarten/opnieuw opstarten van de Player.
 * Real-time meldingen.

@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Kanaaltoewijzing {#channel-assignment}
 
 >[!IMPORTANT]
->Deze sectie benadrukt de toewijzing van het Kanaal en het plannen van kanalen voor de pakken van de Eigenschap ouder dan AEM 6.5.5 de versie van het Scherm.
+>Deze sectie benadrukt de Toewijzing van het Kanaal en het plannen van kanalen voor de pakken van de Eigenschap ouder dan AEM 6.5.5 de versie van Schermen.
 
 Wanneer u een weergave hebt ingesteld, wijst u een kanaal toe aan een weergave om de inhoud weer te geven.
 
@@ -40,21 +40,21 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
-   U kunt de eigenschappen configureren via de **Kanaaltoewijzing** in de onderstaande sectie. Zie [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
+   U kunt de eigenschappen configureren via de **Kanaaltoewijzing** in de onderstaande sectie. Zie de [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
 
 ## Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
 
 ### Referentiekanaal {#ref-channel}
 
-Met referentiekanaal kunt u een verwijzing naar het gewenste kanaal opgeven, op naam van kanaal of op pad naar kanaal.
+Met een referentiekanaal kunt u een verwijzing naar het gewenste kanaal opgeven, op kanaalnaam of op kanaalpad.
 
 * **op pad** - U geeft een expliciete verwijzing op met het absolute pad van het kanaal.
 
-* **op naam** - Voer de naam in van het kanaal dat per context wordt omgezet in een werkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken om locatie-specifieke inhoud dynamisch op te lossen. Een kanaal met bijvoorbeeld een naam *dagblad*, waarbij de inhoud in feite in twee steden anders zou zijn, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
+* **op naam** - Voer de naam in van het kanaal dat per context wordt omgezet in een werkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken, zodat u locatie-specifieke inhoud dynamisch kunt oplossen. Een kanaal met bijvoorbeeld een naam *dagblad*, waarbij de inhoud in feite in twee steden anders zou zijn, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
 
 ### Kanaalrol {#role-channel}
 
-De rol van het kanaal bepaalt de context van de vertoning. De rol wordt op verschillende acties gericht en staat los van het daadwerkelijke kanaal dat de rol vervult.
+De rol van het kanaal bepaalt de context van de vertoning. De rol is gericht op verschillende acties en staat los van het daadwerkelijke kanaal dat de rol vervult.
 
 ### Prioriteit {#priority-channel}
 
@@ -76,9 +76,9 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 >
 > Deze optie is alleen beschikbaar bij <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Functiepakket 4.
 
-Als Content Author kunt u opgeven wanneer een kanaal wordt onderbroken, zodat u niet-kritieke inhoud kunt uitschakelen. Belangrijke inhoud kunt u desgewenst afspelen voordat u het afspelen afsluit vanwege het plannen.
+Geef als Inhoudsauteur op wanneer een kanaal wordt onderbroken. Als u dit doet, kunt u niet-kritieke inhoud desgewenst uitschakelen, maar belangrijke inhoud desgewenst eerst afspelen voordat de inhoud wordt afgespeeld vanwege planning.
 
-Klik op een van de volgende opties om de methode voor onderbreking in te stellen in het menu **Kanaaltoewijzing** dialoogvenster:
+Klik op een van de volgende opties om de methode voor onderbreking in te stellen vanuit de **Kanaaltoewijzing** dialoogvenster:
 
 * **Meteen** - Wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen.
 * **Aan einde van huidig item** - Wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, kunt u optioneel wachten tot het huidige item in de reeks is afgespeeld. Alleen daarna kunt u de nieuwe inhoud vernieuwen of afspelen.
@@ -100,7 +100,7 @@ Knopinfo voor aantrekken weergeven die aangeeft of de knopinfo voor aantrekken (
 
 ### DayParting {#dayparting}
 
-Planningen indien gecombineerd met **DayParting**, kunt u een algemeen schema instellen met meerdere kanalen die op specifieke tijdstippen van de dag worden uitgevoerd, en die instelling opnieuw gebruiken voor al uw beeldschermen tegelijk.
+Planningen, indien gecombineerd met **DayParting**, kunt u een algemeen schema instellen met meerdere kanalen die op specifieke tijdstippen van de dag worden uitgevoerd, en die instelling opnieuw gebruiken voor al uw beeldschermen tegelijk.
 
 DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. Met AEM Screens kunt u kanalen plannen in termen van DayPparting binnen een dag, week of maand volgens de vereiste.
 
@@ -162,7 +162,7 @@ Hier, creeert u DayParting zoals per maand, zodat de kanaalinhoud zoals per de g
 
 #### Inhoud afspelen voor kanalen met dezelfde prioriteit {#playing-content-for-channels-with-same-priority}
 
-Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien Kanaal B prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan Kanaal A.
+Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien kanaal B de prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan kanaal A.
 
 | **Kanaal** | **Rol** | **Prioriteit** | **Schema** |
 |---|---|---|---|

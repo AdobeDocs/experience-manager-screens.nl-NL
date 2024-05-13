@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -22,7 +22,7 @@ AEM componenten worden gebruikt om de inhoud die op uw webpagina&#39;s beschikba
 
 >[!NOTE]
 >
->Zie AEM Componenten ontwikkelen voor meer informatie over het maken van AEM Componenten.
+>Zie AEM componenten ontwikkelen voor meer informatie over het maken van AEM componenten.
 
 ## Kanalen ontwerpen {#authoring-channels}
 

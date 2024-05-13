@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -29,7 +29,7 @@ In deze sectie worden de volgende onderwerpen over het bijwerken van content-as-
 
 ## Overzicht {#overview}
 
-Bulk offline bijwerken, waarmee u alle kanalen in bulk kunt bijwerken. Zo voorkomt u de problemen bij het navigeren naar een bepaald kanaal en het bijwerken van de inhoud. In plaats daarvan kunt u alle inhoud in kanalen voor één specifiek project in één keer bijwerken.
+Met de functie Offline bulkupdate kunt u alle kanalen bulksgewijs bijwerken. Zo voorkomt u de problemen bij het navigeren naar een bepaald kanaal en het bijwerken van de inhoud. In plaats daarvan kunt u alle inhoud in kanalen voor één specifiek project in één keer bijwerken.
 
 U kunt deze activiteit voor een tijd van lager netwerkverkeer ook plannen.
 
@@ -39,7 +39,7 @@ U kunt deze activiteit voor een tijd van lager netwerkverkeer ook plannen.
 
 ## Bulk offline bijwerken gebruiken {#using-bulk-offline-update}
 
-U kunt bulk off-line update van het Gebruikersinterface (UI) manueel gebruiken of de bulkupdate van de diensten plannen OSGi.
+U kunt bulkoff-line Update van het Gebruikersinterface (UI) manueel gebruiken of de bulkupdate van de diensten plannen OSGi.
 
 ### AEM Screens-gebruikersinterface gebruiken {#using-aem-screens-user-interface}
 

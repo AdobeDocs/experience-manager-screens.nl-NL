@@ -2,9 +2,9 @@
 title: Tijdsduur afspeelafbeelding op projectniveau
 description: Leer hoe u de duur van het afspelen van afbeeldingen definieert op projectniveau.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Met deze functie kunt u de afspeelduur van afbeeldingen op projectniveau defini√
 Voordat u deze functie kunt gebruiken, moet u een project instellen als een voorwaarde voor het implementeren van deze functie. Bijvoorbeeld:
 
 1. Een AEM Screens-project maken (in dit voorbeeld: **ProjectLevelPlayback**).
-1. Een volgnummer maken als **PlayBackChannel** krachtens **Kanalen** map.
+1. Een volgnummer maken als **PlayBackChannel** onder de **Kanalen** map.
 1. Inhoud toevoegen aan **PlayBackChannel**.
 
    ![elementen](assets/image_playback1.png)
@@ -64,7 +64,7 @@ Volg de onderstaande stappen om te leren hoe u de duur van het afspelen van afbe
 
 ### Het resultaat weergeven {#viewing-the-result}
 
-Nadat u de afspeelduur van het kanaal hebt bijgewerkt (in dit voorbeeld worden alle drie de afbeeldingen weergegeven), worden de afbeeldingen nu 3 seconden afgespeeld in plaats van 8 seconden (standaardwaarde).
+Nadat u de afspeelduur van het kanaal hebt bijgewerkt (in dit voorbeeld worden alle drie de afbeeldingen weergegeven), worden de afbeeldingen nu 3 seconden afgespeeld in plaats van 8 seconden (de standaardwaarde).
 
 ![channel_preview](assets/channel_preview.gif)
 

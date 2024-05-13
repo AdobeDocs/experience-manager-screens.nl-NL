@@ -1,6 +1,6 @@
 ---
 title: Planningen maken en beheren
-description: Leer over Programma's die u kanalen in herbruikbare groepen laten organiseren zodat u niet hun taak individueel voor elke vertoning moet herhalen waarop u uw inhoud wilt tonen.
+description: Leer over Planningen die u kanalen in herbruikbare groepen laten organiseren zodat u hun taak niet individueel hoeft te herhalen.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Planningen maken en beheren {#creating-and-managing-schedules}
 
-**Planningen** in AEM Screens kunt u kanalen ordenen in herbruikbare groepen, zodat u hun toewijzing niet afzonderlijk hoeft te herhalen voor elk scherm waarop u de inhoud wilt weergeven.
+**Planningen** in AEM Screens kunt u kanalen organiseren in herbruikbare groepen. Dit betekent dat u de toewijzing niet afzonderlijk hoeft te herhalen voor elk scherm waarop u de inhoud wilt weergeven.
 
 Planningen, indien gecombineerd met ***DayParting***, kunt u een algemeen schema instellen met meerdere kanalen die op specifieke tijdstippen van de dag worden uitgevoerd, en die instelling opnieuw gebruiken voor al uw beeldschermen tegelijk.
 
@@ -44,7 +44,7 @@ U kunt een planningsomslag met de aangewezen naam en de titel in uw project zien
 
 ## Het dashboard weergeven {#viewing-dashboard}
 
-Nadat u de map met programma&#39;s in uw project hebt gemaakt, kunt u de gegevens van het dashboard met schema&#39;s weergeven.
+Nadat u een planningsomslag in uw project hebt gecreeerd, kunt u de details van het dashboard van programma&#39;s bekijken.
 
 Voer de onderstaande stappen uit om het dashboard voor het schema weer te geven. In het volgende voorbeeld wordt het dashboard van het `We.Retail` project:
 

@@ -1,7 +1,7 @@
 ---
 title: Activering van fragmenten beleven
-description: Een gebruiksvoorbeeld om u te helpen bij het activeren van fragmenten in relatie tot AEM Screens.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+description: Een gebruiksvoorbeeld om u te helpen over de activering van de Fragmenten van de Ervaring leren aangezien het op AEM Screens betrekking heeft.
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Een project maken met de naam **DemoProject** en een volgordekanaal met de naam 
 
 ### Implementatie van het ervaringsfragment in een AEM Screens-project {#experience-fragments-implementation}
 
-Als u een Experience Fragment hebt gemaakt en dit in uw AEM Screens-project hebt toegepast, **DemoProject** U kunt het fragment van de Ervaring volgens uw vereisten verbeteren.
+Als u een Experience Fragment hebt gemaakt en dit in uw AEM Screens-project hebt toegepast, **DemoProject**, kunt u het Ervingsfragment naar wens verbeteren.
 
 ### Tekst vergroten {#increasing-text-size}
 

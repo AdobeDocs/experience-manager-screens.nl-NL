@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De volgende zelfstudie doorloopt de stappen en aanbevolen procedures voor het ui
 
 ## Overzicht {#overview}
 
-Deze zelfstudie is bedoeld voor nieuwe ontwikkelaars van AEM Screens. In deze zelfstudie wordt de component Schermafbeelding uitgebreid om een postercomponent te maken. Boven op een afbeelding worden een titel, beschrijving en logo geplaatst om een aantrekkelijke ervaring te creëren in een sequentiekanaal.
+Deze zelfstudie is bedoeld voor nieuwe ontwikkelaars van AEM Screens. In deze zelfstudie wordt de component Schermafbeelding uitgebreid om een postercomponent te maken. Boven op een afbeelding worden een titel, beschrijving en logo geplaatst om een aantrekkelijke ervaring in een volgnummer te creëren.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Deze zelfstudie is bedoeld voor nieuwe ontwikkelaars van AEM Screens. In deze ze
 
 ![Aangepaste postercomponent](assets/2018-05-07_at_4_09pm.png)
 
-De component van de Poster van de douane wordt gecreeerd door de component van het Beeld uit te breiden.
+A `Custom Poster` wordt gemaakt door de component Image uit te breiden.
 
 ## Vereisten {#prerequisites}
 
@@ -72,7 +72,7 @@ De broncode van een project van het Scherm wordt typisch geleid als multi-module
 
 De postercomponent breidt de uit-van-de-doos AEM Screens-afbeeldingscomponent uit. een Sling-mechanisme, `sling:resourceSuperType`, wordt gebruikt om de kernfunctionaliteit van de component Image over te nemen zonder dat u deze hoeft te kopiëren en plakken. Meer informatie over de basisbeginselen van [Hier vindt u een verwerking van de verkoopaanvraag.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
-De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertoning/Productie. In de bewerkingsmodus is het belangrijk dat de component anders wordt gerenderd om het ontwerpen van het sequentiekanaal te vergemakkelijken.
+De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertoning/Productie. In de bewerkingsmodus is het belangrijk dat de component anders wordt gerenderd om het ontwerpen van het kanaal Volgorde te vergemakkelijken.
 
 1. In **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (of IDE van keus) onderaan `/apps/weretail-run/components/content`een `cq:Component` benoemd `poster`.
 
@@ -240,7 +240,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
    De eigenschap `sling:hideChildren`= `"[linkURL,size]`&quot; wordt gebruikt op de `items` knoop om ervoor te zorgen dat **linkURL** en **size** velden worden verborgen in het dialoogvenster. Het is niet voldoende deze knooppunten uit het posterdialoogvenster te verwijderen. De eigenschap `sling:hideResource="{Boolean}true"` op het tabblad Toegankelijkheid wordt gebruikt om het hele tabblad te verbergen.
 
-   Er worden twee klikvelden toegevoegd aan het dialoogvenster om auteurs de tekstpositie en -kleur van de titel en beschrijving te geven.
+   Er worden twee klikvelden toegevoegd aan het dialoogvenster, Tekstpositie en Tekstkleur, zodat de auteur de positie van de tekst en de kleur van de titel en de beschrijving kan bepalen.
 
    ![Poster - Definitieve structuur van dialoogvenster](assets/2018-05-03_at_4_49pm.png)
 
@@ -276,11 +276,11 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
    </div>
    ```
 
-   De productiemarkering voor de Postercomponent wordt direct hierboven weergegeven. Het HTML-script overschrijft `screens/core/components/content/image/production.html`. De `image.js` is een serverscript dat een POJO-achtig afbeeldingsobject maakt. Het voorwerp van het Beeld kan dan worden geroepen om `src` als een inline-stijlachtergrondafbeelding.
+   De productiemarkering voor de postercomponent wordt direct hierboven weergegeven. Het HTML-script overschrijft `screens/core/components/content/image/production.html`. De `image.js` is een serverscript dat een POJO-achtig afbeeldingsobject maakt. Het voorwerp van het Beeld kan dan worden geroepen om `src` als een inline-stijlachtergrondafbeelding.
 
    `The h1` en h2-tags worden toegevoegd, geven de titel en beschrijving weer op basis van de componenteigenschappen: `${properties.jcr:title}` en `${properties.jcr:description}`.
 
-   Omringend de `h1` en `h2` -tags is een div-wrapper met drie CSS-klassen met variaties van &quot; `cmp-poster__text`&quot;. De waarde voor de `textPosition` en `textColor` eigenschappen worden gebruikt om de CSS-klasse te wijzigen die wordt gerenderd op basis van de dialoogselectie van de auteur. In de volgende sectie worden CSS uit clientbibliotheken geschreven om deze wijzigingen in de weergave in te schakelen.
+   Omringend de `h1` en `h2` -tags is een div-wrapper met drie CSS-klassen met variaties van &quot;`cmp-poster__text`.&quot; De waarde voor de `textPosition` en `textColor` eigenschappen worden gebruikt om de CSS-klasse te wijzigen die wordt gerenderd op basis van de dialoogselectie van de auteur. In de volgende sectie worden CSS uit clientbibliotheken geschreven om deze wijzigingen in de weergave in te schakelen.
 
    Een logo wordt ook als een bedekking opgenomen in de component. In dit voorbeeld wordt het pad naar het` We.Retail` logo is hard-gecodeerd in de DAM. Afhankelijk van het geval van het gebruik, zou het nuttiger kunnen zijn om een dialoogvakje tot stand te brengen om van de logoweg een dynamisch bevolkte waarde te maken.
 
@@ -308,7 +308,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
    </div>
    ```
 
-   De **bewerken** Opmaak voor de Postercomponent wordt direct boven weergegeven. Het HTML-script overschrijft `/libs/screens/core/components/content/image/edit.html`. De markering is vergelijkbaar met de `production.html` en geeft de titel en beschrijving boven op de afbeelding weer.
+   De **bewerken** Opmaak voor de postercomponent wordt direct boven weergegeven. Het HTML-script overschrijft `/libs/screens/core/components/content/image/edit.html`. De markering is vergelijkbaar met de `production.html` en geeft de titel en beschrijving boven op de afbeelding weer.
 
    De `aem-Screens-editWrapper`wordt toegevoegd zodat de component niet volledig-scherm in de redacteur wordt teruggegeven. De `data-emptytext` zorgt ervoor dat een plaatsaanduiding wordt weergegeven wanneer er geen afbeelding of inhoud is gevuld.
 
@@ -337,9 +337,9 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
 
    Eigenschappen voor /apps/weretail-run/components/content/poster/clientlibs/shared
 
-   De `categories` eigenschap is een tekenreeks die de clientbibliotheek identificeert. De `cq.screens.components` Deze categorie wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom zijn er CSS/JS-definities in de `shared` clientlib wordt in alle modi geladen.
+   De `categories` eigenschap is een tekenreeks die de clientbibliotheek identificeert. De `cq.screens.components` Deze categorie wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom zijn alle CSS/JS die zijn gedefinieerd in de `shared` clientlib wordt in alle modi geladen.
 
-   Het is aan te raden geen paden in een productieomgeving rechtstreeks toegankelijk te maken voor /apps. De `allowProxy` zorgt ervoor dat in de clientbibliotheek naar de CSS- en JS-indeling wordt verwezen door een voorvoegsel van `/etc.clientlibs`. Meer informatie over de [allowProxy eigenschap is hier te vinden.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   U kunt paden het beste nooit rechtstreeks toegankelijk maken voor `/apps` in een productieomgeving. De `allowProxy` zorgt ervoor dat er wordt verwezen naar de CSS- en JS-clientbibliotheek via een voorvoegsel van `/etc.clientlibs`. Meer informatie over de [allowProxy eigenschap is hier te vinden.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Bestandsnaam maken `css.txt` onder de gedeelde map.
 
@@ -362,7 +362,7 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less
-    Poster Component - Shared Style
+    Poster component - Shared Style
    */
    
    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400i');
@@ -431,7 +431,7 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less
-    Poster Component - Production Style
+    Poster component - Production Style
    */
    
    .cmp-poster {
@@ -489,11 +489,11 @@ Een derde categorie voor clientbibliotheken: `cq.screens.components.edit` kan wo
 | `cq.screens.components.edit` | Stijlen en scripts die alleen worden gebruikt in de bewerkingsmodus |
 | `cq.screens.components.production` | Stijlen en scripts die alleen in de productiemodus worden gebruikt |
 
-## Postercomponent toevoegen aan een volgend kanaal {#add-sequence-channel}
+## Postercomponent aan een kanaal van de Reeks toevoegen {#add-sequence-channel}
 
-De component Poster wordt gebruikt op een Kanaal van de Opeenvolging. Het startpakket voor deze zelfstudie bevatte een onactief kanaal. Het onactieve kanaal is vooraf geconfigureerd om componenten van de groep toe te staan **`We.Retail Run - Content`**. De groep van de component Poster wordt ingesteld op `We.Retail Run - Content` en is beschikbaar om aan het kanaal te worden toegevoegd.
+De component Poster wordt gebruikt op een kanaal van de Opeenvolging. Het startpakket voor deze zelfstudie bevatte een inactief kanaal. Het nutteloze kanaal wordt pre-gevormd om componenten van de groep toe te staan **`We.Retail Run - Content`**. De groep van de component Poster wordt ingesteld op `We.Retail Run - Content` en is beschikbaar om aan het kanaal te worden toegevoegd.
 
-1. Open het onactieve kanaal via het `We.Retail` Project uitvoeren: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. Het onactieve kanaal openen via het `We.Retail` Project uitvoeren: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Sleep + zet een nieuwe instantie van het gereedschap **Poster** van de zijbalk op de pagina.
 
    ![2018-05-07_23:00](assets/2018-05-07_at_3_23pm.png)
