@@ -1,5 +1,5 @@
 ---
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 0f3a2cb6deacd0a81db8f0dc2b1554e7506aaf17
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -90,3 +90,4 @@ Probeer zo veel mogelijk directe verwijzingen naar een specifieke versie in de d
 Verwijs in een artikel altijd naar het product met de volledige naam **Adobe Experience Manager** de eerste keer dat het wordt gebruikt. Daarna kan worden verwezen naar **AEM**.
 
 De software van de dag, de Dag, CQ, en CRX zouden niet moeten worden gebruikt behalve waar onvermijdbaar zoals in klassennamen of verwijzend naar de geschiedenis van AEM.
+
