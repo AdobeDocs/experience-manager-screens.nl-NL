@@ -8,9 +8,9 @@ user-guide-description: Leer hoe u een Digital Signage-oplossing kunt gebruiken 
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '522'
 ht-degree: 5%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 5%
       + [Duur van afspelen van bulkafbeelding op kanaalniveau](channel-level-image-playback.md)
       + [Opdrachtsynchronisatie](using-command-sync.md)
       + [Authoring met gegevenstriggers](authoring-data-triggers.md)
+      + [Tags gebruiken](tagging.md)
       + [Spraakherkenning](voice-recognition.md)
       + [Rapport Inhoudstoewijzing](content-assignment-report.md)
       + [Ondersteuning van miniaturen voor video&#39;s](thumbnail-support.md)
