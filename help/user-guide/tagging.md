@@ -3,9 +3,9 @@ title: Tags toevoegen op de cloud
 description: Op deze pagina wordt beschreven hoe tags kunnen worden gemaakt, beheerd en gebruikt in de cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 6c59d86d7c2224994686320381632b9150287fca
+source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De gebruiker kan labels maken op de Cloud voor schermen en deze gebruiken om wee
 
 ## Tags maken en beheren {#create-and-manage-tags}
 
-![Label voor maken van VIDEO](assets/tagging/create-tag.mp4).
+![tag maken](assets/tagging/create-tag.gif).
 
 Gebruik hetzelfde actiemenu om de naam van een tag te wijzigen of om deze te verwijderen.
 
@@ -35,13 +35,13 @@ Gebruik hetzelfde actiemenu om de naam van een tag te wijzigen of om deze te ver
 
 Gebruik de gemaakte labels voor beeldschermen en afspeelapparatuur. U kunt er een labelen met maximaal 30 tags.
 
-![Toewijzingen van tags door VIDEO beheren](assets/tagging/assign-tags-to-players.mp4).
+![Tagtoewijzingen beheren](assets/tagging/assign-tags-to-players.gif).
 
 ## Filteren op labels {#filter-by-tags}
 
 Selecteer labels om de lijst met weergaven of spelers te filteren.
 
-![VIDEO-filter op tags](assets/tagging/filter-by-tags.mp4).
+![filteren op tags](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
