@@ -1,16 +1,16 @@
 ---
-title: Tags toevoegen op de cloud
-description: Op deze pagina wordt beschreven hoe tags kunnen worden gemaakt, beheerd en gebruikt in de cloud.
+title: Tags toevoegen op Screens Cloud
+description: Op deze pagina wordt beschreven hoe tags kunnen worden gemaakt, beheerd en gebruikt op Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Tags toevoegen op de cloud {#tagging-on-Screens-Cloud}
+# Tags toevoegen op Screens Cloud {#tagging-on-Screens-Cloud}
 
 >[!CAUTION]
 >
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Inleiding {#introduction}
 
-De gebruiker kan labels maken op de Cloud voor schermen en deze gebruiken om weergaven en spelers te classificeren.
+Gebruiker kan tags maken op Screens Cloud en deze gebruiken om weergaven en spelers te classificeren.
 
 ## Tags maken en beheren {#create-and-manage-tags}
 
@@ -49,5 +49,5 @@ Selecteer labels om de lijst met weergaven of spelers te filteren.
 
 >[!NOTE]
 > 
-> Tags die zijn gedefinieerd in de schermcloud, zijn niet gerelateerd aan of gesynchroniseerd met tags die zijn gedefinieerd in AEM.
+> Labels die zijn gedefinieerd op Screens Cloud, zijn niet gerelateerd aan of gesynchroniseerd met tags die zijn gedefinieerd in AEM.
 > 

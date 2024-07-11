@@ -1,6 +1,6 @@
 ---
 title: Android&trade implementeren; Player
-description: Leer meer over de implementatie van Android&trade; Watchdog, een oplossing waarmee u de Android&trade kunt herstellen; speler tegen vastlopen.
+description: Leer over de implementatie van Android&trade; Watchdog, een oplossing waarmee u de Android&trade kunt herstellen; speler tegen vastlopen.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
 
 ---
 
-# Android™-speler implementeren {#implementing-android-player}
+# Android™ Player implementeren {#implementing-android-player}
 
 In deze sectie wordt beschreven hoe u de Android™-speler configureert. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
 
@@ -50,7 +50,7 @@ Voer de onderstaande stappen uit:
 
 ### Ad hoc-methode {#ad-hoc-method}
 
-Met de ad-hocmethode kunt u de nieuwste Android™-speler installeren (*.exe*). Ga naar [**AEM 6.5 Player-downloads**](https://download.macromedia.com/screens/) pagina.
+Met de ad-hocmethode kunt u de nieuwste Android™ Player installeren (*.exe*). Ga naar [**AEM 6.5 Player-downloads**](https://download.macromedia.com/screens/) pagina.
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
@@ -65,13 +65,13 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 >
 >Als de **Staat** is **ONGEREGISTREERD**, kunt u de **Token** om het apparaat te registreren.
 
-## Android™-waakhond implementeren {#implementing-android-watchdog}
+## Android™ Watchdog implementeren {#implementing-android-watchdog}
 
 Vanwege de architectuur van Android™ vereist het opnieuw opstarten van het apparaat dat de toepassing systeemrechten heeft. Onderteken de apk met de ondertekeningssleutels van de fabrikant, anders kan de waakhond de spelertoepassing opnieuw starten en het apparaat niet opnieuw opstarten.
 
-### Handtekening van Android™ `apks` met productiesleutels {#signage-of-android-apks-using-manufacturer-keys}
+### Android™-signaal `apks` met productiesleutels {#signage-of-android-apks-using-manufacturer-keys}
 
-Sommige geprivilegieerde API&#39;s van Android™ openen, zoals *PowerManager* of *HDMIControlServices*, ondertekent u Android™ `apk` met de sleutels van de fabrikant.
+Sommige geprivilegieerde API&#39;s van Android™ openen, zoals *PowerManager* of *HDMIControlServices*, ondertekent u de Android™ `apk` met de sleutels van de fabrikant.
 
 >[!CAUTION]
 >
@@ -79,20 +79,20 @@ Sommige geprivilegieerde API&#39;s van Android™ openen, zoals *PowerManager* o
 >
 >De SDK van Android™ moet geïnstalleerd zijn voordat u de volgende stappen uitvoert.
 
-Volg de onderstaande stappen om de Android™-apk te ondertekenen met de toetsen van de fabrikant:
+Volg de onderstaande stappen om de Android™ apk te ondertekenen met de toetsen van de fabrikant:
 
 1. Download de app van Google Play of van de [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/) page
 1. Vraag de platformtoetsen aan bij de fabrikant zodat u een *pk8* en *peperen* file
 
-1. Zoek de `apksigner` -gereedschap in de Android™ SDK met behulp van zoeken `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Zoek de `apksigner` in de Android™ SDK met behulp van zoeken `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Het pad naar het gereedschap ZIP-uitlijning zoeken in de Android™ SDK
+1. Het pad naar het ZIP-uitlijngereedschap in de Android™ SDK zoeken
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Installeren ***aemscreensalign.apk*** adb-installatie gebruiken op het apparaat
 
 ## Android™ Watchdog Services {#android-watchdog-services}
 
-De cross-Android-waakhond-service wordt geïmplementeerd als een Cordova-plug-in met *AlarmManager*.
+De Android™-waakhond-service wordt geïmplementeerd als een Cordova-plug-in met *AlarmManager*.
 
 Het volgende diagram toont de implementatie van de waakhonddienst:
 
@@ -115,7 +115,7 @@ Wanneer u de Android™-speler bulksgewijs implementeert, moet u de speler de mo
 >[!NOTE]
 >Deze functie is beschikbaar in Android™ Player 42.0.372.
 
-Voer de onderstaande stappen uit om bulkprovisioning in de Android™-speler toe te staan:
+Volg de onderstaande stappen om bulkprovisioning in de Android™-speler toe te staan:
 
 1. Een JSON-configuratiebestand met de naam maken `player-config.default.json`.
 Zie een [Voorbeeld JSON-beleid](#example-json) en een tabel waarin de verschillende [Beleidskenmerken](#policy-attributes).
@@ -170,13 +170,13 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 >[!NOTE]
 >Alle Android™-apparaten hebben een `*sdcard*` map of een werkelijke map is `*sdcard*` wordt ingevoegd of niet. Dit bestand wordt tijdens de implementatie op hetzelfde niveau geplaatst als de map Downloads. Sommige MDM&#39;s, zoals Samsung Knox, kunnen dit zien *sdcard* maplocatie als *Interne opslag*.
 
-## Bulkprovisioning van Android™ Player via Enterprise Mobility Management {#bulk-provisioning}
+## Bulkprovisioning van Android™ Player met gebruik van Enterprise Mobility Management {#bulk-provisioning}
 
 Wanneer u de Android™-speler bulksgewijs inzet, wordt het vervelend om elke speler handmatig te registreren bij AEM. Gebruik een EMM-oplossing (Enterprise Mobility Management), zoals [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron of Samsung Knox zodat u uw implementatie op afstand kunt instellen en beheren. AEM Screens Android™-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
 
-## Android™-speler hernoemen {#name-android}
+## Namen van Android™ Player {#name-android}
 
-U kunt een gebruikersvriendelijke apparaatnaam toewijzen aan uw Android™-speler en zo de toegewezen apparaatnaam naar AEM (Adobe Experience Manager) verzenden. Met deze functie kunt u niet alleen uw Android™-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
+U kunt een gebruikersvriendelijke apparaatnaam aan uw Android™-speler toewijzen en zo de toegewezen apparaatnaam naar AEM (Adobe Experience Manager) verzenden. Met deze functie kunt u niet alleen uw Android™-speler een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
 
 >[!NOTE]
 >U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Speler wordt geregistreerd, kan de naam van de Speler niet meer worden veranderd.
@@ -184,14 +184,14 @@ U kunt een gebruikersvriendelijke apparaatnaam toewijzen aan uw Android™-spele
 Voer de onderstaande stappen uit om de naam in de Android™-speler te configureren:
 
 1. Navigeren naar **instellingen** > **Apparaat**
-1. De naam van uw apparaat bewerken en instellen als naam voor uw Android™-speler
+1. Geef uw apparatennaam uit en plaats uw Android™ speler te noemen
 
-### Bulkprovisioning van Android™ Player implementeren met behulp van Enterprise Mobility Management {#implementation}
+### Bulkprovisioning van Android™ Player implementeren met gebruik van Enterprise Mobility Management {#implementation}
 
 Voer de onderstaande stappen uit om bulkprovisioning in Android™ Player toe te staan:
 
-1. Zorg ervoor dat uw Android™-apparaat Google Play-services ondersteunt.
-1. U kunt uw Android™-spelerapparaten inschrijven met uw favoriete EMM-oplossing die AppConfig ondersteunt.
+1. Zorg ervoor dat uw Android™-apparaat ondersteuning biedt voor Google Play-services.
+1. Schrijf uw Android™-spelerapparaten in met uw favoriete EMM-oplossing die AppConfig ondersteunt.
 1. Meld u aan bij uw EMM-console en haalt de AEM Screens Player-toepassing uit Google Play.
 1. Klik op de beheerde configuratie of verwante optie.
 1. Er wordt nu een lijst weergegeven met speleropties die kunnen worden geconfigureerd, zoals server- en bulkregistratiecode.
@@ -202,6 +202,6 @@ Voer de onderstaande stappen uit om bulkprovisioning in Android™ Player toe te
 
 Raadpleeg ook uw leverancier van EMM op AppConfig-ondersteuning. Meest populaire zoals [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), en [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) deze industriestandaard wordt onder meer ondersteund .
 
-### De afstandsbediening voor schermen gebruiken {#using-remote-control}
+### De afstandsbediening van Screens gebruiken {#using-remote-control}
 
-AEM Screens biedt functionaliteit voor afstandsbediening. Meer informatie over deze functie vindt u hier: [Schermen afstandsbediening](implementing-remote-control.md)
+AEM Screens biedt functionaliteit voor afstandsbediening. Meer informatie over deze functie vindt u hier: [Screens-afstandsbediening](implementing-remote-control.md)
