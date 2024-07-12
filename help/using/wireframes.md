@@ -24,11 +24,11 @@ Dit proces wordt toegepast op:
 
 Dit helpt het project van de prototypefase dichter naar de daadwerkelijke plaatsingsfase te bewegen.
 
-Van een **Weergave Niveau van element**kunt u het beste draadframes maken die verschillende opties voor de inhoudslay-out en inhoudgroepen definiëren. Zo kunt u definiëren hoe meerdere inhoud eruit kan zien wanneer deze als een groep wordt samengesteld.
+Van een **mening van het Niveau van Activa**, zou u draadframes moeten creëren die diverse opties van de inhoudslay-out en inhoudsgroepen bepalen. Zo kunt u definiëren hoe meerdere inhoud eruit kan zien wanneer deze als een groep wordt samengesteld.
 In deze activiteit worden doorgaans afbeeldingen, afbeeldingen en video&#39;s die klaar zijn voor productie gebruikt.
 
-Van een **Weergave Kanaalniveau**, dient u draadframes te maken die aangeven hoe kanalen met inhoud aan elkaar worden gekoppeld in de algemene ervaring, inclusief afspeelstrategieën voor ingesloten kanalen. U kunt ook kanaalovergangen controleren die kunnen optreden als gegevenstriggers zijn ingeschakeld.
+Van de mening van het Niveau van het a **Kanaal**, zou u draadframes moeten creëren die tonen hoe de kanalen van inhoud samen in de algemene ervaring, met inbegrip van playbackstrategieën voor ingebedde kanalen verbonden zijn. U kunt ook kanaalovergangen controleren die kunnen optreden als gegevenstriggers zijn ingeschakeld.
 
-Op een **Projectniveau**, kunt u beginnen te modelleren hoe de veelvoudige schermen of ervaringen in een fysieke ruimte kunnen samenwerken om een volledige multi-touchpoint gebruikersreis te verstrekken.
+Op a **Niveau van het Project**, kunt u beginnen te modelleren hoe de veelvoudige schermen of de ervaringen in een fysieke ruimte kunnen samenwerken om een volledige multi-touchpoint gebruikersreis te verstrekken.
 
 Deze strategieën moeten worden afgestemd op de eerder gemaakte UX-reiskaart.

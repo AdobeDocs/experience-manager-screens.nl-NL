@@ -15,13 +15,13 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202204 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor het AEM 6.3 Screens-platform.
 
 ## Beschikbaarheid {#availability}
 
 AEM Screens heeft AEM 6.5 Feature Pack 11 uitgebracht.
 
-U kunt de nieuwste versie van het Feature Pack voor de AEM Screens 6.5.11 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Ga naar de **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste elementenpakket met de titel **AEM 6.5 Schermen FP11**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.11 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP11**.
 
 ## Releasedatum {#release-date}
 
@@ -35,13 +35,13 @@ De releasedatum voor AEM Screens Feature Pack 202204 is 26 april 2022.
 
 * Het richten/personaliseren werkte niet. Deze bug is nu opgelost.
 
-* Screens monitoring email werkte niet na FP10. Deze bug is nu opgelost.
+* Het e-mailadres voor Screens-controle werkte niet na FP10. Deze bug is nu opgelost.
 
 * De Speler van Vensters liep vast toen het nemen van een het schermschot in portretwijze. Deze bug is nu opgelost.
 
-* Het kanaal van het SPA van de Schermen veroorzaakte een wit scherm met de Speler van Vensters. Deze bug is nu opgelost.
+* Het Screens-SPA veroorzaakte een wit scherm met Windows Player. Deze bug is nu opgelost.
 
-* De parameter wcmmode is verwijderd uit alle schermverzoeken op de publicatie-instantie.
+* De parameter wcmmode is verwijderd uit alle Screens-aanvragen voor de publicatie-instantie.
 
 * De Player Activity UI werkt nu zoals verwacht.
 
@@ -59,4 +59,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 11 van de Ei
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/index.html)**.

@@ -1,6 +1,6 @@
 ---
-title: Android&trade implementeren; Player
-description: Leer over de implementatie van Android&trade; Watchdog, een oplossing waarmee u de Android&trade kunt herstellen; speler tegen vastlopen.
+title: Android&amp implementeren;trade; Player
+description: Leer over de implementatie van Android&trade; Watchdog, een oplossing waarmee u de Android&amp kunt herstellen;trade; player van crashes.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -21,57 +21,57 @@ ht-degree: 0%
 
 In deze sectie wordt beschreven hoe u de Android™-speler configureert. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
 
-Ook, **Watchdog** is een oplossing om de speler te herstellen van vastlopen. Een toepassing moet zich bij de waakhond dienst registreren en dan periodiek berichten naar de dienst verzenden dat het leeft. Als de waakhonddienst niet een bewaarde bericht binnen een bepaalde tijd ontvangt, probeert de dienst om het apparaat opnieuw op te starten. Dit gebeurt voor een schone terugwinning (als het de voldoende voorrechten heeft) of herstart de toepassing.
+Ook, **Watchdog** is een oplossing om de speler van neerstortingen terug te krijgen. Een toepassing moet zich bij de waakhond dienst registreren en dan periodiek berichten naar de dienst verzenden dat het leeft. Als de waakhonddienst niet een bewaarde bericht binnen een bepaalde tijd ontvangt, probeert de dienst om het apparaat opnieuw op te starten. Dit gebeurt voor een schone terugwinning (als het de voldoende voorrechten heeft) of herstart de toepassing.
 
 ## Android™ Player installeren {#installing-android-player}
 
 Installeer Android™ Player voor AEM Screens om Android™ Player voor AEM Screens te implementeren.
 
-Ga naar [**AEM 6.5 Player-downloads**](https://download.macromedia.com/screens/) pagina.
+Bezoek [**AEM 6.5 de Downloads van de Speler** ](https://download.macromedia.com/screens/) pagina.
 
 ### De Milieu van de vestiging voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
 >Stel een omgeving in voor de Android™-speler als u AEM Screens 6.5.5 Service Pack gebruikt.
 
-Stel de **SameSite-kenmerk voor de cookies met het token** van **Lax** tot **Geen** van **Configuratie Adobe Experience Manager-webconsole** op alle AEM auteur- en publicatieinstanties.
+Plaats het **attribuut SameSite voor de login-symbolische koekjes** van **Lax** aan **niets** van **Configuratie van de Console van Adobe Experience Manager van** op alle AEM auteur en publiceer instanties.
 
 Voer de onderstaande stappen uit:
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** gebruiken `http://localhost:4502/system/console/configMgr`.
+1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** gebruikend `http://localhost:4502/system/console/configMgr`.
 
-1. Zoeken naar *Adobe Granite Token Authentication Handler*.
+1. Onderzoek naar *de manager van de Authentificatie van het Symbolische van de Adobe Granite*.
 
-1. Stel de **SameSite-kenmerk voor de cookies met het token** van **Lax** tot **Geen**.
+1. Plaats het **attribuut SameSite voor de login-symbolische koekjes** van **Lax** aan **niets**.
    ![afbeelding](/help/user-guide/assets/granite-updates.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
 ### Ad hoc-methode {#ad-hoc-method}
 
-Met de ad-hocmethode kunt u de nieuwste Android™ Player installeren (*.exe*). Ga naar [**AEM 6.5 Player-downloads**](https://download.macromedia.com/screens/) pagina.
+De ad hoc methode laat u de recentste Speler Android™ (*.exe*) installeren. Bezoek [**AEM 6.5 de Downloads van de Speler** ](https://download.macromedia.com/screens/) pagina.
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeren naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u met en klikt **Opslaan**.
+1. Navigeer aan **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u met wilt verbinden en **klikken sparen**.
 
-1. Ga naar de **Apparaat** **Registratie** van het linkeractiemenu zodat kunt u de status van het proces van de apparatenregistratie controleren.
+1. Navigeer aan het **Apparaat** **verbinding van de Registratie** van het linkeractiemenu zodat kunt u de status van het proces van de apparatenregistratie controleren.
 
 >[!NOTE]
 >
->Als de **Staat** is **GEREGISTREERD**, kunt u zien dat de **Apparaat-id** veld is gevuld.
+>Als de **Staat** **GEREGISTREERD** is, kunt u zien dat het **identiteitskaart van het Apparaat** gebied bevolkt is.
 >
->Als de **Staat** is **ONGEREGISTREERD**, kunt u de **Token** om het apparaat te registreren.
+>Als de **Staat** **ONGEREGISTREERD** is, kunt u het **Symbolische** gebruiken om het apparaat te registreren.
 
 ## Android™ Watchdog implementeren {#implementing-android-watchdog}
 
 Vanwege de architectuur van Android™ vereist het opnieuw opstarten van het apparaat dat de toepassing systeemrechten heeft. Onderteken de apk met de ondertekeningssleutels van de fabrikant, anders kan de waakhond de spelertoepassing opnieuw starten en het apparaat niet opnieuw opstarten.
 
-### Android™-signaal `apks` met productiesleutels {#signage-of-android-apks-using-manufacturer-keys}
+### Android™ ondertekenen `apks` met behulp van fabriekssleutels {#signage-of-android-apks-using-manufacturer-keys}
 
-Sommige geprivilegieerde API&#39;s van Android™ openen, zoals *PowerManager* of *HDMIControlServices*, ondertekent u de Android™ `apk` met de sleutels van de fabrikant.
+Om tot enkele bevoorrechte APIs van Android™ zoals *PowerManager* of *HDMIControlServices* toegang te hebben, teken Android™ `apk` gebruikend de sleutels van de fabrikant.
 
 >[!CAUTION]
 >
@@ -81,32 +81,32 @@ Sommige geprivilegieerde API&#39;s van Android™ openen, zoals *PowerManager* o
 
 Volg de onderstaande stappen om de Android™ apk te ondertekenen met de toetsen van de fabrikant:
 
-1. Download de app van Google Play of van de [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/) page
-1. Vraag de platformtoetsen aan bij de fabrikant zodat u een *pk8* en *peperen* file
+1. Download apk van Google Play of van de [ downloadt van de Speler van AEM Screens ](https://download.macromedia.com/screens/) pagina
+1. Verkrijg de platformsleutels van de fabrikant zodat kunt u a *pk8* en a *krijgen pem* dossier
 
-1. Zoek de `apksigner` in de Android™ SDK met behulp van zoeken `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Zoek het gereedschap `apksigner` in de Android™ SDK met behulp van Zoeken `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
 1. Het pad naar het ZIP-uitlijngereedschap in de Android™ SDK zoeken
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
-1. Installeren ***aemscreensalign.apk*** adb-installatie gebruiken op het apparaat
+1. Installeer ***aemscreensalign.apk*** gebruikend adb installeert aan het apparaat
 
 ## Android™ Watchdog Services {#android-watchdog-services}
 
-De Android™-waakhond-service wordt geïmplementeerd als een Cordova-plug-in met *AlarmManager*.
+De dwars-Android™ waakhond dienst wordt uitgevoerd als stop Cordova gebruikend *AlarmManager*.
 
 Het volgende diagram toont de implementatie van de waakhonddienst:
 
-![chlimage_1-31](assets/chlimage_1-31.png)
+![ chlimage_1-31 ](assets/chlimage_1-31.png)
 
-**1. Initialisatie** - Op het moment van initialisatie van de Cordova-plug-in worden de machtigingen gecontroleerd om te controleren of u systeemrechten hebt en dus of u de machtiging Opnieuw opstarten hebt. Als aan deze twee criteria wordt voldaan, wordt een hangende Intent voor Reboot gecreeerd, anders wordt een hangende Intent om de toepassing (die op zijn Activiteit van de Lancering wordt gebaseerd) opnieuw te beginnen gecreeerd.
+**1. Initialisatie** - op het tijdstip van initialisatie van de insteekmodule Cordova, worden de toestemmingen gecontroleerd om te zien of hebt u systeemvoorrechten en zo Reboot toestemming. Als aan deze twee criteria wordt voldaan, wordt een hangende Intent voor Reboot gecreeerd, anders wordt een hangende Intent om de toepassing (die op zijn Activiteit van de Lancering wordt gebaseerd) opnieuw te beginnen gecreeerd.
 
-**2. Alive Timer behouden** - De timer &#39;keep live&#39; wordt gebruikt om een gebeurtenis om de 15 seconden te activeren. In dat geval annuleert u de bestaande in behandeling zijnde intent (om de app opnieuw op te starten of te starten) en registreert u in de toekomst een nieuwe in behandeling zijnde intent gedurende dezelfde 60 seconden (waarmee de reboot wordt uitgesteld).
+**2. Levende Tijdopnemer van het Levensonderhoud** - een houdt levende tijdopnemer wordt gebruikt om een gebeurtenis om de 15 seconden teweeg te brengen. In dat geval annuleert u de bestaande in behandeling zijnde intent (om de app opnieuw op te starten of te starten) en registreert u in de toekomst een nieuwe in behandeling zijnde intent gedurende dezelfde 60 seconden (waarmee de reboot wordt uitgesteld).
 
 >[!NOTE]
 >
->In Android™ *AlarmManager* wordt gebruikt om de *pendingIntents* die kan worden uitgevoerd, zelfs als de app is vastgelopen en de alarmlevering niet exact is vastgelegd in API 19 (Kitkat). Tussenruimte tussen het interval van de timer en het *AlarmManager&#39;s* *pendingIntent* alarm.
+>In Android™, wordt *AlarmManager* gebruikt om *pendingIntents* te registreren die kan uitvoeren zelfs als app is vastgelopen en zijn alarmlevering is onnauwkeurig van API 19 (Kitkat). Behoud wat het uit elkaar plaatsen tussen het interval van de tijdopnemer en het ** alarm van AlarmManager in afwachting vanIntent *.*
 
-**3. Toepassing vastloopt** - Als er een crash optreedt, wordt de in AlarmManager geregistreerde pendingIntent voor Reboot niet meer opnieuw ingesteld. Daarom wordt de toepassing opnieuw opgestart of opnieuw opgestart (afhankelijk van de machtigingen die beschikbaar zijn op het moment dat de Cordova-plug-in wordt geïnitialiseerd).
+**3. Toepassing loopt vast** - als er een crash is, wordt pendingIntent voor Reboot geregistreerd met AlarmManager niet meer teruggesteld. Daarom wordt de toepassing opnieuw opgestart of opnieuw opgestart (afhankelijk van de machtigingen die beschikbaar zijn op het moment dat de Cordova-plug-in wordt geïnitialiseerd).
 
 ## Bulkprovisioning van Android™ Player {#bulk-provision-android-player}
 
@@ -117,29 +117,29 @@ Wanneer u de Android™-speler bulksgewijs implementeert, moet u de speler de mo
 
 Volg de onderstaande stappen om bulkprovisioning in de Android™-speler toe te staan:
 
-1. Een JSON-configuratiebestand met de naam maken `player-config.default.json`.
-Zie een [Voorbeeld JSON-beleid](#example-json) en een tabel waarin de verschillende [Beleidskenmerken](#policy-attributes).
+1. Maak een configuratie-JSON-bestand met de naam `player-config.default.json` .
+Zie een [ Beleid JSON van het Voorbeeld ](#example-json) en een lijst die het gebruik van de diverse [ Attributen van het Beleid ](#policy-attributes) beschrijft.
 
-1. Gebruik een MDM- of ADB- of Android™ Studio-bestandsverkenner om dit beleid-JSON-bestand naar de *sdcard* op het Android™-apparaat.
+1. Gebruik een MDM of ADB of Android™ Studio dossierontdekkingsreiziger om dit beleidJSON dossier aan de *sdcard* omslag op het Android™ apparaat te laten vallen.
 
 1. Wanneer het dossier wordt opgesteld, gebruik MDM om de spelertoepassing te installeren.
 
 1. Wanneer de spelertoepassing begint, wordt dit configuratiedossier gelezen en richt aan de toepasselijke AEM server waar het wordt geregistreerd en dan gecontroleerd.
 
    >[!NOTE]
-   >Dit bestand is *alleen-lezen* de eerste keer dat de toepassing wordt gestart en niet kan worden gebruikt voor volgende configuraties. Als de speler wordt gestart voordat het configuratiebestand wordt neergezet, verwijdert u de toepassing gewoon en installeert u deze opnieuw op het apparaat.
+   >Dit dossier is *leest slechts* de eerste keer dat de toepassing wordt gelanceerd en niet voor verdere configuraties kan worden gebruikt. Als de speler wordt gestart voordat het configuratiebestand wordt neergezet, verwijdert u de toepassing gewoon en installeert u deze opnieuw op het apparaat.
 
 ### Beleidskenmerken {#policy-attributes}
 
 De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verwijzing samen:
 
-| **Beleidsnaam** | **Doel** |
+| **Naam van het Beleid** | **Doel** |
 |---|---|
 | *server* | De URL naar de Adobe Experience Manager-server. |
 | *resolutie* | De resolutie van het apparaat. |
 | *rebootSchedule* | Het programma voor opnieuw opstarten is van toepassing op alle platforms. |
-| *enableAdminUI* | Schakel de interface van Admin in om het apparaat op de site te configureren. Instellen op *false* zodra het volledig is geconfigureerd en in productie is. |
-| *enableOSD* | Schakel de interface van de kanaalschakelaar voor gebruikers in om naar een ander kanaal op het apparaat te gaan. Stel deze in op *false* nadat het volledig is geconfigureerd en in productie is. |
+| *enableAdminUI* | Schakel de interface van Admin in om het apparaat op de site te configureren. Reeks aan *vals* zodra het volledig en in productie wordt gevormd. |
+| *enableOSD* | Schakel de interface van de kanaalschakelaar voor gebruikers in om naar een ander kanaal op het apparaat te gaan. Overweeg het plaatsen van het aan *vals* nadat het volledig en in productie wordt gevormd. |
 | *enableActivityUI* | Schakel deze optie in als u de voortgang wilt weergeven van activiteiten zoals downloaden en synchroniseren. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
 | *enableNativeVideo* | Schakel deze optie in als u native hardwareversnelling wilt gebruiken voor het afspelen van video (alleen Android™). |
 
@@ -168,11 +168,11 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 ```
 
 >[!NOTE]
->Alle Android™-apparaten hebben een `*sdcard*` map of een werkelijke map is `*sdcard*` wordt ingevoegd of niet. Dit bestand wordt tijdens de implementatie op hetzelfde niveau geplaatst als de map Downloads. Sommige MDM&#39;s, zoals Samsung Knox, kunnen dit zien *sdcard* maplocatie als *Interne opslag*.
+>Alle Android™-apparaten hebben een `*sdcard*` -map, ongeacht of een actuele `*sdcard*` is ingevoegd of niet. Dit bestand wordt tijdens de implementatie op hetzelfde niveau geplaatst als de map Downloads. Sommige MDMs, zoals Knox Samsung, kan deze *sdcard* omslagplaats als *Interne opslag* zien.
 
 ## Bulkprovisioning van Android™ Player met gebruik van Enterprise Mobility Management {#bulk-provisioning}
 
-Wanneer u de Android™-speler bulksgewijs inzet, wordt het vervelend om elke speler handmatig te registreren bij AEM. Gebruik een EMM-oplossing (Enterprise Mobility Management), zoals [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron of Samsung Knox zodat u uw implementatie op afstand kunt instellen en beheren. AEM Screens Android™-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
+Wanneer u de Android™-speler bulksgewijs inzet, wordt het vervelend om elke speler handmatig te registreren bij AEM. Gebruik een EMM-oplossing (Enterprise Mobility Management), zoals [`VMWare Airwatch` ](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm) , MobileIron of Samsung Knox, zodat u uw implementatie op afstand kunt voorzien en beheren. AEM Screens Android™-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
 
 ## Namen van Android™ Player {#name-android}
 
@@ -183,7 +183,7 @@ U kunt een gebruikersvriendelijke apparaatnaam aan uw Android™-speler toewijze
 
 Voer de onderstaande stappen uit om de naam in de Android™-speler te configureren:
 
-1. Navigeren naar **instellingen** > **Apparaat**
+1. Navigeer aan **montages** > **Ongeveer apparaat**
 1. Geef uw apparatennaam uit en plaats uw Android™ speler te noemen
 
 ### Bulkprovisioning van Android™ Player implementeren met gebruik van Enterprise Mobility Management {#implementation}
@@ -200,8 +200,8 @@ Voer de onderstaande stappen uit om bulkprovisioning in Android™ Player toe te
    >[!NOTE]
    >De apparaten zouden de toepassing samen met de configuratie moeten ontvangen. Het zou aan de correcte AEM server met de geselecteerde configuratie moeten richten. Als u ervoor hebt gekozen de bulkregistratiecode te configureren en deze op dezelfde wijze te handhaven als in AEM is geconfigureerd, moet de speler zichzelf automatisch kunnen registreren. Als u een standaardweergave hebt geconfigureerd, kan deze ook standaardinhoud downloaden en weergeven (die later naar wens kan worden gewijzigd).
 
-Raadpleeg ook uw leverancier van EMM op AppConfig-ondersteuning. Meest populaire zoals [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), en [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) deze industriestandaard wordt onder meer ondersteund .
+Raadpleeg ook uw leverancier van EMM op AppConfig-ondersteuning. De populairste degenen zoals [`VMWare Airwatch` ](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron` ](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI` ](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM` ](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360` ](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), en [`Samsung Knox` ](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) onder anderen steunen deze industriestandaard.
 
 ### De afstandsbediening van Screens gebruiken {#using-remote-control}
 
-AEM Screens biedt functionaliteit voor afstandsbediening. Meer informatie over deze functie vindt u hier: [Screens-afstandsbediening](implementing-remote-control.md)
+AEM Screens biedt functionaliteit voor afstandsbediening. Leer meer over deze eigenschap hier: [ de Verre Controle van Screens ](implementing-remote-control.md)

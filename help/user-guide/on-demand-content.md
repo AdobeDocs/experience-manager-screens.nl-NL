@@ -17,7 +17,7 @@ ht-degree: 0%
 
 In deze sectie wordt on-demand-inhoud voor het beheer van publicaties beschreven.
 
-## Publicatie beheren: Inhoudsupdates leveren van auteur naar apparaat voor publicatie {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
+## Publicatie beheren: Inhoudsupdates leveren van auteur naar Publish naar apparaat {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
 U kunt inhoud vanuit AEM Screens publiceren en de publicatie ervan ongedaan maken. Met de functie Publicatie beheren kunt u inhoud-updates van de auteur leveren en op het apparaat publiceren. U kunt inhoud publiceren/unpublish voor uw volledige AEM Screens-project of slechts voor één van uw kanalen, plaats, apparaat, toepassing, of een programma.
 
@@ -26,27 +26,27 @@ U kunt inhoud vanuit AEM Screens publiceren en de publicatie ervan ongedaan make
 Voer de onderstaande stappen uit om inhoud te updaten van auteur tot uitgever naar apparaat voor een AEM Screens-project:
 
 1. Ga naar uw AEM Screens-project.
-1. Klikken **Publicatie beheren** van de actiebar zodat kunt u het project aan uw publiceren instantie.
+1. Klik **leiden Publicatie** van de actiebar zodat kunt u het project aan uw instantie van Publish publiceren.
 
-   ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
+   ![ screen_shot_2019-02-25at21420pm ](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. De **Publicatie beheren** Wizard wordt geopend. U kunt op de knop **Handeling** en plant ook de publicatietijd voor nu of later. Klik op **Next**.
+1. De **beheert 1} Tovenaar van de Publicatie {opent.** U kunt de **Actie** klikken en ook de het publiceren tijd voor nu of later plannen. Klik op **Next**.
 
-   ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
+   ![ screen_shot_2019-02-07at120304pm ](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Controleer de doos zodat kunt u het volledige project van klikken **`Manage Publication`** wizard.
+1. Controleer de doos zodat kunt u het volledige project van de **`Manage Publication`** tovenaar klikken.
 
-   ![screen_shot_2019-02-25at2712pm](assets/screen_shot_2019-02-25at22712pm.png)
+   ![ screen_shot_2019-02-25at22712pm ](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Klikken **+ Inclusief onderliggende items** van de actiebar en uncheck alle opties zodat kunt u alle modules in uw project publiceren en klikken **Toevoegen** publiceren.
+1. Klik **+ omvat Kinderen** van de actiebar en uncheck alle opties zodat kunt u alle modules in uw project publiceren en **klikken voegt** toe om te publiceren.
 
    >[!NOTE]
    >
    >Door gebrek, worden alle vakjes gecontroleerd en u moet de vakjes manueel uncheck om alle modules in uw project te publiceren.
 
-   ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
+   ![ screen_shot_2019-02-25at23116pm ](assets/screen_shot_2019-02-25at23116pm.png)
 
-   **Het dialoogvenster Inclusief onderliggende elementen**
+   **Begrip omvat de dialoogdoos van Kinderen**
 
    De bovenstaande stappen laten zien hoe u de volledige inhoud kunt publiceren. Als u de andere drie beschikbare alternatieven wilt gebruiken, moet u die bepaalde optie controleren.
 In de volgende afbeelding ziet u bijvoorbeeld hoe u alleen de gewijzigde pagina&#39;s in uw project kunt beheren en bijwerken:
@@ -54,29 +54,32 @@ In de volgende afbeelding ziet u bijvoorbeeld hoe u alleen de gewijzigde pagina&
 
    Volg de onderstaande uitleg om inzicht te krijgen in de beschikbare opties:
 
-   1. **Alleen directe kinderen opnemen**: Met deze optie kunt u alleen updates voor de subknooppunten in uw projectstructuur beheren.
-   1. **Alleen gewijzigde pagina&#39;s opnemen**: Met deze optie kunt u alleen updates beheren voor de gewijzigde pagina&#39;s van het project waar de wijzigingen zich bevinden in de projectstructuur.
-   1. **Alleen reeds gepubliceerde pagina&#39;s opnemen**: Met deze optie kunt u alleen updates beheren voor de pagina&#39;s die eerder zijn gepubliceerd.
+   1. **omvat slechts directe kinderen**:
+Met deze optie kunt u alleen updates voor de subknooppunten in uw projectstructuur beheren.
+   1. **omvat slechts gewijzigde pagina&#39;s**:
+Met deze optie kunt u alleen updates beheren voor de gewijzigde pagina&#39;s van het project waar de wijzigingen zich bevinden in de projectstructuur.
+   1. **omvat slechts reeds gepubliceerde pagina&#39;s**:
+Met deze optie kunt u alleen updates beheren voor de pagina&#39;s die eerder zijn gepubliceerd.
 
 
-1. Van de **`Manage Publication wizard`**, klikt u op **Publiceren**.
+1. Van **`Manage Publication wizard`**, klik **Publish**.
 
-   ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
+   ![ screen_shot_2019-02-25at23341pm ](assets/screen_shot_2019-02-25at23341pm.png)
 
    >[!NOTE]
    >
    >Wacht een paar seconden/minuten, zodat de inhoud de instantie publish bereikt.
    >
    >
-   >    1. De workflow werkt niet als er geen wijzigingen zijn in het project en niets als **Offline inhoud bijwerken**.
-   >    1. De workflow werkt niet als de auteur het replicatieproces niet voltooit (de inhoud wordt nog geüpload naar een publicatie-instantie) nadat de auteur het **Publiceren** in de publicatieworkflow beheren.
+   >    1. Het werkschema werkt niet als er geen veranderingen in het project en niets voor **Offline Inhoud van de Update** zijn.
+   >    1. Het werkschema zal niet werken als de auteur niet het replicatieproces voltooit (de inhoud uploadt nog om instantie te publiceren) na het selecteren van de **Publish** knoop in het leiden publicatiewerkschema.
 
    >[!CAUTION]
-   >Als maker van inhoud klikt u als u de wijzigingen wilt zien op de apparaten die zijn gekoppeld aan de auteurinstantie **Offline inhoud bijwerken** van het kanaaldashboard of door het project te selecteren. In dit geval wordt de update van offline inhoud alleen uitgevoerd in de auteurinstantie.
+   >Als inhoudsschepper, als u de veranderingen in de apparaten wilt zien die aan de auteursinstantie in bijlage zijn, klik **Offline Inhoud van de Update** van het kanaaldashboard of door het project te selecteren. In dit geval wordt de update van offline inhoud alleen uitgevoerd in de auteurinstantie.
 
-1. Ga naar het project en klik op **Offline inhoud bijwerken** in de actiebalk. Deze handeling stuurt dezelfde opdracht door naar de instantie publish, zodat de offline ritten ook voor uw instantie Publish worden gemaakt.
+1. Navigeer aan het project en klik **Offline Inhoud van de Update** van de actiebar. Deze handeling stuurt dezelfde opdracht door naar de publicatie-instantie, zodat de offline ritten ook voor uw Publish-instantie worden gemaakt.
 
-   ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
+   ![ screen_shot_2019-02-25at23451pm ](assets/screen_shot_2019-02-25at23451pm.png)
 
 
    >[!NOTE]
@@ -89,36 +92,36 @@ In de volgende afbeelding ziet u bijvoorbeeld hoe u alleen de gewijzigde pagina&
 
 ### Publicatie voor een kanaal beheren {#managing-publication-for-a-channel}
 
-Voer de onderstaande stappen uit om inhoudsupdates te leveren van Auteur > Publiceren > apparaat voor een Kanaal in een AEM Screens-project:
+Voer de onderstaande stappen uit om inhoudsupdates te leveren van Auteur > Publish > Device for a Channel in an AEM Screens Project:
 
 >[!NOTE]
 >
 >Volg deze sectie alleen als er wijzigingen zijn in een kanaal. Als er na de vorige update geen wijzigingen zijn aangebracht in een kanaal, werkt de publicatieworkflow voor een afzonderlijk kanaal niet.
 
 1. Navigeer naar uw AEM Screens-project en klik op het kanaal.
-1. Klikken **Publicatie beheren** in de actiebalk, zodat u het kanaal naar uw instantie Publiceren kunt publiceren.
+1. Klik **leiden Publicatie** van de actiebar zodat kunt u het kanaal aan uw instantie van Publish publiceren.
 
-   ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
+   ![ screen_shot_2019-02-07at115800am ](assets/screen_shot_2019-02-07at115800am.png)
 
-1. De **Publicatie beheren** Wizard wordt geopend. U kunt op de knop **Handeling** en plant ook de publicatietijd voor nu of later. Klik op **Next**.
+1. De **beheert 1} Tovenaar van de Publicatie {opent.** U kunt de **Actie** klikken en ook de het publiceren tijd voor nu of later plannen. Klik op **Next**.
 
-   ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
+   ![ screen_shot_2019-02-07at120304pm ](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Klikken **Publiceren** van de **`Manage Publication`** wizard.
+1. Klik **Publish** van de **`Manage Publication`** tovenaar.
 
-   ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
+   ![ screen_shot_2019-02-07at120507pm ](assets/screen_shot_2019-02-07at120507pm.png)
 
    >[!NOTE]
    >
    >Wacht een paar seconden/minuten, zodat de inhoud de instantie publish bereikt.
 
-1. Triggerend **Offline inhoud bijwerken** in het kanaaldashboard plaatst u alleen de offline inhoud op de instantie Auteur, maar niet de instantie Publishing. De stappen 1-4 zijn voor het duwen van off-line inhoud aan Publish instantie.
+1. Het teweegbrengen **Offline Inhoud van de Update** in het kanaaldashboard duwt slechts de off-line inhoud aan de instantie van de Auteur maar niet de het Publiceren instantie. De stappen 1-4 zijn voor het duwen van off-line inhoud aan de instantie van Publish.
 
-   ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
+   ![ screen_shot_2019-02-07at21608pm ](assets/screen_shot_2019-02-07at21608pm.png)
 
    >[!CAUTION]
    >
-   >Publiceer eerst, dan teweegbrengt de update off-line inhoud zoals samengevat in de voorafgaande stappen.
+   >Publish start eerst de update offline-inhoud, zoals samengevat in de voorgaande stappen.
 
 ### Opnieuw toewijzen kanaal en apparaat: {#channel-and-device-re-assignment}
 

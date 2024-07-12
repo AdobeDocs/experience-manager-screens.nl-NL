@@ -1,6 +1,6 @@
 ---
 title: AEM Screens configureren en implementeren
-description: De AEM Screens Player is beschikbaar voor Android&trade, Chrome OS, iOS en Windows. Meer informatie over de configuratie en implementatie van AEM Screens.
+description: De AEM Screens Player is beschikbaar voor Android&trade;, Chrome OS, iOS en Windows. Meer informatie over de configuratie en implementatie van AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # AEM Screens configureren en implementeren {#configuring-and-deploying-aem-screens}
 
-Deze pagina laat zien hoe u de schermspelers op uw apparaten kunt installeren en configureren.
+Deze pagina laat zien hoe u de Screens-spelers op uw apparaten kunt installeren en configureren.
 
 ## Serverconfiguratie {#server-configuration}
 
@@ -32,31 +32,31 @@ Met het Health Check Framework kan de gebruiker controleren of twee benodigde co
 
 Het staat de gebruiker toe om de volgende twee configuratiecontroles te verifiëren om een project van AEM Screens in werking te stellen, namelijk om de staat van de volgende twee filters te controleren:
 
-1. **Lege referentie toestaan**
+1. **staat Lege Referateur** toe
 2. **https**
 
 Volg de onderstaande stappen om te controleren of deze twee vitale configuraties zijn ingeschakeld voor AEM Screens:
 
-1. Navigeren naar [Adobe Experience Manager Web Console Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
+1. Navigeer aan [ Adobe Experience Manager de Console Sling Health Check ](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
 
-   ![elementen](assets/health-check1.png)
+   ![ activa ](assets/health-check1.png)
 
 
-2. Klikken **De geselecteerde gezondheidscontroles uitvoeren** zodat u de validatie kunt uitvoeren voor de twee hierboven vermelde eigenschappen.
+2. Klik **uitvoeren de geselecteerde gezondheidscontroles** zodat kunt u de bevestiging voor twee hierboven vermelde eigenschappen in werking stellen.
 
-   Als beide filters zijn ingeschakeld, wordt het dialoogvenster **Screeningconfiguratie Health Service** toont de **Resultaat** als **OK** met beide configuraties zoals toegelaten.
+   Als beide filters worden toegelaten, dan toont de **Dienst van de Gezondheid van de Configuratie van Screens** het **Resultaat** als **O.K.** met beide configuraties zoals toegelaten.
 
-   ![elementen](assets/health-check2.png)
+   ![ activa ](assets/health-check2.png)
 
    Als een of beide filters zijn uitgeschakeld, wordt een waarschuwing voor de gebruiker weergegeven, zoals in de onderstaande afbeelding wordt getoond.
 
    In de volgende waarschuwing wordt aangegeven of beide filters zijn uitgeschakeld:
-   ![elementen](assets/health-check3.png)
+   ![ activa ](assets/health-check3.png)
 
 >[!NOTE]
 >
->* Om het **Filter Apache Sling Referrer**, zie [Lege verwijzingsverzoeken toestaan](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
->* Om het **HTTP** service, zie [HTTP-service op basis van Apache Felix Jetty](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+>* Om de **Apache het Verdelen Filter van de Referateur** toe te laten, zie [ Lege Verzoeken van de Referentieverwijzingen ](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests) toestaan.
+>* Om de **dienst van HTTP** toe te laten, zie [ Apache Felix Jetty Gebaseerde Dienst van HTTP ](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 ### Vereisten {#prerequisites}
 
@@ -64,47 +64,47 @@ Met de volgende belangrijke punten hieronder kunt u de server configureren en AE
 
 #### Lege verwijzingsverzoeken toestaan {#allow-empty-referrer-requests}
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM > hamerpictogram > **Bewerkingen** > **Webconsole**.
+1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** als AEM instantie > hamerpictogram > **Verrichtingen** > **Console van het Web**.
 
    ![afbeelding](assets/config/empty-ref1.png)
 
-1. **Configuratie Adobe Experience Manager-webconsole** wordt geopend. Zoeken naar de referentie van de sling.
+1. **de Configuratie van de Console van het Web van Adobe Experience Manager** opent. Zoeken naar de referentie van de sling.
 
-   Druk op **Command+F** for **Mac** en **Ctrl+F** for **Windows**.
+   Voor het zoeken van het het rangschikken verwijzersbezit, druk **Command+F** voor **Mac** en **Control+F** voor **Vensters**.
 
-1. Controleer de **Lege waarden toestaan** zoals weergegeven in de onderstaande afbeelding.
+1. Controleer **Lege** optie, zoals aangetoond in het hieronder cijfer toestaat.
 
    ![afbeelding](assets/config/empty-ref2.png)
 
-1. Klikken **Opslaan** om het filter Apache Sling Referrer inschakelen Leeg toestaan.
+1. Klik **sparen** om de Filter van de Verwijzer van de Rand toe te laten Apache leeg toestaat.
 
 
 #### HTTP-service op basis van Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM > hamerpictogram > **Bewerkingen** > **Webconsole**.
+1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** als AEM instantie > hamerpictogram > **Verrichtingen** > **Console van het Web**.
 
    ![afbeelding](assets/config/empty-ref1.png)
 
-1. **Configuratie Adobe Experience Manager-webconsole** wordt geopend. Zoek naar Apache Felix op Jetty gebaseerde HTTP Service.
+1. **de Configuratie van de Console van het Web van Adobe Experience Manager** opent. Zoek naar Apache Felix op Jetty gebaseerde HTTP Service.
 
-   Voor het zoeken van deze eigenschap drukt u op **Command+F** for **Mac** en **Ctrl+F** for **Windows**.
+   Voor het zoeken van dit bezit, druk **Command+F** voor **Mac** en **Control+F** voor **Vensters**.
 
-1. Controleer de **HTTP INSCHAKEL** zoals weergegeven in de onderstaande afbeelding.
+1. Controleer **toelaten de optie van HTTP**, zoals aangetoond in het hieronder cijfer.
 
    ![afbeelding](assets/config/config-1.png)
 
-1. Klikken **Opslaan** de *HTTP* service.
+1. Klik **sparen** om de *dienst van HTTP* toe te laten.
 
 #### Aanraakinterface inschakelen voor AEM Screens {#enable-touch-ui-for-aem-screens}
 
 AEM Screens vereist TOUCH UI en werkt niet met de Klassieke UI van Adobe Experience Manager (AEM).
 
 1. Navigeren naar `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
-1. Zorg ervoor dat de **Standaardmodus voor ontwerpgebruikersinterface** is ingesteld op **TOUCH**, zoals weergegeven in onderstaande afbeelding
+1. Zorg ervoor dat de **Standaard auteurswijze UI** aan **TOUCH** wordt geplaatst, zoals aangetoond in het hieronder cijfer.
 
-U kunt ook dezelfde instelling uitvoeren met yourAuthorInstance *>* gereedschappen (hamerpictogram) > **Bewerkingen** > **Webconsole** en zoek naar **WCM Authoring UI Mode Service**.
+Alternatief, kunt u het zelfde plaatsen ook uitvoeren gebruikend yourAuthorInstance *>* hulpmiddelen (hamerpictogram) > **Verrichtingen** > **Console van het Web** en onderzoek naar **WCM Authoring UI van de Wijze van de Wijze**.
 
-![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
+![ screen_shot_2018-12-04at22425pm ](assets/screen_shot_2018-12-04at22425pm.png)
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ U kunt ook dezelfde instelling uitvoeren met yourAuthorInstance *>* gereedschapp
 
 #### AEM in de uitvoermodus NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
-Als AEM in productie wordt uitgevoerd, worden de **NOSAMPLECONTENT** uitvoeringsmodus. Verwijder de *X-Frame-Options=SAMEORIGIN* header (in de sectie voor extra reacties) van
+Het lopende AEM in productie gebruikt **NOSAMPLECONTENT** looppaswijze. Verwijder *x-kader-Options=SAMEORIGIN* kopbal (in de extra sectie van de reactiekop) uit
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -120,27 +120,27 @@ Deze verwijdering is vereist voor AEM Screens Player om onlinekanalen af te spel
 
 #### Wachtwoordbeperkingen {#password-restrictions}
 
-Met de meest recente wijzigingen in ***DeviceServiceImpl***, hoeft u de wachtwoordbeperkingen niet te verwijderen.
+Met de recentste veranderingen in ***DeviceServiceImpl***, moet u niet de wachtwoordbeperkingen verwijderen.
 
-U kunt ***DeviceServiceImpl*** via de onderstaande koppeling om wachtwoordbeperking in te schakelen bij het maken van het wachtwoord voor schermgebruikers:
+U kunt ***DeviceServiceImpl*** van de verbinding hieronder vormen om wachtwoordbeperking toe te laten terwijl het creëren van het wachtwoord voor de gebruikers van het het schermapparaat:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-Voer de onderstaande stappen uit om te configureren ***DeviceServiceImpl***:
+Volg hieronder de stappen om ***DeviceServiceImpl*** te vormen:
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via uw AEM > hamerpictogram > **Bewerkingen** > **Webconsole**.
+1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** als uw AEM instantie > hamerpictogram > **Verrichtingen** > **Console van het Web**.
 
-1. **Configuratie Adobe Experience Manager-webconsole** wordt geopend. Zoeken naar `*deviceservice*`. Voor het zoeken van de eigenschap drukt u op **Command+F** voor macOS en **Ctrl+F** voor Microsoft® Windows.
+1. **de Configuratie van de Console van het Web van Adobe Experience Manager** opent. Zoeken naar `*deviceservice*` . Voor het zoeken van het bezit, druk **Command+F** voor macOS en **Control+F** voor Microsoft® Vensters.
 
-![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
+![ screen_shot_2019-07-31at92058am ](assets/screen_shot_2019-07-31at92058am.png)
 
-#### Dispatcher Configuration {#dispatcher-configuration}
+#### Dispatcher-configuratie {#dispatcher-configuration}
 
-Ga voor meer informatie over het configureren van Dispatcher voor een AEM Screens-project naar [Dispatcher configureren voor een AEM Screens-project](dispatcher-configurations-aem-screens.md).
+Leren hoe te om Dispatcher voor een project van AEM Screens te vormen, zie [ Vormend Dispatcher voor een project van AEM Screens ](dispatcher-configurations-aem-screens.md).
 
 #### Java™-codering {#java-encoding}
 
-Stel de ***Java™-codering*** naar Unicode. Bijvoorbeeld: `*Dfile.encoding=Cp1252*` werkt niet.
+Plaats het ***coderen Java™*** aan Unicode. `*Dfile.encoding=Cp1252*` werkt bijvoorbeeld niet.
 
 >[!NOTE]
 >

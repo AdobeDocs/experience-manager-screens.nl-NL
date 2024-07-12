@@ -1,6 +1,6 @@
 ---
 title: De afstandsbediening implementeren
-description: Meer informatie over de functie voor afstandsbediening van schermen in AEM Screens.
+description: Meer informatie over de functie Screens Remote Control in AEM Screens.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# De afstandsbediening voor schermen gebruiken {#implementing-remote-control}
+# De afstandsbediening van Screens gebruiken {#implementing-remote-control}
 
 Met de functie voor besturing op afstand hebt u gemakkelijker toegang tot de beheerinterface, de kanaalswitch of andere functies, zoals Cache wissen en opnieuw laden. Ook, voorziet het u van een methode om de lokale ingebouwde programmatuurversie en systeeminformatie over de speler te zien. Deze mogelijkheid is vooral handig omdat het lastig kan zijn om een muis aan te sluiten. Of bewerk op productieapparaten die buiten bereik zijn en nog meer als de speler de verbinding met AEM heeft verbroken. Het is ook handig wanneer u Samsung RMS gebruikt, omdat het vanwege het verschil in resolutie moeilijk kan zijn om de interface van de beheerder met de muis te vinden en te openen.
 
 ## Algemene combinaties van afstandsbedieningen {#using-common-remote-control}
 
-Op alle spelers kunt u de volgende zeer belangrijke combinaties in de Verre Controle van de Schermen gebruiken:
+Op alle spelers kunt u de volgende zeer belangrijke combinaties in de Verre Controle van Screens gebruiken:
 
 1. Gebruikersinterface van beheerder in-/uitschakelen - CTRL + 1
 1. Kanaalschakelaar in-/uitschakelen - CTRL + 2
@@ -41,10 +41,10 @@ U kunt de externe hardware of de externe software die beschikbaar is in Samsung 
 ## Meer gebruiksnotities {#using-additional-remote-control}
 
 1. Als de beheerinterface is geopend, kunt u de pijlen omhoog en omlaag gebruiken om door de tabbladen te navigeren en informatie over de tabbladen weer te geven.
-1. Met de open kanaalschakelaar, kunt u de op en neer pijlsleutels gebruiken om de kanalen te navigeren. U kunt ook op de knop `Enter` (of de knoop bij het centrum van de pijlen op ver) om kanalen te schakelen.
+1. Met de open kanaalschakelaar, kunt u de op en neer pijlsleutels gebruiken om de kanalen te navigeren. U kunt ook op de toets `Enter` (of op de knop in het midden van de pijlen op de afstandsbediening) drukken om te schakelen tussen kanalen.
 
 In het volgende diagram wordt het sleutelgebruik op een Samsung-afstandsbediening geïllustreerd:
-![image](assets/tizen/remote.png)
+![ beeld ](assets/tizen/remote.png)
 
 >[!NOTE]
 >Als u de configuratiewaarden voor het apparaat van enableAdminUI en/of enableOSD instelt op false, schakelt de externe server de interface van Admin en de kanaalschakelaar niet in. U kunt niet met de pijltoetsen door de interface van Admin of kanalen navigeren. U kunt de cache echter wel wissen en de speler opnieuw laden. U kunt de functie voor besturing op afstand uitschakelen als een van de toetsenbordcombinaties conflicteert met uw interactieve inhoud met deze code:

@@ -15,7 +15,7 @@ ht-degree: 0%
 # Kanaaltoewijzing {#channel-assignment}
 
 >[!IMPORTANT]
->Deze sectie benadrukt de Toewijzing van het Kanaal en het plannen van kanalen voor de pakken van de Eigenschap ouder dan AEM 6.5.5 de versie van Schermen.
+>Deze sectie benadrukt de Toewijzing van het Kanaal en het plannen van kanalen voor de pakken van de Eigenschap ouder dan AEM versie 6.5.5 Screens.
 
 Wanneer u een weergave hebt ingesteld, wijst u een kanaal toe aan een weergave om de inhoud weer te geven.
 
@@ -28,19 +28,19 @@ Op deze pagina ziet u hoe u een kanaal toewijst aan uw scherm.
 
 Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
-1. Navigeer naar de vereiste weergave, bijvoorbeeld **DemoProject** > **Locaties** > **SanJose** > **StoreDisplay**.
+1. Navigeer aan de vereiste vertoning, bijvoorbeeld, **DemoProject** > **Plaatsen** > **SanJose** > **StoreDisplay**.
 
    ![afbeelding](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Klikken **Kanaal toewijzen** in de actiebalk.
+1. Klik **toewijzen Kanaal** in de actiebar.
 
    of
 
-   Klikken **Dashboard** en klik op **+Kanaal toewijzen** van de **TOEGEWEZEN KANALEN** zodat u het deelvenster **Kanaaltoewijzing** in.
+   Klik **Dashboard** en klik **+ wijs Kanaal** van het **TOEGEWEZEN paneel van KANALEN** toe zodat kunt u het **7} de dialoogvakje van de Toewijzing van het Kanaal openen.**
 
    ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
-   U kunt de eigenschappen configureren via de **Kanaaltoewijzing** in de onderstaande sectie. Zie de [Kanaaleigenschappen](#channel-properties) voor meer informatie over kanaaleigenschappen.
+   U kunt de eigenschappen van het **de dialoogvakje van de Taak van het Kanaal** van de sectie hieronder vormen. Zie de [ sectie van de Eigenschappen van het Kanaal ](#channel-properties) voor meer informatie over kanaaleigenschappen.
 
 ## Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
 
@@ -48,9 +48,9 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
 Met een referentiekanaal kunt u een verwijzing naar het gewenste kanaal opgeven, op kanaalnaam of op kanaalpad.
 
-* **op pad** - U geeft een expliciete verwijzing op met het absolute pad van het kanaal.
+* **door weg** - u verstrekt een expliciete verwijzing gebruikend de absolute weg van het kanaal.
 
-* **op naam** - Voer de naam in van het kanaal dat per context wordt omgezet in een werkelijk kanaal. Met deze functie kunt u een lokale versie van een kanaal maken, zodat u locatie-specifieke inhoud dynamisch kunt oplossen. Een kanaal met bijvoorbeeld een naam *dagblad*, waarbij de inhoud in feite in twee steden anders zou zijn, maar u hebt nog steeds de rol van een normaal kanaal op alle schermen.
+* **door naam** - u gaat de naam van het kanaal in dat aan een werkelijk kanaal door context oplost. Met deze functie kunt u een lokale versie van een kanaal maken, zodat u locatie-specifieke inhoud dynamisch kunt oplossen. Bijvoorbeeld, behandelt een kanaal met naam *de dag*, waar de daadwerkelijke inhoud in twee steden verschillend zou zijn, maar u hebt nog de rol van het netwerkkanaal op alle vertoningen.
 
 ### Kanaalrol {#role-channel}
 
@@ -61,46 +61,46 @@ De rol van het kanaal bepaalt de context van de vertoning. De rol is gericht op 
 Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. De waarde met de hoogste waarde heeft altijd voorrang op lagere waarden. Bijvoorbeeld, als er twee kanalen A en B zijn. A heeft een prioriteit van 1 en B heeft een prioriteit van 2, dan wordt kanaal B getoond, aangezien het een hogere prioriteit dan A heeft.
 
 >[!NOTE]
->De prioriteit voor een kanaal wordt ingesteld als een getal (1 voor het minimum) in het dialoogvenster **Kanaaltoewijzing** , zoals hierboven vermeld. Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
+>De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1}, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
 ### Ondersteunde gebeurtenissen {#supported-events-channel}
 
-* **Oorspronkelijke belasting** - Laadt het kanaal wanneer de speler wordt gestart. Het kan aan veelvoudige kanalen met een programma worden toegewezen.
-* **Niet-actief scherm** - Wordt geladen wanneer het scherm niet actief is. Het kan aan veelvoudige kanalen met een programma worden toegewezen.
-* **Timer** - Moet worden vastgesteld wanneer een schema wordt verstrekt.
-* **Gebruikersinteractie** - De speler schakelt over naar het opgegeven kanaal als er een gebruikersinteractie (aanraking) op het scherm plaatsvindt bij inactiviteit van het kanaal en wordt geladen wanneer het scherm wordt aangeraakt.
+* **Aanvankelijke Lading** - Laadt het kanaal wanneer de speler is begonnen. Het kan aan veelvoudige kanalen met een programma worden toegewezen.
+* **Niet-actief Scherm** - Laadt wanneer het scherm nutteloos is. Het kan aan veelvoudige kanalen met een programma worden toegewezen.
+* **Tijdopnemer** - moet worden geplaatst wanneer een programma wordt verstrekt.
+* **Interactie van de Gebruiker** - de spelerschakelaars aan het gespecificeerde kanaal als er een gebruikersinteractie op het scherm (aanraking) in een nutteloos kanaal is en laadt wanneer het scherm wordt geraakt.
 
 ### Onderbrekingsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
-> Deze optie is alleen beschikbaar bij <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Functiepakket 4.
+> Deze optie is alleen beschikbaar bij <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4.
 
 Geef als Inhoudsauteur op wanneer een kanaal wordt onderbroken. Als u dit doet, kunt u niet-kritieke inhoud desgewenst uitschakelen, maar belangrijke inhoud desgewenst eerst afspelen voordat de inhoud wordt afgespeeld vanwege planning.
 
-Klik op een van de volgende opties om de methode voor onderbreking in te stellen vanuit de **Kanaaltoewijzing** dialoogvenster:
+Klik van één van de volgende opties die beschikbaar zijn om de onderbrekingsmethode van het **de dialoogvakje van de Taak van het Kanaal** te plaatsen:
 
-* **Meteen** - Wanneer het programma wordt geactiveerd of een update wordt ontvangen, kunt u het afspelen uitschakelen en de nieuwe inhoud direct vernieuwen of afspelen.
-* **Aan einde van huidig item** - Wanneer een nieuw programma wordt geactiveerd of een update wordt ontvangen, kunt u optioneel wachten tot het huidige item in de reeks is afgespeeld. Alleen daarna kunt u de nieuwe inhoud vernieuwen of afspelen.
+* **onmiddellijk** - wanneer het programma activeert of een update wordt ontvangen, kunt u de playback snijden en onmiddellijk verfrissen of de nieuwe inhoud spelen.
+* **Aan eind van huidig punt** - wanneer een nieuw programma activeert of een update wordt ontvangen, kunt u naar keuze op het huidige punt in de opeenvolging wachten om te beëindigen speel. Alleen daarna kunt u de nieuwe inhoud vernieuwen of afspelen.
 
   >[!NOTE]
   >Deze optie is standaard ingeschakeld.
-* **Aan het einde van de reeks** - Wanneer een nieuw programma activeert of een update wordt ontvangen, kunt u naar keuze op de volledige opeenvolging wachten om zijn eind te bereiken. Vervolgens kunt u vlak voor de gewenste volgorde de nieuwe inhoud herhalen, vernieuwen of afspelen.
+* **aan het eind van de opeenvolging** - wanneer een nieuw programma activeert of een update wordt ontvangen, kunt u naar keuze op de gehele opeenvolging wachten om zijn eind te bereiken. Vervolgens kunt u vlak voor de gewenste volgorde de nieuwe inhoud herhalen, vernieuwen of afspelen.
 
   >[!NOTE]
   >Als u de tweede of derde optie gebruikt, kunnen de op de toewijzing gedefinieerde planningstijden iets worden uitgesteld. De reden hiervoor is dat de speler wacht tot het einde van het item of de reeks (na de opgegeven tijd) is vernieuwd. De vertraging is afhankelijk van de afspeelduur van het item.
 
 ### Schema {#schedule-channel}
 
-Met Planning kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Hiermee kunt u ook een begindatum definiëren (**actief van**) en een einddatum (**actief tot**) voor het kanaal dat wordt weergegeven.
+Met Planning kunt u een beschrijving in tekst opgeven wanneer het kanaal moet worden weergegeven. Het laat u ook een begindatum (**actief van**) en een einddatum (**actief tot**) voor het kanaal bepalen om worden getoond.
 
-**Knopinfo voor activering weergeven**
+**toon Tooltip van de Aantrek**
 
-Knopinfo voor aantrekken weergeven die aangeeft of de knopinfo voor aantrekken (&quot;*Tik ergens om te beginnen*&quot;) moet worden getoond of niet terwijl het kanaal loopt.
+Toon aantrekkingstooltip bepaalt als de aantrekkingstooltip (&quot;*Aanraak overal om*&quot;te beginnen) moet worden getoond of niet terwijl het kanaal loopt.
 
 ### DayParting {#dayparting}
 
-Planningen, indien gecombineerd met **DayParting**, kunt u een algemeen schema instellen met meerdere kanalen die op specifieke tijdstippen van de dag worden uitgevoerd, en die instelling opnieuw gebruiken voor al uw beeldschermen tegelijk.
+De programma&#39;s, wanneer gecombineerd met **DayParting**, laten u een globaal programma met veelvoudige kanalen plaatsen die op specifieke tijden van de dag lopen, en hergebruiken die opstelling voor al uw vertoningen in één keer.
 
 DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. Met AEM Screens kunt u kanalen plannen in termen van DayPparting binnen een dag, week of maand volgens de vereiste.
 
@@ -112,7 +112,7 @@ In dit voorbeeld ziet u hoe een restaurant DayParting gebruikt om het ontbijt, d
 
 Hier, verdeelt u elke dag in drie verschillende tijdgroeven zodat de kanaalinhoud op de gespecificeerde tijd van de dag speelt:
 
-| **Kanaal** | **Rol** | **Prioriteit** | **Schema** |
+| **Kanaal** | **Rol** | **Prioriteit** | **Programma** |
 |---|---|---|---|
 | Menu_A | Ontbijt |  | Na 6:00 en vóór 11:00 |
 | Menu_B | Lunch |  | Na 11:00 en vóór 15:00 |
@@ -151,20 +151,20 @@ Dit voorbeeld toont DayParting voor een opslag die hun zomerinzameling van de ma
 
 Hier, creeert u DayParting zoals per maand, zodat de kanaalinhoud zoals per de gespecificeerde maanden van het jaar speelt.
 
-| **Kanaal** | **Rol** | **Prioriteit** | **Schema** |
+| **Kanaal** | **Rol** | **Prioriteit** | **Programma** |
 |---|---|---|---|
 | SummerCollection | Zomer |  | 1 juni 2017 - 31 augustus 2017 |
 | FallCollection | Herfst |  | 1 september 2017 - 30 oktober 2017 |
 
 >[!NOTE]
 >
->U kunt ook ***Prioriteit*** voor elk van de kanalen. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.
+>Ook, kunt u ***Prioriteit*** voor elk van de kanalen bepalen. Bijvoorbeeld, als twee kanalen voor de zelfde dag en de tijd of voor de zelfde maand worden geplaatst, dan eerst wordt het kanaal met hogere prioriteit gespeeld. De minimumwaarde voor prioriteit kan worden ingesteld op 0.
 
 #### Inhoud afspelen voor kanalen met dezelfde prioriteit {#playing-content-for-channels-with-same-priority}
 
 Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het zelfde programma in de maand van December toont. Maar aangezien kanaal B de prioriteit heeft die als 2 wordt geplaatst, tijdens die week; kanaal B speelt zijn inhoud eerder dan kanaal A.
 
-| **Kanaal** | **Rol** | **Prioriteit** | **Schema** |
+| **Kanaal** | **Rol** | **Prioriteit** | **Programma** |
 |---|---|---|---|
 | A | Winter | 1 | 1 december 2017 - 31 december 2017 |
 | B | Kerstmis | 2 | 24 december 2017 - 31 december 2017 |
@@ -174,5 +174,5 @@ Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het 
 >
 > Zie de volgende secties voor meer informatie over DayParting:
 >
->* [Herhaling van activa afhandelen](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Herhaling van middelen in een kanaal afhandelen](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [ Behandelend Herhaling in Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [ Behandelende Herhaling voor Assets in een Kanaal ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

@@ -35,11 +35,11 @@ Het is belangrijk dat alle belanghebbenden begrijpen waarvoor de audio-video-int
 
 ## Overzicht van alle drie fasen in Projectbeheer {#summary-of-all-three-phases-in-project-management}
 
-Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren. Deze fasen worden gewoonlijk aangeduid als ***dagen***.
+Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het project in drie fasen te segmenteren. Deze stadia worden algemeen bedoeld als ***dagen***.
 
 ### Dagnulactiviteiten {#day-zero-activities}
 
-De eerste fase wordt ***Dagnul***. Deze fase omvat alle pre-verkoop en ontdekkingsinspanningen die worden vereist wanneer het bepalen van het werkingsgebied van een project. de tweede fase, ***Dag één***, verwijst naar alle activiteiten die deel uitmaken van de inzet. Tot slot: ***Dag twee*** verwijst naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
+Het eerste stadium wordt genoemd ***Nul van de Dag***. Deze fase omvat alle pre-verkoop en ontdekkingsinspanningen die worden vereist wanneer het bepalen van het werkingsgebied van een project. De tweede fase, ***Dag Één***, verwijst naar alle activiteiten inbegrepen in de plaatsingsinspanning. Tot slot ***Dag Twee*** verwijst naar alle aan de gang zijnde verrichtingen en steunelementen als deel van de totale oplossing.
 
 De activiteiten van Zero van de dag omvatten pre-Verkoop, de Ontdekking van de Cliënt, de Analyse van de Vereisten van de Toepassing, en de definitie van het Toepassingsgebied van het Project. Deze fase kan ook initiële betrokkenheid en definitie van projectvereisten voor projectbeheer omvatten, in voorbereiding op implementatie.
 
@@ -56,7 +56,7 @@ Dag Zero bestaat uit acht belangrijke stappen die alle aspecten van de oprijplaa
 
 ### Dag 1 Activiteiten {#day-one-activities}
 
-de tweede fase, ***Dag één***, verwijst naar alle activiteiten die deel uitmaken van de inzet. Een ander belangrijk technisch document voor een succesvol project is de Grafiek van plaatsingsGantt.
+De tweede fase, ***Dag Één***, verwijst naar alle activiteiten inbegrepen in de plaatsingsinspanning. Een ander belangrijk technisch document voor een succesvol project is de Grafiek van plaatsingsGantt.
 
 Als overgangen van de verkoopkans aan een project, is een kickoff vergadering gepland om te bevestigen:
 
@@ -82,8 +82,8 @@ Leer over projectbeheer en plaatsingsvoorbereiding en bepaal zeer belangrijke fa
 
 >[!VIDEO](https://video.tv.adobe.com/v/28408)
 
-*Leer over projectbeheer en plaatsingsvoorbereiding (project pre-productie, projectinitiatie, projectvooruitgang).*
+*leer over projectbeheer en plaatsingsvoorbereiding (project pre-productie, projectinitiatie, projectvooruitgang).*
 
 ## De volgende stap {#the-next-step}
 
-Wanneer u met zeer belangrijke overwegingen rond projectbeheer voor de Plaatsingen van AEM Screens door bent, navigeer aan **[Deel 5: Overwegingen bij de ondersteuning](support-considerations.md)** Zo begrijpt u de Steun van Dag 2 en de processen in kwestie.
+Wanneer u met zeer belangrijke overwegingen het omringen van projectbeheer voor de Plaatsingen van AEM Screens bent, navigeer aan **[Deel 5: De Overwegingen van de steun](support-considerations.md)** zodat begrijpt u Dag 2 Steun en de betrokken processen.

@@ -1,6 +1,6 @@
 ---
 title: Automatische registratie van spelers
-description: Volg deze pagina om meer te weten te komen over de automatische registratie van spelers met AMS-/On-Prem-schermen.
+description: Volg deze pagina om meer te weten te komen over de automatische registratie van spelers met AMS/On-Prem Screens.
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
@@ -20,10 +20,10 @@ Bulk die duizenden spelers handmatig registreert, kan omslachtig worden en zorgt
 
 Voer de volgende stappen uit om automatische registratie van spelers te implementeren:
 
-1. Meld u aan bij uw AEM en klik op uw AEM Screens-project en klik op **Eigenschappen** in de actiebalk.
-1. Klik op de knop **Geavanceerd** zodat u de **Apparaatregistratie** sectie.
+1. Login aan uw AEM instantie en klik uw project van AEM Screens en klik **Eigenschappen** van de actiebar.
+1. Klik het **Geavanceerde** lusje zodat kunt u de **registratie van het Apparaat** sectie bekijken.
 
-1. Geef een code voor automatische registratie op in het dialoogvenster **Registratiecode voor bulk** veld. Dan een facultatieve standaardvertoning in **Standaardweergavetoewijzing** om toe te wijzen aan de automatisch geregistreerde speler.
+1. Specificeer een autoregistratiecode op het **gebied van de de registratiecode van het Bulk**. Dan een facultatieve standaardvertoning in de **Standaard vertoningstaak** om aan de speler toe te wijzen die auto wordt geregistreerd.
 
    >[!NOTE]
    >Voer desgewenst een code van uw keuze in en klik op een standaardweergave.
@@ -34,7 +34,7 @@ Voer de volgende stappen uit om automatische registratie van spelers te implemen
    >[!NOTE]
    >Raadpleeg de implementatiepagina voor de specifieke speler voor uw besturingssysteem voor meer informatie. U kunt ook de interface voor beheerders gebruiken om de registratiecode in te voeren.
 
-1. Als de `registrationKey` kenmerk komt overeen met het kenmerk dat in AEM is geconfigureerd, de speler registreert zichzelf automatisch en als een standaardweergave is geconfigureerd, wordt die inhoud gedownload en afgespeeld.
+1. Als het kenmerk `registrationKey` overeenkomt met het kenmerk dat in AEM is geconfigureerd, registreert de speler zichzelf automatisch en als een standaardweergave is geconfigureerd, wordt die inhoud gedownload en afgespeeld.
 
    ![afbeelding](/help/user-guide/assets/auto-registration/auto-register2.png)
 
@@ -44,11 +44,11 @@ Volg de onderstaande sectie om een aantal van de beste praktijken voor Veilighei
 
 * Zorg ervoor dat de registratiecode niet gecompromitteerd is - vorm de code in AEM enkel alvorens de bulkregistratie te beginnen en wanneer gedaan, ontruim dat gebied, en sparen in AEM.
 
-* U kunt het pad configureren `/bin/screens/registration` zodat het slechts van bekende IP waaiers, indien mogelijk toegankelijk is.
+* U kunt het pad `/bin/screens/registration` zo configureren dat het, indien mogelijk, alleen toegankelijk is vanuit bekende IP-bereiken.
 
 * Overweeg het gebruiken van een MDM aan voorziening de speler met de configuratie.
 
-* Altijd gebruiken `HTTPS` en niet `HTTP` voor spelercommunicatie met AEM.
+* Gebruik altijd `HTTPS` en niet `HTTP` voor spelercommunicatie met AEM.
 
   >[!NOTE]
   >De standaardweergave werkt momenteel alleen voor bulkregistratie. Deze functie werkt niet voor handmatige registratie wanneer een registratiecode niet beschikbaar is.

@@ -22,21 +22,21 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 Met Direct Placement Workflow Configuration wordt een AEM Screens-projectkanaal toegewezen aan een specifieke map in middelen en kan elk middel in die map worden geplaatst. Adobe raadt u aan een bulksgewijze offline update te activeren om de publicatie te voltooien.
 
-U kunt ook als Content Author handmatig klikken **Offline inhoud bijwerken**.
+Alternatief, als Inhoudsauteur kunt u **off-line Inhoud van de Update** manueel klikken.
 
 >[!NOTE]
 >
->Zie voor meer informatie over het gebruik van bulkofflineupdate [Inhoud bijwerken als service](/help/user-guide/content-update-as-a-service.md).
+>Leren hoe te om bulk off-line update te gebruiken, zie [ Update van de Inhoud als Dienst ](/help/user-guide/content-update-as-a-service.md).
 
 ## Workflow voor directe plaatsing configureren {#configuring-workflow}
 
 >[!IMPORTANT]
 >
->Installeer voordat u de configuratie start de `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)`. Nadat u het pakket hebt geïnstalleerd, kunt u het weergeven en openen via de AEM > Gereedschappen (pictogram) > **Workflow** > **Workflowmodellen**.
+>Installeer de `[Demo  Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip)` voordat u de configuratie start. Nadat u het pakket hebt geïnstalleerd, zou u het van uw AEM instantie > Hulpmiddelen (pictogram) moeten kunnen bekijken en toegang hebben > **Werkschema** > **Modellen van het Werkschema**.
 
 Voer de onderstaande stappen uit om de workflow voor directe plaatsing te configureren:
 
-1. Navigeer naar AEM Screens vanaf uw AEM en maak een Screens-project met de naam **Workflow voor middelen**.
+1. Navigeer aan AEM Screens van uw AEM instantie en creeer een project van Screens dat als **Werkschema van Activa** wordt genoemd.
 
-1. Een kanaal maken met de naam **Workflow-middelen** onder de **Kanalen** map.
+1. Creeer een kanaal genoemd als **werkschema-Assets** onder de **omslag van Kanalen**.
 

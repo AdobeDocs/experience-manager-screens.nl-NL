@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
+>We raden u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor het AEM 6.3 Screens-platform.
 
 De AEM Screens heeft AEM 6.3.3.3 Feature Pack 6 en AEM 6.4.4.0 Feature Pack 4 uitgebracht, met de volgende details.
 
@@ -31,29 +31,29 @@ De releasedatum voor AEM Screens Feature Pack 201905 is 16 mei 2019.
 
 ### Wat is er nieuw? {#what-s-new}
 
-* **Project importeren**
+* **Importeur van het Project**
 
 De Importeur van het project is een eigenschap beschikbaar in AEM Screens die u een reeks plaatsen van een spreadsheet CSV/XLS aan uw project van AEM Screens in bulk laat invoeren.
 
-Zie **[Nieuwe importmodule voor project uit bestand](project-importer.md)** voor meer informatie .
+Zie **[Nieuwe Importeur van het Project van Dossier](project-importer.md)** voor meer details.
 
-* **Overstappen van ContentSync naar SmartSync**
+* **Overgang van ContentSync aan SmartSync**
 
 SmartSync minimaliseert serverlading/opslag en netwerkverkeer om kosten te drukken.
 
-Zie **[Overstappen van ContentSync naar SmartSync](smartsync.md)** voor meer informatie .
+Zie **[Overgang van ContentSync aan SmartSync](smartsync.md)** voor meer details.
 
-* **Noodkanaal**
+* **Noodkanaal van de Noodsituatie**
 
 In dit voorbeeld wordt bij het maken en beheren van een noodkanaal de nadruk gelegd op het feit dat de Content Author kan schakelen van een volgnummer als er een voorwaarde is.
 
-Zie **[Noodkanaal](emergency-channel.md)** Gebruik hoofdletters/kleine letters voor meer informatie.
+Zie **[het gebruikscase van het Kanaal van de Noodsituatie](emergency-channel.md)** voor meer details.
 
-* **Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics**
+* **Inbeddend een REACT toepassing gebruikend de Redacteur van de SPA van de AEM en het Integreren met de Analytics van AEM Screens**
 
 In deze sectie wordt beschreven hoe u een interactieve toepassing van één pagina insluit met REACT (of Angular) in de AEM SPA-editor. Zakelijke professionals in AEM kunnen de editor configureren. Ook wordt beschreven hoe u uw interactieve toepassing kunt integreren met offline Adobe Analytics.
 
-Zie **[Een REACT-toepassing insluiten met de AEM SPA Editor en integreren met AEM Screens Analytics](embedding-react-app.md)** voor meer informatie .
+Zie **[Inbeddend een REACT toepassing gebruikend de Redacteur van de SPA van de AEM en het Integreren met de Analytics van AEM Screens](embedding-react-app.md)** voor meer details.
 
 ### Uitgebrachte AEM Screens-spelers
 
@@ -65,4 +65,4 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.3.3.3 Feature Pack
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/)**.

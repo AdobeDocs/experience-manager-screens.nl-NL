@@ -25,7 +25,7 @@ U kunt een interactieve toepassing van één pagina insluiten met REACT (of Angu
 
 Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
 
-1. De AEM SPA Editor-reactie klonen op [https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
+1. Kloon de AEM SPA Reactie van de Redacteur in [ https://github.com/adobe/aem-spa-project-archetype.](https://github.com/adobe/aem-spa-project-archetype)
 
    >[!NOTE]
    >
@@ -46,44 +46,44 @@ Voer de onderstaande stappen uit om de AEM SPA Editor te gebruiken:
 
    >[!NOTE]
    >
-   >In deze documentatie worden de **GroupId** als ***com.adobe.aem.screens*** en de **ArtifactId** als ***Mijn SPA*** (dit zijn de standaardwaarden). U kunt zo nodig uw eigen keuze maken.
+   >Deze documentatie gebruikt **GroupId** als ***com.adobe.aem.screens*** en **ArtifactId** als ***Mijn SPA van de Steekproef*** (die de gebreken zijn). U kunt zo nodig uw eigen keuze maken.
 
 1. Nadat het project wordt gecreeerd, of gebruik winde of redacteur van uw keus en voer het geproduceerde Maven project in.
-1. Distribueren naar uw lokale AEM met de opdracht ***mvn clean install -PautoInstallPackage***.
+1. Stel aan uw lokale AEM instantie op gebruikend bevel ***mvn schone installatie -PautoInstallPackage***.
 
 ### Inhoud bewerken in de REACT-app {#editing-content-in-the-react-app}
 
 De inhoud bewerken in de REACT-app:
 
-1. Navigeren naar `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (vervang de hostnaam, poort en projectnaam, indien van toepassing).
+1. Navigeer naar `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (vervang de hostnaam, poort en projectnaam, indien van toepassing).
 1. De tekst die wordt weergegeven in de Hello World-toepassing kunnen bewerken.
 
 ### De interactieve REACT-app toevoegen aan AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
 Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens toe te voegen:
 
-1. Maak een AEM Screens-project. Zie [Projecten maken en beheren](creating-a-screens-project.md) voor meer informatie .
-1. Een **Toepassingskanaal** (bij voorkeur) (of 1x1-sjabloon of multikanaalskanaal) in het dialoogvenster **Kanalen** map van uw AEM Screens-project.
+1. Maak een AEM Screens-project. Zie [ Creërend en het Leiden Projecten ](creating-a-screens-project.md) voor meer details.
+1. Creeer een **Kanaal van de Toepassing** (bij voorkeur) (of 1x1 malplaatje, of multi-zone kanaal) in de **omslag van Kanalen** van uw project van AEM Screens.
 
    >[!NOTE]
-   >**Kanalen volgreeks** worden afgeraden voor dit gebruiksgeval, omdat deze van nature een diapresentatielogica hebben die conflicteert met de interactieve aard van de ervaring.
-   >Zie [Kanalen maken en beheren](managing-channels.md) voor meer informatie .
+   >{de Kanalen van de opeenvolging van 0} **worden ontmoedigd voor dit gebruiksgeval omdat zij inherent met een diapresentatielogica komen die met de interactieve aard van de ervaring strijdig is.**
+   >Zie [ Creërend en het Leiden Kanalen ](managing-channels.md) voor meer details.
 
 1. Bewerk een willekeurig volgnummer en sleep en zet een ingesloten pagina-component neer.
 
-   Zie [Componenten toevoegen aan een kanaal](adding-components-to-a-channel.md) voor meer informatie .
+   Zie [ Toevoegend Componenten aan een Kanaal ](adding-components-to-a-channel.md) voor meer details.
 
    >[!NOTE]
    >
    >Voeg de gebruikersinteractiegebeurtenis toe wanneer u het kanaal toewijst aan de weergave.
 
-1. Klikken **Bewerken** in de actiebalk, zodat u de eigenschappen van het kanaal kunt bewerken.
+1. Klik **uitgeven** van de actiebar zodat kunt u de eigenschappen van het kanaal uitgeven.
 
-   ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
+   ![ screen_shot_2019-02-15at100555am ](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Sleep de **Ingesloten pagina** of hergebruik de bestaande component in een toepassingskanaal en klik op de startpagina onder de mijnsamplespa-toepassing, bijvoorbeeld ***/content/mysamplespa/nl/home***.
+1. Sleep en laat vallen de **Ingebedde component van de Pagina**, of hergebruik de bestaande component in een toepassingskanaal, en klik de homepage onder de mysamplespa toepassing, bijvoorbeeld, ***/content/mysamplespa/nl/home***.
 
-   ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
+   ![ screen_shot_2019-02-15at101104am ](assets/screen_shot_2019-02-15at101104am.png)
 
 1. Wijs het kanaal toe aan een weergave.
 
@@ -92,7 +92,7 @@ Voer de onderstaande stappen uit om de interactieve REACT-app aan AEM Screens to
 
 1. Registreer een speler tegen dit project en wijs het aan de vertoning toe. Uw interactieve toepassing wordt nu uitgevoerd op AEM Screens.
 
-   Zie [Apparaatregistratie](device-registration.md) voor meer informatie over het registreren van een apparaat.
+   Zie [ Registratie van het Apparaat ](device-registration.md) voor meer informatie over het registreren van een apparaat.
 
 ## De SPA integreren met Adobe Analytics met offlinemogelijkheden via AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -100,12 +100,12 @@ Volg de onderstaande stappen om de SPA met Adobe Analytics te integreren met off
 
 1. Adobe Analytics configureren in AEM Screens.
 
-   Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie over het uitvoeren van opeenvolging in Adobe Analytics met AEM Screens en het verzenden van douanegebeurtenissen die off-line Adobe Analytics gebruiken.
+   Zie [ Vormend Adobe Analytics met AEM Screens ](configuring-adobe-analytics-aem-screens.md) voor meer informatie over hoe te het rangschikken in Adobe Analytics met AEM Screens uitvoeren en douanegebeurtenissen verzenden gebruikend off-line Adobe Analytics.
 
 1. Bewerk uw reactie-app in de IDE/editor van uw keuze (met name de tekstcomponent of andere component waarmee u gebeurtenissen wilt gaan uitzenden).
 1. Voeg bij de klikgebeurtenis of andere gebeurtenis die u voor de component wilt vastleggen de analysegegevens toe met behulp van het standaardgegevensmodel.
 
-   Zie [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md) voor meer informatie .
+   Zie [ Vormend Adobe Analytics met AEM Screens ](configuring-adobe-analytics-aem-screens.md) voor meer details.
 
 1. Roep de AEM Screens Analytics API aan, zodat u de gebeurtenis offline kunt opslaan en in bursts naar Adobe Analytics kunt verzenden.
 

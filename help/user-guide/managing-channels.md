@@ -20,40 +20,40 @@ Op deze pagina worden kanalen voor AEM Screens gemaakt en beheerd.
 
 **Voorwaarden**:
 
-* [Schermen configureren en implementeren](configuring-screens-introduction.md)
-* [Schermproject maken en beheren](creating-a-screens-project.md)
+* [Screens configureren en implementeren](configuring-screens-introduction.md)
+* [Screens-project maken en beheren](creating-a-screens-project.md)
 
 ## Een nieuw kanaal maken {#creating-a-new-channel}
 
 Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappen om een kanaal voor uw project te maken:
 
-1. Klik op de koppeling Adobe Experience Manager (linksboven) en vervolgens op Schermen. U kunt ook rechtstreeks naar `https://localhost:4502/screens.html/content/screens`.
+1. Klik op de Adobe Experience Manager-koppeling (linksboven) en vervolgens op Screens. U kunt ook rechtstreeks naar `https://localhost:4502/screens.html/content/screens` navigeren.
 
-1. Navigeer naar het project Schermen en klik op de knop **Kanalen** map.
+1. Navigeer aan uw project van Screens en klik de **omslag van Kanalen**.
 
-1. Klikken **Maken** in de actiebalk.
+1. Klik **creëren** van de actiebar.
 
-   ![demochannel](assets/create-channel1.png)
+   ![ demochannel ](assets/create-channel1.png)
 
-1. Klik op de knop **Volgekanaal** sjabloon uit de **Maken** wizard en klik op **Volgende**.
+1. Klik het **malplaatje van het Kanaal van de Opeenvolging 1} van** creëren **tovenaar en klik** daarna **.**
 
-   ![demochannel](assets/create-channel2.png)
+   ![ demochannel ](assets/create-channel2.png)
 
-1. Voer de titel in als **ScreensChannel** en klik op **Maken**.
+1. Ga Titel als **ScreensChannel** in en klik **creeer**.
 
-   ![demochannel](assets/create-project4.png)
+   ![ demochannel ](assets/create-project4.png)
 
-1. Er wordt nu een volgnummer toegevoegd aan uw **Kanalen** map.
+1. Een kanaal van de Opeenvolging wordt nu toegevoegd aan uw **omslag van Kanalen**.
 
 ### Kanaaltypen {#channel-types}
 
 De volgende sjabloonopties zijn beschikbaar wanneer u de wizard gebruikt, zoals:
 
-| **Sjabloon, optie** | **Beschrijving** |
+| **optie van het Malplaatje** | **Beschrijving** |
 |---|---|
 | Map Kanalen | Maak een map waarin u een verzameling kanalen wilt opslaan. |
 | Volgekanaal | Maak een kanaal waarmee de componenten opeenvolgend worden afgespeeld (een voor een in een presentatie). |
-| Toepassingskanaal | Toon uw aangepaste webtoepassing in de schermspeler. |
+| Toepassingskanaal | Toon uw aangepaste webtoepassing in de Screens-speler. |
 | 1 x 1 gesplitst schermkanaal | Een component weergeven in één zone. |
 | 1 x 2 gesplitst schermkanaal | De elementen weergeven in twee zones (horizontaal gesplitst). |
 | 2 x 1 gesplitst rasterkanaal | De elementen weergeven in twee zones (verticaal gesplitst). |
@@ -74,52 +74,52 @@ De volgende sjabloonopties zijn beschikbaar wanneer u de wizard gebruikt, zoals:
 U kunt een kanaal bewerken, weergeven, eigenschappen en dashboard, kopiëren, voorvertonen en verwijderen.
 
 
-![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
+![ screen_shot_2019-07-24at103723am ](assets/screen_shot_2019-07-24at103723am.png)
 
 ### Inhoud toevoegen aan of bewerken in een kanaal {#adding-editing-content-to-a-channel}
 
 Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 
 1. Klik op het kanaal dat u wilt bewerken (zoals in de bovenstaande afbeelding wordt getoond).
-1. Klikken **Bewerken** in de linkerbovenhoek van de actiebalk, zodat u de kanaaleigenschappen kunt bewerken. De redacteur opent die u activa/componenten aan uw kanaal kunt toevoegen die u wilt publiceren.
+1. Klik **uitgeven** van de hoogste-linkerhoek van de actiebar zodat kunt u de kanaaleigenschappen uitgeven. De redacteur opent die u activa/componenten aan uw kanaal kunt toevoegen die u wilt publiceren.
 
 >[!NOTE]
->U kunt componenten aan uw kanaal toevoegen. Zie **[Componenten toevoegen aan een kanaal](adding-components-to-a-channel.md)** voor meer informatie .
+>U kunt componenten aan uw kanaal toevoegen. Zie **[Toevoegend Componenten aan een Kanaal](adding-components-to-a-channel.md)** voor meer details.
 
-![demochannel1](assets/demochannel1.gif)
+![ demochannel1 ](assets/demochannel1.gif)
 
-**Video&#39;s uploaden naar het kanaal**
+**Uploading Video&#39;s aan het Kanaal**
 
 Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 
 1. Klik op het kanaal waar u de video wilt uploaden.
-1. Klikken **Bewerken** in de actiebalk.
-1. Klik in de editor op **Video&#39;s** onder Elementen en sleep de gewenste video&#39;s.
+1. Klik **uitgeven** van de actiebar.
+1. In de redacteur, klik **Video&#39;s** onder Assets en sleep en laat vallen de vereiste video&#39;s.
 
 >[!NOTE]
->Als u problemen ondervindt bij het uploaden van video&#39;s naar uw kanaal, raadpleegt u [Video&#39;s oplossen](troubleshoot-videos.md).
+>Als u kwesties ontmoet die video&#39;s in uw kanaal uploaden, zie [ het Oplossen van problemen Video&#39;s ](troubleshoot-videos.md).
 
 ### Eigenschappen van een kanaal weergeven of bewerken {#viewing-properties}
 
 1. Klik op het kanaal dat u wilt bewerken.
-1. Klikken **Eigenschappen** in de actiebalk, zodat u de kanaaleigenschappen kunt weergeven/bewerken. Op het volgende tabblad kunt u de opties wijzigen.
+1. Klik **Eigenschappen** van de actiebar zodat kunt u de kanaaleigenschappen bekijken/uitgeven. Op het volgende tabblad kunt u de opties wijzigen.
 
-![eigenschappen](assets/properties.gif)
+![ eigenschappen ](assets/properties.gif)
 
 ### Het dashboard weergeven {#viewing-dashboard}
 
 1. Klik op het kanaal dat u wilt bewerken.
-1. Klikken **Dashboard** in de actiebalk.
+1. Klik **Dashboard** van de actiebar.
 
-![dashboard](assets/dashboard.gif)
+![ dashboard ](assets/dashboard.gif)
 
 ### Kanaalgegevens {#channel-information}
 
 In het deelvenster Kanaalgegevens worden de kanaaleigenschappen beschreven, samen met de voorvertoning naar het kanaal. Ook, verstrekt het u informatie over of het kanaal off-line of online is.
 
-Klik op de knop (**...**) van de **KANAALINFORMATIE** op de actiebalk, zodat u eigenschappen kunt bekijken, de inhoud kunt bewerken of de cache (offline inhoud) voor het kanaal kunt bijwerken.
+Klik (**...**) van de **INFORMATIE VAN HET KANAAL** actiebar zodat kunt u eigenschappen bekijken, de inhoud uitgeven, of het geheime voorgeheugen (off-line inhoud) voor het kanaal bijwerken.
 
-![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+![ screen_shot_2017-12-20at82048am ](assets/screen_shot_2017-12-20at82048am.png)
 
 #### De manifest weergeven {#view-manifest}
 
@@ -130,18 +130,18 @@ U kunt manifest van het kanaaldashboard bekijken.
 
 Voer de volgende stappen uit, zodat u deze optie kunt inschakelen via het kanaaldashboard:
 
-1. **Kanaal op offline instellen**
-   1. Klik op het kanaal en klik **Eigenschappen** op de actiebalk
-   1. Ga naar de **Kanaal** en zorg ervoor dat u de controle ongedaan maakt **Modus voor ontwikkelaar (kanaal forceren om online te zijn)** option
-   1. Klikken **Opslaan en sluiten**
-1. **Offline inhoud bijwerken**
-   1. Klik op het kanaal en klik **Dashboard** op de actiebalk
-   1. Ga naar de **KANAALINFORMATIE** deelvenster en klik op *...*
-   1. Klikken **Offline inhoud bijwerken**
+1. **plaats het Kanaal aan Off-line**
+   1. Klik het kanaal en klik **Eigenschappen** van de actiebar
+   1. Navigeer aan het **Kanaal** lusje en zorg ervoor dat u **de Wijze van de Ontwikkelaar uncheck (forceer kanaal om online te zijn)** optie
+   1. Klik **sparen &amp; Sluiten**
+1. **Update Offline Inhoud**
+   1. Klik het kanaal en klik **Dashboard** van de actiebar
+   1. Navigeer aan het **paneel van de INFORMATIE VAN HET KANAAL** en klik *..*
+   1. Klik **Update Offline Inhoud**
 
-U moet de **Manifest weergeven** van de **KANAALINFORMATIE** in het dashboard Kanaal.
+U zou de **Manifest van de Mening** optie van het **paneel van de INFORMATIE VAN HET KANAAL** in het dashboard van het Kanaal moeten zien.
 
-![image1](assets/channel-one.png)
+![ image1 ](assets/channel-one.png)
 
 
 ### Online- en offlinekanalen {#online-and-offline-channels}
@@ -151,38 +151,38 @@ U moet de **Manifest weergeven** van de **KANAALINFORMATIE** in het dashboard Ka
 
 Wanneer u een kanaal maakt, kan dit worden gedefinieerd als een online- of een offlinekanaal.
 
-An ***Onlinekanaal*** geeft de bijgewerkte inhoud in de real-time omgeving weer, terwijl een ***Offline kanaal*** geeft de inhoud in de cache weer.
+Een ***Online Kanaal*** toont de bijgewerkte inhoud in het milieu in real time terwijl een ***Off-line Kanaal*** de caching inhoud toont.
 
 Volg de onderstaande stappen om het kanaal online te maken:
 
-1. Navigeren naar het kanaal als **TestProject** > **Kanalen** > **TestChannel**.
+1. Navigeer aan het kanaal als **TestProject** > **Kanalen** > **TestChannel**.
 
    Klik op het kanaal.
 
-   ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
+   ![ screen_shot_2019-08-01at31406pm ](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Klikken **Dashboard** in de actiebalk, zodat u de status van de speler kunt bekijken. De **KANAALINFORMATIE** biedt informatie over het feit of het kanaal online of offline is.
+   Klik **Dashboard** van de actiebar zodat kunt u het statuut van de speler bekijken. Het **paneel van de INFORMATIE VAN HET KANAAL** verstrekt informatie over of het kanaal online of off-line is.
 
-   ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
+   ![ screen_shot_2019-08-01at31458pm ](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Klikken **Eigenschappen** van de actiebalk en navigeer naar de **Kanaal** tabblad zoals hieronder weergegeven:
+1. Klik **Eigenschappen** van de actiebar en navigeer aan het **3} lusje van het Kanaal {zoals hieronder getoond:**
 
-   ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
+   ![ screen_shot_2019-08-01at31542pm ](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Controleer de **Ontwikkelaar** **modus (het kanaal forceren om online te zijn)** om het kanaal online te maken.
+1. Controleer de **** wijze van de 1} Ontwikkelaar **(dwang het kanaal om online te zijn)** om het kanaal als online te maken.
 
-   Klikken **Opslaan en sluiten** om uw optie op te slaan.
+   Klik **sparen &amp; Sluiten** om uw optie te bewaren.
 
-   ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
+   ![ screen_shot_2019-08-01at31658pm ](assets/screen_shot_2019-08-01at31658pm.png)
 
-   Ga terug naar het kanaaldashboard en nu het **KANAALINFORMATIE** geeft de onlinestatus van de speler weer.
+   Navigeer terug naar het kanaaldashboard en nu toont het **paneel van de INFORMATIE VAN HET KANAAL** de online status van de speler.
 
-   ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
+   ![ screen_shot_2019-08-01at31821pm ](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Om uw kanaal opnieuw als off-line te vormen, uncheck de de wijzeoptie van de Ontwikkelaar van **Eigenschappen** tab (zoals weergegeven in stap 3). Dan, van **KANAALINFORMATIE** paneelklik **Offline inhoud bijwerken**, zoals weergegeven in onderstaande afbeelding.
+>Om uw kanaal opnieuw als off-line te vormen, uncheck de de wijzeoptie van de Ontwikkelaar van het **Eigenschappen** lusje (zoals aangetoond in stap (3)). Dan, van het **paneel van de INFORMATIE VAN HET KANAAL** klik **de Offline Inhoud van de Update**, zoals aangetoond in het hieronder cijfer.
 
-![dashboard2](assets/dashboard2.gif)
+![ dashboard2 ](assets/dashboard2.gif)
 
 #### Automatische versus handmatige updates van het apparaatdashboard {#automatic-versus-manual-updates-from-the-device-dashboard}
 
@@ -198,7 +198,7 @@ De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld a
   <tr>
    <td>Wijzigen in onlinekanaal</td>
    <td>Inhoud wordt automatisch bijgewerkt</td>
-   <td><p>Inhoud bijgewerkt op "Device: Push Config"</p> <p>Of,</p> <p>Inhoud bijgewerkt op <strong><i>Apparaat: opnieuw starten</i></strong></p> </td>
+   <td><p>Inhoud bijgewerkt op "Device: Push Config"</p> <p>Of,</p> <p>Inhoud bijgewerkt op <strong><i> Apparaat: Begin </i></strong> opnieuw</p> </td>
   </tr>
   <tr>
    <td>Wijziging in offlinekanaal, maar Channel "Push Content" wordt NIET geactiveerd (geen offlinepakket wordt opnieuw gemaakt)</td>
@@ -208,7 +208,7 @@ De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld a
   <tr>
    <td>Wijziging in offlinekanaal en Kanaal wordt "pushinhoud" geactiveerd (nieuw offlinepakket)</td>
    <td>Inhoud wordt automatisch bijgewerkt</td>
-   <td><p>Inhoud bijgewerkt op <strong><i>Apparaat: Push Config</i></strong></p> <p>Of,</p> <p>Inhoud bijgewerkt op <strong><i>Apparaat: opnieuw starten</i></strong></p> </td>
+   <td><p>Inhoud bijgewerkt op <strong><i> Apparaat: Duw Config </i></strong></p> <p>Of,</p> <p>Inhoud bijgewerkt op <strong><i> Apparaat: Begin </i></strong> opnieuw</p> </td>
   </tr>
   <tr>
    <td><p>Wijzigen in configuratie</p>
@@ -219,29 +219,29 @@ De volgende tabel geeft een overzicht van de gebeurtenissen die zijn gekoppeld a
      <li>Kanaaltoewijzing (rol, gebeurtenis, planning)</li>
     </ul> </td>
    <td>Configuratie wordt automatisch bijgewerkt</td>
-   <td><p>Configuratie wordt bijgewerkt op <strong><i>Apparaat: Push Config</i></strong></p> <p>Of,</p> <p>Configuratie bijgewerkt op <strong><i>Apparaat: opnieuw starten</i></strong></p> </td>
+   <td><p>De configuratie wordt bijgewerkt op <strong><i> Apparaat: Duw Config </i></strong></p> <p>Of,</p> <p>Config bijgewerkt op <strong><i> Apparaat: Begin </i></strong></p> </td>
   </tr>
  </tbody>
 </table>
 
 ### Toegewezen beeldschermen {#assigned-displays}
 
-De **Toegewezen beeldschermen** toont de weergave die aan het kanaal is gekoppeld. Het verstrekt een momentopname van de toegewezen vertoning samen met de resolutie.
+Het **Toegewezen paneel van Vertoningen** toont de vertoning verbonden aan het kanaal. Het verstrekt een momentopname van de toegewezen vertoning samen met de resolutie.
 
-De bijbehorende weergaven worden weergegeven in het dialoogvenster **Toegewezen beeldschermen** deelvenster, zoals hieronder weergegeven:
+De bijbehorende vertoningen worden vermeld in het **Toegewezen paneel van Vertoningen**, zoals hieronder getoond:
 
-![chlimage_1-27](assets/chlimage_1-27.png)
+![ chlimage_1-27 ](assets/chlimage_1-27.png)
 
 >[!NOTE]
 >Zie voor meer informatie over het maken van een weergave op een locatie:
 >
->* [Locaties maken en beheren](managing-locations.md)
->* [Weergaven maken en beheren](managing-displays.md)
+>* [ creeer en beheer Plaatsen ](managing-locations.md)
+>* [ creeer en beheer Vertoningen ](managing-displays.md)
 >
 
-Klik ook op de weergave in het dialoogvenster **TOEGEWEZEN WEERGAVEN** om de weergaveinformatie weer te geven, zoals hieronder wordt getoond:
+Ook, klik de vertoning in **TOEGEWEZEN WEERGAVEN** paneel, om de vertoningsinformatie, zoals hieronder getoond te bekijken:
 
-![chlimage_1-28](assets/chlimage_1-28.png)
+![ chlimage_1-28 ](assets/chlimage_1-28.png)
 
 ### De volgende stappen {#the-next-steps}
 

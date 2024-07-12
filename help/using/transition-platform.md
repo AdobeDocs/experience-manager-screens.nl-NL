@@ -15,21 +15,21 @@ ht-degree: 0%
 >
 >Een typisch belanghebbende voor deze activiteit is een AEM Implementor.
 
-Aangezien uw project van een strategische visie aan een wireframed werkelijkheid is voortgegaan, zou u voor de daadwerkelijke verwezenlijking van een project van de Schermen in AEM moeten voorbereidingen treffen die u kunt opstellen.
+Aangezien uw project van een strategische visie aan een wireframed werkelijkheid is voortgegaan, zou u voor de daadwerkelijke verwezenlijking van een Screens project in AEM moeten voorbereidingen treffen die u kunt opstellen.
 
 Dit project omvat het in kaart brengen van platform-specifieke configuraties aan los bepaalde vereisten die in de prototypefase worden bepaald.
 
 Voorbeelden zijn hoe en wanneer u het volgende wilt gebruiken:
 
-* **Ervaar fragmenten** voor het maken van inhoudsgroepen.
-* **Inhoudsfragmenten** voor het maken van tekstvariaties.
-* **Context Hub** voor het creëren van externe gegevensopslag, SPA voor interactieve ervaringen.
-* **OSGi-diensten** voor netwerkwaarschuwingen.
-* **Koppeling met middelen** voor Creative Cloud sourcing.
-* **Netwerkmappen** voor de toewijzing van activa.
-* **Tekstbedekking** voor realtime gegevens.
-* **Planningen** voor weergave-/kanaalgroepen.
-* **Workflows** voor automatische inhoudsbewerkingen.
+* **Fragmenten van de Ervaring** voor het creëren van inhoudsgroepen.
+* **de Fragmenten van de Inhoud** voor het creëren van tekstvariaties.
+* **de Hub van de Context** voor het creëren van externe gegevensopslag, SPA voor interactieve ervaringen.
+* **OSGi diensten** voor netwerkalarm.
+* **Verbinding van Activa** voor Creative Cloud die.
+* **Mappen van het Netwerk** voor de toewijzing van Activa.
+* **bedekking van de Tekst** voor gegevens in real time.
+* **Programma&#39;s** voor vertoning/kanaalgroepen.
+* **Werkschema&#39;s** voor geautomatiseerde inhouduitgeeft.
 
 In deze fase, herzie alle vereiste taken en activiteiten die aandacht vereisen en behoorlijk hen documenteer zodat kunnen de toegewezen taken behoorlijk in de plaatsingsfase worden gevolgd.
 

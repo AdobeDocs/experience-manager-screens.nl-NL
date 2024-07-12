@@ -20,9 +20,9 @@ Nadat u een opeenvolgingskanaal creeert en beelden aan het toevoegt, door gebrek
 
 Voordat u deze functionaliteit implementeert, moet u ervoor zorgen dat u een project hebt ingesteld als voorwaarde voor het implementeren van deze functionaliteit. Bijvoorbeeld:
 
-1. Een AEM Screens-project maken (in dit voorbeeld: **ChannelLevelPlayback**)
-1. Een volgnummer maken als **PlaybackChannel** onder de **Kanalen** map
-1. Inhoud toevoegen aan **PlaybackChannel**
+1. Creeer een project van AEM Screens (in dit voorbeeld, **ChannelLevelPlayback**)
+1. Creeer een opeenvolgingskanaal als **PlaybackChannel** onder de **omslag van Kanalen**
+1. Voeg inhoud aan **PlaybackChannel** toe
 
 ## Tijdsduur afspeelafbeelding op kanaalniveau bewerken {#editing-channel-level-image-playback-duration-assignment}
 
@@ -32,37 +32,37 @@ In de onderstaande sectie wordt uitgelegd hoe u de afspeelduur van inhoud in een
 
 Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau op kanaalniveau tijdens het afspelen van de afbeelding kunt bijwerken:
 
-1. Navigeren naar het volgnummer **PlaybackChannel**.
+1. Navigeer aan het opeenvolgingskanaal **PlaybackChannel**.
 
-   ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
+   ![ screen_shot_2019-06-24at62818pm ](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Klikken **Bewerken** in de actiebalk.
+1. Klik **uitgeven** van de actiebar.
 
-   ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
+   ![ screen_shot_2019-06-24at70141pm ](assets/screen_shot_2019-06-24at70141pm.png)
 
 1. Voeg twee of meer afbeeldingen toe in de kanaaleditor, zoals in de onderstaande afbeelding wordt getoond.
 
-   ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
+   ![ screen_shot_2019-06-24at90534pm ](assets/screen_shot_2019-06-24at90534pm.png)
 
 1. Klik op alle afbeeldingen in het kanaal en klik op het moersleutelpictogram linksboven (zoals in de onderstaande afbeelding). Het dialoogvenster Kanaalniveau configureren wordt geopend.
 
-   ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
+   ![ screen_shot_2019-06-25at95945am ](assets/screen_shot_2019-06-25at95945am.png)
 
-1. De **Pagina** wordt geopend.
+1. Het **de dialoogvakje van de Pagina** opent.
 
    >[!NOTE]
    >
    >Standaard worden de afbeeldingen in een kanaal ingesteld op een afspeelduur van 8 seconden.
 
-   ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
+   ![ screen_shot_2019-06-25at100343am ](assets/screen_shot_2019-06-25at100343am.png)
 
-   Bewerk de **Duur** van 8000 (milliseconden) tot 3000 (milliseconden), dat wil zeggen, 3 seconden. Klik op het vinkje rechtsboven in het dialoogvenster **Pagina** zodat u uw wijzigingen kunt opslaan.
+   Bewerk de **Duur** van 8000 (milliseconden) aan 3000 (milliseconden), namelijk 3 seconden. Klik het vinkje op het hoogste recht van de **de dialoogdoos van de Pagina** zodat kunt u uw veranderingen bewaren.
 
-   ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
+   ![ screen_shot_2019-06-25at101527am ](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Het resultaat weergeven {#viewing-the-result}
 
 Wanneer u de afspeelduur van het kanaal hebt bijgewerkt (in dit voorbeeld worden alle drie de afbeeldingen weergegeven), ziet u dat de afbeeldingen nu 3 seconden worden afgespeeld in plaats van 8 seconden (de standaardwaarde).
 
-![channel_preview](assets/channel_preview.gif)
+![ channel_preview ](assets/channel_preview.gif)
 

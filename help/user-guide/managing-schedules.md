@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Planningen maken en beheren {#creating-and-managing-schedules}
 
-**Planningen** in AEM Screens kunt u kanalen organiseren in herbruikbare groepen. Dit betekent dat u de toewijzing niet afzonderlijk hoeft te herhalen voor elk scherm waarop u de inhoud wilt weergeven.
+**Programma&#39;s** in AEM Screens laten u kanalen in herbruikbare groepen organiseren. Dit betekent dat u de toewijzing niet afzonderlijk hoeft te herhalen voor elk scherm waarop u de inhoud wilt weergeven.
 
-Planningen, indien gecombineerd met ***DayParting***, kunt u een algemeen schema instellen met meerdere kanalen die op specifieke tijdstippen van de dag worden uitgevoerd, en die instelling opnieuw gebruiken voor al uw beeldschermen tegelijk.
+De programma&#39;s, wanneer gecombineerd met ***DayParting***, laten u een globaal programma met veelvoudige kanalen plaatsen die op specifieke tijden van de dag lopen, en hergebruiken die opstelling voor al uw vertoningen in één keer.
 
 >[!NOTE]
 >
@@ -28,16 +28,16 @@ Planningen, indien gecombineerd met ***DayParting***, kunt u een algemeen schema
 
 ## Een schema maken {#creating-a-schedule}
 
-U kunt een programma voor uw project van het Scherm tot stand brengen dat alle activiteiten voor uw gebruiksgeval kan beheren.
+U kunt een schema voor uw Screens-project maken dat alle activiteiten voor uw gebruiksscenario kan beheren.
 
 Voer de onderstaande stappen uit om een schema voor uw kanaal te maken:
 
-1. Klik op de koppeling Adobe Experience Manager (linksboven) en vervolgens op Schermen. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens`.
-1. Navigeer naar het project Screens en klik op **Planningen**.
-1. Klikken **Maken** in de actiebalk.
-1. Klikken **Schema** van de **Maken** wizard en klik op **Volgende**.
+1. Klik op de Adobe Experience Manager-koppeling (linksboven) en vervolgens op Screens. U kunt ook rechtstreeks naar: `http://localhost:4502/screens.html/content/screens` gaan.
+1. Navigeer aan het project van Screens en klik **Programma&#39;s**.
+1. Klik **creëren** van de actiebar.
+1. Klik **Programma** van **creëren** tovenaar en klik **daarna**.
 
-1. Voer de **Naam** en **Titel** en klik op **Maken**.
+1. Ga de **Naam** en **Titel** in en klik **creeer**.
 
 U kunt een planningsomslag met de aangewezen naam en de titel in uw project zien.
 
@@ -46,20 +46,20 @@ U kunt een planningsomslag met de aangewezen naam en de titel in uw project zien
 
 Nadat u een planningsomslag in uw project hebt gecreeerd, kunt u de details van het dashboard van programma&#39;s bekijken.
 
-Voer de onderstaande stappen uit om het dashboard voor het schema weer te geven. In het volgende voorbeeld wordt het dashboard van het `We.Retail` project:
+Voer de onderstaande stappen uit om het dashboard voor het schema weer te geven. In het volgende voorbeeld wordt het dashboard van het `We.Retail` -project getoond:
 
-1. Ga naar de **Planningen** map met schermen (bijvoorbeeld `We.Retail`).
+1. Navigeer aan de **omslag van Programma&#39;s** van Screens (voorbeeld, `We.Retail`) project.
 
-   ![chlimage_1](assets/chlimage_1.png)
+   ![ chlimage_1 ](assets/chlimage_1.png)
 
-1. Klikken **Dashboard** in de actiebalk.
+1. Klik **Dashboard** van de actiebar.
 
-   U kunt drie verschillende deelvensters weergeven, zoals **SCHEMA-GEGEVENS**, **TOEGEWEZEN KANALEN**, en **TOEGEWEZEN WEERGAVEN**.
+   U kunt drie verschillende panelen zoals **SCHEMA INFORMATIE** bekijken, **TOEGEWEZEN KANALEN**, en **TOEGEWEZEN WEERGAVEN**.
 
-   ![chlimage_1-1](assets/chlimage_1-1.png)
+   ![ chlimage_1-1 ](assets/chlimage_1-1.png)
 
-   **Deelvenster Informatie plannen** Klik Eigenschappen van de hoger-juiste hoek van het paneel van de INFORMATIE van het SCHEMA aan mening/veranderingseigenschappen van het programma.
+   **Klik Eigenschappen van het Comité van de Informatie van het 0} Programma van de bovenkant-juiste hoek van het paneel van de INFORMATIE van het SCHEMA aan mening/veranderingseigenschappen van het programma.**
 
-   **Deelvenster Toegewezen kanalen** Klik op +Kanaal toewijzen in de rechterbovenhoek van het deelvenster Toegewezen KANALEN om het dialoogvenster Kanaaltoewijzing te openen.
+   **Toegewezen het Comité van Kanalen** klikt +wijst Kanaal van de hoogste juiste hoek van het Toegewezen Comité van KANALEN toe om de de dialoogdoos van de Toewijzing van het Kanaal te openen.
 
-   **Deelvenster Toegewezen beeldschermen** Klik op een van de weergaven in het deelvenster TOEGEWEZEN WEERGAVEN om het weergavedashboard te openen.
+   **Toegewezen Comité van Vertoningen** klik om het even welke vertoningen van het TOEGEWEZEN Comité van TONINGEN om het vertoningsdashboard te openen.

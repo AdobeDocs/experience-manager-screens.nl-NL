@@ -24,15 +24,15 @@ Het volgende gebruiksgeval laat u een demoproject uitvoeren van waar het Fragmen
 
 >[!NOTE]
 >**Vereisten
->U moet een voorafgaande kennis van de grondbeginselen van een Fragmenten van de Ervaring en hebben hoe te om een Fragments van de Ervaring in een project van AEM Screens te gebruiken. Zie [Beleidsfragmenten gebruiken](/help/user-guide/experience-fragments-in-screens.md)
+>U moet een voorafgaande kennis van de grondbeginselen van een Fragmenten van de Ervaring en hebben hoe te om een Fragments van de Ervaring in een project van AEM Screens te gebruiken. Zie [ Gebruikend de Fragmenten van de Ervaring ](/help/user-guide/experience-fragments-in-screens.md)
 
 ### Het demoproject instellen {#demo-project-setup}
 
-Een project maken met de naam **DemoProject** en een volgordekanaal met de naam **TestChannel** in uw AEM Screens, zoals weergegeven in de onderstaande afbeelding.
+Creeer een project dat als **wordt genoemd DemoProject** en een opeenvolgingskanaal dat als **wordt getiteld TestChannel** in uw AEM Screens, zoals aangetoond in het hieronder cijfer.
 
 ### Implementatie van het ervaringsfragment in een AEM Screens-project {#experience-fragments-implementation}
 
-Als u een Experience Fragment hebt gemaakt en dit in uw AEM Screens-project hebt toegepast, **DemoProject**, kunt u het Ervingsfragment naar wens verbeteren.
+Wanneer u een Fragment van de Ervaring hebt gecreeerd en het in uw project van AEM Screens toegepast, **DemoProject**, kunt u het Fragment van de Ervaring volgens uw vereisten verbeteren.
 
 ### Tekst vergroten {#increasing-text-size}
 

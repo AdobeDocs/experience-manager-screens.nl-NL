@@ -17,7 +17,7 @@ In deze sectie worden aanbevelingen gegeven over belangrijke sleutelelementen di
 
 ## Belangrijkste elementen in digitale signalen {#key-elements}
 
-De *Belangrijkste elementen* bij een digitaal ondertekeningsproject gaat het om :
+De *Zeer belangrijke Elementen* in een digitaal ondertekeningsproject zijn:
 
 ![](/help/assets/Elements-Revised.png)
 
@@ -27,7 +27,7 @@ Het definiëren van de belangrijkste elementen is van essentieel belang voordat 
 
    De hardware bepaalt welke hardwarecomponenten voor uw digitaal ondertekeningsproject ideaal zijn:
    * Beschikt het apparaat over voldoende opslagruimte om alle variaties van de ervaringen offline uit te voeren?
-   * Hebt u het type en de lengte van videokabel toegestaan? En ondersteunt het apparaat beide gewenste resoluties (HD, FullHD, `4K`, enzovoort) en video-codecs die ik wil implementeren (h.264, h.265 enzovoort)
+   * Hebt u het type en de lengte van videokabel toegestaan? En ondersteunt het apparaat zowel de gewenste resoluties (HD, FullHD, `4K` enzovoort) als video-codecs die ik wil implementeren (h.264, h.265, enzovoort)
    * Gebruik van fysiek koperdraad
    * Grootte van schermen
    * Aantal schermen
@@ -77,7 +77,7 @@ Het definiëren van de belangrijkste elementen is van essentieel belang voordat 
       * RFID/NFC/Bluetooth/iBeacon
       * Externe diensten (weer, verkeer)
 
-1. **Omgeving**
+1. **Milieu**
 
    Het milieu legt de nadruk op:
    * Locatie weergeven?

@@ -42,7 +42,7 @@ De configuratie wijst een toegang van Internet voor elke Controlemechanisme van 
 1. Als de URL-aanroep is gelukt, kunt u de AEM Screens blijven installeren en registreren. Start AEM Screens.
 
    >[!TIP]
-   >Het kan voorkomen dat de AEM Screens-verbinding niet goed werkt. De verwachte inhoud wordt niet weergegeven. In dergelijke gevallen, controleer uw firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443`.
+   >Het kan voorkomen dat de AEM Screens-verbinding niet goed werkt. De verwachte inhoud wordt niet weergegeven. In dergelijke gevallen, controleer uw firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443` zijn.
 
 
 ## Vestiging Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk {#requirements-direct}
@@ -57,9 +57,9 @@ De netwerkOpstelling kan logisch gezien in twee blokken worden gescheiden:
 
 De prestaties van de verbinding van Internet, naast reeds beschreven netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens inhoud uit te voeren downloadt regelmatig.
 
-*Voldoende* is afhankelijk van het aantal aangesloten AEM Screens-apparaten. Het hangt ook van het gebruik van andere consumenten binnen het netwerk, zoals Smartphones, Tablets, Cashiers, Computers, of de netwerken van WiFi van de Gast af.
+*Voldoende* hangt van het aantal aangesloten apparaten van AEM Screens af. Het hangt ook van het gebruik van andere consumenten binnen het netwerk, zoals Smartphones, Tablets, Cashiers, Computers, of de netwerken van WiFi van de Gast af.
 Houd in mening dat alle apparaten een gezamenlijke toegang tot de verbinding van Internet hebben en de bandbreedte lineair vermindert terwijl het toevoegen van meer consumenten/computers aan het netwerk.
-Naast de specifieke theoretische verbinding van het Netwerk, moet worden gewaarborgd dat de dekking van de mobiele Router minstens is *goed*. Ook, moet het onderliggende Maandelijkse Plan genoeg Capaciteit van Gegevens en voldoende bandbreedte behandelen om alle verbonden cliënten binnen verbonden LAN te dienen.
+Naast de specifieke theoretische verbinding van het Netwerk, moet het worden gewaarborgd dat de dekking van de mobiele Router minstens *goed* is. Ook, moet het onderliggende Maandelijkse Plan genoeg Capaciteit van Gegevens en voldoende bandbreedte behandelen om alle verbonden cliënten binnen verbonden LAN te dienen.
 
 In de volgende tabel worden de gegevensnetwerken gemarkeerd met hun standaardbandbreedte:
 
@@ -82,7 +82,7 @@ Terwijl het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt, 
 
 >[!IMPORTANT]
 >
->Voor het eerste uploaden van mediabestanden terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht. Dit komt ook tot uiting in de bovenstaande aannames. Een 4G-netwerk met *goed* de dekking en de onbeperkte Gegevens zouden de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
+>Voor het eerste uploaden van mediabestanden terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht. Dit komt ook tot uiting in de bovenstaande aannames. Een netwerk 4G met *goede* dekking en onbeperkte Gegevens zouden de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
 
 
 ### Netwerk voor lokale gebieden {#lan-connection}
@@ -91,9 +91,9 @@ De prestaties van LAN, naast reeds beschreven netwerkbereikbaarheid, moeten vold
 
 Bijvoorbeeld, zouden de Componenten van het Netwerk minstens de norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
 
-Als een Wi-Fi-oplossing wordt overwogen om een scherm te verbinden met de Internet Link, is het raadzaam om moderne Wi-Fi-standaarden te gebruiken, zoals IEEE `802.11g` minimaal. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwer* Standaarden als `802.11h-n` van betere kwaliteit zijn. Als een Wi-Fi Repeater vereist is, raadt de Adobe aan om Wi-Fi Access-punttechnologieën zoals Google Nest Mesh Wi-Fi of vergelijkbare technologieën te gebruiken.
+Als een Wi-Fi-oplossing wordt overwogen om een scherm te verbinden met de Internet Link, is het raadzaam ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals IEEE `802.11g` . Deze standaard steunt verbindingen tot 54 Mbps. Om het even welk *nieuwere* Normen als `802.11h-n` zijn van betere kwaliteit. Als een Wi-Fi Repeater vereist is, raadt de Adobe aan om Wi-Fi Access-punttechnologieën zoals Google Nest Mesh Wi-Fi of vergelijkbare technologieën te gebruiken.
 
-## Media en middelen downloaden {#download}
+## Media en Assets downloaden {#download}
 
 AEM Screens biedt een aanzienlijk voordeel voor gebruikers van digitale berichten. Het downloadt en bewaart plaatselijk alle noodzakelijke Dossiers van Media, zoals Beelden en Video. Wegens dit concept, komt het belangrijkste netwerkverkeer voor in het geval dat er nieuwe inhoud is die op een specifiek scherm moet worden getoond.
 Voor de normale bewerking, met een gedefinieerde afspeellijst die niet vaak wordt bijgewerkt, biedt deze methode vrijwel netwerkonafhankelijke bewerkingen wanneer alle bestanden op de speler worden opgeslagen.

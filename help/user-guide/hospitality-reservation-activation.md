@@ -23,57 +23,57 @@ Het volgende gebruiksgeval toont het gebruik van activering van ziekenhuisreserv
 
 ## Beschrijving {#description}
 
-In dit geval wordt op het Google-blad een reserveringspercentage voor twee restaurants vermeld **`Restaurant1`** en **`Restaurant2`**. Een formule wordt toegepast op basis van waarden van `Restaurant1` en `Restaurant2` en op basis van de formule wordt waarde 1 of 2 toegewezen aan de **AdTarget** Kolom.
+In dit geval wordt op het Google-blad een reserveringspercentage voor twee restaurants **`Restaurant1`** en **`Restaurant2`** weergegeven. Een formule wordt toegepast gebaseerd op waarden van `Restaurant1` en `Restaurant2` en, gebaseerd op de formule, wordt waarde 1 of 2 toegewezen aan de **AdTarget** Kolom.
 
-Als de waarde van **`Restaurant1`** > **`Restaurant2`** vervolgens **Advertentietag** is toegewezen waarde **1** anders **AdTarget** is toegewezen waarde **2**. Waarde 1 genereert een *Steekvoedsel* en Waarde twee resulteert in een weergave van *Thais voedsel* op het scherm.
+Als de waarde van **`Restaurant1`** > **`Restaurant2`**, dan **AdTaget** wordt toegewezen waarde **1** anders **AdTarget** wordt toegewezen waarde **2**. Waarde 1 produceert de voedsel van de a *Stapel* optie en Waarde twee resultaten in een vertoning van *Thaise voedsel* optie op uw vertoningsscherm.
 
 ## Voorwaarden {#preconditions}
 
-Voordat u de activering van reserveringen gaat implementeren, moet u leren hoe u de instelling ***Gegevensopslag***, ***Auditiesegmentatie*** en ***Doelstelling voor kanalen inschakelen*** in een AEM Screens-project.
+Alvorens u begint de reserveringsactivering uit te voeren, leer hoe te opstelling ***Opslag van Gegevens***, ***Segmentatie van het publiek*** en ***het richten voor Kanalen*** in een Project van AEM Screens toelaten.
 
-Zie [ContextHub configureren in AEM Screens](configuring-context-hub.md) voor nadere informatie.
+Zie [ het Vormen ContextHub in AEM Screens ](configuring-context-hub.md) voor gedetailleerde informatie.
 
 ## Basisstroom {#basic-flow}
 
 Volg onderstaande stappen in het gebruiksgeval om de activering van de ziekenhuisreservering voor uw AEM Screens-project te implementeren:
 
-1. **Google Sheets vullen en de formule toevoegen**.
+1. **die de Bladen van Google bevolkt en de formule** toevoegt.
 
-   Pas bijvoorbeeld de formule toe op de derde kolom **AdTarget**, zoals weergegeven in onderstaande afbeelding.
+   Bijvoorbeeld, pas de formule op de derde kolom **AdTarget** toe, zoals aangetoond in het hieronder cijfer.
 
-   ![screen_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
+   ![ screen_shot_2019-04-29at94132am ](assets/screen_shot_2019-04-29at94132am.png)
 
-1. **De segmenten in soorten publiek configureren volgens de vereisten**
+1. **Vormend de segmenten in Soorten publiek zoals per de vereisten**
 
-   1. Navigeer naar de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het publiek instellen*** in **[ContextHub configureren in AEM Screens](configuring-context-hub.md)** voor meer informatie).
-   1. Klik op de knop **Bladen A1 1** en klik op **Bewerken**.
-   1. Klik op de vergelijkingseigenschap en klik op de knop **Configuratie** pictogram.
-   1. Klikken **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**.
-   1. Klik op de knop **Operator** als **gelijk** in het keuzemenu.
-   1. Voer de **Waarde** als **1**.
-   1. Klik op de knop **Bladen A1 2** en klik op **Bewerken**.
-   1. Klik op de vergelijkingseigenschap en klik op de knop **Configuratie** pictogram.
-   1. Klikken **googesheets/value/1/2** in de vervolgkeuzelijst **Eigenschapnaam**.
-   1. Klik op de knop **Operator** als **2**.
+   1. Navigeer aan de segmenten in uw publiek (zie ***Stap 2: De Segmentatie van het Publiek van de vestiging*** in **[het Vormen ContextHub in AEM Screens](configuring-context-hub.md)** pagina voor meer details).
+   1. Klik de **Bladen A1 1** en klik **uitgeven**.
+   1. Klik het vergelijkingsbezit en klik het **pictogram van de Configuratie**.
+   1. Klik **googesheets/value/1/2** van de drop-down in **naam van het Bezit**.
+   1. Klik de **Exploitant** als **gelijk** van het drop-down menu.
+   1. Ga de **Waarde** als **1** in.
+   1. Op dezelfde manier klik de **Bladen A1 2** en klik **uitgeven**.
+   1. Klik het vergelijkingsbezit en klik het **pictogram van de Configuratie**.
+   1. Klik **googesheets/value/1/2** van de drop-down in **naam van het Bezit**.
+   1. Klik de **Exploitant** als ****.
 
-1. Navigeren en op het kanaal klikken () en op **Bewerken** in de actiebalk. In het volgende voorbeeld: **DataDrivenRestaurant**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
+1. Navigeer en klik uw kanaal () en klik **uitgeven** van de actiebar. In het volgende voorbeeld, **DataDrivenRestaurant**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
 
    >[!NOTE]
    >
-   >Het kanaal moet al een standaardafbeelding hebben en het publiek moet vooraf zijn geconfigureerd zoals beschreven in [ContextHub configureren in AEM Screens](configuring-context-hub.md).
+   >Uw kanaal zou reeds een standaardbeeld moeten hebben en het publiek zou pre-gevormd moeten zijn zoals die in [ wordt beschreven het Vormen ContextHub in AEM Screens ](configuring-context-hub.md).
 
-   ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
+   ![ screen_shot_2019-05-08at14652pm ](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
-   >Uw **ContextHub** **Configuraties** het kanaal gebruiken **Eigenschappen** > **Personalisatie** had op dit punt al moeten zijn ingesteld.
+   >Uw **ContextHub** **Configuraties** gebruikend het kanaal **Eigenschappen** > **Personalization** lusje zou reeds opstelling op dit punt moeten zijn geweest.
 
-   ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
+   ![ screen_shot_2019-05-08at114106am ](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Klikken **Targeting** vanuit de editor en klik op **Merk** en de **Activiteit** in het keuzemenu en klik op **Doelstelling starten**.
-1. **De voorvertoning controleren**
+1. Klik **richtend** van de redacteur en klik **Merk** en de **Activiteit** van het drop-down menu en klik **Begin richtend**.
+1. **die de Voorproef** controleert
 
-   1. Klikken **Voorvertoning.** Open ook uw Google-bladen en werk de waarde ervan bij.
-   1. De waarde bijwerken in **`Restaurant1`** en **`Restaurant2`** kolommen. Indien **`Restaurant1`** > **`Restaurant2`,** u zou een beeld van moeten kunnen bekijken *Steak* anders voedsel, *Thai* voedselafbeeldingen worden op het scherm weergegeven.
+   1. Klik **Voorproef.** Open ook uw Google-bladen en werk de waarde ervan bij.
+   1. Werk de waarde in **`Restaurant1`** en **`Restaurant2`** kolommen bij. Als **`Restaurant1`** > **`Restaurant2`,** u een beeld van *zou moeten kunnen bekijken Steak* anders voedsel, *Thaise* vertoningen van het voedselbeeld op uw scherm.
 
-   ![result5](assets/result5.gif)
+   ![ result5 ](assets/result5.gif)

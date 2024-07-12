@@ -20,6 +20,6 @@ In deze activiteit, is het belangrijk om alle belangrijkste verkopers te identif
 
 * Definieer de mogelijkheden en taken van elke leverancier voor de productcategorie die deze ondersteunt.
 
-* Levering bevestigen *doorlooptijden* voor alle te leveren items. Maak een implementatieplan dat geschikt is voor alle doorlooptijden die achterwaarts werken vanaf een of meer gewenste installatiedata van de eerste vereiste installaties.
+* Bevestig leverings *loodtijden* voor alle te leveren producten. Maak een implementatieplan dat geschikt is voor alle doorlooptijden die achterwaarts werken vanaf een of meer gewenste installatiedata van de eerste vereiste installaties.
 
-Als u alle vorige stappen hebt uitgevoerd, hebt u nu een uitgebreide *Dag 1* implementatieplan gereed voor uitvoering.
+Door alle vorige stappen te voltooien, zou u een uitvoerig *Dag 1* plaatsingsplan nu klaar moeten hebben om uit te voeren.

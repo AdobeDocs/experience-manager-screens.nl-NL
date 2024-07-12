@@ -25,7 +25,7 @@ In deze sectie wordt beschreven hoe u de Windows Player in AEM Screens configure
 
 Installeer Windows Player voor AEM Screens om Windows Player voor AEM Screens te implementeren.
 
-Ga naar [**AEM 6.5 Player-downloads**](https://download.macromedia.com/screens/) pagina.
+Bezoek [**AEM 6.5 de Downloads van de Speler** ](https://download.macromedia.com/screens/) pagina.
 
 >[!NOTE]
 >Windows Player bevat geen venstermodus. De modus is altijd volledig scherm.
@@ -35,34 +35,36 @@ Ga naar [**AEM 6.5 Player-downloads**](https://download.macromedia.com/screens/)
 >[!NOTE]
 >Stel een omgeving in voor Windows Player als u AEM Screens 6.5.5 Service Pack gebruikt.
 
-Stel de **SameSite-kenmerk voor de cookies met het token** van **Lax** tot **Geen** van **Configuratie Adobe Experience Manager-webconsole** op alle AEM auteur- en publicatieinstanties.
+Plaats het **attribuut SameSite voor de login-symbolische koekjes** van **Lax** aan **niets** van **Console van het Web van Adobe Experience Manager
+Configuratie** op alle AEM auteur en publiceer instanties.
 
 Voer de onderstaande stappen uit:
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** gebruiken `http://localhost:4502/system/console/configMgr`.
+1. Navigeer naar **Adobe Experience Manager Web Console
+Configuratie** met `http://localhost:4502/system/console/configMgr` .
 
-1. Zoeken naar *Adobe Granite Token Authentication Handler*.
+1. Onderzoek naar *de manager van de Authentificatie van het Symbolische van de Adobe Granite*.
 
-1. Stel de **SameSite-kenmerk voor de cookies met het token** van **Lax** tot **Geen**.
+1. Plaats het **attribuut SameSite voor de login-symbolische koekjes** van **Lax** aan **niets**.
    ![afbeelding](/help/user-guide/assets/granite-updates.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ### Ad hoc-methode {#ad-hoc-method}
 
-Met de ad-hocmethode kunt u de nieuwste Windows Player installeren (*.exe*). Ga naar [**AEM 6.5 Player-downloads**](https://download.macromedia.com/screens/) pagina.
+De ad hoc methode laat u de recentste Speler van Vensters installeren (*.exe*). Bezoek [**AEM 6.5 de Downloads van de Speler** ](https://download.macromedia.com/screens/) pagina.
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeren naar **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u met en klikt **Opslaan**.
-1. Ga naar de **Apparaat** **Registratie** van het linkeractiemenu zodat kunt u de status van het proces van de apparatenregistratie controleren.
+1. Navigeer aan **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u met wilt verbinden en **klikken sparen**.
+1. Navigeer aan het **Apparaat** **verbinding van de Registratie** van het linkeractiemenu zodat kunt u de status van het proces van de apparatenregistratie controleren.
 
 >[!NOTE]
 >
->Als de **Staat** is **GEREGISTREERD**, merkt op dat de **Apparaat-id** veld is gevuld.
+>Als de **Staat** **GEREGISTREERD** is, merk op dat het **identiteitskaart van het Apparaat** gebied bevolkt is.
 >
->Als de **Staat** is **ONGEREGISTREERD**, kunt u de **Token** om het apparaat te registreren.
+>Als de **Staat** **ONGEREGISTREERD** is, kunt u het **Symbolische** gebruiken om het apparaat te registreren.
 
 ## Namen van Windows Player {#name-windows}
 
@@ -73,8 +75,8 @@ U kunt een gebruikersvriendelijke apparatennaam aan uw Speler van Vensters toewi
 
 Voer de onderstaande stappen uit om de naam in Windows Player te configureren:
 
-1. Klikken **start** > **run**.
-1. Enter `system.cpl`.
+1. Klik **begin** > **looppas**.
+1. Voer `system.cpl` in.
 1. Gebruik het tabblad Naam van de computer om de hostnaam van de computer in te stellen.
 
 ## De standaardopties wijzigen in Windows Installer {#changing-default-options}
@@ -83,7 +85,7 @@ Volg deze sectie zodat kunt u leren hoe te om de standaardopties in de Installat
 
 ## Installatie met CLI (PowerShell) {#install-powershell}
 
-1. Een aangepaste locatie maken **toegewijd** voor Schermspeler, bijvoorbeeld:
+1. Creeer een douaneplaats **gewijd** voor de Speler van Screens, bijvoorbeeld:
    `C:\Users\User\screens-player`
 1. Installeren
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
@@ -109,7 +111,7 @@ De configuratie zorgt ervoor dat alle spelers de zelfde server pingelen die in h
 Voer de onderstaande stappen uit om Windows 10 Player te configureren:
 
 1. Windows Player installeren.
-1. Het configuratiebestand zoeken onder ***%appdata%\com.adobe.aem.screens.player\config.json***.
+1. Zoek het configuratiebestand onder ***%appdata%\com.adobe.aem.screens.player\config.json*** .
 1. Werk de configuratie-JSON bij met behulp van de onderstaande informatie en kopieer vervolgens dezelfde map naar alle systemen waar de speler zich bevindt.
 
 ### Beleidskenmerken {#policy-attributes}
@@ -117,7 +119,7 @@ Voer de onderstaande stappen uit om Windows 10 Player te configureren:
 De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verwijzing samen:
 
 
-| **Beleidsnaam** | **Doel** |
+| **Naam van het Beleid** | **Doel** |
 |---|---|
 | server | De URL naar de Adobe Experience Manager-server (AEM). |
 | registrationKey | Wordt gebruikt voor de bulkregistratie van apparaten met behulp van een vooraf gedeelde sleutel. |
@@ -126,8 +128,8 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 | enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
 | enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om naar een ander kanaal op het apparaat te gaan. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
 | enableActivityUI | Schakel deze optie in zodat u de voortgang van activiteiten zoals downloaden en synchroniseren kunt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
-| cloudMode | Stel dit in op true als u wilt dat de Windows Player verbinding maakt met as a Cloud Service schermen. Ingesteld op false om verbinding te maken met AMS of on-prem AEM. |
-| cloudToken | Registratietoken voor registratie tegen as a Cloud Service schermen. |
+| cloudMode | Stel dit in op true als u wilt dat de Windows Player verbinding maakt met Screens as a Cloud Service. Ingesteld op false om verbinding te maken met AMS of on-prem AEM. |
+| cloudToken | Registertoken voor Screens as a Cloud Service. |
 
 #### JSON-bestand met voorbeeldbeleid {#example-policy-json-file}
 
@@ -158,11 +160,11 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 1. Enable Shell Launcher.
 
-   Zie ***Shell Launcher configureren*** in **[Shell Launcher](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** pagina door Microsoft® Windows voor aanvullende informatie.
+   Zie ***de Lanceerinrichting van Shell*** in **[Lanceerinrichting van Shell ](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** pagina door Microsoft® de steun van Vensters voor extra informatie vormen.
 
 1. Maak een niet-administratieve gebruiker (als u er al een hebt) die u voor Kiosk wilt gebruiken. Het kan een lokale of domeingebruiker zijn.
-1. Installeer de Speler van Vensters voor die gebruiker van Kiosk van [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/) pagina.
-1. Zie [De Lanceerinrichting van Shell van het gebruik om Vensters 10 kiosk te creëren](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) om uw manuscript PowerShell voor meer informatie te wijzigen.
+1. Installeer de Speler van Vensters voor die gebruiker van Kiosk van de [ downloadt van de Speler van AEM Screens ](https://download.macromedia.com/screens/) pagina.
+1. Zie [ Lanceerinrichting van Shell van het Gebruik om Vensters 10 kiosk ](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) tot stand te brengen om uw manuscript PowerShell voor meer informatie te wijzigen.
 
    Wijzig het manuscript PowerShell zodat kunt u de gebruikersbenaming met vervangen u creeerde. Zorg ervoor dat het pad naar het uitvoerbare bestand van de toepassing juist is. Dit plaatst douane shell als toepassing van de Speler van Vensters voor de gebruiker van kiosk en plaatst het gebrek als explorer.exe voor andere gebruikers.
 
@@ -175,7 +177,7 @@ Als u een zwart scherm krijgt nadat u zich hebt aangemeld als gebruiker van Kios
 
 Het standaardinstallatiepad voor Windows Player is:
 
-***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-electron \ AEM Screens Player.exe***
 
 Met het voorbeeldscript in de koppelingen kunt u de aangepaste shell in- en uitschakelen. Splits het script daarom in twee regels en schakel de onderstaande regels in/uit:
 
@@ -195,6 +197,6 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
 
-### De afstandsbediening voor schermen gebruiken {#using-remote-control}
+### De afstandsbediening van Screens gebruiken {#using-remote-control}
 
-AEM Screens biedt functionaliteit voor afstandsbediening. Meer informatie over deze functie vindt u hier: [Schermen afstandsbediening](implementing-remote-control.md)
+AEM Screens biedt functionaliteit voor afstandsbediening. Leer meer over deze eigenschap hier: [ de Verre Controle van Screens ](implementing-remote-control.md)

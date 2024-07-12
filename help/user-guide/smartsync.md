@@ -26,12 +26,12 @@ SmartSync is het meest recente mechanisme dat door AEM Screens wordt gebruikt. H
 
 Deze wordt zowel op de server als op de client uitgevoerd.
 
-**Op de server**
+**aan de kant van de Server**
 
-* Inhoud van de kanalen, inclusief elementen, wordt in cache geplaatst in *`/var/contentsync`*.
+* De inhoud van de kanalen, inclusief elementen, wordt in de cache opgeslagen in *`/var/contentsync`* .
 * Cache wordt aan de spelers blootgesteld als manifest dat de beschikbare inhoud voor een vertoning beschrijft.
 
-**Aan de clientzijde**
+**aan de kant van de Cliënt**
 
 * De speler werkt de inhoud bij op basis van het hierboven gegenereerde manifest.
 
@@ -53,39 +53,39 @@ De functie SmartSync biedt verschillende voordelen voor uw AEM Screens-project, 
 >
 >Als u al AEM 6.3 Feature Pack 5 en AEM 6.4 Feature Pack 3 hebt geïnstalleerd, kunt u SmartSync voor middelen inschakelen om het gebruik van schijfruimte te verbeteren. Als u SmartSync wilt inschakelen, volgt u de onderstaande sectie voor de overgang van ContentSync naar SmartSync en schakelt u SmartSync dus in.
 >
->SmartSync is beschikbaar voor schermPlayer met ondersteunde servers AEM 6.4.3 FP3.
+>SmartSync is beschikbaar voor Screens Player met ondersteunde servers AEM 6.4.3 FP3.
 >
->Zie de [Downloads voor AEM Screens Player](https://download.macromedia.com/screens/) om de nieuwste speler te downloaden. In de volgende tabel wordt de minimaal vereiste Player-versie voor elk platform beschreven:
+>Zie de [ Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/) om de recentste speler te downloaden. In de volgende tabel wordt de minimaal vereiste Player-versie voor elk platform beschreven:
 
-| **Platform** | **Minimaal ondersteunde Player-versie** |
+| **Platform** | **Minimum Ondersteunde Versie van de Speler** |
 |---|---|
 | Android™ | 3.3.72. |
-| Chrome-besturingssysteem | 1.0.136 |
+| CHROME OS | 1.0.136 |
 | Windows | 1.0.136 |
 
 Voer de onderstaande stappen uit om van ContentSync over te schakelen op SmartSync:
 
 1. Voor het migreren van ContentSync naar SmartSync moet de ContentSync-cache worden gewist voordat SmartSync wordt geactiveerd.
 
-   Ga via de koppeling naar de ContentSync-console van uw instantie ***https://localhost:4502/libs/cq/contentsync/content/console.html*** en klik op **Cache wissen**, zoals weergegeven in onderstaande afbeelding:
+   Navigeer aan de console ContentSync van uw instantie gebruikend de verbinding ***https://localhost:4502/libs/cq/contentsync/content/console.html*** en klik **Duidelijk Geheime voorgeheugen**, zoals aangetoond in het hieronder cijfer:
 
-   ![clear_contesync_cache](assets/clear_contesync_cache.png)
+   ![ clear_contesync_cache ](assets/clear_contesync_cache.png)
 
    >[!CAUTION]
    >
    >Alle inhoudcache moet worden gewist voordat u SmartSync voor het eerst kunt gebruiken.
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM > hamerpictogram > **Bewerkingen** > **Webconsole**.
+1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** als AEM instantie > hamerpictogram > **Verrichtingen** > **Console van het Web**.
 
-   ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
+   ![ screen_shot_2019-02-11at15339pm ](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Configuratie Adobe Experience Manager-webconsole** wordt geopend. Zoeken naar *offlinecontent*.
+1. **de Configuratie van de Console van het Web van Adobe Experience Manager** opent. Onderzoek naar *offline contentservice*.
 
-   Als u de opdracht **Schermen offline-inhoudsservice** eigenschap, druk **Command+F** for **Mac**, en **Ctrl+F** for **Windows**.
+   Om het **Off-line bezit van de Dienst van de Inhoud van Screens te zoeken**, druk **Command+F** voor **Mac**, en **Control+F** voor **Vensters**.
 
-   ![screen_shot_2019-02-19at2643pm](assets/screen_shot_2019-02-19at22643pm.png)
+   ![ screen_shot_2019-02-19at22643pm ](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Klikken **Opslaan** de **Schermen met services voor offline inhoud** en dus SmartSync voor AEM Screens gebruiken.
-1. Wanneer u SmartSync hebt ingeschakeld, navigeert u naar uw project en klikt u op **Offline inhoud bijwerken** *(vanaf de actiebalk),* zoals weergegeven in onderstaande afbeelding.
+1. Klik **sparen** om het **Offline bezit van de Diensten van de Inhoud van Screens toe te laten** en vandaar SmartSync voor AEM Screens te gebruiken.
+1. Wanneer u SmartSync hebt toegelaten, navigeer aan uw project en klik **Update Offline Inhoud** *(van de actiebar),* zoals aangetoond in het hieronder cijfer.
 
-   ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
+   ![ screen_shot_2019-02-25at102605am ](assets/screen_shot_2019-02-25at102605am.png)

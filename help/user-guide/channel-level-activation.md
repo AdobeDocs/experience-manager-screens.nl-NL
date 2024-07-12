@@ -22,7 +22,7 @@ De volgende onderwerpen worden behandeld in deze sectie:
 * Overzicht
 * Activeringsvenster
 * Activering op kanaalniveau gebruiken als één gebeurtenis afspelen
-* Herhaling van middelen in een kanaal afhandelen
+* Herhaling van Assets in een kanaal afhandelen
    * DayParting
    * WeekParting
    * MonthParting
@@ -31,13 +31,13 @@ De volgende onderwerpen worden behandeld in deze sectie:
 
 ## Overzicht {#overview}
 
-***Activering op kanaalniveau*** staat de kanalen toe om na een bepaald vastgestelde programma te schakelen. Het enige gebeurteniskanaal vervangt het hoofdkanaal na een ingesteld programma en speelt gedurende een bepaalde tijd af, totdat de inhoud van het hoofdkanaal opnieuw wordt afgespeeld.
+***de Activering van het Niveau van het Kanaal*** staat de kanalen toe om na een bepaald vastgestelde programma te schakelen. Het enige gebeurteniskanaal vervangt het hoofdkanaal na een ingesteld programma en speelt gedurende een bepaalde tijd af, totdat de inhoud van het hoofdkanaal opnieuw wordt afgespeeld.
 
 In het volgende voorbeeld wordt een oplossing geboden waarbij de nadruk ligt op de volgende sleuteltermen:
 
-* a ***hoofdsequentiekanaal*** voor de algemene reeks
-* a ***één gebeurteniskanaal*** dat slechts eenmaal bij een ingestelde tijd wordt uitgevoerd
-* a ***tijdschema en prioriteit*** voor de enige afspeelgebeurtenis die plaatsvindt binnen het hoofdkanaal van de reeks
+* a ***belangrijkste opeenvolgingskanaal*** voor de globale opeenvolging
+* a ***enig gebeurteniskanaal*** dat slechts eens bij een vastgestelde tijd loopt
+* a ***plaats programma en prioriteit*** voor de enige playbackgebeurtenis die binnen het belangrijkste kanaal van de opeenvolging voorkomt
 
 ## Activeringsvenster {#using-channel-level-activation}
 
@@ -47,126 +47,126 @@ In de volgende sectie wordt uitgelegd hoe u één gebeurtenis kunt afspelen in e
 
 Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor zorgen dat u aan de volgende voorwaarden kunt voldoen om activering op kanaalniveau te kunnen starten:
 
-* Een AEM Screens-project maken, in dit voorbeeld **Activering op kanaalniveau**.
+* Creeer een project van AEM Screens, in dit voorbeeld, **de Activering van het Niveau van het Kanaal**.
 
-* Een kanaal maken als **MainAdChannel** onder de **Kanalen** map.
+* Creeer een kanaal als **MainAdChannel** onder de **omslag van Kanalen**.
 
-* Een ander kanaal maken als **TargetedSinglePlay** onder de **Kanalen** map.
+* Creeer een ander kanaal als **TargetedSinglePlay** onder de **omslag van Kanalen**.
 
 * Voeg relevante elementen aan beide kanalen toe.
 
-In de volgende afbeelding wordt de **Activering op kanaalniveau** project met **MainAdChannel** en **TargetedSinglePlay** in de **Kanalen** map.
+Het volgende beeld toont het **project van de Activering van het Niveau van het 0} Kanaal met** MainAdChannel **en** TargetedSinglePlay **kanalen in de** omslag van Kanalen **.**
 
-![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
+![ screen_shot_2018-11-27at104500am ](assets/screen_shot_2018-11-27at104500am.png)
 
 >[!NOTE]
 >
 >Zie de volgende bronnen voor aanvullende informatie over het maken van een project en het maken van een sequentiekanaal:
 >
->* [Projecten maken en beheren](creating-a-screens-project.md)
+>* [ Creërend en het Leiden Projecten ](creating-a-screens-project.md)
 >
->* [Een kanaal beheren](managing-channels.md)
+>* [ het Leiden een Kanaal ](managing-channels.md)
 >
 
 ### Implementatie {#implementation}
 
 Het uitvoeren van de Activering van het Niveau van het Kanaal in een project van AEM Screens omvat drie belangrijke taken:
 
-1. **Projecttaxonomie instellen, waaronder Kanalen, Locaties en Weergaven**
-1. **Kanalen toewijzen aan weergave**
-1. **Een planning en prioriteit instellen**
+1. **de taxonomie van het Project van de vestiging met inbegrip van Kanalen, Plaatsen, en Vertoningen**
+1. **Toewijzend Kanalen aan Vertoning**
+1. **Vestiging een Programma en Prioriteit**
 
 Voer de volgende stappen uit om de functionaliteit te implementeren:
 
-1. **Een locatie maken**
+1. **creeer een Plaats**
 
-   Ga naar uw **Locaties** in uw AEM Screens-project en maak een locatie als **Regio**.
+   Navigeer aan uw **plaats** omslag in uw project van AEM Screens en creeer een plaats als **Gebied**.
 
-   ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
+   ![ screen_shot_2018-11-27at112112am ](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
    >
-   >Ga voor meer informatie over het maken van een locatie naar **[Locaties maken en beheren](managing-locations.md)**.
+   >Leren hoe te om een plaats tot stand te brengen, zie **[Creërend en het Leiden Plaatsen](managing-locations.md)**.
 
-1. **Weergave onder locatie maken**
+1. **creeer Vertoning onder Plaats**
 
-   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio**.
-   1. Klikken **Regio** en klik op **+ Maken** in de actiebalk.
-   1. Klikken **Weergave** van de wizard en maakt u een weergave met de naam **RegionDisplay.**
+   1. Navigeer aan **Activering van het Niveau van het Kanaal** > **Plaatsen** > **Gebied**.
+   1. Klik **Gebied** en klik **+ creeer** van de actiebar.
+   1. Klik **Vertoning** van de tovenaar en creeer een vertoning die als **wordt genoemd RegionDisplay.**
 
-   ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
+   ![ screen_shot_2018-11-27at112216am ](assets/screen_shot_2018-11-27at112216am.png)
 
-1. **Kanalen toewijzen aan weergave**
+1. **wijs Kanalen aan Vertoning toe**
 
    Voor **MainAdChannel:**
 
-   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
-   1. In de **Kanaaltoewijzing** dialoogvenster, klikt u op **Referentiekanaal** per pad.
-   1. Klik op de knop **Kanaalpad** en klik vervolgens op **Activering op kanaalniveau** > ***Kanalen*** > ***MainAdChannel***.
-   1. De **Kanaalrol** is gevuld als **hoofdkanaal**.
-   1. Klik op de knop **Prioriteit** en instellen op **1**.
-   1. Klik op de knop **Ondersteunde gebeurtenissen** zoals **Oorspronkelijke belasting** en **Niet-actief scherm**.
-   1. Klikken **Opslaan**.
+   1. Navigeer aan **Activering van het Niveau van het Kanaal** > **Plaatsen** > **Gebied** > **RegionDisplay** en klik **toewijzen Kanaal** van de actiebar.
+   1. In het **de dialoogvakje van de Toewijzing van het Kanaal**, klik **Kanaal van de Verwijzing** door weg.
+   1. Klik het **Weg van het Kanaal**, dan klik **de Activering van het Niveau van het Kanaal** > ***Kanalen*** > ***MainAdChannel***.
+   1. De **Rol van het Kanaal** wordt bevolkt als **mainadchannel**.
+   1. Klik de **Prioriteit** en reeks aan **1**.
+   1. Klik de **Gesteunde Gebeurtenissen** zoals **Aanvankelijke Lading** en **het Niet-actieve Scherm**.
+   1. Klik **sparen**.
 
-   ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
+   ![ screen_shot_2018-11-27at124626pm ](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >U kunt het kanaal ook toewijzen via het weergavedashboard. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay**. Selecteer op de actiebalk de optie **Dashboard**. Van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster, klikt u op **+ Kanaal toewijzen**.
+   >U kunt het kanaal ook toewijzen via het weergavedashboard. Navigeer aan **Activering van het Niveau van het Kanaal** > **Plaatsen** > **Gebied** > **RegionDisplay**. Voor de actiebar, uitgezochte **Dashboard**. Van **TOEGEWEZEN KANALEN &amp; SCHADULES** paneel, klik **+ wijs Kanaal** toe.
 
-   Kanaal toewijzen **TargetedSinglePlay** voor display**:
+   Op dezelfde manier wijs kanaal **TargetedSinglePlay** voor display** toe:
 
-   1. Navigeren naar **Activering op kanaalniveau** > **Locaties** > **Regio** > **RegionDisplay** en klik op **Kanaal toewijzen** in de actiebalk.
-   1. In de **Kanaaltoewijzing** klikt u op **Referentiekanaal** per pad.
-   1. Klik op de knop **Kanaalpad** en klik vervolgens op **Activering op kanaalniveau** > ***Kanalen*** > ***TargetedSinglePlay***.
-   1. De **Kanaalrol** is gevuld als **doelgericht**.
-   1. Stel de **Prioriteit** tot **2**.
-   1. Klik op de knop **Ondersteunde gebeurtenissen**, en instellen **Oorspronkelijke belasting**, **Niet-actief scherm**, en **Timer**, zoals weergegeven in onderstaande afbeelding.
-   1. In **actief van**, ingesteld op 27 november 2018, 11:59 **actief tot**, ingesteld op 28 november 2018, 12:05
-   1. Klikken **Opslaan**.
+   1. Navigeer aan **Activering van het Niveau van het Kanaal** > **Plaatsen** > **Gebied** > **RegionDisplay** en klik **toewijzen Kanaal** van de actiebar.
+   1. In het **de dialoogvakje van de Toewijzing van het Kanaal**, klik **Kanaal van de Verwijzing** door weg.
+   1. Klik de **Weg van het Kanaal**, dan klik **Activering van het Niveau van het Kanaal** > ***Kanalen*** > ***TargetedSinglePlay***.
+   1. De **Rol van het Kanaal** wordt bevolkt als **gericht singleplay**.
+   1. Plaats de **Prioriteit** aan ****.
+   1. Klik de **Gesteunde Gebeurtenissen**, en plaats **Aanvankelijke Lading**, **het Niet-actieve Scherm**, en **Tijdopnemer**, zoals aangetoond in het hieronder cijfer.
+   1. In **actief van**, geplaatst als 27 November, 2018, 11:59 P.M., en in **actief tot**, geplaatst als 28 November, 2018, 12:05 A.M.
+   1. Klik **sparen**.
 
    >[!CAUTION]
    >
-   >De prioriteit instellen voor de **TargetedSinglePlay** kanaal hoger dan **MainAdSegment** kanaal.
+   >Plaats de prioriteit voor het **TargetedSinglePlay** kanaal hoger dan het **MainAdSegment** kanaal.
 
-   ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
+   ![ screen_shot_2018-11-27at31206pm ](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
    >Als u dezelfde dag wilt kiezen, klikt u op de volgende dag en bewerkt u de datum vervolgens handmatig naar dezelfde dag, maar voor een later tijdstip. Als u dit doet, kan de gebruiker geen datum uit het verleden selecteren. Zie het volgende voorbeeld:
 
-   ![new1](assets/new1.gif)
+   ![ new1 ](assets/new1.gif)
 
 ## De resultaten bekijken {#viewing-the-results}
 
 Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave is voltooid, start u AEM Screens Player om de inhoud weer te geven.
 
-De speler geeft de inhoud van **MainAdChannel** en precies om 23:59 (zoals bepaald in het schema), de **TargetedSinglePlay** het kanaal toont zijn inhoud tot 12:05 A.M. en toen **MainAdChannel** hervat het afspelen van de inhoud.
+De speler toont de inhoud van **MainAdChannel** en precies bij 11:59 P.M. (zoals die in de planning) wordt geplaatst, **richtSinglePlay** kanaal toont zijn inhoud tot 12:05 A.M. en dan hervat **MainAdChannel** opnieuw speel opnieuw zijn inhoud.
 
 >[!NOTE]
 >
 >Zie de volgende bronnen voor meer informatie over AEM Screen Player:
->[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)
->[Werken met AEM Screens Player](working-with-screens-player.md)
+>[Downloads van AEM Screens Player ](https://download.macromedia.com/screens/)
+>[Werken met AEM Screens Player ](working-with-screens-player.md)
 
 
-## Herhaling van middelen in een kanaal afhandelen {#handling-recurrence-in-assets}
+## Herhaling van Assets in een kanaal afhandelen {#handling-recurrence-in-assets}
 
 U kunt middelen in een kanaal plannen om met bepaalde intervallen op een dagelijkse, wekelijkse of maandelijkse basis volgens uw vereiste terug te keren.
 
-Stel dat u de inhoud van een kanaal alleen op vrijdag van 13.00 uur tot 10.00 uur wilt weergeven. U kunt de **Activering** om het gewenste herhalingsinterval voor uw element in te stellen.
+Stel dat u de inhoud van een kanaal alleen op vrijdag van 13.00 uur tot 10.00 uur wilt weergeven. U kunt het **lusje van de Activering** gebruiken om het gewenste terugkomende interval voor uw activa te plaatsen.
 
 ### Dagverdeling {#day-parting}
 
-1. Klik op het kanaal en klik vervolgens op **Dashboard** in de actiebalk.
+1. Klik het kanaal, dan klik **Dashboard** van de actiebar.
 
-1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
+1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van de **dialoogdoos van de Toewijzing van het Kanaal**, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw terugkeringsprogramma te specificeren.
 
    >[!NOTE]
    >
-   >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
+   >U kunt overslaan of **Actief van** omvatten en **Actief tot** gebieden en de uitdrukking toevoegen aan het gebied van Programma&#39;s, zoals per uw vereiste.
 
-1. Voer de expressie in de **Schema** en uw activa toont voor het bepaalde interval van dag en tijd.
+1. Ga de uitdrukking in het **Programma** in en uw activa toont voor het bepaalde interval van dag en tijd.
 
 #### Voorbeeldexpressies voor dagparatie {#example-one}
 
@@ -184,19 +184,19 @@ De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u a
 
 >[!NOTE]
 >
->U kunt ook _militaire tijd_ notatie (14:00) in plaats van *A.M./P.M.* (14:00)
+>U kunt _militaire tijd_ aantekening (14:00) in plaats van *ook gebruiken A.M./P.M.* (2:00 P.M.).
 
 ### WeekParting {#week-parting}
 
-1. Klik op het kanaal en klik vervolgens op **Dashboard** in de actiebalk.
+1. Klik het kanaal, dan klik **Dashboard** van de actiebar.
 
-1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
+1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van de **dialoogdoos van de Toewijzing van het Kanaal**, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw terugkeringsprogramma te specificeren.
 
    >[!NOTE]
    >
-   >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
+   >U kunt overslaan of **Actief van** omvatten en **Actief tot** gebieden en de uitdrukking toevoegen aan het gebied van Programma&#39;s, zoals per uw vereiste.
 
-1. Voer de expressie in de **Schema** en uw activa toont voor het bepaalde interval van dag en tijd.
+1. Ga de uitdrukking in het **Programma** in en uw activa toont voor het bepaalde interval van dag en tijd.
 
 #### Voorbeelden van expressies voor WeekParting {#example-two}
 
@@ -212,20 +212,20 @@ De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u a
 
 >[!NOTE]
 >
->U kunt ook _militaire tijd_ notatie (14:00) in plaats van *A.M./P.M.* (14:00)
+>U kunt _militaire tijd_ aantekening (14:00) in plaats van *ook gebruiken A.M./P.M.* (2:00 P.M.).
 
 
 ### MonthParting {#month-parting}
 
-1. Klik op het kanaal en klik vervolgens op **Dashboard** in de actiebalk.
+1. Klik het kanaal, dan klik **Dashboard** van de actiebar.
 
-1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
+1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van de **dialoogdoos van de Toewijzing van het Kanaal**, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw terugkeringsprogramma te specificeren.
 
    >[!NOTE]
    >
-   >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
+   >U kunt overslaan of **Actief van** omvatten en **Actief tot** gebieden en de uitdrukking toevoegen aan het gebied van Programma&#39;s, zoals per uw vereiste.
 
-1. Voer de expressie in de **Schema** en uw activa toont voor het bepaalde interval van dag en tijd.
+1. Ga de uitdrukking in het **Programma** in en uw activa toont voor het bepaalde interval van dag en tijd.
 
 #### Voorbeelden van expressies voor MonthParting {#example-three}
 
@@ -241,19 +241,19 @@ De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u a
 
 >[!NOTE]
 >
->U kunt ook _militaire tijd_ notatie (14:00) in plaats van *A.M./P.M.* (14:00)
+>U kunt _militaire tijd_ aantekening (14:00) in plaats van *ook gebruiken A.M./P.M.* (2:00 P.M.).
 
 ### Combinatie van partners {#combined-parting}
 
-1. Klik op het kanaal en klik vervolgens op **Dashboard** in de actiebalk.
+1. Klik het kanaal, dan klik **Dashboard** van de actiebar.
 
-1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van **Kanaaltoewijzing** kunt u een expressie of een natuurlijke tekstversie gebruiken om uw schema voor herhalingen op te geven.
+1. Na het ingaan van de begindatum/de tijd en eind/datumtijd van de **dialoogdoos van de Toewijzing van het Kanaal**, kunt u een uitdrukking of een natuurlijke tekstversie gebruiken om uw terugkeringsprogramma te specificeren.
 
    >[!NOTE]
    >
-   >U kunt de **Actief van** en **Actief tot** en voeg de expressie toe aan het veld Planningen, naar wens.
+   >U kunt overslaan of **Actief van** omvatten en **Actief tot** gebieden en de uitdrukking toevoegen aan het gebied van Programma&#39;s, zoals per uw vereiste.
 
-1. Voer de expressie in de **Schema** en uw activa toont voor het bepaalde interval van dag en tijd.
+1. Ga de uitdrukking in het **Programma** in en uw activa toont voor het bepaalde interval van dag en tijd.
 
 #### Voorbeelden van expressies voor de combinatie van delen {#example-four}
 
@@ -267,4 +267,4 @@ De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u a
 
 >[!NOTE]
 >
->Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte- als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en januari. U kunt ook _militaire tijd_ notatie (14:00) in plaats van *A.M./P.M.* (14:00)
+>Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte- als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en januari. Ook, kunt u _militaire tijd_ aantekening (14:00) in plaats van *ook gebruiken A.M./P.M.* (2:00 P.M.).

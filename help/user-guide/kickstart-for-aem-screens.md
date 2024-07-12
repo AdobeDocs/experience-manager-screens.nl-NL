@@ -17,36 +17,36 @@ ht-degree: 1%
 De kickstart naar AEM Screens laat zien hoe u een AEM Screens-project kunt opzetten en uitvoeren. Het begeleidt u door het instellen van een eenvoudige digitale handtekening en het toevoegen van inhoud, zoals elementen en/of video&#39;s, aan elk kanaal en het verder publiceren van de inhoud naar een AEM Screens Player.
 
 >[!NOTE]
->Voordat u aan de projectdetails gaat werken, moet u eerst het nieuwste Feature Pack voor AEM Screens hebben geïnstalleerd. U kunt het nieuwste elementenpakket downloaden van het [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID.
+>Voordat u aan de projectdetails gaat werken, moet u eerst het nieuwste Feature Pack voor AEM Screens hebben geïnstalleerd. U kunt het recentste Pak van de Eigenschap van het [ Portaal van de Distributie van de Software downloaden ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) gebruikend uw Adobe ID.
 
 ## Vereisten {#prerequisites}
 
-Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te maken en inhoud verder te publiceren naar de Schermspeler.
+Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te maken en inhoud verder te publiceren naar de Screens-speler.
 
 >[!NOTE]
->In de volgende zelfstudie wordt het afspelen van de inhoud van uw kanaal in een Chrome OS-speler geïllustreerd.
+>In de volgende zelfstudie wordt uitgelegd hoe u de inhoud van uw kanaal kunt afspelen in een Chrome OS-speler.
 
 >[!IMPORTANT]
->**OSGi-configuratie-instellingen**
+>**OSGi de Montages van de Configuratie**
 >U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen. Momenteel zijn enkele van deze functies alleen beschikbaar als het filter Lege waarden toestaan van Apache-verwijzing is ingeschakeld in de OSGi-configuratie. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
->Voer de onderstaande stappen uit om de ***Lege filter Apache-schuifverwijzing toestaan***:
+>Volg de stappen hieronder om de ***filter van de Verwijzer van Apache toe te laten toestaat Lege***:
 
 
 ## Lege verwijzingsverzoeken toestaan {#allow-empty-referrer-requests}
 
-1. Navigeren naar **Configuratie Adobe Experience Manager-webconsole** via AEM > hamerpictogram > **Bewerkingen** > **Webconsole**.
+1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** als AEM instantie > hamerpictogram > **Verrichtingen** > **Console van het Web**.
 
    ![afbeelding](assets/config/empty-ref1.png)
 
-1. **Configuratie Adobe Experience Manager-webconsole** wordt geopend. Zoeken naar de referentie van de sling.
+1. **de Configuratie van de Console van het Web van Adobe Experience Manager** opent. Zoeken naar de referentie van de sling.
 
-   Druk op **Command+F** for **Mac** en **Ctrl+F** for **Windows**.
+   Voor het zoeken van het het rangschikken verwijzersbezit, druk **Command+F** voor **Mac** en **Control+F** voor **Vensters**.
 
-1. Controleer de **Lege waarden toestaan** zoals weergegeven in de onderstaande afbeelding.
+1. Controleer **Lege** optie, zoals aangetoond in het hieronder cijfer toestaat.
 
    ![afbeelding](assets/config/empty-ref2.png)
 
-1. Klikken **Opslaan** om het filter Apache Sling Referrer inschakelen Leeg toestaan.
+1. Klik **sparen** om de Filter van de Verwijzer van de Rand toe te laten Apache leeg toestaat.
 
 ## Een Digital Signage-ervaring maken in 5 minuten {#creating-a-digital-signage-experience-in-minutes}
 
@@ -54,15 +54,15 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 
 De eerste stap is het maken van een AEM Screens-project.
 
-1. Ga naar uw Adobe Experience Manager-exemplaar (AEM) en klik op **Schermen**. U kunt ook rechtstreeks navigeren vanuit `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
+1. Navigeer aan uw (AEM) instantie van Adobe Experience Manager en klik **Screens**. U kunt ook rechtstreeks navigeren vanuit `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens` .
 
-1. Klikken **Schermproject maken** zodat kunt u een project van Schermen tot stand brengen.
-1. Voer de titel in als **DemoScreens** en klik vervolgens op **Opslaan**.
+1. Klik **creëren het Project van Screens** zodat kunt u een project van Screens tot stand brengen.
+1. Ga de titel als **DemoScreens** in, dan klik **sparen**.
 
    ![afbeelding](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >Nadat u het project creeert, brengt het u terug naar de homepage van het Project van AEM Screens. U kunt nu op uw project klikken. In een project zijn er vijf verschillende mappen met de naam **Toepassingen**, **Kanalen**, **Apparaten**, **Locaties**, en **Planningen**.
+   >Nadat u het project creeert, brengt het u terug naar de homepage van het Project van AEM Screens. U kunt nu op uw project klikken. In een project, zijn er vijf verschillende omslagen die **Toepassingen** worden genoemd, **Kanalen**, **Apparaten**, **Plaatsen**, en **Programma&#39;s**.
 
 ### Een kanaal maken {#creating-channel}
 
@@ -70,18 +70,18 @@ Nadat u uw AEM Screens-project hebt gemaakt, maakt u een kanaal waarin u de inho
 
 Ga als volgt te werk om een kanaal voor uw project te maken:
 
-1. Nadat u een project creeert, klik **DemoScreens** en klik op **Kanalen** map, zoals weergegeven in de onderstaande afbeelding. Klikken **+ Maken** in de actiebalk.
+1. Nadat u een project creeert, klik het **project 0} DemoScreens {en klik de** omslag van Kanalen **, zoals aangetoond in het hieronder cijfer.** Klik op **+ Maken** op de actiebalk.
 
    ![afbeelding](assets/kickstart/demo-2.png)
 
-1. Kies de optie **Volgekanaal** van de wizard en klik op **Volgende**.
+1. Kies het **Kanaal van de Opeenvolging** van de tovenaar en klik **daarna**.
    ![afbeelding](assets/kickstart/demo-3.png)
 
-1. Voer de **Titel** als **TestChannel** en klik op **Maken**.
+1. Ga de **Titel** als **TestChannel** in en klik **creeer**.
 
    ![afbeelding](assets/kickstart/demo-4.png)
 
-   De **TestChannel** wordt nu toegevoegd aan uw kanaalomslag, zoals aangetoond in hieronder figuur.
+   **TestChannel** wordt nu toegevoegd aan uw kanaalomslag, zoals aangetoond in het hieronder cijfer.
 
    ![afbeelding](assets/kickstart/demo-5.png)
 
@@ -89,11 +89,11 @@ Ga als volgt te werk om een kanaal voor uw project te maken:
 
 Wanneer u uw kanaal op zijn plaats hebt, voeg inhoud aan uw kanaal toe die de Speler van AEM Screens kan tonen.
 
-Voer de onderstaande stappen uit om inhoud aan het kanaal toe te voegen (**TestChannel**) in uw project:
+Volg de stappen hieronder om inhoud aan het kanaal (**TestChannel**) in uw project toe te voegen:
 
-1. Ga naar de **DemoProject** u creeerde en klikt **TestChannel** van de **Kanalen** map.
+1. Navigeer aan **DemoProject** u creeerde en klik **TestChannel** van de **omslag van Kanalen**.
 
-1. Klikken **Bewerken** op de actiebalk (zie de onderstaande afbeelding). De redacteur voor **TestChannel** wordt geopend.
+1. Klik **uitgeven** van de actiebar (zie hieronder het cijfer). De redacteur voor **TestChannel** opent.
 
    ![afbeelding](assets/kickstart/demo-6.png)
 
@@ -108,16 +108,16 @@ Voer de onderstaande stappen uit om inhoud aan het kanaal toe te voegen (**TestC
 Wanneer u uw kanaal op zijn plaats hebt, creeer een plaats.
 
 >[!NOTE]
->***Locaties*** kunt u de verschillende digitale signage-ervaringen onderverdelen en kunt u de configuraties van de displays instellen op basis van de locatie van de verschillende schermen.
+>***compartimenteer de plaatsen van 0} {uw diverse digitale signaalervaringen en bevat de configuraties van de vertoningen volgens waar de diverse schermen zijn.***
 
 Voer de onderstaande stappen uit om een locatie voor uw project te maken:
 
-1. Ga naar de **DemoProject** u creeerde en klikt **Locaties** map.
-1. Klikken **+ Maken** in de actiebalk.
-1. Klikken **Locatie** van de wizard en klik op **Volgende**.
-1. Voer de **Naam** voor uw locatie (voer de titel in als **TestLocation**) en klik op **Maken**.
+1. Navigeer aan **DemoProject** u creeerde en klik de **omslag van Plaatsen**.
+1. Klik op **+ Maken** op de actiebalk.
+1. Klik **Plaats** van de tovenaar en klik **daarna**.
+1. Ga de **Naam** voor uw plaats in (ga de titel als **TestLocation** in) en klik **creeer**.
 
-De **TestLocation** wordt gemaakt en toegevoegd aan uw **Locaties** map.
+**TestLocation** wordt gecreeerd en aan uw **omslag van Plaatsen** toegevoegd.
 
 
 ### Weergave voor locatie maken {#creating-display}
@@ -125,22 +125,22 @@ De **TestLocation** wordt gemaakt en toegevoegd aan uw **Locaties** map.
 Wanneer u een locatie hebt gemaakt, maakt u een weergave voor uw locatie.
 
 >[!NOTE]
->***Weergave*** vertegenwoordigt de digitale ervaring die op één of veelvoudige schermen loopt.
+>***Vertoning*** vertegenwoordigt de digitale ervaring die op één of veelvoudige schermen loopt.
 
-1. Ga naar de **TestLocation** en klik erop.
-1. Klikken **Maken** in de actiebalk.
+1. Navigeer aan **TestLocation** en klik het.
+1. Klik **creëren** van de actiebar.
 
    ![afbeelding](assets/kickstart/demo-disp1.png)
 
-1. Klikken **Weergave** van de **Maken** wizard en klik op **Volgende**.
+1. Klik **Vertoning** van **creëren** tovenaar en klik **daarna**.
 
    ![afbeelding](assets/kickstart/demo-disp2.png)
 
-1. Voer de **Titel** als **LobbyDisplay** en klik op **Maken**.
+1. Ga de **Titel** als **LobbyDisplay** in en klik **creeer**.
 
    ![afbeelding](assets/kickstart/demo-disp3.png)
 
-   Een nieuwe weergave met de naam **TestDisplay** wordt nu toegevoegd aan uw locatie **TestLocation**, zoals weergegeven in onderstaande afbeelding.
+   Een nieuwe vertoning die als **wordt genoemd TestDisplay** wordt nu toegevoegd aan uw plaats **TestLocation**, zoals aangetoond in het hieronder cijfer.
 
    ![afbeelding](assets/kickstart/demo-disp4.png)
 
@@ -148,80 +148,80 @@ Wanneer u een locatie hebt gemaakt, maakt u een weergave voor uw locatie.
 
 Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe om de inhoud te bekijken.
 
-1. Ga vanuit **DemoScreens** > **Locaties** > **TestLocation** > **LobbyDisplay**.
+1. Navigeer aan de vereiste vertoning van **DemoScreens** > **Plaatsen** > **TestLocation** > **LobbyDisplay**.
 
-1. Klikken **Kanaal toewijzen** in de actiebalk.
+1. Klik **toewijzen Kanaal** van de actiebar.
 
    ![afbeelding](assets/kickstart/demo-assign1.png)
 
    Of,
 
-   Klikken **Dashboard** op de actiebalk en klik op **+Kanaal toewijzen** van de **TOEGEWEZEN KANALEN EN SCHEMA&#39;S** deelvenster.
+   Klik **Dashboard** van de actiebar en klik **+ wijs Kanaal** van **TOEGEWEZEN KANALEN &amp; SCHEDULES** paneel toe.
 
    ![afbeelding](assets/kickstart/demo-assign2.png)
 
-1. De **Kanaaltoewijzing** wordt geopend.
+1. Het **de dialoogvakje van de Toewijzing van het Kanaal** opent.
 
-1. Van de **Instellingen** kiest u het kanaal **op pad** en **Ondersteunde gebeurtenissen** zoals **Oorspronkelijke belasting** en **Niet-actief scherm**.
+1. Van de **optie van Montages**, kies het kanaal **door weg** en **Ondersteunde Gebeurtenissen** zoals **Eerste Lading** en **Onactief het Scherm**.
 
    >[!NOTE]
    >
-   >De **Kanaalrol**, **Prioriteit**, en **Methoden voor onderbreking** worden standaard allemaal gevuld. Zie de [Kanaaleigenschappen](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) voor meer informatie over de eigenschappen van de kanaaltoewijzing.
+   >De **Rol van het Kanaal**, **Prioriteit**, en **Methoden van de Onderbreking** zijn allen bevolkt door gebrek. Zie de ](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) sectie van de Eigenschappen van het Kanaal 0} {voor meer informatie over de eigenschappen van de kanaaltaak.[
 
    ![afbeelding](assets/kickstart/demo-assign3.png)
 
-   U kunt ook op de knop **Activeringsvenster** en **Herhalingsschema**.
+   Ook, kunt u het **Venster van de Activering** en **Programma van de Herhaling** klikken.
 
    >[!NOTE]
-   >De *Herhalingsschema* Hiermee kunt u een terugkerend schema voor uw kanaal instellen. U kunt meerdere herhalingsschema&#39;s instellen voor een kanaal.
-   >Zie [Herhalingsschema](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) voor meer informatie .
+   >Het *Programma van de Herhaling* laat u een terugkomende programma voor uw kanaal plaatsen. U kunt meerdere herhalingsschema&#39;s instellen voor een kanaal.
+   >Zie [ Programma van de Herhaling ](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) voor meer details.
 
-1. Klikken **Opslaan** zodra u uw voorkeuren hebt geconfigureerd.
+1. Klik **sparen** zodra u uw voorkeur hebt gevormd.
 
 ### Een apparaat registreren en Apparaat aan een Vertoning toewijzen {#registering-device}
 
 Registreer het apparaat met het AEM dashboard.
 
 >[!IMPORTANT]
->De Chrome OS-speler kan worden geïnstalleerd als Chrome-browserplug-in in de modus voor ontwikkelaars zonder dat hiervoor een echt Chrome Player-apparaat nodig is. Volg onderstaande stappen voor installatie:
+>Chrome OS Player kan als Chrome browser stop in ontwikkelaarwijze worden geïnstalleerd zonder daadwerkelijke Chrome Player apparaat te vereisen. Volg onderstaande stappen voor installatie:
 >
->1. Klikken [hier](https://download.macromedia.com/screens/) om de nieuwste Chrome Player te downloaden.
+>1. Klik [ hier ](https://download.macromedia.com/screens/) om de recentste Speler van Chrome te downloaden.
 >1. Pak het uit en sla het op de schijf op.
->1. Open Chrome en klik op **Extensies** in het menu of rechtstreeks door ***chrome://extensions***.
->1. Schakel de **Modus Ontwikkelaar** in de rechterbovenhoek.
->1. Klikken **Niet-verpakt laden** in de linkerbovenhoek en laadt de gedecomprimeerde Chrome Player.
->1. Controleren **AEM Screens Chrome Player** insteekmodule als deze beschikbaar is in de lijst met extensies.
->1. Open een nieuw tabblad en klik op de knop **Apps** in de linkerbovenhoek, of rechtstreeks naar ***chrome://apps***.
->1. Klikken **AEM Screens** Insteekmodule voor het starten van Chrome Player. Standaard wordt de speler gestart in de modus Volledig scherm. Druk **Esc** om de modus Volledig scherm af te sluiten.
+>1. Open browser van Chrome en klik **Uitbreidingen** van het menu of navigeer direct aan ***chrome://extensions***.
+>1. Schakelaar op de **wijze van de Ontwikkelaar** van de top-juiste hoek.
+>1. Klik **Lading Onverpakte** van de hoogste-linkerhoek en lading unzipped Speler van Chrome.
+>1. Controle **AEM Screens Chrome Player** stop in als het in de lijst van uitbreidingen beschikbaar is.
+>1. Open een nieuw lusje en klik **Apps** pictogram van de top-linkerhoek, of navigeer direct aan ***chrome://apps***.
+>1. Klik **Insteekmodule van AEM Screens** zodat kunt u de Speler van Chrome lanceren. Standaard wordt de speler gestart in de modus Volledig scherm. Pers **Esc** om volledige het schermwijze weg te gaan.
 
 Nadat uw Chrome OS-speler is ingeschakeld, voert u de onderstaande stappen uit om een Chrome-apparaat te registreren.
 
-1. Ga naar de **Apparaten** van uw project van uw AEM instantie.
+1. Navigeer aan de **omslag van Apparaten** van uw project van uw AEM instantie.
 
-1. Klik op de knop **Apparaatbeheer** in de actiebalk.
+1. Klik de **Manager van het Apparaat** van de actiebar.
 
    ![afbeelding](assets/kickstart/demo-register1.png)
 
-1. Klik op de knop **Apparaatregistratie** van rechtsboven.
+1. Klik de **Registratie van het Apparaat** van het hoogste recht.
 
-1. Klik op het gewenste apparaat en klik op **Apparaat registreren**.
+1. Klik het vereiste apparaat en klik **Apparaat van het Register**.
 
    ![afbeelding](assets/kickstart/demo-register2.png)
 
-1. Wacht tot het apparaat de registratiecode heeft verzonden en controleer tegelijkertijd de **Registratiecode** van uw Chrome-apparaat.
+1. Wacht op het apparaat om zijn registratiecode te verzenden en tegelijkertijd de **Code van de Registratie** van uw apparaat van Chrome te controleren.
    ![afbeelding](assets/kickstart/demo-register3.png)
 
-1. Als de **Registratiecode** is hetzelfde op beide computers, klikt u op **Valideren** in AEM.
+1. Als de **Code van de Registratie** het zelfde op beide machines is, klik **bevestigen** in AEM.
 
-1. Stel de gewenste naam in als **ChromeDeviceforDemo** voor het apparaat en klik op **Registreren**.
+1. Plaats de gewenste naam als **ChromeDeviceforDemo** voor het apparaat, en klik **Register**.
 
    ![afbeelding](assets/kickstart/demo-register4.png)
 
-1. Klikken **Weergave toewijzen** van de **Apparaatregistratie voltooid** in.
+1. Klik **toewijzen Vertoning** van de **Succesvolle Registratie van het Apparaat** dialoogdoos.
 
    ![afbeelding](assets/kickstart/demo-register5.png)
 
-1. Klik op het pad naar uw weergave als **DemoScreens** > **Locaties** > **TestLocation** > **LobbyDisplay** en klik op **Toewijzen**.
+1. Klik de weg aan uw vertoning als **DemoScreens** > **Plaatsen** > **TestLocation** > **LobbyDisplay** en klik **toewijzen**.
 
    ![afbeelding](assets/kickstart/demo-device6.png)
 
@@ -229,7 +229,7 @@ Nadat uw Chrome OS-speler is ingeschakeld, voert u de onderstaande stappen uit o
 
    ![afbeelding](assets/kickstart/demo-register8.png)
 
-1. Klikken **Voltooien** om het registratieproces te voltooien. U kunt uw geregistreerde apparaat nu bekijken vanaf het weergavedashboard.
+1. Klik **Afwerking** om het registratieproces te voltooien. U kunt uw geregistreerde apparaat nu bekijken vanaf het weergavedashboard.
 
    ![afbeelding](assets/kickstart/demo-register9.png)
 

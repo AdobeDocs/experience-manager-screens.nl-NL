@@ -20,28 +20,28 @@ ht-degree: 0%
 
 De locaties hosten de configuratie van de weergaven afhankelijk van waar de verschillende schermen zich bevinden.
 
-Op deze pagina worden locaties voor schermen gemaakt en beheerd.
+Op deze pagina worden locaties voor Screens gemaakt en beheerd.
 
 **Voorwaarden**:
 
-* [Schermen configureren en implementeren](configuring-screens-introduction.md)
-* [Schermproject maken en beheren](creating-a-screens-project.md)
+* [Screens configureren en implementeren](configuring-screens-introduction.md)
+* [Screens-project maken en beheren](creating-a-screens-project.md)
 * [Kanalen maken en beheren](managing-channels.md)
 
 ## Een nieuwe locatie maken {#creating-a-new-location}
 
-Nadat u uw project voor Schermen creeert, volg de stappen hieronder om een Plaats voor een project van de Schermen tot stand te brengen:
+Nadat u uw project voor Screens hebt gemaakt, volgt u de onderstaande stappen om een locatie voor een Screens-project te maken:
 
-1. Klik op de koppeling Adobe Experience Manager (linksboven) en vervolgens op Schermen. U kunt ook rechtstreeks navigeren naar: `http://localhost:4502/screens.html/content/screens`.
-1. Navigeer naar het project Screens en klik op **Locaties**.
-1. Klikken **Maken** naast het plusteken in de actiebalk.
-1. Klik op de sjabloon **Locatie** van de wizard en klik op **Volgende**.
-1. Voer de eigenschappen in voor **Titel en tags**, **Meer titels en beschrijving**, **Aan/Uit-tijd**, en **Vanity URL**.
-1. Klikken **Maken** en de locatie wordt gemaakt en toegevoegd aan de map met locaties.
+1. Klik op de Adobe Experience Manager-koppeling (linksboven) en vervolgens op Screens. U kunt ook rechtstreeks navigeren naar: `http://localhost:4502/screens.html/content/screens` .
+1. Navigeer aan het project van Screens en klik **Plaatsen**.
+1. Klik **creëren** naast het plus pictogram in de actiebar.
+1. Klik de malplaatje **Plaats** van de tovenaar en klik **daarna**.
+1. Ga de eigenschappen voor **Titel en Markeringen** in, **Meer Titels en Beschrijving**, **On/Off Tijd**, en **Vanity URL**.
+1. Klik **creëren** en de plaats wordt gecreeerd en aan uw plaatsingsomslag toegevoegd.
 
-Zie de onderstaande stappen voor meer informatie over het maken van een locatie voor een AEM Screens-project. Ter demonstratie wordt de nieuwe locatie (SanJose) gemaakt onder *DemoProject*.
+Zie de onderstaande stappen voor meer informatie over het maken van een locatie voor een AEM Screens-project. Voor demonstratiedoeleinden, wordt de nieuwe plaats (SanJose) gecreeerd onder *DemoProject*.
 
-![player2](assets/player2.gif)
+![ player2 ](assets/player2.gif)
 
 Nadat u een locatie hebt gemaakt, maakt u een weergave voor uw locatie.
 
@@ -50,12 +50,12 @@ Nadat u een locatie hebt gemaakt, maakt u een weergave voor uw locatie.
 De eigenschappen van een locatie bewerken/openen:
 
 1. Klik op de locatie.
-1. Klikken **Eigenschappen** in de actiebalk.
+1. Klik **Eigenschappen** van de actiebar.
 
-![player3](assets/player3.gif)
+![ player3 ](assets/player3.gif)
 
 #### De volgende stappen {#the-next-steps}
 
 Nadat u een locatie hebt gemaakt, maakt u een weergave voor uw locatie.
 
-Zie [Weergaven maken en beheren](managing-displays.md).
+Zie [ Creërend en het Leiden Vertoningen ](managing-displays.md).

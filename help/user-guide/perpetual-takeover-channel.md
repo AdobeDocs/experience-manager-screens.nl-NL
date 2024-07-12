@@ -19,17 +19,17 @@ De volgende pagina toont een gebruiksgeval dat op vestiging een project op benad
 
 ## Omschrijving hoofdletter gebruiken {#use-case-description}
 
-In dit geval wordt uitgelegd hoe u een kanaal maakt dat *overname* in het normale afspeelkanaal voor een weergave of groep weergaven. De overname duurt een bepaalde dag en een bepaalde tijd onafgebroken.
+Dit gebruiksgeval verklaart hoe te om een kanaal tot stand te brengen dat ** van het normale speelkanaal voor een vertoning of een groep vertoningen overneemt. De overname duurt een bepaalde dag en een bepaalde tijd onafgebroken.
 Bijvoorbeeld, is er een Perpetual TakeOver kanaal dat elke Vrijdag van 9:00 a.m. door 10:00 a.m. speelt. Tijdens deze tijd, zou geen ander kanaal moeten spelen. In het volgende voorbeeld wordt de creatie getoond van een perpetual takeover channel waarmee de inhoud elke woensdag gedurende twee uur van 2:00 tot 4:00 uur kan worden afgespeeld.
 
 ### Voorwaarden {#preconditions}
 
 Voordat u met dit gebruik begint, moet u controleren hoe u dit kunt doen:
 
-* **[Kanalen maken en beheren](managing-channels.md)**
-* **[Locaties maken en beheren](managing-locations.md)**
-* **[Planningen maken en beheren](managing-schedules.md)**
-* **[Apparaatregistratie](device-registration.md)**
+* **[creeer en beheer Kanalen](managing-channels.md)**
+* **[creeer en beheer Plaatsen](managing-locations.md)**
+* **[creeer en beheer Programma&#39;s](managing-schedules.md)**
+* **[Registratie van het Apparaat](device-registration.md)**
 
 ### Primaire acteurs {#primary-actors}
 
@@ -39,75 +39,75 @@ Inhoudsauteurs
 
 Voer de onderstaande stappen uit om een project in te stellen:
 
-**Kanalen en weergave instellen**
+**Vestiging de Kanalen en Vertoning**
 
-1. Een AEM Screens-project maken met de naam **PerpetualTakeOver**, zoals hieronder weergegeven.
+1. Creeer een Project van AEM Screens dat als **PerpetualTakeOver** wordt genoemd, zoals hieronder getoond.
 
-   ![element](assets/p_usecase1.png)
+   ![ activa ](assets/p_usecase1.png)
 
-1. Een **MainAdChannel** in de **Kanalen** map.
+1. Creeer a **MainAdChannel** in de **omslag van Kanalen**.
 
-   ![element](assets/p_usecase2.png)
+   ![ activa ](assets/p_usecase2.png)
 
-1. Klik op de knop **MainAdChannel** en klik op **Bewerken** in de actiebalk. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
+1. Klik **MainAdChannel** en klik **uitgeven** van de actiebar. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
 
-   ![element](assets/p_usecase3.png)
+   ![ activa ](assets/p_usecase3.png)
 
-
-   >[!NOTE]
-   >De **MainAdChannel** in dit voorbeeld wordt een volgnummer weergegeven waarmee inhoud continu wordt afgespeeld.
-
-1. Een **Overname** kanaal dat de inhoud in **MainAdChannel** en speelt elke woensdag van 2:00 tot 16:00
-
-1. Klik op de knop **Overname** en klik op **Bewerken** in de actiebalk. Sleep enkele elementen naar uw kanaal. In het volgende voorbeeld ziet u hoe een afbeelding met één zone wordt toegevoegd aan dit kanaal.
-
-   ![element](assets/p_usecase4.png)
-
-1. Stel een locatie en weergave voor uw kanalen in. Bijvoorbeeld de volgende locatie **MainLobby** en weergave **MainLobbyDisplay** voor dit project zijn opgezet.
-
-   ![element](assets/p_usecase5.png)
-
-**Kanalen toewijzen aan een weergave**
-
-1. Klik op de weergave **MainLobbyDisplay** van de **Locaties** map. Klikken **Kanaal toewijzen** op de actiebalk, zodat u de **Kanaaltoewijzing** in.
 
    >[!NOTE]
-   >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar **[Kanaaltoewijzing](channel-assignment.md)**.
+   >**MainAdChannel** in dit voorbeeld toont een opeenvolgingskanaal aan dat inhoud onophoudelijk speelt.
 
-1. Vul de velden (**Kanaalpad**, **Prioriteit**, en **Ondersteunde gebeurtenissen**) van de **Kanaaltoewijzing** en klik op **Opslaan** om de **MainAdChannel** op uw scherm.
+1. Creeer a **TakeOver** kanaal dat de inhoud in **MainAdChannel** overneemt en elke Woensdag van 2:00 P.M. door 4:00 P.M. speelt.
 
-   * **Kanaalpad**: Klik op het pad naar het **MainAdChannel** kanaal
-   * **Prioriteit**: Stel de prioriteit van dit kanaal in op 1.
-   * **Ondersteunde gebeurtenissen**: Klik op de knop **Oorspronkelijke belasting** en **Niet-actief scherm**.
+1. Klik **TakeOver** en klik **uitgeven** van de actiebar. Sleep enkele elementen naar uw kanaal. In het volgende voorbeeld ziet u hoe een afbeelding met één zone wordt toegevoegd aan dit kanaal.
 
-   ![element](assets/p_usecase6.png)
+   ![ activa ](assets/p_usecase4.png)
 
-1. Klik op de weergave **Overname** van de **Locaties** map. Klikken **Kanaal toewijzen** op de actiebalk, zodat u het overnamekanaal kunt toewijzen.
+1. Stel een locatie en weergave voor uw kanalen in. Bijvoorbeeld, worden de volgende plaats **MainLobby** en vertoning **MainLobbyDisplay** opstelling voor dit project.
 
-1. Het toewijzen van **Overname** naar uw beeldscherm op een gepland tijdstip. Vervolgens worden de volgende velden gevuld vanuit de **Kanaaltoewijzing** dialoogvenster en selecteren **Opslaan**:
+   ![ activa ](assets/p_usecase5.png)
 
-   * **Kanaalpad**: Klik op het pad naar het **Overname** kanaal
-   * **Prioriteit**: Stel de prioriteit van dit kanaal groter in dan de **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.
-   * **Ondersteunde gebeurtenissen**: Klik op de knop **Niet-actief scherm** en **Timer**.
-   * **Schema**: Ga de tekst voor het programma in dat u dit kanaal op de vertoning wilt in werking stellen. De tekst in de **Schema** in dit voorbeeld wordt vermeld *Woensdag na 14.00 uur en vóór 16.00 uur*.
+**Toewijzend Kanalen aan een Vertoning**
+
+1. Klik de vertoning **MainLobbyDisplay** van de **omslag van Plaatsen**. Klik **toewijzen Kanaal** van de actiebar zodat kunt u de **Toekenning van het Kanaal** dialoogdoos openen.
+
+   >[!NOTE]
+   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie **[Toewijzing van het Kanaal](channel-assignment.md)**.
+
+1. Vul de gebieden (**Weg van het Kanaal**, **Prioriteit**, en **Gesteunde Gebeurtenissen**) van het **7} de dialoogvakje van de Toewijzing van het Kanaal en klik** sparen **om** MainAdChannel **aan uw vertoning toe te wijzen.**
+
+   * **Weg van het Kanaal**: Klik de weg aan het **MainAdChannel** kanaal
+   * **Prioriteit**: Plaats de prioriteit van dit kanaal als 1.
+   * **Gesteunde Gebeurtenissen**: Klik de **Aanvankelijke Lading** en **het Niet-actieve Scherm**.
+
+   ![ activa ](assets/p_usecase6.png)
+
+1. Klik de vertoning **TakeOver** van de **omslag van Plaatsen**. Klik **toewijzen Kanaal** van de actiebar zodat kunt u het overnamekanaal toewijzen.
+
+1. Het toewijzen van het **** kanaal TakeOver aan uw vertoning in een geplande tijd. Dan, die de volgende gebieden van de **1} de dialoogdoos van de Toewijzing van het Kanaal bevolken {en** selecteren sparen **:**
+
+   * **Weg van het Kanaal**: Klik de weg aan het **** kanaal TakeOver
+   * **Prioriteit**: Plaats de prioriteit van dit kanaal groter dan **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.
+   * **Ondersteunde Gebeurtenissen**: Klik het **Onactieve Scherm** en **Tijdopnemer**.
+   * **Programma**: Ga de tekst voor het programma in dat u dit kanaal op de vertoning wilt in werking stellen. De tekst in het **Programma** die in dit voorbeeld wordt vermeld is *op Woensdag na 14:00 en vóór 16:00*.
 
      >[!NOTE]
-     >Meer informatie over de expressies die u kunt toevoegen aan de **Schema**, zie de [Voorbeeldexpressies](#example-expressions) hieronder.
-   * **actief van**: Begindatum en -tijd.
-   * **actief tot**: Einddatum en -tijd.
+     >Meer over de uitdrukkingen leren u aan het **Programma** kunt toevoegen, zie de [ sectie van de Uitdrukkingen van het Voorbeeld ](#example-expressions) hieronder.
+   * **actief van**: De datum en de tijd van het Begin.
+   * **actief tot**: Einddatum en tijd.
 
-     De tekst in **Schema** en **actief van** en **actief tot** datum en tijd hier staat de inhoud toe om elke Woensdag van 2:00 p.m. tot 4:00 p.m. te spelen.
+     Bijvoorbeeld, staat de tekst in **Programma** en **actief van** en **tot** datum en tijd hier de inhoud toe om elke Woensdag van 2:00 P.M. tot 4:00 P.M. te spelen.
 
 
-     ![element](assets/p_usecase7.png)
+     ![ activa ](assets/p_usecase7.png)
 
-     Navigeren naar de weergave vanuit **Overname** > **Locaties** > **MainLobby** > **MainLobbyDisplay** klikt u vervolgens op **Dashboard** in de actiebalk, zodat u de toegewezen kanalen met hun prioriteiten kunt weergeven, zoals hieronder wordt weergegeven.
+     Navigeer aan de vertoning van **TakeOver** > **Plaats** > **MainLobby** > **MainLobbyDisplay**, dan, klik **Dashboard** van de actiebar zodat kunt u de toegewezen kanalen met hun prioriteiten bekijken, zoals hieronder getoond.
 
      >[!NOTE]
      >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.
 
-     ![element](assets/p_usecase8.png)
-Nu, **Overname** kanaal neemt het over **MainAdChannel** om 2:00 uur voor twee uur tot 16:00 uur elke woensdag en speelt de inhoud van januari 2020 tot 31 januari 2020 af.
+     ![ activa ](assets/p_usecase8.png)
+Nu, neemt **** kanaal TakeOver **MainAdChannel** bij 2:00 P.M. voor twee uren tot 4:00 P.M. elke Woensdag over en speelt zijn inhoud van Januari 09, 2020 tot 31 Januari, 2020.
 
 ## Voorbeeldexpressies {#example-expressions}
 
@@ -124,4 +124,4 @@ De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u a
 
 >[!NOTE]
 >
->U kunt ook _militaire tijd_ notatie (14:00) in plaats van *A.M./P.M.* (14:00)
+>U kunt _militaire tijd_ aantekening (14:00) in plaats van *ook gebruiken A.M./P.M.* (2:00 P.M.).

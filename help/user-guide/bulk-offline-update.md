@@ -22,7 +22,7 @@ ht-degree: 0%
 Deze sectie behandelt de volgende onderwerpen op Bulk Offline Update:
 
 * **Overzicht**
-* **Bulk offline bijwerken gebruiken**
+* **Gebruikend Bulk Offline Update**
 
 <!-- OBSOLETE VERSIONS
 >[!CAUTION]
@@ -50,9 +50,9 @@ U kunt Bulk Offline Update van het Gebruikersinterface (UI) manueel gebruiken of
 Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een AEM Screens-project:
 
 1. Ga naar uw AEM Screens-project.
-1. Klik op het project en klik vervolgens op **Offline inhoud bijwerken** in de actiebalk, zodat u de kanaalinhoud handmatig kunt bijwerken.
+1. Klik het project, dan klik **Offline Inhoud van de Update** van de actiebar zodat kunt u de kanaalinhoud manueel bijwerken.
 
-   ![screen_shot_2018-04-24at12256pm](assets/screen_shot_2018-04-24at122256pm.png)
+   ![ screen_shot_2018-04-24at122256pm ](assets/screen_shot_2018-04-24at122256pm.png)
 
 ### Configuratie Adobe Experience Manager-webconsole {#adobe-experience-manager-web-console-configuration}
 
@@ -61,18 +61,18 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
 1. Configuratie Adobe Experience Manager-webconsole.
 1. Zoeken naar services voor offline bijwerken van bulkbestanden.
 
-   ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
+   ![ screen_shot_2018-04-24at121428pm ](assets/screen_shot_2018-04-24at121428pm.png)
 
 1. Voeg de volgende eigenschappen toe:
 
-   **Projectpad** Geef het pad van uw AEM Screens-project op. Het pad is meestal `/content/screens/<Name of your project>`.
+   **Weg van het Project** specificeert de weg van uw project van AEM Screens. Het pad is meestal `/content/screens/<Name of your project>` .
 
-   *Bijvoorbeeld*, `/content/screens/we-retail`. U kunt dit pad vinden in de URL door een willekeurig project te selecteren onder AEM Screens (klik niet op het pictogram).
+   *bijvoorbeeld*, `/content/screens/we-retail`. U kunt dit pad vinden in de URL door een willekeurig project te selecteren onder AEM Screens (klik niet op het pictogram).
 
    >[!NOTE]
    >
    >Geef het projectpad op ten opzichte van het kanaal.
 
-   **Planningsfrequentie** Geef een tijd op, bijvoorbeeld 5:00 p.m. of 17:00, waarop deze service offline-inhoud moet bijwerken.
+   **Frequentie van het Programma** specificeer een tijd, bijvoorbeeld, 5:00 P.M. of 17:00 waarbij deze dienst off-line inhoud zou moeten bijwerken.
 
-1. Klikken **Opslaan** om uw instellingen op te slaan. Uw inhoud wordt op het opgegeven tijdstip bijgewerkt.
+1. Klik **sparen** om uw montages te bewaren. Uw inhoud wordt op het opgegeven tijdstip bijgewerkt.

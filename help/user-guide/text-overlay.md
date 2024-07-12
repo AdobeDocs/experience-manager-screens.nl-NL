@@ -22,19 +22,19 @@ ht-degree: 0%
 In deze sectie worden de volgende onderwerpen behandeld:
 
 * **Overzicht**
-* **Tekstbedekking gebruiken**
-* **Eigenschappen van tekstbedekking**
-* **ContextHub-waarden gebruiken in tekstbedekking**
+* **Gebruikend de Bedekking van de Tekst**
+* **Begrijpend de Eigenschappen van de Bedekking van de Tekst**
+* **Gebruikend Waarden ContextHub in de Bedekking van de Tekst**
 
 >[!CAUTION]
 >
->De **Tekstbedekking** Deze functie is alleen beschikbaar als u AEM 6.3 Feature Pack 5 of AEM 6.4 Feature Pack 3 hebt geïnstalleerd.
+>De **eigenschap van de Bedekking van de Tekst** is slechts beschikbaar als u AEM 6.3 Pak van de Eigenschap 5 of AEM 6.4 Pak 3 van de Eigenschap hebt geïnstalleerd.
 
 ## Overzicht {#overview}
 
 De functie Tekstbedekking is beschikbaar in AEM Screens. Met deze functie kunt u een aantrekkelijke ervaring creëren in een volgreekkanaal door een titel of beschrijving boven op een afbeelding te plaatsen.
 
-Ga voor meer informatie over het maken van uw eigen aangepaste component naar **Een AEM Screens-component uitbreiden**.
+Leren hoe te om uw eigen douanecomponent tot stand te brengen, zie **Uitbreidend een Component van AEM Screens**.
 
 In deze sectie wordt alleen weergegeven hoe u de postercomponent in een AEM Screens-project kunt gebruiken en toepassen. Het toont ook gevallen waarin het als een tekstbedekking in één van uw opeenvolgingskanalen wordt gebruikt.
 
@@ -42,45 +42,45 @@ In deze sectie wordt alleen weergegeven hoe u de postercomponent in een AEM Scre
 
 In de volgende sectie wordt het gebruik van tekstbedekking in een AEM Screens-project beschreven.
 
-**Vereisten**
+**Eerste vereisten**
 
 Voordat u deze functionaliteit implementeert, moet u een project instellen als een voorwaarde voor het implementeren van tekstbedekking. Bijvoorbeeld:
 
-* Een AEM Screens-project maken (in dit voorbeeld: **TextOverlayDemo**)
+* Creeer een project van AEM Screens (in dit voorbeeld, **TextOverlayDemo**)
 
-* Een volgnummer maken met de naam **TextSample** onder de **Kanalen** map
+* Creeer een opeenvolgingskanaal als **TextSample** onder de **omslag van Kanalen** wordt genoemd
 
-* Inhoud toevoegen aan uw **TextSample** Kanaal
+* Voeg inhoud aan uw **** Kanaal TextSample toe
 
-In de volgende afbeelding wordt de **TextOverlayDemo** met de **TextSample** in het **Kanalen** map.
+Het volgende beeld toont het **TextOverlayDemo** project met het **** kanaal TextSample in de **omslag van Kanalen**.
 
-![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
+![ screen_shot_2018-12-16at75908pm ](assets/screen_shot_2018-12-16at75908pm.png)
 
 Voer de onderstaande stappen uit om tekstbedekking in een AEM Screens-kanaal te gebruiken:
 
-1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Bewerken** in de actiebalk.
+1. Navigeer aan **TextOverlayDemo** > **Kanalen** > **TextSample** en klik **uitgeven** van de actiebar.
 
-   ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
+   ![ screen_shot_2018-12-16at80017pm ](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Klik op de afbeelding en klik op **Configureren** (moersleutelpictogram) om het dialoogvenster Eigenschappen te openen.
+1. Klik het beeld en klik **vormen** (het moersleutelpictogram) om de doos van de eigenschappendialoog te openen.
 
-   ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
+   ![ screen_shot_2018-12-16at80221pm ](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Klik op de knop **Tekstbedekking** in de navigatiebalk van het dialoogvenster, zoals in de onderstaande afbeelding wordt getoond.
+1. Klik de **optie van de Bedekking van de Tekst** van de navigatiebar van de dialoogdoos, zoals aangetoond in het hieronder cijfer.
 
-   ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
+   ![ screen_shot_2018-12-16at80424pm ](assets/screen_shot_2018-12-16at80424pm.png)
 
 ### Eigenschappen van tekstbedekking {#understanding-text-overlay-properties}
 
-Met de eigenschappen van de Tekstbedekking kunt u tekst toevoegen aan een van de componenten in het project Schermen. In het volgende gedeelte wordt een overzicht gegeven van de eigenschappen die beschikbaar zijn in Tekstbedekking:
+Met de eigenschappen van de Tekstbedekking kunt u tekst toevoegen aan een van de componenten in uw Screens-project. In het volgende gedeelte wordt een overzicht gegeven van de eigenschappen die beschikbaar zijn in Tekstbedekking:
 
-![text](assets/text.gif)
+![ tekst ](assets/text.gif)
 
 U kunt tekst toevoegen aan het tekstvak en typografische accenten toevoegen, zoals vet, cursief en onderstrepen.
 
-**Kleurvariant** Met deze optie kan de tekst Donker (zwarte tekst) of Licht (witte tekst) zijn.
+**Variant van de Kleur** Deze optie staat de tekst toe om of Donker (tekst in zwarte kleur) of Licht (tekst in witte kleur) te zijn.
 
-**Grootte en positie** Met deze optie kan de gebruiker de tekst horizontaal of verticaal uitlijnen of ook met fijnkorrelige gereedschappen tekstuitlijning uitlijnen.
+**het Rangschikken &amp; het plaatsen** Deze optie laat de gebruiker de tekst horizontaal of verticaal richten of ook verfijnen hulpmiddelen voor tekstgroepering gebruiken.
 
 >[!NOTE]
 >
@@ -90,58 +90,58 @@ U kunt tekst toevoegen aan het tekstvak en typografische accenten toevoegen, zoa
 
 In de volgende sectie wordt het gebruik beschreven van waarden uit een gegevensopslagruimte, bijvoorbeeld Google-werkbladen in de component Text Overlay.
 
-**Vereisten**
+**Eerste vereisten**
 
 Opstelling configuraties ContextHub voor uw project van AEM Screens.
 
-Zie voor meer informatie over het instellen en beheren van gegevensgestuurde wijzigingen in elementen met behulp van een gegevensopslag [ContextHub configureren in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Leren hoe te opstelling en gegevens gedreven activaveranderingen te beheren gebruikend een gegevensopslag, zie [ Vormend ContextHub in AEM Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de onderstaande stappen om waarden uit de Google-werkbladen te gebruiken:
 
-1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Eigenschappen** in de actiebalk.
+1. Navigeer aan **TextOverlayDemo** > **Kanalen** > **TextSample** en klik **Eigenschappen** van de actiebar.
 
-1. Klik op de knop **Personalisatie** lusje zodat kunt u opstelling de configuraties ContextHub.
+1. Klik het **Personalization** lusje zodat kunt u opstelling de configuraties ContextHub.
 
-   1. Klik op de knop **ContextHub-pad** als **libben** > **instellingen** > **cloudinstellingen** > **default** > **ContextHub-configuraties** en klik op **Selecteren**.
+   1. Klik de **Weg ContextHub** als **bibliotheken** > **montages** > **wolkenmontages** > **gebrek** > **Configuratie ContextHub** en klik **Uitgezocht**.
 
-   1. Klik op de knop **Segmentpad** als **conf** > **schermen** > **instellingen** > **wcm** > **segmenten** en klik op **Selecteren**.
+   1. Klik de **Weg van Segmenten** als **conf** > **schermen** > **montages** > **wcm** > **segmenten** en klik **Uitgezocht**.
 
-   1. Klikken **Opslaan en sluiten**.
+   1. Klik **sparen &amp; Sluiten**.
 
       >[!NOTE]
       >
       >Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
 
-      ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
+      ![ image1 ](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Navigeren naar **TextOverlayDemo** > **Kanalen** > **TextSample** en klik op **Bewerken** in de actiebalk.
+1. Navigeer aan **TextOverlayDemo** > **Kanalen** > **TextSample** en klik **uitgeven** van de actiebar.
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
+   ![ image1 ](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Voeg een component voor afbeelding en tekstbedekking toe aan de afbeelding, zoals wordt beschreven in het dialoogvenster [Tekstbedekking gebruiken](/help/user-guide/text-overlay.md#using-text-overlay) van deze pagina.
+1. Voeg een beeld en een component van de tekstbedekking aan uw beeld toe zoals die in [ wordt beschreven Gebruikend de sectie van de Bedekking van de Tekst ](/help/user-guide/text-overlay.md#using-text-overlay) van deze pagina.
 
-1. Klikken op **Configureren** (moersleutelpictogram) om het dialoogvenster **Afbeelding** in.
+1. Klik op **vormen** (het moersleutelpictogram) om het **de dialoogvakje van het Beeld** te openen.
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
+   ![ image1 ](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Ga naar de **ContextHub** van de **Afbeelding** in. Klikken **Toevoegen**.
+1. Navigeer aan het **ContextHub** lusje van het **de dialoogvakje van het Beeld**. Klik **toevoegen**.
 
    >[!NOTE]
    >Als u opstelling uw configuratie ContextHub niet hebt, is deze optie gehandicapt voor uw project.
 
-1. Enter **Waarde** in de **Plaatsaanduiding** veld. Klik op de rij waarin je de waarde van je Google-blad wilt ophalen **ContextHub-variabele**. In dit geval wordt de waarde opgehaald uit rij 2 en kolom 1 van de Google-bladen. Voer nu de **Standaardwaarde** als **20**, zoals weergegeven in onderstaande afbeelding. Klik op het vinkje als u klaar bent.
+1. Ga **Waarde** op het **Placeholder** gebied in. Klik de rij die u de waarde van uw blad van Google in **Variabele ContextHub** wilt krijgen. In dit geval wordt de waarde opgehaald uit rij 2 en kolom 1 van de Google-bladen. Nu, ga de **StandaardWaarde** als **20** in, getoond in hieronder cijfer. Klik op het vinkje als u klaar bent.
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
+   ![ image1 ](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
    >[!NOTE]
    >Ter referentie ziet u in de volgende afbeelding de waarde die is opgehaald uit de Google-bladen:
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
+   ![ image1 ](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
-1. Ga terug naar de **Tekstbedekking** van het dialoogvenster Afbeelding en voeg de tekst toe *Huidige temperatuur {Value}*, zoals weergegeven in onderstaande afbeelding.
+1. Navigeer terug naar het **lusje van de Bedekking van de Tekst** van de de dialoogdoos van het Beeld en voeg de tekst *Huidige Temperatuur {Value}* toe, zoals aangetoond in het hieronder cijfer.
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
+   ![ image1 ](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Klikken **Voorvertoning**.
+1. Klik **Voorproef**.
 
-   ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
+   ![ image1 ](/help/user-guide/assets/text-overlay/text-overlay10.png)

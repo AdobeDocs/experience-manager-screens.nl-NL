@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # REST API&#39;s{#rest-apis}
 
-AEM Screens biedt een eenvoudige RESTful-API die volgt op de [Siren](https://github.com/kevinswiber/siren) specificatie. Hiermee kunt u door de inhoudsstructuur navigeren en opdrachten naar apparaten in de omgeving verzenden.
+AEM Screens verstrekt een eenvoudige RESTful API die de [ 1} specificatie van de Trekken {volgt. ](https://github.com/kevinswiber/siren) Hiermee kunt u door de inhoudsstructuur navigeren en opdrachten naar apparaten in de omgeving verzenden.
 
-De API is toegankelijk via [*http://localhost:4502/api/screens.json*](http://localhost:4502/api/screens.json).
+API is toegankelijk in [*http://localhost:4502/api/screens.json* ](http://localhost:4502/api/screens.json).
 
 ## Navigeren door de inhoudsstructuur {#navigating-content-structure}
 
@@ -104,7 +104,7 @@ Host: http://localhost:4502
 
 JSON die door de API vraag is teruggekeerd kan een lijst van acties bevatten die op het middel beschikbaar zijn.
 
-In de weergave wordt bijvoorbeeld een *uitzenden, opdracht* actie die toestaat om een bevel naar alle apparaten te verzenden die aan die vertoning worden toegewezen.
+De vertoning, bijvoorbeeld, maakt een lijst van a *uitzending-bevel* actie die toestaat om een bevel naar alle apparaten te verzenden die aan die vertoning worden toegewezen.
 
 ```xml
 GET /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
@@ -117,7 +117,7 @@ Of met krullen:
 curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
 
-***Resultaat***
+***Resultaat:***
 
 ```xml
 {

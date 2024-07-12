@@ -32,7 +32,7 @@ Voer de onderstaande stappen uit om een miniatuur in video&#39;s te gebruiken:
 
 1. Navigeer naar een bestaand AEM Screens-kanaal of maak een kanaal.
 
-1. Klik op het kanaal en klik **Bewerken** in de actiebalk.
+1. Klik het kanaal en klik **uitgeven** van de actiebar.
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,19 +40,19 @@ Voer de onderstaande stappen uit om een miniatuur in video&#39;s te gebruiken:
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Klik op de video en klik op de *moersleutel* pictogram.
+1. Klik de video en klik het *moersleutelpictogram*.
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. De **Video** wordt geopend waar u de **Miniatuur** dropzone.
+1. Het **Video** dialoogvakje opent waar u de **3} dalingsstreek van de Duimnagel {kunt bekijken.**
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Sleep een afbeelding van de elementkiezer naar de **Miniatuur** zone neerzetten en klikken **Gereed**.
+1. De belemmering en laat vallen een beeld van de activa plukker aan de **1} dalingsstreek van de Duimnagel {en klikt** Gedaan **.**
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Klikken **Voorvertoning**.
+1. Klik **Voorproef**.
 
 1. Als een video op de component wordt geplaatst, speelt de video. Als dat niet het geval is en de miniatuur is ingesteld, wordt de miniatuur afgespeeld. Anders, wordt de component beschouwd als niet gevormd en overgeslagen.
 

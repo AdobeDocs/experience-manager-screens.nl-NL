@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Doelpubliek {#target-audience}
 
-Als ervaren AEM uitvoerder, hebt u waarschijnlijk de rollen gezien die als worden bedoeld *Auteurs*, *Ontwikkelaars*, en *IT-technici*.
+Als ervaren AEM uitvoerder, hebt u waarschijnlijk de rollen gezien die als *Auteurs* worden bedoeld, *Ontwikkelaars*, en *de Technici van IT*.
 
 In een typisch AEM Screens-project worden de rollen verder verfijnd, aangezien zij elk een belangrijk doel in het project dienen.
 
@@ -65,4 +65,4 @@ Creative Suite en Content Management kunnen er als volgt uitzien:
 Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens-implementatie. Een projectmanager is de puntpersoon voor de volledige implementatie van het aangewezen project. Zij voeren belangrijke verantwoordelijkheden uit zoals het plaatsen van chronologie, het behandelen van teambehoeften en mededelingen. Zij pakken ook uitdagingen aan en zorgen ervoor dat de doelstellingen worden verwezenlijkt.
 
 >[!NOTE]
->Zie voor meer informatie over de verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject **[Projectrollen en -verantwoordelijkheden](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, zie {de Rollen en de Verantwoordelijkheden van het 0} Project ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities) **.**[

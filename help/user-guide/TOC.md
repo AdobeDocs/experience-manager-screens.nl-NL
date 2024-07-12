@@ -18,10 +18,10 @@ ht-degree: 5%
 
 # AEM Screens-gebruikershandleiding {#user-guide}
 
-+ [Inleiding tot schermen](aem-screens-introduction.md)
++ [Inleiding tot Screens](aem-screens-introduction.md)
 + Overzicht en Kickstart Guide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + [Schermen Best Practices Guide](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
+   + ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide) Gids van de Beste praktijken van Screens van 0}[
    + [Belangrijkste voorwaarden](screens-glossary.md)
 + Basisprincipes van digitale-signaalnetwerken {#digital-signage-network}
    + [Deel 1: Projectrollen en -verantwoordelijkheden](project-roles-responsibilities.md)
@@ -30,34 +30,34 @@ ht-degree: 5%
    + [Deel 4: Projectbeheer en -implementatie](project-management-and-deployment.md)
    + [Deel 5: Overwegingen bij de ondersteuning](support-considerations.md)
 + Configuratie en beheer {#administering}
-   + [Schermserver configureren](configuring-screens-introduction.md)
+   + [Screens Server configureren](configuring-screens-introduction.md)
    + [Dispatcher-configuraties instellen](dispatcher-configurations-aem-screens.md)
-   + [Schermspeler installeren](installing-screens-player.md)
-   + [Schermspeler verbinden](working-with-screens-player.md)
+   + [Screens Player installeren](installing-screens-player.md)
+   + [Screens Player verbinden](working-with-screens-player.md)
    + [Apparaatregistratie](device-registration.md)
    + [ACLs van de vestiging](setting-up-acls.md)
    + [AEM Screens Security Checklist](security-checklist.md)
    + [Overstappen van ContentSync naar SmartSync](smartsync.md)
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
-   + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
-   + [Replicatieagents configureren op schermen](configure-screens-replication.md)
-   + Clientspecifieke overwegingen {#installing-client}
+   + [Gegevenstriggers repliceren naar Publish-servers](replicating-data-triggers.md)
+   + [Replication Agents configureren op Screens](configure-screens-replication.md)
+   + Overwegingen die specifiek zijn voor de client {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
-      + [Chrome Player gebruiken als extensie voor het oplossen van problemen](using-chrome-player-as-an-extension.md)
+      + [Chrome Player gebruiken als extensie voor probleemoplossing](using-chrome-player-as-an-extension.md)
       + [Android](implementing-android-player.md)
-      + [Windows Player](implementing-windows-player.md)
+      + [ Speler van Vensters ](implementing-windows-player.md)
       + [Tizen Player](tizen-player.md)
       + [Cloud Player](implementing-cloud-player.md)
       + [Automatische registratie van spelers](auto-registration-players.md)
       + [De afstandsbediening gebruiken](implementing-remote-control.md)
-   + Auteur publiceren {#author-publish}
+   + Auteur Publish {#author-publish}
       + [Author-Publish Architecture-overzicht](author-publish-architecture-overview.md)
-      + [Auteur en publicatie configureren](author-and-publish.md)
-   + Analyseintegratie met AEM Screens {#analytics-integration}
+      + [Auteur en Publish configureren](author-and-publish.md)
+   + Integratie van analysemogelijkheden met AEM Screens {#analytics-integration}
       + [Adobe Analytics-integratie](adobe-analytics-integration-aem-screens.md)
       + [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Voorbeelden van ontwerpen en gebruik {#authoring}
-   + Een schermproject instellen {#setting-up-projects}
++ Voorbeelden van ontwerpen en gebruiken {#authoring}
+   + Een Screens-project instellen {#setting-up-projects}
       + [Projecten maken en beheren](creating-a-screens-project.md)
       + [Kanalen maken en beheren](managing-channels.md)
       + [Weergaven maken en beheren](managing-displays.md)
@@ -80,7 +80,7 @@ ht-degree: 5%
       + [Ingesloten reeksen](embedded-sequences.md)
       + [Layout meerdere zones](multi-zone-layout-aem-screens.md)
       + [Video-uitvoeringen](generating-renditions.md)
-      + [Dynamische ingesloten reeks](dynamic-embedded-sequences.md)
+      + [ Dynamische Ingebedde Opeenvolging ](dynamic-embedded-sequences.md)
       + [Duur van afspelen van bulkafbeelding op kanaalniveau](channel-level-image-playback.md)
       + [Opdrachtsynchronisatie](using-command-sync.md)
       + [Authoring met gegevenstriggers](authoring-data-triggers.md)
@@ -92,8 +92,8 @@ ht-degree: 5%
    + Updates van inhoud beheren {#content-updates}
       + [Update voor on-demand inhoud](on-demand-content.md)
       + [Inhoud als service-update](content-update-as-a-service.md)
-      + [Inhoud bijwerken met Schermen starten](launches.md)
-   + Voorbeelden van hoofdletters gebruiken {#use-case-examples}
+      + [Inhoud bijwerken met Screens Launch](launches.md)
+   + Voorbeelden van hoofdletters en kleine letters gebruiken {#use-case-examples}
       + [Noodkanalen](emergency-channel.md)
       + [Temperatuuractivering in het midden van de reis](local-temperature-activation.md)
       + [Activering van ziekenhuisreservering](hospitality-reservation-activation.md)
@@ -102,7 +102,7 @@ ht-degree: 5%
       + [Overgangen van meerdere zones naar één zone](multizone-to-singlezone.md)
       + [Single-Use TakeOver Channel](single-use-takeover-channel.md)
       + [Perpetual Use of TakeOver Channel](perpetual-takeover-channel.md)
-+ Developer and API Resources {#developing}
++ Bronnen voor ontwikkelaars en API {#developing}
    + [REST API&#39;s](rest-api.md)
    + [Een aangepaste component voor AEM Screens ontwikkelen](developing-custom-component-tutorial-develop.md)
    + [Offlinekanalen](offline-channels.md)
@@ -124,7 +124,7 @@ ht-degree: 5%
    + [Opmerkingen bij de release voor Feature Pack 202204](release-notes-fp-202204.md)
    + [Opmerkingen bij de release voor Feature Pack 202203](release-notes-fp-202203.md)
    + [Opmerkingen bij de release voor Feature Pack 202112](release-notes-fp-202112.md)
-   + [Opmerkingen bij de release voor Feature Pack 202109](release-notes-fp-202109.md)
+   + [ de Nota&#39;s van de Versie voor Pak 202109 van de Eigenschap ](release-notes-fp-202109.md)
    + [Opmerkingen bij de release voor Feature Pack 202105](release-notes-fp-202105.md)
    + [Opmerkingen bij de release voor Feature Pack 202103](release-notes-fp-202103.md)
    + [Opmerkingen bij de release voor Feature Pack 202011](release-notes-fp-202011.md)

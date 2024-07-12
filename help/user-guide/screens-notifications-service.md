@@ -20,14 +20,14 @@ ht-degree: 0%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***AEM Screens-berichtenservice*** beschrijft de activiteit van het monitorapparaat.
+***de Berichtendienst van AEM Screens*** beschrijft de activiteit van het monitorapparaat.
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
 * **Overzicht**
-* **E-mailinstellingen configureren**
-* **E-mailmelding**
-* **Voorbeeld van gebruik**
+* **Vormend E-mailmontages**
+* **E-mailbericht**
+* **het gebruiksgeval van het Voorbeeld**
 
 <!-- OBSOLETE NOTE>
 >[!CAUTION]
@@ -38,7 +38,7 @@ In deze sectie worden de volgende onderwerpen behandeld:
 
 ## Overzicht {#overview}
 
-***AEM Screens-berichtenservice*** Hiermee kunnen beheerders een e-mail ontvangen als een AEM Screens Player niet pingelt gedurende een configureerbare tijd.
+***de Dienst van de Meldingen van AEM Screens*** laat beheerders een e-mail ontvangen als een Speler van AEM Screens niet voor een configureerbare tijd pingelt.
 
 Deze dienst kan in de OSGi Webconsole worden gevormd.
 
@@ -46,44 +46,44 @@ Deze dienst kan in de OSGi Webconsole worden gevormd.
 
 Voer de onderstaande stappen uit om de instellingen voor e-mailmeldingen te configureren:
 
-1. Openen **Configuratie Adobe Experience Manager-webconsole**.
-1. Openen **E-mailbewakingsservice van apparaat weergeven**.
+1. Open **Configuratie van de Console van het Web van Adobe Experience Manager**.
+1. Open **E-mailcontroledienst van het Apparaat van Screens**.
 
-   ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
+   ![ screen_shot_2018-04-26at44602pm ](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. Definieer de volgende velden zodat u de instellingen voor de e-mail kunt configureren:
 
-   **Pad naar apparaat** Ga de weg aan de Projecten van het Scherm in die u wilt controleren. Het pad is meestal `/home/users/screens/<Name of your project>`.
+   **Weg van Apparaten** ga de weg aan de Projecten van Screens in die u wilt controleren. Het pad is meestal `/home/users/screens/<Name of your project>` .
 
-   Als uw project bijvoorbeeld **`We.Retail`**, gebruikt u het projectpad als ***/home/users/screens/we-retail***.
+   Bijvoorbeeld, als uw project **`We.Retail`** is, gebruik de projectweg als ***/home/users/screens/we-retail***.
 
    >[!NOTE]
    >
    >Geef het projectpad op waarin de apparaatgebruikers zich bevinden.
 
-   **Planningsfrequentie** - Geef een tijd (bijvoorbeeld 17:00 of 17:00) of frequentie op in uren (bijvoorbeeld 1) waarop deze monitor e-mails moet verzenden.
+   **Frequentie van het Programma** - specificeer een tijd (bijvoorbeeld, 5:00 P.M. of 17:00) of frequentie in uren (bijvoorbeeld, 1) waarop deze monitor e-mail zou moeten verzenden.
 
-   **Pingetijd uit** - Dit gebied specificeert het interval in notulen waarna een apparaat als niet bereikbaar zou moeten worden beschouwd.
+   **pingelt Tijd uit** - Dit gebied specificeert het interval in notulen waarna een apparaat als niet bereikbaar zou moeten worden beschouwd.
 
-   **SMTP-server** - Geeft de SMTP-server op die wordt gebruikt voor het verzenden van e-mails.
+   **Server SMTP** - specificeert de Server SMTP die voor het verzenden van e-mails wordt gebruikt.
 
-   **SMTP-poort** - Ga de Haven SMTP in.
+   **Haven SMTP** - ga de Haven SMTP in.
 
-   **TLS gebruiken** - De Veiligheid van de Laag van het Vervoer (TLS) laat u een veilige mededeling met de Server gebruiken SMTP.
+   **Gebruik TLS** - de Veiligheid van de Laag van het Vervoer (TLS) laat u een veilige mededeling met de Server gebruiken SMTP.
 
    Adobe raadt u aan TLS te gebruiken voor een veilige verbinding met bedrijfsmailservers. Vraag uw e-mailbeheerder om de juiste waarden.
 
-   **gebruikersnaam** - Geef de gebruikersnaam op voor het verzenden van e-mails.
+   **gebruikersbenaming** - specificeer de gebruikersbenaming voor het verzenden van e-mails.
 
-   **password** - Geef het wachtwoord op voor het verzenden van e-mails.
+   **wachtwoord** - specificeer het wachtwoord voor het verzenden van e-mails.
 
-   **Ontvanger** - Geef het e-mailadres van de ontvanger op.
+   **Ontvanger** - specificeer het e-mailadres van de ontvanger.
 
    >[!NOTE]
    >
    >U kunt slechts één e-mailadres invoeren. Als u een grote hoeveelheid e-mail wilt verzenden, maakt u een groep- of distributielijst met de relevante gebruikers.
 
-1. Klikken **Opslaan** om de monitoractiviteit door een e-mail voor uw AEM Screens apparaat te vormen.
+1. Klik **sparen** om de monitoractiviteit door e-mail voor uw apparaat van AEM Screens te vormen.
 
 ## E-mailmelding {#email-notification}
 
@@ -98,7 +98,7 @@ E-mails worden alleen verzonden als:
 
 ### Voorbeelden van gevallen {#example-use-cases}
 
-In het volgende voorbeeld worden een aantal scenario&#39;s ter referentie beschreven, om de eigenschappen van de E-mailcontroledienst van het Apparaat van het Scherm te configureren.
+In het volgende voorbeeld worden een aantal scenario&#39;s ter referentie beschreven, waarmee u de eigenschappen kunt configureren via de Screens Device Email Monitoring Service.
 
 **Scenario 1**
 

@@ -19,7 +19,7 @@ Inhoud is een belangrijke factor bij het aansturen van betrokkenheid. In de pre-
 
 Een goed gedefinieerde strategie voor zakelijke inhoud stelt een pad in voor het maken, distribueren en volgen van het gebruik van inhoud in verhouding tot de reis van de koper. Zij houdt ook rekening met de marketingaanraakpunten in de verkooptrechter. Het is van cruciaal belang dat de juiste boodschap op het juiste moment naar de juiste klant wordt gestuurd.
 
-Overweeg hoe de toepassing Schermen kan helpen om deze strategie te bereiken en KPIs te bepalen helpen het succes van de toepassing in het leveren van die inhoud meten.
+Overweeg hoe de Screens-toepassing kan helpen deze strategie te verwezenlijken en KPI&#39;s te bepalen om te helpen meten of de toepassing die inhoud heeft geleverd, succesvol is.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Bekijk en beantwoord de volgende vragen wanneer u een inhoudsstrategie voor uw A
 * Wanneer is het ideale moment om het publiek erbij te betrekken?
 * Wie gaat de inhoud maken?
 * Waarom zou het doelpubliek om de inhoud moeten geven?
-* Welke problemen worden door de inhoud opgelost? (Bijvoorbeeld, helpt de toepassing van Schermen een klant de meest geschikte schoenen om voor extreme bergklimmen of een perfect toestel voor hun nieuw huis te dragen te vinden?)
+* Welke problemen worden door de inhoud opgelost? (Bijvoorbeeld: helpt de Screens-toepassing een klant de meest geschikte schoenen te vinden om te dragen voor een extreme bergbeklimming of een perfect apparaat voor zijn nieuwe woning?)
 * Hoe communiceert de klant met de toepassing of hoe ervaren de gebruikers?
 * Wat is uw strategie voor updates en upgrades?
 * Hoe vaak verwacht u de creatie van nieuwe, noodzakelijke inhoud?

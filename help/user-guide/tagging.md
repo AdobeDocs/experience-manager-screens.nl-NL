@@ -22,7 +22,7 @@ Gebruiker kan tags maken op Screens Cloud en deze gebruiken om weergaven en spel
 
 ## Tags maken en beheren {#create-and-manage-tags}
 
-![tag maken](assets/tagging/create-tag.gif).
+![ creeer markering ](assets/tagging/create-tag.gif).
 
 Gebruik hetzelfde actiemenu om de naam van een tag te wijzigen of om deze te verwijderen.
 
@@ -34,7 +34,7 @@ Gebruik hetzelfde actiemenu om de naam van een tag te wijzigen of om deze te ver
 
 Gebruik de gemaakte labels voor beeldschermen en afspeelapparatuur.
 
-![Tagtoewijzingen beheren](assets/tagging/assign-tags-to-players.gif).
+![ beheert markeringen toewijzen ](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
 > 
@@ -45,7 +45,7 @@ Gebruik de gemaakte labels voor beeldschermen en afspeelapparatuur.
 
 Selecteer labels om de lijst met weergaven of spelers te filteren.
 
-![filteren op tags](assets/tagging/filter-by-tags.gif).
+![ filter door markeringen ](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 

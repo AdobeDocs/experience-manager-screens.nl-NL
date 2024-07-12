@@ -15,10 +15,10 @@ De AEM Screens Best Practices Guide is bedoeld als leidraad voor het plannen en 
 
 Het doelpubliek voor dit document is:
 
-* *Implementators AEM*
-* *Audio-video-integratoren*
-* *Bedrijfsstrategieën*
-* *Projectmanagers*
+* *AEM Implementors*
+* *audio-Video Integrators*
+* *BedrijfsStrategisten*
+* *Managers van het Project*
 * *Consultants*
 
 Er moet echter op worden gewezen dat veel andere rollen ook baat kunnen hebben bij het lezen van deze handleiding.
@@ -31,14 +31,14 @@ Deze gids verstrekt een uitvoerig inzicht en praktisch advies om zich voor te st
 >
 > Deze gids wordt ontworpen om gemeenschappelijke valkuilen te identificeren terwijl het uitvoeren van een project van AEM Screens en het materiaal concentreert zich hoofdzakelijk op de volgende onderwerpen:
 >
-> * **[Projectrollen en -verantwoordelijkheden](roles-responsibilities.md)**
-> * **[RACI-grafiek voor verschillende rollen](roles-responsibilities.md#raci-chart)**
-> * **[Platformconfiguraties AEM](aem-platform-configurations.md)**
-> * **[Ondersteuning en toezicht](support-monitoring.md)**
+> * **[Rollen en Verantwoordelijkheden van het Project](roles-responsibilities.md)**
+> * **[RACI Grafiek voor Verschillende Rollen](roles-responsibilities.md#raci-chart)**
+> * **[AEM de Configuraties van het Platform](aem-platform-configurations.md)**
+> * **[Steun en Controle](support-monitoring.md)**
 
 >[!NOTE]
 >
 > In deze Guide gebruikte termen (in de context van AEM Screens):
 >
-> * **UX** wordt beschouwd als de ervaring van digitale handtekeningen die aan eindgebruikers worden geleverd.
-> * **UI** wordt beschouwd als de gebruikersinterface waarmee u projecten in schermen kunt maken en beheren.
+> * **UX** wordt beschouwd als om de digitale signaalervaringen te betekenen die aan eindklanten worden geleverd.
+> * **UI** wordt beschouwd als om het gebruikersinterface dat u uw projecten in Screens laat creëren en beheren.

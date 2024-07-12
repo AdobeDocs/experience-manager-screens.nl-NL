@@ -22,7 +22,7 @@ U kunt de inhoud van het kanaal en andere instellingen in AEM Screens Player beh
 
 >[!NOTE]
 >
->Druk ***Ctrl+Cmd+F*** zodat u de modus Volledig scherm kunt afsluiten voor OS X AEM Screens Player.
+>Pers ***Ctrl+Cmd+F*** zodat kunt u volledig-schermwijze voor OS X AEM Screens Player weggaan.
 
 Nadat u een kanaal aan een vertoning toewijst, toont de Speler van AEM Screens de inhoud. U kunt instellingen voor de speler configureren met de voorkeuren voor de interface van Admin (van het dashboard) of met de speler zelf.
 
@@ -30,83 +30,83 @@ Nadat u een kanaal aan een vertoning toewijst, toont de Speler van AEM Screens d
 
 U kunt voorkeuren voor uw apparaat configureren vanaf het dashboard van het apparaat, dat toegankelijk is via de AEM ontwerpinstantie.
 
-1. Navigeer naar het apparaatdashboard van uw project, bijvoorbeeld ***Project testen*** > ***Apparaten***.
+1. Navigeer aan het apparatendashboard van uw project, bijvoorbeeld, ***Project van de Test*** > ***Apparaten***.
 
-   Klikken **Apparaten** en **Apparaatbeheer** in de actiebalk.
+   Klik **Apparaten** en **Manager van het Apparaat** van de actiebar.
 
-   ![chlimage_1-66](assets/chlimage_1-66.png)
+   ![ chlimage_1-66 ](assets/chlimage_1-66.png)
 
 1. Klik op het apparaat zodat u het dashboard van het apparaat kunt openen.
 
-   ![chlimage_1-67](assets/chlimage_1-67.png)
+   ![ chlimage_1-67 ](assets/chlimage_1-67.png)
 
-1. Controleer de **Voorkeuren** deelvenster. U kunt de **Gebruikersinterface van beheerder** en **Kanaalswitch** voor uw speler uit deze twee opties.
+1. Controleer het **paneel van VOORKEUREN**. U kunt **Admin UI** en **Schakelaar van het Kanaal** voor uw speler van deze twee opties toelaten of onbruikbaar maken.
 
-   ![chlimage_1-68](assets/chlimage_1-68.png)
+   ![ chlimage_1-68 ](assets/chlimage_1-68.png)
 
 ### De interface van Admin {#the-admin-ui}
 
-Het inschakelen van de **Gebruikersinterface van beheerder** in het voorkeurenvenster kan de gebruiker de beheerinstellingen openen vanuit de schermspeler. Als u deze optie uitschakelt vanaf het dashboard van het apparaat, kan de gebruiker de interface Admin niet openen vanuit de speler.
+Het toelaten van **Admin UI** van het voorkeurenpaneel staat de gebruiker toe om de adminmontages van de Speler van Screens te openen. Als u deze optie uitschakelt vanaf het dashboard van het apparaat, kan de gebruiker de interface Admin niet openen vanuit de speler.
 
-Als u de Admin UI van de Speler van de Schermen wilt bekijken, duw op de hoogste-linkerhoek om het Admin menu, op uw aanraking-toegelaten AEM Screens Player te openen, of door een muis te gebruiken. De informatie wordt weergegeven nadat de registratie is voltooid en de kanalen zijn geladen.
+Als u de Admin UI van de Speler van de Screens wilt bekijken, duw op de hoogste-linkerhoek om het Admin menu, op uw aanraking-toegelaten Speler van de AEM Screens te openen, of door een muis te gebruiken. De informatie wordt weergegeven nadat de registratie is voltooid en de kanalen zijn geladen.
 
 >[!NOTE]
 >
 >U kunt ook de uptime van de AEM Screens Player-app weergeven om de status van de app te controleren.
 
-![chlimage_1-3](assets/chlimage_1-3.gif)
+![ chlimage_1-3 ](assets/chlimage_1-3.gif)
 
 #### Toegang tot de Opties van het Menu van de Configuratie {#configuration-options}
 
-U kunt uw configuraties bijwerken als u op de knop **Configuratie** van het zijmenu, zoals weergegeven in onderstaande afbeelding:
+U kunt uw configuraties bijwerken als u de **optie van de Configuratie** van het zijmenu klikt, zoals aangetoond in het hieronder cijfer:
 
-![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+![ screen_shot_2018-10-15at101257am ](assets/screen_shot_2018-10-15at101257am.png)
 
 In het menu Configuratie kunt u de volgende instellingen wijzigen:
 
-* Herstellen **Firmware**, **Voorkeuren**, of **Naar fabriek** in dit dialoogvenster.
+* Het terugstellen **Ingebouwde programmatuur**, **Voorkeur**, of **aan Factory** van deze dialoogdoos.
 
-* Geef het maximum aantal logbestanden op dat u voor AEM Screens Player wilt behouden **Max. nr. van te bewaren logbestanden**.
+* Specificeer het aantal maximumlogboekdossiers die u voor een Speler van AEM Screens in **Max Nr wilt houden. van logboekdossiers om** te houden.
 
-* Schakel de **Menu Beheer**, **Kanaalswitch**, en **UI voor activiteiten** voor de schermspeler.
+* Laat toe of maak het **Menu Admin**, **Schakelaar van het Kanaal**, en **Activiteit UI** voor de Speler van Screens onbruikbaar.
 
-  Als de **UI voor activiteiten** is ingeschakeld vanuit de **Configuratie** in AEM Screens Player de *spelersactiviteitmeldingen* in de rechterbovenhoek van de speler, zoals in de onderstaande afbeelding wordt getoond.
+  Als de **Activiteit UI** van het **menu van de Configuratie** wordt toegelaten, toont de Speler van AEM Screens de *berichten van de speleractiviteit* in de hoogste rechterhoek van de speler, zoals aangetoond in het hieronder cijfer.
 
   ![afbeelding](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
->De **Firmware bijwerken** werkt alleen op de Cordova, zoals Android™-spelers.
+>De **optie van de Ingebouwde programmatuur van de Update** werkt slechts op Cordova, zoals spelers Android™.
 
 >[!NOTE]
 >
->Het wordt aanbevolen de **Gebruikersinterface van beheerder** uitgeschakeld zijn bij productieimplementaties.
+>Men adviseert dat **Admin UI** in de Plaatsingen van de Productie wordt onbruikbaar gemaakt.
 
 #### Opties voor het menu-cachegeheugen voor inhoud openen {#content-cache-options}
 
 U kunt cache voor kanalen en toepassingen wissen via de beheerinterface in AEM Screens Player.
 
-Klik op de knop **Inhoudcache** van de zijspoorstaaf zodat kunt u het geheime voorgeheugen bijwerken.
+Klik het **Geheime voorgeheugen van de Inhoud** van de zijspoorstaaf zodat kunt u het geheime voorgeheugen bijwerken.
 
-![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
+![ screen_shot_2018-10-15at105717am ](assets/screen_shot_2018-10-15at105717am.png)
 
 ### De kanaalschakelaar {#the-channel-switcher}
 
-Het inschakelen van de **Kanaalswitch** in het voorkeurenvenster kan de gebruiker de instellingen voor kanaalselectie openen vanuit de schermspeler.
+Het toelaten van de **Schakelaar van het Kanaal** van het voorkeurenpaneel laat de gebruiker de montages van de kanaalselectie van de Speler van Screens openen.
 
-Als u deze optie uitschakelt vanaf het dashboard van het apparaat, kan de gebruiker de kanaalvoorkeuren niet besturen via de schermspeler.
+Als u deze optie uitschakelt vanaf het dashboard van het apparaat, kan de gebruiker de kanaalvoorkeuren niet besturen vanuit Screens Player.
 
-U kunt instellingen voor uw kanaal wijzigen en beheren vanuit uw schermspeler.
+U kunt instellingen voor uw kanaal wijzigen en beheren vanuit uw Screens Player.
 
 Als u de kanaalschakelaar van de speler wilt weergeven, drukt u lang op de linkerbenedenhoek om de kanaalschakelaar te openen die het schakelen tussen kanalen en andere functies toestaat.
 
-![chlimage_1-69](assets/chlimage_1-69.png)
+![ chlimage_1-69 ](assets/chlimage_1-69.png)
 
 >[!NOTE]
 >
->U kunt ook het beheermenu en de kanaalschakelaar voor de speler in- of uitschakelen via de schermspeler.
+>U kunt het beheermenu en de kanaalschakeloptie voor de speler ook in- of uitschakelen via de Screens Player.
 >
->(Zie *Voorkeuren wijzigen vanuit schermspeler* zoals vermeld in de onderstaande paragraaf).
+>(Zie *Voorkeur van de Verandering van de Speler van Screens* zoals vermeld in de hieronder sectie).
 
 ### Voorkeuren beheren vanuit AEM Screens Player
 
@@ -115,16 +115,16 @@ U kunt ook de instellingen voor de interface van Admin en de kanaalschakelaar va
 Voorkeuren wijzigen van uw speler:
 
 1. Druk op de linkerbovenhoek van het inactieve kanaal lang om het beheerpaneel te openen.
-1. Navigeren naar **Configuratie** in het linkeractiemenu.
-1. De configuratie voor **Gebruikersinterface van beheerder** of **Kanaalswitch**.
+1. Navigeer aan **Configuratie** van het linkeractiemenu.
+1. Laat of maak de configuratie voor **Admin UI** of **Schakelaar van het Kanaal** toe onbruikbaar.
 
-![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
+![ screen_shot_2018-10-15at101257am-1 ](assets/screen_shot_2018-10-15at101257am-1.png)
 
 ## Problemen met AEM Screens Player oplossen
 
 U kunt verschillende problemen met de AEM Screens Player (hardware en software) oplossen:
 
-| **Problemen** | **Recommendations** |
+| **Kwesties** | **Recommendations** |
 |---|---|
 | Player-opslag is vol | Overbodige bestanden verwijderen |
 | Speler verloren netwerk | Kat-5 of kat-6 van het gebruik kabel. Voor wifi, verminder de afstand van de router aan het spelerapparaat |
@@ -137,16 +137,16 @@ U kunt verschillende problemen met de AEM Screens Player (hardware en software) 
 
 Er zijn twee typen updates voor de AEM Screens Player:
 
-| **Methode** | **Details** | **door middel van externe** | **Automatisch** | **0 Downtime** |
+| **Methode** | **Details** | **als Verre** | **Geautomatiseerd** | **0 Downtime** |
 |---|---|---|---|---|
 | Firmware-update | Toegepast op bestaande geïnstalleerde Players door middel van ver bevel. Na de update wordt de speler automatisch opnieuw geladen met de bestaande inhoud. | Ja | Aangepast | Bijna - 1-3 seconden |
 | Updates van Flash Player | Een nieuw uitvoerbaar die op de Speler wordt opgesteld. Deze functionaliteit vereist u om het nieuwe binaire getal op afstand op de speler te kopiëren, de huidige uitvoering te stoppen en de nieuwe versie te starten. Het kan nodig zijn de voorgeladen pakketten opnieuw te downloaden. | Ja (via externe shell) | Aangepast | Nee |
 
 ## Richtlijnen voor hardwareselectie voor afspeelapparaat {#hardware-selection-guidelines-for-player-device}
 
-In de volgende sectie vindt u de richtlijnen voor hardwareselectie voor een rasterproject:
+In het volgende gedeelte vindt u de richtlijnen voor hardwareselectie voor een Screens-project:
 
-* Altijd bron ***Commercieel*** of ***Industrieel*** Graducomponenten voor zowel de speler van PC als het Comité van de Vertoning of Projector.
+* Bron altijd ***Commerciële*** of ***Industriële*** componenten van de Grade voor zowel de speler van PC als Comité van de Vertoning of Projector.
 
 * Neem altijd contact op met leveranciers die de markt voor digitale handtekeningen bedienen.
 * Houd altijd rekening met omgevingsfactoren zoals omgevingstemperatuur en relatieve vochtigheid.
@@ -174,10 +174,10 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>onBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet/Wireless<br /> 2x USB</td>
+   <td>DVI <br /> Ethernet / Wireless <br /> 2x USB</td>
    <td>
     <ul>
-     <li>Standaardherhaling op volledig scherm<br /> </li>
+     <li>Standaard herhalen op volledig scherm <br /> </li>
      <li>Dagverdeling</li>
     </ul> </td>
   </tr>
@@ -188,10 +188,10 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td>128 GB</td>
    <td>onBoard</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 2x USB</td>
+   <td>DVI, HDMI <br /> Ethernet/Wireless, <br /> 2x USB</td>
    <td>
     <ul>
-     <li>Dynamische inhoud van één bron</li>
+     <li>Single Source Dynamic Content</li>
      <li>Eenvoudig interactief</li>
      <li>1-3 Zone-indelingen</li>
     </ul> </td>
@@ -203,7 +203,7 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td>256 GB</td>
    <td>GPU voor speciale grafische kaarten</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 4x USB</td>
+   <td>DVI, HDMI <br /> Ethernet/Wireless, <br /> 4x USB</td>
    <td>
     <ul>
      <li>4 of meer inhoudszones, gelijktijdige videoweergave</li>

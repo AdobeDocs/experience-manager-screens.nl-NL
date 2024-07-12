@@ -24,7 +24,7 @@ Met de apparaatconsole hebt u toegang tot de apparaatmanager om uw apparaat aan 
 
 >[!CAUTION]
 >
->Registreer het voordat u het apparaat toewijst. Zie [Apparaatregistratie](device-registration.md).
+>Registreer het voordat u het apparaat toewijst. Zie [ Registratie van het Apparaat ](device-registration.md).
 
 ## Apparaattoewijzing {#device-assignment}
 
@@ -34,39 +34,39 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 
    `http://localhost:4502/screens.html/content/screens/TestProject`
 
-   ![chlimage_1-32](assets/chlimage_1-32.png)
+   ![ chlimage_1-32 ](assets/chlimage_1-32.png)
 
-1. Klik op **Apparaten** map en klik op **Apparaatbeheer** in de actiebalk. De toegewezen en niet toegewezen apparatenvertoning.
+1. Klik uw **omslag van Apparaten** en klik **Manager van het Apparaat** in de actiebar. De toegewezen en niet toegewezen apparatenvertoning.
 
-   ![chlimage_1-33](assets/chlimage_1-33.png)
+   ![ chlimage_1-33 ](assets/chlimage_1-33.png)
 
-1. Klik op een niet-toegewezen apparaat in de lijst en klik op de knop **Apparaat toewijzen** in de actiebalk.
+1. Klik een niet toegewezen apparaat van de lijst, en klik **toewijzen Apparaat** in de actiebar.
 
-   ![chlimage_1-34](assets/chlimage_1-34.png)
+   ![ chlimage_1-34 ](assets/chlimage_1-34.png)
 
-1. Klik op de weergave waaraan u het apparaat wilt toewijzen in de lijst en klik op de knop **Toewijzen**.
+1. Klik de vertoning die u het apparaat aan van de lijst wilt toewijzen, en **klikken toewijzen**.
 
-   ![chlimage_1-35](assets/chlimage_1-35.png)
+   ![ chlimage_1-35 ](assets/chlimage_1-35.png)
 
-1. Klik op de knop **Voltooien** om het toewijzingsproces te voltooien.
+1. Klik de **Afwerking** om het taakproces te voltooien.
 
 
-   Het weergavedashboard geeft het toegewezen apparaat weer in het dialoogvenster **APPARATEN** deelvenster.
+   Het vertoningsdashboard toont het toegewezen apparaat in het **paneel van APPARATEN**.
 
-   ![chlimage_1-37](assets/chlimage_1-37.png)
+   ![ chlimage_1-37 ](assets/chlimage_1-37.png)
 
-   Klik op de knop (**...**) rechtsboven in het dialoogvenster **APPARATEN** om apparaten toe te voegen of bij te werken.
+   Klik (**...**) op de hoogste-juiste hoek van het **3} paneel van APPARATEN {om of apparaat toe te voegen config of de apparaten bij te werken.**
 
-   ![chlimage_1-38](assets/chlimage_1-38.png)
+   ![ chlimage_1-38 ](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
->Telkens wanneer het eerste apparaat aan een nieuw project van het Scherm wordt toegevoegd, wordt een gebruikersgroep gecreeerd.
->Bijvoorbeeld, als de naam van de projectknoop is *wij-detailhandel*, dan is de naam van de gebruikersgroep *schermen-we-retail-apparaten*.
->Deze groep wordt toegevoegd als lid van de **Medewerkers** groep, zoals weergegeven in onderstaande afbeelding:
+>Telkens wanneer het eerste apparaat aan een nieuw Screens-project wordt toegevoegd, wordt een gebruikersgroep gemaakt.
+>Bijvoorbeeld, als de naam van de projectknoop *wij-kleinhandel* is, dan is de naam van de gebruikersgroep *schermen-wij-retail-apparaten*.
+>Deze groep wordt toegevoegd als lid van de **Groep van Medewerkers**, zoals aangetoond in het hieronder cijfer:
 
-![chlimage_1-39](assets/chlimage_1-39.png)
+![ chlimage_1-39 ](assets/chlimage_1-39.png)
 
 ### De volgende stappen {#the-next-steps}
 
-Nadat u bekend bent met het toewijzen van een kanaal aan een weergave, raadpleegt u[Monitor en problemen oplossen](monitoring-screens.md).
+Nadat u met het toewijzen van kanaal aan een vertoning vertrouwd bent, zie het [ Monitor en los ](monitoring-screens.md) problemen op.

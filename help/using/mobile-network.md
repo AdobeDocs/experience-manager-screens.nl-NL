@@ -68,10 +68,10 @@ Als follow-up moet het benodigde gegevenspakket ten minste het volgende zijn:
 
 
 >[!IMPORTANT]
->Voor het aanvankelijk uploaden van mediabestanden terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht; dit wordt weerspiegeld in de bovenstaande veronderstellingen. Een 4G-netwerk met *goed* dekking en *onbeperkt* de gegevens zouden de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
+>Voor het aanvankelijk uploaden van mediabestanden terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht; dit wordt weerspiegeld in de bovenstaande veronderstellingen. Een netwerk 4G met *goede* dekking en *onbeperkt* gegevens zou de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
 
 >[!NOTE]
->Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens Player. Als er slechts eerlijke dekking beschikbaar bij een specifieke plaats is, denk na omschakeling van de algemene Opstelling van het Netwerk aan [Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk](/help/using/mobile-network-router.md).
+>Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens Player. Als er slechts eerlijke dekking beschikbaar bij een specifieke plaats is, denk na omschakeling van de algemene Opstelling van het Netwerk aan [ Mobiel Netwerk met de Mobiele Router van Gegevens en Actieve Componenten van het Netwerk ](/help/using/mobile-network-router.md).
 
 
 ### Netwerk voor lokale gebieden {#lan-connection}
@@ -80,7 +80,7 @@ De prestatieszorgen van het Netwerk van het Lokale Gebied (LAN), naast de netwer
 
 Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld, zouden de netwerkcomponenten minstens de norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de toegang van Internet of de specificatie van de Router wordt verstrekt. Anders, wordt de totale bandbreedte beperkt door de zwakste verbinding in de netwerkketen.
 
-## Media en middelen downloaden {#download}
+## Media en Assets downloaden {#download}
 
 AEM Screens biedt een aanzienlijk voordeel voor gebruikers van digitale berichten. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 

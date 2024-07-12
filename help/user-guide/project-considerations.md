@@ -48,7 +48,7 @@ I/O-drive voorwaardelijk afspelen van inhoud op basis van het waarnemen van de n
 
 ### Elementen van inhoud {#content-asset-types}
 
-Houd rekening met de volgende punten om u te helpen bij het begrijpen van de intentie van de eindclient met betrekking tot inhoudsmiddelen:
+Houd rekening met de volgende punten om u te helpen inzicht te krijgen in de bedoelingen van eindgebruikers met betrekking tot Content Assets:
 
 * Of de inhoud wordt hergebruikt voor drukwerk-, tv- of webcampagnes?
 * Of de inhoud bestaat uit statische afbeeldingen of sjablonen met dynamisch gevoede componenten?
@@ -61,7 +61,7 @@ Houd rekening met de volgende punten om u te helpen bij het begrijpen van de int
 
 ### Auditiesegmentatie, Dagonderdelen {#audience-segmentation-day-parts}
 
-Het opnemen van dag-Deel strategieën kan eindcliënten toestaan om hun inhoud te segmenteren. Het kan helpen richten overseinen aan het juiste publiek op het juiste ogenblik. Deze mogelijkheid is vooral effectief voor advertentie- of Retail-netwerken, waar veel content contributors uit een hele afspeellijst bestaan.
+Het opnemen van dag-Deel strategieën kan eindcliënten toestaan om hun inhoud te segmenteren. Het kan helpen richten overseinen aan het juiste publiek op het juiste ogenblik. Deze mogelijkheid is vooral effectief voor Advertising- of Retail-netwerken, waar veel content contributors de hele afspeellijst vormen.
 
 ### Vereisten voor bedrijfsactiviteiten {#business-operations-requirements}
 
@@ -83,10 +83,10 @@ Volg de onderstaande zelfstudie om meer te leren over de inhoudsstrategie, I/O-l
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Leer over de inhoudsstrategie, I/O lagen, activa types, en publiekssegmentatie. Lees meer over de onderdelen van de dag, de vereisten voor bedrijfsbewerkingen en de gereedheid van de site.*
+*leer over de inhoudsstrategie, I/O lagen, activa types, en publiekssegmentatie. Lees over dagdelen, bedrijfsverrichtingsvereisten, en de overwegingen van de plaatsbereidheid.*
 
 ## De volgende stap {#the-next-step}
 
 Begrijp de elementen die tijdens de projectontdekking worden geïdentificeerd, samen met de inbreng van belanghebbenden om het project te beoordelen en een passend ontwerp voor te bereiden. Leer de belangrijkste termijnen betrokken bij een algemeen projectplan. Dergelijke termen omvatten projectcyclus, acties rond het testen van hardware, Conceptproef, piloten, en rollouts.
 
-Navigeren naar **[Testen, concepttest, piloten en rollouts](testing-pocs-pilots-rollouts.md)** voor meer informatie .
+Navigeer aan **[het Testen, POCs, Piloten &amp; Rollouts](testing-pocs-pilots-rollouts.md)** voor meer details.

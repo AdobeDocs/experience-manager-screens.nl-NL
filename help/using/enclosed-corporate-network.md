@@ -34,10 +34,10 @@ Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen 
 1. Als de URL-aanroep is gelukt, kunt u de AEM Screens blijven installeren en registreren. Start AEM Screens.
 
    >[!NOTE]
-   >**Tip voor probleemoplossing**
+   >**het Oplossen van problemen Tip**
    >Als AEM Screens niet correct verbinding maakt en de verwachte inhoud niet wordt weergegeven:
    >
-   >1. Controle in uw firewall van de Router van Internet als er om het even welke beperkingen betreffende zijn `TCP/IP Port 80/443`.
+   >1. Controleer uw firewall van de Router van Internet als er om het even welke beperkingen betreffende `TCP/IP Port 80/443` zijn.
    >1. Zorg ervoor dat alle vereiste Havens worden toegestaan.
 
 ## Ingesloten bedrijfsnetwerken instellen {#requirements-enclosed-networks}
@@ -50,7 +50,7 @@ De ingebedde Collectieve Opstelling van het Netwerk kan logisch gezien in twee b
 ### Breed gebiedsnetwerk {#wan-connection}
 
 De prestaties van de verbinding van Internet, naast netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsupdates van AEM Screens regelmatig in werking te stellen.
-*Voldoende bandbreedte* is afhankelijk van het aantal verbonden AEM Screens. Het hangt ook van het gebruik van andere consumenten binnen het netwerk, zoals smartphones, tablets, cashiers, computers, of gastnetwerken van WiFi af.
+*Voldoende bandbreedte* hangt van het aantal verbonden AEM Screens af. Het hangt ook van het gebruik van andere consumenten binnen het netwerk, zoals smartphones, tablets, cashiers, computers, of gastnetwerken van WiFi af.
 
 >[!NOTE]
 >
@@ -69,10 +69,10 @@ Bijvoorbeeld, zouden de componenten van het Netwerk minstens de norm 100 Mbps mo
 De collectieve Netwerken hebben verscheidene aangesloten apparaten, zijn gescheiden in diverse subnetworks, en hebben overtollige of multiplexen verbindingen van Internet om voldoende prestaties voor vele duizenden gezamenlijke toegang te verstrekken.
 Dit schema is vereenvoudigd en past in de meeste gevallen bij de omgevingen die beschikbaar zijn voor de client.
 
-Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Internet Link, is het raadzaam om moderne Wi-Fi-standaarden te gebruiken, zoals `IEEE 802.11g` minimaal. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwer* Standaarden als `802.11h-n` van betere kwaliteit zijn. Als een Wi-Fi Repeater vereist is, raadt de Adobe aan om technologieën als Google Nest Mesh Wi-Fi of een vergelijkbaar toegangspunt voor Mesh te gebruiken.
+Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Internet Link, wordt u aangeraden ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals `IEEE 802.11g` . Deze standaard steunt verbindingen tot 54 Mbps. Om het even welk *nieuwere* Normen als `802.11h-n` zijn van betere kwaliteit. Als een Wi-Fi Repeater vereist is, raadt de Adobe aan om technologieën als Google Nest Mesh Wi-Fi of een vergelijkbaar toegangspunt voor Mesh te gebruiken.
 Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
 
-## Media en middelen downloaden {#download}
+## Media en Assets downloaden {#download}
 
 AEM Screens biedt een aanzienlijk voordeel voor gebruikers van digitale berichten. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 

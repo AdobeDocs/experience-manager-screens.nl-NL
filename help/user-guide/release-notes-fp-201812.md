@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor het AEM 6.3 Screens-platform.
 
 De AEM Screens heeft AEM 6.3 Feature Pack 5 en AEM 6.4 Feature Pack 3 uitgebracht, met de volgende gegevens.
 
@@ -31,20 +31,20 @@ De releasedatum voor AEM Screens Feature Pack 201812 is 16 januari 2019.
 
 ### Wat is er nieuw? {#what-s-new}
 
-* **Tekstbedekking op middelen in kanaal**:
+* **de Bedekking van de Tekst op Assets in Kanaal**:
 
-  De functie Tekstbedekking is beschikbaar in AEM Screens. Met deze functie kunt u een aantrekkelijke ervaring creëren in een volgreekkanaal door een titel of beschrijving boven op een afbeelding te plaatsen. Zie [**Tekstbedekking**](text-overlay.md).
+  De functie Tekstbedekking is beschikbaar in AEM Screens. Met deze functie kunt u een aantrekkelijke ervaring creëren in een volgreekkanaal door een titel of beschrijving boven op een afbeelding te plaatsen. Zie [**de Bedekking van de Tekst**](text-overlay.md).
 
-* **Meerdere bedrijfsmiddelen plannen**:
+* **multi-activa die** plannen:
 
-  Met planning voor meerdere elementen kan de gebruiker op meerdere elementen klikken en een afspeelschema toepassen op alle geselecteerde elementen. Zie **Meerdere bedrijfsmiddelen plannen** sectie in **[Asset Scheduling](asset-level-scheduling.md)**.
+  Met planning voor meerdere elementen kan de gebruiker op meerdere elementen klikken en een afspeelschema toepassen op alle geselecteerde elementen. Zie **Multi-Asset Plannend** sectie in **[ Activa plannend](asset-level-scheduling.md)**.
 
-* **Layout meerdere zones**:
+* **Lay-out van meerdere zones**:
 
-  Met Layout meerdere zones kunt u inhoud met meerdere zones maken en verschillende elementen gebruiken, zoals video&#39;s, afbeeldingen en tekst die in één scherm kunnen worden gecombineerd. Zie **[Layout meerdere zones](multi-zone-layout-aem-screens.md)**.
+  Met Layout meerdere zones kunt u inhoud met meerdere zones maken en verschillende elementen gebruiken, zoals video&#39;s, afbeeldingen en tekst die in één scherm kunnen worden gecombineerd. Zie **[Lay-out Van meerdere zones](multi-zone-layout-aem-screens.md)**.
 
-* **Slim synchroniseren van elementen naar spelers**
-* **Implementatie voor auteur/publicatie (verscherpen)**
+* **Slimme Synchronisatie van Assets aan Players**
+* **de plaatsing van de Auteur/van Publish (het Verharden)**
 
 ### Uitgebrachte AEM Screens-spelers
 
@@ -57,4 +57,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.3 Pak van de Eigen
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [**Downloads voor AEM Screens Player**](https://download.macromedia.com/screens/).
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [**Downloads van de Speler van AEM Screens** ](https://download.macromedia.com/screens/).

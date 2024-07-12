@@ -29,15 +29,15 @@ AEM Screens biedt verschillende AEM componenten die in een Screens-project kunne
 
 Wanneer u een project van AEM Screens creeert, ziet u een lijst van standaardcomponenten die aan het project kunnen worden toegevoegd.
 
-Volg onderstaande stappen om de standaardcomponenten voor uw project Schermen weer te geven:
+Voer de volgende stappen uit om de standaardcomponenten voor uw Screens-project weer te geven:
 
-1. Klik op het kanaal. Bijvoorbeeld: **`We.Retail In Store`** > **Kanalen** > **Niet-actief kanaal**.
+1. Klik op het kanaal. Bijvoorbeeld, **`We.Retail In Store`** > **Kanalen** > **Niet-actief Kanaal**.
 
-1. Klikken **Bewerken** in de actiebalk.
-1. Klik in de AEM Editor op de knop **+** van de zijbalk.
+1. Klik **uitgeven** van de actiebar.
+1. Klik in de AEM Editor op het pictogram **+** op de zijbalk.
 1. Alle componenten die door gebrek in een het projectvertoningen van AEM Screens inbegrepen zijn, zoals aangetoond in het hieronder cijfer.
 
-![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
+![ screen_shot_2017-12-18at21350pm ](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Een nieuwe component toevoegen {#adding-a-new-component}
 
@@ -45,14 +45,14 @@ AEM biedt diverse andere componenten. U kunt altijd andere componenten (die niet
 
 In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een AEM Screens-project getoond:
 
-1. Klik op het kanaal waaraan u een component wilt toevoegen. Bijvoorbeeld: **`We.Retail In Store`** > **Kanalen** > **Niet-actief kanaal**.
+1. Klik op het kanaal waaraan u een component wilt toevoegen. Bijvoorbeeld, **`We.Retail In Store`** > **Kanalen** > **Niet-actief Kanaal**.
 
-1. Klikken **Bewerken** in de actiebalk.
-1. Klikken **Ontwerp** -modus.
-1. Klik op de volledige ontwerpeditor aan de rechterkant en klik op het instellingensymbool, zodat u het dialoogvenster **Parsys-ontwerp** in.
-1. U kunt op de componenten klikken die u in uw AEM Screens-project wilt importeren. In het volgende voorbeeld wordt de toevoeging van de **Livefyre** aan een AEM Screens-project.
+1. Klik **uitgeven** van de actiebar.
+1. Klik **wijze van het Ontwerp 0} {.**
+1. Klik de volledige ontwerpredacteur op het recht en klik het montagessymbool zodat kunt u het **Parsys de dialoogvakje van het Ontwerp** openen.
+1. U kunt op de componenten klikken die u in uw AEM Screens-project wilt importeren. Het volgende voorbeeld toont de toevoeging van de **Livefyre** component aan een project van AEM Screens.
 
-![adding_components](assets/adding_components.gif)
+![ adding_components ](assets/adding_components.gif)
 
 >[!NOTE]
 >
@@ -68,18 +68,18 @@ In de volgende sectie worden de AEM Screens-componenten uitgelegd die u in uw pr
 
 ### Toepassing {#application}
 
-De **Toepassing** kunt u een toepassing aan uw kanaal toevoegen.
+De **component van de Toepassing** laat u een toepassing aan uw kanaal toevoegen.
 
 De toepassingscomponent heeft de volgende eigenschappen:
 
-| **Eigenschap** | **Beschrijving** |
+| **Bezit** | **Beschrijving** |
 |---|---|
-| ***Toepassingspad*** | Klik op het absolute pad waar de toepassing bestaat. |
+| ***Pad van de Toepassing*** | Klik op het absolute pad waar de toepassing bestaat. |
 | ***Duur (milliseconden)*** | Klik op de duur van de toepassing. Standaard is de duur ingesteld op -1, wat betekent dat het element voorgoed wordt uitgevoerd (dat wil zeggen, één paginatoepassing). Wanneer u de waarde voor de duur > 0 instelt, wordt het element voor de opgegeven duur weergegeven en gaat u vervolgens naar de volgende waarde. |
 
 In het volgende voorbeeld wordt getoond hoe u een toepassingscomponent insluit samen met de voorvertoning van de eigenschappen ervan:
 
-![adding_componentsApplication](assets/adding_componentsapplication.gif)
+![ adding_componentsapplication ](assets/adding_componentsapplication.gif)
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ In het volgende voorbeeld wordt getoond hoe u een toepassingscomponent insluit s
 
 ### Kanaal {#channel}
 
-De **Kanaal** kunt u een volledig kanaal aan uw project toevoegen.
+De **component van het Kanaal** laat u een volledig kanaal aan uw project toevoegen.
 
 De component Channel heeft de volgende eigenschappen:
 
@@ -110,7 +110,7 @@ De component Channel heeft de volgende eigenschappen:
 
 ### Ingesloten pagina {#embedded-page}
 
-An **Ingesloten pagina** Hiermee kunt u een ingesloten pagina toevoegen aan uw project. Het kan bijvoorbeeld een webtoepassing of een productcatalogus zijn.
+Een **Ingebedde Pagina** laat u een ingebedde pagina aan uw project toevoegen. Het kan bijvoorbeeld een webtoepassing of een productcatalogus zijn.
 
 De ingesloten pagina heeft de volgende eigenschappen:
 
@@ -135,7 +135,7 @@ De ingesloten pagina heeft de volgende eigenschappen:
 
 >[!NOTE]
 >
->Zie voor meer informatie over ingesloten reeksen [Ingesloten reeksen](embedded-sequences.md) onder de sectie Ontwerpschermen.
+>Om in detail over ingebedde opeenvolgingen te leren, zie [ Ingesloten Reeksen ](embedded-sequences.md) onder de Authoring sectie van Screens.
 
 Met een ingesloten reeks kunt u een ingesloten volgnummer toevoegen aan het bestaande kanaal (met andere elementen).
 
@@ -149,7 +149,7 @@ De ingesloten reeks heeft de volgende pagina-eigenschappen:
   </tr>
   <tr>
    <td>Kanaalpad</td>
-   <td>Selecteer het absolute pad van de reeks die u in het kanaal wilt opnemen.<br /> </td>
+   <td>Selecteer de absolute weg van de opeenvolging die u in uw kanaal wilt omvatten.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Duur (milliseconden)</em></strong></td>
@@ -157,7 +157,7 @@ De ingesloten reeks heeft de volgende pagina-eigenschappen:
   </tr>
   <tr>
    <td><strong><em>Strategie</em></strong></td>
-   <td>Instellen op <strong>origineel</strong> of <strong>enkel</strong>. De waarde instellen op de <strong>origineel</strong> betekent dat de volgende reeks volledig op elke cyclus van de bovenliggende reeks wordt uitgevoerd. De andere mogelijke waarde is <strong>enkel</strong>. Bij een dergelijke waarde wordt slechts één item van de volgende reeks op elke reeks weergegeven. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.</td>
+   <td>Plaats het aan <strong> origineel </strong> of <strong> enig </strong>. Het plaatsen van de waarde aan <strong> origineel </strong> betekent dat de verdere looppas volledig op elke cyclus van de ouderopeenvolging. De andere mogelijke waarde is <strong> enig </strong>. Bij een dergelijke waarde wordt slechts één item van de volgende reeks op elke reeks weergegeven. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.</td>
   </tr>
  </tbody>
 </table>
@@ -166,7 +166,7 @@ De ingesloten reeks heeft de volgende pagina-eigenschappen:
 
 Met een dynamische ingesloten reeks kunt u een reeks toevoegen die vergelijkbaar is met de bovenstaande reeks, behalve met de rol van het kanaal.
 
-Zie voor meer informatie over ingesloten reeksen [Ingesloten reeksen](embedded-sequences.md) onder de sectie Ontwerpschermen.
+Meer over ingebedde opeenvolgingen leren, zie [ Ingesloten Reeksen ](embedded-sequences.md) onder de Authoring sectie van Screens.
 
 De dynamische ingesloten reeks heeft de volgende eigenschappen:
 
@@ -177,8 +177,8 @@ De dynamische ingesloten reeks heeft de volgende eigenschappen:
    <td><strong>Beschrijving</strong></td>
   </tr>
   <tr>
-   <td><strong><em>Kanaaltoewijzingsrol</em></strong><br /> </td>
-   <td>Voer de kanaalrol in.<br /> </td>
+   <td><strong><em> Rol van de Toewijzing van het Kanaal </em></strong><br /> </td>
+   <td>Ga de kanaalrol in.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Duur (milliseconden)</em></strong></td>
@@ -186,7 +186,7 @@ De dynamische ingesloten reeks heeft de volgende eigenschappen:
   </tr>
   <tr>
    <td><strong><em>Strategie</em></strong></td>
-   <td>Instellen op <strong>origineel</strong> of <strong>enkel</strong>. De waarde instellen op de <strong>origineel</strong> betekent dat de volgende reeks volledig op elke cyclus van de bovenliggende reeks wordt uitgevoerd. De andere mogelijke waarde is <strong>enkel</strong>. Een dergelijke waarde zou slechts één item van de volgende waarde op elke run weergeven. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.</td>
+   <td>Plaats het aan <strong> origineel </strong> of <strong> enig </strong>. Het plaatsen van de waarde aan <strong> origineel </strong> betekent dat de verdere looppas volledig op elke cyclus van de ouderopeenvolging. De andere mogelijke waarde is <strong> enig </strong>. Een dergelijke waarde zou slechts één item van de volgende waarde op elke run weergeven. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.</td>
   </tr>
  </tbody>
 </table>
@@ -195,61 +195,61 @@ De dynamische ingesloten reeks heeft de volgende eigenschappen:
 
 Met een ervaringsfragment kunt u een Experience-fragment (een groep van een of meer componenten, waaronder inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM Screens-kanaal. Sleep de component naar AEM Editor en klik op Fragment van ervaring.
 
-Ga voor meer informatie over het maken van een Experience Fragment en het toepassen op een AEM Screens-project naar [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md).
+Meer over leren hoe te om een Fragment van de Ervaring tot stand te brengen en het op een project van AEM Screens toe te passen, zie [ Gebruikend de Fragmenten van de Ervaring ](experience-fragments-in-screens.md).
 
-![exp](assets/exp.gif)
+![ exp ](assets/exp.gif)
 
-| **Eigenschap** | **Beschrijving** |
+| **Bezit** | **Beschrijving** |
 |---|---|
-| **Ervaar fragment** |
-| ***Ervaar fragment*** | Selecteer het fragment van de Ervaring. |
+| **Fragment van de Ervaring** |
+| ***Fragment van de Ervaring*** | Selecteer het fragment van de Ervaring. |
 | ***Duur*** | Selecteer de volledige duur van het ervaringsfragment dat in het kanaal wordt afgespeeld. |
-| **Offline configuratie** |
-| ***Client-side bibliotheken*** | JavaScript- en CSS-bestanden. |
-| ***Statische bestanden*** | Statische bestanden die u als offlineconfiguraties kunt toevoegen aan het ervaringsfragment. |
+| **Offline Config** |
+| ***Cliënt-zijBibliotheken*** | JavaScript- en CSS-bestanden. |
+| ***Statische Dossiers*** | Statische bestanden die u als offlineconfiguraties kunt toevoegen aan het ervaringsfragment. |
 
 >[!NOTE]
 >
->De **Client-side bibliotheken** en de **Statische bestanden** dat u toevoegt van deze component is naast reeds gevormd **Client-side bibliotheken** en de statische bestanden die worden toegevoegd uit de Experience Fragment **Eigenschappen**.
+>De **cliënt-zijBibliotheken** en **Statische Dossiers** die u van deze component toevoegt zijn naast reeds gevormde **cliënt-zijBibliotheken** en de Statische Dossiers die van de 6} Eigenschappen van het Fragment van de Ervaring **worden toegevoegd.**
 
 ### Afbeelding {#image}
 
 Met een afbeelding kunt u een afbeelding aan het kanaal toevoegen.
 
-Het afbeeldingselement heeft drie tabbladen, namelijk **Afbeelding**, **Toegankelijkheid**, en **Reeks**:
+De beeldactiva heeft drie lusjes namelijk **Beeld**, **Toegankelijkheid**, en **Opeenvolging**:
 
-| **Eigenschap** | **Beschrijving** |
+| **Bezit** | **Beschrijving** |
 |---|---|
-| **Afbeelding** |
-| ***Afbeeldingselement*** | Klik op het afbeeldingselement. |
+| **Beeld** |
+| ***Activa van het Beeld*** | Klik op het afbeeldingselement. |
 | ***Titel*** | Titel van de afbeelding. |
-| ***Koppelen naar*** | Voeg een koppeling toe aan de afbeelding. |
+| ***Verbinding aan*** | Voeg een koppeling toe aan de afbeelding. |
 | ***Beschrijving*** | Korte beschrijving voor de afbeelding. |
 | ***Grootte*** | Grootte van de afbeelding. |
 | **Toegankelijkheid** |
-| ***Alternatieve tekst*** | Alternatieve tekst voor de afbeelding. |
-| **Reeks** |
-| ***Duur*** | Standaard is de duur ingesteld op *8000 milliseconden*. Als u de afspeelduur van de afbeelding wilt wijzigen, werkt u de **Duur** veld. |
+| ***Alternatieve Tekst*** | Alternatieve tekst voor de afbeelding. |
+| **Opeenvolging** |
+| ***Duur*** | Door gebrek wordt de duur geplaatst aan *8000 milliseconden*. Als u de playbackduur van het beeld wilt veranderen, werk het **gebied van de Duur** bij. |
 
 ### Overgang {#transition}
 
-Met de component Overgang kunt u een overgang toevoegen aan uw schermproject.
+Met de component Overgang kunt u een overgang toevoegen aan uw Screens-project.
 
 In de volgende afbeelding ziet u de overgangscomponent (die wordt toegevoegd door slepen en neerzetten) in de editor.
 
-![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
+![ screen_shot_2019-07-25at104237am ](assets/screen_shot_2019-07-25at104237am.png)
 
-Klik op het overgangspictogram en klik op de knop **Configureren** (moersleutelpictogram) om het dialoogvenster **Overgang** in. Dit dialoogvenster bevat drie tabbladen:
+Klik het overgangspictogram en klik **vormen** (moersleutelpictogram) om het **de dialoogvakje van de Overgang** te openen. Dit dialoogvenster bevat drie tabbladen:
 
 * **Overgang**
-* **Reeks**
+* **Opeenvolging**
 * **Activering**
 
 >[!NOTE]
 >
->Standaard wordt de reeks ingesteld op 600 milliseconden. U kunt de overgangsreeks bijwerken naar andere waarden met de opdracht **Reeks** tab.
+>Standaard wordt de reeks ingesteld op 600 milliseconden. U kunt de overgangsopeenvolging aan andere waarden bijwerken gebruikend de **Opeenvolging** tabel.
 
-![overgang](assets/transition.gif)
+![ overgang ](assets/transition.gif)
 
 De overgangscomponent heeft de volgende eigenschappen:
 
@@ -265,7 +265,7 @@ De overgangscomponent heeft de volgende eigenschappen:
   </tr>
   <tr>
    <td><strong><em>Type</em></strong></td>
-   <td><p>Het type overgang tussen het element voor en na. De overgang <strong>Type</strong> bevat de volgende opties:</p>
+   <td><p>Het type overgang tussen het element voor en na. Het overgangstype <strong> Type </strong> omvat de volgende opties:</p>
     <ul>
      <li><strong>Normaal</strong></li>
      <li><strong>Vervagen</strong></li>
@@ -304,7 +304,7 @@ De overgangscomponent heeft de volgende eigenschappen:
 
 ### Video {#video}
 
-Met de component Video kunt u een video toevoegen aan uw schermproject.
+Met de component Video kunt u een video toevoegen aan uw Screens-project.
 
 De videocomponent heeft de volgende eigenschappen:
 
@@ -324,7 +324,7 @@ De videocomponent heeft de volgende eigenschappen:
   </tr>
   <tr>
    <td><em><strong>Renderen</strong></em></td>
-   <td><p>Als de hoogte-breedteverhouding van de video niet op het scherm past, kunt u de rendering instellen op <strong>bevatten</strong> of <strong>bedekken</strong>.</p> <p><em>Bevat</em> betekent dat de volledige video wordt weergegeven en de ontbrekende gebieden worden opgevuld met een zwarte rand.</p> <p><em>Omslag</em> Dit betekent dat de video de hele viewport bedekt, maar dat sommige onderdelen die aan de zijkanten overlopen, verborgen zijn.</p> </td>
+   <td><p>Als de videoaspectverhouding niet het scherm past, kunt u het teruggeven aanpassen aan of <strong> </strong> of <strong> behandelen </strong> bevatten.</p> <p><em> Bevat </em> betekent dat de volledige video wordt getoond en de ontbrekende gebieden met een zwarte grens worden opgevuld.</p> <p><em> Omslag </em> betekent dat de video volledige viewport behandelt, maar sommige delen die aan de kanten overstromen zijn verborgen.</p> </td>
   </tr>
   <tr>
    <td><em><strong>Grootte</strong></em></td>

@@ -14,26 +14,26 @@ ht-degree: 0%
 
 # Verklarende woordenlijst {#glossary}
 
-**Toepassingskanaal** - Een toepassingskanaal toont een toepassing die is gemaakt door een ontwikkelaar die interactieve inhoud weergeeft.
+**Kanaal van de Toepassing** - een Kanaal van de Toepassing toont een toepassing die door een ontwikkelaar wordt gecreeerd die interactieve inhoud toont.
 
-**Lus aftrekken** - Een aanroeplus wordt gedefinieerd als de *thuis* of *inactief* status wanneer de weergave twee of meer frames heeft waarin deze kan bestaan. De rol van het comité is: *aantrekken* klanten naar het scherm gaan en hen aanmoedigen om zich aan te sluiten, gewoonlijk door het scherm te raken maar ook door met een product in wisselwerking te staan.
+**Trek Lijn** aan - een trekkerlijn wordt bepaald als *huis* of *nutteloze* staat wanneer de vertoning twee of meer staten heeft die het binnen kan bestaan. Zijn rol is ** klanten over aan de vertoning aan te trekken en hen aan te moedigen om in dienst te nemen, gewoonlijk door het scherm aan te raken maar zou ook kunnen zijn door met een product in wisselwerking te staan.
 
-**DayParting** - DayParting verwijst naar het opsplitsen van een dag in tijdsleuven en het opgeven van welke inhoud op het gewenste tijdstip wordt afgespeeld. Met AEM Screens kunt u kanalen plannen in termen van DayParting binnen een dag, week of maand volgens de vereiste.
+**DayParting** - DayParting verwijst naar het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. Met AEM Screens kunt u kanalen plannen in termen van DayParting binnen een dag, week of maand volgens de vereiste.
 
-**Apparaat** - Een apparaat kan de afspeelsoftware uitvoeren om een visuele uitvoer te produceren. Het kan het weergeven van bijgesneden, geschaalde, vertaalde delen van algemene inhoud of ervaring besturen. De schermconfiguratie is gebonden aan een beeldscherm, maar kan worden vervangen in het geval een technisch defect optreedt.
+**Apparaat** - een apparaat kan de spelersoftware in werking stellen om een visuele output te veroorzaken. Het kan het weergeven van bijgesneden, geschaalde, vertaalde delen van algemene inhoud of ervaring besturen. De schermconfiguratie is gebonden aan een beeldscherm, maar kan worden vervangen in het geval een technisch defect optreedt.
 
-**Weergave** - Een weergave is een virtuele groep schermen die naast elkaar zijn geplaatst. Het beeldscherm is permanent voor een installatie. Met dit object werken inhoudsauteurs en verwijzen ze altijd naar een logische weergave in plaats van naar hun fysieke tegenonderdelen.
+**Vertoning** - een vertoning is een virtuele groep schermen die naast elkaar worden geplaatst. Het beeldscherm is permanent voor een installatie. Met dit object werken inhoudsauteurs en verwijzen ze altijd naar een logische weergave in plaats van naar hun fysieke tegenonderdelen.
 
-**Firmware** - Firmware is de term die wordt gegeven aan de software die wordt uitgevoerd op het apparaat in de spelertoepassing in een webweergave. Het is een JavaScript-laag die de inhoud in een kanaal binnen iFrames uitvoert en via plug-ins toegang tot native mogelijkheden biedt. De firmware kan worden bijgewerkt zonder de spelertoepassing bij te werken.
+**Ingebouwde programmatuur** - Ingebouwde programmatuur is de termijn die aan de software wordt gegeven die op het apparaat binnen de spelertoepassing in een Webmening loopt. Het is een JavaScript-laag waarop de inhoud in een kanaal binnen iFrames wordt uitgevoerd en die via plug-ins toegang biedt tot native mogelijkheden. De firmware kan worden bijgewerkt zonder de spelertoepassing bij te werken.
 
-**Live kopie** - Een live kopie is een kopie van specifieke site-inhoud waarvoor een live relatie met de oorspronkelijke bron behouden blijft. Dankzij deze live relatie kan de Live kopie inhoud en pagina-eigenschappen overnemen van de bron.
+**Levende Exemplaar** - een Levende Exemplaar is een exemplaar van specifieke plaatsinhoud waarvoor een levende verhouding met de originele bron wordt gehandhaafd. Dankzij deze live relatie kan de Live kopie inhoud en pagina-eigenschappen overnemen van de bron.
 
-**Locatie/locatiemap** - Locaties of locaties in de locatiemap bieden de host voor de configuratie van de weergaven op basis van de locatie van de verschillende schermen.
+**Plaats/de Omslag van de Plaats** - Plaatsen of plaatsen binnen de plaatsomslag ontvangen de configuratie van de vertoningen volgens waar de diverse schermen zijn.
 
-**Player-software** - De speler is de softwaretoepassing die op een apparaat loopt dat u een kanaal op een vertoning laat tonen.
+**Software van de Speler** - de speler is de softwaretoepassing die op een apparaat loopt dat u een kanaal op een vertoning laat tonen.
 
-**Scherm** - Een scherm is een fysieke monitor of een ander systeem dat visuele output kan produceren die de inhoud toont die van zijn apparaat komt.
+**het Scherm** - het scherm van A is een fysieke monitor of een ander systeem geschikt om visuele output te veroorzaken die de inhoud toont die uit zijn apparaat komt.
 
-**Volgekanaal** - Een volgnummer is een pagina die u kunt ontwerpen en die componenten bevat die een voor een in een presentatie worden weergegeven.
+**Kanaal van de Opeenvolging** - een Kanaal van de Opeenvolging is een pagina die u auteur kunt bevatten componenten die één voor één in een diapresentatie tonen.
 
-**Zones** - Zones zijn segmentatie van displays die worden gebruikt als primaire adresseerbare entiteiten voor kanalen. In gevallen waarin beeldschermen meerdere schermen beslaan, is het nuttig de zones te definiëren die overeenkomen met de schermafmetingen, vooral als de schermen een opvallende fysieke rand hebben.
+**Gebieden** - De Gebieden zijn segmentatie van vertoningen die als primaire adresseerbare entiteiten voor kanalen worden gebruikt. In gevallen waarin beeldschermen meerdere schermen beslaan, is het nuttig de zones te definiëren die overeenkomen met de schermafmetingen, vooral als de schermen een opvallende fysieke rand hebben.

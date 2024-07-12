@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor het Screens-platform AEM 6.3.
 
 AEM Screens heeft AEM 6.4.6 Feature Pack 6 en AEM 6.5.2 Feature Pack 2 uitgebracht, met de volgende details.
 
@@ -26,26 +26,26 @@ De releasedatum voor AEM Screens Feature Pack 2019 is 7 oktober 2019.
 
 ### Wat is er nieuw? {#what-s-new}
 
-* **Verbeterde UI-updates voor het maken van schermproject**
+* **Verbeterde updates UI om het Project van Screens te creëren**
 
-  Er is nu een bijgewerkte gebruikersinterface beschikbaar voor het maken van een AEM Screens-project. U kunt een project van Schermen met een paar eenvoudige kliks tot stand brengen. Bovendien heeft het tabblad Eigenschappen voor elk project nu een intuïtievere gebruikersinterface.
+  Er is nu een bijgewerkte gebruikersinterface beschikbaar voor het maken van een AEM Screens-project. U kunt een Screens-project maken met een paar eenvoudige klikken. Bovendien heeft het tabblad Eigenschappen voor elk project nu een intuïtievere gebruikersinterface.
 
-  Zie [Een nieuw schermproject maken](creating-a-screens-project.md) voor meer informatie .
+  Zie [ Creërend een Nieuw project van Screens ](creating-a-screens-project.md) voor meer details.
 
-* **Verbeterd apparaatdashboard**
+* **Verbeterd dashboard van het Apparaat**
 
   Het dashboard van het apparaat toont de apparateninformatie, de status, de screenshots, logboeken, voorkeur, en de apparatendetails die u de apparatenactiviteiten en de functies laten controleren. De deelvensters worden nu bijgewerkt.
 
-  Zie [Problemen oplossen in Device Control Center](monitoring-screens.md) voor meer informatie .
+  Zie [ Centrum van de Controle van het Apparaat van het Oplossen van problemen ](monitoring-screens.md) voor meer details.
 
-* **Ingeschakelde time-out om toetsenbordinteractie toe te staan**
+* **Toegelaten tijd uit om toetsenbordinteractie toe te staan**
 
   Schakel afstandsbedieningen in als alternatief voor aanraakschermen. De aanraking om op elkaar in te werken en de activiteit timeout behandelt toetsenbordinput.
 
-* **Offlineconfiguraties in Experience Fragments**
+* **Offline Configuraties in de Fragmenten van de Ervaring**
 
-  U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen tijdens het configureren van schermafbeeldingsfragment.
-Zie [Beleidsfragmenten gebruiken](experience-fragments-in-screens.md) voor meer informatie .
+  U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen terwijl u Screens Experience Fragment configureert.
+Zie [ Gebruikend de Fragmenten van de Ervaring ](experience-fragments-in-screens.md) voor meer details.
 
 ### Uitgebrachte AEM Screens-spelers
 
@@ -57,4 +57,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.4.6 Pak van de Eig
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [**Downloads voor AEM Screens Player**](https://download.macromedia.com/screens/).
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [**Downloads van de Speler van AEM Screens** ](https://download.macromedia.com/screens/).

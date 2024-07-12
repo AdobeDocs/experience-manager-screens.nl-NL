@@ -16,9 +16,9 @@ Het directe netwerk van Internet bevat een toegangspunt van de ingang voor de to
 De standaardpoorten voor AEM Screens-communicatie zijn:
 
 * `ssl-secured https (TCP Port 443)`
-  <br>Of,</br>
+  <br> of, </br>
 
-* `http (TCP Port 80)`, als uw specifieke gebruikscase dat niveau van veiligheid niet vereist.
+* `http (TCP Port 80)` , als uw bepaalde gebruikscase dat niveau van veiligheid niet vereist.
 
 De havens kunnen als gevolg van de configuratie van uw specifieke AEM configuratieopstelling variëren. Binnen deze SetUp, worden alle apparaten direct verbonden met uw router van Internet zoals aangetoond in het hieronder cijfer.
 
@@ -43,10 +43,10 @@ Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen 
 1. Als de URL-aanroep is gelukt, kunt u de AEM Screens blijven installeren en registreren. Start AEM Screens.
 
    >[!NOTE]
-   >**Tip voor probleemoplossing**
+   >**het Oplossen van problemen Tip**
    >Als AEM Screens niet correct verbinding maakt en de verwachte inhoud niet wordt weergegeven:
    >
-   >1. Controle in uw de routerfirewall van Internet als er om het even welke beperkingen betreffende zijn `TCP/IP Port 80/443`.
+   >1. Controleer de firewall van uw internetrouter als er beperkingen zijn met betrekking tot `TCP/IP Port 80/443` .
    >1. Zorg ervoor dat alle vereiste Havens worden toegestaan.
 
 ## Direct internetnetwerk instellen {#requirements-direct}
@@ -61,7 +61,7 @@ Het directe netwerk van Internet wordt logisch gezien gescheiden in twee blokken
 
 De prestaties van de verbinding van Internet, naast bereikbaarheid van het netwerk, moeten voldoende bandbreedte verstrekken om AEM Screens in werking te stellen.
 
-*Voldoende* is afhankelijk van het aantal verbonden AEM Screens. Het hangt ook van het gebruik van andere consumenten binnen het netwerk, zoals smartphones, tablets, cashiers, computers, of gastnetwerken van WiFi af.
+*Voldoende* hangt van het aantal verbonden AEM Screens af. Het hangt ook van het gebruik van andere consumenten binnen het netwerk, zoals smartphones, tablets, cashiers, computers, of gastnetwerken van WiFi af.
 
 >[!NOTE]
 >
@@ -72,13 +72,13 @@ De prestaties van de verbinding van Internet, naast bereikbaarheid van het netwe
 De prestaties van het Netwerk van het Lokale Gebied (LAN), naast de bereikbaarheid van het netwerk, moeten voldoende bandbreedte verstrekken om AEM Screens in werking te stellen.
 
 Het LAN netwerk past gewoonlijk minstens een netwerk 100-Mbps aan, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem te verbinden.
-Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Internet Link, is het raadzaam om moderne Wi-Fi-standaarden te gebruiken, zoals `IEEE 802.11g` minimaal. Deze standaard steunt verbindingen tot 54 Mbps. Alle *nieuwer* Standaarden als `802.11h-n` van betere kwaliteit zijn.
+Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Internet Link, wordt u aangeraden ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals `IEEE 802.11g` . Deze standaard steunt verbindingen tot 54 Mbps. Om het even welk *nieuwere* Normen als `802.11h-n` zijn van betere kwaliteit.
 
 >[!NOTE]
 >
 >Als een Wi-Fi Repeater vereist is, raadt de Adobe een Wi-Fi-toegangspunt van het Netwerk aan, zoals Google Nest Mesh Wi-Fi of een vergelijkbaar toegangspunt. Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
 
-## Media en middelen downloaden {#download}
+## Media en Assets downloaden {#download}
 
 AEM Screens biedt een aanzienlijk voordeel voor gebruikers van digitale berichten. Het downloadt en bewaart plaatselijk alle noodzakelijke media dossiers, zoals beelden en video&#39;s. Het belangrijkste netwerkverkeer komt voor wanneer er nieuwe inhoud is die op een specifieke vertoning moet worden getoond.
 

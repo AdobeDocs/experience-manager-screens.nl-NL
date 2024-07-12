@@ -15,13 +15,13 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor het AEM 6.3 Screens-platform.
 
 ## Beschikbaarheid {#availability}
 
 AEM Screens heeft AEM 6.5 Feature Pack uitgebracht 6.
 
-U kunt de nieuwste versie van het Feature Pack voor AEM Screens 6.5.6 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Ga naar de **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste elementenpakket met de titel **AEM 6.5 Schermen FP6**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.6 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP6**.
 
 ## Releasedatum {#release-date}
 
@@ -29,23 +29,23 @@ De Releasedatum voor AEM Screens Feature Pack 202011 is 30 november 2020.
 
 ### Wat is er nieuw? {#what-is-new}
 
-* **Rapport Inhoudstoewijzing**
+* **Rapport van de Toewijzing van de Inhoud**
 
-  Met de functie Rapport voor toewijzing van inhoud kan een AEM Screens-beheerder of auteur een *Rapport Inhoudstoewijzing* in spreadsheetformaat.
-Zie [Rapport Inhoudstoewijzing](/help/user-guide/content-assignment-report.md) voor meer informatie .
+  De eigenschap van het Rapport van de Toewijzing van de Inhoud staat een beheerder van AEM Screens of een auteur toe om het Rapport van de Toewijzing van de a *Inhoud* in een spreadsheetformaat uit te voeren.
+Zie [ Rapport van de Toewijzing van de Inhoud ](/help/user-guide/content-assignment-report.md) voor meer details.
 
 
-* **Tizen Player**
+* **Speler Tizen**
 
   Er is een nieuwe speler, Tizen Player genaamd, geïntroduceerd met de nieuwste Feature Pack voor de AEM Screens 6.5.6 Release.
-Zie [Tizen Player implementeren](/help/user-guide/tizen-player.md) voor meer informatie .
+Zie ](/help/user-guide/tizen-player.md) Uitvoerend de Speler van de Ventizeren [ voor meer details.
 
-* **Functies zoeken vanuit Apparaatbeheer**
+* **Functionaliteit van het Onderzoek van de Manager van het Apparaat**
 
   Er is nu een nieuwe zoekfunctionaliteit beschikbaar via de interface van Apparaatbeheer met het nieuwste Feature Pack voor de AEM Screens 6.5.6-versie.
-Zie [Een apparaat zoeken vanuit Apparaatbeheer](/help/user-guide/device-registration.md#search-device) voor meer informatie .
+Zie [ zoekend een Apparaat van de Manager van het Apparaat ](/help/user-guide/device-registration.md#search-device) voor meer details.
 
-* **Standaardpinginterval**
+* **Standaard pingelen Interval**
 
   Het gebrek pingelt interval is nu geplaatst aan 30 seconden in deze versie.
 
@@ -53,7 +53,7 @@ Zie [Een apparaat zoeken vanuit Apparaatbeheer](/help/user-guide/device-registra
 
 De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigenschap 6:
 
-* Chrome-besturingssysteem
+* CHROME OS
 * Windows
 * Android™
 * Tizen
@@ -61,4 +61,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigen
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/index.html)**.

@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor het AEM 6.3 Screens-platform.
 
 ## Beschikbaarheid {#availability}
 
 AEM Screens heeft AEM 6.5 Feature Pack 3 uitgebracht.
 
-U kunt de nieuwste versie van het Feature Pack voor AEM Screens 6.5.3 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Ga naar de **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste elementenpakket met de titel **AEM 6.5 Schermen FP3**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.3 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP3**.
 
 ## Releasedatum {#release-date}
 
@@ -30,21 +30,21 @@ De releasedatum voor AEM Screens Feature Pack 202001 is 31 januari 2020.
 
 ### Wat is er nieuw? {#what-s-new}
 
-* **Command Sync voor afspelen van element**
+* **Synchronisatie van het Bevel voor de Playback van Activa**
 
 Met Command Sync kunt u het afspelen tussen verschillende spelers synchroniseren. De spelers kunnen verschillende inhoud afspelen, maar elk element moet dezelfde duur hebben.
-Meer informatie over de Synchronisatie van het Bevel en hoe te om primaire en cliënten te plaatsen, zie [Opdrachtsynchronisatie gebruiken](using-command-sync.md).
+Meer over de Synchronisatie van het Bevel leren en hoe te om primaire en cliënten te plaatsen, zie [ Gebruikend de Synchronisatie van het Bevel ](using-command-sync.md).
 
-* **Health Check Framework om de status van https weer te geven en een lege referentie toe te staan**
+* **Kader van de Controle van de Gezondheid om het statuut van https te tonen en lege verwijzer toe te staan**
 
 Met het Health Check Framework kan de gebruiker controleren of twee benodigde configuraties (Allow Empty Referrer Requests en Apache Felix Jetty Based HTTP Service) zijn ingesteld voordat een AEM Screens-project wordt uitgevoerd.
 
-Ga voor meer informatie over het Health Check Framework naar [Health Check Framework](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+Meer over het Kader van de Controle van de Gezondheid leren, zie [ Kader van de Controle van de Gezondheid ](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Updates voor standaardovergangstypen**
-De eigenschappen van de overgangscomponent, zoals **Type** is nu ingesteld op **Vervagen** en de **Duur** als **1600 milliseconden**, standaard.
+* **Updates aan de Types van Overgang Standaard**
+De eigenschappen van de overgangscomponent zoals **Type** wordt nu geplaatst aan **langzaam verdwijnen** en de **Duur** als **1600 milliseconden**, door gebrek.
 
-  Zie [Overgangen toepassen](/help/user-guide/applying-transitions.md) Gebruik hoofdletters/kleine letters voor meer informatie.
+  Zie [ Toepassend Overgangen ](/help/user-guide/applying-transitions.md) gebruiksgeval voor meer details.
 
 
 ### Uitgebrachte AEM Screens-spelers
@@ -57,4 +57,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.4 Pak van de Eigen
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u [**Downloads voor AEM Screens Player**](https://download.macromedia.com/screens/).
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [**Downloads van de Speler van AEM Screens** ](https://download.macromedia.com/screens/).

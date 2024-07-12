@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Een typisch belanghebbende voor deze activiteit is een AEM Implementor.
 
-**Dynamic Creative Optimization**, of DCO, wordt gebruikt om digitale signaalervaringen tot stand te brengen die de unieke omstandigheden van om het even welke bepaalde plaats op om het even welk bepaald tijdstip en voor om het even welke bepaalde gebruiker weerspiegelen.
+**Dynamic Creative Optimization**, of DCO, wordt gebruikt om digitale signaalervaringen tot stand te brengen die op de unieke omstandigheden van om het even welke bepaalde plaats op om het even welke bepaalde tijd en voor om het even welke bepaalde gebruiker wijzen.
 
 Dit gebruik wordt ook wel &#39;Afvlakken aan clientzijde&#39; van inhoud genoemd.
 
@@ -36,5 +36,5 @@ Het hebben van een visuele handelsstrategie die DCO omvat kan netwerkkijkers dra
 
 Er zijn twee hoofdtypen gegevenstriggers:
 
-* **Triggers voor lokale gegevens**: Deze gegevenstriggers zijn lokaal op het apparaat. Als u bijvoorbeeld op het scherm tikt, wordt een sensor geactiveerd die een lokaal gegevenselement of een kanaalschakelaar activeert.
-* **Triggers voor externe gegevens**: Dit omvatte gegeven getriggerde kanaalschakelaar of een activaschakelaar die op waarden wordt gebaseerd die door de Dienst API van het Web zijn teruggekeerd.
+* **Lokale Triggers van Gegevens**: Deze gegevenstrekkers zijn lokaal op het apparaat. Als u bijvoorbeeld op het scherm tikt, wordt een sensor geactiveerd die een lokaal gegevenselement of een kanaalschakelaar activeert.
+* **Verre Triggers van Gegevens**: Dit betrokken gegeven activeerde kanaalschakelaar of een activaschakelaar die op waarden wordt gebaseerd door de Dienst API van het Web zijn teruggekeerd.

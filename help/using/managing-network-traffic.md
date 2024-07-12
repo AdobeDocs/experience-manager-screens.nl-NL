@@ -16,8 +16,8 @@ Een Opstelling van het Netwerk kan diverse structuren hebben. In deze sectie wor
 Deze gids benadrukt een inleiding aan volmachtsservers die door de gevarieerde netwerkstructuren worden gevolgd die opstelling binnen verschillende organisaties zijn.
 
 >[!NOTE]
->**AEM Screens-netwerkvereisten**
->AEM Screens communiceert rechtstreeks met de as a Cloud Service AEM en moet daarom een stabiele verbinding tussen de twee knooppunten tot stand brengen. De firewalls zijn verplicht voor commerciële toegang tot Internet. Als klant, begrijp welke communicatie havens in deze firewalls en andere op IT-Veiligheid betrekking hebbende netwerkcomponenten moeten worden geopend.
+>**Vereisten van het Netwerk van AEM Screens**
+>AEM Screens communiceert rechtstreeks met de AEM as a Cloud Service en moet daarom een stabiele verbinding tot stand brengen tussen de twee knooppunten. De firewalls zijn verplicht voor commerciële toegang tot Internet. Als klant, begrijp welke communicatie havens in deze firewalls en andere op IT-Veiligheid betrekking hebbende netwerkcomponenten moeten worden geopend.
 
 ## Overzicht van proxyservers {#proxy-servers}
 
@@ -33,16 +33,16 @@ Om een Opstelling van het Netwerk uit te voeren, zie de volgende scenario&#39;s 
 
 Deze gids benadrukt vier verschillende soorten de Montages van het Netwerk binnen een Organisatie:
 
-* **[Direct Internet Network (bekabeld/draadloos)](/help/using/direct-internet-network.md)**
-* **[Direct mobiel netwerk](/help/using/mobile-network.md)**
-* **[Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk](/help/using/mobile-network-router.md)**
-* **[Enclosed Corporate Network (bekabeld/draadloos)](/help/using/enclosed-corporate-network.md)**
+* **[Direct Netwerk van Internet (Getelegrafeerd/Draadloos)](/help/using/direct-internet-network.md)**
+* **[Direct Mobiel Netwerk](/help/using/mobile-network.md)**
+* **[Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk](/help/using/mobile-network-router.md)**
+* **[Enclosed Collectief Netwerk (Getelegrafeerd/Draadloos)](/help/using/enclosed-corporate-network.md)**
 
 De volgende lijst schetst de verschillende types van netwerkmontages met voor en nadelen:
 
 | Netwerkinstellingen | Voordelen | Nadelen |
 |--- |--- |--- |
-| **Direct Internet Network (bekabeld/draadloos)** | Eenvoudig en recht vooruit naar SetUp<br>Goede keuze voor middelgrote of grotere installaties<br>Het specifieke Netwerk kan worden ingekapseld<br>Enkele foutpunten<br>Relatief goedkoop<br>Goede schaalbaarheid | Verplicht internetgegevensplan |
-| **Direct mobiel netwerk** | Eenvoudig in te stellen<br>Goede keuze voor middelgrote of grotere installaties<br>Goede schaalbaarheid<br>Ingekapselde schermen | Verplichte internetverbinding |
-| **Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk** | Eenvoudig in te stellen<br>Goede keuze voor middelgrote of grotere installaties<br>Het specifieke Netwerk kan worden ingekapseld<br>Enkele foutpunten<br>Relatief goedkoop<br>Goede schaalbaarheid | Verplicht internetgegevensplan |
-| **Enclosed Corporate Network (bekabeld/draadloos)** | Hoge flexibiliteit en schaalbaarheid<br>Zeer veilig vanwege verschillende regels van defensie<br>Encapsulated Networks<br>Eenvoudig te bewaken en te onderhouden<br>Betrouwbaar | Gecompliceerd en duur<br>Aanbevolen voor de Specialisten van het Netwerk of de Integrators van het Systeem |
+| **Direct Netwerk van Internet (Getelegrafeerd/Draadloos)** | Gemakkelijk en recht door:sturen aan <br> Goede keus SetUp voor middelgrote of grotere Installaties <br> Dedicated Netwerk kan <br> Weinigen Punten van mislukking <br> Relatief goedkoop <br> Goede Scalability worden ingekapseld | Verplicht internetgegevensplan |
+| **Direct Mobiel Netwerk** | Gemakkelijk om <br> Goede Keuze voor Midden-grootte of Grotere Installaties <br> Goede Scalability <br> Encapsulated Screens te plaatsen | Verplichte internetverbinding |
+| **Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk** | Gemakkelijk om <br> Goede Keuze voor Midden-grootte of Grotere Installaties <br> Dedicated Netwerk te plaatsen kan <br> Weg punten van Verval <br> Relatief goedkoop <br> Goed scalability worden ingekapseld | Verplicht internetgegevensplan |
+| **Enclosed Collectief Netwerk (Getelegrafeerd/Draadloos)** | De hoge flexibiliteit en scalability <br> hoogst veilig toe te schrijven aan Verschillende lijnen van de Verdediging <br> Encapsulated Netwerken <br> Gemakkelijk om <br> Betrouwbaar te controleren en te handhaven | Gecompliceerde en Uitzonderlijke <br> geadviseerd voor de Specialisten van het Netwerk of Integrators van het Systeem |

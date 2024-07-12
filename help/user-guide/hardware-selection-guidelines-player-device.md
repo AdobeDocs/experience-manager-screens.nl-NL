@@ -15,7 +15,7 @@ In de volgende sectie vindt u de richtlijnen voor het selecteren van hardware vo
 
 ## Belangrijke overwegingen {#important-considerations}
 
-* Altijd bron ***Commercieel*** of ***Industrieel*** Graducomponenten voor zowel de speler van PC als het Comité van de Vertoning of Projector.
+* Bron altijd ***Commerciële*** of ***Industriële*** componenten van de Grade voor zowel de speler van PC als Comité van de Vertoning of Projector.
 
 * Neem altijd contact op met leveranciers die de markt voor digitale handtekeningen bedienen.
 * Houd altijd rekening met omgevingsfactoren zoals omgevingstemperatuur en relatieve vochtigheid.
@@ -46,10 +46,10 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>onBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet/Wireless,<br /> 2x USB</td>
+   <td>DVI <br /> Ethernet/Wireless, <br /> 2x USB</td>
    <td>
     <ul>
-     <li>Standaardherhaling op volledig scherm<br /> </li>
+     <li>Standaard herhalen op volledig scherm <br /> </li>
      <li>Dagverdeling</li>
     </ul> </td>
   </tr>
@@ -60,10 +60,10 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td>128 GB</td>
    <td>onBoard</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 2x USB</td>
+   <td>DVI, HDMI <br /> Ethernet/Wireless, <br /> 2x USB</td>
    <td>
     <ul>
-     <li>Dynamische inhoud van één bron</li>
+     <li>Single Source Dynamic Content</li>
      <li>Eenvoudig interactief</li>
      <li>1-3 Zone-indelingen</li>
     </ul> </td>
@@ -75,7 +75,7 @@ De volgende tabel geeft een overzicht van de hardwareconfiguraties met standaard
    <td>256 GB</td>
    <td>GPU voor speciale grafische kaarten</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet/Wireless,<br /> 4x USB</td>
+   <td>DVI, HDMI <br /> Ethernet/Wireless, <br /> 4x USB</td>
    <td>
     <ul>
      <li>4 of meer inhoudszones, gelijktijdige videoweergave</li>

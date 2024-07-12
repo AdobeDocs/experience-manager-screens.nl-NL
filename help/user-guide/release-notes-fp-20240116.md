@@ -1,5 +1,5 @@
 ---
-title: Opmerkingen bij de release van Screen Feature Pack 20240116
+title: Opmerkingen bij de release van Screens Feature Pack 20240116
 description: Meer informatie over AEM Screens Feature Pack 20240116 uitgebracht op 16 januari 2024.
 feature: Feature Pack
 role: Developer
@@ -15,13 +15,13 @@ ht-degree: 1%
 # Opmerkingen bij de release voor Feature Pack 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de meest recente versiegegevens ophalen vanuit [hier](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de recentste versieinformatie van [ hier ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) krijgen.
 
 ## Beschikbaarheid {#availability}
 
 AEM Screens heeft AEM 6.5 Feature Pack 11.2 uitgebracht.
 
-U kunt de nieuwste versie van het Feature Pack voor de AEM Screens 6.5.11.2 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Ga naar de **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste elementenpakket met de titel **AEM 6.5 Schermen FP11.2**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.11.2 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP11.2**.
 
 ## Releasedatum {#release-date}
 
@@ -33,10 +33,10 @@ Deze release bevat alleen beveiligingsoplossingen.
 
 ### Opgeloste problemen {#bug-fixes}
 
-* XSS-probleem op `libs/screens/dcc/components/clientlibs/validation/resourcetypevalidation.js`. (SCRNS-3764)
+* XSS-probleem op `libs/screens/dcc/components/clientlibs/validation/resourcetypevalidation.js` . (SCRNS-3764)
 
-* XSS-probleem op `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
+* XSS-probleem op `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js` . (SCRNS-3906)
 
 #### Downloads voor AEM Screens Player
 
-Ga voor informatie over het downloaden van de nieuwste AEM Screens Player naar **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Om de recentste Speler van AEM Screens te downloaden, zie **[de Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/index.html)**.

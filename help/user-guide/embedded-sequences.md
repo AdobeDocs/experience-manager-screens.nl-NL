@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Ingesloten reeksen {#embedded-sequences}
 
-Gebruiken ***Ingesloten reeksen*** Hiermee kan de gebruiker voor kanalen componenten toevoegen aan het bovenliggende kanaal en de inhoud van een ander kanaal opnieuw gebruiken en in het bovenliggende kanaal insluiten.
+Gebruikend ***Ingebedde Reeksen***, voor kanalen, laat een gebruiker componenten in het ouderkanaal toevoegen en ook de inhoud van een verschillend kanaal hergebruiken en het inbedden in het ouderkanaal.
 
 ## Ingesloten reeksen toevoegen {#adding-embedded-sequences}
 
@@ -30,29 +30,29 @@ U kunt de volgende componenten toevoegen aan uw volgnummer:
 
 >[!NOTE]
 >
->Om over het gebruiken van andere componenten in uw project van het Scherm te leren, zie [Componenten toevoegen aan een kanaal](adding-components-to-a-channel.md).
+>Om over het gebruiken van andere componenten in uw project van Screens te leren, zie [ Toevoegend Componenten aan een Kanaal ](adding-components-to-a-channel.md).
 
 ### Een ingesloten reeks toevoegen {#adding-an-embedded-sequence}
 
-U kunt een ingesloten reeks toevoegen aan uw kanaal. Een ingesloten reeks is een ander kanaal dat elementen zoals afbeeldingen of video&#39;s bevat. Door een ingesloten reeks toe te voegen, kan de gebruiker de reeks aan een kanaal toevoegen door ***Kanaalpad***.
+U kunt een ingesloten reeks toevoegen aan uw kanaal. Een ingesloten reeks is een ander kanaal dat elementen zoals afbeeldingen of video&#39;s bevat. Toevoegend een ingebedde opeenvolging staat de gebruiker toe om de opeenvolging aan een kanaal toe te voegen door ***Weg van het Kanaal***.
 
 >[!NOTE]
->***Kanaalpad*** definieert een expliciete verwijzing naar het kanaal.
->Meer informatie over *Kanaalpad*, zie [Kanaaltoewijzing](channel-assignment.md) in ontwerprasters.
+>***Weg van het Kanaal*** bepaalt een expliciete verwijzing naar het kanaal.
+>Meer over *Weg van het Kanaal* leren, zie [ Toewijzing van het Kanaal ](channel-assignment.md) in het Authoring van Screens.
 
 Voer de onderstaande stappen uit om een ingesloten reeks aan uw kanaal toe te voegen:
 
-1. Klik op het kanaal waar u een pagina wilt insluiten. Bijvoorbeeld: **`We.Retail`In-Store** > **Kanalen** > **Niet-actief kanaal**.
+1. Klik op het kanaal waar u een pagina wilt insluiten. Bijvoorbeeld, **`We.Retail`in-opslag** > **Kanalen** > **Onactief Kanaal**.
 
-1. Klikken **Bewerken** in de actiebalk.
-1. Klik in de editormodus op het componentpictogram op de linkerzijbalk, zodat u de ingesloten pagina kunt toevoegen. Sleep de **Ingesloten reeks** aan de redacteur.
-1. Dubbelklik op de knop **Ingesloten reeks** zodat u het kanaal aan uw origineel opeenvolgingskanaal kunt toevoegen.
-1. Klik op de knop **Kanaalpad** van het kanaal.
-1. Klik op de knop **Duur (milliseconden)** voor uw ingesloten kanaal in het dialoogvenster **Reeks** tab. Standaard is de duur ingesteld op **-1**, wat betekent dat het ingesloten kanaal volledig wordt uitgevoerd. Als de gebruiker een duur opgeeft, wordt de volgende duur onderbroken (dat wil zeggen, wordt deze onderbroken) op het opgegeven tijdstip.
+1. Klik **uitgeven** van de actiebar.
+1. Klik in de editormodus op het componentpictogram op de linkerzijbalk, zodat u de ingesloten pagina kunt toevoegen. Sleep en laat vallen de **Ingebedde Opeenvolging** aan de redacteur.
+1. Dubbelklik de **Ingebedde component van de Opeenvolging** zodat kunt u het kanaal aan uw origineel opeenvolgingskanaal toevoegen.
+1. Klik de **Weg van het Kanaal** van het kanaal.
+1. Klik de **Duur (milliseconden)** voor uw ingebedde kanaal in de **Opeenvolging** tabel. Door gebrek, wordt de duur geplaatst aan **- 1**, dat betekent het ingebedde kanaal volledig in werking wordt gesteld. Als de gebruiker een duur opgeeft, wordt de volgende duur onderbroken (dat wil zeggen, wordt deze onderbroken) op het opgegeven tijdstip.
 
-1. Stel de **Metered Playback Strategy** tot **normaal**.
+1. Plaats de **Gememateerde Strategie van de Playback** aan **normaal**.
 
-Standaard is deze ingesteld op **normaal**. De waarde instellen op **normaal** (Alle items afspelen) betekent dat de volgende reeks volledig wordt uitgevoerd op elke cyclus van de bovenliggende reeks. De andere mogelijke waarde is **Eén item afspelen**. Die waarde toont slechts één punt van de verdere opeenvolging op elke looppas. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.
+Door gebrek, wordt het geplaatst aan **normaal**. Het plaatsen van de waarde aan **normaal** (Spel alle punten) betekent dat de verdere looppas volledig op elke cyclus van de ouderopeenvolging. De andere mogelijke waarde is **Spel één enkel punt**. Die waarde toont slechts één punt van de verdere opeenvolging op elke looppas. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.
 
 >[!IMPORTANT]
 >
@@ -60,20 +60,20 @@ Standaard is deze ingesteld op **normaal**. De waarde instellen op **normaal** (
 >
 >Voer de onderstaande stappen uit nadat u een ingesloten reeks uit de voorgaande stappen hebt toegevoegd aan uw kanaal:
 >
->1. Navigeer naar de weergave en klik op de weergave vanuit het dialoogvenster **Locaties** map.
->1. Klikken **Dashboard** in de actiebalk.
->1. Klik op het weergavedashboard op **+ Kanalen toewijzen** van de **TOEGEWEZEN KANALEN EN GEPLANDE DEELVENSTERS** zodat u de **Kanaaltoewijzing, dialoogvenster**.
+>1. Navigeer aan de vertoning en klik de vertoning van de **omslag van Plaatsen**.
+>1. Klik **Dashboard** van de actiebar.
+>1. Op het vertoningsdashboard, klik **+ Wijs Kanalen** van **TOEGEWEZEN KANALEN &amp; GEPLANDE PANELS** toe zodat kunt u het **de dialoogvakje van de Toewijzing van het Kanaal openen**.
 >
->1. Klik op het pad van het kanaal dat u in de ingesloten reeks hebt gebruikt, in **Kanaalpad**.
->1. Zorg ervoor dat de **Prioriteit** is lager dan het hoofdkanaal.
+>1. Klik de weg van het kanaal dat u in de ingebedde opeenvolging, in **Weg van het Kanaal** gebruikte.
+>1. Zorg ervoor dat de **Prioriteit** lager is dan het belangrijkste kanaal.
 >
->1. Klik niet op **Ondersteunde gebeurtenissen**.
->1. Klikken **Opslaan** wanneer gereed.
+>1. Klik geen **Gesteunde Gebeurtenissen**.
+>1. Klik **sparen** wanneer gedaan.
 >
 
-In het volgende voorbeeld wordt de toevoeging van een ingesloten reeks getoond (**Niet-actief kanaal, nacht**) naar een bestaand kanaal (**Niet-actief kanaal**).
+Het volgende voorbeeld toont de toevoeging van een ingebedde opeenvolging (**Niet-actief Kanaal - Nacht**) aan een bestaand kanaal (**Onactief Kanaal**).
 
-![new2](assets/new2.gif)
+![ new2 ](assets/new2.gif)
 
 ### Een dynamische ingesloten reeks toevoegen {#adding-a-dynamic-embedded-sequence}
 
@@ -81,22 +81,22 @@ U kunt een dynamische ingesloten reeks toevoegen aan uw kanaal. Een dynamische i
 
 >[!NOTE]
 >
->***Kanaalrol*** definieert de context van de weergave.
+>{de Rol van het 0} Kanaal ***bepaalt de context van de vertoning.***
 >
->Meer informatie over *Kanaalrol*, zie [Kanaaltoewijzing](channel-assignment.md) in ontwerprasters.
+>Meer over *Rol van het Kanaal* leren, zie [ Toewijzing van het Kanaal ](channel-assignment.md) in het Authoring van Screens.
 
 Voer de onderstaande stappen uit om een ingesloten reeks aan uw kanaal toe te voegen:
 
-1. Klik op het kanaal waar u een dynamische reeks wilt insluiten. Bijvoorbeeld: **`We.Retail`In-Store** > **Kanalen** > **Niet-actief kanaal**.
+1. Klik op het kanaal waar u een dynamische reeks wilt insluiten. Bijvoorbeeld, **`We.Retail`in-opslag** > **Kanalen** > **Onactief Kanaal**.
 
-1. Klikken **Bewerken** in de actiebalk.
-1. Klik in de editormodus op het componentpictogram op de linkerzijbalk, zodat u de dynamische ingesloten reeks kunt toevoegen. Sleep de **Dynamisch** **Ingesloten reeks** aan de redacteur.
+1. Klik **uitgeven** van de actiebar.
+1. Klik in de editormodus op het componentpictogram op de linkerzijbalk, zodat u de dynamische ingesloten reeks kunt toevoegen. De belemmering en laat vallen **Dynamische** **Ingebedde Opeenvolging** aan de redacteur.
 
-1. Dubbelklik op de knop **Dynamisch** **Ingesloten reeks** zodat u de pagina aan uw opeenvolgingskanaal kunt toevoegen.
+1. Dubbelklik de **Dynamische** **Ingebedde component van de Opeenvolging** zodat kunt u de pagina aan uw opeenvolgingskanaal toevoegen.
 
-1. Voer de **Kanaaltoewijzingsrol**.
-1. Stel de **Metered Playback Strategy** tot **normaal**. Standaard is deze ingesteld op **normaal**. De waarde instellen op **normaal** (Alle items afspelen) betekent dat de volgende reeks volledig wordt uitgevoerd op elke cyclus van de bovenliggende reeks. De andere mogelijke waarde is **Eén item afspelen**. Die waarde toont slechts één punt van de verdere opeenvolging op elke looppas. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.
+1. Ga de **Rol van de Taak van het Kanaal** in.
+1. Plaats de **Gememateerde Strategie van de Playback** aan **normaal**. Door gebrek, wordt het geplaatst aan **normaal**. Het plaatsen van de waarde aan **normaal** (Spel alle punten) betekent dat de verdere looppas volledig op elke cyclus van de ouderopeenvolging. De andere mogelijke waarde is **Spel één enkel punt**. Die waarde toont slechts één punt van de verdere opeenvolging op elke looppas. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.
 
-1. Klik op de knop **Duur (milliseconden)** in de **Reeks** voor het ingesloten kanaal in de reeks.
+1. Klik de **Duur (milliseconden)** in het **3} lusje van de Opeenvolging {voor uw ingebed kanaal in de opeenvolging.**
 
-![nieuwste](assets/latest.gif)
+![ recentste ](assets/latest.gif)

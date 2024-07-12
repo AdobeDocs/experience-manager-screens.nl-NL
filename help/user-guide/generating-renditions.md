@@ -26,69 +26,69 @@ U kunt handmatige en automatische full-HD uitvoeringen genereren. In de volgende
 >
 >Als de AEM Screens-video-uitvoeringen niet optimaal worden afgespeeld op uw apparaat, neemt u contact op met de hardwareleverancier voor de specificaties van de video. Zo krijgt u de beste prestaties op het apparaat. Hiermee kunt u uw eigen aangepaste videoprofiel maken waarin u de juiste parameters voor FFMPEG opgeeft om uw vertoning te genereren. Vervolgens kunt u met de onderstaande stappen uw aangepaste videoprofiel toevoegen aan de lijst met profielen.
 >
->Zie ook [Video&#39;s oplossen](troubleshoot-videos.md) om fouten op te sporen in het afspelen van video in uw kanaal en deze problemen op te lossen.
+>Ook, zie [ het Oplossen van problemen Video&#39;s ](troubleshoot-videos.md) om video te zuiveren en problemen op te lossen die in uw kanaal speelt.
 
 Voer de onderstaande stappen uit om automatisch full-HD-uitvoeringen te genereren:
 
-1. Klik op de Adobe Experience Manager-koppeling (linksboven) en klik op het hamerpictogram zodat u op **Workflow**.
+1. Klik de verbinding van Adobe Experience Manager (top-left) en klik het hamerpictogram zodat kunt u **Werkschema** klikken.
 
-   Klikken **Modellen**.
+   Klik **Modellen**.
 
-   ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
+   ![ screen_shot_2018-02-01at123407pm ](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Klik in het workflowmodelbeheer op de knop **DAM Update-element** model en klik **Bewerken** in de actiebalk.
+1. In het beheer van het werkschemamodel, klik het **model van de Activa van de Update van 0} DAM {en klik** uitgeven **van de actiebar.**
 
-   ![step5_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
+   ![ stap5_edit_thedamupdateassetmodel ](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. In de **DAM Update-element** venster, dubbelklikt u op de knop **MPEG-transcodering** stap.
+1. In het **DAM venster van de Activa van de Update**, klik de **Fmpeg transcoding** stap tweemaal.
 
-   ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
+   ![ screen_shot_2018-02-01at124454pm ](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Klik op de knop **Proces** tab.
-1. Geef de volledige HD-profielen op in de lijst in **Argumenten** als volgt:
+1. Klik het **Proces** lusje.
+1. Ga de volledige profielen HD aan de lijst in **Argumenten** als volgt in:
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. Klikken **OK**.
+1. Klik **OK**.
 
-   ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
+   ![ screen_shot_2018-02-02at103340am ](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Klikken **Opslaan** linksboven in het dialoogvenster **DAM Update-element** scherm.
+1. Klik **sparen** op top-left van het **DAM scherm van de Activa van de Update van de Update**.
 
-   ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
+   ![ screen_shot_2018-02-02at101830am ](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Navigeren naar **Activa** en uploadt u een nieuwe video. Klik op de video en open de rails aan de zijkant van de rendities. Let op de twee full HD video&#39;s.
+1. Navigeer aan **Assets** en upload een nieuwe video. Klik op de video en open de rails aan de zijkant van de rendities. Let op de twee full HD video&#39;s.
 
-   ![step10_-_open_videoAsset](assets/step10_-_open_thevideoasset.png)
+   ![ step10_-_open_videoasset ](assets/step10_-_open_thevideoasset.png)
 
-1. Openen **Uitvoeringen** van de zijspoor.
+1. Open **Vertoningen** van de zijspoor.
 
-   ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
+   ![ step11_-_open_therenditionssiderail ](assets/step11_-_open_therenditionssiderail.png)
 
 1. Let op twee nieuwe full HD-uitvoeringen.
 
-   ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
+   ![ step12_-_2_new_renditionsareaddedtothevideo ](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
 ## Handmatig Full HD-uitvoeringen genereren {#manually-generating-full-hd-renditions}
 
 Voer de onderstaande stappen uit om volledige HD-uitvoeringen handmatig te genereren:
 
-1. Klik op de Adobe Experience Manager-koppeling (linksboven) en klik op het hamerpictogram zodat u op gereedschappen kunt klikken en op **Workflow**.
+1. Klik de verbinding van Adobe Experience Manager (verlaten bovenkant) en klik het hamerpictogram zodat kunt u hulpmiddelen klikken en **Werkschema** klikken.
 
-   Klikken **Modellen**.
+   Klik **Modellen**.
 
-   ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
+   ![ screen_shot_2018-02-01at123407pm-1 ](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Klik in workflowmodelbeheer op de knop **Element voor schermupdate** en klik op de knop **Workflow starten** om de **Workflow uitvoeren** in.
+1. In werkschemamodel beheer, klik het **model van de Activa van de Update van Screens 0} {en klik het** Werkschema van het Begin **om het** de dialoogvakje van het Werkschema van de Looppas **te openen.**
 
-   ![step5_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
+   ![ stap5_start_a_newscreensupdateassetworkflow ](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Klik op de gewenste video in het deelvenster **Payload** en klik op **Uitvoeren**.
+1. Klik de gewenste video in de **nuttige lading** en klik **Looppas**.
 
-   ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
+   ![ stap6_-_select_thedesiredvideo ](assets/step6_-_select_thedesiredvideo.png)
 
-1. Navigeren naar **Activa**, gaat u naar uw element en klikt u erop.
+1. Navigeer aan **Assets**, boor neer aan uw activa, en klik het.
 
-   ![stap7_open_theVideoAsset](assets/step7_-_open_thevideoasset.png)
+   ![ stap7_open_videoasset ](assets/step7_-_open_thevideoasset.png)
 
-1. Open de **Uitvoeringen** zijspoor. Let op de nieuwe full HD-uitvoeringen.
+1. Open de **zijspoor 0} van Vertoningen {.** Let op de nieuwe full HD-uitvoeringen.
 
-   ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
+   ![ step8_-_open_therenditionssiderail ](assets/step8_-_open_therenditionssiderail.png)

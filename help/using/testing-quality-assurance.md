@@ -48,9 +48,9 @@ De volgende softwareoverwegingen worden geadviseerd:
 
 ## 3. Overwegingen voor apparaatbeheer {#device-management-considerations}
 
-AEM Screens bevat een Device Control Center-module waarmee u eindpunten van schermspelertoepassingen kunt beheren.
+AEM Screens bevat een Device Control Center-module waarmee u eindpunten van Screens Player-toepassingen kunt beheren.
 
-Het verwijst naar *player* hardwareapparaat waarop de toepassing Schermspeler is geïnstalleerd en die is geregistreerd bij een AEM.
+Het verwijst naar om het even welk *speler* hardwareapparaat dat de de spelertoepassing van Screens heeft geïnstalleerd en aan een geval van AEM wordt geregistreerd.
 Met deze module kunt u:
 
 1. Toepassingsfoutlogboeken van de speler controleren
@@ -58,7 +58,7 @@ Met deze module kunt u:
 1. Downloads van inhoud beheren
 1. Problemen met het opnieuw opstarten van toepassingen beheren
 
-Meer informatie over de ***Device Control Center***, zie [Problemen oplossen in Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **AEM Screens-gebruikershandleiding**.
+Om in detail over het ***Centrum van de Controle van het Apparaat*** te leren, zie [ Centrum van de Controle van het Apparaat van het Oplossen van problemen ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Gids van de Gebruiker van AEM Screens**.
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ Meer informatie over de ***Device Control Center***, zie [Problemen oplossen in 
 >
 > De Adobe beveelt aan dat speciale, externe platforms voor apparaatbeheer worden gebruikt voor alle implementaties.
 
-Het gekozen specifieke platform is afhankelijk van verschillende factoren, waaronder ***doelbesturingssysteem***, ***projectvereisten***, en ***aantal eindpunten***.
+Het specifieke gekozen platform hangt van verscheidene factoren met inbegrip van het ***doel werkende systeem***, ***projectvereisten***, en ***aantal eindpunten*** af.
 
 Hieronder volgen enkele voorbeelden:
 

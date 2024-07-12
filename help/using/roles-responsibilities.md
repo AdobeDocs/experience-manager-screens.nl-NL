@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Projectrollen en -verantwoordelijkheden {#roles-responsibilities}
 
-Als ervaren AEM uitvoerder, hebt u waarschijnlijk de rollen gezien die als worden bedoeld *Auteurs*, *Ontwikkelaars*, en *IT-technici*.
+Als ervaren AEM uitvoerder, hebt u waarschijnlijk de rollen gezien die als *Auteurs* worden bedoeld, *Ontwikkelaars*, en *de Technici van IT*.
 
 In een typisch AEM Screens-project worden de rollen verder verfijnd, aangezien zij elk een belangrijk doel in het project dienen.
 
@@ -81,22 +81,22 @@ Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens
 
 >[!NOTE]
 >
->Ga voor meer informatie over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject naar **[Projectrollen en -verantwoordelijkheden](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek {de Rollen en de Verantwoordelijkheden van het Project van 0} ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities) **.**[
 
 
 ## Projectfasen {#project-stages}
 
-Om een succesvolle digitale signaalplaatsing te steunen, is het gebruikelijk om het project in drie fasen te segmenteren. Deze fasen worden gewoonlijk aangeduid als **Dagen**. Het zijn geen letterlijke dagen, maar aanwijzingen voor elke grote fase van het project.
+Om een succesvolle digitale signaalplaatsing te steunen, is het gebruikelijk om het project in drie fasen te segmenteren. Deze stadia worden algemeen bedoeld als **Dagen**. Het zijn geen letterlijke dagen, maar aanwijzingen voor elke grote fase van het project.
 
-1. De eerste fase wordt aangeduid als *Dagnul*. Dit stadium omvat alle pre-verkoop en ontdekkingsinspanningen die voor het bepalen van het projectwerkingsgebied worden vereist.
-1. de tweede fase, *Dag één*, verwijst naar alle activiteiten die deel uitmaken van de inzet.
-1. De derde en laatste fase *Dag twee*. Het verwijst naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
+1. Het eerste stadium wordt bedoeld als *Nul van de Dag*. Dit stadium omvat alle pre-verkoop en ontdekkingsinspanningen die voor het bepalen van het projectwerkingsgebied worden vereist.
+1. De tweede fase, *Dag Één*, verwijst naar alle activiteiten inbegrepen in de plaatsingsinspanning.
+1. Het derde en definitieve stadium is *Dag Twee*. Het verwijst naar alle lopende verrichtingen en steunelementen als deel van de totale oplossing.
 
 >[!NOTE]
 >
->In deze gids wordt de nadruk vooral gelegd op *Dag één* en *Dag twee*, is aandacht voor alle drie de fasen nodig om een succesvol digitaal ondertekeningsproject te kunnen uitvoeren.
+>Terwijl deze gids nadruk hoofdzakelijk op *Dag Één* en *Dag Twee* legt, is de aandacht op alle drie stadia noodzakelijk om een succesvol digitaal ondertekeningsproject in werking te stellen.
 >
->Bekijk een video over de preproductie van projecten, de start van projecten en de voortgang van projecten **[Projectbeheer en -implementatie](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren, op een video op **[het Beheer en Plaatsing van het Project ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment) te letten**.
 
 ## RACI-diagram {#raci-chart}
 
@@ -108,19 +108,19 @@ Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt.
 
 ### RACI-definities {#raci-definitions}
 
-* **Verantwoordelijk**: Werkt het werk om de taak te voltooien?
+* **Verantwoordelijk**: Doet het werk om de taak te voltooien.
 
-* **Verrekenbaar**: De afgevaardigden werken en zijn de laatste partij om de taak te herzien alvorens het volledig is.
+* **Verantwoordelijk**: Het werk van afgevaardigden en zijn de laatste partij om de taak te herzien alvorens het volledig is.
 
-* **Geconsulteerd**: Hiermee wordt de taak of het te leveren item gecontroleerd.
+* **geconsulteerd**: Herziet de taak of leverbaar om input te verstrekken.
 
-* **Informatief**: Bewaar op de hoogte van de voortgang van de taak, maar is niet betrokken bij de details van het te leveren item.
+* **op de hoogte gebracht**: Beheerd op de hoogte van vooruitgang op de taak maar is niet betrokken bij de details van te leveren.
 
 Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt en verstrekt een voorbeeld van gemeenschappelijke taken en overwegingen in een project van AEM Screens.
 
-De volgende tabel geeft een overzicht van de **Nul dag: overwegingen vóór verkoop**:
+De volgende lijst vat **Nul van de Dag samen: Overwegingen vóór verkoop**:
 
-| **Fase** | **Audio-video-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
+| **Fase** | **audio-Video Integrator** | **AEM Implementor** | **BedrijfsStrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
 | Teamsamenstelling en selectie van leverancier | I | I | RA | RA |
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
@@ -130,9 +130,9 @@ De volgende tabel geeft een overzicht van de **Nul dag: overwegingen vóór verk
 | Ondersteuningsproces - definitie | C | I | RA | I |
 | Bereik van werk en projectplan bepalen | RA | RA | C | C |
 
-De volgende tabel geeft een overzicht van de **Dag één: Projectimplementatie (toepassingsontwerp)**:
+De volgende lijst vat **Dag één samen: De Implementatie van het project (het Ontwerp van de Toepassing)**:
 
-| **Fase** | **Audio-video-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
+| **Fase** | **audio-Video Integrator** | **AEM Implementor** | **BedrijfsStrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Uitlijning op projectplan en -schema | RA | RA | C | C |
@@ -150,19 +150,19 @@ De volgende tabel geeft een overzicht van de **Dag één: Projectimplementatie (
 | Plan voor de overgang van het proefproject naar de productie | RA | RA | I | I |
 | Kennisoverdracht | RA | RA | I | I |
 
-De volgende tabel geeft een overzicht van de **Dag één: Projectimplementatie (gereedheid voor detailhandel)**:
+De volgende lijst vat **Dag één samen: De Uitvoering van het project (Detailhandel Readiness)**:
 
-| **Fase** | **Audio-video-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
+| **Fase** | **audio-Video Integrator** | **AEM Implementor** | **BedrijfsStrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
 | Hardwarebestelling en -opslag | RA | I | I | I |
 | Handelson-boarding-schema | I | I | C | RA |
 | Testen van gebruikersacceptatie opslaan | I | C | RA |   |
 | Hardwarebulkconfiguratie | RA | I | C | I |
-| Overeenkomst over ondersteuning na de lancering | RA | C | RA | C |
+| Overeenkomst inzake Post-startondersteuning | RA | C | RA | C |
 
-De volgende tabel geeft een overzicht van de **Dag 1: Dag 1: Projectimplementatie (hardware)**:
+De volgende lijst vat **Dag één samen: Dag Één: De Uitvoering van het project (Hardware)**:
 
-| **Fase** | **Audio-video-integrator** | **AEM Implementor** | **Bedrijfsstrategie** | **Inhoud beheren** |
+| **Fase** | **audio-Video Integrator** | **AEM Implementor** | **BedrijfsStrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Het kleine Ontwerp omvat bedradingsverrichtingen | - | - | - | - |
@@ -173,19 +173,19 @@ De volgende tabel geeft een overzicht van de **Dag 1: Dag 1: Projectimplementati
 
 >[!NOTE]
 >
->Rollen veranderen tijdens dag twee (na het opstarten).
+>Rollen veranderen tijdens dag twee (Post Launch Support).
 
-* **Auteur**: Inhoudsbeheer + strategie
+* **Auteur**: Inhoudsbeheer + Strategie
 
-* **Ontwikkelaar**: Meestal een lid van het AEM Screens-implementatieteam of een lid van een intern ontwikkelingsteam
+* **Ontwikkelaar**: Typisch een lid van het de implementatieteam van AEM Screens, of handoff aan een intern ontwikkelingsteam
 
-* **Technicus**: Of gecontracteerd door Audio-Video Integrator of deel uitmaakt van het zelfde bedrijf.
+* **Technicus**: Of gecontracteerd door Audio-Video Integrator of maakt deel uit van het zelfde bedrijf.
 
-De volgende tabel geeft een overzicht van de **Dag twee: RACI-grafiek voor ondersteuning na starten**:
+De volgende lijst vat **Dag Twee samen: De Grafiek van de Steun van de Lancering van Post RACI**:
 
 | **Fase** | **Auteur** | **Ontwikkelaar** | **Technicus** |
 |---|---|---|---|
-| *Dag twee: ondersteuning na starten* |
+| *Dag Twee: Post-Lancering Steun* |
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA |
 | Ondersteuning voor Tier 1 | I | I | RA |
 | Support voor niveau 2 | I | C | RA |

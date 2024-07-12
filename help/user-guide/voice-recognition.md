@@ -16,11 +16,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**Belangrijke privacygegevens**
+>**Belangrijke Informatie van de Privacy**
 >
 >Wanneer het gebruiken van de eigenschap van de stemerkenning, volg alle toepasselijke wettelijke en ethische richtlijnen voor uw regio. Deze richtlijnen omvatten, maar niet beperkt tot, het verstrekken van een zichtbare kennisgeving aan eindgebruikers dat de speler stemerkenning gebruikt). De Adobe ontvangt, slaat, of verwerkt geen van de op stem betrekking hebbende informatie op. De AEM Screens-spelers gebruiken de standaard API voor webspraak die in de bladerengine is ingebouwd. Achter de schermen verzendt deze API een golfvorm van uw toespraak naar Google-servers voor conversie van spraak naar tekst. De speler past de tekst aan gevormde sleutelwoorden aan.
 >
->Zie [Google Privacy White paper on Web speech API](https://www.google.com/chrome/privacy/whitepaper.html#speech) voor meer informatie .
+>Zie [ Witboek van de Privacy van Google op de toespraak API van het Web ](https://www.google.com/chrome/privacy/whitepaper.html#speech) voor meer details.
 
 
 De eigenschap van de stemerkenning staat inhoudsverandering in een kanaal van AEM Screens toe dat door steminteractie wordt gedreven.
@@ -43,21 +43,21 @@ In de volgende sectie wordt beschreven hoe u de functie voor spraakherkenning in
 
 Alvorens u een eigenschap van de stemerkenning gebruikt, zorg ervoor u een project en een kanaal met inhoud hebt opstelling voor uw project.
 
-1. In het volgende voorbeeld ziet u een demo-project met de naam **VoiceDemo** en drie volgordekanalen **Hoofd**, **ColdDrinks**, en **HotDrinks**, zoals weergegeven in onderstaande afbeelding.
+1. Het volgende voorbeeld toont een demoproject genoemd **VoiceDemo** en drie opeenvolgingskanalen **Hoofd**, **ColdDrinks**, en **HotDrinks**, zoals aangetoond in het hieronder cijfer.
 
    ![afbeelding](assets/voice-recognition/vr-1.png)
 
    >[!NOTE]
    >
-   >Ga voor meer informatie over het maken van een kanaal of het toevoegen van inhoud aan een kanaal naar [Kanalen maken en beheren](/help/user-guide/managing-channels.md)
+   >Leren hoe te om een kanaal tot stand te brengen of inhoud aan een kanaal toe te voegen, zie [ Creërend en het Leiden Kanalen ](/help/user-guide/managing-channels.md)
 
    Of,
 
-   U kunt drie volgordekanalen maken **Hoofd**, **ColdDrinks**, en **HotDrinks** en een ander kanaal met 1 x 2 gesplitste schermen **SplitScreen** zoals weergegeven in onderstaande afbeelding.
+   U kunt drie opeenvolgingskanalen **Hoofd** tot stand brengen, **ColdDrinks**, en **HotDrinks**, en één meer 1x2 Gesplitste het kanaal van Screens **SplitScreen** zoals aangetoond in het hieronder cijfer.
 
    ![afbeelding](assets/voice-recognition/vr-emb-1.png)
 
-1. Navigeer naar elk kanaal en voeg inhoud toe. Blader bijvoorbeeld naar **VoiceDemo** > **Kanalen** > **Hoofd** en klik op het kanaal. Klikken **Bewerken** voegt u vervolgens naar wens inhoud (afbeeldingen/video&#39;s) toe op de actiebalk. Voeg op dezelfde manier inhoud toe aan beide **ColdDrinks** en de **HotDrinks** kanaal.
+1. Navigeer naar elk kanaal en voeg inhoud toe. Bijvoorbeeld, navigeer aan **VoiceDemo** > **Kanalen** > **Hoofd** en klik het kanaal. Klik **uitgeven** van de actiebar, dan voeg inhoud (beelden/video&#39;s) toe zoals uw vereiste. Op dezelfde manier voeg inhoud aan zowel **ColdDrinks** als **HotDrinks** kanaal toe.
 
    De kanalen bevatten nu elementen (afbeeldingen), zoals in de onderstaande afbeeldingen wordt getoond.
 
@@ -73,7 +73,7 @@ Alvorens u een eigenschap van de stemerkenning gebruikt, zorg ervoor u een proje
 
    ![afbeelding](assets/voice-recognition/vr-2.png)
 
-   Als u het kanaal Schermen splitsen aan uw project hebt toegevoegd, navigeert u naar **SplitScreen** en twee ingesloten reeksen slepen en neerzetten. Paden toevoegen aan beide **ColdDrinks** en **HotDrinks** kanaal zoals weergegeven in de onderstaande afbeelding.
+   Als u het Gesplitste kanaal van Screens aan uw project toevoegde, navigeer aan **SplitScreen** en belemmering-en-daling twee ingebedde opeenvolgingen. Voeg wegen aan zowel het **ColdDrinks** als **HotDrinks** kanaal zoals aangetoond in het hieronder cijfer toe.
    ![afbeelding](assets/voice-recognition/vr-emb-6.png)
 
 
@@ -83,31 +83,31 @@ Nadat u inhoud aan uw kanalen hebt toegevoegd, navigeer aan elk van de kanalen e
 
 Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
-1. Navigeer naar elk kanaal en voeg inhoud toe. Blader bijvoorbeeld naar **VoiceDemo** > **Kanalen** > **Hoofd** en klik op het kanaal.
+1. Navigeer naar elk kanaal en voeg inhoud toe. Bijvoorbeeld, navigeer aan **VoiceDemo** > **Kanalen** > **Hoofd** en klik het kanaal.
 
-1. Klikken **Eigenschappen** in de actiebalk.
+1. Klik **Eigenschappen** van de actiebar.
 
    ![afbeelding](assets/voice-recognition/vr-5.png)
 
-1. Ga naar de **Basisbeginselen** klikt u vervolgens op een bestaande tag in het menu **Tags** of maak er een.
+1. Navigeer aan de **Grondbeginselen** tabel, dan klik een bestaande markering van het **gebied van Markeringen**, of creeer één.
 
-   U kunt een tag maken door een nieuwe naam voor de tag in te voeren en op `return` sleutel, zoals weergegeven in onderstaande afbeelding:
+   U kunt een tag maken door een nieuwe naam voor de tag in te voeren en op de toets `return` te drukken, zoals in de onderstaande afbeelding wordt getoond:
 
    ![afbeelding](assets/voice-recognition/vr-6.png)
 
    Of,
 
-   U kunt ook van tevoren tags maken voor uw AEM en deze selecteren. Nadat u de in [Tags maken](#creating-tags)kunt u op de tag klikken vanaf de locatie en deze toevoegen aan het kanaal, zoals in de onderstaande afbeelding wordt getoond:
+   U kunt ook van tevoren tags maken voor uw AEM en deze selecteren. Nadat u de stappen volgt die in [ worden verklaard Creërend Markeringen ](#creating-tags), kunt u de markering van de plaats klikken en het toevoegen aan uw kanaal, zoals aangetoond in het hieronder cijfer:
 
    ![afbeelding](assets/voice-recognition/vr-tag1.png)
 
-1. Voeg op dezelfde manier een tag met de naam **heet** aan de **HotDrinks** kanaal.
+1. Op dezelfde manier voeg een markering genoemd als **heet** aan het **HotDrinks** kanaal toe.
 
-1. Als u een kanaal voor gesplitste schermen gebruikt, voegt u beide tags toe (**heet** en **koud**) aan de **SplitScreen** kanaaleigenschappen, zoals weergegeven in de onderstaande afbeelding.
+1. Als u een Gesplitst kanaal van Screens gebruikt, voeg zowel de markeringen (**heet** en **koud**) aan **SplitScreen** kanaaleigenschappen, zoals aangetoond in het hieronder cijfer toe.
 
    ![afbeelding](assets/voice-recognition/vr-emb-7.png)
 
-1. Klikken **Opslaan en sluiten** als u klaar bent.
+1. Klik **sparen &amp; dicht** zodra u wordt gedaan.
 
 
 ### Tags maken {#creating-tags}
@@ -116,39 +116,39 @@ Ga als volgt te werk om labels te maken:
 
 1. Navigeer naar de AEM.
 
-1. Klik op het gereedschapspictogram > **Tags**.
+1. Klik het hulpmiddelpictogram > **Tags**.
    ![afbeelding](assets/voice-recognition/vr-7.png)
 
-1. Klikken **Maken** > **Naamruimte maken**.
+1. Klik **creeer** > **creeer Namespace**.
    ![afbeelding](assets/voice-recognition/vr-tag3.png)
 
-1. Voer bijvoorbeeld de naam van het project in. **VoiceDemo** en klik op **Maken**.
+1. Ga de naam van uw project in, bijvoorbeeld, **VoiceDemo** en klik **creeer**.
 
-1. Klik op de knop **VoiceDemo** project en klik **Tag maken** in de actiebalk.
+1. Klik het **VoiceDemo** project en klik **creeer Markering** van de actiebar.
    ![afbeelding](assets/voice-recognition/vr-tag4.png)
 
-1. Voer de naam van de tag in en klik op **Verzenden**.
+1. Ga de naam van uw markering in en klik **voorleggen**.
    ![afbeelding](assets/voice-recognition/vr-tag5.png)
 
 U kunt deze labels nu gebruiken in uw AEM Screens-project.
 
 ### Het toewijzen van Kanaal aan een Vertoning en het toelaten van de Erkenning van de Stem {#channel-assignment}
 
-1. Een weergave maken in het dialoogvenster **Locaties** map, zoals weergegeven in de onderstaande afbeelding.
+1. Creeer een vertoning in de **omslag van Plaatsen**, zoals aangetoond in het hieronder cijfer.
 
    ![afbeelding](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
-   >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
+   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie [ Creërend en het Leiden Vertoningen ](/help/user-guide/managing-displays.md).
 
-1. Kanalen toewijzen **Hoofd**, **ColdDrinks**, en **HotDrinks** aan uw **LobbyDisplay**. Ook als u de **SplitScreen** kanaal voor uw project, zorg ervoor u dat ook aan de vertoning toewijst.
+1. Wijs de kanalen **Hoofd**, **ColdDrinks**, en **HotDrinks** aan uw **LobbyDisplay** toe. Ook, als u het **SplitScreen** kanaal voor uw project gebruikt, zorg ervoor u dat aan de vertoning toewijst.
 
    >[!NOTE]
-   >Als u een gesplitst-rasterkanaal hebt gemaakt, wijst u het **SplitScreen** naar het scherm.
+   >Als u een gespleten het schermkanaal hebt gecreeerd, wijs het **** kanaal SplitScreen aan uw vertoning toe.
 
 1. Stel de volgende eigenschappen in voor elk kanaal terwijl u het kanaal toewijst.
 
-   | **Kanaalnaam** | **Prioriteit** | **Ondersteunde gebeurtenissen** |
+   | **Naam van het Kanaal** | **Prioriteit** | **Ondersteunde Gebeurtenissen** |
    |---|---|---|
    | Hoofd | 2 | Eerste belasting, inactief scherm, Timer |
    | HotDrinks | 1 | Gebruikersinteractie |
@@ -157,11 +157,11 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
 
    >[!NOTE]
    >
-   >Ga voor meer informatie over het toewijzen van een kanaal aan een weergave naar [Weergaven maken en beheren](/help/user-guide/managing-displays.md).
+   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie [ Creërend en het Leiden Vertoningen ](/help/user-guide/managing-displays.md).
 
-1. Nadat u kanalen aan een vertoning hebt toegewezen, navigeer aan **LobbyDisplay** en klikt u op de weergave. Klikken **Eigenschappen** in de actiebalk.
+1. Nadat u kanalen aan een vertoning hebt toegewezen, navigeer aan **LobbyDisplay** en klik de vertoning. Klik **Eigenschappen** van de actiebar.
 
-1. Ga naar de **Weergave** en schakelt u de **Voice ingeschakeld** optie onder **Inhoud**.
+1. Navigeer aan het **lusje van de Vertoning** en laat de **Toegelaten Stem** optie onder **Inhoud** toe.
 
    ![afbeelding](assets/voice-recognition/vr-disp.png)
 
@@ -173,14 +173,14 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
 Wanneer de voorgaande stappen zijn voltooid, kunt u het Chrome-apparaat registreren om de uitvoer weer te geven.
 
 >[!NOTE]
->Zie [Apparaatregistratie](device-registration.md).
+>Zie [ Registratie van het Apparaat ](device-registration.md).
 
-**Gewenste uitvoer voor sequentiekanaal**
+**Gewenste Output voor Kanaal van de Opeenvolging**
 
-De **Hoofd** kanaal wordt de inhoud ervan afgespeeld. Wanneer u echter woorden gebruikt met het trefwoord **heet**, zoals *Ik zou graag een warme drank hebben*, wordt de inhoud van het **HotDrinks** kanaal.
+Het **Belangrijkste** kanaal speelt zijn inhoud af. Nochtans, wanneer u woorden met het sleutelwoord **heet**, zoals *gebruikt zou ik een hete drank* willen hebben, begint het kanaal de inhoud van het **HotDrinks** kanaal te spelen.
 
-En als u een woord met een trefwoord gebruikt **koud** zoals *Ik zou graag iets kouds hebben*, wordt de inhoud van het **ColdDrinks** kanaal.
+Op dezelfde manier als u een woord met een sleutelwoord **kou** zoals *gebruikt zou ik iets koude* willen hebben, begint het kanaal de inhoud van het **ColdDrinks** kanaal te spelen.
 
-**Gewenste uitvoer voor gesplitste schermkanalen**
+**Gewenst Output voor Gesplitste Kanaal van Screens**
 
-De **Hoofd** kanaal wordt de inhoud ervan afgespeeld. Wanneer u echter woorden gebruikt met het trefwoord **heet** en **koud** samen, zoals *Ik zou graag het menu voor warme en koude dranken zien*, speelt het kanaal de inhoud van **SplitScreen** kanaal. Als je zegt *terug naar het hoofdmenu*, wordt de **Hoofd** kanaal.
+Het **Belangrijkste** kanaal speelt zijn inhoud af. Nochtans, wanneer u woorden met het sleutelwoord **heet** en **koud** samen, zoals *gebruikt zou ik het menu voor hete en koude dranken* willen zien, speelt het kanaal de inhoud van het **SplitScreen** kanaal. Als u *terug naar het belangrijkste menu* zegt, keert het aan het **Belangrijkste** kanaal terug.

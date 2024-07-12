@@ -75,10 +75,10 @@ Het in overweging nemen van al deze fasen als onderdeel van het algemene project
 
 >[!VIDEO](https://video.tv.adobe.com/v/28405)
 
-*Leer de belangrijkste termijnen betrokken bij een algemeen projectplan zoals projectcyclus, acties die hardware het testen, Conceptbewijs, piloten en rollouts omringen.*
+*leer de belangrijkste termijnen betrokken in een algemeen projectplan zoals projectcyclus, acties omringend hardware het testen, Bewijs van Concept, piloten en rollouts.*
 
 ## De volgende stap {#the-next-step}
 
 Wanneer u met het testen, het Bewijs van Concept, proefprogramma&#39;s, en roll outs door bent, volg de volgende zelfstudie die diep in het Beheer van het Project en de betrokken processen duikt.
 
-Navigeren naar **[Deel 4: Projectbeheer en -implementatie](project-management-and-deployment.md)** voor meer informatie .
+Navigeer aan **[Deel 4: Het Beheer en de Plaatsing van het Project](project-management-and-deployment.md)** voor meer details.

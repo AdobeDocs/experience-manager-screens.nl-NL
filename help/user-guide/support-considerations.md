@@ -60,7 +60,7 @@ Volg deze slotzelfstudie naar een 5-delige serie zelfstudie hieronder waarin wor
 
 >[!VIDEO](https://video.tv.adobe.com/v/28383)
 
-*Leer hoe hardware-, software- en connectiviteitsproblemen worden opgelost. Onderzoek kostenramingen en kaders voor onsite ondersteuning.*
+*Leer hoe hardware, software, en connectiviteitskwesties worden behandeld. Onderzoek kostenramingen en kaders voor onsite steun.*
 
 ## Conclusie {#conclusion}
 

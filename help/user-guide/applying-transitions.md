@@ -15,45 +15,45 @@ ht-degree: 0%
 
 # Overgangen toepassen {#applying-transitions}
 
-In deze sectie wordt beschreven hoe u het dialoogvenster **Overgang** tussen verschillende elementen (afbeeldingen en video&#39;s) en ingesloten reeksen in een kanaal.
+Deze sectie beschrijft hoe u de **component van de Overgang** binnen-tussen verschillende activa (beelden en video&#39;s) en ingebedde opeenvolgingen in een kanaal kunt toepassen.
 
 >[!CAUTION]
 >
->Meer informatie over de eigenschappen van de **Overgang** component, zie [Overgangen](adding-components-to-a-channel.md#transition).
+>Om in detail over de eigenschappen voor de **component van de Overgang** te leren, zie [ Overgangen ](adding-components-to-a-channel.md#transition).
 
-## Overgangscomponent toevoegen aan elementen in een kanaal {#adding-transition}
+## Overgangscomponent toevoegen aan Assets in een kanaal {#adding-transition}
 
 Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw AEM Screens-project:
 
 >[!NOTE]
 >
->**Vereisten**
+>**Eerste vereisten**
 >
->Een AEM Screens-project maken **TestProject** met een kanaal **TestTransition**. Stel ook een locatie en een weergave in om de uitvoer weer te geven.
+>Creeer een project van AEM Screens **TestProject** met een kanaal **TestTransition**. Stel ook een locatie en een weergave in om de uitvoer weer te geven.
 
-1. Navigeren naar het kanaal **TestTransition** en klik op **Bewerken** in de actiebalk.
+1. Navigeer aan het Kanaal **TestTransition** en klik **uitgeven** van de actiebar.
 
-   ![image1](assets/transitions1.png)
+   ![ image1 ](assets/transitions1.png)
 
    >[!NOTE]
    >
-   >De **TestTransition** channel heeft er al een paar elementen (afbeeldingen en video&#39;s) in. Bijvoorbeeld de **TestTransition** kanaal bevat drie afbeeldingen en twee video&#39;s, zoals hieronder wordt getoond:
+   >Het **** kanaal TestTransition heeft reeds een paar activa (beelden en video&#39;s) in het. Bijvoorbeeld, omvat het **kanaal 0} TestTransition {drie beelden en twee video&#39;s, zoals hieronder getoond:**
 
-   ![image2](assets/transitions2.png)
+   ![ image2 ](assets/transitions2.png)
 
 
-1. Sleep de **Overgang** aan uw redacteur.
+1. Sleep en laat vallen de **component van de Overgang** aan uw redacteur.
 
    >[!CAUTION]
    >
    >Voordat u de overgang naar uw elementen in uw kanaal toevoegt, moet u ervoor zorgen dat u de overgang niet toevoegt vóór het eerste element in het opeenvolgende kanaal. Het eerste item in uw kanaal moet een element zijn en geen overgang.
 
-   ![image3](assets/transitions3.png)
+   ![ image3 ](assets/transitions3.png)
 
    >[!NOTE]
    >
-   >Standaard worden de eigenschappen van de overgangscomponent, zoals **Type** is ingesteld op **Vervagen** en de **Duur** is ingesteld op *1600 milliseconden*. Het is ook niet aan te raden een overgangstijd in te stellen die langer is dan het actief waarop het wordt toegepast.
+   >Door gebrek, worden de eigenschappen van de overgangscomponent zoals **Type** geplaatst aan **langzaam verdwijnen** en de **Duur** wordt geplaatst aan *1600 milliseconden*. Het is ook niet aan te raden een overgangstijd in te stellen die langer is dan het actief waarop het wordt toegepast.
 
-1. Ook als u een **Ingesloten reeks** (met een volgnummer) aan deze kanaaleditor kunt u aan het einde een overgangscomponent toevoegen. Zo weet u zeker dat de inhoud in de juiste volgorde wordt afgespeeld, zoals in de volgende afbeelding wordt getoond:
+1. Ook, als u een **Ingebedde component van de Opeenvolging** (die een opeenvolgingskanaal) aan deze kanaalredacteur omvat, kunt u een overgangscomponent aan het eind toevoegen. Zo weet u zeker dat de inhoud in de juiste volgorde wordt afgespeeld, zoals in de volgende afbeelding wordt getoond:
 
-   ![image3](assets/transitions5.png)
+   ![ image3 ](assets/transitions5.png)

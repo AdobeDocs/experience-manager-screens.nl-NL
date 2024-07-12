@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # Offlinekanalen {#offline-channels}
 
-De schermspeler biedt offline ondersteuning voor de kanalen via de ***ContentSync*** -technologie.
+De speler van Screens verleent off-line steun voor de kanalen door de ****** technologie te gebruiken ContentSync.
 
 De spelers gebruiken een lokale http server om de ongezipte inhoud te dienen.
 
-Wanneer een kanaal wordt gevormd om in werking te stellen *online*, dient de speler de kanaal-middelen door tot de AEM server toegang te hebben. Nochtans, wanneer het kanaal wordt gevormd om in werking te stellen *offline*, dient de speler de kanaal-middelen van een lokale server http.
+Wanneer een kanaal wordt gevormd om *online* in werking te stellen, dient de speler de kanaal-middelen door tot de AEM server toegang te hebben. Nochtans, wanneer het kanaal wordt gevormd om *off-line* in werking te stellen, dient de speler de kanaal-middelen van een lokale server http.
 
 De workflow voor het proces is als volgt:
 
@@ -35,13 +35,13 @@ De workflow voor het proces is als volgt:
 
 ## Handlers bijwerken {#update-handlers}
 
-De ***ContentSync*** gebruikt updatehandlers om alle noodzakelijke pagina&#39;s en activa voor een specifiek project te ontleden en te verzamelen. AEM Screens gebruikt de volgende updatehandlers:
+***ContentSync*** gebruikt updatemanagers om alle noodzakelijke pagina&#39;s en activa voor een specifiek project te ontleden en te verzamelen. AEM Screens gebruikt de volgende updatehandlers:
 
 ### Algemene opties {#common-options}
 
-* *type*: het type update-handler dat moet worden gebruikt
-* *pad*: pad naar de bron
-* *[targetRootDirectory]*: doelmap in het ZIP-bestand
+* *type*: Het type van updatemanager aan gebruik
+* *weg*: weg aan het middel
+* *[targetRootDirectory]*: doelomslag in het ZIP dossier
 
 <table>
  <tbody>
@@ -53,7 +53,7 @@ De ***ContentSync*** gebruikt updatehandlers om alle noodzakelijke pagina&#39;s 
   <tr>
    <td><code>channels</code></td> 
    <td>verzamelt een kanaal</td> 
-   <td>uitbreiding : uitbreiding van de te verzamelen bron<br /> [pathSuffix='']: achtervoegsel om aan het kanaalpad toe te voegen<br /> </td> 
+   <td>uitbreiding: uitbreiding van het middel om te verzamelen <br /> [pathSuffix='']: achtervoegsel om aan de kanaalweg toe te voegen <br /> </td> 
   </tr>
   <tr>
    <td><code>clientlib</code></td> 
@@ -79,9 +79,9 @@ Voer de onderstaande stappen uit om de ContentSync-configuratie te testen:
 
 1. Open `https://localhost:4502/libs/cq/contentsync/content/console.html`.
 1. Klik uw config in de lijst.
-1. Klikken **Cache wissen**.
-1. Klikken **Cache bijwerken**.
-1. Klikken **Volledige download**.
+1. Klik **Duidelijk Geheime voorgeheugen**.
+1. Klik **Geheime voorgeheugen van de Update**.
+1. Klik **Volledige Download**.
 1. Extraheer het ZIP-bestand.
 1. Start een lokale server in de uitgepakte map.
 1. Open de startpagina en controleer de status van uw app.
@@ -92,30 +92,30 @@ Volg de onderstaande stappen om offline config voor een kanaal toe te laten:
 
 1. Inspect the channel content and check if it is requested from an AEM Instance (Online).
 
-   ![chlimage_1-24](assets/chlimage_1-24.png)
+   ![ chlimage_1-24 ](assets/chlimage_1-24.png)
 
 1. Navigeer naar het kanaaldashboard.
-1. Klikken **...** in de **KANAALINFORMATIE** Deelvenster.
+1. Klik **...** in het **INFORMATIE VAN HET KANAAL** Comité.
 
-   ![chlimage_1-25](assets/chlimage_1-25.png)
+   ![ chlimage_1-25 ](assets/chlimage_1-25.png)
 
 1. Ga naar de kanaaleigenschappen.
-1. Controleer of het selectievakje is uitgeschakeld op het tabblad (Kanaal) en klik vervolgens op **Opslaan en sluiten**.
+1. Onder het (Kanaal) lusje, zorg ervoor dat checkbox gehandicapt is, dan klik **sparen &amp; sluit**.
 
-   ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
+   ![ screen_shot_2017-12-19at122422pm ](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Voordat de inhoud correct op het apparaat wordt geïmplementeerd, klikt u op de knop **Offline inhoud bijwerken**.
+   Alvorens de inhoud behoorlijk aan het apparaat wordt opgesteld, klik de **Offline Inhoud van de Update**.
 
-   ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
+   ![ screen_shot_2017-12-19at122637pm ](assets/screen_shot_2017-12-19at122637pm.png)
 
-   De **Off line** status onder **EIGENSCHAPPEN** ook dienovereenkomstig bijgewerkt.
+   De **Off-line** status onder **EIGENSCHAPPEN** werkt ook dienovereenkomstig bij.
 
-   ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
+   ![ screen_shot_2017-12-19at124735pm ](assets/screen_shot_2017-12-19at124735pm.png)
 
 1. Inspect de kanaalinhoud en controleer of deze wordt opgevraagd bij de lokale Player-Cache.
 
-   ![chlimage_1-26](assets/chlimage_1-26.png)
+   ![ chlimage_1-26 ](assets/chlimage_1-26.png)
 
 >[!NOTE]
 >
->Leer over het malplaatje voor douane off-line middelmanagers. Meer informatie over de minimumvereisten in de `pom.xml` voor het project. Zie [Sjabloon voor aangepaste handlers](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Een aangepaste component voor AEM Screens ontwikkelen**.
+>Leer over het malplaatje voor douane off-line middelmanagers. Meer informatie over de minimale vereisten in de `pom.xml` voor het project. Zie [ Malplaatje voor de Handlers van de Douane ](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Ontwikkelend een Component van de Douane voor AEM Screens**.

@@ -15,13 +15,13 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor het AEM 6.3 Screens-platform.
 
 ## Beschikbaarheid {#availability}
 
 AEM Screens heeft AEM 6.5 Feature Pack 10 uitgebracht.
 
-U kunt de nieuwste versie van het Feature Pack voor de AEM Screens 6.5.10 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Ga naar de **Adobe Experience Manager** tabblad en zoeken naar **Schermen** om het nieuwste elementenpakket met de titel **AEM 6.5 Schermen FP10**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.10 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP10**.
 
 ## Releasedatum {#release-date}
 
@@ -29,7 +29,7 @@ De releasedatum voor AEM Screens Feature Pack 202112 is 12 januari 2022.
 
 ### Wat is er nieuw? {#what-is-new}
 
-* Toepassingsupdates van Android™ zijn nu bedoeld voor Android™ 11 (API-niveau 30). De Android™-speler bevindt zich momenteel in doel-API-niveau 29.
+* Android™-toepassingsupdates zijn nu gericht op Android™ 11 (API-niveau 30). De Android™-speler bevindt zich momenteel in doel-API-niveau 29.
 
 * Weergavevoorvertoning blijft hangen bij vorige spelerconfiguratie
 
@@ -69,4 +69,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 10 van de Ei
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/index.html)**.

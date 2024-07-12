@@ -29,8 +29,8 @@ Het doel van deze functie is de tijd die nodig is om het project op te zetten te
 
 Door de auteur een spreadsheet als inputdossier te laten verstrekken, en het systeem te laten automatisch de locatieboom in het achterste eind creëren, deze eigenschap:
 
-* *behaalt betere prestaties dan handmatig selecteren via de gebruikersinterface*
-* *laat de klant de plaatsen uitvoeren zij van hun eigen systeem hebben en hen gemakkelijk direct in AEM invoeren*
+* *bereikt betere prestaties dan manueel het selecteren door UI*
+* *laat de klant de plaatsen uitvoeren zij van hun eigen systeem hebben en hen gemakkelijk direct in AEM* invoeren
 
 Dit proces bespaart zowel tijd als geld tijdens aanvankelijke projectopstelling of wanneer het uitbreiden van bestaande AEM Screens tot nieuwe plaatsen.
 
@@ -38,7 +38,7 @@ Dit proces bespaart zowel tijd als geld tijdens aanvankelijke projectopstelling 
 
 In het volgende diagram ziet u het architecturale overzicht van de functie Project Importer:
 
-![screen_shot_2019-05-14at20618pm](assets/screen_shot_2019-05-14at20618pm.png)
+![ screen_shot_2019-05-14at20618pm ](assets/screen_shot_2019-05-14at20618pm.png)
 
 ### Gegevensmodel {#data-model}
 
@@ -48,22 +48,22 @@ Het gegevensmodel voor de projectimportmodule wordt hieronder beschreven:
 >
 >De huidige versie ondersteunt alleen het importeren van locaties.
 
-| **Eigenschap** | **Beschrijving** |
+| **Bezit** | **Beschrijving** |
 |---|---|
 | ***`path {string*}`*** | Het bronnenpad voor de locatie |
-| ***`[./jcr:title] {string*}`*** | De naam van de sjabloon die moet worden gebruikt (de locatie voor *schermen/kern/sjablonen/locatie*) |
+| ***`[./jcr:title] {string*}`*** | De naam van het malplaatje aan gebruik (namelijk de plaats voor *schermen/kern/templates/plaats*) |
 | ***`template {string}`*** | Optionele titel voor de pagina |
 | ***`[./jcr:description] {string}`*** | Optionele beschrijving voor de pagina |
 
 Voor het spreadsheetbestand (CSV/XLS) zijn dus de volgende kolommen vereist:
 
-* **pad {string}** - Het pad voor de te importeren locatie, waarbij de hoofdmap van het pad de locatiemap voor het project is (dat wil zeggen: *`/foo`* wordt geïmporteerd naar *`/content/screens/<project>/locations/foo`*)
-* **template {string}** - De sjabloon die voor de nieuwe locatie moet worden gebruikt, is nu de enige toegestane waarde &quot;location&quot;, maar deze waarde wordt in de toekomst uitgebreid tot alle screensjablonen (`display`, `sequencechannel`, enzovoort)
-* **[./*] {string}** - Een optionele eigenschap die op de locatie moet worden ingesteld (dat wil zeggen: `./jcr:title`, `./jcr:description`, `./foo, ./bar`). De huidige versie staat geen filtreren toe.
+* **weg {string}** - de weg voor de plaats die moet worden ingevoerd, waar de wortel van de weg de plaatsomslag voor het project (namelijk *`/foo`* wordt ingevoerd in *`/content/screens/<project>/locations/foo`*) is
+* **malplaatje {string}** - het malplaatje voor de nieuwe plaats te gebruiken, nu is de enige toegestane waarde &quot;plaats&quot;, maar deze waarde wordt uitgebreid tot alle malplaatjes van Screens in de toekomst (`display`, `sequencechannel`, etc.)
+* **[./* ] {string}** - Om het even welke facultatieve bezit dat op de plaats (namelijk `./jcr:title`, `./jcr:description`, `./foo, ./bar`) moet worden geplaatst. De huidige versie staat geen filtreren toe.
 
 >[!NOTE]
 >
->Een kolom die niet voldoet aan de bovenstaande voorwaarden, wordt genegeerd. Als er bijvoorbeeld een andere kolom in het bestand CSV/XLS (sheet) is gedefinieerd, behalve **pad**, **template**, **titel**, en **beschrijving** in uw bestand worden deze velden genegeerd. En, **Project importeren** valideert deze aanvullende velden voor het importeren van uw project naar uw AEM Screens-project niet.
+>Een kolom die niet voldoet aan de bovenstaande voorwaarden, wordt genegeerd. Bijvoorbeeld, als u een andere kolom hebt die in uw blad (CSV/XLS) dossier buiten **wordt bepaald weg**, **malplaatje**, **titel**, en **beschrijving** in uw dossier, worden die gebieden genegeerd. En, **bevestigt de Importeur van het Project** niet die extra gebieden voor het invoeren van uw project aan uw project van AEM Screens.
 
 ## Project importeren gebruiken {#using-project-importer}
 
@@ -79,7 +79,7 @@ In de volgende sectie wordt beschreven hoe de projectimportmodule wordt gebruikt
 
 ### Vereisten {#prerequisites}
 
-* Een project maken met de naam **DemoProjectImport**
+* Creeer een project dat als **wordt genoemd DemoProjectImport**
 
 * Gebruik een voorbeeld-CSV- of Excel-bestand dat u moet importeren.
 
@@ -95,26 +95,26 @@ Voer de onderstaande stappen uit om een bestand te importeren naar een locatiema
 >
 >In het volgende voorbeeld worden de minimaal vier velden weergegeven die vereist zijn om uw project te importeren:
 
-![screen_shot_2019-05-14at21523pm](assets/screen_shot_2019-05-14at21523pm.png)
+![ screen_shot_2019-05-14at21523pm ](assets/screen_shot_2019-05-14at21523pm.png)
 
-1. Ga naar uw AEM Screens-project (**DemoProjectImport**).
+1. Navigeer aan uw project van AEM Screens (**DemoProjectImport**).
 
-   ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
+   ![ screen_shot_2019-05-12at52651am ](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Klik op het project** DemoProjectImporter **>** Maken **>** Locaties** importeren vanaf de zijbalk.
+1. Klik het project,** DemoProjectImporter **>** creeer **>** de Plaatsen van de Invoer** van de zijbar.
 
-   ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
+   ![ screen_shot_2019-05-12at52433am ](assets/screen_shot_2019-05-12at52433am.png)
 
-1. De **Importeren** wordt weergegeven. Klik het dossier voor uw project met plaatsen of klik het dossier (***minimum-file.xls***) die u hebt gedownload van de *Vereisten* sectie.
+1. De **tovenaar van de Invoer** wordt getoond. Klik het dossier voor uw project met plaatsen of klik het dossier (***minimum-file.xls***) u van de *sectie van Eerste vereisten* downloadde.
 
-   Klik op **Volgende**.
+   Nadat u het dossier hebt geselecteerd, klik **daarna**.
 
-   ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
+   ![ screen_shot_2019-05-15at113718am ](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Controleer de inhoud van het bestand (locaties) via de wizard Importeren en klik op **Importeren**.
+1. Verifieer de inhoud van het dossier (plaatsen) van de tovenaar van de Invoer en klik **Invoer**.
 
-   ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
+   ![ screen_shot_2019-05-12at53131am ](assets/screen_shot_2019-05-12at53131am.png)
 
 1. Hierdoor kunt u nu alle locaties weergeven die in uw project zijn geïmporteerd.
 
-   ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+   ![ screen_shot_2019-05-12at53450am ](assets/screen_shot_2019-05-12at53450am.png)

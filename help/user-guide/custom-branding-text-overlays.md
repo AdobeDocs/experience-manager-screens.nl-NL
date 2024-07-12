@@ -21,7 +21,7 @@ Leer hoe u aangepaste branding en opmaak toepast voor tekstbedekkingen die op uw
 
 Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkingen te maken:
 
-1. Maak een AEM Screens-project. In dit voorbeeld wordt de functionaliteit weergegeven door een project met de naam **`customstyle`** en een kanaal met **DemoBrand**, zoals weergegeven in onderstaande afbeelding.
+1. Maak een AEM Screens-project. Dit voorbeeld toont de functionaliteit door een project te creëren genoemd **`customstyle`** en een kanaal genoemd **DemoBrand**, zoals aangetoond in het hieronder cijfer.
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -30,15 +30,15 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >Ga voor meer informatie over het toevoegen van een tekstbedekking aan uw element in een kanaaleditor naar [Tekstbedekking](/help/user-guide/text-overlay.md).
+   >Leren hoe te om een tekstbedekking aan uw activa in een kanaalredacteur toe te voegen, zie [ Bedekking van de Tekst ](/help/user-guide/text-overlay.md).
 
-1. Navigeer naar CRXDE Lite via AEM > Gereedschappen > **CRXDE Lite**.
+1. Navigeer aan CRXDE Lite van uw AEM instantie > hulpmiddelen > **CRXDE Lite**.
 
-1. Een aangepast ontwerp maken in `/apps/settings/wcm/designs/<your-project>/`In dit geval navigeert u bijvoorbeeld naar `/apps/settings/wcm/designs/customstyle/`
+1. Een aangepast ontwerp maken in `/apps/settings/wcm/designs/<your-project>/` , navigeer in dit geval naar `/apps/settings/wcm/designs/customstyle/`
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Een *static.css* en stelt de volgende CSS-regels in. Wordt ook weergegeven als voorbeeld in de afbeelding onder de CSS-regels.
+1. Creeer a *static.css* dossier en plaats de volgende css regels. Wordt ook weergegeven als voorbeeld in de afbeelding onder de CSS-regels.
 
    ```shell
     //global styles
@@ -65,56 +65,56 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. Kopieer het pad naar uw project, in dit geval is het pad `/apps/settings/wcm/designs/customstyle`.
+1. Kopieer het pad naar uw project, in dit geval is het pad `/apps/settings/wcm/designs/customstyle` .
 
-1. Navigeren naar het kanaal met de naam **DemoBrand** (gemaakt in stap (1)) en klik op **Eigenschappen** in de actiebalk nadat u het kanaal hebt geselecteerd.
+1. Navigeer aan het kanaal dat als **wordt genoemd DemoBrand** (in stap (1) wordt gecreeerd) en klik **Eigenschappen** van de actiebar na het selecteren van het kanaal.
 
-1. Ga naar de **Geavanceerd** en controleer de **Ontwerp** veld.
+1. Navigeer aan het **Geavanceerde** lusje en controleer het **3} gebied van het Ontwerp {.**
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >Standaard zijn de **Ontwerp** in het veld wordt het pad weergegeven dat naar ontwerpen verwijst in de map libs.
+   >Ben gebrek, toont het **1} gebied van het Ontwerp {de weg die aan ontwerpen in de bibliotheekomslag richt.**
 
-1. Werk de **Ontwerp** veld met het pad naar de projectmap. In dit geval is het `/apps/settings/wcm/designs/customstyle`.
+1. Werk het **gebied van het Ontwerp** met de weg aan uw projectomslag bij. In dit geval is dit `/apps/settings/wcm/designs/customstyle` .
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Klikken **Opslaan en sluiten** om het ontwerppad bij te werken.
+1. Klik **sparen &amp; dicht** om de ontwerppad bij te werken.
 
    >[!IMPORTANT]
-   >U kunt desgewenst de bestaande sjablonen voor schermen bedekken om uw eigen ontwerpen standaard te injecteren of uw eigen sjabloon geheel maken. Zie de onderstaande stappen voor meer informatie.
+   >U kunt desgewenst de bestaande Screens-sjablonen bedekken om uw eigen ontwerpen standaard te injecteren of uw eigen sjabloon geheel maken. Zie de onderstaande stappen voor meer informatie.
 
-1. Als u de bestaande sjablonen voor schermen wilt bedekken om uw eigen ontwerpen standaard te injecteren:
+1. Als u de bestaande Screens-sjablonen wilt bedekken om uw eigen ontwerpen standaard te injecteren:
 
-   1. Bedekking `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
-   1. Wijzig de *`cq:designPath`* eigenschap in `/apps/screens/core/templates/sequencechannel/jcr:content` zodat het naar het nieuwe ontwerp verwijst.
+   1. Bedekking `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel` .
+   1. Wijzig de eigenschap *`cq:designPath`* in `/apps/screens/core/templates/sequencechannel/jcr:content` zodat deze naar het nieuwe ontwerp wijst.
 
 1. Uw eigen sjabloon maken:
-   1. Kopiëren `/libs/screens/core/templates/sequencechannel` tot `/apps/customstyle/templates/styled-sequencechannel`.
-   1. Wijzig de *`cq:designPath`* eigenschap in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` zodat het naar het nieuwe ontwerp verwijst.
+   1. Kopieer `/libs/screens/core/templates/sequencechannel` naar `/apps/customstyle/templates/styled-sequencechannel` .
+   1. Wijzig de eigenschap *`cq:designPath`* in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` zodat deze naar het nieuwe ontwerp wijst.
 
 
 ### ACLs bijwerken {#updating-acls}
 
 Werk ACLs voor deze ontwerpen bij zodat kan de speler hen downloaden.
 
-1. Navigeer naar gebruikersbeheerder en kies de optie `screens-<project>-devices group` en geeft deze leesmachtigingen aan het aangepaste ontwerppad.
+1. Navigeer naar gebruikersbeheerder en kies `screens-<project>-devices group` en geef deze leesmachtigingen voor het aangepaste ontwerppad.
 
-1. Verlenen `screens-<project>-administrators` machtigingen voor het lezen en wijzigen van dit pad groeperen.
+1. Geef `screens-<project>-administrators` machtigingen voor het lezen en wijzigen van dit pad op.
 
 ## Het resultaat weergeven {#viewing-the-result}
 
-Wanneer u de voorgaande stappen hebt uitgevoerd, kunt u uw *stats.css* bestand van **CRXDE Lite** en bekijk daarom de update van uw tekstbedekking die al aan het element is toegevoegd.
+Wanneer u de voorafgaande stappen hebt voltooid, kunt u uw {*dossier 0} stats.css van **CRXDE Lite**bijwerken en daarom de update aan uw tekstbedekking bekijken die reeds aan de activa wordt toegevoegd.*
 
 Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking weer te geven:
 
-1. Ga naar uw AEM Screens-project met de naam **`customstyle`** > **Kanalen** > **DemoBrand**. Klik op het kanaal en klik **Bewerken** in de actiebalk.
+1. Navigeer aan uw project van AEM Screens dat als **`customstyle`** wordt genoemd > **Kanalen** > **DemoBrand**. Klik het kanaal en klik **uitgeven** van de actiebar.
 
-1. Aangezien u het ontwerp nu aan uw **Ontwerpen** , zoals hierboven vermeld, klikt u op **Voorvertoning** Hiermee geeft u de huidige opmaak op de afbeelding weer met tekstbedekking.
+1. Aangezien u nu het ontwerp aan uw **Ontwerpen** gebied, zoals hierboven vermeld hebt toegevoegd, klik **Voorproef** om het huidige stileren op het beeld met tekstbedekking te bekijken.
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Ga naar uw *static.css* bestand in CRXDE Lite en voeg het lettertype toe, zoals `font-family: "Lucida Console", Courier, monospace;` naar dit bestand, zoals hieronder wordt weergegeven.
+1. Navigeer aan uw *static.css* dossier in CRXDE Lite, en voeg de doopvont zoals, `font-family: "Lucida Console", Courier, monospace;` aan dit dossier toe, zoals hieronder getoond.
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
@@ -122,7 +122,7 @@ Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking 
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Bovendien kunt u de laatste twee codeblokken verwijderen uit de *static.css* bestand om de opmaakcode van de vakken rond de tekstbedekking te verwijderen.
+1. Ook, kunt u de laatste twee blokken van code uit het {*dossier verwijderen 0} static.css om het in dozen vervaardigde stileren rond de tekstbedekking te verwijderen.*
 
 ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand10.png)
 

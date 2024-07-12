@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Rapport Inhoudstoewijzing {#content-assignment-report}
 
-Met de functie Rapport voor toewijzing van inhoud kan een AEM Screens-beheerder of auteur een *Rapport Inhoudstoewijzing* in spreadsheetformaat.
+De eigenschap van het Rapport van de Toewijzing van de Inhoud staat een beheerder van AEM Screens of een auteur toe om het Rapport van de Toewijzing van de a *Inhoud* in een spreadsheetformaat uit te voeren.
 
 ## Rapport Inhoudstoewijzing gebruiken {#using-content-assignment-report}
 
 Met het Rapport Inhoudstoewijzing kan een AEM Screens-auteur of een beheerder het rapport downloaden dat alle elementen bevat, zoals afbeeldingen en video&#39;s, in alle kanalen die in een AEM Screens-project zijn gemaakt. Het bevat ook de informatie van de volledige kanalen die aan alle aangewezen beeldschermen zijn toegewezen en voortaan alle apparaten die aan hun aangewezen beeldschermen zijn toegewezen.
 
-Met het Rapport Inhoudstoewijzing kunt u niet alleen een voorvertoning weergeven van alle kanalen, middelen, beeldschermen en apparaten in het geselecteerde AEM Screens-project, maar beschikt u ook over een structuur op hoog niveau voor uw project.
+Met het Rapport Inhoudstoewijzing kunt u niet alleen een voorvertoning weergeven van alle kanalen, Assets, beeldschermen en apparaten in het geselecteerde AEM Screens-project, maar beschikt u ook over een structuur op hoog niveau voor uw project.
 
 
 ### Voorwaarden {#pre-reqs}
@@ -45,19 +45,19 @@ Wanneer u uw AEM Screens-project hebt ingesteld en vertoningen hebt toegewezen a
 
 Volg de onderstaande instructies om het Rapport Inhoudstoewijzing te downloaden:
 
-1. Ga naar uw AEM Screens-project en klik op het project **DemoScreens**.
+1. Navigeer aan uw project van AEM Screens en klik het project **DemoScreens**.
 
-1. Klikken **Rapport Inhoudstoewijzing** in de actiebalk.
+1. Klik **Rapport van de Toewijzing van de Inhoud** van de actiebar.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Het gedownloade werkblad bestaat uit twee tabbladen, zoals **Locaties** en **Inhoud**. Op het tabblad Locatie worden vier kolommen weergegeven, zoals **Locaties**, **Weergaven**, **Kanalen**, en **Apparaten** die kunnen worden gebruikt voor het onderzoeken van deze vier entiteiten met betrekking tot uw AEM Screens-project.
+1. Het gedownloade spreadsheet bestaat uit twee lusjes zoals **Plaatsen** en **Inhoud**. Het lusje van de Plaats toont vier kolommen zoals **Plaatsen**, **Vertoningen**, **Kanalen**, en **Apparaten** die voor het onderzoeken van deze vier entiteiten met betrekking tot uw project van AEM Screens kunnen worden gebruikt.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
    >De gegevens die in het werkblad worden weergegeven, worden alfabetisch gesorteerd in een leesbare indeling.
 
-1. Een van de kanalen selecteren in het dialoogvenster **Kanalen** de kolom opent **Inhoud** tab. Het programma navigeert u rechtstreeks naar dat kanaal en geeft u informatie over elementen (afbeeldingen en video&#39;s) die aan dat specifieke kanaal zijn gekoppeld.
+1. Het selecteren van om het even welke kanalen van de **kolom van Kanalen** opent de **Inhoud** tabel. Het programma navigeert u rechtstreeks naar dat kanaal en geeft u informatie over elementen (afbeeldingen en video&#39;s) die aan dat specifieke kanaal zijn gekoppeld.
 
    ![afbeelding](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

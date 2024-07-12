@@ -26,45 +26,45 @@ Als AEM beheerder, wilt u ervoor zorgen dat de teamleden van een project zich ni
 
 De volgende stappen vatten de procedure voor vestiging ACLs voor een project samen:
 
-1. Aanmelden om te AEM en naar **Gereedschappen** > **Beveiliging**.
+1. Login aan AEM en navigeer aan **Hulpmiddelen** > **Veiligheid**.
 
-   ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
+   ![ screen_shot_2018-02-16at10156pm ](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Klikken **Groepen** en voer een id in (bijvoorbeeld Acme).
+1. Klik **Groepen** en ga identiteitskaart (bijvoorbeeld, Toegang) in.
 
-   U kunt ook deze koppeling gebruiken, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
+   U kunt deze koppeling ook gebruiken, `http://localhost:4502/libs/granite/security/content/groupadmin.html` .
 
-   Klik op Volgende **Opslaan**.
+   Daarna, klik **sparen**.
 
-   ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
+   ![ screen_shot_2018-02-16at12648pm ](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Klikken **Medewerkers** in de lijst en dubbelklik erop.
+1. Klik **Medewerkers** van de lijst en klik het tweemaal.
 
-   ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
+   ![ screen_shot_2018-02-18at33938pm ](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Voeg de **Acme** (project dat u hebt gemaakt) naar **Leden toevoegen aan de groep**. Klikken **Opslaan**.
+1. Voeg de **Toegang** (project dat u) creeerde toe **leden aan de Groep** toevoegen. Klik **sparen**.
 
-   ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
+   ![ screen_shot_2018-02-18at35630pm ](assets/screen_shot_2018-02-18at35630pm.png)
 
    >[!NOTE]
    >
    >Als u projectteamleden spelers wilt registreren (wat het creëren van een gebruiker voor elke speler impliceert) zoek de groep gebruiker-beheerders en voeg de ACME groep aan gebruiker-beheerders toe
 
-1. Voeg alle gebruikers toe die aan de **Acme** Project aan de **Acme** groep.
+1. Voeg alle gebruikers toe die aan het **Acme** Project aan de **Acme** groep werken.
 
-   ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
+   ![ screen_shot_2018-02-18at41320pm ](assets/screen_shot_2018-02-18at41320pm.png)
 
-1. De machtigingen voor de groep instellen **Acme** gebruiken `(http://localhost:4502/useradmin)`.
+1. Opstelling de toestemmingen voor de groep **Toegang** gebruikend dit `(http://localhost:4502/useradmin)`.
 
-   Klik op de groep **Acme** en klik op de knop **machtigingen**.
+   Klik de groep **Toegang** en klik de **toestemmingen**.
 
-   ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
+   ![ screen_shot_2018-02-18at41534pm ](assets/screen_shot_2018-02-18at41534pm.png)
 
 ### Machtigingen {#permissions}
 
 De volgende lijst vat de weg met de toestemmingen op het projectniveau samen:
 
-| **Pad** | **Machtiging** | **Beschrijving** |
+| **Weg** | **Toestemming** | **Beschrijving** |
 |---|---|---|
 | `/apps/<project>` | LEZEN | Indien van toepassing toegang verlenen tot projectbestanden. |
 | `/content/dam/<project>` | ALLES | Toegang bieden tot de opslag van de projectmiddelen, zoals afbeeldingen of video in DAM. |
@@ -83,9 +83,9 @@ Het creëren van een project zou standaardgebruikersgroepen met een basisreeks t
 
 U kunt bijvoorbeeld de volgende projectspecifieke groepen maken:
 
-* Scherm Projectbeheerders
-* Schert Projectoperators (registreer spelers en beheer locaties en apparaten)
-* De Gebruikers van het Project van schermen (werk met kanalen, programma&#39;s, en kanaaltaken)
+* Screens-projectbeheerders
+* Screens Project Operators (registreer spelers en beheer locaties en apparaten)
+* Screens Project Users (werken met kanalen, planningen en kanaaltoewijzingen)
 
 De volgende tabel geeft een overzicht van de groepen met een beschrijving en machtigingen voor een AEM Screens-project:
 
@@ -97,7 +97,7 @@ De volgende tabel geeft een overzicht van de groepen met een beschrijving en mac
    <td><strong>Machtigingen</strong></td>
   </tr>
   <tr>
-   <td>Schermbeheerders<br /> <em><code>screens-admins</code></em></td>
+   <td>Screens Admins<br /> <em><code>screens-admins</code></em></td>
    <td>Toegang op beheerniveau voor AEM Screens-mogelijkheden</td>
    <td>
     <ul>
@@ -110,7 +110,7 @@ De volgende tabel geeft een overzicht van de groepen met een beschrijving en mac
     </ul> </td>
   </tr>
   <tr>
-   <td>Schermgebruikers<br /> <em><code>screens-users</code></em></td>
+   <td>Screens-gebruikers<br /> <em><code>screens-users</code></em></td>
    <td>Kanalen en schema's maken en bijwerken en toewijzen aan locaties in AEM Screens</td>
    <td>
     <ul>
@@ -121,7 +121,7 @@ De volgende tabel geeft een overzicht van de groepen met een beschrijving en mac
     </ul> </td>
   </tr>
   <tr>
-   <td>Schermoperatoren<br /> <em><code>screens-operators</code></em></td>
+   <td>Screens-operatoren<br /> <em><code>screens-operators</code></em></td>
    <td>Locatiestructuur maken en bijwerken en spelers registreren in AEM Screens</td>
    <td>
     <ul>
@@ -132,7 +132,7 @@ De volgende tabel geeft een overzicht van de groepen met een beschrijving en mac
     </ul> </td>
   </tr>
   <tr>
-   <td>Schermspelers<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
+   <td>Screens-spelers<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>Alle spelers en alle spelers/apparaten zijn automatisch lid van de contribuanten.</td>
    <td><p> Lid van contribuanten</p> </td>
   </tr>

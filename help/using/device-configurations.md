@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Een typisch belanghebbende voor deze activiteit is een Audio-Video Integrator.
 
-Gebaseerd op de informatie die tijdens *Dagnul*, bevestig de volgende informatie voordat u begint met de ontwikkeling:
+Gebaseerd op de informatie die tijdens *Nul van de Dag* wordt verzameld, bevestig de volgende informatie alvorens ontwikkeling te beginnen:
 
 * Wat is de richting, afmetingen en resolutie van de schermen die worden gebruikt?
 

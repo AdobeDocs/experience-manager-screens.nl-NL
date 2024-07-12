@@ -40,7 +40,7 @@ Adobe omvat Adobe Managed Services-bronnen zoals de CSE (Customer Success Engine
 
 #### Implementators AEM {#aem-implementors}
 
-An **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
+Een **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings en integratietaken om de gebruikerservaring, douanemalplaatjes, en achterste-eindintegratie voor AEM te ontwikkelen.
 
 Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Experience) van eindgebruikers worden ook vastgelegd en via dit proces geleverd.
 
@@ -48,7 +48,7 @@ AEM Implementors implementeren doorgaans aangepaste functionaliteit in fasen in 
 
 #### Audio-video-integratoren {#av-integrators}
 
-An **Audio-video-integrator** is verantwoordelijk voor het uitvoeren van ontdekkingen met eindgebruikers om vereisten te definiëren, het projectbereik te bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
+Een **Audio-Video Integrator** is verantwoordelijk voor het leiden van ontdekking met eindklanten om vereisten te bepalen, bepalend projectwerkingsgebied aan ontwerp, bouwt en effectief plaatsingen rond digitale signaalhardware beheert.
 
 ## Deel 1: Videozelfstudie over projectrollen en -verantwoordelijkheden {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -58,10 +58,10 @@ Volg de onderstaande zelfstudie om precies te begrijpen hoe elke partij in de im
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Leer over de rollen en de verantwoordelijkheden van Adobe, Audio/Visuele Integrators, en AEM Implementors.*
+*leer over de rollen en de verantwoordelijkheden van Adobe, Audio/Visuele Integrators, en AEM Implementors.*
 
 ## De volgende stap {#the-next-step}
 
 Wanneer u de projectrollen en de verantwoordelijkheden in het uitvoeren van een digitaal ondertekeningsproject begrijpt, volg het volgende leerprogramma. Het delft in onderwerpen zoals het testen en pre-sales overwegingen aangezien het project wanneer het ontwikkelen van de kansen van AEM Screens wordt behandeld.
 
-Navigeren naar **[Deel 2: Aandachtspunten als projecten](project-considerations.md)** voor meer informatie .
+Navigeer aan **[Deel 2: Overwegingen aangezien de Projecten](project-considerations.md)** voor meer details worden gescoord.

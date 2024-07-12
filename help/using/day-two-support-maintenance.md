@@ -18,8 +18,8 @@ Volg de richtlijnen voor steun en onderhoud voor Dag twee van de projectontwikke
 1. Voer de meest recente versies van de volgende pakketten uit voor uw versie van Adobe Experience Manager:
 
    * **AEM Service Pack**
-   * **Schermfuncties**
-   * **AEM Cumulatief reparatiepakket**
+   * **het Pak van de Eigenschap van Screens**
+   * **AEM Cumulatief Pak van de Moeilijke situatie**
 
 1. Identificeer om het even welke ontwikkelingspakketten (bijvoorbeeld, componenten van de Kern WCM) of derdehulpmiddelkits (bijvoorbeeld, de Hybris van SAP) die worden vereist.
 

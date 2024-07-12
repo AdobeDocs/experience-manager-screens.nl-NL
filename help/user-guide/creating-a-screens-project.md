@@ -18,60 +18,60 @@ ht-degree: 0%
 
 # Projecten maken en beheren {#creating-and-managing-projects}
 
-De AEM Screens is beschikbaar door de Adobe Experience Manager-koppeling (linksboven) te selecteren en vervolgens de koppelingen te screenen.
+De AEM Screens is beschikbaar door de Adobe Experience Manager-koppeling (linksboven) te selecteren en vervolgens Screens.
 
 U kunt ook rechtstreeks navigeren naar: `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
->**Navigatietips:**
+>**Uiteinde van de Navigatie:**
 >U kunt de cursorsleutels ook gebruiken om door verschillende omslagen in AEM te navigeren. Nadat u op een bepaalde entiteit hebt geklikt, drukt u op de spatiebalk om eigenschappen voor die specifieke map te bewerken of weer te geven.
 
-## Een nieuw schermproject maken
+## Een nieuw Screens-project maken
 
-1. Klikken **Schermen** van uw AEM instantie.
-1. Klikken **Schermproject maken**.
-1. Voer de titel in als **TestScreens** en klik op **Opslaan**.
+1. Klik **Screens** van uw AEM instantie.
+1. Klik **creëren het Project van Screens**.
+1. Ga de titel als **TestScreens** in en klik **sparen**.
 
-Het project wordt gecreeerd en het brengt u terug naar de console van het Project van de Schermen. U kunt nu op uw project klikken.
+Het project wordt gecreeerd en het brengt u terug naar de console van het Project van Screens. U kunt nu op uw project klikken.
 
 In een project, zijn er vijf soorten omslagen, zoals aangetoond in het hieronder cijfer:
 
-* **Planningen**
-* **Locaties**
+* **Programma&#39;s**
+* **Plaatsen**
 * **Toepassingen**
 * **Apparaten**
 * **Kanalen**
 
-![player1](assets/create-project.gif)
+![ player1 ](assets/create-project.gif)
 
 >[!NOTE]
 >
->De oorspronkelijke structuur bevat standaard de **Planningen**, **Locaties**, **Toepassingen**, **Kanalen**, en **Apparaten** primaire pagina&#39;s, maar deze structuur kan indien nodig handmatig worden aangepast. U kunt de opties verwijderen als de beschikbare opties niet relevant zijn voor uw project.
+>Door gebrek, bevat de aanvankelijke structuur de **Programma&#39;s**, **Plaatsen**, **Toepassingen**, **Kanalen**, en **Apparaten** primaire pagina&#39;s, maar deze structuur kan manueel worden aangepast indien nodig. U kunt de opties verwijderen als de beschikbare opties niet relevant zijn voor uw project.
 
 
 ## Weergaveeigenschappen {#viewing-properties}
 
-Nadat u het project van Schermen creeert, klik het project en klik **Eigenschappen** van de actiebar zodat kunt u de eigenschappen van uw project uitgeven.
+Nadat u het project van Screens creeert, klik het project en klik **Eigenschappen** van de actiebar zodat kunt u de eigenschappen van uw project uitgeven.
 
-Met de volgende opties kunt u eigenschappen van uw **TestScreens**.
+De volgende opties staan u toe om eigenschappen van uw **TestScreens** uit te geven/te veranderen.
 
 ![afbeelding](assets/create-project2.png)
 
 ## Een aangepaste map maken {#creating-a-custom-folder}
 
-U kunt ook uw eigen aangepaste map maken onder het dialoogvenster **Planningen**, **Locaties**, **Toepassingen**, **Kanalen**, en **Apparaten** primaire pagina&#39;s die beschikbaar zijn in uw project.
+U kunt uw eigen douanemap onder de **Programma&#39;s**, **Plaatsen**, **Toepassingen**, **Kanalen**, en **Apparaten** primaire pagina&#39;s ook tot stand brengen die in uw project beschikbaar zijn.
 
 Een aangepaste map maken:
 
-1. Klik op uw project en klik **Maken** naast het plusteken in de actiebalk.
-1. De **Maken** wordt geopend en klikt u op de gewenste optie.
+1. Klik uw project en klik **creëren** naast het plus pictogram in de actiebar.
+1. De **creeer** tovenaar opent en klikt de aangewezen optie.
 1. Klik op **Next**.
-1. Voer de eigenschappen in en klik op **Maken**.
+1. Ga de eigenschappen in en klik **creëren**.
 
-In de volgende stappen ziet u hoe u een toepassingsmap maakt voor uw **Toepassingen** primaire pagina in **TestScreens**.
+De volgende stappen tonen de verwezenlijking van een toepassingsomslag aan uw **Toepassingen** primaire pagina in **TestScreens**.
 
-![player2-1](assets/create-project3.gif)
+![ speler2-1 ](assets/create-project3.gif)
 
 ### De volgende stappen {#the-next-steps}
 
-Wanneer u uw eigen project hebt gemaakt, raadpleegt u [Kanaalbeheer](managing-channels.md) om inhoud in uw kanaal te maken en te beheren.
+Wanneer u uw eigen project hebt gecreeerd, zie [ Beheer van het Kanaal ](managing-channels.md) om inhoud in uw kanaal tot stand te brengen en te beheren.

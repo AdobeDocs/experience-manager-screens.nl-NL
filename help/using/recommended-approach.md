@@ -17,30 +17,40 @@ Het is de beste praktijk om elk AEM Screens-project op ondernemingsniveau te bes
 
 Zie de weinige aanbevelingen alvorens een digitaal ondertekeningsproject te ontwikkelen en op te stellen:
 
-* **Bereik**: Als de gewenste oplossing ambitieus is, wordt u aangeraden de te leveren items op te splitsen in afzonderlijke fasen om het bereik van het project te bepalen.
+* **Controle van het Toepassingsgebied**:
+Als de gewenste oplossing ambitieus is, wordt aanbevolen de te leveren items in afzonderlijke fasen te verdelen om het bereik van het project te bepalen.
 
-* **Gevallen voor gedefinieerd gebruik**: De projectfasen moeten nauwkeurig omschreven gebruiksgevallen met duidelijk vastgestelde succescriteria opleveren.
+* **bepaalde Gevallen van het Gebruik**:
+De projectfasen moeten nauwkeurig omschreven gebruiksgevallen met duidelijk vastgestelde succescriteria opleveren.
 
-* **Incrementele te leveren items**: Focus op het stapsgewijs leveren van functies.
+* **Incrementele Geleveringen**:
+Focus op het stapsgewijs leveren van functies.
 
-* **Geschatte resultaten schatten**: Begin met de functies van de out-of-the-box AEM Screens voordat u aangepaste componenten en integraties gaat maken. altijd brainstorm als het gewenste resultaat kan worden bereikt met de onderdelen en functies die standaard bij AEM Screens worden geleverd.
+* **Schatting Gewenst resultaat**:
+Begin met uit-van-de-doos eigenschappen van AEM Screens alvorens douanecomponenten en integraties te bouwen. altijd brainstorm als het gewenste resultaat kan worden bereikt met de onderdelen en functies die standaard bij AEM Screens worden geleverd.
 
-* **Piloten, rollouts en concepttest definiëren**: Ontwikkelen van een concepttest (Proof of Concept, POC&#39;s) en indien nodig aanpassen door middel van een proef en uitrol.
+* **het bepalen van Piloten, Rollouts, en POCs**:
+Ontwikkelen van een concepttest (Proof of Concept, POC&#39;s) en indien nodig aanpassen via een proefproject en uitrol.
 
-* **Vooraf gedefinieerde inhoudsstrategie**: Een inhoudstrategie vaststellen, met inbegrip van doelstellingen op korte en lange termijn. Ook, richt merkdoelstellingen/KPIs met eigenschapverbeteringen.
+* **pre-definiërend inhoudsstrategie**:
+Vaststellen van een inhoudsstrategie, inclusief doelstellingen op korte en lange termijn. Ook, richt merkdoelstellingen/KPIs met eigenschapverbeteringen.
 
   >[!NOTE]
   >
   > De upfront-kosten zijn vaak hoger voor een AEM Screens-project, omdat u moet investeren in hardware, reparaties en siteontwerpen. Daarom kan het eenvoudiger houden van initiële inhoudoplossingen helpen bij het beheer van de budgetverwachtingen.
 
-* **Grootschalige te leveren items schatten**: Indien de oplossing op grote schaal wordt geleverd, dient u de onderdelen van de toepassing uit te rollen naar zorgvuldig gekozen proeflocaties voor proefgebruik. Lever aan nieuwe plaatsen en apparaten aangezien de toepassing bevestiging overgaat.
+* **Schatting op grote schaal levering**:
+Als de oplossing op grote schaal wordt geleverd, moet u de onderdelen van de toepassing uitrollen naar zorgvuldig gekozen proeflocaties voor proefgebruik. Lever aan nieuwe plaatsen en apparaten aangezien de toepassing bevestiging overgaat.
 
   >[!NOTE]
   >
   > Begin analyses tijdens de proef te verzamelen zodat de bedrijfsteams het succes van de oplossing tegen de specifieke metriek kunnen bevestigen zij proberen te bereiken. Het weten hoe de piloot uitvoert helpt het bedrijfsteam bepalen welke verbeteringen moeten worden aangebracht.
 
-* **Leveringen splitsen in meetbare taken**: Het splitsen van de levering van eigenschappen in meetbare taken staat voor terugkoppelen toe, verstrekt haalbaardere doelstellingen, en vermindert algemene projectrisico&#39;s.
+* **het Splitsen levert in meetbare taken**:
+Door de levering van functies in meetbare taken te splitsen, kunt u feedback geven, meer haalbare doelen bieden en algemene projectrisico&#39;s verminderen.
 
-* **Een routekaart ontwikkelen**: Als uw cliënt een eigenschap-rijk product wil, leveren een segment van de geplande functionaliteit vroeg in het project en plannen andere eigenschappen voor toekomstige fasen. Een eerste levering met veel functies brengt een groter risico met zich mee en is moeilijker te valideren met de client.
+* **het Ontwikkelen van een Roadmap**:
+Als uw cliënt een eigenschap-rijk product wil, leveren een segment van de geplande functionaliteit vroeg in het project en plannen andere eigenschappen voor toekomstige fasen. Een eerste levering met veel functies brengt een groter risico met zich mee en is moeilijker te valideren met de client.
 
-* **Inzicht in het bereik van aangepaste integratie**: Interactieve componenten met aanraakscherminteractie, bewegingssensor of RFID vereisen een aanzienlijke aangepaste ontwikkeling in de implementatiemethode. Een diapresentatie, videoreclame of statisch menu kan als grafische inhoud of HTML worden geleverd op een rasterkanaal.
+* **Begrijpend het Toepassingsgebied van Integraties**:
+Interactieve componenten met aanraakscherminteractie, bewegingssensor of RFID vereisen een aanzienlijke aangepaste ontwikkeling in de implementatiemethode. Een presentatie, videoberichting of statisch menu kan als grafische inhoud of HTML worden geleverd op een Screens-kanaal.

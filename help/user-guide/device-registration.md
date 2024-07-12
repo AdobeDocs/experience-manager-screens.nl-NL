@@ -30,99 +30,99 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
 >[!NOTE]
 >
->Nadat u de nieuwste Windows Player hebt gedownload (*.exe*), van de [AEM 6.4 Player-downloads](https://download.macromedia.com/screens/) Voer de stappen op de speler uit om de ad-hocinstallatie te voltooien:
+>Nadat u de recentste Speler van Vensters (*.exe*), van de [ AEM 6.4 pagina van de Downloads van de Speler ](https://download.macromedia.com/screens/) downloadt, volg de stappen op de speler om de ad hoc installatie te voltooien:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
->1. Navigeren naar **Configuratie** in het linkeractiemenu en voer het locatieadres van de AEM in **Server** en klik op **Opslaan**.
->1. Klik op de knop **Registratie** Klik op de koppeling in het menu met de linkeractie en voer de onderstaande stappen uit om het registratieproces voor apparaten te voltooien.
+>1. Navigeer aan **Configuratie** van het linkeractiemenu en ga het plaatsadres van de AEM instantie in **Server** in en klik **sparen**.
+>1. Klik de **verbinding van de Registratie** van het linkeractiemenu en de stappen hieronder om het proces van de apparatenregistratie te voltooien.
 >
 
-![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
+![ screen_shot_2018-11-26at12118pm ](assets/screen_shot_2018-11-26at12118pm.png)
 
 1. Start AEM Screens Player op uw apparaat. De registratieinterface wordt weergegeven.
 
-   ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
+   ![ screen_shot_2018-11-26at104230am ](assets/screen_shot_2018-11-26at104230am.png)
 
-1. Navigeer in AEM naar de **Apparaten** van uw project.
+1. In AEM, navigeer aan de **omslag van Apparaten** van uw project.
 
    >[!NOTE]
    >
-   >Ga voor meer informatie over het maken van een project voor schermen in het AEM dashboard naar [Schermproject maken en beheren](creating-a-screens-project.md).
+   >Om meer informatie te krijgen bij het creëren van een project voor Screens in het AEM dashboard, zie [ tot stand brengen en het Project van Screens beheren ](creating-a-screens-project.md).
 
-1. Klik op de knop **Apparaatbeheer** in de actiebalk.
+1. Klik de **knoop van de Manager van het Apparaat** in de actiebar.
 
-   ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
+   ![ screen_shot_2018-11-26at104702am ](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Klik op de knop **Apparaatregistratie** aan de rechterbovenzijde.
+1. Klik de **knoop van de Registratie van het Apparaat** op het hoogste recht.
 
-   ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
+   ![ screen_shot_2018-11-26at104815am ](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Klik op het gewenste apparaat (zelfde als in stap 1) en klik op **Apparaat registreren**.
+1. Klik het vereiste apparaat (het zelfde zoals stap 1) en klik **Apparaat van het Register**.
 
-   ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
+   ![ screen_shot_2018-11-26at105112am ](assets/screen_shot_2018-11-26at105112am.png)
 
 1. Wacht AEM tot het apparaat de registratiecode heeft verzonden.
 
-   ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
+   ![ screen_shot_2018-11-26at105150am ](assets/screen_shot_2018-11-26at105150am.png)
 
-1. Controleer in het apparaat de **Registratiecode**.
+1. In uw apparaat, controleer de **Code van de Registratie**.
 
-   ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
+   ![ screen_shot_2018-11-26at105227am ](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Als de **Registratiecode** is hetzelfde op beide computers, klikt u op **Valideren** in AEM, zoals getoond in stap (6).
-1. Stel de gewenste naam voor het apparaat in en klik op **Registreren**.
+1. Als de **Code van de Registratie** het zelfde op beide machines is, klik **bevestigen** knoop in AEM, zoals aangetoond in stap (6).
+1. Plaats de gewenste naam voor het apparaat, en klik **Register**.
 
-   ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
+   ![ screen_shot_2018-11-26at105357am ](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Klikken **Voltooien** om het registratieproces te voltooien.
+1. Klik **Afwerking** om het registratieproces te voltooien.
 
-   ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
-
-   >[!NOTE]
-   >
-   >De **Nieuwe registratie** Hiermee kunt u een nieuw apparaat registreren.
-   >
-   >De **Weergave toewijzen** Hiermee kunt u het apparaat rechtstreeks aan een weergave toevoegen.
-
-   Als u op **Voltooien**, wijst u het apparaat toe aan een weergave.
-
-   ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
+   ![ screen_shot_2018-11-26at105456am ](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >Ga voor meer informatie over het maken en beheren van een weergave voor uw project Schermen naar [Weergaven maken en beheren](managing-displays.md).
+   >Het **Register Nieuwe** laat u een nieuw apparaat registreren.
+   >
+   >**wijs Vertoning** toe laat u direct het apparaat aan een vertoning toevoegen.
+
+   Als u **Afwerking** klikt, wijs het apparaat aan een vertoning toe.
+
+   ![ screen_shot_2018-11-26at105740am ](assets/screen_shot_2018-11-26at105740am.png)
+
+   >[!NOTE]
+   >
+   >Meer leren over het creëren van en het leiden van een vertoning voor uw project van Screens, zie [ Creërend en het Leiden Vertoningen ](managing-displays.md).
 
 ### Apparaat toewijzen aan een weergave {#assigning-device-to-a-display}
 
 Als u het apparaat niet aan een display hebt toegewezen, voert u de onderstaande stappen uit om uw apparaat aan een weergave in uw AEM Screens-project toe te wijzen:
 
-1. Klik op het apparaat en klik **Apparaat toewijzen** in de actiebalk.
+1. Klik het apparaat en klik **toewijzen Apparaat** van de actiebar.
 
-   ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
+   ![ screen_shot_2018-11-26at111026am ](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Klik op het pad van de weergave in **Configuratiepad weergeven/apparaat**.
+1. Klik de weg van de vertoning in **Vertoning/de Weg van Config van het Apparaat**.
 
-   ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
+   ![ screen_shot_2018-11-26at111252am ](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Klikken **Toewijzen** wanneer u op het pad klikt.
+1. Klik **toewijzen** wanneer u de weg klikt.
 
-   ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
+   ![ screen_shot_2018-11-26at111722am ](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Klikken **Voltooien** zodra het apparaat met succes is toegewezen, zoals in onderstaande afbeelding wordt getoond.
+1. Klik **Afwerking** zodra het apparaat met succes, zoals aangetoond in het hieronder cijfer wordt toegewezen.
 
-   ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
+   ![ screen_shot_2018-11-26at112041am ](assets/screen_shot_2018-11-26at112041am.png)
 
-   U kunt het weergavedashboard ook weergeven door **Voltooien**.
+   Ook, kunt u het vertoningsdashboard bekijken door **Afwerking** te selecteren.
 
-   ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+   ![ screen_shot_2018-11-26at112154am ](assets/screen_shot_2018-11-26at112154am.png)
 
 ## Een apparaat zoeken vanuit Apparaatbeheer {#search-device}
 
 Wanneer u apparaten bij uw speler hebt geregistreerd, kunt u alle apparaten weergeven via de interface van Apparaatbeheer.
 
-1. Navigeer bijvoorbeeld naar de interface van Apparaatbeheer vanuit uw AEM Screens-project. **DemoScreens** > **Apparaten**.
+1. Navigeer aan de Manager UI van het Apparaat van uw project van AEM Screens, bijvoorbeeld, **DemoScreens** > **Apparaten**.
 
-1. Klik op de knop **Apparaten** map en klik op **Apparaatbeheer** in de actiebalk.
+1. Klik de **omslag van Apparaten** en klik **Manager van het Apparaat** van de actiebar.
 
    ![afbeelding](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,29 +134,29 @@ Wanneer u apparaten bij uw speler hebt geregistreerd, kunt u alle apparaten weer
 
    Of,
 
-   Selecteren `/` (forward slash) om de zoekfunctionaliteit aan te roepen.
+   Selecteer `/` (forward slash) om de zoekfunctionaliteit aan te roepen.
 
    ![afbeelding](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
 ### Beperkingen betreffende zoekfunctionaliteit {#limitations}
 
-* De gebruiker kan elk woord zoeken dat in het dialoogvenster *apparaat-id* of *apparaatnaam*.
+* De gebruiker kan om het even welk woord zoeken bestaand in *apparatenidentiteitskaart* of *apparatenNaam*.
 
   >[!NOTE]
-  >Het wordt aanbevolen de apparaatnamen in meerdere woorden te maken, zoals *`Boston Store Lobby`* in plaats van één *`BostonStoreLobby`*.
+  >Het wordt aanbevolen de apparaatnamen te maken in meerdere woorden, zoals *`Boston Store Lobby`* in plaats van in één *`BostonStoreLobby`* .
 
-* Als u apparaatnamen hebt gemaakt zoals *`Boston Store Lobby`*, wordt naar elk woord gezocht *`boston`*, *`store`*, of *`lobby`*. Als de apparaatnaam echter *`BostonStoreLobby`* en vervolgens zoeken naar *`boston`* geeft geen resultaten weer.
+* Als u apparaatnamen hebt gemaakt, zoals *`Boston Store Lobby`* , zoekt het naar elk woord *`boston`* , *`store`* of *`lobby`* . Als de apparaatnaam echter *`BostonStoreLobby`* is, geeft het zoeken naar *`boston`* geen resultaten.
 
-* Jokerteken `*` wordt ondersteund voor zoeken. Als u alle apparaten wilt zoeken met namen die beginnen met *`boston`*, kunt u * gebruiken`boston`**.
+* Jokerteken, `*` wordt ondersteund voor zoeken. Als u alle apparaten met namen wilt vinden die beginnen met *`boston`*, kunt u * `boston` ** gebruiken.
 
-* Als de apparaatnaam *`BostonStoreLobby`* en zoeken naar *`boston`* retourneert het resultaat niet en gebruikt vervolgens *`boston`** in je zoekcriteria geeft het resultaat.
+* Als de apparaatnaam *`BostonStoreLobby`* is en zoeken naar *`boston`* het resultaat niet retourneert, retourneert u het resultaat als u *`boston`** in de zoekcriteria gebruikt.
 
 ## Beperkingen betreffende apparaatregistratie {#limitations-on-device-registration}
 
 Beperkingen van gebruikerswachtwoorden voor het hele systeem kunnen leiden tot een fout in de apparaatregistratie. De apparaatregistratie gebruikt een willekeurig gegenereerd wachtwoord om de apparaatgebruiker te maken.
 
-Als de *AuthorizableActionProvider* configuratie beperkt het wachtwoord, zou het creëren van de apparatengebruiker kunnen ontbreken.
+Als de *AuthorizableActionProvider* configuratie het wachtwoord beperkt, zou het creëren van de apparatengebruiker kunnen ontbreken.
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### Overige bronnen {#additional-resources}
 
-Ga voor meer informatie over AEM Screens Player naar [AEM Screens Player](working-with-screens-player.md).
+Meer over de Speler van AEM Screens leren, zie [ Speler van AEM Screens ](working-with-screens-player.md).

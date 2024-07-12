@@ -32,7 +32,7 @@ ht-degree: 15%
    + [Zakelijke inhoud in UX-strategieën](business-content-strategy.md)
    + [UX-afhankelijkheden](ux-dependencies.md)
    + [Integratie met Analytics](analytics.md)
-+ Briefing ontwerp {#design-brief}
++ Ontwerpoverzichten {#design-brief}
    + [UX-reiskaart](journey-map.md)
    + [UX-prototypen](prototypes.md)
    + [UX-draadframes](wireframes.md)

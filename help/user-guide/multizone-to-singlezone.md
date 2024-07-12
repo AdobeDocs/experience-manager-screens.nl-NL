@@ -23,10 +23,10 @@ In deze sectie wordt een gebruiksvoorbeeld beschreven waarin wordt benadrukt hoe
 
 Voordat u met dit gebruik begint, moet u controleren hoe u dit kunt doen:
 
-* **[Kanalen maken en beheren](managing-channels.md)**
-* **[Locaties maken en beheren](managing-locations.md)**
-* **[Planningen maken en beheren](managing-schedules.md)**
-* **[Apparaatregistratie](device-registration.md)**
+* **[creeer en beheer Kanalen](managing-channels.md)**
+* **[creeer en beheer Plaatsen](managing-locations.md)**
+* **[creeer en beheer Programma&#39;s](managing-schedules.md)**
+* **[Registratie van het Apparaat](device-registration.md)**
 
 ### Primaire acteurs {#primary-actors}
 
@@ -36,49 +36,49 @@ Inhoudsauteurs
 
 Voer de onderstaande stappen uit om een project in te stellen:
 
-1. Een AEM Screens-project maken met de naam **OvernamingLoop**, zoals hieronder weergegeven.
+1. Creeer een Project van AEM Screens dat als **wordt genoemd TakOPLoop**, zoals hieronder getoond.
 
-   ![element](assets/mz-to-sz1.png)
+   ![ activa ](assets/mz-to-sz1.png)
 
 
-1. **Een uit meerdere zones bestaand rasterkanaal maken**
+1. **Creërend een Kanaal van Screens van de multi-Zone**
 
-   1. Klik op de knop **Kanalen** map en klik op **Maken** van de actiebar en het openen van de tovenaar zodat kunt u een kanaal creëren.
-   1. Klikken **Linkerbalk, gesplitst rasterkanaal** van de wizard en maakt u het kanaal met de naam **MultiZoneLayout**.
-   1. Voeg inhoud toe aan het kanaal. Sleep de elementen naar elk van de zones. In het volgende voorbeeld wordt een **MultiZoneLayout** kanaal bestaande uit een video, een afbeelding en een tekstbanner (in een ingesloten reeks), zoals hieronder wordt weergegeven.
+   1. Klik de **omslag van Kanalen** en klik **creëren** van de actiebar en het openen van de tovenaar zodat kunt u een kanaal tot stand brengen.
+   1. Klik **van het Kanaal van het Scherm van de Bar van links-L** van de tovenaar en creeer het kanaal dat als **wordt genoemd MultiZoneLayout**.
+   1. Voeg inhoud toe aan het kanaal. Sleep de elementen naar elk van de zones. Het volgende voorbeeld toont a **kanaal 0} MultiZoneLayout dat een video, een beeld, en een tekstbanner (in een ingebedde opeenvolging) omvat, zoals hieronder getoond.**
 
-   ![element](assets/mz-to-sz2.png)
+   ![ activa ](assets/mz-to-sz2.png)
 
    >[!NOTE]
    >
-   >Ga voor meer informatie over het maken van een lay-out met meerdere zones in uw kanaal naar [Layout meerdere zones](multi-zone-layout-aem-screens.md).
+   >Meer leren over het creëren van een multi-zonelay-out in uw kanaal, zie {Lay-out Van meerdere zones 0} ](multi-zone-layout-aem-screens.md).[
 
 
-1. Een ander kanaal maken met de naam **Overnamekanaal** aan uw **Kanalen** map.
+1. Creeer een ander kanaal dat als **wordt genoemd TakOPChannel** aan uw **omslag van Kanalen**.
 
-   ![element](assets/mz-to-sz3.png)
+   ![ activa ](assets/mz-to-sz3.png)
 
-1. Klikken **Bewerken** op de actiebalk, zodat u inhoud aan dit kanaal kunt toevoegen. Voeg een **Kanaal** en een afbeeldingsmiddel waarop u voor dit kanaal wilt schakelen, zoals in de onderstaande afbeelding wordt getoond:
+1. Klik **uitgeven** van de actiebar zodat kunt u inhoud aan dit kanaal toevoegen. Voeg de component van het a **Kanaal** en een beeldactiva toe die u voor dit kanaal wilt schakelen, zoals aangetoond in het hieronder cijfer:
 
-   ![element](assets/mz-to-sz4.png)
+   ![ activa ](assets/mz-to-sz4.png)
 
-1. Open de instellingen voor de component Channel en wijs deze naar de **MultiZoneLayout** kanaal dat u in creeerde *stap 2*.
+1. Open de montages voor de component van het Kanaal en punt het aan het **** kanaal MultiZoneLayout dat u in *stap 2* creeerde.
 
-   ![element](assets/mz-to-sz5.png)
+   ![ activa ](assets/mz-to-sz5.png)
 
-1. De duur instellen vanuit de **Reeks** veld naar **10000 milliseconden**.
+1. Plaats de duur van het **gebied van de Opeenvolging** {aan **10000 milliseconden**.
 
-   ![element](assets/mz-to-sz6.png)
+   ![ activa ](assets/mz-to-sz6.png)
 
-1. Open op dezelfde manier de instellingen voor de afbeelding (het element dat u hebt toegevoegd) en stel de duur in op basis van de **Reeks** veld naar **3000 milliseconden**.
+1. Op dezelfde manier open de montages voor het Beeld (activa u) toevoegde en zijn duur van het **1} gebied van de Opeenvolging {aan** 3000 milliseconden **plaatsen.**
 
-   ![element](assets/mz-to-sz7.png)
+   ![ activa ](assets/mz-to-sz7.png)
 
 ## De voorvertoning controleren {#checking-the-preview}
 
-U kunt de gewenste uitvoer weergeven vanuit de speler of alleen door **Voorvertoning** uit de editor.
+U kunt de gewenste output van de speler bekijken of enkel door **Voorproef** van de redacteur te selecteren.
 
-De uitvoer toont aan hoe een lay-out met meerdere zones wordt afgespeeld voor *10000 milliseconden*. Vervolgens wordt overgeschakeld naar een lay-out met één zone met een afspeelduur van *3000 milliseconden*. Tot slot gaat het terug naar de multi-zone layout.
+De output toont aan hoe een lay-out multi-zone voor *10000 milliseconden* speelt. Dan, schakelt het aan één enkele streeklay-out over die een playbackduur van *3000 milliseconden* heeft. Tot slot gaat het terug naar de multi-zone layout.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

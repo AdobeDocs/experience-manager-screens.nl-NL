@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt ondersteuning voor onderhoud voor het AEM 6.3-schermplatform.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van Adobe Experience Manager (AEM). AEM Screens biedt onderhoudsondersteuning voor het AEM 6.3 Screens-platform.
 
 ## Beschikbaarheid {#availability}
 
 AEM Screens heeft AEM 6.4 Feature Pack 8 en AEM 6.5 Feature Pack 4 uitgebracht.
 
-U kunt de nieuwste versie van het Feature Pack voor AEM Screens 6.4.8 of AEM Screens 6.5.4 downloaden van de [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) met uw Adobe ID. Ga naar de **Adobe Experience Manager** tabblad en zoeken naar **Schermen** voor het nieuwste elementenpakket.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.4.8 of Versie van AEM Screens 6.5.4 van het [ Portaal van de Distributie van de Software downloaden ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen.
 
 ## Releasedatum {#release-date}
 
@@ -30,40 +30,40 @@ De releasedatum voor AEM Screens Feature Pack 20204 is 20 april 2020.
 
 ### Wat is er nieuw? {#what-s-new}
 
-* **Opties voor afspeelonderbreking**
+* **Opties van de Strategie van de Onderbreking van de Playback**
 
   Geef als Inhoudsauteur op wanneer een kanaal wordt onderbroken. Deze actie helpt zodat u kunt kiezen om niet-kritieke inhoud uit te schakelen, maar desgewenst belangrijke inhoud volledig laten afspelen voordat u het afspelen uitschakelt vanwege het plannen.
 
-  Meer informatie over de opties die beschikbaar zijn op het tabblad **Kanaaltoewijzing** in het dialoogvenster om deze functie te implementeren in uw AEM Screens-project, raadpleegt u de sectie **[Onderbrekingsmethode](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
+  Om meer over de opties te leren beschikbaar bij de **dialoogdoos van de Toewijzing van het Kanaal** om deze eigenschap in uw project van AEM Screens uit te voeren, zie de sectie **[Methode van de Onderbreking](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
-* **Startpagina&#39;s voor schermen**
+* **Lanceringen van Screens**
 
   De ervaringsstroom van de Content Author-gebruiker is verbeterd en het aantal klikken dat u in de toekomst wilt gebruiken, is verminderd.
 
-  Zie **[Inhoud bijwerken met Schermen starten](launches.md)** voor meer informatie .
+  Zie **[Update van de Inhoud gebruikend de Lancering van Screens](launches.md)** voor meer details.
 
-* **Kanaaldashboard**
+* **Dashboard van het Kanaal**
 
-  Geeft updates weer naar instructies in het kanaaldashboard in het dialoogvenster **KANAALINFORMATIE** deelvenster.
+  Reflecteert updates aan instructies in het kanaaldashboard in het **paneel van de INFORMATIE VAN HET KANAAL**.
 
 
-* **Manifest weergeven**
+* **Manifest van de Mening**
 
   U kunt het manifestbestand nu weergeven via het kanaaldashboard.
 
-  Zie **[De manifest weergeven](/help/user-guide/managing-channels.md#view-manifest)**.
+  Zie **[het Bekijken Manifest](/help/user-guide/managing-channels.md#view-manifest)**.
 
-* **Tekstbedekking**
+* **de Bedekking van de Tekst**
 
   Tijdens het toevoegen van test aan de functie voor tekstbedekking is de tekengrootte nauwkeurig en verbeterd.
 
-  Als u een aantrekkelijke ervaring in een Kanaal van de Opeenvolging wilt creëren door een titel of een beschrijving over bovenop een beeld te verstrekken, zie **[Tekstbedekking](text-overlay.md)**.
+  Om een dwingende ervaring in een Kanaal van de Opeenvolging tot stand te brengen door een titel of een beschrijving over bovenop een beeld te verstrekken, zie **[Bedekking van de Tekst](text-overlay.md)**.
 
-* **Verbeteringen in opdrachtsynchronisatie**
+* **Verbeteringen in de Synchronisatie van het Bevel**
 
   Met deze release van Feature Pack worden verbeteringen in de opdrachtsynchronisatievertraging tussen de elementwijzigingen weerspiegeld.
 
-  Zie **[Opdrachtsynchronisatie](using-command-sync.md)** voor meer informatie .
+  Zie **[Synchronisatie van het Bevel](using-command-sync.md)** voor meer details.
 
 ### Uitgebrachte AEM Screens-spelers
 
@@ -75,4 +75,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM Screens AEM 6.4 Pak 
 
 #### Downloads voor AEM Screens Player
 
-Als u de nieuwste AEM Screens Player wilt downloaden en meer wilt weten over de opgeloste problemen, raadpleegt u **[Downloads voor AEM Screens Player](https://download.macromedia.com/screens/)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/)**.

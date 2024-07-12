@@ -24,12 +24,12 @@ In de volgende secties wordt beschreven hoe u fouten kunt opsporen in het afspel
 
 ## DAM-uitvoeringen {#dam-renditions}
 
-Nadat u de video naar het kanaal hebt geüpload, moet AEM beginnen met het maken van enkele uitvoeringen voor de video. U kunt uw video&#39;s weergeven onder Middelen.
+Nadat u de video naar het kanaal hebt geüpload, moet AEM beginnen met het maken van enkele uitvoeringen voor de video. U kunt uw video&#39;s bekijken onder Assets.
 
 De video weergeven:
 
-1. Naar uw video navigeren, bijvoorbeeld `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Klik op de video en vouw het menu linksboven uit en klik op **Uitvoeringen**.
+1. Navigeer naar uw video, bijvoorbeeld `http://localhost:4502/assets.html/content/dam/we-retail/en/videos` .
+1. Klik de video en breid het top-linker menu uit en klik **Vertoningen**.
 
 Er moeten verschillende uitvoeringen zijn (een MP4 of M4V).
 
@@ -39,31 +39,31 @@ Als er geen uitvoering is, controleert u of FFMPEG is geïnstalleerd op het best
 >
 >Als er geen uitvoering is, controleert u of FFMPEG is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
 >
->Klikken [hier](https://www.ffmpeg.org/download.html) om FFMPEG te installeren.
+>Klik [ hier ](https://www.ffmpeg.org/download.html) om FFMPEG te installeren.
 
-## Video-elementen {#video-assets}
+## Video Assets {#video-assets}
 
 Als u geen bronkenmerk onder video ziet, kan het zijn dat de video niet is gecodeerd. Als de video op de juiste wijze is getranscodeerd, wordt deze weergegeven in het dashboard, zoals hieronder wordt getoond:
 
 Controleer of FFMPEG is geïnstalleerd en of de videoprofielen zijn geïnstalleerd.
 
-![chlimage_1-2](assets/chlimage_1-2.png)
+![ chlimage_1-2 ](assets/chlimage_1-2.png)
 
 ### Videoprofiel controleren {#checking-video-profile}
 
-1. Ga naar de **Videoprofiel**, dat wil zeggen: `http://localhost:4502/etc/dam/video.html` en klik op **Testvideo uploaden**.
+1. Navigeer aan het **VideoProfiel**, namelijk `http://localhost:4502/etc/dam/video.html` en klik **upload Video van de Test**.
 
-   ![chlimage_1-3](assets/chlimage_1-3.png)
+   ![ chlimage_1-3 ](assets/chlimage_1-3.png)
 
-1. Upload een testvideo en klik op **OK** zodat u met het transcoderen kunt beginnen.
+1. Upload een testvideo en klik **O.K.** zodat kunt u met transcoding beginnen.
 
    Als de getranscodeerde video mislukt, vouwt u de uitvoer van FFMPEG uit om fouten in de uitvoer van de console van FFMPEG te begrijpen.
 
-   ![chlimage_1-4](assets/chlimage_1-4.png)
+   ![ chlimage_1-4 ](assets/chlimage_1-4.png)
 
    Ook als de videotranscodes het getranscodeerde bestand kunnen downloaden.
 
-   ![chlimage_1-5](assets/chlimage_1-5.png)
+   ![ chlimage_1-5 ](assets/chlimage_1-5.png)
 
    >[!NOTE]
    >
@@ -73,28 +73,28 @@ Controleer of FFMPEG is geïnstalleerd en of de videoprofielen zijn geïnstallee
 
 Controleer de lijst met profielen in het paginaontwerp als de videocomponent niet correct is geconfigureerd.
 
-1. Navigeer naar het kanaal en klik op de knop **Ontwerp** -modus.
+1. Navigeer aan uw kanaal en klik de **wijze van het Ontwerp**.
 
-   ![chlimage_1-6](assets/chlimage_1-6.png)
+   ![ chlimage_1-6 ](assets/chlimage_1-6.png)
 
-1. Klik op de video en open de **Bewerken** in. Open de **Profielen** tab.
+1. Klik de video en open **uitgeven** dialoog. Open het **Profielen** lusje.
 
    >[!NOTE]
    >Klik op verschillende profielen (er moet ten minste het profiel &quot;Hoge kwaliteit H.264&quot; zijn).
 
 ### De video controleren in de webspeler {#checking-the-video-in-the-web-player}
 
-Gebruik de **Webspeler** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` om het afspelen in browsers (Chrome en Safari) te valideren. Chrome wordt gebruikt op Android™-apparaten terwijl Safari de OS X- en iOS-browser is.
+Gebruik de **Speler van het Web** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` om playback in browsers (Chrome en Safari) te bevestigen. Chrome wordt gebruikt op Android™-apparaten terwijl Safari de browser OS X en iOS is.
 
 Als de video niet wordt uitgevoerd op Safari, wordt deze ook niet uitgevoerd in de OS X- en iOS-spelers. Dit probleem is waarschijnlijk een coderingsprobleem en de video moet opnieuw worden gecodeerd.
 
 Ga als volgt te werk als u een DAM-workflow wilt gebruiken om FullHD-uitvoeringen te maken:
 
-1. Ga naar de *workflowmodel-beheerder* dat `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Klik op de knop **Element voor schermupdate** model.
-1. Klikken **Workflow starten** in de actiebalk.
-1. Van de **Workflow uitvoeren** klikt u op uw video-element in het dialoogvenster **Payload**.
-1. Klikken **Uitvoeren**.
+1. Navigeer aan de *beheerder van het werkschemamodel* die `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models` is.
+1. Klik het **model van de Activa van de Update van 0} Screens.**
+1. Klik **Werkschema van het Begin** van de actiebar.
+1. Van het **de dialoogvakje van het Werkschema van de Looppas**, klik uw videoactiva in de **nuttige lading**.
+1. Klik **Looppas**.
 
 >[!NOTE]
 >
@@ -106,14 +106,14 @@ Als de AEM Screens Player de video oppikt maar niet weergeeft, los dan de marker
 
 Voer de onderstaande stappen uit om een probleem met de Google-markering voor automatisch afspelen op te lossen:
 
-1. Navigeren naar ***chrome://flags/#autoplay-policy***
-1. Wijzigen **Beleid voor automatisch afspelen** van **Standaard** tot **geen beweging van de gebruiker is vereist**
+1. Navigeer aan ***chrome://flags/#autoplay-policy***
+1. Het beleid van Autoplay van de verandering **van** Gebrek **aan** geen gebruikersbeweging wordt vereist ****
 
 1. Start de webbrowser opnieuw en werk de speler bij
 
 >[!NOTE]
 >
->Meer over beste praktijken voor goede gebruikerservaring met het nieuwe autoplay beleid in Chrome leren. Zie *Beleidswijzigingen automatisch uitvoeren* om `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Meer informatie over beste praktijken voor goede gebruikerservaring met het nieuwe autoplay beleid in Chrome. Zie *Veranderingen van het Beleid Autoplay* bij `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Video synchroniseren over meerdere spelers {#syncing-video-across-multiple-players}
 
@@ -137,18 +137,18 @@ Volg de onderstaande stappen om een absolute strategie op te zetten:
 
 1. Navigeer naar de auteur van het kanaal en klik op de component sequence zoals in de onderstaande afbeelding wordt weergegeven.
 1. Open het configuratievenster.
-1. Bewerk de **Strategie** en voeg absolute waarden toe.
+1. Bewerk de **Strategie** en voeg absolute toe.
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![ chlimage_1-8 ](assets/chlimage_1-8.png)
 
    >[!NOTE]
    >Het besturingssysteem van de spelers moet dezelfde klok hebben.
 
-**Klokken uitlijnen op OS X** Voer de onderstaande stappen uit om de klokken uit te lijnen op OS X:
+**het Uitlijnen van Klokken op OS X** volg de hieronder stappen om de klokken op OS X te richten:
 
-1. Openen **Datum en tijd** voorkeuren voor elk OS X-vak
-1. Controleren **Datum en tijd automatisch instellen**
-1. De waarde 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com plakken in de vervolgkeuzelijst of gewoon uitvoeren *sudo ntpdate -u-v 0.pool.ntp.org*
+1. Open **voorkeur van 0} Datum &amp; van de Tijd {op elk OS X vakje**
+1. Controle **vastgestelde datum en tijd automatisch**
+1. De waarde van het deeg 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com in dropdown of stelt eenvoudig *sudo ntpdate -u -v 0.pool.ntp.org* in werking
 1. De 2+ spelers starten
 
 Het kan enige tijd duren voordat de spelers een nieuwe uitgelijnde reeks beginnen.

@@ -15,8 +15,8 @@ Deze sectie verstrekt beste praktijken met betrekking tot het beheren van appara
 
 De controle van steun omvat:
 
-* **Apparaatcontrole**
-* **Inhoud controleren**
+* **Controle van het Apparaat**
+* **Inhoud Controle**
 
 ## Inhoud controleren {#content-monitoring}
 
@@ -24,15 +24,15 @@ Met contentcontrole kunt u problemen met betrekking tot inhoud die niet correct 
 
 1. Als een probleem met een leeg scherm wordt aangetroffen:
 
-   * Controleer de *voorvertoning* zodat u kunt zien of toont het kanaal een zwart scherm.
-   * Een *lokale Chrome-speler* (als extensie) op uw laptop naar dat beeldscherm en controleer of dat een zwart scherm weergeeft.
-   * Klik met de rechtermuisknop en controleer en controleer de *toepasselijke stamboeken*.
+   * Controleer de *voorproef* zodat kunt u zien of toont het kanaal een zwart scherm.
+   * Registreer a *lokale speler van Chrome* (als uitbreiding) op uw laptop aan die vertoning en zie of toont dat een zwart scherm.
+   * Klik met de rechtermuisknop en inspecteer en controleer de *toepasselijke logboeken*.
 
    Als het probleem zich niet voordoet op de lokale speler, maar alleen op het apparaat:
 
-   * Controleer de *mediatype* (wordt gebruikt) die problemen kan hebben op dat apparaat en ook bevestigen of de inhoud met succes lokaal is gedownload (de geheime cache van het beheerdersinterface is leeg).
-   * Inclusief alle *apparaatlogboeken* in het kaartje voor het snelle oplossen van problemen.
-   * *Logboeken verzamelen* van het apparaat AEM.
+   * Controleer het *media type* (dat wordt gebruikt) dat kwesties op dat apparaat kan hebben en ook bevestigen als de inhoud met succes plaatselijk (admin UI duidelijk kanaalgeheime voorgeheugen) werd gedownload.
+   * Omvat om het even welke *apparatenlogboeken* in het kaartje voor het snelle oplossen van problemen.
+   * *verzamel logboeken* van het apparaat van AEM.
 
 ## Apparaatcontrole {#device-monitoring}
 
@@ -40,6 +40,6 @@ Apparaatbewaking met betrekking tot de bewaking van het fysieke apparaat als er 
 
 1. Als een probleem met een leeg scherm wordt aangetroffen:
 
-   * Controleer of de *display* is ingeschakeld.
-   * Controleer of de *computer* wordt aangedreven en verzendt een signaal.
-   * Klikken met rechtermuisknop, inspecteren en controleren *toepasselijke stamboeken*.
+   * Controle als de *vertoning* wordt aangedreven.
+   * Controle als de *computer* wordt aangedreven en een signaal verzendt.
+   * Klik met de rechtermuisknop, inspecteer en controleer *toepasselijke logboeken*.
