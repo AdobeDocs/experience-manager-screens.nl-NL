@@ -1,7 +1,7 @@
 ---
-title: Post-startondersteuning
-description: Meer informatie over Post-startondersteuning voor AEM Screens vindt u in de Best Practices Guide.
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+title: Ondersteuning na introductie
+description: In de Best Practices Guide vindt u meer informatie over ondersteuning na het starten voor AEM Screens.
+source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 4%
@@ -9,9 +9,9 @@ ht-degree: 4%
 ---
 
 
-# Post-startondersteuning {#post-launch-support}
+# Ondersteuning na introductie {#post-launch-support}
 
-Laten we niet vergeten dat Post in een vroeg stadium ondersteuning biedt.
+Laat de ondersteuning na de introductie in het beginstadium niet over het hoofd zien.
 
 Het is van cruciaal belang dat de hardwareleverancier de sites voldoende ondersteuning biedt voor de bedrijfsactiviteiten. De **audio-Video Integrator** zou nauw met bedrijfsbelanghebbenden moeten samenwerken en de vereisten identificeren nodig van verschillende aspecten.
 Houd rekening met de volgende vereisten tijdens ondersteuning na de introductie:
@@ -21,7 +21,7 @@ Houd rekening met de volgende vereisten tijdens ondersteuning na de introductie:
 * on-site ondersteuning door technici
 * apparaatbeheer (garantiesupport en opslag van reserveapparaten)
 
-Om zich voor te bereiden op succes op lange termijn is het ook van het grootste belang dat er een Service Level Agreement (SLA) op dag 2 wordt ingesteld in samenwerking met de Audio-Video Integrator. SLA zou alle post-plaatsing steundiensten moeten gedetailleerd helpen cliëntverwachtingen nauwkeurig plaatsen.
+Om zich voor te bereiden op succes op lange termijn is het ook van het grootste belang dat er een Dag 2 Service Level Agreement (SLA) wordt opgesteld in samenwerking met de Audio-Video Integrator. De SLA moet alle supportservices na de implementatie in detail bekijken om de verwachtingen van de klant nauwkeurig in te stellen.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Om zich voor te bereiden op succes op lange termijn is het ook van het grootste 
 >* Is de toepassing hoogst zichtbaar aan de uitvoerende leiding van de eindcliënt? Sites met een hoge zichtbaarheid hebben mogelijk verschillende behandelingen nodig.
 >* Is de toepassing kritiek op bedrijfsverrichtingen zoals menu-boards in snel-voedselketens? In deze gevallen kan de eindklant on-site resoluties met korte responstijden en redundantie in afspeelhardware nodig hebben.
 
-## Overwegingen en Post-opstartquery&#39;s {#considerations-queries}
+## Overwegingen en query&#39;s na starten {#considerations-queries}
 
 Enkele overwegingen en vragen die u helpen de ondersteuning voor na de introductie te definiëren:
 
