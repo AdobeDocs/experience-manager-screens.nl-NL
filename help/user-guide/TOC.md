@@ -21,7 +21,7 @@ ht-degree: 5%
 + [Inleiding tot Screens](aem-screens-introduction.md)
 + Overzicht en Kickstart Guide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide) Gids van de Beste praktijken van Screens van 0}[
+   + [Gids van de Beste praktijken van Screens van 0](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Belangrijkste voorwaarden](screens-glossary.md)
    + [Screens Terminology and Concepts](screens-concepts-feature-video-understand.md)
 + Basisprincipes van digitale-signaalnetwerken {#digital-signage-network}
