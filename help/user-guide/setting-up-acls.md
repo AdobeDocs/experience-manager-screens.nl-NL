@@ -1,6 +1,6 @@
 ---
 title: ACLs van de vestiging
-description: Leer hoe te om projecten te scheiden gebruikend ACLs zodat elk individu of team hun eigen project behandelt.
+description: Leer hoe te om projecten te scheiden die de Lijsten van het Toegangsbeheer (ACLs) gebruiken zodat elk individu of team hun eigen project behandelt.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
 
-# ACLs van de vestiging {#setting-up-acls}
+# De Lijsten van het Toegangsbeheer van de vestiging (ACLs) {#setting-up-acls}
 
-De volgende sectie verklaart hoe te om projecten te segregeren gebruikend ACLs zodat elk individu of team hun eigen project behandelt.
+De volgende sectie verklaart hoe te om projecten te scheiden die de Lijsten van het Toegangsbeheer (ACLs) gebruiken zodat elk individu of team hun eigen project behandelt.
 
 Als AEM beheerder, wilt u ervoor zorgen dat de teamleden van een project zich niet in andere projecten mengen. Elke gebruiker wordt toegewezen specifieke rollen zoals per projectvereisten.
 
