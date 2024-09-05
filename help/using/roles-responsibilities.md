@@ -2,9 +2,9 @@
 title: AEM Screens-projectrollen en -verantwoordelijkheden
 description: Meer informatie over de rollen en verantwoordelijkheden van AEM Screens-projecten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaat
 De audio-video Integrator is de leverancier-partner van de Hardware. Ze zijn de partij die zich bezighoudt met het ontwerp en de voorbereiding van de detailhandel, waaronder hardwareaanschaf, configuratie en implementatie. Het is doorgaans een gecontracteerde derde die toegang heeft tot een Network Operations Center (NOC). Vaak is de Audio-Video Integrator de eigenaar van het project vanwege zijn voortdurende betrokkenheid na de lancering.
 
 Een Audio-Video Integrator is verantwoordelijk voor het uitvoeren van detectie met eindgebruikers om vereisten te definiëren, het projectbereik te bepalen voor het ontwerpen, bouwen en effectief beheren van implementaties rondom digitale signaalhardware.
+
+>[!NOTE]
+>
+> U moet over een audiovideointegrator beschikken als onderdeel van uw AEM Screens-implementatie.
 
 #### Overdenking van hardwarepartner {#selecting-hardware-partner}
 
@@ -158,7 +162,7 @@ De volgende lijst vat **Dag één samen: De Uitvoering van het project (Detailha
 | Handelson-boarding-schema | I | I | C | RA |
 | Testen van gebruikersacceptatie opslaan | I | C | RA |   |
 | Hardwarebulkconfiguratie | RA | I | C | I |
-| Overeenkomst inzake Post-startondersteuning | RA | C | RA | C |
+| Overeenkomst over ondersteuning na de lancering | RA | C | RA | C |
 
 De volgende lijst vat **Dag één samen: Dag Één: De Uitvoering van het project (Hardware)**:
 
@@ -173,7 +177,7 @@ De volgende lijst vat **Dag één samen: Dag Één: De Uitvoering van het projec
 
 >[!NOTE]
 >
->Rollen veranderen tijdens dag twee (Post Launch Support).
+>Rollen veranderen tijdens dag twee (na het opstarten).
 
 * **Auteur**: Inhoudsbeheer + Strategie
 
@@ -181,11 +185,11 @@ De volgende lijst vat **Dag één samen: Dag Één: De Uitvoering van het projec
 
 * **Technicus**: Of gecontracteerd door Audio-Video Integrator of maakt deel uit van het zelfde bedrijf.
 
-De volgende lijst vat **Dag Twee samen: De Grafiek van de Steun van de Lancering van Post RACI**:
+De volgende lijst vat **Dag Twee samen: De Grafiek van de Steun van de Post RACI**:
 
 | **Fase** | **Auteur** | **Ontwikkelaar** | **Technicus** |
 |---|---|---|---|
-| *Dag Twee: Post-Lancering Steun* |
+| *Dag Twee: De Steun van de post-Lancering* |
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA |
 | Ondersteuning voor Tier 1 | I | I | RA |
 | Support voor niveau 2 | I | C | RA |
