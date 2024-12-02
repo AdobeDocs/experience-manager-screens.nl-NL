@@ -1,5 +1,5 @@
 ---
-title: "Deel 2: Overwegingen als projecten worden opgesplitst"
+title: 'Deel 2: Aandachtspunten als projecten'
 description: Leer meer over de inhoudsstrategie, I/O-lagen, elementtypen en publiekssegmentatie in AEM Screens. Lees meer over de onderdelen van de dag, de vereisten voor bedrijfsbewerkingen en de gereedheid van de site.
 contentOwner: jsyal
 content-type: reference

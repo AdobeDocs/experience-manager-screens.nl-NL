@@ -1,5 +1,5 @@
 ---
-title: '"Deel 4: Projectbeheer en -implementatie'
+title: 'Deel 4: Projectbeheer en -implementatie'
 description: Leer over projectbeheer en plaatsingsvoorbereiding (project pre-productie, projectinitiatie, projectprogressie) voor AEM Screens.
 contentOwner: jsyal
 content-type: reference

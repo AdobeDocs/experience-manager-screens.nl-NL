@@ -1,5 +1,5 @@
 ---
-title: "Deel 3: Testen, concepttest, piloten en rollouts"
+title: 'Deel 3: Testen, concepttest, piloten en rollouts'
 description: Leer de belangrijkste termijnen betrokken bij een algemeen projectplan zoals projectcyclus, acties omringend hardware het testen, Conceptproef, piloten, en rollouts.
 contentOwner: jsyal
 content-type: reference

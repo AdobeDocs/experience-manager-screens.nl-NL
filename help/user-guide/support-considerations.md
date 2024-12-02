@@ -1,5 +1,5 @@
 ---
-title: "Deel 5: Overwegingen bij ondersteuning"
+title: 'Deel 5: Overwegingen bij de ondersteuning'
 description: Leer hoe hardware-, software- en connectiviteitsproblemen worden opgelost. Onderzoek kostenramingen en kaders voor onsite ondersteuning. Ook, leer hoe de parameters van SLA, operationele begrotingen, en de overdrachten NOC worden beheerd.
 contentOwner: jsyal
 content-type: reference
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Deel 5: Overwegingen bij de ondersteuning {#part-support-considerations}
 
-Deze pagina benadrukt het afsluitende deel van een reeks van 5 delen die wordt ontworpen om teamleden te helpen leren hoe hardware, software, en connectiviteitskwesties worden behandeld. In deze fase worden kostenramingen en -kaders voor on-site ondersteuning besproken. Ook, verklaart hoe de parameters van SLA, operationele begrotingen, en de overdrachten NOC worden beheerd.
+Deze pagina benadrukt het afsluitende deel van een reeks van 5 delen die wordt ontworpen om teamleden te helpen leren hoe hardware, software, en connectiviteitskwesties worden behandeld. In deze fase worden kostenramingen en -kaders voor on-site ondersteuning besproken. Ook, verklaart hoe de parameters van SLA, operationele begrotingen, en de handschotels NOC worden beheerd.
 
 ## Overzicht {#overview}
 

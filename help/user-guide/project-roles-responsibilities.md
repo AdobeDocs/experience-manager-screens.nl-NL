@@ -1,5 +1,5 @@
 ---
-title: "Deel 1: Projectrollen en -verantwoordelijkheden"
+title: 'Deel 1: Projectrollen en -verantwoordelijkheden'
 description: In dit leerprogramma, begrijp de rollen, de verantwoordelijkheden, en de tijdlijnen die tijdens de verkoop en de cycli van het projectleven voor een digitaal ondertekeningsproject worden vereist.
 feature: Overview
 role: User, Data Architect
