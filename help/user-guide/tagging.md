@@ -3,9 +3,9 @@ title: Tags toevoegen op Screens Cloud
 description: Op deze pagina wordt beschreven hoe tags kunnen worden gemaakt, beheerd en gebruikt op Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 17e864ed69d44da159343fe95990076ac702bbb4
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,8 @@ Gebruik de gemaakte labels voor beeldschermen en afspeelapparatuur.
 ![ beheert markeringen toewijzen ](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
-> 
-> Een beeldscherm of speler kan maximaal 100 tags bevatten.
-> Maximaal 30 items kunnen in één keer worden gelabeld.
+>  
+>Maximaal 30 items kunnen in één keer worden gelabeld.
 
 ## Filteren op labels {#filter-by-tags}
 
