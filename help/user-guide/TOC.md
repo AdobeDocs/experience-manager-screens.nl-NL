@@ -8,9 +8,9 @@ user-guide-description: Leer hoe u een Digital Signage-oplossing kunt gebruiken 
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
+source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '532'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 5%
 + [Inleiding tot Screens](aem-screens-introduction.md)
 + Overzicht en Kickstart Guide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + [Gids van de Beste praktijken van Screens van 0](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
+   + ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide) Gids van de Beste praktijken van Screens van 0}[
    + [Belangrijkste voorwaarden](screens-glossary.md)
    + [Screens Terminology and Concepts](screens-concepts-feature-video-understand.md)
 + Basisprincipes van digitale-signaalnetwerken {#digital-signage-network}
@@ -40,7 +40,7 @@ ht-degree: 5%
    + [AEM Screens Security Checklist](security-checklist.md)
    + [Overstappen van ContentSync naar SmartSync](smartsync.md)
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
-   + [Gegevenstriggers repliceren naar Publish-servers](replicating-data-triggers.md)
+   + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
    + [Replication Agents configureren op Screens](configure-screens-replication.md)
    + Overwegingen die specifiek zijn voor de client {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
@@ -51,9 +51,9 @@ ht-degree: 5%
       + [Cloud Player](implementing-cloud-player.md)
       + [Automatische registratie van spelers](auto-registration-players.md)
       + [De afstandsbediening gebruiken](implementing-remote-control.md)
-   + Auteur Publish {#author-publish}
+   + Publiceren auteur {#author-publish}
       + [Author-Publish Architecture-overzicht](author-publish-architecture-overview.md)
-      + [Auteur en Publish configureren](author-and-publish.md)
+      + [Auteur en publicatie configureren](author-and-publish.md)
    + Integratie van analysemogelijkheden met AEM Screens {#analytics-integration}
       + [Adobe Analytics-integratie](adobe-analytics-integration-aem-screens.md)
       + [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md)
@@ -119,6 +119,7 @@ ht-degree: 5%
    + [Problemen oplossen in Device Control Center](monitoring-screens.md)
    + [Configuratie videoweergave](troubleshoot-videos.md)
 + Opmerkingen bij de release {#release-notes}
+   + [Opmerkingen bij de release voor Feature Pack 202401](release-notes-fp-20250215.md)
    + [Opmerkingen bij de release voor Feature Pack 202401](release-notes-fp-202401.md)
    + [Opmerkingen bij de release voor Feature Pack 20240116](release-notes-fp-20240116.md)
    + [Opmerkingen bij de release voor Feature Pack 20240215](release-notes-fp-20240215.md)
