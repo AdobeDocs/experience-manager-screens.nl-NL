@@ -10,14 +10,17 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
+source-git-commit: 45b9fce303989e2c090775131dd6188053053fc8
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
 
 # Android™ Player implementeren {#implementing-android-player}
+
+>[!CAUTION]
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de recentste versieinformatie van [ hier ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) krijgen.
 
 In deze sectie wordt beschreven hoe u de Android™-speler configureert. Het verstrekt informatie van het configuratiedossier en de beschikbare opties en aanbevelingen met betrekking tot welke montages voor ontwikkeling en het testen te gebruiken.
 
@@ -34,13 +37,13 @@ Bezoek [**AEM 6.5 de Downloads van de Speler** ](https://download.macromedia.com
 >[!NOTE]
 >Stel een omgeving in voor de Android™-speler als u AEM Screens 6.5.5 Service Pack gebruikt.
 
-Plaats het **attribuut SameSite voor de login-symbolische koekjes** van **Lax** aan **niets** van **Configuratie van de Console van Adobe Experience Manager van** op alle AEM auteur en publiceer instanties.
+Plaats het **attribuut SameSite voor de login-symbolische koekjes** van **Lax** aan **niets** van **de Configuratie van de Console van het Web van Adobe Experience Manager** op alle auteur van AEM en publiceer instanties.
 
 Voer de onderstaande stappen uit:
 
 1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** gebruikend `http://localhost:4502/system/console/configMgr`.
 
-1. Onderzoek naar *de manager van de Authentificatie van het Symbolische van de Adobe Granite*.
+1. Onderzoek naar *Adobe Granite Token de Handler van de Authentificatie*.
 
 1. Plaats het **attribuut SameSite voor de login-symbolische koekjes** van **Lax** aan **niets**.
    ![afbeelding](/help/user-guide/assets/granite-updates.png)
@@ -55,7 +58,7 @@ De ad hoc methode laat u de recentste Speler Android™ (*.exe*) installeren. Be
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeer aan **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u met wilt verbinden en **klikken sparen**.
+1. Navigeer aan **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de instantie van AEM in u met wilt verbinden en **klikken sparen**.
 
 1. Navigeer aan het **Apparaat** **verbinding van de Registratie** van het linkeractiemenu zodat kunt u de status van het proces van de apparatenregistratie controleren.
 
@@ -77,16 +80,16 @@ Om tot enkele bevoorrechte APIs van Android™ zoals *PowerManager* of *HDMICont
 >
 >Voorwaarden:
 >
->De SDK van Android™ moet geïnstalleerd zijn voordat u de volgende stappen uitvoert.
+>U moet de Android™ SDK installeren voordat u de volgende stappen uitvoert.
 
 Volg de onderstaande stappen om de Android™ apk te ondertekenen met de toetsen van de fabrikant:
 
 1. Download apk van Google Play of van de [ downloadt van de Speler van AEM Screens ](https://download.macromedia.com/screens/) pagina
 1. Verkrijg de platformsleutels van de fabrikant zodat kunt u a *pk8* en a *krijgen pem* dossier
 
-1. Zoek het gereedschap `apksigner` in de Android™ SDK met behulp van Zoeken `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Zoek het gereedschap `apksigner` in Android™ SDK met de zoekfunctie `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Het pad naar het ZIP-uitlijngereedschap in de Android™ SDK zoeken
+1. Het pad naar het gereedschap ZIP-uitlijning zoeken in de Android™ SDK
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Installeer ***aemscreensalign.apk*** gebruikend adb installeert aan het apparaat
 
@@ -110,7 +113,7 @@ Het volgende diagram toont de implementatie van de waakhonddienst:
 
 ## Bulkprovisioning van Android™ Player {#bulk-provision-android-player}
 
-Wanneer u de Android™-speler bulksgewijs implementeert, moet u de speler de mogelijkheid bieden naar een AEM instantie te verwijzen en andere eigenschappen te configureren zonder deze handmatig in te voeren in de beheerinterface.
+Wanneer u de Android™-speler bulksgewijs implementeert, moet u de speler de mogelijkheid bieden naar een AEM-instantie te verwijzen en andere eigenschappen te configureren zonder deze handmatig in te voeren in de beheerinterface.
 
 >[!NOTE]
 >Deze functie is beschikbaar in Android™ Player 42.0.372.
@@ -124,7 +127,7 @@ Zie een [ Beleid JSON van het Voorbeeld ](#example-json) en een lijst die het ge
 
 1. Wanneer het dossier wordt opgesteld, gebruik MDM om de spelertoepassing te installeren.
 
-1. Wanneer de spelertoepassing begint, wordt dit configuratiedossier gelezen en richt aan de toepasselijke AEM server waar het wordt geregistreerd en dan gecontroleerd.
+1. Wanneer de spelertoepassing wordt gestart, wordt dit configuratiebestand gelezen en wordt het verwezen naar de AEM-server waarop het is geregistreerd en vervolgens wordt bestuurd.
 
    >[!NOTE]
    >Dit dossier is *leest slechts* de eerste keer dat de toepassing wordt gelanceerd en niet voor verdere configuraties kan worden gebruikt. Als de speler wordt gestart voordat het configuratiebestand wordt neergezet, verwijdert u de toepassing gewoon en installeert u deze opnieuw op het apparaat.
@@ -172,7 +175,7 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 
 ## Bulkprovisioning van Android™ Player met gebruik van Enterprise Mobility Management {#bulk-provisioning}
 
-Wanneer u de Android™-speler bulksgewijs inzet, wordt het vervelend om elke speler handmatig te registreren bij AEM. Gebruik een EMM-oplossing (Enterprise Mobility Management), zoals [`VMWare Airwatch` ](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm) , MobileIron of Samsung Knox, zodat u uw implementatie op afstand kunt voorzien en beheren. AEM Screens Android™-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
+Wanneer u de Android™-speler bulksgewijs inzet, wordt het vervelend om elke speler handmatig bij AEM te registreren. Gebruik een EMM-oplossing (Enterprise Mobility Management), zoals [`VMWare Airwatch` ](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm) , MobileIron of Samsung Knox, zodat u uw implementatie op afstand kunt voorzien en beheren. AEM Screens Android™-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
 
 ## Namen van Android™ Player {#name-android}
 
@@ -198,7 +201,7 @@ Voer de onderstaande stappen uit om bulkprovisioning in Android™ Player toe te
 1. Vorm deze parameters, sparen, en stel het beleid aan de apparaten op.
 
    >[!NOTE]
-   >De apparaten zouden de toepassing samen met de configuratie moeten ontvangen. Het zou aan de correcte AEM server met de geselecteerde configuratie moeten richten. Als u ervoor hebt gekozen de bulkregistratiecode te configureren en deze op dezelfde wijze te handhaven als in AEM is geconfigureerd, moet de speler zichzelf automatisch kunnen registreren. Als u een standaardweergave hebt geconfigureerd, kan deze ook standaardinhoud downloaden en weergeven (die later naar wens kan worden gewijzigd).
+   >De apparaten zouden de toepassing samen met de configuratie moeten ontvangen. De toepassing moet verwijzen naar de juiste AEM-server met de geselecteerde configuratie. Als u ervoor hebt gekozen de bulkregistratiecode te configureren en deze op dezelfde manier te handhaven als in AEM, kan de speler zichzelf automatisch registreren. Als u een standaardweergave hebt geconfigureerd, kan deze ook standaardinhoud downloaden en weergeven (die later naar wens kan worden gewijzigd).
 
 Raadpleeg ook uw leverancier van EMM op AppConfig-ondersteuning. De populairste degenen zoals [`VMWare Airwatch` ](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron` ](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI` ](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM` ](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360` ](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), en [`Samsung Knox` ](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) onder anderen steunen deze industriestandaard.
 
