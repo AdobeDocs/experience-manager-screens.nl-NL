@@ -25,7 +25,7 @@ De volgende pagina verstrekt de richtlijnen voor het vormen van een Dispatcher v
 >Als er geen Dispatcher is, maak de registratieserver in de OSGi componentenlijst onbruikbaar.
 
 Voordat u Dispatcher voor een AEM Screens-project configureert, moet u eerst op de hoogte zijn van Dispatcher.
-Zie [ Vormend Dispatcher ](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) voor meer details.
+Zie [ Vormend Dispatcher ](https://experienceleague.adobe.com/nl/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) voor meer details.
 
 ## Dispatcher for Manifest versie v2 configureren {#configuring-dispatcher}
 

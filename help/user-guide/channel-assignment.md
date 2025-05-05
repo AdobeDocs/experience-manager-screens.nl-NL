@@ -174,5 +174,5 @@ Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het 
 >
 > Zie de volgende secties voor meer informatie over DayParting:
 >
->* [ Behandelend Herhaling in Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [ Behandelende Herhaling voor Assets in een Kanaal ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [ Behandelend Herhaling in Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [ Behandelende Herhaling voor Assets in een Kanaal ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

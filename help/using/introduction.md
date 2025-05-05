@@ -30,7 +30,7 @@ Het maken en beheren van een digitaal signalisatienetwerk met behulp van AEM Scr
 
 >[!NOTE]
 >
->Om in detail over verschillende eigenschappen in een het projectontwikkeling en beheer van AEM Screens te leren, zie de **[Gids van de Gebruiker van AEM Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>Om in detail over verschillende eigenschappen in een het projectontwikkeling en beheer van AEM Screens te leren, zie de **[Gids van de Gebruiker van AEM Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## AEM Sites versus AEM Screens {#aem-sites-screens}
 

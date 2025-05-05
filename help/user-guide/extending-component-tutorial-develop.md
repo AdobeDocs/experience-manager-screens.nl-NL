@@ -40,11 +40,11 @@ U hebt het volgende nodig om deze zelfstudie te voltooien:
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokale ontwikkelomgeving
 
-De stappen en schermafbeeldingen van de zelfstudie worden uitgevoerd gebruikend CRXDE-Lite. [ Eclipse ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) of [ IntelliJ ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Meer informatie bij het gebruiken van winde aan [ ontwikkelt zich met AEM kan hier ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup) worden gevonden.
+De stappen en schermafbeeldingen van de zelfstudie worden uitgevoerd gebruikend CRXDE-Lite. [ Eclipse ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) of [ IntelliJ ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Meer informatie bij het gebruiken van winde aan [ ontwikkelt zich met AEM kan hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup) worden gevonden.
 
 ## Projectinstelling {#project-setup}
 
-De broncode van een Screens-project wordt doorgaans beheerd als een Maven-project met meerdere modules. Om het leerprogramma te versnellen, werd een project pre-geproduceerd gebruikend [ AEM Archetype 13 van het Project ](https://github.com/adobe/aem-project-archetype). Meer details bij [ het creëren van een project met Maven AEM Archetype van het Project kunnen hier ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup) worden gevonden.
+De broncode van een Screens-project wordt doorgaans beheerd als een Maven-project met meerdere modules. Om het leerprogramma te versnellen, werd een project pre-geproduceerd gebruikend [ AEM Archetype 13 van het Project ](https://github.com/adobe/aem-project-archetype). Meer details bij [ het creëren van een project met Maven AEM Archetype van het Project kunnen hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup) worden gevonden.
 
 1. Download en installeer de volgende pakketten gebruikend **het pakket van CRX beheren** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -70,7 +70,7 @@ De broncode van een Screens-project wordt doorgaans beheerd als een Maven-projec
 
 ## De postercomponent maken {#poster-cmp}
 
-De postercomponent breidt de uit-van-de-doos AEM Screens-afbeeldingscomponent uit. Een mechanisme van Verdelen, `sling:resourceSuperType`, wordt gebruikt om de kernfunctionaliteit van de component van het Beeld te erven zonder het moeten kopiëren en kleven. Meer informatie over de grondbeginselen van [ Verwerking van het Verzoek van de Verkoop kan hier worden gevonden.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
+De postercomponent breidt de uit-van-de-doos AEM Screens-afbeeldingscomponent uit. Een mechanisme van Verdelen, `sling:resourceSuperType`, wordt gebruikt om de kernfunctionaliteit van de component van het Beeld te erven zonder het moeten kopiëren en kleven. Meer informatie over de grondbeginselen van [ Verwerking van het Verzoek van de Verkoop kan hier worden gevonden.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertoning/Productie. In de bewerkingsmodus is het belangrijk dat de component anders wordt gerenderd om het ontwerpen van het kanaal Volgorde te vergemakkelijken.
 
@@ -314,7 +314,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
 ## Client-Side bibliotheken maken {#clientlibs}
 
-Client-Side Libraries bieden een mechanisme voor het organiseren en beheren van CSS- en JavaScript-bestanden die nodig zijn voor een AEM implementatie. Meer informatie over het gebruiken van [ cliënt-Kant Bibliotheken kan hier worden gevonden.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+Client-Side Libraries bieden een mechanisme voor het organiseren en beheren van CSS- en JavaScript-bestanden die nodig zijn voor een AEM implementatie. Meer informatie over het gebruiken van [ cliënt-Kant Bibliotheken kan hier worden gevonden.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in de modus Voorbeeld/productie. Er worden twee sets met clientbibliotheken gemaakt: een voor de bewerkingsmodus en een tweede voor Voorvertoning/Productie.
 
@@ -339,7 +339,7 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
 
    De eigenschap `categories` is een tekenreeks die de clientbibliotheek identificeert. De categorie `cq.screens.components` wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom wordt elke CSS/JS die in de `shared` clientlib is gedefinieerd, in alle modi geladen.
 
-   U kunt het beste paden nooit rechtstreeks toegankelijk maken voor `/apps` in een productieomgeving. De eigenschap `allowProxy` zorgt ervoor dat naar de CSS- en JS-clientbibliotheek wordt verwezen via een voorvoegsel van `/etc.clientlibs` . Meer informatie over het [ allowProxy bezit kan hier worden gevonden.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   U kunt het beste paden nooit rechtstreeks toegankelijk maken voor `/apps` in een productieomgeving. De eigenschap `allowProxy` zorgt ervoor dat naar de CSS- en JS-clientbibliotheek wordt verwezen via een voorvoegsel van `/etc.clientlibs` . Meer informatie over het [ allowProxy bezit kan hier worden gevonden.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Maak een bestand met de naam `css.txt` onder de gedeelde map.
 

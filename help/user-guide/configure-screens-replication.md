@@ -20,7 +20,7 @@ In de volgende pagina wordt beschreven hoe u Screens Replication Agents configur
 De Agent van de Replicatie van Screens is verantwoordelijk voor het brengen van bevelsgegevens zoals *gebruiker*, *wachtwoord*, *rebootSchedule*, *maxNumberOfLogFilesToKeep*, en veel meer dergelijke waarden van publiceren aan auteur. Het is essentieel om deze agent te vormen zodat de auteur het apparaat kan tonen pingelt.
 
 >[!NOTE]
->Meer over de Agenten van de Replicatie van Screens leren, zie {de Agenten en Bevelen van de Replicatie van 0} Screens [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
+>Meer over de Agenten van de Replicatie van Screens leren, zie {de Agenten en Bevelen van de Replicatie van 0} Screens [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
 
 Voltooi beide secties als u de configuratie voor de Agent van de Replicatie van Screens wilt voltooien:
 

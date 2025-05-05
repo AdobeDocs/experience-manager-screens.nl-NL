@@ -112,7 +112,7 @@ Voer de onderstaande stappen uit om een standaardreplicatieagent te maken:
 1. Maak een AEM Screens-replicatieagent voor pub2. Kopieer de Screens replicatieagent voor pub1 en verander de haven aan punt 4504 voor pub2.
 
    >[!NOTE]
-   >Leren hoe te om de replicatieagenten van Screens te vormen, zie [ Vormend de Agent van de Replicatie van Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Leren hoe te om de replicatieagenten van Screens te vormen, zie [ Vormend de Agent van de Replicatie van Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Screens Reverse Replication Agents maken {#creating-screens-reverse-replication-agents}
 

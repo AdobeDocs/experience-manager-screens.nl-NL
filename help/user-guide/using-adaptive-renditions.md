@@ -45,7 +45,7 @@ Ga als volgt te werk om vertoningen toe te passen op elementen die u wilt gebrui
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Zie [ Update van de Inhoud op bestelling ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) om meer te leren over het beheren van Publicatie en het leveren van inhoudsupdates van Auteur aan Publish aan apparaat.
+   >Zie [ Update van de Inhoud op bestelling ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) om meer te leren over het beheren van Publicatie en het leveren van inhoudsupdates van Auteur aan Publish aan apparaat.
 
 ## Migratiestrategie {#migration-strategy}
 

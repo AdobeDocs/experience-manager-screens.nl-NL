@@ -94,7 +94,7 @@ In de volgende sectie wordt het gebruik beschreven van waarden uit een gegevenso
 
 Opstelling configuraties ContextHub voor uw project van AEM Screens.
 
-Leren hoe te opstelling en gegevens gedreven activaveranderingen te beheren gebruikend een gegevensopslag, zie [ Vormend ContextHub in AEM Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Leren hoe te opstelling en gegevens gedreven activaveranderingen te beheren gebruikend een gegevensopslag, zie [ Vormend ContextHub in AEM Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 Nadat u de vereiste configuraties voor uw project hebt ingesteld, volgt u de onderstaande stappen om waarden uit de Google-werkbladen te gebruiken:
 

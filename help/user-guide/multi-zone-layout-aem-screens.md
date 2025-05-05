@@ -40,8 +40,8 @@ Zoals bij de projectvereisten, soms hebt u veelvoudige streken in een kanaal nod
 
 Voordat u begint met het implementeren van deze functionaliteit, moet u de conceptuele kennis over:
 
-* [ Creërend een Project van AEM Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [ Creërend een Vertoning ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [ Creërend een Project van AEM Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [ Creërend een Vertoning ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Een kanaal toewijzen aan een weergave](/help/user-guide/channel-assignment.md)
 
 ## Lay-out met meerdere zones maken {#creating-multi-zone-layout}
