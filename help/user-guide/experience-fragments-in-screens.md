@@ -54,7 +54,7 @@ A **DemoProject** wordt toegevoegd aan uw AEM Screens.
 1. Navigeer aan **DemoProject** u creeerde en klik de **omslag van Kanalen**.
 
 1. Klik **creëren** van de actiebar zodat kunt u de tovenaar openen.
-1. Kies het **malplaatje van het Kanaal van de Opeenvolging 1} van de tovenaar en klik** daarna **.**
+1. Kies het **malplaatje van het Kanaal van de Opeenvolging 1&rbrace; van de tovenaar en klik** daarna **.**
 
 1. Ga de **Titel** als **TestChannel** in en klik **creeer**.
 
@@ -135,7 +135,7 @@ Volg hieronder de stappen om de inhoud van **`We.Retail`** op uw **TestChannel**
 
    ![ screen_shot_2019-07-29at123115pm ](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e. Klik de **component van het Fragment van de Ervaring 0} {en klik het hoogste linker (moersleutel) pictogram zodat kunt u het** de dialoogvakje van het Fragment van de Ervaring **openen.**
+   e. Klik de **component van het Fragment van de Ervaring 0&rbrace; &lbrace;en klik het hoogste linker (moersleutel) pictogram zodat kunt u het** de dialoogvakje van het Fragment van de Ervaring **openen.**
 
    f. Klik het **Levende Exemplaar van Screens** van het fragment dat u in *Stap 3* in **Weg** creeerde.
 
@@ -187,7 +187,7 @@ Voer de onderstaande stappen uit om wijzigingen van het primaire kanaal naar het
 
    ![ screen_shot_2018-06-08at25031pm ](assets/screen_shot_2018-06-08at25031pm.png)
 
-1. Het **de dialoogvakje van het Net van het Product van 0} {opent.**
+1. Het **de dialoogvakje van het Net van het Product van 0&rbrace; &lbrace;opent.**
 
    ![ screen_shot_2018-06-08at25306pm ](assets/screen_shot_2018-06-08at25306pm.png)
 

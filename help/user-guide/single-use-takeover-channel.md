@@ -66,7 +66,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![ activa ](assets/single-takeover4.png)
 
-1. Stel een locatie en weergave voor uw kanalen in. Bijvoorbeeld, worden de volgende **plaats 0} Lobby {en** 3} vertoning MainLobbyDisplay opstelling voor dit project.****
+1. Stel een locatie en weergave voor uw kanalen in. Bijvoorbeeld, worden de volgende **plaats 0&rbrace; Lobby {en** 3} vertoning MainLobbyDisplay opstelling voor dit project.**&#x200B;**
 
    ![ activa ](assets/single-takeover5.png)
 
@@ -79,13 +79,13 @@ Voer de onderstaande stappen uit om een project in te stellen:
    >[!NOTE]
    >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie **[Toewijzing van het Kanaal](channel-assignment.md)**.
 
-1. Vul de gebieden (**Weg van het Kanaal**, **Prioriteit**, en **Ondersteunde Gebeurtenissen**) van het **7} de dialoogvakje van de Toewijzing van het Kanaal en klik** sparen **.** U hebt nu **MainAdChannel** aan uw vertoning toegewezen.
+1. Vul de gebieden (**Weg van het Kanaal**, **Prioriteit**, en **Ondersteunde Gebeurtenissen**) van het **7&rbrace; de dialoogvakje van de Toewijzing van het Kanaal en klik** sparen **.** U hebt nu **MainAdChannel** aan uw vertoning toegewezen.
 
    ![ activa ](assets/single-takeover7.png)
 
 1. Klik de vertoning **TakeOver** van de **omslag van Plaatsen**. Klik **toewijzen Kanaal** van de actiebar zodat kunt u het enig-gebruiks overnamekanaal toewijzen.
 
-1. Wijs het **kanaal 0} TakeOver {aan uw vertoning in een geplande tijd toe en bevolk de volgende gebieden van het** de dialoogvakje van de Toewijzing van het Kanaal **en klik** sparen **:**
+1. Wijs het **kanaal 0&rbrace; TakeOver &lbrace;aan uw vertoning in een geplande tijd toe en bevolk de volgende gebieden van het** de dialoogvakje van de Toewijzing van het Kanaal **en klik** sparen **:**
 
    * **Weg van het Kanaal**: Klik de weg aan het kanaal TakeOver
    * **Prioriteit**: Plaats de prioriteit van dit kanaal groter dan **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.

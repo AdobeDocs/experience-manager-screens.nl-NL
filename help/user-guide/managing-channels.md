@@ -35,7 +35,7 @@ Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappe
 
    ![ demochannel ](assets/create-channel1.png)
 
-1. Klik het **malplaatje van het Kanaal van de Opeenvolging 1} van** creëren **tovenaar en klik** daarna **.**
+1. Klik het **malplaatje van het Kanaal van de Opeenvolging 1&rbrace; van** creëren **tovenaar en klik** daarna **.**
 
    ![ demochannel ](assets/create-channel2.png)
 
@@ -165,11 +165,11 @@ Volg de onderstaande stappen om het kanaal online te maken:
 
    ![ screen_shot_2019-08-01at31458pm ](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Klik **Eigenschappen** van de actiebar en navigeer aan het **3} lusje van het Kanaal {zoals hieronder getoond:**
+1. Klik **Eigenschappen** van de actiebar en navigeer aan het **3&rbrace; lusje van het Kanaal &lbrace;zoals hieronder getoond:**
 
    ![ screen_shot_2019-08-01at31542pm ](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Controleer de **** wijze van de 1} Ontwikkelaar **(dwang het kanaal om online te zijn)** om het kanaal als online te maken.
+1. Controleer de **&#x200B;**&#x200B;wijze van de 1&rbrace; Ontwikkelaar **(dwang het kanaal om online te zijn)** om het kanaal als online te maken.
 
    Klik **sparen &amp; Sluiten** om uw optie te bewaren.
 

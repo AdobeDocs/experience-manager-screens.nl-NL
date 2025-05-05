@@ -101,7 +101,7 @@ Voer de onderstaande stappen uit om een bestand te importeren naar een locatiema
 
    ![ screen_shot_2019-05-12at52651am ](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Klik het project,** DemoProjectImporter **>** creeer **>** de Plaatsen van de Invoer** van de zijbar.
+1. Klik het project,**&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; creeer &#x200B;**>**&#x200B; de Plaatsen van de Invoer** van de zijbar.
 
    ![ screen_shot_2019-05-12at52433am ](assets/screen_shot_2019-05-12at52433am.png)
 

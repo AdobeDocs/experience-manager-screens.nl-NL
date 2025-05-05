@@ -41,7 +41,7 @@ Voer de onderstaande stappen uit om de installatie te configureren:
    >![afbeelding](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Als u het recentste Pak 202109 van de Eigenschap installeerde, ziet u de **vertoning-afbeelding** knoopstructuur vooraf bevolkt in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Zie {de Nota&#39;s van de Versie voor het Pak 202109 van de Eigenschap ](/help/user-guide/release-notes-fp-202109.md) om details op het recentste Pak van de Eigenschap te krijgen.[
+   >Als u het recentste Pak 202109 van de Eigenschap installeerde, ziet u de **vertoning-afbeelding** knoopstructuur vooraf bevolkt in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Zie &lbrace;de Nota&#39;s van de Versie voor het Pak 202109 van de Eigenschap [&#128279;](/help/user-guide/release-notes-fp-202109.md) om details op het recentste Pak van de Eigenschap te krijgen.
    >Voor bestaande projecten, zorg ervoor dat het project van Screens de **vertoning-afbeelding** verbonden configuratie heeft. Zie [ Toevoegend Afbeelding van de Vertoning aan een Bestaand project ](#rendition-mapping-existing) sectie voor meer informatie.
 
 ### Eigenschap voor renderingstoewijzing toevoegen aan een bestaand project {#rendition-mapping-existing}

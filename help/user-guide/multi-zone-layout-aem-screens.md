@@ -66,7 +66,7 @@ U kunt afzonderlijke elementen, zoals een afbeelding of een video, in alle afzon
 1. **Toevoegend Inhoud aan het Kanaal**
 
    1. Navigeer aan **Gebieden** > **Kanalen** > **MultiZone**.
-   1. Klik het **kanaal 0} MultiZone {en klik** uitgeven **van de actiebar.**
+   1. Klik het **kanaal 0&rbrace; MultiZone &lbrace;en klik** uitgeven **van de actiebar.**
 
 1. **Toevoegend Beelden aan het Kanaal**
 
@@ -89,7 +89,7 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
 1. **Toevoegend twee meer kanalen aan de Omslag van het Kanaal**
 
    1. Navigeer aan **Gebieden** > **Kanalen** > **EmbeddedChannels** en klik **creeer** van de actiebar.
-   1. Klik het Kanaal van de Opeenvolging **van** creëren **tovenaar om een kanaal tot stand te brengen dat als **`Zone1`**wordt genoemd.**
+   1. Klik het Kanaal van de Opeenvolging **van** creëren **tovenaar om een kanaal tot stand te brengen dat als &#x200B;**`Zone1`**wordt genoemd.**
    1. Klik **`Zone1`** en klik **uitgeven** van de actiebar.
    1. Sleep een paar afbeeldingen naar dit kanaal.
    1. Op dezelfde manier creeer een ander opeenvolgingskanaal dat als **`Zone2`** in **wordt genoemd EmbeddedChannels** omslag.
@@ -144,14 +144,14 @@ Wijs de kanalen aan de vertoning toe om de inhoud te bekijken. Voer de onderstaa
 1. **Toewijzend Kanaal aan de Vertoning**
 
    1. Navigeer aan **Gebieden** > **Plaatsen** > **SanJose**> **Lobby**.
-   1. Klik de **vertoning 0} Lobby {en klik** toewijzen Kanaal **van de actiebar.**
-   1. Ga de weg aan het **kanaal 0} MultiZone {in** Weg van het Kanaal **in.**
+   1. Klik de **vertoning 0&rbrace; Lobby &lbrace;en klik** toewijzen Kanaal **van de actiebar.**
+   1. Ga de weg aan het **kanaal 0&rbrace; MultiZone &lbrace;in** Weg van het Kanaal **in.**
    1. Plaats de **Gesteunde Gebeurtenissen** als **Aanvankelijke Lading**, **het Niet-actieve Scherm**, en **Tijdopnemer**.
    1. Klik **sparen**.
 
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Wijs op dezelfde manier de andere twee ingesloten kanalen (**`Zone1`** en **`Zone2`**) aan deze vertoning toe.
-   1. Nadat u alle drie kanalen aan de **** vertoning Lobby toewijst, zou u de toegewezen kanalen van het vertoningsdashboard moeten kunnen bekijken.
+   1. Nadat u alle drie kanalen aan de **&#x200B;**&#x200B;vertoning Lobby toewijst, zou u de toegewezen kanalen van het vertoningsdashboard moeten kunnen bekijken.
 
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
@@ -174,7 +174,8 @@ Wanneer u een locatie en een weergave hebt ingesteld, voert u de onderstaande st
       > De titel van het apparaat moet het apparatenteken (**Symbolische** gebied) aanpassen dat in de **Registratie van het Apparaat** tabel wordt getoond.
 
    1. Als de titel het apparatenteken aanpast, dan klik het apparaat en klik **Apparaat van het Register** van de actiebar.
-   1. Als de registratiecode de code in de speler van Screens **1} tabel van de Registratie van het Apparaat aanpast, klik** bevestigt **van de actiebar.**
+   1. Als de registratiecode de code in de speler van Screens **1&rbrace; tabel van de Registratie van het Apparaat aanpast, klik** bevestigt **van de actiebar.**
+
       ![afbeelding](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Ga de **Titel** als **`Chrome-Device1`** in en klik **Register**.
    1. Klik **toewijzen Vertoning** en klik de weg aan het apparaat config.

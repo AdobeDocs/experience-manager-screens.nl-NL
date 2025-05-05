@@ -36,7 +36,7 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    of
 
-   Klik **Dashboard** en klik **+ wijs Kanaal** van het **TOEGEWEZEN paneel van KANALEN** toe zodat kunt u het **7} de dialoogvakje van de Toewijzing van het Kanaal openen.**
+   Klik **Dashboard** en klik **+ wijs Kanaal** van het **TOEGEWEZEN paneel van KANALEN** toe zodat kunt u het **7&rbrace; de dialoogvakje van de Toewijzing van het Kanaal openen.**
 
    ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
@@ -61,7 +61,7 @@ De rol van het kanaal bepaalt de context van de vertoning. De rol is gericht op 
 Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. De waarde met de hoogste waarde heeft altijd voorrang op lagere waarden. Bijvoorbeeld, als er twee kanalen A en B zijn. A heeft een prioriteit van 1 en B heeft een prioriteit van 2, dan wordt kanaal B getoond, aangezien het een hogere prioriteit dan A heeft.
 
 >[!NOTE]
->De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1}, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
+>De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1&rbrace;, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
 ### Ondersteunde gebeurtenissen {#supported-events-channel}
 

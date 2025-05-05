@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit om het dashboard voor het schema weer te geven.
 
    ![ chlimage_1-1 ](assets/chlimage_1-1.png)
 
-   **Klik Eigenschappen van het Comité van de Informatie van het 0} Programma van de bovenkant-juiste hoek van het paneel van de INFORMATIE van het SCHEMA aan mening/veranderingseigenschappen van het programma.**
+   **Klik Eigenschappen van het Comité van de Informatie van het 0&rbrace; Programma van de bovenkant-juiste hoek van het paneel van de INFORMATIE van het SCHEMA aan mening/veranderingseigenschappen van het programma.**
 
    **Toegewezen het Comité van Kanalen** klikt +wijst Kanaal van de hoogste juiste hoek van het Toegewezen Comité van KANALEN toe om de de dialoogdoos van de Toewijzing van het Kanaal te openen.
 

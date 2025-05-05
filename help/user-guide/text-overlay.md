@@ -50,9 +50,9 @@ Voordat u deze functionaliteit implementeert, moet u een project instellen als e
 
 * Creeer een opeenvolgingskanaal als **TextSample** onder de **omslag van Kanalen** wordt genoemd
 
-* Voeg inhoud aan uw **** Kanaal TextSample toe
+* Voeg inhoud aan uw **&#x200B;**&#x200B;Kanaal TextSample toe
 
-Het volgende beeld toont het **TextOverlayDemo** project met het **** kanaal TextSample in de **omslag van Kanalen**.
+Het volgende beeld toont het **TextOverlayDemo** project met het **&#x200B;**&#x200B;kanaal TextSample in de **omslag van Kanalen**.
 
 ![ screen_shot_2018-12-16at75908pm ](assets/screen_shot_2018-12-16at75908pm.png)
 

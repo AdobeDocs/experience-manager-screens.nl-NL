@@ -173,11 +173,11 @@ Voer in geval van nood de volgende stappen uit:
 
    ![ screen_shot_2019-02-25at101239pm ](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Werk de **Prioriteit** van **EmergencyChannel** aan **3** van de **7} dialoogdoos van de Toewijzing van het Kanaal bij en klik** sparen **.**
+1. Werk de **Prioriteit** van **EmergencyChannel** aan **3** van de **7&rbrace; dialoogdoos van de Toewijzing van het Kanaal bij en klik** sparen **.**
 
    ![ screen_shot_2019-02-25at101622pm ](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Wanneer de prioriteit van het kanaal wordt bijgewerkt, toont al Speler van AEM Screens de **** inhoud EmergencyChannel.
+1. Wanneer de prioriteit van het kanaal wordt bijgewerkt, toont al Speler van AEM Screens de **&#x200B;**&#x200B;inhoud EmergencyChannel.
 
    ![ screen_shot_2019-02-25at101742pm ](assets/screen_shot_2019-02-25at101742pm.png)
 

@@ -97,6 +97,6 @@ Voer de onderstaande stappen uit om een ingesloten reeks aan uw kanaal toe te vo
 1. Ga de **Rol van de Taak van het Kanaal** in.
 1. Plaats de **Gememateerde Strategie van de Playback** aan **normaal**. Door gebrek, wordt het geplaatst aan **normaal**. Het plaatsen van de waarde aan **normaal** (Spel alle punten) betekent dat de verdere looppas volledig op elke cyclus van de ouderopeenvolging. De andere mogelijke waarde is **Spel één enkel punt**. Die waarde toont slechts één punt van de verdere opeenvolging op elke looppas. Bijvoorbeeld het eerste item op de eerste lus en het tweede item op de tweede lus.
 
-1. Klik de **Duur (milliseconden)** in het **3} lusje van de Opeenvolging {voor uw ingebed kanaal in de opeenvolging.**
+1. Klik de **Duur (milliseconden)** in het **3&rbrace; lusje van de Opeenvolging &lbrace;voor uw ingebed kanaal in de opeenvolging.**
 
 ![ recentste ](assets/latest.gif)

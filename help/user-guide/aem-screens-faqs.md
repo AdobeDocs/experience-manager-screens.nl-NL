@@ -138,7 +138,7 @@ De ChromeOS-speler kan worden geïnstalleerd als een Chrome-browserplug-in in de
 1. Open browser van Chrome en klik **Uitbreidingen** van het menu of navigeer direct aan ***chrome://extensions***.
 1. Schakelaar op de **wijze van de Ontwikkelaar** van de top-juiste hoek.
 1. Klik **Lading Onverpakte** van de hoogste-linkerhoek en lading unzipped Speler van Chrome.
-1. Als beschikbaar in de lijst van uitbreidingen, controleer de **1} stop van de Speler van AEM Screens Chrome**.
+1. Als beschikbaar in de lijst van uitbreidingen, controleer de **1&rbrace; stop van de Speler van AEM Screens Chrome**.
 1. Open een nieuw lusje en klik **Apps** pictogram van de top-linkerhoek, of navigeer direct aan ***chrome://apps***.
 1. Klik de **Insteekmodule van AEM Screens**. Standaard wordt de speler gestart in de modus Volledig scherm. Pers **Esc** om volledige het schermwijze weg te gaan.
 

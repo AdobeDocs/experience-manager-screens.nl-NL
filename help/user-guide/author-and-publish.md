@@ -54,7 +54,7 @@ Om replicatieagenten tot stand te brengen, leer hoe te om een standaardreplicati
 
 Er zijn drie replicatieagenten die voor Screens nodig zijn:
 
-1. **de Agent van de Standaard van de Replicatie ***(die als*** StandaardAgent van de Replicatie** wordt gespecificeerd)
+1. **de Agent van de Standaard van de Replicatie &#x200B;***(die als&#x200B;*** StandaardAgent van de Replicatie** wordt gespecificeerd)
 1. **de Agent van de Replicatie van Screens**
 1. **Omgekeerde Agent van de Replicatie**
 

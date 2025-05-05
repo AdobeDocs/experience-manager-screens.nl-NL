@@ -105,9 +105,9 @@ Voer de volgende stappen uit om de Screens-startfunctionaliteit te implementeren
 
    ![ Beeld ](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. **creeer de 1} tovenaar van de Lancering {opent.** U kunt op het kanaal klikken dat al zichtbaar is in de wizard of op **+ Kanalen toevoegen** klikken om het kanaal toe te voegen waarvoor u de opstart wilt maken.
+1. **creeer de 1&rbrace; tovenaar van de Lancering &lbrace;opent.** U kunt op het kanaal klikken dat al zichtbaar is in de wizard of op **+ Kanalen toevoegen** klikken om het kanaal toe te voegen waarvoor u de opstart wilt maken.
 
-1. Klik **daarna** van **creeer de 3} tovenaar van de Lancering {.** **omvat subpages** optie wordt geselecteerd door gebrek.
+1. Klik **daarna** van **creeer de 3&rbrace; tovenaar van de Lancering &lbrace;.** **omvat subpages** optie wordt geselecteerd door gebrek.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-d.png)
 

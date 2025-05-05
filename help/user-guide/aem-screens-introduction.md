@@ -57,7 +57,7 @@ Het volgende cijfer bepaalt de karakters en hun rollen voor Experience Managers 
 
 * **Geleide Grondbeginselen van de Implementatie**
 
-  Volg de geleide het leren weg {de Hoofdzaak van de Uitvoering van Experience Managers Screens 0} ](https://experienceleague.adobe.com/?launch=AEM-7a) **die fundamentele en geavanceerde eigenschappen behandelt die in Experience Managers Screens worden gesteund.**[
+  Volg de geleide het leren weg {de Hoofdzaak van de Uitvoering van Experience Managers Screens 0} [&#128279;](https://experienceleague.adobe.com/?launch=AEM-7a) **die fundamentele en geavanceerde eigenschappen behandelt die in Experience Managers Screens worden gesteund.**
 
 * **Gids van Beste praktijken voor de Projecten van Experience Managers Screens**
 

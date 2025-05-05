@@ -45,13 +45,13 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    1. Klik de **omslag van Kanalen** en klik **creëren** van de actiebar en het openen van de tovenaar zodat kunt u een kanaal tot stand brengen.
    1. Klik **van het Kanaal van het Scherm van de Bar van links-L** van de tovenaar en creeer het kanaal dat als **wordt genoemd MultiZoneLayout**.
-   1. Voeg inhoud toe aan het kanaal. Sleep de elementen naar elk van de zones. Het volgende voorbeeld toont a **kanaal 0} MultiZoneLayout dat een video, een beeld, en een tekstbanner (in een ingebedde opeenvolging) omvat, zoals hieronder getoond.**
+   1. Voeg inhoud toe aan het kanaal. Sleep de elementen naar elk van de zones. Het volgende voorbeeld toont a **kanaal 0&rbrace; MultiZoneLayout dat een video, een beeld, en een tekstbanner (in een ingebedde opeenvolging) omvat, zoals hieronder getoond.**
 
    ![ activa ](assets/mz-to-sz2.png)
 
    >[!NOTE]
    >
-   >Meer leren over het creëren van een multi-zonelay-out in uw kanaal, zie {Lay-out Van meerdere zones 0} ](multi-zone-layout-aem-screens.md).[
+   >Meer leren over het creëren van een multi-zonelay-out in uw kanaal, zie {Lay-out Van meerdere zones 0} [&#128279;](multi-zone-layout-aem-screens.md).
 
 
 1. Creeer een ander kanaal dat als **wordt genoemd TakOPChannel** aan uw **omslag van Kanalen**.
@@ -62,15 +62,15 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
    ![ activa ](assets/mz-to-sz4.png)
 
-1. Open de montages voor de component van het Kanaal en punt het aan het **** kanaal MultiZoneLayout dat u in *stap 2* creeerde.
+1. Open de montages voor de component van het Kanaal en punt het aan het **&#x200B;**&#x200B;kanaal MultiZoneLayout dat u in *stap 2* creeerde.
 
    ![ activa ](assets/mz-to-sz5.png)
 
-1. Plaats de duur van het **gebied van de Opeenvolging** {aan **10000 milliseconden**.
+1. Plaats de duur van het **gebied van de Opeenvolging** &lbrace;aan **10000 milliseconden**.
 
    ![ activa ](assets/mz-to-sz6.png)
 
-1. Op dezelfde manier open de montages voor het Beeld (activa u) toevoegde en zijn duur van het **1} gebied van de Opeenvolging {aan** 3000 milliseconden **plaatsen.**
+1. Op dezelfde manier open de montages voor het Beeld (activa u) toevoegde en zijn duur van het **1&rbrace; gebied van de Opeenvolging &lbrace;aan** 3000 milliseconden **plaatsen.**
 
    ![ activa ](assets/mz-to-sz7.png)
 

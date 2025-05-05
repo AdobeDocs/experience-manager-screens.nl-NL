@@ -28,7 +28,7 @@ Volg deze pagina voor informatie over het installeren van de Chrome-speler als e
 
 1. Open browser van Chrome en klik het 3 dots menu en klik **Meer Hulpmiddelen** van **Uitbreidingen** in de hoogste juiste hoek of navigeer direct aan `chrome://extensions`.
 
-1. Schakelaar op de **1} wijze van de Ontwikkelaar {van de top-juiste hoek.**
+1. Schakelaar op de **1&rbrace; wijze van de Ontwikkelaar &lbrace;van de top-juiste hoek.**
 
 1. Klik **Lading Onverpakte** van de hoogste-linkerhoek en laad de unzipped speler van Chrome.
 

@@ -48,7 +48,7 @@ De releasedatum voor AEM Screens Feature Pack 202008 is 3 september 2020.
 
   Een tevreden Auteur kan een vertoning vormen om toegelaten stem te zijn. Het doel van deze eigenschap is klanten toespraak als methode te laten gebruiken om met hun vertoningen in wisselwerking te staan.
 
-  Zie ](voice-recognition.md) van de Erkenning van de Stem 0} voor meer details.[
+  Zie [&#128279;](voice-recognition.md) van de Erkenning van de Stem 0&rbrace; voor meer details.
 
 ### Bekende problemen en oplossingen {#known-issues}
 
@@ -59,7 +59,7 @@ Configuratie** op alle AEM auteur en publiceer instanties.
 
 * Zie [ Uitvoerend Vensters 10 Speler ](implementing-windows-player.md#fp-environment-setup) voor meer details.
 
-* Zie ](implementing-android-player.md#fp-environment-setup) het Uitvoeren van de Speler van Android™ [ voor meer details.
+* Zie [&#128279;](implementing-android-player.md#fp-environment-setup) het Uitvoeren van de Speler van Android™  voor meer details.
 
 ### Uitgebrachte AEM Screens-spelers
 

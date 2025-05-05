@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Offlinekanalen {#offline-channels}
 
-De speler van Screens verleent off-line steun voor de kanalen door de ****** technologie te gebruiken ContentSync.
+De speler van Screens verleent off-line steun voor de kanalen door de **&#x200B;**&#x200B;** technologie te gebruiken ContentSync.
 
 De spelers gebruiken een lokale http server om de ongezipte inhoud te dienen.
 

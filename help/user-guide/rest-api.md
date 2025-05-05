@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # REST API&#39;s{#rest-apis}
 
-AEM Screens verstrekt een eenvoudige RESTful API die de [ 1} specificatie van de Trekken {volgt. ](https://github.com/kevinswiber/siren) Hiermee kunt u door de inhoudsstructuur navigeren en opdrachten naar apparaten in de omgeving verzenden.
+AEM Screens verstrekt een eenvoudige RESTful API die de [ 1&rbrace; specificatie van de Trekken &lbrace;volgt. ](https://github.com/kevinswiber/siren) Hiermee kunt u door de inhoudsstructuur navigeren en opdrachten naar apparaten in de omgeving verzenden.
 
 API is toegankelijk in [*http://localhost:4502/api/screens.json* ](http://localhost:4502/api/screens.json).
 

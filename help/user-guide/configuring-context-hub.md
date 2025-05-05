@@ -88,7 +88,7 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
    1. **navigeer** aan **ContextHubDemo** > **creeer** **Configuratie ContentHub** en klik **sparen**.
 
       >[!NOTE]
-      > Nadat u **** klikt sparen, bent u in het **scherm van de Configuratie ContextHub**.
+      > Nadat u **&#x200B;**&#x200B;klikt sparen, bent u in het **scherm van de Configuratie ContextHub**.
 
    1. Van het **scherm van de Configuratie ContextHub**, klik **creeer** > **Configuratie van de Winkel ContentHub**
 
@@ -173,6 +173,7 @@ De volgende validatie wordt weergegeven wanneer u de verbinding controleert door
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Klik het segment `**Higherthan50**` en klik **Eigenschappen** van de actiebar.
+
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. Klik het **Personalization** lusje van de **Eigenschappen van het Segment**. Plaats de **Weg ContextHub** aan `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` en **Weg van Segmenten** aan `/conf/screens/settings/wcm/segments` en klik **sparen**, zoals aangetoond in hieronder cijfer.
@@ -308,7 +309,7 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
 
       ![afbeelding](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. Navigeer en klik het **kanaal 0} TargetChannel {en klik** uitgeven **van de actiebar.**
+   1. Navigeer en klik het **kanaal 0&rbrace; TargetChannel &lbrace;en klik** uitgeven **van de actiebar.**
 
       >[!NOTE]
       >

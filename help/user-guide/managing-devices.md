@@ -55,7 +55,7 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 
    ![ chlimage_1-37 ](assets/chlimage_1-37.png)
 
-   Klik (**...**) op de hoogste-juiste hoek van het **3} paneel van APPARATEN {om of apparaat toe te voegen config of de apparaten bij te werken.**
+   Klik (**...**) op de hoogste-juiste hoek van het **3&rbrace; paneel van APPARATEN &lbrace;om of apparaat toe te voegen config of de apparaten bij te werken.**
 
    ![ chlimage_1-38 ](assets/chlimage_1-38.png)
 

@@ -38,7 +38,7 @@ Zie [ Rapport van de Toewijzing van de Inhoud ](/help/user-guide/content-assignm
 * **Speler Tizen**
 
   Er is een nieuwe speler, Tizen Player genaamd, geïntroduceerd met de nieuwste Feature Pack voor de AEM Screens 6.5.6 Release.
-Zie ](/help/user-guide/tizen-player.md) Uitvoerend de Speler van de Ventizeren [ voor meer details.
+Zie [&#128279;](/help/user-guide/tizen-player.md) Uitvoerend de Speler van de Ventizeren  voor meer details.
 
 * **Functionaliteit van het Onderzoek van de Manager van het Apparaat**
 

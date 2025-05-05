@@ -36,7 +36,7 @@ Voer de onderstaande stappen uit om automatisch full-HD-uitvoeringen te generere
 
    ![ screen_shot_2018-02-01at123407pm ](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. In het beheer van het werkschemamodel, klik het **model van de Activa van de Update van 0} DAM {en klik** uitgeven **van de actiebar.**
+1. In het beheer van het werkschemamodel, klik het **model van de Activa van de Update van 0&rbrace; DAM &lbrace;en klik** uitgeven **van de actiebar.**
 
    ![ stap5_edit_thedamupdateassetmodel ](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -77,7 +77,7 @@ Voer de onderstaande stappen uit om volledige HD-uitvoeringen handmatig te gener
 
    ![ screen_shot_2018-02-01at123407pm-1 ](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. In werkschemamodel beheer, klik het **model van de Activa van de Update van Screens 0} {en klik het** Werkschema van het Begin **om het** de dialoogvakje van het Werkschema van de Looppas **te openen.**
+1. In werkschemamodel beheer, klik het **model van de Activa van de Update van Screens 0&rbrace; &lbrace;en klik het** Werkschema van het Begin **om het** de dialoogvakje van het Werkschema van de Looppas **te openen.**
 
    ![ stap5_start_a_newscreensupdateassetworkflow ](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
@@ -89,6 +89,6 @@ Voer de onderstaande stappen uit om volledige HD-uitvoeringen handmatig te gener
 
    ![ stap7_open_videoasset ](assets/step7_-_open_thevideoasset.png)
 
-1. Open de **zijspoor 0} van Vertoningen {.** Let op de nieuwe full HD-uitvoeringen.
+1. Open de **zijspoor 0&rbrace; van Vertoningen &lbrace;.** Let op de nieuwe full HD-uitvoeringen.
 
    ![ step8_-_open_therenditionssiderail ](assets/step8_-_open_therenditionssiderail.png)

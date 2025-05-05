@@ -37,7 +37,7 @@ Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw 
 
    >[!NOTE]
    >
-   >Het **** kanaal TestTransition heeft reeds een paar activa (beelden en video&#39;s) in het. Bijvoorbeeld, omvat het **kanaal 0} TestTransition {drie beelden en twee video&#39;s, zoals hieronder getoond:**
+   >Het **&#x200B;**&#x200B;kanaal TestTransition heeft reeds een paar activa (beelden en video&#39;s) in het. Bijvoorbeeld, omvat het **kanaal 0&rbrace; TestTransition &lbrace;drie beelden en twee video&#39;s, zoals hieronder getoond:**
 
    ![ image2 ](assets/transitions2.png)
 

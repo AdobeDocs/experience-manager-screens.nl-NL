@@ -44,11 +44,11 @@ Voer de onderstaande stappen uit om een miniatuur in video&#39;s te gebruiken:
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. Het **Video** dialoogvakje opent waar u de **3} dalingsstreek van de Duimnagel {kunt bekijken.**
+1. Het **Video** dialoogvakje opent waar u de **3&rbrace; dalingsstreek van de Duimnagel &lbrace;kunt bekijken.**
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. De belemmering en laat vallen een beeld van de activa plukker aan de **1} dalingsstreek van de Duimnagel {en klikt** Gedaan **.**
+1. De belemmering en laat vallen een beeld van de activa plukker aan de **1&rbrace; dalingsstreek van de Duimnagel &lbrace;en klikt** Gedaan **.**
 
    ![afbeelding](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 

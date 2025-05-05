@@ -248,7 +248,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
    Op dit punt, kan een geval van de `poster` component aan de **IdleChannel** pagina in het `We.Retail` project van de Looppas worden toegevoegd: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
 
-   {de gebieden van de Dialoog van 0} Poster ](assets/poster-dialog-full.png)![
+   {de gebieden van de Dialoog van 0} Poster ![&#128279;](assets/poster-dialog-full.png)
 
    Dialoogvensters Poster
 

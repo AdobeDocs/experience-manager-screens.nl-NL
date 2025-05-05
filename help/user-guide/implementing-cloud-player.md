@@ -44,14 +44,14 @@ De installatie van Cloud Player kan op verschillende platforms verschillen. In h
 >
 >### Installatieoptie voor Cloud Player {#cloud-player-install-option}
 >
-1. De installatieoptie voor een PWA wordt ook wel &quot;Toevoegen aan beginscherm&quot; of &quot;A2HS&quot; genoemd. Ondersteuning voor het installeren van PWA via het web varieert per browser en per platform.
-1. Elke browser heeft verschillende criteria om te controleren of de PWA-app kan worden geïnstalleerd of niet. Over het algemeen kan de browser het volgende controleren (meer details hier):
+>1. De installatieoptie voor een PWA wordt ook wel &quot;Toevoegen aan beginscherm&quot; of &quot;A2HS&quot; genoemd. Ondersteuning voor het installeren van PWA via het web varieert per browser en per platform.
+>1. Elke browser heeft verschillende criteria om te controleren of de PWA-app kan worden geïnstalleerd of niet. Over het algemeen kan de browser het volgende controleren (meer details hier):
 >
-* Als de toepassing een manifest-jsdossier met minimale vereiste sleutels voor het installeren van app op het platform heeft, namelijk naam, pictogrammen, start_url, vertoning
-* Als de toepassing een dossier van de de dienstarbeider met een haal gebeurtenisluisteraar heeft
-* De app moet via https worden verzonden
+>* Als de toepassing een manifest-jsdossier met minimale vereiste sleutels voor het installeren van app op het platform heeft, namelijk naam, pictogrammen, start_url, vertoning
+>* Als de toepassing een dossier van de de dienstarbeider met een haal gebeurtenisluisteraar heeft
+>* De app moet via https worden verzonden
 >
-1. De installatieoptie is mogelijk op verschillende locaties zichtbaar in verschillende browsers en apparaattypen. Sommige browsers verbergen het installatiepictogram in de optiemenubalk.
+>1. De installatieoptie is mogelijk op verschillende locaties zichtbaar in verschillende browsers en apparaattypen. Sommige browsers verbergen het installatiepictogram in de optiemenubalk.
 
 ## Cloud Player voor bulkprovisioning {#bulk-provisioning}
 
@@ -80,15 +80,15 @@ Op basis van het type van de AEM-instantie klikt u op een van de volgende hulpli
 
 >[!NOTE]
 >
-## Chrome Apps Deprection by Google
+>## Chrome Apps Deprection by Google
 >
-1. Chrome-toepassingen op Chrome OS-hardware:
+>1. Chrome-toepassingen op Chrome OS-hardware:
 >
-Google heeft Chrome Apps actief afgekeurd ten gunste van PWA apps, met een geplande migratie tot januari 2025. Daarom werkt de AEM Screens Player-app op Chrome OS niet meer op basis van de gedeelde tijdlijn. Adobe dringt er bij gebruikers die momenteel Chrome Player in productie gebruiken op aan om de overstap naar Screens Cloud Player te plannen.
+>Google heeft Chrome Apps actief afgekeurd ten gunste van PWA apps, met een geplande migratie tot januari 2025. Daarom werkt de AEM Screens Player-app op Chrome OS niet meer op basis van de gedeelde tijdlijn. Adobe dringt er bij gebruikers die momenteel Chrome Player in productie gebruiken op aan om de overstap naar Screens Cloud Player te plannen.
 >
-1. Chrome Extension Player op Mac, Windows en Linux®:
+>1. Chrome Extension Player op Mac, Windows en Linux®:
 >
-Als gevolg van het afgekeuringsproces van Google, dat begint met Google Chrome versie 114, wordt Screens Chrome Extension Player niet meer ondersteund. Adobe raadt u aan over te schakelen naar de Screens Cloud Player voor al uw ontwikkelings- en testvereisten.
+>Als gevolg van het afgekeuringsproces van Google, dat begint met Google Chrome versie 114, wordt Screens Chrome Extension Player niet meer ondersteund. Adobe raadt u aan over te schakelen naar de Screens Cloud Player voor al uw ontwikkelings- en testvereisten.
 
 ## Offlineondersteuning voor externe inhoud ophalen {#offline-support}
 

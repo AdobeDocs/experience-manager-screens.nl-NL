@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   Bijvoorbeeld, toont het **kanaal 0} Cafeteria nu de volgende beelden:**
+   Bijvoorbeeld, toont het **kanaal 0&rbrace; Cafeteria nu de volgende beelden:**
 
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
@@ -82,14 +82,14 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
    >[!NOTE]
    >
-   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de ](#channel-properties) sectie van de Eigenschappen van het Kanaal 0}.[
+   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de [&#128279;](#channel-properties) sectie van de Eigenschappen van het Kanaal 0&rbrace;.
 
 1. Van de **optie van het Programma**, klik het **Venster van de Activering** en **Programma van de Herhaling**.
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de ](#channel-properties) sectie van de Eigenschappen van het Kanaal 0}.[
+   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de [&#128279;](#channel-properties) sectie van de Eigenschappen van het Kanaal 0&rbrace;.
 
 1. Klik **sparen** zodra u uw voorkeur hebt gevormd.
 
@@ -142,7 +142,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 >[!NOTE]
 >
->De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1}, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
+>De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1&rbrace;, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
 ### Ondersteunde gebeurtenissen {#supported-events-channel}
 

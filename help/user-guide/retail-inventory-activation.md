@@ -78,7 +78,7 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
    >
    >Bericht dat voor segmenten **For_Green** en **For_Green**, gegevens niet in de redacteur kunnen worden opgelost aangezien slechts de eerste vergelijking vanaf nu geldig is zoals op de waarden in het Blad van Google.
 
-1. Navigeer en klik uw **kanaal 0} DataDrivenRetail {(een opeenvolgingskanaal).**
+1. Navigeer en klik uw **kanaal 0&rbrace; DataDrivenRetail &lbrace;(een opeenvolgingskanaal).**
 1. Klik **uitgeven** van de actiebar.
 
    ![ screen_shot_2019-05-06at104257am ](assets/screen_shot_2019-05-06at104257am.png)

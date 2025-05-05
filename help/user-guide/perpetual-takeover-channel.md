@@ -74,7 +74,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
    >[!NOTE]
    >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie **[Toewijzing van het Kanaal](channel-assignment.md)**.
 
-1. Vul de gebieden (**Weg van het Kanaal**, **Prioriteit**, en **Gesteunde Gebeurtenissen**) van het **7} de dialoogvakje van de Toewijzing van het Kanaal en klik** sparen **om** MainAdChannel **aan uw vertoning toe te wijzen.**
+1. Vul de gebieden (**Weg van het Kanaal**, **Prioriteit**, en **Gesteunde Gebeurtenissen**) van het **7&rbrace; de dialoogvakje van de Toewijzing van het Kanaal en klik** sparen **om** MainAdChannel **aan uw vertoning toe te wijzen.**
 
    * **Weg van het Kanaal**: Klik de weg aan het **MainAdChannel** kanaal
    * **Prioriteit**: Plaats de prioriteit van dit kanaal als 1.
@@ -84,9 +84,9 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 1. Klik de vertoning **TakeOver** van de **omslag van Plaatsen**. Klik **toewijzen Kanaal** van de actiebar zodat kunt u het overnamekanaal toewijzen.
 
-1. Het toewijzen van het **** kanaal TakeOver aan uw vertoning in een geplande tijd. Dan, die de volgende gebieden van de **1} de dialoogdoos van de Toewijzing van het Kanaal bevolken {en** selecteren sparen **:**
+1. Het toewijzen van het **&#x200B;**&#x200B;kanaal TakeOver aan uw vertoning in een geplande tijd. Dan, die de volgende gebieden van de **1&rbrace; de dialoogdoos van de Toewijzing van het Kanaal bevolken &lbrace;en** selecteren sparen **:**
 
-   * **Weg van het Kanaal**: Klik de weg aan het **** kanaal TakeOver
+   * **Weg van het Kanaal**: Klik de weg aan het **&#x200B;**&#x200B;kanaal TakeOver
    * **Prioriteit**: Plaats de prioriteit van dit kanaal groter dan **MainAdChannel**. De prioriteit die in dit voorbeeld wordt ingesteld, is bijvoorbeeld 8.
    * **Ondersteunde Gebeurtenissen**: Klik het **Onactieve Scherm** en **Tijdopnemer**.
    * **Programma**: Ga de tekst voor het programma in dat u dit kanaal op de vertoning wilt in werking stellen. De tekst in het **Programma** die in dit voorbeeld wordt vermeld is *op Woensdag na 14:00 en vóór 16:00*.
@@ -107,7 +107,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
      >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.
 
      ![ activa ](assets/p_usecase8.png)
-Nu, neemt **** kanaal TakeOver **MainAdChannel** bij 2:00 P.M. voor twee uren tot 4:00 P.M. elke Woensdag over en speelt zijn inhoud van Januari 09, 2020 tot 31 Januari, 2020.
+Nu, neemt **&#x200B;**&#x200B;kanaal TakeOver **MainAdChannel** bij 2:00 P.M. voor twee uren tot 4:00 P.M. elke Woensdag over en speelt zijn inhoud van Januari 09, 2020 tot 31 Januari, 2020.
 
 ## Voorbeeldexpressies {#example-expressions}
 

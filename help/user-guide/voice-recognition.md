@@ -144,7 +144,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
 1. Wijs de kanalen **Hoofd**, **ColdDrinks**, en **HotDrinks** aan uw **LobbyDisplay** toe. Ook, als u het **SplitScreen** kanaal voor uw project gebruikt, zorg ervoor u dat aan de vertoning toewijst.
 
    >[!NOTE]
-   >Als u een gespleten het schermkanaal hebt gecreeerd, wijs het **** kanaal SplitScreen aan uw vertoning toe.
+   >Als u een gespleten het schermkanaal hebt gecreeerd, wijs het **&#x200B;**&#x200B;kanaal SplitScreen aan uw vertoning toe.
 
 1. Stel de volgende eigenschappen in voor elk kanaal terwijl u het kanaal toewijst.
 

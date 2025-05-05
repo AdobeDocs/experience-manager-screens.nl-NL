@@ -54,7 +54,7 @@ Volg onderstaande stappen in het gebruiksgeval om de activering van de ziekenhui
    1. Op dezelfde manier klik de **Bladen A1 2** en klik **uitgeven**.
    1. Klik het vergelijkingsbezit en klik het **pictogram van de Configuratie**.
    1. Klik **googesheets/value/1/2** van de drop-down in **naam van het Bezit**.
-   1. Klik de **Exploitant** als ****.
+   1. Klik de **Exploitant** als **&#x200B;**.
 
 1. Navigeer en klik uw kanaal () en klik **uitgeven** van de actiebar. In het volgende voorbeeld, **DataDrivenRestaurant**, wordt een opeenvolgend kanaal gebruikt om de functionaliteit te tonen.
 
