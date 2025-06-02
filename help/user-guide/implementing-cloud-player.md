@@ -8,7 +8,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
+source-git-commit: 1343b7d03c2ab8d24198547c5029ff47c54f3e7d
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 AEM Screens heeft traditioneel verschillende native spelertoepassingen aangeboden voor verschillende platforms, waaronder ChromeOS, Windows, Android™ en `Tizen` . In reactie op de veranderende behoeften van gebruikers introduceerde Adobe echter een innovatieve oplossing, de AEM Screens Cloud Player.
 
-De Cloud Player is een belangrijke afwijking van eerdere native toepassingen van Adobe. Het is een Progressieve Web App (PWA), die op een server wordt ontvangen. Deze transformatieve aanpak stelt klanten in staat een platformonafhankelijke speler te gebruiken die rechtstreeks in een webbrowser werkt.
+De Cloud Player betekent een aanzienlijke afwijking van eerdere native toepassingen van Adobe. Het is een Progressieve Web App (PWA), die op een server wordt ontvangen. Deze transformatieve aanpak stelt klanten in staat een platformonafhankelijke speler te gebruiken die rechtstreeks in een webbrowser werkt.
 
-Toegang tot de Cloud Player is net zo eenvoudig als het bezoeken van `https://player.adobescreens.com` . Gebruikers kunnen de software op hun apparaat installeren, ongeacht het platform, en genieten van een naadloze digitale handtekening. De compatibiliteit van de Cloud Player hangt af van de aanwezigheid van een moderne browser met ondersteuning voor PWA, waardoor consistente prestaties op verschillende apparaten worden gegarandeerd. Neem afscheid van handmatige updates en hallo tegenover een speler die automatisch oplossingen en functies levert, zodat u altijd de nieuwste mogelijkheden binnen handbereik hebt. Deze verschuiving naar een op PWA gebaseerde Cloud Player markeert een opwindende evolutie in het aanbod voor digitale handtekeningen van de Adobe, waardoor het toegankelijker, veelzijdiger en gebruiksvriendelijker wordt dan ooit tevoren.
+Toegang tot de Cloud Player is net zo eenvoudig als het bezoeken van `https://player.adobescreens.com` . Gebruikers kunnen de software op hun apparaat installeren, ongeacht het platform, en genieten van een naadloze digitale handtekening. De compatibiliteit van de Cloud Player hangt af van de aanwezigheid van een moderne browser met PWA-ondersteuning, die consistente prestaties op verschillende apparaten garandeert. Neem afscheid van handmatige updates en hallo tegenover een speler die automatisch oplossingen en functies levert, zodat u altijd de nieuwste mogelijkheden binnen handbereik hebt. Deze verschuiving naar een op PWA gebaseerde Cloud Player markeert een opwindende evolutie in het aanbod van digitale handtekeningen in Adobe, waardoor het toegankelijker, veelzijdiger en gebruiksvriendelijker wordt dan ooit tevoren.
 
 In deze sectie wordt beschreven hoe u de Cloud Player implementeert.
 
 >[!NOTE]
 >
->De compatibiliteit van Cloud Player vereist een moderne browser met ondersteuning voor PWA om consistente prestaties op verschillende apparaten te garanderen.
+>De compatibiliteit van Cloud Player vereist een moderne browser met PWA-ondersteuning voor consistente prestaties op verschillende apparaten.
 
 ## Cloud Player installeren {#installing-cloud-player}
 
@@ -44,12 +44,12 @@ De installatie van Cloud Player kan op verschillende platforms verschillen. In h
 >
 >### Installatieoptie voor Cloud Player {#cloud-player-install-option}
 >
->1. De installatieoptie voor een PWA wordt ook wel &quot;Toevoegen aan beginscherm&quot; of &quot;A2HS&quot; genoemd. Ondersteuning voor het installeren van PWA via het web varieert per browser en per platform.
+>1. De installatieoptie voor een PWA wordt ook wel de functie Toevoegen aan beginscherm of de functie A2HS genoemd. De steun voor het installeren van PWAs van het Web varieert per browser en door platform.
 >1. Elke browser heeft verschillende criteria om te controleren of de PWA-app kan worden geïnstalleerd of niet. Over het algemeen kan de browser het volgende controleren (meer details hier):
 >
->* Als de toepassing een manifest-jsdossier met minimale vereiste sleutels voor het installeren van app op het platform heeft, namelijk naam, pictogrammen, start_url, vertoning
->* Als de toepassing een dossier van de de dienstarbeider met een haal gebeurtenisluisteraar heeft
->* De app moet via https worden verzonden
+>    * Als de toepassing een manifest-jsdossier met minimale vereiste sleutels voor het installeren van app op het platform heeft, namelijk naam, pictogrammen, start_url, vertoning
+>    * Als de toepassing een dossier van de de dienstarbeider met een haal gebeurtenisluisteraar heeft
+>    * De app moet via https worden verzonden
 >
 >1. De installatieoptie is mogelijk op verschillende locaties zichtbaar in verschillende browsers en apparaattypen. Sommige browsers verbergen het installatiepictogram in de optiemenubalk.
 
@@ -67,15 +67,15 @@ Een bulkprovisioning van de cloudspeler uitvoeren op meerdere apparaten:
 
 ## Bulkprovisioning op Chrome OS {#bulk-provisioning-chrome}
 
-Meer informatie over bulkprovisioning op Chrome OS. Zie [ de Speler van de Wolk op Chrome OS installeren ](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!— `https://www.adobe.com/go/aem_screens_cloud_player_en` >
+Meer informatie over bulkprovisioning op Chrome OS. Zie [ de Speler van de Wolk op Chrome OS installeren ](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
 
-## Configuratie vereist op AEM instanties {#bulk-provisioning-config-aem}
+## Configuratie vereist voor AEM-instanties {#bulk-provisioning-config-aem}
 
 Op basis van het type van de AEM-instantie klikt u op een van de volgende hulplijnen om CORS b/w AEM en Cloud Player in te schakelen:
 
 * [ AEM On-Premises/AMS ](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
-* [ AEM Cloud Service ](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+* [ de Dienst van de Wolk AEM ](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
 
 >[!NOTE]
@@ -84,11 +84,11 @@ Op basis van het type van de AEM-instantie klikt u op een van de volgende hulpli
 >
 >1. Chrome-toepassingen op Chrome OS-hardware:
 >
->Google heeft Chrome Apps actief afgekeurd ten gunste van PWA apps, met een geplande migratie tot januari 2025. Daarom werkt de AEM Screens Player-app op Chrome OS niet meer op basis van de gedeelde tijdlijn. Adobe dringt er bij gebruikers die momenteel Chrome Player in productie gebruiken op aan om de overstap naar Screens Cloud Player te plannen.
+>   Google heeft Chrome Apps actief afgekeurd ten gunste van PWA apps, met een geplande migratie tot januari 2025. Daarom werkt de AEM Screens Player-app op Chrome OS niet meer op basis van de gedeelde tijdlijn. Adobe dringt er bij gebruikers die momenteel Chrome Player in productie gebruiken op aan om de overstap naar Screens Cloud Player te plannen.
 >
 >1. Chrome Extension Player op Mac, Windows en Linux®:
 >
->Als gevolg van het afgekeuringsproces van Google, dat begint met Google Chrome versie 114, wordt Screens Chrome Extension Player niet meer ondersteund. Adobe raadt u aan over te schakelen naar de Screens Cloud Player voor al uw ontwikkelings- en testvereisten.
+>   Als gevolg van het afgekeuringsproces van Google, dat begint met Google Chrome versie 114, wordt Screens Chrome Extension Player niet meer ondersteund. Adobe raadt u aan over te schakelen naar de Screens Cloud Player voor al uw ontwikkelings- en testvereisten.
 
 ## Offlineondersteuning voor externe inhoud ophalen {#offline-support}
 
@@ -115,4 +115,4 @@ fetch(externalUrl, {
 
 ## Feedback
 
-Adobe geeft de waarde van je feedback aan. Deel uw gedachten met ons door deze [ vorm ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4TFE0b_GjstOj6I1uGs9vLpURVdWWklQQTZZRTFVNEhRVlBWWldMWlJXOC4u).
+Adobe waardeert je feedback. Deel uw gedachten met ons door deze [ vorm ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4TFE0b_GjstOj6I1uGs9vLpURVdWWklQQTZZRTFVNEhRVlBWWldMWlJXOC4u).
