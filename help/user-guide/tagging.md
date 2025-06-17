@@ -39,7 +39,7 @@ Gebruik de gemaakte labels voor beeldschermen en afspeelapparatuur.
 >[!NOTE]
 >
 > Aan een beeldscherm of speler kunnen maximaal 30 tags zijn toegewezen.
-> > Maximaal 30 items kunnen in één keer worden gelabeld.
+> &#x200B;> Maximaal 30 items kunnen in één keer worden gelabeld.
 
 ## Filteren op labels {#filter-by-tags}
 

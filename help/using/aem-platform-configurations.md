@@ -19,7 +19,7 @@ Ga aan de slag met AEM Screens door de onderstaande secties te volgen en AEM-pla
 
 ## Serverconfiguraties {#server-configurations}
 
-Aan de configuraties van de opstellingsserver, zie {de Configuraties van de Server 0} ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).[
+Aan de configuraties van de opstellingsserver, zie {de Configuraties van de Server 0} [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
 ## Auteur publiceren {#author-publish}
 
@@ -33,7 +33,7 @@ Zie [ Vormend Auteur en publiceer in AEM Screens ](https://experienceleague.adob
 
 Dispatcher is Adobe Experience Manager-programma voor caching en taakverdeling. Door AEM Dispatcher te gebruiken is uw AEM-server ook beter beschermd tegen aanvallen. Daarom kunt u de beveiliging van uw AEM-instantie verhogen door de Dispatcher te gebruiken met een webserver op bedrijfsniveau.
 
-Zie {de Configuraties van 0} Dispatcher voor AEM Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens) **die richtlijnen voor het vormen van Dispatcher voor een project van AEM Screens benadrukt.**[
+Zie {de Configuraties van 0} Dispatcher voor AEM Screens [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens) **die richtlijnen voor het vormen van Dispatcher voor een project van AEM Screens benadrukt.**
 
 ## FFMpeg- en video-uitvoeringen installeren {#installing-ffmpeg}
 

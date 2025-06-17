@@ -116,7 +116,7 @@ AEM Screens heeft sommige interessante beperkingen die niet noodzakelijk waar vo
 
    Eigenschappen voor /apps/weretail-run/components/content/helloworld
 
-   De **component van de Wereld van 0} Hello breidt de** stichting, componenten, parbase **component uit zodat kan het behoorlijk binnen een kanaal van de Opeenvolging worden gebruikt.**
+   De **component van de Wereld van 0&rbrace; Hello breidt de** stichting, componenten, parbase **component uit zodat kan het behoorlijk binnen een kanaal van de Opeenvolging worden gebruikt.**
 
 1. Een bestand maken onder de naam `/apps/weretail-run/components/content/helloworld` `helloworld.html.`
 
@@ -415,7 +415,7 @@ De Hello World-component is bedoeld voor gebruik op een volgnummer. Om de compon
 
 1. In de wizard Maken:
 
-1. De Stap van het malplaatje - kies **Kanaal van de Reeks 0}**
+1. De Stap van het malplaatje - kies **Kanaal van de Reeks 0&rbrace;**
 
    1. Eigenschappenstap
 
@@ -578,7 +578,7 @@ Het gebruik van deze twee Screens-kerncomponenten biedt ook het extra voordeel d
 
 ## Voltooide code {#finished-code}
 
-Hieronder ziet u de voltooide code uit de zelfstudie. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** en **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** zijn de gecompileerde pakketten van AEM. **SRC-screens-weretail-looppas-0.0.1.zip **is de uncompiled broncode die kan worden opgesteld gebruikend Maven.
+Hieronder ziet u de voltooide code uit de zelfstudie. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** en **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** zijn de gecompileerde pakketten van AEM. **SRC-screens-weretail-looppas-0.0.1.zip &#x200B;** is de uncompiled broncode die kan worden opgesteld gebruikend Maven.
 
 [Bestand ophalen](assets/screens-weretail-runuiapps-001-snapshot.zip)
 

@@ -55,15 +55,15 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 
    ![ chlimage_1-37 ](assets/chlimage_1-37.png)
 
-   Klik (**...**) op de hoogste-juiste hoek van het **3} paneel van APPARATEN {om of apparaat toe te voegen config of de apparaten bij te werken.**
+   Klik (**...**) op de hoogste-juiste hoek van het **3&rbrace; paneel van APPARATEN &lbrace;om of apparaat toe te voegen config of de apparaten bij te werken.**
 
    ![ chlimage_1-38 ](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
 >Telkens wanneer het eerste apparaat aan een nieuw Screens-project wordt toegevoegd, wordt een gebruikersgroep gemaakt.
->>Bijvoorbeeld, als de naam van de projectknoop *wij-kleinhandel* is, dan is de naam van de gebruikersgroep *schermen-wij-retail-apparaten*.
->>Deze groep wordt toegevoegd als lid van de **Groep van Medewerkers**, zoals aangetoond in het hieronder cijfer:
+>&#x200B;>Bijvoorbeeld, als de naam van de projectknoop *wij-kleinhandel* is, dan is de naam van de gebruikersgroep *schermen-wij-retail-apparaten*.
+>&#x200B;>Deze groep wordt toegevoegd als lid van de **Groep van Medewerkers**, zoals aangetoond in het hieronder cijfer:
 
 ![ chlimage_1-39 ](assets/chlimage_1-39.png)
 

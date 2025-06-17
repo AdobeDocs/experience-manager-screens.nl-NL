@@ -80,7 +80,7 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
    ![ screen_shot_2018-10-17at95752pm ](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Klik de **Argumenten** tabel.
-1. In de **Lijn van het Bevel - de dialoogdoos van de Eigenschappen van de Stap**, ga het formaat in de **Types van MIME** (als ***video/mp4***) en het bevel als (*** `/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4` ***) in. Dit bevel begint het werkschema op het **gebied van Bevelen**.
+1. In de **Lijn van het Bevel - de dialoogdoos van de Eigenschappen van de Stap**, ga het formaat in de **Types van MIME** (als ***video/mp4***) en het bevel als (*** `/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4` &#x200B;***) in. Dit bevel begint het werkschema op het **gebied van Bevelen**.
 
    Zie de details op **Types van MIME** en **Bevelen** in de nota hieronder.
 

@@ -28,8 +28,8 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 
 >[!IMPORTANT]
 >**OSGi de Montages van de Configuratie**
->>U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen. Sommige van deze functies zijn momenteel alleen beschikbaar als de optie `Apache Sling` Lege filters toestaan in de configuratie OSGi is ingeschakeld. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
->>Volg de stappen hieronder om de ***filter van de Verwijzer van Apache toe te laten toestaat Lege***:
+>&#x200B;>U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen. Sommige van deze functies zijn momenteel alleen beschikbaar als de optie `Apache Sling` Lege filters toestaan in de configuratie OSGi is ingeschakeld. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
+>&#x200B;>Volg de stappen hieronder om de ***filter van de Verwijzer van Apache toe te laten toestaat Lege***:
 
 
 ## Lege verwijzingsverzoeken toestaan {#allow-empty-referrer-requests}
@@ -70,7 +70,7 @@ Nadat u uw AEM Screens-project hebt gemaakt, maakt u een kanaal waarin u de inho
 
 Ga als volgt te werk om een kanaal voor uw project te maken:
 
-1. Nadat u een project creeert, klik het **project 0} DemoScreens {en klik de** omslag van Kanalen **, zoals aangetoond in het hieronder cijfer.** Klik op **+ Maken** op de actiebalk.
+1. Nadat u een project creeert, klik het **project 0&rbrace; DemoScreens &lbrace;en klik de** omslag van Kanalen **, zoals aangetoond in het hieronder cijfer.** Klik op **+ Maken** op de actiebalk.
 
    ![afbeelding](assets/kickstart/demo-2.png)
 
@@ -108,7 +108,7 @@ Volg de stappen hieronder om inhoud aan het kanaal (**TestChannel**) in uw proje
 Wanneer u uw kanaal op zijn plaats hebt, creeer een plaats.
 
 >[!NOTE]
->***compartimenteer de plaatsen van 0} {uw diverse digitale signaalervaringen en bevat de configuraties van de vertoningen volgens waar de diverse schermen zijn.***
+>***compartimenteer de plaatsen van 0&rbrace; &lbrace;uw diverse digitale signaalervaringen en bevat de configuraties van de vertoningen volgens waar de diverse schermen zijn.***
 
 Voer de onderstaande stappen uit om een locatie voor uw project te maken:
 
@@ -166,7 +166,7 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
    >[!NOTE]
    >
-   >De **Rol van het Kanaal**, **Prioriteit**, en **Methoden van de Onderbreking** zijn allen bevolkt door gebrek. Zie de ](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) sectie van de Eigenschappen van het Kanaal 0} {voor meer informatie over de eigenschappen van de kanaaltaak.[
+   >De **Rol van het Kanaal**, **Prioriteit**, en **Methoden van de Onderbreking** zijn allen bevolkt door gebrek. Zie de [&#128279;](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) sectie van de Eigenschappen van het Kanaal 0&rbrace; &lbrace;voor meer informatie over de eigenschappen van de kanaaltaak.
 
    ![afbeelding](assets/kickstart/demo-assign3.png)
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de recentste versieinformatie van [ hier ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) krijgen.
->>Gebruik FP11.6 met SP (servicepack) versie 22 of hoger.
+>&#x200B;>Gebruik FP11.6 met SP (servicepack) versie 22 of hoger.
 
 ## Beschikbaarheid {#availability}
 

@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit op het Samsung-apparaat, zodat u de installatie
 1. Klik de **MENU** knoop van ver van het apparaat en rol neer aan **Systeem** van de linkernavigatiebar.
 1. De rol neer en klikt het **Spel als** optie en verandert het in de **Optie van de Lanceerinrichting URL**.
    ![afbeelding](/help/user-guide/assets/tizen/rms-2.png)
-1. Wanneer de Lanceerinrichting URL wordt geplaatst, druk de **1} knoop van het Huis {van uw ver.**
+1. Wanneer de Lanceerinrichting URL wordt geplaatst, druk de **1&rbrace; knoop van het Huis &lbrace;van uw ver.**
 1. Navigeer aan de **Montages van de Lanceerinrichting URL** en ga het IP adres van uw localhost server in en klik **Gedaan**.
 
    >[!NOTE]
@@ -81,7 +81,7 @@ Volg de stappen hieronder om deze onverenigbare cliënten vrij te stellen wannee
 
 1. Upgrade naar Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
-1. Nadat AEM opnieuw begint, ga naar `/system/console/configMgr` en onderzoek naar **Adobe Granite Token de Handler van de Authentificatie**. Plaats de waarde voor de **** waarde SameSite aan **niets**.
+1. Nadat AEM opnieuw begint, ga naar `/system/console/configMgr` en onderzoek naar **Adobe Granite Token de Handler van de Authentificatie**. Plaats de waarde voor de **&#x200B;**&#x200B;waarde SameSite aan **niets**.
 
 1. Er wordt een nieuwe optie weergegeven *`User agents to be exempted from samesite attribute`* . Vul deze optie met een regex die aan de gebruikersagent beantwoordt die (zijn) onverenigbaar met *SameSite=None* attributen is.
 
@@ -119,7 +119,7 @@ In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 
 >[!NOTE]
 >De beheerconfiguraties van het beleid van Admin UI van de speler worden strikt afgedwongen en worden niet manueel met voeten getreden. Om handspelerconfiguratie voor een bepaald beleid toe te staan, specificeer niet het beleid in de beleidsconfiguratie.
->>Als u bijvoorbeeld handmatige configuratie wilt toestaan voor het opnieuw opstarten, geeft u de sleutel `rebootSchedule` niet op in de beleidsconfiguratie. Beleidsconfiguraties worden telkens gelezen wanneer de speler opnieuw wordt geladen.
+>&#x200B;>Als u bijvoorbeeld handmatige configuratie wilt toestaan voor het opnieuw opstarten, geeft u de sleutel `rebootSchedule` niet op in de beleidsconfiguratie. Beleidsconfiguraties worden telkens gelezen wanneer de speler opnieuw wordt geladen.
 
 | **Naam van het Beleid** | **Doel** |
 |---|---|
@@ -159,7 +159,7 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
 
    >![afbeelding](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Het dialoogvenster Apparaatinformatie wordt weergegeven. Klik het **lusje van Info van het Apparaat 0} {en klik** uitgeven **.**
+1. Het dialoogvenster Apparaatinformatie wordt weergegeven. Klik het **lusje van Info van het Apparaat 0&rbrace; &lbrace;en klik** uitgeven **.**
 
    >![afbeelding](/help/user-guide/assets/tizen/rms-5.png)
 

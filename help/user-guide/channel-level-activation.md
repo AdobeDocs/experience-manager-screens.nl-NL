@@ -55,7 +55,7 @@ Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor z
 
 * Voeg relevante elementen aan beide kanalen toe.
 
-Het volgende beeld toont het **project van de Activering van het Niveau van het 0} Kanaal met** MainAdChannel **en** TargetedSinglePlay **kanalen in de** omslag van Kanalen **.**
+Het volgende beeld toont het **project van de Activering van het Niveau van het 0&rbrace; Kanaal met** MainAdChannel **en** TargetedSinglePlay **kanalen in de** omslag van Kanalen **.**
 
 ![ screen_shot_2018-11-27at104500am ](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -120,7 +120,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. In het **de dialoogvakje van de Toewijzing van het Kanaal**, klik **Kanaal van de Verwijzing** door weg.
    1. Klik de **Weg van het Kanaal**, dan klik **Activering van het Niveau van het Kanaal** > ***Kanalen*** > ***TargetedSinglePlay***.
    1. De **Rol van het Kanaal** wordt bevolkt als **gericht singleplay**.
-   1. Plaats de **Prioriteit** aan ****.
+   1. Plaats de **Prioriteit** aan **&#x200B;**.
    1. Klik de **Gesteunde Gebeurtenissen**, en plaats **Aanvankelijke Lading**, **het Niet-actieve Scherm**, en **Tijdopnemer**, zoals aangetoond in het hieronder cijfer.
    1. In **actief van**, geplaatst als 27 November, 2018, 11:59 P.M., en in **actief tot**, geplaatst als 28 November, 2018, 12:05 A.M.
    1. Klik **sparen**.
@@ -146,8 +146,8 @@ De speler toont de inhoud van **MainAdChannel** en precies bij 11:59 P.M. (zoals
 >[!NOTE]
 >
 >Raadpleeg de volgende bronnen voor meer informatie over AEM Screen Player:
->>[Downloads van AEM Screens Player ](https://download.macromedia.com/screens/)
->>[Werken met AEM Screens Player ](working-with-screens-player.md)
+>&#x200B;>[Downloads van AEM Screens Player ](https://download.macromedia.com/screens/)
+>&#x200B;>[Werken met AEM Screens Player ](working-with-screens-player.md)
 
 
 ## Herhaling van Assets in een kanaal afhandelen {#handling-recurrence-in-assets}

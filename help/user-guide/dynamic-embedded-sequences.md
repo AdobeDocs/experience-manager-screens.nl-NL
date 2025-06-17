@@ -69,7 +69,7 @@ Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor z
 
 * Creeer een project van AEM Screens (in dit voorbeeld, **Demo**).
 * Creeer a **Globaal** kanaal onder de **omslag van Kanalen**.
-* Voeg inhoud aan uw **Globale** Kanaal toe (*Controle **Resources.zip**voor relevante activa*).
+* Voeg inhoud aan uw **Globale** Kanaal toe (*Controle **Resources.zip**&#x200B;voor relevante activa*).
 
 Het volgende beeld toont het **Demo** project met **Globale** kanaal in de **omslag van Kanalen**.
 ![ screen_shot_2018-09-07at21032pm ](assets/screen_shot_2018-09-07at21032pm.png)
@@ -172,7 +172,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    Navigeer aan de **Demo** > **Plaatsen** > **Gebied A** > **Gebied A** en klik **uitgeven** van de actiebar. Sleep de elementen die u aan het kanaal wilt toevoegen en zet deze neer.
 
    >[!NOTE]
-   >U kunt het {***dossier 0} Resources.zip van de **sectie van Middelen**, hierboven gebruiken, om de beelden als activa voor uw kanaalinhoud te gebruiken.***
+   >U kunt het {***dossier 0} Resources.zip van de &#x200B;** sectie van Middelen&#x200B;**, hierboven gebruiken, om de beelden als activa voor uw kanaalinhoud te gebruiken.***
 
    ![ screen_shot_2018-09-12at12438pm ](assets/screen_shot_2018-09-12at12438pm.png)
 
@@ -289,7 +289,7 @@ De bevoegdheden worden aan elke groep toegewezen als volgt:
 
 **Groepen**:
 
-* **globaal-Auteur**: Bestaat uit gebruikers die toegang tot alle plaatsen en kanalen in het **3} project van de Demo {hebben en alle lees hebben, schrijven, en uitgeven toestemmingen.**
+* **globaal-Auteur**: Bestaat uit gebruikers die toegang tot alle plaatsen en kanalen in het **3&rbrace; project van de Demo &lbrace;hebben en alle lees hebben, schrijven, en uitgeven toestemmingen.**
 
 * **gebied-auteur**: Bestaat uit gebruikers die, toestemmingen aan **Gebied A** en **Gebied B** lezen schrijven en uitgeven.
 
@@ -341,7 +341,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
 1. **Toegang hebbend tot Toestemmingen voor Elke Groep**
 
    1. Navigeer aan *admin van de Gebruiker* en gebruik dit UI om de toestemmingen voor verschillende groepen te wijzigen.
-   1. Onderzoek naar **globaal-Auteur** en klik het **3} lusje van Toestemmingen {, zoals aangetoond in het hieronder cijfer.**
+   1. Onderzoek naar **globaal-Auteur** en klik het **3&rbrace; lusje van Toestemmingen &lbrace;, zoals aangetoond in het hieronder cijfer.**
    1. Op dezelfde manier kunt u tot de toestemmingen voor **gebied-auteur** en **opslag-auteur** toegang hebben.
 
    ![ screen_shot_2018-09-18at73523am ](assets/screen_shot_2018-09-18at73523am.png)

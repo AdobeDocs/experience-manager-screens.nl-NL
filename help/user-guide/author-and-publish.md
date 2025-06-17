@@ -54,7 +54,7 @@ Om replicatieagenten tot stand te brengen, leer hoe te om een standaardreplicati
 
 Er zijn drie replicatieagenten die voor Screens nodig zijn:
 
-1. **de Agent van de Standaard van de Replicatie ***(die als*** StandaardAgent van de Replicatie** wordt gespecificeerd)
+1. **de Agent van de Standaard van de Replicatie &#x200B;***(die als&#x200B;*** StandaardAgent van de Replicatie** wordt gespecificeerd)
 1. **de Agent van de Replicatie van Screens**
 1. **Omgekeerde Agent van de Replicatie**
 
@@ -159,7 +159,7 @@ Omdat elke publicatie-instantie standaard unieke cryptosleutels heeft, voert u d
 >[!NOTE]
 >
 >Het wachtwoord moet beginnen en eindigen met accolades. Bijvoorbeeld:
->>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Stap 4: ActiveMQ Artemis-cluster activeren {#step-activate-activemq-artemis-cluster}
 

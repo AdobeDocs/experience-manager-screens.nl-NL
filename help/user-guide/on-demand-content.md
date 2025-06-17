@@ -30,7 +30,7 @@ Voer de onderstaande stappen uit om inhoud te updaten van auteur tot uitgever na
 
    ![ screen_shot_2019-02-25at21420pm ](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. De **beheert 1} Tovenaar van de Publicatie {opent.** U kunt de **Actie** klikken en ook de het publiceren tijd voor nu of later plannen. Klik op **Next**.
+1. De **beheert 1&rbrace; Tovenaar van de Publicatie &lbrace;opent.** U kunt de **Actie** klikken en ook de het publiceren tijd voor nu of later plannen. Klik op **Next**.
 
    ![ screen_shot_2019-02-07at120304pm ](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -103,7 +103,7 @@ Voer de onderstaande stappen uit om inhoudsupdates te leveren van Auteur > Publi
 
    ![ screen_shot_2019-02-07at115800am ](assets/screen_shot_2019-02-07at115800am.png)
 
-1. De **beheert 1} Tovenaar van de Publicatie {opent.** U kunt de **Actie** klikken en ook de het publiceren tijd voor nu of later plannen. Klik op **Next**.
+1. De **beheert 1&rbrace; Tovenaar van de Publicatie &lbrace;opent.** U kunt de **Actie** klikken en ook de het publiceren tijd voor nu of later plannen. Klik op **Next**.
 
    ![ screen_shot_2019-02-07at120304pm ](assets/screen_shot_2019-02-07at120304pm.png)
 

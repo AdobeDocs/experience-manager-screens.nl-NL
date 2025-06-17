@@ -69,11 +69,11 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 1. Navigeer aan het kanaal dat als **wordt genoemd DemoBrand** (in stap (1) wordt gecreeerd) en klik **Eigenschappen** van de actiebar na het selecteren van het kanaal.
 
-1. Navigeer aan het **Geavanceerde** lusje en controleer het **3} gebied van het Ontwerp {.**
+1. Navigeer aan het **Geavanceerde** lusje en controleer het **3&rbrace; gebied van het Ontwerp &lbrace;.**
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >Ben gebrek, toont het **1} gebied van het Ontwerp {de weg die aan ontwerpen in de bibliotheekomslag richt.**
+   >Ben gebrek, toont het **1&rbrace; gebied van het Ontwerp &lbrace;de weg die aan ontwerpen in de bibliotheekomslag richt.**
 
 1. Werk het **gebied van het Ontwerp** met de weg aan uw projectomslag bij. In dit geval is dit `/apps/settings/wcm/designs/customstyle` .
 
@@ -104,7 +104,7 @@ Werk ACLs voor deze ontwerpen bij zodat kan de speler hen downloaden.
 
 ## Het resultaat weergeven {#viewing-the-result}
 
-Wanneer u de voorafgaande stappen hebt voltooid, kunt u uw {*dossier 0} stats.css van **CRXDE Lite**bijwerken en daarom de update aan uw tekstbedekking bekijken die reeds aan de activa wordt toegevoegd.*
+Wanneer u de voorafgaande stappen hebt voltooid, kunt u uw {*dossier 0} stats.css van **CRXDE Lite**&#x200B;bijwerken en daarom de update aan uw tekstbedekking bekijken die reeds aan de activa wordt toegevoegd.*
 
 Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking weer te geven:
 

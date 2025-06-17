@@ -91,7 +91,7 @@ Als de video niet wordt uitgevoerd op Safari, wordt deze ook niet uitgevoerd in 
 Ga als volgt te werk als u een DAM-workflow wilt gebruiken om FullHD-uitvoeringen te maken:
 
 1. Navigeer aan de *beheerder van het werkschemamodel* die `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models` is.
-1. Klik het **model van de Activa van de Update van 0} Screens.**
+1. Klik het **model van de Activa van de Update van 0&rbrace; Screens.**
 1. Klik **Werkschema van het Begin** van de actiebar.
 1. Van het **de dialoogvakje van het Werkschema van de Looppas**, klik uw videoactiva in de **nuttige lading**.
 1. Klik **Looppas**.
@@ -107,7 +107,7 @@ Als de AEM Screens Player de video oppikt maar niet weergeeft, los dan de marker
 Voer de onderstaande stappen uit om een probleem met de Google-markering voor automatisch afspelen op te lossen:
 
 1. Navigeer aan ***chrome://flags/#autoplay-policy***
-1. Het beleid van Autoplay van de verandering **van** Gebrek **aan** geen gebruikersbeweging wordt vereist ****
+1. Het beleid van Autoplay van de verandering **van** Gebrek **aan** geen gebruikersbeweging wordt vereist **&#x200B;**
 
 1. Start de webbrowser opnieuw en werk de speler bij
 
@@ -146,7 +146,7 @@ Volg de onderstaande stappen om een absolute strategie op te zetten:
 
 **het Uitlijnen van Klokken op OS X** volg de hieronder stappen om de klokken op OS X te richten:
 
-1. Open **voorkeur van 0} Datum &amp; van de Tijd {op elk OS X vakje**
+1. Open **voorkeur van 0&rbrace; Datum &amp; van de Tijd &lbrace;op elk OS X vakje**
 1. Controle **vastgestelde datum en tijd automatisch**
 1. Waarde plakken 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com in de vervolgkeuzelijst of gewoon uitvoeren *`sudo ntpdate -u -v 0.pool.ntp.org`*
 1. De 2+ spelers starten

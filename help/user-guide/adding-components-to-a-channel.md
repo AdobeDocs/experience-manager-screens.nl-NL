@@ -48,7 +48,7 @@ In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een
 1. Klik op het kanaal waaraan u een component wilt toevoegen. Bijvoorbeeld, **`We.Retail In Store`** > **Kanalen** > **Niet-actief Kanaal**.
 
 1. Klik **uitgeven** van de actiebar.
-1. Klik **wijze van het Ontwerp 0} {.**
+1. Klik **wijze van het Ontwerp 0&rbrace; &lbrace;.**
 1. Klik de volledige ontwerpredacteur op het recht en klik het montagessymbool zodat kunt u het **Parsys de dialoogvakje van het Ontwerp** openen.
 1. U kunt op de componenten klikken die u in uw AEM Screens-project wilt importeren. Het volgende voorbeeld toont de toevoeging van de **Livefyre** component aan een project van AEM Screens.
 
@@ -210,7 +210,7 @@ Meer over leren hoe te om een Fragment van de Ervaring tot stand te brengen en h
 
 >[!NOTE]
 >
->De **cliënt-zijBibliotheken** en **Statische Dossiers** die u van deze component toevoegt zijn naast reeds gevormde **cliënt-zijBibliotheken** en de Statische Dossiers die van de 6} Eigenschappen van het Fragment van de Ervaring **worden toegevoegd.**
+>De **cliënt-zijBibliotheken** en **Statische Dossiers** die u van deze component toevoegt zijn naast reeds gevormde **cliënt-zijBibliotheken** en de Statische Dossiers die van de 6&rbrace; Eigenschappen van het Fragment van de Ervaring **worden toegevoegd.**
 
 ### Afbeelding {#image}
 

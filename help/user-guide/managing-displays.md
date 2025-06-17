@@ -121,9 +121,9 @@ Het **TOEGEWEZEN paneel van KANALEN** toont de toegewezen kanalen aan dit appara
 
 ### Deelvenster Apparaten {#devices-panel}
 
-Het **Comité van 1} APPARATEN** verstrekt informatie over de apparatenconfiguraties.
+Het **Comité van 1&rbrace; APPARATEN** verstrekt informatie over de apparatenconfiguraties.
 
-Klik (**..**) in de hoger-juiste hoek in het **3} paneel van APPARATEN {zodat kunt u apparatenconfiguraties toevoegen en apparaten bijwerken.**
+Klik (**..**) in de hoger-juiste hoek in het **3&rbrace; paneel van APPARATEN &lbrace;zodat kunt u apparatenconfiguraties toevoegen en apparaten bijwerken.**
 
 Klik ook op de apparaatconfiguratie om eigenschappen weer te geven, een apparaat toe te wijzen of het volledig te verwijderen.
 
