@@ -19,21 +19,21 @@ Ga aan de slag met AEM Screens door de onderstaande secties te volgen en AEM-pla
 
 ## Serverconfiguraties {#server-configurations}
 
-Aan de configuraties van de opstellingsserver, zie {de Configuraties van de Server 0} [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
+Aan de configuraties van de opstellingsserver, zie {de Configuraties van de Server 0} [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
 ## Auteur publiceren {#author-publish}
 
-Zie [ Vormend Auteur en publiceer in AEM Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+Zie [ Vormend Auteur en publiceer in AEM Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->Als er slechts één Auteur en één is publiceren, kunt u de stappen onder **de Agenten van de Replicatie van de Opstelling op Auteur** in [ slechts volgen Vormend Auteur en publiceer in AEM Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) pagina.
+>Als er slechts één Auteur en één is publiceren, kunt u de stappen onder **de Agenten van de Replicatie van de Opstelling op Auteur** in [ slechts volgen Vormend Auteur en publiceer in AEM Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) pagina.
 
 ## Dispatcher-configuraties {#dispatcher-configurations}
 
 Dispatcher is Adobe Experience Manager-programma voor caching en taakverdeling. Door AEM Dispatcher te gebruiken is uw AEM-server ook beter beschermd tegen aanvallen. Daarom kunt u de beveiliging van uw AEM-instantie verhogen door de Dispatcher te gebruiken met een webserver op bedrijfsniveau.
 
-Zie {de Configuraties van 0} Dispatcher voor AEM Screens [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens) **die richtlijnen voor het vormen van Dispatcher voor een project van AEM Screens benadrukt.**
+Zie {de Configuraties van 0} Dispatcher voor AEM Screens [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens) **die richtlijnen voor het vormen van Dispatcher voor een project van AEM Screens benadrukt.**
 
 ## FFMpeg- en video-uitvoeringen installeren {#installing-ffmpeg}
 
@@ -44,13 +44,13 @@ Installeer FFMpeg volgens de stappen voor het juiste besturingssysteem (gewoonli
 
    >[!NOTE]
    >
-   >De `-strict -2` moet de laatste parameter in de lijst met parameters zijn. Ook, in AEM 6.4, kopieer de knopen onder */libs/settings/dam/video* aan */conf/global/settings/dam/video* zoals vermeld in [ VideoVertoningen ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >De `-strict -2` moet de laatste parameter in de lijst met parameters zijn. Ook, in AEM 6.4, kopieer de knopen onder */libs/settings/dam/video* aan */conf/global/settings/dam/video* zoals vermeld in [ VideoVertoningen ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Controleer of video-conversies plaatsvinden en of uitvoeringen worden gemaakt.
 
 ## Wachtwoordbeperkingen {#password-restrictions}
 
 Het wachtwoordbeleid van AEM moet op het AMS-exemplaar worden uitgeschakeld. Het kan ook afwisselend in de Webconsole worden gevormd gebruikend de het apparatendienst van Screens *com.adobe.cq.screens.device.impl.DeviceService*
-Zie **de Beperkingen van het Wachtwoord** sectie in [ het Vormen Auteur en publiceren in AEM Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
+Zie **de Beperkingen van het Wachtwoord** sectie in [ het Vormen Auteur en publiceren in AEM Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## De omgevingen instellen {#setting-up-environments}
 
@@ -66,10 +66,10 @@ Installeer dezelfde softwarepakketten in uw lokale ontwikkelomgeving. Geef uw cl
 
 >[!NOTE]
 >
->Om het recentste Pak van de Eigenschap voor AEM Screens te installeren, zie [ de Nota&#39;s van de Versie ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction).
+>Om het recentste Pak van de Eigenschap voor AEM Screens te installeren, zie [ de Nota&#39;s van de Versie ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/aem-screens-introduction).
 
 ## ACLs van de vestiging {#setting-up-acls}
 
 De vestiging ACLs verklaart hoe te om projecten te segregeren zodat elk individu of team hun eigen project behandelt.
 
-Zie [ Vestiging ACLs ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) voor meer details.
+Zie [ Vestiging ACLs ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/setting-up-acls) voor meer details.

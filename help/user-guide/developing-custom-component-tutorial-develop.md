@@ -30,17 +30,17 @@ Deze zelfstudie is bedoeld voor nieuwe ontwikkelaars van AEM Screens. In deze ze
 
 Voor het voltooien van deze zelfstudie is het volgende nodig:
 
-1. [ AEM 6.5 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) plus het Meest recente Pak van de Eigenschap van Screens.
+1. [ AEM 6.5 ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/release-notes) plus het Meest recente Pak van de Eigenschap van Screens.
 
-1. [ Speler van AEM Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
+1. [ Speler van AEM Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction)
 1. Lokale ontwikkelomgeving
 
-De stappen en de schermafbeeldingen van het leerprogramma worden uitgevoerd gebruikend **CRXDE-Lite**. IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Meer informatie bij het gebruiken van winde om [ met AEM te ontwikkelen kan hier worden gevonden.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
+De stappen en de schermafbeeldingen van het leerprogramma worden uitgevoerd gebruikend **CRXDE-Lite**. IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Meer informatie bij het gebruiken van winde om [ met AEM te ontwikkelen kan hier worden gevonden.](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup)
 
 
 ## Projectinstelling {#project-setup}
 
-De broncode van een Screens-project wordt doorgaans beheerd als een Maven-project met meerdere modules. Om het leerprogramma te versnellen, werd een project pre-geproduceerd gebruikend [ Archetype 13 van het Project van AEM ](https://github.com/adobe/aem-project-archetype). Meer details bij [ het creëren van een project met Maven het Archetype van het Project van AEM kunnen hier ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup) worden gevonden.
+De broncode van een Screens-project wordt doorgaans beheerd als een Maven-project met meerdere modules. Om het leerprogramma te versnellen, werd een project pre-geproduceerd gebruikend [ Archetype 13 van het Project van AEM ](https://github.com/adobe/aem-project-archetype). Meer details bij [ het creëren van een project met Maven het Archetype van het Project van AEM kunnen hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup) worden gevonden.
 
 1. Download en installeer de volgende pakketten gebruikend [ Manager van het Pakket van CRX ](http://localhost:4502/crx/packmgr/index.jsp):
 
@@ -136,7 +136,7 @@ AEM Screens heeft sommige interessante beperkingen die niet noodzakelijk waar vo
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
 
-   De componenten van Screens vereisen twee verschillende teruggaven afhankelijk van welke [ auteurswijze ](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/authoring/author-environment-tools) wordt gebruikt:
+   De componenten van Screens vereisen twee verschillende teruggaven afhankelijk van welke [ auteurswijze ](https://experienceleague.adobe.com/nl/docs/experience-manager-64/authoring/authoring/author-environment-tools) wordt gebruikt:
 
    1. **Productie**: Voorproef of publiceer wijze (wcmmode=disabled)
    1. **geeft** uit: gebruikt voor alle andere auteurswijzen, namelijk uitgeven, ontwerp, steigers, ontwikkelaar...
@@ -383,7 +383,7 @@ Een derde categorie in de clientbibliotheek: `cq.screens.components.edit` kan wo
 
 ## Een ontwerppagina maken {#design-page}
 
-AEM Screens gebruikt [ statische Malplaatjes van de Pagina ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/page-templates-static) en [ configuraties van het Ontwerp ](https://experienceleague.adobe.com/en/docs/experience-manager-64/authoring/siteandpage/default-components-designmode) voor globale veranderingen. De configuraties van het ontwerp worden vaak gebruikt om toegestane componenten voor Parsys op een kanaal te vormen. U kunt deze configuraties het beste op een toepassingsspecifieke manier opslaan.
+AEM Screens gebruikt [ statische Malplaatjes van de Pagina ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/platform/templates/page-templates-static) en [ configuraties van het Ontwerp ](https://experienceleague.adobe.com/nl/docs/experience-manager-64/authoring/siteandpage/default-components-designmode) voor globale veranderingen. De configuraties van het ontwerp worden vaak gebruikt om toegestane componenten voor Parsys op een kanaal te vormen. U kunt deze configuraties het beste op een toepassingsspecifieke manier opslaan.
 
 Onder een `We.Retail` pagina Ontwerp uitvoeren wordt gecreeerd die alle configuraties specifiek voor het `We.Retail` project van de Looppas opslaat.
 

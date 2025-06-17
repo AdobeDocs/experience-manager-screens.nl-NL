@@ -37,7 +37,7 @@ Zie [ Steun van de Duimnagel voor Video&#39;s ](/help/user-guide/thumbnail-suppo
 * **Basis Controle van de Playback**
 
   AEM Screens ondersteunt nu elementaire afspeelcontrole. De speler rapporteert nu verschillende playbackmetriek met elk pingelt (gebrek aan 30 seconden). Op basis van de meetgegevens worden verschillende randgevallen gedetecteerd (geplakte ervaring, leeg scherm, planningsprobleem, enzovoort). Met deze functie kan het team op afstand controleren of een speler de inhoud correct afspeelt en de reactiviteit op lege schermen verbetert of de ervaringen in het veld verbroken zijn. Het vermindert ook het risico om een gebroken ervaring aan het eind - gebruiker te tonen.
-Zie [ Basis Controle van de Playback ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) voor meer details.
+Zie [ Basis Controle van de Playback ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) voor meer details.
 
 * **Updates aan het Rapport van de Toewijzing van de Inhoud**
 
@@ -77,8 +77,8 @@ Zie [ Rapport van de Toewijzing van de Inhoud ](/help/user-guide/content-assignm
    * Werk de aangepaste component bij.
 
 
-   * Zie [ het Vormen Dispatcher voor Duidelijke Versie v3 ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer details.
-   * Als u douanecomponenten als deel van v3 manifests gebruikt, zie [ Malplaatje voor de Handlers van de Douane ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Zie [ het Vormen Dispatcher voor Duidelijke Versie v3 ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer details.
+   * Als u douanecomponenten als deel van v3 manifests gebruikt, zie [ Malplaatje voor de Handlers van de Douane ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Opgeloste problemen {#bug-fixes}

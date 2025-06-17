@@ -167,7 +167,7 @@ Voer de onderstaande stappen uit om problemen op te lossen met een AEM Screens P
 
 1. Controleer of uw Dispatcher-configuratie deze aanvragen toestaat in de `/filters` .
 
-   Zie [ Vormend de Filters van Screens ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) voor meer details.
+   Zie [ Vormend de Filters van Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) voor meer details.
 
 1. Controleer of uw Dispatcher-herschrijfregels schermpaden herschrijven naar een ander pad.
 
@@ -214,7 +214,7 @@ Schakel Livefyre uit om logfouten te voorkomen door het volgende te doen.
 ### &#x200B;2. Hoe kan ik Oak Index-gegevens toevoegen? {#add-oak-index-info}
 
 AEM Screens maakt indexdefinities voor de query&#39;s die door het product worden gebruikt.
-Als er om het even welk *Traversal WARNs van de Vraag* in `error.log` is, creeer een douaneindex voor uw vraag. Zie [ Vormend de Indexen ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) voor meer details.
+Als er om het even welk *Traversal WARNs van de Vraag* in `error.log` is, creeer een douaneindex voor uw vraag. Zie [ Vormend de Indexen ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) voor meer details.
 
 U kunt ook een extra middel op [ Documentatie van Oak ](https://jackrabbit.apache.org/oak/docs/query/lucene.html) zien.
 
@@ -224,10 +224,10 @@ U kunt ook een extra middel op [ Documentatie van Oak ](https://jackrabbit.apach
 Ga als volgt te werk om v3-manifest in te schakelen:
 
 * Dispatcher bijwerken.
-Zie [ het Vormen Dispatcher voor Duidelijke Versie v3 ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer details.
+Zie [ het Vormen Dispatcher voor Duidelijke Versie v3 ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer details.
 
 * Aangepaste component bijwerken.
-Zie [ Malplaatje voor de Handlers van de Douane ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) voor meer details.
+Zie [ Malplaatje voor de Handlers van de Douane ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) voor meer details.
 
 * Schakel ContentSync uit in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` .
 
@@ -241,7 +241,7 @@ Zie [ Malplaatje voor de Handlers van de Douane ](https://experienceleague.adobe
 
 ### &#x200B;4. Wat moet u doen als, na het pakket screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 en de schermen core bundles geïnstalleerd maar niet actief zijn?
 
-Installeer een minimale versie van AEM 6.5 Feature Pack 8 voor de AMS-aansluiting. Zie [ Beschikbaarheid ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) zodat kunt u de minimumversie van het Pak van de Eigenschap van AEM Screens krijgen.
+Installeer een minimale versie van AEM 6.5 Feature Pack 8 voor de AMS-aansluiting. Zie [ Beschikbaarheid ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) zodat kunt u de minimumversie van het Pak van de Eigenschap van AEM Screens krijgen.
 
 ### &#x200B;5. Hoe te om de dienst van Externalzer van de Verbinding van CQ in Screens te vormen?
 
