@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Nadat u een kanaal aan een vertoning toewijst, toont de Speler van AEM Screens d
 
 ## Het dashboard van het Apparaat gebruiken {#using-the-device-dashboard}
 
-U kunt voorkeuren voor uw apparaat configureren vanaf het dashboard van het apparaat, dat toegankelijk is via de AEM ontwerpinstantie.
+U kunt voorkeuren voor uw apparaat configureren vanaf het apparaatdashboard, dat toegankelijk is via de AEM-ontwerpinstantie.
 
 1. Navigeer aan het apparatendashboard van uw project, bijvoorbeeld, ***Project van de Test*** > ***Apparaten***.
 
@@ -124,12 +124,12 @@ Voorkeuren wijzigen van uw speler:
 
 U kunt verschillende problemen met de AEM Screens Player (hardware en software) oplossen:
 
-| **Kwesties** | **Recommendations** |
+| **Kwesties** | **Aanbevelingen** |
 |---|---|
 | Player-opslag is vol | Overbodige bestanden verwijderen |
 | Speler verloren netwerk | Kat-5 of kat-6 van het gebruik kabel. Voor wifi, verminder de afstand van de router aan het spelerapparaat |
 | AEM Screens Player vastgelopen | Het wordt aanbevolen een waakhond-app te hebben die ervoor zorgt dat de AEM Screens Player altijd wordt uitgevoerd |
-| AEM Screens Player heeft instellingen verloren | Verbinding met AEM server controleren |
+| AEM Screens Player heeft instellingen verloren | Verbinding met AEM-server controleren |
 | AEM Screens Player wordt niet automatisch gestart na opnieuw opstarten of opnieuw opstarten | Start van OS-map of initialisatieprocedure controleren |
 | AEM Screens Player geeft onjuiste of oude inhoud weer | Netwerkverbinding controleren |
 
@@ -149,7 +149,7 @@ In het volgende gedeelte vindt u de richtlijnen voor hardwareselectie voor een S
 * Bron altijd ***Commerciële*** of ***Industriële*** componenten van de Grade voor zowel de speler van PC als Comité van de Vertoning of Projector.
 
 * Neem altijd contact op met leveranciers die de markt voor digitale handtekeningen bedienen.
-* Houd altijd rekening met omgevingsfactoren zoals omgevingstemperatuur en relatieve vochtigheid.
+* Houd altijd rekening met omgevingsfactoren, zoals omgevingstemperatuur en relatieve vochtigheid.
 * Controleer altijd de stroomvereisten en de conditionering van het energieverbruik.
 * Controleer zorgvuldig de prestatiebehoeften en I/O-poorten die vereist zijn voor de toepassing.
 

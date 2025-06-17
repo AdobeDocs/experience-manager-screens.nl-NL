@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 De volgende sectie verklaart hoe te om projecten te scheiden die de Lijsten van het Toegangsbeheer (ACLs) gebruiken zodat elk individu of team hun eigen project behandelt.
 
-Als AEM beheerder, wilt u ervoor zorgen dat de teamleden van een project zich niet in andere projecten mengen. Elke gebruiker wordt toegewezen specifieke rollen zoals per projectvereisten.
+Als beheerder van AEM, wilt u ervoor zorgen dat de teamleden van een project zich niet in andere projecten mengen. Elke gebruiker wordt toegewezen specifieke rollen zoals per projectvereisten.
 
 ## Machtigingen instellen {#setting-up-permissions}
 
@@ -75,7 +75,7 @@ De volgende lijst vat de weg met de toestemmingen op het projectniveau samen:
 
 >[!NOTE]
 >
->Soms kunt u auteurfuncties (zoals het beheren van activa en het creëren van kanalen) van adminfuncties (zoals het registreren van spelers) scheiden. In zulk een scenario, creeer twee groepen en voeg de auteursgroep aan contribuanten en de admingroep aan zowel auteurs als gebruiker-beheerders toe.
+>Soms kunt u auteurfuncties (zoals het beheren van activa en het creëren van kanalen) van adminfuncties (zoals het registreren van spelers) scheiden. In zulk een scenario, creeer twee groepen en voeg de groep van de auteur aan contribuanten en de admingroep aan zowel auteurs als gebruiker-beheerders toe.
 
 ### Groepen maken {#creating-groups}
 

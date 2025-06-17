@@ -10,9 +10,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Bezoek [**AEM 6.5 de Downloads van de Speler** ](https://download.macromedia.com
 >Stel een omgeving in voor Windows Player als u AEM Screens 6.5.5 Service Pack gebruikt.
 
 Plaats het **attribuut SameSite voor de login-symbolische koekjes** van **Lax** aan **niets** van **Console van het Web van Adobe Experience Manager
-Configuratie** op alle AEM auteur en publiceer instanties.
+Configuratie** op alle auteur en publiceer instanties van AEM.
 
 Voer de onderstaande stappen uit:
 
 1. Navigeer naar **Adobe Experience Manager Web Console
 Configuratie** met `http://localhost:4502/system/console/configMgr` .
 
-1. Onderzoek naar *de manager van de Authentificatie van het Symbolische van de Adobe Granite*.
+1. Onderzoek naar *Adobe Granite Token de Handler van de Authentificatie*.
 
 1. Plaats het **attribuut SameSite voor de login-symbolische koekjes** van **Lax** aan **niets**.
    ![afbeelding](/help/user-guide/assets/granite-updates.png)
@@ -57,7 +57,7 @@ De ad hoc methode laat u de recentste Speler van Vensters installeren (*.exe*). 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
 1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
-1. Navigeer aan **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de AEM instantie in u met wilt verbinden en **klikken sparen**.
+1. Navigeer aan **Configuratie** van het linkeractiemenu en ga de plaats (adres) van de instantie van AEM in u met wilt verbinden en **klikken sparen**.
 1. Navigeer aan het **Apparaat** **verbinding van de Registratie** van het linkeractiemenu zodat kunt u de status van het proces van de apparatenregistratie controleren.
 
 >[!NOTE]
@@ -68,7 +68,7 @@ Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de
 
 ## Namen van Windows Player {#name-windows}
 
-U kunt een gebruikersvriendelijke apparatennaam aan uw Speler van Vensters toewijzen, waarbij de toegewezen apparatennaam naar Adobe Experience Manager (AEM) wordt verzonden. Met deze functie kunt u niet alleen uw Windows Player een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
+U kunt een gebruikersvriendelijke apparaatnaam aan uw Windows Player toewijzen en zo de toegewezen apparaatnaam naar Adobe Experience Manager (AEM) verzenden. Met deze functie kunt u niet alleen uw Windows Player een naam geven, maar kunt u ook gemakkelijk de juiste inhoud toewijzen.
 
 >[!NOTE]
 >U kunt de Player-naam alleen vóór de registratie kiezen. Nadat de Speler wordt geregistreerd, kan de naam van de Speler niet meer worden veranderd.
@@ -126,8 +126,8 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 | resolutie | De resolutie van het apparaat. |
 | rebootSchedule | Het programma om de speler opnieuw op te starten. |
 | enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
-| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om naar een ander kanaal op het apparaat te gaan. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
-| enableActivityUI | Schakel deze optie in zodat u de voortgang van activiteiten zoals downloaden en synchroniseren kunt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
+| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om naar een ander kanaal op het apparaat te gaan. Overweeg het plaatsen van het aan vals zodra het volledig en in productie wordt gevormd. |
+| enableActivityUI | Schakel deze optie in zodat u de voortgang van activiteiten, zoals downloaden en synchroniseren, kunt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
 | cloudMode | Stel dit in op true als u wilt dat de Windows Player verbinding maakt met Screens as a Cloud Service. Ingesteld op false om verbinding te maken met AMS of on-prem AEM. |
 | cloudToken | Registertoken voor Screens as a Cloud Service. |
 
@@ -160,11 +160,11 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 1. Enable Shell Launcher.
 
-   Zie ***de Lanceerinrichting van Shell*** in **[Lanceerinrichting van Shell ](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** pagina door Microsoft® de steun van Vensters voor extra informatie vormen.
+   Zie ***de Lanceerinrichting van Shell*** in **[Lanceerinrichting van Shell ](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)** pagina door Microsoft® de steun van Vensters voor extra informatie vormen.
 
 1. Maak een niet-administratieve gebruiker (als u er al een hebt) die u voor Kiosk wilt gebruiken. Het kan een lokale of domeingebruiker zijn.
 1. Installeer de Speler van Vensters voor die gebruiker van Kiosk van de [ downloadt van de Speler van AEM Screens ](https://download.macromedia.com/screens/) pagina.
-1. Zie [ Lanceerinrichting van Shell van het Gebruik om Vensters 10 kiosk ](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) tot stand te brengen om uw manuscript PowerShell voor meer informatie te wijzigen.
+1. Zie [ Lanceerinrichting van Shell van het Gebruik om Vensters 10 kiosk ](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune) tot stand te brengen om uw manuscript PowerShell voor meer informatie te wijzigen.
 
    Wijzig het manuscript PowerShell zodat kunt u de gebruikersbenaming met vervangen u creeerde. Zorg ervoor dat het pad naar het uitvoerbare bestand van de toepassing juist is. Dit plaatst douane shell als toepassing van de Speler van Vensters voor de gebruiker van kiosk en plaatst het gebrek als explorer.exe voor andere gebruikers.
 
@@ -183,7 +183,7 @@ Met het voorbeeldscript in de koppelingen kunt u de aangepaste shell in- en uits
 
 >[!NOTE]
 >
->In sommige milieu&#39;s van Vensters, kunnen de manuscripten PowerShell door beleid (vooral niet ondertekende manuscripten) worden beperkt. Als u uw script wilt uitvoeren, schakelt u deze beperking tijdelijk uit en schakelt u deze opnieuw in om het script uit te voeren. Open een venster PowerShell en gebruik deze bevelen.
+>Sommige milieu&#39;s van Vensters beperken manuscripten PowerShell door beleid, vooral als de manuscripten unsigned zijn. Als u uw script wilt uitvoeren, schakelt u deze beperking tijdelijk uit en schakelt u deze opnieuw in om het script uit te voeren. Open een venster PowerShell en gebruik deze bevelen.
 >
 >*`set-executionpolicy unrestricted`* - om beperkingen tijdelijk te verwijderen.
 >

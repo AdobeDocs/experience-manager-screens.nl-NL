@@ -10,9 +10,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ De server bevindt zich bijvoorbeeld in PST en de apparaten in EST. Het maximale 
 
 Daarom 3 uur 56 minuten (14160 seconden).
 
-Dus als je live start, begint de promotie vroeg met het in aanmerking nemen van deze offset. In de bovenstaande vergelijking nemen de meeste items niet veel tijd in beslag. U kunt een fatsoenlijke gok voor deze compensatie gebruiken wanneer het maximumtijdverschil tussen de server en om het even welke speler kent.
+Dus als je live start, begint de promotie vroeg met het in aanmerking nemen van deze offset. In de bovenstaande vergelijking nemen de meeste items niet veel tijd in beslag. U kunt een goede gok voor deze compensatie gebruiken wanneer u het maximumtijdverschil tussen de server en om het even welke speler kent.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ In deze sectie wordt uitgelegd hoe u een respijtperiode buiten de box kunt bijwe
 1. Navigeer naar CRXDE Lite en vervolgens naar `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` .
 1. Klik met de rechtermuisknop en kopieer het bestand.
 1. Navigeer naar `/apps/system/config` en klik met de rechtermuisknop en plak.
-1. Dubbelklik op `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` zodat u het bestand in de editor in CRXDE Lite kunt openen. Het moet de respijtperiode voor weg */content/screens/* als **86400** tonen. Verandering die waarde in **600**.
+1. Dubbelklik op `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` om het bestand in de editor van CRXDE Lite te openen. Het moet de respijtperiode voor weg */content/screens/* als **86400** tonen. Verandering die waarde in **600**.
 
 De inhoud in het tekstbestand moet er nu ongeveer als volgt uitzien:
 
@@ -105,9 +105,9 @@ Voer de volgende stappen uit om de Screens-startfunctionaliteit te implementeren
 
    ![ Beeld ](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. **creeer de 1&rbrace; tovenaar van de Lancering &lbrace;opent.** U kunt op het kanaal klikken dat al zichtbaar is in de wizard of op **+ Kanalen toevoegen** klikken om het kanaal toe te voegen waarvoor u de opstart wilt maken.
+1. **creeer de 1} tovenaar van de Lancering {opent.** U kunt op het kanaal klikken dat al zichtbaar is in de wizard of op **+ Kanalen toevoegen** klikken om het kanaal toe te voegen waarvoor u de opstart wilt maken.
 
-1. Klik **daarna** van **creeer de 3&rbrace; tovenaar van de Lancering &lbrace;.** **omvat subpages** optie wordt geselecteerd door gebrek.
+1. Klik **daarna** van **creeer de 3} tovenaar van de Lancering {.** **omvat subpages** optie wordt geselecteerd door gebrek.
 
    ![afbeelding](/help/user-guide/assets/launches-images/launches-d.png)
 

@@ -4,9 +4,10 @@ description: Meer informatie over het AEM Screens Feature Pack 20250224, dat op 
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 45f2c282c16318d7968098c92b52e772eb0bf4cd
+exl-id: dc47ec1b-77f4-43e8-a6d4-2cbbc2133b4a
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 1%
 
 ---
@@ -14,8 +15,8 @@ ht-degree: 1%
 # Opmerkingen bij de release voor Feature Pack 20250224 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de recentste versieinformatie van [ hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/release-notes) krijgen.
->FeaturePack (FP) versie 11.5 is compatibel met ServicePack (SP) tot versie 21.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de recentste versieinformatie van [ hier ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) krijgen.
+>>FeaturePack (FP) versie 11.5 is compatibel met ServicePack (SP) tot versie 21.
 
 
 ## Beschikbaarheid {#availability}
@@ -35,4 +36,4 @@ De releasedatum voor AEM Screens Feature Pack 20250224 is 24 februari 2025.
 ### Opgeloste problemen {#bug-fixes}
 
 * Pakketconflict met Service Pack 21 en Screens Feature Pack. (SCRNS-4638)
-* Vuln fix op /libs/screens/dcc/components/dashboard/clientlibs/active-channel.js (SCRNS-4607)
+* Probleemoplossing bij `/libs/screens/dcc/components/dashboard/clientlibs/active-channel.js` (SCRNS-4607)

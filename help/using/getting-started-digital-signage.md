@@ -2,9 +2,9 @@
 title: Basisbeginselen van digitale signalen voor [!UICONTROL AEM Screens]
 description: Leer de grondbeginselen van een digitaal ondertekeningsproject.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Het definiëren van de belangrijkste elementen is van essentieel belang voordat 
 
 1. **Connectiviteit**
 
-   De connectiviteit benadrukt op de volgende vragen:
+   De connectiviteit benadrukt de volgende vragen:
    * Een netwerk (cel of wi-fi) of standalone?
       * Moet u updates van USB-inhoud toestaan?
       * Moet u het gebruik van gegevensverzameling toestaan?
@@ -74,7 +74,7 @@ Het definiëren van de belangrijkste elementen is van essentieel belang voordat 
    * Gegevens activeren (I/O)?
       * Het verzenden/Ontvangende periodieke bevelen (contactsluiting, PLC, etc.)
       * Binnenkomende gegevens worden op het scherm weergegeven (RSS) of activeren de inhoud
-      * RFID/NFC/Bluetooth/iBeacon
+      * RFID/NFC/Bluetooth/Beacon
       * Externe diensten (weer, verkeer)
 
 1. **Milieu**

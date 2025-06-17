@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
@@ -93,7 +93,7 @@ De wijze **Levende Status van het Exemplaar**, zoals aangetoond in het hieronder
 
 U kunt de overerving van de live kopie ook annuleren, zodat de inhoud onafhankelijk wordt van de oorspronkelijke vertakking.
 
-In het volgende voorbeeld ziet u dat u in de bewerkingsmodus op de afbeelding klikt en rechtsboven op het overervingssymbool Annuleren klikt.
+Het volgende voorbeeld toont aan dat u het beeld op uitgeeft wijze klikt en **annuleert Overerving** pictogram op het hoogste recht klikt.
 
 ![ chlimage_1-24 ](assets/chlimage_1-24.png)
 
@@ -117,7 +117,7 @@ Voer de onderstaande stappen uit om ervoor te zorgen dat uw wijzigingen van het 
 
    ![ chlimage_1-27 ](assets/chlimage_1-27.png)
 
-1. Om veranderingen in het levende exemplaarkanaal te verspreiden, navigeer aan het AEM dashboard en klik het levende exemplaarkanaal en klik **Eigenschappen** van de actiebar.
+1. Om veranderingen in het levende exemplaarkanaal te verspreiden, navigeer aan het dashboard van AEM en klik het levende exemplaarkanaal en klik **Eigenschappen** van de actiebar.
 
    ![ chlimage_1-28 ](assets/chlimage_1-28.png)
 
@@ -125,7 +125,7 @@ Voer de onderstaande stappen uit om ervoor te zorgen dat uw wijzigingen van het 
 
    ![ chlimage_1-29 ](assets/chlimage_1-29.png)
 
-1. Klik **Synchronisatie**, dan klik **sparen &amp; sluit** om terug naar het AEM dashboard te navigeren.
+1. Klik **Synchronisatie**, dan klik **sparen &amp; sluit** om terug naar het dashboard van AEM te navigeren.
 
    ![ chlimage_1-30 ](assets/chlimage_1-30.png)
 

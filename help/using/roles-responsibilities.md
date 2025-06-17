@@ -2,16 +2,16 @@
 title: AEM Screens-projectrollen en -verantwoordelijkheden
 description: Meer informatie over de rollen en verantwoordelijkheden van AEM Screens-projecten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
 
 # Projectrollen en -verantwoordelijkheden {#roles-responsibilities}
 
-Als ervaren AEM uitvoerder, hebt u waarschijnlijk de rollen gezien die als *Auteurs* worden bedoeld, *Ontwikkelaars*, en *de Technici van IT*.
+Als ervaren AEM implementor, hebt u waarschijnlijk de rollen gezien die als *Auteurs* worden bedoeld, *Ontwikkelaars*, en *de Technici van IT*.
 
 In een typisch AEM Screens-project worden de rollen verder verfijnd, aangezien zij elk een belangrijk doel in het project dienen.
 
@@ -29,15 +29,15 @@ In de volgende sectie ziet u een overzicht van het doelpubliek:
 
 ### Adobe {#adobe-audience}
 
-Adobe omvat Adobe Managed Services-bronnen zoals de CSE (Customer Success Engineer) en Adobe Support.
+Adobe bevat Adobe Managed Services-bronnen zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-### Implementators AEM {#aem-implementors}
+### AEM Implementors {#aem-implementors}
 
 AEM Implementors zijn verantwoordelijk voor het uitvoeren van ontwikkelings- en integratietaken om de gebruikerservaring, aangepaste sjablonen en back-endintegratie voor AEM te ontwikkelen.
 
 Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Experience) van eindgebruikers worden ook vastgelegd en via dit proces geleverd.
 
-AEM Implementors zullen typisch douanefunctionaliteit in fasen in tijd aan plaatsen opstellen. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. In de volgende fase kunt u het afspelen van gelokaliseerde inhoud ondersteunen via dynamische sjablonen en metagegevenstags. Andere fasen omvatten ondersteuning voor interactieve elementen door middel van aanraakschermen, sensoren, dynamische triggers enzovoort.
+AEM Implementors implementeren doorgaans aangepaste functionaliteit in fasen in de loop van de tijd naar locaties. Ze kunnen bijvoorbeeld eerst ondersteuning instellen voor het afspelen van standaard gelabelde video of statische grafische inhoud. In de volgende fase kunt u het afspelen van gelokaliseerde inhoud ondersteunen via dynamische sjablonen en metagegevenstags. Andere fasen omvatten ondersteuning voor interactieve elementen door middel van aanraakschermen, sensoren, dynamische triggers enzovoort.
 
 ### Audio-video-integratoren {#av-integrators}
 
@@ -53,7 +53,7 @@ Een Audio-Video Integrator is verantwoordelijk voor het uitvoeren van detectie m
 
 Het is van cruciaal belang om op de juiste hardwarepartner te klikken. De volgende vragen moeten in overweging worden genomen:
 
-1. Wat zijn de voorwaarden van de overeenkomst op het niveau van de Dienst?
+1. Wat zijn de voorwaarden van Service level agreement?
 
 1. Wat is wereldwijde dekking?
 
@@ -85,7 +85,7 @@ Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens
 
 >[!NOTE]
 >
->Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek {de Rollen en de Verantwoordelijkheden van het Project van 0} [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities) **.**
+>Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek {de Rollen en de Verantwoordelijkheden van het Project van 0} ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities) **.**[
 
 
 ## Projectfasen {#project-stages}
@@ -100,7 +100,7 @@ Om een succesvolle digitale signaalplaatsing te steunen, is het gebruikelijk om 
 >
 >Terwijl deze gids nadruk hoofdzakelijk op *Dag Één* en *Dag Twee* legt, is de aandacht op alle drie stadia noodzakelijk om een succesvol digitaal ondertekeningsproject in werking te stellen.
 >
->Om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren, op een video op **[het Beheer en Plaatsing van het Project ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment) te letten**.
+>Om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren, op een video op **[het Beheer en Plaatsing van het Project ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment) te letten**.
 
 ## RACI-diagram {#raci-chart}
 
@@ -114,7 +114,7 @@ Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt.
 
 * **Verantwoordelijk**: Doet het werk om de taak te voltooien.
 
-* **Verantwoordelijk**: Het werk van afgevaardigden en zijn de laatste partij om de taak te herzien alvorens het volledig is.
+* **Verantwoordelijk**: Het werk van afgevaardigden en zijn de laatste partij om de taak te herzien alvorens het wordt voltooid.
 
 * **geconsulteerd**: Herziet de taak of leverbaar om input te verstrekken.
 
@@ -124,19 +124,19 @@ Het volgende is een steekproef RACI grafiek die de roldefinities gebruikt en ver
 
 De volgende lijst vat **Nul van de Dag samen: Overwegingen vóór verkoop**:
 
-| **Fase** | **audio-Video Integrator** | **AEM Implementor** | **BedrijfsStrategie** | **Inhoudsbeheer** |
+| **Fase** | **audio-Video Integrator** | **Implementor van AEM** | **BedrijfsStrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
 | Teamsamenstelling en selectie van leverancier | I | I | RA | RA |
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Aanpassing aan strategische doelstellingen | CI | I | RA | RA |
 | Rapportagebehoeften en ROI-identificatie | I | C | RA | C |
-| Vereisten voor het bezoek en de hardware van de site | RA | I | C | C |
+| Bezoeken en hardwarevereisten voor de site | RA | I | C | C |
 | Ondersteuningsproces - definitie | C | I | RA | I |
 | Bereik van werk en projectplan bepalen | RA | RA | C | C |
 
 De volgende lijst vat **Dag één samen: De Implementatie van het project (het Ontwerp van de Toepassing)**:
 
-| **Fase** | **audio-Video Integrator** | **AEM Implementor** | **BedrijfsStrategie** | **Inhoudsbeheer** |
+| **Fase** | **audio-Video Integrator** | **Implementor van AEM** | **BedrijfsStrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Uitlijning op projectplan en -schema | RA | RA | C | C |
@@ -156,7 +156,7 @@ De volgende lijst vat **Dag één samen: De Implementatie van het project (het O
 
 De volgende lijst vat **Dag één samen: De Uitvoering van het project (Detailhandel Readiness)**:
 
-| **Fase** | **audio-Video Integrator** | **AEM Implementor** | **BedrijfsStrategie** | **Inhoudsbeheer** |
+| **Fase** | **audio-Video Integrator** | **Implementor van AEM** | **BedrijfsStrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
 | Hardwarebestelling en -opslag | RA | I | I | I |
 | Handelson-boarding-schema | I | I | C | RA |
@@ -166,7 +166,7 @@ De volgende lijst vat **Dag één samen: De Uitvoering van het project (Detailha
 
 De volgende lijst vat **Dag één samen: Dag Één: De Uitvoering van het project (Hardware)**:
 
-| **Fase** | **audio-Video Integrator** | **AEM Implementor** | **BedrijfsStrategie** | **Inhoudsbeheer** |
+| **Fase** | **audio-Video Integrator** | **Implementor van AEM** | **BedrijfsStrategie** | **Inhoudsbeheer** |
 |---|---|---|---|---|
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA | RA |
 | Het kleine Ontwerp omvat bedradingsverrichtingen | - | - | - | - |

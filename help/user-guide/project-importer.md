@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Het gegevensmodel voor de projectimportmodule wordt hieronder beschreven:
 
 Voor het spreadsheetbestand (CSV/XLS) zijn dus de volgende kolommen vereist:
 
-* **weg {string}** - de weg voor de plaats die moet worden ingevoerd, waar de wortel van de weg de plaatsomslag voor het project (namelijk *`/foo`* wordt ingevoerd in *`/content/screens/<project>/locations/foo`*) is
-* **malplaatje {string}** - het malplaatje voor de nieuwe plaats te gebruiken, nu is de enige toegestane waarde &quot;plaats&quot;, maar deze waarde wordt uitgebreid tot alle malplaatjes van Screens in de toekomst (`display`, `sequencechannel`, etc.)
-* **[./* ] {string}** - Om het even welke facultatieve bezit dat op de plaats (namelijk `./jcr:title`, `./jcr:description`, `./foo, ./bar`) moet worden geplaatst. De huidige versie staat geen filtreren toe.
+* **path{string}** - Het pad voor de te importeren locatie, waar de hoofdmap van het pad de locatiemap voor het project is (dat wil zeggen dat *`/foo`* wordt geïmporteerd naar *`/content/screens/<project>/locations/foo`* )
+* **malplaatje{string}** - het malplaatje voor de nieuwe plaats te gebruiken, nu is de enige toegestane waarde &quot;plaats&quot;, maar deze waarde wordt uitgebreid tot alle `Screens` malplaatjes in de toekomst (`display`, `sequencechannel`, etc.)
+* **[./*] {string}** - Een optionele eigenschap die op de locatie moet worden ingesteld (dat wil zeggen `./jcr:title` , `./jcr:description` , `./foo, ./bar` ). De huidige versie staat geen filtreren toe.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Voer de onderstaande stappen uit om een bestand te importeren naar een locatiema
 
    ![ screen_shot_2019-05-12at52651am ](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Klik het project,**&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; creeer &#x200B;**>**&#x200B; de Plaatsen van de Invoer** van de zijbar.
+1. Klik het project,** DemoProjectImporter **>** creeer **>** de Plaatsen van de Invoer** van de zijbar.
 
    ![ screen_shot_2019-05-12at52433am ](assets/screen_shot_2019-05-12at52433am.png)
 

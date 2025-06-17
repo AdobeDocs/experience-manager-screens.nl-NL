@@ -5,9 +5,9 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1218'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit op het Samsung-apparaat, zodat u de installatie
 1. Klik de **MENU** knoop van ver van het apparaat en rol neer aan **Systeem** van de linkernavigatiebar.
 1. De rol neer en klikt het **Spel als** optie en verandert het in de **Optie van de Lanceerinrichting URL**.
    ![afbeelding](/help/user-guide/assets/tizen/rms-2.png)
-1. Wanneer de Lanceerinrichting URL wordt geplaatst, druk de **1&rbrace; knoop van het Huis &lbrace;van uw ver.**
+1. Wanneer de Lanceerinrichting URL wordt geplaatst, druk de **1} knoop van het Huis {van uw ver.**
 1. Navigeer aan de **Montages van de Lanceerinrichting URL** en ga het IP adres van uw localhost server in en klik **Gedaan**.
 
    >[!NOTE]
@@ -81,7 +81,7 @@ Volg de stappen hieronder om deze onverenigbare cliënten vrij te stellen wannee
 
 1. Upgrade naar Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
-1. Na AEM begin opnieuw, ga naar `/system/console/configMgr` en onderzoek naar **de Afhandeling van de Authentificatie van het Symbolische van de Adobe Granite**. Plaats de waarde voor de **&#x200B;**&#x200B;waarde SameSite aan **niets**.
+1. Nadat AEM opnieuw begint, ga naar `/system/console/configMgr` en onderzoek naar **Adobe Granite Token de Handler van de Authentificatie**. Plaats de waarde voor de **** waarde SameSite aan **niets**.
 
 1. Er wordt een nieuwe optie weergegeven *`User agents to be exempted from samesite attribute`* . Vul deze optie met een regex die aan de gebruikersagent beantwoordt die (zijn) onverenigbaar met *SameSite=None* attributen is.
 
@@ -89,7 +89,7 @@ Volg de stappen hieronder om deze onverenigbare cliënten vrij te stellen wannee
    >
    >Zie [ SameSite=None: Bekende Incompatibele Clients ](https://www.chromium.org/updates/same-site/incompatible-clients) voor meer details. Gebruik voor de Tizen-speler de regex: `(.*)Tizen(.*)` .
 
-1. Registreer de Tizen-speler tegen AEM 6.5.5 en hoger en registreer de inhoud normaal.
+1. Registreer de Tizen-speler op uw AEM 6.5.5 en hoger en registreer de inhoud normaal.
 
 ## De Tizen-speler op afstand voorzien {#remote-provisioning}
 
@@ -119,7 +119,7 @@ In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 
 >[!NOTE]
 >De beheerconfiguraties van het beleid van Admin UI van de speler worden strikt afgedwongen en worden niet manueel met voeten getreden. Om handspelerconfiguratie voor een bepaald beleid toe te staan, specificeer niet het beleid in de beleidsconfiguratie.
->Als u bijvoorbeeld handmatige configuratie wilt toestaan voor het opnieuw opstarten, geeft u de sleutel `rebootSchedule` niet op in de beleidsconfiguratie. Beleidsconfiguraties worden telkens gelezen wanneer de speler opnieuw wordt geladen.
+>>Als u bijvoorbeeld handmatige configuratie wilt toestaan voor het opnieuw opstarten, geeft u de sleutel `rebootSchedule` niet op in de beleidsconfiguratie. Beleidsconfiguraties worden telkens gelezen wanneer de speler opnieuw wordt geladen.
 
 | **Naam van het Beleid** | **Doel** |
 |---|---|
@@ -128,8 +128,8 @@ In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 | resolutie | De resolutie van het apparaat. |
 | rebootSchedule | Het programma om de speler opnieuw op te starten. |
 | enableAdminUI | Schakel de interface van Admin in om het apparaat op de site te configureren. Ingesteld op false zodra deze volledig is geconfigureerd en in productie is. |
-| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om naar een ander kanaal op het apparaat te gaan. Denk na plaatsend aan vals, zodra het volledig en in productie wordt gevormd. |
-| enableActivityUI | Schakel deze optie in zodat u de voortgang van activiteiten zoals downloaden en synchroniseren kunt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
+| enableOSD | Schakel de interface van de kanaalschakelaar voor gebruikers in om naar een ander kanaal op het apparaat te gaan. Overweeg het plaatsen van het aan vals zodra het volledig en in productie wordt gevormd. |
+| enableActivityUI | Schakel deze optie in zodat u de voortgang van activiteiten, zoals downloaden en synchroniseren, kunt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
 | cloudMode | Stel dit in op true als u wilt dat de Tizen-speler verbinding maakt met Screens as a Cloud Service. Ingesteld op false om verbinding te maken met AMS of on-prem AEM. |
 | cloudToken | Registertoken voor Screens as a Cloud Service. |
 
@@ -147,7 +147,7 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
 
 1. Indien nodig TLS instellen. Navigeer aan de haven en klik het havenaantal van de server en klik **sparen**.
 
-1. Navigeer aan het **Apparaat** lusje en controleer het apparaat dat u vormde. Wanneer een apparaat zijn gevonden, klik de controledoos, dan klik **goedkeuren**.
+1. Navigeer aan het **Apparaat** lusje en controleer het apparaat dat u vormde. Wanneer een apparaat wordt gevonden, klik de controledoos, dan klik **goedkeuren**.
 
    >![afbeelding](/help/user-guide/assets/tizen/rms-3.png)
 
@@ -159,7 +159,7 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
 
    >![afbeelding](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Het dialoogvenster Apparaatinformatie wordt weergegeven. Klik het **lusje van Info van het Apparaat 0&rbrace; &lbrace;en klik** uitgeven **.**
+1. Het dialoogvenster Apparaatinformatie wordt weergegeven. Klik het **lusje van Info van het Apparaat 0} {en klik** uitgeven **.**
 
    >![afbeelding](/help/user-guide/assets/tizen/rms-5.png)
 

@@ -2,9 +2,9 @@
 title: Direct mobiel netwerk
 description: Meer informatie over Direct Mobile Network Setup in AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ In AEM Screens wordt de vereiste inhoud fysiek gedownload naar de spelercontroll
 
 Het voordeel om AEM Screens Players over Cellular 3/4/5G met uw Mobiele Leverancier van de Gegevens van de Dienst te verbinden is dat de Mobiele Router in een geoptimaliseerde plaats kan worden geplaatst. Dit verzekert de beste beschikbare netwerkdekking. Deze plaats bevindt zich gewoonlijk in een verhoogde en open positie met zo weinig mogelijk omringende beton- of metaalconstructies.
 
-Deze instelling biedt AEM schermgebruikers grote flexibiliteit omdat er geen vaste verbinding is vereist om verbinding te maken met AEM Screens. Dit is interessant voor letterlijke of mobiele instellingen.
+Dankzij deze installatie kunnen AEM Screen-gebruikers heel flexibel werken omdat er geen vaste verbinding vereist is om verbinding te maken met AEM Screens. Dit is interessant voor letterlijke of mobiele instellingen.
 
 Het volgende diagram toont de Directe Mobiele Opstelling van het Netwerk. Het bestaat uit één enkel netwerkverbindingssegment en de verbinding van elke speler aan het mobiele of cellulaire gegevensnetwerk.
 
@@ -25,9 +25,9 @@ Het volgende diagram toont de Directe Mobiele Opstelling van het Netwerk. Het be
 
 ## AEM Screens Player verbinden met Direct mobiel netwerk
 
-Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM schermspelers in deze configuratie:
+Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM Screen-spelers in deze configuratie:
 
-1. Zorg ervoor dat elk van de AEM spelers van het Scherm met het Netwerk van de Router wordt verbonden.
+1. Zorg ervoor dat elk van de spelers van het Scherm van AEM met het Netwerk van de Router wordt verbonden.
 
 1. Test de verbinding van Internet door een URL in uw systeembrowser te roepen.
 
@@ -78,7 +78,7 @@ Als follow-up moet het benodigde gegevenspakket ten minste het volgende zijn:
 
 De prestatieszorgen van het Netwerk van het Lokale Gebied (LAN), naast de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om AEM Screens regelmatig te werken. De aanbeveling voor de LAN netwerksnelheden moet bij netwerken 100-Mbps minstens beginnen, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem te verbinden.
 
-Wanneer u andere actieve netwerkcomponenten gebruikt, is het verplicht dat al deze wel voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld, zouden de netwerkcomponenten minstens de norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de toegang van Internet of de specificatie van de Router wordt verstrekt. Anders, wordt de totale bandbreedte beperkt door de zwakste verbinding in de netwerkketen.
+Bij het gebruik van andere actieve netwerkcomponenten is het verplicht dat alle componenten voldoen aan de vereisten voor netwerkbandbreedte. Bijvoorbeeld, zouden de netwerkcomponenten minstens de norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de toegang van Internet of de specificatie van de Router wordt verstrekt. Anders, wordt de totale bandbreedte beperkt door de zwakste verbinding in de netwerkketen.
 
 ## Media en Assets downloaden {#download}
 

@@ -1,20 +1,20 @@
 ---
-title: Repliceer gegevenstriggers naar Publish-servers
+title: Repliceer gegevenstriggers naar publicatieservers
 description: Leer hoe u gegevenstriggers kunt repliceren naar de publicatieserver voor AEM Screens.
 feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-# Gegevenstriggers repliceren naar Publish-servers {#replicating-data-triggers}
+# Gegevenstriggers repliceren naar publicatieservers {#replicating-data-triggers}
 
-Wanneer het gebruiken van ContextHub en AEM het richten Motor om inhoud aan te passen die op gegevenstrekkers in een auteur/publiceer opstelling wordt gebaseerd, worden alle aan ContextHub en Personalization verwante configuraties niet automatisch herhaald met de kanalen wanneer gepubliceerd.
+Wanneer het gebruiken van ContextHub en AEM die Motor richten om inhoud aan te passen die op gegevenstrekkers in een auteur/publiceer opstelling wordt gebaseerd, worden alle aan ContextHub en Personalization verwante configuraties niet automatisch herhaald met de kanalen wanneer gepubliceerd.
 
 Op deze pagina kunt u leren welke handmatige stappen zijn vereist om deze configuraties afzonderlijk te publiceren.
 
@@ -24,13 +24,13 @@ Dit proces komt neer op het manueel publiceren van het volgende:
 1. Personalization-publiek
 1. Personalization-activiteiten
 
-## Stappen voor het repliceren van gegevenstriggers naar Publish Server {#replicating-data-triggers-publish}
+## Stappen voor het repliceren van gegevenstriggers naar publicatieserver {#replicating-data-triggers-publish}
 
 Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van de server te repliceren.
 
 ### Stap 1: het herhalen van Configuraties ContextHub {#replicating-contexthub-configurations}
 
-1. Navigeer aan **Hulpmiddelen** > **Plaatsing** > **Distributie** > **de Agent van Publish** en klik de het publiceren agent zodat kunt u uw montages vormen.
+1. Navigeer aan **Hulpmiddelen** > **Plaatsing** > **Distributie** > **publiceer Agent** en klik de het publiceren agent zodat kunt u uw montages vormen.
 
    ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -52,7 +52,7 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 ### Het publiek repliceren {#replicating-audiences}
 
-1. Navigeer aan uw AEM instantie > **Personalization** > **Soorten publiek** of gebruik `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` om direct te navigeren.
+1. Navigeer aan uw instantie van AEM > **Personalization** > **Soorten publiek** of gebruik `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` om direct te navigeren.
 
 1. Ga bijvoorbeeld naar de projectmap `/conf/screens/` .
 
@@ -62,11 +62,11 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 1. Klik **leiden Publicatie** van de actiebar.
 
-1. Klik **Volgende** en **Publish**.
+1. Klik **daarna** en **publiceren**.
 
 ### Herhaling van de activiteiten {#replicating-activities}
 
-1. Navigeer aan uw AEM instantie > **Personalization** > **Activiteiten** of gebruik `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` om direct te navigeren.
+1. Navigeer aan uw instantie van AEM > **Personalization** > **Activiteiten** of gebruik `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` om direct te navigeren.
 
 1. Bouw neer in uw projectomslag, namelijk `/content/campaigns/screens/…`.
 
@@ -74,7 +74,7 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 1. Klik **leiden Publicatie** van de actiebar.
 
-1. Klik **Volgende** en **Publish**.
+1. Klik **daarna** en **publiceren**.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ Als de replicatie succesvol is, zou u de volgende structuur op publiceren instan
 
 Als de testverbinding terwijl het herhalen van de configuraties ContextHub ontbreekt, volg de sectie hieronder voor het oplossen van problemen de kwestie:
 
-1. Navigeer aan **Hulpmiddelen** > **Plaatsing** > **Distributie** > **de Agent van Publish**.
+1. Navigeer aan **Hulpmiddelen** > **Plaatsing** > **Distributie** > **publiceer Agent**.
 
 1. Klik **uitgeven** van de actiebar en zorg ervoor dat het eindpunt URL in het **Eindpunten van de Importeur** gebied ook aan de het publiceren server URL in de Agent van de Distributie richt.
    ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
@@ -102,7 +102,7 @@ Als de testverbinding terwijl het herhalen van de configuraties ContextHub ontbr
    Voer de onderstaande stappen uit:
 
    1. Navigeer aan Hulpmiddelen > **Verrichtingen** > **Console van het Web** `http://localhost:4502/system/console/configMgr` zodat kunt u het **scherm van de Console van het Web van Adobe Experience Manager** openen.
-   1. Onderzoek naar **Apache die de Referenties van het Vervoer van de Distributie - de Referenties van de Gebruiker baseerden DistributionTransportSecretProvider**
+   1. Zoeken naar **`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`**
 
       ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
@@ -116,4 +116,4 @@ Als de testverbinding terwijl het herhalen van de configuraties ContextHub ontbr
       ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Werk `(name=default)` bij met `(name=slingTransportSecretProvider)` .
-   1. Klik **sparen** en stel opnieuw de testverbinding van het **scherm van de Agent van de Distributie** van uw AEM instantie in werking.
+   1. Klik **sparen** en stel opnieuw de testverbinding van het **scherm van de Agent van de Distributie** van uw instantie van AEM in werking.

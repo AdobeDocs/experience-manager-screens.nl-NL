@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1282'
 ht-degree: 1%
 
 ---
@@ -28,13 +28,13 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 
 >[!IMPORTANT]
 >**OSGi de Montages van de Configuratie**
->U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen. Momenteel zijn enkele van deze functies alleen beschikbaar als het filter Lege waarden toestaan van Apache-verwijzing is ingeschakeld in de OSGi-configuratie. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
->Volg de stappen hieronder om de ***filter van de Verwijzer van Apache toe te laten toestaat Lege***:
+>>U moet de lege referentie inschakelen zodat het apparaat gegevens op de server kan plaatsen. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen. Sommige van deze functies zijn momenteel alleen beschikbaar als de optie `Apache Sling` Lege filters toestaan in de configuratie OSGi is ingeschakeld. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
+>>Volg de stappen hieronder om de ***filter van de Verwijzer van Apache toe te laten toestaat Lege***:
 
 
 ## Lege verwijzingsverzoeken toestaan {#allow-empty-referrer-requests}
 
-1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** als AEM instantie > hamerpictogram > **Verrichtingen** > **Console van het Web**.
+1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** als instantie van AEM > hamerpictogram > **Verrichtingen** > **Console van het Web**.
 
    ![afbeelding](assets/config/empty-ref1.png)
 
@@ -54,7 +54,7 @@ Voer de onderstaande stappen uit om een voorbeeldproject voor AEM Screens te mak
 
 De eerste stap is het maken van een AEM Screens-project.
 
-1. Navigeer aan uw (AEM) instantie van Adobe Experience Manager en klik **Screens**. U kunt ook rechtstreeks navigeren vanuit `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens` .
+1. Navigeer aan uw instantie van Adobe Experience Manager (AEM) en klik **Screens**. U kunt ook rechtstreeks navigeren vanuit `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens` .
 
 1. Klik **creëren het Project van Screens** zodat kunt u een project van Screens tot stand brengen.
 1. Ga de titel als **DemoScreens** in, dan klik **sparen**.
@@ -70,7 +70,7 @@ Nadat u uw AEM Screens-project hebt gemaakt, maakt u een kanaal waarin u de inho
 
 Ga als volgt te werk om een kanaal voor uw project te maken:
 
-1. Nadat u een project creeert, klik het **project 0&rbrace; DemoScreens &lbrace;en klik de** omslag van Kanalen **, zoals aangetoond in het hieronder cijfer.** Klik op **+ Maken** op de actiebalk.
+1. Nadat u een project creeert, klik het **project 0} DemoScreens {en klik de** omslag van Kanalen **, zoals aangetoond in het hieronder cijfer.** Klik op **+ Maken** op de actiebalk.
 
    ![afbeelding](assets/kickstart/demo-2.png)
 
@@ -108,7 +108,7 @@ Volg de stappen hieronder om inhoud aan het kanaal (**TestChannel**) in uw proje
 Wanneer u uw kanaal op zijn plaats hebt, creeer een plaats.
 
 >[!NOTE]
->***compartimenteer de plaatsen van 0&rbrace; &lbrace;uw diverse digitale signaalervaringen en bevat de configuraties van de vertoningen volgens waar de diverse schermen zijn.***
+>***compartimenteer de plaatsen van 0} {uw diverse digitale signaalervaringen en bevat de configuraties van de vertoningen volgens waar de diverse schermen zijn.***
 
 Voer de onderstaande stappen uit om een locatie voor uw project te maken:
 
@@ -162,11 +162,11 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
 1. Het **de dialoogvakje van de Toewijzing van het Kanaal** opent.
 
-1. Van de **optie van Montages**, kies het kanaal **door weg** en **Ondersteunde Gebeurtenissen** zoals **Eerste Lading** en **Onactief het Scherm**.
+1. Van de **optie van Montages**, kies het kanaal **door weg** en **Ondersteunde Gebeurtenissen**, zoals **Eerste Lading** en **het Onactieve Scherm**.
 
    >[!NOTE]
    >
-   >De **Rol van het Kanaal**, **Prioriteit**, en **Methoden van de Onderbreking** zijn allen bevolkt door gebrek. Zie de [&#128279;](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) sectie van de Eigenschappen van het Kanaal 0&rbrace; &lbrace;voor meer informatie over de eigenschappen van de kanaaltaak.
+   >De **Rol van het Kanaal**, **Prioriteit**, en **Methoden van de Onderbreking** zijn allen bevolkt door gebrek. Zie de ](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) sectie van de Eigenschappen van het Kanaal 0} {voor meer informatie over de eigenschappen van de kanaaltaak.[
 
    ![afbeelding](assets/kickstart/demo-assign3.png)
 
@@ -180,7 +180,7 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
 ### Een apparaat registreren en Apparaat aan een Vertoning toewijzen {#registering-device}
 
-Registreer het apparaat met het AEM dashboard.
+Registreer het apparaat met het AEM-dashboard.
 
 >[!IMPORTANT]
 >Chrome OS Player kan als Chrome browser stop in ontwikkelaarwijze worden geïnstalleerd zonder daadwerkelijke Chrome Player apparaat te vereisen. Volg onderstaande stappen voor installatie:
@@ -196,7 +196,7 @@ Registreer het apparaat met het AEM dashboard.
 
 Nadat uw Chrome OS-speler is ingeschakeld, voert u de onderstaande stappen uit om een Chrome-apparaat te registreren.
 
-1. Navigeer aan de **omslag van Apparaten** van uw project van uw AEM instantie.
+1. Navigeer aan de **omslag van Apparaten** van uw project van uw instantie van AEM.
 
 1. Klik de **Manager van het Apparaat** van de actiebar.
 

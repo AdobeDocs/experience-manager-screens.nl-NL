@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
    >[!NOTE]
    >Leren hoe te om een tekstbedekking aan uw activa in een kanaalredacteur toe te voegen, zie [ Bedekking van de Tekst ](/help/user-guide/text-overlay.md).
 
-1. Navigeer aan CRXDE Lite van uw AEM instantie > hulpmiddelen > **CRXDE Lite**.
+1. Navigeer aan CRXDE Lite van uw instantie van AEM > hulpmiddelen > **CRXDE Lite**.
 
 1. Een aangepast ontwerp maken in `/apps/settings/wcm/designs/<your-project>/` , navigeer in dit geval naar `/apps/settings/wcm/designs/customstyle/`
 
@@ -69,11 +69,11 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
 
 1. Navigeer aan het kanaal dat als **wordt genoemd DemoBrand** (in stap (1) wordt gecreeerd) en klik **Eigenschappen** van de actiebar na het selecteren van het kanaal.
 
-1. Navigeer aan het **Geavanceerde** lusje en controleer het **3&rbrace; gebied van het Ontwerp &lbrace;.**
+1. Navigeer aan het **Geavanceerde** lusje en controleer het **3} gebied van het Ontwerp {.**
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >Ben gebrek, toont het **1&rbrace; gebied van het Ontwerp &lbrace;de weg die aan ontwerpen in de bibliotheekomslag richt.**
+   >Ben gebrek, toont het **1} gebied van het Ontwerp {de weg die aan ontwerpen in de bibliotheekomslag richt.**
 
 1. Werk het **gebied van het Ontwerp** met de weg aan uw projectomslag bij. In dit geval is dit `/apps/settings/wcm/designs/customstyle` .
 
@@ -104,7 +104,7 @@ Werk ACLs voor deze ontwerpen bij zodat kan de speler hen downloaden.
 
 ## Het resultaat weergeven {#viewing-the-result}
 
-Wanneer u de voorafgaande stappen hebt voltooid, kunt u uw {*dossier 0} stats.css van **CRXDE Lite**&#x200B;bijwerken en daarom de update aan uw tekstbedekking bekijken die reeds aan de activa wordt toegevoegd.*
+Wanneer u de voorafgaande stappen hebt voltooid, kunt u uw {*dossier 0} stats.css van **CRXDE Lite**bijwerken en daarom de update aan uw tekstbedekking bekijken die reeds aan de activa wordt toegevoegd.*
 
 Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking weer te geven:
 
@@ -114,7 +114,7 @@ Voer de onderstaande stappen uit om het bijgewerkte ontwerp voor tekstbedekking 
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Navigeer aan uw *static.css* dossier in CRXDE Lite, en voeg de doopvont zoals, `font-family: "Lucida Console", Courier, monospace;` aan dit dossier toe, zoals hieronder getoond.
+1. Navigeer aan uw *static.css* dossier in CRXDE Lite, en voeg de doopvont zoals `font-family: "Lucida Console", Courier, monospace;` aan dit dossier toe, zoals hieronder getoond.
 
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand8.png)
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Voer de onderstaande stappen uit om de instellingen voor e-mailmeldingen te conf
 
 1. Definieer de volgende velden zodat u de instellingen voor de e-mail kunt configureren:
 
-   **Weg van Apparaten** ga de weg aan de Projecten van Screens in die u wilt controleren. Het pad is meestal `/home/users/screens/<Name of your project>` .
+   **Weg van Apparaten** - ga de weg aan de Projecten van Screens in die u wilt controleren. Het pad is meestal `/home/users/screens/<Name of your project>` .
 
    Bijvoorbeeld, als uw project **`We.Retail`** is, gebruik de projectweg als ***/home/users/screens/we-retail***.
 
@@ -71,7 +71,7 @@ Voer de onderstaande stappen uit om de instellingen voor e-mailmeldingen te conf
 
    **Gebruik TLS** - de Veiligheid van de Laag van het Vervoer (TLS) laat u een veilige mededeling met de Server gebruiken SMTP.
 
-   Adobe raadt u aan TLS te gebruiken voor een veilige verbinding met bedrijfsmailservers. Vraag uw e-mailbeheerder om de juiste waarden.
+   Adobe raadt u aan TLS te gebruiken voor een veilige verbinding met bedrijfspostservers. Vraag uw e-mailbeheerder om de juiste waarden.
 
    **gebruikersbenaming** - specificeer de gebruikersbenaming voor het verzenden van e-mails.
 

@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Het is belangrijk dat alle belanghebbenden begrijpen waarvoor de audio-video-int
 
 >[!NOTE]
 >
->Het is belangrijk om een audio-video-integrator te identificeren met expertise op het gebied van projectbeheer van grootschalige Digital Signage-implementaties. Voorgesteld wordt dat projectplannen tussen de audio-video-integrator en AEM Implementor worden vergeleken. Zo zorgt u ervoor dat de plannen op één lijn worden gebracht terwijl ze worden ontwikkeld en afgerond.
+>Het is belangrijk om een audio-video-integrator te identificeren met expertise op het gebied van projectbeheer van grootschalige Digital Signage-implementaties. Voorgesteld wordt dat projectplannen tussen de Audio-Video Integrator en AEM Implementor worden vergeleken. Zo zorgt u ervoor dat de plannen op één lijn worden gebracht terwijl ze worden ontwikkeld en afgerond.
 >
 >De partners die een holistische benadering in het beheren van project &quot;pre-productie,&quot;initiatie, en progressiefasen nemen helpen om uw eind-cliënten te verzekeren worden geplaatst om de meeste waarde van hun investering te realiseren
 
@@ -41,9 +41,9 @@ Voor een geslaagde implementatie van Digital Signage is het gebruikelijk om het 
 
 Het eerste stadium wordt genoemd ***Nul van de Dag***. Deze fase omvat alle pre-verkoop en ontdekkingsinspanningen die worden vereist wanneer het bepalen van het werkingsgebied van een project. De tweede fase, ***Dag Één***, verwijst naar alle activiteiten inbegrepen in de plaatsingsinspanning. Tot slot ***Dag Twee*** verwijst naar alle aan de gang zijnde verrichtingen en steunelementen als deel van de totale oplossing.
 
-De activiteiten van Zero van de dag omvatten pre-Verkoop, de Ontdekking van de Cliënt, de Analyse van de Vereisten van de Toepassing, en de definitie van het Toepassingsgebied van het Project. Deze fase kan ook initiële betrokkenheid en definitie van projectvereisten voor projectbeheer omvatten, in voorbereiding op implementatie.
+De activiteiten van ***Nul van de Dag*** impliceren pre-Verkoop, de Ontdekking van de Cliënt, de Analyse van de Vereisten van de Toepassing, en de definitie van het Toepassingsgebied van het Project. Deze fase kan ook initiële betrokkenheid en definitie van projectvereisten voor projectbeheer omvatten, in voorbereiding op implementatie.
 
-Dag Zero bestaat uit acht belangrijke stappen die alle aspecten van de oprijplaat van het projectbeheer bestrijken:
+Al ***Nul van de Dag*** bestaat uit acht zeer belangrijke stappen die alle aspecten van de oprijplaat van het projectbeheer behandelen:
 
 * Definitie van het werkgebied
 * Het projectschema definiëren
@@ -72,7 +72,7 @@ Als overgangen van de verkoopkans aan een project, is een kickoff vergadering ge
 
 Het laatste deel van een initiatief van Dag 1 is het voltooien van een NOC-afhandeling. Als een voltooid project om het even welke Dag Twee dienst en steun omvat, organiseert de Projectleider een Vergadering NOC Handoff met de supervisors van die teams.
 
-Deze vergadering bestaat hoofdzakelijk uit audio-Video Integrator vertegenwoordigers van Accountbeheer, de Verrichtingen van het Netwerk, de Logistiek van het Gebied, de Diensten van de Inhoud, en Boekhouding. Vertegenwoordigers van het Beheer van het project van Adobe, AEM Implementor, en Eind-Klant zijn betrokken bij gelijktijdig, met audio-Video Integrator die programma, kadentie, en tollgates bepaalt. Projectmanagers zijn gewoonlijk het best om discussies te coördineren om ervoor te zorgen dat de juiste partijen op elkaar worden afgestemd en dat de vereiste documentatie voor de NOC Handoff-vergadering wordt ontwikkeld. De kritieke steundocumentatie komt waarschijnlijk uit de Techniek van IT en/of Audio-Video naast Verkoop en de middelen van het Beheer van de Rekening over alle betrokken partijen. Voor om het even welke cliënten die helpdesksteun van NOC vereisen, moet de documentatie aan NOC supervisors voor upload aan een platform van de Kennisbank worden verstrekt.
+Deze vergadering bestaat hoofdzakelijk uit audio-Video Integrator vertegenwoordigers van Accountbeheer, de Verrichtingen van het Netwerk, de Logistiek van het Gebied, de Diensten van de Inhoud, en Boekhouding. Vertegenwoordigers van het Projectbeheer van Adobe, de Implementor van AEM, en de Klant van het Eind zijn betrokken in combinatie, met audio-Video Integrator die programma, kadentie, en tollgates bepaalt. Projectmanagers zijn gewoonlijk het best om discussies te coördineren om ervoor te zorgen dat de juiste partijen op elkaar worden afgestemd en dat de vereiste documentatie voor de NOC Handoff-vergadering wordt ontwikkeld. De kritieke steundocumentatie komt waarschijnlijk uit de Techniek van IT en/of Audio-Video naast Verkoop en de middelen van het Beheer van de Rekening over alle betrokken partijen. Voor om het even welke cliënten die helpdesksteun van NOC vereisen, moet de documentatie aan NOC supervisors voor upload aan een platform van de Kennisbank worden verstrekt.
 
 ## Deel 4: Videozelfstudie over projectbeheer en -implementatie {#part-video-tutorial-on-project-management-and-deployment}
 

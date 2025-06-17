@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
 
 1. Voeg de volgende eigenschappen toe:
 
-   **Weg van het Project** specificeert de weg van uw project van AEM Screens. Het pad is meestal `/content/screens/<Name of your project>` .
+   **Weg van het Project** - specificeert de weg van uw project van AEM Screens. Het pad is meestal `/content/screens/<Name of your project>` .
 
    *bijvoorbeeld*, `/content/screens/we-retail`. U kunt dit pad vinden in de URL door een willekeurig project te selecteren onder AEM Screens (klik niet op het pictogram).
 
@@ -73,6 +73,6 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
    >
    >Geef het projectpad op ten opzichte van het kanaal.
 
-   **Frequentie van het Programma** specificeer een tijd, bijvoorbeeld, 5:00 P.M. of 17:00 waarbij deze dienst off-line inhoud zou moeten bijwerken.
+   **Frequentie van het Programma** - specificeert een tijd, bijvoorbeeld, 5:00 P.M. of 17:00 waarbij deze dienst off-line inhoud zou moeten bijwerken.
 
 1. Klik **sparen** om uw montages te bewaren. Uw inhoud wordt op het opgegeven tijdstip bijgewerkt.

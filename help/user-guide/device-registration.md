@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ De volgende pagina beschrijft het proces van de apparatenregistratie in een proj
 Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers:
 
 * Het daadwerkelijke apparaat dat moet worden geregistreerd, bijvoorbeeld uw signaalweergave
-* De AEM server waarmee het apparaat wordt geregistreerd
+* De AEM-server waarmee het apparaat wordt geregistreerd
 
 >[!NOTE]
 >
->Nadat u de recentste Speler van Vensters (*.exe*), van de [ AEM 6.4 pagina van de Downloads van de Speler ](https://download.macromedia.com/screens/) downloadt, volg de stappen op de speler om de ad hoc installatie te voltooien:
+>Nadat u de recentste Speler van Vensters (*.exe*) downloadt, van [ AEM 6.4 de Downloads van de Speler ](https://download.macromedia.com/screens/) pagina, volg de stappen op de speler om de ad hoc installatie te voltooien:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
->1. Navigeer aan **Configuratie** van het linkeractiemenu en ga het plaatsadres van de AEM instantie in **Server** in en klik **sparen**.
+>1. Navigeer aan **Configuratie** van het linkeractiemenu en ga het plaatsadres van de instantie van AEM in **Server** in en klik **sparen**.
 >1. Klik de **verbinding van de Registratie** van het linkeractiemenu en de stappen hieronder om het proces van de apparatenregistratie te voltooien.
 >
 
@@ -47,7 +47,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    >[!NOTE]
    >
-   >Om meer informatie te krijgen bij het creëren van een project voor Screens in het AEM dashboard, zie [ tot stand brengen en het Project van Screens beheren ](creating-a-screens-project.md).
+   >Om meer informatie te krijgen bij het creëren van een project voor Screens in het dashboard van AEM, zie [ tot stand brengen en het Project van Screens beheren ](creating-a-screens-project.md).
 
 1. Klik de **knoop van de Manager van het Apparaat** in de actiebar.
 
@@ -61,7 +61,7 @@ Het registratieproces van het apparaat wordt uitgevoerd op twee aparte computers
 
    ![ screen_shot_2018-11-26at105112am ](assets/screen_shot_2018-11-26at105112am.png)
 
-1. Wacht AEM tot het apparaat de registratiecode heeft verzonden.
+1. Wacht in AEM tot het apparaat de registratiecode heeft verzonden.
 
    ![ screen_shot_2018-11-26at105150am ](assets/screen_shot_2018-11-26at105150am.png)
 

@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -45,13 +45,13 @@ De functie SmartSync biedt verschillende voordelen voor uw AEM Screens-project, 
 
 >[!NOTE]
 >
->Adobe raadt u ten zeerste aan om SmartSync te gebruiken voor AEM Screens-projecten.
+>Adobe raadt u aan SmartSync te gebruiken voor AEM Screens-projecten.
 
 ## Migreren van ContentSync naar SmartSync {#migrating-from-contentsync-to-smartsync}
 
 >[!NOTE]
 >
->Als u al AEM 6.3 Feature Pack 5 en AEM 6.4 Feature Pack 3 hebt geïnstalleerd, kunt u SmartSync voor middelen inschakelen om het gebruik van schijfruimte te verbeteren. Als u SmartSync wilt inschakelen, volgt u de onderstaande sectie voor de overgang van ContentSync naar SmartSync en schakelt u SmartSync dus in.
+>Als u AEM 6.3 Feature Pack 5 en AEM 6.4 Feature Pack 3 al hebt geïnstalleerd, kunt u SmartSync voor middelen inschakelen om het gebruik van schijfruimte te verbeteren. Als u SmartSync wilt inschakelen, volgt u de onderstaande sectie voor de overgang van ContentSync naar SmartSync en schakelt u SmartSync dus in.
 >
 >SmartSync is beschikbaar voor Screens Player met ondersteunde servers AEM 6.4.3 FP3.
 >
@@ -75,7 +75,7 @@ Voer de onderstaande stappen uit om van ContentSync over te schakelen op SmartSy
    >
    >Alle inhoudcache moet worden gewist voordat u SmartSync voor het eerst kunt gebruiken.
 
-1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** als AEM instantie > hamerpictogram > **Verrichtingen** > **Console van het Web**.
+1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** als instantie van AEM > hamerpictogram > **Verrichtingen** > **Console van het Web**.
 
    ![ screen_shot_2019-02-11at15339pm ](assets/screen_shot_2019-02-11at15339pm.png)
 

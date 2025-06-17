@@ -1,6 +1,6 @@
 ---
 title: Planningen maken en beheren
-description: Leer over Planningen die u kanalen in herbruikbare groepen laten organiseren zodat u hun taak niet individueel hoeft te herhalen.
+description: Leer over programma's die u kanalen in herbruikbare groepen laten organiseren zodat u niet hun taak individueel moet herhalen.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -24,7 +24,7 @@ De programma&#39;s, wanneer gecombineerd met ***DayParting***, laten u een globa
 
 >[!NOTE]
 >
->Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.3 Sites Feature Pack 1 hebt geïnstalleerd. Neem contact op met de Adobe voor ondersteuning en vraag toegang tot dit functiepakket. Nadat u de vereiste toestemmingen hebt, kunt u het van het Aandeel van het Pakket downloaden.
+>Deze AEM Screens-functionaliteit is alleen beschikbaar als u AEM 6.3 Sites Feature Pack 1 hebt geïnstalleerd. Neem contact op met Adobe Support en vraag om toegang tot dit functiepakket. Nadat u de vereiste toestemmingen hebt, kunt u het van het Aandeel van het Pakket downloaden.
 
 ## Een schema maken {#creating-a-schedule}
 
@@ -58,8 +58,8 @@ Voer de onderstaande stappen uit om het dashboard voor het schema weer te geven.
 
    ![ chlimage_1-1 ](assets/chlimage_1-1.png)
 
-   **Klik Eigenschappen van het Comité van de Informatie van het 0&rbrace; Programma van de bovenkant-juiste hoek van het paneel van de INFORMATIE van het SCHEMA aan mening/veranderingseigenschappen van het programma.**
+   **het Comité van de Informatie van het Programma** - klik Eigenschappen van de hoger-juiste hoek van het paneel van de INFORMATIE van het SCHEMA aan mening/veranderingseigenschappen van het programma.
 
-   **Toegewezen het Comité van Kanalen** klikt +wijst Kanaal van de hoogste juiste hoek van het Toegewezen Comité van KANALEN toe om de de dialoogdoos van de Toewijzing van het Kanaal te openen.
+   **Toegewezen het Comité van Kanalen** - klik +Wijs Kanaal van de hoogste juiste hoek van het Toegewezen Comité van KANALEN toe om de de dialoogdoos van de Toewijzing van het Kanaal te openen.
 
-   **Toegewezen Comité van Vertoningen** klik om het even welke vertoningen van het TOEGEWEZEN Comité van TONINGEN om het vertoningsdashboard te openen.
+   **Toegewezen Comité van Vertoningen** - klik om het even welke vertoningen van het TOEGEWEZEN Comité van TONINGEN om het vertoningsdashboard te openen.

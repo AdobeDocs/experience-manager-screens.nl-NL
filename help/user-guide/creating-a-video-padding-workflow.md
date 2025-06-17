@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ De video wordt weergegeven als een object van pixel 1 tot pixel 1280, van pixel 
 
 Voordat u een workflow voor video maakt, moet u aan de volgende voorwaarden voldoen:
 
-1. Upload een video in de **Assets** omslag in uw AEM instantie
+1. Upload een video in de **Assets** omslag in uw instantie van AEM
 1. Creeer een project van AEM Screens (bijvoorbeeld, **TestVideoRendition**) en een genoemd kanaal (**VideoRendering**), zoals aangetoond in het hieronder cijfer:
 
 ![ screen_shot_2018-10-17at85307pm ](assets/screen_shot_2018-10-17at85307pm.png)
@@ -57,7 +57,7 @@ Voer de onderstaande stappen uit om de workflow te maken en te gebruiken:
 
 Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 
-1. Navigeer naar de AEM.
+1. Navigeer naar uw AEM-exemplaar.
 1. Klik op de gereedschappen van de zijspoor.
 1. Klik **Werkschema** > **Modellen** zodat kunt u een model creëren.
 
@@ -80,7 +80,7 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
    ![ screen_shot_2018-10-17at95752pm ](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Klik de **Argumenten** tabel.
-1. In de **Lijn van het Bevel - de Eigenschappen van de Stap** dialoogdoos, ga het formaat in de **Types van Mime** (als ***video/mp4***) en het bevel als (**/usr/local/Kellar/ffmpeg - i $ {filename} - vf &quot;pad=1920:height=1080:y 0:color=black&quot; cq5dam.video.fullhd-hp.mp4***). Dit bevel begint het werkschema op het **gebied van Bevelen**.
+1. In de **Lijn van het Bevel - de dialoogdoos van de Eigenschappen van de Stap**, ga het formaat in de **Types van MIME** (als ***video/mp4***) en het bevel als (*** `/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4` ***) in. Dit bevel begint het werkschema op het **gebied van Bevelen**.
 
    Zie de details op **Types van MIME** en **Bevelen** in de nota hieronder.
 

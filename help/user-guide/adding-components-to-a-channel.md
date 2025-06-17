@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Componenten zijn de basiselementen van de AEM (Adobe Experience Manager)-ervarin
 
 ## Componenten in AEM Screens {#components-in-aem-screens}
 
-AEM Screens biedt verschillende AEM componenten die in een Screens-project kunnen worden gebruikt.
+AEM Screens biedt verschillende AEM-componenten die in een Screens-project kunnen worden gebruikt.
 
 ### AEM Screens-componenten weergeven {#viewing-aem-screens-components}
 
@@ -41,14 +41,14 @@ Voer de volgende stappen uit om de standaardcomponenten voor uw Screens-project 
 
 ### Een nieuwe component toevoegen {#adding-a-new-component}
 
-AEM biedt diverse andere componenten. U kunt altijd andere componenten (die niet standaard zijn opgenomen) aan uw project toevoegen, omdat deze componenten compatibel zijn met AEM Screens.
+AEM biedt verschillende andere componenten. U kunt altijd andere componenten (die niet standaard zijn opgenomen) aan uw project toevoegen, omdat deze componenten compatibel zijn met AEM Screens.
 
 In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een AEM Screens-project getoond:
 
 1. Klik op het kanaal waaraan u een component wilt toevoegen. Bijvoorbeeld, **`We.Retail In Store`** > **Kanalen** > **Niet-actief Kanaal**.
 
 1. Klik **uitgeven** van de actiebar.
-1. Klik **wijze van het Ontwerp 0&rbrace; &lbrace;.**
+1. Klik **wijze van het Ontwerp 0} {.**
 1. Klik de volledige ontwerpredacteur op het recht en klik het montagessymbool zodat kunt u het **Parsys de dialoogvakje van het Ontwerp** openen.
 1. U kunt op de componenten klikken die u in uw AEM Screens-project wilt importeren. Het volgende voorbeeld toont de toevoeging van de **Livefyre** component aan een project van AEM Screens.
 
@@ -58,7 +58,7 @@ In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een
 >
 >Op dezelfde manier kunt u om het even welk aantal andere nieuwe componenten toevoegen die met AEM Screens aan uw project compatibel zijn.
 
-## Schermcomponenten AEM {#understanding-aem-screen-components}
+## AEM-schermcomponenten begrijpen {#understanding-aem-screen-components}
 
 In de volgende sectie worden de AEM Screens-componenten uitgelegd die u in uw project kunt gebruiken.
 
@@ -193,7 +193,7 @@ De dynamische ingesloten reeks heeft de volgende eigenschappen:
 
 ### Ervaar fragment {#experience-fragment}
 
-Met een ervaringsfragment kunt u een Experience-fragment (een groep van een of meer componenten, waaronder inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM Screens-kanaal. Sleep de component naar AEM Editor en klik op Fragment van ervaring.
+Met een ervaringsfragment kunt u een Experience-fragment (een groep van een of meer componenten, waaronder inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM Screens-kanaal. Sleep de component naar de AEM Editor en klik op het fragment Ervaring.
 
 Meer over leren hoe te om een Fragment van de Ervaring tot stand te brengen en het op een project van AEM Screens toe te passen, zie [ Gebruikend de Fragmenten van de Ervaring ](experience-fragments-in-screens.md).
 
@@ -210,7 +210,7 @@ Meer over leren hoe te om een Fragment van de Ervaring tot stand te brengen en h
 
 >[!NOTE]
 >
->De **cliënt-zijBibliotheken** en **Statische Dossiers** die u van deze component toevoegt zijn naast reeds gevormde **cliënt-zijBibliotheken** en de Statische Dossiers die van de 6&rbrace; Eigenschappen van het Fragment van de Ervaring **worden toegevoegd.**
+>De **cliënt-zijBibliotheken** en **Statische Dossiers** die u van deze component toevoegt zijn naast reeds gevormde **cliënt-zijBibliotheken** en de Statische Dossiers die van de 6} Eigenschappen van het Fragment van de Ervaring **worden toegevoegd.**
 
 ### Afbeelding {#image}
 
@@ -289,7 +289,7 @@ De overgangscomponent heeft de volgende eigenschappen:
   </tr>
   <tr>
    <td><strong><em>Actief van</em></strong></td>
-   <td>Tijdstempel dat aangeeft vanaf wanneer de overgang actief kan zijn.<br /> </td>
+   <td>Tijdstempel dat beschrijft wanneer de overgang actief kan zijn.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Actief tot</em></strong></td>

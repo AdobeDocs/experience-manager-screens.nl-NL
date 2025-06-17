@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Vanwege de architectuur van Android™ vereist het opnieuw opstarten van het app
 
 ### Android™ ondertekenen `apks` met behulp van fabriekssleutels {#signage-of-android-apks-using-manufacturer-keys}
 
-Om tot enkele bevoorrechte APIs van Android™ zoals *PowerManager* of *HDMIControlServices* toegang te hebben, teken Android™ `apk` gebruikend de sleutels van de fabrikant.
+Om tot enkele bevoorrechte APIs van Android™, zoals *PowerManager* of *HDMIControlServices* toegang te hebben, teken Android™ `apk` gebruikend de sleutels van de fabrikant.
 
 >[!CAUTION]
 >
@@ -143,7 +143,7 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 | *rebootSchedule* | Het programma voor opnieuw opstarten is van toepassing op alle platforms. |
 | *enableAdminUI* | Schakel de interface van Admin in om het apparaat op de site te configureren. Reeks aan *vals* zodra het volledig en in productie wordt gevormd. |
 | *enableOSD* | Schakel de interface van de kanaalschakelaar voor gebruikers in om naar een ander kanaal op het apparaat te gaan. Overweeg het plaatsen van het aan *vals* nadat het volledig en in productie wordt gevormd. |
-| *enableActivityUI* | Schakel deze optie in als u de voortgang wilt weergeven van activiteiten zoals downloaden en synchroniseren. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
+| *enableActivityUI* | Schakel deze optie in als u de voortgang van activiteiten, zoals downloaden en synchroniseren, wilt weergeven. Laat voor het oplossen van problemen toe en maak onbruikbaar zodra het volledig en in productie wordt gevormd. |
 | *enableNativeVideo* | Schakel deze optie in als u native hardwareversnelling wilt gebruiken voor het afspelen van video (alleen Android™). |
 
 ### Voorbeeld JSON-beleid {#example-json}

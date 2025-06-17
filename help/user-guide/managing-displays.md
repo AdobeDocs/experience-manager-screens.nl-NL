@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Een apparaat config dienst als placeholder voor een echt digitaal signaalapparaa
 1. Klik uw vertoningsomslag en klik **Dashboard van de Mening** in de actiebar.
 1. Klik **+ voeg de Configuratie van het Apparaat** op het hoogste recht van het **paneel van Apparaten** toe.
 
-1. Klik **Config van het Apparaat** als vereist malplaatje zoals en klik **daarna**.
+1. Klik **Config van het Apparaat** als vereist malplaatje en klik **daarna**.
 
 1. Ga de eigenschappen zoals vereist in en klik **creëren**.
 
@@ -111,7 +111,7 @@ Klik **Eigenschappen** zodat kunt u de eigenschappen van uw vertoning bekijken o
 
 Ook, kunt u de waarde van de gebeurtenistijdopnemer voor uw interactief kanaal onder de **Vertoning** tabel aanpassen. De standaardwaarde wordt geplaatst aan *300 seconden*.
 
-Gebruik **CRXDE Lite**, om tot het **idleTimeout** bezit toegang te hebben, namelijk `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
+Het gebruik **CRXDE Lite**, om tot het **idleTimeout** bezit toegang te hebben, namelijk `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Deelvenster Toegewezen kanalen {#assigned-channels-panel}
@@ -121,9 +121,9 @@ Het **TOEGEWEZEN paneel van KANALEN** toont de toegewezen kanalen aan dit appara
 
 ### Deelvenster Apparaten {#devices-panel}
 
-Het **Comité van 1&rbrace; APPARATEN** verstrekt informatie over de apparatenconfiguraties.
+Het **Comité van 1} APPARATEN** verstrekt informatie over de apparatenconfiguraties.
 
-Klik (**..**) in de hoger-juiste hoek in het **3&rbrace; paneel van APPARATEN &lbrace;zodat kunt u apparatenconfiguraties toevoegen en apparaten bijwerken.**
+Klik (**..**) in de hoger-juiste hoek in het **3} paneel van APPARATEN {zodat kunt u apparatenconfiguraties toevoegen en apparaten bijwerken.**
 
 Klik ook op de apparaatconfiguratie om eigenschappen weer te geven, een apparaat toe te wijzen of het volledig te verwijderen.
 

@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 9 uitgebracht.
 
-U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.9 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP9**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.9 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **AEM 6.5 Screens FP9** wordt genoemd.
 
 ## Releasedatum {#release-date}
 
@@ -31,13 +31,13 @@ De releasedatum voor AEM Screens Feature Pack 202109 is 23 september 2021.
 
 * **Steun van de Duimnagel voor Video&#39;s**
 
-  Ondersteuning voor miniaturen voor video&#39;s die nu worden ondersteund in AEM Screens. Een Content Author definieert een miniatuur voor video&#39;s, zodat de afbeelding als plaatsaanduiding wordt gebruikt. Ook wordt het afspelen en activeren van inhoud op de juiste wijze getest, terwijl het juiste team de werkelijke video voltooit. De afbeelding kan ook worden gebruikt als het afspelen van de video mislukt.
+  Ondersteuning voor miniaturen van video&#39;s wordt nu ondersteund in AEM Screens. Een Content Author definieert een miniatuur voor video&#39;s, zodat de afbeelding als plaatsaanduiding wordt gebruikt. Ook wordt het afspelen en activeren van inhoud op de juiste wijze getest, terwijl het juiste team de werkelijke video voltooit. De afbeelding kan ook worden gebruikt als het afspelen van de video mislukt.
 Zie [ Steun van de Duimnagel voor Video&#39;s ](/help/user-guide/thumbnail-support.md) voor meer details.
 
 * **Basis Controle van de Playback**
 
   AEM Screens ondersteunt nu elementaire afspeelcontrole. De speler rapporteert nu verschillende playbackmetriek met elk pingelt (gebrek aan 30 seconden). Op basis van de meetgegevens worden verschillende randgevallen gedetecteerd (geplakte ervaring, leeg scherm, planningsprobleem, enzovoort). Met deze functie kan het team op afstand controleren of een speler de inhoud correct afspeelt en de reactiviteit op lege schermen verbetert of de ervaringen in het veld verbroken zijn. Het vermindert ook het risico om een gebroken ervaring aan het eind - gebruiker te tonen.
-Zie [ Basis Controle van de Playback ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) voor meer details.
+Zie [ Basis Controle van de Playback ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) voor meer details.
 
 * **Updates aan het Rapport van de Toewijzing van de Inhoud**
 
@@ -58,7 +58,7 @@ Zie [ Rapport van de Toewijzing van de Inhoud ](/help/user-guide/content-assignm
 
    * Wis alle taken met offline inhoud die in behandeling zijn, zowel in de auteur als gepubliceerd.
 
-      * Navigeer naar CRXDE Lite in Auteur en Publish.
+      * Navigeer naar CRXDE Lite in Auteur en Publiceer.
 
       * Klik op Opties > Query.
 
@@ -77,8 +77,8 @@ Zie [ Rapport van de Toewijzing van de Inhoud ](/help/user-guide/content-assignm
    * Werk de aangepaste component bij.
 
 
-   * Zie [ het Vormen Dispatcher voor Duidelijke Versie v3 ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer details.
-   * Als u douanecomponenten als deel van v3 manifests gebruikt, zie [ Malplaatje voor de Handlers van de Douane ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Zie [ het Vormen Dispatcher voor Duidelijke Versie v3 ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer details.
+   * Als u douanecomponenten als deel van v3 manifests gebruikt, zie [ Malplaatje voor de Handlers van de Douane ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Opgeloste problemen {#bug-fixes}
@@ -152,7 +152,7 @@ Zie [ Rapport van de Toewijzing van de Inhoud ](/help/user-guide/content-assignm
 
 ### Uitgebrachte AEM Screens-spelers
 
-De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 9 van de Eigenschap:
+De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.5 Feature Pack 9:
 
 * ChromeOS
 * Windows

@@ -2,9 +2,9 @@
 title: Engesloten bedrijfsnetwerk
 description: Engesloten bedrijfsnetwerk
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ De Ingesloten Collectieve Opstelling van het Netwerk is toepasselijk op kleinere
 
 ## AEM Screens Player verbinden met Direct Internet Access
 
-Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM schermspelers in deze configuratie:
+Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM Screen-spelers in deze configuratie:
 
-1. Zorg ervoor dat elk van de AEM spelers van het Scherm met het Netwerk van Routers wordt verbonden.
+1. Zorg ervoor dat elk van de spelers van het Scherm van AEM met het Netwerk van Routers wordt verbonden.
 1. Test de verbinding van Internet door een URL in browser van uw systeem te roepen.
 
    >[!NOTE]
@@ -60,7 +60,7 @@ De prestaties van de verbinding van Internet, naast netwerkbereikbaarheid, moete
 
 De prestaties van het Netwerk van het Lokale Gebied (LAN), naast de netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsupdates van AEM Screens regelmatig in werking te stellen.
 
-Het LAN netwerk binnen collectieve organisaties is gewoonlijk minstens 1000 MBit/sec netwerk, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem aan te sluiten. Terwijl het gebruiken van andere actieve componenten van het Netwerk, is het verplicht dat al die aan de bandbreedtevereisten van het Netwerk aanpassen.
+Het LAN netwerk binnen collectieve organisaties is gewoonlijk minstens 1000 MBit/sec netwerk, zodat er voldoende bandbreedte is om vele apparaten met goede prestaties aan het systeem aan te sluiten. Terwijl het gebruiken van andere actieve componenten van het Netwerk, is het verplicht dat alle hen de bandbreedtevereisten van het Netwerk aanpassen.
 
 Bijvoorbeeld, zouden de componenten van het Netwerk minstens de norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de toegang van Internet/routerspecificatie wordt verstrekt.
 
@@ -69,7 +69,7 @@ Bijvoorbeeld, zouden de componenten van het Netwerk minstens de norm 100 Mbps mo
 De collectieve Netwerken hebben verscheidene aangesloten apparaten, zijn gescheiden in diverse subnetworks, en hebben overtollige of multiplexen verbindingen van Internet om voldoende prestaties voor vele duizenden gezamenlijke toegang te verstrekken.
 Dit schema is vereenvoudigd en past in de meeste gevallen bij de omgevingen die beschikbaar zijn voor de client.
 
-Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Internet Link, wordt u aangeraden ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals `IEEE 802.11g` . Deze standaard steunt verbindingen tot 54 Mbps. Om het even welk *nieuwere* Normen als `802.11h-n` zijn van betere kwaliteit. Als een Wi-Fi Repeater vereist is, raadt de Adobe aan om technologieën als Google Nest Mesh Wi-Fi of een vergelijkbaar toegangspunt voor Mesh te gebruiken.
+Als een Wi-Fi-oplossing wordt overwogen om AEM Screens te verbinden met de Internet Link, wordt u aangeraden ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals `IEEE 802.11g` . Deze standaard steunt verbindingen tot 54 Mbps. Om het even welk *nieuwere* Normen als `802.11h-n` zijn van betere kwaliteit. Als een Wi-Fi Repeater vereist is, raadt Adobe aan om technologieën als Google Nest Mesh Wi-Fi of een vergelijkbaar toegangspunt voor Mesh te gebruiken.
 Andere Wi-Fi herhalende technologieën leiden tot een enorm verlies van bandbreedte in het hele netwerk.
 
 ## Media en Assets downloaden {#download}

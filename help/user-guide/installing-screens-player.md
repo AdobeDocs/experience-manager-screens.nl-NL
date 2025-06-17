@@ -6,9 +6,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Om **Speler van AEM Screens** te downloaden, bezoek [ AEM 6.5 de Downloads van d
 >Nadat u de recentste Speler (*.exe*) downloadt, volg de stappen op de speler zodat kunt u de ad hoc installatie voltooien:
 >
 >1. Druk op de linkerbovenhoek om het beheerpaneel te openen.
->1. Navigeer aan **Configuratie** van het linkeractiemenu en ga het plaatsadres van de AEM instantie in **Server** in en klik **sparen**.
+>1. Navigeer aan **Configuratie** van het linkeractiemenu en ga het plaatsadres van de instantie van AEM in **Server** in en klik **sparen**.
 >1. Klik de **verbinding van de Registratie** van het linkeractiemenu en de stappen hieronder om het proces van de apparatenregistratie te voltooien.
 
 ## Standaardafspeelcontrole {#playback-monitoring}
@@ -72,9 +72,9 @@ Hieronder volgt een aantal beperkingen voor elementaire afspeelcontrole:
 
 * De eigenschap `isContentRendering` die de GPU controleert, is veel bronintensiever om standaard te kunnen worden ingeschakeld en vereist expliciete opt-in bij de voorkeuren voor spelers. Adobe raadt u aan deze functie niet te gebruiken met video&#39;s in productie.
 
-* Deze functie wordt alleen ondersteund voor reekskanalen en heeft nog geen betrekking op het gebruik van interactieve kanalen (SPA).
+* Deze eigenschap wordt slechts gesteund voor opeenvolgingskanalen en behandelt nog niet de interactieve kanalen (SPA) gebruiksgeval.
 
-* De metriek worden nog niet volledig blootgesteld aan klanten, maar de Adobe werkt aan het toelaten van dashboard-als rapporterings en alarmeringsmechanismen spoedig.
+* De cijfers zijn nog niet volledig beschikbaar voor klanten, maar Adobe werkt aan het mogelijk maken van dashboardachtige rapportage- en waarschuwingsmechanismen.
 
 ### Overige bronnen {#additional-resources}
 

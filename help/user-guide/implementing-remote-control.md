@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # De afstandsbediening van Screens gebruiken {#implementing-remote-control}
 
-Met de functie voor besturing op afstand hebt u gemakkelijker toegang tot de beheerinterface, de kanaalswitch of andere functies, zoals Cache wissen en opnieuw laden. Ook, voorziet het u van een methode om de lokale ingebouwde programmatuurversie en systeeminformatie over de speler te zien. Deze mogelijkheid is vooral handig omdat het lastig kan zijn om een muis aan te sluiten. Of bewerk op productieapparaten die buiten bereik zijn en nog meer als de speler de verbinding met AEM heeft verbroken. Het is ook handig wanneer u Samsung RMS gebruikt, omdat het vanwege het verschil in resolutie moeilijk kan zijn om de interface van de beheerder met de muis te vinden en te openen.
+Met de functie voor besturing op afstand hebt u gemakkelijker toegang tot de interface van Admin, de kanaalswitch of andere functies, zoals Cache wissen en opnieuw laden. Ook, voorziet het u van een methode om de lokale ingebouwde programmatuurversie en systeeminformatie over de speler te zien. Deze mogelijkheid is vooral handig omdat het lastig kan zijn om een muis aan te sluiten. U kunt ook werken op apparaten die buiten het bereik van de fabrikant vallen, en nog veel meer als de speler de verbinding met AEM heeft verbroken. Het is ook handig wanneer u Samsung RMS gebruikt, omdat het vanwege het verschil in resolutie moeilijk kan zijn om de interface van de beheerder met de muis te vinden en te openen.
 
 ## Algemene combinaties van afstandsbedieningen {#using-common-remote-control}
 

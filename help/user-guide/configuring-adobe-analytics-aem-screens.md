@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>vereist</td> 
    <td>string</td> 
    <td> </td> 
-   <td>De belangrijkste Categorie (BUREAUBLAD, MOBIEL, WEB, PROCES, SDK, DIENST, ECOSYSTEEM) - Groepering van gebeurtenistypen - <strong> Verzonden Speler van de Speler </strong></td> 
+   <td>De belangrijkste Categorie (BUREAUBLAD, MOBIEL, WEB, PROCES, SDK, DIENST, ECOSYSTEEM) - Groepering van gebeurtenistypen - <strong> Verzonden Speler </strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -198,7 +198,7 @@ De volgende tabel geeft een overzicht van het standaardgegevensmodel voor gebeur
    <td>vereist voor AA</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Adobe Analytics-ondersteuning voor aangepaste paginanaam</td> 
+   <td>Ondersteuning voor aangepaste paginanaam in Adobe Analytics</td> 
   </tr>
   <tr>
    <td> </td> 

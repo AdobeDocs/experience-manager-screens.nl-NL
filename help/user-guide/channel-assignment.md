@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 # Kanaaltoewijzing {#channel-assignment}
 
 >[!IMPORTANT]
->Deze sectie benadrukt de Toewijzing van het Kanaal en het plannen van kanalen voor de pakken van de Eigenschap ouder dan AEM versie 6.5.5 Screens.
+>In deze sectie worden de Kanaaltoewijzing en de planning van kanalen voor kenmerkpakketten die ouder zijn dan AEM 6.5.5 Screens-versie gemarkeerd.
 
 Wanneer u een weergave hebt ingesteld, wijst u een kanaal toe aan een weergave om de inhoud weer te geven.
 
@@ -36,7 +36,7 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    of
 
-   Klik **Dashboard** en klik **+ wijs Kanaal** van het **TOEGEWEZEN paneel van KANALEN** toe zodat kunt u het **7&rbrace; de dialoogvakje van de Toewijzing van het Kanaal openen.**
+   Klik **Dashboard** en klik **+ wijs Kanaal** van het **TOEGEWEZEN paneel van KANALEN** toe zodat kunt u het **7} de dialoogvakje van de Toewijzing van het Kanaal openen.**
 
    ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
@@ -61,7 +61,7 @@ De rol van het kanaal bepaalt de context van de vertoning. De rol is gericht op 
 Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. De waarde met de hoogste waarde heeft altijd voorrang op lagere waarden. Bijvoorbeeld, als er twee kanalen A en B zijn. A heeft een prioriteit van 1 en B heeft een prioriteit van 2, dan wordt kanaal B getoond, aangezien het een hogere prioriteit dan A heeft.
 
 >[!NOTE]
->De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1&rbrace;, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
+>De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1}, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
 ### Ondersteunde gebeurtenissen {#supported-events-channel}
 
@@ -74,7 +74,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 >[!IMPORTANT]
 >
-> Deze optie is alleen beschikbaar bij <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4.
+> Deze optie is slechts beschikbaar met <!--AEM 6.4 Feature Pack 8 or --> AEM 6.5 Pak van de Eigenschap 4.
 
 Geef als Inhoudsauteur op wanneer een kanaal wordt onderbroken. Als u dit doet, kunt u niet-kritieke inhoud desgewenst uitschakelen, maar belangrijke inhoud desgewenst eerst afspelen voordat de inhoud wordt afgespeeld vanwege planning.
 
@@ -102,7 +102,7 @@ Toon aantrekkingstooltip bepaalt als de aantrekkingstooltip (&quot;*Aanraak over
 
 De programma&#39;s, wanneer gecombineerd met **DayParting**, laten u een globaal programma met veelvoudige kanalen plaatsen die op specifieke tijden van de dag lopen, en hergebruiken die opstelling voor al uw vertoningen in één keer.
 
-DayParting verwijst naar als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. Met AEM Screens kunt u kanalen plannen in termen van DayPparting binnen een dag, week of maand volgens de vereiste.
+DayParting wordt bedoeld als het opsplitsen van een dag in tijdgroeven en het specificeren van welke inhoud op de gewenste tijd speelt. Met AEM Screens kunt u kanalen plannen in termen van DayPparting binnen een dag, week of maand volgens de vereiste.
 
 In de volgende voorbeelden wordt het parseren van dagen in kanalen in drie verschillende scenario&#39;s uitgelegd:
 
@@ -174,5 +174,5 @@ Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het 
 >
 > Zie de volgende secties voor meer informatie over DayParting:
 >
->* [ Behandelend Herhaling in Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [ Behandelende Herhaling voor Assets in een Kanaal ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [ Behandelend Herhaling in Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [ Behandelende Herhaling voor Assets in een Kanaal ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

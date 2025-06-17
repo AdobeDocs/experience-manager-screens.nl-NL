@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 
    ![ chlimage_1-33 ](assets/chlimage_1-33.png)
 
-1. Klik een niet toegewezen apparaat van de lijst, en klik **toewijzen Apparaat** in de actiebar.
+1. Klik een niet toegewezen apparaat van de lijst, dan in de actiebar, klik **toewijzen Apparaat**.
 
    ![ chlimage_1-34 ](assets/chlimage_1-34.png)
 
@@ -55,15 +55,15 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 
    ![ chlimage_1-37 ](assets/chlimage_1-37.png)
 
-   Klik (**...**) op de hoogste-juiste hoek van het **3&rbrace; paneel van APPARATEN &lbrace;om of apparaat toe te voegen config of de apparaten bij te werken.**
+   Klik (**...**) op de hoogste-juiste hoek van het **3} paneel van APPARATEN {om of apparaat toe te voegen config of de apparaten bij te werken.**
 
    ![ chlimage_1-38 ](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
 >Telkens wanneer het eerste apparaat aan een nieuw Screens-project wordt toegevoegd, wordt een gebruikersgroep gemaakt.
->Bijvoorbeeld, als de naam van de projectknoop *wij-kleinhandel* is, dan is de naam van de gebruikersgroep *schermen-wij-retail-apparaten*.
->Deze groep wordt toegevoegd als lid van de **Groep van Medewerkers**, zoals aangetoond in het hieronder cijfer:
+>>Bijvoorbeeld, als de naam van de projectknoop *wij-kleinhandel* is, dan is de naam van de gebruikersgroep *schermen-wij-retail-apparaten*.
+>>Deze groep wordt toegevoegd als lid van de **Groep van Medewerkers**, zoals aangetoond in het hieronder cijfer:
 
 ![ chlimage_1-39 ](assets/chlimage_1-39.png)
 

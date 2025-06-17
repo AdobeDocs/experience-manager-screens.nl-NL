@@ -4,9 +4,10 @@ description: Meer informatie over het AEM Screens Feature Pack 20250327 dat op 2
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 320925ccf25872be6b70b1249bebdd63ad062ec6
+exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -14,8 +15,8 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 20250327 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de recentste versieinformatie van [ hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/release-notes) krijgen.
->Adobe raadt u aan FP11.6 te gebruiken met SP(servicepack) >= 21.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de recentste versieinformatie van [ hier ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) krijgen.
+>>Adobe raadt u aan FP11.6 te gebruiken met SP(servicepack) >= 21.
 
 ## Beschikbaarheid {#availability}
 

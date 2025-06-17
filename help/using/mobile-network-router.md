@@ -2,21 +2,21 @@
 title: Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk
 description: De pagina beschrijft Mobiel Netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
 # Mobiel netwerk met de Mobiele Router van Gegevens en de Actieve Componenten van het Netwerk {#mobile-network-setup}
 
-AEM Screens Players van de Adobe kan ook worden aangesloten gebruikend mobiele of cellulaire netwerken die minstens een 3G netwerk in werking stellen.
+Adobe AEM Screens Players kan ook worden aangesloten gebruikend mobiele of cellulaire netwerken die minstens een 3G netwerk in werking stellen.
 
 In AEM Screens wordt de vereiste inhoud fysiek gedownload naar de spelercontroller of -computer en correct opgeslagen in het onderliggende besturingssysteem. Daarom heeft de opgegeven bandbreedte alleen invloed op de eerste downloadtijden en de updates van de inhoud en niet op de prestaties van het regelmatig afspelen van beeldschermen.
 
 Het voordeel van deze opstelling is dat de mobiele router in een geoptimaliseerde plaats kan worden geplaatst om de beste beschikbare netwerkdekking te verzekeren. Deze vlek bevindt zich gewoonlijk in een verhoogde en open positie, met zo weinig mogelijk omringende beton- of metaalconstructies.
-Deze instelling biedt AEM schermgebruikers de flexibiliteit omdat er geen vaste lijn nodig is om verbinding te maken met AEM Screens. Het is ook interessant voor letterlijke of mobiele instellingen.
+Deze instelling biedt AEM Screen-gebruikers de flexibiliteit omdat er geen vaste lijn nodig is om verbinding te maken met AEM Screens. Het is ook interessant voor letterlijke of mobiele instellingen.
 
 Het volgende diagram toont het Mobiele Netwerk met de Mobiele Router van Gegevens en de Actieve configuratie van de Componenten van het Netwerk. Het bevat een toegang van Internet van om het even welke controlemechanismen van AEM Screens door directe toegang van Internet gebruikend een eigen 3/4/5G Verbinding van Gegevens.
 
@@ -24,11 +24,11 @@ Het volgende diagram toont het Mobiele Netwerk met de Mobiele Router van Gegeven
 
 ## AEM Screens Player verbinden met mobiel netwerk met mobiele gegevensrouter en actieve netwerkcomponenten {#connecting-aem-screens-players}
 
-Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM schermspelers in deze configuratie:
+Voer de onderstaande stappen uit om te zorgen voor een juiste verbinding tussen de AEM Screen-spelers in deze configuratie:
 
 De configuratie wijst een toegang van Internet voor elke Controlemechanisme van AEM Screens door directe toegang van Internet toe gebruikend een specifieke 3/4/5G Verbinding van Gegevens.
 
-1. Zorg ervoor dat de Mobiele Router van Gegevens behoorlijk met het Netwerk van Gegevens Cellular zoals die binnen het Werkende Systeem wordt vermeld wordt verbonden. En, zorg ervoor dat elk van de AEM spelers van het Scherm met het Netwerk van Routers wordt verbonden.
+1. Zorg ervoor dat de Mobiele Router van Gegevens behoorlijk met het Netwerk van Gegevens Cellular zoals die binnen het Werkende Systeem wordt vermeld wordt verbonden. En, zorg ervoor dat elk van de spelers van het Scherm van AEM met het Netwerk van Routers wordt verbonden.
 1. Test de verbinding van Internet door een URL in Browser van uw systeem te roepen.
 
    >[!NOTE]
@@ -69,7 +69,7 @@ In de volgende tabel worden de gegevensnetwerken gemarkeerd met hun standaardban
 | 4G | 150 Mbps |
 | 5 G | 1000 - 10000 Mbps |
 
-Terwijl het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt, adviseert de Adobe dat u de volgende vragen beantwoordt:
+Bij het overwegen van welk Gegevensnetwerk zou moeten worden gebruikt, adviseert Adobe dat u de volgende vragen beantwoordt:
 
 * Hoeveel cliënten worden verbonden met de Router?
 * Hoeveel inhoudswijzigingen worden verwacht en wat zijn die gemiddelde bestandsgrootten?
@@ -87,11 +87,11 @@ Terwijl het overwegen van welk Netwerk van Gegevens zou moeten worden gebruikt, 
 
 ### Netwerk voor lokale gebieden {#lan-connection}
 
-De prestaties van LAN, naast reeds beschreven netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsdownloads van AEM Screens regelmatig in werking te stellen. In deze dagen, past het LAN netwerk gewoonlijk minstens een netwerk 100-Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Terwijl het gebruiken van andere Actieve Componenten van het Netwerk, is het verplicht dat alle die aan de vereisten van de netwerkbandbreedte aanpassen.
+De prestaties van LAN, naast reeds beschreven netwerkbereikbaarheid, moeten voldoende bandbreedte verstrekken om de inhoudsdownloads van AEM Screens regelmatig in werking te stellen. In deze dagen, past het LAN netwerk gewoonlijk minstens een netwerk 100-Mbps aan, zodat er voldoende bandbreedte zou moeten zijn om vele apparaten met goede prestaties aan het systeem te verbinden. Terwijl het gebruiken van andere Actieve Componenten van het Netwerk, is het verplicht dat alle hen de vereisten van de netwerkbandbreedte aanpassen.
 
 Bijvoorbeeld, zouden de Componenten van het Netwerk minstens de norm 100 Mbps moeten aanpassen en de bandbreedte aanpassen die door de de Toegang/specificatie van de Router van Internet wordt verstrekt.
 
-Als een Wi-Fi-oplossing wordt overwogen om een scherm te verbinden met de Internet Link, is het raadzaam ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals IEEE `802.11g` . Deze standaard steunt verbindingen tot 54 Mbps. Om het even welk *nieuwere* Normen als `802.11h-n` zijn van betere kwaliteit. Als een Wi-Fi Repeater vereist is, raadt de Adobe aan om Wi-Fi Access-punttechnologieën zoals Google Nest Mesh Wi-Fi of vergelijkbare technologieën te gebruiken.
+Als een Wi-Fi-oplossing wordt overwogen om een scherm te verbinden met de Internet Link, is het raadzaam ten minste gebruik te maken van moderne Wi-Fi-standaarden, zoals IEEE `802.11g` . Deze standaard steunt verbindingen tot 54 Mbps. Om het even welk *nieuwere* Normen als `802.11h-n` zijn van betere kwaliteit. Als een Wi-Fi Repeater vereist is, raadt Adobe aan om Wi-Fi Access-punttechnologieën zoals Google Nest Mesh Wi-Fi of vergelijkbare technologieën te gebruiken.
 
 ## Media en Assets downloaden {#download}
 

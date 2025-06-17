@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,7 @@ Ook, klik **Montages** van de top-juiste hoek om apparatenvoorkeur bij te werken
 
 >[!NOTE]
 >U kunt op een van de volgende logniveaus klikken:
+>
 >* **onbruikbaar maken**
 >* **zuivert**
 >* **Info**
@@ -126,7 +127,7 @@ Ook, klik **Montages** van de top-juiste hoek om apparatenvoorkeur bij te werken
 
 Schakel de lege referentie in zodat het apparaat gegevens naar de server kan posten. Als de lege referentie-eigenschap bijvoorbeeld is uitgeschakeld, kan het apparaat geen schermafbeelding terugplaatsen.
 
-Momenteel zijn sommige van deze eigenschappen slechts beschikbaar als de *Apache Verschuivende Filter Lege* wordt toegelaten in de configuratie OSGi. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
+Sommige van deze functies zijn momenteel alleen beschikbaar als de *`Apache Sling Referrer Filter Allow Empty`* is ingeschakeld in de OSGi-configuratie. Op het dashboard kan een waarschuwing worden weergegeven dat bepaalde functies mogelijk niet kunnen worden gebruikt door beveiligingsinstellingen.
 
 Voer de onderstaande stappen uit om het filter Leeg toestaan van Apache-verwijzing in te schakelen
 
@@ -136,7 +137,7 @@ Voer de onderstaande stappen uit om het filter Leeg toestaan van Apache-verwijzi
 
 ![ chlimage_1-3 ](assets/chlimage_1-3.png)
 
-### Recommendations {#recommendations}
+### Aanbevelingen {#recommendations}
 
 In de volgende sectie wordt aanbevolen de netwerkkoppelingen, servers en spelers te controleren om de status te begrijpen en op problemen te reageren.
 
@@ -147,7 +148,7 @@ AEM biedt ingebouwde bewaking voor:
 * De *versie van de Ingebouwde programmatuur van de Speler van AEM Screens* is geïnstalleerd op de Speler.
 * *Vrije opslagruimte* op de Speler.
 
-Recommendations voor externe controle met software van derden:
+Aanbevelingen voor externe controle met software van derden:
 
 * CPU-gebruik in afspeelapparatuur.
 * Controleer of het AEM Screens Player-proces wordt uitgevoerd.
