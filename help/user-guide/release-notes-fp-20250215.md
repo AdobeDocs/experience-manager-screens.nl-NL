@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+source-git-commit: 6cdf350fa4e45b816d50b64252b8ed6d5e0904d0
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 20250327 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de recentste versieinformatie van [ hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/release-notes) krijgen.
->&#x200B;>Adobe raadt u aan FP11.6 te gebruiken met SP(servicepack) >= 21.
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). U kunt de recentste versieinformatie van [ hier ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) krijgen.
+>>Adobe raadt u aan FP11.6 te gebruiken met SP(servicepack) >= 21.
 
 ## Beschikbaarheid {#availability}
 
@@ -43,3 +43,5 @@ De releasedatum voor AEM Screens Feature Pack 20250327 is 27 maart 2025.
 * Pakketconflict met Service Pack 21 en Screens Feature Pack. (SCRNS-4638)
 
 * Screens-dashboard werkt niet. (SCRNS-4749)
+
+* XSS-probleem op /libs/screens/dcc/components/dashboard/clientlibs/device-clear-cache.js (SCRNS-4761)
