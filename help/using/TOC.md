@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Aanbevolen procedures voor AEM Screens-projecten
+user-guide-title: Best practices voor AEM Screens-projecten
 breadcrumb-title: Handleiding AEM Screens met best practices
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
@@ -13,12 +13,12 @@ role: User
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
 
-# Aanbevolen procedures voor AEM Screens-projecten {#using}
+# Best practices voor AEM Screens-projecten {#using}
 
 + [Informatie over deze handleiding](about-guide.md)
 + Overzicht {#overview}
