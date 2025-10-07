@@ -8,9 +8,9 @@ user-guide-description: Leer hoe u een Digital Signage-oplossing kunt gebruiken 
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
+source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '556'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 5%
 + [Inleiding tot Screens](aem-screens-introduction.md)
 + Overzicht en Kickstart Guide {#overview}
    + [Kickstart Guide](kickstart-for-aem-screens.md)
-   + [ Gids van de Beste praktijken van Screens van 0](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/using/about-guide)
+   + [ Gids van de Beste praktijken van Screens van 0}](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Belangrijkste voorwaarden](screens-glossary.md)
    + [Screens Terminology and Concepts](screens-concepts-feature-video-understand.md)
 + Basisprincipes van digitale-signaalnetwerken {#digital-signage-network}
@@ -42,7 +42,7 @@ ht-degree: 5%
    + [Nieuwe importmodule voor project uit bestand](project-importer.md)
    + [Gegevenstriggers repliceren naar publicatieservers](replicating-data-triggers.md)
    + [Replication Agents configureren op Screens](configure-screens-replication.md)
-   + Overwegingen die specifiek zijn voor de client {#installing-client}
+   + Clientspecifieke overwegingen {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Chrome Player gebruiken als extensie voor probleemoplossing](using-chrome-player-as-an-extension.md)
       + [Android](implementing-android-player.md)
@@ -51,13 +51,13 @@ ht-degree: 5%
       + [Cloud Player](implementing-cloud-player.md)
       + [Automatische registratie van spelers](auto-registration-players.md)
       + [De afstandsbediening gebruiken](implementing-remote-control.md)
-   + Publiceren auteur {#author-publish}
+   + Auteur publiceren {#author-publish}
       + [Author-Publish Architecture-overzicht](author-publish-architecture-overview.md)
       + [Auteur en publicatie configureren](author-and-publish.md)
-   + Integratie van analysemogelijkheden met AEM Screens {#analytics-integration}
+   + Analyseintegratie met AEM Screens {#analytics-integration}
       + [Adobe Analytics-integratie](adobe-analytics-integration-aem-screens.md)
       + [Adobe Analytics configureren met AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Voorbeelden van ontwerpen en gebruiken {#authoring}
++ Voorbeelden van ontwerpen en gebruik {#authoring}
    + Een Screens-project instellen {#setting-up-projects}
       + [Projecten maken en beheren](creating-a-screens-project.md)
       + [Kanalen maken en beheren](managing-channels.md)
@@ -94,7 +94,7 @@ ht-degree: 5%
       + [Update voor on-demand inhoud](on-demand-content.md)
       + [Inhoud als service-update](content-update-as-a-service.md)
       + [Inhoud bijwerken met Screens Launch](launches.md)
-   + Voorbeelden van hoofdletters en kleine letters gebruiken {#use-case-examples}
+   + Voorbeelden van hoofdletters gebruiken {#use-case-examples}
       + [Noodkanalen](emergency-channel.md)
       + [Temperatuuractivering in het midden van de reis](local-temperature-activation.md)
       + [Activering van ziekenhuisreservering](hospitality-reservation-activation.md)
@@ -103,7 +103,7 @@ ht-degree: 5%
       + [Overgangen van meerdere zones naar één zone](multizone-to-singlezone.md)
       + [Single-Use TakeOver Channel](single-use-takeover-channel.md)
       + [Perpetual Use of TakeOver Channel](perpetual-takeover-channel.md)
-+ Bronnen voor ontwikkelaars en API {#developing}
++ Developer and API Resources {#developing}
    + [REST API&#39;s](rest-api.md)
    + [Een aangepaste component voor AEM Screens ontwikkelen](developing-custom-component-tutorial-develop.md)
    + [Offlinekanalen](offline-channels.md)
@@ -118,7 +118,8 @@ ht-degree: 5%
    + [Veelgestelde vragen over AEM Screens](aem-screens-faqs.md)
    + [Problemen oplossen in Device Control Center](monitoring-screens.md)
    + [Configuratie videoweergave](troubleshoot-videos.md)
-+ Opmerkingen bij de release {#release-notes}
++ Release-opmerkingen {#release-notes}
+   + [Opmerkingen bij de release voor Feature Pack 20251007](release-notes-fp-20251007.md)
    + [Opmerkingen bij de release voor Feature Pack 20250327](release-notes-fp-20250327.md)
    + [Opmerkingen bij de release voor Feature Pack 20250224](release-notes-fp-20250224.md)
    + [Opmerkingen bij de release voor Feature Pack 20240715](release-notes-fp-20240715.md)
