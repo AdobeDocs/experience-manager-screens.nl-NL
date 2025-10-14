@@ -25,7 +25,7 @@ In deze sectie wordt beschreven hoe u de Windows Player in AEM Screens configure
 
 Installeer Windows Player voor AEM Screens om Windows Player voor AEM Screens te implementeren.
 
-Bezoek [**AEM 6.5 de Downloads van de Speler** ](https://download.macromedia.com/screens/) pagina.
+Bezoek [**AEM 6.5 de Downloads van de Speler** &#x200B;](https://download.macromedia.com/screens/) pagina.
 
 >[!NOTE]
 >Windows Player bevat geen venstermodus. De modus is altijd volledig scherm.
@@ -52,7 +52,7 @@ Configuratie** met `http://localhost:4502/system/console/configMgr` .
 
 ### Ad hoc-methode {#ad-hoc-method}
 
-De ad hoc methode laat u de recentste Speler van Vensters installeren (*.exe*). Bezoek [**AEM 6.5 de Downloads van de Speler** ](https://download.macromedia.com/screens/) pagina.
+De ad hoc methode laat u de recentste Speler van Vensters installeren (*.exe*). Bezoek [**AEM 6.5 de Downloads van de Speler** &#x200B;](https://download.macromedia.com/screens/) pagina.
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
@@ -160,11 +160,11 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 1. Enable Shell Launcher.
 
-   Zie ***de Lanceerinrichting van Shell*** in **[Lanceerinrichting van Shell ](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)** pagina door Microsoft® de steun van Vensters voor extra informatie vormen.
+   Zie ***de Lanceerinrichting van Shell*** in **[Lanceerinrichting van Shell &#x200B;](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)** pagina door Microsoft® de steun van Vensters voor extra informatie vormen.
 
 1. Maak een niet-administratieve gebruiker (als u er al een hebt) die u voor Kiosk wilt gebruiken. Het kan een lokale of domeingebruiker zijn.
-1. Installeer de Speler van Vensters voor die gebruiker van Kiosk van de [ downloadt van de Speler van AEM Screens ](https://download.macromedia.com/screens/) pagina.
-1. Zie [ Lanceerinrichting van Shell van het Gebruik om Vensters 10 kiosk ](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune) tot stand te brengen om uw manuscript PowerShell voor meer informatie te wijzigen.
+1. Installeer de Speler van Vensters voor die gebruiker van Kiosk van de [&#x200B; downloadt van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/) pagina.
+1. Zie [&#x200B; Lanceerinrichting van Shell van het Gebruik om Vensters 10 kiosk &#x200B;](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune) tot stand te brengen om uw manuscript PowerShell voor meer informatie te wijzigen.
 
    Wijzig het manuscript PowerShell zodat kunt u de gebruikersbenaming met vervangen u creeerde. Zorg ervoor dat het pad naar het uitvoerbare bestand van de toepassing juist is. Dit plaatst douane shell als toepassing van de Speler van Vensters voor de gebruiker van kiosk en plaatst het gebrek als explorer.exe voor andere gebruikers.
 
@@ -199,4 +199,4 @@ $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 
 ### De afstandsbediening van Screens gebruiken {#using-remote-control}
 
-AEM Screens biedt functionaliteit voor afstandsbediening. Leer meer over deze eigenschap hier: [ de Verre Controle van Screens ](implementing-remote-control.md)
+AEM Screens biedt functionaliteit voor afstandsbediening. Leer meer over deze eigenschap hier: [&#x200B; de Verre Controle van Screens &#x200B;](implementing-remote-control.md)

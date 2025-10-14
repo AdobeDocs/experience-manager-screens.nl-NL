@@ -22,7 +22,7 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 3 uitgebracht.
 
-U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.3 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP3**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.3 Versie van het [&#x200B; Portaal van de Distributie van de Software &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP3**.
 
 ## Releasedatum {#release-date}
 
@@ -33,18 +33,18 @@ De releasedatum voor AEM Screens Feature Pack 202001 is 31 januari 2020.
 * **Synchronisatie van het Bevel voor de Playback van Activa**
 
 Met Command Sync kunt u het afspelen tussen verschillende spelers synchroniseren. De spelers kunnen verschillende inhoud afspelen, maar elk element moet dezelfde duur hebben.
-Meer over de Synchronisatie van het Bevel leren en hoe te om primaire en cliënten te plaatsen, zie [ Gebruikend de Synchronisatie van het Bevel ](using-command-sync.md).
+Meer over de Synchronisatie van het Bevel leren en hoe te om primaire en cliënten te plaatsen, zie [&#x200B; Gebruikend de Synchronisatie van het Bevel &#x200B;](using-command-sync.md).
 
 * **Kader van de Controle van de Gezondheid om het statuut van https te tonen en lege verwijzer toe te staan**
 
 Met het Health Check Framework kan de gebruiker controleren of twee benodigde configuraties (Allow Empty Referrer Requests en Apache Felix Jetty Based HTTP Service) zijn ingesteld voordat een AEM Screens-project wordt uitgevoerd.
 
-Meer over het Kader van de Controle van de Gezondheid leren, zie [ Kader van de Controle van de Gezondheid ](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+Meer over het Kader van de Controle van de Gezondheid leren, zie [&#x200B; Kader van de Controle van de Gezondheid &#x200B;](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Updates aan de Types van Overgang Standaard**
 De eigenschappen van de overgangscomponent zoals **Type** wordt nu geplaatst aan **langzaam verdwijnen** en de **Duur** als **1600 milliseconden**, door gebrek.
 
-  Zie [ Toepassend Overgangen ](/help/user-guide/applying-transitions.md) gebruiksgeval voor meer details.
+  Zie [&#x200B; Toepassend Overgangen &#x200B;](/help/user-guide/applying-transitions.md) gebruiksgeval voor meer details.
 
 
 ### Uitgebrachte AEM Screens-spelers
@@ -57,4 +57,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.4 Pak van de Eigen
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [**Downloads van de Speler van AEM Screens** ](https://download.macromedia.com/screens/).
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [**Downloads van de Speler van AEM Screens** &#x200B;](https://download.macromedia.com/screens/).

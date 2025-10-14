@@ -21,7 +21,7 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 9 uitgebracht.
 
-U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.9 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **AEM 6.5 Screens FP9** wordt genoemd.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.9 Versie van het [&#x200B; Portaal van de Distributie van de Software &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **AEM 6.5 Screens FP9** wordt genoemd.
 
 ## Releasedatum {#release-date}
 
@@ -32,25 +32,25 @@ De releasedatum voor AEM Screens Feature Pack 202109 is 23 september 2021.
 * **Steun van de Duimnagel voor Video&#39;s**
 
   Ondersteuning voor miniaturen van video&#39;s wordt nu ondersteund in AEM Screens. Een Content Author definieert een miniatuur voor video&#39;s, zodat de afbeelding als plaatsaanduiding wordt gebruikt. Ook wordt het afspelen en activeren van inhoud op de juiste wijze getest, terwijl het juiste team de werkelijke video voltooit. De afbeelding kan ook worden gebruikt als het afspelen van de video mislukt.
-Zie [ Steun van de Duimnagel voor Video&#39;s ](/help/user-guide/thumbnail-support.md) voor meer details.
+Zie [&#x200B; Steun van de Duimnagel voor Video&#39;s &#x200B;](/help/user-guide/thumbnail-support.md) voor meer details.
 
 * **Basis Controle van de Playback**
 
   AEM Screens ondersteunt nu elementaire afspeelcontrole. De speler rapporteert nu verschillende playbackmetriek met elk pingelt (gebrek aan 30 seconden). Op basis van de meetgegevens worden verschillende randgevallen gedetecteerd (geplakte ervaring, leeg scherm, planningsprobleem, enzovoort). Met deze functie kan het team op afstand controleren of een speler de inhoud correct afspeelt en de reactiviteit op lege schermen verbetert of de ervaringen in het veld verbroken zijn. Het vermindert ook het risico om een gebroken ervaring aan het eind - gebruiker te tonen.
-Zie [ Basis Controle van de Playback ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) voor meer details.
+Zie [&#x200B; Basis Controle van de Playback &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) voor meer details.
 
 * **Updates aan het Rapport van de Toewijzing van de Inhoud**
 
   Rapport voor toewijzing van inhoud is nu geoptimaliseerd en verbeterd dankzij een verbeterde gebruikerservaring. Het downloadbare rapport geeft verbeterde entiteiten met betrekking tot spelers weer. Dergelijke entiteiten omvatten plaatsen, vertoningen, en apparaten in één spreadsheetlusje. Het omvat ook de informatie van de inhoudsleverancier zoals kanalen en activa in andere tabel.
-Zie [ Rapport van de Toewijzing van de Inhoud ](/help/user-guide/content-assignment-report.md) voor meer details.
+Zie [&#x200B; Rapport van de Toewijzing van de Inhoud &#x200B;](/help/user-guide/content-assignment-report.md) voor meer details.
 
 * **Aangepaste Vertoningen**
 
   Met adaptieve uitvoeringen kan het apparaat automatisch op de beste uitvoering voor een apparaat klikken op basis van door de klant gedefinieerde regels.
 
-  Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Zie [ Aangepaste Vertoningen: Het Overzicht van de Architectuur en Configuraties ](/help/user-guide/adaptive-renditions.md) voor meer details.
+  Als AEM Screens Developer kunt u nu apparaatspecifieke elementuitvoeringen configureren die automatisch moeten worden gedownload en afgespeeld zonder dat u handmatig alle inhoudvariaties hoeft te maken. Zie [&#x200B; Aangepaste Vertoningen: Het Overzicht van de Architectuur en Configuraties &#x200B;](/help/user-guide/adaptive-renditions.md) voor meer details.
 
-  Bovendien kunt u als AEM Screens Content Author uw middelen configureren voor het gebruik van Adaptieve uitvoeringen. U kunt uw apparaten ook migreren voor grote netwerken om deze functie in uw AEM Screens-kanalen te gebruiken. Zie [ Gebruikend Aangepaste Vertoningen in AEM Screens ](/help/user-guide/using-adaptive-renditions.md) voor meer details.
+  Bovendien kunt u als AEM Screens Content Author uw middelen configureren voor het gebruik van Adaptieve uitvoeringen. U kunt uw apparaten ook migreren voor grote netwerken om deze functie in uw AEM Screens-kanalen te gebruiken. Zie [&#x200B; Gebruikend Aangepaste Vertoningen in AEM Screens &#x200B;](/help/user-guide/using-adaptive-renditions.md) voor meer details.
 
 * **Steun voor V3 Manifests**
 
@@ -77,8 +77,8 @@ Zie [ Rapport van de Toewijzing van de Inhoud ](/help/user-guide/content-assignm
    * Werk de aangepaste component bij.
 
 
-   * Zie [ het Vormen Dispatcher voor Duidelijke Versie v3 ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer details.
-   * Als u douanecomponenten als deel van v3 manifests gebruikt, zie [ Malplaatje voor de Handlers van de Douane ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+   * Zie [&#x200B; het Vormen Dispatcher voor Duidelijke Versie v3 &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) voor meer details.
+   * Als u douanecomponenten als deel van v3 manifests gebruikt, zie [&#x200B; Malplaatje voor de Handlers van de Douane &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
 ### Opgeloste problemen {#bug-fixes}
@@ -162,4 +162,4 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.5 Feature Pack 9:
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/index.html)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/index.html)**.

@@ -30,13 +30,13 @@ De releasedatum voor AEM Screens Feature Pack 2019 is 7 oktober 2019.
 
   Er is nu een bijgewerkte gebruikersinterface beschikbaar voor het maken van een AEM Screens-project. U kunt een Screens-project maken met een paar eenvoudige klikken. Bovendien heeft het tabblad Eigenschappen voor elk project nu een intuïtievere gebruikersinterface.
 
-  Zie [ Creërend een Nieuw project van Screens ](creating-a-screens-project.md) voor meer details.
+  Zie [&#x200B; Creërend een Nieuw project van Screens &#x200B;](creating-a-screens-project.md) voor meer details.
 
 * **Verbeterd dashboard van het Apparaat**
 
   Het dashboard van het apparaat toont de apparateninformatie, de status, de screenshots, logboeken, voorkeur, en de apparatendetails die u de apparatenactiviteiten en de functies laten controleren. De deelvensters worden nu bijgewerkt.
 
-  Zie [ Centrum van de Controle van het Apparaat van het Oplossen van problemen ](monitoring-screens.md) voor meer details.
+  Zie [&#x200B; Centrum van de Controle van het Apparaat van het Oplossen van problemen &#x200B;](monitoring-screens.md) voor meer details.
 
 * **Toegelaten tijd uit om toetsenbordinteractie toe te staan**
 
@@ -45,7 +45,7 @@ De releasedatum voor AEM Screens Feature Pack 2019 is 7 oktober 2019.
 * **Offline Configuraties in de Fragmenten van de Ervaring**
 
   U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen terwijl u Screens Experience Fragment configureert.
-Zie [ Gebruikend de Fragmenten van de Ervaring ](experience-fragments-in-screens.md) voor meer details.
+Zie [&#x200B; Gebruikend de Fragmenten van de Ervaring &#x200B;](experience-fragments-in-screens.md) voor meer details.
 
 ### Uitgebrachte AEM Screens-spelers
 
@@ -57,4 +57,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.4.6 Pak van de Eig
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [**Downloads van de Speler van AEM Screens** ](https://download.macromedia.com/screens/).
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [**Downloads van de Speler van AEM Screens** &#x200B;](https://download.macromedia.com/screens/).

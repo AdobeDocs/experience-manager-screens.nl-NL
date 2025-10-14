@@ -28,15 +28,15 @@ Voer de onderstaande stappen uit om inhoud te updaten van auteur tot uitgever na
 1. Ga naar uw AEM Screens-project.
 1. Klik **leiden Publicatie** van de actiebar zodat kunt u het project aan uw publiceren instantie.
 
-   ![ screen_shot_2019-02-25at21420pm ](assets/screen_shot_2019-02-25at21420pm.png)
+   ![&#x200B; screen_shot_2019-02-25at21420pm &#x200B;](assets/screen_shot_2019-02-25at21420pm.png)
 
 1. De **beheert 1&rbrace; Tovenaar van de Publicatie &lbrace;opent.** U kunt de **Actie** klikken en ook de het publiceren tijd voor nu of later plannen. Klik op **Next**.
 
-   ![ screen_shot_2019-02-07at120304pm ](assets/screen_shot_2019-02-07at120304pm.png)
+   ![&#x200B; screen_shot_2019-02-07at120304pm &#x200B;](assets/screen_shot_2019-02-07at120304pm.png)
 
 1. Controleer de doos zodat kunt u het volledige project van de **`Manage Publication`** tovenaar klikken.
 
-   ![ screen_shot_2019-02-25at22712pm ](assets/screen_shot_2019-02-25at22712pm.png)
+   ![&#x200B; screen_shot_2019-02-25at22712pm &#x200B;](assets/screen_shot_2019-02-25at22712pm.png)
 
 1. Klik **+ omvat Kinderen** van de actiebar en uncheck alle opties zodat kunt u alle modules in uw project publiceren en **klikken voegt** toe om te publiceren.
 
@@ -44,7 +44,7 @@ Voer de onderstaande stappen uit om inhoud te updaten van auteur tot uitgever na
    >
    >Door gebrek, worden alle vakjes gecontroleerd en u moet de vakjes manueel uncheck om alle modules in uw project te publiceren.
 
-   ![ screen_shot_2019-02-25at23116pm ](assets/screen_shot_2019-02-25at23116pm.png)
+   ![&#x200B; screen_shot_2019-02-25at23116pm &#x200B;](assets/screen_shot_2019-02-25at23116pm.png)
 
    **Begrijp omvat de dialoogdoos van Kinderen**
 
@@ -64,7 +64,7 @@ Met deze optie kunt u alleen updates beheren voor de pagina&#39;s die eerder zij
 
 1. Van **`Manage Publication wizard`**, klik **publiceren**.
 
-   ![ screen_shot_2019-02-25at23341pm ](assets/screen_shot_2019-02-25at23341pm.png)
+   ![&#x200B; screen_shot_2019-02-25at23341pm &#x200B;](assets/screen_shot_2019-02-25at23341pm.png)
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ Met deze optie kunt u alleen updates beheren voor de pagina&#39;s die eerder zij
 
 1. Navigeer aan het project en klik **Offline Inhoud van de Update** van de actiebar. Deze handeling stuurt dezelfde opdracht door naar de instantie publish, zodat de offline ritten ook voor uw instantie Publish worden gemaakt.
 
-   ![ screen_shot_2019-02-25at23451pm ](assets/screen_shot_2019-02-25at23451pm.png)
+   ![&#x200B; screen_shot_2019-02-25at23451pm &#x200B;](assets/screen_shot_2019-02-25at23451pm.png)
 
 
    >[!NOTE]
@@ -101,15 +101,15 @@ Voer de onderstaande stappen uit om inhoudsupdates te leveren van Auteur > Publi
 1. Navigeer naar uw AEM Screens-project en klik op het kanaal.
 1. Klik **leiden Publicatie** van de actiebar zodat kunt u het kanaal aan uw publiceren instantie.
 
-   ![ screen_shot_2019-02-07at115800am ](assets/screen_shot_2019-02-07at115800am.png)
+   ![&#x200B; screen_shot_2019-02-07at115800am &#x200B;](assets/screen_shot_2019-02-07at115800am.png)
 
 1. De **beheert 1&rbrace; Tovenaar van de Publicatie &lbrace;opent.** U kunt de **Actie** klikken en ook de het publiceren tijd voor nu of later plannen. Klik op **Next**.
 
-   ![ screen_shot_2019-02-07at120304pm ](assets/screen_shot_2019-02-07at120304pm.png)
+   ![&#x200B; screen_shot_2019-02-07at120304pm &#x200B;](assets/screen_shot_2019-02-07at120304pm.png)
 
 1. Klik **publiceren** van de **`Manage Publication`** tovenaar.
 
-   ![ screen_shot_2019-02-07at120507pm ](assets/screen_shot_2019-02-07at120507pm.png)
+   ![&#x200B; screen_shot_2019-02-07at120507pm &#x200B;](assets/screen_shot_2019-02-07at120507pm.png)
 
    >[!NOTE]
    >
@@ -117,7 +117,7 @@ Voer de onderstaande stappen uit om inhoudsupdates te leveren van Auteur > Publi
 
 1. Het teweegbrengen **Offline Inhoud van de Update** in het kanaaldashboard duwt slechts de off-line inhoud aan de instantie van de Auteur maar niet de het Publiceren instantie. De stappen 1-4 zijn voor het duwen van off-line inhoud aan Publish instantie.
 
-   ![ screen_shot_2019-02-07at21608pm ](assets/screen_shot_2019-02-07at21608pm.png)
+   ![&#x200B; screen_shot_2019-02-07at21608pm &#x200B;](assets/screen_shot_2019-02-07at21608pm.png)
 
    >[!CAUTION]
    >

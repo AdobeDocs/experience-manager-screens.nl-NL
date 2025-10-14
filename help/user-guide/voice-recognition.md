@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >Wanneer het gebruiken van de eigenschap van de stemerkenning, volg alle toepasselijke wettelijke en ethische richtlijnen voor uw regio. Deze richtlijnen omvatten, maar niet beperkt tot, het verstrekken van een zichtbare kennisgeving aan eindgebruikers dat de speler stemerkenning gebruikt). De Adobe ontvangt, slaat, of verwerkt geen van de op stem betrekking hebbende informatie op. De AEM Screens-spelers gebruiken de standaard API voor webspraak die in de bladerengine is ingebouwd. Achter de schermen verzendt deze API een golfvorm van uw toespraak naar Google-servers voor conversie van spraak naar tekst. De speler past de tekst aan gevormde sleutelwoorden aan.
 >
->Zie [ Witboek van de Privacy van Google op de toespraak API van het Web ](https://www.google.com/chrome/privacy/whitepaper.html#speech) voor meer details.
+>Zie [&#x200B; Witboek van de Privacy van Google op de toespraak API van het Web &#x200B;](https://www.google.com/chrome/privacy/whitepaper.html#speech) voor meer details.
 
 
 De eigenschap van de stemerkenning staat inhoudsverandering in een kanaal van AEM Screens toe dat door steminteractie wordt gedreven.
@@ -49,7 +49,7 @@ Alvorens u een eigenschap van de stemerkenning gebruikt, zorg ervoor u een proje
 
    >[!NOTE]
    >
-   >Leren hoe te om een kanaal tot stand te brengen of inhoud aan een kanaal toe te voegen, zie [ Creërend en het Leiden Kanalen ](/help/user-guide/managing-channels.md)
+   >Leren hoe te om een kanaal tot stand te brengen of inhoud aan een kanaal toe te voegen, zie [&#x200B; Creërend en het Leiden Kanalen &#x200B;](/help/user-guide/managing-channels.md)
 
    Of,
 
@@ -97,7 +97,7 @@ Voer de onderstaande stappen uit om codes aan uw kanaal toe te voegen:
 
    Of,
 
-   U kunt ook van tevoren tags maken voor uw AEM en deze selecteren. Nadat u de stappen volgt die in [ worden verklaard Creërend Markeringen ](#creating-tags), kunt u de markering van de plaats klikken en het toevoegen aan uw kanaal, zoals aangetoond in het hieronder cijfer:
+   U kunt ook van tevoren tags maken voor uw AEM en deze selecteren. Nadat u de stappen volgt die in [&#x200B; worden verklaard Creërend Markeringen &#x200B;](#creating-tags), kunt u de markering van de plaats klikken en het toevoegen aan uw kanaal, zoals aangetoond in het hieronder cijfer:
 
    ![afbeelding](assets/voice-recognition/vr-tag1.png)
 
@@ -139,7 +139,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
    ![afbeelding](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
-   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie [ Creërend en het Leiden Vertoningen ](/help/user-guide/managing-displays.md).
+   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie [&#x200B; Creërend en het Leiden Vertoningen &#x200B;](/help/user-guide/managing-displays.md).
 
 1. Wijs de kanalen **Hoofd**, **ColdDrinks**, en **HotDrinks** aan uw **LobbyDisplay** toe. Ook, als u het **SplitScreen** kanaal voor uw project gebruikt, zorg ervoor u dat aan de vertoning toewijst.
 
@@ -157,7 +157,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
 
    >[!NOTE]
    >
-   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie [ Creërend en het Leiden Vertoningen ](/help/user-guide/managing-displays.md).
+   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie [&#x200B; Creërend en het Leiden Vertoningen &#x200B;](/help/user-guide/managing-displays.md).
 
 1. Nadat u kanalen aan een vertoning hebt toegewezen, navigeer aan **LobbyDisplay** en klik de vertoning. Klik **Eigenschappen** van de actiebar.
 
@@ -173,7 +173,7 @@ U kunt deze labels nu gebruiken in uw AEM Screens-project.
 Wanneer de voorgaande stappen zijn voltooid, kunt u het Chrome-apparaat registreren om de uitvoer weer te geven.
 
 >[!NOTE]
->Zie [ Registratie van het Apparaat ](device-registration.md).
+>Zie [&#x200B; Registratie van het Apparaat &#x200B;](device-registration.md).
 
 **Gewenste Output voor Kanaal van de Opeenvolging**
 

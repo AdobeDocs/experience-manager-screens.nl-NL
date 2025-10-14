@@ -37,7 +37,7 @@ Voer de volgende stappen uit om de standaardcomponenten voor uw Screens-project 
 1. Klik in de AEM Editor op het pictogram **+** op de zijbalk.
 1. Alle componenten die door gebrek in een het projectvertoningen van AEM Screens inbegrepen zijn, zoals aangetoond in het hieronder cijfer.
 
-![ screen_shot_2017-12-18at21350pm ](assets/screen_shot_2017-12-18at21350pm.png)
+![&#x200B; screen_shot_2017-12-18at21350pm &#x200B;](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Een nieuwe component toevoegen {#adding-a-new-component}
 
@@ -52,7 +52,7 @@ In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een
 1. Klik de volledige ontwerpredacteur op het recht en klik het montagessymbool zodat kunt u het **Parsys de dialoogvakje van het Ontwerp** openen.
 1. U kunt op de componenten klikken die u in uw AEM Screens-project wilt importeren. Het volgende voorbeeld toont de toevoeging van de **Livefyre** component aan een project van AEM Screens.
 
-![ adding_components ](assets/adding_components.gif)
+![&#x200B; adding_components &#x200B;](assets/adding_components.gif)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ De toepassingscomponent heeft de volgende eigenschappen:
 
 In het volgende voorbeeld wordt getoond hoe u een toepassingscomponent insluit samen met de voorvertoning van de eigenschappen ervan:
 
-![ adding_componentsapplication ](assets/adding_componentsapplication.gif)
+![&#x200B; adding_componentsapplication &#x200B;](assets/adding_componentsapplication.gif)
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ De ingesloten pagina heeft de volgende eigenschappen:
 
 >[!NOTE]
 >
->Om in detail over ingebedde opeenvolgingen te leren, zie [ Ingesloten Reeksen ](embedded-sequences.md) onder de Authoring sectie van Screens.
+>Om in detail over ingebedde opeenvolgingen te leren, zie [&#x200B; Ingesloten Reeksen &#x200B;](embedded-sequences.md) onder de Authoring sectie van Screens.
 
 Met een ingesloten reeks kunt u een ingesloten volgnummer toevoegen aan het bestaande kanaal (met andere elementen).
 
@@ -166,7 +166,7 @@ De ingesloten reeks heeft de volgende pagina-eigenschappen:
 
 Met een dynamische ingesloten reeks kunt u een reeks toevoegen die vergelijkbaar is met de bovenstaande reeks, behalve met de rol van het kanaal.
 
-Meer over ingebedde opeenvolgingen leren, zie [ Ingesloten Reeksen ](embedded-sequences.md) onder de Authoring sectie van Screens.
+Meer over ingebedde opeenvolgingen leren, zie [&#x200B; Ingesloten Reeksen &#x200B;](embedded-sequences.md) onder de Authoring sectie van Screens.
 
 De dynamische ingesloten reeks heeft de volgende eigenschappen:
 
@@ -195,9 +195,9 @@ De dynamische ingesloten reeks heeft de volgende eigenschappen:
 
 Met een ervaringsfragment kunt u een Experience-fragment (een groep van een of meer componenten, waaronder inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM Screens-kanaal. Sleep de component naar de AEM Editor en klik op het fragment Ervaring.
 
-Meer over leren hoe te om een Fragment van de Ervaring tot stand te brengen en het op een project van AEM Screens toe te passen, zie [ Gebruikend de Fragmenten van de Ervaring ](experience-fragments-in-screens.md).
+Meer over leren hoe te om een Fragment van de Ervaring tot stand te brengen en het op een project van AEM Screens toe te passen, zie [&#x200B; Gebruikend de Fragmenten van de Ervaring &#x200B;](experience-fragments-in-screens.md).
 
-![ exp ](assets/exp.gif)
+![&#x200B; exp &#x200B;](assets/exp.gif)
 
 | **Bezit** | **Beschrijving** |
 |---|---|
@@ -237,7 +237,7 @@ Met de component Overgang kunt u een overgang toevoegen aan uw Screens-project.
 
 In de volgende afbeelding ziet u de overgangscomponent (die wordt toegevoegd door slepen en neerzetten) in de editor.
 
-![ screen_shot_2019-07-25at104237am ](assets/screen_shot_2019-07-25at104237am.png)
+![&#x200B; screen_shot_2019-07-25at104237am &#x200B;](assets/screen_shot_2019-07-25at104237am.png)
 
 Klik het overgangspictogram en klik **vormen** (moersleutelpictogram) om het **de dialoogvakje van de Overgang** te openen. Dit dialoogvenster bevat drie tabbladen:
 
@@ -249,7 +249,7 @@ Klik het overgangspictogram en klik **vormen** (moersleutelpictogram) om het **d
 >
 >Standaard wordt de reeks ingesteld op 600 milliseconden. U kunt de overgangsopeenvolging aan andere waarden bijwerken gebruikend de **Opeenvolging** tabel.
 
-![ overgang ](assets/transition.gif)
+![&#x200B; overgang &#x200B;](assets/transition.gif)
 
 De overgangscomponent heeft de volgende eigenschappen:
 

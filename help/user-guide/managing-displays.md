@@ -35,7 +35,7 @@ Op deze pagina ziet u hoe u weergaven voor Screens maakt en beheert.
 
 >[!NOTE]
 >
->Maak een locatie voordat u een weergave maakt. Zie [ Locaties ](managing-locations.md) voor meer informatie creëren en beheren.
+>Maak een locatie voordat u een weergave maakt. Zie [&#x200B; Locaties &#x200B;](managing-locations.md) voor meer informatie creëren en beheren.
 
 1. Ga naar de juiste locatie, bijvoorbeeld `http://localhost:4502/screens.html/content/screens/TestProject` .
 1. Klik uw plaatsomslag en klik **creëren** dat naast het plus pictogram in de actiebar is.
@@ -46,7 +46,7 @@ Op deze pagina ziet u hoe u weergaven voor Screens maakt en beheert.
 
 De vertoning (*StoreDisplay*) wordt gecreeerd en aan de plaats toegevoegd (*SanJose*).
 
-![ vertoning ](assets/display.gif)
+![&#x200B; vertoning &#x200B;](assets/display.gif)
 
 Wanneer u een vertoning in positie hebt, moet de volgende stap een apparaat tot stand brengen config voor die bepaalde vertoning.
 
@@ -56,7 +56,7 @@ Wanneer u een vertoning in positie hebt, moet de volgende stap een apparaat tot 
 >
 >Wanneer u een weergave voor uw locatie maakt, wijst u een kanaal toe aan uw weergave om de inhoud te gebruiken.
 >
->Zie [ toewijzen Kanalen ](channel-assignment.md) sectie leren hoe te om een kanaal aan de vertoning toe te wijzen.
+>Zie [&#x200B; toewijzen Kanalen &#x200B;](channel-assignment.md) sectie leren hoe te om een kanaal aan de vertoning toe te wijzen.
 
 ## Een nieuwe apparaatconfiguratie maken {#creating-a-new-device-config}
 
@@ -72,7 +72,7 @@ Een apparaat config dienst als placeholder voor een echt digitaal signaalapparaa
 
 Het apparaat config wordt gecreeerd en aan de huidige vertoning toegevoegd (in de volgende demonstratie, is het nieuwe apparaat config *DeviceConfig*).
 
-![ deviceconfig ](assets/deviceconfig.gif)
+![&#x200B; deviceconfig &#x200B;](assets/deviceconfig.gif)
 
 >[!NOTE]
 >
@@ -80,15 +80,15 @@ Het apparaat config wordt gecreeerd en aan de huidige vertoning toegevoegd (in d
 >
 >Zoals aangetoond in het hieronder cijfer, als het apparaat config als niet toegewezen in het **paneel van APPARATEN** wordt getoond, als geen kanaal aan dat bepaalde apparaat config wordt toegewezen.
 >
->U moet eerst weten hoe u kanalen maakt en beheert. Zie [ Kanalen ](managing-channels.md) voor meer details creëren en beheren.
+>U moet eerst weten hoe u kanalen maakt en beheert. Zie [&#x200B; Kanalen &#x200B;](managing-channels.md) voor meer details creëren en beheren.
 
-![ chlimage_1-9 ](assets/chlimage_1-9.png)
+![&#x200B; chlimage_1-9 &#x200B;](assets/chlimage_1-9.png)
 
 ## Het dashboard weergeven {#display-dashboard}
 
 Het weergavedashboard biedt u verschillende deelvensters voor het beheer van weergaveapparaten. Het laat u ook uw apparaat vormen.
 
-![ screen_shot_2018-08-23at42810pm ](assets/screen_shot_2018-08-23at42810pm.png)
+![&#x200B; screen_shot_2018-08-23at42810pm &#x200B;](assets/screen_shot_2018-08-23at42810pm.png)
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Het weergavedashboard biedt u verschillende deelvensters voor het beheer van wee
 >
 >In de volgende afbeelding ziet u bijvoorbeeld hoe u op meerdere kanalen van het weergavedashboard kunt klikken.
 
-![ cqdoc9456 ](assets/cqdoc9456.gif)
+![&#x200B; cqdoc9456 &#x200B;](assets/cqdoc9456.gif)
 
 ### Deelvenster Informatie weergeven {#display-information-panel}
 
@@ -127,10 +127,10 @@ Klik (**..**) in de hoger-juiste hoek in het **3&rbrace; paneel van APPARATEN &l
 
 Klik ook op de apparaatconfiguratie om eigenschappen weer te geven, een apparaat toe te wijzen of het volledig te verwijderen.
 
-![ chlimage_1-13 ](assets/chlimage_1-13.png)
+![&#x200B; chlimage_1-13 &#x200B;](assets/chlimage_1-13.png)
 
 #### De volgende stappen {#the-next-steps}
 
 Wanneer u klaar bent met het maken van een weergave voor uw locatie, wijst u een kanaal toe aan uw weergave.
 
-Zie [ Kanalen ](channel-assignment.md) toewijzen voor meer details.
+Zie [&#x200B; Kanalen &#x200B;](channel-assignment.md) toewijzen voor meer details.

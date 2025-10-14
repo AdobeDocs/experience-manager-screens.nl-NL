@@ -37,7 +37,7 @@ Voordat u de details van het maken en beheren van voorraadgestuurde kanalen in u
 
 Het volgende diagram verstrekt een visuele vertegenwoordiging van hoe de configuraties ContextHub met Activiteit, Publiek, en Kanalen samenvallen.
 
-![ screen_shot_2019-05-29at53729pm ](assets/screen_shot_2019-05-29at53729pm.png)
+![&#x200B; screen_shot_2019-05-29at53729pm &#x200B;](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## Voorwaarden {#preconditions}
 
@@ -47,7 +47,7 @@ Alvorens u begint configuraties te vormen ContextHub voor een project van AEM Sc
 >
 >Google Sheets wordt in het volgende voorbeeld gebruikt als een voorbeelddatabasesysteem van waaruit de waarden worden opgehaald en is alleen voor educatieve doeleinden. Adobe biedt geen ondersteuning voor het gebruik van Google Sheets voor productieomgevingen.
 >
->Voor meer informatie, zie [ API Sleutel ](https://developers.google.com/maps/documentation/javascript/get-api-key) in de documentatie van Google krijgen.
+>Voor meer informatie, zie [&#x200B; API Sleutel &#x200B;](https://developers.google.com/maps/documentation/javascript/get-api-key) in de documentatie van Google krijgen.
 
 ## Stap 1: Een Data Store instellen {#step-setting-up-a-data-store}
 

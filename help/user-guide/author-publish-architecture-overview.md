@@ -44,7 +44,7 @@ AEM Screens-architectuur lijkt op traditionele AEM Sites-architectuur. Inhoud wo
 
 Het volgende diagram illustreert zowel de auteursomgeving als het het publiceren milieu.
 
-![ screen_shot_2019-03-04at30236pm ](assets/screen_shot_2019-03-04at30236pm.png)
+![&#x200B; screen_shot_2019-03-04at30236pm &#x200B;](assets/screen_shot_2019-03-04at30236pm.png)
 
 ## Architecturaal ontwerp {#architectural-design}
 
@@ -63,7 +63,7 @@ De standaard replicatieagenten worden gebruikt om de inhoud van het AEM Screens-
 
 Het volgende diagram illustreert het replicatieproces:
 
-![ screen_shot_2019-03-04at33935pm ](assets/screen_shot_2019-03-04at33935pm.png)
+![&#x200B; screen_shot_2019-03-04at33935pm &#x200B;](assets/screen_shot_2019-03-04at33935pm.png)
 
 >[!NOTE]
 >
@@ -104,8 +104,8 @@ Registratie begint nog steeds bij de auteur-instantie van AEM. Het AEM Screens-a
 
 Nadat een apparaat is geregistreerd in de AEM-auteursomgeving, worden de apparaatconfiguratie en kanaal-/planningtoewijzingen gerepliceerd naar de AEM-publicatie-instanties. De configuratie van het Apparaat van AEM Screens wordt dan bijgewerkt om aan het taakverdelingsmechanisme vóór AEM te richten publiceert landbouwbedrijf. Deze opstelling is bedoeld om eenmalig te zijn. Nadat het Screens-apparaat is aangesloten op de publicatieomgeving, kan het opdrachten blijven ontvangen die afkomstig zijn van de auteursomgeving. U hoeft het AEM Screens-apparaat niet rechtstreeks aan te sluiten op de AEM-auteursomgeving.
 
-![ screen_shot_2019-02-25at15218pm ](assets/screen_shot_2019-02-25at15218pm.png)
+![&#x200B; screen_shot_2019-02-25at15218pm &#x200B;](assets/screen_shot_2019-02-25at15218pm.png)
 
 ### De volgende stappen {#the-next-steps}
 
-Wanneer u het architecturale ontwerp van auteur begrijpt en opstelling in AEM Screens publiceert, zie [ het Vormen Auteur en publiceert voor AEM Screens ](author-and-publish.md) voor meer details.
+Wanneer u het architecturale ontwerp van auteur begrijpt en opstelling in AEM Screens publiceert, zie [&#x200B; het Vormen Auteur en publiceert voor AEM Screens &#x200B;](author-and-publish.md) voor meer details.

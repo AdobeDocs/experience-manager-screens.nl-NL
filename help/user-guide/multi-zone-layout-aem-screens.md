@@ -40,8 +40,8 @@ Zoals bij de projectvereisten, soms hebt u veelvoudige streken in een kanaal nod
 
 Voordat u begint met het implementeren van deze functionaliteit, moet u de conceptuele kennis over:
 
-* [ Creërend een Project van AEM Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [ Creërend een Vertoning ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [&#x200B; Creërend een Project van AEM Screens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [&#x200B; Creërend een Vertoning &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Een kanaal toewijzen aan een weergave](/help/user-guide/channel-assignment.md)
 
 ## Lay-out met meerdere zones maken {#creating-multi-zone-layout}
@@ -84,7 +84,7 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
    1. Klik **Omslag van Kanalen** van **creëren** tovenaar en klik **daarna**.
    1. Ga de titel als **EmbeddedChannels** in en klik **creeer**.
 
-   ![ screen_shot_2018-12-19at125428pm ](assets/screen_shot_2018-12-19at125428pm.png)
+   ![&#x200B; screen_shot_2018-12-19at125428pm &#x200B;](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Toevoegend twee meer kanalen aan de Omslag van het Kanaal**
 
@@ -97,15 +97,15 @@ Als u wilt dat in de zones een reeks afbeeldingen en een video in de verschillen
 
    De volgende afbeelding toont de kanalen **`Zone1`** en **`Zone2`** :
 
-   ![ screen_shot_2018-12-19at125930pm ](assets/screen_shot_2018-12-19at125930pm.png)
+   ![&#x200B; screen_shot_2018-12-19at125930pm &#x200B;](assets/screen_shot_2018-12-19at125930pm.png)
 
    De afbeeldingen die worden toegevoegd aan de editor van het **`Zone1`** -sequentiekanaal, worden hieronder weergegeven:
 
-   ![ screen_shot_2018-12-19at125930pm ](/help/user-guide/assets/multi-zone/multizone-img4.png)
+   ![&#x200B; screen_shot_2018-12-19at125930pm &#x200B;](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
    De video die is toegevoegd aan de editor van het **`Zone2`** reekskanaal, wordt hieronder weergegeven:
 
-   ![ screen_shot_2018-12-19at125930pm ](/help/user-guide/assets/multi-zone/multizone-img5.png)
+   ![&#x200B; screen_shot_2018-12-19at125930pm &#x200B;](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
 1. **Toevoegend Ingesloten Reeksen (component) aan belangrijkste kanaal (MultiZone)**
 
@@ -191,4 +191,4 @@ Controleer de Screens-speler, zodat u de uitvoer kunt bekijken die de inhoud in 
 
 De linkerzone is een reekskanaal en de rechterzone bevat een video.
 
-![ new2-1 ](/help/user-guide/assets/multi-zone/Multi-gif.gif)
+![&#x200B; new2-1 &#x200B;](/help/user-guide/assets/multi-zone/Multi-gif.gif)

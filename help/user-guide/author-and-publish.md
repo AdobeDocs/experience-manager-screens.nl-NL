@@ -32,13 +32,13 @@ Voordat u aan de slag gaat met auteur- en publicatieservers, hebt u eerst kennis
 
 >[!IMPORTANT]
 >
->Als u meer dan één publicatieexemplaar met Dispatcher wilt gebruiken, werkt u de Dispatcher bij. Zie [ toelatend Vaste Zittingen ](dispatcher-configurations-aem-screens.md#enable-sticky-session).
+>Als u meer dan één publicatieexemplaar met Dispatcher wilt gebruiken, werkt u de Dispatcher bij. Zie [&#x200B; toelatend Vaste Zittingen &#x200B;](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## Auteur- en publicatie-instanties configureren {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
->Meer over de Auteur leren en architecturaal overzicht publiceren en hoe de inhoud op een instantie van de Auteur van AEM wordt authored en dan voorwaarts-gerepliceerd aan veelvoudige publiceer instanties, zie [ het Overzicht van de Auteur en van de Architectuur van de Publicatie ](author-publish-architecture-overview.md).
+>Meer over de Auteur leren en architecturaal overzicht publiceren en hoe de inhoud op een instantie van de Auteur van AEM wordt authored en dan voorwaarts-gerepliceerd aan veelvoudige publiceer instanties, zie [&#x200B; het Overzicht van de Auteur en van de Architectuur van de Publicatie &#x200B;](author-publish-architecture-overview.md).
 
 De volgende sectie verklaart hoe te opstellings replicatieagenten op de Auteur en publiceer topologie.
 
@@ -64,23 +64,23 @@ Voer de onderstaande stappen uit om een standaardreplicatieagent te maken:
 
 1. Navigeer aan uw instantie van AEM > hamerpictogram > **Verrichtingen** > **Configuratie**.
 
-   ![ screen_shot_2019-02-25at24621pm ](assets/screen_shot_2019-02-25at24621pm.png)
+   ![&#x200B; screen_shot_2019-02-25at24621pm &#x200B;](assets/screen_shot_2019-02-25at24621pm.png)
 
 1. Klik de **Replicatie** van de linkernavigatieboom.
 
-   ![ screen_shot_2019-02-25at24715pm ](assets/screen_shot_2019-02-25at24715pm.png)
+   ![&#x200B; screen_shot_2019-02-25at24715pm &#x200B;](assets/screen_shot_2019-02-25at24715pm.png)
 
 1. Klik de **Agenten op Auteur** van de **omslag van de Replicatie** en klik **Nieuw** om een nieuwe standaardreplicatieagent tot stand te brengen.
 
-   ![ screen_shot_2019-02-25at25400pm ](assets/screen_shot_2019-02-25at25400pm.png)
+   ![&#x200B; screen_shot_2019-02-25at25400pm &#x200B;](assets/screen_shot_2019-02-25at25400pm.png)
 
 1. Ga de **Titel** en **Naam** in zodat kunt u de replicatieagent tot stand brengen, dan klikken **creeert**.
 
-   ![ screen_shot_2019-02-25at25737pm ](assets/screen_shot_2019-02-25at25737pm.png)
+   ![&#x200B; screen_shot_2019-02-25at25737pm &#x200B;](assets/screen_shot_2019-02-25at25737pm.png)
 
 1. Klik de replicatieagent met de rechtermuisknop aan en klik **Open** om de montages uit te geven.
 
-   ![ screen_shot_2019-02-25at30018pm ](assets/screen_shot_2019-02-25at30018pm.png)
+   ![&#x200B; screen_shot_2019-02-25at30018pm &#x200B;](assets/screen_shot_2019-02-25at30018pm.png)
 
 1. Klik **uitgeven**.
 
@@ -90,11 +90,11 @@ Voer de onderstaande stappen uit om een standaardreplicatieagent te maken:
    >
    >De gebruiker moet **Toegelaten** controleren om de replicatieagent toe te laten. Schakel deze optie in bij Standaard, Screens en Reverse Replication Agents.
 
-   ![ screen_shot_2019-02-25at30134pm ](assets/screen_shot_2019-02-25at30134pm.png)
+   ![&#x200B; screen_shot_2019-02-25at30134pm &#x200B;](assets/screen_shot_2019-02-25at30134pm.png)
 
 1. Navigeer aan het **Vervoer** lusje en ga **URI**, **Gebruiker** in, en **Wachtwoord**.
 
-   ![ screen_shot_2019-03-04at34955pm ](assets/screen_shot_2019-03-04at34955pm.png)
+   ![&#x200B; screen_shot_2019-03-04at34955pm &#x200B;](assets/screen_shot_2019-03-04at34955pm.png)
 
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ Voer de onderstaande stappen uit om een standaardreplicatieagent te maken:
 1. Maak een AEM Screens-replicatieagent voor pub2. Kopieer de Screens replicatieagent voor pub1 en verander de haven aan punt 4504 voor pub2.
 
    >[!NOTE]
-   >Leren hoe te om de replicatieagenten van Screens te vormen, zie [ Vormend de Agent van de Replicatie van Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Leren hoe te om de replicatieagenten van Screens te vormen, zie [&#x200B; Vormend de Agent van de Replicatie van Screens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Screens Reverse Replication Agents maken {#creating-screens-reverse-replication-agents}
 
@@ -193,7 +193,7 @@ Als voorbeeld, toont het volgende beeld op succesvolle configuratie van de Serve
 
 Als u niet de volgende configuratie van *ziet/system/console/mq*, dan navigeer aan */system/console/mq* en klik **opnieuw beginnen** om de makelaar opnieuw te beginnen.
 
-![ beeld-2018-06-18-18-14-55-449 ](assets/image-2018-06-18-18-14-55-449.png)
+![&#x200B; beeld-2018-06-18-18-14-55-449 &#x200B;](assets/image-2018-06-18-18-14-55-449.png)
 
 #### Vereiste koptekst verwijzing verwijderen {#remove-referrer-header-requirement}
 
@@ -260,13 +260,13 @@ U kunt het apparaat ook activeren via de apparaatbeheerconsole. Voer de ondersta
 1. Klik **Manager van het Apparaat** van de actiebar.
 1. Klik het apparaat en klik **activeren** van de actiebar, zoals aangetoond in het hieronder cijfer.
 
-![ screen_shot_2019-02-21at111036am ](assets/screen_shot_2019-02-21at111036am.png)
+![&#x200B; screen_shot_2019-02-21at111036am &#x200B;](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
 >Als u het apparaat hebt geactiveerd, kunt u ook de URL van de server bewerken of bijwerken. Van de actiebar, klik **uitgeeft server URL**, zoals aangetoond in het hieronder cijfer. Uw wijzigingen worden doorgegeven aan de AEM Screens Player.
 
-![ screen_shot_2019-02-21at105527am ](assets/screen_shot_2019-02-21at105527am.png)
+![&#x200B; screen_shot_2019-02-21at105527am &#x200B;](assets/screen_shot_2019-02-21at105527am.png)
 
 ### Lijst met publicatiecontroles {#publishing-check-list}
 
@@ -304,9 +304,9 @@ U kunt de URL van de server ook bijwerken/bewerken vanuit de apparaatbeheerconso
 1. Klik **Manager van het Apparaat** van de actiebar.
 1. Klik het apparaat, dan van de actiebar, klik **uitgeeft server URL**, zoals aangetoond in het hieronder cijfer. Uw wijzigingen worden doorgegeven aan de AEM Screens Player.
 
-![ screen_shot_2019-02-07at31028pm ](assets/screen_shot_2019-02-07at31028pm.png)
+![&#x200B; screen_shot_2019-02-07at31028pm &#x200B;](assets/screen_shot_2019-02-07at31028pm.png)
 
-Met de functie **`Manage Publication`** kunt u inhoud-updates leveren van Auteur naar Publiceren op apparaat. U kunt inhoud publiceren/unpublish voor uw volledige AEM Screens-project of slechts voor één van uw kanalen, plaats, apparaat, toepassing, of een programma. Meer over deze eigenschap leren, zie [ Update van de Inhoud op bestelling ](on-demand-content.md).
+Met de functie **`Manage Publication`** kunt u inhoud-updates leveren van Auteur naar Publiceren op apparaat. U kunt inhoud publiceren/unpublish voor uw volledige AEM Screens-project of slechts voor één van uw kanalen, plaats, apparaat, toepassing, of een programma. Meer over deze eigenschap leren, zie [&#x200B; Update van de Inhoud op bestelling &#x200B;](on-demand-content.md).
 
 ## Tips voor het oplossen van problemen {#troubleshoot-tips}
 

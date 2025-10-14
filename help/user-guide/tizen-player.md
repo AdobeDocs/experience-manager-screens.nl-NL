@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Volg de onderstaande stappen om de Tizen-speler voor AEM Screens te implementeren:
 
-1. Navigeer aan de [ pagina van de Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/) zodat kunt u de speler downloaden Tizen.
+1. Navigeer aan de [&#x200B; pagina van de Downloads van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/) zodat kunt u de speler downloaden Tizen.
 
 1. Installeer het bestand Tizen Player *(.zip)* vanaf uw lokale computer.
 
@@ -87,7 +87,7 @@ Volg de stappen hieronder om deze onverenigbare cliënten vrij te stellen wannee
 
    >[!NOTE]
    >
-   >Zie [ SameSite=None: Bekende Incompatibele Clients ](https://www.chromium.org/updates/same-site/incompatible-clients) voor meer details. Gebruik voor de Tizen-speler de regex: `(.*)Tizen(.*)` .
+   >Zie [&#x200B; SameSite=None: Bekende Incompatibele Clients &#x200B;](https://www.chromium.org/updates/same-site/incompatible-clients) voor meer details. Gebruik voor de Tizen-speler de regex: `(.*)Tizen(.*)` .
 
 1. Registreer de Tizen-speler op uw AEM 6.5.5 en hoger en registreer de inhoud normaal.
 
@@ -171,4 +171,4 @@ Voer de onderstaande stappen uit om het Tizen-apparaat in te schrijven bij de Sa
 
 ### De afstandsbediening van Screens gebruiken {#using-remote-control}
 
-AEM Screens biedt functionaliteit voor afstandsbediening. Leer meer over deze eigenschap hier: [ de Verre Controle van Screens ](implementing-remote-control.md)
+AEM Screens biedt functionaliteit voor afstandsbediening. Leer meer over deze eigenschap hier: [&#x200B; de Verre Controle van Screens &#x200B;](implementing-remote-control.md)

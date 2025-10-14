@@ -19,7 +19,7 @@ Deze sectie beschrijft hoe u de **component van de Overgang** binnen-tussen vers
 
 >[!CAUTION]
 >
->Om in detail over de eigenschappen voor de **component van de Overgang** te leren, zie [ Overgangen ](adding-components-to-a-channel.md#transition).
+>Om in detail over de eigenschappen voor de **component van de Overgang** te leren, zie [&#x200B; Overgangen &#x200B;](adding-components-to-a-channel.md#transition).
 
 ## Overgangscomponent toevoegen aan Assets in een kanaal {#adding-transition}
 
@@ -33,13 +33,13 @@ Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw 
 
 1. Navigeer aan het Kanaal **TestTransition** en klik **uitgeven** van de actiebar.
 
-   ![ image1 ](assets/transitions1.png)
+   ![&#x200B; image1 &#x200B;](assets/transitions1.png)
 
    >[!NOTE]
    >
    >Het **&#x200B;**&#x200B;kanaal TestTransition heeft reeds een paar activa (beelden en video&#39;s) in het. Bijvoorbeeld, omvat het **kanaal 0&rbrace; TestTransition &lbrace;drie beelden en twee video&#39;s, zoals hieronder getoond:**
 
-   ![ image2 ](assets/transitions2.png)
+   ![&#x200B; image2 &#x200B;](assets/transitions2.png)
 
 
 1. Sleep en laat vallen de **component van de Overgang** aan uw redacteur.
@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw 
    >
    >Voordat u de overgang naar uw elementen in uw kanaal toevoegt, moet u ervoor zorgen dat u de overgang niet toevoegt vóór het eerste element in het opeenvolgende kanaal. Het eerste item in uw kanaal moet een element zijn en geen overgang.
 
-   ![ image3 ](assets/transitions3.png)
+   ![&#x200B; image3 &#x200B;](assets/transitions3.png)
 
    >[!NOTE]
    >
@@ -56,4 +56,4 @@ Voer de onderstaande stappen uit om een overgangscomponent toe te voegen aan uw 
 
 1. Ook, als u een **Ingebedde component van de Opeenvolging** (die een opeenvolgingskanaal) aan deze kanaalredacteur omvat, kunt u een overgangscomponent aan het eind toevoegen. Zo weet u zeker dat de inhoud in de juiste volgorde wordt afgespeeld, zoals in de volgende afbeelding wordt getoond:
 
-   ![ image3 ](assets/transitions5.png)
+   ![&#x200B; image3 &#x200B;](assets/transitions5.png)

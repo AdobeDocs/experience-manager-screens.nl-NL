@@ -37,26 +37,26 @@ Het staat de gebruiker toe om de volgende twee configuratiecontroles te verifië
 
 Volg de onderstaande stappen om te controleren of deze twee vitale configuraties zijn ingeschakeld voor AEM Screens:
 
-1. Navigeer aan [ Adobe Experience Manager de Console Sling Health Check ](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
+1. Navigeer aan [&#x200B; Adobe Experience Manager de Console Sling Health Check &#x200B;](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
 
-   ![ activa ](assets/health-check1.png)
+   ![&#x200B; activa &#x200B;](assets/health-check1.png)
 
 
 2. Klik **uitvoeren de geselecteerde gezondheidscontroles** zodat kunt u de bevestiging voor twee hierboven vermelde eigenschappen in werking stellen.
 
    Als beide filters worden toegelaten, dan toont de **Dienst van de Gezondheid van de Configuratie van Screens** het **Resultaat** als **O.K.** met beide configuraties zoals toegelaten.
 
-   ![ activa ](assets/health-check2.png)
+   ![&#x200B; activa &#x200B;](assets/health-check2.png)
 
    Als een of beide filters zijn uitgeschakeld, wordt een waarschuwing voor de gebruiker weergegeven, zoals in de onderstaande afbeelding wordt getoond.
 
    In de volgende waarschuwing wordt aangegeven of beide filters zijn uitgeschakeld:
-   ![ activa ](assets/health-check3.png)
+   ![&#x200B; activa &#x200B;](assets/health-check3.png)
 
 >[!NOTE]
 >
->* Om de **Apache het Verdelen Filter van de Referateur** toe te laten, zie [ Lege Verzoeken van de Referentieverwijzingen ](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests) toestaan.
->* Om de **dienst van HTTP** toe te laten, zie [ Apache Felix Jetty Gebaseerde Dienst van HTTP ](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
+>* Om de **Apache het Verdelen Filter van de Referateur** toe te laten, zie [&#x200B; Lege Verzoeken van de Referentieverwijzingen &#x200B;](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests) toestaan.
+>* Om de **dienst van HTTP** toe te laten, zie [&#x200B; Apache Felix Jetty Gebaseerde Dienst van HTTP &#x200B;](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 ### Vereisten {#prerequisites}
 
@@ -104,7 +104,7 @@ AEM Screens vereist TOUCH UI en werkt niet met de Klassieke UI van Adobe Experie
 
 Alternatief, kunt u het zelfde plaatsen ook uitvoeren gebruikend yourAuthorInstance *>* hulpmiddelen (hamerpictogram) > **Verrichtingen** > **Console van het Web** en onderzoek naar **WCM Authoring UI van de Wijze van de Wijze**.
 
-![ screen_shot_2018-12-04at22425pm ](assets/screen_shot_2018-12-04at22425pm.png)
+![&#x200B; screen_shot_2018-12-04at22425pm &#x200B;](assets/screen_shot_2018-12-04at22425pm.png)
 
 >[!NOTE]
 >
@@ -132,11 +132,11 @@ Volg hieronder de stappen om ***DeviceServiceImpl*** te vormen:
 
 1. **de Configuratie van de Console van het Web van Adobe Experience Manager** opent. Zoeken naar `*deviceservice*` . Voor het zoeken van het bezit, druk **Command+F** voor macOS en **Control+F** voor Microsoft® Vensters.
 
-![ screen_shot_2019-07-31at92058am ](assets/screen_shot_2019-07-31at92058am.png)
+![&#x200B; screen_shot_2019-07-31at92058am &#x200B;](assets/screen_shot_2019-07-31at92058am.png)
 
 #### Dispatcher-configuratie {#dispatcher-configuration}
 
-Leren hoe te om Dispatcher voor een project van AEM Screens te vormen, zie [ Vormend Dispatcher voor een project van AEM Screens ](dispatcher-configurations-aem-screens.md).
+Leren hoe te om Dispatcher voor een project van AEM Screens te vormen, zie [&#x200B; Vormend Dispatcher voor een project van AEM Screens &#x200B;](dispatcher-configurations-aem-screens.md).
 
 #### Java™-codering {#java-encoding}
 

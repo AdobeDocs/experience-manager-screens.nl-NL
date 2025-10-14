@@ -43,33 +43,33 @@ Voer de volgende stappen uit om te leren hoe u de toewijzing Afbeeldingsniveau o
 
 1. Navigeer aan het opeenvolgingskanaal **PlaybackChannel**.
 
-   ![ screen_shot_2019-06-24at62818pm ](assets/screen_shot_2019-06-24at62818pm.png)
+   ![&#x200B; screen_shot_2019-06-24at62818pm &#x200B;](assets/screen_shot_2019-06-24at62818pm.png)
 
 1. Klik **uitgeven** van de actiebar.
 
-   ![ screen_shot_2019-06-24at70141pm ](assets/screen_shot_2019-06-24at70141pm.png)
+   ![&#x200B; screen_shot_2019-06-24at70141pm &#x200B;](assets/screen_shot_2019-06-24at70141pm.png)
 
 1. Voeg twee of meer afbeeldingen toe in de kanaaleditor, zoals in de onderstaande afbeelding wordt getoond.
 
-   ![ screen_shot_2019-06-24at90534pm ](assets/screen_shot_2019-06-24at90534pm.png)
+   ![&#x200B; screen_shot_2019-06-24at90534pm &#x200B;](assets/screen_shot_2019-06-24at90534pm.png)
 
 1. Klik op alle afbeeldingen in het kanaal en klik op het moersleutelpictogram linksboven (zoals in de onderstaande afbeelding), zodat u het dialoogvenster Kanaalniveau configureren kunt openen.
 
-   ![ screen_shot_2019-06-25at95945am ](assets/screen_shot_2019-06-25at95945am.png)
+   ![&#x200B; screen_shot_2019-06-25at95945am &#x200B;](assets/screen_shot_2019-06-25at95945am.png)
 
 1. Het **de dialoogvakje van de Pagina** opent.
 
    >[!NOTE]
    >Standaard worden de afbeeldingen in een kanaal ingesteld op een afspeelduur van 8 seconden.
 
-   ![ screen_shot_2019-06-25at100343am ](assets/screen_shot_2019-06-25at100343am.png)
+   ![&#x200B; screen_shot_2019-06-25at100343am &#x200B;](assets/screen_shot_2019-06-25at100343am.png)
 
    Bewerk de **Duur** van 8000 (milliseconden) aan 3000 (milliseconden), namelijk 3 seconden. Klik het vinkje op het hoogste recht van het **de dialoogvakje van de Pagina** zodat kunt u uw veranderingen bewaren.
 
-   ![ screen_shot_2019-06-25at101527am ](assets/screen_shot_2019-06-25at101527am.png)
+   ![&#x200B; screen_shot_2019-06-25at101527am &#x200B;](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Het resultaat weergeven {#viewing-the-result}
 
 Nadat u de afspeelduur van het kanaal hebt bijgewerkt (in dit voorbeeld worden alle drie de afbeeldingen weergegeven), worden de afbeeldingen nu 3 seconden afgespeeld in plaats van 8 seconden (de standaardwaarde).
 
-![ channel_preview ](assets/channel_preview.gif)
+![&#x200B; channel_preview &#x200B;](assets/channel_preview.gif)

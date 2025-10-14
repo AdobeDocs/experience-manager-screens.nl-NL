@@ -30,7 +30,7 @@ U kunt de volgende componenten toevoegen aan uw volgnummer:
 
 >[!NOTE]
 >
->Om over het gebruiken van andere componenten in uw project van Screens te leren, zie [ Toevoegend Componenten aan een Kanaal ](adding-components-to-a-channel.md).
+>Om over het gebruiken van andere componenten in uw project van Screens te leren, zie [&#x200B; Toevoegend Componenten aan een Kanaal &#x200B;](adding-components-to-a-channel.md).
 
 ### Een ingesloten reeks toevoegen {#adding-an-embedded-sequence}
 
@@ -38,7 +38,7 @@ U kunt een ingesloten reeks toevoegen aan uw kanaal. Een ingesloten reeks is een
 
 >[!NOTE]
 >***Weg van het Kanaal*** bepaalt een expliciete verwijzing naar het kanaal.
->Meer over *Weg van het Kanaal* leren, zie [ Toewijzing van het Kanaal ](channel-assignment.md) in het Authoring van Screens.
+>Meer over *Weg van het Kanaal* leren, zie [&#x200B; Toewijzing van het Kanaal &#x200B;](channel-assignment.md) in het Authoring van Screens.
 
 Voer de onderstaande stappen uit om een ingesloten reeks aan uw kanaal toe te voegen:
 
@@ -73,7 +73,7 @@ Door gebrek, wordt het geplaatst aan **normaal**. Het plaatsen van de waarde aan
 
 Het volgende voorbeeld toont de toevoeging van een ingebedde opeenvolging (**Niet-actief Kanaal - Nacht**) aan een bestaand kanaal (**Onactief Kanaal**).
 
-![ new2 ](assets/new2.gif)
+![&#x200B; new2 &#x200B;](assets/new2.gif)
 
 ### Een dynamische ingesloten reeks toevoegen {#adding-a-dynamic-embedded-sequence}
 
@@ -83,7 +83,7 @@ U kunt een dynamische ingesloten reeks toevoegen aan uw kanaal. Een dynamische i
 >
 >{de Rol van het 0} Kanaal ***bepaalt de context van de vertoning.***
 >
->Meer over *Rol van het Kanaal* leren, zie [ Toewijzing van het Kanaal ](channel-assignment.md) in het Authoring van Screens.
+>Meer over *Rol van het Kanaal* leren, zie [&#x200B; Toewijzing van het Kanaal &#x200B;](channel-assignment.md) in het Authoring van Screens.
 
 Voer de onderstaande stappen uit om een ingesloten reeks aan uw kanaal toe te voegen:
 
@@ -99,4 +99,4 @@ Voer de onderstaande stappen uit om een ingesloten reeks aan uw kanaal toe te vo
 
 1. Klik de **Duur (milliseconden)** in het **3&rbrace; lusje van de Opeenvolging &lbrace;voor uw ingebed kanaal in de opeenvolging.**
 
-![ recentste ](assets/latest.gif)
+![&#x200B; recentste &#x200B;](assets/latest.gif)

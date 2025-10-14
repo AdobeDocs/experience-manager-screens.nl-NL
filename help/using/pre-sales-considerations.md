@@ -31,4 +31,4 @@ De belangrijkste resultaten in dit stadium zijn:
 >
 >Identificeer zo snel mogelijk de gegevens die nodig zijn voor de toepassing en waar deze vandaan komt. Tijdens de implementatie vindt een diepgaandere verkenning plaats. Nochtans, ben zeker u tijd tijdens *Nul van de Dag* neemt om te weten te komen welke gegevens de cliënt van plan is te gebruiken. Kom te weten waar die gegevens momenteel worden opgeslagen, en hoe de toepassing die tot het bouwt toegang kan hebben. Als u het ontwikkelingsteam op de hoogte stelt voordat uitdagingen zich voordoen, kunt u een implementatie soepeler laten verlopen.
 
-Bekijk de video [ Overwegingen aangezien de Projecten ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations) worden gescoord.
+Bekijk de video [&#x200B; Overwegingen aangezien de Projecten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations) worden gescoord.

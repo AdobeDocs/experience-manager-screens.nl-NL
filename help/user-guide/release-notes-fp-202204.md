@@ -21,7 +21,7 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 11 uitgebracht.
 
-U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.11 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP11**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.11 Versie van het [&#x200B; Portaal van de Distributie van de Software &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP11**.
 
 ## Releasedatum {#release-date}
 
@@ -59,4 +59,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak 11 van de Ei
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/index.html)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/index.html)**.

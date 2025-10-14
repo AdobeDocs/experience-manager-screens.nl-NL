@@ -22,7 +22,7 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 5 uitgebracht.
 
-U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.5 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.5 Versie van het [&#x200B; Portaal van de Distributie van de Software &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen.
 
 ## Releasedatum {#release-date}
 
@@ -34,13 +34,13 @@ De releasedatum voor AEM Screens Feature Pack 202008 is 3 september 2020.
 
   Met de tijdlijnweergave kan de gebruiker de toegewezen programma&#39;s vanaf het weergavedashboard naar het kanaal bekijken.
 
-  Zie [ Mening van de Chronologie ](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) voor meer details.
+  Zie [&#x200B; Mening van de Chronologie &#x200B;](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) voor meer details.
 
 * **Programma van de Herhaling**
 
   Het Programma van de Herhaling laat u een terugkerend programma voor uw kanaal plaatsen. U kunt meerdere herhalingsschema&#39;s instellen voor een kanaal.
 
-  Zie [ Programma van de Herhaling ](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) voor meer details.
+  Zie [&#x200B; Programma van de Herhaling &#x200B;](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) voor meer details.
 
 * **Mogelijkheden van de Erkenning van de Stem aan AEM Screens**
 
@@ -57,7 +57,7 @@ Stel een omgeving in voor Windows of Android™ Player als u AEM Screens 6.5.5 S
 Plaats het **attribuut SameSite voor de login-symbolische koekjes** van **Lax** aan **niets** van **Console van het Web van Adobe Experience Manager
 Configuratie** op alle AEM auteur en publiceer instanties.
 
-* Zie [ Uitvoerend Vensters 10 Speler ](implementing-windows-player.md#fp-environment-setup) voor meer details.
+* Zie [&#x200B; Uitvoerend Vensters 10 Speler &#x200B;](implementing-windows-player.md#fp-environment-setup) voor meer details.
 
 * Zie [&#128279;](implementing-android-player.md#fp-environment-setup) het Uitvoeren van de Speler van Android™  voor meer details.
 
@@ -71,4 +71,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM Screens AEM 6.5 Pak 
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/index.html)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/index.html)**.

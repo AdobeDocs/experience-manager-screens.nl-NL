@@ -39,7 +39,7 @@ Het ***rangschikkende proces*** begint met de dienst van de gegevensopslag die d
 
 In het volgende volgordediagram wordt de Adobe Analytics-integratie met AEM Screens uitgelegd:
 
-![ analytics_chunking ](assets/analytics_chunking.png)
+![&#x200B; analytics_chunking &#x200B;](assets/analytics_chunking.png)
 
 ## Aangepaste gebeurtenissen verzenden met offline Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
 

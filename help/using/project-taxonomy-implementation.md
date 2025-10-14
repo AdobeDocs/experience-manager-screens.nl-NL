@@ -25,7 +25,7 @@ Overweeg de volgende elementen voordat u uw AEM Screens-oplossing voor digitale 
 * **Plannend**
 * **Previewing de inhoud**
 
-Meer over deze termijnen leren, zie de [ Verklarende woordenlijst ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+Meer over deze termijnen leren, zie de [&#x200B; Verklarende woordenlijst &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
@@ -44,15 +44,15 @@ Een AEM Screens-auteur is verantwoordelijk voor het maken en beheren van een geb
 
 Een auteur begint gewoonlijk een AEM Screens-project door:
 
-* [ creërend een project van AEM Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [ creërend kanalen ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
-* [ toevoegend componenten en activa aan het kanaal ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
-* [ creërend programma&#39;s ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
-* [ creërend plaatsen ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
-* [ creërend vertoningen ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
-* [ toewijzend kanalen aan de vertoningen ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
+* [&#x200B; creërend een project van AEM Screens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [&#x200B; creërend kanalen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
+* [&#x200B; toevoegend componenten en activa aan het kanaal &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
+* [&#x200B; creërend programma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [&#x200B; creërend plaatsen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
+* [&#x200B; creërend vertoningen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [&#x200B; toewijzend kanalen aan de vertoningen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
-* [ het bekijken inhoud in een Speler van AEM Screens ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
+* [&#x200B; het bekijken inhoud in een Speler van AEM Screens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->U kunt ook een set locaties vanuit een CSV/XLS-spreadsheet in een AEM Screens-project bulksgewijs importeren. Zie [ Nieuwe Importeur van het Project van Dossier ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/project-importer).
+>U kunt ook een set locaties vanuit een CSV/XLS-spreadsheet in een AEM Screens-project bulksgewijs importeren. Zie [&#x200B; Nieuwe Importeur van het Project van Dossier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/administering/project-importer).

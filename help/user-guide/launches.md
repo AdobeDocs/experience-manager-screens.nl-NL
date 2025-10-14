@@ -99,11 +99,11 @@ Voer de volgende stappen uit om de Screens-startfunctionaliteit te implementeren
    >
    >Maak een lancering van een reeds bestaand kanaal in uw AEM Screens-project.
 
-   ![ Beeld ](/help/user-guide/assets/launches-images/launches-11.png)
+   ![&#x200B; Beeld &#x200B;](/help/user-guide/assets/launches-images/launches-11.png)
 
 1. Klik het kanaal **FutureLaunch** en klik **creeer Lancering** van de actiebar.
 
-   ![ Beeld ](/help/user-guide/assets/launches-images/launches-12.png)
+   ![&#x200B; Beeld &#x200B;](/help/user-guide/assets/launches-images/launches-12.png)
 
 1. **creeer de 1&rbrace; tovenaar van de Lancering &lbrace;opent.** U kunt op het kanaal klikken dat al zichtbaar is in de wizard of op **+ Kanalen toevoegen** klikken om het kanaal toe te voegen waarvoor u de opstart wilt maken.
 
@@ -132,7 +132,7 @@ Voer de volgende stappen uit om de Screens-startfunctionaliteit te implementeren
    >
    >*onbruikbaar makend of unchecking* **erven bron paginageeft levende gegevens** laat de kanalen toe om zonder enige levende verhouding in de lancering worden gekopieerd. Als er dus wijzigingen worden aangebracht in het oorspronkelijke kanaal, worden deze wijzigingen niet toegepast op de startkanalen.
 
-   ![ Beeld ](/help/user-guide/assets/launches-images/launches-c.png)
+   ![&#x200B; Beeld &#x200B;](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -150,11 +150,11 @@ Voer de volgende stappen uit om de Screens-startfunctionaliteit te implementeren
 
 1. U ziet dat de opstart is gemaakt. U kunt of **Open** klikken om de pagina&#39;s in de redacteur te bekijken of **Gedaan** klikken om terug naar uw project te navigeren.
 
-   ![ screen_shot_2019-06-25at20355pm ](assets/screen_shot_2019-06-25at20355pm.png)
+   ![&#x200B; screen_shot_2019-06-25at20355pm &#x200B;](assets/screen_shot_2019-06-25at20355pm.png)
 
    Het selecteren **Gedaan** laat u terug naar uw **FutureLaunch** kanaal navigeren.
 
-   ![ Beeld ](/help/user-guide/assets/launches-images/launches-16.png)
+   ![&#x200B; Beeld &#x200B;](/help/user-guide/assets/launches-images/launches-16.png)
 
 
 ### De eigenschappen voor starten bewerken om de actieve datum en het actieve bereik in te stellen {#editing-the-launch-properties-to-set-the-live-date-and-scope}

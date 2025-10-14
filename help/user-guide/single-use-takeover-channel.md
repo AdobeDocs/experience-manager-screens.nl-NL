@@ -44,44 +44,44 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 1. Creeer een Project van AEM Screens dat als **wordt genoemd SingleUseTakeOver**, zoals hieronder getoond.
 
-   ![ activa ](assets/single-takeover1.png)
+   ![&#x200B; activa &#x200B;](assets/single-takeover1.png)
 
 1. Creeer a **MainAdChannel** in de **omslag van Kanalen**.
 
-   ![ activa ](assets/single-takeover2.png)
+   ![&#x200B; activa &#x200B;](assets/single-takeover2.png)
 
 1. Klik **MainAdChannel** en klik **uitgeven** van de actiebar. Sleep enkele elementen (afbeeldingen, video&#39;s, ingesloten reeksen) naar het kanaal.
 
-   ![ activa ](assets/single-takeover2.png)
+   ![&#x200B; activa &#x200B;](assets/single-takeover2.png)
 
 
    >[!NOTE]
    >**MainAdChannel** in dit voorbeeld toont een opeenvolgingskanaal aan dat inhoud onophoudelijk speelt.
 
-   ![ activa ](assets/single-takeover3.png)
+   ![&#x200B; activa &#x200B;](assets/single-takeover3.png)
 
 1. Creeer a **TakeOver** kanaal dat de inhoud in **MainAdChannel** overneemt en slechts voor een specifieke dag en een tijd speelt.
 
 1. Klik **TakeOver** en klik **uitgeven** van de actiebar. Sleep enkele elementen naar uw kanaal. In het volgende voorbeeld ziet u hoe een afbeelding met één zone wordt toegevoegd aan dit kanaal.
 
-   ![ activa ](assets/single-takeover4.png)
+   ![&#x200B; activa &#x200B;](assets/single-takeover4.png)
 
 1. Stel een locatie en weergave voor uw kanalen in. Bijvoorbeeld, worden de volgende **plaats 0&rbrace; Lobby {en** 3} vertoning MainLobbyDisplay opstelling voor dit project.**&#x200B;**
 
-   ![ activa ](assets/single-takeover5.png)
+   ![&#x200B; activa &#x200B;](assets/single-takeover5.png)
 
 **Toewijzend Kanalen aan een Vertoning**
 
 1. Klik de vertoning **MainLobbyDisplay** van de **omslag van Plaatsen**. Klik **toewijzen Kanaal** van de actiebar.
 
-   ![ activa ](assets/single-takeover6.png)
+   ![&#x200B; activa &#x200B;](assets/single-takeover6.png)
 
    >[!NOTE]
    >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie **[Toewijzing van het Kanaal](channel-assignment.md)**.
 
 1. Vul de gebieden (**Weg van het Kanaal**, **Prioriteit**, en **Ondersteunde Gebeurtenissen**) van het **7&rbrace; de dialoogvakje van de Toewijzing van het Kanaal en klik** sparen **.** U hebt nu **MainAdChannel** aan uw vertoning toegewezen.
 
-   ![ activa ](assets/single-takeover7.png)
+   ![&#x200B; activa &#x200B;](assets/single-takeover7.png)
 
 1. Klik de vertoning **TakeOver** van de **omslag van Plaatsen**. Klik **toewijzen Kanaal** van de actiebar zodat kunt u het enig-gebruiks overnamekanaal toewijzen.
 
@@ -96,14 +96,14 @@ Voer de onderstaande stappen uit om een project in te stellen:
    * **Programma**: Ga de tekst voor het programma in dat u dit kanaal op de vertoning wilt in werking stellen. De tekst hier staat bijvoorbeeld toe dat de inhoud 2 minuten vóór 12.00 uur &#39;s middags wordt afgespeeld op 31 dec tot 12.01 uur &#39;s middags.
 De tekst in het **Programma** die in dit voorbeeld wordt vermeld is *op de 31 dag van December na 23:58 en ook op de 1 dag van Januari vóór 00.01*.
 
-     ![ activa ](assets/single-takeover8.png)
+     ![&#x200B; activa &#x200B;](assets/single-takeover8.png)
 
      Navigeer aan de vertoning van **SingleUseTakeOver** > **Plaatsen** > **Lobby** > **MainLobbyDisplay**. Klik **Dashboard** van de actiebar zodat kunt u de toegewezen kanalen met hun prioriteiten bekijken, zoals hieronder getoond.
 
      >[!NOTE]
      >Het is verplicht de prioriteit van het overnamekanaal als hoogste vast te stellen.
 
-     ![ activa ](assets/single-takeover9.png)
+     ![&#x200B; activa &#x200B;](assets/single-takeover9.png)
 
 >[!NOTE]
 >

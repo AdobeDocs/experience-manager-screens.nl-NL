@@ -43,7 +43,7 @@ U kunt ook de onderstaande stappen volgen voor een visuele weergave voor het mak
 
 Het volgende voorbeeld toont de verwezenlijking van een levend exemplaar (***IdleLiveCopy***) voor ***Niet-actief Kanaal*** met de bestemmingsomslag als ***Kanalen***.
 
-![ chlimage_1-2 ](assets/chlimage_1-2.gif)
+![&#x200B; chlimage_1-2 &#x200B;](assets/chlimage_1-2.gif)
 
 ## Inhoud van het kanaal Live kopie weergeven {#viewing-content-of-the-live-copy-channel}
 
@@ -53,11 +53,11 @@ Zie de volgende stappen om de inhoud van uw live kopie weer te geven:
 
 1. Navigeer naar het Screens-project en klik op de locatie waar u oorspronkelijk een live kopie hebt gemaakt, zoals in de bovenstaande sectie wordt getoond. (Hier, werd de plaats gekozen als **Kanalen** omslag)
 
-   ![ chlimage_1-18 ](assets/chlimage_1-18.png)
+   ![&#x200B; chlimage_1-18 &#x200B;](assets/chlimage_1-18.png)
 
 1. Klik **uitgeven** van de actiebar.
 
-   ![ chlimage_1-19 ](assets/chlimage_1-19.png)
+   ![&#x200B; chlimage_1-19 &#x200B;](assets/chlimage_1-19.png)
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ U kunt ook de eigenschappen van uw live-kopieerkanaal weergeven.
 
 1. Navigeer aan uw levend exemplaarkanaal en klik **Eigenschappen** van de actiebar.
 
-   ![ chlimage_1-20 ](assets/chlimage_1-20.png)
+   ![&#x200B; chlimage_1-20 &#x200B;](assets/chlimage_1-20.png)
 
 1. Klik het **Levende lusje van het Exemplaar** zodat kunt u details van uw kanaal bekijken.
 
-   ![ chlimage_1-21 ](assets/chlimage_1-21.png)
+   ![&#x200B; chlimage_1-21 &#x200B;](assets/chlimage_1-21.png)
 
 ### Status van live kopiëren {#live-copy-status}
 
@@ -81,13 +81,13 @@ De wijze **Levende Status van het Exemplaar**, zoals aangetoond in het hieronder
 
 1. Klik **uitgeven** zodat kunt u de **Levende Status van het Exemplaar** kiezen. U kunt ook de koppeling van de kanaalinhoud aan het oorspronkelijke kanaal bekijken waaruit de live kopie wordt gegenereerd.
 
-   ![ chlimage_1-22 ](assets/chlimage_1-22.png)
+   ![&#x200B; chlimage_1-22 &#x200B;](assets/chlimage_1-22.png)
 
 1. Klik **Levende Status van het Exemplaar** zodat kunt u de voorproefpagina tonen.
 
    Alle bronnen met een groene rand tonen aan dat de inhoud wordt overgenomen van het oorspronkelijke kanaal.
 
-   ![ chlimage_1-23 ](assets/chlimage_1-23.png)
+   ![&#x200B; chlimage_1-23 &#x200B;](assets/chlimage_1-23.png)
 
 ### De overerving doorbreken {#breaking-the-inheritance}
 
@@ -95,7 +95,7 @@ U kunt de overerving van de live kopie ook annuleren, zodat de inhoud onafhankel
 
 Het volgende voorbeeld toont aan dat u het beeld op uitgeeft wijze klikt en **annuleert Overerving** pictogram op het hoogste recht klikt.
 
-![ chlimage_1-24 ](assets/chlimage_1-24.png)
+![&#x200B; chlimage_1-24 &#x200B;](assets/chlimage_1-24.png)
 
 ### Wijzigingen doorgeven aan het kanaal van Live kopie {#propagating-changes-to-the-live-copy-channel}
 
@@ -105,28 +105,28 @@ Voer de onderstaande stappen uit om ervoor te zorgen dat uw wijzigingen van het 
 
 1. Klik het originele kanaal (***Niet-actief Kanaal***) en klik **uitgeven** van de actiebar.
 
-   ![ chlimage_1-25 ](assets/chlimage_1-25.png)
+   ![&#x200B; chlimage_1-25 &#x200B;](assets/chlimage_1-25.png)
 
 1. Bewerk de inhoud van dit kanaal. Verwijder bijvoorbeeld een afbeelding uit dit kanaal.
 
-   ![ chlimage_1-26 ](assets/chlimage_1-26.png)
+   ![&#x200B; chlimage_1-26 &#x200B;](assets/chlimage_1-26.png)
 
 1. Klik het levende exemplaar van het kanaal (***IdleLiveCopy***) en klik **uitgeven** van de actiebar. De afbeelding die u hebt verwijderd, wordt nog steeds weergegeven in de live kopie.
 
    Als u de wijzigingen wilt doorgeven, synchroniseert u het kanaal.
 
-   ![ chlimage_1-27 ](assets/chlimage_1-27.png)
+   ![&#x200B; chlimage_1-27 &#x200B;](assets/chlimage_1-27.png)
 
 1. Om veranderingen in het levende exemplaarkanaal te verspreiden, navigeer aan het dashboard van AEM en klik het levende exemplaarkanaal en klik **Eigenschappen** van de actiebar.
 
-   ![ chlimage_1-28 ](assets/chlimage_1-28.png)
+   ![&#x200B; chlimage_1-28 &#x200B;](assets/chlimage_1-28.png)
 
 1. Klik het **Levende lusje van het Exemplaar** en klik **synchroniseren** van de actiebar.
 
-   ![ chlimage_1-29 ](assets/chlimage_1-29.png)
+   ![&#x200B; chlimage_1-29 &#x200B;](assets/chlimage_1-29.png)
 
 1. Klik **Synchronisatie**, dan klik **sparen &amp; sluit** om terug naar het dashboard van AEM te navigeren.
 
-   ![ chlimage_1-30 ](assets/chlimage_1-30.png)
+   ![&#x200B; chlimage_1-30 &#x200B;](assets/chlimage_1-30.png)
 
    De afbeelding wordt nu ook verwijderd uit het live-kopieerkanaal.

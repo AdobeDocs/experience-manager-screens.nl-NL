@@ -22,7 +22,7 @@ De ChromeOS-speler kan worden geïnstalleerd als een Chrome-browserplug-in in de
 
 Volg deze pagina voor informatie over het installeren van de Chrome-speler als een browserextensie.
 
-1. Klik [ hier ](https://download.macromedia.com/screens/) om de recentste speler van Chrome te downloaden.
+1. Klik [&#x200B; hier &#x200B;](https://download.macromedia.com/screens/) om de recentste speler van Chrome te downloaden.
 
 1. Pak het uit en sla het op de schijf op.
 

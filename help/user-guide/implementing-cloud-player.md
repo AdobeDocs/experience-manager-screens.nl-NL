@@ -33,7 +33,7 @@ In deze sectie wordt beschreven hoe u de Cloud Player implementeert.
 
 De installatie van Cloud Player kan op verschillende platforms verschillen. In het algemeen kan elk platform met een moderne browser de toepassing van de cloudspeler uitvoeren door de volgende stappen uit te voeren:
 
-1. Open browser en ga [ wolkenspeler URL ](https://player.adobescreens.com/content/dam/universal-player/firmware.html) in de adresbar in.
+1. Open browser en ga [&#x200B; wolkenspeler URL &#x200B;](https://player.adobescreens.com/content/dam/universal-player/firmware.html) in de adresbar in.
 1. De browser controleert of de Cloud Player kan worden geïnstalleerd en geeft vervolgens een installatiepictogram weer op de adresbalk.
 
    ![afbeelding](/help/user-guide/assets/cloud-player-install.png)
@@ -67,15 +67,15 @@ Een bulkprovisioning van de cloudspeler uitvoeren op meerdere apparaten:
 
 ## Bulkprovisioning op Chrome OS {#bulk-provisioning-chrome}
 
-Meer informatie over bulkprovisioning op Chrome OS. Zie [ de Speler van de Wolk op Chrome OS installeren ](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
+Meer informatie over bulkprovisioning op Chrome OS. Zie [&#x200B; de Speler van de Wolk op Chrome OS installeren &#x200B;](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
 
 ## Configuratie vereist voor AEM-instanties {#bulk-provisioning-config-aem}
 
 Op basis van het type van de AEM-instantie klikt u op een van de volgende hulplijnen om CORS b/w AEM en Cloud Player in te schakelen:
 
-* [ AEM On-Premises/AMS ](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+* [&#x200B; AEM On-Premises/AMS &#x200B;](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
 
-* [ de Dienst van de Wolk AEM ](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+* [&#x200B; de Dienst van de Wolk AEM &#x200B;](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
 
 
 >[!NOTE]
@@ -115,4 +115,4 @@ fetch(externalUrl, {
 
 ## Feedback
 
-Adobe waardeert je feedback. Deel uw gedachten met ons door deze [ vorm ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4TFE0b_GjstOj6I1uGs9vLpURVdWWklQQTZZRTFVNEhRVlBWWldMWlJXOC4u).
+Adobe waardeert je feedback. Deel uw gedachten met ons door deze [&#x200B; vorm &#x200B;](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4TFE0b_GjstOj6I1uGs9vLpURVdWWklQQTZZRTFVNEhRVlBWWldMWlJXOC4u).

@@ -39,7 +39,7 @@ Als er geen uitvoering is, controleert u of FFMPEG is geïnstalleerd op het best
 >
 >Als er geen uitvoering is, controleert u of FFMPEG is geïnstalleerd op het besturingssysteem waarop AEM wordt uitgevoerd.
 >
->Klik [ hier ](https://www.ffmpeg.org/download.html) om FFMPEG te installeren.
+>Klik [&#x200B; hier &#x200B;](https://www.ffmpeg.org/download.html) om FFMPEG te installeren.
 
 ## Video Assets {#video-assets}
 
@@ -47,23 +47,23 @@ Als u geen bronkenmerk onder video ziet, kan het zijn dat de video niet is gecod
 
 Controleer of FFMPEG is geïnstalleerd en of de videoprofielen zijn geïnstalleerd.
 
-![ chlimage_1-2 ](assets/chlimage_1-2.png)
+![&#x200B; chlimage_1-2 &#x200B;](assets/chlimage_1-2.png)
 
 ### Videoprofiel controleren {#checking-video-profile}
 
 1. Navigeer aan het **VideoProfiel**, namelijk `http://localhost:4502/etc/dam/video.html` en klik **upload Video van de Test**.
 
-   ![ chlimage_1-3 ](assets/chlimage_1-3.png)
+   ![&#x200B; chlimage_1-3 &#x200B;](assets/chlimage_1-3.png)
 
 1. Upload een testvideo en klik **O.K.** zodat kunt u met transcoding beginnen.
 
    Als de getranscodeerde video mislukt, vouwt u de uitvoer van FFMPEG uit om fouten in de uitvoer van de console van FFMPEG te begrijpen.
 
-   ![ chlimage_1-4 ](assets/chlimage_1-4.png)
+   ![&#x200B; chlimage_1-4 &#x200B;](assets/chlimage_1-4.png)
 
    Ook als de videotranscodes het getranscodeerde bestand kunnen downloaden.
 
-   ![ chlimage_1-5 ](assets/chlimage_1-5.png)
+   ![&#x200B; chlimage_1-5 &#x200B;](assets/chlimage_1-5.png)
 
    >[!NOTE]
    >
@@ -75,7 +75,7 @@ Controleer de lijst met profielen in het paginaontwerp als de videocomponent nie
 
 1. Navigeer aan uw kanaal en klik de **wijze van het Ontwerp**.
 
-   ![ chlimage_1-6 ](assets/chlimage_1-6.png)
+   ![&#x200B; chlimage_1-6 &#x200B;](assets/chlimage_1-6.png)
 
 1. Klik de video en open **uitgeven** dialoog. Open het **Profielen** lusje.
 
@@ -139,7 +139,7 @@ Volg de onderstaande stappen om een absolute strategie op te zetten:
 1. Open het configuratievenster.
 1. Bewerk de **Strategie** en voeg absolute toe.
 
-   ![ chlimage_1-8 ](assets/chlimage_1-8.png)
+   ![&#x200B; chlimage_1-8 &#x200B;](assets/chlimage_1-8.png)
 
    >[!NOTE]
    >Het besturingssysteem van de spelers moet dezelfde klok hebben.

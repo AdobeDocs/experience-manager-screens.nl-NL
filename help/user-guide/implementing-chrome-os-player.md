@@ -24,8 +24,8 @@ In deze sectie wordt beschreven hoe u de Chrome OS Player implementeert met de C
 
 Voer de onderstaande stappen uit om de Chrome-beheerconsole in te stellen:
 
-1. Registreer u voor de Chrome Management Console. U moet een licentie aanvragen voor Chrome Management Console. Contact [ de Steun van Google ](https://support.google.com/chrome/a/answer/1375678?hl=en&ref_topic=2935995) om het apparatenmontages van Chrome voor meer informatie te beheren.
-1. Schrijf uw Chrome OS-apparaat in het domein en wacht 15 minuten tot het apparaat gesynchroniseerd is met de Chrome Management Console. Meer over het inschrijven van het apparaat van Chrome leren, klik [ hier ](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Registreer u voor de Chrome Management Console. U moet een licentie aanvragen voor Chrome Management Console. Contact [&#x200B; de Steun van Google &#x200B;](https://support.google.com/chrome/a/answer/1375678?hl=en&ref_topic=2935995) om het apparatenmontages van Chrome voor meer informatie te beheren.
+1. Schrijf uw Chrome OS-apparaat in het domein en wacht 15 minuten tot het apparaat gesynchroniseerd is met de Chrome Management Console. Meer over het inschrijven van het apparaat van Chrome leren, klik [&#x200B; hier &#x200B;](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. De Chrome Player is beschikbaar in de Chrome Web Store.
 
 >[!NOTE]
@@ -62,12 +62,12 @@ Voer de onderstaande stappen uit om de modus Kiosk in te schakelen:
 
 1. Meld u aan bij de Chrome Developer Console.
 
-   ![ screen_shot_2017-12-08at20303pm ](assets/screen_shot_2017-12-08at20303pm.png)
+   ![&#x200B; screen_shot_2017-12-08at20303pm &#x200B;](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. Blader naar **Beheer van het Apparaat** > **Chrome Beheer** > **Montages van het Apparaat**.
 1. De rol neer aan **Montages van Kiosk** en klikt **de Toepassingen van Kiosk beheren**.
 
-   ![ kiosk ](assets/kiosk.png)
+   ![&#x200B; kiosk &#x200B;](assets/kiosk.png)
 
 1. Klik op AEM Screens Player in de Chrome Web Store.
 
@@ -154,4 +154,4 @@ In de volgende tabel wordt een overzicht gegeven van de beleidsfuncties.
 
 ### De afstandsbediening van Screens gebruiken {#using-remote-control}
 
-AEM Screens biedt functionaliteit voor afstandsbediening. Leer meer over deze eigenschap hier: [ de Verre Controle van Screens ](implementing-remote-control.md)
+AEM Screens biedt functionaliteit voor afstandsbediening. Leer meer over deze eigenschap hier: [&#x200B; de Verre Controle van Screens &#x200B;](implementing-remote-control.md)

@@ -57,15 +57,15 @@ Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor z
 
 Het volgende beeld toont het **project van de Activering van het Niveau van het 0&rbrace; Kanaal met** MainAdChannel **en** TargetedSinglePlay **kanalen in de** omslag van Kanalen **.**
 
-![ screen_shot_2018-11-27at104500am ](assets/screen_shot_2018-11-27at104500am.png)
+![&#x200B; screen_shot_2018-11-27at104500am &#x200B;](assets/screen_shot_2018-11-27at104500am.png)
 
 >[!NOTE]
 >
 >Zie de volgende bronnen voor aanvullende informatie over het maken van een project en het maken van een sequentiekanaal:
 >
->* [ Creërend en het Leiden Projecten ](creating-a-screens-project.md)
+>* [&#x200B; Creërend en het Leiden Projecten &#x200B;](creating-a-screens-project.md)
 >
->* [ het Leiden een Kanaal ](managing-channels.md)
+>* [&#x200B; het Leiden een Kanaal &#x200B;](managing-channels.md)
 >
 
 ### Implementatie {#implementation}
@@ -82,7 +82,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    Navigeer aan uw **plaats** omslag in uw project van AEM Screens en creeer een plaats als **Gebied**.
 
-   ![ screen_shot_2018-11-27at112112am ](assets/screen_shot_2018-11-27at112112am.png)
+   ![&#x200B; screen_shot_2018-11-27at112112am &#x200B;](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. Klik **Gebied** en klik **+ creeer** van de actiebar.
    1. Klik **Vertoning** van de tovenaar en creeer een vertoning die als **wordt genoemd RegionDisplay.**
 
-   ![ screen_shot_2018-11-27at112216am ](assets/screen_shot_2018-11-27at112216am.png)
+   ![&#x200B; screen_shot_2018-11-27at112216am &#x200B;](assets/screen_shot_2018-11-27at112216am.png)
 
 1. **wijs Kanalen aan Vertoning toe**
 
@@ -108,7 +108,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    1. Klik de **Gesteunde Gebeurtenissen**, zoals **Aanvankelijke Lading** en **IdleScreen**.
    1. Klik **sparen**.
 
-   ![ screen_shot_2018-11-27at124626pm ](assets/screen_shot_2018-11-27at124626pm.png)
+   ![&#x200B; screen_shot_2018-11-27at124626pm &#x200B;](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
@@ -129,13 +129,13 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    >
    >Plaats de prioriteit voor het **TargetedSinglePlay** kanaal hoger dan het **MainAdSegment** kanaal.
 
-   ![ screen_shot_2018-11-27at31206pm ](assets/screen_shot_2018-11-27at31206pm.png)
+   ![&#x200B; screen_shot_2018-11-27at31206pm &#x200B;](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
    >Als u dezelfde dag wilt kiezen, klikt u op de volgende dag en bewerkt u de datum vervolgens handmatig naar dezelfde dag, maar voor een later tijdstip. Als u dit doet, kan de gebruiker geen datum uit het verleden selecteren. Zie het volgende voorbeeld:
 
-   ![ new1 ](assets/new1.gif)
+   ![&#x200B; new1 &#x200B;](assets/new1.gif)
 
 ## De resultaten bekijken {#viewing-the-results}
 
@@ -146,8 +146,8 @@ De speler toont de inhoud van **MainAdChannel** en precies bij 11:59 P.M. (zoals
 >[!NOTE]
 >
 >Raadpleeg de volgende bronnen voor meer informatie over AEM Screen Player:
->&#x200B;>[Downloads van AEM Screens Player ](https://download.macromedia.com/screens/)
->&#x200B;>[Werken met AEM Screens Player ](working-with-screens-player.md)
+>&#x200B;>[Downloads van AEM Screens Player &#x200B;](https://download.macromedia.com/screens/)
+>&#x200B;>[Werken met AEM Screens Player &#x200B;](working-with-screens-player.md)
 
 
 ## Herhaling van Assets in een kanaal afhandelen {#handling-recurrence-in-assets}

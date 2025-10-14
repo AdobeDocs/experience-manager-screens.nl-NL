@@ -25,12 +25,12 @@ De volgende pagina verstrekt de richtlijnen voor het vormen van een Dispatcher v
 >Als er geen Dispatcher is, maak de registratieserver in de OSGi componentenlijst onbruikbaar.
 
 Voordat u Dispatcher voor een AEM Screens-project configureert, moet u eerst op de hoogte zijn van Dispatcher.
-Zie [ Vormend Dispatcher ](https://experienceleague.adobe.com/nl/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) voor meer details.
+Zie [&#x200B; Vormend Dispatcher &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) voor meer details.
 
 ## Dispatcher for Manifest versie v2 configureren {#configuring-dispatcher}
 
 >[!IMPORTANT]
->De volgende Dispatcher-configuraties zijn alleen van toepassing op Manifest-versie v2. Zie [ de Configuraties van Dispatcher voor Manifest versie v3 ](#configuring-dispatcherv3) voor Manifest versie v3.
+>De volgende Dispatcher-configuraties zijn alleen van toepassing op Manifest-versie v2. Zie [&#x200B; de Configuraties van Dispatcher voor Manifest versie v3 &#x200B;](#configuring-dispatcherv3) voor Manifest versie v3.
 
 AEM Screens-spelers of -apparaten gebruiken een geverifieerde sessie om ook toegang te krijgen tot de bronnen in de publicatie-instanties. Wanneer u meerdere publicatie-instanties hebt, moeten de aanvragen altijd naar dezelfde publicatie-instantie gaan, zodat de geverifieerde sessie geldig is voor alle aanvragen die afkomstig zijn van de AEM Screens-spelers of -apparaten.
 
@@ -53,7 +53,7 @@ Als één publicatie-exemplaar door één Dispatcher wordt voorafgegaan, kan het
 
 ![afbeelding](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Bijvoorbeeld, als u AWS ALB gebruikt, zie [ groepen van het Doel voor uw Balancers van de Lading van de Toepassing ](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) voor het toelaten van kleverigheid op het niveau ALB. Laat de kleverigheid één dag toe.
+Bijvoorbeeld, als u AWS ALB gebruikt, zie [&#x200B; groepen van het Doel voor uw Balancers van de Lading van de Toepassing &#x200B;](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) voor het toelaten van kleverigheid op het niveau ALB. Laat de kleverigheid één dag toe.
 
 ### Stap 1: Klantkoppen configureren {#step-configuring-client-headers}
 

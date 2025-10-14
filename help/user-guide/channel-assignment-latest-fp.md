@@ -40,7 +40,7 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
    ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Leren hoe te om een project van AEM Screens tot stand te brengen, zie [ Creërend en het Leiden Projecten ](creating-a-screens-project.md).
+   >Leren hoe te om een project van AEM Screens tot stand te brengen, zie [&#x200B; Creërend en het Leiden Projecten &#x200B;](creating-a-screens-project.md).
 
 1. Creeer een opeenvolgingskanaal dat als **Cafeteria** in de **omslag van Kanalen** wordt genoemd.
 
@@ -97,11 +97,11 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
 In dit voorbeeld wordt de uitvoer op een Chrome Player weergegeven. Wanneer u het kanaal aan uw vertoning hebt toegewezen, registreer het apparaat aan een speler.
 
-Leren hoe te om een apparaat op een Speler van AEM Screens te registreren, zie [ Registratie van het Apparaat ](device-registration.md).
+Leren hoe te om een apparaat op een Speler van AEM Screens te registreren, zie [&#x200B; Registratie van het Apparaat &#x200B;](device-registration.md).
 
 U kunt de volgende uitvoer naar keuze van de speler weergeven:
 
-![ new1 ](assets/channel-assignment/channel-assign-output.gif)
+![&#x200B; new1 &#x200B;](assets/channel-assignment/channel-assign-output.gif)
 
 ## Tijdlijnweergave {#timeline-view}
 

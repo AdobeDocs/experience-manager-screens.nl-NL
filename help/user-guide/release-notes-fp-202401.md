@@ -15,13 +15,13 @@ ht-degree: 0%
 # Opmerkingen bij de release voor Feature Pack 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). Krijg de recentste versieinformatie van [ hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/release-notes).
+>Adobe raadt u aan een upgrade uit te voeren naar de nieuwste versie van 6.5 Adobe Experience Manager (AEM 6.5). Krijg de recentste versieinformatie van [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/release-notes).
 
 ## Beschikbaarheid {#availability}
 
 AEM Screens heeft AEM 6.5 Feature Pack 11.1 uitgebracht.
 
-U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.11.1 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP11.1**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.11.1 Versie van het [&#x200B; Portaal van de Distributie van de Software &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP11.1**.
 
 ## Releasedatum {#release-date}
 

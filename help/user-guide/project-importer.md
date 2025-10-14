@@ -38,7 +38,7 @@ Dit proces bespaart zowel tijd als geld tijdens aanvankelijke projectopstelling 
 
 In het volgende diagram ziet u het architecturale overzicht van de functie Project Importer:
 
-![ screen_shot_2019-05-14at20618pm ](assets/screen_shot_2019-05-14at20618pm.png)
+![&#x200B; screen_shot_2019-05-14at20618pm &#x200B;](assets/screen_shot_2019-05-14at20618pm.png)
 
 ### Gegevensmodel {#data-model}
 
@@ -95,26 +95,26 @@ Voer de onderstaande stappen uit om een bestand te importeren naar een locatiema
 >
 >In het volgende voorbeeld worden de minimaal vier velden weergegeven die vereist zijn om uw project te importeren:
 
-![ screen_shot_2019-05-14at21523pm ](assets/screen_shot_2019-05-14at21523pm.png)
+![&#x200B; screen_shot_2019-05-14at21523pm &#x200B;](assets/screen_shot_2019-05-14at21523pm.png)
 
 1. Navigeer aan uw project van AEM Screens (**DemoProjectImport**).
 
-   ![ screen_shot_2019-05-12at52651am ](assets/screen_shot_2019-05-12at52651am.png)
+   ![&#x200B; screen_shot_2019-05-12at52651am &#x200B;](assets/screen_shot_2019-05-12at52651am.png)
 
 1. Klik het project,**&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; creeer &#x200B;**>**&#x200B; de Plaatsen van de Invoer** van de zijbar.
 
-   ![ screen_shot_2019-05-12at52433am ](assets/screen_shot_2019-05-12at52433am.png)
+   ![&#x200B; screen_shot_2019-05-12at52433am &#x200B;](assets/screen_shot_2019-05-12at52433am.png)
 
 1. De **tovenaar van de Invoer** wordt getoond. Klik het dossier voor uw project met plaatsen of klik het dossier (***minimum-file.xls***) u van de *sectie van Eerste vereisten* downloadde.
 
    Nadat u het dossier hebt geselecteerd, klik **daarna**.
 
-   ![ screen_shot_2019-05-15at113718am ](assets/screen_shot_2019-05-15at113718am.png)
+   ![&#x200B; screen_shot_2019-05-15at113718am &#x200B;](assets/screen_shot_2019-05-15at113718am.png)
 
 1. Verifieer de inhoud van het dossier (plaatsen) van de tovenaar van de Invoer en klik **Invoer**.
 
-   ![ screen_shot_2019-05-12at53131am ](assets/screen_shot_2019-05-12at53131am.png)
+   ![&#x200B; screen_shot_2019-05-12at53131am &#x200B;](assets/screen_shot_2019-05-12at53131am.png)
 
 1. Hierdoor kunt u nu alle locaties weergeven die in uw project zijn geïmporteerd.
 
-   ![ screen_shot_2019-05-12at53450am ](assets/screen_shot_2019-05-12at53450am.png)
+   ![&#x200B; screen_shot_2019-05-12at53450am &#x200B;](assets/screen_shot_2019-05-12at53450am.png)

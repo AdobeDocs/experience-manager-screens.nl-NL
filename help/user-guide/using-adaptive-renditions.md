@@ -21,12 +21,12 @@ Als AEM Scrßeens Content Author kunt u nu apparaatspecifieke elementuitvoeringe
 Nadat een ontwikkelaar de eigenschappen en regels voor het toewijzen van vertoningen heeft toegevoegd, kunt u de vertoningstoewijzing toepassen op elementen en deze vervolgens opnemen in een AEM Screens-kanaal.
 
 >[!IMPORTANT]
->Voordat u begint met het gebruik van Adaptieve uitvoeringen in een AEM Screens-kanaal, raadt de Adobe u aan kennis te nemen van het architecturale overzicht en de architectuurconfiguratie van deze functie. Zie [ Aangepaste Vertoningen: Het Overzicht van de architectuur en Configuraties ](/help/user-guide/adaptive-renditions.md).
+>Voordat u begint met het gebruik van Adaptieve uitvoeringen in een AEM Screens-kanaal, raadt de Adobe u aan kennis te nemen van het architecturale overzicht en de architectuurconfiguratie van deze functie. Zie [&#x200B; Aangepaste Vertoningen: Het Overzicht van de architectuur en Configuraties &#x200B;](/help/user-guide/adaptive-renditions.md).
 
 ## Adaptieve uitvoeringen gebruiken in kanalen {#using-adaptive-renditions}
 
 >[!NOTE]
->Nadat u het [ vertoning-afbeelding bezit aan het Project van Screens ](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) en [ vertoning-afbeelding regels ](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) hebt toegevoegd, als Inhoudsauteur bent u nu klaar om de vertoningen op uw activa toe te passen.
+>Nadat u het [&#x200B; vertoning-afbeelding bezit aan het Project van Screens &#x200B;](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) en [&#x200B; vertoning-afbeelding regels &#x200B;](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) hebt toegevoegd, als Inhoudsauteur bent u nu klaar om de vertoningen op uw activa toe te passen.
 
 ### Uitvoeringen toepassen op Assets {#apply-renditions-assets}
 
@@ -34,7 +34,7 @@ Ga als volgt te werk om vertoningen toe te passen op elementen die u wilt gebrui
 
 1. Navigeer aan de **omslag van Assets** in uw AEM instantie.
 1. Maak een versie van het element die beter geschikt is voor de bewegingsweergave, bijvoorbeeld `seahorse.jpg` .
-1. Kies de vertoning noemend patroon, bijvoorbeeld, `landscape`, gelijkend op wat in **patroon** bezit in **CRXDE Lite** werd bepaald. Zie [ Toevoegend de Regels van de Afbeelding van de Vertoning ](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) voor meer details.
+1. Kies de vertoning noemend patroon, bijvoorbeeld, `landscape`, gelijkend op wat in **patroon** bezit in **CRXDE Lite** werd bepaald. Zie [&#x200B; Toevoegend de Regels van de Afbeelding van de Vertoning &#x200B;](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) voor meer details.
 1. Klik **Vertoning** toevoegen om de vertoning, zoals aangetoond in het hieronder cijfer te uploaden.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
@@ -45,7 +45,7 @@ Ga als volgt te werk om vertoningen toe te passen op elementen die u wilt gebrui
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Zie [ Update van de Inhoud op bestelling ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) om meer te leren over het beheren van Publicatie en het leveren van inhoudsupdates van Auteur aan Publish aan apparaat.
+   >Zie [&#x200B; Update van de Inhoud op bestelling &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) om meer te leren over het beheren van Publicatie en het leveren van inhoudsupdates van Auteur aan Publish aan apparaat.
 
 ## Migratiestrategie {#migration-strategy}
 
@@ -58,7 +58,7 @@ Het volgende diagram toont de migratiestrategie voor grote netwerken:
 
 Om de eigenschap toe te laten, voeg minstens één toewijzingsregel toe en zorg ervoor dat de vertoning-afbeelding configuratie in de context van vertoningen en kanalen oplosbaar is. Voer de volgende stappen uit om te migreren:
 
-1. Voeg [ Regels van de Toewijzing van de Vertoning ](/help/user-guide/adaptive-renditions.md) toe.
+1. Voeg [&#x200B; Regels van de Toewijzing van de Vertoning &#x200B;](/help/user-guide/adaptive-renditions.md) toe.
 1. Maak een map voor nieuwe kanalen en voeg een verwijzing toe naar de configuratie voor de renditie-toewijzing.
 1. Maak kanalen die de oude vervangen en upload uitvoeringen.
 1. Wijs vertoningen aan de nieuwe kanalen opnieuw toe.

@@ -92,30 +92,30 @@ Volg de onderstaande stappen om offline config voor een kanaal toe te laten:
 
 1. Inspect the channel content and check if it is requested from an AEM Instance (Online).
 
-   ![ chlimage_1-24 ](assets/chlimage_1-24.png)
+   ![&#x200B; chlimage_1-24 &#x200B;](assets/chlimage_1-24.png)
 
 1. Navigeer naar het kanaaldashboard.
 1. Klik **...** in het **INFORMATIE VAN HET KANAAL** Comité.
 
-   ![ chlimage_1-25 ](assets/chlimage_1-25.png)
+   ![&#x200B; chlimage_1-25 &#x200B;](assets/chlimage_1-25.png)
 
 1. Ga naar de kanaaleigenschappen.
 1. Onder het (Kanaal) lusje, zorg ervoor dat checkbox gehandicapt is, dan klik **sparen &amp; sluit**.
 
-   ![ screen_shot_2017-12-19at122422pm ](assets/screen_shot_2017-12-19at122422pm.png)
+   ![&#x200B; screen_shot_2017-12-19at122422pm &#x200B;](assets/screen_shot_2017-12-19at122422pm.png)
 
    Alvorens de inhoud behoorlijk aan het apparaat wordt opgesteld, klik de **Offline Inhoud van de Update**.
 
-   ![ screen_shot_2017-12-19at122637pm ](assets/screen_shot_2017-12-19at122637pm.png)
+   ![&#x200B; screen_shot_2017-12-19at122637pm &#x200B;](assets/screen_shot_2017-12-19at122637pm.png)
 
    De **Off-line** status onder **EIGENSCHAPPEN** werkt ook dienovereenkomstig bij.
 
-   ![ screen_shot_2017-12-19at124735pm ](assets/screen_shot_2017-12-19at124735pm.png)
+   ![&#x200B; screen_shot_2017-12-19at124735pm &#x200B;](assets/screen_shot_2017-12-19at124735pm.png)
 
 1. Inspect de kanaalinhoud en controleer of deze wordt opgevraagd bij de lokale Player-Cache.
 
-   ![ chlimage_1-26 ](assets/chlimage_1-26.png)
+   ![&#x200B; chlimage_1-26 &#x200B;](assets/chlimage_1-26.png)
 
 >[!NOTE]
 >
->Leer over het malplaatje voor douane off-line middelmanagers. Meer informatie over de minimale vereisten in de `pom.xml` voor het project. Zie [ Malplaatje voor de Handlers van de Douane ](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Ontwikkelend een Component van de Douane voor AEM Screens**.
+>Leer over het malplaatje voor douane off-line middelmanagers. Meer informatie over de minimale vereisten in de `pom.xml` voor het project. Zie [&#x200B; Malplaatje voor de Handlers van de Douane &#x200B;](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Ontwikkelend een Component van de Douane voor AEM Screens**.

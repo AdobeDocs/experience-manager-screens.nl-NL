@@ -38,7 +38,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 1. Creeer een Project van AEM Screens dat als **wordt genoemd TakOPLoop**, zoals hieronder getoond.
 
-   ![ activa ](assets/mz-to-sz1.png)
+   ![&#x200B; activa &#x200B;](assets/mz-to-sz1.png)
 
 
 1. **Creërend een Kanaal van Screens van de multi-Zone**
@@ -47,7 +47,7 @@ Voer de onderstaande stappen uit om een project in te stellen:
    1. Klik **van het Kanaal van het Scherm van de Bar van links-L** van de tovenaar en creeer het kanaal dat als **wordt genoemd MultiZoneLayout**.
    1. Voeg inhoud toe aan het kanaal. Sleep de elementen naar elk van de zones. Het volgende voorbeeld toont a **kanaal 0&rbrace; MultiZoneLayout dat een video, een beeld, en een tekstbanner (in een ingebedde opeenvolging) omvat, zoals hieronder getoond.**
 
-   ![ activa ](assets/mz-to-sz2.png)
+   ![&#x200B; activa &#x200B;](assets/mz-to-sz2.png)
 
    >[!NOTE]
    >
@@ -56,23 +56,23 @@ Voer de onderstaande stappen uit om een project in te stellen:
 
 1. Creeer een ander kanaal dat als **wordt genoemd TakOPChannel** aan uw **omslag van Kanalen**.
 
-   ![ activa ](assets/mz-to-sz3.png)
+   ![&#x200B; activa &#x200B;](assets/mz-to-sz3.png)
 
 1. Klik **uitgeven** van de actiebar zodat kunt u inhoud aan dit kanaal toevoegen. Voeg de component van het a **Kanaal** en een beeldactiva toe die u voor dit kanaal wilt schakelen, zoals aangetoond in het hieronder cijfer:
 
-   ![ activa ](assets/mz-to-sz4.png)
+   ![&#x200B; activa &#x200B;](assets/mz-to-sz4.png)
 
 1. Open de montages voor de component van het Kanaal en punt het aan het **&#x200B;**&#x200B;kanaal MultiZoneLayout dat u in *stap 2* creeerde.
 
-   ![ activa ](assets/mz-to-sz5.png)
+   ![&#x200B; activa &#x200B;](assets/mz-to-sz5.png)
 
 1. Plaats de duur van het **gebied van de Opeenvolging** &lbrace;aan **10000 milliseconden**.
 
-   ![ activa ](assets/mz-to-sz6.png)
+   ![&#x200B; activa &#x200B;](assets/mz-to-sz6.png)
 
 1. Op dezelfde manier open de montages voor het Beeld (activa u) toevoegde en zijn duur van het **1&rbrace; gebied van de Opeenvolging &lbrace;aan** 3000 milliseconden **plaatsen.**
 
-   ![ activa ](assets/mz-to-sz7.png)
+   ![&#x200B; activa &#x200B;](assets/mz-to-sz7.png)
 
 ## De voorvertoning controleren {#checking-the-preview}
 

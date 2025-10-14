@@ -28,7 +28,7 @@ De volgende stappen vatten de procedure voor vestiging ACLs voor een project sam
 
 1. Login aan AEM en navigeer aan **Hulpmiddelen** > **Veiligheid**.
 
-   ![ screen_shot_2018-02-16at10156pm ](assets/screen_shot_2018-02-16at10156pm.png)
+   ![&#x200B; screen_shot_2018-02-16at10156pm &#x200B;](assets/screen_shot_2018-02-16at10156pm.png)
 
 1. Klik **Groepen** en ga identiteitskaart (bijvoorbeeld, Toegang) in.
 
@@ -36,15 +36,15 @@ De volgende stappen vatten de procedure voor vestiging ACLs voor een project sam
 
    Daarna, klik **sparen**.
 
-   ![ screen_shot_2018-02-16at12648pm ](assets/screen_shot_2018-02-16at12648pm.png)
+   ![&#x200B; screen_shot_2018-02-16at12648pm &#x200B;](assets/screen_shot_2018-02-16at12648pm.png)
 
 1. Klik **Medewerkers** van de lijst en klik het tweemaal.
 
-   ![ screen_shot_2018-02-18at33938pm ](assets/screen_shot_2018-02-18at33938pm.png)
+   ![&#x200B; screen_shot_2018-02-18at33938pm &#x200B;](assets/screen_shot_2018-02-18at33938pm.png)
 
 1. Voeg de **Toegang** (project dat u) creeerde toe **leden aan de Groep** toevoegen. Klik **sparen**.
 
-   ![ screen_shot_2018-02-18at35630pm ](assets/screen_shot_2018-02-18at35630pm.png)
+   ![&#x200B; screen_shot_2018-02-18at35630pm &#x200B;](assets/screen_shot_2018-02-18at35630pm.png)
 
    >[!NOTE]
    >
@@ -52,13 +52,13 @@ De volgende stappen vatten de procedure voor vestiging ACLs voor een project sam
 
 1. Voeg alle gebruikers toe die aan het **Acme** Project aan de **Acme** groep werken.
 
-   ![ screen_shot_2018-02-18at41320pm ](assets/screen_shot_2018-02-18at41320pm.png)
+   ![&#x200B; screen_shot_2018-02-18at41320pm &#x200B;](assets/screen_shot_2018-02-18at41320pm.png)
 
 1. Opstelling de toestemmingen voor de groep **Toegang** gebruikend dit `(http://localhost:4502/useradmin)`.
 
    Klik de groep **Toegang** en klik de **toestemmingen**.
 
-   ![ screen_shot_2018-02-18at41534pm ](assets/screen_shot_2018-02-18at41534pm.png)
+   ![&#x200B; screen_shot_2018-02-18at41534pm &#x200B;](assets/screen_shot_2018-02-18at41534pm.png)
 
 ### Machtigingen {#permissions}
 

@@ -24,7 +24,7 @@ Met de apparaatconsole hebt u toegang tot de apparaatmanager om uw apparaat aan 
 
 >[!CAUTION]
 >
->Registreer het voordat u het apparaat toewijst. Zie [ Registratie van het Apparaat ](device-registration.md).
+>Registreer het voordat u het apparaat toewijst. Zie [&#x200B; Registratie van het Apparaat &#x200B;](device-registration.md).
 
 ## Apparaattoewijzing {#device-assignment}
 
@@ -34,30 +34,30 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 
    `http://localhost:4502/screens.html/content/screens/TestProject`
 
-   ![ chlimage_1-32 ](assets/chlimage_1-32.png)
+   ![&#x200B; chlimage_1-32 &#x200B;](assets/chlimage_1-32.png)
 
 1. Klik uw **omslag van Apparaten** en klik **Manager van het Apparaat** in de actiebar. De toegewezen en niet toegewezen apparatenvertoning.
 
-   ![ chlimage_1-33 ](assets/chlimage_1-33.png)
+   ![&#x200B; chlimage_1-33 &#x200B;](assets/chlimage_1-33.png)
 
 1. Klik een niet toegewezen apparaat van de lijst, dan in de actiebar, klik **toewijzen Apparaat**.
 
-   ![ chlimage_1-34 ](assets/chlimage_1-34.png)
+   ![&#x200B; chlimage_1-34 &#x200B;](assets/chlimage_1-34.png)
 
 1. Klik de vertoning die u het apparaat aan van de lijst wilt toewijzen, en **klikken toewijzen**.
 
-   ![ chlimage_1-35 ](assets/chlimage_1-35.png)
+   ![&#x200B; chlimage_1-35 &#x200B;](assets/chlimage_1-35.png)
 
 1. Klik de **Afwerking** om het taakproces te voltooien.
 
 
    Het vertoningsdashboard toont het toegewezen apparaat in het **paneel van APPARATEN**.
 
-   ![ chlimage_1-37 ](assets/chlimage_1-37.png)
+   ![&#x200B; chlimage_1-37 &#x200B;](assets/chlimage_1-37.png)
 
    Klik (**...**) op de hoogste-juiste hoek van het **3&rbrace; paneel van APPARATEN &lbrace;om of apparaat toe te voegen config of de apparaten bij te werken.**
 
-   ![ chlimage_1-38 ](assets/chlimage_1-38.png)
+   ![&#x200B; chlimage_1-38 &#x200B;](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
@@ -65,8 +65,8 @@ Voer de onderstaande stappen uit om een apparaat aan een scherm toe te wijzen:
 >&#x200B;>Bijvoorbeeld, als de naam van de projectknoop *wij-kleinhandel* is, dan is de naam van de gebruikersgroep *schermen-wij-retail-apparaten*.
 >&#x200B;>Deze groep wordt toegevoegd als lid van de **Groep van Medewerkers**, zoals aangetoond in het hieronder cijfer:
 
-![ chlimage_1-39 ](assets/chlimage_1-39.png)
+![&#x200B; chlimage_1-39 &#x200B;](assets/chlimage_1-39.png)
 
 ### De volgende stappen {#the-next-steps}
 
-Nadat u met het toewijzen van kanaal aan een vertoning vertrouwd bent, zie het [ Monitor en los ](monitoring-screens.md) problemen op.
+Nadat u met het toewijzen van kanaal aan een vertoning vertrouwd bent, zie het [&#x200B; Monitor en los &#x200B;](monitoring-screens.md) problemen op.

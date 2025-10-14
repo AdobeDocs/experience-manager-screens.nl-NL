@@ -58,7 +58,7 @@ Met deze module kunt u:
 1. Downloads van inhoud beheren
 1. Problemen met het opnieuw opstarten van toepassingen beheren
 
-Om in detail over het ***Centrum van de Controle van het Apparaat*** te leren, zie [ Centrum van de Controle van het Apparaat van het Oplossen van problemen ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Gids van de Gebruiker van AEM Screens**.
+Om in detail over het ***Centrum van de Controle van het Apparaat*** te leren, zie [&#x200B; Centrum van de Controle van het Apparaat van het Oplossen van problemen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Gids van de Gebruiker van AEM Screens**.
 
 >[!CAUTION]
 >

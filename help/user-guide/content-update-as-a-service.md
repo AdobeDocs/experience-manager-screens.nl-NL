@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
 1. Ga naar uw AEM Screens-project.
 1. Klik het project en klik **Offline Inhoud van de Update** van de actiebar om de kanaalinhoud manueel bij te werken.
 
-   ![ screen_shot_2018-04-24at122256pm ](assets/screen_shot_2018-04-24at122256pm.png)
+   ![&#x200B; screen_shot_2018-04-24at122256pm &#x200B;](assets/screen_shot_2018-04-24at122256pm.png)
 
 ### Configuratie Adobe Experience Manager-webconsole {#adobe-experience-manager-web-console-configuration}
 
@@ -57,7 +57,7 @@ Voer de onderstaande stappen uit om bulksgewijs offline bij te werken voor een A
 1. Configuratie Adobe Experience Manager-webconsole.
 1. Zoeken naar bulksgewijs offline updateservices.
 
-   ![ screen_shot_2018-04-24at121428pm ](assets/screen_shot_2018-04-24at121428pm.png)
+   ![&#x200B; screen_shot_2018-04-24at121428pm &#x200B;](assets/screen_shot_2018-04-24at121428pm.png)
 
 1. Voeg de volgende eigenschappen toe:
 

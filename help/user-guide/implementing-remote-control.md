@@ -44,7 +44,7 @@ U kunt de externe hardware of de externe software die beschikbaar is in Samsung 
 1. Met de open kanaalschakelaar, kunt u de op en neer pijlsleutels gebruiken om de kanalen te navigeren. U kunt ook op de toets `Enter` (of op de knop in het midden van de pijlen op de afstandsbediening) drukken om te schakelen tussen kanalen.
 
 In het volgende diagram wordt het sleutelgebruik op een Samsung-afstandsbediening geïllustreerd:
-![ beeld ](assets/tizen/remote.png)
+![&#x200B; beeld &#x200B;](assets/tizen/remote.png)
 
 >[!NOTE]
 >Als u de configuratiewaarden voor het apparaat van enableAdminUI en/of enableOSD instelt op false, schakelt de externe server de interface van Admin en de kanaalschakelaar niet in. U kunt niet met de pijltoetsen door de interface van Admin of kanalen navigeren. U kunt de cache echter wel wissen en de speler opnieuw laden. U kunt de functie voor besturing op afstand uitschakelen als een van de toetsenbordcombinaties conflicteert met uw interactieve inhoud met deze code:

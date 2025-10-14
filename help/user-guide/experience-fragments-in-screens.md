@@ -59,7 +59,7 @@ A **DemoProject** wordt toegevoegd aan uw AEM Screens.
 1. Ga de **Titel** als **TestChannel** in en klik **creeer**.
 
 A **TestChannel** wordt toegevoegd aan uw **DemoProject**.\
-![ screen_shot_2019-07-29at105101am ](assets/screen_shot_2019-07-29at105101am.png)
+![&#x200B; screen_shot_2019-07-29at105101am &#x200B;](assets/screen_shot_2019-07-29at105101am.png)
 
 
 ### Een ervaringsfragment maken {#creating-an-experience-fragment}
@@ -77,7 +77,7 @@ Volg hieronder de stappen om de inhoud van **`We.Retail`** op uw **TestChannel**
    1. Klik op het fragment dat u in het kanaal wilt opnemen.
    1. Klik het laatste pictogram van het recht zodat kunt u **Bekeerling in de dialoogdoos van het Fragment van de Ervaring** openen.
 
-   ![ screen_shot_2019-07-29at105314am ](assets/screen_shot_2019-07-29at105314am.png)
+   ![&#x200B; screen_shot_2019-07-29at105314am &#x200B;](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Creërend een Fragment van de Ervaring**
 
@@ -90,7 +90,7 @@ Volg hieronder de stappen om de inhoud van **`We.Retail`** op uw **TestChannel**
 
    1. Klik op het vinkje om het maken van een nieuw ervaringsfragment te voltooien.
 
-   ![ screen_shot_2019-07-29at105918am ](assets/screen_shot_2019-07-29at105918am.png)
+   ![&#x200B; screen_shot_2019-07-29at105918am &#x200B;](assets/screen_shot_2019-07-29at105918am.png)
 
    Als u een eenvoudigere optie wilt selecteren, klikt u op het vinkje rechts van het veld, zodat u het dialoogvenster Selecteren kunt openen.
 
@@ -99,7 +99,7 @@ Volg hieronder de stappen om de inhoud van **`We.Retail`** op uw **TestChannel**
    1. Navigeer naar de AEM startpagina.
    1. Klik **Fragmenten van de Ervaring** en benadruk **ScreensFragment** en klik **Variatie als levende-exemplaar**, zoals aangetoond in het hieronder cijfer:
 
-   ![ screen_shot_2019-07-29at110443am ](assets/screen_shot_2019-07-29at110443am.png)
+   ![&#x200B; screen_shot_2019-07-29at110443am &#x200B;](assets/screen_shot_2019-07-29at110443am.png)
 
    c. Klik **ScreensFragment** van **creeer Levende tovenaar van het Exemplaar** en klik **daarna**.
 
@@ -109,7 +109,7 @@ Volg hieronder de stappen om de inhoud van **`We.Retail`** op uw **TestChannel**
 
    f. Klik **Gedaan** zodat kunt u zich naar de **ScreenFragment** pagina bewegen.
 
-   ![ screen_shot_2019-07-29at110616am ](assets/screen_shot_2019-07-29at110616am.png)
+   ![&#x200B; screen_shot_2019-07-29at110616am &#x200B;](assets/screen_shot_2019-07-29at110616am.png)
 
    >[!NOTE]
    >
@@ -123,7 +123,7 @@ Volg hieronder de stappen om de inhoud van **`We.Retail`** op uw **TestChannel**
 
    U kunt de **cliënt-zijBibliotheken** (Java™ en CSS) en **Statische Dossiers** aan uw Fragment van de Ervaring toevoegen.
 
-   In het volgende voorbeeld ziet u de toevoeging van bibliotheken aan de clientzijde en de lettertypen als onderdeel van statische bestanden aan uw Experience Fragment.  ![ fragment ](assets/fragment.gif)
+   In het volgende voorbeeld ziet u de toevoeging van bibliotheken aan de clientzijde en de lettertypen als onderdeel van statische bestanden aan uw Experience Fragment.  ![&#x200B; fragment &#x200B;](assets/fragment.gif)
 
 1. **Gebruikend het Fragment van de Ervaring als Component in het Kanaal van Screens**
 
@@ -133,17 +133,17 @@ Volg hieronder de stappen om de inhoud van **`We.Retail`** op uw **TestChannel**
    1. Klik op het componentpictogram op het zijtabblad.
    1. De belemmering en laat vallen het **Fragment van de Ervaring** aan uw kanaal.
 
-   ![ screen_shot_2019-07-29at123115pm ](assets/screen_shot_2019-07-29at123115pm.png)
+   ![&#x200B; screen_shot_2019-07-29at123115pm &#x200B;](assets/screen_shot_2019-07-29at123115pm.png)
 
    e. Klik de **component van het Fragment van de Ervaring 0&rbrace; &lbrace;en klik het hoogste linker (moersleutel) pictogram zodat kunt u het** de dialoogvakje van het Fragment van de Ervaring **openen.**
 
    f. Klik het **Levende Exemplaar van Screens** van het fragment dat u in *Stap 3* in **Weg** creeerde.
 
-   ![ screen_shot_2019-07-26at82650pm ](assets/screen_shot_2019-07-26at82650pm.png)
+   ![&#x200B; screen_shot_2019-07-26at82650pm &#x200B;](assets/screen_shot_2019-07-26at82650pm.png)
 
    f. Klik het **Levende Exemplaar van Screens** van het fragment dat u in *Stap 3* in het **Fragment van de Ervaring** creeerde.
 
-   ![ screen_shot_2019-07-26at82509pm ](assets/screen_shot_2019-07-26at82509pm.png)
+   ![&#x200B; screen_shot_2019-07-26at82509pm &#x200B;](assets/screen_shot_2019-07-26at82509pm.png)
 
    h. Ga de milliseconden in **Duur** in.
 
@@ -153,7 +153,7 @@ Volg hieronder de stappen om de inhoud van **`We.Retail`** op uw **TestChannel**
    >
    >Om cliënt-zijbibliotheken, of de statische dossiers naast toe te voegen wat u in stap (4) vormde, kunt u van het **Off-line lusje Config** in het **de dialoogvakje van het Fragment van de Ervaring** toevoegen.
 
-   ![ screen_shot_2019-07-26at82844pm ](assets/screen_shot_2019-07-26at82844pm.png)
+   ![&#x200B; screen_shot_2019-07-26at82844pm &#x200B;](assets/screen_shot_2019-07-26at82844pm.png)
 
    j. Klik op het vinkje zodat u het proces kunt voltooien.
 
@@ -165,7 +165,7 @@ Na voltooiing van de voorafgaande stappen, kunt u uw Fragment van de Ervaring in
 1. Het selecteren van **Voorproef** van de actiebar.
 
 Bekijk de inhoud van de **pagina van Plaatsen** (levend-exemplaar van het Fragment van de Ervaring) in uw kanaal, zoals aangetoond in het hieronder cijfer:\
-![ screen_shot_2018-06-08at120739pm ](assets/screen_shot_2018-06-08at120739pm.png)
+![&#x200B; screen_shot_2018-06-08at120739pm &#x200B;](assets/screen_shot_2018-06-08at120739pm.png)
 
 ## Wijzigingen op de pagina doorgeven {#propagating-changes-from-the-master-page}
 
@@ -181,29 +181,29 @@ Voer de onderstaande stappen uit om wijzigingen van het primaire kanaal naar het
 
 1. Klik het Fragment van de Ervaring van de **(primaire) pagina van Plaatsen** en klik het potloodpictogram zodat kunt u de punten in het Fragment van de Ervaring uitgeven.
 
-   ![ screen_shot_2018-06-08at122655pm ](assets/screen_shot_2018-06-08at122655pm.png)
+   ![&#x200B; screen_shot_2018-06-08at122655pm &#x200B;](assets/screen_shot_2018-06-08at122655pm.png)
 
 1. Klik op het fragment Ervaring en klik op het moersleutelpictogram zodat u het dialoogvenster kunt openen om de afbeeldingen te bewerken.
 
-   ![ screen_shot_2018-06-08at25031pm ](assets/screen_shot_2018-06-08at25031pm.png)
+   ![&#x200B; screen_shot_2018-06-08at25031pm &#x200B;](assets/screen_shot_2018-06-08at25031pm.png)
 
 1. Het **de dialoogvakje van het Net van het Product van 0&rbrace; &lbrace;opent.**
 
-   ![ screen_shot_2018-06-08at25306pm ](assets/screen_shot_2018-06-08at25306pm.png)
+   ![&#x200B; screen_shot_2018-06-08at25306pm &#x200B;](assets/screen_shot_2018-06-08at25306pm.png)
 
 1. U kunt alle afbeeldingen bewerken. Hier wordt bijvoorbeeld de eerste afbeelding in dit fragment vervangen.
 
-   ![ screen_shot_2018-06-08at25608pm ](assets/screen_shot_2018-06-08at25608pm.png)
+   ![&#x200B; screen_shot_2018-06-08at25608pm &#x200B;](assets/screen_shot_2018-06-08at25608pm.png)
 
 1. Klik op het fragment Ervaring en klik op het pictogram Uitvoer, zodat u wijzigingen kunt doorgeven aan het fragment dat in het kanaal wordt gebruikt.
 
-   ![ screen_shot_2018-06-08at31352pm ](assets/screen_shot_2018-06-08at31352pm.png)
+   ![&#x200B; screen_shot_2018-06-08at31352pm &#x200B;](assets/screen_shot_2018-06-08at31352pm.png)
 
 1. Klik op Uitvoeren.
 
    De wijzigingen worden uitgevoerd.
 
-   ![ screen_shot_2018-06-08at32148pm ](assets/screen_shot_2018-06-08at32148pm.png)
+   ![&#x200B; screen_shot_2018-06-08at32148pm &#x200B;](assets/screen_shot_2018-06-08at32148pm.png)
 
 ### De wijzigingen valideren {#validating-the-changes}
 
@@ -214,4 +214,4 @@ Voer de onderstaande stappen uit om de wijzigingen in uw kanaal te bevestigen:
 1. Klik **Voorproef** van de actiebar.
 
 Het volgende beeld illustreert de veranderingen in uw **TestChannel**:\
-![ screen_shot_2018-06-08at33351pm ](assets/screen_shot_2018-06-08at33351pm.png)
+![&#x200B; screen_shot_2018-06-08at33351pm &#x200B;](assets/screen_shot_2018-06-08at33351pm.png)

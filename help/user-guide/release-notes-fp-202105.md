@@ -21,7 +21,7 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack 8 uitgebracht.
 
-U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.8 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP8**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.8 Versie van het [&#x200B; Portaal van de Distributie van de Software &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
 >Installeer de minimale versie van AEM 6.5 Feature Pack 8 voor de AMS-connector die werkt nadat u de pakketten `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` en `screens core bundles` hebt geïnstalleerd.
@@ -69,4 +69,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigen
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/index.html)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/index.html)**.

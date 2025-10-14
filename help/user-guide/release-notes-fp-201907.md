@@ -36,13 +36,13 @@ De releasedatum voor AEM Screens Feature Pack 201907 is 31 juli 2019.
 De speler schakelt over naar een kanaal dat informatie over noodgevallen weergeeft. Het noodsysteem verzendt deze informatie wanneer het een gebeurtenis ontvangt. Het kanaal speelt uitsluitend tot de noodsituatie voorbij is.
 
 
-Zie [ het gebruikscase van het Kanaal van de Noodsituatie ](emergency-channel.md) voor implementatie.
+Zie [&#x200B; het gebruikscase van het Kanaal van de Noodsituatie &#x200B;](emergency-channel.md) voor implementatie.
 
 * **Doelstelling ingeschakeld voor asynchrone componenten
 
 Het richten kan nu voor activa worden toegelaten die in het project van AEM Screens worden gebruikt.
 
-Meer over leren hoe u het richten voor activa in het project van AEM Screens kunt toelaten, zie [ het Vormen ContextHub in AEM Screens ](configuring-context-hub.md).
+Meer over leren hoe u het richten voor activa in het project van AEM Screens kunt toelaten, zie [&#x200B; het Vormen ContextHub in AEM Screens &#x200B;](configuring-context-hub.md).
 
 Nadat u ContextHub voor uw project van AEM Screens hebt gevormd, volg verschillende gebruiksgevallen om te begrijpen hoe de gegevens teweeggebrachte activa een vitale rol in verschillende industrieën spelen:
 
@@ -59,11 +59,11 @@ De updatehandler parseert nu de ervaringsfragmenten en verzamelt alle afbeelding
 * **Lanceringen**
 
 Met Launches kunnen auteurs van inhoud toekomstige versies van de kanalen maken. Met behulp van Launches kunnen auteurs elk kanaal voorvertonen tijdens het starten en een verzoek om revisie starten. De groep van fiatteurs krijgt bericht en kan het verzoek goedkeuren of verwerpen. Wanneer de actieve datum is bereikt, wordt de inhoud op de apparaten afgespeeld.
-Zie [ Lanceringen ](launches.md) voor meer details.
+Zie [&#x200B; Lanceringen &#x200B;](launches.md) voor meer details.
 
 * **Offline Configuraties in de Fragmenten van de Ervaring**
 
-U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen terwijl u Screens Experience Fragment configureert. Zie [ Gebruikend de Fragmenten van de Ervaring ](experience-fragments-in-screens.md) voor meer details.
+U kunt nu offlineconfiguraties (client-side bibliotheken en statische bestanden) toevoegen terwijl u Screens Experience Fragment configureert. Zie [&#x200B; Gebruikend de Fragmenten van de Ervaring &#x200B;](experience-fragments-in-screens.md) voor meer details.
 
 ### Uitgebrachte AEM Screens-spelers
 
@@ -75,4 +75,4 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.4.5 Feature Pack 5
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [ Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/).
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [&#x200B; Downloads van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/).

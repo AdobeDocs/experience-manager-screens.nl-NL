@@ -55,7 +55,7 @@ De functie SmartSync biedt verschillende voordelen voor uw AEM Screens-project, 
 >
 >SmartSync is beschikbaar voor Screens Player met ondersteunde servers AEM 6.4.3 FP3.
 >
->Zie de [ Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/) om de recentste speler te downloaden. In de volgende tabel wordt de minimaal vereiste Player-versie voor elk platform beschreven:
+>Zie de [&#x200B; Downloads van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/) om de recentste speler te downloaden. In de volgende tabel wordt de minimaal vereiste Player-versie voor elk platform beschreven:
 
 | **Platform** | **Minimum Ondersteunde Versie van de Speler** |
 |---|---|
@@ -69,7 +69,7 @@ Voer de onderstaande stappen uit om van ContentSync over te schakelen op SmartSy
 
    Navigeer aan de console ContentSync van uw instantie gebruikend de verbinding ***https://localhost:4502/libs/cq/contentsync/content/console.html*** en klik **Duidelijk Geheime voorgeheugen**, zoals aangetoond in het hieronder cijfer:
 
-   ![ clear_contesync_cache ](assets/clear_contesync_cache.png)
+   ![&#x200B; clear_contesync_cache &#x200B;](assets/clear_contesync_cache.png)
 
    >[!CAUTION]
    >
@@ -77,15 +77,15 @@ Voer de onderstaande stappen uit om van ContentSync over te schakelen op SmartSy
 
 1. Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** als instantie van AEM > hamerpictogram > **Verrichtingen** > **Console van het Web**.
 
-   ![ screen_shot_2019-02-11at15339pm ](assets/screen_shot_2019-02-11at15339pm.png)
+   ![&#x200B; screen_shot_2019-02-11at15339pm &#x200B;](assets/screen_shot_2019-02-11at15339pm.png)
 
 1. **de Configuratie van de Console van het Web van Adobe Experience Manager** opent. Onderzoek naar *offline contentservice*.
 
    Om het **Off-line bezit van de Dienst van de Inhoud van Screens te zoeken**, druk **Command+F** voor **Mac**, en **Control+F** voor **Vensters**.
 
-   ![ screen_shot_2019-02-19at22643pm ](assets/screen_shot_2019-02-19at22643pm.png)
+   ![&#x200B; screen_shot_2019-02-19at22643pm &#x200B;](assets/screen_shot_2019-02-19at22643pm.png)
 
 1. Klik **sparen** om het **Offline bezit van de Diensten van de Inhoud van Screens toe te laten** en vandaar SmartSync voor AEM Screens te gebruiken.
 1. Wanneer u SmartSync hebt toegelaten, navigeer aan uw project en klik **Update Offline Inhoud** *(van de actiebar),* zoals aangetoond in het hieronder cijfer.
 
-   ![ screen_shot_2019-02-25at102605am ](assets/screen_shot_2019-02-25at102605am.png)
+   ![&#x200B; screen_shot_2019-02-25at102605am &#x200B;](assets/screen_shot_2019-02-25at102605am.png)

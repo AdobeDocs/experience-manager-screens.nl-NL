@@ -26,9 +26,9 @@ Deze zelfstudie is bedoeld voor nieuwe ontwikkelaars van AEM Screens. In deze ze
 
 >[!NOTE]
 >
->Alvorens dit leerprogramma te beginnen, wordt het geadviseerd om het leerprogramma te voltooien: [ ontwikkelend een Component van de Douane voor AEM Screens ](developing-custom-component-tutorial-develop.md).
+>Alvorens dit leerprogramma te beginnen, wordt het geadviseerd om het leerprogramma te voltooien: [&#x200B; ontwikkelend een Component van de Douane voor AEM Screens &#x200B;](developing-custom-component-tutorial-develop.md).
 
-![ de component van de Poster van de Douane ](assets/2018-05-07_at_4_09pm.png)
+![&#x200B; de component van de Poster van de Douane &#x200B;](assets/2018-05-07_at_4_09pm.png)
 
 Een `Custom Poster` -component wordt gemaakt door de component Image uit te breiden.
 
@@ -40,17 +40,17 @@ U hebt het volgende nodig om deze zelfstudie te voltooien:
 1. [AEM Screens Player](/help/user-guide/aem-screens-introduction.md)
 1. Lokale ontwikkelomgeving
 
-De stappen en schermafbeeldingen van de zelfstudie worden uitgevoerd gebruikend CRXDE-Lite. [ Eclipse ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) of [ IntelliJ ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Meer informatie bij het gebruiken van winde aan [ ontwikkelt zich met AEM kan hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup) worden gevonden.
+De stappen en schermafbeeldingen van de zelfstudie worden uitgevoerd gebruikend CRXDE-Lite. [&#x200B; Eclipse &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) of [&#x200B; IntelliJ &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij) IDEs kan ook worden gebruikt om het leerprogramma te voltooien. Meer informatie bij het gebruiken van winde aan [&#x200B; ontwikkelt zich met AEM kan hier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup) worden gevonden.
 
 ## Projectinstelling {#project-setup}
 
-De broncode van een Screens-project wordt doorgaans beheerd als een Maven-project met meerdere modules. Om het leerprogramma te versnellen, werd een project pre-geproduceerd gebruikend [ Archetype 13 van het Project van AEM ](https://github.com/adobe/aem-project-archetype). Meer details bij [ het creëren van een project met Maven het Archetype van het Project van AEM kunnen hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup) worden gevonden.
+De broncode van een Screens-project wordt doorgaans beheerd als een Maven-project met meerdere modules. Om het leerprogramma te versnellen, werd een project pre-geproduceerd gebruikend [&#x200B; Archetype 13 van het Project van AEM &#x200B;](https://github.com/adobe/aem-project-archetype). Meer details bij [&#x200B; het creëren van een project met Maven het Archetype van het Project van AEM kunnen hier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup) worden gevonden.
 
 1. Download en installeer de volgende pakketten gebruikend **het pakket van CRX beheren** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
 [Bestand ophalen](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [ krijgt Dossier ](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
+   [&#x200B; krijgt Dossier &#x200B;](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
    **naar keuze,** als het werken met Verduistering of een andere winde, download het onder bronpakket. Implementeer het project in een lokale AEM-instantie met de opdracht Maven:
 
    **`mvn -PautoInstallPackage clean install`**
@@ -64,13 +64,13 @@ De broncode van een Screens-project wordt doorgaans beheerd als een Maven-projec
    1. **`screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip`**
    1. **`screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip`**
 
-   ![ Screens Wij.Retail de pakketten van de Looppas Ui.Apps en Ui.Content die door als de Manager van het Pakket van CRX worden geïnstalleerd ](assets/crx-packages.png)
+   ![&#x200B; Screens Wij.Retail de pakketten van de Looppas Ui.Apps en Ui.Content die door als de Manager van het Pakket van CRX worden geïnstalleerd &#x200B;](assets/crx-packages.png)
 
    AEM Screens `We.Retail Run Ui.Apps` - en `Ui.Content` -pakketten geïnstalleerd via CRX Package Manager
 
 ## De postercomponent maken {#poster-cmp}
 
-De postercomponent breidt de uit-van-de-doos AEM Screens-afbeeldingscomponent uit. Een mechanisme van Verdelen, `sling:resourceSuperType`, wordt gebruikt om de kernfunctionaliteit van de component van het Beeld te erven zonder het moeten kopiëren en kleven. Meer informatie over de grondbeginselen van [ Verwerking van het Verzoek van de Verkoop kan hier worden gevonden.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
+De postercomponent breidt de uit-van-de-doos AEM Screens-afbeeldingscomponent uit. Een mechanisme van Verdelen, `sling:resourceSuperType`, wordt gebruikt om de kernfunctionaliteit van de component van het Beeld te erven zonder het moeten kopiëren en kleven. Meer informatie over de grondbeginselen van [&#x200B; Verwerking van het Verzoek van de Verkoop kan hier worden gevonden.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertoning/Productie. In de bewerkingsmodus is het belangrijk dat de component anders wordt gerenderd om het ontwerpen van het kanaal Volgorde te vergemakkelijken.
 
@@ -87,7 +87,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
        componentGroup="We.Retail Run - Content"/>
    ```
 
-   ![ Eigenschappen voor /apps/weretail-looppas/components/content/poster ](assets/poster.png)
+   ![&#x200B; Eigenschappen voor /apps/weretail-looppas/components/content/poster &#x200B;](assets/poster.png)
 
    Eigenschappen voor /apps/weretail-run/components/content/poster
 
@@ -97,7 +97,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
    Werk de eigenschap `sling:resourceType` op het knooppunt `cq:editConfig/cq:dropTargets/image/parameters` bij tot gelijk aan `weretail-run/components/content/poster` .
 
-   ![ geef-config uit ](assets/edit-config.png)
+   ![&#x200B; geef-config uit &#x200B;](assets/edit-config.png)
 
    XML-representatie van de afbeelding `cq:editConfig` hieronder weergegeven:
 
@@ -129,7 +129,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
    1. Het dialoogvenster kopiëren van: `/libs/wcm/foundation/components/image/cq:dialog`
    1. Het dialoogvenster onder plakken `/apps/weretail-run/components/content/poster`
 
-   ![ gekopieerde dialoog van /libs/wcm/foundation/components/image/cq:dialoog aan /apps/weretail-run/components/content/poster ](assets/2018-05-03_at_4_13pm.png)
+   ![&#x200B; gekopieerde dialoog van /libs/wcm/foundation/components/image/cq:dialoog aan /apps/weretail-run/components/content/poster &#x200B;](assets/2018-05-03_at_4_13pm.png)
 
    Gekopieerd dialoogvenster van `/libs/wcm/foundation/components/image/cq:dialog` tot `/apps/weretail-run/components/content/poster`
 
@@ -242,7 +242,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
    Er worden twee klikvelden toegevoegd aan het dialoogvenster, Tekstpositie en Tekstkleur, zodat de auteur de positie van de tekst en de kleur van de titel en de beschrijving kan bepalen.
 
-   ![ Poster - de Definitieve Structuur van de Dialoog ](assets/2018-05-03_at_4_49pm.png)
+   ![&#x200B; Poster - de Definitieve Structuur van de Dialoog &#x200B;](assets/2018-05-03_at_4_49pm.png)
 
    Poster - Definitieve structuur van dialoogvenster
 
@@ -284,7 +284,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
    Een logo wordt ook als een bedekking opgenomen in de component. In dit voorbeeld, is de weg aan het ` We.Retail` embleem hard-gecodeerd in DAM. Afhankelijk van het geval van het gebruik, zou het nuttiger kunnen zijn om een dialoogvakje tot stand te brengen om van de logoweg een dynamisch bevolkte waarde te maken.
 
-   Merk ook op dat BEM-notatie (Block Element Modifier) wordt gebruikt met de component. BEM is een CSS-coderingsconventie die het gemakkelijker maakt om herbruikbare componenten te maken. BEM is de aantekening die door [ wordt gebruikt de Componenten van de Kern van AEM ](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   Merk ook op dat BEM-notatie (Block Element Modifier) wordt gebruikt met de component. BEM is een CSS-coderingsconventie die het gemakkelijker maakt om herbruikbare componenten te maken. BEM is de aantekening die door [&#x200B; wordt gebruikt de Componenten van de Kern van AEM &#x200B;](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. Een bestand maken onder de naam `/apps/weretail-run/components/content/poster` `edit.html.`
 
@@ -314,7 +314,7 @@ De postercomponent wordt op volledig scherm weergegeven in de modus Voorvertonin
 
 ## Client-Side bibliotheken maken {#clientlibs}
 
-Client-Side Libraries bieden een mechanisme voor het organiseren en beheren van CSS- en JavaScript-bestanden die nodig zijn voor een AEM-implementatie. Meer informatie over het gebruiken van [ cliënt-Kant Bibliotheken kan hier worden gevonden.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+Client-Side Libraries bieden een mechanisme voor het organiseren en beheren van CSS- en JavaScript-bestanden die nodig zijn voor een AEM-implementatie. Meer informatie over het gebruiken van [&#x200B; cliënt-Kant Bibliotheken kan hier worden gevonden.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in de modus Voorbeeld/productie. Er worden twee sets met clientbibliotheken gemaakt: een voor de bewerkingsmodus en een tweede voor Voorvertoning/Productie.
 
@@ -322,24 +322,24 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
 
    Onder `/apps/weretail-run/components/content/poster` maakt u een map met de naam `clientlibs` .
 
-   ![ 2018-05-03_at_1008pm ](assets/2018-05-03_at_1008pm.png)
+   ![&#x200B; 2018-05-03_at_1008pm &#x200B;](assets/2018-05-03_at_1008pm.png)
 
 1. Onder de map `clientlibs` maakt u een knooppunt met de naam `shared` of type `cq:ClientLibraryFolder.` .
 
-   ![ 2018-05-03_at_1011pm ](assets/2018-05-03_at_1011pm.png)
+   ![&#x200B; 2018-05-03_at_1011pm &#x200B;](assets/2018-05-03_at_1011pm.png)
 
 1. Voeg de volgende eigenschappen toe aan de gedeelde clientbibliotheek:
 
    * `allowProxy` | Boolean | `true`
    * `categories` | String [] | `cq.screens.components`
 
-   ![ Eigenschappen voor /apps/weretail-looppas/components/content/poster/clientlibs/shared ](assets/2018-05-03_at_1026pm-1.png)
+   ![&#x200B; Eigenschappen voor /apps/weretail-looppas/components/content/poster/clientlibs/shared &#x200B;](assets/2018-05-03_at_1026pm-1.png)
 
    Eigenschappen voor /apps/weretail-run/components/content/poster/clientlibs/shared
 
    De eigenschap `categories` is een tekenreeks die de clientbibliotheek identificeert. De categorie `cq.screens.components` wordt gebruikt in zowel de modus Bewerken als de modus Voorbeeld/productie. Daarom wordt elke CSS/JS die in de `shared` clientlib is gedefinieerd, in alle modi geladen.
 
-   U kunt het beste paden nooit rechtstreeks toegankelijk maken voor `/apps` in een productieomgeving. De eigenschap `allowProxy` zorgt ervoor dat naar de CSS- en JS-clientbibliotheek wordt verwezen via een voorvoegsel van `/etc.clientlibs` . Meer informatie over het [ allowProxy bezit kan hier worden gevonden.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   U kunt het beste paden nooit rechtstreeks toegankelijk maken voor `/apps` in een productieomgeving. De eigenschap `allowProxy` zorgt ervoor dat naar de CSS- en JS-clientbibliotheek wordt verwezen via een voorvoegsel van `/etc.clientlibs` . Meer informatie over het [&#x200B; allowProxy bezit kan hier worden gevonden.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Maak een bestand met de naam `css.txt` onder de gedeelde map.
 
@@ -353,9 +353,9 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
 
 1. Maak een map met de naam `css` onder de map `shared` . Voeg een bestand met de naam `style.less` toe onder de map `css` . De structuur van de clientbibliotheken moet er nu als volgt uitzien:
 
-   ![ 2018-05-03_at_1057pm ](assets/2018-05-03_at_1057pm.png)
+   ![&#x200B; 2018-05-03_at_1057pm &#x200B;](assets/2018-05-03_at_1057pm.png)
 
-   In plaats van CSS rechtstreeks te schrijven, gebruikt deze zelfstudie LESS. [ LESS ](https://lesscss.org/) is populaire CSS pre-compiler die CSS variabelen, mixins, en functies steunt. AEM-clientbibliotheken bieden native ondersteuning voor LESS-compilatie. U kunt de Klasse of andere pre-compilers gebruiken, maar u moet hen buiten AEM compileren.
+   In plaats van CSS rechtstreeks te schrijven, gebruikt deze zelfstudie LESS. [&#x200B; LESS &#x200B;](https://lesscss.org/) is populaire CSS pre-compiler die CSS variabelen, mixins, en functies steunt. AEM-clientbibliotheken bieden native ondersteuning voor LESS-compilatie. U kunt de Klasse of andere pre-compilers gebruiken, maar u moet hen buiten AEM compileren.
 
 1. Vul `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` met het volgende:
 
@@ -416,13 +416,13 @@ AEM Screens-componenten worden in de bewerkingsmodus anders weergegeven dan in d
 
 1. Kopieer de clientbibliotheekmap van `shared` . Plak het bestand op hetzelfde niveau en wijzig de naam in `production` .
 
-   ![ 2018-05-03_at_1114pm ](assets/2018-05-03_at_1114pm.png)
+   ![&#x200B; 2018-05-03_at_1114pm &#x200B;](assets/2018-05-03_at_1114pm.png)
 
 1. De eigenschap `categories` van de productieclientbibliotheek bijwerken naar `cq.screens.components.production.`
 
    De categorie `cq.screens.components.production` zorgt ervoor dat de stijlen alleen worden geladen in de modus Voorbeeld/productie.
 
-   ![ Eigenschappen voor /apps/weretail-looppas/components/content/poster/clientlibs/production ](assets/2018-04-30_at_5_04pm.png)
+   ![&#x200B; Eigenschappen voor /apps/weretail-looppas/components/content/poster/clientlibs/production &#x200B;](assets/2018-04-30_at_5_04pm.png)
 
    Eigenschappen voor /apps/weretail-run/components/content/poster/clientlibs/production
 
@@ -496,15 +496,15 @@ De component Poster wordt gebruikt op een kanaal van de Opeenvolging. Het startp
 1. Open het kanaal Niet actief vanuit het project `We.Retail` Uitvoeren: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Sleep + Daling een nieuw geval van de **component van de Poster** van de zijbar op de pagina.
 
-   ![ 2018-05-07_at_3_23pm ](assets/2018-05-07_at_3_23pm.png)
+   ![&#x200B; 2018-05-07_at_3_23pm &#x200B;](assets/2018-05-07_at_3_23pm.png)
 
 1. Bewerk het dialoogvenster van de postercomponent zodat u een afbeelding, titel, beschrijving kunt toevoegen. Gebruik de opties Tekstpositie en Tekstkleur om ervoor te zorgen dat de titel/beschrijving op de afbeelding kan worden gelezen.
 
-   ![ 2018-05-07_at_3_25pm ](assets/2018-05-07_at_3_25pm.png)
+   ![&#x200B; 2018-05-07_at_3_25pm &#x200B;](assets/2018-05-07_at_3_25pm.png)
 
 1. Herhaal de bovenstaande stappen om enkele postercomponenten toe te voegen. Voeg overgangen toe tussen de componenten.
 
-   ![ 2018-05-07_at_3_28pm ](assets/2018-05-07_at_3_28pm.png)
+   ![&#x200B; 2018-05-07_at_3_28pm &#x200B;](assets/2018-05-07_at_3_28pm.png)
 
 ## Alles samenvoegen {#putting-it-all-together}
 

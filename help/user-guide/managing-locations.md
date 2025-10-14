@@ -41,7 +41,7 @@ Nadat u uw project voor Screens hebt gemaakt, volgt u de onderstaande stappen om
 
 Zie de onderstaande stappen voor meer informatie over het maken van een locatie voor een AEM Screens-project. Voor demonstratiedoeleinden, wordt de nieuwe plaats (SanJose) gecreeerd onder *DemoProject*.
 
-![ player2 ](assets/player2.gif)
+![&#x200B; player2 &#x200B;](assets/player2.gif)
 
 Nadat u een locatie hebt gemaakt, maakt u een weergave voor uw locatie.
 
@@ -52,10 +52,10 @@ De eigenschappen van een locatie bewerken/openen:
 1. Klik op de locatie.
 1. Klik **Eigenschappen** van de actiebar.
 
-![ player3 ](assets/player3.gif)
+![&#x200B; player3 &#x200B;](assets/player3.gif)
 
 #### De volgende stappen {#the-next-steps}
 
 Nadat u een locatie hebt gemaakt, maakt u een weergave voor uw locatie.
 
-Zie [ Creërend en het Leiden Vertoningen ](managing-displays.md).
+Zie [&#x200B; Creërend en het Leiden Vertoningen &#x200B;](managing-displays.md).

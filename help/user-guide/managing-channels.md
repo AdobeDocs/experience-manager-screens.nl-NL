@@ -33,15 +33,15 @@ Nadat u uw project voor AEM Screens hebt gemaakt, volgt u de onderstaande stappe
 
 1. Klik **creëren** van de actiebar.
 
-   ![ demochannel ](assets/create-channel1.png)
+   ![&#x200B; demochannel &#x200B;](assets/create-channel1.png)
 
 1. Klik het **malplaatje van het Kanaal van de Opeenvolging 1&rbrace; van** creëren **tovenaar en klik** daarna **.**
 
-   ![ demochannel ](assets/create-channel2.png)
+   ![&#x200B; demochannel &#x200B;](assets/create-channel2.png)
 
 1. Ga Titel als **ScreensChannel** in en klik **creeer**.
 
-   ![ demochannel ](assets/create-project4.png)
+   ![&#x200B; demochannel &#x200B;](assets/create-project4.png)
 
 1. Een kanaal van de Opeenvolging wordt nu toegevoegd aan uw **omslag van Kanalen**.
 
@@ -74,7 +74,7 @@ De volgende sjabloonopties zijn beschikbaar wanneer u de wizard gebruikt, zoals:
 U kunt een kanaal bewerken, weergeven, eigenschappen en dashboard, kopiëren, voorvertonen en verwijderen.
 
 
-![ screen_shot_2019-07-24at103723am ](assets/screen_shot_2019-07-24at103723am.png)
+![&#x200B; screen_shot_2019-07-24at103723am &#x200B;](assets/screen_shot_2019-07-24at103723am.png)
 
 ### Inhoud toevoegen aan of bewerken in een kanaal {#adding-editing-content-to-a-channel}
 
@@ -86,7 +86,7 @@ Ga als volgt te werk om inhoud aan een kanaal toe te voegen of te bewerken:
 >[!NOTE]
 >U kunt componenten aan uw kanaal toevoegen. Zie **[Toevoegend Componenten aan een Kanaal](adding-components-to-a-channel.md)** voor meer details.
 
-![ demochannel1 ](assets/demochannel1.gif)
+![&#x200B; demochannel1 &#x200B;](assets/demochannel1.gif)
 
 **Uploading Video&#39;s aan het Kanaal**
 
@@ -97,21 +97,21 @@ Voer de onderstaande stappen uit om video&#39;s naar uw kanaal te uploaden:
 1. In de redacteur, klik **Video&#39;s** onder Assets en sleep en laat vallen de vereiste video&#39;s.
 
 >[!NOTE]
->Als u kwesties ontmoet die video&#39;s in uw kanaal uploaden, zie [ het Oplossen van problemen Video&#39;s ](troubleshoot-videos.md).
+>Als u kwesties ontmoet die video&#39;s in uw kanaal uploaden, zie [&#x200B; het Oplossen van problemen Video&#39;s &#x200B;](troubleshoot-videos.md).
 
 ### Eigenschappen van een kanaal weergeven of bewerken {#viewing-properties}
 
 1. Klik op het kanaal dat u wilt bewerken.
 1. Klik **Eigenschappen** van de actiebar zodat kunt u de kanaaleigenschappen bekijken/uitgeven. Op het volgende tabblad kunt u de opties wijzigen.
 
-![ eigenschappen ](assets/properties.gif)
+![&#x200B; eigenschappen &#x200B;](assets/properties.gif)
 
 ### Het dashboard weergeven {#viewing-dashboard}
 
 1. Klik op het kanaal dat u wilt bewerken.
 1. Klik **Dashboard** van de actiebar.
 
-![ dashboard ](assets/dashboard.gif)
+![&#x200B; dashboard &#x200B;](assets/dashboard.gif)
 
 ### Kanaalgegevens {#channel-information}
 
@@ -119,7 +119,7 @@ In het deelvenster Kanaalgegevens worden de kanaaleigenschappen beschreven, same
 
 Klik (**...**) van de **INFORMATIE VAN HET KANAAL** actiebar zodat kunt u eigenschappen bekijken, de inhoud uitgeven, of het geheime voorgeheugen (off-line inhoud) voor het kanaal bijwerken.
 
-![ screen_shot_2017-12-20at82048am ](assets/screen_shot_2017-12-20at82048am.png)
+![&#x200B; screen_shot_2017-12-20at82048am &#x200B;](assets/screen_shot_2017-12-20at82048am.png)
 
 #### De manifest weergeven {#view-manifest}
 
@@ -141,7 +141,7 @@ Voer de volgende stappen uit, zodat u deze optie kunt inschakelen via het kanaal
 
 U zou de **Manifest van de Mening** optie van het **paneel van de INFORMATIE VAN HET KANAAL** in het dashboard van het Kanaal moeten zien.
 
-![ image1 ](assets/channel-one.png)
+![&#x200B; image1 &#x200B;](assets/channel-one.png)
 
 
 ### Online- en offlinekanalen {#online-and-offline-channels}
@@ -159,30 +159,30 @@ Volg de onderstaande stappen om het kanaal online te maken:
 
    Klik op het kanaal.
 
-   ![ screen_shot_2019-08-01at31406pm ](assets/screen_shot_2019-08-01at31406pm.png)
+   ![&#x200B; screen_shot_2019-08-01at31406pm &#x200B;](assets/screen_shot_2019-08-01at31406pm.png)
 
    Klik **Dashboard** van de actiebar zodat kunt u het statuut van de speler bekijken. Het **paneel van de INFORMATIE VAN HET KANAAL** verstrekt informatie over of het kanaal online of off-line is.
 
-   ![ screen_shot_2019-08-01at31458pm ](assets/screen_shot_2019-08-01at31458pm.png)
+   ![&#x200B; screen_shot_2019-08-01at31458pm &#x200B;](assets/screen_shot_2019-08-01at31458pm.png)
 
 1. Klik **Eigenschappen** van de actiebar en navigeer aan het **3&rbrace; lusje van het Kanaal &lbrace;zoals hieronder getoond:**
 
-   ![ screen_shot_2019-08-01at31542pm ](assets/screen_shot_2019-08-01at31542pm.png)
+   ![&#x200B; screen_shot_2019-08-01at31542pm &#x200B;](assets/screen_shot_2019-08-01at31542pm.png)
 
 1. Controleer de **&#x200B;**&#x200B;wijze van de 1&rbrace; Ontwikkelaar **(dwang het kanaal om online te zijn)** om het kanaal als online te maken.
 
    Klik **sparen &amp; Sluiten** om uw optie te bewaren.
 
-   ![ screen_shot_2019-08-01at31658pm ](assets/screen_shot_2019-08-01at31658pm.png)
+   ![&#x200B; screen_shot_2019-08-01at31658pm &#x200B;](assets/screen_shot_2019-08-01at31658pm.png)
 
    Navigeer terug naar het kanaaldashboard en nu toont het **paneel van de INFORMATIE VAN HET KANAAL** de online status van de speler.
 
-   ![ screen_shot_2019-08-01at31821pm ](assets/screen_shot_2019-08-01at31821pm.png)
+   ![&#x200B; screen_shot_2019-08-01at31821pm &#x200B;](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
 >Om uw kanaal opnieuw als off-line te vormen, uncheck de de wijzeoptie van de Ontwikkelaar van het **Eigenschappen** lusje (zoals aangetoond in stap (3)). Dan, van het **paneel van de INFORMATIE VAN HET KANAAL** klik **de Offline Inhoud van de Update**, zoals aangetoond in het hieronder cijfer.
 
-![ dashboard2 ](assets/dashboard2.gif)
+![&#x200B; dashboard2 &#x200B;](assets/dashboard2.gif)
 
 #### Automatische versus handmatige updates van het apparaatdashboard {#automatic-versus-manual-updates-from-the-device-dashboard}
 
@@ -230,18 +230,18 @@ Het **Toegewezen paneel van Vertoningen** toont de vertoning verbonden aan het k
 
 De bijbehorende vertoningen worden vermeld in het **Toegewezen paneel van Vertoningen**, zoals hieronder getoond:
 
-![ chlimage_1-27 ](assets/chlimage_1-27.png)
+![&#x200B; chlimage_1-27 &#x200B;](assets/chlimage_1-27.png)
 
 >[!NOTE]
 >Zie voor meer informatie over het maken van een weergave op een locatie:
 >
->* [ creeer en beheer Plaatsen ](managing-locations.md)
->* [ creeer en beheer Vertoningen ](managing-displays.md)
+>* [&#x200B; creeer en beheer Plaatsen &#x200B;](managing-locations.md)
+>* [&#x200B; creeer en beheer Vertoningen &#x200B;](managing-displays.md)
 >
 
 Ook, klik de vertoning in **TOEGEWEZEN WEERGAVEN** paneel, om de vertoningsinformatie, zoals hieronder getoond te bekijken:
 
-![ chlimage_1-28 ](assets/chlimage_1-28.png)
+![&#x200B; chlimage_1-28 &#x200B;](assets/chlimage_1-28.png)
 
 ### De volgende stappen {#the-next-steps}
 

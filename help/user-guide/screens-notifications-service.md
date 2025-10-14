@@ -49,7 +49,7 @@ Voer de onderstaande stappen uit om de instellingen voor e-mailmeldingen te conf
 1. Open **Configuratie van de Console van het Web van Adobe Experience Manager**.
 1. Open **E-mailcontroledienst van het Apparaat van Screens**.
 
-   ![ screen_shot_2018-04-26at44602pm ](assets/screen_shot_2018-04-26at44602pm.png)
+   ![&#x200B; screen_shot_2018-04-26at44602pm &#x200B;](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. Definieer de volgende velden zodat u de instellingen voor de e-mail kunt configureren:
 

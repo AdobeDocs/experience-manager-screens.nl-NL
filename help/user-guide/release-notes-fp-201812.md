@@ -37,7 +37,7 @@ De releasedatum voor AEM Screens Feature Pack 201812 is 16 januari 2019.
 
 * **multi-activa die** plannen:
 
-  Met planning voor meerdere elementen kan de gebruiker op meerdere elementen klikken en een afspeelschema toepassen op alle geselecteerde elementen. Zie **Multi-Asset Plannend** sectie in **[ Activa plannend](asset-level-scheduling.md)**.
+  Met planning voor meerdere elementen kan de gebruiker op meerdere elementen klikken en een afspeelschema toepassen op alle geselecteerde elementen. Zie **Multi-Asset Plannend** sectie in **[&#x200B; Activa plannend](asset-level-scheduling.md)**.
 
 * **Lay-out van meerdere zones**:
 
@@ -57,4 +57,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.3 Pak van de Eigen
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [**Downloads van de Speler van AEM Screens** ](https://download.macromedia.com/screens/).
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [**Downloads van de Speler van AEM Screens** &#x200B;](https://download.macromedia.com/screens/).

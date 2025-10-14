@@ -119,7 +119,7 @@ Volg de onderstaande sectie om de instellingen in de AEM Screens Replication Age
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Navigeer aan **Vervoer** lusje van het **de dialoogvakje van de Montages van de Agent** en werk de **Gebruiker** aan **`screens-receiver-user`** bij en ga het zelfde wachtwoord in dat u vóór in stap (8) van [ toelatend Gebruikers plaatst en het Wachtwoord ](#enable-users) bijwerkt.
+1. Navigeer aan **Vervoer** lusje van het **de dialoogvakje van de Montages van de Agent** en werk de **Gebruiker** aan **`screens-receiver-user`** bij en ga het zelfde wachtwoord in dat u vóór in stap (8) van [&#x200B; toelatend Gebruikers plaatst en het Wachtwoord &#x200B;](#enable-users) bijwerkt.
 
    ![afbeelding](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 

@@ -22,7 +22,7 @@ Deze sectie benadrukt hoe te om het richten in uw kanalen toe te laten.
 
 ## Vereisten {#prereqs}
 
-Alvorens u de stappen hieronder volgt om het richten in kanalen toe te laten, leer de [ Zeer belangrijke Termijnen in het Vormen in AEM Screens ](configuring-context-hub.md) die voor het begrip ContextHub en het richten in AEM Screens wordt vereist.
+Alvorens u de stappen hieronder volgt om het richten in kanalen toe te laten, leer de [&#x200B; Zeer belangrijke Termijnen in het Vormen in AEM Screens &#x200B;](configuring-context-hub.md) die voor het begrip ContextHub en het richten in AEM Screens wordt vereist.
 
 >[!IMPORTANT]
 >
@@ -47,7 +47,7 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
 
 1. Klik het kanaal **DataDrivenRetail** en klik **Eigenschappen** van de actiebar.
 
-   ![ screen_shot_2019-05-01at43332pm ](assets/screen_shot_2019-05-01at43332pm.png)
+   ![&#x200B; screen_shot_2019-05-01at43332pm &#x200B;](assets/screen_shot_2019-05-01at43332pm.png)
 
 1. Klik het **Personalization** lusje zodat kunt u opstelling de configuraties ContextHub en klik de weg ContextHub en van Segmenten.
 
@@ -61,7 +61,7 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
    >
    >Gebruik ContextHub en de weg van Segmenten, waar u aanvankelijk uw configuraties en segmenten van de contexthub bewaarde.
 
-   ![ screen_shot_2019-05-01at44030pm ](assets/screen_shot_2019-05-01at44030pm.png)
+   ![&#x200B; screen_shot_2019-05-01at44030pm &#x200B;](assets/screen_shot_2019-05-01at44030pm.png)
 
 1. Navigeer en klik **DataDrivenRetail** van **DataDrivenAssets** > **Kanalen** en klik **uitgeven** van de actiebar. Sleep de elementen naar de Kanaaleditor en zet ze neer.
 
@@ -69,7 +69,7 @@ Voer de onderstaande stappen uit om het activeren van doelwitbestanden in uw kan
    >
    >Als u opstelling alles correct hebt, ziet u de **het richten** optie in drop-down van de redacteur, zoals aangetoond in het hieronder cijfer.
 
-   ![ screen_shot_2019-05-01at44231pm ](assets/screen_shot_2019-05-01at44231pm.png)
+   ![&#x200B; screen_shot_2019-05-01at44231pm &#x200B;](assets/screen_shot_2019-05-01at44231pm.png)
 
 1. Klik **het richten**.
 

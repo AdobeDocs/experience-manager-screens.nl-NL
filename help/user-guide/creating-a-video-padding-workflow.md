@@ -42,7 +42,7 @@ Voordat u een workflow voor video maakt, moet u aan de volgende voorwaarden vold
 1. Upload een video in de **Assets** omslag in uw instantie van AEM
 1. Creeer een project van AEM Screens (bijvoorbeeld, **TestVideoRendition**) en een genoemd kanaal (**VideoRendering**), zoals aangetoond in het hieronder cijfer:
 
-![ screen_shot_2018-10-17at85307pm ](assets/screen_shot_2018-10-17at85307pm.png)
+![&#x200B; screen_shot_2018-10-17at85307pm &#x200B;](assets/screen_shot_2018-10-17at85307pm.png)
 
 ## Workflow voor het opvullen van video&#39;s maken {#creating-a-video-padding-workflow-1}
 
@@ -61,39 +61,39 @@ Voer de onderstaande stappen uit om een workflow voor uw video te maken:
 1. Klik op de gereedschappen van de zijspoor.
 1. Klik **Werkschema** > **Modellen** zodat kunt u een model creëren.
 
-   ![ screen_shot_2018-10-17at90025pm ](assets/screen_shot_2018-10-17at90025pm.png)
+   ![&#x200B; screen_shot_2018-10-17at90025pm &#x200B;](assets/screen_shot_2018-10-17at90025pm.png)
 
 1. Klik **Modellen** > **creeer** > **creeer Model**. Ga de **Titel** (zoals **VideoRendition**) in en **Naam** in **voegt het Model van het Werkschema** toe. Klik **Gedaan** om het werkschemamodel toe te voegen.
 
-   ![ screen_shot_2018-10-17at90747pm ](assets/screen_shot_2018-10-17at90747pm.png)
+   ![&#x200B; screen_shot_2018-10-17at90747pm &#x200B;](assets/screen_shot_2018-10-17at90747pm.png)
 
 1. Nadat u het werkschemamodel creeert, klik het model (**VideoRendition**), en klik **uitgeven** van de actiebar.
 
-   ![ screen_shot_2018-10-17at91256pm ](assets/screen_shot_2018-10-17at91256pm.png)
+   ![&#x200B; screen_shot_2018-10-17at91256pm &#x200B;](assets/screen_shot_2018-10-17at91256pm.png)
 
 1. Sleep de component **`Command Line`** naar de workflow.
 
-   ![ screen_shot_2018-10-22at14846pm ](assets/screen_shot_2018-10-22at14846pm.png)
+   ![&#x200B; screen_shot_2018-10-22at14846pm &#x200B;](assets/screen_shot_2018-10-22at14846pm.png)
 
 1. Klik op de component **`Command Line`** en open het dialoogvenster met eigenschappen.
 
-   ![ screen_shot_2018-10-17at95752pm ](assets/screen_shot_2018-10-17at95752pm.png)
+   ![&#x200B; screen_shot_2018-10-17at95752pm &#x200B;](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Klik de **Argumenten** tabel.
 1. In de **Lijn van het Bevel - de dialoogdoos van de Eigenschappen van de Stap**, ga het formaat in de **Types van MIME** (als ***video/mp4***) en het bevel als (*** `/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4` &#x200B;***) in. Dit bevel begint het werkschema op het **gebied van Bevelen**.
 
    Zie de details op **Types van MIME** en **Bevelen** in de nota hieronder.
 
-   ![ screen_shot_2018-10-18at105300am ](assets/screen_shot_2018-10-18at105300am.png)
+   ![&#x200B; screen_shot_2018-10-18at105300am &#x200B;](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Klik het werkschema (**VideoRenditions**).
 1. Klik **Werkschema van het Begin** van de actiebar.
 
-   ![ screen_shot_2018-10-18at105335am ](assets/screen_shot_2018-10-18at105335am.png)
+   ![&#x200B; screen_shot_2018-10-18at105335am &#x200B;](assets/screen_shot_2018-10-18at105335am.png)
 
 1. In het **dialoogvakje van het Werkschema van de Looppas**, klik de weg van uw activa in **Payload** (als ***/content/dam/huseinpeyda-crossways01_512kb 2.mp4***) en ga **Titel** als ***RunVideo*** in en klik **Looppas**.
 
-   ![ screen_shot_2018-10-18at112043am ](assets/screen_shot_2018-10-18at112043am.png)
+   ![&#x200B; screen_shot_2018-10-18at112043am &#x200B;](assets/screen_shot_2018-10-18at112043am.png)
 
 ### De workflow gebruiken in een AEM Screens-project {#using-the-workflow-in-an-aem-screens-project}
 
@@ -101,15 +101,15 @@ Voer de onderstaande stappen uit om de workflow in uw AEM Screens-project te geb
 
 1. Navigeer aan een project van AEM Screens (**TestVideoRendition** > **Kanalen** > **VideoRendition**).
 
-   ![ screen_shot_2018-10-17at100715pm ](assets/screen_shot_2018-10-17at100715pm.png)
+   ![&#x200B; screen_shot_2018-10-17at100715pm &#x200B;](assets/screen_shot_2018-10-17at100715pm.png)
 
 1. Klik **uitgeven** van de actiebar. Sleep en laat vallen de video die u aanvankelijk aan **Assets** uploadde.
 
-   ![ screen_shot_2018-10-17at102806pm ](assets/screen_shot_2018-10-17at102806pm.png)
+   ![&#x200B; screen_shot_2018-10-17at102806pm &#x200B;](assets/screen_shot_2018-10-17at102806pm.png)
 
 1. Wanneer u de video hebt geupload, klik **Voorproef** om de output te bekijken.
 
-   ![ screen_shot_2018-10-22at15151pm ](assets/screen_shot_2018-10-22at15151pm.png)
+   ![&#x200B; screen_shot_2018-10-22at15151pm &#x200B;](assets/screen_shot_2018-10-22at15151pm.png)
 
 ## De uitvoer voor de workflow valideren {#validating-the-output-for-the-workflow}
 
@@ -118,4 +118,4 @@ U kunt de uitvoer valideren door:
 * Een voorvertoning van de video in het kanaal controleren
 * Navigeer aan ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, zoals aangetoond in het hieronder cijfer:
 
-![ screen_shot_2018-10-22at14326pm ](assets/screen_shot_2018-10-22at14326pm.png)
+![&#x200B; screen_shot_2018-10-22at14326pm &#x200B;](assets/screen_shot_2018-10-22at14326pm.png)

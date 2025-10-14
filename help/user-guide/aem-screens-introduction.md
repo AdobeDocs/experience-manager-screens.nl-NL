@@ -16,9 +16,9 @@ ht-degree: 0%
 
 **Experience Managers Screens** - een digitale signaaloplossing die u dynamische en interactieve digitale ervaringen en interactie laat publiceren die verschillende soorten schermen, allen op een uitvoerig digitaal marketing platform impliceren.
 
-Krijg omhoog en lopend met een eenvoudige digitale signaalervaring, gebruikend [ Kickstart voor AEM Screens ](kickstart-for-aem-screens.md).
+Krijg omhoog en lopend met een eenvoudige digitale signaalervaring, gebruikend [&#x200B; Kickstart voor AEM Screens &#x200B;](kickstart-for-aem-screens.md).
 
-Leren hoe te om uw Experience Managers Screens project in Experience Manager as a Cloud Service te vormen en te creëren, zie [ hier ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/using/about-guide).
+Leren hoe te om uw Experience Managers Screens project in Experience Manager as a Cloud Service te vormen en te creëren, zie [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/using/about-guide).
 
 ## Overzicht {#overview}
 
@@ -28,17 +28,17 @@ Experience Managers Screens is een krachtige webgebaseerde oplossing waarmee u s
 
 Het maken en beheren van een toepassing met behulp van Experience Managers Screens is eenvoudig en intuïtief. Een *toepassing* gastheren Web-pagina&#39;s die voor Experience Managers Screens door klanten of implementatiepartners worden gebouwd. *de Plaatsen* leiden vooraf bepaalde hiërarchieën en bevatten *vertoningen*. Elke weergave heeft een dashboard waarop verschillende apparaten en schermen worden weergegeven. De inhoud voor Experience Managers Screens wordt beheerd in *kanalen*. De Speler van Experience Managers Screens geeft inhoud terug binnen kanalen op vertoningen.
 
-Om de zeer belangrijke terminologieën te begrijpen verbonden aan Experience Managers Screens, zie de [ Verklarende woordenlijst ](screens-glossary.md).
+Om de zeer belangrijke terminologieën te begrijpen verbonden aan Experience Managers Screens, zie de [&#x200B; Verklarende woordenlijst &#x200B;](screens-glossary.md).
 
 ### Architectuur van Screens Player
 
 Het volgende diagram toont de algemene architectuur van een speler van Experience Managers Screens:
 
-![ chlimage_1-29 ](assets/chlimage_1-29.png)
+![&#x200B; chlimage_1-29 &#x200B;](assets/chlimage_1-29.png)
 
 ### Maak over 5 minuten een digitale signaalervaring {#create-a-digital-signage-experience-in-minutes}
 
-Om een demo Screens project tot stand te brengen en uw inhoud in de speler van Screens te publiceren, zie [ Kickstart voor Experience Managers Screens ](kickstart-for-aem-screens.md).
+Om een demo Screens project tot stand te brengen en uw inhoud in de speler van Screens te publiceren, zie [&#x200B; Kickstart voor Experience Managers Screens &#x200B;](kickstart-for-aem-screens.md).
 
 ## Een nieuw project voor Experience Managers Screens starten {#starting-a-new-aem-screens-project}
 
@@ -50,7 +50,7 @@ Voor het starten van een nieuwe digitale ondertekeningservaring is een samenhang
 
 Het volgende cijfer bepaalt de karakters en hun rollen voor Experience Managers Screens.
 
-![ chlimage_1-30 ](assets/chlimage_1-30.png)
+![&#x200B; chlimage_1-30 &#x200B;](assets/chlimage_1-30.png)
 
 
 ## Overige bronnen {#additional-resources}

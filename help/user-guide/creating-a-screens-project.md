@@ -42,7 +42,7 @@ In een project, zijn er vijf soorten omslagen, zoals aangetoond in het hieronder
 * **Apparaten**
 * **Kanalen**
 
-![ player1 ](assets/create-project.gif)
+![&#x200B; player1 &#x200B;](assets/create-project.gif)
 
 >[!NOTE]
 >
@@ -70,8 +70,8 @@ Een aangepaste map maken:
 
 De volgende stappen tonen de verwezenlijking van een toepassingsomslag aan uw **Toepassingen** primaire pagina in **TestScreens**.
 
-![ speler2-1 ](assets/create-project3.gif)
+![&#x200B; speler2-1 &#x200B;](assets/create-project3.gif)
 
 ### De volgende stappen {#the-next-steps}
 
-Wanneer u uw eigen project hebt gecreeerd, zie [ Beheer van het Kanaal ](managing-channels.md) om inhoud in uw kanaal tot stand te brengen en te beheren.
+Wanneer u uw eigen project hebt gecreeerd, zie [&#x200B; Beheer van het Kanaal &#x200B;](managing-channels.md) om inhoud in uw kanaal tot stand te brengen en te beheren.

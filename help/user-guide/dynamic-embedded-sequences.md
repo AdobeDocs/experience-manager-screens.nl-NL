@@ -47,7 +47,7 @@ Verwijzend a *Kanaal door Rol*, laat u een lokale versie van een kanaal tot stan
 >
 >***Dynamische Ingebedde Reeksen*** laat u plaats-specifieke inhoud tonen terwijl ***Ingebedde Reeksen*** slechts algemene diashow van de inhoud tonen. Tijdens het instellen van Dynamische ingesloten reeksen configureert u het kanaal ook met de rol en naam van het kanaal. Zie de onderstaande stappen voor praktische implementatie.
 >
->Meer leren over het uitvoeren van ingebedde opeenvolgingen, zie [ Ingesloten Reeksen ](embedded-sequences.md) in AEM Screens.
+>Meer leren over het uitvoeren van ingebedde opeenvolgingen, zie [&#x200B; Ingesloten Reeksen &#x200B;](embedded-sequences.md) in AEM Screens.
 
 In het volgende voorbeeld wordt een oplossing geboden waarbij de nadruk ligt op de volgende sleuteltermen:
 
@@ -72,7 +72,7 @@ Voordat u begint met het implementeren van deze functionaliteit, moet u ervoor z
 * Voeg inhoud aan uw **Globale** Kanaal toe (*Controle **Resources.zip**&#x200B;voor relevante activa*).
 
 Het volgende beeld toont het **Demo** project met **Globale** kanaal in de **omslag van Kanalen**.
-![ screen_shot_2018-09-07at21032pm ](assets/screen_shot_2018-09-07at21032pm.png)
+![&#x200B; screen_shot_2018-09-07at21032pm &#x200B;](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Bronnen {#resources}
 
@@ -110,7 +110,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    >
    >Gelijkaardig is het geval voor het creëren van de plaatsomslag **Gebied B**, zoals hieronder getoond:
 
-   ![ screen_shot_2018-09-13at23212pm ](assets/screen_shot_2018-09-13at23212pm.png)
+   ![&#x200B; screen_shot_2018-09-13at23212pm &#x200B;](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
    >Leren hoe te om een plaats tot stand te brengen, zie **[Creërend en het Leiden Plaatsen](managing-locations.md)**.
@@ -126,7 +126,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    >
    >Zorg ervoor dat terwijl het creëren van kanaal **Gebied A**, de **Titel** als **Gebied A** en de **Naam** als a **gebied** ingaat.
 
-   ![ screen_shot_2018-09-13at22857pm ](assets/screen_shot_2018-09-13at22857pm.png)
+   ![&#x200B; screen_shot_2018-09-13at22857pm &#x200B;](assets/screen_shot_2018-09-13at22857pm.png)
 
    Op dezelfde manier creeer twee plaatsen onder **Gebied B** die als **Opslag 3** en **Opslag 4** wordt genoemd. Ook, creeer het Kanaal van de a **Opeenvolging met** Titel **als** Gebied B **en** Naam **als** gebied **.**
 
@@ -134,7 +134,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    >
    >Zorg ervoor dat u de zelfde naam voor de kanalen kunt gebruiken die in **Gebied A** worden gecreeerd en **Gebied B** als **gebied**.
 
-   ![ screen_shot_2018-09-13at24408pm ](assets/screen_shot_2018-09-13at24408pm.png)
+   ![&#x200B; screen_shot_2018-09-13at24408pm &#x200B;](assets/screen_shot_2018-09-13at24408pm.png)
 
 1. **creeer Vertoning en Kanaal onder elke Plaats.**
 
@@ -148,24 +148,24 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    >Het is belangrijk wanneer u een opeenvolgingskanaal creeert, kan de **Titel** van het kanaal als uw vereiste zijn, maar de **Naam** zou het zelfde in alle lokale kanalen moeten zijn.
    >In dit voorbeeld, delen de kanalen onder **Gebied A** en **Gebied B** **Naam** als **gebied** en kanalen onder **`Store 1`**, **`Store 2`**, **`Store 3`**, en **`Store 4`** aandeel **Naam** als **opslag**.
 
-   ![ screen_shot_2018-09-19at120206pm ](assets/screen_shot_2018-09-19at120206pm.png)
+   ![&#x200B; screen_shot_2018-09-19at120206pm &#x200B;](assets/screen_shot_2018-09-19at120206pm.png)
 
    Op dezelfde manier creeer een vertoning als **`Store2Display`** en een kanaal **`Store2Channel`** onder **`Store `2** (met naam als **opslag**).
 
    >[!NOTE]
    >Zorg ervoor dat u de zelfde naam voor de kanalen kunt gebruiken die in **`Store 1`** en **`Store 2`** worden gecreeerd zoals **opslag**.
 
-   ![ screen_shot_2018-09-19at120329pm ](assets/screen_shot_2018-09-19at120329pm.png)
+   ![&#x200B; screen_shot_2018-09-19at120329pm &#x200B;](assets/screen_shot_2018-09-19at120329pm.png)
 
    Volg de voorafgaande stappen zodat kunt u een kanaal en vertoning in **`Store 3`** en **`Store 4`** onder **Gebied B** tot stand brengen. Opnieuw, zorg ervoor dat u zelfde **Naam** als **opslag** terwijl het creëren van kanaal **`Store3Channel`** en **`Store4Channel`** gebruikt.
 
    In de volgende afbeelding ziet u de weergave en het kanaal in **`Store 3`** .
 
-   ![ screen_shot_2018-09-19at120448pm ](assets/screen_shot_2018-09-19at120448pm.png)
+   ![&#x200B; screen_shot_2018-09-19at120448pm &#x200B;](assets/screen_shot_2018-09-19at120448pm.png)
 
    In de volgende afbeelding ziet u de weergave en het kanaal in **`Store 4`** .
 
-   ![ screen_shot_2018-09-19at120552pm ](assets/screen_shot_2018-09-19at120552pm.png)
+   ![&#x200B; screen_shot_2018-09-19at120552pm &#x200B;](assets/screen_shot_2018-09-19at120552pm.png)
 
 1. **voeg Inhoud aan de Kanalen in hun respectieve Plaatsen toe.**
 
@@ -174,11 +174,11 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
    >[!NOTE]
    >U kunt het {***dossier 0} Resources.zip van de &#x200B;** sectie van Middelen&#x200B;**, hierboven gebruiken, om de beelden als activa voor uw kanaalinhoud te gebruiken.***
 
-   ![ screen_shot_2018-09-12at12438pm ](assets/screen_shot_2018-09-12at12438pm.png)
+   ![&#x200B; screen_shot_2018-09-12at12438pm &#x200B;](assets/screen_shot_2018-09-12at12438pm.png)
 
    Op dezelfde manier navigeer aan de **Demo** > **Plaats** > **Gebied B** > **Gebied B** en klik **uitgeven** van de actiebar om de activa aan uw kanaal, zoals hieronder getoond te slepen en te laten vallen:
 
-   ![ screen_shot_2018-09-12at13133pm ](assets/screen_shot_2018-09-12at13133pm.png)
+   ![&#x200B; screen_shot_2018-09-12at13133pm &#x200B;](assets/screen_shot_2018-09-12at13133pm.png)
 
    Voer de voorgaande stappen en de bronnen uit, zodat u inhoud aan de volgende kanalen kunt toevoegen:
 
@@ -193,7 +193,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    Het volgende beeld toont **AdSchedule** die in het **wordt gecreeerd Demo** project.
 
-   ![ screen_shot_2018-09-13at33307pm ](assets/screen_shot_2018-09-13at33307pm.png)
+   ![&#x200B; screen_shot_2018-09-13at33307pm &#x200B;](assets/screen_shot_2018-09-13at33307pm.png)
 
 1. **wijst Kanalen aan een Programma toe**
 
@@ -223,7 +223,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    In de volgende afbeelding worden de toegewezen kanalen weergegeven per pad en per rol.
 
-   ![ screen_shot_2018-09-12at21429pm ](assets/screen_shot_2018-09-12at21429pm.png)
+   ![&#x200B; screen_shot_2018-09-12at21429pm &#x200B;](assets/screen_shot_2018-09-12at21429pm.png)
 
 1. **Vormend Dynamische Ingebedde Opeenvolging aan het Globale Kanaal.**
 
@@ -231,7 +231,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    Klik **uitgeven** van de actiebar.
 
-   ![ screen_shot_2018-09-13at52754pm ](assets/screen_shot_2018-09-13at52754pm.png)
+   ![&#x200B; screen_shot_2018-09-13at52754pm &#x200B;](assets/screen_shot_2018-09-13at52754pm.png)
 
    In de redacteur, sleep en daling twee **Dynamische Ingebedde componenten van de Opeenvolging** in de kanaalredacteur.
 
@@ -239,7 +239,7 @@ Voer de volgende stappen uit om de functionaliteit te implementeren:
 
    Op dezelfde manier klik de andere componenten en open eigenschappen om de **Rol van de Taak van het Kanaal** als **StoreAdSegment** in te gaan.
 
-   ![ channeldisplay4 ](assets/channeldisplay4.gif)
+   ![&#x200B; channeldisplay4 &#x200B;](assets/channeldisplay4.gif)
 
 1. **Toewijzend Programma aan elke Vertoning**
 
@@ -257,8 +257,8 @@ Wanneer u de instellingen voor kanalen hebt ingesteld en de weergave is voltooid
 >
 >Raadpleeg de volgende bronnen voor meer informatie over AEM Screens Player:
 >
->* [ Download de Speler van AEM Screens ](https://download.macromedia.com/screens/)
->* [ Werkend met de Speler van AEM Screens ](working-with-screens-player.md)
+>* [&#x200B; Download de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/)
+>* [&#x200B; Werkend met de Speler van AEM Screens &#x200B;](working-with-screens-player.md)
 
 
 De volgende uitvoer bevestigt uw kanaalinhoud in AEM Screens Player, afhankelijk van het weergavepad.
@@ -267,13 +267,13 @@ De volgende uitvoer bevestigt uw kanaalinhoud in AEM Screens Player, afhankelijk
 
 Als u de vertoningsweg als **Demo** > **Plaatsen** > **Gebied A** > **Opslag 1** > **`Store1Display`** toewijst, de volgende inhoudsvertoningen op uw Speler van AEM Screens.
 
-![ channeldisplay1 ](assets/channeldisplay1.gif)
+![&#x200B; channeldisplay1 &#x200B;](assets/channeldisplay1.gif)
 
 **Scenario 1**:
 
 Als u de vertoningsweg als **Demo** > **Plaatsen** > **Gebied B** > **Opslag 3** > **`Store3Display`** toewijst, de volgende inhoudsvertoningen op uw Speler van AEM Screens.
 
-![ channeldisplay2 ](assets/channeldisplay2.gif)
+![&#x200B; channeldisplay2 &#x200B;](assets/channeldisplay2.gif)
 
 ## Het beperken van Gebruikers en het Wijzigen van ACLs {#restricting-users-and-modifying-the-acls}
 
@@ -312,7 +312,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
 
    Op dezelfde manier creeer twee andere groepen, zoals **gebied-auteur** en **opslag-auteur**.
 
-   ![ screen_shot_2018-09-17at34008pm ](assets/screen_shot_2018-09-17at34008pm.png)
+   ![&#x200B; screen_shot_2018-09-17at34008pm &#x200B;](assets/screen_shot_2018-09-17at34008pm.png)
 
 1. **creeer Gebruikers en voeg Gebruikers aan Groepen toe**
 
@@ -328,7 +328,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
    >[!NOTE]
    >Het is aan te raden gebruikers toe te voegen aan een groep en vervolgens machtigingen toe te wijzen aan elke specifieke groep gebruikers.
 
-   ![ screen_shot_2018-09-17at34412pm ](assets/screen_shot_2018-09-17at34412pm.png)
+   ![&#x200B; screen_shot_2018-09-17at34412pm &#x200B;](assets/screen_shot_2018-09-17at34412pm.png)
 
 1. **voeg alle Groepen aan Medewerkers** toe
 
@@ -344,7 +344,7 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
    1. Onderzoek naar **globaal-Auteur** en klik het **3&rbrace; lusje van Toestemmingen &lbrace;, zoals aangetoond in het hieronder cijfer.**
    1. Op dezelfde manier kunt u tot de toestemmingen voor **gebied-auteur** en **opslag-auteur** toegang hebben.
 
-   ![ screen_shot_2018-09-18at73523am ](assets/screen_shot_2018-09-18at73523am.png)
+   ![&#x200B; screen_shot_2018-09-18at73523am &#x200B;](assets/screen_shot_2018-09-18at73523am.png)
 
 1. **het Wijzigen Toestemmingen voor Elke Groep**
 
@@ -356,11 +356,11 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
    1. Navigeer naar ***/content/screens/demo/locations/region-a*** en controleer alle machtigingen. Controleer op dezelfde manier de machtigingen voor **`region-b`** .
 
    Zie het volgende cijfer voor het begrijpen van de stappen:
-   ![ screen_shot_2018-09-18at115752am ](assets/screen_shot_2018-09-18at115752am.png)
+   ![&#x200B; screen_shot_2018-09-18at115752am &#x200B;](assets/screen_shot_2018-09-18at115752am.png)
 
    Het volgende toont aan dat **globaal-Gebruiker** toegang tot het **Globale Kanaal** heeft. En, toegang tot zowel **Gebied A** als **Gebied B** met alle vier opslag die **opslag 1**, **Opslag 2**, **Opslag 3**, en **Opslag 4**.
 
-   ![ globaal ](assets/global.gif)
+   ![&#x200B; globaal &#x200B;](assets/global.gif)
 
    **voor gebied-auteur:**
 
@@ -372,11 +372,11 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
 
    Zie de volgende afbeelding zodat u de stappen kunt begrijpen:
 
-   ![ screen_shot_2018-09-18at125158pm ](assets/screen_shot_2018-09-18at125158pm.png)
+   ![&#x200B; screen_shot_2018-09-18at125158pm &#x200B;](assets/screen_shot_2018-09-18at125158pm.png)
 
    Het volgende toont aan dat de gebied-Gebruiker toegang tot zowel **Gebied A** en **Gebied B** heeft. En, toegang tot alle vier opslag, namelijk **Winkel 1**, **opslag 2**, **opslag 3**, en **opslag 4**, maar heeft geen toegang tot het **Globale** Kanaal.
 
-   ![ gebied ](assets/region.gif)
+   ![&#x200B; gebied &#x200B;](assets/region.gif)
 
    **voor opslag-auteur:**
 
@@ -389,12 +389,12 @@ Volg de stappen hieronder om groepen, gebruikers tot stand te brengen, en ACLs v
 
    Zie de volgende afbeelding zodat u de stappen kunt begrijpen:
 
-   ![ screen_shot_2018-09-18at12415pm ](assets/screen_shot_2018-09-18at12415pm.png)
+   ![&#x200B; screen_shot_2018-09-18at12415pm &#x200B;](assets/screen_shot_2018-09-18at12415pm.png)
 
    Het volgende toont aan dat de **opslag-Gebruiker** toegang slechts tot **Opslag 1** heeft, **Opslag 2**, **Opslag 3**, en **Opslag 4**. Nochtans, heeft het geen toestemmingen om tot de **Globale** of het gebied (**Gebied A** en **Gebied B**) kanalen toegang te hebben.
 
-   ![ opslag ](assets/store.gif)
+   ![&#x200B; opslag &#x200B;](assets/store.gif)
 
 >[!NOTE]
 >
->Om in detail over vestiging toestemmingen te leren, zie [ Vestiging ACLs ](setting-up-acls.md).
+>Om in detail over vestiging toestemmingen te leren, zie [&#x200B; Vestiging ACLs &#x200B;](setting-up-acls.md).

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.4 Feature Pack 8 en AEM 6.5 Feature Pack 4 uitgebracht.
 
-U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.4.8 of Versie van AEM Screens 6.5.4 van het [ Portaal van de Distributie van de Software downloaden ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.4.8 of Versie van AEM Screens 6.5.4 van het [&#x200B; Portaal van de Distributie van de Software downloaden &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen.
 
 ## Releasedatum {#release-date}
 
@@ -75,4 +75,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM Screens AEM 6.4 Pak 
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/)**.

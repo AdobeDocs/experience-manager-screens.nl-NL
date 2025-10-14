@@ -31,7 +31,7 @@ De trui Rood, Groen of Blauw wordt weergegeven op basis van de hoogste waarde va
 
 Alvorens u begint de kleinhandelsinventaris richtend activering uit te voeren, leer hoe te opstelling ***Opslag van Gegevens***, ***Segmentatie van het publiek*** en ***het richten voor Kanalen*** in een Project van AEM Screens toelaten.
 
-Zie [ het Vormen ContextHub in AEM Screens ](configuring-context-hub.md) voor gedetailleerde informatie.
+Zie [&#x200B; het Vormen ContextHub in AEM Screens &#x200B;](configuring-context-hub.md) voor gedetailleerde informatie.
 
 ## Basisstroom {#basic-flow}
 
@@ -42,7 +42,7 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
    1. Navigeer naar het Google-werkblad ContextHubDemo.
    1. Voeg drie kolommen (Rood, Groen en Blauw) toe met de bijbehorende waarden voor drie verschillende sweatshirts.
 
-   ![ screen_shot_2019-05-06at101755am ](assets/screen_shot_2019-05-06at101755am.png)
+   ![&#x200B; screen_shot_2019-05-06at101755am &#x200B;](assets/screen_shot_2019-05-06at101755am.png)
 
 1. **Vormend het publiek zoals per de vereisten**
 
@@ -64,15 +64,15 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
    1. Klik **Type van Gegevens**, en als **aantal**.
    1. Klik **googesheets/value/1/0** van drop-down in **Tweede Naam van het Bezit**.
 
-   ![ screen_shot_2019-05-06at102600am ](assets/screen_shot_2019-05-06at102600am.png)
+   ![&#x200B; screen_shot_2019-05-06at102600am &#x200B;](assets/screen_shot_2019-05-06at102600am.png)
 
    Op dezelfde manier geef uit en voeg vergelijkingsbezitsregels aan het **For_Blue** segment zoals aangetoond in het hieronder cijfer toe:
 
-   ![ screen_shot_2019-05-06at103728am ](assets/screen_shot_2019-05-06at103728am.png)
+   ![&#x200B; screen_shot_2019-05-06at103728am &#x200B;](assets/screen_shot_2019-05-06at103728am.png)
 
    Op dezelfde manier geef uit en voeg vergelijkingsbezitsregels aan het **For_Green** segment zoals aangetoond in het hieronder cijfer toe:
 
-   ![ screen_shot_2019-05-06at103418am ](assets/screen_shot_2019-05-06at103418am.png)
+   ![&#x200B; screen_shot_2019-05-06at103418am &#x200B;](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
@@ -81,13 +81,13 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
 1. Navigeer en klik uw **kanaal 0&rbrace; DataDrivenRetail &lbrace;(een opeenvolgingskanaal).**
 1. Klik **uitgeven** van de actiebar.
 
-   ![ screen_shot_2019-05-06at104257am ](assets/screen_shot_2019-05-06at104257am.png)
+   ![&#x200B; screen_shot_2019-05-06at104257am &#x200B;](assets/screen_shot_2019-05-06at104257am.png)
 
    >[!CAUTION]
    >
    >U zou reeds opstelling moeten hebben uw **ContextHub** **Configuraties** gebruikend het kanaal **Eigenschappen** > **Personalization** tabel.
 
-   ![ screen_shot_2019-05-06at105214am ](assets/screen_shot_2019-05-06at105214am.png)
+   ![&#x200B; screen_shot_2019-05-06at105214am &#x200B;](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
    >
@@ -99,21 +99,21 @@ Volg de onderstaande stappen om de Gebruiksscenario voor de activering van de Re
    1. Klik **Merk** en de **Activiteit** van het drop-down menu en klik **Begin richtend**.
    1. Klik **Begin richtend**.
 
-   ![ screen_shot_2019-05-06at121253pm ](assets/screen_shot_2019-05-06at121253pm.png)
+   ![&#x200B; screen_shot_2019-05-06at121253pm &#x200B;](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
    >
    >Alvorens u begint te richten, voeg de segmenten (**For_Green**, **For_Red**, en **For_Blue**) toe door **te selecteren + voeg Ervaring toe richtend** van de zijspoorstaaf zoals aangetoond in het hieronder cijfer.
 
-   ![ screen_shot_2019-05-06at123554pm ](assets/screen_shot_2019-05-06at123554pm.png)
+   ![&#x200B; screen_shot_2019-05-06at123554pm &#x200B;](assets/screen_shot_2019-05-06at123554pm.png)
 
 1. Voeg de afbeeldingen toe aan alle drie de verschillende scenario&#39;s, zoals hieronder wordt weergegeven.
 
-   ![ retail_targeting ](assets/retail_targeting.gif)
+   ![&#x200B; retail_targeting &#x200B;](assets/retail_targeting.gif)
 
 1. **die de Voorproef** controleert
 
    1. Klik **Voorproef.** Open ook uw Google-werkblad en werk de waarde ervan bij.
    1. Wijzig de waarde voor alle drie de kolommen. U ziet dat de beeldweergave wordt bijgewerkt volgens de hoogste waarde in het overzicht.
 
-   ![ retail_result ](assets/retail_result.gif)
+   ![&#x200B; retail_result &#x200B;](assets/retail_result.gif)

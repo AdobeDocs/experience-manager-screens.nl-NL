@@ -42,65 +42,65 @@ Alvorens u de eigenschap van de Synchronisatie van het Bevel gebruikt, zorg ervo
 
 1. Het volgende voorbeeld toont een demoproject genoemd **CommandSyncDemo** en een opeenvolgingskanaal **ChannelLobby**.
 
-   ![ image1 ](assets/command-sync/command-sync1-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
-   >Leren hoe te om een kanaal tot stand te brengen of inhoud aan een kanaal toe te voegen, zie [ Creërend en het Leiden Kanalen ](/help/user-guide/managing-channels.md)
+   >Leren hoe te om een kanaal tot stand te brengen of inhoud aan een kanaal toe te voegen, zie [&#x200B; Creërend en het Leiden Kanalen &#x200B;](/help/user-guide/managing-channels.md)
 
    Het kanaal bevat de volgende inhoud, zoals in de onderstaande afbeelding wordt getoond.
 
-   ![ image1 ](assets/command-sync/command-sync2-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync2-1.png)
 
 1. Creeer een plaats **Lobby** en dan een vertoning die als **wordt genoemd LobbyDisplay** in de **omslag van Plaatsen**, zoals aangetoond in het hieronder cijfer.
-   ![ image1 ](assets/command-sync/command-sync3-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync3-1.png)
 
 1. Wijs het kanaal, **ChannelLobby** aan uw **LobbyDisplay** toe. U kunt het toegewezen kanaal nu vanaf het weergavedashboard bekijken op de weergave.
-   ![ image1 ](assets/command-sync/command-sync4-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
-   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie [ Creërend en het Leiden Vertoningen ](/help/user-guide/managing-displays.md).
+   >Leren hoe te om een kanaal aan een vertoning toe te wijzen, zie [&#x200B; Creërend en het Leiden Vertoningen &#x200B;](/help/user-guide/managing-displays.md).
 
 1. Navigeer aan de **omslag van Apparaten**.
 1. Klik **Manager van het Apparaat** van de actiebar.
 
-   ![ image1 ](assets/command-sync5.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync5.png)
 
    >[!NOTE]
    >
-   >Leren hoe te om een apparaat te registreren, zie [ Registratie van het Apparaat ](/help/user-guide/device-registration.md)
+   >Leren hoe te om een apparaat te registreren, zie [&#x200B; Registratie van het Apparaat &#x200B;](/help/user-guide/device-registration.md)
 
 1. In dit voorbeeld worden een Chrome-apparaat en een Windows Player voor demo-doeleinden als twee aparte apparaten weergegeven. Beide apparaten wijzen aan de zelfde vertoning.
-   ![ image1 ](assets/command-sync6.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync6.png)
 
 ### Kanaalinstellingen bijwerken
 
 1. Navigeer aan **ChannelLobby**.
 1. Klik **uitgeven** van de actiebar.
 1. Klik op het volledige kanaal zoals in de onderstaande afbeelding wordt weergegeven.
-   ![ image1 ](assets/command-sync/command-sync7-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync7-1.png)
 
 1. Klik op het moersleutelpictogram.
-   ![ image1 ](assets/command-sync/command-sync8-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync8-1.png)
 
 1. In het **de dialoogvakje van de Pagina**, ga het *gesynchroniseerde* sleutelwoord op het **Strategie** gebied in.
-   ![ image1 ](assets/command-sync/command-sync9-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync9-1.png)
 
 
 ### Een primaire {#setting-up-primary}
 
 1. Navigeer aan het vertoningsdashboard van **CommandSyncDemo** > **Plaatsen** > **Lobby** > **LobbyDisplay**. Dan klik **Dashboard** van de actiebar.
 Merk de twee apparaten (Chrome en de Speler van Vensters) in **APPARATEN** paneel, zoals in het volgende zien:
-   ![ image1 ](assets/command-sync/command-sync10-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync10-1.png)
 
 1. Van het **paneel van APPARATEN**, klik het apparaat u als primair wilt plaatsen. In het volgende voorbeeld ziet u hoe u het Chrome-apparaat instelt als het primaire apparaat. Klik **Reeks als primair apparaat**.
 
-   ![ image1 ](assets/command-sync/command-sync11-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync11-1.png)
 
 1. Ga het IP adres in **Reeks als primair apparaat** in en klik **sparen**.
 
-   ![ image1 ](assets/command-sync/command-sync12-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Merk de twee apparaten (Chrome en de Speler van Vensters) in **APPARATEN** panee
 1. Nadat u het Chrome-apparaat als primair apparaat hebt ingesteld, synchroniseert u het andere apparaat (in dit geval de Windows Player) met het primaire apparaat.
 Klik het andere apparaat (in dit geval, de Speler van Vensters) van het **paneel van APPARATEN** en klik **Synchronisatie aan primair apparaat**.
 
-   ![ image1 ](assets/command-sync/command-sync13-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync13-1.png)
 
 1. Klik het apparaat van de lijst en klik **sparen**.
 
@@ -120,7 +120,7 @@ Klik het andere apparaat (in dit geval, de Speler van Vensters) van het **paneel
 
 1. Wanneer het apparaat (de Speler van Vensters) aan primair (de Speler van Chrome) wordt gesynchroniseerd, kunt u het apparaat zien dat in het **wordt gesynchroniseerd APPARATEN** paneel.
 
-   ![ image1 ](assets/command-sync/command-sync14-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync14-1.png)
 
 ### De-synchroniseren met de primaire {#desync-up-primary}
 
@@ -136,7 +136,7 @@ Volg onderstaande stappen om de synchronisatie van het primaire apparaat te verw
 
 1. Klik **Desync apparaten** zodat kunt u de cliënt van het primaire apparaat desynchroniseren.
 
-   ![ image1 ](assets/command-sync/command-sync15-1.png)
+   ![&#x200B; image1 &#x200B;](assets/command-sync/command-sync15-1.png)
 
 1. Klik **bevestigen** om het geselecteerde apparaat van primair te dessynchroniseren.
 

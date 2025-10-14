@@ -30,14 +30,14 @@ De releasedatum voor AEM Screens Feature Pack 201809 is 1 oktober 2018.
 
 ### Wat is er nieuw? {#what-s-new}
 
-* **Adobe Analytics Bewijs van het Spel die** meldt: Zie [ Integratie van Adobe Analytics met AEM Screens ](adobe-analytics-integration-aem-screens.md) om meer te leren.
+* **Adobe Analytics Bewijs van het Spel die** meldt: Zie [&#x200B; Integratie van Adobe Analytics met AEM Screens &#x200B;](adobe-analytics-integration-aem-screens.md) om meer te leren.
 
-* **Adobe Analytics laat Players toe om `playback` gebeurtenissen in het voorgeheugen onder te brengen en te verzenden**: Zie [ Vormend Adobe Analytics met AEM Screens ](configuring-adobe-analytics-aem-screens.md) om meer te leren.
+* **Adobe Analytics laat Players toe om `playback` gebeurtenissen in het voorgeheugen onder te brengen en te verzenden**: Zie [&#x200B; Vormend Adobe Analytics met AEM Screens &#x200B;](configuring-adobe-analytics-aem-screens.md) om meer te leren.
 
-* **Bulk Offline Inhoud van de Update van de Bulk**: Laat u alle kanalen in bulk bijwerken en vermijdt de gedoe van het navigeren aan een bepaald kanaal en de inhoud bijwerken. Zie [ Bulk Offline Update ](bulk-offline-update.md) om meer te leren.
+* **Bulk Offline Inhoud van de Update van de Bulk**: Laat u alle kanalen in bulk bijwerken en vermijdt de gedoe van het navigeren aan een bepaald kanaal en de inhoud bijwerken. Zie [&#x200B; Bulk Offline Update &#x200B;](bulk-offline-update.md) om meer te leren.
 
 * **de kanalen van Publish in bulk aan alle publiceer instanties**
-* **Verbeterd Player het Registreren Mechanisme**: U kunt het aantal maximumlogboekdossiers voor een Speler van AEM Screens specificeren. Zie [ Werkend met een Speler van AEM Screens ](working-with-screens-player.md) voor meer details.
+* **Verbeterd Player het Registreren Mechanisme**: U kunt het aantal maximumlogboekdossiers voor een Speler van AEM Screens specificeren. Zie [&#x200B; Werkend met een Speler van AEM Screens &#x200B;](working-with-screens-player.md) voor meer details.
 
 * **de plaatsing van de Auteur/van Publish (het Verharden)**
 
@@ -52,4 +52,4 @@ De volgende AEM Screens-spelers worden vrijgegeven voor AEM 6.4.2 Feature Pack 2
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [ Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/).
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie [&#x200B; Downloads van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/).

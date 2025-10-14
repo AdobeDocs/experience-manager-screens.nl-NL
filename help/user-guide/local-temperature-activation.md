@@ -29,7 +29,7 @@ Als de waarde in Google Sheets lager is dan 50, wordt in dit geval een afbeeldin
 
 Alvorens u begint de lokale temperatuuractivering van het reiscentrum uit te voeren, leer hoe te opstelling ***Opslag van Gegevens***, ***Segmentatie van het publiek*** en ***het richten voor Kanalen*** in een Project van AEM Screens toelaten.
 
-Zie [ het Vormen ContextHub in AEM Screens ](configuring-context-hub.md) voor gedetailleerde informatie.
+Zie [&#x200B; het Vormen ContextHub in AEM Screens &#x200B;](configuring-context-hub.md) voor gedetailleerde informatie.
 
 ## Basisstroom {#basic-flow}
 
@@ -40,7 +40,7 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
    1. Navigeer naar het Google-werkblad ContextHubDemo.
    1. Voeg een kolom met **`Heading1`** toe met de bijbehorende waarde voor de temperatuur.
 
-   ![ screen_shot_2019-05-08at112911am ](assets/screen_shot_2019-05-08at112911am.png)
+   ![&#x200B; screen_shot_2019-05-08at112911am &#x200B;](assets/screen_shot_2019-05-08at112911am.png)
 
 1. **Vormend de segmenten in Soorten publiek zoals per de vereisten**
 
@@ -68,23 +68,23 @@ Voer de onderstaande stappen uit om het gebruik-hoofdlettergebruik voor lokale t
 
    >[!NOTE]
    >
-   >Uw kanaal zou reeds een standaardbeeld moeten hebben en het publiek zou pre-gevormd moeten zijn zoals die in [ wordt beschreven het Vormen ContextHub in AEM Screens ](configuring-context-hub.md).
+   >Uw kanaal zou reeds een standaardbeeld moeten hebben en het publiek zou pre-gevormd moeten zijn zoals die in [&#x200B; wordt beschreven het Vormen ContextHub in AEM Screens &#x200B;](configuring-context-hub.md).
 
-   ![ screen_shot_2019-05-08at113022am ](assets/screen_shot_2019-05-08at113022am.png)
+   ![&#x200B; screen_shot_2019-05-08at113022am &#x200B;](assets/screen_shot_2019-05-08at113022am.png)
 
    >[!CAUTION]
    >
    >Uw **ContextHub** **Configuraties** gebruikend het kanaal **Eigenschappen** > **Personalization** lusje zou reeds opstelling moeten zijn.
 
-   ![ screen_shot_2019-05-08at114106am ](assets/screen_shot_2019-05-08at114106am.png)
+   ![&#x200B; screen_shot_2019-05-08at114106am &#x200B;](assets/screen_shot_2019-05-08at114106am.png)
 
 1. Klik **richtend** van de redacteur en klik **Merk** en de **Activiteit** van het drop-down menu en klik **Begin richtend**.
 
-   ![ new_activity3 ](assets/new_activity3.gif)
+   ![&#x200B; new_activity3 &#x200B;](assets/new_activity3.gif)
 
 1. **die de Voorproef** controleert
 
    1. Klik **Voorproef.** Open ook uw Google-werkblad en werk de waarde ervan bij.
    1. Wijzig de waarde in minder dan 50. Je kunt een afbeelding van een koud drankje bekijken. Als de waarde in Google Sheets 50 of hoger is, ziet u een afbeelding van een warme drank.
 
-   ![ result3 ](assets/result3.gif)
+   ![&#x200B; result3 &#x200B;](assets/result3.gif)

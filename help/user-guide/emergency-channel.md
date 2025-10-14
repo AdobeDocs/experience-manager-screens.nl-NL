@@ -44,7 +44,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    >[!NOTE]
    >Zie Een project maken voor meer informatie over het maken en beheren van projecten in AEM Screens.
 
-   ![ screen_shot_2019-02-21at35809pm ](assets/screen_shot_2019-02-21at35809pm.png)
+   ![&#x200B; screen_shot_2019-02-21at35809pm &#x200B;](assets/screen_shot_2019-02-21at35809pm.png)
 
 1. **Creërend een Kanaal van de Opeenvolging**
 
@@ -52,7 +52,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
    1. Klik het Kanaal van de Opeenvolging **van de tovenaar en creeer het kanaal als** MainAdChannel **wordt genoemd.**
 
-   ![ screen_shot_2019-02-21at35932pm ](assets/screen_shot_2019-02-21at35932pm.png)
+   ![&#x200B; screen_shot_2019-02-21at35932pm &#x200B;](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Toevoegend Inhoud aan het Kanaal van de Opeenvolging**
 
@@ -60,7 +60,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    1. Klik **uitgeven** van de actiebar.
    1. Sleep een aantal elementen naar het kanaal.
 
-   ![ screen_shot_2019-02-21at40053pm ](assets/screen_shot_2019-02-21at40053pm.png)
+   ![&#x200B; screen_shot_2019-02-21at40053pm &#x200B;](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Creërend een Kanaal van de Noodsituatie**
 
@@ -72,7 +72,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    >
    >Normaal, wordt uw noodkanaal toegevoegd aan uw reeds bestaand productieproject.
 
-   ![ screen_shot_2019-02-21at40151pm ](assets/screen_shot_2019-02-21at40151pm.png)
+   ![&#x200B; screen_shot_2019-02-21at40151pm &#x200B;](assets/screen_shot_2019-02-21at40151pm.png)
 
 1. **Toevoegend Inhoud aan het Kanaal van de Noodsituatie**
 
@@ -80,20 +80,20 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    1. Klik **uitgeven** van de actiebar.
    1. Sleep het element dat u tijdens een noodsituatie wilt gebruiken naar het kanaal en zet het neer.
 
-   ![ screen_shot_2019-02-21at40516pm ](assets/screen_shot_2019-02-21at40516pm.png)
+   ![&#x200B; screen_shot_2019-02-21at40516pm &#x200B;](assets/screen_shot_2019-02-21at40516pm.png)
 
 1. **Creërend een Plaats**
 
    1. Navigeer aan de **omslag van Plaatsen**.
    1. Klik **creëren** van de actiebar en creeer een plaats genoemd **Opslag** van de tovenaar.
 
-   ![ screen_shot_2019-02-22at121638pm ](assets/screen_shot_2019-02-22at121638pm.png)
+   ![&#x200B; screen_shot_2019-02-22at121638pm &#x200B;](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Creërend Vertoningen in uw Plaats**
 
    Navigeer aan uw plaats (**Winkel**) en klik **creeer** van de actiebar. Na de tovenaar, creeer twee **Vertoningen** titled als **StoreFront** en **StoreRear**.
 
-   ![ screen_shot_2019-02-22at122556pm ](assets/screen_shot_2019-02-22at122556pm.png)
+   ![&#x200B; screen_shot_2019-02-22at122556pm &#x200B;](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Creërend een Programma**
 
@@ -101,7 +101,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    1. Klik **creëren** van de actiebar.
    1. Na de tovenaar, creeer een programma genoemd als **StoreSchedule**.
 
-   ![ screen_shot_2019-02-22at122845pm ](assets/screen_shot_2019-02-22at122845pm.png)
+   ![&#x200B; screen_shot_2019-02-22at122845pm &#x200B;](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Wijs zowel de Vertoningen aan uw Programma toe en vastgestelde Prioriteiten
 
@@ -122,7 +122,7 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    >
    >Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzingen voldoen aan de afspeelcriteria. De waarde met de hoogste waarde heeft altijd voorrang op lagere waarden.
 
-   ![ screen_shot_2019-03-04at104636am ](assets/screen_shot_2019-03-04at104636am.png)
+   ![&#x200B; screen_shot_2019-03-04at104636am &#x200B;](assets/screen_shot_2019-03-04at104636am.png)
 
 1. Klik **+ wijs Kanaal** van het **TOEGEWEZEN paneel van KANALEN** toe.
 
@@ -135,11 +135,11 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
 
    1. Klik **sparen**
 
-   ![ screen_shot_2019-03-04at104741am ](assets/screen_shot_2019-03-04at104741am.png)
+   ![&#x200B; screen_shot_2019-03-04at104741am &#x200B;](assets/screen_shot_2019-03-04at104741am.png)
 
    U kunt de toegewezen kanalen van het **StoreSchedule** dashboard bekijken.
 
-   ![ screen_shot_2019-02-25at93658pm ](assets/screen_shot_2019-02-25at93658pm.png)
+   ![&#x200B; screen_shot_2019-02-25at93658pm &#x200B;](assets/screen_shot_2019-02-25at93658pm.png)
 
 1. **Toewijzend Programma aan elke Vertoning**
 
@@ -153,13 +153,13 @@ Voer de onderstaande stappen uit om een noodkanaal in te stellen:
    1. Klik **sparen**.
 
    U kunt het toegewezen programma aan de vertoning van het **StoreSchedule** dashboard bekijken.
-   ![ screen_shot_2019-03-04at122003pm ](assets/screen_shot_2019-03-04at122003pm.png)
+   ![&#x200B; screen_shot_2019-03-04at122003pm &#x200B;](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **Registratie van het Apparaat**
 
    Voltooi het registratieproces van het apparaat. Wanneer u zich hebt geregistreerd, kunt u de volgende uitvoer weergeven op uw AEM Screens Player.
 
-   ![ new30 ](assets/new30.gif)
+   ![&#x200B; new30 &#x200B;](assets/new30.gif)
 
 ## Overschakelen naar noodkanaal {#switching-to-emergency-channel}
 
@@ -167,19 +167,19 @@ Voer in geval van nood de volgende stappen uit:
 
 1. Navigeer aan **EmergencyChannel** > **Programma&#39;s** > **StoreSchedule** en klik **Dashboard** van de actiebar.
 
-   ![ screen_shot_2019-02-25at101112pm ](assets/screen_shot_2019-02-25at101112pm.png)
+   ![&#x200B; screen_shot_2019-02-25at101112pm &#x200B;](assets/screen_shot_2019-02-25at101112pm.png)
 
 1. Klik **EmergencyChannel** van **StoreSchedule** dashboard en klik **geef Toewijzing** uit.
 
-   ![ screen_shot_2019-02-25at101239pm ](assets/screen_shot_2019-02-25at101239pm.png)
+   ![&#x200B; screen_shot_2019-02-25at101239pm &#x200B;](assets/screen_shot_2019-02-25at101239pm.png)
 
 1. Werk de **Prioriteit** van **EmergencyChannel** aan **3** van de **7&rbrace; dialoogdoos van de Toewijzing van het Kanaal bij en klik** sparen **.**
 
-   ![ screen_shot_2019-02-25at101622pm ](assets/screen_shot_2019-02-25at101622pm.png)
+   ![&#x200B; screen_shot_2019-02-25at101622pm &#x200B;](assets/screen_shot_2019-02-25at101622pm.png)
 
 1. Wanneer de prioriteit van het kanaal wordt bijgewerkt, toont al Speler van AEM Screens de **&#x200B;**&#x200B;inhoud EmergencyChannel.
 
-   ![ screen_shot_2019-02-25at101742pm ](assets/screen_shot_2019-02-25at101742pm.png)
+   ![&#x200B; screen_shot_2019-02-25at101742pm &#x200B;](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Conclusie {#conclusion}
 

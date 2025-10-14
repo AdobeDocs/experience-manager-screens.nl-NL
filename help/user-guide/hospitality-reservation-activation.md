@@ -31,7 +31,7 @@ Als de waarde van **`Restaurant1`** > **`Restaurant2`**, dan **AdTaget** wordt t
 
 Alvorens u begint de reserveringsactivering uit te voeren, leer hoe te opstelling ***Opslag van Gegevens***, ***Segmentatie van het publiek*** en ***het richten voor Kanalen*** in een Project van AEM Screens toelaten.
 
-Zie [ het Vormen ContextHub in AEM Screens ](configuring-context-hub.md) voor gedetailleerde informatie.
+Zie [&#x200B; het Vormen ContextHub in AEM Screens &#x200B;](configuring-context-hub.md) voor gedetailleerde informatie.
 
 ## Basisstroom {#basic-flow}
 
@@ -41,7 +41,7 @@ Volg onderstaande stappen in het gebruiksgeval om de activering van de ziekenhui
 
    Bijvoorbeeld, pas de formule op de derde kolom **AdTarget** toe, zoals aangetoond in het hieronder cijfer.
 
-   ![ screen_shot_2019-04-29at94132am ](assets/screen_shot_2019-04-29at94132am.png)
+   ![&#x200B; screen_shot_2019-04-29at94132am &#x200B;](assets/screen_shot_2019-04-29at94132am.png)
 
 1. **Vormend de segmenten in Soorten publiek zoals per de vereisten**
 
@@ -60,15 +60,15 @@ Volg onderstaande stappen in het gebruiksgeval om de activering van de ziekenhui
 
    >[!NOTE]
    >
-   >Uw kanaal zou reeds een standaardbeeld moeten hebben en het publiek zou pre-gevormd moeten zijn zoals die in [ wordt beschreven het Vormen ContextHub in AEM Screens ](configuring-context-hub.md).
+   >Uw kanaal zou reeds een standaardbeeld moeten hebben en het publiek zou pre-gevormd moeten zijn zoals die in [&#x200B; wordt beschreven het Vormen ContextHub in AEM Screens &#x200B;](configuring-context-hub.md).
 
-   ![ screen_shot_2019-05-08at14652pm ](assets/screen_shot_2019-05-08at14652pm.png)
+   ![&#x200B; screen_shot_2019-05-08at14652pm &#x200B;](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
    >Uw **ContextHub** **Configuraties** gebruikend het kanaal **Eigenschappen** > **Personalization** lusje zou reeds opstelling op dit punt moeten zijn geweest.
 
-   ![ screen_shot_2019-05-08at114106am ](assets/screen_shot_2019-05-08at114106am.png)
+   ![&#x200B; screen_shot_2019-05-08at114106am &#x200B;](assets/screen_shot_2019-05-08at114106am.png)
 
 1. Klik **richtend** van de redacteur en klik **Merk** en de **Activiteit** van het drop-down menu en klik **Begin richtend**.
 1. **die de Voorproef** controleert
@@ -76,4 +76,4 @@ Volg onderstaande stappen in het gebruiksgeval om de activering van de ziekenhui
    1. Klik **Voorproef.** Open ook uw Google-bladen en werk de waarde ervan bij.
    1. Werk de waarde in **`Restaurant1`** en **`Restaurant2`** kolommen bij. Als **`Restaurant1`** > **`Restaurant2`,** u een beeld van *zou moeten kunnen bekijken Steak* anders voedsel, *Thaise* vertoningen van het voedselbeeld op uw scherm.
 
-   ![ result5 ](assets/result5.gif)
+   ![&#x200B; result5 &#x200B;](assets/result5.gif)

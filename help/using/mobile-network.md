@@ -71,7 +71,7 @@ Als follow-up moet het benodigde gegevenspakket ten minste het volgende zijn:
 >Voor het aanvankelijk uploaden van mediabestanden terwijl nieuwe spelers worden geïntegreerd, moet een hogere hoeveelheid gegevens en een hogere downloadtijd worden verwacht; dit wordt weerspiegeld in de bovenstaande veronderstellingen. Een netwerk 4G met *goede* dekking en *onbeperkt* gegevens zou de gemeenschappelijkste installaties in deze Opstelling van Netwerk moeten aanpassen.
 
 >[!NOTE]
->Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens Player. Als er slechts eerlijke dekking beschikbaar bij een specifieke plaats is, denk na omschakeling van de algemene Opstelling van het Netwerk aan [ Mobiel Netwerk met de Mobiele Router van Gegevens en Actieve Componenten van het Netwerk ](/help/using/mobile-network-router.md).
+>Een minimaal 3G-plan met een goede netwerkdekking moet leiden tot acceptabele downloadprestaties voor een AEM Screens Player. Als er slechts eerlijke dekking beschikbaar bij een specifieke plaats is, denk na omschakeling van de algemene Opstelling van het Netwerk aan [&#x200B; Mobiel Netwerk met de Mobiele Router van Gegevens en Actieve Componenten van het Netwerk &#x200B;](/help/using/mobile-network-router.md).
 
 
 ### Netwerk voor lokale gebieden {#lan-connection}

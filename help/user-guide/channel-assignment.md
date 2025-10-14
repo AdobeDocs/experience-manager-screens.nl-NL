@@ -40,7 +40,7 @@ Voer de onderstaande stappen uit om een kanaal toe te wijzen aan een weergave:
 
    ![afbeelding](/help/user-guide/assets/channel-assign1.png)
 
-   U kunt de eigenschappen van het **de dialoogvakje van de Taak van het Kanaal** van de sectie hieronder vormen. Zie de [ sectie van de Eigenschappen van het Kanaal ](#channel-properties) voor meer informatie over kanaaleigenschappen.
+   U kunt de eigenschappen van het **de dialoogvakje van de Taak van het Kanaal** van de sectie hieronder vormen. Zie de [&#x200B; sectie van de Eigenschappen van het Kanaal &#x200B;](#channel-properties) voor meer informatie over kanaaleigenschappen.
 
 ## Kanaaleigenschappen van kanaaltoewijzing {#channel-properties}
 
@@ -174,5 +174,5 @@ Dit voorbeeld toont DayParting voor een opslag die hun winterinzameling met het 
 >
 > Zie de volgende secties voor meer informatie over DayParting:
 >
->* [ Behandelend Herhaling in Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [ Behandelende Herhaling voor Assets in een Kanaal ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [&#x200B; Behandelend Herhaling in Assets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [&#x200B; Behandelende Herhaling voor Assets in een Kanaal &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

@@ -100,7 +100,7 @@ Om een succesvolle digitale signaalplaatsing te steunen, is het gebruikelijk om 
 >
 >Terwijl deze gids nadruk hoofdzakelijk op *Dag Één* en *Dag Twee* legt, is de aandacht op alle drie stadia noodzakelijk om een succesvol digitaal ondertekeningsproject in werking te stellen.
 >
->Om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren, op een video op **[het Beheer en Plaatsing van het Project ](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment) te letten**.
+>Om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren, op een video op **[het Beheer en Plaatsing van het Project &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment) te letten**.
 
 ## RACI-diagram {#raci-chart}
 

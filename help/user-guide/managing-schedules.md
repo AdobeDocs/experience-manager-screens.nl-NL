@@ -50,13 +50,13 @@ Voer de onderstaande stappen uit om het dashboard voor het schema weer te geven.
 
 1. Navigeer aan de **omslag van Programma&#39;s** van Screens (voorbeeld, `We.Retail`) project.
 
-   ![ chlimage_1 ](assets/chlimage_1.png)
+   ![&#x200B; chlimage_1 &#x200B;](assets/chlimage_1.png)
 
 1. Klik **Dashboard** van de actiebar.
 
    U kunt drie verschillende panelen zoals **SCHEMA INFORMATIE** bekijken, **TOEGEWEZEN KANALEN**, en **TOEGEWEZEN WEERGAVEN**.
 
-   ![ chlimage_1-1 ](assets/chlimage_1-1.png)
+   ![&#x200B; chlimage_1-1 &#x200B;](assets/chlimage_1-1.png)
 
    **het Comité van de Informatie van het Programma** - klik Eigenschappen van de hoger-juiste hoek van het paneel van de INFORMATIE van het SCHEMA aan mening/veranderingseigenschappen van het programma.
 

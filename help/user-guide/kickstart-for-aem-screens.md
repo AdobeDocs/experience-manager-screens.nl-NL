@@ -17,7 +17,7 @@ ht-degree: 1%
 De kickstart naar AEM Screens laat zien hoe u een AEM Screens-project kunt opzetten en uitvoeren. Het begeleidt u door het instellen van een eenvoudige digitale handtekening en het toevoegen van inhoud, zoals elementen en/of video&#39;s, aan elk kanaal en het verder publiceren van de inhoud naar een AEM Screens Player.
 
 >[!NOTE]
->Voordat u aan de projectdetails gaat werken, moet u eerst het nieuwste Feature Pack voor AEM Screens hebben geïnstalleerd. U kunt het recentste Pak van de Eigenschap van het [ Portaal van de Distributie van de Software downloaden ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) gebruikend uw Adobe ID.
+>Voordat u aan de projectdetails gaat werken, moet u eerst het nieuwste Feature Pack voor AEM Screens hebben geïnstalleerd. U kunt het recentste Pak van de Eigenschap van het [&#x200B; Portaal van de Distributie van de Software downloaden &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) gebruikend uw Adobe ID.
 
 ## Vereisten {#prerequisites}
 
@@ -174,7 +174,7 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
    >[!NOTE]
    >Het *Programma van de Herhaling* laat u een terugkomende programma voor uw kanaal plaatsen. U kunt meerdere herhalingsschema&#39;s instellen voor een kanaal.
-   >Zie [ Programma van de Herhaling ](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) voor meer details.
+   >Zie [&#x200B; Programma van de Herhaling &#x200B;](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) voor meer details.
 
 1. Klik **sparen** zodra u uw voorkeur hebt gevormd.
 
@@ -185,7 +185,7 @@ Registreer het apparaat met het AEM-dashboard.
 >[!IMPORTANT]
 >Chrome OS Player kan als Chrome browser stop in ontwikkelaarwijze worden geïnstalleerd zonder daadwerkelijke Chrome Player apparaat te vereisen. Volg onderstaande stappen voor installatie:
 >
->1. Klik [ hier ](https://download.macromedia.com/screens/) om de recentste Speler van Chrome te downloaden.
+>1. Klik [&#x200B; hier &#x200B;](https://download.macromedia.com/screens/) om de recentste Speler van Chrome te downloaden.
 >1. Pak het uit en sla het op de schijf op.
 >1. Open browser van Chrome en klik **Uitbreidingen** van het menu of navigeer direct aan ***chrome://extensions***.
 >1. Schakelaar op de **wijze van de Ontwikkelaar** van de top-juiste hoek.

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, contacteer de Steun van de Adobe en verzoek toegang. U kunt het recentste Pak van de Eigenschap voor AEM Screens van het [ Portaal van de Distributie van de Software downloaden ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) gebruikend uw Adobe ID.
+>Om toegang tot één van beiden van deze Packs van de Eigenschap te krijgen, contacteer de Steun van de Adobe en verzoek toegang. U kunt het recentste Pak van de Eigenschap voor AEM Screens van het [&#x200B; Portaal van de Distributie van de Software downloaden &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) gebruikend uw Adobe ID.
 
 In deze sectie worden de volgende onderwerpen behandeld:
 
@@ -59,7 +59,7 @@ Een AEM Screens-klant wil weten welke inhoud op welk moment en voor hoe lang (ge
 
 In het volgende architectuurdiagram wordt de Adobe Analytics Integration met AEM Screens uitgelegd:
 
-![ screen_shot_2018-09-12at85611am ](assets/screen_shot_2018-09-12at85611am.png)
+![&#x200B; screen_shot_2018-09-12at85611am &#x200B;](assets/screen_shot_2018-09-12at85611am.png)
 
 ## Adobe Analytics inschakelen in AEM Screens {#enabling-adobe-analytics-in-aem-screens}
 
@@ -67,7 +67,7 @@ De montages van Adobe Analytics kunnen van de console worden gevormd OSGi.
 
 Navigeer aan **Configuratie van de Console van het Web van Adobe Experience Manager** zodat kunt u Adobe Analytics voor AEM Screens vormen.
 
-![ screen_shot_2018-09-04at25550pm ](assets/screen_shot_2018-09-04at25550pm.png)
+![&#x200B; screen_shot_2018-09-04at25550pm &#x200B;](assets/screen_shot_2018-09-04at25550pm.png)
 
 ## Screens Analytics: Enablement Flow {#screens-analytics-enablement-flow}
 

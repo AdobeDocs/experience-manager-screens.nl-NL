@@ -21,7 +21,7 @@ ht-degree: 0%
 
 AEM Screens heeft AEM 6.5 Feature Pack uitgebracht 6.
 
-U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.6 Versie van het [ Portaal van de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP6**.
+U kunt het recentste Pak van de Eigenschap voor AEM Screens 6.5.6 Versie van het [&#x200B; Portaal van de Distributie van de Software &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) downloaden gebruikend uw Adobe ID. Navigeer aan het **Adobe Experience Manager** lusje en onderzoek naar **Screens** om het recentste Pak van de Eigenschap te krijgen dat als **wordt genoemd AEM 6.5 Screens FP6**.
 
 ## Releasedatum {#release-date}
 
@@ -32,7 +32,7 @@ De Releasedatum voor AEM Screens Feature Pack 202011 is 30 november 2020.
 * **Rapport van de Toewijzing van de Inhoud**
 
   De eigenschap van het Rapport van de Toewijzing van de Inhoud staat een beheerder van AEM Screens of een auteur toe om het Rapport van de Toewijzing van de a *Inhoud* in een spreadsheetformaat uit te voeren.
-Zie [ Rapport van de Toewijzing van de Inhoud ](/help/user-guide/content-assignment-report.md) voor meer details.
+Zie [&#x200B; Rapport van de Toewijzing van de Inhoud &#x200B;](/help/user-guide/content-assignment-report.md) voor meer details.
 
 
 * **Speler Tizen**
@@ -43,7 +43,7 @@ Zie [&#128279;](/help/user-guide/tizen-player.md) Uitvoerend de Speler van de Ve
 * **Functionaliteit van het Onderzoek van de Manager van het Apparaat**
 
   Er is nu een nieuwe zoekfunctionaliteit beschikbaar via de interface van Apparaatbeheer met het nieuwste Feature Pack voor de AEM Screens 6.5.6-versie.
-Zie [ zoekend een Apparaat van de Manager van het Apparaat ](/help/user-guide/device-registration.md#search-device) voor meer details.
+Zie [&#x200B; zoekend een Apparaat van de Manager van het Apparaat &#x200B;](/help/user-guide/device-registration.md#search-device) voor meer details.
 
 * **Standaard pingelen Interval**
 
@@ -61,4 +61,4 @@ De volgende AEM Screens Players worden vrijgegeven voor AEM 6.5 Pak van de Eigen
 
 #### Downloads voor AEM Screens Player
 
-Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens ](https://download.macromedia.com/screens/index.html)**.
+Om de recentste Speler van AEM Screens te downloaden en meer over de insectenmoeilijke situaties te leren, zie **[Downloads van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/index.html)**.

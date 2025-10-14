@@ -30,7 +30,7 @@ Ook, **Watchdog** is een oplossing om de speler van neerstortingen terug te krij
 
 Installeer Android™ Player voor AEM Screens om Android™ Player voor AEM Screens te implementeren.
 
-Bezoek [**AEM 6.5 de Downloads van de Speler** ](https://download.macromedia.com/screens/) pagina.
+Bezoek [**AEM 6.5 de Downloads van de Speler** &#x200B;](https://download.macromedia.com/screens/) pagina.
 
 ### De Milieu van de vestiging voor AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
@@ -53,7 +53,7 @@ Voer de onderstaande stappen uit:
 
 ### Ad hoc-methode {#ad-hoc-method}
 
-De ad hoc methode laat u de recentste Speler Android™ (*.exe*) installeren. Bezoek [**AEM 6.5 de Downloads van de Speler** ](https://download.macromedia.com/screens/) pagina.
+De ad hoc methode laat u de recentste Speler Android™ (*.exe*) installeren. Bezoek [**AEM 6.5 de Downloads van de Speler** &#x200B;](https://download.macromedia.com/screens/) pagina.
 
 Nadat u de toepassing hebt gedownload, voert u de stappen op de speler uit om de ad-hocinstallatie te voltooien:
 
@@ -84,7 +84,7 @@ Om tot enkele bevoorrechte APIs van Android™, zoals *PowerManager* of *HDMICon
 
 Volg de onderstaande stappen om de Android™ apk te ondertekenen met de toetsen van de fabrikant:
 
-1. Download apk van Google Play of van de [ downloadt van de Speler van AEM Screens ](https://download.macromedia.com/screens/) pagina
+1. Download apk van Google Play of van de [&#x200B; downloadt van de Speler van AEM Screens &#x200B;](https://download.macromedia.com/screens/) pagina
 1. Verkrijg de platformsleutels van de fabrikant zodat kunt u a *pk8* en a *krijgen pem* dossier
 
 1. Zoek het gereedschap `apksigner` in Android™ SDK met de zoekfunctie `~/Library/Android/sdk/build-tools -name "apksigner"`
@@ -99,7 +99,7 @@ De dwars-Android™ waakhond dienst wordt uitgevoerd als stop Cordova gebruikend
 
 Het volgende diagram toont de implementatie van de waakhonddienst:
 
-![ chlimage_1-31 ](assets/chlimage_1-31.png)
+![&#x200B; chlimage_1-31 &#x200B;](assets/chlimage_1-31.png)
 
 **1. Initialisatie** - op het tijdstip van initialisatie van de insteekmodule Cordova, worden de toestemmingen gecontroleerd om te zien of hebt u systeemvoorrechten en zo Reboot toestemming. Als aan deze twee criteria wordt voldaan, wordt een hangende Intent voor Reboot gecreeerd, anders wordt een hangende Intent om de toepassing (die op zijn Activiteit van de Lancering wordt gebaseerd) opnieuw te beginnen gecreeerd.
 
@@ -121,7 +121,7 @@ Wanneer u de Android™-speler bulksgewijs implementeert, moet u de speler de mo
 Volg de onderstaande stappen om bulkprovisioning in de Android™-speler toe te staan:
 
 1. Maak een configuratie-JSON-bestand met de naam `player-config.default.json` .
-Zie een [ Beleid JSON van het Voorbeeld ](#example-json) en een lijst die het gebruik van de diverse [ Attributen van het Beleid ](#policy-attributes) beschrijft.
+Zie een [&#x200B; Beleid JSON van het Voorbeeld &#x200B;](#example-json) en een lijst die het gebruik van de diverse [&#x200B; Attributen van het Beleid &#x200B;](#policy-attributes) beschrijft.
 
 1. Gebruik een MDM of ADB of Android™ Studio dossierontdekkingsreiziger om dit beleidJSON dossier aan de *sdcard* omslag op het Android™ apparaat te laten vallen.
 
@@ -175,7 +175,7 @@ De volgende lijst vat de beleidsattributen met een voorbeeldbeleid JSON ter verw
 
 ## Bulkprovisioning van Android™ Player met gebruik van Enterprise Mobility Management {#bulk-provisioning}
 
-Wanneer u de Android™-speler bulksgewijs inzet, wordt het vervelend om elke speler handmatig bij AEM te registreren. Gebruik een EMM-oplossing (Enterprise Mobility Management), zoals [`VMWare Airwatch` ](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm) , MobileIron of Samsung Knox, zodat u uw implementatie op afstand kunt voorzien en beheren. AEM Screens Android™-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
+Wanneer u de Android™-speler bulksgewijs inzet, wordt het vervelend om elke speler handmatig bij AEM te registreren. Gebruik een EMM-oplossing (Enterprise Mobility Management), zoals [`VMWare Airwatch` &#x200B;](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm) , MobileIron of Samsung Knox, zodat u uw implementatie op afstand kunt voorzien en beheren. AEM Screens Android™-speler ondersteunt de industriestandaard EMM AppConfig voor externe provisioning.
 
 ## Namen van Android™ Player {#name-android}
 
@@ -203,8 +203,8 @@ Voer de onderstaande stappen uit om bulkprovisioning in Android™ Player toe te
    >[!NOTE]
    >De apparaten zouden de toepassing samen met de configuratie moeten ontvangen. De toepassing moet verwijzen naar de juiste AEM-server met de geselecteerde configuratie. Als u ervoor hebt gekozen de bulkregistratiecode te configureren en deze op dezelfde manier te handhaven als in AEM, kan de speler zichzelf automatisch registreren. Als u een standaardweergave hebt geconfigureerd, kan deze ook standaardinhoud downloaden en weergeven (die later naar wens kan worden gewijzigd).
 
-Raadpleeg ook uw leverancier van EMM op AppConfig-ondersteuning. De populairste degenen zoals [`VMWare Airwatch` ](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron` ](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI` ](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM` ](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360` ](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), en [`Samsung Knox` ](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) onder anderen steunen deze industriestandaard.
+Raadpleeg ook uw leverancier van EMM op AppConfig-ondersteuning. De populairste degenen zoals [`VMWare Airwatch` &#x200B;](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron` &#x200B;](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI` &#x200B;](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM` &#x200B;](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360` &#x200B;](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), en [`Samsung Knox` &#x200B;](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) onder anderen steunen deze industriestandaard.
 
 ### De afstandsbediening van Screens gebruiken {#using-remote-control}
 
-AEM Screens biedt functionaliteit voor afstandsbediening. Leer meer over deze eigenschap hier: [ de Verre Controle van Screens ](implementing-remote-control.md)
+AEM Screens biedt functionaliteit voor afstandsbediening. Leer meer over deze eigenschap hier: [&#x200B; de Verre Controle van Screens &#x200B;](implementing-remote-control.md)

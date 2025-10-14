@@ -32,7 +32,7 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 1. Navigeer aan **Hulpmiddelen** > **Plaatsing** > **Distributie** > **publiceer Agent** en klik de het publiceren agent zodat kunt u uw montages vormen.
 
-   ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
+   ![&#x200B; image1 &#x200B;](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
    >[!NOTE]
    >
@@ -40,11 +40,11 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 1. Klik **Verbinding van de Test** van de actiebar zodat kunt u de mededeling van de Auteur met de het Publiceren instantie bevestigen, zoals aangetoond in het volgende:
 
-   ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
+   ![&#x200B; image1 &#x200B;](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
    >[!NOTE]
    >
-   >Als de test ontbreekt, bevestig de configuratie van de replicatieagent tussen de Auteur en het Publiceren instantie. Zie [ Verbinding van de Test van het Oplossen van problemen ](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) voor meer details.
+   >Als de test ontbreekt, bevestig de configuratie van de replicatieagent tussen de Auteur en het Publiceren instantie. Zie [&#x200B; Verbinding van de Test van het Oplossen van problemen &#x200B;](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) voor meer details.
 
 1. Klik **toevoegen** van de **het schermboom van de Agent van de Distributie** en klik de configuratiepad voor uw project, bijvoorbeeld, `/conf/screens/settings/cloudsettings/configuration`.
 
@@ -56,7 +56,7 @@ Voer de onderstaande stappen uit om de gegevenstriggers voor het publiceren van 
 
 1. Ga bijvoorbeeld naar de projectmap `/conf/screens/` .
 
-   ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
+   ![&#x200B; image1 &#x200B;](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. Klik op alle soorten publiek en segmenten in de gebruikersinterface.
 
@@ -95,7 +95,7 @@ Als de testverbinding terwijl het herhalen van de configuraties ContextHub ontbr
 1. Navigeer aan **Hulpmiddelen** > **Plaatsing** > **Distributie** > **publiceer Agent**.
 
 1. Klik **uitgeven** van de actiebar en zorg ervoor dat het eindpunt URL in het **Eindpunten van de Importeur** gebied ook aan de het publiceren server URL in de Agent van de Distributie richt.
-   ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
+   ![&#x200B; image1 &#x200B;](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Als u niet de standaardadmin geloofsbrieven gebruikt, dan moet u de Agent van de Distributie met een verschillende gebruikersbenaming en een wachtwoord vormen.
 
@@ -104,16 +104,16 @@ Als de testverbinding terwijl het herhalen van de configuraties ContextHub ontbr
    1. Navigeer aan Hulpmiddelen > **Verrichtingen** > **Console van het Web** `http://localhost:4502/system/console/configMgr` zodat kunt u het **scherm van de Console van het Web van Adobe Experience Manager** openen.
    1. Zoeken naar **`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`**
 
-      ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
+      ![&#x200B; image1 &#x200B;](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
    1. Creeer een configuratie, door **Naam** te bevolken, **Naam van de Gebruiker**, en **wachtwoord**, bijvoorbeeld, *slingTransportSecretProvider*.
 
-      ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
+      ![&#x200B; image1 &#x200B;](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Klik **sparen**
    1. Gebruik `Cmd +F` om naar **Apache het Schipen van de Agent van de Distributie te zoeken - de Voorwaartse Fabriek van Agenten** om de configuraties te openen en naar **Geheime Leverancier van het Vervoer** te zoeken.
 
-      ![ image1 ](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
+      ![&#x200B; image1 &#x200B;](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Werk `(name=default)` bij met `(name=slingTransportSecretProvider)` .
    1. Klik **sparen** en stel opnieuw de testverbinding van het **scherm van de Agent van de Distributie** van uw instantie van AEM in werking.

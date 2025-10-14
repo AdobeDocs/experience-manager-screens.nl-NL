@@ -30,7 +30,7 @@ Volg de onderstaande stappen om aangepaste branding en opmaak voor tekstbedekkin
    ![afbeelding](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >Leren hoe te om een tekstbedekking aan uw activa in een kanaalredacteur toe te voegen, zie [ Bedekking van de Tekst ](/help/user-guide/text-overlay.md).
+   >Leren hoe te om een tekstbedekking aan uw activa in een kanaalredacteur toe te voegen, zie [&#x200B; Bedekking van de Tekst &#x200B;](/help/user-guide/text-overlay.md).
 
 1. Navigeer aan CRXDE Lite van uw instantie van AEM > hulpmiddelen > **CRXDE Lite**.
 

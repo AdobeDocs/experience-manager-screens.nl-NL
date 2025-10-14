@@ -21,7 +21,7 @@ In deze pagina wordt beschreven hoe u AEM Screens Player kunt installeren.
 
 De AEM Screens Player is beschikbaar voor Android™, Chrome OS en Windows.
 
-Om **Speler van AEM Screens** te downloaden, bezoek [ AEM 6.5 de Downloads van de Speler ](https://download.macromedia.com/screens/) pagina.
+Om **Speler van AEM Screens** te downloaden, bezoek [&#x200B; AEM 6.5 de Downloads van de Speler &#x200B;](https://download.macromedia.com/screens/) pagina.
 
 >[!NOTE]
 >
@@ -80,8 +80,8 @@ Hieronder volgt een aantal beperkingen voor elementaire afspeelcontrole:
 
 Zie de volgende onderwerpen voor diepgaande informatie:
 
-* Om de Speler van Android™ te downloaden, bezoek **Google Play**. Om over het uitvoeren van Android™ Watchdog te leren, zie [ het Uitvoeren van de speler van Android™ ](implementing-android-player.md).
+* Om de Speler van Android™ te downloaden, bezoek **Google Play**. Om over het uitvoeren van Android™ Watchdog te leren, zie [&#x200B; het Uitvoeren van de speler van Android™ &#x200B;](implementing-android-player.md).
 
-* Om de Speler van Chrome OS uit te voeren, zie [ de Console van het Beheer van Chrome ](implementing-chrome-os-player.md) voor meer informatie.
+* Om de Speler van Chrome OS uit te voeren, zie [&#x200B; de Console van het Beheer van Chrome &#x200B;](implementing-chrome-os-player.md) voor meer informatie.
 
-* Om de Speler van AEM Screens Windows te vormen, zie [ Uitvoerend de Speler van Vensters van Vensters ](implementing-windows-player.md).
+* Om de Speler van AEM Screens Windows te vormen, zie [&#x200B; Uitvoerend de Speler van Vensters van Vensters &#x200B;](implementing-windows-player.md).
