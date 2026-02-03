@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 107e296237a98b7d69744b5ec4b87142d7de61cd
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ U kunt voorkeuren voor uw apparaat configureren vanaf het apparaatdashboard, dat
 
    Klik **Apparaten** en **Manager van het Apparaat** van de actiebar.
 
-   ![&#x200B; chlimage_1-66 &#x200B;](assets/chlimage_1-66.png)
+   ![ chlimage_1-66 ](assets/chlimage_1-66.png)
 
 1. Klik op het apparaat zodat u het dashboard van het apparaat kunt openen.
 
-   ![&#x200B; chlimage_1-67 &#x200B;](assets/chlimage_1-67.png)
+   ![ chlimage_1-67 ](assets/chlimage_1-67.png)
 
 1. Controleer het **paneel van VOORKEUREN**. U kunt **Admin UI** en **Schakelaar van het Kanaal** voor uw speler van deze twee opties toelaten of onbruikbaar maken.
 
-   ![&#x200B; chlimage_1-68 &#x200B;](assets/chlimage_1-68.png)
+   ![ chlimage_1-68 ](assets/chlimage_1-68.png)
 
 ### De interface van Admin {#the-admin-ui}
 
@@ -54,13 +54,13 @@ Als u de Admin UI van de Speler van de Screens wilt bekijken, duw op de hoogste-
 >
 >U kunt ook de uptime van de AEM Screens Player-app weergeven om de status van de app te controleren.
 
-![&#x200B; chlimage_1-3 &#x200B;](assets/chlimage_1-3.gif)
+![ chlimage_1-3 ](assets/chlimage_1-3.gif)
 
 #### Toegang tot de Opties van het Menu van de Configuratie {#configuration-options}
 
 U kunt uw configuraties bijwerken als u de **optie van de Configuratie** van het zijmenu klikt, zoals aangetoond in het hieronder cijfer:
 
-![&#x200B; screen_shot_2018-10-15at101257am &#x200B;](assets/screen_shot_2018-10-15at101257am.png)
+![ screen_shot_2018-10-15at101257am ](assets/screen_shot_2018-10-15at101257am.png)
 
 In het menu Configuratie kunt u de volgende instellingen wijzigen:
 
@@ -88,7 +88,7 @@ U kunt cache voor kanalen en toepassingen wissen via de beheerinterface in AEM S
 
 Klik het **Geheime voorgeheugen van de Inhoud** van de zijspoorstaaf zodat kunt u het geheime voorgeheugen bijwerken.
 
-![&#x200B; screen_shot_2018-10-15at105717am &#x200B;](assets/screen_shot_2018-10-15at105717am.png)
+![ screen_shot_2018-10-15at105717am ](assets/screen_shot_2018-10-15at105717am.png)
 
 ### De kanaalschakelaar {#the-channel-switcher}
 
@@ -100,7 +100,7 @@ U kunt instellingen voor uw kanaal wijzigen en beheren vanuit uw Screens Player.
 
 Als u de kanaalschakelaar van de speler wilt weergeven, drukt u lang op de linkerbenedenhoek om de kanaalschakelaar te openen die het schakelen tussen kanalen en andere functies toestaat.
 
-![&#x200B; chlimage_1-69 &#x200B;](assets/chlimage_1-69.png)
+![ chlimage_1-69 ](assets/chlimage_1-69.png)
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Voorkeuren wijzigen van uw speler:
 1. Navigeer aan **Configuratie** van het linkeractiemenu.
 1. Laat of maak de configuratie voor **Admin UI** of **Schakelaar van het Kanaal** toe onbruikbaar.
 
-![&#x200B; screen_shot_2018-10-15at101257am-1 &#x200B;](assets/screen_shot_2018-10-15at101257am-1.png)
+![ screen_shot_2018-10-15at101257am-1 ](assets/screen_shot_2018-10-15at101257am-1.png)
 
 ## Problemen met AEM Screens Player oplossen
 
@@ -143,6 +143,10 @@ Er zijn twee typen updates voor de AEM Screens Player:
 | Updates van Flash Player | Een nieuw uitvoerbaar die op de Speler wordt opgesteld. Deze functionaliteit vereist u om het nieuwe binaire getal op afstand op de speler te kopiëren, de huidige uitvoering te stoppen en de nieuwe versie te starten. Het kan nodig zijn de voorgeladen pakketten opnieuw te downloaden. | Ja (via externe shell) | Aangepast | Nee |
 
 ## Richtlijnen voor hardwareselectie voor afspeelapparaat {#hardware-selection-guidelines-for-player-device}
+
+>[!NOTE]
+>
+>**GEDEPRECEERD:** Deze begeleiding van de hardwareselectie is afgekeurd en zou niet voor nieuwe plaatsingen moeten worden gebruikt. Hardwarespecificaties en -aanbevelingen moeten worden verstrekt door een gekwalificeerde AV-integrator op basis van uw specifieke implementatievereisten en gebruiksgevallen.
 
 In het volgende gedeelte vindt u de richtlijnen voor hardwareselectie voor een Screens-project:
 
