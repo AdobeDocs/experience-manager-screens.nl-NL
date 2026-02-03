@@ -34,15 +34,15 @@ U kunt voorkeuren voor uw apparaat configureren vanaf het apparaatdashboard, dat
 
    Klik **Apparaten** en **Manager van het Apparaat** van de actiebar.
 
-   ![ chlimage_1-66 ](assets/chlimage_1-66.png)
+   ![&#x200B; chlimage_1-66 &#x200B;](assets/chlimage_1-66.png)
 
 1. Klik op het apparaat zodat u het dashboard van het apparaat kunt openen.
 
-   ![ chlimage_1-67 ](assets/chlimage_1-67.png)
+   ![&#x200B; chlimage_1-67 &#x200B;](assets/chlimage_1-67.png)
 
 1. Controleer het **paneel van VOORKEUREN**. U kunt **Admin UI** en **Schakelaar van het Kanaal** voor uw speler van deze twee opties toelaten of onbruikbaar maken.
 
-   ![ chlimage_1-68 ](assets/chlimage_1-68.png)
+   ![&#x200B; chlimage_1-68 &#x200B;](assets/chlimage_1-68.png)
 
 ### De interface van Admin {#the-admin-ui}
 
@@ -54,13 +54,13 @@ Als u de Admin UI van de Speler van de Screens wilt bekijken, duw op de hoogste-
 >
 >U kunt ook de uptime van de AEM Screens Player-app weergeven om de status van de app te controleren.
 
-![ chlimage_1-3 ](assets/chlimage_1-3.gif)
+![&#x200B; chlimage_1-3 &#x200B;](assets/chlimage_1-3.gif)
 
 #### Toegang tot de Opties van het Menu van de Configuratie {#configuration-options}
 
 U kunt uw configuraties bijwerken als u de **optie van de Configuratie** van het zijmenu klikt, zoals aangetoond in het hieronder cijfer:
 
-![ screen_shot_2018-10-15at101257am ](assets/screen_shot_2018-10-15at101257am.png)
+![&#x200B; screen_shot_2018-10-15at101257am &#x200B;](assets/screen_shot_2018-10-15at101257am.png)
 
 In het menu Configuratie kunt u de volgende instellingen wijzigen:
 
@@ -88,7 +88,7 @@ U kunt cache voor kanalen en toepassingen wissen via de beheerinterface in AEM S
 
 Klik het **Geheime voorgeheugen van de Inhoud** van de zijspoorstaaf zodat kunt u het geheime voorgeheugen bijwerken.
 
-![ screen_shot_2018-10-15at105717am ](assets/screen_shot_2018-10-15at105717am.png)
+![&#x200B; screen_shot_2018-10-15at105717am &#x200B;](assets/screen_shot_2018-10-15at105717am.png)
 
 ### De kanaalschakelaar {#the-channel-switcher}
 
@@ -100,7 +100,7 @@ U kunt instellingen voor uw kanaal wijzigen en beheren vanuit uw Screens Player.
 
 Als u de kanaalschakelaar van de speler wilt weergeven, drukt u lang op de linkerbenedenhoek om de kanaalschakelaar te openen die het schakelen tussen kanalen en andere functies toestaat.
 
-![ chlimage_1-69 ](assets/chlimage_1-69.png)
+![&#x200B; chlimage_1-69 &#x200B;](assets/chlimage_1-69.png)
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Voorkeuren wijzigen van uw speler:
 1. Navigeer aan **Configuratie** van het linkeractiemenu.
 1. Laat of maak de configuratie voor **Admin UI** of **Schakelaar van het Kanaal** toe onbruikbaar.
 
-![ screen_shot_2018-10-15at101257am-1 ](assets/screen_shot_2018-10-15at101257am-1.png)
+![&#x200B; screen_shot_2018-10-15at101257am-1 &#x200B;](assets/screen_shot_2018-10-15at101257am-1.png)
 
 ## Problemen met AEM Screens Player oplossen
 
