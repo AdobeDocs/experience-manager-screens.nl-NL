@@ -1,10 +1,10 @@
 ---
 title: Overzicht en configuraties van adaptieve uitvoeringen van architectuur
-description: Leer meer over het architectuuroverzicht en de configuraties in CRXDE Lite voor Adaptieve Uitvoeringen in AEM Screens.
+description: Leer meer over het architectuuroverzicht en de configuraties in CRXDE Lite for Adaptive Renditions in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
@@ -12,6 +12,9 @@ ht-degree: 1%
 # Adaptieve uitvoeringen: Overzicht van architectuur en configuraties {#adaptive-renditions}
 
 ## Inleiding {#introduction}
+
+>[!CAUTION]
+>Deze functie wordt alleen ondersteund op AEM on-premise (AEM 6.5). Deze functie wordt niet ondersteund op AEM as a Cloud Service.
 
 Met Adaptieve uitvoeringen kunnen apparaten automatisch op de beste uitvoering klikken voor een apparaat dat is gebaseerd op door de klant gedefinieerde regels. De apparaten downloaden automatisch en spelen de meest aangewezen vertoning van activa die op deze regels worden gebaseerd, die klanten toestaan om zich bij het ontwerpen van de *belangrijkste* slechts ervaring te concentreren.
 
@@ -32,7 +35,7 @@ De mogelijkheid om een naampatroon voor de uitvoering te hebben, definieert een 
 Om de Aangepaste eigenschap van Uitvoeringen toe te laten, zouden de volgende toewijzingsregels aanwezig moeten zijn en de Context-Aware (CA) Configuratie zou voor kanalen en vertoningen moeten oplosbaar zijn.
 
 >[!NOTE]
->Meer over inhoud-Aware Configuraties leren, zie [&#x200B; hier &#x200B;](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+>Meer over inhoud-Aware Configuraties leren, zie [ hier ](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
 
 Voer de onderstaande stappen uit om de installatie te configureren:
 
@@ -41,8 +44,8 @@ Voer de onderstaande stappen uit om de installatie te configureren:
    >![afbeelding](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Als u het recentste Pak 202109 van de Eigenschap installeerde, ziet u de **vertoning-afbeelding** knoopstructuur vooraf bevolkt in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Zie &lbrace;de Nota&#39;s van de Versie voor het Pak 202109 van de Eigenschap [&#128279;](/help/user-guide/release-notes-fp-202109.md) om details op het recentste Pak van de Eigenschap te krijgen.
-   >Voor bestaande projecten, zorg ervoor dat het project van Screens de **vertoning-afbeelding** verbonden configuratie heeft. Zie [&#x200B; Toevoegend Afbeelding van de Vertoning aan een Bestaand project &#x200B;](#rendition-mapping-existing) sectie voor meer informatie.
+   >Als u het recentste Pak 202109 van de Eigenschap installeerde, ziet u de **vertoning-afbeelding** knoopstructuur vooraf bevolkt in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Zie {de Nota&#39;s van de Versie voor het Pak 202109 van de Eigenschap [ om details op het recentste Pak van de Eigenschap te krijgen.](/help/user-guide/release-notes-fp-202109.md)
+   >Voor bestaande projecten, zorg ervoor dat het project van Screens de **vertoning-afbeelding** verbonden configuratie heeft. Zie [ Toevoegend Afbeelding van de Vertoning aan een Bestaand project ](#rendition-mapping-existing) sectie voor meer informatie.
 
 ### Eigenschap voor renderingstoewijzing toevoegen aan een bestaand project {#rendition-mapping-existing}
 
@@ -70,9 +73,9 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
 1. Voeg de expressie-eigenschap toe met de waarde die de query-expressie bevat.
 
    >[!NOTE]
-   >Zie [&#x200B; Gebruikend de Syntaxis van de Vraag van Media &#x200B;](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) om meer te leren.
+   >Zie [ Gebruikend de Syntaxis van de Vraag van Media ](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) om meer te leren.
 
-   Klik **rule1** die u creeerde, en ga de **uitdrukking** in **Naam** in en **(richtlijn:landschap)** in **Waarde**, zoals hieronder getoond. Klik **toevoegen**.
+   Klik **rule1** die u creeerde, en ga de **uitdrukking** in **Naam** en **(richtlijn :landscape)** in **Waarde** in, zoals hieronder getoond. Klik **toevoegen**.
 
    ![afbeelding](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -91,4 +94,4 @@ Voer de onderstaande stappen uit om een knooppunt toe te voegen onder Uitvoering
 
 ## De volgende stappen {#next-steps}
 
-Nadat u eigenschappen en regels voor renderingstoewijzing hebt toegevoegd als inhoudsauteur, kunt u uw elementen configureren. U kunt de Aangepaste Vertoningen gebruiken en ook uw apparaten migreren voor grote netwerken om deze eigenschap in uw kanalen van AEM Screens te gebruiken. Zie [&#x200B; Gebruikend Aangepaste Vertoningen in AEM Screens &#x200B;](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
+Nadat u eigenschappen en regels voor renderingstoewijzing hebt toegevoegd als inhoudsauteur, kunt u uw elementen configureren. U kunt de Aangepaste Vertoningen gebruiken en ook uw apparaten migreren voor grote netwerken om deze eigenschap in uw kanalen van AEM Screens te gebruiken. Zie [ Gebruikend Aangepaste Vertoningen in AEM Screens ](/help/user-guide/using-adaptive-renditions.md) voor meer informatie.
