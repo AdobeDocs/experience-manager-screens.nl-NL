@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Krijg omhoog en lopend met een eenvoudige digitale signaalervaring, gebruikend [&#x200B; Kickstart voor AEM Screens &#x200B;](kickstart-for-aem-screens.md).
 
-Leren hoe te om uw project van Experience Manager Screens in Experience Manager as a Cloud Service te vormen en te creëren, zie [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide).
+Leren hoe te om uw project van Experience Manager Screens in Experience Manager as a Cloud Service te vormen en te creëren, zie [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/using/about-guide).
 
 ## Overzicht {#overview}
 
@@ -57,7 +57,7 @@ In de volgende afbeelding worden de personen en hun rollen voor Experience Manag
 
 * **Geleide Grondbeginselen van de Implementatie**
 
-  Volg Geleide het leren weg {de Hoofdzaak van de Implementatie van Experience Manager Screens 0} [&#128279;](https://experienceleague.adobe.com/?launch=AEM-7a) **die fundamentele en geavanceerde eigenschappen behandelt die in Experience Manager Screens worden gesteund.**
+  Volg Geleide het leren weg {de Hoofdzaak van de Implementatie van Experience Manager Screens 0} [&#128279;](https://experienceleague.adobe.com/nl?launch=AEM-7a) **die fundamentele en geavanceerde eigenschappen behandelt die in Experience Manager Screens worden gesteund.**
 
 * **Gids van Beste praktijken voor de Projecten van Experience Manager Screens**
 
