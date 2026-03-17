@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om de standaardcomponenten voor uw Screens-project 
 1. Klik in de AEM Editor op het pictogram **+** op de zijbalk.
 1. Alle componenten die door gebrek in een het projectvertoningen van AEM Screens inbegrepen zijn, zoals aangetoond in het hieronder cijfer.
 
-![&#x200B; screen_shot_2017-12-18at21350pm &#x200B;](assets/screen_shot_2017-12-18at21350pm.png)
+![ screen_shot_2017-12-18at21350pm ](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Een nieuwe component toevoegen {#adding-a-new-component}
 
@@ -48,11 +48,11 @@ In het volgende voorbeeld wordt de toevoeging van een component Livefyre aan een
 1. Klik op het kanaal waaraan u een component wilt toevoegen. Bijvoorbeeld, **`We.Retail In Store`** > **Kanalen** > **Niet-actief Kanaal**.
 
 1. Klik **uitgeven** van de actiebar.
-1. Klik **wijze van het Ontwerp 0&rbrace; &lbrace;.**
+1. Klik **wijze van het Ontwerp 0} {.**
 1. Klik de volledige ontwerpredacteur op het recht en klik het montagessymbool zodat kunt u het **Parsys de dialoogvakje van het Ontwerp** openen.
 1. U kunt op de componenten klikken die u in uw AEM Screens-project wilt importeren. Het volgende voorbeeld toont de toevoeging van de **Livefyre** component aan een project van AEM Screens.
 
-![&#x200B; adding_components &#x200B;](assets/adding_components.gif)
+![ adding_components ](assets/adding_components.gif)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ De toepassingscomponent heeft de volgende eigenschappen:
 
 In het volgende voorbeeld wordt getoond hoe u een toepassingscomponent insluit samen met de voorvertoning van de eigenschappen ervan:
 
-![&#x200B; adding_componentsapplication &#x200B;](assets/adding_componentsapplication.gif)
+![ adding_componentsapplication ](assets/adding_componentsapplication.gif)
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ De ingesloten pagina heeft de volgende eigenschappen:
 
 >[!NOTE]
 >
->Om in detail over ingebedde opeenvolgingen te leren, zie [&#x200B; Ingesloten Reeksen &#x200B;](embedded-sequences.md) onder de Authoring sectie van Screens.
+>Om in detail over ingebedde opeenvolgingen te leren, zie [ Ingesloten Reeksen ](embedded-sequences.md) onder de Authoring sectie van Screens.
 
 Met een ingesloten reeks kunt u een ingesloten volgnummer toevoegen aan het bestaande kanaal (met andere elementen).
 
@@ -166,7 +166,7 @@ De ingesloten reeks heeft de volgende pagina-eigenschappen:
 
 Met een dynamische ingesloten reeks kunt u een reeks toevoegen die vergelijkbaar is met de bovenstaande reeks, behalve met de rol van het kanaal.
 
-Meer over ingebedde opeenvolgingen leren, zie [&#x200B; Ingesloten Reeksen &#x200B;](embedded-sequences.md) onder de Authoring sectie van Screens.
+Meer over ingebedde opeenvolgingen leren, zie [ Ingesloten Reeksen ](embedded-sequences.md) onder de Authoring sectie van Screens.
 
 De dynamische ingesloten reeks heeft de volgende eigenschappen:
 
@@ -195,22 +195,22 @@ De dynamische ingesloten reeks heeft de volgende eigenschappen:
 
 Met een ervaringsfragment kunt u een Experience-fragment (een groep van een of meer componenten, waaronder inhoud en lay-out, waarnaar op pagina&#39;s kan worden verwezen) toevoegen aan uw AEM Screens-kanaal. Sleep de component naar de AEM Editor en klik op het fragment Ervaring.
 
-Meer over leren hoe te om een Fragment van de Ervaring tot stand te brengen en het op een project van AEM Screens toe te passen, zie [&#x200B; Gebruikend de Fragmenten van de Ervaring &#x200B;](experience-fragments-in-screens.md).
+Meer over leren hoe te om een Fragment van de Ervaring tot stand te brengen en het op een project van AEM Screens toe te passen, zie [ Gebruikend de Fragmenten van de Ervaring ](experience-fragments-in-screens.md).
 
-![&#x200B; exp &#x200B;](assets/exp.gif)
+![ exp ](assets/exp.gif)
 
 | **Bezit** | **Beschrijving** |
 |---|---|
-| **Fragment van de Ervaring** |
+| **Fragment van de Ervaring** | |
 | ***Fragment van de Ervaring*** | Selecteer het fragment van de Ervaring. |
 | ***Duur*** | Selecteer de volledige duur van het ervaringsfragment dat in het kanaal wordt afgespeeld. |
-| **Offline Config** |
+| **Offline Config** |  |
 | ***Cliënt-zijBibliotheken*** | JavaScript- en CSS-bestanden. |
 | ***Statische Dossiers*** | Statische bestanden die u als offlineconfiguraties kunt toevoegen aan het ervaringsfragment. |
 
 >[!NOTE]
 >
->De **cliënt-zijBibliotheken** en **Statische Dossiers** die u van deze component toevoegt zijn naast reeds gevormde **cliënt-zijBibliotheken** en de Statische Dossiers die van de 6&rbrace; Eigenschappen van het Fragment van de Ervaring **worden toegevoegd.**
+>De **cliënt-zijBibliotheken** en **Statische Dossiers** die u van deze component toevoegt zijn naast reeds gevormde **cliënt-zijBibliotheken** en de Statische Dossiers die van de 6} Eigenschappen van het Fragment van de Ervaring **worden toegevoegd.**
 
 ### Afbeelding {#image}
 
@@ -220,15 +220,15 @@ De beeldactiva heeft drie lusjes namelijk **Beeld**, **Toegankelijkheid**, en **
 
 | **Bezit** | **Beschrijving** |
 |---|---|
-| **Beeld** |
+| **Beeld** |  |
 | ***Activa van het Beeld*** | Klik op het afbeeldingselement. |
 | ***Titel*** | Titel van de afbeelding. |
 | ***Verbinding aan*** | Voeg een koppeling toe aan de afbeelding. |
 | ***Beschrijving*** | Korte beschrijving voor de afbeelding. |
 | ***Grootte*** | Grootte van de afbeelding. |
-| **Toegankelijkheid** |
+| **Toegankelijkheid** |  |
 | ***Alternatieve Tekst*** | Alternatieve tekst voor de afbeelding. |
-| **Opeenvolging** |
+| **Opeenvolging** |  |
 | ***Duur*** | Door gebrek wordt de duur geplaatst aan *8000 milliseconden*. Als u de playbackduur van het beeld wilt veranderen, werk het **gebied van de Duur** bij. |
 
 ### Overgang {#transition}
@@ -237,7 +237,7 @@ Met de component Overgang kunt u een overgang toevoegen aan uw Screens-project.
 
 In de volgende afbeelding ziet u de overgangscomponent (die wordt toegevoegd door slepen en neerzetten) in de editor.
 
-![&#x200B; screen_shot_2019-07-25at104237am &#x200B;](assets/screen_shot_2019-07-25at104237am.png)
+![ screen_shot_2019-07-25at104237am ](assets/screen_shot_2019-07-25at104237am.png)
 
 Klik het overgangspictogram en klik **vormen** (moersleutelpictogram) om het **de dialoogvakje van de Overgang** te openen. Dit dialoogvenster bevat drie tabbladen:
 
@@ -249,7 +249,7 @@ Klik het overgangspictogram en klik **vormen** (moersleutelpictogram) om het **d
 >
 >Standaard wordt de reeks ingesteld op 600 milliseconden. U kunt de overgangsopeenvolging aan andere waarden bijwerken gebruikend de **Opeenvolging** tabel.
 
-![&#x200B; overgang &#x200B;](assets/transition.gif)
+![ overgang ](assets/transition.gif)
 
 De overgangscomponent heeft de volgende eigenschappen:
 

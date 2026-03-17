@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze sectie benadrukt de Toewijzing van het Kanaal en het plannen van kanalen voor AEM 6.5.5 het Pak van de Eigenschap van Screens en later.
+>In deze sectie worden de Kanaaltoewijzing en de planning van kanalen voor AEM 6.5.5 Screens Feature Pack en hoger gemarkeerd.
 
 Wanneer u een weergave hebt ingesteld, wijst u een kanaal toe aan een weergave om de inhoud weer te geven.
 
@@ -37,24 +37,24 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
 1. Creeer een project van AEM Screens dat als **wordt genoemd DemoScreens**.
 
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Leren hoe te om een project van AEM Screens tot stand te brengen, zie [&#x200B; Creërend en het Leiden Projecten &#x200B;](creating-a-screens-project.md).
+   >Leren hoe te om een project van AEM Screens tot stand te brengen, zie [ Creërend en het Leiden Projecten ](creating-a-screens-project.md).
 
 1. Creeer een opeenvolgingskanaal dat als **Cafeteria** in de **omslag van Kanalen** wordt genoemd.
 
 1. Klik het kanaal, dan klik **uitgeven** van de actiebar.
 
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   Bijvoorbeeld, toont het **kanaal 0&rbrace; Cafeteria nu de volgende beelden:**
+   Bijvoorbeeld, toont het **kanaal 0} Cafeteria nu de volgende beelden:**
 
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
 1. Creeer een Plaats die als **wordt genoemd SanJose** en een vertoning als **Lobby**.
 
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
 ### Kanaal toewijzen aan een weergave {#assigning-channel-to-display}
 
@@ -64,32 +64,32 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
 1. Klik **toewijzen Kanaal** van de actiebar.
 
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Of,
 
    Klik **Dashboard** van de actiebar en klik **+ wijs Kanaal** van **TOEGEWEZEN KANALEN &amp; SCHEDULES** paneel toe.
 
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
 1. Het **de dialoogvakje van de Toewijzing van het Kanaal** opent.
 
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
 1. Van de **optie van Montages**, kunt u het kanaal **door weg** of **door naam** kiezen, ga de **Rol van het Kanaal** in, **Prioriteit**, **Ondersteunde Gebeurtenissen**, en **Methoden van de Onderbreking**. Ook kunt u de knopinfo voor aantrekken inschakelen vanuit dit dialoogvenster.
 
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >
-   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de [&#128279;](#channel-properties) sectie van de Eigenschappen van het Kanaal 0&rbrace;.
+   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de ](#channel-properties) sectie van de Eigenschappen van het Kanaal 0}.[
 
 1. Van de **optie van het Programma**, klik het **Venster van de Activering** en **Programma van de Herhaling**.
-   ![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de [&#128279;](#channel-properties) sectie van de Eigenschappen van het Kanaal 0&rbrace;.
+   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de ](#channel-properties) sectie van de Eigenschappen van het Kanaal 0}.[
 
 1. Klik **sparen** zodra u uw voorkeur hebt gevormd.
 
@@ -97,11 +97,11 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
 In dit voorbeeld wordt de uitvoer op een Chrome Player weergegeven. Wanneer u het kanaal aan uw vertoning hebt toegewezen, registreer het apparaat aan een speler.
 
-Leren hoe te om een apparaat op een Speler van AEM Screens te registreren, zie [&#x200B; Registratie van het Apparaat &#x200B;](device-registration.md).
+Leren hoe te om een apparaat op een Speler van AEM Screens te registreren, zie [ Registratie van het Apparaat ](device-registration.md).
 
 U kunt de volgende uitvoer naar keuze van de speler weergeven:
 
-![&#x200B; new1 &#x200B;](assets/channel-assignment/channel-assign-output.gif)
+![ new1 ](assets/channel-assignment/channel-assign-output.gif)
 
 ## Tijdlijnweergave {#timeline-view}
 
@@ -117,13 +117,13 @@ Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
 
    Klik **Dashboard** en klik **Chronologie** van **TOEGEWEZEN KANALEN &amp; SCHEDULES** paneel.
 
-   ![afbeelding](/help/user-guide/assets/channel-assignment/timeline-1.png)
+   ![ beeld ](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Kanaaleigenschappen van dialoogvenster Kanaaltoewijzing {#channel-properties}
 
 De volgende eigenschappen worden geplaatst van de **optie van Montages** in het **de dialoogvakje van de Toewijzing van het Kanaal**.
 
-![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
 ### Een kanaal selecteren {#select-channel}
 
@@ -142,7 +142,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 >[!NOTE]
 >
->De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1&rbrace;, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
+>De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1}, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
 ### Ondersteunde gebeurtenissen {#supported-events-channel}
 
@@ -154,7 +154,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 ### Onderbrekingsmethode {#interruption-method-channel}
 
 >[!IMPORTANT]
-> Deze optie is alleen beschikbaar bij <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
+> Deze optie is slechts beschikbaar met <!--AEM 6.4 Feature Pack 8 or--> AEM 6.5 Pak van de Eigenschap 4.
 
 Als inhoudsauteur kunt u opgeven wanneer een kanaal wordt onderbroken. Zo kunt u ervoor kiezen om niet-kritieke inhoud uit te knippen. Maar het geeft u ook de optie om belangrijke inhoud volledig terug te laten spelen alvorens het wegens planning kort te snijden.
 
@@ -173,7 +173,7 @@ Selecteer van één van de volgende opties die beschikbaar zijn om de onderbreki
 
 De volgende eigenschappen worden geplaatst van de **optie van het Programma** in het **de dialoogvakje van de Toewijzing van het Kanaal**.
 
-![afbeelding](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### Activeringsvenster {#activation-window}
 
@@ -210,18 +210,18 @@ Hier, wordt elke dag verdeeld in verschillende tijdgroeven, zodat de kanaalinhou
 
 | **Naam** | **herhaalt** | **Begin** | **Eind** |
 |---|---|---|---|
-| Ontbijt | Dagelijks | 06:00 | 11:00 |
-| Lunch | Dagelijks | 11:00 | 15:00 |
-| Diner | Dagelijks | 15:00 | 20:00 |
+| Ontbijt | Dagelijks | 6 :00 A.M. | 11 :00 A.M. |
+| Lunch | Dagelijks | 11 :00 A.M. | 3 :00 p.m. |
+| Diner | Dagelijks | 3 :00 p.m. | 8 :00 p.m. |
 
 #### Inhoud afspelen op een bepaalde dag van de week {#playing-content-on-a-particular-day-of-the-week}
 
-Dit voorbeeld toont DayParting die in een casino wordt uitgevoerd waar de levende gebeurtenis elk weekend van 8:00 p.m. tot 10:00 p.m. voorkomt en de specials zijn beschikbaar voor dinermenu na 10:00 p.m. tot 1:00 a.m.
+Dit voorbeeld toont DayParting die in een casino wordt uitgevoerd waar de levende gebeurtenis elk weekend van 8 :00 P.M. tot 10 :00 P.M. voorkomt en de specials zijn beschikbaar voor dinermenu na 10 :00 P.M. tot 1 :00 A.M.
 
 | **Naam** | **herhaalt** | **Begin** | **Eind** |
 |---|---|---|---|
-| Weekend | Wekelijks: zaterdag en zondag | 20:00 | 22:00 |
-| Specials | Dagelijks: van maandag tot vrijdag | 22:00 | 01:00 |
+| Weekend | Wekelijks: zaterdag en zondag | 8 :00 p.m. | 10 :00 P.M. |
+| Specials | Dagelijks: van maandag tot vrijdag | 10 :00 P.M. | 1:00 A.M. |
 
 >[!NOTE]
 >

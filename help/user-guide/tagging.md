@@ -3,7 +3,7 @@ title: Tags toevoegen op Screens Cloud
 description: Op deze pagina wordt beschreven hoe tags kunnen worden gemaakt, beheerd en gebruikt op Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Gebruiker kan tags maken op Screens Cloud en deze gebruiken om weergaven en spel
 
 ## Tags maken en beheren {#create-and-manage-tags}
 
-![&#x200B; creeer markering &#x200B;](assets/tagging/create-tag.gif).
+![ creeer markering ](assets/tagging/create-tag.gif).
 
 Gebruik hetzelfde actiemenu om de naam van een tag te wijzigen of om deze te verwijderen.
 
@@ -34,18 +34,18 @@ Gebruik hetzelfde actiemenu om de naam van een tag te wijzigen of om deze te ver
 
 Gebruik de gemaakte labels voor beeldschermen en afspeelapparatuur.
 
-![&#x200B; beheert markeringen toewijzen &#x200B;](assets/tagging/assign-tags-to-players.gif).
+![ beheert markeringen toewijzen ](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
 >
 > Aan een beeldscherm of speler kunnen maximaal 30 tags zijn toegewezen.
-> &#x200B;> Maximaal 30 items kunnen in één keer worden gelabeld.
+> Maximaal 30 items kunnen in één keer worden gelabeld.
 
 ## Filteren op labels {#filter-by-tags}
 
 Selecteer labels om de lijst met weergaven of spelers te filteren.
 
-![&#x200B; filter door markeringen &#x200B;](assets/tagging/filter-by-tags.gif).
+![ filter door markeringen ](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 

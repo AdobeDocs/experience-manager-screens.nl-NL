@@ -2,9 +2,9 @@
 title: AEM Screens-projectrollen en -verantwoordelijkheden
 description: Meer informatie over de rollen en verantwoordelijkheden van AEM Screens-projecten.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 2bab8e3ff6eb722b710f6e565be06d3061439d82
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Projectmanagers beheren doorgaans de volledige implementatie voor uw AEM Screens
 
 >[!NOTE]
 >
->Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek {de Rollen en de Verantwoordelijkheden van het Project van 0} [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities) **.**
+>Om in detail over verschillende rollen en verantwoordelijkheden en het doelpubliek voor een digitaal ondertekeningsproject te leren, bezoek {de Rollen en de Verantwoordelijkheden van het Project van 0} ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities) **.**[
 
 
 ## Projectfasen {#project-stages}
@@ -100,7 +100,7 @@ Om een succesvolle digitale signaalplaatsing te steunen, is het gebruikelijk om 
 >
 >Terwijl deze gids nadruk hoofdzakelijk op *Dag Één* en *Dag Twee* legt, is de aandacht op alle drie stadia noodzakelijk om een succesvol digitaal ondertekeningsproject in werking te stellen.
 >
->Om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren, op een video op **[het Beheer en Plaatsing van het Project &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment) te letten**.
+>Om over projectpreproductie, projectinitiatie, en projectvooruitgang te leren, op een video op **[het Beheer en Plaatsing van het Project ](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment) te letten**.
 
 ## RACI-diagram {#raci-chart}
 
@@ -189,7 +189,7 @@ De volgende lijst vat **Dag Twee samen: De Grafiek van de Steun van de Post RACI
 
 | **Fase** | **Auteur** | **Ontwikkelaar** | **Technicus** |
 |---|---|---|---|
-| *Dag Twee: De Steun van de post-Lancering* |
+| *Dag Twee: De Steun van de post-Lancering* | | | |
 | Overeenkomst inzake rollen en verantwoordelijkheden | RA | RA | RA |
 | Ondersteuning voor Tier 1 | I | I | RA |
 | Support voor niveau 2 | I | C | RA |

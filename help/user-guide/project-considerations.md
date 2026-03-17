@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Houd rekening met de volgende punten om u te helpen inzicht te krijgen in de bed
 * Worden animaties afgespeeld als video- of HTML-programma&#39;s?
 * Zijn er derde integraties van de diensten van het Abonnement van de Inhoud, Sociale Media, of de samenvoegingsdiensten van RSS of API vraag?
 * Wat zijn de vereisten voor afbeeldingsresolutie?
-* Zijn de schermen standaard 16:9 aspectverhoudingen of douane? Staand of Liggend?
+* Zijn de schermen standaard 16 :9 aspectverhoudingen of douane? Staand of Liggend?
 * Zijn videomuren met meerdere schermen vereist? Zo ja, wat zijn de configuraties?
 * Is de inhoud gekoppeld aan operationele of reclame-inkomsten die een &quot;failover&quot;-strategie nodig hebben om uitvaltijd te voorkomen?
 

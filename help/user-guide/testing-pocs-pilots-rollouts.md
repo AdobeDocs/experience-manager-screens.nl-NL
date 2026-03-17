@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Het testen van systemen en de Integratie van de Software begint met het Audio-Vi
 
 Nadat het testen van QC volledig is, leidt het team van de Techniek van IT documentatie, werkschema&#39;s, en opleiding voor verwijzing tijdens dag-2 steun. De volgende systeemaspecten moeten worden getest:
 
-* AEM implementorintegratie.
+* AEM-implementorintegratie.
 * Integraties van systemen van derden.
 * Software.
 * Hardware.

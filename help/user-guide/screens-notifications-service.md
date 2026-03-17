@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,14 @@ In deze sectie worden de volgende onderwerpen behandeld:
 * **E-mailbericht**
 * **het gebruiksgeval van het Voorbeeld**
 
-<!-- OBSOLETE NOTE>
+<!-- 
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. 
+-->
 
 ## Overzicht {#overview}
 
@@ -49,7 +51,7 @@ Voer de onderstaande stappen uit om de instellingen voor e-mailmeldingen te conf
 1. Open **Configuratie van de Console van het Web van Adobe Experience Manager**.
 1. Open **E-mailcontroledienst van het Apparaat van Screens**.
 
-   ![&#x200B; screen_shot_2018-04-26at44602pm &#x200B;](assets/screen_shot_2018-04-26at44602pm.png)
+   ![ screen_shot_2018-04-26at44602pm ](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. Definieer de volgende velden zodat u de instellingen voor de e-mail kunt configureren:
 
@@ -61,7 +63,7 @@ Voer de onderstaande stappen uit om de instellingen voor e-mailmeldingen te conf
    >
    >Geef het projectpad op waarin de apparaatgebruikers zich bevinden.
 
-   **Frequentie van het Programma** - specificeer een tijd (bijvoorbeeld, 5:00 P.M. of 17:00) of frequentie in uren (bijvoorbeeld, 1) waarop deze monitor e-mail zou moeten verzenden.
+   **Frequentie van het Programma** - specificeer een tijd (bijvoorbeeld, 5 :00 P.M. of 17 :00) of frequentie in uren (bijvoorbeeld, 1) waarop deze monitor e-mail zou moeten verzenden.
 
    **pingelt Tijd uit** - Dit gebied specificeert het interval in notulen waarna een apparaat als niet bereikbaar zou moeten worden beschouwd.
 
@@ -102,7 +104,7 @@ In het volgende voorbeeld worden een aantal scenario&#39;s ter referentie beschr
 
 **Scenario 1**
 
-U plaatst de planningsfrequentie als 1:00 A.M. en pingelt onderbreking als 60. Vervolgens ontvangt u een e-mailmelding waarin wordt bevestigd dat het AEM Screens-apparaat niet tussen 12:00 uur &#39;s middags pingelt.
+U plaatst de planningsfrequentie als 1 :00 A.M. en pingelt onderbreking als 60. Dan, als uw AEM Screens apparaat niet tussen 12 :00 P.M. tot 1 :00 P.M. pingelt, ontvangt u een e-mailbericht dat apparateninactiviteit bevestigt.
 
 **Scenario 2**
 

@@ -5,9 +5,9 @@ feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,14 @@ De volgende onderwerpen worden behandeld in deze sectie:
 * Activering van meerdere middelen
 * Algemene Overschrijving voor universele begintijd
 
-<!-- REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
+<!--
+REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permission, you can download it from Package Share. 
+-->
 
 ## Overzicht {#overview}
 
@@ -52,36 +54,36 @@ Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
 
 1. Klik om het even welk kanaal, dan klik **uitgeven** van de actiebar.
 
-   ![&#x200B; screen_shot_2018-04-23at111422am &#x200B;](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![ screen_shot_2018-04-23at111422am ](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
    >Meer informatie over hoe u
    >
-   >* Maak een project. Zie [&#x200B; Creërend een nieuw Project &#x200B;](creating-a-screens-project.md).
-   >* Maak inhoud en voeg inhoud toe aan een kanaal. Zie [&#x200B; het Leiden Kanalen &#x200B;](managing-channels.md).
+   >* Maak een project. Zie [ Creërend een nieuw Project ](creating-a-screens-project.md).
+   >* Maak inhoud en voeg inhoud toe aan een kanaal. Zie [ het Leiden Kanalen ](managing-channels.md).
 
 1. Klik **uitgeven** zodat kunt u de kanaalredacteur openen en activa klikken u het plannen op wilt toepassen.
 
-   ![afbeelding](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![ beeld ](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Klik de activa, dan klik linksboven **vormen** (het moersleutelpictogram).
 
    Klik de **Activering** tabel.
 
-   ![afbeelding](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![ beeld ](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. U kunt de datum van de datumkiezer specificeren gebruikend **Actieve van** en **Actieve tot** gebieden.
 
    Als u **Actief van** en **Actief tot** datum en tijd klikt, toont de activa en lijnen slechts tussen die begindatum/tijd en einddatum/tijd, respectievelijk.
 
-   ![afbeelding](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![ beeld ](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 ## Herhaling in Assets afhandelen {#handling-recurrence-in-assets}
 
 U kunt activa plannen om met bepaalde intervallen op een dagelijkse, wekelijkse, of maandelijkse basis volgens uw vereiste terug te komen.
 
-Stel dat u een afbeelding alleen op vrijdag van 13.00 uur tot 22.00 uur wilt weergeven. U kunt het **lusje van de Activering** gebruiken om het gewenste terugkomende interval voor uw activa te plaatsen.
+Veronderstel u een beeld slechts op Vrijdagen van 1 :00 P.M. tot 10 :00 P.M. wilt tonen. U kunt het **lusje van de Activering** gebruiken om het gewenste terugkomende interval voor uw activa te plaatsen.
 
 ### Dagverdeling {#day-parting}
 
@@ -100,14 +102,14 @@ De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u a
 
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
-| vóór 8:00 | Het middel in het kanaal speelt vóór 8:00 a.m. dagelijks |
-| na 2:00 | Het middel in het kanaal speelt na 2:00 p.m. dagelijks af |
-| na 12:15 en vóór 12:45 | Het middel in het kanaal speelt na 23:15 uur elke dag gedurende 30 minuten af |
-| vóór 12:15 ook na 12:45 | Het middel in het kanaal speelt vóór 12:15 elke dag en dan ook na 12:45 uur. |
+| vóór 8 :00 A.M. | de activa in het kanaal spelen vóór 8 :00 A.M. dagelijks |
+| na 2 :00 P.M. | de activa in het kanaal spelen na 2 :00 P.M. dagelijks |
+| na 12 :15 en vóór 12 :45 | de activa in het kanaal spelen na 12 :15 P.M. dagelijks gedurende 30 minuten |
+| vóór 12 :15 ook na 12 :45 | de activa in het kanaal spelen vóór 12 :15 P.M. dagelijks en dan ook na 12 :45 P.M. |
 
 >[!NOTE]
 >
->U kunt _militaire tijd_ aantekening (14:00) in plaats van *ook gebruiken A.M./P.M.* (2:00 P.M.).
+>U kunt _militaire tijd_ aantekening (14 :00) in plaats van *A.M./P.M.* (2 :00 P.M.) ook gebruiken.
 
 ### WeekParting {#week-parting}
 
@@ -175,11 +177,11 @@ De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u a
 | **Uitdrukking** | **Interpretatie** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | de activa spelen in het kanaal tussen 6.00 uur en 6.00 uur op maandag en woensdag van januari tot eind maart |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | het middel in het kanaal begint na 1 januari om 2.00 uur af te spelen, blijft de hele dag afspelen op 2 januari tot 3.00 uur &#39;s middags op 3 januari |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | Het middel in het kanaal start speler na 1 januari om 2:00 uur, gaat verder met afspelen tot 2 januari om 3:00 uur &#39;s middags, vervolgens begint het opnieuw op 2 januari om 2:00 uur &#39;s middags en wordt verder afgespeeld tot 3:00 uur &#39;s middags op 3 januari |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | de activa in het kanaal beginnen na 2 :00 P.M. op 1 Januari te spelen, blijft het spelen voor de hele dag op 2 Januari helemaal tot 3 :00 A.M. op 3 Januari |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | het middel in het kanaal begint speler na 2 :00 P.M. op 1 Januari, blijft speel tot 3 :00 A.M. op 2 Januari, dan begint het opnieuw op 2 Januari bij 2 :00 P.M. en blijft speel tot 3 :00 A.M. op 3 Januari |
 
 >[!NOTE]
->Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte- als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en januari. Ook, kunt u _militaire tijd_ aantekening (14:00) in plaats van *ook gebruiken A.M./P.M.* (2:00 P.M.).
+>Wanneer u dagen van de week en maanden definieert, kunt u zowel de korte- als de volledige-naamnotatie gebruiken, zoals Mon/Maandag en januari. Ook, kunt u _militaire tijd_ notatie (14 :00) in plaats van *A.M./P.M.* gebruiken (2 :00 P.M.).
 
 
 ## Activering van meerdere middelen {#multi-asset-scheduling}
@@ -187,7 +189,8 @@ De volgende tabel geeft een overzicht van een aantal voorbeeldexpressies die u a
 <!--
 >[!CAUTION]
 >
->The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
+>The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. 
+-->
 
 ***Multi-asset Activation*** laat de gebruiker veelvoudige activa klikken en een playbackprogramma op alle geselecteerde activa toepassen.
 
@@ -198,21 +201,21 @@ Als u activering op meerdere niveaus voor uw middelen wilt gebruiken, maakt u ee
 * Creeer een project van AEM Screens dat als **wordt genoemd MultiAssetDemo**.
 * Creeer een kanaal genoemd als **MultiAssetChannel** en voeg inhoud aan het kanaal toe, zoals aangetoond in het hieronder cijfer.
 
-![&#x200B; screen_shot_2018-12-21at70128am &#x200B;](assets/screen_shot_2018-12-21at70128am.png)
+![ screen_shot_2018-12-21at70128am ](assets/screen_shot_2018-12-21at70128am.png)
 
 Voer de onderstaande stappen uit om op meerdere elementen te klikken en de weergave ervan in een AEM Screens-project te plannen:
 
 1. Klik **MultiAssetChannel**, dan klik **uitgeven** van de actiebar.
 
-   ![&#x200B; screen_shot_2018-12-21at70313am &#x200B;](assets/screen_shot_2018-12-21at70313am.png)
+   ![ screen_shot_2018-12-21at70313am ](assets/screen_shot_2018-12-21at70313am.png)
 
 1. Klik veelvoudige activa van de redacteur, dan klik **Activatie** (top-left pictogram) uitgeven.
 
-   ![&#x200B; screen_shot_2018-12-21at70550am &#x200B;](assets/screen_shot_2018-12-21at70550am.png)
+   ![ screen_shot_2018-12-21at70550am ](assets/screen_shot_2018-12-21at70550am.png)
 
 1. Klik de datum en de tijd in **Actief van** en **Actief tot** van het **de dialoogvakje van de Activering van de Component**. Klik op het pictogram van het vinkje wanneer u klaar bent met het selecteren van de schema&#39;s.
 
-   ![&#x200B; screen_shot_2018-12-17at20337pm &#x200B;](assets/screen_shot_2018-12-17at20337pm.png)
+   ![ screen_shot_2018-12-17at20337pm ](assets/screen_shot_2018-12-17at20337pm.png)
 
 1. Klik verfrissen om de activa te controleren waarop het multi-activa programma wordt toegepast.
 
@@ -220,7 +223,7 @@ Voer de onderstaande stappen uit om op meerdere elementen te klikken en de weerg
    >
    >Het planningspictogram is in de rechterbovenhoek zichtbaar voor de elementen waarvoor elementen met meerdere elementen zijn geactiveerd.
 
-   ![&#x200B; screen_shot_2018-12-21at70722am &#x200B;](assets/screen_shot_2018-12-21at70722am.png)
+   ![ screen_shot_2018-12-21at70722am ](assets/screen_shot_2018-12-21at70722am.png)
 
 ## Algemene Overschrijving voor universele begintijd {#global-override-scheduling}
 
@@ -234,12 +237,12 @@ Als zodanig kan de Content Author het afspelen van een bepaald element aanwijzen
 
 1. Klik om het even welk kanaal, dan klik **uitgeven** van de actiebar zodat kunt u inhoud in uw kanaal toevoegen of uitgeven.
 
-   ![&#x200B; screen_shot_2018-04-23at111422am &#x200B;](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![ screen_shot_2018-04-23at111422am ](/help/user-guide/assets/asset-activation/asset-level1.png)
 
 1. Klik **uitgeven**.
 1. Klik in de kanaaleditor op een element waarvan u het schema wilt toepassen.
 
-   ![&#x200B; screen_shot_2018-12-21at70550am &#x200B;](/help/user-guide/assets/asset-activation/Asset-level4.png)
+   ![ screen_shot_2018-12-21at70550am ](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. Voor een globale opheffing, ga de activeringstijd in de **sectie van de tijdzoneoverschrijving** voor de activa in. Als u niets in dit gebied invoert, wordt de tijdzone van de speler toegepast.
 

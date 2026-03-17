@@ -2,12 +2,12 @@
 title: 'Deel 1: Projectrollen en -verantwoordelijkheden'
 description: In dit leerprogramma, begrijp de rollen, de verantwoordelijkheden, en de tijdlijnen die tijdens de verkoop en de cycli van het projectleven voor een digitaal ondertekeningsproject worden vereist.
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Er zijn drie primaire groepen die door het leveringsproces binnen het volgende w
 
 * Adobe
 * Audio-video-integrator
-* Implementatieteam AEM
+* AEM-implementatieteam
 
 >[!NOTE]
 >
@@ -32,15 +32,15 @@ Er zijn drie primaire groepen die door het leveringsproces binnen het volgende w
 
 ## Overzicht van rollen die betrokken zijn bij een digitaal signaalproject {#summary-of-roles-involved-in-a-digital-signage-project}
 
-Het bepalen van toepassings gebruiks-caseparameters in partnerschap met Adobe, AEM Implementor, en Audio/Visuele Integrator drijft het werkingsgebied van de softwareontwikkeling. Dit proces zorgt ervoor dat een gefaseerde aanpak wordt vastgesteld met prestatie-benchmarks en succesmaatstaven die alle in het hele project worden geïdentificeerd.
+Het bepalen van toepassings gebruiks-caseparameters in partnerschap met Adobe, de Implementor van AEM, en Audio/Visuele Integrator drijft het werkingsgebied van de softwareontwikkeling. Dit proces zorgt ervoor dat een gefaseerde aanpak wordt vastgesteld met prestatie-benchmarks en succesmaatstaven die alle in het hele project worden geïdentificeerd.
 
 ### Adobe {#adobe}
 
-Adobe omvat Adobe Managed Services-bronnen zoals de CSE (Customer Success Engineer) en Adobe Support.
+Adobe bevat Adobe Managed Services-bronnen zoals de CSE (Customer Success Engineer) en Adobe Support.
 
-#### Implementators AEM {#aem-implementors}
+#### AEM Implementors {#aem-implementors}
 
-Een **AEM Implementor** is verantwoordelijk voor het uitvoeren van ontwikkelings en integratietaken om de gebruikerservaring, douanemalplaatjes, en achterste-eindintegratie voor AEM te ontwikkelen.
+Een **Implementor van AEM** is verantwoordelijk voor het uitvoeren van ontwikkelings en integratietaken om de gebruikerservaring, douanemalplaatjes, en achterste-eindintegratie voor AEM te ontwikkelen.
 
 Aangepaste functies die nodig zijn voor het aanpakken van UX-parameters (User Experience) van eindgebruikers worden ook vastgelegd en via dit proces geleverd.
 
@@ -58,7 +58,7 @@ Volg de onderstaande zelfstudie om precies te begrijpen hoe elke partij in de im
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*leer over de rollen en de verantwoordelijkheden van Adobe, Audio/Visuele Integrators, en AEM Implementors.*
+*leer over de rollen en de verantwoordelijkheden van Adobe, Audio/Visuele Integrators, en Implementors van AEM.*
 
 ## De volgende stap {#the-next-step}
 

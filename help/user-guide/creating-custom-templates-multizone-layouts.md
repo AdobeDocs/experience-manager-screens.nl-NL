@@ -6,10 +6,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 1%
+source-wordcount: '893'
+ht-degree: 0%
 
 ---
 
@@ -34,9 +34,9 @@ Er zijn twee belangrijke overwegingen dat u zich van bewust moet zijn alvorens e
 
    | **Naam van de Lay-out** | **Beschrijving** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Een landschaplay-out met drie zones waarmee u drie zones kunt maken:<br>* Zone 1 als 20% van het horizontale en verticale scherm vanaf links <br>* Zone 2 als 80% van het horizontale scherm en 20% van het verticale scherm rechts uitgevuld <br>* Zone 3 als 100% van het horizontale en 80% van het verticale scherm. De verhouding is 16:9 |
-   | `Upper20-PortraitHD2Zone` | Een staande sjabloon met twee zones die 20% van het scherm vanaf de bovenkant bedekt, met een hoogte-breedteverhouding van 16:9 |
-   | `Right20-LandscapeSD3Zone` | Een sjabloon met drie zones die vanaf rechts 20% van het scherm bedekt, met een hoogte-breedteverhouding van 4:3 |
+   | `Left20-LandscapeHD3Zone` | Een landschaplay-out met drie zones waarmee u drie zones kunt maken:<br>* Zone 1 als 20% van het horizontale en verticale scherm vanaf links <br>* Zone 2 als 80% van het horizontale scherm en 20% van het verticale scherm rechts uitgevuld <br>* Zone 3 als 100% van het horizontale en 80% van het verticale scherm. De aspectverhouding is 16 :9 |
+   | `Upper20-PortraitHD2Zone` | Een twee-streek portretmalplaatje dat 20% van het scherm van de bovenkant, met een aspectverhouding van 16 bedekt :9 |
+   | `Right20-LandscapeSD3Zone` | Een malplaatje met drie zones dat 20% van het scherm van het recht, met een aspectverhouding van 4 bedekt :3 |
 
    >[!IMPORTANT]
    >De zones die zijn gedefinieerd in de aangepaste indeling komen mogelijk niet overeen met de algemene hoogte-breedteverhouding van de volledige layout. In de naamgevingsconventie die in dit document wordt gevolgd, wordt de hoogte-breedteverhouding van de aangepaste layout als geheel opgegeven.
@@ -47,14 +47,14 @@ Volg de onderstaande sectie om een aangepaste sjabloon *`Left20-LandscapeHD3Zone
 
 * **`Left20`** - De bovenste zone aan de linkerkant die 20% van de horizontale en verticale schermgrootte bedekt.
 * **`Landscape`** - De schermstand.
-* **`HD`** - De hoogte-breedteverhouding is 16:9.
+* **`HD`** - de aspectverhouding als 16 :9.
 * **`3Zone`** - Drie zones van het scherm.
 
 ## Visuele representatie van MultiZone Layout {#multi-layout-visual-one}
 
 Met de `Left20-LandscapeHD3Zone` -lay-out kunt u de volgende lay-out met meerdere zones maken in uw project:
 
-![afbeelding](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
+![ beeld ](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Een `Left20-LandscapeHD3Zone` lay-out maken {#landscape-layout-one}
 
@@ -62,37 +62,37 @@ Voer de onderstaande stappen uit om een `Left20-LandscapeHD3Zone` lay-out voor e
 
 1. Maak een AEM Screens-project met de naam **`customtemplate`** .
 
-   ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template2.png)
+   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Navigeer aan **CRXDE Lite** van uw AEM instantie > Hulpmiddelen > **CRXDE Lite**.
+1. Navigeer aan **CRXDE Lite** van uw instantie van AEM > Hulpmiddelen > **CRXDE Lite**.
 
 1. Creeer een omslag onder **apps** genoemd als **`customtemplate`**. Op dezelfde manier creeer een andere omslag die als **malplaatje** onder **`customtemplate`** wordt genoemd, zoals aangetoond in het hieronder cijfer.
 
-   ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template1.png)
+   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >Klik **sparen allen** van de actiebar in CRXDE Lite telkens als u creeert, geef, of kopieer inhoud aan om het even welke knopen uit. Anders kunt u de updates niet vastleggen.
+   >Klik **sparen allen** van de actiebar in CRXDE Lite telkens als u creeert, geeft, of kopieert inhoud aan om het even welke knopen uit. Anders kunt u de updates niet vastleggen.
 
 1. Kopieer de sjabloon linksboven van `/libs/screens/core/templates/splitscreenchannel/lbar-left` naar `/apps/customtemplate/template` .
 
 1. Verander de gekopieerde **bar-verlaten** (`/apps/customtemplate/template`) aan **my-custom-lay-out**.
-   ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template3.png)
+   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. Navigeer naar `/apps/customtemplate/template/my-custom-layout` en werk de eigenschappen **`jcr:description`** aan *Sjabloon voor`Left20-LandscapeHD3Zone`* en **`jcr:title`** aan *`Left20-LandscapeHD3Zone`* bij.
 
-   ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template4.png)
+   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
 1. Navigeer naar het knooppunt **`offline-config`** van `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` en werk de lus **`jcr:title`** to *`Left20-LandscapeHD3Zone`* bij.
 
-   ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template5.png)
+   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
 1. Navigeer aan het *`jcr:content`* bezit van **my-custom-malplaatje** van `/apps/customtemplate/template/my-custom-layout/jcr:content` en werk het **`cq:cssClass`** bezit bij zodat kunt u **aem-Lay-out my-custom-lay-out** gebruiken.
 
-   ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template6.png)
+   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
 1. Verwijzend naar stap 4 waarin u de bar-linkermalplaatje kopieerde, kunt u drie ontvankelijke netten onder `my-custom-layout/jcr:content` bekijken. Voeg douanecss klasse aan elk van het ontvankelijke net in het *`cq:cssClass`* bezit, bijvoorbeeld, *toe my-custom-layout-top-left* voor *r1c1* knoop.
 
-   ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template7.png)
+   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
    Op dezelfde manier voeg *my-custom-layout-top-right* voor *r1c2* en *toe my-custom-layout-bottom* voor *r2c1* knoop.
 
@@ -142,15 +142,15 @@ Voer de onderstaande stappen uit om de bovenstaande aangepaste sjabloon te gebru
 
 1. Navigeer aan uw project van Screens dat u in stap (1) creeerde en klik de **omslag van Kanalen**.
 
-   ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template8.png)
+   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
 1. Klik **creëren** van de actiebar en klik het malplaatje **`Left20-LandscapeHD3Zone`** van **creëren** tovenaar.
 
-   ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template9.png)
+   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
 1. Nadat u een kanaal met het aangepaste malplaatje hebt gecreeerd, kunt u activa aan uw kanaal van de redacteur toevoegen. In het volgende voorbeeld worden de afbeeldingen in een aangepaste sjabloon weergegeven.
 
-   ![afbeelding](/help/user-guide/assets/custom-multizone/custom-template10.png)
+   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
 ## Een afbeelding invoegen als achtergrondlaag {#inserting-image}
 
