@@ -54,30 +54,30 @@ Voer de onderstaande stappen uit om de middelenplanning uit te voeren:
 
 1. Klik om het even welk kanaal, dan klik **uitgeven** van de actiebar.
 
-   ![ screen_shot_2018-04-23at111422am ](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![&#x200B; screen_shot_2018-04-23at111422am &#x200B;](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
    >Meer informatie over hoe u
    >
-   >* Maak een project. Zie [ Creërend een nieuw Project ](creating-a-screens-project.md).
-   >* Maak inhoud en voeg inhoud toe aan een kanaal. Zie [ het Leiden Kanalen ](managing-channels.md).
+   >* Maak een project. Zie [&#x200B; Creërend een nieuw Project &#x200B;](creating-a-screens-project.md).
+   >* Maak inhoud en voeg inhoud toe aan een kanaal. Zie [&#x200B; het Leiden Kanalen &#x200B;](managing-channels.md).
 
 1. Klik **uitgeven** zodat kunt u de kanaalredacteur openen en activa klikken u het plannen op wilt toepassen.
 
-   ![ beeld ](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Klik de activa, dan klik linksboven **vormen** (het moersleutelpictogram).
 
    Klik de **Activering** tabel.
 
-   ![ beeld ](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. U kunt de datum van de datumkiezer specificeren gebruikend **Actieve van** en **Actieve tot** gebieden.
 
    Als u **Actief van** en **Actief tot** datum en tijd klikt, toont de activa en lijnen slechts tussen die begindatum/tijd en einddatum/tijd, respectievelijk.
 
-   ![ beeld ](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 ## Herhaling in Assets afhandelen {#handling-recurrence-in-assets}
 
@@ -201,21 +201,21 @@ Als u activering op meerdere niveaus voor uw middelen wilt gebruiken, maakt u ee
 * Creeer een project van AEM Screens dat als **wordt genoemd MultiAssetDemo**.
 * Creeer een kanaal genoemd als **MultiAssetChannel** en voeg inhoud aan het kanaal toe, zoals aangetoond in het hieronder cijfer.
 
-![ screen_shot_2018-12-21at70128am ](assets/screen_shot_2018-12-21at70128am.png)
+![&#x200B; screen_shot_2018-12-21at70128am &#x200B;](assets/screen_shot_2018-12-21at70128am.png)
 
 Voer de onderstaande stappen uit om op meerdere elementen te klikken en de weergave ervan in een AEM Screens-project te plannen:
 
 1. Klik **MultiAssetChannel**, dan klik **uitgeven** van de actiebar.
 
-   ![ screen_shot_2018-12-21at70313am ](assets/screen_shot_2018-12-21at70313am.png)
+   ![&#x200B; screen_shot_2018-12-21at70313am &#x200B;](assets/screen_shot_2018-12-21at70313am.png)
 
 1. Klik veelvoudige activa van de redacteur, dan klik **Activatie** (top-left pictogram) uitgeven.
 
-   ![ screen_shot_2018-12-21at70550am ](assets/screen_shot_2018-12-21at70550am.png)
+   ![&#x200B; screen_shot_2018-12-21at70550am &#x200B;](assets/screen_shot_2018-12-21at70550am.png)
 
 1. Klik de datum en de tijd in **Actief van** en **Actief tot** van het **de dialoogvakje van de Activering van de Component**. Klik op het pictogram van het vinkje wanneer u klaar bent met het selecteren van de schema&#39;s.
 
-   ![ screen_shot_2018-12-17at20337pm ](assets/screen_shot_2018-12-17at20337pm.png)
+   ![&#x200B; screen_shot_2018-12-17at20337pm &#x200B;](assets/screen_shot_2018-12-17at20337pm.png)
 
 1. Klik verfrissen om de activa te controleren waarop het multi-activa programma wordt toegepast.
 
@@ -223,7 +223,7 @@ Voer de onderstaande stappen uit om op meerdere elementen te klikken en de weerg
    >
    >Het planningspictogram is in de rechterbovenhoek zichtbaar voor de elementen waarvoor elementen met meerdere elementen zijn geactiveerd.
 
-   ![ screen_shot_2018-12-21at70722am ](assets/screen_shot_2018-12-21at70722am.png)
+   ![&#x200B; screen_shot_2018-12-21at70722am &#x200B;](assets/screen_shot_2018-12-21at70722am.png)
 
 ## Algemene Overschrijving voor universele begintijd {#global-override-scheduling}
 
@@ -237,12 +237,12 @@ Als zodanig kan de Content Author het afspelen van een bepaald element aanwijzen
 
 1. Klik om het even welk kanaal, dan klik **uitgeven** van de actiebar zodat kunt u inhoud in uw kanaal toevoegen of uitgeven.
 
-   ![ screen_shot_2018-04-23at111422am ](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![&#x200B; screen_shot_2018-04-23at111422am &#x200B;](/help/user-guide/assets/asset-activation/asset-level1.png)
 
 1. Klik **uitgeven**.
 1. Klik in de kanaaleditor op een element waarvan u het schema wilt toepassen.
 
-   ![ screen_shot_2018-12-21at70550am ](/help/user-guide/assets/asset-activation/Asset-level4.png)
+   ![&#x200B; screen_shot_2018-12-21at70550am &#x200B;](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. Voor een globale opheffing, ga de activeringstijd in de **sectie van de tijdzoneoverschrijving** voor de activa in. Als u niets in dit gebied invoert, wordt de tijdzone van de speler toegepast.
 

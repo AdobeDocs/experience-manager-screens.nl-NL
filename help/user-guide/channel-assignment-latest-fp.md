@@ -37,24 +37,24 @@ Voer de onderstaande stappen uit om een project en een kanaal in te stellen:
 
 1. Creeer een project van AEM Screens dat als **wordt genoemd DemoScreens**.
 
-   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Leren hoe te om een project van AEM Screens tot stand te brengen, zie [ Creërend en het Leiden Projecten ](creating-a-screens-project.md).
+   >Leren hoe te om een project van AEM Screens tot stand te brengen, zie [&#x200B; Creërend en het Leiden Projecten &#x200B;](creating-a-screens-project.md).
 
 1. Creeer een opeenvolgingskanaal dat als **Cafeteria** in de **omslag van Kanalen** wordt genoemd.
 
 1. Klik het kanaal, dan klik **uitgeven** van de actiebar.
 
-   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   Bijvoorbeeld, toont het **kanaal 0} Cafeteria nu de volgende beelden:**
+   Bijvoorbeeld, toont het **kanaal 0&rbrace; Cafeteria nu de volgende beelden:**
 
-   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
 1. Creeer een Plaats die als **wordt genoemd SanJose** en een vertoning als **Lobby**.
 
-   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
 ### Kanaal toewijzen aan een weergave {#assigning-channel-to-display}
 
@@ -64,32 +64,32 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
 1. Klik **toewijzen Kanaal** van de actiebar.
 
-   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Of,
 
    Klik **Dashboard** van de actiebar en klik **+ wijs Kanaal** van **TOEGEWEZEN KANALEN &amp; SCHEDULES** paneel toe.
 
-   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
 1. Het **de dialoogvakje van de Toewijzing van het Kanaal** opent.
 
-   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
 1. Van de **optie van Montages**, kunt u het kanaal **door weg** of **door naam** kiezen, ga de **Rol van het Kanaal** in, **Prioriteit**, **Ondersteunde Gebeurtenissen**, en **Methoden van de Onderbreking**. Ook kunt u de knopinfo voor aantrekken inschakelen vanuit dit dialoogvenster.
 
-   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >
-   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de ](#channel-properties) sectie van de Eigenschappen van het Kanaal 0}.[
+   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de [&#128279;](#channel-properties) sectie van de Eigenschappen van het Kanaal 0&rbrace;.
 
 1. Van de **optie van het Programma**, klik het **Venster van de Activering** en **Programma van de Herhaling**.
-   ![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de ](#channel-properties) sectie van de Eigenschappen van het Kanaal 0}.[
+   >Meer over de eigenschappen van de Toewijzing van het Kanaal leren, zie de [&#128279;](#channel-properties) sectie van de Eigenschappen van het Kanaal 0&rbrace;.
 
 1. Klik **sparen** zodra u uw voorkeur hebt gevormd.
 
@@ -97,11 +97,11 @@ Wanneer de projectopstelling volledig is, wijs het kanaal aan een vertoning toe 
 
 In dit voorbeeld wordt de uitvoer op een Chrome Player weergegeven. Wanneer u het kanaal aan uw vertoning hebt toegewezen, registreer het apparaat aan een speler.
 
-Leren hoe te om een apparaat op een Speler van AEM Screens te registreren, zie [ Registratie van het Apparaat ](device-registration.md).
+Leren hoe te om een apparaat op een Speler van AEM Screens te registreren, zie [&#x200B; Registratie van het Apparaat &#x200B;](device-registration.md).
 
 U kunt de volgende uitvoer naar keuze van de speler weergeven:
 
-![ new1 ](assets/channel-assignment/channel-assign-output.gif)
+![&#x200B; new1 &#x200B;](assets/channel-assignment/channel-assign-output.gif)
 
 ## Tijdlijnweergave {#timeline-view}
 
@@ -117,13 +117,13 @@ Ga als volgt te werk om naar de tijdlijnweergave te navigeren:
 
    Klik **Dashboard** en klik **Chronologie** van **TOEGEWEZEN KANALEN &amp; SCHEDULES** paneel.
 
-   ![ beeld ](/help/user-guide/assets/channel-assignment/timeline-1.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Kanaaleigenschappen van dialoogvenster Kanaaltoewijzing {#channel-properties}
 
 De volgende eigenschappen worden geplaatst van de **optie van Montages** in het **de dialoogvakje van de Toewijzing van het Kanaal**.
 
-![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
 ### Een kanaal selecteren {#select-channel}
 
@@ -142,7 +142,7 @@ Prioriteit wordt gebruikt om de toewijzingen te bestellen als meerdere toewijzin
 
 >[!NOTE]
 >
->De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1}, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
+>De prioriteit voor een kanaal wordt geplaatst als aantal (1 voor minimum) in het **de dialoogvakje van de Toewijzing van het Kanaal 1&rbrace;, zoals hierboven vermeld.** Ook, worden de toegewezen kanalen gesorteerd gebaseerd op dalende prioriteit.
 
 ### Ondersteunde gebeurtenissen {#supported-events-channel}
 
@@ -173,7 +173,7 @@ Selecteer van één van de volgende opties die beschikbaar zijn om de onderbreki
 
 De volgende eigenschappen worden geplaatst van de **optie van het Programma** in het **de dialoogvakje van de Toewijzing van het Kanaal**.
 
-![ beeld ](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+![&#x200B; beeld &#x200B;](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### Activeringsvenster {#activation-window}
 

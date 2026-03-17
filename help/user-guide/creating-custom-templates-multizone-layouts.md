@@ -54,7 +54,7 @@ Volg de onderstaande sectie om een aangepaste sjabloon *`Left20-LandscapeHD3Zone
 
 Met de `Left20-LandscapeHD3Zone` -lay-out kunt u de volgende lay-out met meerdere zones maken in uw project:
 
-![ beeld ](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
+![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Een `Left20-LandscapeHD3Zone` lay-out maken {#landscape-layout-one}
 
@@ -62,13 +62,13 @@ Voer de onderstaande stappen uit om een `Left20-LandscapeHD3Zone` lay-out voor e
 
 1. Maak een AEM Screens-project met de naam **`customtemplate`** .
 
-   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template2.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
 1. Navigeer aan **CRXDE Lite** van uw instantie van AEM > Hulpmiddelen > **CRXDE Lite**.
 
 1. Creeer een omslag onder **apps** genoemd als **`customtemplate`**. Op dezelfde manier creeer een andere omslag die als **malplaatje** onder **`customtemplate`** wordt genoemd, zoals aangetoond in het hieronder cijfer.
 
-   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template1.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
    >Klik **sparen allen** van de actiebar in CRXDE Lite telkens als u creeert, geeft, of kopieert inhoud aan om het even welke knopen uit. Anders kunt u de updates niet vastleggen.
@@ -76,23 +76,23 @@ Voer de onderstaande stappen uit om een `Left20-LandscapeHD3Zone` lay-out voor e
 1. Kopieer de sjabloon linksboven van `/libs/screens/core/templates/splitscreenchannel/lbar-left` naar `/apps/customtemplate/template` .
 
 1. Verander de gekopieerde **bar-verlaten** (`/apps/customtemplate/template`) aan **my-custom-lay-out**.
-   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template3.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
 1. Navigeer naar `/apps/customtemplate/template/my-custom-layout` en werk de eigenschappen **`jcr:description`** aan *Sjabloon voor`Left20-LandscapeHD3Zone`* en **`jcr:title`** aan *`Left20-LandscapeHD3Zone`* bij.
 
-   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template4.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
 1. Navigeer naar het knooppunt **`offline-config`** van `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` en werk de lus **`jcr:title`** to *`Left20-LandscapeHD3Zone`* bij.
 
-   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template5.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
 1. Navigeer aan het *`jcr:content`* bezit van **my-custom-malplaatje** van `/apps/customtemplate/template/my-custom-layout/jcr:content` en werk het **`cq:cssClass`** bezit bij zodat kunt u **aem-Lay-out my-custom-lay-out** gebruiken.
 
-   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template6.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
 1. Verwijzend naar stap 4 waarin u de bar-linkermalplaatje kopieerde, kunt u drie ontvankelijke netten onder `my-custom-layout/jcr:content` bekijken. Voeg douanecss klasse aan elk van het ontvankelijke net in het *`cq:cssClass`* bezit, bijvoorbeeld, *toe my-custom-layout-top-left* voor *r1c1* knoop.
 
-   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template7.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
    Op dezelfde manier voeg *my-custom-layout-top-right* voor *r1c2* en *toe my-custom-layout-bottom* voor *r2c1* knoop.
 
@@ -142,15 +142,15 @@ Voer de onderstaande stappen uit om de bovenstaande aangepaste sjabloon te gebru
 
 1. Navigeer aan uw project van Screens dat u in stap (1) creeerde en klik de **omslag van Kanalen**.
 
-   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template8.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
 1. Klik **creëren** van de actiebar en klik het malplaatje **`Left20-LandscapeHD3Zone`** van **creëren** tovenaar.
 
-   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template9.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
 1. Nadat u een kanaal met het aangepaste malplaatje hebt gecreeerd, kunt u activa aan uw kanaal van de redacteur toevoegen. In het volgende voorbeeld worden de afbeeldingen in een aangepaste sjabloon weergegeven.
 
-   ![ beeld ](/help/user-guide/assets/custom-multizone/custom-template10.png)
+   ![&#x200B; beeld &#x200B;](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
 ## Een afbeelding invoegen als achtergrondlaag {#inserting-image}
 
